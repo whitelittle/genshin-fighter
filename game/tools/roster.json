@@ -1,0 +1,22 @@
+{
+  "_doc": "Playable roster of the v2 game. key = file prefix in assets/roster-v2. element: anemo geo electro dendro hydro pyro cryo. weapon: sword claymore polearm catalyst bow. Skill names (E/Q) come from <key>-talents.json at build time. Order = select-screen order.",
+  "source": "assets/roster-v2",
+  "chars": [
+    {"key": "raidenshogun",  "element": "electro", "weapon": "polearm"},
+    {"key": "furina",        "element": "hydro",   "weapon": "sword"},
+    {"key": "zhongli",       "element": "geo",     "weapon": "polearm"},
+    {"key": "mavuika",       "element": "pyro",    "weapon": "claymore"},
+    {"key": "nahida",        "element": "dendro",  "weapon": "catalyst"},
+    {"key": "venti",         "element": "anemo",   "weapon": "bow"},
+    {"key": "kamisatoayaka", "element": "cryo",    "weapon": "sword"},
+    {"key": "tartaglia",     "element": "hydro",   "weapon": "bow"},
+    {"key": "aratakiitto",   "element": "geo",     "weapon": "claymore"},
+    {"key": "yaemiko",       "element": "electro", "weapon": "catalyst"},
+    {"key": "arlecchino",    "element": "pyro",    "weapon": "polearm"},
+    {"key": "wanderer",      "element": "anemo",   "weapon": "catalyst"},
+    {"key": "neuvillette",   "element": "hydro",   "weapon": "catalyst"},
+    {"key": "clorinde",      "element": "electro", "weapon": "sword"},
+    {"key": "navia",         "element": "geo",     "weapon": "claymore"},
+    {"key": "skirk",         "element": "cryo",    "weapon": "sword"}
+  ]
+}

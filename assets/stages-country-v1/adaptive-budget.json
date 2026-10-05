@@ -1,0 +1,244 @@
+{
+  "method": "error-priority multi-resolution rectangles; lossy design candidate, original masters preserved",
+  "budgetPerCurrentStage": 6000,
+  "report": [
+    {
+      "key": "mondstadt",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 1395,
+          "rawBytes": 6975,
+          "compressedBytes": 3511
+        },
+        {
+          "rectangles": 1260,
+          "rawBytes": 6300,
+          "compressedBytes": 3510
+        },
+        {
+          "rectangles": 1778,
+          "rawBytes": 8890,
+          "compressedBytes": 4672
+        },
+        {
+          "rectangles": 1567,
+          "rawBytes": 7835,
+          "compressedBytes": 4275
+        }
+      ]
+    },
+    {
+      "key": "liyue",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 997,
+          "rawBytes": 4985,
+          "compressedBytes": 2790
+        },
+        {
+          "rectangles": 1486,
+          "rawBytes": 7430,
+          "compressedBytes": 4101
+        },
+        {
+          "rectangles": 1811,
+          "rawBytes": 9055,
+          "compressedBytes": 4663
+        },
+        {
+          "rectangles": 1706,
+          "rawBytes": 8530,
+          "compressedBytes": 4342
+        }
+      ]
+    },
+    {
+      "key": "inazuma",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 1256,
+          "rawBytes": 6280,
+          "compressedBytes": 3527
+        },
+        {
+          "rectangles": 1342,
+          "rawBytes": 6710,
+          "compressedBytes": 3666
+        },
+        {
+          "rectangles": 1677,
+          "rawBytes": 8385,
+          "compressedBytes": 4204
+        },
+        {
+          "rectangles": 1725,
+          "rawBytes": 8625,
+          "compressedBytes": 4390
+        }
+      ]
+    },
+    {
+      "key": "sumeru",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 1272,
+          "rawBytes": 6360,
+          "compressedBytes": 3704
+        },
+        {
+          "rectangles": 1037,
+          "rawBytes": 5185,
+          "compressedBytes": 3123
+        },
+        {
+          "rectangles": 2091,
+          "rawBytes": 10455,
+          "compressedBytes": 5315
+        },
+        {
+          "rectangles": 1600,
+          "rawBytes": 8000,
+          "compressedBytes": 4218
+        }
+      ]
+    },
+    {
+      "key": "fontaine",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 1599,
+          "rawBytes": 7995,
+          "compressedBytes": 4279
+        },
+        {
+          "rectangles": 1305,
+          "rawBytes": 6525,
+          "compressedBytes": 3605
+        },
+        {
+          "rectangles": 1582,
+          "rawBytes": 7910,
+          "compressedBytes": 4303
+        },
+        {
+          "rectangles": 1514,
+          "rawBytes": 7570,
+          "compressedBytes": 4061
+        }
+      ]
+    },
+    {
+      "key": "natlan",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 1695,
+          "rawBytes": 8475,
+          "compressedBytes": 4665
+        },
+        {
+          "rectangles": 1410,
+          "rawBytes": 7050,
+          "compressedBytes": 3957
+        },
+        {
+          "rectangles": 1607,
+          "rawBytes": 8035,
+          "compressedBytes": 4200
+        },
+        {
+          "rectangles": 1288,
+          "rawBytes": 6440,
+          "compressedBytes": 3620
+        }
+      ]
+    },
+    {
+      "key": "snezhnaya",
+      "master": [
+        1672,
+        941
+      ],
+      "workingGrid": [
+        480,
+        270
+      ],
+      "rectangles": 6000,
+      "tiles": [
+        {
+          "rectangles": 1239,
+          "rawBytes": 6195,
+          "compressedBytes": 3463
+        },
+        {
+          "rectangles": 1404,
+          "rawBytes": 7020,
+          "compressedBytes": 3846
+        },
+        {
+          "rectangles": 1819,
+          "rawBytes": 9095,
+          "compressedBytes": 4579
+        },
+        {
+          "rectangles": 1538,
+          "rawBytes": 7690,
+          "compressedBytes": 3966
+        }
+      ]
+    }
+  ]
+}

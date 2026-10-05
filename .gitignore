@@ -1,0 +1,31 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+**/Beyond_Local_Export/
+
+# Dependency and probe runtimes
+node_modules/
+work/video-deps/
+
+# Historical build dumps (multi-GB). Keep the current 1.1 package only.
+outputs/*
+!outputs/release-1.1-20261005_112301/
+outputs/release-1.1-20261005_112301/simulator.save.json
+outputs/release-1.1-20261005_112301/fighter.save.json
+outputs/prefix-rename-backup/
+
+# Reference videos and local captures
+*.mp4
+*.mov
+assets/action-probe/references/
+assets/action-probe/fighting-references/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

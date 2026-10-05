@@ -1,0 +1,16 @@
+import {readFileSync,writeFileSync,copyFileSync,existsSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import {createStudio} from 'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/index.js';
+import {importGia,validateServerGiaCompatibility} from 'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/gia/codec.js';
+const stamp=process.argv[2];assert.match(stamp,/^\d{8}_\d{6}$/);
+const name=`gpt_${stamp}_原神格斗_双人黑屏加载`,filename=name+'.gia';
+const save=JSON.parse(readFileSync('outputs/duel-loading/fighter.save.json'));
+save.meta.name=name;save.assets.server.root.name=name;save.assets.server.meta.name=name;save.assets.server.meta.giaFileName=filename;
+const ex=createStudio(save).exportData('gia-combined'),buffer=Buffer.from(ex.data,ex.encoding);
+assert.ok(validateServerGiaCompatibility(buffer).valid);
+const imported=importGia(buffer,filename);assert.ok(JSON.stringify(imported).includes(name),'internal name missing');
+const local='outputs/duel-loading/'+filename,target='C:/Users/Cheng/AppData/LocalLow/miHoYo/原神/BeyondLocal/Beyond_Local_Export/'+filename;
+assert.ok(!existsSync(target),'Do not overwrite existing deliveries');
+writeFileSync(local,buffer);copyFileSync(local,target);assert.deepEqual(readFileSync(target),buffer);
+writeFileSync('outputs/duel-loading/latest-delivery.json',JSON.stringify({filename,internalName:name,target,bytes:buffer.length},null,2));
+console.log(JSON.stringify({filename,internalName:name,target,bytes:buffer.length}));

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "status": "candidate-unmeasured",
+  "sourcePolicy": "Always derive from approved high-quality source frames, never from another downgraded output.",
+  "simulationHz": 60,
+  "worldDisplayHeight": {"keqing": 224, "diluc": 240},
+  "profiles": [
+    {"id":"fine","label":"精细","standingPixelHeight":{"keqing":160,"diluc":171},"opaqueColorsPerFighter":48,"visualHz":30,"effectTier":3},
+    {"id":"standard","label":"标准","standingPixelHeight":{"keqing":128,"diluc":137},"opaqueColorsPerFighter":32,"visualHz":30,"effectTier":2},
+    {"id":"light","label":"轻量","standingPixelHeight":{"keqing":96,"diluc":103},"opaqueColorsPerFighter":24,"visualHz":20,"effectTier":1},
+    {"id":"compatible","label":"兼容","standingPixelHeight":{"keqing":80,"diluc":86},"opaqueColorsPerFighter":20,"visualHz":15,"effectTier":1},
+    {"id":"minimum","label":"最低","standingPixelHeight":{"keqing":64,"diluc":68},"opaqueColorsPerFighter":16,"visualHz":15,"effectTier":0}
+  ],
+  "preserveAcrossProfiles": ["worldScale","anchor","facing","moveTimings","hitboxes","hurtboxes","inputWindows","damage","meter","comboRules","networkState"],
+  "doNotTreatAsGuaranteed": ["fps","deviceCompatibility","monotonicRectangleCounts","customTextureSupport"]
+}

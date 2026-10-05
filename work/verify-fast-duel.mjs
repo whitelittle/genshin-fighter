@@ -1,0 +1,10 @@
+import{readFileSync,writeFileSync}from'node:fs';import assert from'node:assert/strict';
+import{createStudio}from'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/index.js';
+import{renderPaintPng}from'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/host-png.js';
+const out='outputs/duel-fast-no-select',save=JSON.parse(readFileSync(out+'/fighter.save.json'));
+save.assets.scripts[0].source=save.assets.scripts[0].source.replace('local PIXEL_TEMPLATE_INDEX=1073741845','local PIXEL_TEMPLATE_INDEX=0');
+const s=createStudio(save);s.playStart({playerCount:2});for(let n=0;n<420;n++)s.playStep(1/60,{observe:false});
+let r=s.playGet({view:true,paint:true});assert.equal(r.logs.filter(l=>['error','lua-error'].includes(l.level)).length,0,JSON.stringify(r.logs.slice(-6)));
+assert.ok(r.scene.nodes.some(n=>n.name==='Timer'));assert.ok(!r.scene.nodes.some(n=>n.name==='ReadyConfirm'));assert.ok(!r.scene.nodes.some(n=>n.name==='Light'));
+writeFileSync(out+'/pc-battle.png',renderPaintPng(r.paint,r.canvasWidth,r.canvasHeight).data);
+console.log(r.logs.slice(-4));writeFileSync(out+'/verification.json',JSON.stringify({noSelection:true,bootCompleted:true,pcTouchHidden:true,simulatorOnly:true},null,2));

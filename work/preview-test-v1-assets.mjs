@@ -1,0 +1,4 @@
+import{readFileSync,writeFileSync}from'node:fs';import{createRequire}from'node:module';
+const require=createRequire('C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/package.json');const{createCanvas}=require('@napi-rs/canvas');
+const roles=JSON.parse(readFileSync('outputs/test-v1/roster.json')).slice(2),c=createCanvas(900,600),ctx=c.getContext('2d');ctx.fillStyle='#213249';ctx.fillRect(0,0,900,600);
+roles.forEach(([key,name],i)=>{const f=JSON.parse(readFileSync(`assets/test-v1/${key}-portrait.json`)),ox=i%3*300+95,oy=Math.floor(i/3)*200+30;for(const[x,y,w,h,r,g,b,a]of f.rows){ctx.fillStyle=`rgba(${r},${g},${b},${a/255})`;ctx.fillRect(ox+x*5,oy+y*5,w*5,h*5);}ctx.fillStyle='white';ctx.font='22px sans-serif';ctx.fillText(name,ox,oy+142);});writeFileSync('outputs/test-v1/portrait-gallery.png',c.toBuffer('image/png'));

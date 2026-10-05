@@ -1,0 +1,11 @@
+import{readFileSync,writeFileSync,mkdirSync}from'node:fs';
+import{createHash}from'node:crypto';
+const input=process.argv[2],buf=readFileSync(input);let payload=buf;
+if(buf.length>=24&&buf.readUInt32BE(16)<=buf.length-24)payload=buf.subarray(20,20+buf.readUInt32BE(16));
+function parse(b,depth=0){let i=0,fields=[];const varint=()=>{let v=0n,shift=0n;for(let n=0;n<10;n++){if(i>=b.length)throw Error('eof');const x=b[i++];v|=BigInt(x&127)<<shift;if(!(x&128))return v;shift+=7n;}throw Error('varint');};
+ while(i<b.length){const tag=Number(varint()),field=tag>>>3,wire=tag&7;if(!field)throw Error('field');let value;if(wire===0){const v=varint();value=v<=BigInt(Number.MAX_SAFE_INTEGER)?Number(v):v.toString();}else if(wire===2){const len=Number(varint());if(i+len>b.length)throw Error('len');const part=b.subarray(i,i+len);i+=len;const s=part.toString('utf8');if(s.length&&Buffer.from(s).equals(part)&&!/[\x00-\x08\x0b\x0c\x0e-\x1f\ufffd]/.test(s))value={text:s};else{try{value=depth<18?{message:parse(part,depth+1)}:{hex:part.toString('hex')};}catch{value={hex:part.toString('hex')};}}}else if(wire===5){if(i+4>b.length)throw Error('fixed');value={uint:b.readUInt32LE(i),float:b.readFloatLE(i)};i+=4;}else if(wire===1){if(i+8>b.length)throw Error('fixed');value={hex:b.subarray(i,i+8).toString('hex')};i+=8;}else throw Error('wire');fields.push({field,wire,value});}return fields;}
+const tree=parse(payload),strings=[];
+// The root export path embeds an account identifier; exclude it from reports.
+for(const f of tree)if(f.field===3)f.value={text:'[已匿名化的导出文件标识]'};
+function visit(fields,path=''){for(const f of fields){const p=path+'/'+f.field;if(f.value?.text)strings.push({path:p,text:f.value.text});if(f.value?.message)visit(f.value.message,p);}}visit(tree);
+const out=process.argv[3]||'outputs/network-node-inspection';mkdirSync(out,{recursive:true});writeFileSync(out+'/wire-tree.json',JSON.stringify(tree,null,2));writeFileSync(out+'/strings.json',JSON.stringify(strings,null,2));writeFileSync(out+'/source-identity.json',JSON.stringify({filename:input.split(/[\\/]/).pop(),bytes:buf.length,sha256:createHash('sha256').update(buf).digest('hex'),readOnlySource:true},null,2));console.log(JSON.stringify({header:buf.subarray(0,20).toString('hex'),fields:tree.map(f=>({field:f.field,wire:f.wire})),strings},null,2));

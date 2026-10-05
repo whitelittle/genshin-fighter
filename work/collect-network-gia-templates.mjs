@@ -1,0 +1,16 @@
+import{readFileSync,writeFileSync}from'node:fs';
+import{decode,msg,num,str,all,get,encode}from'./node-gia-wire.mjs';
+const source=process.argv[2]||'C:/Users/Cheng/Desktop/联机节点图2.gia';
+const b=readFileSync(source),payload=b.subarray(20,20+b.readUInt32BE(16)),root=decode(payload);
+if(!encode(root).equals(payload))throw Error('Wire roundtrip mismatch');
+const main=msg(msg(msg(msg(root,1),13),1),1),nodes=all(main,3).map(x=>decode(x.v)),definitions=all(root,2).map(x=>decode(x.v));
+const collected=[];
+for(const a of definitions){const d=msg(msg(msg(a,14),1),1),signalData=msg(d,107);let signal='';for(const k of[101,102,108])signal ||=str(msg(signalData,k),1);const kind=str(a,3);const portKind=kind==='监听信号'?103:102;const ports=all(d,portKind).map(x=>{const p=decode(x.v),address=msg(p,3);return{name:str(p,1),kind:num(address,1),index:num(address,2),type:num(msg(p,4),4),pinId:num(p,8)};});collected.push({definitionId:num(msg(a,1),4),kind,signal,ports});}
+const needed=['FighterHello','FighterSeat','FighterTeam','FighterTeamOut','FighterJoin','FighterJoined','FighterFrames','FighterFramesOut','FighterFlow','FighterFlowOut'];
+const defined=[...new Set(collected.map(x=>x.signal))].filter(Boolean),missing=needed.filter(n=>!defined.includes(n));
+const vars=new Set(),graphNodes=nodes.map(n=>{for(const pin of all(n,4)){const val=msg(decode(pin.v),3);const name=str(msg(val,105),1);if(['P1','P2','Started','Epoch'].includes(name))vars.add(name);}return{id:num(n,1),baseType:num(msg(n,2),5),specializedType:num(msg(n,3),5)};});
+const report={sourceName:source.split(/[\\/]/).pop(),losslessWireRoundtrip:true,nodeCount:nodes.length,sourceModified:false,sourceIdentityValidation:false,definedSignals:defined,missingSignals:missing,variableNamesSeen:[...vars],definitions:collected,nodes:graphNodes};
+writeFileSync('outputs/network-node-sample2/template-catalog.json',JSON.stringify(report,null,2));
+const manifest={schemaSource:report.sourceName,exportGate:{ready:missing.length===0,missing},targetLogic:[{signal:'FighterHello',retain:'list index 0/1; entity P1/P2; Seat 1/2',reset:'none on repeated Hello'},{signal:'FighterTeam',parameters:11,checks:['Slot 1/2','Role 0..19','Ready 0..3','Ready 1/2 requires three distinct nonzero roles','Stage 1..210','Round 1..3','drop old Epoch','new Epoch clears both Ready/Revision','drop old per-slot Revision; equality may rebroadcast'],writes:['P1Role1..3/P1Ready/P1Revision or P2 counterpart','P1 Stage/Round/Wins1/Wins2'],send:'both P1 and P2'},{signal:'FighterJoin',parameters:1,checks:['Epoch matches','both Ready=2','both players present'],send:'both Joined(Epoch); repeat allowed'},{signal:'FighterFrames',parameters:5,checks:['Slot 1/2','Epoch matches','current round ready'],send:'Slot1 to P2; Slot2 to P1; Payload unchanged'},{signal:'FighterFlow',parameters:4,checks:['Slot 1/2','Action 1/2/3','Action1 current Epoch; exits allow adjacent Epoch per client'],send:'both FlowOut; client handles votes and transitions'}],status:'Generation specification; not an exported playable graph'};
+writeFileSync('outputs/network-node-sample2/generation-plan.json',JSON.stringify(manifest,null,2));
+console.log(JSON.stringify({nodes:nodes.length,definedSignals:defined,missingSignals:missing,losslessWireRoundtrip:true,sourceModified:false}));

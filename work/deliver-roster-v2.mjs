@@ -1,0 +1,17 @@
+import{readFileSync,writeFileSync,copyFileSync,existsSync}from'node:fs';import{resolve,dirname}from'node:path';import{createHash}from'node:crypto';import assert from'node:assert/strict';
+import{exportGia,importGia,validateServerGiaCompatibility}from'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/gia/codec.js';
+const out='outputs/roster-v2',exportDir=resolve('C:/Users/Cheng/AppData/LocalLow/miHoYo/原神/BeyondLocal/Beyond_Local_Export'),save=JSON.parse(readFileSync(out+'/fighter.save.json'));
+assert.equal(JSON.parse(readFileSync(out+'/roster.json')).length,45);assert.ok(JSON.parse(readFileSync(out+'/verification.json')).threeRounds);
+const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).formatToParts(new Date()),p=Object.fromEntries(parts.map(x=>[x.type,x.value])),stamp=p.year+p.month+p.day+'_'+p.hour+p.minute+p.second;
+const aName=`gpt_${stamp}_A_三人阵容45角色_圆润UI`,bName=`gpt_${stamp}_B_通用图元模板`,scriptPath='lua/fighter_roster_v2.lua';
+save.assets.server.root.name=aName;Object.assign(save.assets.server.meta,{name:aName,giaFileName:aName+'.gia'});Object.assign(save.assets.scripts[0],{path:scriptPath,filename:'fighter_roster_v2.lua'});
+const a=exportGia(save.assets.server,{scripts:save.assets.scripts});assert.ok(validateServerGiaCompatibility(a.buffer).valid);
+const imported=importGia(a.buffer,aName+'.gia');assert.ok(imported.scripts.some(s=>s.path===scriptPath&&s.source===save.assets.scripts[0].source),'script roundtrip');
+const find=(n,name)=>n.name===name?n:(n.children||[]).map(c=>find(c,name)).find(Boolean),seed=find(save.assets.client.root,'LoadingPixelTemplate'),client=structuredClone(save.assets.client);
+const pixelTemplate=structuredClone(seed);pixelTemplate.name=bName;pixelTemplate.guid=1073741845;pixelTemplate.id='roster_v2_pixel_template';client.root.children=[pixelTemplate];Object.assign(client.meta,{name:bName,giaFileName:bName+'.gia',giaFileId:1073741845});
+const b=exportGia(client,{scripts:[]}),ib=importGia(b.buffer,bName+'.gia');assert.ok(ib,'client template import');
+const files=[[aName+'.gia',a.buffer],[bName+'.gia',b.buffer],[`gpt_${stamp}_fighter_roster_v2.lua`,save.assets.scripts[0].source]];
+for(const[label,path]of[['GIA安装说明','GIA安装说明.md'],['节点安装说明','节点安装说明.md'],['角色列表与改编','角色列表与改编.md']])files.push([`gpt_${stamp}_${label}.md`,readFileSync(out+'/'+path)]);
+const list=[];for(const[name,data]of files){const destination=resolve(exportDir,name);assert.equal(dirname(destination),exportDir);assert.ok(!existsSync(destination),'Never overwrite an existing export');writeFileSync(out+'/'+name,data);writeFileSync(destination,data);list.push({name,path:destination,bytes:Buffer.byteLength(data),sha256:createHash('sha256').update(data).digest('hex')});}
+const delivery={stamp,name:aName,bName,path:scriptPath,files:list,roster:45,serverGiaValid:true,luaRoundTripExact:true,pixelTemplateIndex:1073741845,oldFilesPreserved:true,officialNodesIncluded:false,deviceVerified:false,storage:JSON.parse(readFileSync(out+'/storage-report.json')),verification:JSON.parse(readFileSync(out+'/verification.json'))};
+writeFileSync(out+'/delivery.json',JSON.stringify(delivery,null,2));writeFileSync(resolve(exportDir,`gpt_${stamp}_交付清单.json`),JSON.stringify(delivery,null,2));console.log(JSON.stringify({stamp,files:list.map(({name,bytes})=>({name,bytes})),oldFilesPreserved:true,deviceVerified:false},null,2));

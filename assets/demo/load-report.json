@@ -1,0 +1,1012 @@
+[
+  {
+    "role": "keqing",
+    "profile": "fine",
+    "source": "assets/fighters/keqing/source/keqing-half-side-v1.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "crop": [
+      5,
+      6,
+      1017,
+      1495
+    ],
+    "threshold": 220,
+    "grid": [
+      109,
+      160
+    ],
+    "colorsBefore": 4184,
+    "colors": 48,
+    "rectangles": 2219,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 224
+  },
+  {
+    "role": "keqing",
+    "profile": "standard",
+    "source": "assets/fighters/keqing/source/keqing-half-side-v1.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "crop": [
+      5,
+      6,
+      1017,
+      1495
+    ],
+    "threshold": 220,
+    "grid": [
+      87,
+      128
+    ],
+    "colorsBefore": 2730,
+    "colors": 32,
+    "rectangles": 1470,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 224
+  },
+  {
+    "role": "keqing",
+    "profile": "light",
+    "source": "assets/fighters/keqing/source/keqing-half-side-v1.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "crop": [
+      5,
+      6,
+      1017,
+      1495
+    ],
+    "threshold": 220,
+    "grid": [
+      65,
+      96
+    ],
+    "colorsBefore": 1548,
+    "colors": 24,
+    "rectangles": 793,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 224
+  },
+  {
+    "role": "keqing",
+    "profile": "compatible",
+    "source": "assets/fighters/keqing/source/keqing-half-side-v1.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "crop": [
+      5,
+      6,
+      1017,
+      1495
+    ],
+    "threshold": 220,
+    "grid": [
+      54,
+      80
+    ],
+    "colorsBefore": 1072,
+    "colors": 20,
+    "rectangles": 591,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 224
+  },
+  {
+    "role": "keqing",
+    "profile": "minimum",
+    "source": "assets/fighters/keqing/source/keqing-half-side-v1.png",
+    "sourceSize": [
+      1024,
+      1536
+    ],
+    "crop": [
+      5,
+      6,
+      1017,
+      1495
+    ],
+    "threshold": 220,
+    "grid": [
+      44,
+      64
+    ],
+    "colorsBefore": 681,
+    "colors": 16,
+    "rectangles": 386,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 224
+  },
+  {
+    "role": "diluc",
+    "profile": "fine",
+    "source": "assets/fighters/diluc/source/diluc-wolfs-gravestone-v6-candidate.png",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "crop": [
+      22,
+      41,
+      1480,
+      959
+    ],
+    "threshold": 220,
+    "grid": [
+      264,
+      171
+    ],
+    "colorsBefore": 7456,
+    "colors": 48,
+    "rectangles": 5728,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 240
+  },
+  {
+    "role": "diluc",
+    "profile": "standard",
+    "source": "assets/fighters/diluc/source/diluc-wolfs-gravestone-v6-candidate.png",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "crop": [
+      22,
+      41,
+      1480,
+      959
+    ],
+    "threshold": 220,
+    "grid": [
+      211,
+      137
+    ],
+    "colorsBefore": 5114,
+    "colors": 32,
+    "rectangles": 3570,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 240
+  },
+  {
+    "role": "diluc",
+    "profile": "light",
+    "source": "assets/fighters/diluc/source/diluc-wolfs-gravestone-v6-candidate.png",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "crop": [
+      22,
+      41,
+      1480,
+      959
+    ],
+    "threshold": 220,
+    "grid": [
+      159,
+      103
+    ],
+    "colorsBefore": 3141,
+    "colors": 24,
+    "rectangles": 1855,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 240
+  },
+  {
+    "role": "diluc",
+    "profile": "compatible",
+    "source": "assets/fighters/diluc/source/diluc-wolfs-gravestone-v6-candidate.png",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "crop": [
+      22,
+      41,
+      1480,
+      959
+    ],
+    "threshold": 220,
+    "grid": [
+      133,
+      86
+    ],
+    "colorsBefore": 2298,
+    "colors": 20,
+    "rectangles": 1313,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 240
+  },
+  {
+    "role": "diluc",
+    "profile": "minimum",
+    "source": "assets/fighters/diluc/source/diluc-wolfs-gravestone-v6-candidate.png",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "crop": [
+      22,
+      41,
+      1480,
+      959
+    ],
+    "threshold": 220,
+    "grid": [
+      105,
+      68
+    ],
+    "colorsBefore": 1484,
+    "colors": 16,
+    "rectangles": 858,
+    "exact": true,
+    "overdraw": 1,
+    "worldHeight": 240
+  },
+  {
+    "role": "keqing",
+    "pose": "windup",
+    "profile": "fine",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      530,
+      0,
+      494,
+      740
+    ],
+    "anchorSource": [
+      790,
+      720
+    ],
+    "bodyHeightSource": 620,
+    "grid": [
+      127,
+      191
+    ],
+    "colors": 40,
+    "rectangles": 3238,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "slash",
+    "profile": "fine",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      0,
+      800,
+      560,
+      700
+    ],
+    "anchorSource": [
+      270,
+      1465
+    ],
+    "bodyHeightSource": 607,
+    "grid": [
+      148,
+      185
+    ],
+    "colors": 48,
+    "rectangles": 3515,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "rising",
+    "profile": "fine",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      550,
+      750,
+      474,
+      786
+    ],
+    "anchorSource": [
+      785,
+      1510
+    ],
+    "bodyHeightSource": 547,
+    "grid": [
+      139,
+      230
+    ],
+    "colors": 48,
+    "rectangles": 3637,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "windup",
+    "profile": "standard",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      530,
+      0,
+      494,
+      740
+    ],
+    "anchorSource": [
+      790,
+      720
+    ],
+    "bodyHeightSource": 620,
+    "grid": [
+      102,
+      153
+    ],
+    "colors": 32,
+    "rectangles": 2010,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "slash",
+    "profile": "standard",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      0,
+      800,
+      560,
+      700
+    ],
+    "anchorSource": [
+      270,
+      1465
+    ],
+    "bodyHeightSource": 607,
+    "grid": [
+      118,
+      148
+    ],
+    "colors": 30,
+    "rectangles": 2175,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "rising",
+    "profile": "standard",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      550,
+      750,
+      474,
+      786
+    ],
+    "anchorSource": [
+      785,
+      1510
+    ],
+    "bodyHeightSource": 547,
+    "grid": [
+      111,
+      184
+    ],
+    "colors": 29,
+    "rectangles": 2233,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "windup",
+    "profile": "light",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      530,
+      0,
+      494,
+      740
+    ],
+    "anchorSource": [
+      790,
+      720
+    ],
+    "bodyHeightSource": 620,
+    "grid": [
+      76,
+      115
+    ],
+    "colors": 24,
+    "rectangles": 1142,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "slash",
+    "profile": "light",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      0,
+      800,
+      560,
+      700
+    ],
+    "anchorSource": [
+      270,
+      1465
+    ],
+    "bodyHeightSource": 607,
+    "grid": [
+      89,
+      111
+    ],
+    "colors": 24,
+    "rectangles": 1283,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "rising",
+    "profile": "light",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      550,
+      750,
+      474,
+      786
+    ],
+    "anchorSource": [
+      785,
+      1510
+    ],
+    "bodyHeightSource": 547,
+    "grid": [
+      83,
+      138
+    ],
+    "colors": 24,
+    "rectangles": 1369,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "windup",
+    "profile": "compatible",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      530,
+      0,
+      494,
+      740
+    ],
+    "anchorSource": [
+      790,
+      720
+    ],
+    "bodyHeightSource": 620,
+    "grid": [
+      64,
+      95
+    ],
+    "colors": 20,
+    "rectangles": 780,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "slash",
+    "profile": "compatible",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      0,
+      800,
+      560,
+      700
+    ],
+    "anchorSource": [
+      270,
+      1465
+    ],
+    "bodyHeightSource": 607,
+    "grid": [
+      74,
+      92
+    ],
+    "colors": 20,
+    "rectangles": 867,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "rising",
+    "profile": "compatible",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      550,
+      750,
+      474,
+      786
+    ],
+    "anchorSource": [
+      785,
+      1510
+    ],
+    "bodyHeightSource": 547,
+    "grid": [
+      69,
+      115
+    ],
+    "colors": 20,
+    "rectangles": 927,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "windup",
+    "profile": "minimum",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      530,
+      0,
+      494,
+      740
+    ],
+    "anchorSource": [
+      790,
+      720
+    ],
+    "bodyHeightSource": 620,
+    "grid": [
+      51,
+      76
+    ],
+    "colors": 16,
+    "rectangles": 511,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "slash",
+    "profile": "minimum",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      0,
+      800,
+      560,
+      700
+    ],
+    "anchorSource": [
+      270,
+      1465
+    ],
+    "bodyHeightSource": 607,
+    "grid": [
+      59,
+      74
+    ],
+    "colors": 16,
+    "rectangles": 597,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "keqing",
+    "pose": "rising",
+    "profile": "minimum",
+    "source": "assets/fighters/keqing/source/keqing-demo-actions-v1.png",
+    "crop": [
+      550,
+      750,
+      474,
+      786
+    ],
+    "anchorSource": [
+      785,
+      1510
+    ],
+    "bodyHeightSource": 547,
+    "grid": [
+      55,
+      92
+    ],
+    "colors": 16,
+    "rectangles": 606,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "windup",
+    "profile": "fine",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      0,
+      636,
+      530
+    ],
+    "anchorSource": [
+      1150,
+      522
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      247,
+      206
+    ],
+    "colors": 36,
+    "rectangles": 5069,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "slash",
+    "profile": "fine",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      0,
+      530,
+      905,
+      494
+    ],
+    "anchorSource": [
+      330,
+      992
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      352,
+      192
+    ],
+    "colors": 48,
+    "rectangles": 6386,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "rising",
+    "profile": "fine",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      480,
+      636,
+      544
+    ],
+    "anchorSource": [
+      1150,
+      1005
+    ],
+    "bodyHeightSource": 410,
+    "grid": [
+      265,
+      227
+    ],
+    "colors": 48,
+    "rectangles": 6296,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "windup",
+    "profile": "standard",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      0,
+      636,
+      530
+    ],
+    "anchorSource": [
+      1150,
+      522
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      198,
+      165
+    ],
+    "colors": 32,
+    "rectangles": 3687,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "slash",
+    "profile": "standard",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      0,
+      530,
+      905,
+      494
+    ],
+    "anchorSource": [
+      330,
+      992
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      282,
+      154
+    ],
+    "colors": 32,
+    "rectangles": 4050,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "rising",
+    "profile": "standard",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      480,
+      636,
+      544
+    ],
+    "anchorSource": [
+      1150,
+      1005
+    ],
+    "bodyHeightSource": 410,
+    "grid": [
+      213,
+      182
+    ],
+    "colors": 32,
+    "rectangles": 4242,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "windup",
+    "profile": "light",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      0,
+      636,
+      530
+    ],
+    "anchorSource": [
+      1150,
+      522
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      149,
+      124
+    ],
+    "colors": 24,
+    "rectangles": 2030,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "slash",
+    "profile": "light",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      0,
+      530,
+      905,
+      494
+    ],
+    "anchorSource": [
+      330,
+      992
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      212,
+      116
+    ],
+    "colors": 24,
+    "rectangles": 2273,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "rising",
+    "profile": "light",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      480,
+      636,
+      544
+    ],
+    "anchorSource": [
+      1150,
+      1005
+    ],
+    "bodyHeightSource": 410,
+    "grid": [
+      160,
+      137
+    ],
+    "colors": 24,
+    "rectangles": 2275,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "windup",
+    "profile": "compatible",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      0,
+      636,
+      530
+    ],
+    "anchorSource": [
+      1150,
+      522
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      124,
+      104
+    ],
+    "colors": 20,
+    "rectangles": 1414,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "slash",
+    "profile": "compatible",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      0,
+      530,
+      905,
+      494
+    ],
+    "anchorSource": [
+      330,
+      992
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      177,
+      97
+    ],
+    "colors": 20,
+    "rectangles": 1582,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "rising",
+    "profile": "compatible",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      480,
+      636,
+      544
+    ],
+    "anchorSource": [
+      1150,
+      1005
+    ],
+    "bodyHeightSource": 410,
+    "grid": [
+      133,
+      114
+    ],
+    "colors": 20,
+    "rectangles": 1631,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "windup",
+    "profile": "minimum",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      0,
+      636,
+      530
+    ],
+    "anchorSource": [
+      1150,
+      522
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      98,
+      82
+    ],
+    "colors": 16,
+    "rectangles": 928,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "slash",
+    "profile": "minimum",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      0,
+      530,
+      905,
+      494
+    ],
+    "anchorSource": [
+      330,
+      992
+    ],
+    "bodyHeightSource": 440,
+    "grid": [
+      140,
+      76
+    ],
+    "colors": 16,
+    "rectangles": 832,
+    "exact": true,
+    "overdraw": 1
+  },
+  {
+    "role": "diluc",
+    "pose": "rising",
+    "profile": "minimum",
+    "source": "assets/fighters/diluc/source/diluc-demo-actions-v1.png",
+    "crop": [
+      900,
+      480,
+      636,
+      544
+    ],
+    "anchorSource": [
+      1150,
+      1005
+    ],
+    "bodyHeightSource": 410,
+    "grid": [
+      105,
+      90
+    ],
+    "colors": 16,
+    "rectangles": 939,
+    "exact": true,
+    "overdraw": 1
+  }
+]

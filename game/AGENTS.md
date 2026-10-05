@@ -121,8 +121,11 @@ python -X utf8 game/tools/preview/server.py  # 浏览器实时预览 http://127.
 ```bash
 python -X utf8 game/tools/build_art.py       # 角色：assets/roster-v2 → lua/gen/gf_art_*.lua（--preview 出对照图）
 python -X utf8 game/tools/build_stages.py    # 背景：build/bgfit/*.json → lua/gen/gf_bg_*.lua
+python -X utf8 game/tools/build_logo.py      # 标题 logo：tools/logo/logo.png → lua/gen/gf_logo.lua（--preview 出对照图）
 python -X utf8 game/tools/bundle.py          # 打包 → dist/genshin_fighter.lua（测试会自动打包）
 ```
+
+- 标题 logo 是图形，不是文字：先在 `tools/logo/logo.html` 里用 Canvas 画（运行预览服务后打开 `http://127.0.0.1:8765/logo`，点"导出 PNG"会写入 `tools/logo/logo.png`），再运行 `build_logo.py` 烘焙。要用纯色分层，不要用柔和渐变；字形要画成正的，倾斜交给游戏里旋转（斜边每一行都会多切出矩形）。高清档控制在 4000 个矩形以内。
 
 - 新增角色：先改 `tools/roster.json`，再在 `assets/roster-v2` 里放齐 12 个姿势图，接着在 `gf_kits.lua` 补技能、爆发、称号和英文名，最后重跑 `build_art.py` 和测试。
 - 背景画的拟合输入（`build/bgfit/*.json`）提交在仓库里。拟合工具不在本仓库。

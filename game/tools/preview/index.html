@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>原神格斗 · 实时预览</title>
+<style>
+  :root { --bg:#07080f; --panel:#11131f; --gold:#ffd678; --ink:#e8e6f0; --dim:#8a8ea6; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--ink);
+    font:14px/1.4 "Microsoft YaHei","Noto Sans SC",system-ui,sans-serif; overflow:hidden; }
+  #wrap { position:absolute; inset:0 0 44px 0; display:flex; align-items:center; justify-content:center; }
+  canvas { background:#000; box-shadow:0 0 0 1px #2a2d40, 0 20px 60px #000a; image-rendering:auto; }
+  #bar { position:absolute; left:0; right:0; bottom:0; height:44px; display:flex; gap:10px; align-items:center;
+    padding:0 14px; background:linear-gradient(#11131f,#0b0c14); border-top:1px solid #2a2d40; }
+  #bar b { color:var(--gold); font-weight:600; letter-spacing:.08em; }
+  button { background:#1b1e2e; color:var(--ink); border:1px solid #34384f; border-radius:6px; padding:5px 10px; cursor:pointer; }
+  button:hover { border-color:var(--gold); }
+  #stats { margin-left:auto; color:var(--dim); font-variant-numeric:tabular-nums; }
+  #err { position:absolute; left:20px; right:20px; top:20px; white-space:pre-wrap; background:#3a0d14ee;
+    border:1px solid #ff6b81; padding:12px; display:none; font-family:Consolas,monospace; font-size:12px; }
+  #keys { color:var(--dim); }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="cv" width="1600" height="900" tabindex="0"></canvas></div>
+<div id="err"></div>
+<div id="bar">
+  <b>原神格斗 · 预览</b>
+  <button id="restart">重启</button>
+  <button id="pause">暂停</button>
+  <button id="slow">慢放 ×0.25</button>
+  <span id="keys">WASD 移动 · J 轻 · K 重 · L 战技 · I 爆发 · U 冲刺 · O 投 · P 暂停 · F9 诊断</span>
+  <span id="stats"></span>
+</div>
+<script>
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+let W = cv.width, H = cv.height;
+const FONT = '"Microsoft YaHei","Noto Sans SC",sans-serif';
+let lastId = -1, items = [], busy = false;
+
+function fit() {
+  const r = document.getElementById('wrap').getBoundingClientRect();
+  const s = Math.min(r.width / W, r.height / H);
+  cv.style.width = (W * s) + 'px'; cv.style.height = (H * s) + 'px';
+}
+addEventListener('resize', fit); fit();
+
+function parse(text) {
+  const lines = text.split('\n'); const out = [];
+  for (let i = 1; i < lines.length; i++) {
+    const p = lines[i].split('|'); if (p.length < 10) continue;
+    const it = { k: p[0], m: [+p[1], +p[2], +p[3], +p[4], +p[5], +p[6]], w: +p[7], h: +p[8], px: +p[9], py: +p[10],
+                 c: [+p[11], +p[12], +p[13], +p[14] / 255] };
+    if (it.k === 'I') { it.shape = +p[15]; it.soft = +p[16]; it.fill = p[17]; it.amt = +p[18]; it.from = p[19]; }
+    else { it.size = +p[15]; it.ha = p[16]; it.va = p[17]; it.ol = p[18] === '1'; it.oc = [+p[19], +p[20], +p[21], +p[22] / 255];
+           it.bg = [+p[23], +p[24], +p[25], +p[26] / 255]; it.text = p.slice(27).join('|').replace(/\\n/g, '\n')
+             .replace(/<\/?(color|b|i|size)[^>]*>/g, ''); }
+    out.push(it);
+  }
+  return out;
+}
+const rgba = (c, a) => `rgba(${c[0]},${c[1]},${c[2]},${a === undefined ? c[3] : a})`;
+
+function shapePath(shape, x0, y0, x1, y1) {
+  const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, rx = Math.abs(x1 - x0) / 2, ry = Math.abs(y1 - y0) / 2;
+  ctx.beginPath();
+  if (shape === 100002 || shape === 100006) { ctx.ellipse(cx, cy, rx, ry, 0, 0, Math.PI * 2); }
+  else if (shape === 100003) { ctx.moveTo(cx, y1); ctx.lineTo(x1, y0); ctx.lineTo(x0, y0); ctx.closePath(); }
+  else if (shape === 100004 || shape === 100005) {
+    const n = shape === 100004 ? 4 : 5, inner = n === 4 ? 0.32 : 0.42;
+    for (let i = 0; i < n * 2; i++) { const r = i % 2 ? inner : 1, t = Math.PI / 2 + i * Math.PI / n;
+      const X = cx + rx * r * Math.cos(t), Y = cy + ry * r * Math.sin(t); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }
+    ctx.closePath();
+  } else { ctx.rect(x0, y0, x1 - x0, y1 - y0); }
+}
+
+function draw() {
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+  for (const it of items) {
+    const [a, b, c, d, e, f] = it.m;
+    ctx.setTransform(a, -b, c, -d, e, H - f);
+    let x0 = -it.px * it.w, y0 = -it.py * it.h, x1 = x0 + it.w, y1 = y0 + it.h;
+    if (it.k === 'I') {
+      const col = it.c;
+      if (it.fill === 'Horizontal') { if (it.from === 'Right') x0 = x1 - it.w * it.amt; else x1 = x0 + it.w * it.amt; if (it.amt <= 0) continue; }
+      if (it.fill === 'Radial360' && it.amt < 1) {
+        const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2; ctx.beginPath(); ctx.moveTo(cx, cy);
+        ctx.ellipse(cx, cy, Math.abs(it.w) / 2, Math.abs(it.h) / 2, 0, Math.PI / 2, Math.PI / 2 - it.amt * Math.PI * 2, true);
+        ctx.closePath(); ctx.fillStyle = rgba(col); ctx.fill(); continue;
+      }
+      if (it.shape === 100006) {
+        shapePath(100002, x0, y0, x1, y1); ctx.lineWidth = Math.min(Math.abs(it.w), Math.abs(it.h)) * 0.07;
+        ctx.strokeStyle = rgba(col); ctx.stroke(); continue;
+      }
+      if (it.soft > 0) {
+        const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, rx = Math.abs(it.w) / 2, ry = Math.abs(it.h) / 2;
+        if (it.shape === 100002) {
+          ctx.save(); ctx.translate(cx, cy); ctx.scale(1, ry / Math.max(rx, 1e-3));
+          const g = ctx.createRadialGradient(0, 0, 0, 0, 0, rx);
+          g.addColorStop(0, rgba(col)); g.addColorStop(Math.max(0, 1 - it.soft * 2), rgba(col)); g.addColorStop(1, rgba(col, 0));
+          ctx.fillStyle = g; ctx.beginPath(); ctx.arc(0, 0, rx, 0, Math.PI * 2); ctx.fill(); ctx.restore(); continue;
+        }
+        const blur = it.soft * Math.min(rx, ry) * Math.hypot(a, b) * 0.7;
+        ctx.filter = `blur(${blur.toFixed(1)}px)`; shapePath(it.shape, x0 + rx * it.soft, y0 + ry * it.soft, x1 - rx * it.soft, y1 - ry * it.soft);
+        ctx.fillStyle = rgba(col); ctx.fill(); ctx.filter = 'none'; continue;
+      }
+      shapePath(it.shape, x0, y0, x1, y1); ctx.fillStyle = rgba(col); ctx.fill();
+    } else {
+      if (it.bg[3] > 0) { ctx.fillStyle = rgba(it.bg); ctx.fillRect(x0, y0, x1 - x0, y1 - y0); }
+      if (!it.text || it.c[3] <= 0) continue;
+      // text is drawn y-down inside the box
+      ctx.save(); ctx.transform(1, 0, 0, -1, 0, 0);
+      const top = -y1, bottom = -y0;
+      ctx.font = `bold ${it.size}px ${FONT}`; ctx.textBaseline = 'middle';
+      const lines = it.text.split('\n'), lh = it.size * 1.22, total = lh * lines.length;
+      let ty = it.va === 'Top' ? top + lh / 2 : it.va === 'Bottom' ? bottom - total + lh / 2 : (top + bottom) / 2 - total / 2 + lh / 2;
+      ctx.textAlign = it.ha === 'Left' ? 'left' : it.ha === 'Right' ? 'right' : 'center';
+      const tx = it.ha === 'Left' ? x0 : it.ha === 'Right' ? x1 : (x0 + x1) / 2;
+      for (const line of lines) {
+        if (it.ol) { ctx.lineJoin = 'round'; ctx.lineWidth = Math.max(2, it.size / 7); ctx.strokeStyle = rgba(it.oc); ctx.strokeText(line, tx, ty); }
+        ctx.fillStyle = rgba(it.c); ctx.fillText(line, tx, ty); ty += lh;
+      }
+      ctx.restore();
+    }
+  }
+}
+
+async function pull() {
+  if (!busy) {
+    busy = true;
+    try {
+      const r = await fetch('/frame?since=' + lastId);
+      if (r.status === 200) {
+        const t = await r.text();
+        if (t[0] === 'E') { const el = document.getElementById('err'); el.style.display = 'block'; el.textContent = t.slice(2); }
+        else {
+          document.getElementById('err').style.display = 'none';
+          const head = t.slice(1, t.indexOf('\n')).split(' ');
+          lastId = +head[0];
+          if (head[1]) { const [w, h] = head[1].split('x').map(Number); if (w !== W || h !== H) { W = w; H = h; cv.width = w; cv.height = h; fit(); } }
+          items = parse(t); draw();
+        }
+      }
+    } catch (e) {}
+    busy = false;
+  }
+  requestAnimationFrame(pull);
+}
+requestAnimationFrame(pull);
+setInterval(async () => { try { const s = await (await fetch('/stats')).json();
+  document.getElementById('stats').textContent = `帧 ${s.frame}  图片 ${s.visibleImages}  文字 ${s.visibleTexts}  原生调用/帧 ${s.calls}  Lua ${s.luaMs}ms`; } catch (e) {} }, 500);
+
+const KEYS = { KeyW:'W', KeyA:'A', KeyS:'S', KeyD:'D', KeyJ:'J', KeyK:'K', KeyL:'L', KeyI:'I', KeyU:'U', KeyO:'O', KeyP:'P',
+  KeyH:'H', KeyF:'F', KeyE:'E', KeyQ:'Q', KeyR:'R', KeyT:'T', KeyX:'X', KeyZ:'Z', KeyV:'V', KeyY:'Y', KeyG:'G',
+  Space:'SPACE', Tab:'TAB', ArrowUp:'UP', ArrowDown:'DOWN', ArrowLeft:'LEFT', ArrowRight:'RIGHT', Comma:',', Period:'.', Slash:'/',
+  ShiftRight:'RSHIFT', ControlRight:'RCTRL', ControlLeft:'LCTRL', Backspace:'BACKSPACE', F9:'F9', F10:'F10', F5:'F5', F6:'F6',
+  Digit1:'1', Digit2:'2', Digit3:'3', Digit4:'4', Digit5:'5', Digit6:'6', Digit7:'7', Digit8:'8', Digit9:'9', Digit0:'0',
+  Backquote:'`', Minus:'-', Equal:'=', BracketLeft:'[', CapsLock:'CAPS' };
+const down = new Set();
+function send(ev) { fetch('/input', { method: 'POST', body: JSON.stringify(ev) }); }
+addEventListener('keydown', e => { const k = KEYS[e.code]; if (!k) return; e.preventDefault(); if (down.has(k)) return; down.add(k); send({ t: 'key', k, down: true }); });
+addEventListener('keyup', e => { const k = KEYS[e.code]; if (!k) return; e.preventDefault(); down.delete(k); send({ t: 'key', k, down: false }); });
+addEventListener('blur', () => { for (const k of down) send({ t: 'key', k, down: false }); down.clear(); });
+function canvasPos(e) { const r = cv.getBoundingClientRect(); return [(e.clientX - r.left) / r.width * W, H - (e.clientY - r.top) / r.height * H]; }
+const ptrs = new Set();   // each finger / mouse is its own touch id, like the phone client
+cv.addEventListener('pointerdown', e => { const [x, y] = canvasPos(e); ptrs.add(e.pointerId); cv.setPointerCapture(e.pointerId); send({ t: 'touch', kind: 'down', x, y, id: e.pointerId }); });
+cv.addEventListener('pointermove', e => { const [x, y] = canvasPos(e); send({ t: 'cursor', x, y }); if (ptrs.has(e.pointerId)) send({ t: 'touch', kind: 'drag', x, y, id: e.pointerId }); });
+const ptrUp = e => { if (!ptrs.delete(e.pointerId)) return; const [x, y] = canvasPos(e); send({ t: 'touch', kind: 'up', x, y, id: e.pointerId }); };
+cv.addEventListener('pointerup', ptrUp); cv.addEventListener('pointercancel', ptrUp);
+cv.style.touchAction = 'none';
+document.getElementById('restart').onclick = () => fetch('/restart');
+document.getElementById('pause').onclick = () => fetch('/pause');
+let slow = false; document.getElementById('slow').onclick = () => { slow = !slow; fetch('/speed?v=' + (slow ? 0.25 : 1)); };
+cv.focus();
+window.shot = () => fetch('/shot', { method: 'POST', body: JSON.stringify({ png: cv.toDataURL('image/png') }) }).then(r => r.text());
+</script>
+</body>
+</html>

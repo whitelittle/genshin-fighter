@@ -1,6 +1,7 @@
 -- Title screen, fighting-game style: two fighters face off over the painted backdrop with
--- element light behind each; the logo sits on a huge white slash with element bars, the
--- English name on a dark slanted plate, a giant ghost word behind; "press any button" strip.
+-- element light behind each; the logo is a picture (designed in tools/logo/logo.html, baked by
+-- tools/build_logo.py) drawn one tile per frame, tilted and slammed in, then a light sweep;
+-- a giant ghost word behind; "press any button" strip.
 local G = require('gf_gfx')
 local U = require('gf_util')
 local UI = require('gf_ui')
@@ -27,8 +28,51 @@ function S.new(app)
     self.tier = app.quality == 'lo' and 'lo' or 'hi'
     self.back = G.layer(app.layers.back)
     self.built = 0
+    -- logo picture: one bitmap per tile under a tilted group, shown once every tile is drawn
+    local data = require('gf_logo')[app.quality == 'lo' and 'lo' or 'hi']
+    self.logoData = data
+    self.logoPal = U.palette(data.pal)
+    self.logoG = G.group(app.layers.ui)
+    self.logoG:pos(0, 205):rot(4):on(false)
+    self.logoTiles = {}
+    self.over = G.layer(app.layers.ui)       -- light sweep above the logo
     app.audio:play(app.audio.ID.open)
     return self
+end
+
+-- logo tiles are built over many frames: first the rect nodes (300 per frame), then the
+-- rects themselves (450 per frame); reveal when every tile is complete
+function S:buildLogo()
+    local d = self.logoData
+    local cur = self.logoCur
+    if not cur then
+        local i = #self.logoTiles + 1
+        local tile = d.tiles[i]
+        if not tile then return true end
+        local b = G.bitmap(self.logoG)
+        b.node:scale(d.u, d.u)
+        cur = {b = b, i = i, img = {bytes = U.decodeAll(tile.d), n = tile.n, pal = self.logoPal,
+                                    ax = d.w / 2 - tile.x, ay = d.h / 2}}
+        self.logoCur = cur
+        return false
+    end
+    local b, img = cur.b, cur.img
+    if #b.kids < img.n then
+        b:ensure(math.min(img.n, #b.kids + 300))
+        return false
+    end
+    if not cur.started then cur.started = true; b:start(img, 'logo' .. cur.i) end
+    if not b:step(450) then return false end
+    b.node:on(true)
+    self.logoTiles[cur.i] = b
+    self.logoCur = nil
+    if cur.i == #d.tiles then
+        self.logoT = 0
+        self.logoG:scale(1.5, 1.5):on(true)
+        self.logoG:tween({localScaleX = 0.88, localScaleY = 0.88}, 0.35, 'OutBack')
+        self.app.audio:play(self.app.audio.ID.eboom.electro)
+    end
+    return false
 end
 
 -- one fighter per frame (a hi-tier pose is ~1200 rects), each slides in when it is ready
@@ -50,7 +94,10 @@ function S:tick()
     local app = self.app
     self.t = self.t + 1 / 60
     self.frameN = (self.frameN or 0) + 1
-    if self.frameN >= 2 then self:buildFighters() end
+    if self.frameN >= 2 then
+        if self.built < 2 then self:buildFighters() else self:buildLogo() end
+    end
+    if self.logoT then self.logoT = self.logoT + 1 / 60 end
     if self.bd then self.bd:step(300) end
     local go = false
     for _, a in ipairs(app.input:menu()) do if a == 'ok' or a == 'pause' or a == 'back' then go = true end end
@@ -96,22 +143,16 @@ function S:draw()
     -- logo: slash, element bars, title, English plate
     local L = self.L
     L:begin()
-    local y = 170
-    local sk = U.ease.outCubic(U.clamp((t - 0.15) / 0.4, 0, 1))
-    UI.slab(L, 0, y + 4, 1300 * sk, 150, UI.NAVY, 0.6 * sk, 6)
-    UI.slab(L, 0, y + 70, 1200 * sk, 6, e1, 0.95 * sk, 6)
-    UI.slab(L, 0, y - 62, 1200 * sk, 6, e2, 0.95 * sk, 6)
-    UI.slab(L, 0, y + 4, 1000 * sk, 18, UI.WHITE, 0.85 * sk * (1 - 0.6 * U.clamp((t - 0.6) / 0.6, 0, 1)), 6)
-    local lk = U.ease.outBack(U.clamp((t - 0.35) / 0.4, 0, 1))
-    local logo = L:label('原神格斗', 0, y + 10, 1100, 220, 168, UI.WHITE, 'c', {16, 20, 44, 220}, U.clamp((t - 0.35) / 0.15, 0, 1))
-    logo:scale(logo.sx * (1.4 - 0.4 * lk), logo.sy * (1.4 - 0.4 * lk))
-    L:shape(G.STAR4, 380, y + 92, 48 * lk, 48 * lk, UI.WHITE, lk, t * 30)
-    L:shape(G.STAR4, 380, y + 92, 18 * lk, 18 * lk, UI.GOLD_HI, lk, -t * 50)
-    local pk = U.ease.outCubic(U.clamp((t - 0.6) / 0.4, 0, 1))
-    UI.slab(L, 0, y - 112, 560 * pk, 44, UI.NAVY, 0.92 * pk, 6)
-    UI.slab(L, -282 * pk, y - 112, 10, 50, UI.GOLD, pk, 6)
-    L:label(UI.track('GENSHIN  FIGHTER'), 0, y - 112, 560, 44, 22, UI.GOLD, 'c', nil, pk)
-    L:label('七国之巅　·　元素激斗', 0, y - 166, 700, 34, 22, UI.GREY, 'c', {0, 0, 0, 120}, pk)
+    local y = 205
+    local lt = self.logoT or -1
+    local lk = U.clamp(lt / 0.3, 0, 1)
+    -- dark glow behind the logo, impact flash and ring when it lands
+    L:shape(G.ELLIPSE, 0, y - 10, 1500, 520, UI.NAVY, 0.55 * lk, 0, 0.5)
+    L:shape(G.ELLIPSE, 0, y, 1300, 420, UI.WHITE, lt >= 0 and math.max(0, 0.5 - lt) or 0, 0, 0.5)
+    local rk = U.clamp(lt / 0.6, 0, 1)
+    L:shape(G.RING, 0, y, 400 + rk * 1400, 160 + rk * 520, UI.WHITE, lt >= 0 and (1 - rk) * 0.6 or 0, 4)
+    local pk = U.ease.outCubic(U.clamp((lt - 0.25) / 0.4, 0, 1))
+    L:label('七国之巅　·　元素激斗', 0, y - 250, 700, 34, 22, UI.GREY, 'c', {0, 0, 0, 120}, pk)
     -- press any button
     local blink = 0.55 + 0.45 * math.sin(t * 3.4)
     local by = -H / 2 + 120
@@ -124,10 +165,20 @@ function S:draw()
     L:label('非官方同人作品　·　千星奇域', -W / 2 + 220, -H / 2 + 28, 420, 30, 15, UI.DIM, 'l', nil, k)
     L:label('v2.0', W / 2 - 80, -H / 2 + 28, 120, 30, 15, UI.DIM, 'r', nil, k)
     L:finish()
+    local O = self.over
+    O:begin()
+    local sw = lt >= 0 and ((lt - 0.4) % 4.0) / 0.7 or 2
+    O:rect(-700 + sw * 1400, y, 70, 330, UI.WHITE, (sw >= 0 and sw <= 1) and 0.22 or 0, 4 - 20)
+    O:rect(-640 + sw * 1400, y, 18, 330, UI.WHITE, (sw >= 0 and sw <= 1) and 0.3 or 0, 4 - 20)
+    O:finish()
 end
 
 function S:exit()
     self.back:free()
+    self.over:free()
+    for _, b in ipairs(self.logoTiles) do b:free() end
+    if self.logoCur then self.logoCur.b:free() end
+    G.release(self.logoG)
     self.left:free()
     self.right:free()
     self.L:free()

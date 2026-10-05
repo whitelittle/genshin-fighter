@@ -124,6 +124,8 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         u = urlparse(self.path)
+        if u.path == '/logo':
+            return self.send(200, (GAME / 'tools' / 'logo' / 'logo.html').read_text(encoding='utf-8'), 'text/html; charset=utf-8')
         if u.path in ('/', '/index.html'):
             return self.send(200, (HERE / 'index.html').read_text(encoding='utf-8'), 'text/html; charset=utf-8')
         if u.path == '/frame':
@@ -161,6 +163,13 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         n = int(self.headers.get('Content-Length', 0))
         body = json.loads(self.rfile.read(n) or b'{}')
+        if self.path == '/save':
+            # design pages (tools/logo) export their canvas here; baked later by tools/build_logo.py
+            import base64
+            out = GAME / 'tools' / 'logo' / (Path(body['name']).name + '.png')
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_bytes(base64.b64decode(body['png'].split(',', 1)[1]))
+            return self.send(200, str(out))
         if self.path == '/shot':
             import base64
             out = GAME / 'build' / 'shots' / 'live.png'

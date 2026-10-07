@@ -1,0 +1,7 @@
+# 雷眼特效 r31
+
+使用内置 image_gen 生成，参考用户提供的原神大招截图。四帧透明 PNG：`animation-source/raiden-eye-r31/eye.png`。低、高画质拟合输出：`project-inputs/gf_raiden_eye_r31.lua`。画面不是精确复刻官方素材。
+
+生成提示词（原文）：
+
+Use case: stylized-concept. Asset type: transparent 2D pixel-art fighting-game ultimate effect sprite sheet. Reference image is a gameplay screenshot showing Raiden Shogun's Musou no Hitotachi eye-shaped space rupture. Generate ONLY the effect, no character, no UI, no damage numbers, no text or watermark. EXACTLY four frames in a 2 by 2 grid, generous transparent margins and identical center/scale: 1 a narrow opening violet slash; 2 fully opening horizontal almond-shaped BLACK SPACE RIFT with bright lavender-white torn edges and a large clear ELECTRO THREE-COMMA TRISKELE emblem in its center; 3 full intense impact with electric white-violet streaks extending horizontally and a few crystalline flecks; 4 dissipating rift. The emblem must be three smoothly curved comma-shaped lobes arranged in rotational symmetry, not a realistic eyeball or pupil. Match reference silhouette and luminous purple/black colors. Crisp hand-drawn pixel sprite, limited palette, clean discrete shading, readable low-resolution forms suitable for rectangle primitive fitting. Genuine transparent outside effect, the inside of the rift opaque dark violet-black. No background panel, no borders or gridlines, no extra objects. Each frame same wide horizontal composition; entire effect fits its cell.

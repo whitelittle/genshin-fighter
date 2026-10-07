@@ -1,0 +1,9 @@
+{
+  "runtime": "Lua 5.4 offline ctypes; target Lua 5.3 client not instruction-budget measured",
+  "rebuild": "byte-identical to accepted E",
+  "source_sha256": "2ff912f492e617bfebe615ecd0584af42738375f943b5464e2817769e292bd87",
+  "checks_e": "passed gait, draw budget, primitive stage, select flow, prediction recovery, idle hit and ice overlays",
+  "checks_d": "passed 60 tick intro, input release, retirement order, pinned buffers, idle alignment",
+  "simulator_flow": "passed; see full-flow.json",
+  "real_device": "anonymous player relatively satisfied; E long-run and two-device online remain unverified"
+}

@@ -1,0 +1,304 @@
+{
+  "character": "diluc",
+  "name": "迪卢克",
+  "status": "design_candidate_not_implemented",
+  "baseline": "V3 E",
+  "logic_hz": 60,
+  "no_element_reactions": true,
+  "weapon": "claymore",
+  "animation_requirements": {
+    "idle": "2-4 real aligned poses, no gait interpolants",
+    "walk": "6 distinct grounded gait poses; reverse for back",
+    "hit": "standing/air/knockdown/getup",
+    "victim": "grab/pull/lift/rotation/release/land/getup",
+    "frame_event_policy": "logic tick, not render count"
+  },
+  "normals": [
+    {
+      "actionId": "light1",
+      "status": "design_candidate",
+      "startup": 7,
+      "active": 3,
+      "recovery": 14,
+      "damage": 42,
+      "box": {
+        "x": 35,
+        "y": 120,
+        "w": 170,
+        "h": 90
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "light2",
+      "status": "design_candidate",
+      "startup": 8,
+      "active": 3,
+      "recovery": 16,
+      "damage": 48,
+      "box": {
+        "x": 40,
+        "y": 100,
+        "w": 185,
+        "h": 120
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "light3",
+      "status": "design_candidate",
+      "startup": 9,
+      "active": 4,
+      "recovery": 20,
+      "damage": 58,
+      "box": {
+        "x": 30,
+        "y": 80,
+        "w": 205,
+        "h": 150
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "heavy",
+      "status": "design_candidate",
+      "startup": 12,
+      "active": 4,
+      "recovery": 22,
+      "damage": 80,
+      "box": {
+        "x": 30,
+        "y": 110,
+        "w": 215,
+        "h": 180
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "crouchLight",
+      "status": "design_candidate",
+      "startup": 7,
+      "active": 3,
+      "recovery": 13,
+      "damage": 36,
+      "box": {
+        "x": 40,
+        "y": 0,
+        "w": 175,
+        "h": 70
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "crouchHeavy",
+      "status": "design_candidate",
+      "startup": 11,
+      "active": 4,
+      "recovery": 26,
+      "damage": 70,
+      "box": {
+        "x": 40,
+        "y": 0,
+        "w": 225,
+        "h": 70
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "airLight",
+      "status": "design_candidate",
+      "startup": 7,
+      "active": 6,
+      "recovery": 12,
+      "damage": 44,
+      "box": {
+        "x": 30,
+        "y": -40,
+        "w": 175,
+        "h": 140
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "airHeavy",
+      "status": "design_candidate",
+      "startup": 10,
+      "active": 6,
+      "recovery": 16,
+      "damage": 68,
+      "box": {
+        "x": 20,
+        "y": -80,
+        "w": 205,
+        "h": 170
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    }
+  ],
+  "specials": {
+    "E": {
+      "concept": "三次独立 E 输入的火刀斩；第三段明确击倒",
+      "proposal": {
+        "stages": [
+          {
+            "startup": 10,
+            "active": 4,
+            "recovery": 18,
+            "damage": 50
+          },
+          {
+            "startup": 11,
+            "active": 4,
+            "recovery": 20,
+            "damage": 58
+          },
+          {
+            "startup": 14,
+            "active": 5,
+            "recovery": 26,
+            "damage": 72
+          }
+        ],
+        "recast_window": 90
+      },
+      "rules": [
+        "三段分别输入，不能按一次自动打完",
+        "第三段落空要付完整收招",
+        "每段独立命中 ID；中断和回合重置清理阶段状态",
+        "火刀剑路贴刀刃，禁止用全屏火焰当攻击范围"
+      ]
+    },
+    "Q": {
+      "concept": "起手上挑后向前放火鸟，推进型投射物",
+      "proposal": {
+        "startup": 20,
+        "active": 5,
+        "recovery": 32,
+        "damage": 180,
+        "projectile_life": 60,
+        "projectile_speed": 18
+      },
+      "rules": [
+        "火鸟沿前方横向扫掠，连续碰撞避免高速穿透",
+        "同一目标一段主伤害，视觉火星不额外结算",
+        "未命中仍按轨迹消散，不播放命中专属镜头",
+        "先用少量轮廓/尾焰，不叠加像素背景"
+      ]
+    },
+    "throw": {
+      "concept": "抓肩牵引、转身推摔；重剑收于背侧不穿过对手",
+      "proposal": {
+        "startup": 7,
+        "grab_active": 2,
+        "whiff_recovery": 26,
+        "confirmed_ticks": 54,
+        "damage": 100
+      }
+    }
+  },
+  "required_tests": [
+    "idle-hit while body buffer pending",
+    "both directions and corner",
+    "miss/block/hit confirm",
+    "knockdown-getup and throw protection",
+    "copy/hash determinism and rollback",
+    "same-device performance vs E"
+  ],
+  "source_hashes": []
+}

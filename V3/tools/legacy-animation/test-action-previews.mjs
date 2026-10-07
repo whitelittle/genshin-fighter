@@ -1,0 +1,17 @@
+import fs from 'node:fs';import vm from 'node:vm';import path from 'node:path';import assert from 'node:assert/strict';import {createRequire} from 'node:module';const require=createRequire(import.meta.url);const {createCanvas,loadImage}=require('@napi-rs/canvas');
+const root=path.resolve('dist');fs.mkdirSync('verification/action-redesign',{recursive:true});const report=[];
+for(const char of ['nahida','raiden']){
+ class El{constructor(tag='div'){this.tagName=tag.toUpperCase();this.children=[];this.dataset={};this.attrs={};this.style={};this.checked=true;this.value='1';}append(...x){this.children.push(...x);}replaceChildren(...x){this.children=x;}setAttribute(k,v){this.attrs[k]=v;}click(){this.onclick?.();}}
+ const els={};for(const id of ['cv','fx','body','phase','clock','scrub','name','pair','note','timeline','actions','play','restart','prev','next','speed','loop','loading','error'])els[id]=new El();els.cv=createCanvas(1200,650);
+ let intermediateDraws=0;const wrap=c=>{const ctx=c.getContext('2d'),draw=ctx.drawImage.bind(ctx);ctx.drawImage=(im,...r)=>{if(im.url?.includes('inbetweens-r28'))intermediateDraws++;return draw(im.native||im,...r);};return c;};wrap(els.cv);
+ const document={getElementById:id=>els[id],createElement:t=>t==='canvas'?wrap(createCanvas(240,190)):new El(t),querySelectorAll:s=>s==='.frame'?els.timeline.children:els.actions.children.filter(e=>e.className==='action'),addEventListener(){}};
+ let count=0;function ImageLoader(){return new Proxy({},{set(o,k,v){if(k==='src'){o.url=v;loadImage(path.join(root,v.split('?')[0])).then(im=>{o.native=im;count++;o.onload?.();}).catch(e=>o.onerror?.(e));}else o[k]=v;return true;}});}
+ const box={document,window:{},Image:ImageLoader,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url.split('?')[0])))}),matchMedia:()=>({matches:false}),requestAnimationFrame(){},console};vm.createContext(box);vm.runInContext(fs.readFileSync(`dist/actions/${char}/app.js`,'utf8'),box);
+ for(let i=0;i<100&&!box.window.ACTION_PREVIEW.ready;i++)await new Promise(r=>setTimeout(r,20));const api=box.window.ACTION_PREVIEW;assert(api.ready,els.error.textContent);
+ let frames=0;for(const action of api.actions){api.choose(action.id);for(let t=0;t<api.state.duration;t++){api.seek(t);assert(Number.isFinite(api.state.phase));frames++;}for(const id of ['body','fx']){els[id].checked=false;els[id].onchange();els[id].checked=true;els[id].onchange();}els.prev.click();els.next.click();els.restart.click();}
+ const shots=char==='nahida'?[['e',11,'strike'],['e',14,'impact'],['q',66,'dream'],['q',122,'bloom'],['throw',34,'aranara'],['throw',48,'launched'],['walk',24,'hover']]:[['e',22,'eye'],['q',72,'burst'],['q',136,'finisher'],['throw',20,'throw']];
+ for(const [id,t,name] of shots){api.choose(id);api.seek(t);fs.writeFileSync(`verification/action-redesign/${char}-${name}.png`,els.cv.toBuffer('image/png'));}
+ api.choose('q');assert(api.state.duration>=162);api.choose('throw');assert(els.pair.textContent.length>0);api.choose('e');
+ assert(intermediateDraws>100,'new body poses never rendered');report.push({intermediateDraws,character:char,actions:api.actions.length,frames,images:count,checks:'all action frames, phase buttons, single-frame controls, layer toggles, paired victim, E/Q/throw captures',method:'Production canvas script with CPU raster and minimal DOM; browser UI not exercised'});console.log(report.at(-1));
+}
+fs.writeFileSync('verification/action-redesign/report.json',JSON.stringify(report,null,2));

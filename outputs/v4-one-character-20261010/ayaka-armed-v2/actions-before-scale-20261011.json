@@ -1,0 +1,4727 @@
+{
+  "站立格挡": {
+    "frames": [
+      {
+        "file": "body-shared-0-0.png",
+        "roi": [
+          53,
+          18,
+          507,
+          756
+        ],
+        "anchor": [
+          29.666666666666664,
+          81.77777777777777
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png"
+      },
+      {
+        "file": "body-shared-0-1.png",
+        "roi": [
+          549,
+          18,
+          1002,
+          756
+        ],
+        "anchor": [
+          27.888888888888886,
+          81.77777777777777
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png"
+      },
+      {
+        "file": "body-shared-0-2.png",
+        "roi": [
+          1032,
+          28,
+          1494,
+          756
+        ],
+        "anchor": [
+          28.666666666666664,
+          80.66666666666666
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png"
+      },
+      {
+        "file": "body-shared-0-3.png",
+        "roi": [
+          1528,
+          17,
+          1953,
+          756
+        ],
+        "anchor": [
+          24.666666666666664,
+          81.88888888888889
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png"
+      }
+    ],
+    "durations": [
+      12,
+      24,
+      12,
+      24
+    ],
+    "phases": [
+      "进入格挡",
+      "保持",
+      "受力",
+      "恢复"
+    ],
+    "status": "新作v2，胸前架刀；关键姿势待验；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 0.95856,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    },
+    "sourceFrames": [
+      {
+        "file": "guard-0.png",
+        "roi": [
+          53,
+          18,
+          507,
+          756
+        ],
+        "anchor": [
+          267,
+          736
+        ],
+        "scale": 0.5,
+        "source": "standguard-source-v2.png"
+      },
+      {
+        "file": "guard-1.png",
+        "roi": [
+          549,
+          18,
+          1002,
+          756
+        ],
+        "anchor": [
+          251,
+          736
+        ],
+        "scale": 0.5,
+        "source": "standguard-source-v2.png"
+      },
+      {
+        "file": "guard-2.png",
+        "roi": [
+          1032,
+          28,
+          1494,
+          756
+        ],
+        "anchor": [
+          258,
+          726
+        ],
+        "scale": 0.5,
+        "source": "standguard-source-v2.png"
+      },
+      {
+        "file": "guard-3.png",
+        "roi": [
+          1528,
+          17,
+          1953,
+          756
+        ],
+        "anchor": [
+          222,
+          737
+        ],
+        "scale": 0.5,
+        "source": "standguard-source-v2.png"
+      }
+    ]
+  },
+  "待机": {
+    "frames": [
+      {
+        "file": "body-shared-1-0.png",
+        "anchor": [
+          27.0,
+          70.0
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-1-1.png",
+        "anchor": [
+          27.0,
+          70.0
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "idle-source-0.png",
+        "anchor": [
+          384.0,
+          995.5555555555555
+        ],
+        "scale": 0.31640625
+      },
+      {
+        "file": "idle-source-1.png",
+        "anchor": [
+          384.0,
+          995.5555555555555
+        ],
+        "scale": 0.31640625
+      }
+    ],
+    "durations": [
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.0,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "前走": {
+    "frames": [
+      {
+        "file": "body-shared-2-0.png",
+        "anchor": [
+          33.922222222222224,
+          65.95987654320987
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-2-1.png",
+        "anchor": [
+          33.922222222222224,
+          65.95987654320987
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-2-2.png",
+        "anchor": [
+          33.922222222222224,
+          65.95987654320987
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-2-3.png",
+        "anchor": [
+          33.922222222222224,
+          65.95987654320987
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-2-4.png",
+        "anchor": [
+          33.922222222222224,
+          65.95987654320987
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-2-5.png",
+        "anchor": [
+          33.922222222222224,
+          65.95987654320987
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "walk-source-0.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.5962890625
+      },
+      {
+        "file": "walk-source-1.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.5962890625
+      },
+      {
+        "file": "walk-source-2.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.5962890625
+      },
+      {
+        "file": "walk-source-3.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.5962890625
+      },
+      {
+        "file": "walk-source-4.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.5962890625
+      },
+      {
+        "file": "walk-source-5.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.5962890625
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 0.94228,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "后退": {
+    "frames": [
+      {
+        "file": "body-shared-3-0.png",
+        "anchor": [
+          18.512127171419202,
+          66.04326450344148
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-3-1.png",
+        "anchor": [
+          17.01114388725008,
+          66.04326450344148
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-3-2.png",
+        "anchor": [
+          15.510160603080953,
+          66.04326450344148
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-3-3.png",
+        "anchor": [
+          18.512127171419202,
+          66.04326450344148
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-3-4.png",
+        "anchor": [
+          16.01048836447066,
+          66.04326450344148
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-3-5.png",
+        "anchor": [
+          14.06887551771401,
+          66.32469886922318
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "backwalk-source-0.png",
+        "anchor": [
+          191.52941176470588,
+          683.2941176470589
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "backwalk-source-1.png",
+        "anchor": [
+          176.0,
+          683.2941176470589
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "backwalk-source-2.png",
+        "anchor": [
+          160.47058823529412,
+          683.2941176470589
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "backwalk-source-3.png",
+        "anchor": [
+          191.52941176470588,
+          683.2941176470589
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "backwalk-source-4.png",
+        "anchor": [
+          165.64705882352942,
+          683.2941176470589
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "backwalk-source-5.png",
+        "anchor": [
+          145.55882352941177,
+          686.2058823529411
+        ],
+        "scale": 0.43494401984446224
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00066,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "跳跃": {
+    "frames": [
+      {
+        "file": "body-shared-4-0.png",
+        "anchor": [
+          24.03937007874016,
+          66.10826771653544
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-4-1.png",
+        "anchor": [
+          27.608433644070356,
+          58.22869641294838
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-4-2.png",
+        "anchor": [
+          25.431736610779257,
+          61.83402626934564
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-4-3.png",
+        "anchor": [
+          28.528178935342908,
+          51.050425463245205
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-4-4.png",
+        "anchor": [
+          30.823730791488057,
+          63.636089375975345
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-4-5.png",
+        "anchor": [
+          29.387511849131382,
+          54.790276328889014
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "jump-source-0.png",
+        "anchor": [
+          174.0,
+          478.5
+        ],
+        "scale": 0.6217078468639696
+      },
+      {
+        "file": "jump-source-1.png",
+        "anchor": [
+          199.83333333333334,
+          421.46666666666664
+        ],
+        "scale": 0.6217078468639696
+      },
+      {
+        "file": "jump-source-2.png",
+        "anchor": [
+          184.078125,
+          447.5625
+        ],
+        "scale": 0.6217078468639696
+      },
+      {
+        "file": "jump-source-3.png",
+        "anchor": [
+          206.49056603773585,
+          369.50943396226415
+        ],
+        "scale": 0.6217078468639696
+      },
+      {
+        "file": "jump-source-4.png",
+        "anchor": [
+          223.10606060606062,
+          460.6060606060606
+        ],
+        "scale": 0.6217078468639696
+      },
+      {
+        "file": "jump-source-5.png",
+        "anchor": [
+          212.71052631578948,
+          396.57894736842104
+        ],
+        "scale": 0.6217078468639696
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00164,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "前冲": {
+    "frames": [
+      {
+        "file": "body-shared-5-0.png",
+        "anchor": [
+          31.55167322834646,
+          66.10826771653544
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-5-1.png",
+        "anchor": [
+          40.42139552979652,
+          63.87578552856734
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-5-2.png",
+        "anchor": [
+          45.8986786923696,
+          58.8700444097784
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-5-3.png",
+        "anchor": [
+          32.4273820674495,
+          65.85252973697438
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "forwarddash-source-0.png",
+        "anchor": [
+          239.4926470588235,
+          501.7941176470588
+        ],
+        "scale": 0.5928471344370155
+      },
+      {
+        "file": "forwarddash-source-1.png",
+        "anchor": [
+          306.8181818181818,
+          484.8484848484849
+        ],
+        "scale": 0.5928471344370155
+      },
+      {
+        "file": "forwarddash-source-2.png",
+        "anchor": [
+          348.39344262295083,
+          446.8524590163934
+        ],
+        "scale": 0.5928471344370155
+      },
+      {
+        "file": "forwarddash-source-3.png",
+        "anchor": [
+          246.13970588235293,
+          499.85294117647055
+        ],
+        "scale": 0.5928471344370155
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00164,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "后撤": {
+    "frames": [
+      {
+        "file": "body-shared-6-0.png",
+        "anchor": [
+          17.50573394495413,
+          66.021625163827
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-6-1.png",
+        "anchor": [
+          19.476030357486398,
+          61.923788828931116
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-6-2.png",
+        "anchor": [
+          21.04580522032321,
+          56.122147254195234
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-6-3.png",
+        "anchor": [
+          17.88485867561237,
+          59.61619558537458
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "backdash-source-0.png",
+        "anchor": [
+          196.36029411764707,
+          740.5588235294118
+        ],
+        "scale": 0.40117989793341796
+      },
+      {
+        "file": "backdash-source-1.png",
+        "anchor": [
+          218.4609375,
+          694.59375
+        ],
+        "scale": 0.40117989793341796
+      },
+      {
+        "file": "backdash-source-2.png",
+        "anchor": [
+          236.06896551724137,
+          629.5172413793103
+        ],
+        "scale": 0.40117989793341796
+      },
+      {
+        "file": "backdash-source-3.png",
+        "anchor": [
+          200.61290322580643,
+          668.7096774193548
+        ],
+        "scale": 0.40117989793341796
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00033,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "蹲下": {
+    "frames": [
+      {
+        "file": "body-shared-7-0.png",
+        "anchor": [
+          16.5,
+          66.0
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-7-1.png",
+        "anchor": [
+          14.91830127594744,
+          56.68954484860027
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-7-2.png",
+        "anchor": [
+          14.590819985656227,
+          45.28185512789864
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-7-3.png",
+        "anchor": [
+          14.017041198501872,
+          46.05599250936329
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouch-source-0.png",
+        "anchor": [
+          215.95588235294116,
+          863.8235294117646
+        ],
+        "scale": 0.3438202247191011
+      },
+      {
+        "file": "crouch-source-1.png",
+        "anchor": [
+          195.2542372881356,
+          741.9661016949153
+        ],
+        "scale": 0.3438202247191011
+      },
+      {
+        "file": "crouch-source-2.png",
+        "anchor": [
+          190.96808510638297,
+          592.6595744680851
+        ],
+        "scale": 0.3438202247191011
+      },
+      {
+        "file": "crouch-source-3.png",
+        "anchor": [
+          183.45833333333331,
+          602.7916666666666
+        ],
+        "scale": 0.3438202247191011
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.0,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "蹲防": {
+    "frames": [
+      {
+        "file": "body-shared-8-0.png",
+        "anchor": [
+          37.55500000000001,
+          68.08000000000001
+        ],
+        "scale": 4.5,
+        "roi": [
+          31,
+          10,
+          640,
+          563
+        ],
+        "source": "crouchguard-source-v4.png"
+      },
+      {
+        "file": "body-shared-8-1.png",
+        "anchor": [
+          47.976666666666674,
+          67.34
+        ],
+        "scale": 4.5,
+        "roi": [
+          663,
+          17,
+          1441,
+          564
+        ],
+        "source": "crouchguard-source-v4.png"
+      },
+      {
+        "file": "body-shared-8-2.png",
+        "anchor": [
+          42.98166666666667,
+          53.650000000000006
+        ],
+        "scale": 4.5,
+        "roi": [
+          174,
+          584,
+          871,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png"
+      },
+      {
+        "file": "body-shared-8-3.png",
+        "anchor": [
+          35.89000000000001,
+          54.14333333333334
+        ],
+        "scale": 4.5,
+        "roi": [
+          944,
+          580,
+          1526,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouchguard-0.png",
+        "anchor": [
+          304.5,
+          552
+        ],
+        "scale": 0.555,
+        "roi": [
+          31,
+          10,
+          640,
+          563
+        ],
+        "source": "crouchguard-source-v4.png"
+      },
+      {
+        "file": "crouchguard-1.png",
+        "anchor": [
+          389.0,
+          546
+        ],
+        "scale": 0.555,
+        "roi": [
+          663,
+          17,
+          1441,
+          564
+        ],
+        "source": "crouchguard-source-v4.png"
+      },
+      {
+        "file": "crouchguard-2.png",
+        "anchor": [
+          348.5,
+          435
+        ],
+        "scale": 0.555,
+        "roi": [
+          174,
+          584,
+          871,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png"
+      },
+      {
+        "file": "crouchguard-3.png",
+        "anchor": [
+          291.0,
+          439
+        ],
+        "scale": 0.555,
+        "roi": [
+          944,
+          580,
+          1526,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png"
+      }
+    ],
+    "durations": [
+      10,
+      24,
+      10,
+      24
+    ],
+    "phases": [
+      "进入",
+      "保持",
+      "受力",
+      "恢复"
+    ],
+    "status": "",
+    "events": [],
+    "previewOnly": true
+  },
+  "轻攻一": {
+    "frames": [
+      {
+        "file": "light1-attack-fit-0.png",
+        "anchor": [
+          31.211699164345404,
+          68.84801762114537
+        ],
+        "scale": 4.5,
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-fit-1.png",
+        "anchor": [
+          31.30886426592798,
+          68.84801762114537
+        ],
+        "scale": 4.5,
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-fit-2.png",
+        "anchor": [
+          30.87549019607843,
+          67.84955752212389
+        ],
+        "scale": 4.5,
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-fit-3.png",
+        "anchor": [
+          34.38433734939759,
+          65.8496583143508
+        ],
+        "scale": 4.5,
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-fit-4.png",
+        "anchor": [
+          32.88762886597938,
+          66.84841628959276
+        ],
+        "scale": 4.5,
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-fit-5.png",
+        "anchor": [
+          31.9206008583691,
+          67.84922394678492
+        ],
+        "scale": 4.5,
+        "source": "light1-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light1-attack-0.png",
+        "anchor": [
+          207.5,
+          453
+        ],
+        "scale": 0.68,
+        "roi": [
+          36,
+          51,
+          395,
+          505
+        ],
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-1.png",
+        "anchor": [
+          205.5,
+          453
+        ],
+        "scale": 0.68,
+        "roi": [
+          550,
+          51,
+          911,
+          505
+        ],
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-2.png",
+        "anchor": [
+          204.5,
+          451
+        ],
+        "scale": 0.68,
+        "roi": [
+          1015,
+          52,
+          1525,
+          504
+        ],
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-3.png",
+        "anchor": [
+          226.5,
+          438
+        ],
+        "scale": 0.68,
+        "roi": [
+          62,
+          547,
+          477,
+          986
+        ],
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-4.png",
+        "anchor": [
+          218.5,
+          441
+        ],
+        "scale": 0.68,
+        "roi": [
+          537,
+          546,
+          1022,
+          988
+        ],
+        "source": "light1-attack-source-v1.png"
+      },
+      {
+        "file": "light1-attack-5.png",
+        "anchor": [
+          212.5,
+          450
+        ],
+        "scale": 0.68,
+        "roi": [
+          1033,
+          542,
+          1499,
+          993
+        ],
+        "source": "light1-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "light1-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 10,
+      "box": [
+        50,
+        140,
+        180,
+        70
+      ],
+      "lunge": 20,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 9,
+      "worldOffset": [
+        110,
+        -150
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-9-0.png",
+          "anchor": [
+            21.720000000000002,
+            21.720000000000002
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-9-1.png",
+          "anchor": [
+            21.720000000000002,
+            21.720000000000002
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-9-2.png",
+          "anchor": [
+            21.720000000000002,
+            21.720000000000002
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "受击与倒地": {
+    "frames": [
+      {
+        "file": "body-shared-10-0.png",
+        "anchor": [
+          23.015077023926576,
+          66.04326450344148
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-10-1.png",
+        "anchor": [
+          33.43884771555729,
+          52.90325160968764
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-10-2.png",
+        "anchor": [
+          30.879817231123916,
+          38.47321491090849
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-10-3.png",
+        "anchor": [
+          24.417909886004896,
+          17.296019502586805
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "hurt_knockdown-source-0.png",
+        "anchor": [
+          238.11764705882354,
+          683.2941176470589
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "hurt_knockdown-source-1.png",
+        "anchor": [
+          345.9636363636364,
+          547.3454545454546
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "hurt_knockdown-source-2.png",
+        "anchor": [
+          319.4875,
+          398.05
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "hurt_knockdown-source-3.png",
+        "anchor": [
+          252.63157894736844,
+          178.94736842105266
+        ],
+        "scale": 0.43494401984446224
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00066,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "起身": {
+    "frames": [
+      {
+        "file": "body-shared-11-0.png",
+        "anchor": [
+          39.5388524590164,
+          22.021639344262297
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-11-1.png",
+        "anchor": [
+          35.69426744100567,
+          37.20247592442844
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-11-2.png",
+        "anchor": [
+          28.03493416244687,
+          49.061134784282025
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-11-3.png",
+        "anchor": [
+          20.992931317053767,
+          65.97778413931184
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "wakeup-source-0.png",
+        "anchor": [
+          367.0208333333333,
+          204.41666666666666
+        ],
+        "scale": 0.4847812982430347
+      },
+      {
+        "file": "wakeup-source-1.png",
+        "anchor": [
+          331.33333333333337,
+          345.33333333333337
+        ],
+        "scale": 0.4847812982430347
+      },
+      {
+        "file": "wakeup-source-2.png",
+        "anchor": [
+          260.2352941176471,
+          455.4117647058824
+        ],
+        "scale": 0.4847812982430347
+      },
+      {
+        "file": "wakeup-source-3.png",
+        "anchor": [
+          194.86764705882354,
+          612.4411764705882
+        ],
+        "scale": 0.4847812982430347
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00098,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "E · 冰华": {
+    "frames": [
+      {
+        "file": "skillE-attack-fit-0.png",
+        "anchor": [
+          28.83477011494253,
+          67.86427145708583
+        ],
+        "scale": 4.5,
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-fit-1.png",
+        "anchor": [
+          31.33649289099526,
+          61.864923747276684
+        ],
+        "scale": 4.5,
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-fit-2.png",
+        "anchor": [
+          41.15303983228512,
+          62.86363636363637
+        ],
+        "scale": 4.5,
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-fit-3.png",
+        "anchor": [
+          42.47136563876652,
+          66.8649193548387
+        ],
+        "scale": 4.5,
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-fit-4.png",
+        "anchor": [
+          40.884353741496604,
+          65.86447638603696
+        ],
+        "scale": 4.5,
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-fit-5.png",
+        "anchor": [
+          29.084880636604773,
+          68.86417322834646
+        ],
+        "scale": 4.5,
+        "source": "skillE-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "skillE-attack-0.png",
+        "anchor": [
+          213.5,
+          500
+        ],
+        "scale": 0.61,
+        "roi": [
+          80,
+          11,
+          428,
+          512
+        ],
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-1.png",
+        "anchor": [
+          232.0,
+          458
+        ],
+        "scale": 0.61,
+        "roi": [
+          557,
+          51,
+          979,
+          510
+        ],
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-2.png",
+        "anchor": [
+          302.0,
+          461
+        ],
+        "scale": 0.61,
+        "roi": [
+          1000,
+          48,
+          1477,
+          510
+        ],
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-3.png",
+        "anchor": [
+          311.0,
+          495
+        ],
+        "scale": 0.61,
+        "roi": [
+          16,
+          514,
+          470,
+          1010
+        ],
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-4.png",
+        "anchor": [
+          300.5,
+          486
+        ],
+        "scale": 0.61,
+        "roi": [
+          528,
+          524,
+          969,
+          1011
+        ],
+        "source": "skillE-attack-source-v1.png"
+      },
+      {
+        "file": "skillE-attack-5.png",
+        "anchor": [
+          215.0,
+          507
+        ],
+        "scale": 0.61,
+        "roi": [
+          1101,
+          505,
+          1478,
+          1013
+        ],
+        "source": "skillE-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      3,
+      5,
+      10,
+      8
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 12,
+        "kind": "ground-release",
+        "hitId": "skillE-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 12,
+      "active": 8,
+      "recovery": 18,
+      "box": [
+        60,
+        0,
+        220,
+        230
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "E-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        }
+      ],
+      "startTick": 12,
+      "duration": 18,
+      "worldOffset": [
+        150,
+        0
+      ],
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "E-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-12-0.png",
+          "anchor": [
+            37.54666666666667,
+            64.58026666666666
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-12-1.png",
+          "anchor": [
+            37.54666666666667,
+            64.58026666666666
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-12-2.png",
+          "anchor": [
+            37.54666666666667,
+            64.58026666666666
+          ],
+          "scale": 4.5
+        }
+      ]
+    }
+  },
+  "败北": {
+    "frames": [
+      {
+        "file": "body-shared-13-0.png",
+        "anchor": [
+          21.013765978367747,
+          66.04326450344149
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-13-1.png",
+        "anchor": [
+          22.65471130832173,
+          56.38505925626742
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-13-2.png",
+        "anchor": [
+          30.687964591669402,
+          40.587308008336954
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-13-3.png",
+        "anchor": [
+          30.824507259485507,
+          28.835829371776768
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "defeat-source-0.png",
+        "anchor": [
+          200.4264705882353,
+          629.9117647058824
+        ],
+        "scale": 0.4718036825431455
+      },
+      {
+        "file": "defeat-source-1.png",
+        "anchor": [
+          216.07758620689657,
+          537.7931034482759
+        ],
+        "scale": 0.4718036825431455
+      },
+      {
+        "file": "defeat-source-2.png",
+        "anchor": [
+          292.69767441860466,
+          387.1162790697675
+        ],
+        "scale": 0.4718036825431455
+      },
+      {
+        "file": "defeat-source-3.png",
+        "anchor": [
+          294.0,
+          275.03225806451616
+        ],
+        "scale": 0.4718036825431455
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 1.00066,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "胜利": {
+    "frames": [
+      {
+        "file": "body-shared-14-0.png",
+        "anchor": [
+          16.80791397849462,
+          70.03297491039427
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-14-1.png",
+        "anchor": [
+          16.80791397849462,
+          70.03297491039427
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-14-2.png",
+        "anchor": [
+          16.80791397849462,
+          70.03297491039427
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-14-3.png",
+        "anchor": [
+          16.80791397849462,
+          70.03297491039427
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "victory-source-0.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.32827956989247314
+      },
+      {
+        "file": "victory-source-1.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.32827956989247314
+      },
+      {
+        "file": "victory-source-2.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.32827956989247314
+      },
+      {
+        "file": "victory-source-3.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.32827956989247314
+      }
+    ],
+    "durations": [
+      18,
+      18,
+      24,
+      36
+    ],
+    "phases": [
+      "站定",
+      "整理衣装",
+      "致意",
+      "收势"
+    ],
+    "status": "保留既有胜利源图；背景与切帧待处理，旧拟合不展示；显示尺度已初校",
+    "displayCalibration": {
+      "factor": 0.96553,
+      "targetStandingHeight": 305.3,
+      "policy": "one fixed scale per action, provisional reference-pose calibration"
+    }
+  },
+  "投技": {
+    "frames": [
+      {
+        "file": "body-shared-15-0.png",
+        "anchor": [
+          31.638888888888893,
+          65.66000000000001
+        ],
+        "scale": 4.5,
+        "roi": [
+          79,
+          91,
+          504,
+          533
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-15-1.png",
+        "anchor": [
+          29.331111111111113,
+          75.48666666666668
+        ],
+        "scale": 4.5,
+        "roi": [
+          573,
+          29,
+          967,
+          537
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-15-2.png",
+        "anchor": [
+          29.62888888888889,
+          78.16666666666667
+        ],
+        "scale": 4.5,
+        "roi": [
+          1074,
+          8,
+          1472,
+          534
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-15-3.png",
+        "anchor": [
+          33.053333333333335,
+          62.68222222222223
+        ],
+        "scale": 4.5,
+        "roi": [
+          74,
+          581,
+          518,
+          1003
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-15-4.png",
+        "anchor": [
+          32.532222222222224,
+          57.768888888888895
+        ],
+        "scale": 4.5,
+        "roi": [
+          554,
+          617,
+          991,
+          1006
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-15-5.png",
+        "anchor": [
+          29.480000000000004,
+          70.27555555555556
+        ],
+        "scale": 4.5,
+        "roi": [
+          1105,
+          535,
+          1501,
+          1008
+        ],
+        "source": "throw-source-clean-v3.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "throw-0.png",
+        "anchor": [
+          212.5,
+          441
+        ],
+        "scale": 0.67,
+        "roi": [
+          79,
+          91,
+          504,
+          533
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "throw-1.png",
+        "anchor": [
+          197.0,
+          507
+        ],
+        "scale": 0.67,
+        "roi": [
+          573,
+          29,
+          967,
+          537
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "throw-2.png",
+        "anchor": [
+          199.0,
+          525
+        ],
+        "scale": 0.67,
+        "roi": [
+          1074,
+          8,
+          1472,
+          534
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "throw-3.png",
+        "anchor": [
+          222.0,
+          421
+        ],
+        "scale": 0.67,
+        "roi": [
+          74,
+          581,
+          518,
+          1003
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "throw-4.png",
+        "anchor": [
+          218.5,
+          388
+        ],
+        "scale": 0.67,
+        "roi": [
+          554,
+          617,
+          991,
+          1006
+        ],
+        "source": "throw-source-clean-v3.png"
+      },
+      {
+        "file": "throw-5.png",
+        "anchor": [
+          198.0,
+          472
+        ],
+        "scale": 0.67,
+        "roi": [
+          1105,
+          535,
+          1501,
+          1008
+        ],
+        "source": "throw-source-clean-v3.png"
+      }
+    ],
+    "durations": [
+      10,
+      14,
+      10,
+      10,
+      6,
+      22
+    ],
+    "phases": [
+      "抓取",
+      "上挑",
+      "腾空",
+      "下砸",
+      "落地",
+      "恢复"
+    ],
+    "status": "",
+    "events": [
+      {
+        "tick": 44,
+        "kind": "slam",
+        "damageSegments": 1
+      }
+    ],
+    "previewOnly": true
+  },
+  "被投": {
+    "frames": [
+      {
+        "file": "body-shared-16-0.png",
+        "anchor": [
+          27.842222222222226,
+          76.38000000000001
+        ],
+        "scale": 4.5,
+        "roi": [
+          74,
+          85,
+          448,
+          599
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-16-1.png",
+        "anchor": [
+          31.41555555555556,
+          40.05111111111111
+        ],
+        "scale": 4.5,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-16-2.png",
+        "anchor": [
+          31.41555555555556,
+          40.05111111111111
+        ],
+        "scale": 4.5,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-16-3.png",
+        "anchor": [
+          41.46555555555556,
+          24.492222222222225
+        ],
+        "scale": 4.5,
+        "roi": [
+          9,
+          633,
+          566,
+          962
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "body-shared-16-4.png",
+        "anchor": [
+          30.879817231123916,
+          38.47321491090849
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "body-shared-16-5.png",
+        "anchor": [
+          24.417909886004896,
+          17.296019502586805
+        ],
+        "scale": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "victim-0.png",
+        "anchor": [
+          187.0,
+          513
+        ],
+        "scale": 0.67,
+        "roi": [
+          74,
+          85,
+          448,
+          599
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "victim-1.png",
+        "anchor": [
+          211.0,
+          269.0
+        ],
+        "scale": 0.67,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "victim-1.png",
+        "anchor": [
+          211.0,
+          269.0
+        ],
+        "scale": 0.67,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "victim-3.png",
+        "anchor": [
+          278.5,
+          164.5
+        ],
+        "scale": 0.67,
+        "roi": [
+          9,
+          633,
+          566,
+          962
+        ],
+        "source": "victim-source-clean-v3.png"
+      },
+      {
+        "file": "original-landing-clean.png",
+        "anchor": [
+          319.4875,
+          398.05
+        ],
+        "scale": 0.43494401984446224
+      },
+      {
+        "file": "hurt_knockdown-source-3.png",
+        "anchor": [
+          252.63157894736844,
+          178.94736842105266
+        ],
+        "scale": 0.43494401984446224
+      }
+    ],
+    "durations": [
+      10,
+      14,
+      10,
+      10,
+      6,
+      22
+    ],
+    "phases": [
+      "被抓",
+      "上升",
+      "腾空",
+      "下落",
+      "落地",
+      "倒地"
+    ],
+    "status": "被投连续段接原倒地；落地单段结算",
+    "events": [
+      {
+        "tick": 44,
+        "kind": "slam",
+        "damageSegments": 1
+      }
+    ],
+    "previewOnly": true,
+    "continuation": {
+      "action": "受击与倒地",
+      "frame": "last",
+      "atTick": 44
+    }
+  },
+  "轻攻二": {
+    "frames": [
+      {
+        "file": "light2-attack-fit-0.png",
+        "anchor": [
+          37.3446519524618,
+          67.8407494145199
+        ],
+        "scale": 4.5,
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-fit-1.png",
+        "anchor": [
+          37.97029702970297,
+          67.83962264150944
+        ],
+        "scale": 4.5,
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-fit-2.png",
+        "anchor": [
+          38.12668161434978,
+          77.8395061728395
+        ],
+        "scale": 4.5,
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-fit-3.png",
+        "anchor": [
+          37.57756563245823,
+          75.84100418410041
+        ],
+        "scale": 4.5,
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-fit-4.png",
+        "anchor": [
+          34.69430051813472,
+          67.8411214953271
+        ],
+        "scale": 4.5,
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-fit-5.png",
+        "anchor": [
+          37.53383458646616,
+          73.84051724137932
+        ],
+        "scale": 4.5,
+        "source": "light2-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light2-attack-0.png",
+        "anchor": [
+          234.0,
+          426
+        ],
+        "scale": 0.72,
+        "roi": [
+          27,
+          79,
+          616,
+          506
+        ],
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-1.png",
+        "anchor": [
+          236.0,
+          423
+        ],
+        "scale": 0.72,
+        "roi": [
+          604,
+          83,
+          1008,
+          507
+        ],
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-2.png",
+        "anchor": [
+          239.5,
+          485
+        ],
+        "scale": 0.72,
+        "roi": [
+          1057,
+          19,
+          1503,
+          505
+        ],
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-3.png",
+        "anchor": [
+          235.0,
+          477
+        ],
+        "scale": 0.72,
+        "roi": [
+          101,
+          531,
+          520,
+          1009
+        ],
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-4.png",
+        "anchor": [
+          216.0,
+          427
+        ],
+        "scale": 0.72,
+        "roi": [
+          607,
+          579,
+          993,
+          1007
+        ],
+        "source": "light2-attack-source-v1.png"
+      },
+      {
+        "file": "light2-attack-5.png",
+        "anchor": [
+          234.0,
+          463
+        ],
+        "scale": 0.72,
+        "roi": [
+          1100,
+          544,
+          1499,
+          1008
+        ],
+        "source": "light2-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      2,
+      5,
+      7
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "light2-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 4,
+      "recovery": 12,
+      "box": [
+        50,
+        155,
+        200,
+        90
+      ],
+      "lunge": 22,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 10,
+      "worldOffset": [
+        115,
+        -155
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-17-0.png",
+          "anchor": [
+            23.328888888888887,
+            23.328888888888887
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-17-1.png",
+          "anchor": [
+            23.328888888888887,
+            23.328888888888887
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-17-2.png",
+          "anchor": [
+            23.328888888888887,
+            23.328888888888887
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "轻攻三": {
+    "frames": [
+      {
+        "file": "light3-attack-fit-0.png",
+        "anchor": [
+          29.180428134556575,
+          81.83984375
+        ],
+        "scale": 4.5,
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-fit-1.png",
+        "anchor": [
+          32.78611111111111,
+          82.8391472868217
+        ],
+        "scale": 4.5,
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-fit-2.png",
+        "anchor": [
+          33.029535864978904,
+          66.83971291866028
+        ],
+        "scale": 4.5,
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-fit-3.png",
+        "anchor": [
+          33.7137330754352,
+          61.83979328165375
+        ],
+        "scale": 4.5,
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-fit-4.png",
+        "anchor": [
+          38.839506172839506,
+          65.84057971014494
+        ],
+        "scale": 4.5,
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-fit-5.png",
+        "anchor": [
+          31.221238938053098,
+          77.83983572895278
+        ],
+        "scale": 4.5,
+        "source": "light3-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light3-attack-0.png",
+        "anchor": [
+          183.5,
+          511
+        ],
+        "scale": 0.72,
+        "roi": [
+          85,
+          16,
+          412,
+          528
+        ],
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-1.png",
+        "anchor": [
+          203.5,
+          515
+        ],
+        "scale": 0.72,
+        "roi": [
+          571,
+          13,
+          931,
+          529
+        ],
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-2.png",
+        "anchor": [
+          206.0,
+          417
+        ],
+        "scale": 0.72,
+        "roi": [
+          1050,
+          111,
+          1524,
+          529
+        ],
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-3.png",
+        "anchor": [
+          210.0,
+          386
+        ],
+        "scale": 0.72,
+        "roi": [
+          97,
+          619,
+          614,
+          1006
+        ],
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-4.png",
+        "anchor": [
+          242.0,
+          413
+        ],
+        "scale": 0.72,
+        "roi": [
+          593,
+          593,
+          998,
+          1007
+        ],
+        "source": "light3-attack-source-v1.png"
+      },
+      {
+        "file": "light3-attack-5.png",
+        "anchor": [
+          196.0,
+          486
+        ],
+        "scale": 0.72,
+        "roi": [
+          1081,
+          523,
+          1420,
+          1010
+        ],
+        "source": "light3-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "kind": "hit",
+        "hitId": "light3-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 16,
+      "box": [
+        45,
+        100,
+        210,
+        150
+      ],
+      "lunge": 28,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 7,
+      "duration": 11,
+      "worldOffset": [
+        120,
+        -145
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-18-0.png",
+          "anchor": [
+            24.93777777777778,
+            24.93777777777778
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-18-1.png",
+          "anchor": [
+            24.93777777777778,
+            24.93777777777778
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-18-2.png",
+          "anchor": [
+            24.93777777777778,
+            24.93777777777778
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "站重": {
+    "frames": [
+      {
+        "file": "heavy-attack-fit-0.png",
+        "anchor": [
+          29.764444444444447,
+          69.83529411764707
+        ],
+        "scale": 4.5,
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-fit-1.png",
+        "anchor": [
+          38.29323308270676,
+          60.83423913043479
+        ],
+        "scale": 4.5,
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-fit-2.png",
+        "anchor": [
+          36.62893081761006,
+          78.8347280334728
+        ],
+        "scale": 4.5,
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-fit-3.png",
+        "anchor": [
+          49.80793319415449,
+          77.83474576271186
+        ],
+        "scale": 4.5,
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-fit-4.png",
+        "anchor": [
+          42.72639225181598,
+          75.83655913978495
+        ],
+        "scale": 4.5,
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-fit-5.png",
+        "anchor": [
+          33.150313152400834,
+          65.83582089552239
+        ],
+        "scale": 4.5,
+        "source": "heavy-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "heavy-attack-0.png",
+        "anchor": [
+          181.0,
+          424
+        ],
+        "scale": 0.74,
+        "roi": [
+          46,
+          67,
+          496,
+          492
+        ],
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-1.png",
+        "anchor": [
+          231.5,
+          367
+        ],
+        "scale": 0.74,
+        "roi": [
+          544,
+          124,
+          943,
+          492
+        ],
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-2.png",
+        "anchor": [
+          224.0,
+          477
+        ],
+        "scale": 0.74,
+        "roi": [
+          1041,
+          15,
+          1518,
+          493
+        ],
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-3.png",
+        "anchor": [
+          302.0,
+          471
+        ],
+        "scale": 0.74,
+        "roi": [
+          32,
+          527,
+          511,
+          999
+        ],
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-4.png",
+        "anchor": [
+          259.5,
+          464
+        ],
+        "scale": 0.74,
+        "roi": [
+          555,
+          535,
+          968,
+          1000
+        ],
+        "source": "heavy-attack-source-v1.png"
+      },
+      {
+        "file": "heavy-attack-5.png",
+        "anchor": [
+          201.0,
+          401
+        ],
+        "scale": 0.74,
+        "roi": [
+          1040,
+          601,
+          1519,
+          1003
+        ],
+        "source": "heavy-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      5,
+      6,
+      2,
+      2,
+      9,
+      10
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 11,
+        "kind": "hit",
+        "hitId": "heavy-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 11,
+      "active": 4,
+      "recovery": 19,
+      "box": [
+        40,
+        90,
+        210,
+        200
+      ],
+      "lunge": 35,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 10,
+      "duration": 10,
+      "worldOffset": [
+        125,
+        -145
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-19-0.png",
+          "anchor": [
+            27.351111111111113,
+            27.351111111111113
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-19-1.png",
+          "anchor": [
+            27.351111111111113,
+            27.351111111111113
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-19-2.png",
+          "anchor": [
+            27.351111111111113,
+            27.351111111111113
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "蹲轻": {
+    "frames": [
+      {
+        "file": "crouchlight-attack-fit-0.png",
+        "anchor": [
+          37.40031897926635,
+          61.83979328165375
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-fit-1.png",
+        "anchor": [
+          39.268927444794954,
+          61.84020618556701
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-fit-2.png",
+        "anchor": [
+          38.99543378995434,
+          61.84020618556701
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-fit-3.png",
+        "anchor": [
+          39.63470319634703,
+          62.8388746803069
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-fit-4.png",
+        "anchor": [
+          39.3768115942029,
+          62.839285714285715
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-fit-5.png",
+        "anchor": [
+          40.38855421686747,
+          62.8388746803069
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-attack-source-v3.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouchlight-attack-0.png",
+        "anchor": [
+          234.5,
+          386
+        ],
+        "scale": 0.72,
+        "roi": [
+          3,
+          9,
+          630,
+          396
+        ],
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-1.png",
+        "anchor": [
+          246.5,
+          387
+        ],
+        "scale": 0.72,
+        "roi": [
+          638,
+          9,
+          1272,
+          397
+        ],
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-2.png",
+        "anchor": [
+          244.0,
+          387
+        ],
+        "scale": 0.72,
+        "roi": [
+          1251,
+          9,
+          1908,
+          397
+        ],
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-3.png",
+        "anchor": [
+          248.0,
+          390
+        ],
+        "scale": 0.72,
+        "roi": [
+          12,
+          418,
+          669,
+          809
+        ],
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-4.png",
+        "anchor": [
+          247.0,
+          391
+        ],
+        "scale": 0.72,
+        "roi": [
+          646,
+          416,
+          1267,
+          808
+        ],
+        "source": "crouchlight-attack-source-v3.png"
+      },
+      {
+        "file": "crouchlight-attack-5.png",
+        "anchor": [
+          253.0,
+          390
+        ],
+        "scale": 0.72,
+        "roi": [
+          1244,
+          418,
+          1908,
+          809
+        ],
+        "source": "crouchlight-attack-source-v3.png"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "crouchlight-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 10,
+      "box": [
+        50,
+        60,
+        250,
+        80
+      ],
+      "lunge": 10,
+      "level": "low",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 9,
+      "worldOffset": [
+        160,
+        -100
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-20-0.png",
+          "anchor": [
+            28.155555555555555,
+            28.155555555555555
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-20-1.png",
+          "anchor": [
+            28.155555555555555,
+            28.155555555555555
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-20-2.png",
+          "anchor": [
+            28.155555555555555,
+            28.155555555555555
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "蹲重": {
+    "frames": [
+      {
+        "file": "crouchheavy-attack-fit-0.png",
+        "anchor": [
+          37.92,
+          61.840616966580974
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-fit-1.png",
+        "anchor": [
+          53.68518518518518,
+          59.839142091152816
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-fit-2.png",
+        "anchor": [
+          37.70594713656388,
+          56.83898305084746
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-fit-3.png",
+        "anchor": [
+          55.771004942339374,
+          59.84084880636605
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-fit-4.png",
+        "anchor": [
+          40.07843137254902,
+          64.83910891089108
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-fit-5.png",
+        "anchor": [
+          36.44181034482759,
+          63.84
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouchheavy-attack-0.png",
+        "anchor": [
+          237.0,
+          388
+        ],
+        "scale": 0.72,
+        "roi": [
+          36,
+          106,
+          536,
+          495
+        ],
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-1.png",
+        "anchor": [
+          334.5,
+          372
+        ],
+        "scale": 0.72,
+        "roi": [
+          486,
+          121,
+          1053,
+          494
+        ],
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-2.png",
+        "anchor": [
+          234.5,
+          353
+        ],
+        "scale": 0.72,
+        "roi": [
+          1073,
+          142,
+          1527,
+          496
+        ],
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-3.png",
+        "anchor": [
+          349.0,
+          376
+        ],
+        "scale": 0.72,
+        "roi": [
+          10,
+          595,
+          617,
+          972
+        ],
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-4.png",
+        "anchor": [
+          252.0,
+          403
+        ],
+        "scale": 0.72,
+        "roi": [
+          583,
+          569,
+          1042,
+          973
+        ],
+        "source": "crouchheavy-attack-source-v1.png"
+      },
+      {
+        "file": "crouchheavy-attack-5.png",
+        "anchor": [
+          228.5,
+          399
+        ],
+        "scale": 0.72,
+        "roi": [
+          1061,
+          572,
+          1525,
+          972
+        ],
+        "source": "crouchheavy-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      2,
+      11,
+      12
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 10,
+        "kind": "hit",
+        "hitId": "crouchheavy-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 10,
+      "active": 4,
+      "recovery": 23,
+      "box": [
+        45,
+        0,
+        220,
+        70
+      ],
+      "lunge": 20,
+      "level": "low",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-3-0.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-1.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-2.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 9,
+      "duration": 10,
+      "worldOffset": [
+        125,
+        -55
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-3-0.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-1.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-2.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-21-0.png",
+          "anchor": [
+            30.166666666666664,
+            47.06
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-21-1.png",
+          "anchor": [
+            30.166666666666664,
+            47.06
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-21-2.png",
+          "anchor": [
+            30.166666666666664,
+            47.06
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "空轻": {
+    "frames": [
+      {
+        "file": "airlight-attack-fit-0.png",
+        "anchor": [
+          33.34839924670433,
+          36.97516930022574
+        ],
+        "scale": 4.5,
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-fit-1.png",
+        "anchor": [
+          27.428940568475454,
+          38.391666666666666
+        ],
+        "scale": 4.5,
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-fit-2.png",
+        "anchor": [
+          38.842911877394634,
+          32.84018264840183
+        ],
+        "scale": 4.5,
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-fit-3.png",
+        "anchor": [
+          34.73462214411248,
+          37.163043478260875
+        ],
+        "scale": 4.5,
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-fit-4.png",
+        "anchor": [
+          26.573684210526316,
+          35.857142857142854
+        ],
+        "scale": 4.5,
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-fit-5.png",
+        "anchor": [
+          34.14579055441478,
+          36.411378555798684
+        ],
+        "scale": 4.5,
+        "source": "airlight-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "airlight-attack-0.png",
+        "anchor": [
+          233.0,
+          260
+        ],
+        "scale": 0.64,
+        "roi": [
+          23,
+          20,
+          554,
+          463
+        ],
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-1.png",
+        "anchor": [
+          193.0,
+          271
+        ],
+        "scale": 0.64,
+        "roi": [
+          575,
+          9,
+          962,
+          489
+        ],
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-2.png",
+        "anchor": [
+          274.0,
+          232
+        ],
+        "scale": 0.64,
+        "roi": [
+          1006,
+          48,
+          1528,
+          486
+        ],
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-3.png",
+        "anchor": [
+          244.0,
+          263
+        ],
+        "scale": 0.64,
+        "roi": [
+          12,
+          529,
+          581,
+          989
+        ],
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-4.png",
+        "anchor": [
+          187.0,
+          251
+        ],
+        "scale": 0.64,
+        "roi": [
+          581,
+          541,
+          961,
+          989
+        ],
+        "source": "airlight-attack-source-v1.png"
+      },
+      {
+        "file": "airlight-attack-5.png",
+        "anchor": [
+          241.0,
+          256
+        ],
+        "scale": 0.64,
+        "roi": [
+          1039,
+          536,
+          1526,
+          993
+        ],
+        "source": "airlight-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "airlight-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 6,
+      "recovery": 8,
+      "box": [
+        35,
+        -30,
+        160,
+        110
+      ],
+      "lunge": 12,
+      "level": "high",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 12,
+      "worldOffset": [
+        115,
+        0
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-22-0.png",
+          "anchor": [
+            20.915555555555557,
+            20.915555555555557
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-22-1.png",
+          "anchor": [
+            20.915555555555557,
+            20.915555555555557
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-22-2.png",
+          "anchor": [
+            20.915555555555557,
+            20.915555555555557
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "空重": {
+    "frames": [
+      {
+        "file": "airheavy-attack-fit-0.png",
+        "anchor": [
+          33.170515097690945,
+          32.19512195121951
+        ],
+        "scale": 4.5,
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-fit-1.png",
+        "anchor": [
+          37.38053097345133,
+          38.462450592885375
+        ],
+        "scale": 4.5,
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-fit-2.png",
+        "anchor": [
+          36.208,
+          27.52570093457944
+        ],
+        "scale": 4.5,
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-fit-3.png",
+        "anchor": [
+          33.38235294117647,
+          39.64410480349345
+        ],
+        "scale": 4.5,
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-fit-4.png",
+        "anchor": [
+          31.054435483870968,
+          37.066985645933016
+        ],
+        "scale": 4.5,
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-fit-5.png",
+        "anchor": [
+          28.741496598639458,
+          36.911764705882355
+        ],
+        "scale": 4.5,
+        "source": "airheavy-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "airheavy-attack-0.png",
+        "anchor": [
+          225.0,
+          220
+        ],
+        "scale": 0.66,
+        "roi": [
+          31,
+          60,
+          594,
+          511
+        ],
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-1.png",
+        "anchor": [
+          256.0,
+          263
+        ],
+        "scale": 0.66,
+        "roi": [
+          512,
+          17,
+          964,
+          523
+        ],
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-2.png",
+        "anchor": [
+          248.0,
+          187
+        ],
+        "scale": 0.66,
+        "roi": [
+          1032,
+          93,
+          1532,
+          521
+        ],
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-3.png",
+        "anchor": [
+          227.0,
+          271
+        ],
+        "scale": 0.66,
+        "roi": [
+          29,
+          521,
+          641,
+          979
+        ],
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-4.png",
+        "anchor": [
+          211.0,
+          254
+        ],
+        "scale": 0.66,
+        "roi": [
+          557,
+          538,
+          1053,
+          956
+        ],
+        "source": "airheavy-attack-source-v1.png"
+      },
+      {
+        "file": "airheavy-attack-5.png",
+        "anchor": [
+          195.0,
+          251
+        ],
+        "scale": 0.66,
+        "roi": [
+          1085,
+          541,
+          1526,
+          949
+        ],
+        "source": "airheavy-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      4,
+      5,
+      3,
+      3,
+      6,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 9,
+        "kind": "hit",
+        "hitId": "airheavy-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 9,
+      "active": 6,
+      "recovery": 12,
+      "box": [
+        20,
+        -110,
+        190,
+        190
+      ],
+      "lunge": 18,
+      "level": "high",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 8,
+      "duration": 12,
+      "worldOffset": [
+        125,
+        20
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-23-0.png",
+          "anchor": [
+            26.144444444444446,
+            26.144444444444446
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-23-1.png",
+          "anchor": [
+            26.144444444444446,
+            26.144444444444446
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-23-2.png",
+          "anchor": [
+            26.144444444444446,
+            26.144444444444446
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    }
+  },
+  "Q · 霜灭": {
+    "frames": [
+      {
+        "file": "skillQ-attack-fit-0.png",
+        "anchor": [
+          29.46186440677966,
+          67.85654008438819
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-1.png",
+        "anchor": [
+          30.904632152588555,
+          67.85744234800839
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-2.png",
+        "anchor": [
+          39.172413793103445,
+          67.85684210526315
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-3.png",
+        "anchor": [
+          37.42857142857143,
+          67.85714285714286
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-3.png",
+        "anchor": [
+          37.42857142857143,
+          67.85714285714286
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-4.png",
+        "anchor": [
+          30.502392344497608,
+          67.85593220338983
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-4.png",
+        "anchor": [
+          30.502392344497608,
+          67.85593220338983
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-fit-5.png",
+        "anchor": [
+          29.677111716621255,
+          67.85684210526315
+        ],
+        "scale": 4.5,
+        "source": "skillQ-attack-source-v1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "skillQ-attack-0.png",
+        "anchor": [
+          204.5,
+          473
+        ],
+        "scale": 0.645,
+        "roi": [
+          117,
+          29,
+          471,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-1.png",
+        "anchor": [
+          214.0,
+          476
+        ],
+        "scale": 0.645,
+        "roi": [
+          608,
+          26,
+          975,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-2.png",
+        "anchor": [
+          272.0,
+          474
+        ],
+        "scale": 0.645,
+        "roi": [
+          1021,
+          28,
+          1514,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-3.png",
+        "anchor": [
+          262.0,
+          475
+        ],
+        "scale": 0.645,
+        "roi": [
+          31,
+          524,
+          682,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-3.png",
+        "anchor": [
+          262.0,
+          475
+        ],
+        "scale": 0.645,
+        "roi": [
+          31,
+          524,
+          682,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-4.png",
+        "anchor": [
+          212.5,
+          471
+        ],
+        "scale": 0.645,
+        "roi": [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-4.png",
+        "anchor": [
+          212.5,
+          471
+        ],
+        "scale": 0.645,
+        "roi": [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      },
+      {
+        "file": "skillQ-attack-5.png",
+        "anchor": [
+          205.5,
+          474
+        ],
+        "scale": 0.645,
+        "roi": [
+          1129,
+          525,
+          1496,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png"
+      }
+    ],
+    "durations": [
+      12,
+      30,
+      10,
+      18,
+      24,
+      24,
+      14,
+      20
+    ],
+    "phases": [
+      "聚霜",
+      "切入蓄势",
+      "拔刀",
+      "冰球释放",
+      "冰风 · 第一击",
+      "冰风 · 第二击",
+      "冰风 · 收束",
+      "收刀恢复"
+    ],
+    "events": [
+      {
+        "tick": 70,
+        "kind": "cinematic-hit",
+        "hitId": "Q-1"
+      },
+      {
+        "tick": 94,
+        "kind": "cinematic-hit",
+        "hitId": "Q-2"
+      },
+      {
+        "tick": 118,
+        "kind": "cinematic-hit",
+        "hitId": "Q-3"
+      }
+    ],
+    "combatDesign": {
+      "startup": 52,
+      "active": 80,
+      "recovery": 20,
+      "box": [
+        90,
+        50,
+        230,
+        260
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥短恢复",
+        "防御短恢复",
+        "命中确认后完整冰风演出"
+      ],
+      "status": "design-only",
+      "confirmedHits": [
+        70,
+        94,
+        118
+      ]
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "Q-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        }
+      ],
+      "startTick": 52,
+      "duration": 80,
+      "worldOffset": [
+        180,
+        -160
+      ],
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "Q-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-24-0.png",
+          "anchor": [
+            37.54666666666667,
+            37.54666666666667
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-24-1.png",
+          "anchor": [
+            37.54666666666667,
+            37.54666666666667
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-24-2.png",
+          "anchor": [
+            37.54666666666667,
+            37.54666666666667
+          ],
+          "scale": 4.5
+        }
+      ]
+    },
+    "cinematic": {
+      "cutin": [
+        12,
+        42
+      ],
+      "releaseTick": 52,
+      "hitTicks": [
+        70,
+        94,
+        118
+      ],
+      "endTick": 152,
+      "effect": "existing ice-ball / ice-wind",
+      "previewOnly": true
+    }
+  }
+}

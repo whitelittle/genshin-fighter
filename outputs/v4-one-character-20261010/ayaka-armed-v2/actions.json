@@ -1,0 +1,7034 @@
+{
+  "站立格挡": {
+    "frames": [
+      {
+        "file": "calibrated-0-0.png",
+        "roi": [
+          53,
+          18,
+          507,
+          756
+        ],
+        "anchor": [
+          29.405286343612335,
+          80.78048780487805
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 116.85000000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487548138639282,
+        "scaleY": 4.502923976608187
+      },
+      {
+        "file": "calibrated-0-1.png",
+        "roi": [
+          549,
+          18,
+          1002,
+          756
+        ],
+        "anchor": [
+          27.70419426048565,
+          80.78048780487805
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 116.85000000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4776636713735565,
+        "scaleY": 4.502923976608187
+      },
+      {
+        "file": "calibrated-0-2.png",
+        "roi": [
+          1032,
+          28,
+          1494,
+          756
+        ],
+        "anchor": [
+          28.48051948051948,
+          80.77747252747253
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 115.26666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.538580614432008,
+        "scaleY": 4.502923976608188
+      },
+      {
+        "file": "calibrated-0-3.png",
+        "roi": [
+          1528,
+          17,
+          1953,
+          756
+        ],
+        "anchor": [
+          24.550588235294118,
+          80.7807848443843
+        ],
+        "scale": 4.5,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 117.00833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.462993634144383,
+        "scaleY": 4.502923976608188
+      }
+    ],
+    "durations": [
+      12,
+      24,
+      12,
+      24
+    ],
+    "phases": [
+      "进入格挡",
+      "保持",
+      "受力",
+      "恢复"
+    ],
+    "status": "新作v2，胸前架刀；关键姿势待验；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    },
+    "sourceFrames": [
+      {
+        "file": "guard-0.png",
+        "roi": [
+          53,
+          18,
+          507,
+          756
+        ],
+        "anchor": [
+          267,
+          736
+        ],
+        "scale": 0.4942233632862645,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 116.85000000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "guard-1.png",
+        "roi": [
+          549,
+          18,
+          1002,
+          756
+        ],
+        "anchor": [
+          251,
+          736
+        ],
+        "scale": 0.4942233632862645,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 116.85000000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "guard-2.png",
+        "roi": [
+          1032,
+          28,
+          1494,
+          756
+        ],
+        "anchor": [
+          258,
+          726
+        ],
+        "scale": 0.5010121457489879,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 115.26666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "guard-3.png",
+        "roi": [
+          1528,
+          17,
+          1953,
+          756
+        ],
+        "anchor": [
+          222,
+          737
+        ],
+        "scale": 0.4935545901289083,
+        "source": "standguard-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 117.00833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ]
+  },
+  "待机": {
+    "frames": [
+      {
+        "file": "calibrated-1-0.png",
+        "anchor": [
+          31.5,
+          81.66666666666667
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 156.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.48943802311678,
+        "scaleY": 4.48943802311678
+      },
+      {
+        "file": "calibrated-1-1.png",
+        "anchor": [
+          30.5,
+          79.72222222222221
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 161.2,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.510434039783592,
+        "scaleY": 4.473763844338197
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "idle-source-0.png",
+        "anchor": [
+          384.0,
+          995.5555555555555
+        ],
+        "scale": 0.36827421283379835,
+        "anatomy": {
+          "headLengthSourcePx": 156.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "idle-source-1.png",
+        "anchor": [
+          384.0,
+          995.5555555555555
+        ],
+        "scale": 0.35825062034739463,
+        "anatomy": {
+          "headLengthSourcePx": 161.2,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "前走": {
+    "frames": [
+      {
+        "file": "calibrated-2-0.png",
+        "anchor": [
+          36.0,
+          70.0
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 90.81428571428572,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.522049184625872,
+        "scaleY": 4.522049184625872
+      },
+      {
+        "file": "calibrated-2-1.png",
+        "anchor": [
+          35.5,
+          69.02777777777777
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 92.46666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.503792763792561,
+        "scaleY": 4.503792763792561
+      },
+      {
+        "file": "calibrated-2-2.png",
+        "anchor": [
+          38.5,
+          74.86111111111111
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 85.42857142857143,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.494983277591974,
+        "scaleY": 4.494983277591974
+      },
+      {
+        "file": "calibrated-2-3.png",
+        "anchor": [
+          38.0,
+          73.88888888888889
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 86.67619047619048,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.488575575847651,
+        "scaleY": 4.488575575847651
+      },
+      {
+        "file": "calibrated-2-4.png",
+        "anchor": [
+          35.5,
+          69.02777777777777
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 92.46666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.503792763792561,
+        "scaleY": 4.503792763792561
+      },
+      {
+        "file": "calibrated-2-5.png",
+        "anchor": [
+          36.5,
+          70.97222222222221
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 89.51428571428572,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.524876589902453,
+        "scaleY": 4.524876589902453
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "walk-source-0.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.6359131665880132,
+        "anatomy": {
+          "headLengthSourcePx": 90.81428571428572,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "walk-source-1.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.6245493871665466,
+        "anatomy": {
+          "headLengthSourcePx": 92.46666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "walk-source-2.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.6760033444816054,
+        "anatomy": {
+          "headLengthSourcePx": 85.42857142857143,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "walk-source-3.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.6662729370398858,
+        "anatomy": {
+          "headLengthSourcePx": 86.67619047619048,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "walk-source-4.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.6245493871665466,
+        "anatomy": {
+          "headLengthSourcePx": 92.46666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "walk-source-5.png",
+        "anchor": [
+          256.0,
+          497.77777777777777
+        ],
+        "scale": 0.6451484200446856,
+        "anatomy": {
+          "headLengthSourcePx": 89.51428571428572,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "后退": {
+    "frames": [
+      {
+        "file": "calibrated-3-0.png",
+        "anchor": [
+          21.775953792369663,
+          76.6764705882353
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.452662721893491,
+        "scaleY": 4.51135578691567
+      },
+      {
+        "file": "calibrated-3-1.png",
+        "anchor": [
+          20.0,
+          76.6764705882353
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.454963839579224,
+        "scaleY": 4.51135578691567
+      },
+      {
+        "file": "calibrated-3-2.png",
+        "anchor": [
+          17.99670148433205,
+          76.6764705882353
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.514025860179706,
+        "scaleY": 4.51135578691567
+      },
+      {
+        "file": "calibrated-3-3.png",
+        "anchor": [
+          21.719830200121287,
+          76.6764705882353
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.464168310322156,
+        "scaleY": 4.51135578691567
+      },
+      {
+        "file": "calibrated-3-4.png",
+        "anchor": [
+          18.789815627743636,
+          76.6764705882353
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.462957195750718,
+        "scaleY": 4.51135578691567
+      },
+      {
+        "file": "calibrated-3-5.png",
+        "anchor": [
+          16.393997189319414,
+          76.67647058823529
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.5625,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.475722858701583,
+        "scaleY": 4.511301249249001
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "backwalk-source-0.png",
+        "anchor": [
+          191.52941176470588,
+          683.2941176470589
+        ],
+        "scale": 0.5062458908612755,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backwalk-source-1.png",
+        "anchor": [
+          176.0,
+          683.2941176470589
+        ],
+        "scale": 0.5062458908612755,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backwalk-source-2.png",
+        "anchor": [
+          160.47058823529412,
+          683.2941176470589
+        ],
+        "scale": 0.5062458908612755,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backwalk-source-3.png",
+        "anchor": [
+          191.52941176470588,
+          683.2941176470589
+        ],
+        "scale": 0.5062458908612755,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backwalk-source-4.png",
+        "anchor": [
+          165.64705882352942,
+          683.2941176470589
+        ],
+        "scale": 0.5062458908612755,
+        "anatomy": {
+          "headLengthSourcePx": 114.075,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backwalk-source-5.png",
+        "anchor": [
+          145.55882352941177,
+          686.2058823529411
+        ],
+        "scale": 0.5040916530278233,
+        "anatomy": {
+          "headLengthSourcePx": 114.5625,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "跳跃": {
+    "frames": [
+      {
+        "file": "calibrated-4-0.png",
+        "anchor": [
+          25.217391304347828,
+          69.88235294117646
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 87.97083333333333,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5296262965945155,
+        "scaleY": 4.494979396580306
+      },
+      {
+        "file": "calibrated-4-1.png",
+        "anchor": [
+          31.051796157059314,
+          64.76666666666667
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 83.18095238095238,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.467960307142278,
+        "scaleY": 4.517933005000189
+      },
+      {
+        "file": "calibrated-4-2.png",
+        "anchor": [
+          28.011888586956523,
+          67.8125
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 84.33333333333333,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.500000000000001,
+        "scaleY": 4.519565217391305
+      },
+      {
+        "file": "calibrated-4-3.png",
+        "anchor": [
+          32.07620443304634,
+          57.735849056603776
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 82.0,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.533727134146342,
+        "scaleY": 4.507317073170732
+      },
+      {
+        "file": "calibrated-4-4.png",
+        "anchor": [
+          31.730639730639734,
+          65.93939393939394
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 89.6,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.531860351562501,
+        "scaleY": 4.502240349264707
+      },
+      {
+        "file": "calibrated-4-5.png",
+        "anchor": [
+          30.81320708312838,
+          56.92982456140351
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 89.25714285714285,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.466435711040437,
+        "scaleY": 4.50711685366436
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "jump-source-0.png",
+        "anchor": [
+          174.0,
+          478.5
+        ],
+        "scale": 0.6564675792165965,
+        "anatomy": {
+          "headLengthSourcePx": 87.97083333333333,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "jump-source-1.png",
+        "anchor": [
+          199.83333333333334,
+          421.46666666666664
+        ],
+        "scale": 0.6942695214105795,
+        "anatomy": {
+          "headLengthSourcePx": 83.18095238095238,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "jump-source-2.png",
+        "anchor": [
+          184.078125,
+          447.5625
+        ],
+        "scale": 0.6847826086956523,
+        "anatomy": {
+          "headLengthSourcePx": 84.33333333333333,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "jump-source-3.png",
+        "anchor": [
+          206.49056603773585,
+          369.50943396226415
+        ],
+        "scale": 0.7042682926829269,
+        "anatomy": {
+          "headLengthSourcePx": 82.0,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "jump-source-4.png",
+        "anchor": [
+          223.10606060606062,
+          460.6060606060606
+        ],
+        "scale": 0.6445312500000001,
+        "anatomy": {
+          "headLengthSourcePx": 89.6,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "jump-source-5.png",
+        "anchor": [
+          212.71052631578948,
+          396.57894736842104
+        ],
+        "scale": 0.6470070422535212,
+        "anatomy": {
+          "headLengthSourcePx": 89.25714285714285,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "前冲": {
+    "frames": [
+      {
+        "file": "calibrated-5-0.png",
+        "anchor": [
+          32.99898685987965,
+          68.91176470588235
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 93.12857142857142,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.500498542721277,
+        "scaleY": 4.51545212369477
+      },
+      {
+        "file": "calibrated-5-1.png",
+        "anchor": [
+          43.1928508384819,
+          68.84848484848484
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 90.93333333333334,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.511262513904339,
+        "scaleY": 4.472398909586552
+      },
+      {
+        "file": "calibrated-5-2.png",
+        "anchor": [
+          43.30032786885246,
+          56.0983606557377
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 103.03809523809524,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.50954737992867,
+        "scaleY": 4.4644519061293835
+      },
+      {
+        "file": "calibrated-5-3.png",
+        "anchor": [
+          32.88506191950464,
+          66.9705882352941
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 96.05714285714286,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.499925639500297,
+        "scaleY": 4.487252023898819
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "forwarddash-source-0.png",
+        "anchor": [
+          239.4926470588235,
+          501.7941176470588
+        ],
+        "scale": 0.6201104463874829,
+        "anatomy": {
+          "headLengthSourcePx": 93.12857142857142,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "forwarddash-source-1.png",
+        "anchor": [
+          306.8181818181818,
+          484.8484848484849
+        ],
+        "scale": 0.6350806451612904,
+        "anatomy": {
+          "headLengthSourcePx": 90.93333333333334,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "forwarddash-source-2.png",
+        "anchor": [
+          348.39344262295083,
+          446.8524590163934
+        ],
+        "scale": 0.5604723172197061,
+        "anatomy": {
+          "headLengthSourcePx": 103.03809523809524,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "forwarddash-source-3.png",
+        "anchor": [
+          246.13970588235293,
+          499.85294117647055
+        ],
+        "scale": 0.6012046400951815,
+        "anatomy": {
+          "headLengthSourcePx": 96.05714285714286,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "后撤": {
+    "frames": [
+      {
+        "file": "calibrated-6-0.png",
+        "anchor": [
+          19.734702926396693,
+          74.73529411764707
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 126.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.53045335085414,
+        "scaleY": 4.511826544021026
+      },
+      {
+        "file": "calibrated-6-1.png",
+        "anchor": [
+          21.644747263824886,
+          69.75
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 128.10416666666666,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.549985439114699,
+        "scaleY": 4.489266547406083
+      },
+      {
+        "file": "calibrated-6-2.png",
+        "anchor": [
+          24.10917094644167,
+          64.6896551724138
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 124.58333333333333,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.538879598662208,
+        "scaleY": 4.510916986971497
+      },
+      {
+        "file": "calibrated-6-3.png",
+        "anchor": [
+          22.568951612903223,
+          74.51612903225805
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 114.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.470246734397678,
+        "scaleY": 4.513062409288825
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "backdash-source-0.png",
+        "anchor": [
+          196.36029411764707,
+          740.5588235294118
+        ],
+        "scale": 0.4553219448094613,
+        "anatomy": {
+          "headLengthSourcePx": 126.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backdash-source-1.png",
+        "anchor": [
+          218.4609375,
+          694.59375
+        ],
+        "scale": 0.4508050089445439,
+        "anatomy": {
+          "headLengthSourcePx": 128.10416666666666,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backdash-source-2.png",
+        "anchor": [
+          236.06896551724137,
+          629.5172413793103
+        ],
+        "scale": 0.46354515050167233,
+        "anatomy": {
+          "headLengthSourcePx": 124.58333333333333,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "backdash-source-3.png",
+        "anchor": [
+          200.61290322580643,
+          668.7096774193548
+        ],
+        "scale": 0.5029027576197388,
+        "anatomy": {
+          "headLengthSourcePx": 114.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲下": {
+    "frames": [
+      {
+        "file": "calibrated-7-0.png",
+        "anchor": [
+          19.04019380373959,
+          76.67647058823529
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 144.29999999999998,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.539200131305396,
+        "scaleY": 4.50867128082318
+      },
+      {
+        "file": "calibrated-7-1.png",
+        "anchor": [
+          17.97737223113269,
+          67.6271186440678
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 140.43333333333334,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.466383812010444,
+        "scaleY": 4.511749347258487
+      },
+      {
+        "file": "calibrated-7-2.png",
+        "anchor": [
+          18.54545708382197,
+          56.48936170212767
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 133.68333333333334,
+          "contactSheetHeadLengthPx": 52,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.448339999393484,
+        "scaleY": 4.532244806535387
+      },
+      {
+        "file": "calibrated-7-3.png",
+        "anchor": [
+          17.54382969034608,
+          56.541666666666664
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 135.85,
+          "contactSheetHeadLengthPx": 52,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.445344129554657,
+        "scaleY": 4.532011253688328
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouch-source-0.png",
+        "anchor": [
+          215.95588235294116,
+          863.8235294117646
+        ],
+        "scale": 0.4002079002079003,
+        "anatomy": {
+          "headLengthSourcePx": 144.29999999999998,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouch-source-1.png",
+        "anchor": [
+          195.2542372881356,
+          741.9661016949153
+        ],
+        "scale": 0.41122715404699745,
+        "anatomy": {
+          "headLengthSourcePx": 140.43333333333334,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouch-source-2.png",
+        "anchor": [
+          190.96808510638297,
+          592.6595744680851
+        ],
+        "scale": 0.4319910235631468,
+        "anatomy": {
+          "headLengthSourcePx": 133.68333333333334,
+          "contactSheetHeadLengthPx": 52,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouch-source-3.png",
+        "anchor": [
+          183.45833333333331,
+          602.7916666666666
+        ],
+        "scale": 0.42510121457489886,
+        "anatomy": {
+          "headLengthSourcePx": 135.85,
+          "contactSheetHeadLengthPx": 52,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲防": {
+    "frames": [
+      {
+        "file": "calibrated-8-0.png",
+        "anchor": [
+          35.5,
+          63.88426763110307
+        ],
+        "scale": 4.5,
+        "roi": [
+          31,
+          10,
+          640,
+          563
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 110.19999999999999,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49499629355078,
+        "scaleY": 4.528095224591652
+      },
+      {
+        "file": "calibrated-8-1.png",
+        "anchor": [
+          43.5,
+          60.888482632541134
+        ],
+        "scale": 4.5,
+        "roi": [
+          663,
+          17,
+          1441,
+          564
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 114.84761904761905,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49666295884316,
+        "scaleY": 4.509075257035423
+      },
+      {
+        "file": "calibrated-8-2.png",
+        "anchor": [
+          42.0,
+          52.87844036697248
+        ],
+        "scale": 4.5,
+        "roi": [
+          174,
+          584,
+          871,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 106.20952380952382,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.511718750000001,
+        "scaleY": 4.47300255813324
+      },
+      {
+        "file": "calibrated-8-3.png",
+        "anchor": [
+          34.5,
+          51.88181818181818
+        ],
+        "scale": 4.5,
+        "roi": [
+          944,
+          580,
+          1526,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 108.08571428571429,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210704,
+        "scaleY": 4.520984566583299
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouchguard-0.png",
+        "anchor": [
+          304.5,
+          552
+        ],
+        "scale": 0.5240471869328495,
+        "roi": [
+          31,
+          10,
+          640,
+          563
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 110.19999999999999,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-1.png",
+        "anchor": [
+          389.0,
+          546
+        ],
+        "scale": 0.5028402023385025,
+        "roi": [
+          663,
+          17,
+          1441,
+          564
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 114.84761904761905,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-2.png",
+        "anchor": [
+          348.5,
+          435
+        ],
+        "scale": 0.543736549497848,
+        "roi": [
+          174,
+          584,
+          871,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 106.20952380952382,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-3.png",
+        "anchor": [
+          291.0,
+          439
+        ],
+        "scale": 0.5342981760507535,
+        "roi": [
+          944,
+          580,
+          1526,
+          1020
+        ],
+        "source": "crouchguard-source-v4.png",
+        "anatomy": {
+          "headLengthSourcePx": 108.08571428571429,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      24,
+      10,
+      24
+    ],
+    "phases": [
+      "进入",
+      "保持",
+      "受力",
+      "恢复"
+    ],
+    "status": "",
+    "events": [],
+    "previewOnly": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "轻攻一": {
+    "frames": [
+      {
+        "file": "calibrated-9-0.png",
+        "anchor": [
+          32.94568245125348,
+          71.84140969162996
+        ],
+        "scale": 4.5,
+        "roi": [
+          36,
+          51,
+          395,
+          505
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.34166666666667,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.471554359723713,
+        "scaleY": 4.476744186046512
+      },
+      {
+        "file": "calibrated-9-1.png",
+        "anchor": [
+          32.44736842105263,
+          71.84140969162996
+        ],
+        "scale": 4.5,
+        "roi": [
+          550,
+          51,
+          911,
+          505
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.34166666666667,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.496465526073149,
+        "scaleY": 4.476744186046512
+      },
+      {
+        "file": "calibrated-9-2.png",
+        "anchor": [
+          30.87549019607843,
+          67.8495575221239
+        ],
+        "scale": 4.5,
+        "roi": [
+          1015,
+          52,
+          1525,
+          504
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 85.0,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.500000000000001,
+        "scaleY": 4.516089965397923
+      },
+      {
+        "file": "calibrated-9-3.png",
+        "anchor": [
+          37.659036144578316,
+          72.83371298405467
+        ],
+        "scale": 4.5,
+        "roi": [
+          62,
+          547,
+          477,
+          986
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.07142857142858,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210702,
+        "scaleY": 4.506093922581791
+      },
+      {
+        "file": "calibrated-9-4.png",
+        "anchor": [
+          37.843298969072166,
+          76.82579185520362
+        ],
+        "scale": 4.5,
+        "roi": [
+          537,
+          546,
+          1022,
+          988
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 73.9047619047619,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.511718750000001,
+        "scaleY": 4.485502577319589
+      },
+      {
+        "file": "calibrated-9-5.png",
+        "anchor": [
+          35.11266094420601,
+          74.83370288248337
+        ],
+        "scale": 4.5,
+        "roi": [
+          1033,
+          542,
+          1499,
+          993
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.66666666666667,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5,
+        "scaleY": 4.471287553648069
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light1-attack-0.png",
+        "anchor": [
+          207.5,
+          453
+        ],
+        "scale": 0.7099682409589182,
+        "roi": [
+          36,
+          51,
+          395,
+          505
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.34166666666667,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-attack-1.png",
+        "anchor": [
+          205.5,
+          453
+        ],
+        "scale": 0.7099682409589182,
+        "roi": [
+          550,
+          51,
+          911,
+          505
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.34166666666667,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-attack-2.png",
+        "anchor": [
+          204.5,
+          451
+        ],
+        "scale": 0.6794117647058824,
+        "roi": [
+          1015,
+          52,
+          1525,
+          504
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 85.0,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-attack-3.png",
+        "anchor": [
+          226.5,
+          438
+        ],
+        "scale": 0.7493049119555143,
+        "roi": [
+          62,
+          547,
+          477,
+          986
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.07142857142858,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-attack-4.png",
+        "anchor": [
+          218.5,
+          441
+        ],
+        "scale": 0.781411082474227,
+        "roi": [
+          537,
+          546,
+          1022,
+          988
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 73.9047619047619,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-attack-5.png",
+        "anchor": [
+          212.5,
+          450
+        ],
+        "scale": 0.7435622317596567,
+        "roi": [
+          1033,
+          542,
+          1499,
+          993
+        ],
+        "source": "light1-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.66666666666667,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "light1-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 10,
+      "box": [
+        50,
+        140,
+        180,
+        70
+      ],
+      "lunge": 20,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 9,
+      "worldOffset": [
+        110,
+        -150
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.54,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-9-0.png",
+          "anchor": [
+            21.720000000000002,
+            21.720000000000002
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-9-1.png",
+          "anchor": [
+            21.720000000000002,
+            21.720000000000002
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-9-2.png",
+          "anchor": [
+            21.720000000000002,
+            21.720000000000002
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "受击与倒地": {
+    "frames": [
+      {
+        "file": "calibrated-10-0.png",
+        "anchor": [
+          23.36436202873634,
+          66.97058823529412
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 131.625,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.471479662969025,
+        "scaleY": 4.476485404021637
+      },
+      {
+        "file": "calibrated-10-1.png",
+        "anchor": [
+          32.75982783357246,
+          52.03636363636364
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 135.4952380952381,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.501080691642651,
+        "scaleY": 4.483142381856095
+      },
+      {
+        "file": "calibrated-10-2.png",
+        "anchor": [
+          31.898118066561015,
+          39.9
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 128.7952380952381,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.490978666765262,
+        "scaleY": 4.473185565866825
+      },
+      {
+        "file": "calibrated-10-3.png",
+        "anchor": [
+          30.88281826811518,
+          22.368421052631582
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 104.13333333333334,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.536625490648811,
+        "scaleY": 4.436619718309859
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "hurt_knockdown-source-0.png",
+        "anchor": [
+          238.11764705882354,
+          683.2941176470589
+        ],
+        "scale": 0.4387464387464388,
+        "anatomy": {
+          "headLengthSourcePx": 131.625,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "hurt_knockdown-source-1.png",
+        "anchor": [
+          345.9636363636364,
+          547.3454545454546
+        ],
+        "scale": 0.42621424052857243,
+        "anatomy": {
+          "headLengthSourcePx": 135.4952380952381,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "hurt_knockdown-source-2.png",
+        "anchor": [
+          319.4875,
+          398.05
+        ],
+        "scale": 0.4483861426405887,
+        "anatomy": {
+          "headLengthSourcePx": 128.7952380952381,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "hurt_knockdown-source-3.png",
+        "anchor": [
+          252.63157894736844,
+          178.94736842105266
+        ],
+        "scale": 0.5545774647887324,
+        "anatomy": {
+          "headLengthSourcePx": 104.13333333333334,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "起身": {
+    "frames": [
+      {
+        "file": "calibrated-11-0.png",
+        "anchor": [
+          33.86352329262777,
+          18.333333333333332
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 140.0,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.47077205882353,
+        "scaleY": 4.599375
+      },
+      {
+        "file": "calibrated-11-1.png",
+        "anchor": [
+          34.79756468797565,
+          36.05128205128206
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 121.45714285714286,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.527361848363046,
+        "scaleY": 4.55456301303718
+      },
+      {
+        "file": "calibrated-11-2.png",
+        "anchor": [
+          28.915032679738562,
+          49.9607843137255
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 116.38095238095238,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.465936988543373,
+        "scaleY": 4.523192590960595
+      },
+      {
+        "file": "calibrated-11-3.png",
+        "anchor": [
+          25.746761658031087,
+          81.52941176470587
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 96.97083333333333,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.507419605147091,
+        "scaleY": 4.473638980793194
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "wakeup-source-0.png",
+        "anchor": [
+          367.0208333333333,
+          204.41666666666666
+        ],
+        "scale": 0.41250000000000003,
+        "anatomy": {
+          "headLengthSourcePx": 140.0,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "wakeup-source-1.png",
+        "anchor": [
+          331.33333333333337,
+          345.33333333333337
+        ],
+        "scale": 0.4754763585038815,
+        "anatomy": {
+          "headLengthSourcePx": 121.45714285714286,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "wakeup-source-2.png",
+        "anchor": [
+          260.2352941176471,
+          455.4117647058824
+        ],
+        "scale": 0.49621522094926357,
+        "anatomy": {
+          "headLengthSourcePx": 116.38095238095238,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "wakeup-source-3.png",
+        "anchor": [
+          194.86764705882354,
+          612.4411764705882
+        ],
+        "scale": 0.5955398960168437,
+        "anatomy": {
+          "headLengthSourcePx": 96.97083333333333,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "E · 冰华": {
+    "frames": [
+      {
+        "file": "calibrated-12-0.png",
+        "anchor": [
+          32.51580459770115,
+          76.84630738522955
+        ],
+        "scale": 4.5,
+        "roi": [
+          80,
+          11,
+          428,
+          512
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.5,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.541181787368659,
+        "scaleY": 4.5
+      },
+      {
+        "file": "calibrated-12-1.png",
+        "anchor": [
+          37.93364928909953,
+          74.83660130718954
+        ],
+        "scale": 4.5,
+        "roi": [
+          557,
+          51,
+          979,
+          510
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.37142857142858,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.509679183375866
+      },
+      {
+        "file": "calibrated-12-2.png",
+        "anchor": [
+          43.685534591194966,
+          66.85497835497836
+        ],
+        "scale": 4.5,
+        "roi": [
+          1000,
+          48,
+          1477,
+          510
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 88.58571428571429,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.495266772090202
+      },
+      {
+        "file": "calibrated-12-3.png",
+        "anchor": [
+          47.26651982378854,
+          74.84879032258064
+        ],
+        "scale": 4.5,
+        "roi": [
+          16,
+          514,
+          470,
+          1010
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.31428571428572,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.529718739410369
+      },
+      {
+        "file": "calibrated-12-4.png",
+        "anchor": [
+          47.01700680272109,
+          75.84394250513347
+        ],
+        "scale": 4.5,
+        "roi": [
+          528,
+          524,
+          969,
+          1011
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.518387314439946
+      },
+      {
+        "file": "calibrated-12-5.png",
+        "anchor": [
+          32.50663129973474,
+          76.8484251968504
+        ],
+        "scale": 4.5,
+        "roi": [
+          1101,
+          505,
+          1478,
+          1013
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.511344799005388,
+        "scaleY": 4.5
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "skillE-attack-0.png",
+        "anchor": [
+          213.5,
+          500
+        ],
+        "scale": 0.6916167664670659,
+        "roi": [
+          80,
+          11,
+          428,
+          512
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.5,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-attack-1.png",
+        "anchor": [
+          232.0,
+          458
+        ],
+        "scale": 0.736875683558148,
+        "roi": [
+          557,
+          51,
+          979,
+          510
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.37142857142858,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-attack-2.png",
+        "anchor": [
+          302.0,
+          461
+        ],
+        "scale": 0.6519109820996614,
+        "roi": [
+          1000,
+          48,
+          1477,
+          510
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 88.58571428571429,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-attack-3.png",
+        "anchor": [
+          311.0,
+          495
+        ],
+        "scale": 0.6849373093866487,
+        "roi": [
+          16,
+          514,
+          470,
+          1010
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.31428571428572,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-attack-4.png",
+        "anchor": [
+          300.5,
+          486
+        ],
+        "scale": 0.7051282051282052,
+        "roi": [
+          528,
+          524,
+          969,
+          1011
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-attack-5.png",
+        "anchor": [
+          215.0,
+          507
+        ],
+        "scale": 0.6820866141732284,
+        "roi": [
+          1101,
+          505,
+          1478,
+          1013
+        ],
+        "source": "skillE-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      3,
+      5,
+      10,
+      8
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 12,
+        "kind": "ground-release",
+        "hitId": "skillE-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 12,
+      "active": 8,
+      "recovery": 18,
+      "box": [
+        60,
+        0,
+        220,
+        230
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "E-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        }
+      ],
+      "startTick": 12,
+      "duration": 18,
+      "worldOffset": [
+        150,
+        0
+      ],
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "E-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "E-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            440.32
+          ],
+          "scale": 0.66
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-12-0.png",
+          "anchor": [
+            37.54666666666667,
+            64.58026666666666
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-12-1.png",
+          "anchor": [
+            37.54666666666667,
+            64.58026666666666
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-12-2.png",
+          "anchor": [
+            37.54666666666667,
+            64.58026666666666
+          ],
+          "scale": 4.5
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "败北": {
+    "frames": [
+      {
+        "file": "calibrated-13-0.png",
+        "anchor": [
+          22.87746314406656,
+          71.82352941176472
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 113.225,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.468449700960957,
+        "scaleY": 4.473244496428423
+      },
+      {
+        "file": "calibrated-13-1.png",
+        "anchor": [
+          27.702254641909814,
+          69.51724137931035
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 99.4375,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.529981143934633,
+        "scaleY": 4.492876597527761
+      },
+      {
+        "file": "calibrated-13-2.png",
+        "anchor": [
+          33.84939091915837,
+          44.81395348837209
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 111.61904761904762,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.473856906243726,
+        "scaleY": 4.46932412315736
+      },
+      {
+        "file": "calibrated-13-3.png",
+        "anchor": [
+          31.34010152284264,
+          29.000000000000004
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 120.60476190476192,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491945354759743,
+        "scaleY": 4.541226563007475
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "defeat-source-0.png",
+        "anchor": [
+          200.4264705882353,
+          629.9117647058824
+        ],
+        "scale": 0.5100463678516229,
+        "anatomy": {
+          "headLengthSourcePx": 113.225,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "defeat-source-1.png",
+        "anchor": [
+          216.07758620689657,
+          537.7931034482759
+        ],
+        "scale": 0.580766813324953,
+        "anatomy": {
+          "headLengthSourcePx": 99.4375,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "defeat-source-2.png",
+        "anchor": [
+          292.69767441860466,
+          387.1162790697675
+        ],
+        "scale": 0.5173848122866894,
+        "anatomy": {
+          "headLengthSourcePx": 111.61904761904762,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "defeat-source-3.png",
+        "anchor": [
+          294.0,
+          275.03225806451616
+        ],
+        "scale": 0.4788368144667746,
+        "anatomy": {
+          "headLengthSourcePx": 120.60476190476192,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "已有候选，开放供筛选；粗锚点；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "胜利": {
+    "frames": [
+      {
+        "file": "calibrated-14-0.png",
+        "anchor": [
+          19.799999999999997,
+          83.4375
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 147.25,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5636672325976235,
+        "scaleY": 4.512390072680796
+      },
+      {
+        "file": "calibrated-14-1.png",
+        "anchor": [
+          19.799999999999997,
+          82.5
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 149.69583333333333,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.489102903109083,
+        "scaleY": 4.489102903109083
+      },
+      {
+        "file": "calibrated-14-2.png",
+        "anchor": [
+          22.2,
+          92.8125
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 133.35,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.494573313470951,
+        "scaleY": 4.479440069991251
+      },
+      {
+        "file": "calibrated-14-3.png",
+        "anchor": [
+          20.4,
+          84.375
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 145.50833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.482460070678521,
+        "scaleY": 4.515663478609474
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "victory-source-0.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.39219015280135827,
+        "anatomy": {
+          "headLengthSourcePx": 147.25,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victory-source-1.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.38578228073593684,
+        "anatomy": {
+          "headLengthSourcePx": 149.69583333333333,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victory-source-2.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.43307086614173235,
+        "anatomy": {
+          "headLengthSourcePx": 133.35,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victory-source-3.png",
+        "anchor": [
+          230.39999999999998,
+          960
+        ],
+        "scale": 0.39688448542466076,
+        "anatomy": {
+          "headLengthSourcePx": 145.50833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      18,
+      18,
+      24,
+      36
+    ],
+    "phases": [
+      "站定",
+      "整理衣装",
+      "致意",
+      "收势"
+    ],
+    "status": "保留既有胜利源图；背景与切帧待处理，旧拟合不展示；显示尺度已初校",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "投技": {
+    "frames": [
+      {
+        "file": "calibrated-15-0.png",
+        "anchor": [
+          31.499999999999996,
+          64.8529411764706
+        ],
+        "scale": 4.5,
+        "roi": [
+          79,
+          91,
+          504,
+          533
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 87.02380952380952,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4767441860465125,
+        "scaleY": 4.512558139534884
+      },
+      {
+        "file": "calibrated-15-1.png",
+        "anchor": [
+          29.0,
+          74.8523622047244
+        ],
+        "scale": 4.5,
+        "roi": [
+          573,
+          29,
+          967,
+          537
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 86.78333333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.520473103183381,
+        "scaleY": 4.507317073170732
+      },
+      {
+        "file": "calibrated-15-2.png",
+        "anchor": [
+          28.500000000000004,
+          74.8574144486692
+        ],
+        "scale": 4.5,
+        "roi": [
+          1074,
+          8,
+          1472,
+          534
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.85833333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487472971587831,
+        "scaleY": 4.507317073170732
+      },
+      {
+        "file": "calibrated-15-3.png",
+        "anchor": [
+          31.5,
+          59.85781990521327
+        ],
+        "scale": 4.5,
+        "roi": [
+          74,
+          581,
+          518,
+          1003
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 90.91428571428571,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4767441860465125,
+        "scaleY": 4.46766970458831
+      },
+      {
+        "file": "calibrated-15-4.png",
+        "anchor": [
+          31.5,
+          55.8560411311054
+        ],
+        "scale": 4.5,
+        "roi": [
+          554,
+          617,
+          991,
+          1006
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.48095238095237,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4767441860465125,
+        "scaleY": 4.483146852216487
+      },
+      {
+        "file": "calibrated-15-5.png",
+        "anchor": [
+          30.0,
+          71.8477801268499
+        ],
+        "scale": 4.5,
+        "roi": [
+          1105,
+          535,
+          1501,
+          1008
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.74583333333334,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.497566252028124,
+        "scaleY": 4.476744186046512
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "throw-0.png",
+        "anchor": [
+          212.5,
+          441
+        ],
+        "scale": 0.6636114911080713,
+        "roi": [
+          79,
+          91,
+          504,
+          533
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 87.02380952380952,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-1.png",
+        "anchor": [
+          197.0,
+          507
+        ],
+        "scale": 0.6654503552909545,
+        "roi": [
+          573,
+          29,
+          967,
+          537
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 86.78333333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-2.png",
+        "anchor": [
+          199.0,
+          525
+        ],
+        "scale": 0.6426782899007698,
+        "roi": [
+          1074,
+          8,
+          1472,
+          534
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.85833333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-3.png",
+        "anchor": [
+          222.0,
+          421
+        ],
+        "scale": 0.6352137020741673,
+        "roi": [
+          74,
+          581,
+          518,
+          1003
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 90.91428571428571,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-4.png",
+        "anchor": [
+          218.5,
+          388
+        ],
+        "scale": 0.645388749933479,
+        "roi": [
+          554,
+          617,
+          991,
+          1006
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.48095238095237,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-5.png",
+        "anchor": [
+          198.0,
+          472
+        ],
+        "scale": 0.6814494321254733,
+        "roi": [
+          1105,
+          535,
+          1501,
+          1008
+        ],
+        "source": "throw-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.74583333333334,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      14,
+      10,
+      10,
+      6,
+      22
+    ],
+    "phases": [
+      "抓取",
+      "上挑",
+      "腾空",
+      "下砸",
+      "落地",
+      "恢复"
+    ],
+    "status": "",
+    "events": [
+      {
+        "tick": 44,
+        "kind": "slam",
+        "damageSegments": 1
+      }
+    ],
+    "previewOnly": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "被投": {
+    "frames": [
+      {
+        "file": "calibrated-16-0.png",
+        "anchor": [
+          26.500000000000004,
+          72.8579766536965
+        ],
+        "scale": 4.5,
+        "roi": [
+          74,
+          85,
+          448,
+          599
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.95,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.530504368254901,
+        "scaleY": 4.52054794520548
+      },
+      {
+        "file": "calibrated-16-1.png",
+        "anchor": [
+          30.0,
+          38.5
+        ],
+        "scale": 4.5,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.529832713754647,
+        "scaleY": 4.500000000000001
+      },
+      {
+        "file": "calibrated-16-2.png",
+        "anchor": [
+          30.0,
+          38.5
+        ],
+        "scale": 4.5,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.529832713754647,
+        "scaleY": 4.500000000000001
+      },
+      {
+        "file": "calibrated-16-3.png",
+        "anchor": [
+          39.5,
+          23.5
+        ],
+        "scale": 4.5,
+        "roi": [
+          9,
+          633,
+          566,
+          962
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 90.18095238095238,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.515078183172004,
+        "scaleY": 4.4826539233287575
+      },
+      {
+        "file": "calibrated-16-4.png",
+        "anchor": [
+          31.898118066561015,
+          39.9
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 127.56666666666668,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.534230467729293,
+        "scaleY": 4.516266004703423
+      },
+      {
+        "file": "calibrated-16-5.png",
+        "anchor": [
+          30.88281826811518,
+          22.368421052631582
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 104.13333333333334,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.536625490648811,
+        "scaleY": 4.436619718309859
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "victim-0.png",
+        "anchor": [
+          187.0,
+          513
+        ],
+        "scale": 0.642023346303502,
+        "roi": [
+          74,
+          85,
+          448,
+          599
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.95,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-1.png",
+        "anchor": [
+          211.0,
+          269.0
+        ],
+        "scale": 0.6440520446096655,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-1.png",
+        "anchor": [
+          211.0,
+          269.0
+        ],
+        "scale": 0.6440520446096655,
+        "roi": [
+          516,
+          30,
+          938,
+          568
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-3.png",
+        "anchor": [
+          278.5,
+          164.5
+        ],
+        "scale": 0.6403791319041082,
+        "roi": [
+          9,
+          633,
+          566,
+          962
+        ],
+        "source": "victim-source-clean-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 90.18095238095238,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "original-landing-clean.png",
+        "anchor": [
+          319.4875,
+          398.05
+        ],
+        "scale": 0.4527044682518945,
+        "anatomy": {
+          "headLengthSourcePx": 127.56666666666668,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "hurt_knockdown-source-3.png",
+        "anchor": [
+          252.63157894736844,
+          178.94736842105266
+        ],
+        "scale": 0.5545774647887324,
+        "anatomy": {
+          "headLengthSourcePx": 104.13333333333334,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      14,
+      10,
+      10,
+      6,
+      22
+    ],
+    "phases": [
+      "被抓",
+      "上升",
+      "腾空",
+      "下落",
+      "落地",
+      "倒地"
+    ],
+    "status": "被投连续段接原倒地；落地单段结算",
+    "events": [
+      {
+        "tick": 44,
+        "kind": "slam",
+        "damageSegments": 1
+      }
+    ],
+    "previewOnly": true,
+    "continuation": {
+      "action": "受击与倒地",
+      "frame": "last",
+      "atTick": 44
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "轻攻二": {
+    "frames": [
+      {
+        "file": "calibrated-17-0.png",
+        "anchor": [
+          33.37181663837012,
+          60.857142857142854
+        ],
+        "scale": 4.5,
+        "roi": [
+          27,
+          79,
+          616,
+          506
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.75238095238096,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.51171875,
+        "scaleY": 4.504058786078099
+      },
+      {
+        "file": "calibrated-17-1.png",
+        "anchor": [
+          35.633663366336634,
+          63.84905660377358
+        ],
+        "scale": 4.5,
+        "roi": [
+          604,
+          83,
+          1008,
+          507
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.64761904761905,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.518442622950821,
+        "scaleY": 4.5198406559405955
+      },
+      {
+        "file": "calibrated-17-2.png",
+        "anchor": [
+          38.12668161434977,
+          76.84156378600824
+        ],
+        "scale": 4.5,
+        "roi": [
+          1057,
+          19,
+          1503,
+          505
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 80.7047619047619,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49499629355078,
+        "scaleY": 4.516462119424122
+      },
+      {
+        "file": "calibrated-17-3.png",
+        "anchor": [
+          35.894988066825775,
+          72.84728033472804
+        ],
+        "scale": 4.5,
+        "roi": [
+          101,
+          531,
+          520,
+          1009
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.80000000000001,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.51171875,
+        "scaleY": 4.512456272272534
+      },
+      {
+        "file": "calibrated-17-4.png",
+        "anchor": [
+          38.61139896373057,
+          76.82009345794393
+        ],
+        "scale": 4.5,
+        "roi": [
+          607,
+          579,
+          993,
+          1007
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 71.68571428571428,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.477879633320049
+      },
+      {
+        "file": "calibrated-17-5.png",
+        "anchor": [
+          34.6015037593985,
+          67.85344827586206
+        ],
+        "scale": 4.5,
+        "roi": [
+          1100,
+          544,
+          1499,
+          1008
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 87.0,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.489041496201053,
+        "scaleY": 4.529411764705883
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light2-attack-0.png",
+        "anchor": [
+          234.0,
+          426
+        ],
+        "scale": 0.6434369694397284,
+        "roi": [
+          27,
+          79,
+          616,
+          506
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.75238095238096,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light2-attack-1.png",
+        "anchor": [
+          236.0,
+          423
+        ],
+        "scale": 0.6822400990099011,
+        "roi": [
+          604,
+          83,
+          1008,
+          507
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.64761904761905,
+          "contactSheetHeadLengthPx": 44,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light2-attack-2.png",
+        "anchor": [
+          239.5,
+          485
+        ],
+        "scale": 0.7155711588388012,
+        "roi": [
+          1057,
+          19,
+          1503,
+          505
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 80.7047619047619,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light2-attack-3.png",
+        "anchor": [
+          235.0,
+          477
+        ],
+        "scale": 0.6891408114558473,
+        "roi": [
+          101,
+          531,
+          520,
+          1009
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.80000000000001,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light2-attack-4.png",
+        "anchor": [
+          216.0,
+          427
+        ],
+        "scale": 0.805599840573934,
+        "roi": [
+          607,
+          579,
+          993,
+          1007
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 71.68571428571428,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light2-attack-5.png",
+        "anchor": [
+          234.0,
+          463
+        ],
+        "scale": 0.6637931034482759,
+        "roi": [
+          1100,
+          544,
+          1499,
+          1008
+        ],
+        "source": "light2-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 87.0,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      2,
+      5,
+      7
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "light2-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 4,
+      "recovery": 12,
+      "box": [
+        50,
+        155,
+        200,
+        90
+      ],
+      "lunge": 22,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 10,
+      "worldOffset": [
+        115,
+        -155
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.58,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-17-0.png",
+          "anchor": [
+            23.328888888888887,
+            23.328888888888887
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-17-1.png",
+          "anchor": [
+            23.328888888888887,
+            23.328888888888887
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-17-2.png",
+          "anchor": [
+            23.328888888888887,
+            23.328888888888887
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "轻攻三": {
+    "frames": [
+      {
+        "file": "calibrated-18-0.png",
+        "anchor": [
+          29.180428134556575,
+          80.841796875
+        ],
+        "scale": 4.5,
+        "roi": [
+          85,
+          16,
+          412,
+          528
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.06666666666666,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.479753131325912,
+        "scaleY": 4.502923976608188
+      },
+      {
+        "file": "calibrated-18-1.png",
+        "anchor": [
+          32.22083333333333,
+          80.84302325581396
+        ],
+        "scale": 4.5,
+        "roi": [
+          571,
+          13,
+          931,
+          529
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.7,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.464343232622561,
+        "scaleY": 4.502923976608187
+      },
+      {
+        "file": "calibrated-18-2.png",
+        "anchor": [
+          35.63713080168776,
+          71.82775119617226
+        ],
+        "scale": 4.5,
+        "roi": [
+          1050,
+          111,
+          1524,
+          529
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 74.4857142857143,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.481707317073171,
+        "scaleY": 4.501142756680731
+      },
+      {
+        "file": "calibrated-18-3.png",
+        "anchor": [
+          34.11992263056093,
+          62.83720930232558
+        ],
+        "scale": 4.5,
+        "roi": [
+          97,
+          619,
+          614,
+          1006
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.78095238095237,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.511718750000001,
+        "scaleY": 4.502992021276596
+      },
+      {
+        "file": "calibrated-18-4.png",
+        "anchor": [
+          37.644444444444446,
+          63.84541062801932
+        ],
+        "scale": 4.5,
+        "roi": [
+          593,
+          593,
+          998,
+          1007
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 82.92857142857143,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4767441860465125,
+        "scaleY": 4.504723837209303
+      },
+      {
+        "file": "calibrated-18-5.png",
+        "anchor": [
+          32.37758112094395,
+          80.83367556468173
+        ],
+        "scale": 4.5,
+        "roi": [
+          1081,
+          523,
+          1420,
+          1010
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.10833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.53379984869772,
+        "scaleY": 4.502923976608188
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light3-attack-0.png",
+        "anchor": [
+          183.5,
+          511
+        ],
+        "scale": 0.7123766447368423,
+        "roi": [
+          85,
+          16,
+          412,
+          528
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.06666666666666,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light3-attack-1.png",
+        "anchor": [
+          203.5,
+          515
+        ],
+        "scale": 0.7068543451652387,
+        "roi": [
+          571,
+          13,
+          931,
+          529
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.7,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light3-attack-2.png",
+        "anchor": [
+          206.0,
+          417
+        ],
+        "scale": 0.7753164556962026,
+        "roi": [
+          1050,
+          111,
+          1524,
+          529
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 74.4857142857143,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light3-attack-3.png",
+        "anchor": [
+          210.0,
+          386
+        ],
+        "scale": 0.7330452127659576,
+        "roi": [
+          97,
+          619,
+          614,
+          1006
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.78095238095237,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light3-attack-4.png",
+        "anchor": [
+          242.0,
+          413
+        ],
+        "scale": 0.6963824289405686,
+        "roi": [
+          593,
+          593,
+          998,
+          1007
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 82.92857142857143,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light3-attack-5.png",
+        "anchor": [
+          196.0,
+          486
+        ],
+        "scale": 0.7489462876904789,
+        "roi": [
+          1081,
+          523,
+          1420,
+          1010
+        ],
+        "source": "light3-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.10833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "kind": "hit",
+        "hitId": "light3-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 16,
+      "box": [
+        45,
+        100,
+        210,
+        150
+      ],
+      "lunge": 28,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 7,
+      "duration": 11,
+      "worldOffset": [
+        120,
+        -145
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.62,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-18-0.png",
+          "anchor": [
+            24.93777777777778,
+            24.93777777777778
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-18-1.png",
+          "anchor": [
+            24.93777777777778,
+            24.93777777777778
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-18-2.png",
+          "anchor": [
+            24.93777777777778,
+            24.93777777777778
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "站重": {
+    "frames": [
+      {
+        "file": "calibrated-19-0.png",
+        "anchor": [
+          30.166666666666664,
+          70.83294117647058
+        ],
+        "scale": 4.5,
+        "roi": [
+          46,
+          67,
+          496,
+          492
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.14285714285714,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491666666666668,
+        "scaleY": 4.481122848200314
+      },
+      {
+        "file": "calibrated-19-1.png",
+        "anchor": [
+          40.03383458646616,
+          63.826086956521735
+        ],
+        "scale": 4.5,
+        "roi": [
+          544,
+          124,
+          943,
+          492
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 74.10000000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.4812753036437245
+      },
+      {
+        "file": "calibrated-19-2.png",
+        "anchor": [
+          37.09853249475891,
+          78.8347280334728
+        ],
+        "scale": 4.5,
+        "roi": [
+          1041,
+          15,
+          1518,
+          493
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.22857142857143,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.515078183172004,
+        "scaleY": 4.524543755883056
+      },
+      {
+        "file": "calibrated-19-3.png",
+        "anchor": [
+          40.35073068893528,
+          62.86652542372882
+        ],
+        "scale": 4.5,
+        "roi": [
+          32,
+          527,
+          511,
+          999
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 95.8,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.511718750000001,
+        "scaleY": 4.516353514265832
+      },
+      {
+        "file": "calibrated-19-4.png",
+        "anchor": [
+          39.58474576271187,
+          70.84731182795699
+        ],
+        "scale": 4.5,
+        "roi": [
+          555,
+          535,
+          968,
+          1000
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.56666666666668,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.476744186046511,
+        "scaleY": 4.472469424350597
+      },
+      {
+        "file": "calibrated-19-5.png",
+        "anchor": [
+          31.47181628392484,
+          62.843283582089555
+        ],
+        "scale": 4.5,
+        "roi": [
+          1040,
+          601,
+          1519,
+          1003
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 82.11428571428571,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491666666666667,
+        "scaleY": 4.487647877522616
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "heavy-attack-0.png",
+        "anchor": [
+          181.0,
+          424
+        ],
+        "scale": 0.7486111111111112,
+        "roi": [
+          46,
+          67,
+          496,
+          492
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.14285714285714,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "heavy-attack-1.png",
+        "anchor": [
+          231.5,
+          367
+        ],
+        "scale": 0.7793522267206477,
+        "roi": [
+          544,
+          124,
+          943,
+          492
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 74.10000000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "heavy-attack-2.png",
+        "anchor": [
+          224.0,
+          477
+        ],
+        "scale": 0.747780244173141,
+        "roi": [
+          1041,
+          15,
+          1518,
+          493
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.22857142857143,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "heavy-attack-3.png",
+        "anchor": [
+          302.0,
+          471
+        ],
+        "scale": 0.6028183716075157,
+        "roi": [
+          32,
+          527,
+          511,
+          999
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 95.8,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "heavy-attack-4.png",
+        "anchor": [
+          259.5,
+          464
+        ],
+        "scale": 0.6828931809223492,
+        "roi": [
+          555,
+          535,
+          968,
+          1000
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 84.56666666666668,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "heavy-attack-5.png",
+        "anchor": [
+          201.0,
+          401
+        ],
+        "scale": 0.7032881002087683,
+        "roi": [
+          1040,
+          601,
+          1519,
+          1003
+        ],
+        "source": "heavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 82.11428571428571,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      5,
+      6,
+      2,
+      2,
+      9,
+      10
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 11,
+        "kind": "hit",
+        "hitId": "heavy-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 11,
+      "active": 4,
+      "recovery": 19,
+      "box": [
+        40,
+        90,
+        210,
+        200
+      ],
+      "lunge": 35,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 10,
+      "duration": 10,
+      "worldOffset": [
+        125,
+        -145
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-1-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-1-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.68,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-19-0.png",
+          "anchor": [
+            27.351111111111113,
+            27.351111111111113
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-19-1.png",
+          "anchor": [
+            27.351111111111113,
+            27.351111111111113
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-19-2.png",
+          "anchor": [
+            27.351111111111113,
+            27.351111111111113
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲轻": {
+    "frames": [
+      {
+        "file": "calibrated-20-0.png",
+        "anchor": [
+          33.66028708133971,
+          54.8578811369509
+        ],
+        "scale": 4.5,
+        "roi": [
+          3,
+          9,
+          630,
+          396
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.57142857142857,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491666666666667,
+        "scaleY": 4.5366028708133985
+      },
+      {
+        "file": "calibrated-20-1.png",
+        "anchor": [
+          34.99211356466877,
+          54.858247422680414
+        ],
+        "scale": 4.5,
+        "roi": [
+          638,
+          9,
+          1272,
+          397
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 90.57142857142857,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491666666666667,
+        "scaleY": 4.498107255520506
+      },
+      {
+        "file": "calibrated-20-2.png",
+        "anchor": [
+          32.31050228310502,
+          50.86855670103093
+        ],
+        "scale": 4.5,
+        "roi": [
+          1251,
+          9,
+          1908,
+          397
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 96.9857142857143,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49666295884316,
+        "scaleY": 4.530078933915591
+      },
+      {
+        "file": "calibrated-20-3.png",
+        "anchor": [
+          32.84018264840182,
+          51.86700767263427
+        ],
+        "scale": 4.5,
+        "roi": [
+          12,
+          418,
+          669,
+          809
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 96.9857142857143,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49666295884316,
+        "scaleY": 4.477314830551684
+      },
+      {
+        "file": "calibrated-20-4.png",
+        "anchor": [
+          34.60386473429952,
+          54.85969387755102
+        ],
+        "scale": 4.5,
+        "roi": [
+          646,
+          416,
+          1267,
+          808
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 91.67142857142856,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.496662958843159,
+        "scaleY": 4.4899485741000476
+      },
+      {
+        "file": "calibrated-20-5.png",
+        "anchor": [
+          33.149096385542165,
+          50.869565217391305
+        ],
+        "scale": 4.5,
+        "roi": [
+          1244,
+          418,
+          1908,
+          809
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 98.01904761904763,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.496662958843159,
+        "scaleY": 4.516979207151185
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouchlight-attack-0.png",
+        "anchor": [
+          234.5,
+          386
+        ],
+        "scale": 0.6447368421052633,
+        "roi": [
+          3,
+          9,
+          630,
+          396
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.57142857142857,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-attack-1.png",
+        "anchor": [
+          246.5,
+          387
+        ],
+        "scale": 0.6376182965299686,
+        "roi": [
+          638,
+          9,
+          1272,
+          397
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 90.57142857142857,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-attack-2.png",
+        "anchor": [
+          244.0,
+          387
+        ],
+        "scale": 0.5954485196641627,
+        "roi": [
+          1251,
+          9,
+          1908,
+          397
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 96.9857142857143,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-attack-3.png",
+        "anchor": [
+          248.0,
+          390
+        ],
+        "scale": 0.5954485196641627,
+        "roi": [
+          12,
+          418,
+          669,
+          809
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 96.9857142857143,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-attack-4.png",
+        "anchor": [
+          247.0,
+          391
+        ],
+        "scale": 0.6299672744273026,
+        "roi": [
+          646,
+          416,
+          1267,
+          808
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 91.67142857142856,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-attack-5.png",
+        "anchor": [
+          253.0,
+          390
+        ],
+        "scale": 0.5891712009327633,
+        "roi": [
+          1244,
+          418,
+          1908,
+          809
+        ],
+        "source": "crouchlight-attack-source-v3.png",
+        "anatomy": {
+          "headLengthSourcePx": 98.01904761904763,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "crouchlight-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 10,
+      "box": [
+        50,
+        60,
+        250,
+        80
+      ],
+      "lunge": 10,
+      "level": "low",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 9,
+      "worldOffset": [
+        160,
+        -100
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-0-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-0-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.7,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-20-0.png",
+          "anchor": [
+            28.155555555555555,
+            28.155555555555555
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-20-1.png",
+          "anchor": [
+            28.155555555555555,
+            28.155555555555555
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-20-2.png",
+          "anchor": [
+            28.155555555555555,
+            28.155555555555555
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲重": {
+    "frames": [
+      {
+        "file": "calibrated-21-0.png",
+        "anchor": [
+          36.498,
+          59.84575835475578
+        ],
+        "scale": 4.5,
+        "roi": [
+          36,
+          106,
+          536,
+          495
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.33333333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.500000000000001,
+        "scaleY": 4.49295
+      },
+      {
+        "file": "calibrated-21-1.png",
+        "anchor": [
+          53.095238095238095,
+          58.841823056300264
+        ],
+        "scale": 4.5,
+        "roi": [
+          486,
+          121,
+          1053,
+          494
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.0,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491666666666667,
+        "scaleY": 4.507376020087885
+      },
+      {
+        "file": "calibrated-21-2.png",
+        "anchor": [
+          32.540748898678416,
+          48.86158192090396
+        ],
+        "scale": 4.5,
+        "roi": [
+          1073,
+          142,
+          1527,
+          496
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 92.96190476190476,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4767441860465125,
+        "scaleY": 4.48801352320459
+      },
+      {
+        "file": "calibrated-21-3.png",
+        "anchor": [
+          50.02141680395387,
+          53.856763925729446
+        ],
+        "scale": 4.5,
+        "roi": [
+          10,
+          595,
+          617,
+          972
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.6047619047619,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49666295884316,
+        "scaleY": 4.499543852190396
+      },
+      {
+        "file": "calibrated-21-4.png",
+        "anchor": [
+          37.88235294117647,
+          60.8490099009901
+        ],
+        "scale": 4.5,
+        "roi": [
+          583,
+          569,
+          1042,
+          973
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 85.24285714285715,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.48689101533846
+      },
+      {
+        "file": "calibrated-21-5.png",
+        "anchor": [
+          33.97952586206897,
+          59.849999999999994
+        ],
+        "scale": 4.5,
+        "roi": [
+          1061,
+          572,
+          1525,
+          972
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 86.17142857142858,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.467838196286473
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "crouchheavy-attack-0.png",
+        "anchor": [
+          237.0,
+          388
+        ],
+        "scale": 0.6930000000000001,
+        "roi": [
+          36,
+          106,
+          536,
+          495
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.33333333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-attack-1.png",
+        "anchor": [
+          334.5,
+          372
+        ],
+        "scale": 0.712962962962963,
+        "roi": [
+          486,
+          121,
+          1053,
+          494
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 81.0,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-attack-2.png",
+        "anchor": [
+          234.5,
+          353
+        ],
+        "scale": 0.6212222108390535,
+        "roi": [
+          1073,
+          142,
+          1527,
+          496
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 92.96190476190476,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-attack-3.png",
+        "anchor": [
+          349.0,
+          376
+        ],
+        "scale": 0.6444969973959719,
+        "roi": [
+          10,
+          595,
+          617,
+          972
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 89.6047619047619,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-attack-4.png",
+        "anchor": [
+          252.0,
+          403
+        ],
+        "scale": 0.6774761186525893,
+        "roi": [
+          583,
+          569,
+          1042,
+          973
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 85.24285714285715,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-attack-5.png",
+        "anchor": [
+          228.5,
+          399
+        ],
+        "scale": 0.6701757294429709,
+        "roi": [
+          1061,
+          572,
+          1525,
+          972
+        ],
+        "source": "crouchheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 86.17142857142858,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      2,
+      11,
+      12
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 10,
+        "kind": "hit",
+        "hitId": "crouchheavy-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 10,
+      "active": 4,
+      "recovery": 23,
+      "box": [
+        45,
+        0,
+        220,
+        70
+      ],
+      "lunge": 20,
+      "level": "low",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-3-0.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-1.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-2.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 9,
+      "duration": 10,
+      "worldOffset": [
+        125,
+        -55
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-3-0.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-1.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-3-2.png",
+          "anchor": [
+            181.0,
+            282.36
+          ],
+          "scale": 0.75,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-21-0.png",
+          "anchor": [
+            30.166666666666664,
+            47.06
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-21-1.png",
+          "anchor": [
+            30.166666666666664,
+            47.06
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-21-2.png",
+          "anchor": [
+            30.166666666666664,
+            47.06
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "空轻": {
+    "frames": [
+      {
+        "file": "calibrated-22-0.png",
+        "anchor": [
+          31.154425612052734,
+          34.627539503386004
+        ],
+        "scale": 4.5,
+        "roi": [
+          23,
+          20,
+          554,
+          463
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 96.08571428571427,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.494996293550779,
+        "scaleY": 4.512787462767808
+      },
+      {
+        "file": "calibrated-22-1.png",
+        "anchor": [
+          26.43152454780362,
+          37.2625
+        ],
+        "scale": 4.5,
+        "roi": [
+          575,
+          9,
+          962,
+          489
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 94.0,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.485999598554797,
+        "scaleY": 4.468085106382978
+      },
+      {
+        "file": "calibrated-22-2.png",
+        "anchor": [
+          35.16858237547893,
+          30.191780821917806
+        ],
+        "scale": 4.5,
+        "roi": [
+          1006,
+          48,
+          1528,
+          486
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 99.42857142857143,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.525186567164179,
+        "scaleY": 4.463135208711434
+      },
+      {
+        "file": "calibrated-22-3.png",
+        "anchor": [
+          33.876977152899826,
+          36.59130434782609
+        ],
+        "scale": 4.5,
+        "roi": [
+          12,
+          529,
+          581,
+          989
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 92.12380952380953,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.515078183172004,
+        "scaleY": 4.505655238809057
+      },
+      {
+        "file": "calibrated-22-4.png",
+        "anchor": [
+          24.113157894736844,
+          32.495535714285715
+        ],
+        "scale": 4.5,
+        "roi": [
+          581,
+          541,
+          961,
+          989
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 98.93333333333334,
+          "contactSheetHeadLengthPx": 53,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.526857912976511,
+        "scaleY": 4.508783344176968
+      },
+      {
+        "file": "calibrated-22-5.png",
+        "anchor": [
+          29.197125256673512,
+          30.809628008752735
+        ],
+        "scale": 4.5,
+        "roi": [
+          1039,
+          536,
+          1526,
+          993
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 106.67619047619047,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.46849668386146,
+        "scaleY": 4.4981921257030635
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "airlight-attack-0.png",
+        "anchor": [
+          233.0,
+          260
+        ],
+        "scale": 0.6010258697591437,
+        "roi": [
+          23,
+          20,
+          554,
+          463
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 96.08571428571427,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-attack-1.png",
+        "anchor": [
+          193.0,
+          271
+        ],
+        "scale": 0.6143617021276596,
+        "roi": [
+          575,
+          9,
+          962,
+          489
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 94.0,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-attack-2.png",
+        "anchor": [
+          274.0,
+          232
+        ],
+        "scale": 0.5808189655172414,
+        "roi": [
+          1006,
+          48,
+          1528,
+          486
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 99.42857142857143,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-attack-3.png",
+        "anchor": [
+          244.0,
+          263
+        ],
+        "scale": 0.6268737723560427,
+        "roi": [
+          12,
+          529,
+          581,
+          989
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 92.12380952380953,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-attack-4.png",
+        "anchor": [
+          187.0,
+          251
+        ],
+        "scale": 0.5837264150943396,
+        "roi": [
+          581,
+          541,
+          961,
+          989
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 98.93333333333334,
+          "contactSheetHeadLengthPx": 53,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-attack-5.png",
+        "anchor": [
+          241.0,
+          256
+        ],
+        "scale": 0.5413579144719223,
+        "roi": [
+          1039,
+          536,
+          1526,
+          993
+        ],
+        "source": "airlight-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 106.67619047619047,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "airlight-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 6,
+      "recovery": 8,
+      "box": [
+        35,
+        -30,
+        160,
+        110
+      ],
+      "lunge": 12,
+      "level": "high",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 5,
+      "duration": 12,
+      "worldOffset": [
+        115,
+        0
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.52,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-22-0.png",
+          "anchor": [
+            20.915555555555557,
+            20.915555555555557
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-22-1.png",
+          "anchor": [
+            20.915555555555557,
+            20.915555555555557
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-22-2.png",
+          "anchor": [
+            20.915555555555557,
+            20.915555555555557
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "空重": {
+    "frames": [
+      {
+        "file": "calibrated-23-0.png",
+        "anchor": [
+          31.571936056838364,
+          30.73170731707317
+        ],
+        "scale": 4.5,
+        "roi": [
+          31,
+          60,
+          594,
+          511
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 91.15238095238095,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.515078183172004,
+        "scaleY": 4.535445616967925
+      },
+      {
+        "file": "calibrated-23-1.png",
+        "anchor": [
+          41.34513274336283,
+          42.6205533596838
+        ],
+        "scale": 4.5,
+        "roi": [
+          512,
+          17,
+          964,
+          523
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 79.63809523809523,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.49000370233247,
+        "scaleY": 4.474739821842132
+      },
+      {
+        "file": "calibrated-23-2.png",
+        "anchor": [
+          38.192,
+          28.83644859813084
+        ],
+        "scale": 4.5,
+        "roi": [
+          1032,
+          93,
+          1532,
+          521
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.33333333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.500000000000001,
+        "scaleY": 4.494000000000001
+      },
+      {
+        "file": "calibrated-23-3.png",
+        "anchor": [
+          37.091503267973856,
+          44.37772925764192
+        ],
+        "scale": 4.5,
+        "roi": [
+          29,
+          521,
+          641,
+          979
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.68571428571428,
+          "contactSheetHeadLengthPx": 27,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491666666666667,
+        "scaleY": 4.481880900508353
+      },
+      {
+        "file": "calibrated-23-4.png",
+        "anchor": [
+          37.010080645161295,
+          44.358851674641144
+        ],
+        "scale": 4.5,
+        "roi": [
+          557,
+          538,
+          1053,
+          956
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 73.21904761904761,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.496662958843159,
+        "scaleY": 4.516284941485041
+      },
+      {
+        "file": "calibrated-23-5.png",
+        "anchor": [
+          34.93197278911565,
+          44.90931372549019
+        ],
+        "scale": 4.5,
+        "roi": [
+          1085,
+          541,
+          1526,
+          949
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 71.4,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.515078183172003,
+        "scaleY": 4.52054794520548
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "airheavy-attack-0.png",
+        "anchor": [
+          225.0,
+          220
+        ],
+        "scale": 0.6335544875143664,
+        "roi": [
+          31,
+          60,
+          594,
+          511
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 91.15238095238095,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airheavy-attack-1.png",
+        "anchor": [
+          256.0,
+          263
+        ],
+        "scale": 0.7251554651997131,
+        "roi": [
+          512,
+          17,
+          964,
+          523
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 79.63809523809523,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airheavy-attack-2.png",
+        "anchor": [
+          248.0,
+          187
+        ],
+        "scale": 0.6930000000000001,
+        "roi": [
+          1032,
+          93,
+          1532,
+          521
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 83.33333333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airheavy-attack-3.png",
+        "anchor": [
+          227.0,
+          271
+        ],
+        "scale": 0.7339324618736385,
+        "roi": [
+          29,
+          521,
+          641,
+          979
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.68571428571428,
+          "contactSheetHeadLengthPx": 27,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airheavy-attack-4.png",
+        "anchor": [
+          211.0,
+          254
+        ],
+        "scale": 0.7887291883454736,
+        "roi": [
+          557,
+          538,
+          1053,
+          956
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 73.21904761904761,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airheavy-attack-5.png",
+        "anchor": [
+          195.0,
+          251
+        ],
+        "scale": 0.8088235294117647,
+        "roi": [
+          1085,
+          541,
+          1526,
+          949
+        ],
+        "source": "airheavy-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 71.4,
+          "contactSheetHeadLengthPx": 34,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      4,
+      5,
+      3,
+      3,
+      6,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 9,
+        "kind": "hit",
+        "hitId": "airheavy-1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 9,
+      "active": 6,
+      "recovery": 12,
+      "box": [
+        20,
+        -110,
+        190,
+        190
+      ],
+      "lunge": 18,
+      "level": "high",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥恢复",
+        "防御恢复",
+        "命中确认"
+      ],
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "startTick": 8,
+      "duration": 12,
+      "worldOffset": [
+        125,
+        20
+      ],
+      "followActor": true,
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "slash-2-0.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-1.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "slash-2-2.png",
+          "anchor": [
+            181.0,
+            181.0
+          ],
+          "scale": 0.65,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-23-0.png",
+          "anchor": [
+            26.144444444444446,
+            26.144444444444446
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-23-1.png",
+          "anchor": [
+            26.144444444444446,
+            26.144444444444446
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        },
+        {
+          "file": "effect-fit-23-2.png",
+          "anchor": [
+            26.144444444444446,
+            26.144444444444446
+          ],
+          "scale": 4.5,
+          "source": "slashFx-attack-source-v1.png"
+        }
+      ]
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "Q · 霜灭": {
+    "frames": [
+      {
+        "file": "calibrated-24-0.png",
+        "anchor": [
+          34.08333333333333,
+          78.83333333333333
+        ],
+        "scale": 4.5,
+        "roi": [
+          117,
+          29,
+          471,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.02499999999999,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.498539435248297,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-24-1.png",
+        "anchor": [
+          35.56948228882834,
+          78.83438155136268
+        ],
+        "scale": 4.5,
+        "roi": [
+          608,
+          26,
+          975,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.5125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.482460523289475,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-24-2.png",
+        "anchor": [
+          38.06896551724138,
+          66.85894736842106
+        ],
+        "scale": 4.5,
+        "roi": [
+          1021,
+          28,
+          1514,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 91.55714285714285,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.471760793473731
+      },
+      {
+        "file": "calibrated-24-3.png",
+        "anchor": [
+          27.76958525345622,
+          50.89285714285714
+        ],
+        "scale": 4.5,
+        "roi": [
+          31,
+          524,
+          682,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 120.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.45822994210091
+      },
+      {
+        "file": "calibrated-24-4.png",
+        "anchor": [
+          27.76958525345622,
+          50.89285714285714
+        ],
+        "scale": 4.5,
+        "roi": [
+          31,
+          524,
+          682,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 120.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.45822994210091
+      },
+      {
+        "file": "calibrated-24-5.png",
+        "anchor": [
+          35.07775119617225,
+          77.83474576271186
+        ],
+        "scale": 4.5,
+        "roi": [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.62857142857143,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210702,
+        "scaleY": 4.501712862036748
+      },
+      {
+        "file": "calibrated-24-6.png",
+        "anchor": [
+          35.07775119617225,
+          77.83474576271186
+        ],
+        "scale": 4.5,
+        "roi": [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.62857142857143,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210702,
+        "scaleY": 4.501712862036748
+      },
+      {
+        "file": "calibrated-24-7.png",
+        "anchor": [
+          34.1566757493188,
+          78.83368421052631
+        ],
+        "scale": 4.5,
+        "roi": [
+          1129,
+          525,
+          1496,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.1875,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.501334041282273,
+        "scaleY": 4.498539435248296
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "skillQ-attack-0.png",
+        "anchor": [
+          204.5,
+          473
+        ],
+        "scale": 0.7497565725413828,
+        "roi": [
+          117,
+          29,
+          471,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.02499999999999,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-1.png",
+        "anchor": [
+          214.0,
+          476
+        ],
+        "scale": 0.7450411223996131,
+        "roi": [
+          608,
+          26,
+          975,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.5125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-2.png",
+        "anchor": [
+          272.0,
+          474
+        ],
+        "scale": 0.6307536277110315,
+        "roi": [
+          1021,
+          28,
+          1514,
+          503
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 91.55714285714285,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-3.png",
+        "anchor": [
+          262.0,
+          475
+        ],
+        "scale": 0.47766749379652607,
+        "roi": [
+          31,
+          524,
+          682,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 120.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-3.png",
+        "anchor": [
+          262.0,
+          475
+        ],
+        "scale": 0.47766749379652607,
+        "roi": [
+          31,
+          524,
+          682,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 120.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-4.png",
+        "anchor": [
+          212.5,
+          471
+        ],
+        "scale": 0.7439271255060729,
+        "roi": [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.62857142857143,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-4.png",
+        "anchor": [
+          212.5,
+          471
+        ],
+        "scale": 0.7439271255060729,
+        "roi": [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.62857142857143,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-attack-5.png",
+        "anchor": [
+          205.5,
+          474
+        ],
+        "scale": 0.748178137651822,
+        "roi": [
+          1129,
+          525,
+          1496,
+          1000
+        ],
+        "source": "skillQ-attack-source-v1.png",
+        "anatomy": {
+          "headLengthSourcePx": 77.1875,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 57.75000000000001,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      12,
+      30,
+      10,
+      18,
+      24,
+      24,
+      14,
+      20
+    ],
+    "phases": [
+      "聚霜",
+      "切入蓄势",
+      "拔刀",
+      "冰球释放",
+      "冰风 · 第一击",
+      "冰风 · 第二击",
+      "冰风 · 收束",
+      "收刀恢复"
+    ],
+    "events": [
+      {
+        "tick": 70,
+        "kind": "cinematic-hit",
+        "hitId": "Q-1"
+      },
+      {
+        "tick": 94,
+        "kind": "cinematic-hit",
+        "hitId": "Q-2"
+      },
+      {
+        "tick": 118,
+        "kind": "cinematic-hit",
+        "hitId": "Q-3"
+      }
+    ],
+    "combatDesign": {
+      "startup": 52,
+      "active": 80,
+      "recovery": 20,
+      "box": [
+        90,
+        50,
+        230,
+        260
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": "待调",
+      "cancel": "命中/防御确认后；窗口待接入",
+      "branches": [
+        "空挥短恢复",
+        "防御短恢复",
+        "命中确认后完整冰风演出"
+      ],
+      "status": "design-only",
+      "confirmedHits": [
+        70,
+        94,
+        118
+      ]
+    },
+    "previewOnly": true,
+    "status": "新持械攻击关键帧；未接战斗逻辑",
+    "effects": {
+      "frames": [
+        {
+          "file": "Q-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        }
+      ],
+      "startTick": 52,
+      "duration": 80,
+      "worldOffset": [
+        180,
+        -160
+      ],
+      "independent": true,
+      "sourceFrames": [
+        {
+          "file": "Q-attack-effect-0.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-1.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        },
+        {
+          "file": "Q-attack-effect-2.png",
+          "anchor": [
+            256.0,
+            256.0
+          ],
+          "scale": 0.66
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "effect-fit-24-0.png",
+          "anchor": [
+            37.54666666666667,
+            37.54666666666667
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-24-1.png",
+          "anchor": [
+            37.54666666666667,
+            37.54666666666667
+          ],
+          "scale": 4.5
+        },
+        {
+          "file": "effect-fit-24-2.png",
+          "anchor": [
+            37.54666666666667,
+            37.54666666666667
+          ],
+          "scale": 4.5
+        }
+      ]
+    },
+    "cinematic": {
+      "cutin": [
+        12,
+        42
+      ],
+      "releaseTick": 52,
+      "hitTicks": [
+        70,
+        94,
+        118
+      ],
+      "endTick": 152,
+      "effect": "existing ice-ball / ice-wind",
+      "previewOnly": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 57.75000000000001,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  }
+}

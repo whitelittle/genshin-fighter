@@ -1,0 +1,6956 @@
+{
+  "待机": {
+    "frames": [
+      {
+        "file": "idle-0-fit.png",
+        "anchor": [
+          24.73611111111111,
+          71.13888888888889
+        ],
+        "scale": 5.09390275276563,
+        "source": "idle-0.png"
+      },
+      {
+        "file": "idle-1-fit.png",
+        "anchor": [
+          22.13611111111111,
+          71.13888888888889
+        ],
+        "scale": 5.083378160301238,
+        "source": "idle-1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "idle-0.png",
+        "anchor": [
+          342.5,
+          985.0
+        ],
+        "scale": 0.36789297658862885,
+        "source": "idle-0.png",
+        "anatomy": {
+          "headLengthSourcePx": 161.0,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "idle-1.png",
+        "anchor": [
+          306.5,
+          985.0
+        ],
+        "scale": 0.3671328671328672,
+        "source": "idle-1.png",
+        "anatomy": {
+          "headLengthSourcePx": 161.33333333333334,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      40,
+      40
+    ],
+    "phases": [
+      "呼吸",
+      "呼吸"
+    ],
+    "status": "复用既有空手待机",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "站重": {
+    "frames": [
+      {
+        "file": "calibrated-1-0.png",
+        "anchor": [
+          24.54980079681275,
+          78.84479371316306
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          135,
+          10,
+          386,
+          519
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.493553899629161,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-1-1.png",
+        "anchor": [
+          26.504918032786886,
+          78.845703125
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          603,
+          7,
+          908,
+          519
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.33333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.504334594926352,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-1-2.png",
+        "anchor": [
+          32.652054794520545,
+          78.83910386965377
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1056,
+          27,
+          1421,
+          518
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.477730836942409,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-1-3.png",
+        "anchor": [
+          33.19869706840391,
+          78.83877551020407
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          93,
+          528,
+          400,
+          1018
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.544068176721239,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-1-4.png",
+        "anchor": [
+          29.95973154362416,
+          78.83975659229209
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          583,
+          525,
+          881,
+          1018
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.16666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.475347168044937,
+        "scaleY": 4.498539435248296
+      },
+      {
+        "file": "calibrated-1-5.png",
+        "anchor": [
+          26.400735294117645,
+          78.842
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1110,
+          518,
+          1382,
+          1018
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.33333333333334,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.496028622540251,
+        "scaleY": 4.498539435248296
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light1-contact-0.png",
+        "anchor": [
+          158.0,
+          508
+        ],
+        "scale": 0.6982016019344115,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          135,
+          10,
+          386,
+          519
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-contact-1.png",
+        "anchor": [
+          172.0,
+          511
+        ],
+        "scale": 0.6941105769230771,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          603,
+          7,
+          908,
+          519
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.33333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-contact-2.png",
+        "anchor": [
+          202.0,
+          490
+        ],
+        "scale": 0.7237975873413757,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1056,
+          27,
+          1421,
+          518
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-contact-3.png",
+        "anchor": [
+          208.0,
+          489
+        ],
+        "scale": 0.7252747252747254,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          93,
+          528,
+          400,
+          1018
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-contact-4.png",
+        "anchor": [
+          186.0,
+          492
+        ],
+        "scale": 0.7208612888126074,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          583,
+          525,
+          881,
+          1018
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.16666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "light1-contact-5.png",
+        "anchor": [
+          167.0,
+          499
+        ],
+        "scale": 0.7107692307692308,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1110,
+          518,
+          1382,
+          1018
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.33333333333334,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      10,
+      8,
+      3,
+      3,
+      10,
+      12
+    ],
+    "phases": [
+      "托抱",
+      "蓄势",
+      "喷水",
+      "受力",
+      "收回",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 18,
+        "hitId": "furina.heavy.0",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 18,
+      "active": 6,
+      "recovery": 22,
+      "box": [
+        80,
+        190,
+        300,
+        85
+      ],
+      "level": "mid",
+      "lunge": 0,
+      "status": "design-only"
+    },
+    "effects": {
+      "frames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "sourceFrames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 18,
+      "duration": 10,
+      "worldOffset": [
+        0,
+        0
+      ],
+      "followActor": true,
+      "nozzles": [
+        [
+          62.83814417409703,
+          -238.78494786156875
+        ],
+        [
+          91.62259615384617,
+          -258.2091346153847
+        ],
+        [
+          117.25520914930287,
+          -256.22434591884695
+        ],
+        [
+          70.35164835164836,
+          -242.967032967033
+        ],
+        [
+          80.01560305819942,
+          -199.67857700109224
+        ],
+        [
+          71.78769230769231,
+          -238.1076923076923
+        ]
+      ]
+    },
+    "status": "人物与被抱海马接触合成小样；水效独立；未接游戏",
+    "previewOnly": true,
+    "heldCompanion": "one embedded contact sprite, independent free-flight companion not implemented",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "轻攻一": {
+    "sourceFrames": [
+      {
+        "file": "sword-light1-0.png",
+        "anchor": [
+          150.0,
+          496.0
+        ],
+        "scale": 0.6976191105356342,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          26,
+          8,
+          333,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.90416666666667,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light1-1.png",
+        "anchor": [
+          161.5,
+          495.0
+        ],
+        "scale": 0.6990256006778431,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          599,
+          10,
+          976,
+          506
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.73333333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light1-2.png",
+        "anchor": [
+          173.5,
+          474.0
+        ],
+        "scale": 0.715224054882499,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1001,
+          27,
+          1528,
+          502
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.81428571428572,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light1-3.png",
+        "anchor": [
+          198.5,
+          467.0
+        ],
+        "scale": 0.692873303167421,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          81,
+          529,
+          625,
+          997
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.48571428571428,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light1-4.png",
+        "anchor": [
+          177.0,
+          494.0
+        ],
+        "scale": 0.7004377736085055,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          622,
+          507,
+          1031,
+          1002
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.5625,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light1-5.png",
+        "anchor": [
+          142.0,
+          490.0
+        ],
+        "scale": 0.7237975873413757,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1091,
+          517,
+          1513,
+          1008
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-2-0.png",
+        "anchor": [
+          23.45276872964169,
+          76.8450704225352
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          26,
+          8,
+          333,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.90416666666667,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.46185556113416,
+        "scaleY": 4.502814258911821
+      },
+      {
+        "file": "calibrated-2-1.png",
+        "anchor": [
+          25.274535809018566,
+          76.84475806451613
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          599,
+          10,
+          976,
+          506
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.73333333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.466655109416049,
+        "scaleY": 4.502814258911821
+      },
+      {
+        "file": "calibrated-2-2.png",
+        "anchor": [
+          27.654648956356738,
+          74.84210526315789
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1001,
+          27,
+          1528,
+          502
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.81428571428572,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179487,
+        "scaleY": 4.52975234758916
+      },
+      {
+        "file": "calibrated-2-3.png",
+        "anchor": [
+          30.65073529411765,
+          71.84615384615385
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          81,
+          529,
+          625,
+          997
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.48571428571428,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179488,
+        "scaleY": 4.503676470588236
+      },
+      {
+        "file": "calibrated-2-4.png",
+        "anchor": [
+          27.69682151589242,
+          76.84444444444445
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          622,
+          507,
+          1031,
+          1002
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.5625,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4762351469668555,
+        "scaleY": 4.502814258911821
+      },
+      {
+        "file": "calibrated-2-5.png",
+        "anchor": [
+          22.881516587677726,
+          78.83910386965377
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1091,
+          517,
+          1513,
+          1008
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.491802674383243,
+        "scaleY": 4.498539435248297
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "hitId": "furina.sword-light1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 11,
+      "box": [
+        55,
+        140,
+        190,
+        65
+      ],
+      "lunge": 18,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持剑轻攻关键帧，未接游戏判定",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light1-effect-0-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 7,
+      "worldOffset": [
+        100,
+        -165
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "轻攻二": {
+    "sourceFrames": [
+      {
+        "file": "sword-light2-0.png",
+        "anchor": [
+          193.5,
+          494.0
+        ],
+        "scale": 0.6767021129678222,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          69,
+          16,
+          626,
+          511
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 87.52857142857142,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light2-1.png",
+        "anchor": [
+          198.5,
+          494.0
+        ],
+        "scale": 0.755735492577598,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          591,
+          17,
+          1004,
+          512
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.375,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light2-2.png",
+        "anchor": [
+          198.0,
+          501.0
+        ],
+        "scale": 0.7451973482587868,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1092,
+          11,
+          1516,
+          513
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light2-3.png",
+        "anchor": [
+          203.0,
+          487.0
+        ],
+        "scale": 0.678807112991789,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          98,
+          516,
+          607,
+          1004
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 87.25714285714285,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light2-4.png",
+        "anchor": [
+          270.0,
+          484.0
+        ],
+        "scale": 0.7067307692307694,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          574,
+          521,
+          1014,
+          1006
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.80952380952381,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light2-5.png",
+        "anchor": [
+          189.0,
+          483.0
+        ],
+        "scale": 0.7342657342657344,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1134,
+          523,
+          1481,
+          1007
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-3-0.png",
+        "anchor": [
+          29.181328545780968,
+          73.85050505050505
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          69,
+          16,
+          626,
+          511
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 87.52857142857142,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179488,
+        "scaleY": 4.526588458365838
+      },
+      {
+        "file": "calibrated-3-1.png",
+        "anchor": [
+          33.163438256658594,
+          82.83232323232323
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          591,
+          17,
+          1004,
+          512
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.375,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.523460267167362,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-3-2.png",
+        "anchor": [
+          32.68867924528302,
+          82.83466135458167
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1092,
+          11,
+          1516,
+          513
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.513766795167509,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-3-3.png",
+        "anchor": [
+          30.709233791748527,
+          73.84836065573771
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          98,
+          516,
+          607,
+          1004
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 87.25714285714285,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179488,
+        "scaleY": 4.476457718108014
+      },
+      {
+        "file": "calibrated-3-4.png",
+        "anchor": [
+          42.34090909090909,
+          75.84329896907217
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          574,
+          521,
+          1014,
+          1006
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.80952380952381,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.510058198380568
+      },
+      {
+        "file": "calibrated-3-5.png",
+        "anchor": [
+          31.046109510086453,
+          78.83677685950414
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1134,
+          523,
+          1481,
+          1007
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.66666666666667,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.470003680529997,
+        "scaleY": 4.498539435248296
+      }
+    ],
+    "durations": [
+      3,
+      4,
+      2,
+      2,
+      6,
+      7
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 7,
+        "hitId": "furina.sword-light2",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 7,
+      "active": 4,
+      "recovery": 13,
+      "box": [
+        55,
+        135,
+        200,
+        110
+      ],
+      "lunge": 20,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持剑轻攻关键帧，未接游戏判定",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light2-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light2-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light2-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 7,
+      "duration": 8,
+      "worldOffset": [
+        160,
+        -165
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "轻攻三": {
+    "sourceFrames": [
+      {
+        "file": "sword-light3-0.png",
+        "anchor": [
+          223.0,
+          522.0
+        ],
+        "scale": 0.776584791881159,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.27083333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-1.png",
+        "anchor": [
+          236.0,
+          512.0
+        ],
+        "scale": 0.7105205485772288,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.36250000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-2.png",
+        "anchor": [
+          240.0,
+          456.0
+        ],
+        "scale": 0.7193188490898416,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.34285714285714,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-3.png",
+        "anchor": [
+          269.0,
+          463.0
+        ],
+        "scale": 0.6489180685758316,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.27619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-4.png",
+        "anchor": [
+          178.0,
+          480.0
+        ],
+        "scale": 0.7777319518210208,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.15833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-5.png",
+        "anchor": [
+          158.5,
+          484.0
+        ],
+        "scale": 0.7515402915878729,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          1112,
+          527,
+          1455,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-4-0.png",
+        "anchor": [
+          38.40874035989717,
+          89.82791586998088
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.27083333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.508828120026431,
+        "scaleY": 4.512820512820513
+      },
+      {
+        "file": "calibrated-4-1.png",
+        "anchor": [
+          37.42199488491049,
+          80.84210526315789
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.36250000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.480863459575749,
+        "scaleY": 4.499963474322449
+      },
+      {
+        "file": "calibrated-4-2.png",
+        "anchor": [
+          38.473282442748086,
+          72.8402625820569
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.34285714285714,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179488,
+        "scaleY": 4.503133068959693
+      },
+      {
+        "file": "calibrated-4-3.png",
+        "anchor": [
+          38.62103505843072,
+          66.85560344827586
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.27619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.519789803220036,
+        "scaleY": 4.4939997584953115
+      },
+      {
+        "file": "calibrated-4-4.png",
+        "anchor": [
+          30.976623376623376,
+          82.82744282744284
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.15833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4690567380760156,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-4-5.png",
+        "anchor": [
+          26.339650145772595,
+          80.83298969072165
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          1112,
+          527,
+          1455,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.522426666923516,
+        "scaleY": 4.499963474322449
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "hitId": "furina.sword-light3",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 16,
+      "box": [
+        55,
+        90,
+        215,
+        150
+      ],
+      "lunge": 30,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持剑轻攻关键帧，未接游戏判定",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light3-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 8,
+      "duration": 9,
+      "worldOffset": [
+        160,
+        -165
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲轻": {
+    "sourceFrames": [
+      {
+        "file": "crouchlight-sword-0.png",
+        "anchor": [
+          239.0,
+          428.0
+        ],
+        "scale": 0.6329683750680138,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          18,
+          32,
+          475,
+          461
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 93.57619047619048,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-sword-1.png",
+        "anchor": [
+          189.0,
+          424.0
+        ],
+        "scale": 0.7398121417035355,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          506,
+          35,
+          897,
+          460
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.06190476190476,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-sword-2.png",
+        "anchor": [
+          245.5,
+          357.0
+        ],
+        "scale": 0.5691096970379548,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          932,
+          102,
+          1615,
+          460
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 104.07619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-sword-3.png",
+        "anchor": [
+          251.0,
+          370.0
+        ],
+        "scale": 0.6059856542171657,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          11,
+          519,
+          633,
+          890
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 97.74285714285713,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-sword-4.png",
+        "anchor": [
+          226.0,
+          403.0
+        ],
+        "scale": 0.6838452657354193,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          582,
+          487,
+          1005,
+          891
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 86.61428571428571,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchlight-sword-5.png",
+        "anchor": [
+          236.0,
+          400.0
+        ],
+        "scale": 0.5976581557976908,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          989,
+          490,
+          1473,
+          891
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 99.1047619047619,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-5-0.png",
+        "anchor": [
+          33.47045951859956,
+          59.86013986013987
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          18,
+          32,
+          475,
+          461
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 93.57619047619048,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5197898032200365,
+        "scaleY": 4.525723881736298
+      },
+      {
+        "file": "calibrated-5-1.png",
+        "anchor": [
+          30.936061381074172,
+          69.83529411764705
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          506,
+          35,
+          897,
+          460
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.06190476190476,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5197898032200365,
+        "scaleY": 4.491716574628608
+      },
+      {
+        "file": "calibrated-5-2.png",
+        "anchor": [
+          30.91215226939971,
+          44.874301675977655
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          932,
+          102,
+          1615,
+          460
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 104.07619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.519789803220036,
+        "scaleY": 4.52758381199084
+      },
+      {
+        "file": "calibrated-5-3.png",
+        "anchor": [
+          33.89710610932476,
+          49.865229110512125
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          11,
+          519,
+          633,
+          890
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 97.74285714285713,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179488,
+        "scaleY": 4.49641355429137
+      },
+      {
+        "file": "calibrated-5-4.png",
+        "anchor": [
+          34.19385342789598,
+          60.8490099009901
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          582,
+          487,
+          1005,
+          891
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 86.61428571428571,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5197898032200365,
+        "scaleY": 4.529073563231301
+      },
+      {
+        "file": "calibrated-5-5.png",
+        "anchor": [
+          31.206611570247937,
+          52.867830423940156
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          989,
+          490,
+          1473,
+          891
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 99.1047619047619,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5197898032200365,
+        "scaleY": 4.521904159903283
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随动",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 10,
+      "box": [
+        50,
+        40,
+        200,
+        65
+      ],
+      "level": "low",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 6,
+        "hitId": "furina.crouchlight.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light1-effect-0-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 7,
+      "worldOffset": [
+        90,
+        -100
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲重": {
+    "sourceFrames": [
+      {
+        "file": "crouchheavy-seahorse-0.png",
+        "anchor": [
+          162.5,
+          499.0
+        ],
+        "scale": 0.5169230769230769,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          18,
+          5,
+          418,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 114.58333333333334,
+          "contactSheetHeadLengthPx": 55,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-seahorse-1.png",
+        "anchor": [
+          153.0,
+          494.0
+        ],
+        "scale": 0.5412497949811385,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          517,
+          10,
+          986,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 109.43333333333332,
+          "contactSheetHeadLengthPx": 49,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-seahorse-2.png",
+        "anchor": [
+          169.5,
+          495.0
+        ],
+        "scale": 0.5675775285631549,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1028,
+          10,
+          1515,
+          506
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 104.35714285714286,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-seahorse-3.png",
+        "anchor": [
+          171.0,
+          487.0
+        ],
+        "scale": 0.5295215640043227,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          28,
+          512,
+          463,
+          1000
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 111.85714285714285,
+          "contactSheetHeadLengthPx": 54,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-seahorse-4.png",
+        "anchor": [
+          170.0,
+          494.0
+        ],
+        "scale": 0.5318138651471985,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          526,
+          514,
+          953,
+          1009
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 111.375,
+          "contactSheetHeadLengthPx": 54,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchheavy-seahorse-5.png",
+        "anchor": [
+          180.0,
+          494.0
+        ],
+        "scale": 0.5318138651471985,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1062,
+          513,
+          1466,
+          1008
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 111.375,
+          "contactSheetHeadLengthPx": 54,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-6-0.png",
+        "anchor": [
+          18.6875,
+          56.886
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          18,
+          5,
+          418,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 114.58333333333334,
+          "contactSheetHeadLengthPx": 55,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.494983277591973,
+        "scaleY": 4.534412955465587
+      },
+      {
+        "file": "calibrated-6-1.png",
+        "anchor": [
+          18.26865671641791,
+          59.87878787878788
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          517,
+          10,
+          986,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 109.43333333333332,
+          "contactSheetHeadLengthPx": 49,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.532967032967035,
+        "scaleY": 4.465310808594392
+      },
+      {
+        "file": "calibrated-6-2.png",
+        "anchor": [
+          21.23100616016427,
+          62.872983870967744
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1028,
+          10,
+          1515,
+          506
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 104.35714285714286,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.531315678856663,
+        "scaleY": 4.468546891544839
+      },
+      {
+        "file": "calibrated-6-3.png",
+        "anchor": [
+          20.048275862068966,
+          56.88319672131148
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          28,
+          512,
+          463,
+          1000
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 111.85714285714285,
+          "contactSheetHeadLengthPx": 54,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.516507457683929,
+        "scaleY": 4.533447776037009
+      },
+      {
+        "file": "calibrated-6-4.png",
+        "anchor": [
+          19.90632318501171,
+          57.882828282828285
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          526,
+          514,
+          953,
+          1009
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 111.375,
+          "contactSheetHeadLengthPx": 54,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.541690408357075,
+        "scaleY": 4.538756262894194
+      },
+      {
+        "file": "calibrated-6-5.png",
+        "anchor": [
+          21.386138613861384,
+          57.882828282828285
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1062,
+          513,
+          1466,
+          1008
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 111.375,
+          "contactSheetHeadLengthPx": 54,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.476100031655588,
+        "scaleY": 4.538756262894194
+      }
+    ],
+    "durations": [
+      10,
+      8,
+      3,
+      3,
+      10,
+      12
+    ],
+    "phases": [
+      "托抱",
+      "蓄势",
+      "喷水",
+      "受力",
+      "收回",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 18,
+      "active": 6,
+      "recovery": 22,
+      "box": [
+        80,
+        100,
+        300,
+        85
+      ],
+      "level": "mid",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 18,
+        "hitId": "furina.crouchheavy.0",
+        "damageSegments": 1
+      }
+    ],
+    "heldCompanion": "one embedded contact sprite; do not draw another copy",
+    "effects": {
+      "frames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "sourceFrames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 18,
+      "duration": 10,
+      "worldOffset": [
+        0,
+        0
+      ],
+      "followActor": true,
+      "nozzles": [
+        [
+          102.60923076923078,
+          -141.63692307692307
+        ],
+        [
+          170.4936854190586,
+          -179.69493193373796
+        ],
+        [
+          177.3679776759859,
+          -187.30058442584112
+        ],
+        [
+          139.7936928971412,
+          -182.155418017487
+        ],
+        [
+          99.98100664767333,
+          -127.63532763532766
+        ],
+        [
+          126.57169990503326,
+          -128.16714150047483
+        ]
+      ]
+    },
+    "mouthsSource": [
+      [
+        379,
+        230
+      ],
+      [
+        985,
+        172
+      ],
+      [
+        1510,
+        175
+      ],
+      [
+        463,
+        655
+      ],
+      [
+        884,
+        768
+      ],
+      [
+        1480,
+        766
+      ]
+    ],
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "空轻": {
+    "sourceFrames": [
+      {
+        "file": "airlight-sword-0.png",
+        "anchor": [
+          223.3,
+          313.95
+        ],
+        "scale": 0.6398138723280501,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          32,
+          14,
+          438,
+          497
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 92.575,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-sword-1.png",
+        "anchor": [
+          190.3,
+          314.6
+        ],
+        "scale": 0.6993006993006994,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          560,
+          7,
+          906,
+          491
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.7,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-sword-2.png",
+        "anchor": [
+          277.20000000000005,
+          297.05
+        ],
+        "scale": 0.8226495726495728,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1026,
+          31,
+          1530,
+          488
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 72.0,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-sword-3.png",
+        "anchor": [
+          350.90000000000003,
+          305.5
+        ],
+        "scale": 0.7220748600058946,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          28,
+          521,
+          666,
+          991
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.02857142857142,
+          "contactSheetHeadLengthPx": 27,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-sword-4.png",
+        "anchor": [
+          265.1,
+          325.0
+        ],
+        "scale": 0.5609986261258136,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          591,
+          511,
+          1073,
+          1011
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 105.58095238095238,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "airlight-sword-5.png",
+        "anchor": [
+          249.70000000000002,
+          305.5
+        ],
+        "scale": 0.6371509854759523,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1076,
+          518,
+          1530,
+          988
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 92.96190476190476,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-7-0.png",
+        "anchor": [
+          31.9,
+          44.849999999999994
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          32,
+          14,
+          438,
+          497
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 92.575,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.478697106296351,
+        "scaleY": 4.478697106296351
+      },
+      {
+        "file": "calibrated-7-1.png",
+        "anchor": [
+          29.700000000000003,
+          48.75000000000001
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          560,
+          7,
+          906,
+          491
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.7,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.480704480704481,
+        "scaleY": 4.512820512820513
+      },
+      {
+        "file": "calibrated-7-2.png",
+        "anchor": [
+          50.60000000000001,
+          54.6
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1026,
+          31,
+          1530,
+          488
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 72.0,
+          "contactSheetHeadLengthPx": 30,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210704,
+        "scaleY": 4.475605413105414
+      },
+      {
+        "file": "calibrated-7-3.png",
+        "anchor": [
+          56.10000000000001,
+          48.75
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          28,
+          521,
+          666,
+          991
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.02857142857142,
+          "contactSheetHeadLengthPx": 27,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.516507457683929,
+        "scaleY": 4.5250024560369395
+      },
+      {
+        "file": "calibrated-7-4.png",
+        "anchor": [
+          33.0,
+          40.3
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          591,
+          511,
+          1073,
+          1011
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 105.58095238095238,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210703,
+        "scaleY": 4.524182468756561
+      },
+      {
+        "file": "calibrated-7-5.png",
+        "anchor": [
+          35.2,
+          43.550000000000004
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1076,
+          518,
+          1530,
+          988
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 92.96190476190476,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.519789803220036,
+        "scaleY": 4.469566614532799
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随动",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 6,
+      "active": 6,
+      "recovery": 8,
+      "box": [
+        45,
+        40,
+        200,
+        120
+      ],
+      "level": "high",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 6,
+        "hitId": "furina.airlight.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light3-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 10,
+      "worldOffset": [
+        150,
+        0
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "空重": {
+    "sourceFrames": [
+      {
+        "file": "airheavy-0.png",
+        "anchor": [
+          229.35000000000002,
+          323.05
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          8,
+          480,
+          505
+        ]
+      },
+      {
+        "file": "airheavy-1.png",
+        "anchor": [
+          240.9,
+          321.1
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          561,
+          9,
+          999,
+          503
+        ]
+      },
+      {
+        "file": "airheavy-2.png",
+        "anchor": [
+          248.05,
+          326.95
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1064,
+          10,
+          1515,
+          513
+        ]
+      },
+      {
+        "file": "airheavy-3.png",
+        "anchor": [
+          262.90000000000003,
+          321.75
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          519,
+          541,
+          1014
+        ]
+      },
+      {
+        "file": "airheavy-4.png",
+        "anchor": [
+          216.15,
+          321.1
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          580,
+          515,
+          973,
+          1009
+        ]
+      },
+      {
+        "file": "airheavy-5.png",
+        "anchor": [
+          195.8,
+          298.35
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1084,
+          523,
+          1440,
+          982
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "airheavy-0-fit.png",
+        "anchor": [
+          25.483333333333334,
+          35.894444444444446
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          8,
+          480,
+          505
+        ]
+      },
+      {
+        "file": "airheavy-1-fit.png",
+        "anchor": [
+          26.766666666666666,
+          35.67777777777778
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          561,
+          9,
+          999,
+          503
+        ]
+      },
+      {
+        "file": "airheavy-2-fit.png",
+        "anchor": [
+          27.561111111111114,
+          36.327777777777776
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1064,
+          10,
+          1515,
+          513
+        ]
+      },
+      {
+        "file": "airheavy-3-fit.png",
+        "anchor": [
+          29.211111111111116,
+          35.75
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          519,
+          541,
+          1014
+        ]
+      },
+      {
+        "file": "airheavy-4-fit.png",
+        "anchor": [
+          24.016666666666666,
+          35.67777777777778
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          580,
+          515,
+          973,
+          1009
+        ]
+      },
+      {
+        "file": "airheavy-5-fit.png",
+        "anchor": [
+          21.755555555555556,
+          33.150000000000006
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1084,
+          523,
+          1440,
+          982
+        ]
+      }
+    ],
+    "durations": [
+      4,
+      5,
+      3,
+      3,
+      6,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随动",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 9,
+      "active": 6,
+      "recovery": 12,
+      "box": [
+        35,
+        -100,
+        190,
+        180
+      ],
+      "level": "high",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 9,
+        "hitId": "furina.airheavy.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "frames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "sourceFrames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 9,
+      "duration": 12,
+      "worldOffset": [
+        170,
+        30
+      ],
+      "followActor": true,
+      "nozzles": null,
+      "rotation": 0.38
+    }
+  },
+  "站立格挡": {
+    "sourceFrames": [
+      {
+        "file": "standguard-crab-0.png",
+        "anchor": [
+          171.0,
+          517.0
+        ],
+        "scale": 0.6860706860706862,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          99,
+          9,
+          443,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 86.33333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "standguard-crab-1.png",
+        "anchor": [
+          168.5,
+          514.0
+        ],
+        "scale": 0.6900672143390592,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          604,
+          11,
+          920,
+          526
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "standguard-crab-2.png",
+        "anchor": [
+          182.0,
+          514.0
+        ],
+        "scale": 0.6900672143390592,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1096,
+          11,
+          1426,
+          526
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "standguard-crab-3.png",
+        "anchor": [
+          260.5,
+          478.0
+        ],
+        "scale": 0.8072729451234126,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          63,
+          534,
+          491,
+          1013
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 73.37142857142857,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "standguard-crab-4.png",
+        "anchor": [
+          210.0,
+          484.0
+        ],
+        "scale": 0.7713176676822908,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          585,
+          528,
+          977,
+          1013
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.79166666666666,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "standguard-crab-5.png",
+        "anchor": [
+          204.0,
+          470.0
+        ],
+        "scale": 0.8383689912352333,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1098,
+          542,
+          1479,
+          1013
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 70.65,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-9-0.png",
+        "anchor": [
+          25.848837209302324,
+          78.84749034749035
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          99,
+          9,
+          443,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 86.33333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.538621461698386,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-9-1.png",
+        "anchor": [
+          25.59493670886076,
+          78.84660194174758
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          604,
+          11,
+          920,
+          526
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.542942494398806,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-9-2.png",
+        "anchor": [
+          28.127272727272725,
+          78.84660194174758
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1096,
+          11,
+          1426,
+          526
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 85.83333333333333,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.465140798664501,
+        "scaleY": 4.498539435248297
+      },
+      {
+        "file": "calibrated-9-3.png",
+        "anchor": [
+          46.86565420560748,
+          85.8204592901879
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          63,
+          534,
+          491,
+          1013
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 73.37142857142857,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.487179487179489,
+        "scaleY": 4.496322566443194
+      },
+      {
+        "file": "calibrated-9-4.png",
+        "anchor": [
+          35.89285714285714,
+          82.82886597938145
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          585,
+          528,
+          977,
+          1013
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.79166666666666,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.512783966141164,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-9-5.png",
+        "anchor": [
+          38.01574803149607,
+          87.81316348195328
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1098,
+          542,
+          1479,
+          1013
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 70.65,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.498853319163716,
+        "scaleY": 4.487179487179488
+      }
+    ],
+    "durations": [
+      6,
+      8,
+      16,
+      8,
+      16,
+      8
+    ],
+    "phases": [
+      "进入",
+      "防护",
+      "保持",
+      "受力",
+      "回位",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "heldCompanion": "one embedded contact sprite; do not draw another copy",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲防": {
+    "sourceFrames": [
+      {
+        "file": "crouchguard-crab-0.png",
+        "anchor": [
+          214.5,
+          499.0
+        ],
+        "scale": 0.5416976543185062,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          31,
+          11,
+          565,
+          511
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 109.34285714285714,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-crab-1.png",
+        "anchor": [
+          187.5,
+          478.0
+        ],
+        "scale": 0.6182752529307854,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          599,
+          33,
+          1010,
+          512
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 95.8,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-crab-2.png",
+        "anchor": [
+          187.0,
+          453.0
+        ],
+        "scale": 0.5986937590711177,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1079,
+          58,
+          1503,
+          512
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 98.93333333333334,
+          "contactSheetHeadLengthPx": 49,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-crab-3.png",
+        "anchor": [
+          195.0,
+          455.0
+        ],
+        "scale": 0.6082972192127123,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          28,
+          542,
+          454,
+          998
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 97.37142857142857,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-crab-4.png",
+        "anchor": [
+          183.5,
+          482.0
+        ],
+        "scale": 0.595711759504863,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          568,
+          518,
+          1003,
+          1001
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 99.42857142857143,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "crouchguard-crab-5.png",
+        "anchor": [
+          186.5,
+          460.0
+        ],
+        "scale": 0.5618856005087203,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1057,
+          543,
+          1528,
+          1004
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 105.41428571428571,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-10-0.png",
+        "anchor": [
+          25.707865168539325,
+          59.879999999999995
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          31,
+          11,
+          565,
+          511
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 109.34285714285714,
+          "contactSheetHeadLengthPx": 43,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5197898032200365,
+        "scaleY": 4.514147119320886
+      },
+      {
+        "file": "calibrated-10-1.png",
+        "anchor": [
+          25.547445255474454,
+          65.86221294363257
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          599,
+          33,
+          1010,
+          512
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 95.8,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5376987313313,
+        "scaleY": 4.487179487179488
+      },
+      {
+        "file": "calibrated-10-2.png",
+        "anchor": [
+          24.69811320754717,
+          59.86784140969163
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1079,
+          58,
+          1503,
+          512
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 98.93333333333334,
+          "contactSheetHeadLengthPx": 49,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.532967032967034,
+        "scaleY": 4.530116110304791
+      },
+      {
+        "file": "calibrated-10-3.png",
+        "anchor": [
+          26.549295774647888,
+          61.8640350877193
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          28,
+          542,
+          454,
+          998
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 97.37142857142857,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.467838196286473,
+        "scaleY": 4.473927934854787
+      },
+      {
+        "file": "calibrated-10-4.png",
+        "anchor": [
+          24.466666666666665,
+          63.86749482401657
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          568,
+          518,
+          1003,
+          1001
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 99.42857142857143,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.467838196286473,
+        "scaleY": 4.4957621850132625
+      },
+      {
+        "file": "calibrated-10-5.png",
+        "anchor": [
+          23.361995753715497,
+          57.87418655097615
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1057,
+          543,
+          1528,
+          1004
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 105.41428571428571,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.485561319315377,
+        "scaleY": 4.466021755767587
+      }
+    ],
+    "durations": [
+      6,
+      8,
+      16,
+      8,
+      16,
+      8
+    ],
+    "phases": [
+      "进入",
+      "防护",
+      "保持",
+      "受力",
+      "回位",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "heldCompanion": "one embedded contact sprite; do not draw another copy",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "E · 孤心沙龙": {
+    "sourceFrames": [
+      {
+        "file": "skillE-0.png",
+        "anchor": [
+          133.0,
+          502.0
+        ],
+        "scale": 0.7246462056065972,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          157,
+          6,
+          410,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.7375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-1.png",
+        "anchor": [
+          142.0,
+          502.0
+        ],
+        "scale": 0.7246462056065972,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          606,
+          6,
+          949,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.7375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-2.png",
+        "anchor": [
+          154.0,
+          502.0
+        ],
+        "scale": 0.7246462056065972,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1102,
+          6,
+          1457,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.7375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-3.png",
+        "anchor": [
+          153.0,
+          503.0
+        ],
+        "scale": 0.7232084155161079,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          129,
+          516,
+          476,
+          1020
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-4.png",
+        "anchor": [
+          152.5,
+          505.0
+        ],
+        "scale": 0.720349884229483,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          608,
+          514,
+          899,
+          1020
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.22500000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillE-5.png",
+        "anchor": [
+          143.5,
+          503.0
+        ],
+        "scale": 0.7232084155161079,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1114,
+          516,
+          1374,
+          1020
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-11-0.png",
+        "anchor": [
+          21.55335968379447,
+          80.8389662027833
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          157,
+          6,
+          410,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.7375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.471597317523636,
+        "scaleY": 4.499963474322449
+      },
+      {
+        "file": "calibrated-11-1.png",
+        "anchor": [
+          22.769679300291546,
+          80.8389662027833
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          606,
+          6,
+          949,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.7375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.51915724587387,
+        "scaleY": 4.499963474322449
+      },
+      {
+        "file": "calibrated-11-2.png",
+        "anchor": [
+          24.72676056338028,
+          80.8389662027833
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1102,
+          6,
+          1457,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.7375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.513147420883193,
+        "scaleY": 4.499963474322449
+      },
+      {
+        "file": "calibrated-11-3.png",
+        "anchor": [
+          24.69164265129683,
+          80.83928571428572
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          129,
+          516,
+          476,
+          1020
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.481309289001597,
+        "scaleY": 4.499963474322449
+      },
+      {
+        "file": "calibrated-11-4.png",
+        "anchor": [
+          24.630584192439866,
+          80.8399209486166
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          608,
+          514,
+          899,
+          1020
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.22500000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4600386449102025,
+        "scaleY": 4.49996347432245
+      },
+      {
+        "file": "calibrated-11-5.png",
+        "anchor": [
+          23.180769230769233,
+          80.83928571428572
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1114,
+          516,
+          1374,
+          1020
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 81.9,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.477004477004478,
+        "scaleY": 4.499963474322449
+      }
+    ],
+    "durations": [
+      8,
+      10,
+      3,
+      3,
+      12,
+      12
+    ],
+    "phases": [
+      "提腕",
+      "邀请",
+      "合击",
+      "命中",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 18,
+      "active": 6,
+      "recovery": 24,
+      "box": [
+        70,
+        100,
+        280,
+        150
+      ],
+      "level": "mid",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 18,
+        "hitId": "furina.skillE.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "combo-effect-0-fit.png",
+          "anchor": [
+            17.91111111111111,
+            26.288888888888888
+          ],
+          "scale": 4.5,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1-fit.png",
+          "anchor": [
+            31.488888888888894,
+            30.40555555555556
+          ],
+          "scale": 4.5,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2-fit.png",
+          "anchor": [
+            38.56666666666667,
+            27.66111111111111
+          ],
+          "scale": 4.5,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3-fit.png",
+          "anchor": [
+            32.138888888888886,
+            22.461111111111112
+          ],
+          "scale": 4.5,
+          "source": "source-cell-3.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        }
+      ],
+      "startTick": 12,
+      "duration": 26,
+      "worldOffset": [
+        210,
+        -165
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "Q · 万众狂欢": {
+    "sourceFrames": [
+      {
+        "file": "skillQ-0.png",
+        "anchor": [
+          165.0,
+          501.0
+        ],
+        "scale": 0.7451973482587868,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-0.png",
+        "anchor": [
+          165.0,
+          501.0
+        ],
+        "scale": 0.7451973482587868,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-1.png",
+        "anchor": [
+          174.0,
+          502.0
+        ],
+        "scale": 0.7437158425962446,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          585,
+          7,
+          975,
+          510
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.64166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-2.png",
+        "anchor": [
+          164.0,
+          500.0
+        ],
+        "scale": 0.7466847681155908,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1084,
+          8,
+          1500,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.325,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-3.png",
+        "anchor": [
+          171.0,
+          508.0
+        ],
+        "scale": 0.7349490546678016,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          58,
+          507,
+          455,
+          1016
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.59166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-4.png",
+        "anchor": [
+          197.0,
+          508.0
+        ],
+        "scale": 0.7349490546678016,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          587,
+          507,
+          972,
+          1016
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.59166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-5.png",
+        "anchor": [
+          151.5,
+          502.0
+        ],
+        "scale": 0.7437158425962446,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1116,
+          513,
+          1446,
+          1016
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.64166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "skillQ-0.png",
+        "anchor": [
+          165.0,
+          501.0
+        ],
+        "scale": 0.7451973482587868,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-12-0.png",
+        "anchor": [
+          27.123287671232877,
+          82.83466135458167
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.533283868574286,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-1.png",
+        "anchor": [
+          27.123287671232877,
+          82.83466135458167
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.533283868574286,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-2.png",
+        "anchor": [
+          28.553846153846155,
+          82.83499005964215
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          585,
+          7,
+          975,
+          510
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.64166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.532018415820866,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-3.png",
+        "anchor": [
+          27.201923076923077,
+          82.83433133732535
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1084,
+          8,
+          1500,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.325,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.501751645450518,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-4.png",
+        "anchor": [
+          27.997481108312343,
+          82.83693516699411
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          58,
+          507,
+          455,
+          1016
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.59166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.488842687740266,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-5.png",
+        "anchor": [
+          32.236363636363635,
+          82.83693516699411
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          587,
+          507,
+          972,
+          1016
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.59166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4913553340810095,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-6.png",
+        "anchor": [
+          25.25,
+          82.83499005964215
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1116,
+          513,
+          1446,
+          1016
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.64166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.462295055577468,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-12-7.png",
+        "anchor": [
+          27.123287671232877,
+          82.83466135458167
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.48333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.533283868574286,
+        "scaleY": 4.507097214770012
+      }
+    ],
+    "durations": [
+      12,
+      30,
+      14,
+      22,
+      22,
+      22,
+      16,
+      20
+    ],
+    "phases": [
+      "水泡确认",
+      "头像切入",
+      "舞台展开",
+      "章鱼 · 第一幕",
+      "海马 · 第二幕",
+      "蟹 · 终幕",
+      "谢幕",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "events": [
+      {
+        "tick": 56,
+        "hitId": "furina.Q.0",
+        "damageSegments": 1
+      },
+      {
+        "tick": 78,
+        "hitId": "furina.Q.1",
+        "damageSegments": 1
+      },
+      {
+        "tick": 100,
+        "hitId": "furina.Q.2",
+        "damageSegments": 1
+      }
+    ],
+    "cinematic": {
+      "confirmTick": 12,
+      "hitTicks": [
+        56,
+        78,
+        100
+      ],
+      "previewBranch": "confirmed",
+      "unimplementedBranches": [
+        "whiff",
+        "blocked"
+      ],
+      "endTick": 158
+    },
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        },
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "combo-effect-0-fit.png",
+          "anchor": [
+            17.91111111111111,
+            26.288888888888888
+          ],
+          "scale": 4.5,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1-fit.png",
+          "anchor": [
+            31.488888888888894,
+            30.40555555555556
+          ],
+          "scale": 4.5,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2-fit.png",
+          "anchor": [
+            38.56666666666667,
+            27.66111111111111
+          ],
+          "scale": 4.5,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3-fit.png",
+          "anchor": [
+            32.138888888888886,
+            22.461111111111112
+          ],
+          "scale": 4.5,
+          "source": "source-cell-3.png"
+        },
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        },
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 136,
+      "worldOffset": [
+        370,
+        -170
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "投技": {
+    "sourceFrames": [
+      {
+        "file": "throw-0.png",
+        "anchor": [
+          169.0,
+          495.0
+        ],
+        "scale": 0.7542118323103044,
+        "source": "throw-source-v1.png",
+        "roi": [
+          71,
+          5,
+          480,
+          501
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.53333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-1.png",
+        "anchor": [
+          176.5,
+          499.0
+        ],
+        "scale": 0.748178137651822,
+        "source": "throw-source-v1.png",
+        "roi": [
+          594,
+          5,
+          911,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.16666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-2.png",
+        "anchor": [
+          230.0,
+          498.0
+        ],
+        "scale": 0.7496774926370962,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1088,
+          7,
+          1473,
+          506
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.00833333333334,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-3.png",
+        "anchor": [
+          179.0,
+          499.0
+        ],
+        "scale": 0.748178137651822,
+        "source": "throw-source-v1.png",
+        "roi": [
+          85,
+          514,
+          468,
+          1014
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.16666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-4.png",
+        "anchor": [
+          211.0,
+          498.0
+        ],
+        "scale": 0.7496774926370962,
+        "source": "throw-source-v1.png",
+        "roi": [
+          607,
+          513,
+          959,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.00833333333334,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "throw-5.png",
+        "anchor": [
+          150.0,
+          503.0
+        ],
+        "scale": 0.7422402159244265,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1123,
+          510,
+          1391,
+          1014
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.80000000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-13-0.png",
+        "anchor": [
+          28.511002444987774,
+          82.83266129032258
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          71,
+          5,
+          480,
+          501
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.53333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.470617962534993,
+        "scaleY": 4.507097214770012
+      },
+      {
+        "file": "calibrated-13-1.png",
+        "anchor": [
+          29.509463722397474,
+          82.834
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          594,
+          5,
+          911,
+          505
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.16666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.474952257275992,
+        "scaleY": 4.5070972147700115
+      },
+      {
+        "file": "calibrated-13-2.png",
+        "anchor": [
+          38.23376623376623,
+          82.83366733466934
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1088,
+          7,
+          1473,
+          506
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.00833333333334,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5097786666450315,
+        "scaleY": 4.5070972147700115
+      },
+      {
+        "file": "calibrated-13-3.png",
+        "anchor": [
+          29.911227154046998,
+          82.834
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          85,
+          514,
+          468,
+          1014
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.16666666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.477378542510122,
+        "scaleY": 4.5070972147700115
+      },
+      {
+        "file": "calibrated-13-4.png",
+        "anchor": [
+          35.36647727272727,
+          82.83366733466934
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          607,
+          513,
+          959,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.00833333333334,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4726521594619975,
+        "scaleY": 4.5070972147700115
+      },
+      {
+        "file": "calibrated-13-5.png",
+        "anchor": [
+          24.62686567164179,
+          82.83531746031746
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1123,
+          510,
+          1391,
+          1014
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 79.80000000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.520917678812416,
+        "scaleY": 4.5070972147700115
+      }
+    ],
+    "durations": [
+      8,
+      12,
+      10,
+      8,
+      12,
+      22
+    ],
+    "phases": [
+      "抓取",
+      "水带控制",
+      "牵引",
+      "蟹撞",
+      "释放",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "events": [
+      {
+        "tick": 30,
+        "hitId": "furina.throw.0",
+        "damageSegments": 1
+      }
+    ],
+    "pairedTimeline": "furina-throw",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "被投": {
+    "sourceFrames": [
+      {
+        "file": "victim-0.png",
+        "anchor": [
+          170.0,
+          542
+        ],
+        "scale": 0.6712652696503102,
+        "source": "victim-source-v1.png",
+        "roi": [
+          61,
+          15,
+          401,
+          558
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 88.2375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-1.png",
+        "anchor": [
+          232.65,
+          322.40000000000003
+        ],
+        "scale": 0.734873067379271,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.6,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-2.png",
+        "anchor": [
+          232.65,
+          322.40000000000003
+        ],
+        "scale": 0.734873067379271,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.6,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-3.png",
+        "anchor": [
+          284.35,
+          229.45000000000002
+        ],
+        "scale": 0.7760941872129246,
+        "source": "victim-source-v1.png",
+        "roi": [
+          34,
+          589,
+          551,
+          942
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.31904761904761,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-4.png",
+        "anchor": [
+          224.0,
+          271
+        ],
+        "scale": 0.8676382211538463,
+        "source": "victim-source-v1.png",
+        "roi": [
+          488,
+          689,
+          936,
+          961
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 68.26666666666667,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victim-5.png",
+        "anchor": [
+          280.0,
+          140
+        ],
+        "scale": 0.6346153846153848,
+        "source": "victim-source-v1.png",
+        "roi": [
+          957,
+          810,
+          1517,
+          951
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 93.33333333333333,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-14-0.png",
+        "anchor": [
+          25.5,
+          80.85082872928177
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          61,
+          15,
+          401,
+          558
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 88.2375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.475101797668735,
+        "scaleY": 4.49996347432245
+      },
+      {
+        "file": "calibrated-14-1.png",
+        "anchor": [
+          37.95,
+          52.650000000000006
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.6,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.505091413064227,
+        "scaleY": 4.49996347432245
+      },
+      {
+        "file": "calibrated-14-2.png",
+        "anchor": [
+          37.95,
+          52.650000000000006
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 80.6,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.505091413064227,
+        "scaleY": 4.49996347432245
+      },
+      {
+        "file": "calibrated-14-3.png",
+        "anchor": [
+          48.95000000000001,
+          39.650000000000006
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          34,
+          589,
+          551,
+          942
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.31904761904761,
+          "contactSheetHeadLengthPx": 31,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.508322413360472,
+        "scaleY": 4.491168001412498
+      },
+      {
+        "file": "calibrated-14-4.png",
+        "anchor": [
+          43.0,
+          51.80882352941176
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          488,
+          689,
+          936,
+          961
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 68.26666666666667,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.519789803220036,
+        "scaleY": 4.538415310650889
+      },
+      {
+        "file": "calibrated-14-5.png",
+        "anchor": [
+          39.5,
+          19.858156028368796
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          957,
+          810,
+          1517,
+          951
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 93.33333333333333,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.498539435248297,
+        "scaleY": 4.474038461538463
+      }
+    ],
+    "durations": [
+      8,
+      12,
+      10,
+      8,
+      12,
+      22
+    ],
+    "phases": [
+      "失衡",
+      "受控",
+      "牵引",
+      "击飞",
+      "落地",
+      "倒地"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "events": [
+      {
+        "tick": 30,
+        "hitId": "furina.throw.0",
+        "damageSegments": 1
+      }
+    ],
+    "pairedTimeline": "furina-throw",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "前走": {
+    "sourceFrames": [
+      {
+        "file": "legacy-0-0.png",
+        "anchor": [
+          349.0,
+          511.0
+        ],
+        "scale": 0.750389812889813,
+        "anatomy": {
+          "headLengthSourcePx": 78.93333333333334,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-0-1.png",
+        "anchor": [
+          283.5,
+          507.0
+        ],
+        "scale": 0.6960137394920004,
+        "anatomy": {
+          "headLengthSourcePx": 85.10000000000001,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-0-2.png",
+        "anchor": [
+          267.0,
+          511.0
+        ],
+        "scale": 0.750389812889813,
+        "anatomy": {
+          "headLengthSourcePx": 78.93333333333334,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-0-3.png",
+        "anchor": [
+          338.5,
+          493.0
+        ],
+        "scale": 0.7730373927557027,
+        "anatomy": {
+          "headLengthSourcePx": 76.62083333333334,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-0-4.png",
+        "anchor": [
+          295.0,
+          494.0
+        ],
+        "scale": 0.6630663435397165,
+        "anatomy": {
+          "headLengthSourcePx": 89.32857142857142,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-0-5.png",
+        "anchor": [
+          243.5,
+          491.0
+        ],
+        "scale": 0.7308144264666004,
+        "anatomy": {
+          "headLengthSourcePx": 81.04761904761905,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-15-0.png",
+        "anchor": [
+          57.939453125,
+          84.833984375
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 78.93333333333334,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.519995108230403,
+        "scaleY": 4.519995108230403
+      },
+      {
+        "file": "calibrated-15-1.png",
+        "anchor": [
+          43.7431640625,
+          78.228515625
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 85.10000000000001,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.510873855948154,
+        "scaleY": 4.510873855948154
+      },
+      {
+        "file": "calibrated-15-2.png",
+        "anchor": [
+          44.326171875,
+          84.833984375
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 78.93333333333334,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.519995108230403,
+        "scaleY": 4.519995108230403
+      },
+      {
+        "file": "calibrated-15-3.png",
+        "anchor": [
+          58.1796875,
+          84.734375
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 76.62083333333334,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.497672103305907,
+        "scaleY": 4.497672103305907
+      },
+      {
+        "file": "calibrated-15-4.png",
+        "anchor": [
+          43.212890625,
+          72.36328125
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 89.32857142857142,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.526532905231131,
+        "scaleY": 4.526532905231131
+      },
+      {
+        "file": "calibrated-15-5.png",
+        "anchor": [
+          39.4736328125,
+          79.595703125
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 81.04761904761905,
+          "contactSheetHeadLengthPx": 37,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.508156462059029,
+        "scaleY": 4.508156462059029
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "后退": {
+    "sourceFrames": [
+      {
+        "file": "legacy-1-0.png",
+        "anchor": [
+          222.5,
+          514.0
+        ],
+        "scale": 0.7235765354466364,
+        "anatomy": {
+          "headLengthSourcePx": 81.85833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-1-1.png",
+        "anchor": [
+          239.5,
+          511.0
+        ],
+        "scale": 0.7277997447974923,
+        "anatomy": {
+          "headLengthSourcePx": 81.38333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-1-2.png",
+        "anchor": [
+          180.5,
+          510.0
+        ],
+        "scale": 0.7335079780900216,
+        "anatomy": {
+          "headLengthSourcePx": 80.75,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-1-3.png",
+        "anchor": [
+          218.5,
+          505.0
+        ],
+        "scale": 0.7363958047754153,
+        "anatomy": {
+          "headLengthSourcePx": 80.43333333333334,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-1-4.png",
+        "anchor": [
+          208.0,
+          500.0
+        ],
+        "scale": 0.7437158425962446,
+        "anatomy": {
+          "headLengthSourcePx": 79.64166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-1-5.png",
+        "anchor": [
+          133.0,
+          498.0
+        ],
+        "scale": 0.7466847681155908,
+        "anatomy": {
+          "headLengthSourcePx": 79.325,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-16-0.png",
+        "anchor": [
+          35.98382749326145,
+          82.20038535645473
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 81.85833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.474114910845035,
+        "scaleY": 4.524532793937401
+      },
+      {
+        "file": "calibrated-16-1.png",
+        "anchor": [
+          39.07250755287009,
+          82.19573643410853
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 81.38333333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.461142880147592,
+        "scaleY": 4.524634558018144
+      },
+      {
+        "file": "calibrated-16-2.png",
+        "anchor": [
+          29.511406844106467,
+          82.67578125
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 80.75,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.486339493899433,
+        "scaleY": 4.524772105808326
+      },
+      {
+        "file": "calibrated-16-3.png",
+        "anchor": [
+          35.55473372781065,
+          82.18627450980392
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 80.43333333333334,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5254869457107345,
+        "scaleY": 4.524841691993516
+      },
+      {
+        "file": "calibrated-16-4.png",
+        "anchor": [
+          34.2360248447205,
+          82.17821782178218
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 79.64166666666667,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.518424553131901,
+        "scaleY": 4.52501807844703
+      },
+      {
+        "file": "calibrated-16-5.png",
+        "anchor": [
+          22.250950570342205,
+          82.17495029821073
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 79.325,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.463138500327282,
+        "scaleY": 4.52508961882099
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "跳跃": {
+    "sourceFrames": [
+      {
+        "file": "legacy-2-0.png",
+        "anchor": [
+          140.5,
+          536.0
+        ],
+        "scale": 0.676246830092984,
+        "anatomy": {
+          "headLengthSourcePx": 87.5875,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-2-1.png",
+        "anchor": [
+          272.5,
+          440.0
+        ],
+        "scale": 0.6155216517449298,
+        "anatomy": {
+          "headLengthSourcePx": 96.22857142857143,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-2-2.png",
+        "anchor": [
+          63.5,
+          503.0
+        ],
+        "scale": 0.5977371379776562,
+        "anatomy": {
+          "headLengthSourcePx": 99.09166666666667,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-2-3.png",
+        "anchor": [
+          103.0,
+          459.0
+        ],
+        "scale": 0.599588408699038,
+        "anatomy": {
+          "headLengthSourcePx": 98.78571428571428,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-2-4.png",
+        "anchor": [
+          392.0,
+          466.0
+        ],
+        "scale": 0.6368899917287015,
+        "anatomy": {
+          "headLengthSourcePx": 93.0,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-2-5.png",
+        "anchor": [
+          185.0,
+          387.0
+        ],
+        "scale": 0.6074950690335307,
+        "anatomy": {
+          "headLengthSourcePx": 97.5,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-17-0.png",
+        "anchor": [
+          21.141065830721004,
+          80.25138632162663
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 87.5875,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.494223724992956,
+        "scaleY": 4.5166609269173374
+      },
+      {
+        "file": "calibrated-17-1.png",
+        "anchor": [
+          37.36406619385343,
+          60.31460674157304
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 96.22857142857143,
+          "contactSheetHeadLengthPx": 48,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.489063080829402,
+        "scaleY": 4.490280902073668
+      },
+      {
+        "file": "calibrated-17-2.png",
+        "anchor": [
+          8.498737373737374,
+          66.34055118110236
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 99.09166666666667,
+          "contactSheetHeadLengthPx": 47,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.466111446021733,
+        "scaleY": 4.5320965088455125
+      },
+      {
+        "file": "calibrated-17-3.png",
+        "anchor": [
+          13.792656587473003,
+          61.331896551724135
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 98.78571428571428,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.4775715036718475,
+        "scaleY": 4.4872422844573165
+      },
+      {
+        "file": "calibrated-17-4.png",
+        "anchor": [
+          55.74311926605505,
+          66.28874734607218
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 93.0,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.478774780543771,
+        "scaleY": 4.477241583645051
+      },
+      {
+        "file": "calibrated-17-5.png",
+        "anchor": [
+          25.09846827133479,
+          52.32397959183674
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 97.5,
+          "contactSheetHeadLengthPx": 45,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.477826557231024,
+        "scaleY": 4.493171076625359
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "蹲下": {
+    "sourceFrames": [
+      {
+        "file": "legacy-3-0.png",
+        "anchor": [
+          248.0,
+          879.0
+        ],
+        "scale": 0.39310283212722247,
+        "anatomy": {
+          "headLengthSourcePx": 150.67499999999998,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-3-1.png",
+        "anchor": [
+          162.0,
+          742.0
+        ],
+        "scale": 0.41536303808393576,
+        "anatomy": {
+          "headLengthSourcePx": 142.6,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-3-2.png",
+        "anchor": [
+          174.0,
+          626.0
+        ],
+        "scale": 0.39649079896757927,
+        "anatomy": {
+          "headLengthSourcePx": 149.3875,
+          "contactSheetHeadLengthPx": 57,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-3-3.png",
+        "anchor": [
+          160.0,
+          611.0
+        ],
+        "scale": 0.4061770562713475,
+        "anatomy": {
+          "headLengthSourcePx": 145.825,
+          "contactSheetHeadLengthPx": 57,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-18-0.png",
+        "anchor": [
+          21.64588528678304,
+          76.56447963800905
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 150.67499999999998,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5038353052290345,
+        "scaleY": 4.513024722083957
+      },
+      {
+        "file": "calibrated-18-1.png",
+        "anchor": [
+          15.148051948051949,
+          68.53815261044177
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 142.6,
+          "contactSheetHeadLengthPx": 46,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.442076935064313,
+        "scaleY": 4.49675636882174
+      },
+      {
+        "file": "calibrated-18-2.png",
+        "anchor": [
+          15.504950495049505,
+          55.55625990491284
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 149.3875,
+          "contactSheetHeadLengthPx": 57,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.449507855080612,
+        "scaleY": 4.467601681223973
+      },
+      {
+        "file": "calibrated-18-3.png",
+        "anchor": [
+          14.584450402144773,
+          55.54545454545455
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 145.825,
+          "contactSheetHeadLengthPx": 57,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.456001234976841,
+        "scaleY": 4.467947618984822
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "受击与倒地": {
+    "sourceFrames": [
+      {
+        "file": "legacy-4-0.png",
+        "anchor": [
+          229.5,
+          791.0
+        ],
+        "scale": 0.44758767680682054,
+        "anatomy": {
+          "headLengthSourcePx": 132.33333333333331,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-4-1.png",
+        "anchor": [
+          579.5,
+          582.0
+        ],
+        "scale": 0.48459021109792505,
+        "anatomy": {
+          "headLengthSourcePx": 122.22857142857143,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-4-2.png",
+        "anchor": [
+          398.5,
+          438.0
+        ],
+        "scale": 0.5474674972914411,
+        "anatomy": {
+          "headLengthSourcePx": 108.19047619047619,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "legacy-4-3.png",
+        "anchor": [
+          130.0,
+          267.0
+        ],
+        "scale": 0.45662487292443243,
+        "anatomy": {
+          "headLengthSourcePx": 129.71428571428572,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-19-0.png",
+        "anchor": [
+          22.950000000000003,
+          78.5037688442211
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 132.33333333333331,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.475876768068205,
+        "scaleY": 4.5098707688383435
+      },
+      {
+        "file": "calibrated-19-1.png",
+        "anchor": [
+          62.40769230769231,
+          62.4633730834753
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 122.22857142857143,
+          "contactSheetHeadLengthPx": 36,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.499766245909304,
+        "scaleY": 4.5151500621346345
+      },
+      {
+        "file": "calibrated-19-2.png",
+        "anchor": [
+          48.23947368421053,
+          53.39051918735892
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 108.19047619047619,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5225575863206,
+        "scaleY": 4.491261135187192
+      },
+      {
+        "file": "calibrated-19-3.png",
+        "anchor": [
+          13.1524926686217,
+          27.485294117647058
+        ],
+        "scale": 4.5,
+        "anatomy": {
+          "headLengthSourcePx": 129.71428571428572,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.513306714992217,
+        "scaleY": 4.435784479837344
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true,
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "起身": {
+    "sourceFrames": [
+      {
+        "file": "wakeup-clean-0.png",
+        "anchor": [
+          371.0,
+          363
+        ],
+        "scale": 0.520002572678158,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          179,
+          37,
+          777,
+          401
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 113.90476190476191,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "wakeup-clean-1.png",
+        "anchor": [
+          294.5,
+          430
+        ],
+        "scale": 0.5686608774855836,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          863,
+          3,
+          1224,
+          434
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 104.15833333333333,
+          "contactSheetHeadLengthPx": 58,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "wakeup-clean-2.png",
+        "anchor": [
+          103.0,
+          570
+        ],
+        "scale": 0.5927522565000675,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          313,
+          440,
+          642,
+          1011
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 99.925,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "wakeup-clean-3.png",
+        "anchor": [
+          171.5,
+          578
+        ],
+        "scale": 0.646095110234734,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          921,
+          432,
+          1179,
+          1011
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.67500000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-20-0.png",
+        "anchor": [
+          42.80769230769231,
+          41.88461538461539
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          179,
+          37,
+          777,
+          401
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 113.90476190476191,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.506688963210702,
+        "scaleY": 4.506688963210702
+      },
+      {
+        "file": "calibrated-20-1.png",
+        "anchor": [
+          37.526315789473685,
+          53.874709976798144
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          863,
+          3,
+          1224,
+          434
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 104.15833333333333,
+          "contactSheetHeadLengthPx": 58,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.462751668962949,
+        "scaleY": 4.538756262894195
+      },
+      {
+        "file": "calibrated-20-2.png",
+        "anchor": [
+          13.462006079027354,
+          74.86865148861646
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          313,
+          440,
+          642,
+          1011
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 99.925,
+          "contactSheetHeadLengthPx": 42,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5352440090354005,
+        "scaleY": 4.512820512820514
+      },
+      {
+        "file": "calibrated-20-3.png",
+        "anchor": [
+          24.594961240310077,
+          82.85664939550949
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          921,
+          432,
+          1179,
+          1011
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.67500000000001,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.505203741636794,
+        "scaleY": 4.507097214770012
+      }
+    ],
+    "durations": [
+      12,
+      8,
+      8,
+      10
+    ],
+    "phases": [
+      "侧撑",
+      "单膝",
+      "站起",
+      "站稳"
+    ],
+    "previewOnly": true,
+    "status": "起身清理分离",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  },
+  "胜利": {
+    "sourceFrames": [
+      {
+        "file": "victory-curtaincall-0.png",
+        "anchor": [
+          181.5,
+          519
+        ],
+        "scale": 0.6667628806465581,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          329,
+          5,
+          622,
+          525
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 88.83333333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victory-curtaincall-1.png",
+        "anchor": [
+          180.5,
+          518
+        ],
+        "scale": 0.7023064381890528,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          927,
+          3,
+          1249,
+          522
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.3375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victory-curtaincall-2.png",
+        "anchor": [
+          231.0,
+          440
+        ],
+        "scale": 0.8265239034469806,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          301,
+          564,
+          686,
+          1005
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 71.6625,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "victory-curtaincall-3.png",
+        "anchor": [
+          92.0,
+          493
+        ],
+        "scale": 0.7194020554344441,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          945,
+          521,
+          1187,
+          1015
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.33333333333334,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "calibrated-21-0.png",
+        "anchor": [
+          26.636518771331055,
+          76.85192307692307
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          329,
+          5,
+          622,
+          525
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 88.83333333333333,
+          "contactSheetHeadLengthPx": 41,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.54329125649864,
+        "scaleY": 4.502814258911821
+      },
+      {
+        "file": "calibrated-21-1.png",
+        "anchor": [
+          28.027950310559003,
+          80.84393063583815
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          927,
+          3,
+          1249,
+          522
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 84.3375,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.5228534619375,
+        "scaleY": 4.499963474322449
+      },
+      {
+        "file": "calibrated-21-2.png",
+        "anchor": [
+          42.6,
+          80.81632653061224
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          301,
+          564,
+          686,
+          1005
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 71.6625,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.481854969395599,
+        "scaleY": 4.49996347432245
+      },
+      {
+        "file": "calibrated-21-3.png",
+        "anchor": [
+          14.826446280991735,
+          78.84008097165993
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          945,
+          521,
+          1187,
+          1015
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.33333333333334,
+          "contactSheetHeadLengthPx": 40,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "scaleX": 4.463981985003474,
+        "scaleY": 4.498539435248296
+      }
+    ],
+    "durations": [
+      16,
+      18,
+      30,
+      40
+    ],
+    "phases": [
+      "站定",
+      "提帽",
+      "谢幕",
+      "收势"
+    ],
+    "previewOnly": true,
+    "status": "新增提帽谢幕胜利",
+    "displayCalibration": {
+      "method": "reviewed anatomical landmark",
+      "targetHeadLength": 59.23076923076924,
+      "baselineVisibleHeight": 355.3846153846154,
+      "bboxNormalization": false,
+      "manualTolerance": 0.08
+    }
+  }
+}

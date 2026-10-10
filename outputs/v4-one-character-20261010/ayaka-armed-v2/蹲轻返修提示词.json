@@ -1,0 +1,6 @@
+{
+  "method": "built-in imagegen",
+  "prompt": "Use case: precise-object-edit. Edit this six-pose Kamisato Ayaka crouching short-attack sheet, preserve ALL six body poses, identity, head size, costume, same facing RIGHT and same cell locations. Correct ONLY the katana shapes and hilt-hand connections so they are SHORT LOW melee attacks, not thrusts reaching across cells. All blades must have equal natural blade length approximately150px and be fully visible entirely inside each of the3x2cells. Specifically top-right blade must end before the right image edge with40px margin; bottom-left blade must not touch the next character's hair or body; top-center fully drawn blade length same as others. Keep all body/feet poses unchanged, no zoom or resizing. Remove any duplicated dangling sword hilt at waist if not the actual held sword/scabbard. Transparent background genuine alpha, no labels no extra effects. Crisp clean silhouettes.",
+  "source": "crouchlight-attack-source-v1.png",
+  "output": "crouchlight-attack-source-v2.png"
+}

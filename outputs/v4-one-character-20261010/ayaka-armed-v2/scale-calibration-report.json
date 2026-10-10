@@ -1,0 +1,970 @@
+{
+  "baselineVisibleHeight": 355.3846153846154,
+  "targetHeadLength": 57.75000000000001,
+  "method": "Manually reviewed cranium-to-chin lengths in 230x300 source contact-sheet cells; excludes hat, ponytail, blade. Tilted heads use their major axis. Estimates require visual verification, not automatic bbox height normalization.",
+  "actions": {
+    "站立格挡": [
+      {
+        "source": "guard-0.png",
+        "oldScale": 0.5,
+        "scale": 0.4942233632862645,
+        "headLength": 57.75000000000001,
+        "rectangles": 734
+      },
+      {
+        "source": "guard-1.png",
+        "oldScale": 0.5,
+        "scale": 0.4942233632862645,
+        "headLength": 57.75000000000001,
+        "rectangles": 736
+      },
+      {
+        "source": "guard-2.png",
+        "oldScale": 0.5,
+        "scale": 0.5010121457489879,
+        "headLength": 57.75000000000001,
+        "rectangles": 771
+      },
+      {
+        "source": "guard-3.png",
+        "oldScale": 0.5,
+        "scale": 0.4935545901289083,
+        "headLength": 57.75000000000001,
+        "rectangles": 719
+      }
+    ],
+    "待机": [
+      {
+        "source": "idle-source-0.png",
+        "oldScale": 0.31640625,
+        "scale": 0.36827421283379835,
+        "headLength": 57.75000000000001,
+        "rectangles": 566
+      },
+      {
+        "source": "idle-source-1.png",
+        "oldScale": 0.31640625,
+        "scale": 0.35825062034739463,
+        "headLength": 57.750000000000014,
+        "rectangles": 570
+      }
+    ],
+    "前走": [
+      {
+        "source": "walk-source-0.png",
+        "oldScale": 0.5962890625,
+        "scale": 0.6359131665880132,
+        "headLength": 57.75,
+        "rectangles": 615
+      },
+      {
+        "source": "walk-source-1.png",
+        "oldScale": 0.5962890625,
+        "scale": 0.6245493871665466,
+        "headLength": 57.750000000000014,
+        "rectangles": 561
+      },
+      {
+        "source": "walk-source-2.png",
+        "oldScale": 0.5962890625,
+        "scale": 0.6760033444816054,
+        "headLength": 57.75,
+        "rectangles": 690
+      },
+      {
+        "source": "walk-source-3.png",
+        "oldScale": 0.5962890625,
+        "scale": 0.6662729370398858,
+        "headLength": 57.75000000000001,
+        "rectangles": 630
+      },
+      {
+        "source": "walk-source-4.png",
+        "oldScale": 0.5962890625,
+        "scale": 0.6245493871665466,
+        "headLength": 57.750000000000014,
+        "rectangles": 521
+      },
+      {
+        "source": "walk-source-5.png",
+        "oldScale": 0.5962890625,
+        "scale": 0.6451484200446856,
+        "headLength": 57.75000000000001,
+        "rectangles": 541
+      }
+    ],
+    "后退": [
+      {
+        "source": "backwalk-source-0.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5062458908612755,
+        "headLength": 57.75,
+        "rectangles": 615
+      },
+      {
+        "source": "backwalk-source-1.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5062458908612755,
+        "headLength": 57.75,
+        "rectangles": 557
+      },
+      {
+        "source": "backwalk-source-2.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5062458908612755,
+        "headLength": 57.75,
+        "rectangles": 567
+      },
+      {
+        "source": "backwalk-source-3.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5062458908612755,
+        "headLength": 57.75,
+        "rectangles": 610
+      },
+      {
+        "source": "backwalk-source-4.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5062458908612755,
+        "headLength": 57.75,
+        "rectangles": 571
+      },
+      {
+        "source": "backwalk-source-5.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5040916530278233,
+        "headLength": 57.75000000000001,
+        "rectangles": 516
+      }
+    ],
+    "跳跃": [
+      {
+        "source": "jump-source-0.png",
+        "oldScale": 0.6217078468639696,
+        "scale": 0.6564675792165965,
+        "headLength": 57.75000000000001,
+        "rectangles": 716
+      },
+      {
+        "source": "jump-source-1.png",
+        "oldScale": 0.6217078468639696,
+        "scale": 0.6942695214105795,
+        "headLength": 57.750000000000014,
+        "rectangles": 768
+      },
+      {
+        "source": "jump-source-2.png",
+        "oldScale": 0.6217078468639696,
+        "scale": 0.6847826086956523,
+        "headLength": 57.75000000000001,
+        "rectangles": 697
+      },
+      {
+        "source": "jump-source-3.png",
+        "oldScale": 0.6217078468639696,
+        "scale": 0.7042682926829269,
+        "headLength": 57.75000000000001,
+        "rectangles": 792
+      },
+      {
+        "source": "jump-source-4.png",
+        "oldScale": 0.6217078468639696,
+        "scale": 0.6445312500000001,
+        "headLength": 57.75000000000001,
+        "rectangles": 671
+      },
+      {
+        "source": "jump-source-5.png",
+        "oldScale": 0.6217078468639696,
+        "scale": 0.6470070422535212,
+        "headLength": 57.75000000000001,
+        "rectangles": 649
+      }
+    ],
+    "前冲": [
+      {
+        "source": "forwarddash-source-0.png",
+        "oldScale": 0.5928471344370155,
+        "scale": 0.6201104463874829,
+        "headLength": 57.75000000000001,
+        "rectangles": 775
+      },
+      {
+        "source": "forwarddash-source-1.png",
+        "oldScale": 0.5928471344370155,
+        "scale": 0.6350806451612904,
+        "headLength": 57.75000000000001,
+        "rectangles": 871
+      },
+      {
+        "source": "forwarddash-source-2.png",
+        "oldScale": 0.5928471344370155,
+        "scale": 0.5604723172197061,
+        "headLength": 57.75000000000001,
+        "rectangles": 787
+      },
+      {
+        "source": "forwarddash-source-3.png",
+        "oldScale": 0.5928471344370155,
+        "scale": 0.6012046400951815,
+        "headLength": 57.75000000000001,
+        "rectangles": 742
+      }
+    ],
+    "后撤": [
+      {
+        "source": "backdash-source-0.png",
+        "oldScale": 0.40117989793341796,
+        "scale": 0.4553219448094613,
+        "headLength": 57.75000000000001,
+        "rectangles": 604
+      },
+      {
+        "source": "backdash-source-1.png",
+        "oldScale": 0.40117989793341796,
+        "scale": 0.4508050089445439,
+        "headLength": 57.75000000000001,
+        "rectangles": 593
+      },
+      {
+        "source": "backdash-source-2.png",
+        "oldScale": 0.40117989793341796,
+        "scale": 0.46354515050167233,
+        "headLength": 57.75000000000001,
+        "rectangles": 614
+      },
+      {
+        "source": "backdash-source-3.png",
+        "oldScale": 0.40117989793341796,
+        "scale": 0.5029027576197388,
+        "headLength": 57.75,
+        "rectangles": 674
+      }
+    ],
+    "蹲下": [
+      {
+        "source": "crouch-source-0.png",
+        "oldScale": 0.3438202247191011,
+        "scale": 0.4002079002079003,
+        "headLength": 57.75000000000001,
+        "rectangles": 602
+      },
+      {
+        "source": "crouch-source-1.png",
+        "oldScale": 0.3438202247191011,
+        "scale": 0.41122715404699745,
+        "headLength": 57.75000000000001,
+        "rectangles": 575
+      },
+      {
+        "source": "crouch-source-2.png",
+        "oldScale": 0.3438202247191011,
+        "scale": 0.4319910235631468,
+        "headLength": 57.75000000000001,
+        "rectangles": 562
+      },
+      {
+        "source": "crouch-source-3.png",
+        "oldScale": 0.3438202247191011,
+        "scale": 0.42510121457489886,
+        "headLength": 57.75000000000001,
+        "rectangles": 533
+      }
+    ],
+    "蹲防": [
+      {
+        "source": "crouchguard-0.png",
+        "oldScale": 0.555,
+        "scale": 0.5240471869328495,
+        "headLength": 57.75000000000001,
+        "rectangles": 774
+      },
+      {
+        "source": "crouchguard-1.png",
+        "oldScale": 0.555,
+        "scale": 0.5028402023385025,
+        "headLength": 57.750000000000014,
+        "rectangles": 723
+      },
+      {
+        "source": "crouchguard-2.png",
+        "oldScale": 0.555,
+        "scale": 0.543736549497848,
+        "headLength": 57.750000000000014,
+        "rectangles": 793
+      },
+      {
+        "source": "crouchguard-3.png",
+        "oldScale": 0.555,
+        "scale": 0.5342981760507535,
+        "headLength": 57.750000000000014,
+        "rectangles": 778
+      }
+    ],
+    "轻攻一": [
+      {
+        "source": "light1-attack-0.png",
+        "oldScale": 0.68,
+        "scale": 0.7099682409589182,
+        "headLength": 57.75000000000001,
+        "rectangles": 822
+      },
+      {
+        "source": "light1-attack-1.png",
+        "oldScale": 0.68,
+        "scale": 0.7099682409589182,
+        "headLength": 57.75000000000001,
+        "rectangles": 808
+      },
+      {
+        "source": "light1-attack-2.png",
+        "oldScale": 0.68,
+        "scale": 0.6794117647058824,
+        "headLength": 57.75,
+        "rectangles": 748
+      },
+      {
+        "source": "light1-attack-3.png",
+        "oldScale": 0.68,
+        "scale": 0.7493049119555143,
+        "headLength": 57.75000000000001,
+        "rectangles": 862
+      },
+      {
+        "source": "light1-attack-4.png",
+        "oldScale": 0.68,
+        "scale": 0.781411082474227,
+        "headLength": 57.75000000000001,
+        "rectangles": 933
+      },
+      {
+        "source": "light1-attack-5.png",
+        "oldScale": 0.68,
+        "scale": 0.7435622317596567,
+        "headLength": 57.750000000000014,
+        "rectangles": 906
+      }
+    ],
+    "受击与倒地": [
+      {
+        "source": "hurt_knockdown-source-0.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.4387464387464388,
+        "headLength": 57.75000000000001,
+        "rectangles": 614
+      },
+      {
+        "source": "hurt_knockdown-source-1.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.42621424052857243,
+        "headLength": 57.75000000000001,
+        "rectangles": 495
+      },
+      {
+        "source": "hurt_knockdown-source-2.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.4483861426405887,
+        "headLength": 57.75000000000001,
+        "rectangles": 510
+      },
+      {
+        "source": "hurt_knockdown-source-3.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5545774647887324,
+        "headLength": 57.75,
+        "rectangles": 439
+      }
+    ],
+    "起身": [
+      {
+        "source": "wakeup-source-0.png",
+        "oldScale": 0.4847812982430347,
+        "scale": 0.41250000000000003,
+        "headLength": 57.75000000000001,
+        "rectangles": 314
+      },
+      {
+        "source": "wakeup-source-1.png",
+        "oldScale": 0.4847812982430347,
+        "scale": 0.4754763585038815,
+        "headLength": 57.75000000000001,
+        "rectangles": 503
+      },
+      {
+        "source": "wakeup-source-2.png",
+        "oldScale": 0.4847812982430347,
+        "scale": 0.49621522094926357,
+        "headLength": 57.75000000000001,
+        "rectangles": 634
+      },
+      {
+        "source": "wakeup-source-3.png",
+        "oldScale": 0.4847812982430347,
+        "scale": 0.5955398960168437,
+        "headLength": 57.75000000000001,
+        "rectangles": 754
+      }
+    ],
+    "E · 冰华": [
+      {
+        "source": "skillE-attack-0.png",
+        "oldScale": 0.61,
+        "scale": 0.6916167664670659,
+        "headLength": 57.75000000000001,
+        "rectangles": 800
+      },
+      {
+        "source": "skillE-attack-1.png",
+        "oldScale": 0.61,
+        "scale": 0.736875683558148,
+        "headLength": 57.75000000000001,
+        "rectangles": 977
+      },
+      {
+        "source": "skillE-attack-2.png",
+        "oldScale": 0.61,
+        "scale": 0.6519109820996614,
+        "headLength": 57.75000000000001,
+        "rectangles": 843
+      },
+      {
+        "source": "skillE-attack-3.png",
+        "oldScale": 0.61,
+        "scale": 0.6849373093866487,
+        "headLength": 57.75000000000001,
+        "rectangles": 870
+      },
+      {
+        "source": "skillE-attack-4.png",
+        "oldScale": 0.61,
+        "scale": 0.7051282051282052,
+        "headLength": 57.75000000000001,
+        "rectangles": 893
+      },
+      {
+        "source": "skillE-attack-5.png",
+        "oldScale": 0.61,
+        "scale": 0.6820866141732284,
+        "headLength": 57.75000000000001,
+        "rectangles": 783
+      }
+    ],
+    "败北": [
+      {
+        "source": "defeat-source-0.png",
+        "oldScale": 0.4718036825431455,
+        "scale": 0.5100463678516229,
+        "headLength": 57.75000000000001,
+        "rectangles": 653
+      },
+      {
+        "source": "defeat-source-1.png",
+        "oldScale": 0.4718036825431455,
+        "scale": 0.580766813324953,
+        "headLength": 57.75000000000001,
+        "rectangles": 766
+      },
+      {
+        "source": "defeat-source-2.png",
+        "oldScale": 0.4718036825431455,
+        "scale": 0.5173848122866894,
+        "headLength": 57.75,
+        "rectangles": 584
+      },
+      {
+        "source": "defeat-source-3.png",
+        "oldScale": 0.4718036825431455,
+        "scale": 0.4788368144667746,
+        "headLength": 57.75000000000001,
+        "rectangles": 415
+      }
+    ],
+    "胜利": [
+      {
+        "source": "victory-source-0.png",
+        "oldScale": 0.32827956989247314,
+        "scale": 0.39219015280135827,
+        "headLength": 57.75000000000001,
+        "rectangles": 501
+      },
+      {
+        "source": "victory-source-1.png",
+        "oldScale": 0.32827956989247314,
+        "scale": 0.38578228073593684,
+        "headLength": 57.75000000000001,
+        "rectangles": 515
+      },
+      {
+        "source": "victory-source-2.png",
+        "oldScale": 0.32827956989247314,
+        "scale": 0.43307086614173235,
+        "headLength": 57.75000000000001,
+        "rectangles": 603
+      },
+      {
+        "source": "victory-source-3.png",
+        "oldScale": 0.32827956989247314,
+        "scale": 0.39688448542466076,
+        "headLength": 57.75000000000001,
+        "rectangles": 500
+      }
+    ],
+    "投技": [
+      {
+        "source": "throw-0.png",
+        "oldScale": 0.67,
+        "scale": 0.6636114911080713,
+        "headLength": 57.75000000000001,
+        "rectangles": 816
+      },
+      {
+        "source": "throw-1.png",
+        "oldScale": 0.67,
+        "scale": 0.6654503552909545,
+        "headLength": 57.75,
+        "rectangles": 769
+      },
+      {
+        "source": "throw-2.png",
+        "oldScale": 0.67,
+        "scale": 0.6426782899007698,
+        "headLength": 57.75000000000001,
+        "rectangles": 734
+      },
+      {
+        "source": "throw-3.png",
+        "oldScale": 0.67,
+        "scale": 0.6352137020741673,
+        "headLength": 57.75000000000001,
+        "rectangles": 751
+      },
+      {
+        "source": "throw-4.png",
+        "oldScale": 0.67,
+        "scale": 0.645388749933479,
+        "headLength": 57.75000000000001,
+        "rectangles": 742
+      },
+      {
+        "source": "throw-5.png",
+        "oldScale": 0.67,
+        "scale": 0.6814494321254733,
+        "headLength": 57.75000000000001,
+        "rectangles": 886
+      }
+    ],
+    "被投": [
+      {
+        "source": "victim-0.png",
+        "oldScale": 0.67,
+        "scale": 0.642023346303502,
+        "headLength": 57.75000000000001,
+        "rectangles": 715
+      },
+      {
+        "source": "victim-1.png",
+        "oldScale": 0.67,
+        "scale": 0.6440520446096655,
+        "headLength": 57.75000000000001,
+        "rectangles": 781
+      },
+      {
+        "source": "victim-1.png",
+        "oldScale": 0.67,
+        "scale": 0.6440520446096655,
+        "headLength": 57.75000000000001,
+        "rectangles": 781
+      },
+      {
+        "source": "victim-3.png",
+        "oldScale": 0.67,
+        "scale": 0.6403791319041082,
+        "headLength": 57.75000000000001,
+        "rectangles": 725
+      },
+      {
+        "source": "original-landing-clean.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.4527044682518945,
+        "headLength": 57.75000000000001,
+        "rectangles": 512
+      },
+      {
+        "source": "hurt_knockdown-source-3.png",
+        "oldScale": 0.43494401984446224,
+        "scale": 0.5545774647887324,
+        "headLength": 57.75,
+        "rectangles": 439
+      }
+    ],
+    "轻攻二": [
+      {
+        "source": "light2-attack-0.png",
+        "oldScale": 0.72,
+        "scale": 0.6434369694397284,
+        "headLength": 57.75000000000001,
+        "rectangles": 673
+      },
+      {
+        "source": "light2-attack-1.png",
+        "oldScale": 0.72,
+        "scale": 0.6822400990099011,
+        "headLength": 57.75000000000001,
+        "rectangles": 737
+      },
+      {
+        "source": "light2-attack-2.png",
+        "oldScale": 0.72,
+        "scale": 0.7155711588388012,
+        "headLength": 57.75000000000001,
+        "rectangles": 817
+      },
+      {
+        "source": "light2-attack-3.png",
+        "oldScale": 0.72,
+        "scale": 0.6891408114558473,
+        "headLength": 57.75000000000001,
+        "rectangles": 785
+      },
+      {
+        "source": "light2-attack-4.png",
+        "oldScale": 0.72,
+        "scale": 0.805599840573934,
+        "headLength": 57.75000000000001,
+        "rectangles": 992
+      },
+      {
+        "source": "light2-attack-5.png",
+        "oldScale": 0.72,
+        "scale": 0.6637931034482759,
+        "headLength": 57.75000000000001,
+        "rectangles": 707
+      }
+    ],
+    "轻攻三": [
+      {
+        "source": "light3-attack-0.png",
+        "oldScale": 0.72,
+        "scale": 0.7123766447368423,
+        "headLength": 57.75000000000001,
+        "rectangles": 772
+      },
+      {
+        "source": "light3-attack-1.png",
+        "oldScale": 0.72,
+        "scale": 0.7068543451652387,
+        "headLength": 57.75000000000001,
+        "rectangles": 822
+      },
+      {
+        "source": "light3-attack-2.png",
+        "oldScale": 0.72,
+        "scale": 0.7753164556962026,
+        "headLength": 57.75000000000001,
+        "rectangles": 934
+      },
+      {
+        "source": "light3-attack-3.png",
+        "oldScale": 0.72,
+        "scale": 0.7330452127659576,
+        "headLength": 57.75,
+        "rectangles": 864
+      },
+      {
+        "source": "light3-attack-4.png",
+        "oldScale": 0.72,
+        "scale": 0.6963824289405686,
+        "headLength": 57.75000000000001,
+        "rectangles": 783
+      },
+      {
+        "source": "light3-attack-5.png",
+        "oldScale": 0.72,
+        "scale": 0.7489462876904789,
+        "headLength": 57.75000000000001,
+        "rectangles": 800
+      }
+    ],
+    "站重": [
+      {
+        "source": "heavy-attack-0.png",
+        "oldScale": 0.74,
+        "scale": 0.7486111111111112,
+        "headLength": 57.75000000000001,
+        "rectangles": 771
+      },
+      {
+        "source": "heavy-attack-1.png",
+        "oldScale": 0.74,
+        "scale": 0.7793522267206477,
+        "headLength": 57.75000000000001,
+        "rectangles": 793
+      },
+      {
+        "source": "heavy-attack-2.png",
+        "oldScale": 0.74,
+        "scale": 0.747780244173141,
+        "headLength": 57.75000000000001,
+        "rectangles": 832
+      },
+      {
+        "source": "heavy-attack-3.png",
+        "oldScale": 0.74,
+        "scale": 0.6028183716075157,
+        "headLength": 57.75000000000001,
+        "rectangles": 610
+      },
+      {
+        "source": "heavy-attack-4.png",
+        "oldScale": 0.74,
+        "scale": 0.6828931809223492,
+        "headLength": 57.75,
+        "rectangles": 721
+      },
+      {
+        "source": "heavy-attack-5.png",
+        "oldScale": 0.74,
+        "scale": 0.7032881002087683,
+        "headLength": 57.75,
+        "rectangles": 699
+      }
+    ],
+    "蹲轻": [
+      {
+        "source": "crouchlight-attack-0.png",
+        "oldScale": 0.72,
+        "scale": 0.6447368421052633,
+        "headLength": 57.75000000000001,
+        "rectangles": 728
+      },
+      {
+        "source": "crouchlight-attack-1.png",
+        "oldScale": 0.72,
+        "scale": 0.6376182965299686,
+        "headLength": 57.750000000000014,
+        "rectangles": 722
+      },
+      {
+        "source": "crouchlight-attack-2.png",
+        "oldScale": 0.72,
+        "scale": 0.5954485196641627,
+        "headLength": 57.750000000000014,
+        "rectangles": 647
+      },
+      {
+        "source": "crouchlight-attack-3.png",
+        "oldScale": 0.72,
+        "scale": 0.5954485196641627,
+        "headLength": 57.750000000000014,
+        "rectangles": 677
+      },
+      {
+        "source": "crouchlight-attack-4.png",
+        "oldScale": 0.72,
+        "scale": 0.6299672744273026,
+        "headLength": 57.75000000000001,
+        "rectangles": 731
+      },
+      {
+        "source": "crouchlight-attack-5.png",
+        "oldScale": 0.72,
+        "scale": 0.5891712009327633,
+        "headLength": 57.75000000000001,
+        "rectangles": 642
+      }
+    ],
+    "蹲重": [
+      {
+        "source": "crouchheavy-attack-0.png",
+        "oldScale": 0.72,
+        "scale": 0.6930000000000001,
+        "headLength": 57.750000000000014,
+        "rectangles": 843
+      },
+      {
+        "source": "crouchheavy-attack-1.png",
+        "oldScale": 0.72,
+        "scale": 0.712962962962963,
+        "headLength": 57.75000000000001,
+        "rectangles": 808
+      },
+      {
+        "source": "crouchheavy-attack-2.png",
+        "oldScale": 0.72,
+        "scale": 0.6212222108390535,
+        "headLength": 57.750000000000014,
+        "rectangles": 653
+      },
+      {
+        "source": "crouchheavy-attack-3.png",
+        "oldScale": 0.72,
+        "scale": 0.6444969973959719,
+        "headLength": 57.750000000000014,
+        "rectangles": 734
+      },
+      {
+        "source": "crouchheavy-attack-4.png",
+        "oldScale": 0.72,
+        "scale": 0.6774761186525893,
+        "headLength": 57.75000000000001,
+        "rectangles": 809
+      },
+      {
+        "source": "crouchheavy-attack-5.png",
+        "oldScale": 0.72,
+        "scale": 0.6701757294429709,
+        "headLength": 57.75000000000001,
+        "rectangles": 810
+      }
+    ],
+    "空轻": [
+      {
+        "source": "airlight-attack-0.png",
+        "oldScale": 0.64,
+        "scale": 0.6010258697591437,
+        "headLength": 57.75000000000001,
+        "rectangles": 717
+      },
+      {
+        "source": "airlight-attack-1.png",
+        "oldScale": 0.64,
+        "scale": 0.6143617021276596,
+        "headLength": 57.75000000000001,
+        "rectangles": 735
+      },
+      {
+        "source": "airlight-attack-2.png",
+        "oldScale": 0.64,
+        "scale": 0.5808189655172414,
+        "headLength": 57.75000000000001,
+        "rectangles": 679
+      },
+      {
+        "source": "airlight-attack-3.png",
+        "oldScale": 0.64,
+        "scale": 0.6268737723560427,
+        "headLength": 57.750000000000014,
+        "rectangles": 748
+      },
+      {
+        "source": "airlight-attack-4.png",
+        "oldScale": 0.64,
+        "scale": 0.5837264150943396,
+        "headLength": 57.75000000000001,
+        "rectangles": 630
+      },
+      {
+        "source": "airlight-attack-5.png",
+        "oldScale": 0.64,
+        "scale": 0.5413579144719223,
+        "headLength": 57.75000000000001,
+        "rectangles": 567
+      }
+    ],
+    "空重": [
+      {
+        "source": "airheavy-attack-0.png",
+        "oldScale": 0.66,
+        "scale": 0.6335544875143664,
+        "headLength": 57.75000000000001,
+        "rectangles": 694
+      },
+      {
+        "source": "airheavy-attack-1.png",
+        "oldScale": 0.66,
+        "scale": 0.7251554651997131,
+        "headLength": 57.75,
+        "rectangles": 905
+      },
+      {
+        "source": "airheavy-attack-2.png",
+        "oldScale": 0.66,
+        "scale": 0.6930000000000001,
+        "headLength": 57.750000000000014,
+        "rectangles": 829
+      },
+      {
+        "source": "airheavy-attack-3.png",
+        "oldScale": 0.66,
+        "scale": 0.7339324618736385,
+        "headLength": 57.75000000000001,
+        "rectangles": 929
+      },
+      {
+        "source": "airheavy-attack-4.png",
+        "oldScale": 0.66,
+        "scale": 0.7887291883454736,
+        "headLength": 57.75000000000001,
+        "rectangles": 971
+      },
+      {
+        "source": "airheavy-attack-5.png",
+        "oldScale": 0.66,
+        "scale": 0.8088235294117647,
+        "headLength": 57.75000000000001,
+        "rectangles": 976
+      }
+    ],
+    "Q · 霜灭": [
+      {
+        "source": "skillQ-attack-0.png",
+        "oldScale": 0.645,
+        "scale": 0.7497565725413828,
+        "headLength": 57.75000000000001,
+        "rectangles": 959
+      },
+      {
+        "source": "skillQ-attack-1.png",
+        "oldScale": 0.645,
+        "scale": 0.7450411223996131,
+        "headLength": 57.75000000000001,
+        "rectangles": 967
+      },
+      {
+        "source": "skillQ-attack-2.png",
+        "oldScale": 0.645,
+        "scale": 0.6307536277110315,
+        "headLength": 57.75000000000001,
+        "rectangles": 734
+      },
+      {
+        "source": "skillQ-attack-3.png",
+        "oldScale": 0.645,
+        "scale": 0.47766749379652607,
+        "headLength": 57.75000000000001,
+        "rectangles": 473
+      },
+      {
+        "source": "skillQ-attack-3.png",
+        "oldScale": 0.645,
+        "scale": 0.47766749379652607,
+        "headLength": 57.75000000000001,
+        "rectangles": 473
+      },
+      {
+        "source": "skillQ-attack-4.png",
+        "oldScale": 0.645,
+        "scale": 0.7439271255060729,
+        "headLength": 57.75,
+        "rectangles": 1038
+      },
+      {
+        "source": "skillQ-attack-4.png",
+        "oldScale": 0.645,
+        "scale": 0.7439271255060729,
+        "headLength": 57.75,
+        "rectangles": 1038
+      },
+      {
+        "source": "skillQ-attack-5.png",
+        "oldScale": 0.645,
+        "scale": 0.748178137651822,
+        "headLength": 57.75000000000001,
+        "rectangles": 962
+      }
+    ]
+  },
+  "simulation": "not run",
+  "device": "not observed",
+  "visualAcceptance": "pending user"
+}

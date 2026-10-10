@@ -1,0 +1,3266 @@
+{
+  "activeBankSha256": "73bb9dd3a208edbd9ba6cfdbac0046ff1bd68c16ee951316208cceb52369b8cb",
+  "targetHeadWorld": 44.49072001569435,
+  "targetTorsoWorld": 89.93534911536804,
+  "targetLegChainsWorld": [
+    116.33941137627306,
+    112.69867529585049
+  ],
+  "logicalCellWorld": 4.5,
+  "landmarkPolicy": "Native source coordinates, manual review estimates; skull crown excludes hat, chin excludes neck. Single uniform skull scale; torso is an independent rejection check, not an averaged scale. No art acceptance.",
+  "sourceFrames": [
+    {
+      "action": "待机",
+      "frame": 0,
+      "file": "idle-0.png",
+      "oldScale": 0.36789297658862885,
+      "oldHeadWorld": 44.49072001569435,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.93534911536804,
+      "torsoDeviation": 0.0,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.36789297658862885,
+      "rectangles": 748
+    },
+    {
+      "action": "待机",
+      "frame": 1,
+      "file": "idle-1.png",
+      "oldScale": 0.3671328671328672,
+      "oldHeadWorld": 44.809765878641734,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.11051494779095,
+      "torsoDeviation": -0.009171412305510773,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.3645188784160329,
+      "rectangles": 763
+    },
+    {
+      "action": "站重",
+      "frame": 0,
+      "file": "light1-contact-0.png",
+      "oldScale": 0.6982016019344115,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.6982016019344115,
+      "rectangles": 996
+    },
+    {
+      "action": "站重",
+      "frame": 1,
+      "file": "light1-contact-1.png",
+      "oldScale": 0.6941105769230771,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.6941105769230771,
+      "rectangles": 1013
+    },
+    {
+      "action": "站重",
+      "frame": 2,
+      "file": "light1-contact-2.png",
+      "oldScale": 0.7237975873413757,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7237975873413757,
+      "rectangles": 1197
+    },
+    {
+      "action": "站重",
+      "frame": 3,
+      "file": "light1-contact-3.png",
+      "oldScale": 0.7252747252747254,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7252747252747254,
+      "rectangles": 1150
+    },
+    {
+      "action": "站重",
+      "frame": 4,
+      "file": "light1-contact-4.png",
+      "oldScale": 0.7208612888126074,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7208612888126074,
+      "rectangles": 1098
+    },
+    {
+      "action": "站重",
+      "frame": 5,
+      "file": "light1-contact-5.png",
+      "oldScale": 0.7107692307692308,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7107692307692308,
+      "rectangles": 1068
+    },
+    {
+      "action": "轻攻一",
+      "frame": 0,
+      "file": "sword-light1-0.png",
+      "oldScale": 0.6976191105356342,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.6976191105356342,
+      "rectangles": 777
+    },
+    {
+      "action": "轻攻一",
+      "frame": 1,
+      "file": "sword-light1-1.png",
+      "oldScale": 0.6990256006778431,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.6990256006778431,
+      "rectangles": 865
+    },
+    {
+      "action": "轻攻一",
+      "frame": 2,
+      "file": "sword-light1-2.png",
+      "oldScale": 0.715224054882499,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.715224054882499,
+      "rectangles": 882
+    },
+    {
+      "action": "轻攻一",
+      "frame": 3,
+      "file": "sword-light1-3.png",
+      "oldScale": 0.692873303167421,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.692873303167421,
+      "rectangles": 846
+    },
+    {
+      "action": "轻攻一",
+      "frame": 4,
+      "file": "sword-light1-4.png",
+      "oldScale": 0.7004377736085055,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7004377736085055,
+      "rectangles": 823
+    },
+    {
+      "action": "轻攻一",
+      "frame": 5,
+      "file": "sword-light1-5.png",
+      "oldScale": 0.7237975873413757,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7237975873413757,
+      "rectangles": 906
+    },
+    {
+      "action": "轻攻二",
+      "frame": 0,
+      "file": "sword-light2-0.png",
+      "oldScale": 0.6767021129678222,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.6767021129678222,
+      "rectangles": 841
+    },
+    {
+      "action": "轻攻二",
+      "frame": 1,
+      "file": "sword-light2-1.png",
+      "oldScale": 0.755735492577598,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.755735492577598,
+      "rectangles": 1096
+    },
+    {
+      "action": "轻攻二",
+      "frame": 2,
+      "file": "sword-light2-2.png",
+      "oldScale": 0.7451973482587868,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7451973482587868,
+      "rectangles": 1030
+    },
+    {
+      "action": "轻攻二",
+      "frame": 3,
+      "file": "sword-light2-3.png",
+      "oldScale": 0.678807112991789,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.678807112991789,
+      "rectangles": 934
+    },
+    {
+      "action": "轻攻二",
+      "frame": 4,
+      "file": "sword-light2-4.png",
+      "oldScale": 0.7067307692307694,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7067307692307694,
+      "rectangles": 878
+    },
+    {
+      "action": "轻攻二",
+      "frame": 5,
+      "file": "sword-light2-5.png",
+      "oldScale": 0.7342657342657344,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7342657342657344,
+      "rectangles": 939
+    },
+    {
+      "action": "轻攻三",
+      "frame": 0,
+      "file": "sword-light3-0.png",
+      "oldScale": 0.776584791881159,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.776584791881159,
+      "rectangles": 1181
+    },
+    {
+      "action": "轻攻三",
+      "frame": 1,
+      "file": "sword-light3-1.png",
+      "oldScale": 0.7105205485772288,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7105205485772288,
+      "rectangles": 1001
+    },
+    {
+      "action": "轻攻三",
+      "frame": 2,
+      "file": "sword-light3-2.png",
+      "oldScale": 0.7193188490898416,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7193188490898416,
+      "rectangles": 961
+    },
+    {
+      "action": "轻攻三",
+      "frame": 3,
+      "file": "sword-light3-3.png",
+      "oldScale": 0.6489180685758316,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.6489180685758316,
+      "rectangles": 856
+    },
+    {
+      "action": "轻攻三",
+      "frame": 4,
+      "file": "sword-light3-4.png",
+      "oldScale": 0.7777319518210208,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7777319518210208,
+      "rectangles": 1016
+    },
+    {
+      "action": "轻攻三",
+      "frame": 5,
+      "file": "sword-light3-5.png",
+      "oldScale": 0.7515402915878729,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7515402915878729,
+      "rectangles": 940
+    },
+    {
+      "action": "蹲轻",
+      "frame": 0,
+      "file": "crouchlight-sword-0.png",
+      "oldScale": 0.6329683750680138,
+      "oldHeadWorld": 42.352159462002106,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 84.83005090415891,
+      "torsoDeviation": -0.056766313373177835,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6649299377333038,
+      "rectangles": 846
+    },
+    {
+      "action": "蹲轻",
+      "frame": 1,
+      "file": "crouchlight-sword-1.png",
+      "oldScale": 0.7398121417035355,
+      "oldHeadWorld": 50.491839928306895,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 86.7102485022891,
+      "torsoDeviation": -0.03586021119395233,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6518830549149865,
+      "rectangles": 815
+    },
+    {
+      "action": "蹲轻",
+      "frame": 2,
+      "file": "crouchlight-sword-2.png",
+      "oldScale": 0.5691096970379548,
+      "oldHeadWorld": 38.84147624060321,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 61.498524403754026,
+      "torsoDeviation": -0.3161918532737954,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6518830549149865,
+      "rectangles": 776
+    },
+    {
+      "action": "蹲轻",
+      "frame": 3,
+      "file": "crouchlight-sword-3.png",
+      "oldScale": 0.6059856542171657,
+      "oldHeadWorld": 43.03778205904876,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 58.046673607263294,
+      "torsoDeviation": -0.35457332207826664,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6264434825733486,
+      "rectangles": 726
+    },
+    {
+      "action": "蹲轻",
+      "frame": 4,
+      "file": "crouchlight-sword-4.png",
+      "oldScale": 0.6838452657354193,
+      "oldHeadWorld": 46.67212626942788,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 73.64259136936273,
+      "torsoDeviation": -0.18116077722793011,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6518830549149865,
+      "rectangles": 733
+    },
+    {
+      "action": "蹲轻",
+      "frame": 5,
+      "file": "crouchlight-sword-5.png",
+      "oldScale": 0.5976581557976908,
+      "oldHeadWorld": 40.78989547927271,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 73.39404221807382,
+      "torsoDeviation": -0.183924419708153,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6518830549149865,
+      "rectangles": 790
+    },
+    {
+      "action": "蹲重",
+      "frame": 0,
+      "file": "crouchheavy-seahorse-0.png",
+      "oldScale": 0.5169230769230769,
+      "oldHeadWorld": 52.301274538420145,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 78.73077403104664,
+      "torsoDeviation": -0.12458477333476858,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.4397269490658679,
+      "rectangles": 632
+    },
+    {
+      "action": "蹲重",
+      "frame": 1,
+      "file": "crouchheavy-seahorse-1.png",
+      "oldScale": 0.5412497949811385,
+      "oldHeadWorld": 56.456271444103656,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 68.25098064438478,
+      "torsoDeviation": -0.24111062762614954,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.4265353072581062,
+      "rectangles": 619
+    },
+    {
+      "action": "蹲重",
+      "frame": 2,
+      "file": "crouchheavy-seahorse-2.png",
+      "oldScale": 0.5675775285631549,
+      "oldHeadWorld": 56.74923855476653,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 73.31410050144287,
+      "torsoDeviation": -0.1848132995247912,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.44497395125633993,
+      "rectangles": 663
+    },
+    {
+      "action": "蹲重",
+      "frame": 3,
+      "file": "crouchheavy-seahorse-3.png",
+      "oldScale": 0.5295215640043227,
+      "oldHeadWorld": 46.504536102069544,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 90.49287069989828,
+      "torsoDeviation": 0.0061991373805092564,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5065913483080736,
+      "rectangles": 853
+    },
+    {
+      "action": "蹲重",
+      "frame": 4,
+      "file": "crouchheavy-seahorse-4.png",
+      "oldScale": 0.5318138651471985,
+      "oldHeadWorld": 49.137413977628555,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 74.7167512075156,
+      "torsoDeviation": -0.16921708824780557,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.48152273103954146,
+      "rectangles": 752
+    },
+    {
+      "action": "蹲重",
+      "frame": 5,
+      "file": "crouchheavy-seahorse-5.png",
+      "oldScale": 0.5318138651471985,
+      "oldHeadWorld": 48.74734807291436,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 73.8696641078614,
+      "torsoDeviation": -0.17863593309564818,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.48537577345412464,
+      "rectangles": 764
+    },
+    {
+      "action": "空轻",
+      "frame": 0,
+      "file": "airlight-sword-0.png",
+      "oldScale": 0.6398138723280501,
+      "oldHeadWorld": 50.4926255579904,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 71.65313086543287,
+      "torsoDeviation": -0.2032817844125222,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5637611342514117,
+      "rectangles": 706
+    },
+    {
+      "action": "空轻",
+      "frame": 1,
+      "file": "airlight-sword-1.png",
+      "oldScale": 0.6993006993006994,
+      "oldHeadWorld": 55.68120066404023,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 70.99762645933546,
+      "torsoDeviation": -0.2105704024314119,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5587593523186999,
+      "rectangles": 636
+    },
+    {
+      "action": "空轻",
+      "frame": 2,
+      "file": "airlight-sword-2.png",
+      "oldScale": 0.8226495726495728,
+      "oldHeadWorld": 68.43336941955461,
+      "headWorld": 44.49072001569434,
+      "torsoWorld": 73.42975247673257,
+      "torsoDeviation": -0.18352735382682817,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5348307721543277,
+      "rectangles": 607
+    },
+    {
+      "action": "空轻",
+      "frame": 3,
+      "file": "airlight-sword-3.png",
+      "oldScale": 0.7220748600058946,
+      "oldHeadWorld": 50.24520439720751,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 86.60196299909767,
+      "torsoDeviation": -0.037064248363503305,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6393770472686027,
+      "rectangles": 780
+    },
+    {
+      "action": "空轻",
+      "frame": 4,
+      "file": "airlight-sword-4.png",
+      "oldScale": 0.5609986261258136,
+      "oldHeadWorld": 41.97004657263007,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 76.90169111491964,
+      "torsoDeviation": -0.1449225263330992,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5946915679724176,
+      "rectangles": 683
+    },
+    {
+      "action": "空轻",
+      "frame": 5,
+      "file": "airlight-sword-5.png",
+      "oldScale": 0.6371509854759523,
+      "oldHeadWorld": 52.486702250152305,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 72.373470363842,
+      "torsoDeviation": -0.19527225861988773,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5400854861757307,
+      "rectangles": 601
+    },
+    {
+      "action": "空重",
+      "frame": 0,
+      "file": "airheavy-0.png",
+      "oldScale": 0.5,
+      "oldHeadWorld": 41.773197148410844,
+      "headWorld": 44.49072001569436,
+      "torsoWorld": 79.06727556252669,
+      "torsoDeviation": -0.1208431796812165,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5325271113152862,
+      "rectangles": 696
+    },
+    {
+      "action": "空重",
+      "frame": 1,
+      "file": "airheavy-1.png",
+      "oldScale": 0.5,
+      "oldHeadWorld": 42.358588267315994,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 78.3626854853962,
+      "torsoDeviation": -0.1286775861082894,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5251676441023356,
+      "rectangles": 620
+    },
+    {
+      "action": "空重",
+      "frame": 2,
+      "file": "airheavy-2.png",
+      "oldScale": 0.5,
+      "oldHeadWorld": 43.072613108563544,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 75.91286001026853,
+      "torsoDeviation": -0.15591743672570413,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5164618165092109,
+      "rectangles": 602
+    },
+    {
+      "action": "空重",
+      "frame": 3,
+      "file": "airheavy-3.png",
+      "oldScale": 0.5,
+      "oldHeadWorld": 37.97696670351649,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 80.93870490822579,
+      "torsoDeviation": -0.10003457256391435,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5857592624896859,
+      "rectangles": 784
+    },
+    {
+      "action": "空重",
+      "frame": 4,
+      "file": "airheavy-4.png",
+      "oldScale": 0.5,
+      "oldHeadWorld": 40.44749683231337,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 77.82767403130562,
+      "torsoDeviation": -0.13462643113255535,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5499811298600666,
+      "rectangles": 667
+    },
+    {
+      "action": "空重",
+      "frame": 5,
+      "file": "airheavy-5.png",
+      "oldScale": 0.5,
+      "oldHeadWorld": 36.9120576505835,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.74284574305211,
+      "torsoDeviation": -0.04661685770450319,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6026583567468915,
+      "rectangles": 703
+    },
+    {
+      "action": "站立格挡",
+      "frame": 0,
+      "file": "standguard-crab-0.png",
+      "oldScale": 0.6860706860706862,
+      "oldHeadWorld": 47.463002774396955,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 97.11764112751762,
+      "torsoDeviation": 0.07986061190396021,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6431067783476128,
+      "rectangles": 1007
+    },
+    {
+      "action": "站立格挡",
+      "frame": 1,
+      "file": "standguard-crab-1.png",
+      "oldScale": 0.6900672143390592,
+      "oldHeadWorld": 47.172542531735466,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 98.41405951952403,
+      "torsoDeviation": 0.09427561562339193,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6508359646825194,
+      "rectangles": 1036
+    },
+    {
+      "action": "站立格挡",
+      "frame": 2,
+      "file": "standguard-crab-2.png",
+      "oldScale": 0.6900672143390592,
+      "oldHeadWorld": 47.85903443520636,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 97.8640266023329,
+      "torsoDeviation": 0.08815974547220629,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6415003475829494,
+      "rectangles": 963
+    },
+    {
+      "action": "站立格挡",
+      "frame": 3,
+      "file": "standguard-crab-3.png",
+      "oldScale": 0.8072729451234126,
+      "oldHeadWorld": 61.19320621732121,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 87.41126278135096,
+      "torsoDeviation": -0.028065564417604216,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5869304257433139,
+      "rectangles": 883
+    },
+    {
+      "action": "站立格挡",
+      "frame": 4,
+      "file": "standguard-crab-4.png",
+      "oldScale": 0.7713176676822908,
+      "oldHeadWorld": 54.540395326713984,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.35861475550809,
+      "torsoDeviation": -0.01753186456014466,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6291937964593907,
+      "rectangles": 981
+    },
+    {
+      "action": "站立格挡",
+      "frame": 5,
+      "file": "standguard-crab-5.png",
+      "oldScale": 0.8383689912352333,
+      "oldHeadWorld": 60.1116997684681,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 84.1557361555789,
+      "torsoDeviation": -0.06426408544181139,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.620505495644836,
+      "rectangles": 958
+    },
+    {
+      "action": "蹲防",
+      "frame": 0,
+      "file": "crouchguard-crab-0.png",
+      "oldScale": 0.5416976543185062,
+      "oldHeadWorld": 64.50525113882867,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 59.352850061267965,
+      "torsoDeviation": -0.3400498175068981,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.37362103465923624,
+      "rectangles": 577
+    },
+    {
+      "action": "蹲防",
+      "frame": 1,
+      "file": "crouchguard-crab-1.png",
+      "oldScale": 0.6182752529307854,
+      "oldHeadWorld": 56.83426111833421,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 63.29799062140199,
+      "torsoDeviation": -0.29618341126130443,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.4839952280456851,
+      "rectangles": 772
+    },
+    {
+      "action": "蹲防",
+      "frame": 2,
+      "file": "crouchguard-crab-2.png",
+      "oldScale": 0.5986937590711177,
+      "oldHeadWorld": 51.480701254084686,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 57.85908470898377,
+      "torsoDeviation": -0.3566591415043845,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5174039156637019,
+      "rectangles": 809
+    },
+    {
+      "action": "蹲防",
+      "frame": 3,
+      "file": "crouchguard-crab-3.png",
+      "oldScale": 0.6082972192127123,
+      "oldHeadWorld": 54.96260763780466,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 53.9441988287443,
+      "torsoDeviation": -0.4001891429859765,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.4923998774705737,
+      "rectangles": 763
+    },
+    {
+      "action": "蹲防",
+      "frame": 4,
+      "file": "crouchguard-crab-4.png",
+      "oldScale": 0.595711759504863,
+      "oldHeadWorld": 56.80229549718353,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 56.42709054615438,
+      "torsoDeviation": -0.37258162556560104,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.4665946133022328,
+      "rectangles": 789
+    },
+    {
+      "action": "蹲防",
+      "frame": 5,
+      "file": "crouchguard-crab-5.png",
+      "oldScale": 0.5618856005087203,
+      "oldHeadWorld": 55.410581461253535,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 63.68304107926855,
+      "torsoDeviation": -0.2919019973161313,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.45115380986507736,
+      "rectangles": 687
+    },
+    {
+      "action": "E · 孤心沙龙",
+      "frame": 0,
+      "file": "skillE-0.png",
+      "oldScale": 0.7246462056065972,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7246462056065972,
+      "rectangles": 835
+    },
+    {
+      "action": "E · 孤心沙龙",
+      "frame": 1,
+      "file": "skillE-1.png",
+      "oldScale": 0.7246462056065972,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7246462056065972,
+      "rectangles": 897
+    },
+    {
+      "action": "E · 孤心沙龙",
+      "frame": 2,
+      "file": "skillE-2.png",
+      "oldScale": 0.7246462056065972,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7246462056065972,
+      "rectangles": 892
+    },
+    {
+      "action": "E · 孤心沙龙",
+      "frame": 3,
+      "file": "skillE-3.png",
+      "oldScale": 0.7232084155161079,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7232084155161079,
+      "rectangles": 928
+    },
+    {
+      "action": "E · 孤心沙龙",
+      "frame": 4,
+      "file": "skillE-4.png",
+      "oldScale": 0.720349884229483,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.720349884229483,
+      "rectangles": 882
+    },
+    {
+      "action": "E · 孤心沙龙",
+      "frame": 5,
+      "file": "skillE-5.png",
+      "oldScale": 0.7232084155161079,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7232084155161079,
+      "rectangles": 824
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 0,
+      "file": "skillQ-0.png",
+      "oldScale": 0.7451973482587868,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7451973482587868,
+      "rectangles": 1021
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 1,
+      "file": "skillQ-0.png",
+      "oldScale": 0.7451973482587868,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7451973482587868,
+      "rectangles": 1021
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 2,
+      "file": "skillQ-1.png",
+      "oldScale": 0.7437158425962446,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7437158425962446,
+      "rectangles": 1005
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 3,
+      "file": "skillQ-2.png",
+      "oldScale": 0.7466847681155908,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7466847681155908,
+      "rectangles": 1056
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 4,
+      "file": "skillQ-3.png",
+      "oldScale": 0.7349490546678016,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7349490546678016,
+      "rectangles": 1016
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 5,
+      "file": "skillQ-4.png",
+      "oldScale": 0.7349490546678016,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7349490546678016,
+      "rectangles": 1111
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 6,
+      "file": "skillQ-5.png",
+      "oldScale": 0.7437158425962446,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7437158425962446,
+      "rectangles": 912
+    },
+    {
+      "action": "Q · 万众狂欢",
+      "frame": 7,
+      "file": "skillQ-0.png",
+      "oldScale": 0.7451973482587868,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7451973482587868,
+      "rectangles": 1021
+    },
+    {
+      "action": "投技",
+      "frame": 0,
+      "file": "throw-0.png",
+      "oldScale": 0.7542118323103044,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7542118323103044,
+      "rectangles": 966
+    },
+    {
+      "action": "投技",
+      "frame": 1,
+      "file": "throw-1.png",
+      "oldScale": 0.748178137651822,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.748178137651822,
+      "rectangles": 882
+    },
+    {
+      "action": "投技",
+      "frame": 2,
+      "file": "throw-2.png",
+      "oldScale": 0.7496774926370962,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7496774926370962,
+      "rectangles": 1028
+    },
+    {
+      "action": "投技",
+      "frame": 3,
+      "file": "throw-3.png",
+      "oldScale": 0.748178137651822,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.748178137651822,
+      "rectangles": 954
+    },
+    {
+      "action": "投技",
+      "frame": 4,
+      "file": "throw-4.png",
+      "oldScale": 0.7496774926370962,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7496774926370962,
+      "rectangles": 983
+    },
+    {
+      "action": "投技",
+      "frame": 5,
+      "file": "throw-5.png",
+      "oldScale": 0.7422402159244265,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.7422402159244265,
+      "rectangles": 878
+    },
+    {
+      "action": "被投",
+      "frame": 0,
+      "file": "victim-0.png",
+      "oldScale": 0.6712652696503102,
+      "oldHeadWorld": 52.311336811208015,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.31594959861053,
+      "torsoDeviation": -0.018006262639623127,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5709101886662692,
+      "rectangles": 748
+    },
+    {
+      "action": "被投",
+      "frame": 1,
+      "file": "victim-1.png",
+      "oldScale": 0.734873067379271,
+      "oldHeadWorld": 54.489735377651485,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 90.05326560588847,
+      "torsoDeviation": 0.0013111250657309448,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6000218511109752,
+      "rectangles": 779
+    },
+    {
+      "action": "被投",
+      "frame": 2,
+      "file": "victim-2.png",
+      "oldScale": 0.734873067379271,
+      "oldHeadWorld": 54.489735377651485,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 90.05326560588847,
+      "torsoDeviation": 0.0013111250657309448,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6000218511109752,
+      "rectangles": 779
+    },
+    {
+      "action": "被投",
+      "frame": 3,
+      "file": "victim-3.png",
+      "oldScale": 0.7760941872129246,
+      "oldHeadWorld": 63.340887982743986,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 77.22390582546099,
+      "torsoDeviation": -0.14133978924795143,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5451295409452558,
+      "rectangles": 645
+    },
+    {
+      "action": "被投",
+      "frame": 4,
+      "file": "victim-4.png",
+      "oldScale": 0.8676382211538463,
+      "oldHeadWorld": 59.024912293292275,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 77.83334909225225,
+      "torsoDeviation": -0.13456332957123995,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6539924867733801,
+      "rectangles": 605
+    },
+    {
+      "action": "被投",
+      "frame": 5,
+      "file": "victim-5.png",
+      "oldScale": 0.6346153846153848,
+      "oldHeadWorld": 52.247002405449365,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 59.459189745535134,
+      "torsoDeviation": -0.33886741608951154,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5404041207085674,
+      "rectangles": 340
+    },
+    {
+      "action": "前走",
+      "frame": 0,
+      "file": "legacy-0-0.png",
+      "oldScale": 0.750389812889813,
+      "oldHeadWorld": 53.567532182169536,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.24943082284493,
+      "torsoDeviation": -0.018745891455432484,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        100.31783421351041,
+        99.51904338548852
+      ],
+      "legDeviation": [
+        -0.13771409854348104,
+        -0.11694575713302324
+      ],
+      "userRejected": false,
+      "newScale": 0.6232391470709301,
+      "rectangles": 732
+    },
+    {
+      "action": "前走",
+      "frame": 1,
+      "file": "legacy-0-1.png",
+      "oldScale": 0.6960137394920004,
+      "oldHeadWorld": 49.46106937871716,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.77404304478408,
+      "torsoDeviation": -0.0462699718355003,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        92.10910383639221,
+        86.06347273680895
+      ],
+      "legDeviation": [
+        -0.20827256432915497,
+        -0.23633997905583404
+      ],
+      "userRejected": false,
+      "newScale": 0.626071227326508,
+      "rectangles": 642
+    },
+    {
+      "action": "前走",
+      "frame": 2,
+      "file": "legacy-0-2.png",
+      "oldScale": 0.750389812889813,
+      "oldHeadWorld": 54.42783761872616,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.90936515359314,
+      "torsoDeviation": -0.04476531198661848,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        100.70615747556154,
+        98.60889669188659
+      ],
+      "legDeviation": [
+        -0.1343762506254167,
+        -0.125021687850156
+      ],
+      "userRejected": false,
+      "newScale": 0.6133880111456704,
+      "rectangles": 677
+    },
+    {
+      "action": "前走",
+      "frame": 3,
+      "file": "legacy-0-3.png",
+      "oldScale": 0.7730373927557027,
+      "oldHeadWorld": 56.4264346460858,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.04195956324912,
+      "torsoDeviation": -0.009933686374785644,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        85.96516762995095,
+        91.04226714275539
+      ],
+      "legDeviation": [
+        -0.2610830103659679,
+        -0.19216204712472318
+      ],
+      "userRejected": false,
+      "newScale": 0.6095191095888618,
+      "rectangles": 743
+    },
+    {
+      "action": "前走",
+      "frame": 4,
+      "file": "legacy-0-4.png",
+      "oldScale": 0.6630663435397165,
+      "oldHeadWorld": 48.90535705919244,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 83.26292589069251,
+      "torsoDeviation": -0.07419133066483363,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        79.76430103445497,
+        64.34566824012387
+      ],
+      "legDeviation": [
+        -0.3143828038077682,
+        -0.42904680936837025
+      ],
+      "userRejected": false,
+      "newScale": 0.6032120163553891,
+      "rectangles": 612
+    },
+    {
+      "action": "前走",
+      "frame": 5,
+      "file": "legacy-0-5.png",
+      "oldScale": 0.7308144264666004,
+      "oldHeadWorld": 52.64400809075638,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.56892968532188,
+      "torsoDeviation": -0.015193352152259254,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        89.23769508956863,
+        106.49336213631393
+      ],
+      "legDeviation": [
+        -0.23295387148771252,
+        -0.055061101146457125
+      ],
+      "userRejected": false,
+      "newScale": 0.6176288852342322,
+      "rectangles": 718
+    },
+    {
+      "action": "后退",
+      "frame": 0,
+      "file": "legacy-1-0.png",
+      "oldScale": 0.7235765354466364,
+      "oldHeadWorld": 51.25149348350563,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 94.19809313849663,
+      "torsoDeviation": 0.04739787041534016,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        107.5721179437521,
+        102.11213084120834
+      ],
+      "legDeviation": [
+        -0.075359616563343,
+        -0.09393672487144078
+      ],
+      "userRejected": false,
+      "newScale": 0.6281268868553654,
+      "rectangles": 704
+    },
+    {
+      "action": "后退",
+      "frame": 1,
+      "file": "legacy-1-1.png",
+      "oldScale": 0.7277997447974923,
+      "oldHeadWorld": 52.8143970832266,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 91.7701583220004,
+      "torsoDeviation": 0.02040142418615276,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        93.91764810192466,
+        94.53060429381622
+      ],
+      "legDeviation": [
+        -0.19272715074885816,
+        -0.16120926847046269
+      ],
+      "userRejected": false,
+      "newScale": 0.6130967399334896,
+      "rectangles": 672
+    },
+    {
+      "action": "后退",
+      "frame": 2,
+      "file": "legacy-1-2.png",
+      "oldScale": 0.7335079780900216,
+      "oldHeadWorld": 53.38507145188911,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 91.04267480149093,
+      "torsoDeviation": 0.012312463308530974,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        87.90255138211617,
+        87.52132615949171
+      ],
+      "legDeviation": [
+        -0.24443015189568396,
+        -0.22340412671457377
+      ],
+      "userRejected": false,
+      "newScale": 0.6113000731279606,
+      "rectangles": 604
+    },
+    {
+      "action": "后退",
+      "frame": 3,
+      "file": "legacy-1-3.png",
+      "oldScale": 0.7363958047754153,
+      "oldHeadWorld": 51.998096152802425,
+      "headWorld": 44.49072001569434,
+      "torsoWorld": 90.70038526673339,
+      "torsoDeviation": 0.008506512276768685,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        97.90670364716628,
+        91.98376873390677
+      ],
+      "legDeviation": [
+        -0.15843906644404815,
+        -0.18380789754239846
+      ],
+      "userRejected": false,
+      "newScale": 0.6300765219310664,
+      "rectangles": 656
+    },
+    {
+      "action": "后退",
+      "frame": 4,
+      "file": "legacy-1-4.png",
+      "oldScale": 0.7437158425962446,
+      "oldHeadWorld": 52.67797640352368,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 87.36384722520185,
+      "torsoDeviation": -0.028592782653987348,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        93.17487131341055,
+        92.50886119951456
+      ],
+      "legDeviation": [
+        -0.19911171793659965,
+        -0.17914863722519114
+      ],
+      "userRejected": false,
+      "newScale": 0.6281268868553654,
+      "rectangles": 663
+    },
+    {
+      "action": "后退",
+      "frame": 5,
+      "file": "legacy-1-5.png",
+      "oldScale": 0.7466847681155908,
+      "oldHeadWorld": 52.7246164583306,
+      "headWorld": 44.49072001569434,
+      "torsoWorld": 90.3385603032184,
+      "torsoDeviation": 0.004483344889595342,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        95.76601184290006,
+        91.3649848930624
+      ],
+      "legDeviation": [
+        -0.17683946729653877,
+        -0.1892985019281197
+      ],
+      "userRejected": false,
+      "newScale": 0.6300765219310664,
+      "rectangles": 615
+    },
+    {
+      "action": "跳跃",
+      "frame": 0,
+      "file": "jump-review-0.png",
+      "oldScale": 0.678387898665836,
+      "oldHeadWorld": 45.69938314806072,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.2410159644891,
+      "torsoDeviation": -0.05219675241219235,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.6604458087276771,
+      "rectangles": 756
+    },
+    {
+      "action": "跳跃",
+      "frame": 1,
+      "file": "jump-review-1.png",
+      "oldScale": 0.6711946510599103,
+      "oldHeadWorld": 47.217959324996144,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 79.84631281071202,
+      "torsoDeviation": -0.11218098783064623,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.6324274433547976,
+      "rectangles": 682
+    },
+    {
+      "action": "跳跃",
+      "frame": 2,
+      "file": "jump-review-2.png",
+      "oldScale": 0.6839084518132146,
+      "oldHeadWorld": 47.898010701008175,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 77.59510764042624,
+      "torsoDeviation": -0.13721235972645063,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.6352576860848267,
+      "rectangles": 696
+    },
+    {
+      "action": "跳跃",
+      "frame": 3,
+      "file": "jump-review-3.png",
+      "oldScale": 0.686569849591381,
+      "oldHeadWorld": 48.08440357116541,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 76.9946991315082,
+      "torsoDeviation": -0.14388836104099312,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.6352576860848267,
+      "rectangles": 747
+    },
+    {
+      "action": "跳跃",
+      "frame": 4,
+      "file": "jump-review-4.png",
+      "oldScale": 0.6829378400526789,
+      "oldHeadWorld": 47.83003322190347,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 77.81582536725016,
+      "torsoDeviation": -0.1347581775945641,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.6352576860848267,
+      "rectangles": 723
+    },
+    {
+      "action": "跳跃",
+      "frame": 5,
+      "file": "jump-review-5.png",
+      "oldScale": 0.6706277827969294,
+      "oldHeadWorld": 46.583294551376255,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 82.0368342243329,
+      "torsoDeviation": -0.08782436459887433,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.6405024205889399,
+      "rectangles": 757
+    },
+    {
+      "action": "蹲下",
+      "frame": 0,
+      "file": "legacy-3-0.png",
+      "oldScale": 0.39310283212722247,
+      "oldHeadWorld": 47.20017642597782,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.9328224046658,
+      "torsoDeviation": -0.011147193184475324,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.370537344685072,
+      "rectangles": 644
+    },
+    {
+      "action": "蹲下",
+      "frame": 1,
+      "file": "legacy-3-1.png",
+      "oldScale": 0.41536303808393576,
+      "oldHeadWorld": 49.64413748781662,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 84.8792923899935,
+      "torsoDeviation": -0.05621879244487826,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.3722453761392427,
+      "rectangles": 577
+    },
+    {
+      "action": "蹲下",
+      "frame": 2,
+      "file": "legacy-3-2.png",
+      "oldScale": 0.39649079896757927,
+      "oldHeadWorld": 47.90160230835913,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 72.08931912368725,
+      "torsoDeviation": -0.19843176423085995,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.368258268525335,
+      "rectangles": 479
+    },
+    {
+      "action": "蹲下",
+      "frame": 3,
+      "file": "legacy-3-3.png",
+      "oldScale": 0.4061770562713475,
+      "oldHeadWorld": 47.91167865654527,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 72.92763454876754,
+      "torsoDeviation": -0.1891104524960836,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.377175465232812,
+      "rectangles": 491
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 0,
+      "file": "legacy-4-0.png",
+      "oldScale": 0.44758767680682054,
+      "oldHeadWorld": 50.05383215835888,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.29783856803824,
+      "torsoDeviation": -0.05156493628974357,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.3978416267566805,
+      "rectangles": 670
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 1,
+      "file": "legacy-4-1.png",
+      "oldScale": 0.48459021109792505,
+      "oldHeadWorld": 51.721918441860645,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.72428607018611,
+      "torsoDeviation": -0.013465929215756844,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.41684005647506706,
+      "rectangles": 758
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 2,
+      "file": "legacy-4-2.png",
+      "oldScale": 0.5474674972914411,
+      "oldHeadWorld": 60.815729475913024,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 60.062939386918245,
+      "torsoDeviation": -0.3321542643941906,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.40050860771691393,
+      "rectangles": 571
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 3,
+      "file": "legacy-4-3.png",
+      "oldScale": 0.45662487292443243,
+      "oldHeadWorld": 44.262003523228536,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 72.37559747572294,
+      "torsoDeviation": -0.1952486070534919,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.4589844055030496,
+      "rectangles": 557
+    },
+    {
+      "action": "起身",
+      "frame": 0,
+      "file": "wakeup-clean-0.png",
+      "oldScale": 0.520002572678158,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.520002572678158,
+      "rectangles": 674
+    },
+    {
+      "action": "起身",
+      "frame": 1,
+      "file": "wakeup-clean-1.png",
+      "oldScale": 0.5686608774855836,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.5686608774855836,
+      "rectangles": 655
+    },
+    {
+      "action": "起身",
+      "frame": 2,
+      "file": "wakeup-clean-2.png",
+      "oldScale": 0.5927522565000675,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.5927522565000675,
+      "rectangles": 776
+    },
+    {
+      "action": "起身",
+      "frame": 3,
+      "file": "wakeup-clean-3.png",
+      "oldScale": 0.646095110234734,
+      "sourceNeedsReview": true,
+      "reason": "unmeasured, retained legacy scale; not normalized",
+      "newScale": 0.646095110234734,
+      "rectangles": 839
+    },
+    {
+      "action": "胜利",
+      "frame": 0,
+      "file": "victory-curtaincall-0.png",
+      "oldScale": 0.6667628806465581,
+      "oldHeadWorld": 48.66912320388705,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 91.48676764575652,
+      "torsoDeviation": 0.01725037536017493,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6095191095888618,
+      "rectangles": 764
+    },
+    {
+      "action": "胜利",
+      "frame": 1,
+      "file": "victory-curtaincall-1.png",
+      "oldScale": 0.7023064381890528,
+      "oldHeadWorld": 46.330938019276566,
+      "headWorld": 44.49072001569434,
+      "torsoWorld": 101.1976927292955,
+      "torsoDeviation": 0.12522710730216047,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6744115367076824,
+      "rectangles": 782
+    },
+    {
+      "action": "胜利",
+      "frame": 2,
+      "file": "victory-curtaincall-2.png",
+      "oldScale": 0.8265239034469806,
+      "oldHeadWorld": 65.87867348500227,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.79396186900298,
+      "torsoDeviation": -0.04604849246821219,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5581873712577098,
+      "rectangles": 501
+    },
+    {
+      "action": "胜利",
+      "frame": 3,
+      "file": "victory-curtaincall-3.png",
+      "oldScale": 0.7194020554344441,
+      "oldHeadWorld": 53.931168757795,
+      "headWorld": 44.49072001569434,
+      "torsoWorld": 71.18218327637192,
+      "torsoDeviation": -0.20851829701511226,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5934734248165677,
+      "rectangles": 635
+    },
+    {
+      "action": "前冲",
+      "frame": 0,
+      "file": "idle-0.png",
+      "oldScale": 0.36789297658862885,
+      "oldHeadWorld": 44.49072001569435,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.93534911536804,
+      "torsoDeviation": 0.0,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.36789297658862885,
+      "rectangles": 748
+    },
+    {
+      "action": "前冲",
+      "frame": 1,
+      "file": "forwarddash-review-0.png",
+      "oldScale": 0.48201067151238347,
+      "oldHeadWorld": 45.95308845605028,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 84.30238918280511,
+      "torsoDeviation": -0.06263343599563986,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.46667161123118767,
+      "rectangles": 710
+    },
+    {
+      "action": "前冲",
+      "frame": 2,
+      "file": "forwarddash-review-1.png",
+      "oldScale": 0.502807712225631,
+      "oldHeadWorld": 45.87689867806558,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 84.58263104584391,
+      "torsoDeviation": -0.059517399133656834,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.48761528767108936,
+      "rectangles": 733
+    },
+    {
+      "action": "前冲",
+      "frame": 3,
+      "file": "forwarddash-review-2.png",
+      "oldScale": 0.5203711988327474,
+      "oldHeadWorld": 44.94513251651112,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 88.1259806547028,
+      "torsoDeviation": -0.020118546027371287,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.5151100467440815,
+      "rectangles": 767
+    },
+    {
+      "action": "前冲",
+      "frame": 4,
+      "file": "forwarddash-review-3.png",
+      "oldScale": 0.5436903176451673,
+      "oldHeadWorld": 43.49862334337214,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 94.08454051937598,
+      "torsoDeviation": 0.04613526766528042,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.55609055731831,
+      "rectangles": 750
+    },
+    {
+      "action": "前冲",
+      "frame": 5,
+      "file": "idle-0.png",
+      "oldScale": 0.36789297658862885,
+      "oldHeadWorld": 44.49072001569435,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.93534911536804,
+      "torsoDeviation": 0.0,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.36789297658862885,
+      "rectangles": 748
+    },
+    {
+      "action": "后撤",
+      "frame": 0,
+      "file": "idle-0.png",
+      "oldScale": 0.36789297658862885,
+      "oldHeadWorld": 44.49072001569435,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.93534911536804,
+      "torsoDeviation": 0.0,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.36789297658862885,
+      "rectangles": 748
+    },
+    {
+      "action": "后撤",
+      "frame": 1,
+      "file": "backdash-review-0.png",
+      "oldScale": 0.5362548258079927,
+      "oldHeadWorld": 43.380330736363085,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 94.59835310477541,
+      "torsoDeviation": 0.051848400381764526,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        105.0432356657977,
+        111.83352904112085
+      ],
+      "legDeviation": [
+        -0.09709672394628577,
+        -0.007676631978667969
+      ],
+      "userRejected": false,
+      "newScale": 0.5499811298600666,
+      "rectangles": 792
+    },
+    {
+      "action": "后撤",
+      "frame": 2,
+      "file": "backdash-review-1.png",
+      "oldScale": 0.57971021349176,
+      "oldHeadWorld": 42.06795293267788,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 100.59271608302264,
+      "torsoDeviation": 0.11850031241868475,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        141.01222862939196,
+        133.38818931965352
+      ],
+      "legDeviation": [
+        0.2120761740260173,
+        0.18358258399657346
+      ],
+      "userRejected": false,
+      "newScale": 0.6130967399334896,
+      "rectangles": 907
+    },
+    {
+      "action": "后撤",
+      "frame": 3,
+      "file": "backdash-review-2.png",
+      "oldScale": 0.5722500213441958,
+      "oldHeadWorld": 45.56849592880141,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 85.73139786047062,
+      "torsoDeviation": -0.04674414783785008,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        106.38441932999841,
+        90.73748161718925
+      ],
+      "legDeviation": [
+        -0.08556852685181227,
+        -0.1948664757683256
+      ],
+      "userRejected": false,
+      "newScale": 0.5587152913359149,
+      "rectangles": 789
+    },
+    {
+      "action": "后撤",
+      "frame": 4,
+      "file": "backdash-review-3.png",
+      "oldScale": 0.6003602935937103,
+      "oldHeadWorld": 43.04629357562744,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 96.07220682927574,
+      "torsoDeviation": 0.06823632502983235,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "legChainsWorld": [
+        126.31820708377629,
+        105.09081334351588
+      ],
+      "legDeviation": [
+        0.08577313216094162,
+        -0.06750622340824208
+      ],
+      "userRejected": false,
+      "newScale": 0.620505495644836,
+      "rectangles": 888
+    },
+    {
+      "action": "后撤",
+      "frame": 5,
+      "file": "idle-0.png",
+      "oldScale": 0.36789297658862885,
+      "oldHeadWorld": 44.49072001569435,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.93534911536804,
+      "torsoDeviation": 0.0,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": false,
+      "newScale": 0.36789297658862885,
+      "rectangles": 748
+    },
+    {
+      "action": "败北",
+      "frame": 0,
+      "file": "defeat-review-0.png",
+      "oldScale": 0.581907093081788,
+      "oldHeadWorld": 41.90135152850776,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 101.394227448698,
+      "torsoDeviation": 0.12741239619396638,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6178670760974002,
+      "rectangles": 909
+    },
+    {
+      "action": "败北",
+      "frame": 1,
+      "file": "defeat-review-1.png",
+      "oldScale": 0.5951229794421272,
+      "oldHeadWorld": 45.11173504037268,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 87.47626502511568,
+      "torsoDeviation": -0.027342798070399188,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.5869304257433139,
+      "rectangles": 786
+    },
+    {
+      "action": "败北",
+      "frame": 2,
+      "file": "defeat-review-2.png",
+      "oldScale": 0.6850117699179684,
+      "oldHeadWorld": 44.52576504466795,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 89.79383345273573,
+      "torsoDeviation": -0.0015735265835326029,
+      "sourceProportionPass": true,
+      "sourceNeedsReview": false,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.684472615626067,
+      "rectangles": 837
+    },
+    {
+      "action": "败北",
+      "frame": 3,
+      "file": "defeat-review-3.png",
+      "oldScale": 0.5816547465375242,
+      "oldHeadWorld": 41.54252962337863,
+      "headWorld": 44.49072001569435,
+      "torsoWorld": 103.15336904374348,
+      "torsoDeviation": 0.1469724647582067,
+      "sourceProportionPass": false,
+      "sourceNeedsReview": true,
+      "landmarkConfidence": "manual estimate; not art acceptance",
+      "userRejected": true,
+      "newScale": 0.6229336226900666,
+      "rectangles": 700
+    }
+  ],
+  "unmeasuredActions": [
+    "站重",
+    "轻攻一",
+    "轻攻二",
+    "轻攻三",
+    "E · 孤心沙龙",
+    "Q · 万众狂欢",
+    "投技",
+    "起身"
+  ],
+  "sourceArtFailures": [
+    {
+      "action": "蹲轻",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.3161918532737954,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲轻",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.35457332207826664,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲轻",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.18116077722793011,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲轻",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.183924419708153,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲重",
+      "frame": 0,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.12458477333476858,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲重",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.24111062762614954,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲重",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1848132995247912,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲重",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.16921708824780557,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲重",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.17863593309564818,
+      "legDeviation": null
+    },
+    {
+      "action": "空轻",
+      "frame": 0,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.2032817844125222,
+      "legDeviation": null
+    },
+    {
+      "action": "空轻",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.2105704024314119,
+      "legDeviation": null
+    },
+    {
+      "action": "空轻",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.18352735382682817,
+      "legDeviation": null
+    },
+    {
+      "action": "空轻",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1449225263330992,
+      "legDeviation": null
+    },
+    {
+      "action": "空轻",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.19527225861988773,
+      "legDeviation": null
+    },
+    {
+      "action": "空重",
+      "frame": 0,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1208431796812165,
+      "legDeviation": null
+    },
+    {
+      "action": "空重",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1286775861082894,
+      "legDeviation": null
+    },
+    {
+      "action": "空重",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.15591743672570413,
+      "legDeviation": null
+    },
+    {
+      "action": "空重",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.10003457256391435,
+      "legDeviation": null
+    },
+    {
+      "action": "空重",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.13462643113255535,
+      "legDeviation": null
+    },
+    {
+      "action": "站立格挡",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.09427561562339193,
+      "legDeviation": null
+    },
+    {
+      "action": "站立格挡",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.08815974547220629,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲防",
+      "frame": 0,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.3400498175068981,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲防",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.29618341126130443,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲防",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.3566591415043845,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲防",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.4001891429859765,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲防",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.37258162556560104,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲防",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.2919019973161313,
+      "legDeviation": null
+    },
+    {
+      "action": "被投",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.14133978924795143,
+      "legDeviation": null
+    },
+    {
+      "action": "被投",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.13456332957123995,
+      "legDeviation": null
+    },
+    {
+      "action": "被投",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.33886741608951154,
+      "legDeviation": null
+    },
+    {
+      "action": "前走",
+      "frame": 0,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.018745891455432484,
+      "legDeviation": [
+        -0.13771409854348104,
+        -0.11694575713302324
+      ]
+    },
+    {
+      "action": "前走",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.0462699718355003,
+      "legDeviation": [
+        -0.20827256432915497,
+        -0.23633997905583404
+      ]
+    },
+    {
+      "action": "前走",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.04476531198661848,
+      "legDeviation": [
+        -0.1343762506254167,
+        -0.125021687850156
+      ]
+    },
+    {
+      "action": "前走",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.009933686374785644,
+      "legDeviation": [
+        -0.2610830103659679,
+        -0.19216204712472318
+      ]
+    },
+    {
+      "action": "前走",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.07419133066483363,
+      "legDeviation": [
+        -0.3143828038077682,
+        -0.42904680936837025
+      ]
+    },
+    {
+      "action": "前走",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.015193352152259254,
+      "legDeviation": [
+        -0.23295387148771252,
+        -0.055061101146457125
+      ]
+    },
+    {
+      "action": "后退",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.02040142418615276,
+      "legDeviation": [
+        -0.19272715074885816,
+        -0.16120926847046269
+      ]
+    },
+    {
+      "action": "后退",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.012312463308530974,
+      "legDeviation": [
+        -0.24443015189568396,
+        -0.22340412671457377
+      ]
+    },
+    {
+      "action": "后退",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.008506512276768685,
+      "legDeviation": [
+        -0.15843906644404815,
+        -0.18380789754239846
+      ]
+    },
+    {
+      "action": "后退",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.028592782653987348,
+      "legDeviation": [
+        -0.19911171793659965,
+        -0.17914863722519114
+      ]
+    },
+    {
+      "action": "后退",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.004483344889595342,
+      "legDeviation": [
+        -0.17683946729653877,
+        -0.1892985019281197
+      ]
+    },
+    {
+      "action": "跳跃",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.11218098783064623,
+      "legDeviation": null
+    },
+    {
+      "action": "跳跃",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.13721235972645063,
+      "legDeviation": null
+    },
+    {
+      "action": "跳跃",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.14388836104099312,
+      "legDeviation": null
+    },
+    {
+      "action": "跳跃",
+      "frame": 4,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1347581775945641,
+      "legDeviation": null
+    },
+    {
+      "action": "跳跃",
+      "frame": 5,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.08782436459887433,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲下",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.19843176423085995,
+      "legDeviation": null
+    },
+    {
+      "action": "蹲下",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1891104524960836,
+      "legDeviation": null
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.3321542643941906,
+      "legDeviation": null
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.1952486070534919,
+      "legDeviation": null
+    },
+    {
+      "action": "胜利",
+      "frame": 1,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.12522710730216047,
+      "legDeviation": null
+    },
+    {
+      "action": "胜利",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.20851829701511226,
+      "legDeviation": null
+    },
+    {
+      "action": "后撤",
+      "frame": 2,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.11850031241868475,
+      "legDeviation": [
+        0.2120761740260173,
+        0.18358258399657346
+      ]
+    },
+    {
+      "action": "后撤",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": -0.04674414783785008,
+      "legDeviation": [
+        -0.08556852685181227,
+        -0.1948664757683256
+      ]
+    },
+    {
+      "action": "败北",
+      "frame": 0,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.12741239619396638,
+      "legDeviation": null
+    },
+    {
+      "action": "败北",
+      "frame": 3,
+      "reason": "anatomical proportions cannot be aligned by the chosen single head scale",
+      "torsoDeviation": 0.1469724647582067,
+      "legDeviation": null
+    }
+  ],
+  "simulation": "not run",
+  "device": "not observed",
+  "visualAcceptance": "not accepted",
+  "activeBankReplaced": false,
+  "latestUserChanges": {
+    "defeatUniformMultiplier": 0.896551724137931,
+    "defeatUprightBefore": 391.5,
+    "defeatTargetIdleHeight": 351.0,
+    "airHoverWorld": 100,
+    "airRoot": "manual boot sole point; not pelvis virtual floor",
+    "hurtLastEqualsWakeupFirst": true,
+    "independentSourceProportionAcceptance": false,
+    "victoryFirstLastExactIdle": true,
+    "victoryIntermediateSharedScale": 0.4828060522696011,
+    "light3FirstHeightBefore": 405.0,
+    "light3FirstMultiplier": 0.8666666666666667,
+    "outlineColor": [
+      25,
+      31,
+      79
+    ],
+    "outlineWidthLogical": 1,
+    "light3ConsistencyTrial": {
+      "changedFrames": [
+        4,
+        5
+      ],
+      "generatedRecovery": "light3-recovery-source-v2.png",
+      "visualAcceptance": false
+    }
+  },
+  "sourceAuditScope": "Source landmark audit before latest display overrides; not final acceptance of replacement victory poses or corrected attack scale.",
+  "registeredDisplayFrames": 90,
+  "sourceProportionFailures": 56,
+  "peakRectangles": 1197,
+  "userRejectedActions": [
+    "蹲轻",
+    "蹲重",
+    "空轻",
+    "空重",
+    "站立格挡",
+    "蹲防",
+    "被投",
+    "胜利",
+    "败北",
+    "受击与倒地"
+  ],
+  "anchorChanges": [
+    {
+      "action": "蹲轻",
+      "frame": 0,
+      "old": [
+        239.0,
+        428.0
+      ],
+      "new": [
+        170.37812528829068,
+        428.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲轻",
+      "frame": 1,
+      "old": [
+        189.0,
+        424.0
+      ],
+      "new": [
+        176.36497168285857,
+        424.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲轻",
+      "frame": 2,
+      "old": [
+        245.5,
+        357.0
+      ],
+      "new": [
+        181.36497168285857,
+        357.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲轻",
+      "frame": 3,
+      "old": [
+        251.0,
+        370.0
+      ],
+      "new": [
+        199.26809770335691,
+        370.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲轻",
+      "frame": 4,
+      "old": [
+        226.0,
+        403.0
+      ],
+      "new": [
+        170.36497168285857,
+        403.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲轻",
+      "frame": 5,
+      "old": [
+        236.0,
+        400.0
+      ],
+      "new": [
+        185.36497168285857,
+        400.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲重",
+      "frame": 0,
+      "old": [
+        162.5,
+        499.0
+      ],
+      "new": [
+        164.45249689266151,
+        499.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲重",
+      "frame": 1,
+      "old": [
+        153.0,
+        494.0
+      ],
+      "new": [
+        131.08507917814276,
+        494.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲重",
+      "frame": 2,
+      "old": [
+        169.5,
+        495.0
+      ],
+      "new": [
+        159.35512257523317,
+        495.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲重",
+      "frame": 3,
+      "old": [
+        171.0,
+        487.0
+      ],
+      "new": [
+        139.55591225073522,
+        487.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲重",
+      "frame": 4,
+      "old": [
+        170.0,
+        494.0
+      ],
+      "new": [
+        181.09675799243644,
+        494.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲重",
+      "frame": 5,
+      "old": [
+        180.0,
+        494.0
+      ],
+      "new": [
+        171.65166858151525,
+        494.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空轻",
+      "frame": 0,
+      "old": [
+        223.3,
+        313.95
+      ],
+      "new": [
+        165.29386214305939,
+        595.2044176226485
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空轻",
+      "frame": 1,
+      "old": [
+        190.3,
+        314.6
+      ],
+      "new": [
+        168.75939756476538,
+        600.0259968134638
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空轻",
+      "frame": 2,
+      "old": [
+        277.20000000000005,
+        297.05
+      ],
+      "new": [
+        176.06420469335438,
+        624.2546294114952
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空轻",
+      "frame": 3,
+      "old": [
+        350.90000000000003,
+        305.5
+      ],
+      "new": [
+        188.35500727810862,
+        560.9267738169965
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空轻",
+      "frame": 4,
+      "old": [
+        265.1,
+        325.0
+      ],
+      "new": [
+        144.3992311093922,
+        577.8103574527929
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空轻",
+      "frame": 5,
+      "old": [
+        249.70000000000002,
+        305.5
+      ],
+      "new": [
+        175.6765329534372,
+        619.021987349204
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空重",
+      "frame": 0,
+      "old": [
+        229.35000000000002,
+        323.05
+      ],
+      "new": [
+        216.79195052273803,
+        639.6919308410413
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空重",
+      "frame": 1,
+      "old": [
+        240.9,
+        321.1
+      ],
+      "new": [
+        210.90618085861945,
+        648.3681420506036
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空重",
+      "frame": 2,
+      "old": [
+        248.05,
+        326.95
+      ],
+      "new": [
+        152.82577235329904,
+        649.071902935792
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空重",
+      "frame": 3,
+      "old": [
+        262.90000000000003,
+        321.75
+      ],
+      "new": [
+        193.5361199463872,
+        598.3669484707959
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空重",
+      "frame": 4,
+      "old": [
+        216.15,
+        321.1
+      ],
+      "new": [
+        169.7979001960227,
+        622.1019945088166
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "空重",
+      "frame": 5,
+      "old": [
+        195.8,
+        298.35
+      ],
+      "new": [
+        129.1474599610725,
+        584.8602603956451
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "站立格挡",
+      "frame": 0,
+      "old": [
+        171.0,
+        517.0
+      ],
+      "new": [
+        155.6603246408234,
+        517.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "站立格挡",
+      "frame": 1,
+      "old": [
+        168.5,
+        514.0
+      ],
+      "new": [
+        130.28189923951192,
+        514.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "站立格挡",
+      "frame": 2,
+      "old": [
+        182.0,
+        514.0
+      ],
+      "new": [
+        144.5292568011468,
+        514.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "站立格挡",
+      "frame": 3,
+      "old": [
+        260.5,
+        478.0
+      ],
+      "new": [
+        128.65078359607696,
+        478.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "站立格挡",
+      "frame": 4,
+      "old": [
+        210.0,
+        484.0
+      ],
+      "new": [
+        172.50296905434845,
+        484.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "站立格挡",
+      "frame": 5,
+      "old": [
+        204.0,
+        470.0
+      ],
+      "new": [
+        180.75390510438564,
+        470.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲防",
+      "frame": 0,
+      "old": [
+        214.5,
+        499.0
+      ],
+      "new": [
+        124.90871263257476,
+        499.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲防",
+      "frame": 1,
+      "old": [
+        187.5,
+        478.0
+      ],
+      "new": [
+        141.453859770653,
+        478.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲防",
+      "frame": 2,
+      "old": [
+        187.0,
+        453.0
+      ],
+      "new": [
+        160.9444428598448,
+        453.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲防",
+      "frame": 3,
+      "old": [
+        195.0,
+        455.0
+      ],
+      "new": [
+        160.64092531275753,
+        455.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲防",
+      "frame": 4,
+      "old": [
+        183.5,
+        482.0
+      ],
+      "new": [
+        162.86029019542707,
+        482.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "蹲防",
+      "frame": 5,
+      "old": [
+        186.5,
+        460.0
+      ],
+      "new": [
+        158.39129834664058,
+        460.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "被投",
+      "frame": 0,
+      "old": [
+        170.0,
+        542
+      ],
+      "new": [
+        150.04151464062193,
+        542
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "被投",
+      "frame": 1,
+      "old": [
+        232.65,
+        322.40000000000003
+      ],
+      "new": [
+        151.902043004473,
+        544.1558811082932
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "被投",
+      "frame": 2,
+      "old": [
+        232.65,
+        322.40000000000003
+      ],
+      "new": [
+        151.902043004473,
+        544.1558811082932
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "被投",
+      "frame": 3,
+      "old": [
+        284.35,
+        229.45000000000002
+      ],
+      "new": [
+        188.2532086930503,
+        529.9775643269447
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "被投",
+      "frame": 4,
+      "old": [
+        224.0,
+        271
+      ],
+      "new": [
+        175.53151881595886,
+        271
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "被投",
+      "frame": 5,
+      "old": [
+        280.0,
+        140
+      ],
+      "new": [
+        191.71328028390002,
+        140
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 0,
+      "old": [
+        229.5,
+        791.0
+      ],
+      "new": [
+        165.3934688172125,
+        791.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 1,
+      "old": [
+        579.5,
+        582.0
+      ],
+      "new": [
+        237.24960311002803,
+        582.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 2,
+      "old": [
+        398.5,
+        438.0
+      ],
+      "new": [
+        145.95686247075258,
+        438.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "受击与倒地",
+      "frame": 3,
+      "old": [
+        130.0,
+        267.0
+      ],
+      "new": [
+        256.6641750864968,
+        267.0
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "胜利",
+      "frame": 0,
+      "old": [
+        181.5,
+        519
+      ],
+      "new": [
+        148.77613667813526,
+        519
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "胜利",
+      "frame": 1,
+      "old": [
+        180.5,
+        518
+      ],
+      "new": [
+        150.0898217662169,
+        518
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "胜利",
+      "frame": 2,
+      "old": [
+        231.0,
+        440
+      ],
+      "new": [
+        149.69766832209558,
+        440
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "胜利",
+      "frame": 3,
+      "old": [
+        92.0,
+        493
+      ],
+      "new": [
+        97.28305431636856,
+        493
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "败北",
+      "frame": 0,
+      "old": [
+        219,
+        640
+      ],
+      "new": [
+        188.52226311748993,
+        640
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "败北",
+      "frame": 1,
+      "old": [
+        351,
+        431
+      ],
+      "new": [
+        260.65078359607696,
+        431
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "败北",
+      "frame": 2,
+      "old": [
+        339,
+        343
+      ],
+      "new": [
+        300.8234526384782,
+        343
+      ],
+      "status": "candidate; paired contact not accepted"
+    },
+    {
+      "action": "败北",
+      "frame": 3,
+      "old": [
+        397,
+        192
+      ],
+      "new": [
+        330.9653504419248,
+        192
+      ],
+      "status": "candidate; paired contact not accepted"
+    }
+  ],
+  "hurtFourthFrame": {
+    "displayIndex": 4,
+    "arrayIndex": 3,
+    "source": "legacy-4-3.png",
+    "sourceDefects": [
+      "foreign boot at left border",
+      "foreign gold accessory at left border"
+    ],
+    "anchorDefect": "rootX 130 is near boots, not torso/pelvis root",
+    "repairStatus": "hurt-fourth-repair-v1.png rejected for upper hair boundary contact; not integrated"
+  }
+}

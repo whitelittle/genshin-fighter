@@ -1,0 +1,5 @@
+{
+  "method": "built-in imagegen",
+  "prompt": "Use case: precise-object-edit. Edit this SIX Furina crouching sword sprite atlas. Change ONLY the clipped sword of the TOP-RIGHT third pose: extend canvas to the RIGHT by256pixels (1536x1024 ->1792x1024) and complete its missing silver sword tip at its current down-right angle, matching sword length/style of other poses. Preserve ALL six body pixels/poses, costumes, hands, face, scale, facing and source positions EXACTLY; do not rearrange rows or move other sprites, do not resize/zoom the image. Existing five complete swords stay unchanged, third blade stays attached to existing hilt. Add only transparent canvas on right; new tip must have40px clear margin. Truealpha background, no extra body/arm/weapon, no text/grid/effects. The six original sprite positions are invariants, prioritize this exact localized canvas+tip repair.",
+  "output": "crouchlight-sword-source-v2.png"
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen edit",
+  "target": "sword-light3-5.png",
+  "reference": "idle-0.png",
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit. Asset: one full-body Furina sword light-attack-3 recovery frame for a right-facing 2D fighting game. Image 1 is the edit target recovery pose; image 2 is the approved idle anatomy and costume reference. Correct ONLY the target's bodily proportions so it is the exact same Furina model as image 2: shorten the excessively long chest-to-pelvis section, restore the idle reference hip-to-knee and knee-to-ankle proportions and head-to-torso ratio. Preserve image 1's action: right-facing three-quarter profile, one gloved hand resting near the upper chest, the other hand securely holding the gold hilt of the existing silver-blue rapier angled downward-right across the front, relaxed two-foot planted recovery stance. Keep the face identity, blue crown top hat, white hair, navy/white/gold outfit, shorts, one thigh strap, boots, costume details and illustrative rendering. Exactly two arms, two hands and two legs, natural joints, no merged fingers or duplicated appendages. This is not a new costume or new move. Full body and complete sword visible with generous transparent margin on every side. Actual transparent alpha background, no painted backdrop, no ground shadow, no effects, no helpers, no text or grid. Do not use the hat or hair envelope to change anatomy. Output exactly one corrected recovery pose."
+}

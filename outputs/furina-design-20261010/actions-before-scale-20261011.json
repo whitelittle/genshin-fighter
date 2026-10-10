@@ -1,0 +1,5201 @@
+{
+  "待机": {
+    "frames": [
+      {
+        "file": "idle-0-fit.png",
+        "anchor": [
+          24.73611111111111,
+          71.13888888888889
+        ],
+        "scale": 4.5,
+        "source": "idle-0.png"
+      },
+      {
+        "file": "idle-1-fit.png",
+        "anchor": [
+          22.13611111111111,
+          71.13888888888889
+        ],
+        "scale": 4.5,
+        "source": "idle-1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "idle-0.png",
+        "anchor": [
+          342.5,
+          985.0
+        ],
+        "scale": 0.325,
+        "source": "idle-0.png"
+      },
+      {
+        "file": "idle-1.png",
+        "anchor": [
+          306.5,
+          985.0
+        ],
+        "scale": 0.325,
+        "source": "idle-1.png"
+      }
+    ],
+    "durations": [
+      40,
+      40
+    ],
+    "phases": [
+      "呼吸",
+      "呼吸"
+    ],
+    "status": "复用既有空手待机"
+  },
+  "站重": {
+    "frames": [
+      {
+        "file": "light1-contact-0-fit.png",
+        "anchor": [
+          21.417777777777776,
+          68.86222222222221
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          135,
+          10,
+          386,
+          519
+        ]
+      },
+      {
+        "file": "light1-contact-1-fit.png",
+        "anchor": [
+          23.315555555555555,
+          69.26888888888888
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          603,
+          7,
+          908,
+          519
+        ]
+      },
+      {
+        "file": "light1-contact-2-fit.png",
+        "anchor": [
+          27.38222222222222,
+          66.42222222222222
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1056,
+          27,
+          1421,
+          518
+        ]
+      },
+      {
+        "file": "light1-contact-3-fit.png",
+        "anchor": [
+          28.195555555555554,
+          66.28666666666668
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          93,
+          528,
+          400,
+          1018
+        ]
+      },
+      {
+        "file": "light1-contact-4-fit.png",
+        "anchor": [
+          25.21333333333333,
+          66.69333333333333
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          583,
+          525,
+          881,
+          1018
+        ]
+      },
+      {
+        "file": "light1-contact-5-fit.png",
+        "anchor": [
+          22.637777777777778,
+          67.64222222222222
+        ],
+        "scale": 4.5,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1110,
+          518,
+          1382,
+          1018
+        ]
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "light1-contact-0.png",
+        "anchor": [
+          158.0,
+          508
+        ],
+        "scale": 0.61,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          135,
+          10,
+          386,
+          519
+        ]
+      },
+      {
+        "file": "light1-contact-1.png",
+        "anchor": [
+          172.0,
+          511
+        ],
+        "scale": 0.61,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          603,
+          7,
+          908,
+          519
+        ]
+      },
+      {
+        "file": "light1-contact-2.png",
+        "anchor": [
+          202.0,
+          490
+        ],
+        "scale": 0.61,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1056,
+          27,
+          1421,
+          518
+        ]
+      },
+      {
+        "file": "light1-contact-3.png",
+        "anchor": [
+          208.0,
+          489
+        ],
+        "scale": 0.61,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          93,
+          528,
+          400,
+          1018
+        ]
+      },
+      {
+        "file": "light1-contact-4.png",
+        "anchor": [
+          186.0,
+          492
+        ],
+        "scale": 0.61,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          583,
+          525,
+          881,
+          1018
+        ]
+      },
+      {
+        "file": "light1-contact-5.png",
+        "anchor": [
+          167.0,
+          499
+        ],
+        "scale": 0.61,
+        "source": "light1-contact-source-v1.png",
+        "roi": [
+          1110,
+          518,
+          1382,
+          1018
+        ]
+      }
+    ],
+    "durations": [
+      10,
+      8,
+      3,
+      3,
+      10,
+      12
+    ],
+    "phases": [
+      "托抱",
+      "蓄势",
+      "喷水",
+      "受力",
+      "收回",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 18,
+        "hitId": "furina.heavy.0",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 18,
+      "active": 6,
+      "recovery": 22,
+      "box": [
+        80,
+        190,
+        300,
+        85
+      ],
+      "level": "mid",
+      "lunge": 0,
+      "status": "design-only"
+    },
+    "effects": {
+      "frames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "sourceFrames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 18,
+      "duration": 10,
+      "worldOffset": [
+        0,
+        0
+      ],
+      "followActor": true,
+      "nozzles": [
+        [
+          54.9,
+          -208.62
+        ],
+        [
+          80.52,
+          -226.92
+        ],
+        [
+          98.82,
+          -215.94
+        ],
+        [
+          59.17,
+          -204.35
+        ],
+        [
+          67.71,
+          -168.97
+        ],
+        [
+          61.61,
+          -204.35
+        ]
+      ]
+    },
+    "status": "人物与被抱海马接触合成小样；水效独立；未接游戏",
+    "previewOnly": true,
+    "heldCompanion": "one embedded contact sprite, independent free-flight companion not implemented"
+  },
+  "轻攻一": {
+    "sourceFrames": [
+      {
+        "file": "sword-light1-0.png",
+        "anchor": [
+          150.0,
+          496.0
+        ],
+        "scale": 0.6237424547283702,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          26,
+          8,
+          333,
+          505
+        ]
+      },
+      {
+        "file": "sword-light1-1.png",
+        "anchor": [
+          161.5,
+          495.0
+        ],
+        "scale": 0.6237424547283702,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          599,
+          10,
+          976,
+          506
+        ]
+      },
+      {
+        "file": "sword-light1-2.png",
+        "anchor": [
+          173.5,
+          474.0
+        ],
+        "scale": 0.6237424547283702,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1001,
+          27,
+          1528,
+          502
+        ]
+      },
+      {
+        "file": "sword-light1-3.png",
+        "anchor": [
+          198.5,
+          467.0
+        ],
+        "scale": 0.6237424547283702,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          81,
+          529,
+          625,
+          997
+        ]
+      },
+      {
+        "file": "sword-light1-4.png",
+        "anchor": [
+          177.0,
+          494.0
+        ],
+        "scale": 0.6237424547283702,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          622,
+          507,
+          1031,
+          1002
+        ]
+      },
+      {
+        "file": "sword-light1-5.png",
+        "anchor": [
+          142.0,
+          490.0
+        ],
+        "scale": 0.6237424547283702,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1091,
+          517,
+          1513,
+          1008
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "sword-light1-0-fit.png",
+        "anchor": [
+          20.79141515761234,
+          68.7502794545048
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          26,
+          8,
+          333,
+          505
+        ]
+      },
+      {
+        "file": "sword-light1-1-fit.png",
+        "anchor": [
+          22.38542365302929,
+          68.61167002012071
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          599,
+          10,
+          976,
+          506
+        ]
+      },
+      {
+        "file": "sword-light1-2-fit.png",
+        "anchor": [
+          24.048736865638276,
+          65.700871898055
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1001,
+          27,
+          1528,
+          502
+        ]
+      },
+      {
+        "file": "sword-light1-3-fit.png",
+        "anchor": [
+          27.51397272524033,
+          64.73060585736641
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          81,
+          529,
+          625,
+          997
+        ]
+      },
+      {
+        "file": "sword-light1-4-fit.png",
+        "anchor": [
+          24.53386988598256,
+          68.47306058573663
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          622,
+          507,
+          1031,
+          1002
+        ]
+      },
+      {
+        "file": "sword-light1-5-fit.png",
+        "anchor": [
+          19.682539682539684,
+          67.9186228482003
+        ],
+        "scale": 4.5,
+        "source": "sword-light1-source-v1.png",
+        "roi": [
+          1091,
+          517,
+          1513,
+          1008
+        ]
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "hitId": "furina.sword-light1",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 11,
+      "box": [
+        55,
+        140,
+        190,
+        65
+      ],
+      "lunge": 18,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持剑轻攻关键帧，未接游戏判定",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light1-effect-0-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 7,
+      "worldOffset": [
+        100,
+        -165
+      ],
+      "followActor": true
+    }
+  },
+  "轻攻二": {
+    "sourceFrames": [
+      {
+        "file": "sword-light2-0.png",
+        "anchor": [
+          193.5,
+          494.0
+        ],
+        "scale": 0.6262626262626263,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          69,
+          16,
+          626,
+          511
+        ]
+      },
+      {
+        "file": "sword-light2-1.png",
+        "anchor": [
+          198.5,
+          494.0
+        ],
+        "scale": 0.6262626262626263,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          591,
+          17,
+          1004,
+          512
+        ]
+      },
+      {
+        "file": "sword-light2-2.png",
+        "anchor": [
+          198.0,
+          501.0
+        ],
+        "scale": 0.6262626262626263,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1092,
+          11,
+          1516,
+          513
+        ]
+      },
+      {
+        "file": "sword-light2-3.png",
+        "anchor": [
+          203.0,
+          487.0
+        ],
+        "scale": 0.6262626262626263,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          98,
+          516,
+          607,
+          1004
+        ]
+      },
+      {
+        "file": "sword-light2-4.png",
+        "anchor": [
+          270.0,
+          484.0
+        ],
+        "scale": 0.6262626262626263,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          574,
+          521,
+          1014,
+          1006
+        ]
+      },
+      {
+        "file": "sword-light2-5.png",
+        "anchor": [
+          189.0,
+          483.0
+        ],
+        "scale": 0.6262626262626263,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1134,
+          523,
+          1481,
+          1007
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "sword-light2-0-fit.png",
+        "anchor": [
+          26.92929292929293,
+          68.74971941638609
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          69,
+          16,
+          626,
+          511
+        ]
+      },
+      {
+        "file": "sword-light2-1-fit.png",
+        "anchor": [
+          27.62514029180696,
+          68.74971941638609
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          591,
+          17,
+          1004,
+          512
+        ]
+      },
+      {
+        "file": "sword-light2-2-fit.png",
+        "anchor": [
+          27.555555555555557,
+          69.72390572390572
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1092,
+          11,
+          1516,
+          513
+        ]
+      },
+      {
+        "file": "sword-light2-3-fit.png",
+        "anchor": [
+          28.251402918069587,
+          67.77553310886645
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          98,
+          516,
+          607,
+          1004
+        ]
+      },
+      {
+        "file": "sword-light2-4-fit.png",
+        "anchor": [
+          37.57575757575758,
+          67.35802469135803
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          574,
+          521,
+          1014,
+          1006
+        ]
+      },
+      {
+        "file": "sword-light2-5-fit.png",
+        "anchor": [
+          26.303030303030305,
+          67.21885521885523
+        ],
+        "scale": 4.5,
+        "source": "sword-light2-source-v1.png",
+        "roi": [
+          1134,
+          523,
+          1481,
+          1007
+        ]
+      }
+    ],
+    "durations": [
+      3,
+      4,
+      2,
+      2,
+      6,
+      7
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 7,
+        "hitId": "furina.sword-light2",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 7,
+      "active": 4,
+      "recovery": 13,
+      "box": [
+        55,
+        135,
+        200,
+        110
+      ],
+      "lunge": 20,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持剑轻攻关键帧，未接游戏判定",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light2-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light2-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light2-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light2-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 7,
+      "duration": 8,
+      "worldOffset": [
+        160,
+        -165
+      ],
+      "followActor": true
+    }
+  },
+  "轻攻三": {
+    "sourceFrames": [
+      {
+        "file": "sword-light3-0.png",
+        "anchor": [
+          223.0,
+          522.0
+        ],
+        "scale": 0.5927342256214149,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ]
+      },
+      {
+        "file": "sword-light3-1.png",
+        "anchor": [
+          236.0,
+          512.0
+        ],
+        "scale": 0.5927342256214149,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ]
+      },
+      {
+        "file": "sword-light3-2.png",
+        "anchor": [
+          240.0,
+          456.0
+        ],
+        "scale": 0.5927342256214149,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ]
+      },
+      {
+        "file": "sword-light3-3.png",
+        "anchor": [
+          269.0,
+          463.0
+        ],
+        "scale": 0.5927342256214149,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ]
+      },
+      {
+        "file": "sword-light3-4.png",
+        "anchor": [
+          178.0,
+          480.0
+        ],
+        "scale": 0.5927342256214149,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ]
+      },
+      {
+        "file": "sword-light3-5.png",
+        "anchor": [
+          158.5,
+          484.0
+        ],
+        "scale": 0.5927342256214149,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          1112,
+          527,
+          1455,
+          1012
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "sword-light3-0-fit.png",
+        "anchor": [
+          29.373273847461228,
+          68.75717017208413
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ]
+      },
+      {
+        "file": "sword-light3-1-fit.png",
+        "anchor": [
+          31.085617165923093,
+          67.43998300403653
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ]
+      },
+      {
+        "file": "sword-light3-2-fit.png",
+        "anchor": [
+          31.612492033142125,
+          60.06373486297004
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ]
+      },
+      {
+        "file": "sword-light3-3-fit.png",
+        "anchor": [
+          35.43233482048013,
+          60.98576588060335
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ]
+      },
+      {
+        "file": "sword-light3-4-fit.png",
+        "anchor": [
+          23.445931591247078,
+          63.22498406628425
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ]
+      },
+      {
+        "file": "sword-light3-5-fit.png",
+        "anchor": [
+          20.877416613554278,
+          63.751858933503286
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          1112,
+          527,
+          1455,
+          1012
+        ]
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "hitId": "furina.sword-light3",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 16,
+      "box": [
+        55,
+        90,
+        215,
+        150
+      ],
+      "lunge": 30,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "新持剑轻攻关键帧，未接游戏判定",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light3-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 8,
+      "duration": 9,
+      "worldOffset": [
+        160,
+        -165
+      ],
+      "followActor": true
+    }
+  },
+  "蹲轻": {
+    "sourceFrames": [
+      {
+        "file": "crouchlight-sword-0.png",
+        "anchor": [
+          239.0,
+          428.0
+        ],
+        "scale": 0.43822843822843827,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          18,
+          32,
+          475,
+          461
+        ]
+      },
+      {
+        "file": "crouchlight-sword-1.png",
+        "anchor": [
+          189.0,
+          424.0
+        ],
+        "scale": 0.43822843822843827,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          506,
+          35,
+          897,
+          460
+        ]
+      },
+      {
+        "file": "crouchlight-sword-2.png",
+        "anchor": [
+          245.5,
+          357.0
+        ],
+        "scale": 0.43822843822843827,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          932,
+          102,
+          1615,
+          460
+        ]
+      },
+      {
+        "file": "crouchlight-sword-3.png",
+        "anchor": [
+          251.0,
+          370.0
+        ],
+        "scale": 0.43822843822843827,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          11,
+          519,
+          633,
+          890
+        ]
+      },
+      {
+        "file": "crouchlight-sword-4.png",
+        "anchor": [
+          226.0,
+          403.0
+        ],
+        "scale": 0.43822843822843827,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          582,
+          487,
+          1005,
+          891
+        ]
+      },
+      {
+        "file": "crouchlight-sword-5.png",
+        "anchor": [
+          236.0,
+          400.0
+        ],
+        "scale": 0.43822843822843827,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          989,
+          490,
+          1473,
+          891
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "crouchlight-sword-0-fit.png",
+        "anchor": [
+          23.27479927479928,
+          41.68039368039368
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          18,
+          32,
+          475,
+          461
+        ]
+      },
+      {
+        "file": "crouchlight-sword-1-fit.png",
+        "anchor": [
+          18.405594405594407,
+          41.290857290857296
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          506,
+          35,
+          897,
+          460
+        ]
+      },
+      {
+        "file": "crouchlight-sword-2-fit.png",
+        "anchor": [
+          23.90779590779591,
+          34.76612276612277
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          932,
+          102,
+          1615,
+          460
+        ]
+      },
+      {
+        "file": "crouchlight-sword-3-fit.png",
+        "anchor": [
+          24.443408443408444,
+          36.032116032116036
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          11,
+          519,
+          633,
+          890
+        ]
+      },
+      {
+        "file": "crouchlight-sword-4-fit.png",
+        "anchor": [
+          22.008806008806012,
+          39.24579124579125
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          582,
+          487,
+          1005,
+          891
+        ]
+      },
+      {
+        "file": "crouchlight-sword-5-fit.png",
+        "anchor": [
+          22.982646982646983,
+          38.95363895363896
+        ],
+        "scale": 4.5,
+        "source": "crouchlight-sword-source-v2.png",
+        "roi": [
+          989,
+          490,
+          1473,
+          891
+        ]
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随动",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 6,
+      "active": 3,
+      "recovery": 10,
+      "box": [
+        50,
+        40,
+        200,
+        65
+      ],
+      "level": "low",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 6,
+        "hitId": "furina.crouchlight.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light1-effect-0-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2-fit.png",
+          "anchor": [
+            5.796266666666666,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light1-effect-0.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-1.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light1-effect-2.png",
+          "anchor": [
+            50.16,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 7,
+      "worldOffset": [
+        90,
+        -100
+      ],
+      "followActor": true
+    }
+  },
+  "蹲重": {
+    "sourceFrames": [
+      {
+        "file": "crouchheavy-seahorse-0.png",
+        "anchor": [
+          162.5,
+          499.0
+        ],
+        "scale": 0.43,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          18,
+          5,
+          418,
+          505
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-1.png",
+        "anchor": [
+          153.0,
+          494.0
+        ],
+        "scale": 0.43,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          517,
+          10,
+          986,
+          505
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-2.png",
+        "anchor": [
+          169.5,
+          495.0
+        ],
+        "scale": 0.43,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1028,
+          10,
+          1515,
+          506
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-3.png",
+        "anchor": [
+          171.0,
+          487.0
+        ],
+        "scale": 0.43,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          28,
+          512,
+          463,
+          1000
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-4.png",
+        "anchor": [
+          170.0,
+          494.0
+        ],
+        "scale": 0.43,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          526,
+          514,
+          953,
+          1009
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-5.png",
+        "anchor": [
+          180.0,
+          494.0
+        ],
+        "scale": 0.43,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1062,
+          513,
+          1466,
+          1008
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "crouchheavy-seahorse-0-fit.png",
+        "anchor": [
+          15.527777777777779,
+          47.68222222222222
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          18,
+          5,
+          418,
+          505
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-1-fit.png",
+        "anchor": [
+          14.619999999999997,
+          47.20444444444444
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          517,
+          10,
+          986,
+          505
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-2-fit.png",
+        "anchor": [
+          16.19666666666667,
+          47.3
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1028,
+          10,
+          1515,
+          506
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-3-fit.png",
+        "anchor": [
+          16.34,
+          46.535555555555554
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          28,
+          512,
+          463,
+          1000
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-4-fit.png",
+        "anchor": [
+          16.244444444444444,
+          47.20444444444444
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          526,
+          514,
+          953,
+          1009
+        ]
+      },
+      {
+        "file": "crouchheavy-seahorse-5-fit.png",
+        "anchor": [
+          17.200000000000003,
+          47.20444444444444
+        ],
+        "scale": 4.5,
+        "source": "crouchheavy-seahorse-source-v1.png",
+        "roi": [
+          1062,
+          513,
+          1466,
+          1008
+        ]
+      }
+    ],
+    "durations": [
+      10,
+      8,
+      3,
+      3,
+      10,
+      12
+    ],
+    "phases": [
+      "托抱",
+      "蓄势",
+      "喷水",
+      "受力",
+      "收回",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 18,
+      "active": 6,
+      "recovery": 22,
+      "box": [
+        80,
+        100,
+        300,
+        85
+      ],
+      "level": "mid",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 18,
+        "hitId": "furina.crouchheavy.0",
+        "damageSegments": 1
+      }
+    ],
+    "heldCompanion": "one embedded contact sprite; do not draw another copy",
+    "effects": {
+      "frames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "sourceFrames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 18,
+      "duration": 10,
+      "worldOffset": [
+        0,
+        0
+      ],
+      "followActor": true,
+      "nozzles": [
+        [
+          85.355,
+          -117.82
+        ],
+        [
+          135.45,
+          -142.76
+        ],
+        [
+          134.375,
+          -141.9
+        ],
+        [
+          113.52,
+          -147.92
+        ],
+        [
+          80.84,
+          -103.2
+        ],
+        [
+          102.34,
+          -103.63
+        ]
+      ]
+    },
+    "mouthsSource": [
+      [
+        379,
+        230
+      ],
+      [
+        985,
+        172
+      ],
+      [
+        1510,
+        175
+      ],
+      [
+        463,
+        655
+      ],
+      [
+        884,
+        768
+      ],
+      [
+        1480,
+        766
+      ]
+    ]
+  },
+  "空轻": {
+    "sourceFrames": [
+      {
+        "file": "airlight-sword-0.png",
+        "anchor": [
+          223.3,
+          313.95
+        ],
+        "scale": 0.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          32,
+          14,
+          438,
+          497
+        ]
+      },
+      {
+        "file": "airlight-sword-1.png",
+        "anchor": [
+          190.3,
+          314.6
+        ],
+        "scale": 0.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          560,
+          7,
+          906,
+          491
+        ]
+      },
+      {
+        "file": "airlight-sword-2.png",
+        "anchor": [
+          277.20000000000005,
+          297.05
+        ],
+        "scale": 0.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1026,
+          31,
+          1530,
+          488
+        ]
+      },
+      {
+        "file": "airlight-sword-3.png",
+        "anchor": [
+          350.90000000000003,
+          305.5
+        ],
+        "scale": 0.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          28,
+          521,
+          666,
+          991
+        ]
+      },
+      {
+        "file": "airlight-sword-4.png",
+        "anchor": [
+          265.1,
+          325.0
+        ],
+        "scale": 0.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          591,
+          511,
+          1073,
+          1011
+        ]
+      },
+      {
+        "file": "airlight-sword-5.png",
+        "anchor": [
+          249.70000000000002,
+          305.5
+        ],
+        "scale": 0.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1076,
+          518,
+          1530,
+          988
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "airlight-sword-0-fit.png",
+        "anchor": [
+          24.811111111111114,
+          34.88333333333333
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          32,
+          14,
+          438,
+          497
+        ]
+      },
+      {
+        "file": "airlight-sword-1-fit.png",
+        "anchor": [
+          21.144444444444446,
+          34.955555555555556
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          560,
+          7,
+          906,
+          491
+        ]
+      },
+      {
+        "file": "airlight-sword-2-fit.png",
+        "anchor": [
+          30.800000000000004,
+          33.00555555555556
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1026,
+          31,
+          1530,
+          488
+        ]
+      },
+      {
+        "file": "airlight-sword-3-fit.png",
+        "anchor": [
+          38.988888888888894,
+          33.94444444444444
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          28,
+          521,
+          666,
+          991
+        ]
+      },
+      {
+        "file": "airlight-sword-4-fit.png",
+        "anchor": [
+          29.45555555555556,
+          36.111111111111114
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          591,
+          511,
+          1073,
+          1011
+        ]
+      },
+      {
+        "file": "airlight-sword-5-fit.png",
+        "anchor": [
+          27.744444444444447,
+          33.94444444444444
+        ],
+        "scale": 4.5,
+        "source": "airlight-sword-source-v1.png",
+        "roi": [
+          1076,
+          518,
+          1530,
+          988
+        ]
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随动",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 6,
+      "active": 6,
+      "recovery": 8,
+      "box": [
+        45,
+        40,
+        200,
+        120
+      ],
+      "level": "high",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 6,
+        "hitId": "furina.airlight.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light3-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 10,
+      "worldOffset": [
+        150,
+        0
+      ],
+      "followActor": true
+    }
+  },
+  "空重": {
+    "sourceFrames": [
+      {
+        "file": "airheavy-0.png",
+        "anchor": [
+          229.35000000000002,
+          323.05
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          8,
+          480,
+          505
+        ]
+      },
+      {
+        "file": "airheavy-1.png",
+        "anchor": [
+          240.9,
+          321.1
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          561,
+          9,
+          999,
+          503
+        ]
+      },
+      {
+        "file": "airheavy-2.png",
+        "anchor": [
+          248.05,
+          326.95
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1064,
+          10,
+          1515,
+          513
+        ]
+      },
+      {
+        "file": "airheavy-3.png",
+        "anchor": [
+          262.90000000000003,
+          321.75
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          519,
+          541,
+          1014
+        ]
+      },
+      {
+        "file": "airheavy-4.png",
+        "anchor": [
+          216.15,
+          321.1
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          580,
+          515,
+          973,
+          1009
+        ]
+      },
+      {
+        "file": "airheavy-5.png",
+        "anchor": [
+          195.8,
+          298.35
+        ],
+        "scale": 0.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1084,
+          523,
+          1440,
+          982
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "airheavy-0-fit.png",
+        "anchor": [
+          25.483333333333334,
+          35.894444444444446
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          8,
+          480,
+          505
+        ]
+      },
+      {
+        "file": "airheavy-1-fit.png",
+        "anchor": [
+          26.766666666666666,
+          35.67777777777778
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          561,
+          9,
+          999,
+          503
+        ]
+      },
+      {
+        "file": "airheavy-2-fit.png",
+        "anchor": [
+          27.561111111111114,
+          36.327777777777776
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1064,
+          10,
+          1515,
+          513
+        ]
+      },
+      {
+        "file": "airheavy-3-fit.png",
+        "anchor": [
+          29.211111111111116,
+          35.75
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          63,
+          519,
+          541,
+          1014
+        ]
+      },
+      {
+        "file": "airheavy-4-fit.png",
+        "anchor": [
+          24.016666666666666,
+          35.67777777777778
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          580,
+          515,
+          973,
+          1009
+        ]
+      },
+      {
+        "file": "airheavy-5-fit.png",
+        "anchor": [
+          21.755555555555556,
+          33.150000000000006
+        ],
+        "scale": 4.5,
+        "source": "airheavy-source-v1.png",
+        "roi": [
+          1084,
+          523,
+          1440,
+          982
+        ]
+      }
+    ],
+    "durations": [
+      4,
+      5,
+      3,
+      3,
+      6,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随动",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 9,
+      "active": 6,
+      "recovery": 12,
+      "box": [
+        35,
+        -100,
+        190,
+        180
+      ],
+      "level": "high",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 9,
+        "hitId": "furina.airheavy.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "frames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "sourceFrames": [
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 9,
+      "duration": 12,
+      "worldOffset": [
+        170,
+        30
+      ],
+      "followActor": true,
+      "nozzles": null,
+      "rotation": 0.38
+    }
+  },
+  "站立格挡": {
+    "sourceFrames": [
+      {
+        "file": "standguard-crab-0.png",
+        "anchor": [
+          171.0,
+          517.0
+        ],
+        "scale": 0.61,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          99,
+          9,
+          443,
+          527
+        ]
+      },
+      {
+        "file": "standguard-crab-1.png",
+        "anchor": [
+          168.5,
+          514.0
+        ],
+        "scale": 0.61,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          604,
+          11,
+          920,
+          526
+        ]
+      },
+      {
+        "file": "standguard-crab-2.png",
+        "anchor": [
+          182.0,
+          514.0
+        ],
+        "scale": 0.61,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1096,
+          11,
+          1426,
+          526
+        ]
+      },
+      {
+        "file": "standguard-crab-3.png",
+        "anchor": [
+          260.5,
+          478.0
+        ],
+        "scale": 0.61,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          63,
+          534,
+          491,
+          1013
+        ]
+      },
+      {
+        "file": "standguard-crab-4.png",
+        "anchor": [
+          210.0,
+          484.0
+        ],
+        "scale": 0.61,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          585,
+          528,
+          977,
+          1013
+        ]
+      },
+      {
+        "file": "standguard-crab-5.png",
+        "anchor": [
+          204.0,
+          470.0
+        ],
+        "scale": 0.61,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1098,
+          542,
+          1479,
+          1013
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "standguard-crab-0-fit.png",
+        "anchor": [
+          23.18,
+          70.08222222222223
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          99,
+          9,
+          443,
+          527
+        ]
+      },
+      {
+        "file": "standguard-crab-1-fit.png",
+        "anchor": [
+          22.84111111111111,
+          69.67555555555556
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          604,
+          11,
+          920,
+          526
+        ]
+      },
+      {
+        "file": "standguard-crab-2-fit.png",
+        "anchor": [
+          24.67111111111111,
+          69.67555555555556
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1096,
+          11,
+          1426,
+          526
+        ]
+      },
+      {
+        "file": "standguard-crab-3-fit.png",
+        "anchor": [
+          35.312222222222225,
+          64.79555555555555
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          63,
+          534,
+          491,
+          1013
+        ]
+      },
+      {
+        "file": "standguard-crab-4-fit.png",
+        "anchor": [
+          28.466666666666665,
+          65.60888888888888
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          585,
+          528,
+          977,
+          1013
+        ]
+      },
+      {
+        "file": "standguard-crab-5-fit.png",
+        "anchor": [
+          27.653333333333332,
+          63.71111111111111
+        ],
+        "scale": 4.5,
+        "source": "standguard-crab-source-v1.png",
+        "roi": [
+          1098,
+          542,
+          1479,
+          1013
+        ]
+      }
+    ],
+    "durations": [
+      6,
+      8,
+      16,
+      8,
+      16,
+      8
+    ],
+    "phases": [
+      "进入",
+      "防护",
+      "保持",
+      "受力",
+      "回位",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "heldCompanion": "one embedded contact sprite; do not draw another copy"
+  },
+  "蹲防": {
+    "sourceFrames": [
+      {
+        "file": "crouchguard-crab-0.png",
+        "anchor": [
+          214.5,
+          499.0
+        ],
+        "scale": 0.43,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          31,
+          11,
+          565,
+          511
+        ]
+      },
+      {
+        "file": "crouchguard-crab-1.png",
+        "anchor": [
+          187.5,
+          478.0
+        ],
+        "scale": 0.43,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          599,
+          33,
+          1010,
+          512
+        ]
+      },
+      {
+        "file": "crouchguard-crab-2.png",
+        "anchor": [
+          187.0,
+          453.0
+        ],
+        "scale": 0.43,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1079,
+          58,
+          1503,
+          512
+        ]
+      },
+      {
+        "file": "crouchguard-crab-3.png",
+        "anchor": [
+          195.0,
+          455.0
+        ],
+        "scale": 0.43,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          28,
+          542,
+          454,
+          998
+        ]
+      },
+      {
+        "file": "crouchguard-crab-4.png",
+        "anchor": [
+          183.5,
+          482.0
+        ],
+        "scale": 0.43,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          568,
+          518,
+          1003,
+          1001
+        ]
+      },
+      {
+        "file": "crouchguard-crab-5.png",
+        "anchor": [
+          186.5,
+          460.0
+        ],
+        "scale": 0.43,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1057,
+          543,
+          1528,
+          1004
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "crouchguard-crab-0-fit.png",
+        "anchor": [
+          20.496666666666666,
+          47.68222222222222
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          31,
+          11,
+          565,
+          511
+        ]
+      },
+      {
+        "file": "crouchguard-crab-1-fit.png",
+        "anchor": [
+          17.916666666666668,
+          45.675555555555555
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          599,
+          33,
+          1010,
+          512
+        ]
+      },
+      {
+        "file": "crouchguard-crab-2-fit.png",
+        "anchor": [
+          17.86888888888889,
+          43.28666666666666
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1079,
+          58,
+          1503,
+          512
+        ]
+      },
+      {
+        "file": "crouchguard-crab-3-fit.png",
+        "anchor": [
+          18.633333333333333,
+          43.47777777777778
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          28,
+          542,
+          454,
+          998
+        ]
+      },
+      {
+        "file": "crouchguard-crab-4-fit.png",
+        "anchor": [
+          17.534444444444446,
+          46.05777777777777
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          568,
+          518,
+          1003,
+          1001
+        ]
+      },
+      {
+        "file": "crouchguard-crab-5-fit.png",
+        "anchor": [
+          17.821111111111108,
+          43.95555555555555
+        ],
+        "scale": 4.5,
+        "source": "crouchguard-crab-source-v1.png",
+        "roi": [
+          1057,
+          543,
+          1528,
+          1004
+        ]
+      }
+    ],
+    "durations": [
+      6,
+      8,
+      16,
+      8,
+      16,
+      8
+    ],
+    "phases": [
+      "进入",
+      "防护",
+      "保持",
+      "受力",
+      "回位",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "heldCompanion": "one embedded contact sprite; do not draw another copy"
+  },
+  "E · 孤心沙龙": {
+    "sourceFrames": [
+      {
+        "file": "skillE-0.png",
+        "anchor": [
+          133.0,
+          502.0
+        ],
+        "scale": 0.61,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          157,
+          6,
+          410,
+          509
+        ]
+      },
+      {
+        "file": "skillE-1.png",
+        "anchor": [
+          142.0,
+          502.0
+        ],
+        "scale": 0.61,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          606,
+          6,
+          949,
+          509
+        ]
+      },
+      {
+        "file": "skillE-2.png",
+        "anchor": [
+          154.0,
+          502.0
+        ],
+        "scale": 0.61,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1102,
+          6,
+          1457,
+          509
+        ]
+      },
+      {
+        "file": "skillE-3.png",
+        "anchor": [
+          153.0,
+          503.0
+        ],
+        "scale": 0.61,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          129,
+          516,
+          476,
+          1020
+        ]
+      },
+      {
+        "file": "skillE-4.png",
+        "anchor": [
+          152.5,
+          505.0
+        ],
+        "scale": 0.61,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          608,
+          514,
+          899,
+          1020
+        ]
+      },
+      {
+        "file": "skillE-5.png",
+        "anchor": [
+          143.5,
+          503.0
+        ],
+        "scale": 0.61,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1114,
+          516,
+          1374,
+          1020
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "skillE-0-fit.png",
+        "anchor": [
+          18.028888888888886,
+          68.04888888888888
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          157,
+          6,
+          410,
+          509
+        ]
+      },
+      {
+        "file": "skillE-1-fit.png",
+        "anchor": [
+          19.24888888888889,
+          68.04888888888888
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          606,
+          6,
+          949,
+          509
+        ]
+      },
+      {
+        "file": "skillE-2-fit.png",
+        "anchor": [
+          20.875555555555554,
+          68.04888888888888
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1102,
+          6,
+          1457,
+          509
+        ]
+      },
+      {
+        "file": "skillE-3-fit.png",
+        "anchor": [
+          20.74,
+          68.18444444444444
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          129,
+          516,
+          476,
+          1020
+        ]
+      },
+      {
+        "file": "skillE-4-fit.png",
+        "anchor": [
+          20.67222222222222,
+          68.45555555555556
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          608,
+          514,
+          899,
+          1020
+        ]
+      },
+      {
+        "file": "skillE-5-fit.png",
+        "anchor": [
+          19.452222222222222,
+          68.18444444444444
+        ],
+        "scale": 4.5,
+        "source": "skillE-source-v1.png",
+        "roi": [
+          1114,
+          516,
+          1374,
+          1020
+        ]
+      }
+    ],
+    "durations": [
+      8,
+      10,
+      3,
+      3,
+      12,
+      12
+    ],
+    "phases": [
+      "提腕",
+      "邀请",
+      "合击",
+      "命中",
+      "回收",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "combatDesign": {
+      "startup": 18,
+      "active": 6,
+      "recovery": 24,
+      "box": [
+        70,
+        100,
+        280,
+        150
+      ],
+      "level": "mid",
+      "lunge": 0,
+      "damage": "待调",
+      "status": "design-only"
+    },
+    "events": [
+      {
+        "tick": 18,
+        "hitId": "furina.skillE.0",
+        "damageSegments": 1
+      }
+    ],
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "combo-effect-0-fit.png",
+          "anchor": [
+            17.91111111111111,
+            26.288888888888888
+          ],
+          "scale": 4.5,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1-fit.png",
+          "anchor": [
+            31.488888888888894,
+            30.40555555555556
+          ],
+          "scale": 4.5,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2-fit.png",
+          "anchor": [
+            38.56666666666667,
+            27.66111111111111
+          ],
+          "scale": 4.5,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3-fit.png",
+          "anchor": [
+            32.138888888888886,
+            22.461111111111112
+          ],
+          "scale": 4.5,
+          "source": "source-cell-3.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        }
+      ],
+      "startTick": 12,
+      "duration": 26,
+      "worldOffset": [
+        210,
+        -165
+      ],
+      "followActor": true
+    }
+  },
+  "Q · 万众狂欢": {
+    "sourceFrames": [
+      {
+        "file": "skillQ-0.png",
+        "anchor": [
+          165.0,
+          501.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ]
+      },
+      {
+        "file": "skillQ-0.png",
+        "anchor": [
+          165.0,
+          501.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ]
+      },
+      {
+        "file": "skillQ-1.png",
+        "anchor": [
+          174.0,
+          502.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          585,
+          7,
+          975,
+          510
+        ]
+      },
+      {
+        "file": "skillQ-2.png",
+        "anchor": [
+          164.0,
+          500.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1084,
+          8,
+          1500,
+          509
+        ]
+      },
+      {
+        "file": "skillQ-3.png",
+        "anchor": [
+          171.0,
+          508.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          58,
+          507,
+          455,
+          1016
+        ]
+      },
+      {
+        "file": "skillQ-4.png",
+        "anchor": [
+          197.0,
+          508.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          587,
+          507,
+          972,
+          1016
+        ]
+      },
+      {
+        "file": "skillQ-5.png",
+        "anchor": [
+          151.5,
+          502.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1116,
+          513,
+          1446,
+          1016
+        ]
+      },
+      {
+        "file": "skillQ-0.png",
+        "anchor": [
+          165.0,
+          501.0
+        ],
+        "scale": 0.61,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "skillQ-0-fit.png",
+        "anchor": [
+          22.366666666666664,
+          67.91333333333334
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ]
+      },
+      {
+        "file": "skillQ-0-fit.png",
+        "anchor": [
+          22.366666666666664,
+          67.91333333333334
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ]
+      },
+      {
+        "file": "skillQ-1-fit.png",
+        "anchor": [
+          23.586666666666666,
+          68.04888888888888
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          585,
+          7,
+          975,
+          510
+        ]
+      },
+      {
+        "file": "skillQ-2-fit.png",
+        "anchor": [
+          22.231111111111108,
+          67.77777777777777
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1084,
+          8,
+          1500,
+          509
+        ]
+      },
+      {
+        "file": "skillQ-3-fit.png",
+        "anchor": [
+          23.18,
+          68.86222222222221
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          58,
+          507,
+          455,
+          1016
+        ]
+      },
+      {
+        "file": "skillQ-4-fit.png",
+        "anchor": [
+          26.704444444444444,
+          68.86222222222221
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          587,
+          507,
+          972,
+          1016
+        ]
+      },
+      {
+        "file": "skillQ-5-fit.png",
+        "anchor": [
+          20.536666666666665,
+          68.04888888888888
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          1116,
+          513,
+          1446,
+          1016
+        ]
+      },
+      {
+        "file": "skillQ-0-fit.png",
+        "anchor": [
+          22.366666666666664,
+          67.91333333333334
+        ],
+        "scale": 4.5,
+        "source": "skillQ-source-v1.png",
+        "roi": [
+          61,
+          7,
+          426,
+          509
+        ]
+      }
+    ],
+    "durations": [
+      12,
+      30,
+      14,
+      22,
+      22,
+      22,
+      16,
+      20
+    ],
+    "phases": [
+      "水泡确认",
+      "头像切入",
+      "舞台展开",
+      "章鱼 · 第一幕",
+      "海马 · 第二幕",
+      "蟹 · 终幕",
+      "谢幕",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "events": [
+      {
+        "tick": 56,
+        "hitId": "furina.Q.0",
+        "damageSegments": 1
+      },
+      {
+        "tick": 78,
+        "hitId": "furina.Q.1",
+        "damageSegments": 1
+      },
+      {
+        "tick": 100,
+        "hitId": "furina.Q.2",
+        "damageSegments": 1
+      }
+    ],
+    "cinematic": {
+      "confirmTick": 12,
+      "hitTicks": [
+        56,
+        78,
+        100
+      ],
+      "previewBranch": "confirmed",
+      "unimplementedBranches": [
+        "whiff",
+        "blocked"
+      ],
+      "endTick": 158
+    },
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        },
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "combo-effect-0-fit.png",
+          "anchor": [
+            17.91111111111111,
+            26.288888888888888
+          ],
+          "scale": 4.5,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1-fit.png",
+          "anchor": [
+            31.488888888888894,
+            30.40555555555556
+          ],
+          "scale": 4.5,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2-fit.png",
+          "anchor": [
+            38.56666666666667,
+            27.66111111111111
+          ],
+          "scale": 4.5,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3-fit.png",
+          "anchor": [
+            32.138888888888886,
+            22.461111111111112
+          ],
+          "scale": 4.5,
+          "source": "source-cell-3.png"
+        },
+        {
+          "file": "water-0-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2-fit.png",
+          "anchor": [
+            2.4444444444444446,
+            35.39555555555555
+          ],
+          "scale": 4.5,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "combo-effect-0.png",
+          "anchor": [
+            124.0,
+            182.0
+          ],
+          "scale": 0.65,
+          "source": "source-cell-0.png"
+        },
+        {
+          "file": "combo-effect-1.png",
+          "anchor": [
+            218.0,
+            210.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-1.png"
+        },
+        {
+          "file": "combo-effect-2.png",
+          "anchor": [
+            267.0,
+            191.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-2.png"
+        },
+        {
+          "file": "combo-effect-3.png",
+          "anchor": [
+            222.5,
+            155.5
+          ],
+          "scale": 0.65,
+          "source": "source-cell-3.png"
+        },
+        {
+          "file": "water-0.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-1.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        },
+        {
+          "file": "water-2.png",
+          "anchor": [
+            25,
+            362.0
+          ],
+          "scale": 0.44,
+          "source": "light1-water-source-v1.png"
+        }
+      ],
+      "startTick": 6,
+      "duration": 136,
+      "worldOffset": [
+        370,
+        -170
+      ],
+      "followActor": true
+    }
+  },
+  "投技": {
+    "sourceFrames": [
+      {
+        "file": "throw-0.png",
+        "anchor": [
+          169.0,
+          495.0
+        ],
+        "scale": 0.62,
+        "source": "throw-source-v1.png",
+        "roi": [
+          71,
+          5,
+          480,
+          501
+        ]
+      },
+      {
+        "file": "throw-1.png",
+        "anchor": [
+          176.5,
+          499.0
+        ],
+        "scale": 0.62,
+        "source": "throw-source-v1.png",
+        "roi": [
+          594,
+          5,
+          911,
+          505
+        ]
+      },
+      {
+        "file": "throw-2.png",
+        "anchor": [
+          230.0,
+          498.0
+        ],
+        "scale": 0.62,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1088,
+          7,
+          1473,
+          506
+        ]
+      },
+      {
+        "file": "throw-3.png",
+        "anchor": [
+          179.0,
+          499.0
+        ],
+        "scale": 0.62,
+        "source": "throw-source-v1.png",
+        "roi": [
+          85,
+          514,
+          468,
+          1014
+        ]
+      },
+      {
+        "file": "throw-4.png",
+        "anchor": [
+          211.0,
+          498.0
+        ],
+        "scale": 0.62,
+        "source": "throw-source-v1.png",
+        "roi": [
+          607,
+          513,
+          959,
+          1012
+        ]
+      },
+      {
+        "file": "throw-5.png",
+        "anchor": [
+          150.0,
+          503.0
+        ],
+        "scale": 0.62,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1123,
+          510,
+          1391,
+          1014
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "throw-0-fit.png",
+        "anchor": [
+          23.284444444444446,
+          68.19999999999999
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          71,
+          5,
+          480,
+          501
+        ]
+      },
+      {
+        "file": "throw-1-fit.png",
+        "anchor": [
+          24.317777777777778,
+          68.75111111111111
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          594,
+          5,
+          911,
+          505
+        ]
+      },
+      {
+        "file": "throw-2-fit.png",
+        "anchor": [
+          31.688888888888886,
+          68.61333333333333
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1088,
+          7,
+          1473,
+          506
+        ]
+      },
+      {
+        "file": "throw-3-fit.png",
+        "anchor": [
+          24.662222222222223,
+          68.75111111111111
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          85,
+          514,
+          468,
+          1014
+        ]
+      },
+      {
+        "file": "throw-4-fit.png",
+        "anchor": [
+          29.071111111111108,
+          68.61333333333333
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          607,
+          513,
+          959,
+          1012
+        ]
+      },
+      {
+        "file": "throw-5-fit.png",
+        "anchor": [
+          20.666666666666668,
+          69.30222222222223
+        ],
+        "scale": 4.5,
+        "source": "throw-source-v1.png",
+        "roi": [
+          1123,
+          510,
+          1391,
+          1014
+        ]
+      }
+    ],
+    "durations": [
+      8,
+      12,
+      10,
+      8,
+      12,
+      22
+    ],
+    "phases": [
+      "抓取",
+      "水带控制",
+      "牵引",
+      "蟹撞",
+      "释放",
+      "恢复"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "events": [
+      {
+        "tick": 30,
+        "hitId": "furina.throw.0",
+        "damageSegments": 1
+      }
+    ],
+    "pairedTimeline": "furina-throw"
+  },
+  "被投": {
+    "sourceFrames": [
+      {
+        "file": "victim-0.png",
+        "anchor": [
+          170.0,
+          542
+        ],
+        "scale": 0.56,
+        "source": "victim-source-v1.png",
+        "roi": [
+          61,
+          15,
+          401,
+          558
+        ]
+      },
+      {
+        "file": "victim-1.png",
+        "anchor": [
+          232.65,
+          322.40000000000003
+        ],
+        "scale": 0.56,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ]
+      },
+      {
+        "file": "victim-2.png",
+        "anchor": [
+          232.65,
+          322.40000000000003
+        ],
+        "scale": 0.56,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ]
+      },
+      {
+        "file": "victim-3.png",
+        "anchor": [
+          284.35,
+          229.45000000000002
+        ],
+        "scale": 0.56,
+        "source": "victim-source-v1.png",
+        "roi": [
+          34,
+          589,
+          551,
+          942
+        ]
+      },
+      {
+        "file": "victim-4.png",
+        "anchor": [
+          224.0,
+          271
+        ],
+        "scale": 0.56,
+        "source": "victim-source-v1.png",
+        "roi": [
+          488,
+          689,
+          936,
+          961
+        ]
+      },
+      {
+        "file": "victim-5.png",
+        "anchor": [
+          280.0,
+          140
+        ],
+        "scale": 0.56,
+        "source": "victim-source-v1.png",
+        "roi": [
+          957,
+          810,
+          1517,
+          951
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "victim-0-fit.png",
+        "anchor": [
+          21.155555555555555,
+          67.4488888888889
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          61,
+          15,
+          401,
+          558
+        ]
+      },
+      {
+        "file": "victim-1-fit.png",
+        "anchor": [
+          28.952000000000005,
+          40.1208888888889
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ]
+      },
+      {
+        "file": "victim-2-fit.png",
+        "anchor": [
+          28.952000000000005,
+          40.1208888888889
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          496,
+          13,
+          919,
+          509
+        ]
+      },
+      {
+        "file": "victim-3-fit.png",
+        "anchor": [
+          35.38577777777778,
+          28.553777777777782
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          34,
+          589,
+          551,
+          942
+        ]
+      },
+      {
+        "file": "victim-4-fit.png",
+        "anchor": [
+          27.875555555555557,
+          33.72444444444445
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          488,
+          689,
+          936,
+          961
+        ]
+      },
+      {
+        "file": "victim-5-fit.png",
+        "anchor": [
+          34.84444444444445,
+          17.422222222222224
+        ],
+        "scale": 4.5,
+        "source": "victim-source-v1.png",
+        "roi": [
+          957,
+          810,
+          1517,
+          951
+        ]
+      }
+    ],
+    "durations": [
+      8,
+      12,
+      10,
+      8,
+      12,
+      22
+    ],
+    "phases": [
+      "失衡",
+      "受控",
+      "牵引",
+      "击飞",
+      "落地",
+      "倒地"
+    ],
+    "previewOnly": true,
+    "status": "本地动作/分层演出；未接战斗模拟",
+    "events": [
+      {
+        "tick": 30,
+        "hitId": "furina.throw.0",
+        "damageSegments": 1
+      }
+    ],
+    "pairedTimeline": "furina-throw"
+  },
+  "前走": {
+    "sourceFrames": [
+      {
+        "file": "legacy-0-0.png",
+        "anchor": [
+          349.0,
+          511.0
+        ],
+        "scale": 0.59765625
+      },
+      {
+        "file": "legacy-0-1.png",
+        "anchor": [
+          283.5,
+          507.0
+        ],
+        "scale": 0.59765625
+      },
+      {
+        "file": "legacy-0-2.png",
+        "anchor": [
+          267.0,
+          511.0
+        ],
+        "scale": 0.59765625
+      },
+      {
+        "file": "legacy-0-3.png",
+        "anchor": [
+          338.5,
+          493.0
+        ],
+        "scale": 0.59765625
+      },
+      {
+        "file": "legacy-0-4.png",
+        "anchor": [
+          295.0,
+          494.0
+        ],
+        "scale": 0.59765625
+      },
+      {
+        "file": "legacy-0-5.png",
+        "anchor": [
+          243.5,
+          491.0
+        ],
+        "scale": 0.59765625
+      }
+    ],
+    "frames": [
+      {
+        "file": "legacy-0-0-fit.png",
+        "anchor": [
+          46.3515625,
+          67.8671875
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-0-1-fit.png",
+        "anchor": [
+          37.65234375,
+          67.3359375
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-0-2-fit.png",
+        "anchor": [
+          35.4609375,
+          67.8671875
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-0-3-fit.png",
+        "anchor": [
+          44.95703125,
+          65.4765625
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-0-4-fit.png",
+        "anchor": [
+          39.1796875,
+          65.609375
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-0-5-fit.png",
+        "anchor": [
+          32.33984375,
+          65.2109375
+        ],
+        "scale": 4.5
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true
+  },
+  "后退": {
+    "sourceFrames": [
+      {
+        "file": "legacy-1-0.png",
+        "anchor": [
+          222.5,
+          514.0
+        ],
+        "scale": 0.5635838150289018
+      },
+      {
+        "file": "legacy-1-1.png",
+        "anchor": [
+          239.5,
+          511.0
+        ],
+        "scale": 0.5635838150289018
+      },
+      {
+        "file": "legacy-1-2.png",
+        "anchor": [
+          180.5,
+          510.0
+        ],
+        "scale": 0.5635838150289018
+      },
+      {
+        "file": "legacy-1-3.png",
+        "anchor": [
+          218.5,
+          505.0
+        ],
+        "scale": 0.5635838150289018
+      },
+      {
+        "file": "legacy-1-4.png",
+        "anchor": [
+          208.0,
+          500.0
+        ],
+        "scale": 0.5635838150289018
+      },
+      {
+        "file": "legacy-1-5.png",
+        "anchor": [
+          133.0,
+          498.0
+        ],
+        "scale": 0.5635838150289018
+      }
+    ],
+    "frames": [
+      {
+        "file": "legacy-1-0-fit.png",
+        "anchor": [
+          27.86608863198459,
+          64.373795761079
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-1-1-fit.png",
+        "anchor": [
+          29.995183044315993,
+          63.9980732177264
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-1-2-fit.png",
+        "anchor": [
+          22.605973025048172,
+          63.8728323699422
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-1-3-fit.png",
+        "anchor": [
+          27.365125240847785,
+          63.2466281310212
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-1-4-fit.png",
+        "anchor": [
+          26.050096339113683,
+          62.6204238921002
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-1-5-fit.png",
+        "anchor": [
+          16.65703275529865,
+          62.3699421965318
+        ],
+        "scale": 4.5
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true
+  },
+  "跳跃": {
+    "sourceFrames": [
+      {
+        "file": "legacy-2-0.png",
+        "anchor": [
+          140.5,
+          536.0
+        ],
+        "scale": 0.5406654343807763
+      },
+      {
+        "file": "legacy-2-1.png",
+        "anchor": [
+          272.5,
+          440.0
+        ],
+        "scale": 0.5406654343807763
+      },
+      {
+        "file": "legacy-2-2.png",
+        "anchor": [
+          63.5,
+          503.0
+        ],
+        "scale": 0.5406654343807763
+      },
+      {
+        "file": "legacy-2-3.png",
+        "anchor": [
+          103.0,
+          459.0
+        ],
+        "scale": 0.5406654343807763
+      },
+      {
+        "file": "legacy-2-4.png",
+        "anchor": [
+          392.0,
+          466.0
+        ],
+        "scale": 0.5406654343807763
+      },
+      {
+        "file": "legacy-2-5.png",
+        "anchor": [
+          185.0,
+          387.0
+        ],
+        "scale": 0.5406654343807763
+      }
+    ],
+    "frames": [
+      {
+        "file": "legacy-2-0-fit.png",
+        "anchor": [
+          16.880776340110902,
+          64.39926062846581
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-2-1-fit.png",
+        "anchor": [
+          32.740295748613676,
+          52.86506469500924
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-2-2-fit.png",
+        "anchor": [
+          7.629390018484289,
+          60.43438077634011
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-2-3-fit.png",
+        "anchor": [
+          12.375231053604436,
+          55.147874306839185
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-2-4-fit.png",
+        "anchor": [
+          47.09796672828096,
+          55.98890942698706
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-2-5-fit.png",
+        "anchor": [
+          22.227356746765246,
+          46.49722735674676
+        ],
+        "scale": 4.5
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4",
+      "姿势 5",
+      "姿势 6"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true
+  },
+  "蹲下": {
+    "sourceFrames": [
+      {
+        "file": "legacy-3-0.png",
+        "anchor": [
+          248.0,
+          879.0
+        ],
+        "scale": 0.33088235294117646
+      },
+      {
+        "file": "legacy-3-1.png",
+        "anchor": [
+          162.0,
+          742.0
+        ],
+        "scale": 0.33088235294117646
+      },
+      {
+        "file": "legacy-3-2.png",
+        "anchor": [
+          174.0,
+          626.0
+        ],
+        "scale": 0.33088235294117646
+      },
+      {
+        "file": "legacy-3-3.png",
+        "anchor": [
+          160.0,
+          611.0
+        ],
+        "scale": 0.33088235294117646
+      }
+    ],
+    "frames": [
+      {
+        "file": "legacy-3-0-fit.png",
+        "anchor": [
+          18.235294117647058,
+          64.63235294117646
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-3-1-fit.png",
+        "anchor": [
+          11.911764705882353,
+          54.55882352941176
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-3-2-fit.png",
+        "anchor": [
+          12.794117647058822,
+          46.029411764705884
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-3-3-fit.png",
+        "anchor": [
+          11.76470588235294,
+          44.92647058823529
+        ],
+        "scale": 4.5
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true
+  },
+  "受击与倒地": {
+    "sourceFrames": [
+      {
+        "file": "legacy-4-0.png",
+        "anchor": [
+          229.5,
+          791.0
+        ],
+        "scale": 0.36746231155778897
+      },
+      {
+        "file": "legacy-4-1.png",
+        "anchor": [
+          579.5,
+          582.0
+        ],
+        "scale": 0.36746231155778897
+      },
+      {
+        "file": "legacy-4-2.png",
+        "anchor": [
+          398.5,
+          438.0
+        ],
+        "scale": 0.36746231155778897
+      },
+      {
+        "file": "legacy-4-3.png",
+        "anchor": [
+          130.0,
+          267.0
+        ],
+        "scale": 0.36746231155778897
+      }
+    ],
+    "frames": [
+      {
+        "file": "legacy-4-0-fit.png",
+        "anchor": [
+          18.740577889447238,
+          64.59170854271356
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-4-1-fit.png",
+        "anchor": [
+          47.32097989949749,
+          47.52512562814071
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-4-2-fit.png",
+        "anchor": [
+          32.540829145728644,
+          35.76633165829146
+        ],
+        "scale": 4.5
+      },
+      {
+        "file": "legacy-4-3-fit.png",
+        "anchor": [
+          10.615577889447236,
+          21.80276381909548
+        ],
+        "scale": 4.5
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "phases": [
+      "姿势 1",
+      "姿势 2",
+      "姿势 3",
+      "姿势 4"
+    ],
+    "status": "复用原有动作，不是本轮重画",
+    "legacyReuse": true
+  },
+  "起身": {
+    "sourceFrames": [
+      {
+        "file": "wakeup-clean-0.png",
+        "anchor": [
+          371.0,
+          363
+        ],
+        "scale": 0.5354058721934369,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          179,
+          37,
+          777,
+          401
+        ]
+      },
+      {
+        "file": "wakeup-clean-1.png",
+        "anchor": [
+          294.5,
+          430
+        ],
+        "scale": 0.5354058721934369,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          863,
+          3,
+          1224,
+          434
+        ]
+      },
+      {
+        "file": "wakeup-clean-2.png",
+        "anchor": [
+          103.0,
+          570
+        ],
+        "scale": 0.5354058721934369,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          313,
+          440,
+          642,
+          1011
+        ]
+      },
+      {
+        "file": "wakeup-clean-3.png",
+        "anchor": [
+          171.5,
+          578
+        ],
+        "scale": 0.5354058721934369,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          921,
+          432,
+          1179,
+          1011
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "wakeup-clean-0-fit.png",
+        "anchor": [
+          44.141239685281136,
+          43.18940702360391
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          179,
+          37,
+          777,
+          401
+        ]
+      },
+      {
+        "file": "wakeup-clean-1-fit.png",
+        "anchor": [
+          35.0393398579927,
+          51.161005565150646
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          863,
+          3,
+          1224,
+          434
+        ]
+      },
+      {
+        "file": "wakeup-clean-2-fit.png",
+        "anchor": [
+          12.254845519094223,
+          67.81807714450201
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          313,
+          440,
+          642,
+          1011
+        ]
+      },
+      {
+        "file": "wakeup-clean-3-fit.png",
+        "anchor": [
+          20.40491268470543,
+          68.76990980617923
+        ],
+        "scale": 4.5,
+        "source": "wakeup-clean-source-v1.png",
+        "roi": [
+          921,
+          432,
+          1179,
+          1011
+        ]
+      }
+    ],
+    "durations": [
+      12,
+      8,
+      8,
+      10
+    ],
+    "phases": [
+      "侧撑",
+      "单膝",
+      "站起",
+      "站稳"
+    ],
+    "previewOnly": true,
+    "status": "起身清理分离"
+  },
+  "胜利": {
+    "sourceFrames": [
+      {
+        "file": "victory-curtaincall-0.png",
+        "anchor": [
+          181.5,
+          519
+        ],
+        "scale": 0.5961538461538461,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          329,
+          5,
+          622,
+          525
+        ]
+      },
+      {
+        "file": "victory-curtaincall-1.png",
+        "anchor": [
+          180.5,
+          518
+        ],
+        "scale": 0.5961538461538461,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          927,
+          3,
+          1249,
+          522
+        ]
+      },
+      {
+        "file": "victory-curtaincall-2.png",
+        "anchor": [
+          231.0,
+          440
+        ],
+        "scale": 0.5961538461538461,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          301,
+          564,
+          686,
+          1005
+        ]
+      },
+      {
+        "file": "victory-curtaincall-3.png",
+        "anchor": [
+          92.0,
+          493
+        ],
+        "scale": 0.5961538461538461,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          945,
+          521,
+          1187,
+          1015
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "victory-curtaincall-0-fit.png",
+        "anchor": [
+          24.044871794871796,
+          68.75641025641025
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          329,
+          5,
+          622,
+          525
+        ]
+      },
+      {
+        "file": "victory-curtaincall-1-fit.png",
+        "anchor": [
+          23.912393162393162,
+          68.62393162393163
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          927,
+          3,
+          1249,
+          522
+        ]
+      },
+      {
+        "file": "victory-curtaincall-2-fit.png",
+        "anchor": [
+          30.602564102564102,
+          58.2905982905983
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          301,
+          564,
+          686,
+          1005
+        ]
+      },
+      {
+        "file": "victory-curtaincall-3-fit.png",
+        "anchor": [
+          12.188034188034187,
+          65.3119658119658
+        ],
+        "scale": 4.5,
+        "source": "victory-curtaincall-source-v1.png",
+        "roi": [
+          945,
+          521,
+          1187,
+          1015
+        ]
+      }
+    ],
+    "durations": [
+      16,
+      18,
+      30,
+      40
+    ],
+    "phases": [
+      "站定",
+      "提帽",
+      "谢幕",
+      "收势"
+    ],
+    "previewOnly": true,
+    "status": "新增提帽谢幕胜利"
+  }
+}

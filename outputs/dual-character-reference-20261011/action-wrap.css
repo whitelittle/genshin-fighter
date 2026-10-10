@@ -1,0 +1,6 @@
+/* Action choices wrap into rows, including on narrow viewports. */
+body main .layout{grid-template-columns:minmax(270px,320px) minmax(0,1fr)}
+aside#actions{display:flex;flex-wrap:wrap;align-content:flex-start;gap:5px;overflow:visible}
+#actions .group{display:block;flex:0 0 100%;margin:12px 4px 3px}
+#actions .action{flex:1 1 125px;width:auto;white-space:normal;min-width:0}
+@media(max-width:800px){body main .layout{grid-template-columns:1fr}aside#actions{overflow:visible;display:flex}#actions .action{flex:1 1 135px}}

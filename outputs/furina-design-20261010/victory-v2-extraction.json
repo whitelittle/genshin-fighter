@@ -1,0 +1,37 @@
+{
+  "source": "victory-curtaincall-source-v2.png",
+  "sourceSha256": "c54668ea8bb8b576d471de4eb98df6079415fc6f7f94d7119ee43bee8ce90084",
+  "rois": [
+    [
+      119,
+      3,
+      478,
+      730
+    ],
+    [
+      566,
+      13,
+      1008,
+      730
+    ],
+    [
+      58,
+      778,
+      531,
+      1415
+    ],
+    [
+      629,
+      722,
+      985,
+      1430
+    ]
+  ],
+  "calibrationUprightSourceHeight": 727,
+  "newDisplaySourceIndices": [
+    1,
+    2
+  ],
+  "firstLast": "exact idle reuse",
+  "anatomicalAcceptance": false
+}

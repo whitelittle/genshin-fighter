@@ -1,0 +1,11 @@
+{
+  "clientSha256": "d3b0304d4c101fb59aeb581971e23772a37b2c9e70e732d0bfde6443a21a4dd0",
+  "baselineSha256": "8345593a7920b32bc50d5d189a4a943ca09f8a36788ad9a6f9b8e84ad4d0aa07",
+  "onlyChangedSourceFiles": [
+    "source/input/gf_input.lua",
+    "source/input/gf_touch.lua",
+    "source/teaching/gf_sim_lumine_training.lua"
+  ],
+  "allArtRulesPaimonAndRenderingSourcesUnchanged": true,
+  "behavior": "latch short keyboard/touch downs until next input tick; fresh simultaneous jump+light/heavy enters takeoff with existing attack buffer; touch skills pulse on down once, not again on click"
+}

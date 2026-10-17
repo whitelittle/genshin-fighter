@@ -1,0 +1,39 @@
+{
+  "status": "research-derived draft, not yet generated or accepted",
+  "reference": "user-proportion-reference.png",
+  "method": "Each individual frame uses the same accepted reference, never a rejected adjacent frame. Use the support-leg guide as a separate pose reference. Match reference head size; no percentage rescaling.",
+  "base": "Edit one full-body right-facing walking sprite from the approved reference. Retain its head size, body scale, costume, sword grip and viewing angle. Keep the torso upright with restrained movement. Use the supplied pose guide for leg placement. Transparent background, full feet visible. Only change the requested walking phase.",
+  "phases": [
+    {
+      "id": 1,
+      "title": "左脚落地",
+      "pose": "左脚在前，右脚在后",
+      "instruction": "Left foot contacts ahead; right foot remains behind."
+    },
+    {
+      "id": 2,
+      "title": "左腿支撑",
+      "pose": "右脚抬起，从左腿旁向前经过",
+      "instruction": "The SAME left foot bears the body weight. The right foot lifts and swings forward beside the left shin."
+    },
+    {
+      "id": 3,
+      "title": "右脚落地",
+      "pose": "右脚在前，左脚在后",
+      "instruction": "Right foot now contacts ahead; the SAME left leg has travelled behind the pelvis. Reverse which leg occludes the other."
+    },
+    {
+      "id": 4,
+      "title": "右腿支撑",
+      "pose": "左脚抬起，从右腿旁向前经过",
+      "instruction": "The SAME right foot bears the body weight. The left foot lifts and swings forward beside the right shin."
+    }
+  ],
+  "acceptance": [
+    "Track each knee and boot as the same left/right limb throughout the full loop.",
+    "Support alternates L then R; a grounded foot must stay grounded during its support phase.",
+    "Compare body translation with planted-foot displacement to check sliding.",
+    "Match the accepted reference head size, not a guessed head-to-height ratio.",
+    "Reject repeated same-leg strides, running knees, or identity drift; redraw from the accepted anchor."
+  ]
+}

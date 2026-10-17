@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-16",
+  "userDecision": "All previous Traveler walking animation material and its master are invalidated. Rebuild from a new master. Dash also needs its own distinct animation. Preserve historical files, do not silently reuse rejected artwork.",
+  "discarded": [
+    "outputs/lumine-basic-20261015/source/master-v1.png",
+    "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+    "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+    "outputs/lumine-walk-fix-20261016",
+    "outputs/lumine-walk-four-20261016"
+  ],
+  "livePreview": "v13 locally loaded, source hash verified",
+  "newWorkStatus": "new master, four gait poses and four independent dash poses fitted and connected to local candidate v13; user aesthetic acceptance pending",
+  "order": [
+    "new master",
+    "four labeled gait phases independently referenced to master",
+    "independent dash phases",
+    "pixel fit and idle/walk/dash transition comparison",
+    "runtime integration and verification"
+  ],
+  "newArt": [
+    "master-v1.png",
+    "walk_0-selected.png",
+    "walk_1-selected.png",
+    "walk_2-selected.png",
+    "walk_3-selected.png",
+    "dash_0-selected.png",
+    "dash_1-selected.png",
+    "dash_2-selected.png",
+    "dash_3-selected.png"
+  ],
+  "notCompleted": [
+    "jump/backdash/guard/attacks and other body states are not redrawn in this batch; retained old data are temporary, not accepted new-master artwork",
+    "backward walk reuses new four poses in reverse; further aesthetic review needed"
+  ]
+}

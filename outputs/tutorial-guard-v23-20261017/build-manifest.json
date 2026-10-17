@@ -1,0 +1,39 @@
+{
+  "clientSha256": "8345593a7920b32bc50d5d189a4a943ca09f8a36788ad9a6f9b8e84ad4d0aa07",
+  "baselineSha256": "1ae0d2c64a48dc6b5d03705f8997967547a1051e0c797121f20b01153dd81b1f",
+  "onlyChangedSourceFiles": [
+    "source/teaching/gf_lumine_training_data.lua"
+  ],
+  "changedFrames": [
+    "block_1"
+  ],
+  "sourceSha256": "b92915341e60a406d0957359cb2fbc9e3592641914f26b8524fb4661f49fb311",
+  "sourceBounds": [
+    83,
+    33,
+    1000,
+    1481
+  ],
+  "fit": {
+    "file": "fit/block_1.png",
+    "anchor": [
+      30,
+      82
+    ],
+    "scale": 4.5,
+    "rectData": "fit/block_1.json",
+    "rectangles": 715,
+    "sourceAnchor": [
+      520,
+      1481
+    ],
+    "sourceUnit": 0.24096385542168675,
+    "sameQuantizationAndContrastAsApprovedWalk": true
+  },
+  "bodyUniqueMean": 798.7931034482758,
+  "bodyPeak": 1196,
+  "newRectangles": 715,
+  "allOtherFramesAndSourcesUnchanged": true,
+  "artAcceptance": "pending",
+  "scope": "actual standing block pose only; unused block_0/2/3 remain historical"
+}

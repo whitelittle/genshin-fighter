@@ -1,0 +1,33 @@
+{
+  "scope": "original game portrait assets from CDN/mirror, no AI generation; fitted HUD candidate",
+  "records": {
+    "lumine": {
+      "source": "lumine-circle.png",
+      "url": "https://enka.network/ui/UI_AvatarIcon_PlayerGirl_Circle.png",
+      "resource": "UI_AvatarIcon_PlayerGirl_Circle",
+      "archive": "https://wiki.hoyolab.com/pc/genshin/aggregate/character?lang=zh-cn",
+      "sha256": "9db20af5c4ef6d56bba4578ed835b5f7320dbb7c2f36f307ee4f3fede66b9781",
+      "size": [
+        34,
+        34
+      ],
+      "rectangles": 344,
+      "bodyFramesRestoredFrom": "outputs/tutorial-polish-v11-20261016",
+      "bodyFramesUnchanged": true
+    },
+    "lawachurl": {
+      "source": "lawachurl.png",
+      "url": "https://gi.yatta.moe/assets/UI/monster/UI_MonsterIcon_Brute_Rock_None.png",
+      "resource": "UI_MonsterIcon_Brute_Rock_None",
+      "archive": "https://wiki.hoyolab.com/pc/genshin/entry/2103?lang=zh-cn",
+      "sha256": "772f90512ec35c72121845be1135e03fd468f38e1e2884acd60cd1bc10f827f2",
+      "size": [
+        34,
+        34
+      ],
+      "rectangles": 448,
+      "bodyFramesRestoredFrom": "outputs/tutorial-polish-v11-20261016",
+      "bodyFramesUnchanged": true
+    }
+  }
+}

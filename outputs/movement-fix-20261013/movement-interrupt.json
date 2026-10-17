@@ -1,0 +1,65 @@
+{
+  "mockOnly": true,
+  "checks": [
+    {
+      "key": "raidenshogun",
+      "interrupt": "back",
+      "updatesToPublish": 3
+    },
+    {
+      "key": "raidenshogun",
+      "interrupt": "attack",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "raidenshogun",
+      "interrupt": "hit",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "nahida",
+      "interrupt": "back",
+      "updatesToPublish": 3
+    },
+    {
+      "key": "nahida",
+      "interrupt": "attack",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "nahida",
+      "interrupt": "hit",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "furina",
+      "interrupt": "back",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "furina",
+      "interrupt": "attack",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "furina",
+      "interrupt": "hit",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "kamisatoayaka",
+      "interrupt": "back",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "kamisatoayaka",
+      "interrupt": "attack",
+      "updatesToPublish": 2
+    },
+    {
+      "key": "kamisatoayaka",
+      "interrupt": "hit",
+      "updatesToPublish": 2
+    }
+  ]
+}

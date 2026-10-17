@@ -1,0 +1,73 @@
+{
+  "key": "xiao",
+  "name": "魈",
+  "height": 209,
+  "design": {
+    "key": "xiao",
+    "name": "魈",
+    "weapon": "polearm",
+    "color": "#87dfc9",
+    "identity": "直线突进与空中下落，横移有收招",
+    "moves": {
+      "A": {
+        "name": "卷积微尘 · 短枪扫",
+        "startup": 8,
+        "active": 3,
+        "recovery": 18,
+        "reach": 145,
+        "damage": 8,
+        "fx": "thrust",
+        "notes": "长枪前扫但不连续自转。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 167
+      },
+      "E": {
+        "name": "风轮两立",
+        "startup": 15,
+        "active": 4,
+        "recovery": 27,
+        "reach": 280,
+        "damage": 16,
+        "fx": "dash",
+        "notes": "前方直线枪刺伴随风痕，穿身规则需固定，空挥落点可惩罚。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 302,
+        "dash": 170
+      },
+      "Q": {
+        "name": "靖妖傩舞 · 下落终击",
+        "startup": 30,
+        "active": 6,
+        "recovery": 38,
+        "reach": 190,
+        "damage": 37,
+        "fx": "plunge",
+        "notes": "戴面具起跳后前方下落冲击；风环范围小于演出光环，不因起跳获得全程无敌。",
+        "height": "high",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 212,
+        "heightRange": 260,
+        "support": false,
+        "effectDuration": 0
+      }
+    },
+    "video": "https://www.youtube.com/watch?v=kCmvCpYL34U",
+    "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+  },
+  "notes": [
+    "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+    "角色特效独立；具体最终技能效果待讨论。",
+    "状态型技能配套及正式战斗/真机仍需独立验收。"
+  ]
+}

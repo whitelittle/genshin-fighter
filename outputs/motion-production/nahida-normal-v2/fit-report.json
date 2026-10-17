@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "nahida",
+      "id": "basic0",
+      "grid": [
+        65,
+        98
+      ],
+      "rects": 1801,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic1",
+      "grid": [
+        60,
+        98
+      ],
+      "rects": 1618,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic2",
+      "grid": [
+        71,
+        98
+      ],
+      "rects": 1724,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic3",
+      "grid": [
+        73,
+        97
+      ],
+      "rects": 1691,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic4",
+      "grid": [
+        77,
+        96
+      ],
+      "rects": 1869,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic5",
+      "grid": [
+        78,
+        74
+      ],
+      "rects": 1497,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic6",
+      "grid": [
+        68,
+        96
+      ],
+      "rects": 1804,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic7",
+      "grid": [
+        77,
+        66
+      ],
+      "rects": 1414,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic8",
+      "grid": [
+        74,
+        72
+      ],
+      "rects": 1383,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic9",
+      "grid": [
+        71,
+        71
+      ],
+      "rects": 1378,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic10",
+      "grid": [
+        62,
+        92
+      ],
+      "rects": 1513,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic11",
+      "grid": [
+        74,
+        67
+      ],
+      "rects": 1357,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic12",
+      "grid": [
+        75,
+        78
+      ],
+      "rects": 1600,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic13",
+      "grid": [
+        99,
+        68
+      ],
+      "rects": 1578,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic14",
+      "grid": [
+        125,
+        35
+      ],
+      "rects": 1067,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "basic15",
+      "grid": [
+        73,
+        58
+      ],
+      "rects": 1338,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack0",
+      "grid": [
+        76,
+        97
+      ],
+      "rects": 1606,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack1",
+      "grid": [
+        81,
+        96
+      ],
+      "rects": 1720,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack2",
+      "grid": [
+        71,
+        97
+      ],
+      "rects": 1818,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack3",
+      "grid": [
+        84,
+        69
+      ],
+      "rects": 1337,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack4",
+      "grid": [
+        99,
+        73
+      ],
+      "rects": 1627,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack5",
+      "grid": [
+        86,
+        73
+      ],
+      "rects": 1573,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack6",
+      "grid": [
+        72,
+        103
+      ],
+      "rects": 1614,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack7",
+      "grid": [
+        88,
+        88
+      ],
+      "rects": 1677,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack8",
+      "grid": [
+        73,
+        99
+      ],
+      "rects": 1926,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack9",
+      "grid": [
+        90,
+        98
+      ],
+      "rects": 1895,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack10",
+      "grid": [
+        67,
+        98
+      ],
+      "rects": 1658,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack11",
+      "grid": [
+        80,
+        102
+      ],
+      "rects": 2007,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack12",
+      "grid": [
+        92,
+        98
+      ],
+      "rects": 1858,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack13",
+      "grid": [
+        71,
+        100
+      ],
+      "rects": 1746,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack14",
+      "grid": [
+        64,
+        98
+      ],
+      "rects": 1608,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "attack15",
+      "grid": [
+        60,
+        98
+      ],
+      "rects": 1615,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections0",
+      "grid": [
+        74,
+        98
+      ],
+      "rects": 1819,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections1",
+      "grid": [
+        76,
+        97
+      ],
+      "rects": 1790,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections2",
+      "grid": [
+        70,
+        98
+      ],
+      "rects": 1731,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections3",
+      "grid": [
+        87,
+        95
+      ],
+      "rects": 1911,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections4",
+      "grid": [
+        97,
+        96
+      ],
+      "rects": 2006,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections5",
+      "grid": [
+        97,
+        93
+      ],
+      "rects": 1911,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections6",
+      "grid": [
+        80,
+        96
+      ],
+      "rects": 1926,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections7",
+      "grid": [
+        75,
+        96
+      ],
+      "rects": 1790,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections8",
+      "grid": [
+        77,
+        98
+      ],
+      "rects": 1851,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections9",
+      "grid": [
+        79,
+        98
+      ],
+      "rects": 1965,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections10",
+      "grid": [
+        77,
+        99
+      ],
+      "rects": 1966,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections11",
+      "grid": [
+        92,
+        95
+      ],
+      "rects": 1886,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections12",
+      "grid": [
+        96,
+        95
+      ],
+      "rects": 2049,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections13",
+      "grid": [
+        94,
+        93
+      ],
+      "rects": 1953,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections14",
+      "grid": [
+        76,
+        95
+      ],
+      "rects": 1779,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "nahida",
+      "id": "connections15",
+      "grid": [
+        74,
+        95
+      ],
+      "rects": 1770,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "nahida",
+      "pool": 2049,
+      "dataBytes": 2215417,
+      "gzipBytes": 373098
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

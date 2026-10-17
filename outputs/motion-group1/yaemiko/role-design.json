@@ -1,0 +1,75 @@
+{
+  "key": "yaemiko",
+  "name": "八重神子",
+  "height": 224,
+  "design": {
+    "key": "yaemiko",
+    "name": "八重神子",
+    "weapon": "catalyst",
+    "color": "#e4a9de",
+    "identity": "短狐雷与布置型杀生樱，限制同屏装置",
+    "moves": {
+      "A": {
+        "name": "狐灵食罪式 · 狐雷",
+        "startup": 10,
+        "active": 3,
+        "recovery": 19,
+        "reach": 135,
+        "damage": 8,
+        "fx": "fox",
+        "notes": "指尖/御币轻点释放狐形短雷，不拿剑攻击。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 157
+      },
+      "E": {
+        "name": "野干役咒 · 杀生樱",
+        "startup": 24,
+        "active": 2,
+        "recovery": 30,
+        "reach": 190,
+        "damage": 0,
+        "fx": "totem",
+        "notes": "前方放一株樱座，延迟首次雷击；最多三株，布置时可被打断。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 0,
+        "hitstun": 0,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 212,
+        "support": true,
+        "effectDuration": 120
+      },
+      "Q": {
+        "name": "大密法 · 天狐显真",
+        "startup": 32,
+        "active": 54,
+        "recovery": 38,
+        "reach": 280,
+        "damage": 36,
+        "fx": "thunder",
+        "notes": "前方落雷，随后消耗已有樱座追加有限落雷；探针先三段，不能无座也全额爆发。",
+        "height": "high",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 302,
+        "interval": 18,
+        "support": false,
+        "effectDuration": 0
+      }
+    },
+    "video": "https://www.youtube.com/watch?v=xJ5CzR58TP0",
+    "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+  },
+  "notes": [
+    "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+    "角色特效独立；具体最终技能效果待讨论。",
+    "状态型技能配套及正式战斗/真机仍需独立验收。"
+  ],
+  "sourceVersion": "v4"
+}

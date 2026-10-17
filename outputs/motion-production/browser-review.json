@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-03",
+  "status": "sampled_browser_observation",
+  "observations": [
+    "All 240 pose images loaded in the production probe",
+    "Keqing Q hit branch reaches final damage 36; guard reaches damage 0",
+    "Diluc A at logical frame 12 displays connections4",
+    "Nahida Q final candidate damage 30; whiff branch damage 0",
+    "Neuvillette down and left direction sampled",
+    "Ayaka jump at logical frame 17 displays basic9",
+    "Normal-proportion Nahida idle comparison displayed beside original Nahida and adult samples"
+  ],
+  "screenshots": ["motion-probe-browser.png", "normal-proportion-browser.png"],
+  "fullAnimationApproved": false,
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

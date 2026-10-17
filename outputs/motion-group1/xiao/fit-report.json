@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "xiao",
+      "id": "basic0",
+      "grid": [
+        93,
+        98
+      ],
+      "rects": 1261,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic1",
+      "grid": [
+        100,
+        98
+      ],
+      "rects": 1242,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic2",
+      "grid": [
+        102,
+        96
+      ],
+      "rects": 1241,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic3",
+      "grid": [
+        92,
+        97
+      ],
+      "rects": 1099,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic4",
+      "grid": [
+        101,
+        96
+      ],
+      "rects": 1267,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic5",
+      "grid": [
+        107,
+        70
+      ],
+      "rects": 1096,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic6",
+      "grid": [
+        122,
+        94
+      ],
+      "rects": 1179,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic7",
+      "grid": [
+        111,
+        63
+      ],
+      "rects": 867,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic8",
+      "grid": [
+        109,
+        76
+      ],
+      "rects": 1059,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic9",
+      "grid": [
+        104,
+        87
+      ],
+      "rects": 1079,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic10",
+      "grid": [
+        116,
+        88
+      ],
+      "rects": 1112,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic11",
+      "grid": [
+        121,
+        58
+      ],
+      "rects": 1116,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic12",
+      "grid": [
+        112,
+        90
+      ],
+      "rects": 1268,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic13",
+      "grid": [
+        105,
+        84
+      ],
+      "rects": 1141,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic14",
+      "grid": [
+        154,
+        34
+      ],
+      "rects": 1081,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "basic15",
+      "grid": [
+        116,
+        67
+      ],
+      "rects": 1071,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack0",
+      "grid": [
+        126,
+        106
+      ],
+      "rects": 1353,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack1",
+      "grid": [
+        172,
+        95
+      ],
+      "rects": 1409,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack2",
+      "grid": [
+        123,
+        104
+      ],
+      "rects": 1428,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack3",
+      "grid": [
+        139,
+        69
+      ],
+      "rects": 1136,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack4",
+      "grid": [
+        182,
+        58
+      ],
+      "rects": 1081,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack5",
+      "grid": [
+        108,
+        71
+      ],
+      "rects": 976,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack6",
+      "grid": [
+        77,
+        103
+      ],
+      "rects": 1240,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack7",
+      "grid": [
+        161,
+        79
+      ],
+      "rects": 1126,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack8",
+      "grid": [
+        123,
+        100
+      ],
+      "rects": 1208,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack9",
+      "grid": [
+        172,
+        71
+      ],
+      "rects": 1315,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack10",
+      "grid": [
+        125,
+        72
+      ],
+      "rects": 1087,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack11",
+      "grid": [
+        66,
+        104
+      ],
+      "rects": 1170,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack12",
+      "grid": [
+        122,
+        80
+      ],
+      "rects": 1177,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack13",
+      "grid": [
+        143,
+        69
+      ],
+      "rects": 1142,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack14",
+      "grid": [
+        75,
+        101
+      ],
+      "rects": 1075,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "attack15",
+      "grid": [
+        65,
+        98
+      ],
+      "rects": 1150,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections0",
+      "grid": [
+        105,
+        98
+      ],
+      "rects": 1329,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections1",
+      "grid": [
+        114,
+        87
+      ],
+      "rects": 1472,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections2",
+      "grid": [
+        111,
+        91
+      ],
+      "rects": 1211,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections3",
+      "grid": [
+        144,
+        86
+      ],
+      "rects": 1189,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections4",
+      "grid": [
+        163,
+        83
+      ],
+      "rects": 1338,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections5",
+      "grid": [
+        149,
+        85
+      ],
+      "rects": 1470,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections6",
+      "grid": [
+        133,
+        75
+      ],
+      "rects": 1232,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections7",
+      "grid": [
+        106,
+        100
+      ],
+      "rects": 1336,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections8",
+      "grid": [
+        105,
+        98
+      ],
+      "rects": 1355,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections9",
+      "grid": [
+        115,
+        78
+      ],
+      "rects": 1359,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections10",
+      "grid": [
+        99,
+        77
+      ],
+      "rects": 1257,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections11",
+      "grid": [
+        161,
+        63
+      ],
+      "rects": 921,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections12",
+      "grid": [
+        165,
+        67
+      ],
+      "rects": 1104,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections13",
+      "grid": [
+        149,
+        66
+      ],
+      "rects": 1074,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections14",
+      "grid": [
+        125,
+        73
+      ],
+      "rects": 1223,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "xiao",
+      "id": "connections15",
+      "grid": [
+        102,
+        96
+      ],
+      "rects": 1319,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "xiao",
+      "pool": 1472,
+      "dataBytes": 1497427,
+      "gzipBytes": 268282
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

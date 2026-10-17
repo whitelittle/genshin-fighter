@@ -1,0 +1,176 @@
+{
+  "scope": "read-only design probe: substitutions only in memory; game files and preview unchanged",
+  "sourceSha256": "c9c2dbb366ed70683020fd1c8c0942ecc052d3cf5dbc9ffd6b38741f399103c3",
+  "input": "180-unit distance; forward+jump first5 ticks, release;90 ticks observe",
+  "rows": [
+    {
+      "temporaryPushHeight": 220,
+      "initialFacing": 1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        33.82,
+        195.78
+      ],
+      "finalFacing": [
+        1,
+        -1
+      ]
+    },
+    {
+      "temporaryPushHeight": 220,
+      "initialFacing": -1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        -33.82,
+        -195.78
+      ],
+      "finalFacing": [
+        -1,
+        1
+      ]
+    },
+    {
+      "temporaryPushHeight": 180,
+      "initialFacing": 1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        33.82,
+        195.78
+      ],
+      "finalFacing": [
+        1,
+        -1
+      ]
+    },
+    {
+      "temporaryPushHeight": 180,
+      "initialFacing": -1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        -33.82,
+        -195.78
+      ],
+      "finalFacing": [
+        -1,
+        1
+      ]
+    },
+    {
+      "temporaryPushHeight": 160,
+      "initialFacing": 1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        33.82,
+        195.78
+      ],
+      "finalFacing": [
+        1,
+        -1
+      ]
+    },
+    {
+      "temporaryPushHeight": 160,
+      "initialFacing": -1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        -33.82,
+        -195.78
+      ],
+      "finalFacing": [
+        -1,
+        1
+      ]
+    },
+    {
+      "temporaryPushHeight": 140,
+      "initialFacing": 1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        33.82,
+        195.78
+      ],
+      "finalFacing": [
+        1,
+        -1
+      ]
+    },
+    {
+      "temporaryPushHeight": 140,
+      "initialFacing": -1,
+      "crossed": false,
+      "peakY": 238.5,
+      "finalX": [
+        -33.82,
+        -195.78
+      ],
+      "finalFacing": [
+        -1,
+        1
+      ]
+    },
+    {
+      "temporaryPushHeight": 120,
+      "initialFacing": 1,
+      "crossed": true,
+      "peakY": 238.5,
+      "finalX": [
+        212.58,
+        17.02
+      ],
+      "finalFacing": [
+        -1,
+        1
+      ]
+    },
+    {
+      "temporaryPushHeight": 120,
+      "initialFacing": -1,
+      "crossed": true,
+      "peakY": 238.5,
+      "finalX": [
+        -212.58,
+        -17.02
+      ],
+      "finalFacing": [
+        1,
+        -1
+      ]
+    },
+    {
+      "temporaryPushHeight": 100,
+      "initialFacing": 1,
+      "crossed": true,
+      "peakY": 238.5,
+      "finalX": [
+        209.78,
+        19.82
+      ],
+      "finalFacing": [
+        -1,
+        1
+      ]
+    },
+    {
+      "temporaryPushHeight": 100,
+      "initialFacing": -1,
+      "crossed": true,
+      "peakY": 238.5,
+      "finalX": [
+        -209.78,
+        -19.82
+      ],
+      "finalFacing": [
+        1,
+        -1
+      ]
+    }
+  ],
+  "facingOnlyChangeKeepsExistingHash": true
+}

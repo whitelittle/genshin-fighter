@@ -1,0 +1,56 @@
+{
+  "frameDurationMs": 180,
+  "interpolation": false,
+  "imagePoolSize": 994,
+  "checks": [
+    {
+      "action": "idle",
+      "frame": 1,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "idle",
+      "frame": 2,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "idle",
+      "frame": 3,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "idle",
+      "frame": 4,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "move",
+      "frame": 1,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "move",
+      "frame": 2,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "move",
+      "frame": 3,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    },
+    {
+      "action": "move",
+      "frame": 4,
+      "geometryHeldWithinFrame": true,
+      "nextFrameExact": true
+    }
+  ],
+  "deviceVerified": false
+}

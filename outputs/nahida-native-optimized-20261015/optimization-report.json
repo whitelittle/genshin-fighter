@@ -1,0 +1,63 @@
+{
+  "baseline": {
+    "images": 249,
+    "foregroundRGBMAE": 55.59,
+    "wholeCanvasRGBMSE": 0.056923,
+    "silhouetteIoU": 0.72037
+  },
+  "final": {
+    "images": 209,
+    "foregroundRGBMAE": 31.423,
+    "wholeCanvasRGBMSE": 0.017371,
+    "silhouetteIoU": 0.90391
+  },
+  "passes": [
+    {
+      "images": 219,
+      "foregroundRGBMAE": 36.456,
+      "wholeCanvasRGBMSE": 0.025648,
+      "silhouetteIoU": 0.83164,
+      "passIndex": 1,
+      "acceptedParameterChanges": 863,
+      "removedThisPass": 30
+    },
+    {
+      "images": 212,
+      "foregroundRGBMAE": 33.95,
+      "wholeCanvasRGBMSE": 0.020464,
+      "silhouetteIoU": 0.87449,
+      "passIndex": 2,
+      "acceptedParameterChanges": 648,
+      "removedThisPass": 7
+    },
+    {
+      "images": 210,
+      "foregroundRGBMAE": 32.36,
+      "wholeCanvasRGBMSE": 0.018483,
+      "silhouetteIoU": 0.89206,
+      "passIndex": 3,
+      "acceptedParameterChanges": 601,
+      "removedThisPass": 2
+    },
+    {
+      "images": 209,
+      "foregroundRGBMAE": 31.423,
+      "wholeCanvasRGBMSE": 0.017371,
+      "silhouetteIoU": 0.90391,
+      "passIndex": 4,
+      "acceptedParameterChanges": 602,
+      "removedThisPass": 1
+    }
+  ],
+  "seconds": 18.71,
+  "newShapesAdded": 0,
+  "arbitraryCurves": 0,
+  "pixelBlocksAdded": 0,
+  "deviceVerified": false,
+  "referenceSize": [
+    251,
+    462
+  ],
+  "inputDownscaled": false,
+  "globalMinimumProven": false
+}

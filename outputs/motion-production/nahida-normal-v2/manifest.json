@@ -1,0 +1,1699 @@
+{
+  "version": "nahida-normal-v2",
+  "status": "normal_proportion_action_candidate",
+  "deviceVerified": false,
+  "productionCombatChanged": false,
+  "roles": [
+    {
+      "key": "nahida",
+      "name": "纳西妲 · 正常比例",
+      "height": 150,
+      "variant": "normal-v2",
+      "frames": [
+        {
+          "id": "basic0",
+          "source": "basic-v1.png",
+          "sourceIndex": 0,
+          "crop": [
+            89,
+            6,
+            201,
+            304
+          ],
+          "anchor": [
+            94.94736842105263,
+            301
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic0.png",
+          "grid": [
+            65,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            30.704372872479706,
+            97.03289473684211
+          ],
+          "rectCount": 1801
+        },
+        {
+          "id": "basic1",
+          "source": "basic-v1.png",
+          "sourceIndex": 1,
+          "crop": [
+            413,
+            5,
+            187,
+            305
+          ],
+          "anchor": [
+            108.59103641456579,
+            302
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic1.png",
+          "grid": [
+            60,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            34.8420437693794,
+            97.03606557377049
+          ],
+          "rectCount": 1618
+        },
+        {
+          "id": "basic2",
+          "source": "basic-v1.png",
+          "sourceIndex": 2,
+          "crop": [
+            745,
+            6,
+            219,
+            305
+          ],
+          "anchor": [
+            85.36868686868684,
+            302
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic2.png",
+          "grid": [
+            71,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            27.676606245099382,
+            97.03606557377049
+          ],
+          "rectCount": 1724
+        },
+        {
+          "id": "basic3",
+          "source": "basic-v1.png",
+          "sourceIndex": 3,
+          "crop": [
+            1076,
+            10,
+            227,
+            301
+          ],
+          "anchor": [
+            81.92361111111109,
+            298
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic3.png",
+          "grid": [
+            73,
+            97
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            26.345478463044536,
+            96.03322259136213
+          ],
+          "rectCount": 1691
+        },
+        {
+          "id": "basic4",
+          "source": "basic-v1.png",
+          "sourceIndex": 4,
+          "crop": [
+            68,
+            312,
+            238,
+            297
+          ],
+          "anchor": [
+            84.80346820809248,
+            294
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic4.png",
+          "grid": [
+            77,
+            96
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            27.436416184971097,
+            95.03030303030303
+          ],
+          "rectCount": 1869
+        },
+        {
+          "id": "basic5",
+          "source": "basic-v1.png",
+          "sourceIndex": 5,
+          "crop": [
+            406,
+            379,
+            242,
+            231
+          ],
+          "anchor": [
+            111.4232804232804,
+            228
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic5.png",
+          "grid": [
+            78,
+            74
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            35.913288731470544,
+            73.03896103896103
+          ],
+          "rectCount": 1497
+        },
+        {
+          "id": "basic6",
+          "source": "basic-v1.png",
+          "sourceIndex": 6,
+          "crop": [
+            734,
+            313,
+            210,
+            298
+          ],
+          "anchor": [
+            90.72791519434634,
+            295
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic6.png",
+          "grid": [
+            68,
+            96
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            29.378563015312146,
+            95.03355704697987
+          ],
+          "rectCount": 1804
+        },
+        {
+          "id": "basic7",
+          "source": "basic-v1.png",
+          "sourceIndex": 7,
+          "crop": [
+            1067,
+            405,
+            238,
+            205
+          ],
+          "anchor": [
+            128.0353982300885,
+            202
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic7.png",
+          "grid": [
+            77,
+            66
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            41.423217074440394,
+            65.03414634146341
+          ],
+          "rectCount": 1414
+        },
+        {
+          "id": "basic8",
+          "source": "basic-v1.png",
+          "sourceIndex": 8,
+          "crop": [
+            65,
+            654,
+            230,
+            224
+          ],
+          "anchor": [
+            150.1432926829268,
+            221
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic8.png",
+          "grid": [
+            74,
+            72
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            48.30697242841993,
+            71.03571428571429
+          ],
+          "rectCount": 1383
+        },
+        {
+          "id": "basic9",
+          "source": "basic-v1.png",
+          "sourceIndex": 9,
+          "crop": [
+            399,
+            618,
+            219,
+            221
+          ],
+          "anchor": [
+            147.12121212121212,
+            218
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic9.png",
+          "grid": [
+            71,
+            71
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            47.69683132696831,
+            70.03619909502262
+          ],
+          "rectCount": 1378
+        },
+        {
+          "id": "basic10",
+          "source": "basic-v1.png",
+          "sourceIndex": 10,
+          "crop": [
+            757,
+            619,
+            192,
+            286
+          ],
+          "anchor": [
+            104.07446808510633,
+            259
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic10.png",
+          "grid": [
+            62,
+            92
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            33.60738031914892,
+            83.31468531468532
+          ],
+          "rectCount": 1513
+        },
+        {
+          "id": "basic11",
+          "source": "basic-v1.png",
+          "sourceIndex": 11,
+          "crop": [
+            1073,
+            670,
+            230,
+            209
+          ],
+          "anchor": [
+            120.63258785942503,
+            206
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic11.png",
+          "grid": [
+            74,
+            67
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            38.812223919988924,
+            66.03827751196172
+          ],
+          "rectCount": 1357
+        },
+        {
+          "id": "basic12",
+          "source": "basic-v1.png",
+          "sourceIndex": 12,
+          "crop": [
+            63,
+            885,
+            232,
+            243
+          ],
+          "anchor": [
+            127.26859504132233,
+            240
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic12.png",
+          "grid": [
+            75,
+            78
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            41.14286477628955,
+            77.03703703703704
+          ],
+          "rectCount": 1600
+        },
+        {
+          "id": "basic13",
+          "source": "basic-v1.png",
+          "sourceIndex": 13,
+          "crop": [
+            368,
+            901,
+            307,
+            211
+          ],
+          "anchor": [
+            114.28163265306125,
+            208
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic13.png",
+          "grid": [
+            99,
+            68
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            36.85303463404907,
+            67.03317535545024
+          ],
+          "rectCount": 1578
+        },
+        {
+          "id": "basic14",
+          "source": "basic-v1.png",
+          "sourceIndex": 14,
+          "crop": [
+            689,
+            1016,
+            389,
+            110
+          ],
+          "anchor": [
+            169.60207612456747,
+            107
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic14.png",
+          "grid": [
+            125,
+            35
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            54.49938178810009,
+            34.04545454545455
+          ],
+          "rectCount": 1067
+        },
+        {
+          "id": "basic15",
+          "source": "basic-v1.png",
+          "sourceIndex": 15,
+          "crop": [
+            1092,
+            937,
+            226,
+            181
+          ],
+          "anchor": [
+            125.56140350877195,
+            177
+          ],
+          "unit": 0.5033557046979866,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-basic15.png",
+          "grid": [
+            73,
+            58
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            40.55744449619625,
+            56.71823204419889
+          ],
+          "rectCount": 1338
+        },
+        {
+          "id": "attack0",
+          "source": "attack-v1.png",
+          "sourceIndex": 0,
+          "crop": [
+            78,
+            7,
+            216,
+            275
+          ],
+          "anchor": [
+            77.78438661710038,
+            272
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack0.png",
+          "grid": [
+            76,
+            97
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            27.36858047638717,
+            95.94181818181818
+          ],
+          "rectCount": 1606
+        },
+        {
+          "id": "attack1",
+          "source": "attack-v1.png",
+          "sourceIndex": 1,
+          "crop": [
+            395,
+            8,
+            231,
+            274
+          ],
+          "anchor": [
+            75.93822393822393,
+            271
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack1.png",
+          "grid": [
+            81,
+            96
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            26.627688913403194,
+            94.94890510948905
+          ],
+          "rectCount": 1720
+        },
+        {
+          "id": "attack2",
+          "source": "attack-v1.png",
+          "sourceIndex": 2,
+          "crop": [
+            742,
+            7,
+            203,
+            275
+          ],
+          "anchor": [
+            86.15789473684208,
+            272
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack2.png",
+          "grid": [
+            71,
+            97
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            30.134042001555606,
+            95.94181818181818
+          ],
+          "rectCount": 1818
+        },
+        {
+          "id": "attack3",
+          "source": "attack-v1.png",
+          "sourceIndex": 3,
+          "crop": [
+            1059,
+            87,
+            240,
+            195
+          ],
+          "anchor": [
+            120.87912087912082,
+            192
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack3.png",
+          "grid": [
+            84,
+            69
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            42.307692307692285,
+            67.93846153846154
+          ],
+          "rectCount": 1337
+        },
+        {
+          "id": "attack4",
+          "source": "attack-v1.png",
+          "sourceIndex": 4,
+          "crop": [
+            45,
+            364,
+            281,
+            207
+          ],
+          "anchor": [
+            117.1778523489933,
+            204
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack4.png",
+          "grid": [
+            99,
+            73
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            41.28330029377344,
+            71.94202898550725
+          ],
+          "rectCount": 1627
+        },
+        {
+          "id": "attack5",
+          "source": "attack-v1.png",
+          "sourceIndex": 5,
+          "crop": [
+            406,
+            364,
+            245,
+            209
+          ],
+          "anchor": [
+            136.50857142857149,
+            206
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack5.png",
+          "grid": [
+            86,
+            73
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            47.91729446064142,
+            71.95215311004785
+          ],
+          "rectCount": 1573
+        },
+        {
+          "id": "attack6",
+          "source": "attack-v1.png",
+          "sourceIndex": 6,
+          "crop": [
+            743,
+            279,
+            204,
+            292
+          ],
+          "anchor": [
+            109.0526315789474,
+            289
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack6.png",
+          "grid": [
+            72,
+            103
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            38.48916408668732,
+            101.9417808219178
+          ],
+          "rectCount": 1614
+        },
+        {
+          "id": "attack7",
+          "source": "attack-v1.png",
+          "sourceIndex": 7,
+          "crop": [
+            1065,
+            320,
+            249,
+            251
+          ],
+          "anchor": [
+            92.27500000000009,
+            248
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack7.png",
+          "grid": [
+            88,
+            88
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            32.61124497991971,
+            86.94820717131473
+          ],
+          "rectCount": 1677
+        },
+        {
+          "id": "attack8",
+          "source": "attack-v1.png",
+          "sourceIndex": 8,
+          "crop": [
+            62,
+            576,
+            208,
+            281
+          ],
+          "anchor": [
+            82.28937728937728,
+            278
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack8.png",
+          "grid": [
+            73,
+            99
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            28.880406452521836,
+            97.94306049822065
+          ],
+          "rectCount": 1926
+        },
+        {
+          "id": "attack9",
+          "source": "attack-v1.png",
+          "sourceIndex": 9,
+          "crop": [
+            394,
+            579,
+            257,
+            278
+          ],
+          "anchor": [
+            86.54032258064518,
+            275
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack9.png",
+          "grid": [
+            90,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            30.30594954186018,
+            96.94244604316546
+          ],
+          "rectCount": 1895
+        },
+        {
+          "id": "attack10",
+          "source": "attack-v1.png",
+          "sourceIndex": 10,
+          "crop": [
+            744,
+            577,
+            190,
+            280
+          ],
+          "anchor": [
+            112.36538461538464,
+            277
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack10.png",
+          "grid": [
+            67,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            39.62358299595143,
+            96.95
+          ],
+          "rectCount": 1658
+        },
+        {
+          "id": "attack11",
+          "source": "attack-v1.png",
+          "sourceIndex": 11,
+          "crop": [
+            1070,
+            567,
+            227,
+            291
+          ],
+          "anchor": [
+            112.60550458715602,
+            288
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack11.png",
+          "grid": [
+            80,
+            102
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            39.68475932586996,
+            100.94845360824742
+          ],
+          "rectCount": 2007
+        },
+        {
+          "id": "attack12",
+          "source": "attack-v1.png",
+          "sourceIndex": 12,
+          "crop": [
+            59,
+            860,
+            263,
+            279
+          ],
+          "anchor": [
+            76.65789473684211,
+            276
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack12.png",
+          "grid": [
+            92,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            26.81568941364819,
+            96.94623655913979
+          ],
+          "rectCount": 1858
+        },
+        {
+          "id": "attack13",
+          "source": "attack-v1.png",
+          "sourceIndex": 13,
+          "crop": [
+            429,
+            856,
+            202,
+            283
+          ],
+          "anchor": [
+            84.76947040498442,
+            280
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack13.png",
+          "grid": [
+            71,
+            100
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            29.795209894821255,
+            98.93992932862191
+          ],
+          "rectCount": 1746
+        },
+        {
+          "id": "attack14",
+          "source": "attack-v1.png",
+          "sourceIndex": 14,
+          "crop": [
+            761,
+            859,
+            182,
+            280
+          ],
+          "anchor": [
+            99.3674540682415,
+            277
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack14.png",
+          "grid": [
+            64,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            34.942401430590415,
+            96.95
+          ],
+          "rectCount": 1608
+        },
+        {
+          "id": "attack15",
+          "source": "attack-v1.png",
+          "sourceIndex": 15,
+          "crop": [
+            1092,
+            860,
+            170,
+            279
+          ],
+          "anchor": [
+            105.23778501628658,
+            276
+          ],
+          "unit": 0.5494505494505495,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-attack15.png",
+          "grid": [
+            60,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            37.14274765280703,
+            96.94623655913979
+          ],
+          "rectCount": 1615
+        },
+        {
+          "id": "connections0",
+          "source": "connections-v1.png",
+          "sourceIndex": 0,
+          "crop": [
+            80,
+            4,
+            219,
+            290
+          ],
+          "anchor": [
+            101.69372693726936,
+            287
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections0.png",
+          "grid": [
+            74,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            34.362263896611566,
+            96.98620689655172
+          ],
+          "rectCount": 1819
+        },
+        {
+          "id": "connections1",
+          "source": "connections-v1.png",
+          "sourceIndex": 1,
+          "crop": [
+            404,
+            5,
+            226,
+            288
+          ],
+          "anchor": [
+            98.36734693877554,
+            285
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections1.png",
+          "grid": [
+            76,
+            97
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            33.07928481126965,
+            95.98958333333333
+          ],
+          "rectCount": 1790
+        },
+        {
+          "id": "connections2",
+          "source": "connections-v1.png",
+          "sourceIndex": 2,
+          "crop": [
+            749,
+            5,
+            208,
+            289
+          ],
+          "anchor": [
+            87.10416666666663,
+            286
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections2.png",
+          "grid": [
+            70,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            29.31390224358973,
+            96.98269896193771
+          ],
+          "rectCount": 1731
+        },
+        {
+          "id": "connections3",
+          "source": "connections-v1.png",
+          "sourceIndex": 3,
+          "crop": [
+            1068,
+            12,
+            256,
+            282
+          ],
+          "anchor": [
+            88.52329749103933,
+            279
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections3.png",
+          "grid": [
+            87,
+            95
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            30.084089381720396,
+            93.98936170212765
+          ],
+          "rectCount": 1911
+        },
+        {
+          "id": "connections4",
+          "source": "connections-v1.png",
+          "sourceIndex": 4,
+          "crop": [
+            61,
+            298,
+            287,
+            283
+          ],
+          "anchor": [
+            95.30735930735932,
+            280
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections4.png",
+          "grid": [
+            97,
+            96
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            32.211894957539556,
+            94.98233215547704
+          ],
+          "rectCount": 2006
+        },
+        {
+          "id": "connections5",
+          "source": "connections-v1.png",
+          "sourceIndex": 5,
+          "crop": [
+            393,
+            305,
+            288,
+            276
+          ],
+          "anchor": [
+            116.8150684931507,
+            273
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections5.png",
+          "grid": [
+            97,
+            93
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            39.3439640410959,
+            91.98913043478261
+          ],
+          "rectCount": 1911
+        },
+        {
+          "id": "connections6",
+          "source": "connections-v1.png",
+          "sourceIndex": 6,
+          "crop": [
+            734,
+            298,
+            237,
+            283
+          ],
+          "anchor": [
+            97.95652173913038,
+            280
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections6.png",
+          "grid": [
+            80,
+            96
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            33.06549257017059,
+            94.98233215547704
+          ],
+          "rectCount": 1926
+        },
+        {
+          "id": "connections7",
+          "source": "connections-v1.png",
+          "sourceIndex": 7,
+          "crop": [
+            1074,
+            296,
+            221,
+            285
+          ],
+          "anchor": [
+            100.44709897610915,
+            282
+          ],
+          "unit": 0.528169014084507,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections7.png",
+          "grid": [
+            75,
+            96
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            34.088382005466904,
+            94.98947368421052
+          ],
+          "rectCount": 1790
+        },
+        {
+          "id": "connections8",
+          "source": "connections-v1.png",
+          "sourceIndex": 8,
+          "crop": [
+            77,
+            581,
+            225,
+            286
+          ],
+          "anchor": [
+            104.85017421602788,
+            283
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections8.png",
+          "grid": [
+            77,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            35.88205962059621,
+            96.97202797202797
+          ],
+          "rectCount": 1851
+        },
+        {
+          "id": "connections9",
+          "source": "connections-v1.png",
+          "sourceIndex": 9,
+          "crop": [
+            409,
+            580,
+            230,
+            287
+          ],
+          "anchor": [
+            97.03040540540542,
+            284
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections9.png",
+          "grid": [
+            79,
+            98
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            33.327834900117516,
+            96.97560975609755
+          ],
+          "rectCount": 1965
+        },
+        {
+          "id": "connections10",
+          "source": "connections-v1.png",
+          "sourceIndex": 10,
+          "crop": [
+            730,
+            580,
+            225,
+            288
+          ],
+          "anchor": [
+            102.71532846715331,
+            285
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections10.png",
+          "grid": [
+            77,
+            99
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            35.15146796431469,
+            97.96875
+          ],
+          "rectCount": 1966
+        },
+        {
+          "id": "connections11",
+          "source": "connections-v1.png",
+          "sourceIndex": 11,
+          "crop": [
+            1074,
+            591,
+            267,
+            277
+          ],
+          "anchor": [
+            90.806324110672,
+            274
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections11.png",
+          "grid": [
+            92,
+            95
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            31.289070480081737,
+            93.971119133574
+          ],
+          "rectCount": 1886
+        },
+        {
+          "id": "connections12",
+          "source": "connections-v1.png",
+          "sourceIndex": 12,
+          "crop": [
+            62,
+            868,
+            280,
+            277
+          ],
+          "anchor": [
+            93.31226765799255,
+            274
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections12.png",
+          "grid": [
+            96,
+            95
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            31.9927774827403,
+            93.971119133574
+          ],
+          "rectCount": 2049
+        },
+        {
+          "id": "connections13",
+          "source": "connections-v1.png",
+          "sourceIndex": 13,
+          "crop": [
+            403,
+            874,
+            273,
+            271
+          ],
+          "anchor": [
+            108.26027397260276,
+            268
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections13.png",
+          "grid": [
+            94,
+            93
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            37.27643133122586,
+            91.97047970479704
+          ],
+          "rectCount": 1953
+        },
+        {
+          "id": "connections14",
+          "source": "connections-v1.png",
+          "sourceIndex": 14,
+          "crop": [
+            735,
+            869,
+            223,
+            276
+          ],
+          "anchor": [
+            96.82943143812713,
+            273
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections14.png",
+          "grid": [
+            76,
+            95
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            33.00016497442898,
+            93.96739130434783
+          ],
+          "rectCount": 1779
+        },
+        {
+          "id": "connections15",
+          "source": "connections-v1.png",
+          "sourceIndex": 15,
+          "crop": [
+            1080,
+            868,
+            217,
+            277
+          ],
+          "anchor": [
+            95.46020761245677,
+            274
+          ],
+          "unit": 0.5357142857142857,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/nahida-connections15.png",
+          "grid": [
+            74,
+            95
+          ],
+          "displayScale": 1.5625,
+          "pixelAnchor": [
+            32.55325052222028,
+            93.971119133574
+          ],
+          "rectCount": 1770
+        }
+      ],
+      "notes": [
+        "以正常比例待机母版重制整套姿势，儿童身高150不变。",
+        "48张姿势：基础16、攻击16、普攻/E连接16。普攻与E各8帧，其他状态仍以关键姿势为主。",
+        "脚底自动初估，服饰、手指、比例与锚点为美术候选，不代表真机验收。"
+      ],
+      "design": {
+        "key": "nahida",
+        "name": "纳西妲",
+        "weapon": "catalyst",
+        "color": "#a5e58a",
+        "identity": "标记与场地强化；领域不是直接伤害炸弹",
+        "moves": {
+          "A": {
+            "name": "行相 · 点叶",
+            "startup": 9,
+            "active": 3,
+            "recovery": 17,
+            "reach": 100,
+            "damage": 7,
+            "fx": "leaf",
+            "notes": "指尖点出小叶纹；幼小身体保留稳定脚底，避免巨大武器挥舞。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 122
+          },
+          "E": {
+            "name": "所闻遍计 · 标记",
+            "startup": 18,
+            "active": 3,
+            "recovery": 26,
+            "reach": 250,
+            "damage": 12,
+            "fx": "mark",
+            "notes": "手指框出前方矩形取景，草纹连线仅视觉；标记可被后续命中触发，不无条件全图追踪。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 272
+          },
+          "Q": {
+            "name": "心景幻成 · 摩耶之殿",
+            "startup": 30,
+            "active": 5,
+            "recovery": 24,
+            "reach": 260,
+            "damage": 30,
+            "fx": "shrine",
+            "notes": "智慧殿堂意象用于命中后短演出；30伤害仅为探针候选。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 0,
+            "hitstun": 0,
+            "cancel": "领域布置后可行动；离开区域不再获得增益",
+            "effectExtent": 310,
+            "support": false,
+            "effectDuration": 0
+          }
+        },
+        "video": "https://www.youtube.com/watch?v=6dgE-mC4peA",
+        "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+      },
+      "sequences": {
+        "idle": [
+          [
+            "basic0",
+            24
+          ],
+          [
+            "basic1",
+            24
+          ]
+        ],
+        "walk": [
+          [
+            "basic2",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ],
+          [
+            "basic4",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ]
+        ],
+        "crouch": [
+          [
+            "basic5",
+            36
+          ]
+        ],
+        "guard": [
+          [
+            "basic6",
+            36
+          ]
+        ],
+        "crouchGuard": [
+          [
+            "basic7",
+            36
+          ]
+        ],
+        "jump": [
+          [
+            "basic8",
+            6
+          ],
+          [
+            "basic9",
+            14
+          ],
+          [
+            "basic10",
+            14
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "hurt": [
+          [
+            "basic12",
+            20
+          ]
+        ],
+        "airHurt": [
+          [
+            "basic13",
+            24
+          ]
+        ],
+        "down": [
+          [
+            "basic14",
+            36
+          ]
+        ],
+        "getup": [
+          [
+            "basic15",
+            16
+          ],
+          [
+            "basic5",
+            8
+          ],
+          [
+            "basic0",
+            12
+          ]
+        ],
+        "A": [
+          [
+            "connections0",
+            3
+          ],
+          [
+            "connections1",
+            3
+          ],
+          [
+            "connections2",
+            3
+          ],
+          [
+            "connections3",
+            2
+          ],
+          [
+            "connections4",
+            1
+          ],
+          [
+            "connections5",
+            6
+          ],
+          [
+            "connections6",
+            6
+          ],
+          [
+            "connections7",
+            5
+          ]
+        ],
+        "lowA": [
+          [
+            "attack3",
+            8
+          ],
+          [
+            "attack4",
+            3
+          ],
+          [
+            "attack5",
+            14
+          ]
+        ],
+        "airA": [
+          [
+            "attack6",
+            8
+          ],
+          [
+            "attack7",
+            6
+          ],
+          [
+            "basic10",
+            10
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "E": [
+          [
+            "connections8",
+            6
+          ],
+          [
+            "connections9",
+            6
+          ],
+          [
+            "connections10",
+            6
+          ],
+          [
+            "connections11",
+            2
+          ],
+          [
+            "connections12",
+            1
+          ],
+          [
+            "connections13",
+            9
+          ],
+          [
+            "connections14",
+            9
+          ],
+          [
+            "connections15",
+            8
+          ]
+        ],
+        "Q": [
+          [
+            "attack11",
+            30
+          ],
+          [
+            "attack12",
+            5
+          ],
+          [
+            "attack13",
+            24
+          ]
+        ],
+        "win": [
+          [
+            "attack14",
+            18
+          ],
+          [
+            "attack15",
+            48
+          ]
+        ]
+      },
+      "pool": 2049,
+      "dataBytes": 2215417,
+      "gzipBytes": 373098
+    }
+  ]
+}

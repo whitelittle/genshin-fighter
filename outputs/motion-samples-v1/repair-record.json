@@ -1,0 +1,6 @@
+{
+  "prompt": "Edit this key-pose study board. Keep Nahida identity, white and green costume, leaf ornaments, child stature and pixel art style. REQUIRE truly transparent background: remove all green/brown glow, shading haze and scenery outside the character silhouettes. Four separated full-body poses facing RIGHT in consistent side-on fighting-game view, same body scale, feet on the same baseline. The first and fourth poses must turn shoulders, hips and face toward RIGHT with only a slight three-quarter face, never frontal portrait stance. Second pose gathers both hands near chest while knees sink gently. Third extends one palm forward at chest height, supported forward step. Keep four isolated cells with generous transparent gutters. No large elemental effects. Do not change this to a cinematic burst portrait. No labels.",
+  "result": "nahida-keyposes-v2.png",
+  "accepted": false,
+  "reason": "visible haze and frontal idle persist; concept retained, not runtime"
+}

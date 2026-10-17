@@ -1,0 +1,42 @@
+[
+  {
+    "key": "keqing",
+    "name": "刻晴",
+    "sample": "keqing-keyposes-v1.png",
+    "focus": "刀光跟剑尖；脚底锚点稳定",
+    "issues": "释放姿势偏直伸，第三把剑侵入第四格；须单帧重做",
+    "status": "concept_only_runtime_not_approved"
+  },
+  {
+    "key": "diluc",
+    "name": "迪卢克",
+    "sample": "diluc-keyposes-v1.png",
+    "focus": "双手持剑，起手与收势有重量",
+    "issues": "需核查每格完整剑身、脚步与握柄；火鸟另做独立特效",
+    "status": "concept_only_runtime_not_approved"
+  },
+  {
+    "key": "neuvillette",
+    "name": "那维莱特",
+    "sample": "neuvillette-keyposes-v1.png",
+    "focus": "横版前伸姿态，法杖与施法手分开",
+    "issues": "手掌/袖口发射锚点和角色半透明边缘待处理；四格不能直接当逐帧",
+    "status": "concept_only_runtime_not_approved"
+  },
+  {
+    "key": "nahida",
+    "name": "纳西妲",
+    "sample": "nahida-keyposes-v1.png",
+    "focus": "领域意象改为命中演出，不长期铺场",
+    "issues": "两轮仍有光晕和偏正面站姿；不通过运行时素材验收",
+    "status": "concept_only_runtime_not_approved"
+  },
+  {
+    "key": "kamisatoayaka",
+    "name": "神里绫华",
+    "sample": "kamisatoayaka-keyposes-v1.png",
+    "focus": "持剑侧向，蓄力与收势可读",
+    "issues": "释放偏直刺，须重做拔刀横扫并核查刀鞘",
+    "status": "concept_only_runtime_not_approved"
+  }
+]

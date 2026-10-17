@@ -1,0 +1,55 @@
+{
+  "baseline": {
+    "images": 209,
+    "foregroundRGBMAE": 31.423,
+    "wholeCanvasRGBMSE": 0.017371,
+    "silhouetteIoU": 0.90391
+  },
+  "final": {
+    "images": 218,
+    "foregroundRGBMAE": 28.205,
+    "wholeCanvasRGBMSE": 0.012865,
+    "silhouetteIoU": 0.94196
+  },
+  "addedBeforePruning": 9,
+  "additionHistory": [],
+  "passes": [
+    {
+      "images": 218,
+      "foregroundRGBMAE": 29.316,
+      "wholeCanvasRGBMSE": 0.0139,
+      "silhouetteIoU": 0.93297,
+      "passIndex": 1,
+      "acceptedParameterChanges": 423,
+      "removedThisPass": 0
+    },
+    {
+      "images": 218,
+      "foregroundRGBMAE": 28.68,
+      "wholeCanvasRGBMSE": 0.013283,
+      "silhouetteIoU": 0.93775,
+      "passIndex": 2,
+      "acceptedParameterChanges": 481,
+      "removedThisPass": 0
+    },
+    {
+      "images": 218,
+      "foregroundRGBMAE": 28.205,
+      "wholeCanvasRGBMSE": 0.012865,
+      "silhouetteIoU": 0.94196,
+      "passIndex": 3,
+      "acceptedParameterChanges": 533,
+      "removedThisPass": 0
+    }
+  ],
+  "seconds": 15.18,
+  "arbitraryCurves": 0,
+  "pixelBlocksAdded": 0,
+  "inputSize": [
+    251,
+    462
+  ],
+  "inputDownscaled": false,
+  "globalMinimumProven": false,
+  "deviceVerified": false
+}

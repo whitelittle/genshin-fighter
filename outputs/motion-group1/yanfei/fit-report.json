@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "yanfei",
+      "id": "basic0",
+      "grid": [
+        68,
+        98
+      ],
+      "rects": 1390,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic1",
+      "grid": [
+        58,
+        99
+      ],
+      "rects": 1388,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic2",
+      "grid": [
+        71,
+        98
+      ],
+      "rects": 1429,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic3",
+      "grid": [
+        70,
+        97
+      ],
+      "rects": 1364,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic4",
+      "grid": [
+        72,
+        97
+      ],
+      "rects": 1397,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic5",
+      "grid": [
+        73,
+        75
+      ],
+      "rects": 1276,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic6",
+      "grid": [
+        71,
+        95
+      ],
+      "rects": 1451,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic7",
+      "grid": [
+        79,
+        68
+      ],
+      "rects": 1222,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic8",
+      "grid": [
+        67,
+        71
+      ],
+      "rects": 1138,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic9",
+      "grid": [
+        66,
+        91
+      ],
+      "rects": 1225,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic10",
+      "grid": [
+        68,
+        80
+      ],
+      "rects": 1279,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic11",
+      "grid": [
+        70,
+        64
+      ],
+      "rects": 1123,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic12",
+      "grid": [
+        78,
+        81
+      ],
+      "rects": 1327,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic13",
+      "grid": [
+        90,
+        65
+      ],
+      "rects": 1099,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic14",
+      "grid": [
+        113,
+        31
+      ],
+      "rects": 970,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "basic15",
+      "grid": [
+        68,
+        63
+      ],
+      "rects": 1129,
+      "source": "basic-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack0",
+      "grid": [
+        72,
+        100
+      ],
+      "rects": 1707,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack1",
+      "grid": [
+        86,
+        96
+      ],
+      "rects": 1414,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack2",
+      "grid": [
+        68,
+        101
+      ],
+      "rects": 1693,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack3",
+      "grid": [
+        79,
+        83
+      ],
+      "rects": 1384,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack4",
+      "grid": [
+        100,
+        71
+      ],
+      "rects": 1621,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack5",
+      "grid": [
+        77,
+        73
+      ],
+      "rects": 1374,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack6",
+      "grid": [
+        65,
+        107
+      ],
+      "rects": 1514,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack7",
+      "grid": [
+        88,
+        96
+      ],
+      "rects": 1365,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack8",
+      "grid": [
+        67,
+        102
+      ],
+      "rects": 1682,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack9",
+      "grid": [
+        84,
+        98
+      ],
+      "rects": 1746,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack10",
+      "grid": [
+        67,
+        101
+      ],
+      "rects": 1682,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack11",
+      "grid": [
+        53,
+        101
+      ],
+      "rects": 1416,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack12",
+      "grid": [
+        99,
+        91
+      ],
+      "rects": 1567,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack13",
+      "grid": [
+        80,
+        100
+      ],
+      "rects": 1695,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack14",
+      "grid": [
+        65,
+        98
+      ],
+      "rects": 1471,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "attack15",
+      "grid": [
+        53,
+        98
+      ],
+      "rects": 1380,
+      "source": "attack-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections0",
+      "grid": [
+        65,
+        98
+      ],
+      "rects": 1515,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections1",
+      "grid": [
+        64,
+        94
+      ],
+      "rects": 1235,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections2",
+      "grid": [
+        69,
+        88
+      ],
+      "rects": 1330,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections3",
+      "grid": [
+        85,
+        88
+      ],
+      "rects": 1365,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections4",
+      "grid": [
+        94,
+        90
+      ],
+      "rects": 1441,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections5",
+      "grid": [
+        80,
+        90
+      ],
+      "rects": 1444,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections6",
+      "grid": [
+        64,
+        93
+      ],
+      "rects": 1329,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections7",
+      "grid": [
+        66,
+        95
+      ],
+      "rects": 1415,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections8",
+      "grid": [
+        65,
+        98
+      ],
+      "rects": 1386,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections9",
+      "grid": [
+        70,
+        95
+      ],
+      "rects": 1310,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections10",
+      "grid": [
+        62,
+        99
+      ],
+      "rects": 1371,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections11",
+      "grid": [
+        74,
+        79
+      ],
+      "rects": 1245,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections12",
+      "grid": [
+        85,
+        67
+      ],
+      "rects": 1149,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections13",
+      "grid": [
+        78,
+        83
+      ],
+      "rects": 1226,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections14",
+      "grid": [
+        65,
+        85
+      ],
+      "rects": 1189,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yanfei",
+      "id": "connections15",
+      "grid": [
+        66,
+        87
+      ],
+      "rects": 1391,
+      "source": "connections-v2.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "yanfei",
+      "pool": 1746,
+      "dataBytes": 1764225,
+      "gzipBytes": 308165
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

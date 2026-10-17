@@ -1,0 +1,1865 @@
+{
+  "format": "explicit node wiring specification; not native GIA",
+  "title": "GF3 多角色隐藏选人与准备",
+  "version": 1,
+  "signals": {
+    "GF3Hello": [],
+    "GF3Seat": [
+      {
+        "name": "Slot",
+        "type": "int"
+      },
+      {
+        "name": "Epoch",
+        "type": "int"
+      }
+    ],
+    "GF3Team": [
+      {
+        "name": "Slot",
+        "type": "int"
+      },
+      {
+        "name": "Epoch",
+        "type": "int"
+      },
+      {
+        "name": "Revision",
+        "type": "int"
+      },
+      {
+        "name": "Role1",
+        "type": "int"
+      },
+      {
+        "name": "Role2",
+        "type": "int"
+      },
+      {
+        "name": "Role3",
+        "type": "int"
+      },
+      {
+        "name": "Ready",
+        "type": "int"
+      }
+    ],
+    "GF3Progress": [
+      {
+        "name": "Epoch",
+        "type": "int"
+      },
+      {
+        "name": "Slot",
+        "type": "int"
+      },
+      {
+        "name": "Count",
+        "type": "int"
+      },
+      {
+        "name": "Ready",
+        "type": "int"
+      },
+      {
+        "name": "Revision",
+        "type": "int"
+      }
+    ],
+    "GF3Reveal": [
+      {
+        "name": "Epoch",
+        "type": "int"
+      },
+      {
+        "name": "Revision1",
+        "type": "int"
+      },
+      {
+        "name": "Revision2",
+        "type": "int"
+      },
+      {
+        "name": "P1Role1",
+        "type": "int"
+      },
+      {
+        "name": "P1Role2",
+        "type": "int"
+      },
+      {
+        "name": "P1Role3",
+        "type": "int"
+      },
+      {
+        "name": "P2Role1",
+        "type": "int"
+      },
+      {
+        "name": "P2Role2",
+        "type": "int"
+      },
+      {
+        "name": "P2Role3",
+        "type": "int"
+      }
+    ],
+    "GF3Reset": [
+      {
+        "name": "Slot",
+        "type": "int"
+      },
+      {
+        "name": "Epoch",
+        "type": "int"
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "GF3_Epoch",
+      "type": "int",
+      "initial": 1
+    },
+    {
+      "name": "GF3_Locked",
+      "type": "bool",
+      "initial": false
+    },
+    {
+      "name": "GF3_P1",
+      "type": "entity",
+      "initial": null
+    },
+    {
+      "name": "GF3_P1Role1",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P1Role2",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P1Role3",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P1Count",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P1Ready",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P1Revision",
+      "type": "int",
+      "initial": -1
+    },
+    {
+      "name": "GF3_P2",
+      "type": "entity",
+      "initial": null
+    },
+    {
+      "name": "GF3_P2Role1",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P2Role2",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P2Role3",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P2Count",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P2Ready",
+      "type": "int",
+      "initial": 0
+    },
+    {
+      "name": "GF3_P2Revision",
+      "type": "int",
+      "initial": -1
+    }
+  ],
+  "nodes": [
+    {
+      "id": "self",
+      "operation": "getSelfEntity"
+    },
+    {
+      "id": "players",
+      "operation": "getPlayersOnField"
+    },
+    {
+      "id": "length",
+      "operation": "listLength",
+      "list": "players"
+    },
+    {
+      "id": "hello",
+      "operation": "listen",
+      "signal": "GF3Hello"
+    },
+    {
+      "id": "has-one",
+      "operation": "branch",
+      "condition": "length >= 1"
+    },
+    {
+      "id": "seat1-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1",
+      "value": "players[0]"
+    },
+    {
+      "id": "seat1-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Seat",
+      "params": [
+        1,
+        "GF3_Epoch"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "has-two",
+      "operation": "branch",
+      "condition": "length >= 2"
+    },
+    {
+      "id": "seat2-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2",
+      "value": "players[1]"
+    },
+    {
+      "id": "seat2-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Seat",
+      "params": [
+        2,
+        "GF3_Epoch"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "hello-status-0",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "hello-status-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "hello-status-2",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "hello-status-3",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "hello-locked",
+      "operation": "branch",
+      "condition": "GF3_Locked"
+    },
+    {
+      "id": "hello-reveal-0",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "hello-reveal-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "team",
+      "operation": "listen",
+      "signal": "GF3Team"
+    },
+    {
+      "id": "team-slot",
+      "operation": "branch",
+      "condition": "Slot == 1"
+    },
+    {
+      "id": "valid-1-0",
+      "operation": "branch",
+      "condition": "Slot == 1"
+    },
+    {
+      "id": "valid-1-1",
+      "operation": "branch",
+      "condition": "Epoch == GF3_Epoch"
+    },
+    {
+      "id": "valid-1-2",
+      "operation": "branch",
+      "condition": "Revision >= 0"
+    },
+    {
+      "id": "valid-1-3",
+      "operation": "branch",
+      "condition": "Revision >= GF3_P1Revision"
+    },
+    {
+      "id": "valid-1-4",
+      "operation": "branch",
+      "condition": "Ready == 0 OR Ready == 1"
+    },
+    {
+      "id": "valid-1-5",
+      "operation": "branch",
+      "condition": "0 <= Role1 <= 6"
+    },
+    {
+      "id": "valid-1-6",
+      "operation": "branch",
+      "condition": "0 <= Role2 <= 6"
+    },
+    {
+      "id": "valid-1-7",
+      "operation": "branch",
+      "condition": "0 <= Role3 <= 6"
+    },
+    {
+      "id": "valid-1-8",
+      "operation": "branch",
+      "condition": "Role1 != 0 OR (Role2 == 0 AND Role3 == 0)"
+    },
+    {
+      "id": "valid-1-9",
+      "operation": "branch",
+      "condition": "Role2 != 0 OR Role3 == 0"
+    },
+    {
+      "id": "valid-1-10",
+      "operation": "branch",
+      "condition": "Role1 == 0 OR Role2 == 0 OR Role1 != Role2"
+    },
+    {
+      "id": "valid-1-11",
+      "operation": "branch",
+      "condition": "Role1 == 0 OR Role3 == 0 OR Role1 != Role3"
+    },
+    {
+      "id": "valid-1-12",
+      "operation": "branch",
+      "condition": "Role2 == 0 OR Role3 == 0 OR Role2 != Role3"
+    },
+    {
+      "id": "valid-1-13",
+      "operation": "branch",
+      "condition": "Ready == 0 OR (Role1 > 0 AND Role2 > 0 AND Role3 > 0)"
+    },
+    {
+      "id": "duplicate-1",
+      "operation": "branch",
+      "condition": "GF3_Locked OR Revision == GF3_P1Revision"
+    },
+    {
+      "id": "same-1",
+      "operation": "branch",
+      "condition": "Revision == GF3_P1Revision AND Role1 == GF3_P1Role1 AND Role2 == GF3_P1Role2 AND Role3 == GF3_P1Role3 AND Ready == GF3_P1Ready"
+    },
+    {
+      "id": "retry-1-0",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-1-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-1-2",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-1-3",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-locked-1",
+      "operation": "branch",
+      "condition": "GF3_Locked"
+    },
+    {
+      "id": "retry-reveal-1-0",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-reveal-1-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-1-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Revision",
+      "value": "Revision"
+    },
+    {
+      "id": "save-1-1",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Role1",
+      "value": "Role1"
+    },
+    {
+      "id": "save-1-2",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Role2",
+      "value": "Role2"
+    },
+    {
+      "id": "save-1-3",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Role3",
+      "value": "Role3"
+    },
+    {
+      "id": "save-1-4",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Ready",
+      "value": "Ready"
+    },
+    {
+      "id": "save-1-5",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Count",
+      "value": "(Role1 > 0 ? 1 : 0) + (Role2 > 0 ? 1 : 0) + (Role3 > 0 ? 1 : 0)"
+    },
+    {
+      "id": "save-1-6",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-1-7",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-1-8",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-1-9",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "both-ready-1",
+      "operation": "branch",
+      "condition": "length >= 2 AND GF3_P1Ready == 1 AND GF3_P2Ready == 1"
+    },
+    {
+      "id": "commit-1-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_Locked",
+      "value": true
+    },
+    {
+      "id": "commit-1-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "commit-1-2",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "valid-2-0",
+      "operation": "branch",
+      "condition": "Slot == 2"
+    },
+    {
+      "id": "valid-2-1",
+      "operation": "branch",
+      "condition": "Epoch == GF3_Epoch"
+    },
+    {
+      "id": "valid-2-2",
+      "operation": "branch",
+      "condition": "Revision >= 0"
+    },
+    {
+      "id": "valid-2-3",
+      "operation": "branch",
+      "condition": "Revision >= GF3_P2Revision"
+    },
+    {
+      "id": "valid-2-4",
+      "operation": "branch",
+      "condition": "Ready == 0 OR Ready == 1"
+    },
+    {
+      "id": "valid-2-5",
+      "operation": "branch",
+      "condition": "0 <= Role1 <= 6"
+    },
+    {
+      "id": "valid-2-6",
+      "operation": "branch",
+      "condition": "0 <= Role2 <= 6"
+    },
+    {
+      "id": "valid-2-7",
+      "operation": "branch",
+      "condition": "0 <= Role3 <= 6"
+    },
+    {
+      "id": "valid-2-8",
+      "operation": "branch",
+      "condition": "Role1 != 0 OR (Role2 == 0 AND Role3 == 0)"
+    },
+    {
+      "id": "valid-2-9",
+      "operation": "branch",
+      "condition": "Role2 != 0 OR Role3 == 0"
+    },
+    {
+      "id": "valid-2-10",
+      "operation": "branch",
+      "condition": "Role1 == 0 OR Role2 == 0 OR Role1 != Role2"
+    },
+    {
+      "id": "valid-2-11",
+      "operation": "branch",
+      "condition": "Role1 == 0 OR Role3 == 0 OR Role1 != Role3"
+    },
+    {
+      "id": "valid-2-12",
+      "operation": "branch",
+      "condition": "Role2 == 0 OR Role3 == 0 OR Role2 != Role3"
+    },
+    {
+      "id": "valid-2-13",
+      "operation": "branch",
+      "condition": "Ready == 0 OR (Role1 > 0 AND Role2 > 0 AND Role3 > 0)"
+    },
+    {
+      "id": "duplicate-2",
+      "operation": "branch",
+      "condition": "GF3_Locked OR Revision == GF3_P2Revision"
+    },
+    {
+      "id": "same-2",
+      "operation": "branch",
+      "condition": "Revision == GF3_P2Revision AND Role1 == GF3_P2Role1 AND Role2 == GF3_P2Role2 AND Role3 == GF3_P2Role3 AND Ready == GF3_P2Ready"
+    },
+    {
+      "id": "retry-2-0",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-2-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-2-2",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-2-3",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-locked-2",
+      "operation": "branch",
+      "condition": "GF3_Locked"
+    },
+    {
+      "id": "retry-reveal-2-0",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "retry-reveal-2-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-2-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Revision",
+      "value": "Revision"
+    },
+    {
+      "id": "save-2-1",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Role1",
+      "value": "Role1"
+    },
+    {
+      "id": "save-2-2",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Role2",
+      "value": "Role2"
+    },
+    {
+      "id": "save-2-3",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Role3",
+      "value": "Role3"
+    },
+    {
+      "id": "save-2-4",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Ready",
+      "value": "Ready"
+    },
+    {
+      "id": "save-2-5",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Count",
+      "value": "(Role1 > 0 ? 1 : 0) + (Role2 > 0 ? 1 : 0) + (Role3 > 0 ? 1 : 0)"
+    },
+    {
+      "id": "save-2-6",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-2-7",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-2-8",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "save-2-9",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "both-ready-2",
+      "operation": "branch",
+      "condition": "length >= 2 AND GF3_P1Ready == 1 AND GF3_P2Ready == 1"
+    },
+    {
+      "id": "commit-2-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_Locked",
+      "value": true
+    },
+    {
+      "id": "commit-2-1",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "commit-2-2",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Reveal",
+      "params": [
+        "GF3_Epoch",
+        "GF3_P1Revision",
+        "GF3_P2Revision",
+        "GF3_P1Role1",
+        "GF3_P1Role2",
+        "GF3_P1Role3",
+        "GF3_P2Role1",
+        "GF3_P2Role2",
+        "GF3_P2Role3"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "reset",
+      "operation": "listen",
+      "signal": "GF3Reset"
+    },
+    {
+      "id": "valid-reset",
+      "operation": "branch",
+      "condition": "(Slot == 1 OR Slot == 2) AND Epoch == GF3_Epoch"
+    },
+    {
+      "id": "reset-state-0",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_Epoch",
+      "value": "GF3_Epoch + 1"
+    },
+    {
+      "id": "reset-state-1",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_Locked",
+      "value": false
+    },
+    {
+      "id": "reset-state-2",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Role1",
+      "value": 0
+    },
+    {
+      "id": "reset-state-3",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Role2",
+      "value": 0
+    },
+    {
+      "id": "reset-state-4",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Role3",
+      "value": 0
+    },
+    {
+      "id": "reset-state-5",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Count",
+      "value": 0
+    },
+    {
+      "id": "reset-state-6",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Ready",
+      "value": 0
+    },
+    {
+      "id": "reset-state-7",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P1Revision",
+      "value": -1
+    },
+    {
+      "id": "reset-state-8",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Seat",
+      "params": [
+        1,
+        "GF3_Epoch"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "reset-state-9",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Role1",
+      "value": 0
+    },
+    {
+      "id": "reset-state-10",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Role2",
+      "value": 0
+    },
+    {
+      "id": "reset-state-11",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Role3",
+      "value": 0
+    },
+    {
+      "id": "reset-state-12",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Count",
+      "value": 0
+    },
+    {
+      "id": "reset-state-13",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Ready",
+      "value": 0
+    },
+    {
+      "id": "reset-state-14",
+      "operation": "setCustomVariable",
+      "entity": "self",
+      "variable": "GF3_P2Revision",
+      "value": -1
+    },
+    {
+      "id": "reset-state-15",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Seat",
+      "params": [
+        2,
+        "GF3_Epoch"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "reset-state-16",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "reset-state-17",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        1,
+        "GF3_P1Count",
+        "GF3_P1Ready",
+        "GF3_P1Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "reset-state-18",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P1",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    },
+    {
+      "id": "reset-state-19",
+      "operation": "sendClientScriptSignal",
+      "target": "GF3_P2",
+      "signal": "GF3Progress",
+      "params": [
+        "GF3_Epoch",
+        2,
+        "GF3_P2Count",
+        "GF3_P2Ready",
+        "GF3_P2Revision"
+      ],
+      "skipIfTargetEmpty": true
+    }
+  ],
+  "edges": [
+    {
+      "fromNode": "hello",
+      "fromPort": "next",
+      "toNode": "has-one",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "has-one",
+      "fromPort": "true",
+      "toNode": "seat1-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "seat1-0",
+      "fromPort": "next",
+      "toNode": "seat1-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "seat1-1",
+      "fromPort": "next",
+      "toNode": "has-two",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "has-two",
+      "fromPort": "true",
+      "toNode": "seat2-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "seat2-0",
+      "fromPort": "next",
+      "toNode": "seat2-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "seat2-1",
+      "fromPort": "next",
+      "toNode": "hello-status-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello-status-0",
+      "fromPort": "next",
+      "toNode": "hello-status-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello-status-1",
+      "fromPort": "next",
+      "toNode": "hello-status-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello-status-2",
+      "fromPort": "next",
+      "toNode": "hello-status-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello-status-3",
+      "fromPort": "next",
+      "toNode": "hello-locked",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello-locked",
+      "fromPort": "true",
+      "toNode": "hello-reveal-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello-reveal-0",
+      "fromPort": "next",
+      "toNode": "hello-reveal-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "team",
+      "fromPort": "next",
+      "toNode": "team-slot",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "team-slot",
+      "fromPort": "true",
+      "toNode": "valid-1-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-0",
+      "fromPort": "true",
+      "toNode": "valid-1-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-1",
+      "fromPort": "true",
+      "toNode": "valid-1-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-2",
+      "fromPort": "true",
+      "toNode": "valid-1-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-3",
+      "fromPort": "true",
+      "toNode": "valid-1-4",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-4",
+      "fromPort": "true",
+      "toNode": "valid-1-5",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-5",
+      "fromPort": "true",
+      "toNode": "valid-1-6",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-6",
+      "fromPort": "true",
+      "toNode": "valid-1-7",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-7",
+      "fromPort": "true",
+      "toNode": "valid-1-8",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-8",
+      "fromPort": "true",
+      "toNode": "valid-1-9",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-9",
+      "fromPort": "true",
+      "toNode": "valid-1-10",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-10",
+      "fromPort": "true",
+      "toNode": "valid-1-11",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-11",
+      "fromPort": "true",
+      "toNode": "valid-1-12",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-12",
+      "fromPort": "true",
+      "toNode": "valid-1-13",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-1-13",
+      "fromPort": "true",
+      "toNode": "duplicate-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "duplicate-1",
+      "fromPort": "true",
+      "toNode": "same-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "same-1",
+      "fromPort": "true",
+      "toNode": "retry-1-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-1-0",
+      "fromPort": "next",
+      "toNode": "retry-1-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-1-1",
+      "fromPort": "next",
+      "toNode": "retry-1-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-1-2",
+      "fromPort": "next",
+      "toNode": "retry-1-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-1-3",
+      "fromPort": "next",
+      "toNode": "retry-locked-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-locked-1",
+      "fromPort": "true",
+      "toNode": "retry-reveal-1-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-reveal-1-0",
+      "fromPort": "next",
+      "toNode": "retry-reveal-1-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "duplicate-1",
+      "fromPort": "false",
+      "toNode": "save-1-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-0",
+      "fromPort": "next",
+      "toNode": "save-1-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-1",
+      "fromPort": "next",
+      "toNode": "save-1-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-2",
+      "fromPort": "next",
+      "toNode": "save-1-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-3",
+      "fromPort": "next",
+      "toNode": "save-1-4",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-4",
+      "fromPort": "next",
+      "toNode": "save-1-5",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-5",
+      "fromPort": "next",
+      "toNode": "save-1-6",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-6",
+      "fromPort": "next",
+      "toNode": "save-1-7",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-7",
+      "fromPort": "next",
+      "toNode": "save-1-8",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-8",
+      "fromPort": "next",
+      "toNode": "save-1-9",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-1-9",
+      "fromPort": "next",
+      "toNode": "both-ready-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "both-ready-1",
+      "fromPort": "true",
+      "toNode": "commit-1-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "commit-1-0",
+      "fromPort": "next",
+      "toNode": "commit-1-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "commit-1-1",
+      "fromPort": "next",
+      "toNode": "commit-1-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "team-slot",
+      "fromPort": "false",
+      "toNode": "valid-2-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-0",
+      "fromPort": "true",
+      "toNode": "valid-2-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-1",
+      "fromPort": "true",
+      "toNode": "valid-2-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-2",
+      "fromPort": "true",
+      "toNode": "valid-2-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-3",
+      "fromPort": "true",
+      "toNode": "valid-2-4",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-4",
+      "fromPort": "true",
+      "toNode": "valid-2-5",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-5",
+      "fromPort": "true",
+      "toNode": "valid-2-6",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-6",
+      "fromPort": "true",
+      "toNode": "valid-2-7",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-7",
+      "fromPort": "true",
+      "toNode": "valid-2-8",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-8",
+      "fromPort": "true",
+      "toNode": "valid-2-9",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-9",
+      "fromPort": "true",
+      "toNode": "valid-2-10",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-10",
+      "fromPort": "true",
+      "toNode": "valid-2-11",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-11",
+      "fromPort": "true",
+      "toNode": "valid-2-12",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-12",
+      "fromPort": "true",
+      "toNode": "valid-2-13",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-2-13",
+      "fromPort": "true",
+      "toNode": "duplicate-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "duplicate-2",
+      "fromPort": "true",
+      "toNode": "same-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "same-2",
+      "fromPort": "true",
+      "toNode": "retry-2-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-2-0",
+      "fromPort": "next",
+      "toNode": "retry-2-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-2-1",
+      "fromPort": "next",
+      "toNode": "retry-2-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-2-2",
+      "fromPort": "next",
+      "toNode": "retry-2-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-2-3",
+      "fromPort": "next",
+      "toNode": "retry-locked-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-locked-2",
+      "fromPort": "true",
+      "toNode": "retry-reveal-2-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "retry-reveal-2-0",
+      "fromPort": "next",
+      "toNode": "retry-reveal-2-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "duplicate-2",
+      "fromPort": "false",
+      "toNode": "save-2-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-0",
+      "fromPort": "next",
+      "toNode": "save-2-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-1",
+      "fromPort": "next",
+      "toNode": "save-2-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-2",
+      "fromPort": "next",
+      "toNode": "save-2-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-3",
+      "fromPort": "next",
+      "toNode": "save-2-4",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-4",
+      "fromPort": "next",
+      "toNode": "save-2-5",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-5",
+      "fromPort": "next",
+      "toNode": "save-2-6",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-6",
+      "fromPort": "next",
+      "toNode": "save-2-7",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-7",
+      "fromPort": "next",
+      "toNode": "save-2-8",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-8",
+      "fromPort": "next",
+      "toNode": "save-2-9",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "save-2-9",
+      "fromPort": "next",
+      "toNode": "both-ready-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "both-ready-2",
+      "fromPort": "true",
+      "toNode": "commit-2-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "commit-2-0",
+      "fromPort": "next",
+      "toNode": "commit-2-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "commit-2-1",
+      "fromPort": "next",
+      "toNode": "commit-2-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset",
+      "fromPort": "next",
+      "toNode": "valid-reset",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "valid-reset",
+      "fromPort": "true",
+      "toNode": "reset-state-0",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-0",
+      "fromPort": "next",
+      "toNode": "reset-state-1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-1",
+      "fromPort": "next",
+      "toNode": "reset-state-2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-2",
+      "fromPort": "next",
+      "toNode": "reset-state-3",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-3",
+      "fromPort": "next",
+      "toNode": "reset-state-4",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-4",
+      "fromPort": "next",
+      "toNode": "reset-state-5",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-5",
+      "fromPort": "next",
+      "toNode": "reset-state-6",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-6",
+      "fromPort": "next",
+      "toNode": "reset-state-7",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-7",
+      "fromPort": "next",
+      "toNode": "reset-state-8",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-8",
+      "fromPort": "next",
+      "toNode": "reset-state-9",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-9",
+      "fromPort": "next",
+      "toNode": "reset-state-10",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-10",
+      "fromPort": "next",
+      "toNode": "reset-state-11",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-11",
+      "fromPort": "next",
+      "toNode": "reset-state-12",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-12",
+      "fromPort": "next",
+      "toNode": "reset-state-13",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-13",
+      "fromPort": "next",
+      "toNode": "reset-state-14",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-14",
+      "fromPort": "next",
+      "toNode": "reset-state-15",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-15",
+      "fromPort": "next",
+      "toNode": "reset-state-16",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-16",
+      "fromPort": "next",
+      "toNode": "reset-state-17",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-17",
+      "fromPort": "next",
+      "toNode": "reset-state-18",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "reset-state-18",
+      "fromPort": "next",
+      "toNode": "reset-state-19",
+      "toPort": "exec"
+    }
+  ],
+  "expressionLowering": "AND/OR/!=/?: conditions expand to comparisons, logical operators and branches; see wiring guide",
+  "identityValidation": false,
+  "officialImportVerified": false,
+  "battleFramesIncluded": false
+}

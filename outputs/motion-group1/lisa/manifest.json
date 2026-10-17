@@ -1,0 +1,1695 @@
+{
+  "version": "group1-v2",
+  "status": "art_candidate",
+  "deviceVerified": false,
+  "productionCombatChanged": false,
+  "roles": [
+    {
+      "key": "lisa",
+      "name": "丽莎 · 第一组",
+      "height": 218,
+      "variant": "group1-v3",
+      "design": {
+        "key": "lisa",
+        "name": "丽莎",
+        "weapon": "character-specific",
+        "color": "#aecbdc",
+        "identity": "按原作角色动作意图改编为横版格斗",
+        "evidence": "技能名沿用现有talent-index；数值、动作适配为候选。",
+        "moves": {
+          "A": {
+            "name": "普通攻击",
+            "startup": 10,
+            "active": 5,
+            "recovery": 25,
+            "reach": 145,
+            "damage": 9,
+            "fx": "slash",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 167,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+          },
+          "E": {
+            "name": "苍雷",
+            "startup": 17,
+            "active": 5,
+            "recovery": 25,
+            "reach": 220,
+            "damage": 15,
+            "fx": "seal",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 242,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+          },
+          "Q": {
+            "name": "蔷薇的雷光",
+            "startup": 27,
+            "active": 5,
+            "recovery": 25,
+            "reach": 270,
+            "damage": 32,
+            "fx": "seal",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 292,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。",
+            "support": false,
+            "effectDuration": 0
+          }
+        }
+      },
+      "frames": [
+        {
+          "id": "basic0",
+          "source": "basic-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            61,
+            41,
+            172,
+            312
+          ],
+          "anchor": [
+            77.0843373493976,
+            309
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic0.png",
+          "grid": [
+            54,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            24.200896609694595,
+            97.0576923076923
+          ],
+          "rectCount": 1549
+        },
+        {
+          "id": "basic1",
+          "source": "basic-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            366,
+            44,
+            171,
+            305
+          ],
+          "anchor": [
+            71.91447368421052,
+            302
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic1.png",
+          "grid": [
+            54,
+            96
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            22.70983379501385,
+            95.05573770491803
+          ],
+          "rectCount": 1532
+        },
+        {
+          "id": "basic2",
+          "source": "basic-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            664,
+            45,
+            202,
+            309
+          ],
+          "anchor": [
+            72.11428571428576,
+            301
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic2.png",
+          "grid": [
+            63,
+            97
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            22.491089108910902,
+            94.48867313915858
+          ],
+          "rectCount": 1606
+        },
+        {
+          "id": "basic3",
+          "source": "basic-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            1000,
+            45,
+            225,
+            310
+          ],
+          "anchor": [
+            70.4363636363637,
+            306
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic3.png",
+          "grid": [
+            71,
+            97
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            22.226585858585878,
+            95.7483870967742
+          ],
+          "rectCount": 1576
+        },
+        {
+          "id": "basic4",
+          "source": "basic-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            42,
+            381,
+            222,
+            302
+          ],
+          "anchor": [
+            72.60176991150442,
+            298
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic4.png",
+          "grid": [
+            70,
+            95
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            22.89244997209599,
+            93.74172185430463
+          ],
+          "rectCount": 1721
+        },
+        {
+          "id": "basic5",
+          "source": "basic-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            352,
+            451,
+            218,
+            214
+          ],
+          "anchor": [
+            125.61913696060037,
+            211
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic5.png",
+          "grid": [
+            68,
+            67
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            39.1839509785359,
+            66.0607476635514
+          ],
+          "rectCount": 1161
+        },
+        {
+          "id": "basic6",
+          "source": "basic-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            672,
+            378,
+            244,
+            294
+          ],
+          "anchor": [
+            58.68292682926824,
+            291
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic6.png",
+          "grid": [
+            77,
+            92
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            18.51879248300678,
+            91.06122448979592
+          ],
+          "rectCount": 1684
+        },
+        {
+          "id": "basic7",
+          "source": "basic-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            973,
+            466,
+            248,
+            200
+          ],
+          "anchor": [
+            131.44548286604368,
+            197
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic7.png",
+          "grid": [
+            78,
+            63
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            41.34172444980406,
+            62.055
+          ],
+          "rectCount": 1170
+        },
+        {
+          "id": "basic8",
+          "source": "basic-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            41,
+            745,
+            226,
+            217
+          ],
+          "anchor": [
+            105.4021164021164,
+            214
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic8.png",
+          "grid": [
+            71,
+            68
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            33.11305426792153,
+            67.05990783410138
+          ],
+          "rectCount": 1215
+        },
+        {
+          "id": "basic9",
+          "source": "basic-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            370,
+            685,
+            203,
+            276
+          ],
+          "anchor": [
+            92.39999999999998,
+            273
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic9.png",
+          "grid": [
+            64,
+            87
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            29.131034482758615,
+            86.05434782608695
+          ],
+          "rectCount": 1408
+        },
+        {
+          "id": "basic10",
+          "source": "basic-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            689,
+            688,
+            222,
+            288
+          ],
+          "anchor": [
+            111.01546391752572,
+            238
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic10.png",
+          "grid": [
+            70,
+            90
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            35.004876010030635,
+            74.375
+          ],
+          "rectCount": 1574
+        },
+        {
+          "id": "basic11",
+          "source": "basic-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            989,
+            765,
+            238,
+            209
+          ],
+          "anchor": [
+            131.0387323943662,
+            205
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic11.png",
+          "grid": [
+            75,
+            66
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            41.29371819150196,
+            64.73684210526316
+          ],
+          "rectCount": 1238
+        },
+        {
+          "id": "basic12",
+          "source": "basic-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            50,
+            973,
+            243,
+            245
+          ],
+          "anchor": [
+            99.7605633802817,
+            242
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic12.png",
+          "grid": [
+            76,
+            77
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            31.200834637454356,
+            76.05714285714286
+          ],
+          "rectCount": 1427
+        },
+        {
+          "id": "basic13",
+          "source": "basic-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            326,
+            974,
+            288,
+            223
+          ],
+          "anchor": [
+            128.41666666666669,
+            220
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic13.png",
+          "grid": [
+            90,
+            70
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            40.13020833333334,
+            69.05829596412556
+          ],
+          "rectCount": 1216
+        },
+        {
+          "id": "basic14",
+          "source": "basic-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            625,
+            1118,
+            338,
+            92
+          ],
+          "anchor": [
+            149.15370370370374,
+            88
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic14.png",
+          "grid": [
+            106,
+            29
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            46.77601358755206,
+            27.73913043478261
+          ],
+          "rectCount": 881
+        },
+        {
+          "id": "basic15",
+          "source": "basic-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            997,
+            1033,
+            253,
+            178
+          ],
+          "anchor": [
+            139.65229110512132,
+            175
+          ],
+          "unit": 0.7124183006535948,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-basic15.png",
+          "grid": [
+            79,
+            56
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            43.60684188657938,
+            55.056179775280896
+          ],
+          "rectCount": 1071
+        },
+        {
+          "id": "attack0",
+          "source": "attack-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            73,
+            2,
+            211,
+            290
+          ],
+          "anchor": [
+            119.93636363636364,
+            287
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack0.png",
+          "grid": [
+            71,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            40.35773373545886,
+            96.98620689655172
+          ],
+          "rectCount": 1388
+        },
+        {
+          "id": "attack1",
+          "source": "attack-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            397,
+            4,
+            271,
+            288
+          ],
+          "anchor": [
+            85.75999999999999,
+            244
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack1.png",
+          "grid": [
+            92,
+            97
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            29.114095940959405,
+            82.18055555555556
+          ],
+          "rectCount": 1456
+        },
+        {
+          "id": "attack2",
+          "source": "attack-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            750,
+            3,
+            173,
+            289
+          ],
+          "anchor": [
+            127.83333333333337,
+            280
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack2.png",
+          "grid": [
+            58,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            42.85741811175338,
+            94.94809688581314
+          ],
+          "rectCount": 1379
+        },
+        {
+          "id": "attack3",
+          "source": "attack-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            1048,
+            73,
+            258,
+            217
+          ],
+          "anchor": [
+            83.92105263157896,
+            214
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack3.png",
+          "grid": [
+            87,
+            73
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            28.298959608323138,
+            71.99078341013825
+          ],
+          "rectCount": 1382
+        },
+        {
+          "id": "attack4",
+          "source": "attack-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            38,
+            375,
+            299,
+            197
+          ],
+          "anchor": [
+            74.18,
+            194
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack4.png",
+          "grid": [
+            101,
+            67
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            25.057458193979933,
+            65.97969543147208
+          ],
+          "rectCount": 1246
+        },
+        {
+          "id": "attack5",
+          "source": "attack-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            399,
+            352,
+            254,
+            220
+          ],
+          "anchor": [
+            85.06756756756755,
+            217
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack5.png",
+          "grid": [
+            86,
+            74
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            28.80240476697169,
+            72.99090909090908
+          ],
+          "rectCount": 1193
+        },
+        {
+          "id": "attack6",
+          "source": "attack-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            740,
+            287,
+            200,
+            285
+          ],
+          "anchor": [
+            95.10843373493981,
+            282
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack6.png",
+          "grid": [
+            68,
+            96
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            32.336867469879536,
+            94.98947368421052
+          ],
+          "rectCount": 1308
+        },
+        {
+          "id": "attack7",
+          "source": "attack-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            1046,
+            294,
+            281,
+            266
+          ],
+          "anchor": [
+            68.27272727272725,
+            233
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack7.png",
+          "grid": [
+            95,
+            90
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            23.081527013911348,
+            78.83458646616542
+          ],
+          "rectCount": 1184
+        },
+        {
+          "id": "attack8",
+          "source": "attack-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            74,
+            578,
+            204,
+            292
+          ],
+          "anchor": [
+            69.64666666666668,
+            289
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack8.png",
+          "grid": [
+            69,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            23.55696078431373,
+            97.98287671232876
+          ],
+          "rectCount": 1475
+        },
+        {
+          "id": "attack9",
+          "source": "attack-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            393,
+            578,
+            254,
+            293
+          ],
+          "anchor": [
+            76.4970760233918,
+            290
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack9.png",
+          "grid": [
+            86,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            25.900584795321635,
+            97.9863481228669
+          ],
+          "rectCount": 1461
+        },
+        {
+          "id": "attack10",
+          "source": "attack-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            752,
+            580,
+            183,
+            291
+          ],
+          "anchor": [
+            62.51612903225805,
+            288
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack10.png",
+          "grid": [
+            62,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            21.180327868852455,
+            96.98969072164948
+          ],
+          "rectCount": 1389
+        },
+        {
+          "id": "attack11",
+          "source": "attack-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            1077,
+            578,
+            176,
+            293
+          ],
+          "anchor": [
+            62.73134328358219,
+            289
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack11.png",
+          "grid": [
+            59,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            21.029257123473574,
+            97.64846416382252
+          ],
+          "rectCount": 1410
+        },
+        {
+          "id": "attack12",
+          "source": "attack-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            70,
+            866,
+            244,
+            293
+          ],
+          "anchor": [
+            77.84210526315789,
+            290
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack12.png",
+          "grid": [
+            82,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            26.160051768766174,
+            97.9863481228669
+          ],
+          "rectCount": 1663
+        },
+        {
+          "id": "attack13",
+          "source": "attack-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            413,
+            869,
+            219,
+            289
+          ],
+          "anchor": [
+            102.63594470046087,
+            285
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack13.png",
+          "grid": [
+            74,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            34.68063884855755,
+            96.64359861591696
+          ],
+          "rectCount": 1418
+        },
+        {
+          "id": "attack14",
+          "source": "attack-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            764,
+            870,
+            157,
+            288
+          ],
+          "anchor": [
+            57.19047619047615,
+            285
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack14.png",
+          "grid": [
+            53,
+            97
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            19.306339096147997,
+            95.98958333333333
+          ],
+          "rectCount": 1255
+        },
+        {
+          "id": "attack15",
+          "source": "attack-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            1099,
+            870,
+            170,
+            290
+          ],
+          "anchor": [
+            61.26797385620921,
+            287
+          ],
+          "unit": 0.7676056338028169,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-attack15.png",
+          "grid": [
+            57,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            20.542791234140736,
+            96.98620689655172
+          ],
+          "rectCount": 1499
+        },
+        {
+          "id": "connections0",
+          "source": "connections-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            91,
+            9,
+            147,
+            247
+          ],
+          "anchor": [
+            102.45783132530121,
+            243
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections0.png",
+          "grid": [
+            59,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            41.12253094008688,
+            96.41295546558705
+          ],
+          "rectCount": 1465
+        },
+        {
+          "id": "connections1",
+          "source": "connections-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            486,
+            10,
+            157,
+            246
+          ],
+          "anchor": [
+            93.5,
+            243
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections1.png",
+          "grid": [
+            63,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            37.51910828025478,
+            96.8048780487805
+          ],
+          "rectCount": 1546
+        },
+        {
+          "id": "connections2",
+          "source": "connections-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            861,
+            7,
+            187,
+            249
+          ],
+          "anchor": [
+            59.617886178861795,
+            246
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections2.png",
+          "grid": [
+            74,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            23.59210469110039,
+            97.80722891566265
+          ],
+          "rectCount": 1606
+        },
+        {
+          "id": "connections3",
+          "source": "connections-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            1245,
+            13,
+            213,
+            243
+          ],
+          "anchor": [
+            86.02597402597394,
+            215
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections3.png",
+          "grid": [
+            85,
+            97
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            34.32961404792387,
+            85.82304526748972
+          ],
+          "rectCount": 1597
+        },
+        {
+          "id": "connections4",
+          "source": "connections-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            80,
+            257,
+            262,
+            254
+          ],
+          "anchor": [
+            164.44444444444446,
+            243
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections4.png",
+          "grid": [
+            104,
+            101
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            65.27565733672604,
+            96.6259842519685
+          ],
+          "rectCount": 1757
+        },
+        {
+          "id": "connections5",
+          "source": "connections-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            471,
+            265,
+            253,
+            246
+          ],
+          "anchor": [
+            157.5151515151515,
+            237
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections5.png",
+          "grid": [
+            101,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            62.88154269972451,
+            94.41463414634147
+          ],
+          "rectCount": 1695
+        },
+        {
+          "id": "connections6",
+          "source": "connections-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            860,
+            263,
+            175,
+            248
+          ],
+          "anchor": [
+            123.98666666666668,
+            242
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections6.png",
+          "grid": [
+            70,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            49.59466666666667,
+            96.60483870967742
+          ],
+          "rectCount": 1669
+        },
+        {
+          "id": "connections7",
+          "source": "connections-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            1242,
+            258,
+            145,
+            253
+          ],
+          "anchor": [
+            96.04444444444448,
+            250
+          ],
+          "unit": 0.9045643153526971,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections7.png",
+          "grid": [
+            58,
+            101
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            38.41777777777779,
+            99.80237154150197
+          ],
+          "rectCount": 1513
+        },
+        {
+          "id": "connections8",
+          "source": "connections-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            91,
+            519,
+            152,
+            248
+          ],
+          "anchor": [
+            87.72043010752688,
+            245
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections8.png",
+          "grid": [
+            60,
+            98
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            34.62648556876061,
+            96.81451612903226
+          ],
+          "rectCount": 1503
+        },
+        {
+          "id": "connections9",
+          "source": "connections-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            480,
+            518,
+            179,
+            250
+          ],
+          "anchor": [
+            115.56756756756761,
+            246
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections9.png",
+          "grid": [
+            71,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            45.83964970557151,
+            97.416
+          ],
+          "rectCount": 1580
+        },
+        {
+          "id": "connections10",
+          "source": "connections-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            869,
+            516,
+            191,
+            252
+          ],
+          "anchor": [
+            53.01724137931035,
+            249
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections10.png",
+          "grid": [
+            76,
+            100
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            21.095865679725584,
+            98.80952380952381
+          ],
+          "rectCount": 1553
+        },
+        {
+          "id": "connections11",
+          "source": "connections-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            1226,
+            517,
+            249,
+            251
+          ],
+          "anchor": [
+            99.3972602739725,
+            223
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections11.png",
+          "grid": [
+            99,
+            100
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            39.51939263904931,
+            88.84462151394422
+          ],
+          "rectCount": 1731
+        },
+        {
+          "id": "connections12",
+          "source": "connections-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            81,
+            772,
+            262,
+            250
+          ],
+          "anchor": [
+            170.8421052631579,
+            243
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections12.png",
+          "grid": [
+            104,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            67.81518682201687,
+            96.228
+          ],
+          "rectCount": 1709
+        },
+        {
+          "id": "connections13",
+          "source": "connections-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            482,
+            773,
+            188,
+            249
+          ],
+          "anchor": [
+            97.40350877192986,
+            222
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections13.png",
+          "grid": [
+            75,
+            99
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            38.857782754759256,
+            88.26506024096386
+          ],
+          "rectCount": 1639
+        },
+        {
+          "id": "connections14",
+          "source": "connections-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            869,
+            777,
+            168,
+            245
+          ],
+          "anchor": [
+            90.63235294117646,
+            242
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections14.png",
+          "grid": [
+            67,
+            97
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            36.14504551820728,
+            95.81224489795919
+          ],
+          "rectCount": 1564
+        },
+        {
+          "id": "connections15",
+          "source": "connections-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            1242,
+            771,
+            145,
+            251
+          ],
+          "anchor": [
+            100.11666666666656,
+            248
+          ],
+          "unit": 0.9008264462809917,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/lisa-connections15.png",
+          "grid": [
+            58,
+            100
+          ],
+          "displayScale": 2.2708333333333335,
+          "pixelAnchor": [
+            40.046666666666624,
+            98.80478087649402
+          ],
+          "rectCount": 1602
+        }
+      ],
+      "notes": [
+        "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+        "角色特效独立；具体最终技能效果待讨论。",
+        "状态型技能配套及正式战斗/真机仍需独立验收。"
+      ],
+      "sequences": {
+        "idle": [
+          [
+            "basic0",
+            24
+          ],
+          [
+            "basic1",
+            24
+          ]
+        ],
+        "walk": [
+          [
+            "basic2",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ],
+          [
+            "basic4",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ]
+        ],
+        "crouch": [
+          [
+            "basic5",
+            36
+          ]
+        ],
+        "guard": [
+          [
+            "basic6",
+            36
+          ]
+        ],
+        "crouchGuard": [
+          [
+            "basic7",
+            36
+          ]
+        ],
+        "jump": [
+          [
+            "basic8",
+            6
+          ],
+          [
+            "basic9",
+            14
+          ],
+          [
+            "basic10",
+            14
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "hurt": [
+          [
+            "basic12",
+            20
+          ]
+        ],
+        "airHurt": [
+          [
+            "basic13",
+            24
+          ]
+        ],
+        "down": [
+          [
+            "basic14",
+            36
+          ]
+        ],
+        "getup": [
+          [
+            "basic15",
+            16
+          ],
+          [
+            "basic5",
+            8
+          ],
+          [
+            "basic0",
+            12
+          ]
+        ],
+        "A": [
+          [
+            "connections0",
+            4
+          ],
+          [
+            "connections1",
+            3
+          ],
+          [
+            "connections2",
+            3
+          ],
+          [
+            "connections3",
+            3
+          ],
+          [
+            "connections4",
+            2
+          ],
+          [
+            "connections5",
+            9
+          ],
+          [
+            "connections6",
+            8
+          ],
+          [
+            "connections7",
+            8
+          ]
+        ],
+        "lowA": [
+          [
+            "attack3",
+            8
+          ],
+          [
+            "attack4",
+            3
+          ],
+          [
+            "attack5",
+            14
+          ]
+        ],
+        "airA": [
+          [
+            "attack6",
+            8
+          ],
+          [
+            "attack7",
+            6
+          ],
+          [
+            "basic10",
+            10
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "E": [
+          [
+            "connections8",
+            6
+          ],
+          [
+            "connections9",
+            6
+          ],
+          [
+            "connections10",
+            5
+          ],
+          [
+            "connections11",
+            3
+          ],
+          [
+            "connections12",
+            2
+          ],
+          [
+            "connections13",
+            9
+          ],
+          [
+            "connections14",
+            8
+          ],
+          [
+            "connections15",
+            8
+          ]
+        ],
+        "Q": [
+          [
+            "attack11",
+            27
+          ],
+          [
+            "attack12",
+            5
+          ],
+          [
+            "attack13",
+            25
+          ]
+        ],
+        "win": [
+          [
+            "attack14",
+            18
+          ],
+          [
+            "attack15",
+            48
+          ]
+        ]
+      },
+      "pool": 1757,
+      "dataBytes": 1844626,
+      "gzipBytes": 317520
+    }
+  ]
+}

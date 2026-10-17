@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "lisa",
+      "id": "basic0",
+      "grid": [
+        54,
+        98
+      ],
+      "rects": 1549,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic1",
+      "grid": [
+        54,
+        96
+      ],
+      "rects": 1532,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic2",
+      "grid": [
+        63,
+        97
+      ],
+      "rects": 1606,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic3",
+      "grid": [
+        71,
+        97
+      ],
+      "rects": 1576,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic4",
+      "grid": [
+        70,
+        95
+      ],
+      "rects": 1721,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic5",
+      "grid": [
+        68,
+        67
+      ],
+      "rects": 1161,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic6",
+      "grid": [
+        77,
+        92
+      ],
+      "rects": 1684,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic7",
+      "grid": [
+        78,
+        63
+      ],
+      "rects": 1170,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic8",
+      "grid": [
+        71,
+        68
+      ],
+      "rects": 1215,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic9",
+      "grid": [
+        64,
+        87
+      ],
+      "rects": 1408,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic10",
+      "grid": [
+        70,
+        90
+      ],
+      "rects": 1574,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic11",
+      "grid": [
+        75,
+        66
+      ],
+      "rects": 1238,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic12",
+      "grid": [
+        76,
+        77
+      ],
+      "rects": 1427,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic13",
+      "grid": [
+        90,
+        70
+      ],
+      "rects": 1216,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic14",
+      "grid": [
+        106,
+        29
+      ],
+      "rects": 881,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "basic15",
+      "grid": [
+        79,
+        56
+      ],
+      "rects": 1071,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack0",
+      "grid": [
+        71,
+        98
+      ],
+      "rects": 1388,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack1",
+      "grid": [
+        92,
+        97
+      ],
+      "rects": 1456,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack2",
+      "grid": [
+        58,
+        98
+      ],
+      "rects": 1379,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack3",
+      "grid": [
+        87,
+        73
+      ],
+      "rects": 1382,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack4",
+      "grid": [
+        101,
+        67
+      ],
+      "rects": 1246,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack5",
+      "grid": [
+        86,
+        74
+      ],
+      "rects": 1193,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack6",
+      "grid": [
+        68,
+        96
+      ],
+      "rects": 1308,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack7",
+      "grid": [
+        95,
+        90
+      ],
+      "rects": 1184,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack8",
+      "grid": [
+        69,
+        99
+      ],
+      "rects": 1475,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack9",
+      "grid": [
+        86,
+        99
+      ],
+      "rects": 1461,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack10",
+      "grid": [
+        62,
+        98
+      ],
+      "rects": 1389,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack11",
+      "grid": [
+        59,
+        99
+      ],
+      "rects": 1410,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack12",
+      "grid": [
+        82,
+        99
+      ],
+      "rects": 1663,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack13",
+      "grid": [
+        74,
+        98
+      ],
+      "rects": 1418,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack14",
+      "grid": [
+        53,
+        97
+      ],
+      "rects": 1255,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "attack15",
+      "grid": [
+        57,
+        98
+      ],
+      "rects": 1499,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections0",
+      "grid": [
+        59,
+        98
+      ],
+      "rects": 1465,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections1",
+      "grid": [
+        63,
+        98
+      ],
+      "rects": 1546,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections2",
+      "grid": [
+        74,
+        99
+      ],
+      "rects": 1606,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections3",
+      "grid": [
+        85,
+        97
+      ],
+      "rects": 1597,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections4",
+      "grid": [
+        104,
+        101
+      ],
+      "rects": 1757,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections5",
+      "grid": [
+        101,
+        98
+      ],
+      "rects": 1695,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections6",
+      "grid": [
+        70,
+        99
+      ],
+      "rects": 1669,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections7",
+      "grid": [
+        58,
+        101
+      ],
+      "rects": 1513,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections8",
+      "grid": [
+        60,
+        98
+      ],
+      "rects": 1503,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections9",
+      "grid": [
+        71,
+        99
+      ],
+      "rects": 1580,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections10",
+      "grid": [
+        76,
+        100
+      ],
+      "rects": 1553,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections11",
+      "grid": [
+        99,
+        100
+      ],
+      "rects": 1731,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections12",
+      "grid": [
+        104,
+        99
+      ],
+      "rects": 1709,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections13",
+      "grid": [
+        75,
+        99
+      ],
+      "rects": 1639,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections14",
+      "grid": [
+        67,
+        97
+      ],
+      "rects": 1564,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lisa",
+      "id": "connections15",
+      "grid": [
+        58,
+        100
+      ],
+      "rects": 1602,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "lisa",
+      "pool": 1757,
+      "dataBytes": 1844626,
+      "gzipBytes": 317520
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

@@ -1,0 +1,38 @@
+{
+  "source": "outputs/v4-one-character-20261010/baseline-actions/nahida/basic_0.png",
+  "sourceCrop": [
+    0,
+    0,
+    41,
+    71
+  ],
+  "sourceSize": [
+    41,
+    71
+  ],
+  "inputIsOriginalLargeCrop": false,
+  "variants": {
+    "14color": {
+      "colors": 14,
+      "colorPaths": 12,
+      "closedContours": 473,
+      "controlPoints": 2599,
+      "discardedTinyContours": 0,
+      "curveTolerance": 0.5,
+      "minRegionArea": 1
+    },
+    "24color": {
+      "colors": 24,
+      "colorPaths": 19,
+      "closedContours": 660,
+      "controlPoints": 3688,
+      "discardedTinyContours": 0,
+      "curveTolerance": 0.3,
+      "minRegionArea": 0.5
+    }
+  },
+  "status": "vector-contour-study",
+  "nativeGenshinPrimitiveCount": null,
+  "deviceVerified": false,
+  "gameSourceChanged": false
+}

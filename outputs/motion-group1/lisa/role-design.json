@@ -1,0 +1,68 @@
+{
+  "key": "lisa",
+  "name": "丽莎",
+  "height": 218,
+  "design": {
+    "key": "lisa",
+    "name": "丽莎",
+    "weapon": "character-specific",
+    "color": "#aecbdc",
+    "identity": "按原作角色动作意图改编为横版格斗",
+    "evidence": "技能名沿用现有talent-index；数值、动作适配为候选。",
+    "moves": {
+      "A": {
+        "name": "普通攻击",
+        "startup": 10,
+        "active": 5,
+        "recovery": 25,
+        "reach": 145,
+        "damage": 9,
+        "fx": "slash",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "effectExtent": 167,
+        "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+      },
+      "E": {
+        "name": "苍雷",
+        "startup": 17,
+        "active": 5,
+        "recovery": 25,
+        "reach": 220,
+        "damage": 15,
+        "fx": "seal",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "effectExtent": 242,
+        "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+      },
+      "Q": {
+        "name": "蔷薇的雷光",
+        "startup": 27,
+        "active": 5,
+        "recovery": 25,
+        "reach": 270,
+        "damage": 32,
+        "fx": "seal",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "effectExtent": 292,
+        "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。",
+        "support": false,
+        "effectDuration": 0
+      }
+    }
+  },
+  "notes": [
+    "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+    "角色特效独立；具体最终技能效果待讨论。",
+    "状态型技能配套及正式战斗/真机仍需独立验收。"
+  ],
+  "sourceVersion": "v3"
+}

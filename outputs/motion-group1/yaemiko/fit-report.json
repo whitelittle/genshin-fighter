@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "yaemiko",
+      "id": "basic0",
+      "grid": [
+        97,
+        98
+      ],
+      "rects": 1999,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic1",
+      "grid": [
+        74,
+        98
+      ],
+      "rects": 1869,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic2",
+      "grid": [
+        78,
+        98
+      ],
+      "rects": 1760,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic3",
+      "grid": [
+        79,
+        98
+      ],
+      "rects": 1659,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic4",
+      "grid": [
+        79,
+        97
+      ],
+      "rects": 1719,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic5",
+      "grid": [
+        79,
+        70
+      ],
+      "rects": 1347,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic6",
+      "grid": [
+        83,
+        98
+      ],
+      "rects": 1915,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic7",
+      "grid": [
+        90,
+        67
+      ],
+      "rects": 1573,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic8",
+      "grid": [
+        67,
+        70
+      ],
+      "rects": 1251,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic9",
+      "grid": [
+        83,
+        95
+      ],
+      "rects": 1705,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic10",
+      "grid": [
+        89,
+        93
+      ],
+      "rects": 1543,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic11",
+      "grid": [
+        93,
+        62
+      ],
+      "rects": 1560,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic12",
+      "grid": [
+        93,
+        88
+      ],
+      "rects": 1796,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic13",
+      "grid": [
+        107,
+        79
+      ],
+      "rects": 1518,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic14",
+      "grid": [
+        118,
+        29
+      ],
+      "rects": 1118,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "basic15",
+      "grid": [
+        87,
+        60
+      ],
+      "rects": 1429,
+      "source": "basic-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack0",
+      "grid": [
+        95,
+        98
+      ],
+      "rects": 1870,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack1",
+      "grid": [
+        113,
+        96
+      ],
+      "rects": 2129,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack2",
+      "grid": [
+        88,
+        101
+      ],
+      "rects": 2010,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack3",
+      "grid": [
+        97,
+        72
+      ],
+      "rects": 1668,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack4",
+      "grid": [
+        107,
+        68
+      ],
+      "rects": 1869,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack5",
+      "grid": [
+        90,
+        68
+      ],
+      "rects": 1589,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack6",
+      "grid": [
+        96,
+        92
+      ],
+      "rects": 1926,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack7",
+      "grid": [
+        102,
+        88
+      ],
+      "rects": 2017,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack8",
+      "grid": [
+        87,
+        97
+      ],
+      "rects": 1878,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack9",
+      "grid": [
+        94,
+        67
+      ],
+      "rects": 1654,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack10",
+      "grid": [
+        74,
+        99
+      ],
+      "rects": 1918,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack11",
+      "grid": [
+        88,
+        103
+      ],
+      "rects": 1985,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack12",
+      "grid": [
+        99,
+        97
+      ],
+      "rects": 2260,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack13",
+      "grid": [
+        101,
+        97
+      ],
+      "rects": 1963,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack14",
+      "grid": [
+        84,
+        99
+      ],
+      "rects": 1883,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "attack15",
+      "grid": [
+        71,
+        98
+      ],
+      "rects": 1844,
+      "source": "attack-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections0",
+      "grid": [
+        87,
+        98
+      ],
+      "rects": 1729,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections1",
+      "grid": [
+        96,
+        98
+      ],
+      "rects": 1618,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections2",
+      "grid": [
+        91,
+        102
+      ],
+      "rects": 1705,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections3",
+      "grid": [
+        126,
+        98
+      ],
+      "rects": 1821,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections4",
+      "grid": [
+        138,
+        93
+      ],
+      "rects": 1755,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections5",
+      "grid": [
+        113,
+        93
+      ],
+      "rects": 1892,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections6",
+      "grid": [
+        108,
+        91
+      ],
+      "rects": 1697,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections7",
+      "grid": [
+        89,
+        94
+      ],
+      "rects": 1611,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections8",
+      "grid": [
+        81,
+        98
+      ],
+      "rects": 1690,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections9",
+      "grid": [
+        100,
+        83
+      ],
+      "rects": 1602,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections10",
+      "grid": [
+        109,
+        76
+      ],
+      "rects": 1485,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections11",
+      "grid": [
+        103,
+        67
+      ],
+      "rects": 1377,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections12",
+      "grid": [
+        103,
+        87
+      ],
+      "rects": 1664,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections13",
+      "grid": [
+        107,
+        93
+      ],
+      "rects": 1676,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections14",
+      "grid": [
+        86,
+        90
+      ],
+      "rects": 1691,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "yaemiko",
+      "id": "connections15",
+      "grid": [
+        82,
+        95
+      ],
+      "rects": 1602,
+      "source": "connections-v4.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "yaemiko",
+      "pool": 2260,
+      "dataBytes": 2221923,
+      "gzipBytes": 378526
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

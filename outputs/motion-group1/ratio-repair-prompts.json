@@ -1,0 +1,24 @@
+{
+  "basic": [
+    [
+      "yanfei",
+      "Yanfei from Genshin Impact. Reference is ONLY for recognizable salmon pink hair, red gold legal hat, red white gold costume. CORRECT the oversized-head proportion: graceful normal young-woman anatomy, about 6.5 heads tall, matching other teenage/young-adult female fighters. Do not shrink the whole character to hide the big head. Hand gestures for caster, no sword."
+    ],
+    [
+      "klee",
+      "Klee from Genshin Impact. First reference for red hat with clover, short blonde hair, pointed ears, red cream coat, backpack, boots. Second reference is the newly corrected Nahida for NORMAL CHILD proportion/style. Use comparable coordinated child anatomy, about 5 heads tall, smaller head relative to torso than old Klee. Preserve child identity, do not make adult or tall-legged. Uniform scale will be handled by preview code later; do not stretch height. Caster hand guards. No effects."
+    ]
+  ],
+  "master": [
+    [
+      "klee",
+      "Create ONE full-body side-view idle combat sprite of Klee (Genshin Impact), NOT a sprite sheet. Correct the first reference's chibi proportions substantially. Second reference Nahida is the proportional style to match: small narrow head, clearly elongated child torso, distinct leg segments, natural child anatomy, NOT adult. Head skull WITHOUT HAT must be only 18 percent of total bare body height, approximately 5.5 heads tall. Hat on top must NOT make face larger. Smaller eyes and narrower cheeks than first reference. Preserve authentic recognizable red clover hat with feather, blonde hair, elf ears, red cream clover coat, brown backpack and boots. Three-quarter SIDE combat camera facing right, relaxed slight knees, hands readied near waist. One identical child silhouette suitable for horizontal fighting game with normal-proportion Nahida. Pixel art, no effects, no text, no ground, transparent background. Entire hat and shoes completely inside image with 10 percent transparent margin on all sides. Do not create cute super-deformed illustration."
+    ],
+    [
+      "yanfei",
+      "Create ONE full-body side-view idle combat sprite of Yanfei (Genshin Impact), NOT a sprite sheet. Reference for identity and outfit only. FIX oversized head. Normal young female fighter anatomy matching graceful Ganyu/Keqing: 6.5 to 7 heads tall excluding hat, small narrow face, head skull exactly about 15 percent of body height, proportionate hands and legs, not chibi. Preserve salmon pink hair, red gold legal hat and characteristic red white gold outfit. Side-view horizontal fighting-game camera facing right, one hand readied for catalyst magic, feet grounded in a balanced idle. Crisp pixel art, no magical effects, no background, no text, transparent. Entire hat and shoes completely inside image with at least 10 percent transparent margin. No portrait framing, no SD body."
+    ]
+  ],
+  "clean": "Edit ONLY background and edge transparency of this Klee sprite. Preserve character anatomy, pose, outfit, palette, pixel detail and exact size. Remove ALL brown/red/white glow, halo, gradient, shadow and background pixels surrounding the figure. Pure transparent alpha outside the crisp character silhouette, including holes between limbs. No outline bloom. Keep complete hat feather and shoes. Do not change proportions. This must be a clean game sprite transparent cutout.",
+  "status": "candidate_ratio_review_full_batch_and_full_test_build_not_complete"
+}

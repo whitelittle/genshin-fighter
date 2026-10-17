@@ -1,0 +1,115 @@
+[
+  {
+    "source": "gf_animation_data.lua",
+    "count": 74,
+    "first": {
+      "frame": "basic_0",
+      "images": 852
+    },
+    "maximum": {
+      "frame": "basic_6",
+      "images": 920
+    },
+    "minimum": {
+      "frame": "hurt_3",
+      "images": 782
+    },
+    "examples": [
+      {
+        "frame": "basic_0",
+        "images": 852
+      },
+      {
+        "frame": "basic_1",
+        "images": 843
+      },
+      {
+        "frame": "basic_2",
+        "images": 844
+      },
+      {
+        "frame": "basic_3",
+        "images": 890
+      },
+      {
+        "frame": "basic_4",
+        "images": 913
+      },
+      {
+        "frame": "basic_5",
+        "images": 878
+      },
+      {
+        "frame": "basic_6",
+        "images": 920
+      },
+      {
+        "frame": "basic_7",
+        "images": 872
+      },
+      {
+        "frame": "move_0",
+        "images": 832
+      },
+      {
+        "frame": "move_1",
+        "images": 844
+      }
+    ]
+  },
+  {
+    "source": "gf_inbetween_data.lua",
+    "count": 74,
+    "first": null,
+    "maximum": {
+      "frame": "heavy_between_5",
+      "images": 909
+    },
+    "minimum": {
+      "frame": "hurt_between_7",
+      "images": 779
+    },
+    "examples": [
+      {
+        "frame": "basic_between_0",
+        "images": 806
+      },
+      {
+        "frame": "basic_between_1",
+        "images": 824
+      },
+      {
+        "frame": "basic_between_2",
+        "images": 805
+      },
+      {
+        "frame": "basic_between_3",
+        "images": 885
+      },
+      {
+        "frame": "basic_between_4",
+        "images": 818
+      },
+      {
+        "frame": "basic_between_5",
+        "images": 882
+      },
+      {
+        "frame": "basic_between_6",
+        "images": 890
+      },
+      {
+        "frame": "basic_between_7",
+        "images": 884
+      },
+      {
+        "frame": "light_between_0",
+        "images": 850
+      },
+      {
+        "frame": "light_between_1",
+        "images": 798
+      }
+    ]
+  }
+]

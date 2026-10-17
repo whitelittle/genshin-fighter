@@ -1,0 +1,296 @@
+{
+  "role": [
+    "diluc",
+    "迪卢克"
+  ],
+  "states": {
+    "idle": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic0",
+          24
+        ],
+        [
+          "basic1",
+          24
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "walk": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic2",
+          8
+        ],
+        [
+          "basic3",
+          8
+        ],
+        [
+          "basic4",
+          8
+        ],
+        [
+          "basic3",
+          8
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "crouch": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic5",
+          36
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "guard": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic6",
+          36
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "crouchGuard": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic7",
+          36
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "jump": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic8",
+          6
+        ],
+        [
+          "basic9",
+          14
+        ],
+        [
+          "basic10",
+          14
+        ],
+        [
+          "basic11",
+          6
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "hurt": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic12",
+          20
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "airHurt": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic13",
+          24
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "down": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic14",
+          36
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "getup": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "basic15",
+          16
+        ],
+        [
+          "basic5",
+          8
+        ],
+        [
+          "basic0",
+          12
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "A": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "connections0",
+          4
+        ],
+        [
+          "connections1",
+          3
+        ],
+        [
+          "connections2",
+          3
+        ],
+        [
+          "connections3",
+          2
+        ],
+        [
+          "connections4",
+          2
+        ],
+        [
+          "connections5",
+          7
+        ],
+        [
+          "connections6",
+          6
+        ],
+        [
+          "connections7",
+          6
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "lowA": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "attack3",
+          8
+        ],
+        [
+          "attack4",
+          3
+        ],
+        [
+          "attack5",
+          14
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "airA": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "attack6",
+          8
+        ],
+        [
+          "attack7",
+          6
+        ],
+        [
+          "basic10",
+          10
+        ],
+        [
+          "basic11",
+          6
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "E": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "connections8",
+          5
+        ],
+        [
+          "connections9",
+          5
+        ],
+        [
+          "connections10",
+          5
+        ],
+        [
+          "connections11",
+          2
+        ],
+        [
+          "connections12",
+          2
+        ],
+        [
+          "connections13",
+          8
+        ],
+        [
+          "connections14",
+          8
+        ],
+        [
+          "basic0",
+          7
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "Q": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "attack11",
+          28
+        ],
+        [
+          "attack12",
+          5
+        ],
+        [
+          "attack13",
+          35
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    },
+    "win": {
+      "status": "playback_candidate",
+      "frames": [
+        [
+          "attack14",
+          18
+        ],
+        [
+          "attack15",
+          48
+        ]
+      ],
+      "review": "visual_candidate_not_final"
+    }
+  },
+  "intro": "discussion_pending",
+  "productionCombatChanged": false,
+  "deviceVerified": false,
+  "fullAnimationApproved": false
+}

@@ -1,0 +1,67 @@
+{
+  "key": "yanfei",
+  "name": "烟绯",
+  "height": 210,
+  "design": {
+    "key": "yanfei",
+    "name": "烟绯",
+    "weapon": "catalyst",
+    "color": "#ef997d",
+    "identity": "火系法器施法手势与丹书印记；正常青年女性比例",
+    "evidence": "原作技能方向沿用docs/第一版角色改编与素材来源；下列距离与时长为新探针候选，不是已批准战斗平衡。",
+    "moves": {
+      "A": {
+        "name": "火漆制印 · 掌势",
+        "startup": 10,
+        "active": 4,
+        "recovery": 19,
+        "reach": 160,
+        "damage": 9,
+        "fx": "fireball",
+        "notes": "前掌推出，重心跟进，弹体独立。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "effectExtent": 182
+      },
+      "E": {
+        "name": "丹书立约 · 印落",
+        "startup": 17,
+        "active": 5,
+        "recovery": 27,
+        "reach": 210,
+        "damage": 15,
+        "fx": "seal",
+        "notes": "明确落掌施法；印记不烘焙入人物帧。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "effectExtent": 232
+      },
+      "Q": {
+        "name": "凭此结契 · 契印终击",
+        "startup": 27,
+        "active": 5,
+        "recovery": 35,
+        "reach": 260,
+        "damage": 32,
+        "fx": "seal",
+        "notes": "本轮命中演出候选；不是原作持续增益完整状态。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "effectExtent": 282,
+        "support": false,
+        "effectDuration": 0
+      }
+    }
+  },
+  "notes": [
+    "第一批比例修订候选；基础/攻击/连接姿势各16张，普攻/E各8张连接。",
+    "青年女性正常头身比；不靠缩小整张图掩盖大头。",
+    "具体特效仍待讨论；未接入正式测试GIA或真机验收。"
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "lawachurl",
+      "id": "basic0",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic1",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic2",
+      "grid": [
+        90,
+        98
+      ],
+      "rects": 2011,
+      "source": "reused-source/lawachurl-walk1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic3",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic4",
+      "grid": [
+        90,
+        96
+      ],
+      "rects": 2079,
+      "source": "reused-source/lawachurl-walk2.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic5",
+      "grid": [
+        92,
+        77
+      ],
+      "rects": 1764,
+      "source": "reused-source/lawachurl-crouch.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic6",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic7",
+      "grid": [
+        86,
+        74
+      ],
+      "rects": 1752,
+      "source": "reused-source/lawachurl-crouchGuard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic8",
+      "grid": [
+        92,
+        77
+      ],
+      "rects": 1764,
+      "source": "reused-source/lawachurl-crouch.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic9",
+      "grid": [
+        98,
+        96
+      ],
+      "rects": 982,
+      "source": "reused-source/lawachurl-jump.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic10",
+      "grid": [
+        98,
+        96
+      ],
+      "rects": 982,
+      "source": "reused-source/lawachurl-jump.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic11",
+      "grid": [
+        92,
+        77
+      ],
+      "rects": 1764,
+      "source": "reused-source/lawachurl-crouch.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic12",
+      "grid": [
+        100,
+        87
+      ],
+      "rects": 1654,
+      "source": "reused-source/lawachurl-hurt.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic13",
+      "grid": [
+        100,
+        87
+      ],
+      "rects": 1654,
+      "source": "reused-source/lawachurl-hurt.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic14",
+      "grid": [
+        100,
+        49
+      ],
+      "rects": 348,
+      "source": "reused-source/lawachurl-down.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "basic15",
+      "grid": [
+        92,
+        77
+      ],
+      "rects": 1764,
+      "source": "reused-source/lawachurl-crouch.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack0",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack1",
+      "grid": [
+        98,
+        77
+      ],
+      "rects": 2006,
+      "source": "reused-source/lawachurl-slash.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack2",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack3",
+      "grid": [
+        92,
+        77
+      ],
+      "rects": 1764,
+      "source": "reused-source/lawachurl-crouch.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack4",
+      "grid": [
+        98,
+        77
+      ],
+      "rects": 2006,
+      "source": "reused-source/lawachurl-slash.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack5",
+      "grid": [
+        92,
+        77
+      ],
+      "rects": 1764,
+      "source": "reused-source/lawachurl-crouch.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack6",
+      "grid": [
+        98,
+        96
+      ],
+      "rects": 982,
+      "source": "reused-source/lawachurl-jump.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack7",
+      "grid": [
+        98,
+        77
+      ],
+      "rects": 2006,
+      "source": "reused-source/lawachurl-slash.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack8",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack9",
+      "grid": [
+        101,
+        72
+      ],
+      "rects": 1144,
+      "source": "reused-source/lawachurl-special.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack10",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack11",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack12",
+      "grid": [
+        100,
+        87
+      ],
+      "rects": 2333,
+      "source": "reused-source/lawachurl-qRelease.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack13",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack14",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "attack15",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections0",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections1",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections2",
+      "grid": [
+        91,
+        93
+      ],
+      "rects": 1341,
+      "source": "reused-source/lawachurl-guard.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections3",
+      "grid": [
+        98,
+        77
+      ],
+      "rects": 2006,
+      "source": "reused-source/lawachurl-slash.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections4",
+      "grid": [
+        98,
+        77
+      ],
+      "rects": 2006,
+      "source": "reused-source/lawachurl-slash.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections5",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections6",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections7",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections8",
+      "grid": [
+        101,
+        72
+      ],
+      "rects": 1144,
+      "source": "reused-source/lawachurl-special.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections9",
+      "grid": [
+        101,
+        72
+      ],
+      "rects": 1144,
+      "source": "reused-source/lawachurl-special.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections10",
+      "grid": [
+        101,
+        72
+      ],
+      "rects": 1144,
+      "source": "reused-source/lawachurl-special.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections11",
+      "grid": [
+        101,
+        72
+      ],
+      "rects": 1144,
+      "source": "reused-source/lawachurl-special.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections12",
+      "grid": [
+        101,
+        72
+      ],
+      "rects": 1144,
+      "source": "reused-source/lawachurl-special.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections13",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections14",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "lawachurl",
+      "id": "connections15",
+      "grid": [
+        92,
+        96
+      ],
+      "rects": 1473,
+      "source": "reused-source/lawachurl-idle.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "lawachurl",
+      "pool": 2333,
+      "dataBytes": 1901468,
+      "gzipBytes": 298739
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

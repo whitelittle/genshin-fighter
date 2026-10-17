@@ -1,0 +1,31 @@
+{
+  "selectedSVG": "hd-fit-18color.svg",
+  "sourceClosedSubpaths": 1385,
+  "flattenToleranceHDpixels": 0.35,
+  "flattenedVertices": 29792,
+  "meshTriangles": 26138,
+  "nativeTriangleImages": 52276,
+  "method": "SVG curves → adaptive geometric flattening → polygon-with-holes triangulation → altitude split → 100003 horizontal-left 50% fill",
+  "inputRasterized": false,
+  "svgSameColorStrokeNotConverted": true,
+  "deviceVerified": false,
+  "triangleSeamExpansionHDpixels": {
+    "width": 1.2,
+    "height": 0.6
+  },
+  "nativeGeometryImageCount": 52276,
+  "totalControls": 52283,
+  "giaBytes": 47069122,
+  "giaStructuralValidation": true,
+  "actualGiaReimported": true,
+  "halfTriangleFillPreserved": true,
+  "simulatorRuntimeErrors": 0,
+  "simulatorRendered": true,
+  "pngReplacement": false,
+  "warnings": [
+    "草神18色矢量几何实验: 新服务端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "Title: 垂直居中按推定值导出，尚待实机确认。",
+    "Count: 垂直居中按推定值导出，尚待实机确认。",
+    "Note: 垂直居中按推定值导出，尚待实机确认。"
+  ]
+}

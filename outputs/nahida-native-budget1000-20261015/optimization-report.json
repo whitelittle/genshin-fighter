@@ -1,0 +1,119 @@
+{
+  "baseline": {
+    "images": 497,
+    "foregroundRGBMAE": 19.893,
+    "wholeCanvasRGBMSE": 0.00725,
+    "silhouetteIoU": 0.95988
+  },
+  "final": {
+    "images": 994,
+    "foregroundRGBMAE": 15.053,
+    "wholeCanvasRGBMSE": 0.004575,
+    "silhouetteIoU": 0.96878
+  },
+  "addedBeforePruning": 503,
+  "additionHistory": [
+    {
+      "images": 537,
+      "foregroundRGBMAE": 19.491,
+      "wholeCanvasRGBMSE": 0.006977,
+      "silhouetteIoU": 0.96019
+    },
+    {
+      "images": 577,
+      "foregroundRGBMAE": 19.156,
+      "wholeCanvasRGBMSE": 0.006782,
+      "silhouetteIoU": 0.96041
+    },
+    {
+      "images": 617,
+      "foregroundRGBMAE": 18.831,
+      "wholeCanvasRGBMSE": 0.006601,
+      "silhouetteIoU": 0.96081
+    },
+    {
+      "images": 657,
+      "foregroundRGBMAE": 18.546,
+      "wholeCanvasRGBMSE": 0.006434,
+      "silhouetteIoU": 0.96086
+    },
+    {
+      "images": 697,
+      "foregroundRGBMAE": 18.335,
+      "wholeCanvasRGBMSE": 0.006305,
+      "silhouetteIoU": 0.96104
+    },
+    {
+      "images": 737,
+      "foregroundRGBMAE": 18.07,
+      "wholeCanvasRGBMSE": 0.006155,
+      "silhouetteIoU": 0.96119
+    },
+    {
+      "images": 777,
+      "foregroundRGBMAE": 17.781,
+      "wholeCanvasRGBMSE": 0.006013,
+      "silhouetteIoU": 0.96121
+    },
+    {
+      "images": 817,
+      "foregroundRGBMAE": 17.566,
+      "wholeCanvasRGBMSE": 0.005897,
+      "silhouetteIoU": 0.96131
+    },
+    {
+      "images": 857,
+      "foregroundRGBMAE": 17.379,
+      "wholeCanvasRGBMSE": 0.005797,
+      "silhouetteIoU": 0.96136
+    },
+    {
+      "images": 897,
+      "foregroundRGBMAE": 17.224,
+      "wholeCanvasRGBMSE": 0.005705,
+      "silhouetteIoU": 0.96143
+    },
+    {
+      "images": 937,
+      "foregroundRGBMAE": 17.042,
+      "wholeCanvasRGBMSE": 0.005621,
+      "silhouetteIoU": 0.96145
+    },
+    {
+      "images": 977,
+      "foregroundRGBMAE": 16.89,
+      "wholeCanvasRGBMSE": 0.005546,
+      "silhouetteIoU": 0.9615
+    }
+  ],
+  "passes": [
+    {
+      "images": 997,
+      "foregroundRGBMAE": 15.528,
+      "wholeCanvasRGBMSE": 0.004725,
+      "silhouetteIoU": 0.96478,
+      "passIndex": 1,
+      "acceptedParameterChanges": 2212,
+      "removedThisPass": 3
+    },
+    {
+      "images": 994,
+      "foregroundRGBMAE": 15.053,
+      "wholeCanvasRGBMSE": 0.004575,
+      "silhouetteIoU": 0.96878,
+      "passIndex": 2,
+      "acceptedParameterChanges": 2495,
+      "removedThisPass": 3
+    }
+  ],
+  "seconds": 139.95,
+  "arbitraryCurves": 0,
+  "pixelBlocksAdded": 0,
+  "inputSize": [
+    251,
+    462
+  ],
+  "inputDownscaled": false,
+  "globalMinimumProven": false,
+  "deviceVerified": false
+}

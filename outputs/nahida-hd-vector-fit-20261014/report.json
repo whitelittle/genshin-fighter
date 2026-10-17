@@ -1,0 +1,55 @@
+{
+  "source": "work/github-review-20261009/V3/assets/animation-source/nahida-basic.png",
+  "sheetSize": [
+    1536,
+    1024
+  ],
+  "cell": [
+    0,
+    0,
+    384,
+    512
+  ],
+  "alphaCrop": [
+    59,
+    19,
+    310,
+    481
+  ],
+  "inputSize": [
+    251,
+    462
+  ],
+  "inputPixelFit": false,
+  "variants": {
+    "18color": {
+      "inputSize": [
+        251,
+        462
+      ],
+      "colors": 18,
+      "colorPaths": 19,
+      "closedContours": 1379,
+      "controlPoints": 15424,
+      "removedTinyRegions": 3193,
+      "tolerance": 0.8,
+      "inputDownscaled": false
+    },
+    "48color": {
+      "inputSize": [
+        251,
+        462
+      ],
+      "colors": 48,
+      "colorPaths": 48,
+      "closedContours": 9879,
+      "controlPoints": 83360,
+      "removedTinyRegions": 6102,
+      "tolerance": 0.35,
+      "inputDownscaled": false
+    }
+  },
+  "nativePrimitiveCount": null,
+  "gameSourceChanged": false,
+  "deviceVerified": false
+}

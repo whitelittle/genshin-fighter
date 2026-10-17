@@ -1,0 +1,139 @@
+[
+  {
+    "action": "idle",
+    "frame": 0,
+    "approvedFirstFrameExact": true,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 15.055,
+      "wholeCanvasRGBMSE": 0.002756,
+      "silhouetteIoU": 0.96789
+    }
+  },
+  {
+    "action": "idle",
+    "frame": 1,
+    "restoredCoreShapes": 316,
+    "containedShapes": 149,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 23.719,
+      "wholeCanvasRGBMSE": 0.007748,
+      "silhouetteIoU": 0.89321
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 32.44,
+      "wholeCanvasRGBMSE": 0.013419,
+      "silhouetteIoU": 0.88232
+    }
+  },
+  {
+    "action": "idle",
+    "frame": 2,
+    "restoredCoreShapes": 316,
+    "containedShapes": 130,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 23.41,
+      "wholeCanvasRGBMSE": 0.007079,
+      "silhouetteIoU": 0.90714
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 33.857,
+      "wholeCanvasRGBMSE": 0.01489,
+      "silhouetteIoU": 0.87065
+    }
+  },
+  {
+    "action": "idle",
+    "frame": 3,
+    "restoredCoreShapes": 316,
+    "containedShapes": 74,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 25.027,
+      "wholeCanvasRGBMSE": 0.008681,
+      "silhouetteIoU": 0.89246
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 34.737,
+      "wholeCanvasRGBMSE": 0.015871,
+      "silhouetteIoU": 0.85703
+    }
+  },
+  {
+    "action": "move",
+    "frame": 0,
+    "restoredCoreShapes": 316,
+    "containedShapes": 142,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 36.168,
+      "wholeCanvasRGBMSE": 0.014715,
+      "silhouetteIoU": 0.78542
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 46.333,
+      "wholeCanvasRGBMSE": 0.025255,
+      "silhouetteIoU": 0.72001
+    }
+  },
+  {
+    "action": "move",
+    "frame": 1,
+    "restoredCoreShapes": 316,
+    "containedShapes": 118,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 34.01,
+      "wholeCanvasRGBMSE": 0.014997,
+      "silhouetteIoU": 0.78658
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 44.665,
+      "wholeCanvasRGBMSE": 0.025102,
+      "silhouetteIoU": 0.70262
+    }
+  },
+  {
+    "action": "move",
+    "frame": 2,
+    "restoredCoreShapes": 316,
+    "containedShapes": 112,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 45.517,
+      "wholeCanvasRGBMSE": 0.022299,
+      "silhouetteIoU": 0.60215
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 59.499,
+      "wholeCanvasRGBMSE": 0.037798,
+      "silhouetteIoU": 0.49232
+    }
+  },
+  {
+    "action": "move",
+    "frame": 3,
+    "restoredCoreShapes": 316,
+    "containedShapes": 79,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 38.971,
+      "wholeCanvasRGBMSE": 0.018157,
+      "silhouetteIoU": 0.72924
+    },
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 52.167,
+      "wholeCanvasRGBMSE": 0.033048,
+      "silhouetteIoU": 0.60718
+    }
+  }
+]

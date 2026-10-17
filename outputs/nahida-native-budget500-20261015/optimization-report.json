@@ -1,0 +1,89 @@
+{
+  "baseline": {
+    "images": 218,
+    "foregroundRGBMAE": 28.205,
+    "wholeCanvasRGBMSE": 0.012865,
+    "silhouetteIoU": 0.94196
+  },
+  "final": {
+    "images": 497,
+    "foregroundRGBMAE": 19.893,
+    "wholeCanvasRGBMSE": 0.00725,
+    "silhouetteIoU": 0.95988
+  },
+  "addedBeforePruning": 282,
+  "additionHistory": [
+    {
+      "images": 258,
+      "foregroundRGBMAE": 26.652,
+      "wholeCanvasRGBMSE": 0.011677,
+      "silhouetteIoU": 0.94559
+    },
+    {
+      "images": 298,
+      "foregroundRGBMAE": 25.438,
+      "wholeCanvasRGBMSE": 0.010977,
+      "silhouetteIoU": 0.94637
+    },
+    {
+      "images": 338,
+      "foregroundRGBMAE": 24.544,
+      "wholeCanvasRGBMSE": 0.010432,
+      "silhouetteIoU": 0.9468
+    },
+    {
+      "images": 378,
+      "foregroundRGBMAE": 23.72,
+      "wholeCanvasRGBMSE": 0.009996,
+      "silhouetteIoU": 0.94706
+    },
+    {
+      "images": 418,
+      "foregroundRGBMAE": 23.007,
+      "wholeCanvasRGBMSE": 0.009633,
+      "silhouetteIoU": 0.94719
+    },
+    {
+      "images": 458,
+      "foregroundRGBMAE": 22.46,
+      "wholeCanvasRGBMSE": 0.009338,
+      "silhouetteIoU": 0.94738
+    },
+    {
+      "images": 498,
+      "foregroundRGBMAE": 22.056,
+      "wholeCanvasRGBMSE": 0.009074,
+      "silhouetteIoU": 0.94745
+    }
+  ],
+  "passes": [
+    {
+      "images": 497,
+      "foregroundRGBMAE": 20.405,
+      "wholeCanvasRGBMSE": 0.007623,
+      "silhouetteIoU": 0.9567,
+      "passIndex": 1,
+      "acceptedParameterChanges": 1290,
+      "removedThisPass": 3
+    },
+    {
+      "images": 497,
+      "foregroundRGBMAE": 19.893,
+      "wholeCanvasRGBMSE": 0.00725,
+      "silhouetteIoU": 0.95988,
+      "passIndex": 2,
+      "acceptedParameterChanges": 1326,
+      "removedThisPass": 0
+    }
+  ],
+  "seconds": 69.0,
+  "arbitraryCurves": 0,
+  "pixelBlocksAdded": 0,
+  "inputSize": [
+    251,
+    462
+  ],
+  "inputDownscaled": false,
+  "globalMinimumProven": false,
+  "deviceVerified": false
+}

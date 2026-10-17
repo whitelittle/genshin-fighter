@@ -1,0 +1,74 @@
+{
+  "frames": [
+    {
+      "action": "idle",
+      "frame": 0,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 28.128,
+      "silhouetteIoU": 0.96842
+    },
+    {
+      "action": "idle",
+      "frame": 1,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 29.398,
+      "silhouetteIoU": 0.96523
+    },
+    {
+      "action": "idle",
+      "frame": 2,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 30.087,
+      "silhouetteIoU": 0.95963
+    },
+    {
+      "action": "idle",
+      "frame": 3,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 30.336,
+      "silhouetteIoU": 0.9604
+    },
+    {
+      "action": "move",
+      "frame": 0,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 33.431,
+      "silhouetteIoU": 0.96644
+    },
+    {
+      "action": "move",
+      "frame": 1,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 35.76,
+      "silhouetteIoU": 0.9625
+    },
+    {
+      "action": "move",
+      "frame": 2,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 34.139,
+      "silhouetteIoU": 0.96846
+    },
+    {
+      "action": "move",
+      "frame": 3,
+      "images": 994,
+      "fitStartedFromEmpty": true,
+      "foregroundRGBMAE": 34.722,
+      "silhouetteIoU": 0.96219
+    }
+  ],
+  "seconds": 74.98,
+  "eachFrameIndependent": true,
+  "imageBudget": 1000,
+  "imagesPerFrame": 994,
+  "artApproved": false,
+  "deviceVerified": false
+}

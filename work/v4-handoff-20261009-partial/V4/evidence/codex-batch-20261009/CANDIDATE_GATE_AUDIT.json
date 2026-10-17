@@ -1,0 +1,403 @@
+{
+  "source_hashes_and_prompts_verified": 91,
+  "fit_reports_verified": 71,
+  "preferred_candidate_exclusion_passed": true,
+  "historical_169_frame_snapshot_unchanged": true,
+  "runtime_and_acceptance_false_verified": true,
+  "findings": [
+    {
+      "id": "aratakiitto-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "aratakiitto-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "aratakiitto-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "aratakiitto-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "aratakiitto-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "arlecchino-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "arlecchino-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "arlecchino-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "arlecchino-standguard-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "arlecchino-standguard-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "arlecchino-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-backwalk-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-standguard-body-v1",
+      "gate": "canvas_contact_requires_review",
+      "frames": [
+        3
+      ]
+    },
+    {
+      "id": "clorinde-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-standguard-body-v2",
+      "gate": "canvas_contact_requires_review",
+      "frames": [
+        3
+      ]
+    },
+    {
+      "id": "clorinde-standguard-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "clorinde-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "furina-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "furina-crouch-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "furina-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "furina-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "furina-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "furina-wakeup-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "kamisatoayaka-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "kamisatoayaka-crouch-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "kamisatoayaka-crouch-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "kamisatoayaka-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "kamisatoayaka-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "kamisatoayaka-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "kamisatoayaka-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "mavuika-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "mavuika-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "mavuika-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "mavuika-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "mavuika-wakeup-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "navia-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "navia-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "navia-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "neuvillette-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "neuvillette-cane-prop-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "neuvillette-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "neuvillette-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "neuvillette-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "neuvillette-wakeup-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "skirk-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "skirk-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "skirk-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "skirk-standguard-body-v1",
+      "gate": "canvas_contact_requires_review",
+      "frames": [
+        3
+      ]
+    },
+    {
+      "id": "skirk-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "skirk-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "tartaglia-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "tartaglia-hit_knockdown-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "tartaglia-jump-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "tartaglia-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "tartaglia-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-crouch-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-crouch-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "venti-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "wanderer-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "wanderer-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "wanderer-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "wanderer-standguard-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "wanderer-standguard-body-v2",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "wanderer-wakeup-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-crouchheavy-body-v2",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-crouchheavy-body-v3",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-crouchheavy-fox-pink-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-crouchheavy-fox-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-crouchheavy-fox-v2",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-crouchheavy-hitfx-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-fox-single-0",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-fox-single-1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-fox-single-2",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "yaemiko-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-standguard-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "yaemiko-wakeup-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "zhongli-airlight-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "zhongli-airlight-contact-study-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "zhongli-airlight-contact-study-v2",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "zhongli-backwalk-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "zhongli-hit_knockdown-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "zhongli-jump-body-v1",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "zhongli-standguard-body-v1",
+      "gate": "extraction_missing_or_failed"
+    },
+    {
+      "id": "zhongli-standguard-body-v2",
+      "gate": "canvas_contact_requires_review",
+      "frames": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "zhongli-standguard-body-v2",
+      "gate": "world_anchors_and_four_visual_checks_pending"
+    },
+    {
+      "id": "zhongli-wakeup-body-v1",
+      "gate": "extraction_missing_or_failed"
+    }
+  ],
+  "scope": "file/data gates only; not anatomy, animation continuity, simulation, performance or device validation"
+}

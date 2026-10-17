@@ -1,0 +1,2111 @@
+{
+  "method": "Offline pixel compositor and restored V3 painter, no game logic implemented",
+  "fx_source_sha256": "3722e250a7bdf3f61b71330049e6b28513f3682cffc877454dfb371bcaf2d8b7",
+  "fx_palette": [
+    [
+      252,
+      133,
+      209
+    ],
+    [
+      254,
+      237,
+      245
+    ],
+    [
+      195,
+      31,
+      150
+    ],
+    [
+      254,
+      185,
+      230
+    ],
+    [
+      245,
+      75,
+      194
+    ]
+  ],
+  "fx_frames": [
+    {
+      "frame": 0,
+      "crop_box": [
+        70,
+        278,
+        329,
+        490
+      ],
+      "main_box": [
+        102,
+        300,
+        313,
+        479
+      ],
+      "scale": 0.045368620037807186,
+      "particle_groups": 5,
+      "rect_count": 22,
+      "bounded_rect_count": 26,
+      "rects": [
+        [
+          3,
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          8,
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          8,
+          4,
+          1,
+          2,
+          1
+        ],
+        [
+          7,
+          6,
+          1,
+          1,
+          1
+        ],
+        [
+          7,
+          8,
+          1,
+          1,
+          1
+        ],
+        [
+          11,
+          3,
+          1,
+          2,
+          1
+        ],
+        [
+          5,
+          6,
+          2,
+          2,
+          1
+        ],
+        [
+          8,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          4,
+          4,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          5,
+          1,
+          1,
+          3
+        ],
+        [
+          5,
+          5,
+          3,
+          1,
+          3
+        ],
+        [
+          8,
+          6,
+          1,
+          1,
+          3
+        ],
+        [
+          9,
+          8,
+          1,
+          1,
+          3
+        ],
+        [
+          7,
+          7,
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          8,
+          1,
+          1,
+          3
+        ],
+        [
+          6,
+          8,
+          1,
+          1,
+          3
+        ],
+        [
+          7,
+          2,
+          1,
+          4,
+          0
+        ],
+        [
+          2,
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          9,
+          4,
+          1,
+          1,
+          0
+        ],
+        [
+          8,
+          8,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          9,
+          1,
+          1,
+          0
+        ],
+        [
+          6,
+          2,
+          1,
+          1,
+          4
+        ],
+        [
+          7,
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          9,
+          5,
+          1,
+          3,
+          4
+        ],
+        [
+          9,
+          6,
+          1,
+          1,
+          2
+        ],
+        [
+          8,
+          7,
+          1,
+          1,
+          2
+        ]
+      ],
+      "exact_reconstruction": true
+    },
+    {
+      "frame": 1,
+      "crop_box": [
+        401,
+        212,
+        967,
+        565
+      ],
+      "main_box": [
+        404,
+        235,
+        926,
+        562
+      ],
+      "scale": 0.045368620037807186,
+      "particle_groups": 8,
+      "rect_count": 63,
+      "bounded_rect_count": 68,
+      "rects": [
+        [
+          10,
+          1,
+          1,
+          1,
+          3
+        ],
+        [
+          11,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          14,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          17,
+          2,
+          1,
+          1,
+          3
+        ],
+        [
+          15,
+          3,
+          2,
+          4,
+          3
+        ],
+        [
+          17,
+          4,
+          2,
+          10,
+          3
+        ],
+        [
+          19,
+          5,
+          1,
+          8,
+          3
+        ],
+        [
+          20,
+          6,
+          1,
+          1,
+          3
+        ],
+        [
+          21,
+          7,
+          2,
+          1,
+          3
+        ],
+        [
+          22,
+          8,
+          1,
+          1,
+          3
+        ],
+        [
+          20,
+          10,
+          1,
+          1,
+          3
+        ],
+        [
+          13,
+          10,
+          2,
+          1,
+          3
+        ],
+        [
+          20,
+          11,
+          2,
+          1,
+          3
+        ],
+        [
+          20,
+          12,
+          1,
+          1,
+          3
+        ],
+        [
+          7,
+          15,
+          1,
+          1,
+          3
+        ],
+        [
+          9,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          10,
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          13,
+          3,
+          1,
+          4,
+          0
+        ],
+        [
+          14,
+          4,
+          1,
+          3,
+          0
+        ],
+        [
+          15,
+          5,
+          2,
+          2,
+          0
+        ],
+        [
+          21,
+          5,
+          1,
+          2,
+          0
+        ],
+        [
+          17,
+          6,
+          1,
+          1,
+          0
+        ],
+        [
+          18,
+          9,
+          1,
+          2,
+          0
+        ],
+        [
+          22,
+          9,
+          2,
+          1,
+          0
+        ],
+        [
+          17,
+          10,
+          1,
+          4,
+          0
+        ],
+        [
+          16,
+          11,
+          1,
+          2,
+          0
+        ],
+        [
+          19,
+          11,
+          1,
+          1,
+          0
+        ],
+        [
+          12,
+          12,
+          4,
+          3,
+          0
+        ],
+        [
+          18,
+          12,
+          1,
+          1,
+          0
+        ],
+        [
+          10,
+          14,
+          2,
+          1,
+          0
+        ],
+        [
+          11,
+          15,
+          1,
+          1,
+          0
+        ],
+        [
+          12,
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          14,
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          3,
+          2,
+          1,
+          1
+        ],
+        [
+          18,
+          5,
+          1,
+          1,
+          1
+        ],
+        [
+          19,
+          6,
+          1,
+          1,
+          1
+        ],
+        [
+          22,
+          6,
+          1,
+          1,
+          1
+        ],
+        [
+          20,
+          7,
+          1,
+          3,
+          1
+        ],
+        [
+          21,
+          8,
+          1,
+          3,
+          1
+        ],
+        [
+          14,
+          9,
+          1,
+          2,
+          1
+        ],
+        [
+          25,
+          9,
+          1,
+          2,
+          1
+        ],
+        [
+          24,
+          10,
+          2,
+          1,
+          1
+        ],
+        [
+          8,
+          15,
+          3,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          7,
+          1,
+          2
+        ],
+        [
+          6,
+          2,
+          4,
+          1,
+          2
+        ],
+        [
+          8,
+          3,
+          5,
+          1,
+          2
+        ],
+        [
+          11,
+          4,
+          2,
+          1,
+          2
+        ],
+        [
+          12,
+          5,
+          2,
+          1,
+          2
+        ],
+        [
+          23,
+          8,
+          1,
+          2,
+          2
+        ],
+        [
+          12,
+          12,
+          2,
+          1,
+          2
+        ],
+        [
+          10,
+          13,
+          3,
+          1,
+          2
+        ],
+        [
+          14,
+          14,
+          2,
+          1,
+          2
+        ],
+        [
+          8,
+          1,
+          1,
+          1,
+          4
+        ],
+        [
+          16,
+          1,
+          1,
+          1,
+          4
+        ],
+        [
+          9,
+          2,
+          1,
+          1,
+          4
+        ],
+        [
+          12,
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          10,
+          4,
+          1,
+          1,
+          4
+        ],
+        [
+          13,
+          5,
+          1,
+          2,
+          4
+        ],
+        [
+          14,
+          6,
+          1,
+          1,
+          4
+        ],
+        [
+          23,
+          7,
+          1,
+          1,
+          4
+        ],
+        [
+          22,
+          10,
+          1,
+          1,
+          4
+        ],
+        [
+          13,
+          12,
+          1,
+          1,
+          4
+        ],
+        [
+          12,
+          13,
+          1,
+          1,
+          4
+        ],
+        [
+          16,
+          13,
+          1,
+          1,
+          4
+        ],
+        [
+          3,
+          14,
+          2,
+          1,
+          4
+        ],
+        [
+          8,
+          14,
+          2,
+          1,
+          4
+        ],
+        [
+          13,
+          14,
+          1,
+          2,
+          4
+        ],
+        [
+          12,
+          15,
+          2,
+          1,
+          4
+        ]
+      ],
+      "exact_reconstruction": true
+    },
+    {
+      "frame": 2,
+      "crop_box": [
+        957,
+        123,
+        1651,
+        662
+      ],
+      "main_box": [
+        1010,
+        130,
+        1648,
+        659
+      ],
+      "scale": 0.045368620037807186,
+      "particle_groups": 10,
+      "rect_count": 86,
+      "bounded_rect_count": 106,
+      "rects": [
+        [
+          3,
+          2,
+          1,
+          1,
+          3
+        ],
+        [
+          20,
+          2,
+          1,
+          2,
+          3
+        ],
+        [
+          14,
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          15,
+          4,
+          3,
+          1,
+          3
+        ],
+        [
+          16,
+          5,
+          2,
+          1,
+          3
+        ],
+        [
+          16,
+          6,
+          4,
+          1,
+          3
+        ],
+        [
+          18,
+          7,
+          2,
+          1,
+          3
+        ],
+        [
+          19,
+          8,
+          1,
+          1,
+          3
+        ],
+        [
+          20,
+          7,
+          1,
+          1,
+          3
+        ],
+        [
+          19,
+          9,
+          2,
+          1,
+          3
+        ],
+        [
+          18,
+          10,
+          1,
+          1,
+          3
+        ],
+        [
+          17,
+          11,
+          1,
+          2,
+          3
+        ],
+        [
+          18,
+          14,
+          1,
+          2,
+          3
+        ],
+        [
+          17,
+          16,
+          1,
+          1,
+          3
+        ],
+        [
+          20,
+          16,
+          1,
+          1,
+          3
+        ],
+        [
+          22,
+          7,
+          1,
+          1,
+          3
+        ],
+        [
+          21,
+          8,
+          2,
+          1,
+          3
+        ],
+        [
+          22,
+          14,
+          1,
+          1,
+          3
+        ],
+        [
+          23,
+          9,
+          1,
+          1,
+          3
+        ],
+        [
+          23,
+          11,
+          1,
+          1,
+          3
+        ],
+        [
+          23,
+          14,
+          1,
+          1,
+          3
+        ],
+        [
+          27,
+          9,
+          1,
+          1,
+          3
+        ],
+        [
+          16,
+          12,
+          1,
+          1,
+          3
+        ],
+        [
+          26,
+          12,
+          1,
+          1,
+          3
+        ],
+        [
+          21,
+          15,
+          1,
+          1,
+          3
+        ],
+        [
+          16,
+          16,
+          1,
+          1,
+          3
+        ],
+        [
+          7,
+          17,
+          1,
+          1,
+          3
+        ],
+        [
+          15,
+          17,
+          1,
+          1,
+          3
+        ],
+        [
+          14,
+          18,
+          2,
+          1,
+          3
+        ],
+        [
+          12,
+          19,
+          3,
+          1,
+          3
+        ],
+        [
+          16,
+          17,
+          1,
+          2,
+          3
+        ],
+        [
+          19,
+          18,
+          1,
+          1,
+          3
+        ],
+        [
+          17,
+          19,
+          3,
+          1,
+          3
+        ],
+        [
+          11,
+          20,
+          4,
+          1,
+          3
+        ],
+        [
+          18,
+          20,
+          1,
+          1,
+          3
+        ],
+        [
+          16,
+          21,
+          1,
+          1,
+          3
+        ],
+        [
+          15,
+          22,
+          1,
+          1,
+          3
+        ],
+        [
+          9,
+          5,
+          1,
+          1,
+          1
+        ],
+        [
+          24,
+          7,
+          1,
+          1,
+          1
+        ],
+        [
+          24,
+          12,
+          1,
+          1,
+          1
+        ],
+        [
+          20,
+          8,
+          1,
+          1,
+          1
+        ],
+        [
+          23,
+          8,
+          2,
+          1,
+          1
+        ],
+        [
+          21,
+          9,
+          2,
+          5,
+          1
+        ],
+        [
+          19,
+          10,
+          1,
+          8,
+          1
+        ],
+        [
+          20,
+          10,
+          1,
+          6,
+          1
+        ],
+        [
+          18,
+          11,
+          1,
+          3,
+          1
+        ],
+        [
+          23,
+          12,
+          3,
+          1,
+          1
+        ],
+        [
+          27,
+          12,
+          1,
+          1,
+          1
+        ],
+        [
+          21,
+          14,
+          1,
+          1,
+          1
+        ],
+        [
+          15,
+          16,
+          1,
+          1,
+          1
+        ],
+        [
+          18,
+          16,
+          1,
+          4,
+          1
+        ],
+        [
+          21,
+          16,
+          1,
+          1,
+          1
+        ],
+        [
+          17,
+          17,
+          1,
+          1,
+          1
+        ],
+        [
+          21,
+          18,
+          1,
+          2,
+          1
+        ],
+        [
+          17,
+          20,
+          1,
+          1,
+          1
+        ],
+        [
+          9,
+          21,
+          1,
+          1,
+          1
+        ],
+        [
+          12,
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          13,
+          3,
+          1,
+          4,
+          0
+        ],
+        [
+          18,
+          3,
+          1,
+          3,
+          0
+        ],
+        [
+          20,
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          14,
+          4,
+          1,
+          5,
+          0
+        ],
+        [
+          15,
+          5,
+          1,
+          1,
+          0
+        ],
+        [
+          17,
+          7,
+          1,
+          4,
+          0
+        ],
+        [
+          21,
+          7,
+          1,
+          1,
+          0
+        ],
+        [
+          25,
+          7,
+          1,
+          1,
+          0
+        ],
+        [
+          18,
+          8,
+          1,
+          2,
+          0
+        ],
+        [
+          24,
+          8,
+          1,
+          4,
+          0
+        ],
+        [
+          23,
+          10,
+          2,
+          1,
+          0
+        ],
+        [
+          14,
+          12,
+          2,
+          1,
+          0
+        ],
+        [
+          17,
+          13,
+          1,
+          3,
+          0
+        ],
+        [
+          23,
+          13,
+          2,
+          1,
+          0
+        ],
+        [
+          27,
+          16,
+          1,
+          1,
+          0
+        ],
+        [
+          20,
+          17,
+          1,
+          1,
+          0
+        ],
+        [
+          6,
+          18,
+          1,
+          1,
+          0
+        ],
+        [
+          17,
+          18,
+          1,
+          1,
+          0
+        ],
+        [
+          22,
+          18,
+          1,
+          1,
+          0
+        ],
+        [
+          15,
+          19,
+          1,
+          1,
+          0
+        ],
+        [
+          10,
+          20,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          21,
+          1,
+          1,
+          0
+        ],
+        [
+          15,
+          0,
+          1,
+          1,
+          4
+        ],
+        [
+          10,
+          1,
+          1,
+          4,
+          4
+        ],
+        [
+          12,
+          3,
+          1,
+          4,
+          4
+        ],
+        [
+          11,
+          4,
+          2,
+          2,
+          4
+        ],
+        [
+          19,
+          4,
+          1,
+          2,
+          4
+        ],
+        [
+          20,
+          5,
+          1,
+          2,
+          4
+        ],
+        [
+          13,
+          6,
+          3,
+          1,
+          4
+        ],
+        [
+          15,
+          7,
+          2,
+          2,
+          4
+        ],
+        [
+          16,
+          8,
+          2,
+          2,
+          4
+        ],
+        [
+          24,
+          9,
+          1,
+          2,
+          4
+        ],
+        [
+          16,
+          13,
+          1,
+          1,
+          4
+        ],
+        [
+          24,
+          13,
+          1,
+          2,
+          4
+        ],
+        [
+          16,
+          15,
+          1,
+          1,
+          4
+        ],
+        [
+          11,
+          17,
+          4,
+          1,
+          4
+        ],
+        [
+          12,
+          18,
+          2,
+          1,
+          4
+        ],
+        [
+          11,
+          19,
+          1,
+          1,
+          4
+        ],
+        [
+          14,
+          20,
+          1,
+          1,
+          4
+        ],
+        [
+          9,
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          16,
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          10,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          8,
+          3,
+          4,
+          1,
+          2
+        ],
+        [
+          13,
+          16,
+          1,
+          1,
+          2
+        ],
+        [
+          12,
+          17,
+          1,
+          1,
+          2
+        ],
+        [
+          10,
+          18,
+          2,
+          1,
+          2
+        ],
+        [
+          8,
+          19,
+          2,
+          2,
+          2
+        ],
+        [
+          10,
+          19,
+          1,
+          1,
+          2
+        ],
+        [
+          6,
+          20,
+          4,
+          1,
+          2
+        ]
+      ],
+      "exact_reconstruction": true
+    },
+    {
+      "frame": 3,
+      "crop_box": [
+        1646,
+        216,
+        2001,
+        553
+      ],
+      "main_box": [
+        1799,
+        272,
+        1967,
+        543
+      ],
+      "scale": 0.045368620037807186,
+      "particle_groups": 11,
+      "rect_count": 22,
+      "bounded_rect_count": 22,
+      "rects": [
+        [
+          2,
+          2,
+          4,
+          1,
+          4
+        ],
+        [
+          12,
+          4,
+          1,
+          1,
+          4
+        ],
+        [
+          13,
+          5,
+          1,
+          6,
+          4
+        ],
+        [
+          15,
+          7,
+          1,
+          1,
+          4
+        ],
+        [
+          7,
+          14,
+          1,
+          1,
+          4
+        ],
+        [
+          5,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          10,
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          11,
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          12,
+          5,
+          1,
+          1,
+          0
+        ],
+        [
+          13,
+          7,
+          1,
+          3,
+          0
+        ],
+        [
+          6,
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          9,
+          4,
+          1,
+          1,
+          1
+        ],
+        [
+          12,
+          7,
+          1,
+          1,
+          1
+        ],
+        [
+          12,
+          10,
+          1,
+          2,
+          1
+        ],
+        [
+          10,
+          11,
+          1,
+          1,
+          1
+        ],
+        [
+          11,
+          12,
+          1,
+          1,
+          1
+        ],
+        [
+          13,
+          12,
+          1,
+          1,
+          1
+        ],
+        [
+          6,
+          1,
+          1,
+          1,
+          3
+        ],
+        [
+          11,
+          5,
+          1,
+          1,
+          3
+        ],
+        [
+          12,
+          6,
+          1,
+          1,
+          3
+        ],
+        [
+          12,
+          11,
+          1,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          1,
+          2
+        ]
+      ],
+      "exact_reconstruction": true
+    }
+  ],
+  "body_roots_proposed": [
+    [
+      49,
+      58
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      49,
+      55
+    ],
+    [
+      49,
+      55
+    ]
+  ],
+  "helper_foot_roots_proposed": [
+    [
+      40,
+      27
+    ],
+    [
+      45,
+      26
+    ],
+    [
+      48,
+      23
+    ],
+    [
+      39,
+      25
+    ]
+  ],
+  "anchor_status": "rough visual marks; needs precise review",
+  "timeline_candidate": [
+    {
+      "tick": 0,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 1,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 2,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 3,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 4,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 5,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 6,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 7,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 8,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 9,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 10,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 11,
+      "body_phase": 0,
+      "helper_phase": 0,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 12,
+      "body_phase": 1,
+      "helper_phase": 1,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 13,
+      "body_phase": 1,
+      "helper_phase": 1,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 14,
+      "body_phase": 1,
+      "helper_phase": 1,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 15,
+      "body_phase": 1,
+      "helper_phase": 1,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 16,
+      "body_phase": 1,
+      "helper_phase": 1,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 17,
+      "body_phase": 1,
+      "helper_phase": 1,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 18,
+      "body_phase": 2,
+      "helper_phase": 2,
+      "helper_x": 125,
+      "fx_visible": false,
+      "proposed_release_event": true
+    },
+    {
+      "tick": 19,
+      "body_phase": 2,
+      "helper_phase": 2,
+      "helper_x": 136,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 20,
+      "body_phase": 2,
+      "helper_phase": 2,
+      "helper_x": 148,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 21,
+      "body_phase": 2,
+      "helper_phase": 2,
+      "helper_x": 159,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 22,
+      "body_phase": 2,
+      "helper_phase": 2,
+      "helper_x": 170,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 23,
+      "body_phase": 2,
+      "helper_phase": 2,
+      "helper_x": 182,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 24,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 193,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 25,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 190,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 26,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 187,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 27,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 185,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 28,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 182,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 29,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 179,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 30,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 176,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 31,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 173,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 32,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 170,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 33,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 167,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 34,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 165,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 35,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 162,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 36,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 159,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 37,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 156,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 38,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 153,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 39,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 151,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 40,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 148,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 41,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 145,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 42,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 142,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 43,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 139,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 44,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 136,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 45,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 133,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 46,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 131,
+      "fx_visible": false,
+      "proposed_release_event": false
+    },
+    {
+      "tick": 47,
+      "body_phase": 3,
+      "helper_phase": 3,
+      "helper_x": 128,
+      "fx_visible": false,
+      "proposed_release_event": false
+    }
+  ],
+  "logic_tick_and_damage_implemented": false,
+  "blade_effect_removed": true,
+  "unused_fx_status": "historical experiment, excluded from current composition",
+  "visible_layer_image_peak_upper_bound": 1351,
+  "two_actor_all_layer_double_buffer_upper_bound": 5404,
+  "native_controls": "not measured; image templates may have container wrappers",
+  "accepted": false,
+  "device": false,
+  "review": [
+    "FX particle grouping nearest main component is heuristic and requires visual check",
+    "GIF nominal17ms is approximate; not measured60FPS",
+    "Helper return currently provisional, collision and interrupt not implemented"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "source_sha256": "b057c8350aa79a11fb21c3edf005543f02093693ba3099bd3e1dfa591621960a",
+  "frames": [
+    {
+      "frame": 0,
+      "source_point": [
+        382,
+        346
+      ],
+      "fit_root": [
+        40.08955223880597,
+        22.170403587443946
+      ],
+      "status": "rough_visual_draft_unaccepted",
+      "world": [
+        0,
+        0
+      ],
+      "support": "projected pelvis/ground"
+    },
+    {
+      "frame": 1,
+      "source_point": [
+        1110,
+        382
+      ],
+      "fit_root": [
+        38.36377473363775,
+        37.5
+      ],
+      "status": "rough_visual_draft_unaccepted",
+      "world": [
+        0,
+        0
+      ],
+      "support": "projected pelvis/ground"
+    },
+    {
+      "frame": 2,
+      "source_point": [
+        640,
+        928
+      ],
+      "fit_root": [
+        46.02298850574713,
+        49.38607594936709
+      ],
+      "status": "rough_visual_draft_unaccepted",
+      "world": [
+        0,
+        0
+      ],
+      "support": "planted foot/ground"
+    },
+    {
+      "frame": 3,
+      "source_point": [
+        1140,
+        992
+      ],
+      "fit_root": [
+        20.78238341968912,
+        66.2757527733756
+      ],
+      "status": "rough_visual_draft_unaccepted",
+      "world": [
+        0,
+        0
+      ],
+      "support": "planted foot/ground"
+    }
+  ],
+  "method": "manual rough marks on inspected source mapped through actual crop and fit dimensions",
+  "exact_support_measurement": false,
+  "biomechanics_accepted": false,
+  "runtime_ready": false,
+  "purpose": "Expose ground/root/height discontinuity at fixed world position; not runtime calibration",
+  "not_validated": [
+    "anatomy",
+    "head scale continuity",
+    "lying facing transition",
+    "neutral hand/scabbard layer",
+    "true device performance"
+  ]
+}

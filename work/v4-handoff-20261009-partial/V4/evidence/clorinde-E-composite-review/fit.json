@@ -1,0 +1,71 @@
+{
+  "character": "clorinde",
+  "source": "V4/assets/composite-candidates/clorinde-E-held-weapon-composite-v1.png",
+  "source_sha256": "b3344f3c3d0e499bd291a195c3471993a1bfe7984a05f3249a005c56f9186a86",
+  "height": 72,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1552,
+    1511,
+    1501,
+    1399
+  ],
+  "max_rects": 1552,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "8d0a2b121958c8834a151ef0d9019c0adb2ac1a6a2bf96f9b645f34099550397",
+      "fit_sha256": "ef9978f72dd2d6830ae9cc04edabad0a0b8a2f76ac123aa6b51b2108f9af0911",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false
+      },
+      "rect_count": 1552,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "b43f7796cff548a2c4d4e502f55c015629b6c5b05f4f6af2d2ca49da57729653",
+      "fit_sha256": "dbd8c14b468797727b0b3f21601d6eae227fbe13184ac722a6ecc33c32c40e90",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1511,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "b9027f98ea1a54ea4e7196c5a2523cd930836c2e83992bc3dabdb3886ad8eb6f",
+      "fit_sha256": "b4994a925c9853fb30a11a8c78b9a69904a6ca46358b6af6570c0c6bdba0a47e",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": false,
+        "bottom": false
+      },
+      "rect_count": 1501,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "53ddbd823470659f13e063bd46f54c0ba273582430dae04b435b8ccdac69eb73",
+      "fit_sha256": "a542542bfd445744284c1fe8efad62dbb8db522fdf2b299273a895a1fe229904",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1399,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

@@ -1,0 +1,6 @@
+{
+  "kamisatoayaka-crouch-body-v1": {"status":"requires_limb_continuity_fix","finding":"Final pose contains a raised forearm near chest while an additional forearm/hand remains across lap; overlapping arm anatomy must be corrected before export selection.","scope":"source visual review, not device test"},
+  "venti-crouch-body-v1": {"status":"needs_hip_glove_anatomy_review","finding":"Standing phase carries a white glove-like shape at hip in addition to two visible hands; identity reference has same suspect shape. Must resolve costume vs extra hand before selection.","scope":"source visual review, not device test"},
+  "kamisatoayaka-throw-body-v1": {"status":"requires_severe_anatomy_fix","finding":"Anonymous player identified serious limb errors; lower-left pose includes redundant hand/forearm and ambiguous shoulder-elbow-wrist chain; lower-middle rear arm connection unclear. Whole group quarantined, reconstruction is not anatomy approval.","scope":"source visual rejection; no runtime acceptance"},
+  "kamisatoayaka-victim-body-v1": {"status":"requires_severe_anatomy_fix","finding":"Anonymous player requested anatomy correction; airborne/landing poses require pelvis-thigh-knee-ankle continuity, correct hand/foot counts and restored outfit guards. Whole group quarantined.","scope":"source visual rejection; no runtime acceptance"}
+}

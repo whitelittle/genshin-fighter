@@ -1,0 +1,71 @@
+{
+  "character": "arlecchino",
+  "source": "V4/assets/composite-candidates/arlecchino-E-held-weapon-composite-v1.png",
+  "source_sha256": "a125f88f4dd257a326c738d9923598c475f7ba9f74aa28bfc348b136aa791c38",
+  "height": 68,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1642,
+    1638,
+    1933,
+    1827
+  ],
+  "max_rects": 1933,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "d7e836b7da40b27b8aa0c0b94fb0709c98a883dac583c1d31576fffb56febe29",
+      "fit_sha256": "bd81c4864f9565ea14634d0a3739b6b4000795cf4867cebfaa253e0ade60634c",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": false,
+        "bottom": false
+      },
+      "rect_count": 1642,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "35423eaae284904824afee681b8a71221dbaf4ea9163bbab75f5bbb43669f7e2",
+      "fit_sha256": "5fcee68f8e4ded988df67e1fc0b700920afd49b4078c58e41d59b681bead62d1",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1638,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "b970b8ea0fe2cf2bc3e809798e471fb1ae02ed1895143fa1060a1a2dfc39432a",
+      "fit_sha256": "9d424d69688f1cf53faa0c4e3deb75794475d741c3eaaafd3939872546c0b17c",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": false,
+        "bottom": false
+      },
+      "rect_count": 1933,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "6c56fa9c1446673d2bf66b9db8fd2e830edc9f7598a57d8a278dd3b47f2a1d5a",
+      "fit_sha256": "ac1c41603a9eba1aa87e271c8f7a371bde505ea956ca2dfcb4bf05bfe8e763e9",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1827,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

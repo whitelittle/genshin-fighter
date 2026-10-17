@@ -1,0 +1,618 @@
+[
+  {
+    "character": "furina",
+    "group": "idle",
+    "palette_sha256": "a26b590cf79e54d4588f55ff4e1752b4ca59044e8418d86e961eba068e2f2357",
+    "optimized_height": 68,
+    "rect_counts": [
+      559,
+      563
+    ],
+    "mean_rects": 561.0,
+    "max_rects": 563,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      65,
+      65
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "furina",
+    "group": "walk",
+    "palette_sha256": "a26b590cf79e54d4588f55ff4e1752b4ca59044e8418d86e961eba068e2f2357",
+    "optimized_height": 68,
+    "rect_counts": [
+      686,
+      619,
+      662,
+      717,
+      605,
+      707
+    ],
+    "mean_rects": 666.0,
+    "max_rects": 717,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      67,
+      67,
+      67,
+      66,
+      66,
+      65
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "zhongli",
+    "group": "idle",
+    "palette_sha256": "1e890004e9eb4f08254fd6a3c36fc1f82b804126d111e17bbcae9e5ad8e9ab87",
+    "optimized_height": 72,
+    "rect_counts": [
+      542,
+      548
+    ],
+    "mean_rects": 545.0,
+    "max_rects": 548,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      69,
+      69
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "zhongli",
+    "group": "walk",
+    "palette_sha256": "1e890004e9eb4f08254fd6a3c36fc1f82b804126d111e17bbcae9e5ad8e9ab87",
+    "optimized_height": 72,
+    "rect_counts": [
+      707,
+      662,
+      697,
+      730,
+      614,
+      669
+    ],
+    "mean_rects": 679.8333333333334,
+    "max_rects": 730,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      71,
+      71,
+      71,
+      69,
+      70,
+      69
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "mavuika",
+    "group": "idle",
+    "palette_sha256": "c2ad41f46da125be6fc79612ff7be6709b4ab0c2abe168c02cfb6ee718555cca",
+    "optimized_height": 76,
+    "rect_counts": [
+      678,
+      674
+    ],
+    "mean_rects": 676.0,
+    "max_rects": 678,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      73,
+      73
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "mavuika",
+    "group": "walk",
+    "palette_sha256": "c2ad41f46da125be6fc79612ff7be6709b4ab0c2abe168c02cfb6ee718555cca",
+    "optimized_height": 76,
+    "rect_counts": [
+      720,
+      655,
+      750,
+      744,
+      627,
+      758
+    ],
+    "mean_rects": 709.0,
+    "max_rects": 758,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      75,
+      75,
+      75,
+      71,
+      71,
+      71
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "venti",
+    "group": "idle",
+    "palette_sha256": "fdae207e3aa47977ee4093dfb1d4a7f0f8f932d36d277b6431bbfb1ba83408d4",
+    "optimized_height": 80,
+    "rect_counts": [
+      544,
+      546
+    ],
+    "mean_rects": 545.0,
+    "max_rects": 546,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      76,
+      76
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "venti",
+    "group": "walk",
+    "palette_sha256": "fdae207e3aa47977ee4093dfb1d4a7f0f8f932d36d277b6431bbfb1ba83408d4",
+    "optimized_height": 80,
+    "rect_counts": [
+      662,
+      603,
+      686,
+      668,
+      583,
+      685
+    ],
+    "mean_rects": 647.8333333333334,
+    "max_rects": 686,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      79,
+      78,
+      79,
+      77,
+      77,
+      77
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "kamisatoayaka",
+    "group": "idle",
+    "palette_sha256": "d57d73b94cd58900706cd1c2e23181f26724294aa28798398bfccbd25b9ac6fb",
+    "optimized_height": 72,
+    "rect_counts": [
+      524,
+      553
+    ],
+    "mean_rects": 538.5,
+    "max_rects": 553,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      68,
+      68
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "kamisatoayaka",
+    "group": "walk",
+    "palette_sha256": "d57d73b94cd58900706cd1c2e23181f26724294aa28798398bfccbd25b9ac6fb",
+    "optimized_height": 72,
+    "rect_counts": [
+      728,
+      675,
+      689,
+      660,
+      624,
+      644
+    ],
+    "mean_rects": 670.0,
+    "max_rects": 728,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      71,
+      71,
+      71,
+      70,
+      70,
+      69
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "tartaglia",
+    "group": "idle",
+    "palette_sha256": "3a5d9002a607e4d8013486b36e1ebb852b342aef49cbb0452e5ab65d71747462",
+    "optimized_height": 80,
+    "rect_counts": [
+      588,
+      575
+    ],
+    "mean_rects": 581.5,
+    "max_rects": 588,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      77,
+      77
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "tartaglia",
+    "group": "walk",
+    "palette_sha256": "3a5d9002a607e4d8013486b36e1ebb852b342aef49cbb0452e5ab65d71747462",
+    "optimized_height": 80,
+    "rect_counts": [
+      731,
+      614,
+      734,
+      707,
+      614,
+      734
+    ],
+    "mean_rects": 689.0,
+    "max_rects": 734,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      78,
+      78,
+      78,
+      77,
+      77,
+      76
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "aratakiitto",
+    "group": "idle",
+    "palette_sha256": "8ad9bef69ef89aaa4a4d4fe2b70192b789c0b9f8d4545544492d613caa6efa9d",
+    "optimized_height": 64,
+    "rect_counts": [
+      569,
+      553
+    ],
+    "mean_rects": 561.0,
+    "max_rects": 569,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      59,
+      59
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "aratakiitto",
+    "group": "walk",
+    "palette_sha256": "8ad9bef69ef89aaa4a4d4fe2b70192b789c0b9f8d4545544492d613caa6efa9d",
+    "optimized_height": 64,
+    "rect_counts": [
+      740,
+      626,
+      714,
+      756,
+      670,
+      742
+    ],
+    "mean_rects": 708.0,
+    "max_rects": 756,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      63,
+      63,
+      63,
+      62,
+      62,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "yaemiko",
+    "group": "idle",
+    "palette_sha256": "8d7a864197ce77eea9cd912b28d4d736a8664b951388cc8358f72f20f1afafa2",
+    "optimized_height": 64,
+    "rect_counts": [
+      519,
+      549
+    ],
+    "mean_rects": 534.0,
+    "max_rects": 549,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      62,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "yaemiko",
+    "group": "walk",
+    "palette_sha256": "8d7a864197ce77eea9cd912b28d4d736a8664b951388cc8358f72f20f1afafa2",
+    "optimized_height": 64,
+    "rect_counts": [
+      710,
+      656,
+      624,
+      584,
+      614,
+      608
+    ],
+    "mean_rects": 632.6666666666666,
+    "max_rects": 710,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      63,
+      63,
+      63,
+      61,
+      61,
+      61
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "arlecchino",
+    "group": "idle",
+    "palette_sha256": "2aa195d6ce8f67f9bd962fa56ed2a401882faeabc6d5be7907b52927e0cd09cd",
+    "optimized_height": 68,
+    "rect_counts": [
+      515,
+      532
+    ],
+    "mean_rects": 523.5,
+    "max_rects": 532,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      65,
+      65
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "arlecchino",
+    "group": "walk",
+    "palette_sha256": "2aa195d6ce8f67f9bd962fa56ed2a401882faeabc6d5be7907b52927e0cd09cd",
+    "optimized_height": 68,
+    "rect_counts": [
+      689,
+      631,
+      758,
+      724,
+      637,
+      750
+    ],
+    "mean_rects": 698.1666666666666,
+    "max_rects": 758,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      67,
+      67,
+      67,
+      66,
+      66,
+      66
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "wanderer",
+    "group": "idle",
+    "palette_sha256": "2860451513f2b13522f6c0d0199d3a5493d1f2a02913d9af8fb0c7e71a744cc3",
+    "optimized_height": 64,
+    "rect_counts": [
+      472,
+      503
+    ],
+    "mean_rects": 487.5,
+    "max_rects": 503,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      61,
+      61
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "wanderer",
+    "group": "walk",
+    "palette_sha256": "2860451513f2b13522f6c0d0199d3a5493d1f2a02913d9af8fb0c7e71a744cc3",
+    "optimized_height": 64,
+    "rect_counts": [
+      708,
+      642,
+      692,
+      665,
+      645,
+      652
+    ],
+    "mean_rects": 667.3333333333334,
+    "max_rects": 708,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      63,
+      63,
+      63,
+      62,
+      62,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "neuvillette",
+    "group": "idle",
+    "palette_sha256": "519379af1245d06035ca0085f92a897b170a3cd36657b125789b7a796decdd68",
+    "optimized_height": 64,
+    "rect_counts": [
+      494,
+      502
+    ],
+    "mean_rects": 498.0,
+    "max_rects": 502,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      62,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "neuvillette",
+    "group": "walk",
+    "palette_sha256": "519379af1245d06035ca0085f92a897b170a3cd36657b125789b7a796decdd68",
+    "optimized_height": 64,
+    "rect_counts": [
+      690,
+      582,
+      685,
+      678,
+      599,
+      630
+    ],
+    "mean_rects": 644.0,
+    "max_rects": 690,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      63,
+      63,
+      63,
+      61,
+      62,
+      61
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "clorinde",
+    "group": "idle",
+    "palette_sha256": "8536b566b335085a3bbf20b72efa9c8deca6904a24a22c3cd073377f5172e59d",
+    "optimized_height": 72,
+    "rect_counts": [
+      544,
+      558
+    ],
+    "mean_rects": 551.0,
+    "max_rects": 558,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      69,
+      69
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "clorinde",
+    "group": "walk",
+    "palette_sha256": "8536b566b335085a3bbf20b72efa9c8deca6904a24a22c3cd073377f5172e59d",
+    "optimized_height": 72,
+    "rect_counts": [
+      718,
+      637,
+      703,
+      706,
+      632,
+      716
+    ],
+    "mean_rects": 685.3333333333334,
+    "max_rects": 718,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      71,
+      71,
+      71,
+      70,
+      70,
+      69
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "navia",
+    "group": "idle",
+    "palette_sha256": "82b11602c747dfe0fb49aa3f638d77d1c262646ff974c603b31863578ba23b92",
+    "optimized_height": 64,
+    "rect_counts": [
+      468,
+      454
+    ],
+    "mean_rects": 461.0,
+    "max_rects": 468,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      60,
+      60
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "navia",
+    "group": "walk",
+    "palette_sha256": "82b11602c747dfe0fb49aa3f638d77d1c262646ff974c603b31863578ba23b92",
+    "optimized_height": 64,
+    "rect_counts": [
+      706,
+      629,
+      711,
+      719,
+      651,
+      707
+    ],
+    "mean_rects": 687.1666666666666,
+    "max_rects": 719,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      63,
+      63,
+      63,
+      62,
+      62,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "skirk",
+    "group": "idle",
+    "palette_sha256": "63fe0d7e0dd94605b6e01e3ba9c71cfa3bdbec5fbb2b391b088de5e4f5cac330",
+    "optimized_height": 64,
+    "rect_counts": [
+      524,
+      562
+    ],
+    "mean_rects": 543.0,
+    "max_rects": 562,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      61,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  },
+  {
+    "character": "skirk",
+    "group": "walk",
+    "palette_sha256": "63fe0d7e0dd94605b6e01e3ba9c71cfa3bdbec5fbb2b391b088de5e4f5cac330",
+    "optimized_height": 64,
+    "rect_counts": [
+      683,
+      653,
+      732,
+      718,
+      674,
+      740
+    ],
+    "mean_rects": 700.0,
+    "max_rects": 740,
+    "budget760": true,
+    "silhouette_bottom_y": [
+      63,
+      63,
+      63,
+      62,
+      62,
+      62
+    ],
+    "status": "离线拟合/比较图/播放证据已生成；动作语义、风格与足底尚未全套验收；非逻辑/模拟器/真机"
+  }
+]

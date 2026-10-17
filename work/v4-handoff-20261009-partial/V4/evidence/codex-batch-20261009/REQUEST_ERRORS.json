@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {"job":"yaemiko-fox-single-2","kind":"connection_failed","message":"image generation failed: connection failed: error sending request","status":"same prompt retry succeeded","quota_exhaustion":false},
+    {"job":"aratakiitto-standguard-body-v1","kind":"connection_failed","message":"image generation failed: connection failed: error sending request","status":"same prompt retry succeeded","quota_exhaustion":false},
+    {"job":"navia-hit_knockdown-body-v1","kind":"moderation_blocked","message":"HTTP400 output safety rejection; category sexual; request c2ee46da-ed71-43e3-9433-c86e206f880c","status":"deferred; no generated image; not retried or bypassed","quota_exhaustion":false}
+  ],
+  "quota_exhausted": false
+}

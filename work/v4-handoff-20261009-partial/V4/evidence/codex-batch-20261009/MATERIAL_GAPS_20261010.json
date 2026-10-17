@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-10",
+  "planned_body_groups": 350,
+  "physical_body_source_groups": 206,
+  "missing_body_groups": [
+    "furina.airheavy",
+    "furina.Q",
+    "furina.throw",
+    "furina.victim",
+    "furina.forwarddash",
+    "furina.backdash",
+    "furina.crouchguard",
+    "furina.victory",
+    "furina.defeat",
+    "zhongli.airheavy",
+    "zhongli.Q",
+    "zhongli.throw",
+    "zhongli.victim",
+    "zhongli.forwarddash",
+    "zhongli.backdash",
+    "zhongli.crouch",
+    "zhongli.crouchguard",
+    "zhongli.victory",
+    "zhongli.defeat",
+    "mavuika.crouchlight",
+    "mavuika.airheavy",
+    "mavuika.Q",
+    "mavuika.throw",
+    "mavuika.victim",
+    "mavuika.forwarddash",
+    "mavuika.backdash",
+    "mavuika.crouch",
+    "mavuika.crouchguard",
+    "mavuika.victory",
+    "mavuika.defeat",
+    "venti.airheavy",
+    "venti.Q",
+    "venti.throw",
+    "venti.victim",
+    "venti.forwarddash",
+    "venti.backdash",
+    "venti.crouchguard",
+    "venti.victory",
+    "venti.defeat",
+    "kamisatoayaka.airheavy",
+    "kamisatoayaka.Q",
+    "kamisatoayaka.throw",
+    "kamisatoayaka.victim",
+    "kamisatoayaka.forwarddash",
+    "kamisatoayaka.backdash",
+    "kamisatoayaka.crouchguard",
+    "kamisatoayaka.victory",
+    "kamisatoayaka.defeat",
+    "tartaglia.airheavy",
+    "tartaglia.Q",
+    "tartaglia.throw",
+    "tartaglia.victim",
+    "tartaglia.forwarddash",
+    "tartaglia.backdash",
+    "tartaglia.crouch",
+    "tartaglia.crouchguard",
+    "tartaglia.victory",
+    "tartaglia.defeat",
+    "aratakiitto.airheavy",
+    "aratakiitto.Q",
+    "aratakiitto.throw",
+    "aratakiitto.victim",
+    "aratakiitto.forwarddash",
+    "aratakiitto.backdash",
+    "aratakiitto.crouch",
+    "aratakiitto.crouchguard",
+    "aratakiitto.victory",
+    "aratakiitto.defeat",
+    "yaemiko.airheavy",
+    "yaemiko.Q",
+    "yaemiko.throw",
+    "yaemiko.victim",
+    "yaemiko.forwarddash",
+    "yaemiko.backdash",
+    "yaemiko.crouch",
+    "yaemiko.crouchguard",
+    "yaemiko.victory",
+    "yaemiko.defeat",
+    "arlecchino.airheavy",
+    "arlecchino.Q",
+    "arlecchino.throw",
+    "arlecchino.victim",
+    "arlecchino.forwarddash",
+    "arlecchino.backdash",
+    "arlecchino.crouch",
+    "arlecchino.crouchguard",
+    "arlecchino.victory",
+    "arlecchino.defeat",
+    "wanderer.airheavy",
+    "wanderer.Q",
+    "wanderer.throw",
+    "wanderer.victim",
+    "wanderer.forwarddash",
+    "wanderer.backdash",
+    "wanderer.crouch",
+    "wanderer.crouchguard",
+    "wanderer.victory",
+    "wanderer.defeat",
+    "neuvillette.airlight",
+    "neuvillette.airheavy",
+    "neuvillette.Q",
+    "neuvillette.throw",
+    "neuvillette.victim",
+    "neuvillette.forwarddash",
+    "neuvillette.backdash",
+    "neuvillette.crouch",
+    "neuvillette.crouchguard",
+    "neuvillette.victory",
+    "neuvillette.defeat",
+    "clorinde.airlight",
+    "clorinde.airheavy",
+    "clorinde.Q",
+    "clorinde.throw",
+    "clorinde.victim",
+    "clorinde.forwarddash",
+    "clorinde.backdash",
+    "clorinde.crouch",
+    "clorinde.crouchguard",
+    "clorinde.victory",
+    "clorinde.defeat",
+    "navia.airlight",
+    "navia.airheavy",
+    "navia.Q",
+    "navia.throw",
+    "navia.victim",
+    "navia.forwarddash",
+    "navia.backdash",
+    "navia.crouch",
+    "navia.crouchguard",
+    "navia.hit_knockdown",
+    "navia.wakeup",
+    "navia.victory",
+    "navia.defeat",
+    "skirk.airlight",
+    "skirk.airheavy",
+    "skirk.Q",
+    "skirk.throw",
+    "skirk.victim",
+    "skirk.forwarddash",
+    "skirk.backdash",
+    "skirk.crouch",
+    "skirk.crouchguard",
+    "skirk.victory",
+    "skirk.defeat"
+  ],
+  "missing_by_action": {
+    "airheavy": 14,
+    "Q": 14,
+    "throw": 14,
+    "victim": 14,
+    "forwarddash": 14,
+    "backdash": 14,
+    "crouchguard": 14,
+    "victory": 14,
+    "defeat": 14,
+    "crouch": 11,
+    "crouchlight": 1,
+    "airlight": 4,
+    "hit_knockdown": 1,
+    "wakeup": 1
+  },
+  "common_missing_actions": [
+    "airheavy",
+    "Q",
+    "throw",
+    "victim",
+    "forwarddash",
+    "backdash",
+    "crouchguard",
+    "victory",
+    "defeat"
+  ],
+  "manifest_paths_missing_on_disk": [],
+  "new_body_groups_without_eligible_fit": [
+    {
+      "actionId": "furina.wakeup",
+      "sources": [
+        "furina-wakeup-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "zhongli.airlight",
+      "sources": [
+        "zhongli-airlight-body-v2"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "zhongli.wakeup",
+      "sources": [
+        "zhongli-wakeup-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "mavuika.wakeup",
+      "sources": [
+        "mavuika-wakeup-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "tartaglia.jump",
+      "sources": [
+        "tartaglia-jump-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "tartaglia.hit_knockdown",
+      "sources": [
+        "tartaglia-hit_knockdown-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "yaemiko.wakeup",
+      "sources": [
+        "yaemiko-wakeup-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "wanderer.standguard",
+      "sources": [
+        "wanderer-standguard-body-v1",
+        "wanderer-standguard-body-v2"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    },
+    {
+      "actionId": "neuvillette.wakeup",
+      "sources": [
+        "neuvillette-wakeup-body-v1"
+      ],
+      "reason": "No eligible fitted current candidate; extraction failure or explicit pending status"
+    }
+  ],
+  "explicit_pending_sources": [
+    {
+      "actionId": "zhongli.airlight",
+      "source": "zhongli-airlight-body-v2",
+      "status": "needs_grip_and_composition_review"
+    },
+    {
+      "actionId": "zhongli.standguard",
+      "source": "zhongli-standguard-body-v1",
+      "status": "requires_pose_overlap_fix"
+    },
+    {
+      "actionId": "venti.crouch",
+      "source": "venti-crouch-body-v1",
+      "status": "needs_hip_glove_anatomy_review"
+    },
+    {
+      "actionId": "kamisatoayaka.crouch",
+      "source": "kamisatoayaka-crouch-body-v1",
+      "status": "requires_limb_continuity_fix"
+    }
+  ],
+  "runtime_integrated": 0,
+  "accepted": 0,
+  "scope": "Body-group inventory only; additional layers and semantic acceptance are separate gates"
+}

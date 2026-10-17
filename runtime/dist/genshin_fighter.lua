@@ -1585,8 +1585,10 @@ local function slotHas(s, pose) return s.key == pose and not s.job end
 -- belongs to the hidden slot; simulation and the delivered pose clock stay intact.
 function V:nextLocomotion()
     local st=self.f.state
-    if st~='walk' and st~='back' then return nil end
     local provider=Registry.provider(self.key)
+    if (st=='dash' or st=='backdash') and provider and provider.nextDashPose then return provider.nextDashPose(self) end
+    if st=='attack' and provider and provider.nextAttackPose then return provider.nextAttackPose(self) end
+    if st~='walk' and st~='back' then return nil end
     if provider and provider.nextLocomotion then return provider.nextLocomotion(self) end
     if self.key=='raidenshogun' or self.key=='nahida' then
         local i=(self.walkT//8+1)%6
@@ -1624,7 +1626,10 @@ function V:updatePose(budget)
             if not back.job or back.job.key ~= nxt then back:start(self:image(nxt), nxt,nil,self.f.state=='walk' or self.f.state=='back') end
             if back.job then back.job.prefetch=true end
             local moving=self.f.state=='walk' or self.f.state=='back'
-            back:step(math.min(budget // 2, moving and 160 or 220))
+            local provider=Registry.provider(self.key)
+            local movingBudget=moving and provider and provider.locomotionPrefetchBudget
+            local dashBudget=self.f.state=='dash' and provider and provider.dashPrefetchBudget
+            back:step(dashBudget and math.min(budget,dashBudget) or movingBudget and math.min(budget,movingBudget) or math.min(budget // 2,moving and 160 or 220))
         end
         return
     end
@@ -2852,6 +2857,8 @@ end
 
 function Bitmap:start(img, key, tint, reuseRuns)
     if key and key == self.key and not self.job then return true end
+    -- A partly overwritten buffer no longer contains its last complete image.
+    self.key = nil
     local order
     if reuseRuns then
         self.locomotionOrders=self.locomotionOrders or {}
@@ -3474,6 +3481,9 @@ I.__index = I
 local B = {U = 1, D = 2, L = 4, R = 8, LP = 16, HP = 32, SK = 64, BU = 128, DA = 256, TH = 512}
 I.B = B
 I.DIRS = 15
+-- Chosen project layout. Physical keycaps require matching platform bindings;
+-- Lua receives action events, not raw Xbox/PlayStation button identifiers.
+I.controllerLayout={light='X / □',heavy='Y / △',jump='A / ×',dash='B / ○',skill='RB / R1',burst='RT / R2',throw='LB / L1',pause='Start / Options',confirm='A / ×',back='B / ○'}
 
 -- key event base name -> {player, bit} or menu action
 local CRAFT = {['1'] = 1, ['2'] = 2, ['3'] = 3, ['4'] = 4, ['5'] = 5, ['6'] = 6, ['7'] = 7, ['8'] = 8, ['9'] = 9, ['0'] = 10,
@@ -3502,7 +3512,8 @@ local BINDS = {
     -- controller
     {'ControllerNormalAttackKey', 'pad', B.LP, 'ok'}, {'ControllerInteractKey', 'pad', B.HP},
     {'ControllerCharacterSkill1Key', 'pad', B.SK}, {'ControllerCharacterSkill2Key', 'pad', B.BU},
-    {'ControllerSprintKey', 'pad', B.DA}, {'ControllerJumpKey', 'pad', B.U},
+    {'ControllerSprintKey', 'pad', B.DA, 'back'}, {'ControllerJumpKey', 'pad', B.U, 'ok'},
+    {'ControllerCharacterSkill4Key', 'pad', B.TH},
     {'ControllerMenuConfirmKey', 0, 0, 'ok'}, {'ControllerMenuBackKey', 0, 0, 'back'},
     {'ControllerCharacterSkill3Key', 0, 0, 'pause'},
 }
@@ -3537,6 +3548,11 @@ function I:attach()
 end
 
 function I:key(b, down)
+    -- Deduplicate physical bindings; aliases still contribute separate counts.
+    self.keyDown = self.keyDown or {}
+    local was = self.keyDown[b[1]] == true
+    if down == was then return end
+    self.keyDown[b[1]] = down or nil
     local p, bit, menu = b[2], b[3], b[4]
     if p == 'pad' then p = self.padOwner; self.dev = 'pad' end
     if p ~= 0 and bit ~= 0 then
@@ -5525,20 +5541,21 @@ S.__index = S
 local function pagesFor(app)
  local dev=app.input:device()
  local mobile=dev=='touch';local pad=dev=='pad'
- local light=mobile and '轻按钮' or pad and '普攻键' or 'J'
- local heavy=mobile and '重按钮' or pad and '交互键' or 'K'
- local skill=mobile and 'E按钮' or pad and '技能1' or 'E'
- local burst=mobile and 'Q按钮' or pad and '技能2' or 'Q'
+ local p=app.input.controllerLayout
+ local light=mobile and '轻按钮' or pad and p.light or 'J'
+ local heavy=mobile and '重按钮' or pad and p.heavy or 'K'
+ local skill=mobile and 'E按钮' or pad and p.skill or 'E'
+ local burst=mobile and 'Q按钮' or pad and p.burst or 'Q'
  return {
   {title='基础操作',lines={
-   {'移动 / 跳跃',mobile and '摇杆移动；点跳按钮起跳' or pad and '左摇杆移动；跳跃键起跳' or 'A / D 左右；W或空格跳跃；S蹲下'},
+   {'移动 / 跳跃',mobile and '摇杆移动；点跳按钮起跳' or pad and '左摇杆移动；'..p.jump..' 跳跃' or 'A / D 左右；W或空格跳跃；S蹲下'},
    {'防御','按住远离对手的方向；后下为蹲防'},
    {'轻攻击',light..' · 可接后续轻攻；蹲下可出蹲轻'},
    {'重攻击',heavy..' · 角色重攻；蹲下可出蹲重'},
    {'元素战技',skill..' · 冷却结束后发动'},
    {'元素爆发',burst..' · 能量满时发动'},
-   {'冲刺',mobile and '冲按钮；按住后方向可后撤' or pad and '冲刺键；按住后方向可后撤' or 'U；后方向＋U为后撤'},
-   {'投技',mobile and '近身前方向＋重按钮' or pad and '近身前方向＋交互键' or 'L；需近身且目标可投'},
+   {'冲刺',mobile and '冲按钮；按住后方向可后撤' or pad and p.dash..'；后方向＋冲刺为后撤' or 'U；后方向＋U为后撤'},
+   {'投技',mobile and '近身前方向＋重按钮' or pad and p.throw..'；需近身且目标可投' or 'L；需近身且目标可投'},
   }},
   {title='连段规则',lines={
    {'轻攻连段','连续轻攻可接下一段，招式随角色不同'},
@@ -5558,11 +5575,11 @@ local function pagesFor(app)
    {'失败提示','能量不足 / 战技冷却中 / 当前动作不能释放'},
   }},
   {title='进阶操作',lines={
-   {'战技备用',mobile and '使用E按钮；方向指令放在后续招式教学' or pad and '使用技能1；方向指令为进阶输入' or 'I也可发动战技；默认主键为E'},
-   {'爆发备用',mobile and '使用Q按钮' or pad and '使用技能2' or 'O也可发动爆发；默认主键为Q'},
+   {'战技备用',mobile and '使用E按钮；方向指令放在后续招式教学' or pad and '使用 '..p.skill..'；可配合方向输入' or 'I也可发动战技；默认主键为E'},
+   {'爆发备用',mobile and '使用Q按钮' or pad and '使用 '..p.burst or 'O也可发动爆发；默认主键为Q'},
    {'方向指令','↓↘→＋攻击为进阶战技输入'},
    {'近身投技','前方向＋重攻；对手状态不允许时会落空'},
-   {'打开菜单',mobile and '点画面上方菜单按钮' or pad and '平台技能3键打开战斗菜单' or 'P打开战斗菜单'},
+   {'打开菜单',mobile and '点画面上方菜单按钮' or pad and p.pause..'；平台技能3绑定此键' or 'P打开战斗菜单'},
    {'连段示例','实际能否衔接取决于角色、距离和取消窗口'},
   }},
  }
@@ -5628,9 +5645,11 @@ function S:draw()
         L:rect(x + 600, y - 37, 1200, 1, UI.WHITE, 0.12 * a)
     end
     local mobile=app.input:device()=='touch'
-    UI.prompt(L, W / 2 - 460, -H / 2 + 40, mobile and '‹' or 'A', '上一页', 1, 'left')
-    UI.prompt(L, W / 2 - 300, -H / 2 + 40, mobile and '›' or 'D', '下一页', 1, 'right')
-    UI.prompt(L, W / 2 - 140, -H / 2 + 40, mobile and '返' or 'K', '返回', 1, 'back')
+    local pad=app.input:device()=='pad'
+    if pad then L:label('推荐布局：Xbox / PlayStation；平台绑定需对应设置',0,-H/2+80,1300,30,19,UI.GOLD,'c') end
+    UI.prompt(L, W / 2 - 460, -H / 2 + 40, mobile and '‹' or pad and '←' or 'A', '上一页', 1, 'left')
+    UI.prompt(L, W / 2 - 300, -H / 2 + 40, mobile and '›' or pad and '→' or 'D', '下一页', 1, 'right')
+    UI.prompt(L, W / 2 - 140, -H / 2 + 40, mobile and '返' or pad and 'B/○' or 'K', '返回', 1, 'back')
     L:finish()
 end
 
@@ -9151,6 +9170,7 @@ function Menu:bind()
 end
 
 function Menu:pick()
+    if self.freed then return end
     local it = self.items[self.sel]
     if not it or it.disabled then self.app.audio:play(self.app.audio.ID.fail) return end
     self.blink = 12
@@ -9216,7 +9236,14 @@ function Menu:draw(am)
     L:finish()
 end
 
-function Menu:free() self.L:free() end
+function Menu:free()
+    if self.freed then return end
+    self.freed=true
+    for _,b in ipairs(self.areas)do
+        if b and b.node and b.node.handlers==b.handlers then b.node.handlers=nil;b.node:on(false) end
+    end
+    self.L:free()
+end
 
 return UI
 end

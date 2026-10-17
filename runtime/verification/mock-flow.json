@@ -1,6 +1,6 @@
 {
   "mockOnly": true,
-  "clientSha256": "94d383d7cba7e4ec0b982c950dad11d80a75cf69969b3e4f78c63a62edcc9efd",
+  "clientSha256": "9bcbca70a311b58e9de8bd0be2ed9ae84e0f759b7c829dc09539a3d81ebf218e",
   "local": [
     {
       "device": "KeyboardAndMouse",
@@ -13,14 +13,14 @@
         4,
         3
       ],
-      "updates": 2878,
-      "maxMockInstructions": 1118997,
+      "updates": 2901,
+      "maxMockInstructions": 1112399,
       "stats": {
         "controls": 16186,
-        "active": 2392,
-        "visibleImages": 2363,
-        "visibleTexts": 21,
-        "glyphs": 137
+        "active": 3013,
+        "visibleImages": 2980,
+        "visibleTexts": 23,
+        "glyphs": 145
       }
     },
     {
@@ -34,14 +34,14 @@
         4,
         3
       ],
-      "updates": 2880,
-      "maxMockInstructions": 1119197,
+      "updates": 2722,
+      "maxMockInstructions": 1136869,
       "stats": {
-        "controls": 16186,
-        "active": 2392,
-        "visibleImages": 2363,
-        "visibleTexts": 21,
-        "glyphs": 137
+        "controls": 12186,
+        "active": 3013,
+        "visibleImages": 2980,
+        "visibleTexts": 23,
+        "glyphs": 145
       }
     },
     {
@@ -55,14 +55,14 @@
         4,
         3
       ],
-      "updates": 2879,
-      "maxMockInstructions": 1126962,
+      "updates": 2721,
+      "maxMockInstructions": 1285557,
       "stats": {
-        "controls": 16186,
-        "active": 2392,
-        "visibleImages": 2363,
-        "visibleTexts": 21,
-        "glyphs": 137
+        "controls": 12186,
+        "active": 3013,
+        "visibleImages": 2980,
+        "visibleTexts": 23,
+        "glyphs": 145
       }
     }
   ],
@@ -74,7 +74,7 @@
     "commonConfirmedHashes": 4,
     "rollbacks": [
       70,
-      70
+      71
     ],
     "latency": 0.06,
     "jitter": 0.04,

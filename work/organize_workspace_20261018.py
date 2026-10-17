@@ -34,6 +34,10 @@ def main():
     for p in (ROOT/'assets').rglob('*'):
         if p.is_file() and p.suffix.lower() in ['.mp4','.mov']:
             plan.append((p,'研究参考视频；已取出的参考帧与来源记录保留 Git，不是游戏运行素材'))
+    for base in [ROOT/'outputs',ROOT/'work/v4-handoff-20261009-partial/V4']:
+        for p in base.rglob('*.png'):
+            if 'archive' not in p.parts and 'rejected' in p.name.lower():
+                plan.append((p,'明确标记退回的原画/检查图；修订状态与提示词保留，当前不使用'))
     entries=[]
     old=REPORT/'archive-manifest.json'
     if old.exists():entries=json.loads(old.read_text(encoding='utf8'))['files']

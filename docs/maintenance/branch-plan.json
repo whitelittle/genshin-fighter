@@ -1,0 +1,33 @@
+{
+  "destination": "https://github.com/whitelittle/genshin-fighter",
+  "visibility": "PUBLIC",
+  "localPlan": "fast-forward master to consolidated history; preserve tags before deleting local v2 and temporary consolidation branch",
+  "remotePlan": "after explicit destination confirmation and verified push: preserve tags, fast-forward master, delete four old work branches; no force push",
+  "refs": [
+    {
+      "ref": "v2",
+      "commit": "c7d2c3517e37411b0b0b3675cd152e263656a223",
+      "preserveTag": "archive/20261018/v2"
+    },
+    {
+      "ref": "origin/work/linghua-furina-20261011",
+      "commit": "1c21eb57ffb1b8d88b41cbb743c46a34864849df",
+      "preserveTag": "archive/20261018/linghua-furina"
+    },
+    {
+      "ref": "origin/work/mavuika-v10-20261012",
+      "commit": "f0ab595f216b627014ce7e0170a12412792d71e2",
+      "preserveTag": "archive/20261018/mavuika-v10"
+    },
+    {
+      "ref": "origin/work/zhongli-full-actions-20261011",
+      "commit": "ab8368dffdd6a31dc133575c3fde0dad216fb3f1",
+      "preserveTag": "archive/20261018/zhongli-actions"
+    },
+    {
+      "ref": "origin/work/v4-handoff-20261009",
+      "commit": "e5c01142d76686d97afc624957a5e8c2474bcad2",
+      "preserveTag": "archive/20261018/v4-handoff"
+    }
+  ]
+}

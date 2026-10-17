@@ -1,8 +1,8 @@
 {
   "release": "structure-20261011-four-character-candidate",
   "minified": false,
-  "bytes": 10424263,
-  "sha256": "d781527091f2571271335b731a1884b068850a4dbf3e2a496b244ca874817841",
+  "bytes": 10426077,
+  "sha256": "9bcbca70a311b58e9de8bd0be2ed9ae84e0f759b7c829dc09539a3d81ebf218e",
   "modules": {
     "gf_signal_names": "source/network/gf_signal_names.lua",
     "gf_team_lobby": "source/network/gf_team_lobby.lua",
@@ -200,8 +200,8 @@
     },
     {
       "path": "source/render/gf_fview.lua",
-      "bytes": 37251,
-      "sha256": "9146b24fd05e39e8c9992c29fe0b7f2dd159ae1480cc680e715a67181a46f749"
+      "bytes": 37818,
+      "sha256": "d370490cbcfe302599a9a2b2b0ae1176fb733b8c590668e41ecf395837d3983f"
     },
     {
       "path": "source/render/gf_fx.lua",
@@ -210,8 +210,8 @@
     },
     {
       "path": "source/render/gf_gfx.lua",
-      "bytes": 33201,
-      "sha256": "5f866354d8b9c98ad11bca80e3b30c930df59e4170a69750b505d9bf1b72983c"
+      "bytes": 33301,
+      "sha256": "dfd95f7a8426f731b1cbd785417026f2f8844d5fbc1d4ad86c70f713fb3aa54d"
     },
     {
       "path": "source/render/gf_hud.lua",
@@ -220,8 +220,8 @@
     },
     {
       "path": "source/input/gf_input.lua",
-      "bytes": 9913,
-      "sha256": "6a90712c511d5e4ec1d6bb75e80c4577584d0119efd50577fd90c232f7be4811"
+      "bytes": 10552,
+      "sha256": "6412caf320f97b5583fc8d41f7e53b8d3b58bd07bfcc8833b0bea7abc57c260e"
     },
     {
       "path": "source/characters/gf_kits.lua",
@@ -290,8 +290,8 @@
     },
     {
       "path": "source/menu/gf_scene_howto.lua",
-      "bytes": 6674,
-      "sha256": "087d9710b5896e0d513cf3df1f50bd2202d84d08932690afa163ceccc48bee0d"
+      "bytes": 6944,
+      "sha256": "4a630c143e873401a32a4207b5bb2301ae9d96180a09ab02e7eade2bc6ccc020"
     },
     {
       "path": "source/menu/gf_scene_intro.lua",
@@ -400,8 +400,8 @@
     },
     {
       "path": "source/render/gf_ui.lua",
-      "bytes": 13263,
-      "sha256": "1b3f0d141064a7c0b7452cf0cd6b98b95d834ba6d159e557097129694294f9e9"
+      "bytes": 13501,
+      "sha256": "661a29b7f737811370a73437587ce621a581acbeac34ea6a6270f98ddd70c96a"
     },
     {
       "path": "source/core/gf_util.lua",

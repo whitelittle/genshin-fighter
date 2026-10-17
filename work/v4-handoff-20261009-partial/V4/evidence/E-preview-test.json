@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "characters": [
+    "aratakiitto",
+    "arlecchino",
+    "clorinde",
+    "furina",
+    "kamisatoayaka",
+    "mavuika",
+    "navia",
+    "neuvillette",
+    "skirk",
+    "tartaglia",
+    "venti",
+    "wanderer",
+    "yaemiko",
+    "zhongli"
+  ],
+  "frames": 112,
+  "checks": "生产JS逐帧/播放暂停/换层/换角色/深浅背景；全部PNG CPU解码；不是浏览器UI/GPU/真机"
+}

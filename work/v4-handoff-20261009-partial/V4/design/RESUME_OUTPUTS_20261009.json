@@ -1,0 +1,20 @@
+[
+  {
+    "id": "aratakiitto-light2-body-v2",
+    "first": "/workspace/scratch/1c5183d0903d/generated_images/exec-230e09e8-ea8e-49a5-ba31-b3c409a11e14.png",
+    "last": "/workspace/scratch/1c5183d0903d/generated_images/exec-72d2dc6f-3072-4a72-89fc-31edfb5833a9.png",
+    "alphaPrompt": "Use case: background-extraction. Edit target: the attached FOUR-pose 2x2 sprite sheet. Remove ONLY the entire dark/colored gradient background, colored halo and backdrop haze around every character. Set every pixel outside the four character silhouettes to genuine fully transparent alpha=0. Keep all four full-body poses, their exact original cell positions, anatomical scale, colors, faces, hair, fingers, clothes, costume details and silhouettes unchanged. Do not redesign, redraw poses, crop, shift, rescale, thicken outlines or add anything. Character interiors should remain fully opaque; preserve antialiased silhouette edges without colored halo. Return the same complete 2x2 sheet dimensions. No checkerboard graphic, solid black/white background, labels or floor shadow."
+  },
+  {
+    "id": "zhongli-light3-body-v1",
+    "first": "/workspace/scratch/1c5183d0903d/generated_images/exec-da6200a4-87b4-4b24-bd2d-db85d0ecb372.png",
+    "last": "/workspace/scratch/1c5183d0903d/generated_images/exec-26200c6c-c19a-4cb9-9e77-d3a59cac127f.png",
+    "alphaPrompt": "Use case: background-extraction. Edit target: the attached FOUR-pose 2x2 sprite sheet. Remove ONLY the entire dark/colored gradient background, colored halo and backdrop haze around every character. Set every pixel outside the four character silhouettes to genuine fully transparent alpha=0. Keep all four full-body poses, their exact original cell positions, anatomical scale, colors, faces, hair, fingers, clothes, costume details and silhouettes unchanged. Do not redesign, redraw poses, crop, shift, rescale, thicken outlines or add anything. Character interiors should remain fully opaque; preserve antialiased silhouette edges without colored halo. Return the same complete 2x2 sheet dimensions. No checkerboard graphic, solid black/white background, labels or floor shadow."
+  },
+  {
+    "id": "yaemiko-light3-body-v1",
+    "first": "/workspace/scratch/1c5183d0903d/generated_images/exec-1cb3ac41-5e44-46d7-b0f8-9baf2b89f9c9.png",
+    "last": "/workspace/scratch/1c5183d0903d/generated_images/exec-f12fa40d-9c38-4fc2-9149-51153f490267.png",
+    "alphaPrompt": "Use case: background-extraction. Edit target: the attached FOUR-pose 2x2 sprite sheet. Remove ONLY the entire dark/colored gradient background, colored halo and backdrop haze around every character. Set every pixel outside the four character silhouettes to genuine fully transparent alpha=0. Keep all four full-body poses, their exact original cell positions, anatomical scale, colors, faces, hair, fingers, clothes, costume details and silhouettes unchanged. Do not redesign, redraw poses, crop, shift, rescale, thicken outlines or add anything. Character interiors should remain fully opaque; preserve antialiased silhouette edges without colored halo. Return the same complete 2x2 sheet dimensions. No checkerboard graphic, solid black/white background, labels or floor shadow."
+  }
+]

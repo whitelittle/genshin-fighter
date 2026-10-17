@@ -1,0 +1,978 @@
+{
+  "character": "furina",
+  "status": "design_candidate",
+  "source": "assets/roster-v2/furina-talents.json",
+  "source_sha256": "c60d90df0f93f576ca2d05e91e729d1483510992a91ecb1b5f26b097f618cd1c",
+  "identity_note": "舞台表演气质：自信指挥与被打断后的慌忙收势；不擅自编造剧情事实",
+  "symbols": "礼帽燕尾、空手手势、三个稳定身份的沙龙伙伴",
+  "stance": "轻巧小步，脚跟轻提但待机双脚不漂；防御收臂护胸，不用剑格挡",
+  "groups": [
+    {
+      "actionId": "furina.light1",
+      "status": "design_candidate_not_implemented",
+      "input": "light1输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "海马定向水弹"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.light1.0"
+      ],
+      "visualPoses": [
+        "托海马短喷水：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.light2",
+      "status": "design_candidate_not_implemented",
+      "input": "light2输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "章鱼近身拍击"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.light2.0"
+      ],
+      "visualPoses": [
+        "放章鱼近身拍击：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.light3",
+      "status": "design_candidate_not_implemented",
+      "input": "light3输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "蟹钳低扫"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.light3.0"
+      ],
+      "visualPoses": [
+        "侧身指挥蟹低钳：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.heavy",
+      "status": "专属方向已研究；逐姿待标定",
+      "input": "heavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "海马长水线，身体双手托空位朝前；水线起点绑定海马口，不绑定掌"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.heavy.0"
+      ],
+      "visualPoses": [
+        "：抱海马蓄一下再喷短扇面水，不做那维莱特式长水束"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.crouchlight",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "蟹短钳低打"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.crouchlight.0"
+      ],
+      "visualPoses": [
+        "蟹短钳低打"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.crouchheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "蟹双钳横扫"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.crouchheavy.0"
+      ],
+      "visualPoses": [
+        "蟹双钳横扫"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.airlight",
+      "status": "design_candidate_not_implemented",
+      "input": "airlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "空中章鱼向下拍"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.airlight.0"
+      ],
+      "visualPoses": [
+        "空中章鱼向下拍"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.airheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "airheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "海马俯射短水束"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.airheavy.0"
+      ],
+      "visualPoses": [
+        "海马俯射短水束"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.E",
+      "status": "design_candidate_not_implemented",
+      "input": "E输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "先侧身提腕，再张开两手邀请，右掌向前下达指令，最后双手回胸前；身体全程空手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.E.0"
+      ],
+      "visualPoses": [
+        "先侧身提腕，再张开两手邀请，右掌向前下达指令，最后双手回胸前；身体全程空手"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "mechanic_rule": "E三伙伴在固定前方合喷，先做一次合击结算，共享一个hitId；三份水效不算三倍。主人在释放前受击则取消；释放后短水弹走定向路径、不追踪，碰防御/目标即结束。"
+    },
+    {
+      "actionId": "furina.Q",
+      "status": "design_candidate_not_implemented",
+      "input": "Q输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "舞台谢幕三伙伴接力；首段命中确认才进入完整演出；落空和防御不锁对手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "由研究稿声明的分段编号，具体tick待标定，尚未实现"
+      ],
+      "visualPoses": [
+        "Q前置水泡击中才进舞台；伙伴依次章鱼、海马、蟹三段演出，各有hitId，最终击飞；落空/防御仅谢幕失手短收招。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "lock": "仅前置有效命中成立；退出解锁双方；贴墙/体型差异待验证",
+      "mechanic_rule": "Q前置水泡击中才进舞台；伙伴依次章鱼、海马、蟹三段演出，各有hitId，最终击飞；落空/防御仅谢幕失手短收招。"
+    },
+    {
+      "actionId": "furina.throw",
+      "status": "design_candidate_not_implemented",
+      "input": "throw输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "前臂探出抓取"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "furina.throw.0"
+      ],
+      "visualPoses": [
+        "投技以轻牵腕/章鱼水带捕获成立，再蟹横撞送出；被投者接触→牵引→失衡→释放→落地→起身。不要把纤细指挥者做成举壮汉的大力摔跤手。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "grab": {
+        "distance": "待调",
+        "eligible": "地面可抓状态；不可抓/无敌/已有锁位排除",
+        "escape": "窗口tick待调",
+        "pairAnchor": "腕/腰/肩等实际接触点逐帧标定",
+        "victim": "必须有配对victim动作；墙边与不同体型待验证"
+      },
+      "pair_rule": "投技以轻牵腕/章鱼水带捕获成立，再蟹横撞送出；被投者接触→牵引→失衡→释放→落地→起身。不要把纤细指挥者做成举壮汉的大力摔跤手。"
+    },
+    {
+      "actionId": "furina.victim",
+      "status": "design_candidate_not_implemented",
+      "input": "victim输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "投技以轻牵腕/章鱼水带捕获成立，再蟹横撞送出；被投者接触→牵引→失衡→释放→落地→起身。不要把纤细指挥者做成举壮汉的大力摔跤手。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "pair_rule": "投技以轻牵腕/章鱼水带捕获成立，再蟹横撞送出；被投者接触→牵引→失衡→释放→落地→起身。不要把纤细指挥者做成举壮汉的大力摔跤手。"
+    },
+    {
+      "actionId": "furina.idle",
+      "status": "design_candidate_not_implemented",
+      "input": "idle输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "双脚保持基准，呼气肩臂微降",
+        "吸气肩臂微升；不是走路补帧"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.walk",
+      "status": "design_candidate_not_implemented",
+      "input": "walk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "接触：前脚跟落下后脚尖支撑",
+        "下降：膝弯重心落",
+        "经过：后脚经过支撑脚",
+        "上升：脚踝推送",
+        "另一脚接触",
+        "另一脚经过并回到循环"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.backwalk",
+      "status": "design_candidate_not_implemented",
+      "input": "backwalk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前掌先承重、后脚探落",
+        "膝弯稳身",
+        "收前脚靠近支撑位",
+        "前掌推出后撤",
+        "另一脚探落",
+        "收脚恢复；不是正走随意倒放"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.jump",
+      "status": "design_candidate_not_implemented",
+      "input": "jump输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝起跳",
+        "蹬地上升",
+        "空中顶点收腿",
+        "下降准备",
+        "屈膝落地回稳"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.forwarddash",
+      "status": "design_candidate_not_implemented",
+      "input": "forwarddash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前倾蓄脚",
+        "后脚推地",
+        "身体前移",
+        "前脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.backdash",
+      "status": "design_candidate_not_implemented",
+      "input": "backdash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "后倾收臂",
+        "前脚蹬地",
+        "短后撤",
+        "后脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.crouch",
+      "status": "design_candidate_not_implemented",
+      "input": "crouch输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝下沉",
+        "低姿稳住，头颈不缩入胸腔"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.standguard",
+      "status": "design_candidate_not_implemented",
+      "input": "standguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "抬臂进入角色专属防姿",
+        "防姿保持",
+        "后脚受力吸收冲击",
+        "回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.crouchguard",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "下沉抬臂",
+        "低姿防护",
+        "后膝吸收冲击",
+        "回蹲下"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.hit_knockdown",
+      "status": "design_candidate_not_implemented",
+      "input": "hit_knockdown输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "躯干被击向后",
+        "空受击失衡",
+        "击倒倒下",
+        "落地停留"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.wakeup",
+      "status": "design_candidate_not_implemented",
+      "input": "wakeup输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "手肘支撑起身",
+        "单膝支撑",
+        "双脚承重回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.victory",
+      "status": "design_candidate_not_implemented",
+      "input": "victory输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "收招平复",
+        "角色符号明确的庆祝或谢幕",
+        "呼吸保持"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "furina.defeat",
+      "status": "design_candidate_not_implemented",
+      "input": "defeat输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "支撑失力",
+        "跪落或倒下",
+        "结束停留不抽搐"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    }
+  ],
+  "research_reference": "furina-research.md",
+  "orientation": "舞台指挥与伙伴协作",
+  "original_basis": "本地普通攻击原为剑击；E召唤章鱼乌瑟勋爵、海马海薇玛夫人、蟹谢贝蕾妲小姐；Q舞台激励原为队伍强化。",
+  "adaptation": "遵循用户空手改编：剑不是常驻或必选武器。原作沙龙伙伴变成普攻伤害来源；不照搬治疗、生命消耗、自动索敌或队伍增益。",
+  "normal_direction": "轻1：托海马短喷水；轻2：放章鱼近身拍击；轻3：侧身指挥蟹低钳。重攻：抱海马蓄一下再喷短扇面水，不做那维莱特式长水束。蹲攻用蟹，空攻用章鱼俯拍。",
+  "E_rule": "E三伙伴在固定前方合喷，先做一次合击结算，共享一个hitId；三份水效不算三倍。主人在释放前受击则取消；释放后短水弹走定向路径、不追踪，碰防御/目标即结束。",
+  "Q_rule": "Q前置水泡击中才进舞台；伙伴依次章鱼、海马、蟹三段演出，各有hitId，最终击飞；落空/防御仅谢幕失手短收招。",
+  "throw_rule": "投技以轻牵腕/章鱼水带捕获成立，再蟹横撞送出；被投者接触→牵引→失衡→释放→落地→起身。不要把纤细指挥者做成举壮汉的大力摔跤手。",
+  "counterplay": "中距离控制，伙伴返回阶段有空档；跳过低喷水、近身打断指令、挡后惩罚。伙伴始终各一个实体，抱持/投出/返回不能同时有第二只。",
+  "representative_sample": "海马托抱接触小样：两掌支撑、海马嘴朝前、松手/返回连续；水效独立。",
+  "video_observation": "尚未逐帧观看，时间点待补",
+  "E_layer_contact_spec": {
+    "status": "design_candidate_unmeasured",
+    "layers": "无武器；E三伙伴独立",
+    "contact": "两手指挥，不握助手；伙伴固定前方三个不重叠槽位",
+    "active_event": "指令释放时三者协同，同一个hitId",
+    "interrupt": "受击前取消；释放后定向，不追踪",
+    "ticks": null,
+    "pixel_anchors": null,
+    "hitboxes": null
+  }
+}

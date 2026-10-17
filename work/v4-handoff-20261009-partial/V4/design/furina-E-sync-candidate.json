@@ -1,0 +1,80 @@
+{
+  "status": "authored_offline_candidate_not_game_logic",
+  "fps": 60,
+  "total_ticks": 48,
+  "startup": [
+    0,
+    18
+  ],
+  "active": [
+    18,
+    24
+  ],
+  "recovery": [
+    24,
+    48
+  ],
+  "phase_tick_ranges_are_half_open": true,
+  "body_phase_starts": [
+    0,
+    8,
+    18,
+    24
+  ],
+  "member_phase_starts": [
+    0,
+    12,
+    18,
+    24
+  ],
+  "effect_phase_starts": [
+    12,
+    15,
+    18,
+    24
+  ],
+  "effect_visible_ticks": [
+    12,
+    40
+  ],
+  "events": [
+    {
+      "tick": 18,
+      "event": "salon_coordinated_release_candidate",
+      "shared_hit_id": "furina.E.0",
+      "damage_implemented": false
+    }
+  ],
+  "illustrative_scene_root_positions": {
+    "body": [
+      30,
+      92
+    ],
+    "usher": [
+      130,
+      100
+    ],
+    "chevalmarin": [
+      190,
+      105
+    ],
+    "crabaletta": [
+      250,
+      128
+    ],
+    "water_effect": [
+      250,
+      92
+    ]
+  },
+  "pixel_anchors_measured": false,
+  "collision_implemented": false,
+  "runtime_integrated": false,
+  "notes": [
+    "48tick编排仅供可读性预览，未调平衡",
+    "三位一次合击，不从图像分别增加伤害",
+    "三位朝右侧视；乌瑟有效姿肢体连续性待复核",
+    "水效出点未对齐助手",
+    "显示位置不是已量测的身体/世界挂点"
+  ]
+}

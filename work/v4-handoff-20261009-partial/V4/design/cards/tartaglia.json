@@ -1,0 +1,978 @@
+{
+  "character": "tartaglia",
+  "status": "design_candidate",
+  "source": "assets/roster-v2/tartaglia-talents.json",
+  "source_sha256": "c70bac9c523994d6ed4ea62030524b41956481fa350ef1848e1ffde00398a6f3",
+  "identity_note": "主动抢入、肩髋换向明确；双刃战斗姿态",
+  "symbols": "橙发红围巾、水双刃、水长柄",
+  "stance": "前压步态，双手有平衡摆臂；回退不复制向前重心",
+  "groups": [
+    {
+      "actionId": "tartaglia.light1",
+      "status": "design_candidate_not_implemented",
+      "input": "light1输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "双刃交叉"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.light1.0"
+      ],
+      "visualPoses": [
+        "交叉短切：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.light2",
+      "status": "design_candidate_not_implemented",
+      "input": "light2输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "换手反斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.light2.0"
+      ],
+      "visualPoses": [
+        "错手反斩：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.light3",
+      "status": "design_candidate_not_implemented",
+      "input": "light3输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "低步双刺"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.light3.0"
+      ],
+      "visualPoses": [
+        "低步双刺：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.heavy",
+      "status": "专属方向已研究；逐姿待标定",
+      "input": "heavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "双水刃蓄势交叉重斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.heavy.0"
+      ],
+      "visualPoses": [
+        "双刃交叉重斩；蹲攻低位剪切；空攻换手刃与下压"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.crouchlight",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "低位反手水刃"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.crouchlight.0"
+      ],
+      "visualPoses": [
+        "低位反手水刃"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.crouchheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "双刃剪切低扫"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.crouchheavy.0"
+      ],
+      "visualPoses": [
+        "双刃剪切低扫"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.airlight",
+      "status": "design_candidate_not_implemented",
+      "input": "airlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "空中换手刃斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.airlight.0"
+      ],
+      "visualPoses": [
+        "空中换手刃斩"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.airheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "airheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "双刃向下交叉"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.airheavy.0"
+      ],
+      "visualPoses": [
+        "双刃向下交叉"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.E",
+      "status": "design_candidate_not_implemented",
+      "input": "E输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "两手分开凝刃，压低踏步，交叉向前切入，错步拉回双手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.E.0"
+      ],
+      "visualPoses": [
+        "两手分开凝刃，压低踏步，交叉向前切入，错步拉回双手"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "mechanic_rule": "E凝刃→屈膝切入→双刃交叉→错步拉回，两个刃面合为一次hitId；前冲连续扫掠，越过目标后不回头追踪。"
+    },
+    {
+      "actionId": "tartaglia.Q",
+      "status": "design_candidate_not_implemented",
+      "input": "Q输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "水长柄旋身终结；首段命中确认才进入完整演出；落空和防御不锁对手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "由研究稿声明的分段编号，具体tick待标定，尚未实现"
+      ],
+      "visualPoses": [
+        "Q以前置水刃命中确认，切水长柄旋身一段终结；长柄与水波同一伤害段，不自动叠加断流。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "lock": "仅前置有效命中成立；退出解锁双方；贴墙/体型差异待验证",
+      "mechanic_rule": "Q以前置水刃命中确认，切水长柄旋身一段终结；长柄与水波同一伤害段，不自动叠加断流。"
+    },
+    {
+      "actionId": "tartaglia.throw",
+      "status": "design_candidate_not_implemented",
+      "input": "throw输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "前臂探出抓取"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "tartaglia.throw.0"
+      ],
+      "visualPoses": [
+        "压腕抢身过肩翻投，双刃在接触前收起，避免抓取时穿身。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "grab": {
+        "distance": "待调",
+        "eligible": "地面可抓状态；不可抓/无敌/已有锁位排除",
+        "escape": "窗口tick待调",
+        "pairAnchor": "腕/腰/肩等实际接触点逐帧标定",
+        "victim": "必须有配对victim动作；墙边与不同体型待验证"
+      },
+      "pair_rule": "压腕抢身过肩翻投，双刃在接触前收起，避免抓取时穿身。"
+    },
+    {
+      "actionId": "tartaglia.victim",
+      "status": "design_candidate_not_implemented",
+      "input": "victim输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "压腕抢身过肩翻投，双刃在接触前收起，避免抓取时穿身。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "pair_rule": "压腕抢身过肩翻投，双刃在接触前收起，避免抓取时穿身。"
+    },
+    {
+      "actionId": "tartaglia.idle",
+      "status": "design_candidate_not_implemented",
+      "input": "idle输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "双脚保持基准，呼气肩臂微降",
+        "吸气肩臂微升；不是走路补帧"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.walk",
+      "status": "design_candidate_not_implemented",
+      "input": "walk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "接触：前脚跟落下后脚尖支撑",
+        "下降：膝弯重心落",
+        "经过：后脚经过支撑脚",
+        "上升：脚踝推送",
+        "另一脚接触",
+        "另一脚经过并回到循环"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.backwalk",
+      "status": "design_candidate_not_implemented",
+      "input": "backwalk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前掌先承重、后脚探落",
+        "膝弯稳身",
+        "收前脚靠近支撑位",
+        "前掌推出后撤",
+        "另一脚探落",
+        "收脚恢复；不是正走随意倒放"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.jump",
+      "status": "design_candidate_not_implemented",
+      "input": "jump输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝起跳",
+        "蹬地上升",
+        "空中顶点收腿",
+        "下降准备",
+        "屈膝落地回稳"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.forwarddash",
+      "status": "design_candidate_not_implemented",
+      "input": "forwarddash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前倾蓄脚",
+        "后脚推地",
+        "身体前移",
+        "前脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.backdash",
+      "status": "design_candidate_not_implemented",
+      "input": "backdash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "后倾收臂",
+        "前脚蹬地",
+        "短后撤",
+        "后脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.crouch",
+      "status": "design_candidate_not_implemented",
+      "input": "crouch输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝下沉",
+        "低姿稳住，头颈不缩入胸腔"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.standguard",
+      "status": "design_candidate_not_implemented",
+      "input": "standguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "抬臂进入角色专属防姿",
+        "防姿保持",
+        "后脚受力吸收冲击",
+        "回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.crouchguard",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "下沉抬臂",
+        "低姿防护",
+        "后膝吸收冲击",
+        "回蹲下"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.hit_knockdown",
+      "status": "design_candidate_not_implemented",
+      "input": "hit_knockdown输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "躯干被击向后",
+        "空受击失衡",
+        "击倒倒下",
+        "落地停留"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.wakeup",
+      "status": "design_candidate_not_implemented",
+      "input": "wakeup输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "手肘支撑起身",
+        "单膝支撑",
+        "双脚承重回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.victory",
+      "status": "design_candidate_not_implemented",
+      "input": "victory输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "收招平复",
+        "角色符号明确的庆祝或谢幕",
+        "呼吸保持"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "tartaglia.defeat",
+      "status": "design_candidate_not_implemented",
+      "input": "defeat输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "支撑失力",
+        "跪落或倒下",
+        "结束停留不抽搐"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    }
+  ],
+  "research_reference": "tartaglia-research.md",
+  "orientation": "主动贴身的水武装切换",
+  "original_basis": "本地原常态弓射，E切入水武装近战；Q远程魔箭/近战尽灭水光分支。",
+  "adaptation": "选择水双刃作为格斗默认普攻，是明确改编，不声称原作常态就是双刃。E做短交叉突进，不引入长冷却倒计时与断流多重自动爆炸。",
+  "normal_direction": "轻1交叉短切，轻2错手反斩，轻3低步双刺；重攻双刃交叉重斩；蹲攻低位剪切；空攻换手刃与下压。",
+  "E_rule": "E凝刃→屈膝切入→双刃交叉→错步拉回，两个刃面合为一次hitId；前冲连续扫掠，越过目标后不回头追踪。",
+  "Q_rule": "Q以前置水刃命中确认，切水长柄旋身一段终结；长柄与水波同一伤害段，不自动叠加断流。",
+  "throw_rule": "压腕抢身过肩翻投，双刃在接触前收起，避免抓取时穿身。",
+  "counterplay": "贴身高压，较少稳定远距；挡交叉斩后惩罚，利用双刃外圈间距。",
+  "representative_sample": "双刃握点与手势转换，至少准备/交叉有效/错身/收回四姿。",
+  "video_observation": "尚未逐帧观看，时间点待补",
+  "E_layer_contact_spec": {
+    "status": "design_candidate_unmeasured",
+    "layers": "身体/左右水刃/水迹独立",
+    "contact": "leftGrip/rightGrip分别唯一水刃；交叉手不能多一把刃",
+    "active_event": "交叉斩两刃共享一次hitId；快移扫掠",
+    "interrupt": "错步拉回；落空不反向追踪",
+    "ticks": null,
+    "pixel_anchors": null,
+    "hitboxes": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "status": "restored_V4_reference_candidates_not_user_accepted_masters",
+  "references": [
+    {
+      "character": "furina",
+      "path": "V4/evidence/furina-idle-review/source-cell-0.png",
+      "sha256": "1147464280b82ad96b36ef5977109aefddec8bfb473d4b367214a2ad7ade154e",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "zhongli",
+      "path": "V4/evidence/zhongli-idle-review/source-cell-0.png",
+      "sha256": "29c50fc523e352945b378c7e3cf6772b5c7e84801092de427cea84313431392a",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "mavuika",
+      "path": "V4/assets/master-candidates/mavuika-idle-no-glasses-v2.png",
+      "sha256": "37ee95a1b370fe4714e3dd0383fc328d49d9dd5c2aee5eba2e9071841efea73f",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "venti",
+      "path": "V4/evidence/venti-idle-review/source-cell-0.png",
+      "sha256": "4e06cdadc424c5149cabbcf996893252cb3d5bb3c588c776ba32f5f0c5fd0840",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "kamisatoayaka",
+      "path": "V4/evidence/kamisatoayaka-idle-review/source-cell-0.png",
+      "sha256": "62e31428b60a675746ccd24f1a625bf14ba5849a45b6691cc52e2499bcddcc53",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "tartaglia",
+      "path": "V4/evidence/tartaglia-idle-review/source-cell-0.png",
+      "sha256": "08b62a57bdb4b45530279ca980e060d4e814d89a3598aa78276b79a18f840baa",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "aratakiitto",
+      "path": "V4/evidence/aratakiitto-idle-review/source-cell-0.png",
+      "sha256": "f8ce86122bb091a641732081485bc4ba917e1e3be133b1ef743f2cf48e79cac5",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "yaemiko",
+      "path": "V4/evidence/yaemiko-idle-review/source-cell-0.png",
+      "sha256": "f235376605b214d79bd0f3d8b7b2b890394e3d65140602ae77618eca106be4d6",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "arlecchino",
+      "path": "V4/evidence/arlecchino-idle-review/source-cell-0.png",
+      "sha256": "7c3ad5e6ed037fa4756575babd4e4a6a9de1cad5cd4eda13b77c55a61ddd9dde",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "wanderer",
+      "path": "V4/evidence/wanderer-idle-review/source-cell-0.png",
+      "sha256": "bc34a9cdac6ac871309862c6809cf8509d75e6f85c3a5c0c4e6b32122eccc235",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "neuvillette",
+      "path": "V4/evidence/neuvillette-idle-review/source-cell-0.png",
+      "sha256": "211b9af69d6bb9a39a8fa64d6be0c790aa77681678e803a1a94b5d02e4725151",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "clorinde",
+      "path": "V4/evidence/clorinde-idle-review/source-cell-0.png",
+      "sha256": "78bebf4b66feff3481376c7eaa083c172a3c2dfb8c1046513b4c179d95b673e0",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "navia",
+      "path": "V4/evidence/navia-idle-review/source-cell-0.png",
+      "sha256": "0a83cea49c313f4d3ac568110de6299f181b60a0c1183c02f05b871e6fa45166",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    },
+    {
+      "character": "skirk",
+      "path": "V4/evidence/skirk-idle-review/source-cell-0.png",
+      "sha256": "409b7a667ce990388cdb77a603e10ad565a590f1a47c0da1fd03e738ff9044a2",
+      "role": "identity_and_proportion_reference_only",
+      "accepted": false,
+      "visual_review_required": true
+    }
+  ],
+  "rules": [
+    "参考路径与SHA256固定；更换需记录理由与新旧对照",
+    "每次请求明确参考职责；不可用上一招漂移图替代母版",
+    "透明通道和合成检查优先于展示RGB底色",
+    "身体源格尺寸不是实际人物身高；不得缩身体掩盖预算问题",
+    "发型、头身、肩宽、衣摆、鞋与饰件跨组逐项视觉复核"
+  ]
+}

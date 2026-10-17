@@ -1,0 +1,1676 @@
+{
+  "groups": [
+    "light1",
+    "light2",
+    "light3",
+    "heavy",
+    "crouchlight",
+    "crouchheavy",
+    "airlight",
+    "airheavy",
+    "E",
+    "Q",
+    "throw",
+    "victim",
+    "idle",
+    "walk",
+    "backwalk",
+    "jump",
+    "forwarddash",
+    "backdash",
+    "crouch",
+    "standguard",
+    "crouchguard",
+    "hit_knockdown",
+    "wakeup",
+    "victory",
+    "defeat"
+  ],
+  "jobs": [
+    {
+      "id": "furina-E-body-v1",
+      "character": "furina",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 芙宁娜 (furina), 精巧少女体型，蓝白礼帽与燕尾短礼服；舞台指挥者. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 先侧身提腕，再张开两手邀请，右掌向前下达指令，最后双手回胸前；身体全程空手. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 三沙龙成员分段喷水; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/芙宁娜双帧呼吸待机.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/furina-talents.json",
+      "source_sha256": "c60d90df0f93f576ca2d05e91e729d1483510992a91ecb1b5f26b097f618cd1c",
+      "output": "V4/assets/skill-candidates/furina-E-body-v1.png",
+      "sha256": "006227fa536a6e12f641c972c68cda2db1e35b2177921ae290076e629d6bfa64",
+      "issues": [
+        "背景雾色需核查alpha，尚未正式分层/拟合",
+        "体型偏修长，需与认可画风再比对"
+      ],
+      "fitting": {
+        "report": "V4/evidence/furina-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 849,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/furina-E-fx-v1.png",
+        "sha256": "f1c0978635a3932350b605300f580aa449bd4dece7d6fc517652422e0c7cb9db",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for furina in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 三股短水流从左方三个独立入口聚到前方一点：1三个短水珠蓄起；2三条短水带向右延伸；3前方合并小扇面水击；4水带碎为少量水滴消散。不是长水束，不画三伙伴。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/furina-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 799,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_assistant_history": [
+        {
+          "status": "rejected_identity_mismatch",
+          "output": "V4/assets/assistant-candidates/furina-E-salon-assistants-v1.png",
+          "sha256": "e46b2772eeea80337365299b5213aff46406668d000e849b120352a00edc6fda",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-salon-assistants-v1.txt",
+          "review": [
+            "每格可见章鱼、海马、蟹各一；三者身份基本连续",
+            "成员尺寸偏大；与身体/水效挂点未合成",
+            "海马脸部偏卡通拟人，需要与认可风格再比对"
+          ],
+          "fitting": {
+            "report": "V4/evidence/furina-E-assistant-review/fit.json",
+            "max_rects": 1592,
+            "status": "offline_independent_assistant_candidate_unaligned_not_runtime",
+            "anchor_measured": false
+          },
+          "accepted": false,
+          "rejection": "用户指出物种形体不对；使用通用动物外形，不能继续动作制作"
+        },
+        {
+          "status": "rejected_identity_mismatch",
+          "output": "V4/assets/assistant-candidates/furina-E-salon-assistants-v2.png",
+          "sha256": "c08bbb5cccee0c337d07c32e3cd1a345834d1c565b79643c5cfea20477fd3b2d",
+          "prompt": "Use case: precise-object-edit. Rework the provided 2x2 transparent sprite sheet of Furina's three Salon Solitaire summons for a side-view adult-proportioned Genshin-inspired fighting game. Preserve EXACTLY one of each creature in every cell in the SAME three horizontal world slots: LEFT Gentilhomme Usher, a tiny ROUND BALL OCTOPUS with a small dark top hat, simple short curling tentacles, no giant realistic face; CENTER Surintendante Chevalmarin, a tiny BUBBLY SEAHORSE with unmistakable curled tail, narrow aquatic snout, small fin/ruff, no horse legs or human dress; RIGHT Mademoiselle Crabaletta, a tiny ARMORED CRAB with broad low shell, TWO short claws and small legs, no humanoid body or human facial expression. Each summon is small, compact, nearly equal visual height and far shorter than Furina's body (target 24–32 game pixels). Crystalline translucent water blue with crisp flat pixel-friendly sprite color clusters, dark blue one-pixel-like outline, a few white reflections, restrained gold trim; not painterly glossy illustrations, no huge eyes, no thick aura fog. Exactly four chronological poses row-major: upper-left ready and still; upper-right Usher extends one tentacle while seahorse raises head and crab opens claws; lower-left coordinated single release with three SMALL directional blue water spurts ending in the same right-facing attack lane, each creature remains in its original slot; lower-right recoil/rest with tiny droplets dissipating. No additional duplicate summons, no female singer, no human, no Furina body, no background, shadow or text. Each of four cells has generous fully transparent gutter, all silhouettes and spurts contained with no boundary touch. Genuine alpha transparency. The water spurts are independent guide visuals, not three separate hits; game logic shares one hitId.\n",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-salon-assistants-v2.txt",
+          "rejection": "没有忠实对应用户提供的游戏原形参考"
+        },
+        {
+          "status": "rejected_identity_mismatch",
+          "output": "V4/assets/assistant-candidates/furina-E-usher-assistant-rejected-v1.png",
+          "sha256": "bf9ad95a88481b97e7c5f42495c7de438503584d0bb084194d3b4b9f06a8c8c9",
+          "prompt": "Use case: stylized-concept. One transparent 2x2 chronological sprite sheet, ONLY Furina's individual Salon Solitaire member Gentilhomme Usher: a SMALL WATER BALL OCTOPUS, round blue translucent bubble body, short soft tentacles curling under and to the sides, recognizable modest black/navy gentleman top hat and a tiny pale moustache-like curl. Do not draw the seahorse, crab, Furina or other companions. The creature is a small summoned hydro sprite for an adult-proportioned 2D fighting game, sized like a 24–32px game prop next to an 80px character. Crisp restrained flat shape clusters and dark navy one-pixel-like outline, subtle light blue glass reflections, no painterly human face or giant cartoon eyes. Exactly four poses in 2x2 row-major cells with equal size, world slot center x consistent: 1 calm hovering with all tentacles in, 2 two tentacles raise in anticipation, 3 one tentacle extends RIGHT to emit a very compact directional water droplet, 4 recoil curl and one dissipating droplet. No extra octopus, no text, background, cast shadow, floor or halo fog. All appendages and drops fully contained inside wide transparent cell gutters, true alpha. Water projectile FX later remains an independent layer; this is a creature-only action source candidate.\n",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-usher-assistant-rejected-v1.txt",
+          "rejection": "没有忠实对应用户提供的游戏原形参考"
+        }
+      ],
+      "salon_identity_master": {
+        "status": "identity_master_candidate",
+        "output": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+        "sha256": "179b63dc1aa06232d294a7926ce0d6221b8252c883fb2164a582829b0aab9045",
+        "prompt": "Use case: precise-object-edit. The provided image is the authoritative identity reference for Furina's THREE Salon Members. Make a clean transparent source MASTER lineup preserving these exact three silhouettes, proportions and accessory placements, left to right as the reference: LEFT Mademoiselle Crabaletta is a squat WIDE blue crab under a rounded blue maid bonnet with white ruffle trim, apron-like pale blue frontal body, tiny oval eyes and low short claw/leg shapes; CENTER Gentilhomme Usher is a hanging narrow bell/teardrop-shaped hydro octopus, tall NAVY TOP HAT with blue symmetrical curving emblem and pale brim, two oval eyes directly UNDER the brim, pale moustache-like mouth and TWO large lateral drooping fin/tentacle lobes, long pale tapered central underside with blue oval tip; RIGHT Surintendante Chevalmarin is a SHORT COMPACT rounded hydro seahorse, bulbous snout/head with large blue bow behind head and small blue pearl on top, diamond forehead highlight, navy collar with a pale GOLD neck bow, short side fin/arms and tapered lower hydro body. Do NOT replace any of them with ordinary round octopus, long-necked horse, ornate pirate crab, crowns, giant realistic eyes, invented suits or human faces. Closely match the attached reference's recognizable identity, WITHOUT its white sticker border, white background or ALT labels. Adapt only rendering to clean Genshin fighting-game sprite art: restrained flat blue clusters, clean dark blue one-pixel-like outlines, readable compact anatomy at small game scale, no glossy painterly rendering. Exactly ONE of each, spatially separated across one wide transparent canvas with generous empty gutters, consistent same display scale. No attack effects or animation variants yet. True transparent alpha, no opaque backdrop, shadow, fog, text or border. All shapes fully inside canvas. This is an identity master candidate, not a finished gameplay sprite.\n",
+        "prompt_file": "V4/prompts/continuation-20261008/furina-salon-identity-assistant-v1.txt",
+        "reference": "V4/design/references/furina-salon-user-reference-20261009.png",
+        "reference_sha256": "b91462bbf469ec7587f9e9ac1a024e149be5e77423802059ce3c3abb224fcfb9",
+        "review": "左蟹、中章鱼、右海马形体已按参考重做；非用户验收；动作与分层仍待制作"
+      },
+      "E_individual_assistants": [
+        {
+          "member": "crabaletta",
+          "status": "side_source_candidate_not_accepted",
+          "output": "V4/assets/assistant-candidates/furina-E-crabaletta-side-assistant-v1.png",
+          "sha256": "4e4bdcb2b574c2c917620f98d4608a34ccb8e4a6ced281bbe4898235677e66c0",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-crabaletta-side-assistant-v1.txt",
+          "prompt": "Use case: precise-object-edit. Use ONLY LEFT crab from attached SIDE-VIEW lineup as exact identity reference. Make Mademoiselle Crabaletta individual action sheet, FOUR poses in ONE HORIZONTAL ROW (1x4), all strict RIGHT-FACING SIDE PROFILE. Blue maid bonnet/white ruffle, squat lateral shell, pale apron underside, ONE near eye, short side-projected legs, near claw facing right with far claw partly hidden. Keep same side camera, NEVER turn into frontal symmetric crab. Four left-to-right phases: resting near claw tucked; preparation near claw retracts and legs brace; active short near claw extends RIGHT and opens; recovery near claw returns and legs settle. Only limbs change, shell/bonnet dimensions fixed. Four roomy equally spaced figures, whole silhouettes occupy only HALF panel width even with open claw; large transparent gaps. Fixed floor root. Crisp flat blue sprite clusters and fine navy outline, alpha cutouts with no halo/background/shadow/text/FX. No other creatures. All shapes fully contained and no overlap. Water FX separate.\n",
+          "grid": [
+            4,
+            1
+          ],
+          "source_cuts_x": [
+            0,
+            518,
+            1007,
+            1613,
+            2139
+          ],
+          "source_cut_policy": "透明间隙分帧，名义等宽格根不逐帧居中",
+          "reference": "V4/assets/assistant-candidates/furina-salon-side-master-v1.png",
+          "issues": [
+            "侧视钳肢变化；源格和腿根连续性待检查",
+            "像素挂点、运行时与双人并发未验证"
+          ],
+          "inspection_transform": {
+            "scale": 0.07777777777777778,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_roots_x": [
+              267.375,
+              284.125,
+              329.875,
+              258.625
+            ],
+            "source_root_y_fraction": 0.9,
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          },
+          "fitting": {
+            "report": "V4/evidence/furina-salon-side-v3/crabaletta/fit.json",
+            "rect_counts": [
+              406,
+              406,
+              427,
+              409
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "member": "usher",
+          "status": "side_source_candidate_not_accepted",
+          "output": "V4/assets/assistant-candidates/furina-E-usher-side-assistant-v1.png",
+          "sha256": "bb7dfc87de29873948ec90bdee53d61c37f4a5e08b91055887951f767ef61ac7",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-usher-side-assistant-v1.txt",
+          "prompt": "Use case: precise-object-edit. Use ONLY CENTER Gentilhomme Usher from attached SIDE-VIEW lineup. Individual FOUR-POSE 1x4 horizontal action sheet. Strict RIGHT-FACING lateral profile in EVERY pose: only ONE eye under tall navy top-hat brim, pale moustache, thin hanging body and teardrop underside, near appendage visible with far appendage partly hidden; preserve the side-view hat and emblem placement exactly. No frontal two-eye symmetrical octopus, no rounded ball body. Four left-to-right phases: near appendage hangs back ready; near appendage coils/retracts slightly preparing; near appendage sweeps short distance RIGHT as an attack cue; near appendage returns behind body and settles. Hat/body dimensions and camera never change, only appendage flex and small body lean. Fixed local floating root and shared scale, each silhouette safely inside half of its panel with wide transparent gaps. Full cutouts, thin navy outline, flat blue sprite clusters, no glow/haze/background/text/border/water projectile/other companions. Whole hat and arm always contained. Independent companion visual candidate.\n",
+          "grid": [
+            4,
+            1
+          ],
+          "source_cuts_x": [
+            0,
+            561,
+            1059,
+            1651,
+            2139
+          ],
+          "source_cut_policy": "透明间隙分帧，名义等宽格根不逐帧居中",
+          "reference": "V4/assets/assistant-candidates/furina-salon-side-master-v1.png",
+          "issues": [
+            "有效姿前肢形态/数量仍需复核",
+            "像素挂点、运行时与双人并发未验证"
+          ],
+          "inspection_transform": {
+            "scale": 0.0436817472698908,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_roots_x": [
+              267.375,
+              241.125,
+              277.875,
+              220.625
+            ],
+            "source_root_y_fraction": 0.9,
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          },
+          "fitting": {
+            "report": "V4/evidence/furina-salon-side-v3/usher/fit.json",
+            "rect_counts": [
+              228,
+              225,
+              247,
+              219
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "member": "chevalmarin",
+          "status": "side_source_candidate_not_accepted",
+          "output": "V4/assets/assistant-candidates/furina-E-chevalmarin-side-assistant-v1.png",
+          "sha256": "4a1fe8580955f835a3bb0795df31e8cbf2cb672ca0ac06e0e9cdcc4b33ea9f22",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-chevalmarin-side-assistant-v1.txt",
+          "prompt": "Use case: precise-object-edit. Use ONLY RIGHT Surintendante Chevalmarin from this SIDE-VIEW reference lineup. Create an independent FOUR-POSE horizontal 1x4 action sequence, strict RIGHT-FACING lateral profile throughout. Preserve compact round head/short snout pointing RIGHT, ONE near eye, big navy bow behind head with blue bead on top, white forehead diamond, dark scalloped collar with pale gold neck bow, short side fins and pointed compact lower body. Far fin partly occluded, no frontal turn, long horse neck, long coiled tail or round octopus shape. Left-to-right four phases: calm hovering with snout closed/fins down; small lean forward with near fin pulling back; snout opens briefly aimed RIGHT for release with fin spread; snout closes and fin tucks for recovery. Head/body/bow proportions same across four. Fixed floating root and same size, roomy equally spaced panels, each complete figure within central half panel width, wide transparent gaps. Flat clean blue sprite shapes, fine navy outline, true alpha CUTOUTS, no blue surrounding aura/mist/glow/background/floor/shadow/text/borders/other companions. No water projectile drawn (independent FX later). Whole bow and fins contained.\n",
+          "grid": [
+            4,
+            1
+          ],
+          "source_cuts_x": [
+            0,
+            528,
+            1064,
+            1618,
+            2139
+          ],
+          "source_cut_policy": "透明间隙分帧，名义等宽格根不逐帧居中",
+          "reference": "V4/assets/assistant-candidates/furina-salon-side-master-v1.png",
+          "issues": [
+            "侧视朝右且无大光晕；口/鳍运动连续性待检查",
+            "像素挂点、运行时与双人并发未验证"
+          ],
+          "inspection_transform": {
+            "scale": 0.05363984674329502,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_roots_x": [
+              267.375,
+              274.125,
+              272.875,
+              253.625
+            ],
+            "source_root_y_fraction": 0.9,
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          },
+          "fitting": {
+            "report": "V4/evidence/furina-salon-side-v3/chevalmarin/fit.json",
+            "rect_counts": [
+              265,
+              276,
+              292,
+              269
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        }
+      ],
+      "E_individual_assistant_history": [
+        {
+          "member": "chevalmarin",
+          "status": "not_selected_glow_unfixed",
+          "output": "V4/assets/assistant-candidates/furina-E-chevalmarin-assistant-v2.png",
+          "sha256": "b1d49b5356753cc01f103680a938e4deb8c1fc5f845f9ed10bdfbb84756512fc",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-chevalmarin-assistant-v2.txt",
+          "prompt": "Use case: precise-object-edit. Correct this FOUR-POSE 2x2 Surintendante Chevalmarin sprite sheet. Preserve compact big head/short snout, big navy hair bow and blue bead, white forehead diamond, dark collar and pale gold neck bow, short fins and tapered hydro lower body. Change all four poses to consistently face RIGHT (upper-left currently faces left: correct it). Remove EVERY diffuse blue aura, background haze and surrounding semitransparent glow. Transparency should be EXACT zero outside the crisp creature silhouette; only edge antialiasing. Scale the full creature uniformly DOWN to about 65 percent of its current size within EACH cell so broad empty transparent space surrounds all sides; same scale for all four and same root coordinate, no individual recentering. Preserve four distinct actions: ready fins lowered; preparation fins extend and torso leans slightly forward; release snout opens briefly aiming RIGHT, no projectile; recovery snout closes and fins tuck. No other companion, no duplicate creature, long horse neck, coiled snake tail, effects, floor, cast shadow, text or frame. One 2x2 grid with zero-alpha gutters. All bow/head/fins fully contained, never touching cell borders. Flat clean blue sprite clusters, thin navy outline, exact identity locked to reference.\n",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "统一朝右已修，但光晕未去除；未选用",
+            "运行时及碰撞未接入"
+          ]
+        },
+        {
+          "member": "usher",
+          "status": "source_candidate_not_accepted",
+          "output": "V4/assets/assistant-candidates/furina-E-usher-assistant-v2.png",
+          "sha256": "8d62513c18bf77002abc5b1c46a040129349116d1883cc8934087b86e57a955b",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-usher-assistant-v2.txt",
+          "prompt": "Use case: precise-object-edit. Make an individual 2x2 FOUR-POSE sprite source sheet for ONLY the CENTER Salon Member in the reference: Gentilhomme Usher, Furina's tall-top-hat hydro companion. Preserve EXACT center reference identity precisely: enormous tall navy top hat with symmetrical blue loop motif; eyes immediately under the brim; narrow pale moustache area; narrow hanging taper/teardrop body and two big drooping side lobes. Do NOT turn him into a round bubble octopus with many curling tentacles. Do not draw left crab or right seahorse. Transparent background, equal roomy 2x2 cells, fixed center/world-root and identical hat/body scale in every cell, crisp flat sprite clusters and dark blue fine outline. Four distinct chronological poses row major: 1 side lobes hang calmly; 2 side lobes rise slightly in anticipation; 3 RIGHT side lobe extends toward screen right in one short directional slap while LEFT lobe counterbalances; 4 both lobes settle back toward reference resting shape. Hat never changes shape or emblem, only slight tilt. No projectile, glow halo, text, shadows, white sticker border, giant eyes or extra body. All parts contained inside each cell with generous gutters. This is a single companion action visual candidate; water effect separate; identity based strictly on reference.\n",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "第三姿右肢靠近格边",
+            "固定世界槽位、接触锚点、并发与回滚未实现"
+          ],
+          "fitting": {
+            "report": "V4/evidence/furina-salon-correction/usher/fit.json",
+            "rect_counts": [
+              294,
+              302,
+              301,
+              293
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "member": "crabaletta",
+          "status": "source_candidate_not_accepted",
+          "output": "V4/assets/assistant-candidates/furina-E-crabaletta-assistant-v1.png",
+          "sha256": "2144e0f655c4014c35cf38f2e70f0ff0c87f19f2b3cb520f90eee67ce88332e7",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-crabaletta-assistant-v1.txt",
+          "prompt": "Use case: precise-object-edit. Make an individual 2x2 FOUR-POSE sprite source sheet for ONLY the LEFT Salon Member in the reference: Mademoiselle Crabaletta, Furina's wide squat hydro crab companion. Preserve LEFT reference shape faithfully: broad low blue bell-shaped shell under a maid BONNET with WHITE SCALLOPED RUFFLE, dark small oval eyes over a pale wide apron-like underside, two short compact claw forms at front, four visible short pointed lower legs. NO pirate hat, crown, fancy golden horns, human child face, realistic human eyes or giant claws. Exactly one crab in each cell, same shell/bonnet silhouette and same body size; ONLY limbs animate. Four clear chronological poses row-major in roomy equal 2x2 cells: 1 claws together resting under shell; 2 short claws separate low in anticipation; 3 right claw snaps forward to screen right in a short low attack while left supports; 4 claws retract and body settles. Do not draw water projectile, spray or other companions. Fixed grounded root, full shape contained well away from all cell borders, broad transparent gutters. Flat clean compact blue sprite clusters, pale apron/ruffle and dark navy fine outline, consistent with supplied identity master. True transparent alpha, NO glow haze, opaque background, white sticker border, text or cast shadow. This is creature-only action candidate, independent water effect later.\n",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "第三姿右钳靠近格边；壳比例跨帧待复核",
+            "固定世界槽位、接触锚点、并发与回滚未实现"
+          ],
+          "fitting": {
+            "report": "V4/evidence/furina-salon-correction/crabaletta/fit.json",
+            "rect_counts": [
+              292,
+              276,
+              280,
+              298
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "member": "crabaletta",
+          "status": "source_candidate_not_accepted",
+          "output": "V4/assets/assistant-candidates/furina-E-crabaletta-assistant-v2.png",
+          "sha256": "c23fc875722f927e142f815df1d25141e37fb0da859857c7d425bf3e2f21d75d",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-crabaletta-assistant-v2.txt",
+          "prompt": "Use case: precise-object-edit. Correct this Mademoiselle Crabaletta four-pose 2x2 hydro crab sprite sheet. Preserve the wide squat shape, blue maid bonnet with white ruffle, small oval eyes, pale apron-like underside, short front claws and small legs. Keep all four distinct poses, but shrink all consistently to occupy only 60% cell width and maximum 65% cell height. Leave at least 15% transparent margin on every side INCLUDING the third-pose snapping RIGHT claw. The claw must stay fully within LOWER LEFT cell, never cross the vertical center. Same shell/bonnet width and body size in all four, fixed ground-root coordinate. Poses: claws together ready; claws apart preparation; one short RIGHT claw snap; retract and settle. Do not change into pirate crab or add huge face/crown. Clean flat blue sprite clusters with thin navy outline, true transparent cutout, 2x2 equal roomy cells. No other figure, projectile, mist, glow, floor, text, shadow or border. All four full silhouettes isolated.\n",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "有效姿右钳仍可能跨格；待检查",
+            "运行时及碰撞未接入"
+          ],
+          "inspection_transform": {
+            "scale": 0.07,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_root_fraction": [
+              0.5,
+              0.9
+            ],
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          },
+          "fitting": {
+            "report": "V4/evidence/furina-salon-refinement-v2/crabaletta/fit.json",
+            "rect_counts": [
+              402,
+              404,
+              420,
+              420
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "member": "usher",
+          "status": "retired_front_view_research_only",
+          "output": "V4/assets/assistant-candidates/furina-E-usher-assistant-v3.png",
+          "sha256": "31da941aa121326d2206f6484356e4101af86fe381493d12080d9260ecdf21b6",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-usher-assistant-v3.txt",
+          "prompt": "Use case: precise-object-edit. Correct the provided Gentilhomme Usher four-pose 2x2 sprite sheet's cell containment. Keep exact tall top hat with blue symmetrical loop motif, eyes under brim, pale moustache area, long narrow tapered hanging body and two broad drooping side appendages. Keep chronological poses: resting; both appendages slightly raised; right appendage reaches RIGHT in short slap; recovery. Recompose EACH pose smaller by a uniform scale so maximum entire silhouette is at most 60% cell WIDTH and 75% HEIGHT, leaving at least 15% clear transparent gutter all around even during slap. The third-pose right lobe MUST end inside its own lower-left cell, never cross the vertical midpoint into lower-right. Fixed root and same hat height, body/hat anatomy consistent. Transparent cutout, clean flat blue clusters, thin navy outline. No other creature, glow, text, background, water projectile, floor or shadow. Four full uncropped poses in 2x2 equal cells. Do not change him into round ball octopus.\n",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "更大留白；待实际源格/拟合检查",
+            "运行时及碰撞未接入"
+          ],
+          "inspection_transform": {
+            "scale": 0.0660377358490566,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_roots_x": [
+              315.5,
+              315.5,
+              315.5,
+              315.5
+            ],
+            "source_root_y_fraction": 0.9,
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          },
+          "fitting": {
+            "report": "V4/evidence/furina-salon-refinement-v2/usher/fit.json",
+            "rect_counts": [
+              284,
+              296,
+              311,
+              286
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "member": "chevalmarin",
+          "status": "retired_front_view_research_only",
+          "output": "V4/assets/assistant-candidates/furina-E-chevalmarin-assistant-v1.png",
+          "sha256": "56cd359e8383fae42331b8703ee35a7e74966b28fef67dcdd116f8bfae443dae",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-chevalmarin-assistant-v1.txt",
+          "prompt": "Use case: precise-object-edit. Make an individual 2x2 FOUR-POSE sprite source sheet for ONLY the RIGHT Salon Member in the reference: Surintendante Chevalmarin, Furina's hydro companion. Preserve RIGHT reference identity precisely: a compact LARGE ROUNDED HEAD with short projecting round snout, big navy/blue bow behind the head and blue pearl on top, white diamond forehead mark, small fin-like ear tufts, dark scalloped neck collar and pale GOLD bow under the neck, short side fins and tapered diamond/teardrop-shaped LOWER BODY. Do not turn her into a skinny long-necked horse, horse legs, coiled long-tail generic seahorse, lady in dress, a bird or bunny. No other companions. Use the same compact face/body ratio, bow silhouette and lower taper as reference. Exactly four row-major poses in roomy equal 2x2 cells, consistent root and scale: 1 reference resting pose facing slightly LEFT; 2 body inclines with snout rotating to screen RIGHT preparing to aim; 3 short snout faces RIGHT with tiny open muzzle to release water (DO NOT draw projectile or stream); 4 head settles and fins tuck in, facing RIGHT. Crisp blue flat sprite clusters, fine dark navy outline, true alpha transparent background, no broad glow, shadows, text, sticker border or background. No body elongation between frames; all bows and fins contained inside cells with wide empty gutters. Creature action candidate only, projectile effect independent.\n",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "大面积光晕仍存在，第一姿朝左、后续朝右转向需过渡",
+            "固定世界槽位、接触锚点、并发与回滚未实现"
+          ],
+          "fitting": {
+            "report": "V4/evidence/furina-salon-refinement-v2/chevalmarin/fit.json",
+            "rect_counts": [
+              264,
+              240,
+              244,
+              222
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          },
+          "inspection_transform": {
+            "scale": 0.056795131845841784,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_roots_x": [
+              384.0,
+              384.0,
+              384.0,
+              384.0
+            ],
+            "source_root_y_fraction": 0.9,
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          }
+        },
+        {
+          "member": "crabaletta",
+          "status": "retired_front_view_research_only",
+          "output": "V4/assets/assistant-candidates/furina-E-crabaletta-assistant-v3.png",
+          "sha256": "f563f800dd1e340f989787aa4759c06fa03b5fc0c67e9ee78092b7855772ba7a",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-crabaletta-assistant-v3.txt",
+          "prompt": "Use case: precise-object-edit. Rearrange this Mademoiselle Crabaletta action source as ONE HORIZONTAL ROW OF FOUR FULL POSES (1x4, NOT 2x2). Wide transparent canvas, four clearly separated equally sized panels without drawn panel borders. Each small crab occupies only central HALF of its panel width; immense empty spacing between crabs. Preserve exact blue maid bonnet with white ruffle, wide squat body, small eyes, pale apron, short legs and modest claws. Four chronological poses LEFT TO RIGHT: resting claws together, preparation claws apart, active short right-claw snap, recovery claws together. The active claw must end well inside its third panel; leave empty spacing equal to a whole claw length before the fourth crab. Identical shell/body size, fixed ground-root height and same center point relative to each panel for all four. Full uncropped figures, no overlap, no fragment at another panel. Flat blue clean sprite treatment, thin navy outline, true transparent alpha, no background/glow/text/border/water effect/other creatures. Keep the blue bonnet unchanging; only claws/short limbs move.\n",
+          "grid": [
+            4,
+            1
+          ],
+          "source_cuts_x": [
+            0,
+            529,
+            1063,
+            1663,
+            2172
+          ],
+          "source_cut_policy": "源图透明竖直空隙分帧；保留名义等宽格中心为坐标根，不逐帧重新居中",
+          "reference": "V4/assets/assistant-candidates/furina-salon-identity-master-v1.png",
+          "issues": [
+            "横排透明空隙按实际坐标切帧，接触锚点仍未量测",
+            "起手与有效肢体差异、返回轨迹仍需检查"
+          ],
+          "inspection_transform": {
+            "scale": 0.07446808510638298,
+            "canvas": [
+              48,
+              48
+            ],
+            "root_candidate": [
+              24,
+              40
+            ],
+            "source_roots_x": [
+              271.5,
+              285.5,
+              294.5,
+              237.5
+            ],
+            "source_root_y_fraction": 0.9,
+            "opaque_height_target": 28,
+            "constant_across_poses": true,
+            "anchor_measured": false
+          },
+          "fitting": {
+            "report": "V4/evidence/furina-salon-refinement-v2/crabaletta/fit.json",
+            "rect_counts": [
+              386,
+              408,
+              423,
+              393
+            ],
+            "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime"
+          }
+        }
+      ],
+      "generation_failures": [
+        {
+          "member": "chevalmarin",
+          "prompt_file": "V4/prompts/continuation-20261008/furina-E-chevalmarin-assistant-v3-blocked.txt",
+          "status": "no_image_generated",
+          "error": "http400 moderation_blocked output other",
+          "request_id": "13278d63-808c-490b-9e48-b1fafb356c64",
+          "quota_exhausted": false
+        }
+      ],
+      "salon_side_master": {
+        "status": "side_identity_candidate_not_accepted",
+        "output": "V4/assets/assistant-candidates/furina-salon-side-master-v1.png",
+        "sha256": "a3cff63f3f10e941daa1245046d0e10803ebfe8abe6c5d9467be417ad03c8d6b",
+        "prompt_file": "V4/prompts/continuation-20261008/furina-salon-side-master-assistant-v1.txt",
+        "prompt": "Use case: precise-object-edit. ROTATE CAMERA/POSE for the THREE Furina Salon Members in supplied reference. It is a STRICT SIDE-VIEW horizontal fighting game. The supplied FRONT VIEW stickers lock identity ONLY; do NOT reproduce frontal poses. Draw exactly ONE of each companion all facing SCREEN RIGHT in clear ORTHOGRAPHIC RIGHT-FACING LATERAL PROFILE, three separated figures in one horizontal lineup. LEFT is Mademoiselle Crabaletta crab: blue maid bonnet with white ruffle, broad squat shell, pale underside, short claw and legs; view shell and bonnet from SIDE, ONE near-side eye visible, near-side claw aiming right and far claw partly occluded, legs visibly side-projected under shell; do not keep two symmetric frontal eyes/claws. CENTER Gentilhomme Usher: tall navy top hat with blue motif, small pale moustache/eye area beneath brim, long thin dangling teardrop body and two lateral lobes; from SIDE only ONE near-side oval eye is visible under brim, body points right, fore and rear appendages overlap in depth instead of symmetrical wings facing viewer, hat shown from side. RIGHT Surintendante Chevalmarin: compact round head with SHORT snout aimed RIGHT, big blue bow behind head and bead on top, diamond forehead highlight, dark collar and pale gold neck bow, short fins and pointed lower body; one near eye, far fin partly hidden. Preserve shapes and accessories without generic round octopus, long-neck horse or pirate crab. All three genuinely SIDE ON facing right, no three-quarter or frontal beauty view. Flat clean restrained blue sprite clusters, thin dark navy outline, transparent cutouts, no text/ALT/white sticker border/halo/glow/background/shadow. Generous transparent space, all whole silhouettes contained. Static SIDE identity master only, not action sheet.\n",
+        "reference": "V4/design/references/furina-salon-user-reference-20261009.png",
+        "review": "统一朝右侧视，近侧一眼及前后肢遮挡；尚未用户验收"
+      },
+      "E_assistant_evidence_batch": "furina-salon-side-v3"
+    },
+    {
+      "id": "zhongli-E-body-v1",
+      "character": "zhongli",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 钟离 (zhongli), 高挑成年男性，沉稳长袍，琥珀瞳. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 收掌蓄力，前掌向地按出，双臂展开稳住岩盾，再收掌站直. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 岩柱与短时护盾; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/钟离双帧待机图.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/zhongli-talents.json",
+      "source_sha256": "3c846f35be7ef6bf83c0c752f3eef17f64b0f60fd5acde167e821158c4e3ab60",
+      "output": "V4/assets/skill-candidates/zhongli-E-body-v1.png",
+      "sha256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893",
+      "fitting": {
+        "report": "V4/evidence/zhongli-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 950,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/zhongli-E-fx-v1.png",
+        "sha256": "e26a8b357a5bf6bb1206b68efdd6c0927052dfafb76583b281b43bf6f8cbf349",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for zhongli in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 岩柱生成的地面短岩冲击：1小金色地面裂纹；2几块棱角短岩向上；3紧凑金色环形冲击；4岩尘碎片收散。仅生成瞬间效果，不画完整柱或盾。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/zhongli-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 797,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_prop_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/prop-candidates/zhongli-E-stone-stele-prop-v1.png",
+        "sha256": "9ac682cc2f5a3fdff92c9ee93a7ad39f64eff49108bdcb6ca3a054d6f5c9eaca",
+        "prompt": "Use case: stylized-concept. Create one independent transparent-background 2D fighting-game PROP sprite sheet for Zhongli's Geo stone stele, inspired by his Genshin Impact identity. Exactly four chronological phases in a 2x2 grid, row-major, equal size cells, wide transparent gutters, consistent fixed ground anchor at x-center and same y-height for every cell. Phase 1: a small angular golden-brown stone tip emerging from the ground. Phase 2: a waist-high narrow rectangular monolith rises, distinct layered angular cuts and a restrained luminous amber geometric inset. Phase 3: full upright slender stone stele, straight edges, one unbroken core, stable grounded rectangular footprint. Phase 4: same stele crumbling into a few separate chunks near its own root, short lifetime termination. No character, polearm, hands, shield, hit spark, elaborate debris cloud, floor texture, words, UI, frames or background. The stele itself is the stationary gameplay prop, not repeated damage, no homing or drift. Sprite illustration with crisp flat color clusters, one-pixel-like dark outlining, restrained highlights, readable silhouettes at 64px game scale, matching stylized adult Genshin fighter aesthetics, no chibi. Genuine alpha transparent PNG. Keep all chunks and glows well inside each cell so no touching grid boundaries. Avoid duplicate stele in a cell.\n",
+        "prompt_file": "V4/prompts/continuation-20261008/zhongli-E-stone-stele-prop-v1.txt",
+        "issues": [
+          "第三姿才完整岩柱；第一姿偏大、源图下缘需检查",
+          "世界位置锚点、出入场tick、对象池及双方并发未验证"
+        ],
+        "fitting": {
+          "report": "V4/evidence/zhongli-E-prop-review/fit.json",
+          "max_rects": 734,
+          "status": "offline_independent_prop_candidate_unaligned_not_runtime",
+          "anchor_measured": false
+        }
+      }
+    },
+    {
+      "id": "mavuika-E-body-v1",
+      "character": "mavuika",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Mavuika E BODY no-eyewear corrected candidate for 2D fighting game. Input1 corrected master identity: adult tall strong woman, red black biker clothing, flame red orange hair, clear orange eyes. Input2 accepted Raiden sprite rendering STYLE ONLY: crisp readable cel blocks, controlled highlights, thin dark colored outline. Create exactly4 complete-body distinct poses in spacious 2x2 grid facing RIGHT row-major. Pose1 planted feet bent knees, torso leans moderately forward, BOTH EMPTY FISTS placed ahead at same handbar height with grip spacing for a separate motorcycle. Pose2 rising onto an imaginary seat, pelvis sits back, arms remain extended and fists maintain handlebar spacing. Pose3 forward drive crouch, torso low over imaginary handlebar, pelvis follows imaginary seat; both fists still clearly gripping future separate bars, legs arranged to future footpegs. Pose4 planted standing recovery after dismount, both hands relaxed down, eyes visible. Keep same body proportions/costume/scale with generous transparent gutters and complete hair/feet in every cell. The motorcycle, wheel flames, weapon and ground are separate layers so DO NOT DRAW them, only body and EMPTY fists. Important hard user constraint: ABSOLUTELY NO GLASSES, NO SUNGLASSES, NO GOGGLES, NO EYEWEAR anywhere on FACE, HEAD, HAIR, CLOTHING or HANDS. Both eyes unobstructed in every pose. No opaque backdrop, halos, smoke, sparks, glow, floor shadows, lettering or checkerboard. Genuine transparent background. Mavuika's short motorcycle lunge is one continuous front-edge sweep hit, flames decorative, no invulnerability. Candidate, contact/pivot and ticks await fitting.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/玛薇卡双帧待机精灵图.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/mavuika-talents.json",
+      "source_sha256": "dbf751a08c41f6b10bfc48eea77142b6cea65122e7fe095ae17cbbab62de0442",
+      "output": "V4/assets/skill-candidates/mavuika-E-body-v2.png",
+      "sha256": "dd42a66482dd8dfe3080f39e6e8e05d3bc86ce148a396cca146ab1f2807baec0",
+      "issues": [
+        "身体候选：独立助手/武器/特效未完成",
+        "接触锚点/真机尚未验收"
+      ],
+      "corrected_master": "V4/assets/master-candidates/mavuika-idle-no-glasses-v2.png",
+      "corrected_master_sha256": "37ee95a1b370fe4714e3dd0383fc328d49d9dd5c2aee5eba2e9071841efea73f",
+      "history": [
+        {
+          "output": "V4/assets/skill-candidates/mavuika-E-body-v1.png",
+          "status": "rejected_eyewear"
+        }
+      ],
+      "fitting": {
+        "report": "V4/evidence/mavuika-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 845,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/mavuika-E-fx-v1.png",
+        "sha256": "e51b626b73c786849b73404afb2593092909aa59da0e99ebaa391d357cad475d",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for mavuika in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 摩托前缘短炎轮冲击：1低位弧形红橙火舌；2向右滚动短火环；3右方紧凑轮缘火击；4少量火星消散。无车辆身体，无背景。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/mavuika-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 803,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/composite-candidates/mavuika-E-rider-composite-v5.png",
+        "sha256": "847ce38c06fd10cd8fcb036fef7869b119c65d8764ec4c8b7383cbecafe6a23f",
+        "prompt": "Use case: precise-object-edit. Fix ONLY UPPER-LEFT CELL (frame 1) of provided four-cell Mavuika fighting sprite sheet: erase the entire clipped motorcycle fragment and all wheel/fire remnants from that cell. In frame 1 Mavuika stands completely alone on both feet, reaching her right hand forward and lowering her center of gravity to prepare the riding E move; NO bike or wheel whatsoever. Keep her full hair, boots and body fully contained in upper-left cell, away from boundaries. Preserve the other three cells as closely as possible: upper-right mounted on one complete motorcycle, lower-left forward riding attack, lower-right still seated and visibly braking on the SAME complete motorcycle. Frame 4 must NOT dismount or make the bike leave. Adult red-haired black-and-red outfit, open uncovered face, NO glasses/goggles/visor. Same 2x2 layout, consistent body/bike identity, transparent alpha background, no text, no crop at any cell edges, no crossing cell boundary. Game ticks and a later separate dismount are outside this sprite source.\n",
+        "prompt_file": "V4/prompts/continuation-20261008/mavuika-E-rider-composite-v5.txt",
+        "issues": [
+          "帧1无车；帧2完整车突然出现，起乘中间姿仍缺",
+          "后续第四姿车保留，骑乘制动；下车另设转换",
+          "源格碰边、图元预算、挂点与运行时均待复核"
+        ],
+        "fitting": {
+          "report": "V4/evidence/mavuika-E-composite-review/fit.json",
+          "max_rects": 2471,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        }
+      },
+      "E_integrated_history": [
+        {
+          "status": "source_candidate_not_fitted",
+          "output": "V4/assets/composite-candidates/mavuika-E-rider-composite-v1.png",
+          "sha256": "4ad429acac13424e3799480777a81bb6a225f9349f405096be9a4c62c2525dc0",
+          "prompt_file": "V4/prompts/continuation-20261008/mavuika-E-rider-composite-v1.txt",
+          "reference": [
+            "V4/assets/skill-candidates/mavuika-E-body-v2.png"
+          ],
+          "source_purpose": "身体与车握点接触小样，非正式导出",
+          "review": [
+            "所有姿态无眼镜；车轮与握把结构可辨",
+            "第一姿车已完整出现，缺少明确入场",
+            "第三姿轮缘触格边风险；第四姿车未清楚退出",
+            "双手握把和双足踏板仍需像素挂点验证",
+            "源图车身与人物已合成，尚无可单独播放车轮层"
+          ],
+          "fitting": {
+            "report": "V4/evidence/mavuika-E-composite-review/fit.json",
+            "max_rects": 2155,
+            "budget760": false,
+            "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+          },
+          "accepted": false
+        },
+        {
+          "status": "source_candidate_not_fitted",
+          "output": "V4/assets/composite-candidates/mavuika-E-rider-composite-v2.png",
+          "sha256": "91c1e404707b87ae07e6e2816105f4549f43394116ccd5cf061f1d91416da630",
+          "prompt_file": "V4/prompts/continuation-20261008/mavuika-E-rider-composite-v2.txt",
+          "reference": [
+            "V4/assets/composite-candidates/mavuika-E-rider-composite-v1.png"
+          ],
+          "source_purpose": "缩小车身与四姿格间距接触修版",
+          "review": [
+            "无眼镜；双手与车把、坐姿、下车动作可辨",
+            "第一姿车已全出现；第四姿未清楚退出，需要另设计出现/退场时间",
+            "需裁边像素和锚点检查"
+          ],
+          "fitting": {
+            "report": "V4/evidence/mavuika-E-composite-review/fit.json",
+            "max_rects": 1718,
+            "budget760": false,
+            "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+          },
+          "accepted": false
+        },
+        {
+          "status": "source_candidate",
+          "output": "V4/assets/composite-candidates/mavuika-E-rider-composite-v3.png",
+          "sha256": "b482f9f7efced90b77d47dd49f3f6705da9497ffe936bbae6d38bedf3e9a593a",
+          "prompt": "Use case: precise-object-edit. Edit the provided Mavuika 2x2 transparent sprite sheet for an adult Genshin-inspired 2D fighting game. Preserve her recognizable long red-black hair, mature proportions, black-red flame motif bodysuit and bare eyes: ABSOLUTELY NO GLASSES, GOGGLES, VISOR OR FACE COVERING. Keep clean flat sprite shapes, dark one-pixel-like outer outline, consistent body scale and orientation to screen right, same fixed floor line and 2x2 four cells with broad transparent gutters. Correct the motorcycle contact timeline explicitly: upper-left phase 1 is a clear standing start-up, only her feet on the floor and a small partial motorcycle front wheel beginning to enter from behind, her hand reaching but not yet gripping. Upper-right phase 2 has full motorbike under her, pelvis seated and BOTH hands visibly on the SAME handlebars, boots at coherent footrests. Lower-left phase 3 is one active forward wheel sweep, rider still seated with both hands on same bars, one single motorbike only, wheel flames visually restrained. Lower-right phase 4 is deceleration and dismount: motorbike nearly completely gone to the right leaving only a small trailing rear wheel fragment and fading fire, she is standing on both feet recovering with hands free. Do not depict full motorbike in phases 1 or 4. No duplicate wheels, extra arms, floating rider, cropped hair/bike/boots, exploding motorcycle, four simultaneous cars, text, background, shadows or canvas. Keep each whole silhouette and flame well inside each cell bounds. True transparent alpha. This is a contact candidate; later anchors and gameplay ticks remain separate.\n",
+          "prompt_file": "V4/prompts/continuation-20261008/mavuika-E-rider-composite-v3.txt",
+          "issues": [
+            "第三姿车和轮火靠近/触碰格界，待验证",
+            "第一姿右侧出现部分车体；第四姿右侧车体残留可能过大",
+            "车把双手、车座与骨盆锚点未标定",
+            "图元预算未过，非运行时验收"
+          ],
+          "fitting": {
+            "report": "V4/evidence/mavuika-E-composite-review/fit.json",
+            "max_rects": 1840,
+            "budget760": false,
+            "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+          }
+        },
+        {
+          "status": "source_candidate",
+          "output": "V4/assets/composite-candidates/mavuika-E-rider-composite-v4.png",
+          "sha256": "4052bd46f0542d8ee84c2f298b0524b1640fabf5b27a2c74bc3048112622f979",
+          "prompt": "Use case: precise-object-edit. Revise the provided Mavuika four-pose 2x2 fighting-game sprite sheet. She is an adult red-haired black-and-red clad rider with uncovered eyes: absolutely NO glasses, goggles or visor. Correct phase 4 in lower-right: she remains SEATED ON THE SAME COMPLETE MOTORCYCLE as phase 3, hands remain on BOTH grips, hips on seat, boots on footrests, front wheel no longer spinning and flame reduced. This is visible braking / vulnerable recovery, NOT a dismount, NOT a bike disappearing. Keep phase 1 upper-left a standing start with one partial wheel entering, phase 2 upper-right rider mounting with both grips, phase 3 lower-left active forward sweep, phase 4 lower-right motorcycle braked in place. Motorcycle shape/wheel spacing consistent across 2-4. Clear adult proportions and identity, crisp stylized sprite shapes, same scale, fixed floor baseline, transparent background, 2x2 row major with generous gutter in both axes. All hair, fire, wheel and handlebars fully contained INSIDE individual cells with no cropped edges, no crossing cell boundaries. No text, background, shadow, duplicate rider/bike or extra arms. Four poses are visual phases only; game logic controls mounted state and a later separate dismount transition.\n",
+          "prompt_file": "V4/prompts/continuation-20261008/mavuika-E-rider-composite-v4.txt",
+          "issues": [
+            "第四姿骑乘制动保留车体，仍需单独下车过渡",
+            "源格碰边及高图元数待复核",
+            "车把、车座、脚踏锚点及回滚逻辑未标定"
+          ],
+          "fitting": {
+            "report": "V4/evidence/mavuika-E-composite-review/fit.json",
+            "max_rects": 2467,
+            "budget760": false,
+            "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+          }
+        }
+      ],
+      "E_prop_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/prop-candidates/mavuika-E-motorcycle-prop-v1.png",
+        "sha256": "22afa4572b2df46adb3b2c63a951773cbe1e753ac9274e621805799767d02e52",
+        "prompt_file": "V4/prompts/continuation-20261008/mavuika-E-motorcycle-prop-v1.txt",
+        "reference": [
+          "V4/assets/composite-candidates/mavuika-E-rider-composite-v2.png"
+        ],
+        "review": [
+          "单车外形/轮距一致，较合成图少饰件",
+          "四相运动差异过小；握把/座位坐标未标定",
+          "未与人体合成，车身进出场状态还不完整"
+        ],
+        "fitting": {
+          "report": "V4/evidence/mavuika-E-prop-review/fit.json",
+          "max_rects": 1646,
+          "status": "offline_independent_prop_candidate_unaligned_not_runtime",
+          "anchor_measured": false
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "venti-E-body-v1",
+      "character": "venti",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 温迪 (venti), 少年感纤细体型，绿帽羽饰，短披风. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 一手收胸聚风，弯膝抬掌，上托双臂引升，落掌回待机. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 脚下上升风场; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/温迪侧视双帧待机精灵图.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/venti-talents.json",
+      "source_sha256": "7837e497aa6cba637c03ce6a28bda31d74f2b328b11a0808cd6b189d63c73dd7",
+      "output": "V4/assets/skill-candidates/venti-E-body-v1.png",
+      "sha256": "245cfc72937511a6a015974002c9ada820c1a0eaa1d8761334db29d3159a2005",
+      "issues": [
+        "分层接触点、脚底与画风待复核；未经正式验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/venti-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 842,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/venti-E-fx-v1.png",
+        "sha256": "3caf0a321f477a64b4b2a4ccd3ac9a16501681d0cb42fa8f0640d5b18dad892d",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for venti in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 短上升风域：1地面薄青绿色小环；2螺旋风带向上托起；3窄竖直风柱上冲；4上方风碎弧消散。不是持续大龙卷。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/venti-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 784,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      }
+    },
+    {
+      "id": "kamisatoayaka-E-body-v1",
+      "character": "kamisatoayaka",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: fighting-game animation BODY source candidate, Kamisato Ayaka E. Image 1 is Ayaka identity/costume/young adult proportions reference, not a background or rendering style. Image 2 locks the ACCEPTED Raiden sprite style: clean readable cel blocks, controlled highlights, thin colored dark outline, restrained sprite detail; preserve Ayaka's own silhouette and white ponytail, do not copy Raiden's costume or proportions. Exactly FOUR full-body poses in a spacious 2x2 grid, chronological row-major order, facing right in fixed side fighting view. Same character scale, same ground baseline per row, full hair/clothes/feet inside each cell with generous transparent gutters. Pose 1: quiet lowered center of gravity, left palm holds imaginary scabbard mouth at left hip, right fist poised around imaginary sword hilt near left hand. Pose 2: small forward planted step, right arm begins drawing upward, left hand keeps the SAME scabbard mouth location relative to hip. Pose 3: planted feet, open chest, right sword-grip fist raised diagonally forward/up, ice-flower invocation is communicated through body alone. Pose 4: withdraw right hand back towards left hip, controlled return to original ready stance, left hand steady. BODY ONLY: draw EMPTY GRIPPING HANDS, no sword, no scabbard, no ice, no particles, no cast shadow, no glow, no ground, no background color. The separate blade/scabbard will be fitted to the visible fist/palm anchors later. Hands must be anatomically clean with exactly two arms. Keep cloth motion restrained so contacts stay readable. Genuine transparent alpha background, no opaque checkerboard, no letters or grid lines. Design is a fighting-game adaptation of local Kamisato Art Hyouka, one ice-flower hit on pose 3; the visual guiding sword does not create a second hit. Not final acceptance.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/神里绫华侧视佩刀待机精灵图.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/kamisatoayaka-talents.json",
+      "source_sha256": "8cf26e63743b61cc152a61149b09f0c100c41629ca7d7af5922af7246e076468",
+      "output": "V4/assets/skill-candidates/kamisatoayaka-E-body-v1.png",
+      "sha256": "0d7a51a38afd1f80df509125f23fd7753a6545c531f9640f63a6628b73993004",
+      "issues": [
+        "独立武器/特效尚未制作",
+        "接触/脚底待标定",
+        "非正式验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/kamisatoayaka-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 836,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/kamisatoayaka-E-fx-v1.png",
+        "sha256": "a4560ee5cd6181daadd788b358d7af0209208825f859abb72c04c4591919d24d",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for kamisatoayaka in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 地面冰华：1低位细冰晶蓄起；2短冰花向上开；3紧凑白蓝冰晶花峰值；4晶片收散。不要剑、刀鞘、雪关扉。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/kamisatoayaka-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 843,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/kamisatoayaka-E-held-weapon-composite-v1.png",
+        "sha256": "64f87d301d52a23b67e6b879cdc25f942e3741054b0b8dd95e712cda618a0670",
+        "prompt_file": "V4/prompts/continuation-20261008/kamisatoayaka-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/kamisatoayaka-E-body-v1.png"
+        ],
+        "source_purpose": "身体与手持武器合成接触小样",
+        "review": [
+          "一刀一鞘；左手稳鞘、右手拔刀方向可读",
+          "第二姿刀/鞘交错握点需放大复核",
+          "第三姿刀尖靠近右边界；归鞘过渡与脚底锚点待核"
+        ],
+        "fitting": {
+          "report": "V4/evidence/kamisatoayaka-E-composite-review/fit.json",
+          "max_rects": 1575,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "tartaglia-E-body-v1",
+      "character": "tartaglia",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: Tartaglia E body animation source for 2D fighting game. Input image1 locks Tartaglia adult tall lean proportions, orange hair, grey combat costume/red scarf; image2 locks accepted Raiden fighting sprite style ONLY, crisp cel color blocks, controlled highlights, thin dark colored outline, not painterly promotional art or chibi. Exactly FOUR full-body chronological poses in 2x2 grid, facing right, fixed side-view camera and same scale. Keep every hair/scarf/foot wholly in each cell, broad transparent gutters and same planted-foot baseline in each row. Pose1 both empty fists held apart near waist, load into bent knees; Pose2 step forward with a lowered torso and both forearms ready outside body; Pose3 both fists sweep into a visibly crossed forearm strike in front of chest with fists spaced so separate short water blades can attach without intersecting face; Pose4 pull both fists back apart and regain balance with deliberate staggered footing. Real different body poses with anticipation/strike/recovery, no repeated static torso. BODY LAYER ONLY: no bow, swords, water blades, weapon handles, water, fog, particles, background light, shadows, floor or text. Anatomically clean two arms and two fists; empty fist grips reserve leftGrip/rightGrip for independent blades. Preserve face and adult body, short scarf motion, no extra limbs. Genuine transparent alpha with sharp isolated character boundaries; no halo, no color backdrop, no checkerboard. This project adapts local Foul Legacy Raging Tide into a fixed-direction crossing lunge: both blades share ONE hitId on pose3, moving strike checked by sweep, recovery punishable, no tracking. Candidate, not final acceptance.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/达达利亚双帧侧视待机.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/tartaglia-talents.json",
+      "source_sha256": "c70bac9c523994d6ed4ea62030524b41956481fa350ef1848e1ffde00398a6f3",
+      "output": "V4/assets/skill-candidates/tartaglia-E-body-v1.png",
+      "sha256": "b1e6fbc1d3acbe275ea92947440f386f4e65421175ac1f5e05b7ec664cba78ff",
+      "issues": [
+        "独立武器/特效尚未制作",
+        "接触/脚底待标定",
+        "非正式验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/tartaglia-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 964,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/tartaglia-E-fx-v1.png",
+        "sha256": "4fb686c85a59fe7947265862d01cda3d33ab152ae7224f6f22c5988fe81891cb",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for tartaglia in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 双水刃交叉切击的独立水迹：1两条短水弧起势；2两弧交叉向右；3紧凑X形水斩峰值；4少量短水滴消散。不要实体水刃或人物。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/tartaglia-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 817,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/tartaglia-E-held-weapon-composite-v1.png",
+        "sha256": "877af59f06a916c3b80585649ad761ee30e3b20036a10218175fd513f00164a8",
+        "prompt_file": "V4/prompts/continuation-20261008/tartaglia-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/tartaglia-E-body-v1.png"
+        ],
+        "source_purpose": "身体与手持武器合成接触小样",
+        "review": [
+          "两手各一水刃，第三姿交叉斩可读",
+          "第二姿前刀尖靠右边界，需检查alpha裁边",
+          "第四姿双刃化水为候选；左右手身份与一次hitId待验证"
+        ],
+        "fitting": {
+          "report": "V4/evidence/tartaglia-E-composite-review/fit.json",
+          "max_rects": 1823,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "aratakiitto-E-body-v1",
+      "character": "aratakiitto",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Arataki Itto fighting-game E BODY candidate. Image1 identity reference: preserve tall strong adult male, red oni horns, white hair, exposed muscular chest and original costume. Image2 accepted Raiden sprite rendering style only: clean cel blocks, thin dark colored outline, limited highlights, readable silhouette; no generic swordsman or chibi. Four full body distinct poses in spacious 2x2 grid chronological row-major, all facing right, same scale and floor baseline in each row. 1: feet apart, deep knee bend, both open palms under an imaginary compact bull belly ahead of lower chest, fingers upward as stable cradle. 2: drive legs up and extend both arms forward at chest height with palms up; torso follows the lifting motion. 3: release by opening both hands toward front, lean forward and rear heel rises, palms no longer supporting anything. 4: return upright wide footing, hands at hips, confident recovery. BODY ONLY: no bull, club, sword, rock, dust, trail, ground, shadow, halo, backdrop or text. Keep exactly two arms, palms contact-sized and anatomically clear. Separate Ushi will be supported between the two palm anchors during poses1/2 and follow a fixed arc only after release3. No duplication of companion. Genuine transparent alpha. Full hair/clothes/feet stay inside cells with broad transparent gutters. Gameplay is one thrown-bull contact hit, not repeated ground damage. No special-effects layer baked into body.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/荒泷一斗战斗待机双帧.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/aratakiitto-talents.json",
+      "source_sha256": "92dc956846f5fd7aefc95e2e33e5699544d6d8a854ab373ff32248b40fe138e4",
+      "output": "V4/assets/skill-candidates/aratakiitto-E-body-v1.png",
+      "sha256": "d9f5f8cc69e745942b489916aadb18636fe463c1a45dca1a8e90b7919599b806",
+      "issues": [
+        "身体候选：独立助手/武器/特效未完成",
+        "接触锚点/真机尚未验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/aratakiitto-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 948,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/aratakiitto-E-fx-v1.png",
+        "sha256": "79842314622cd1699da254fc847a870565811aa0d8dbedff773d19435673406e",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for aratakiitto in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 阿丑首次接触时的短岩冲击：1几块小金色岩粒；2向右短岩尘弧；3紧凑碰撞爆裂岩片；4尘岩收散。不要牛或棍。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/aratakiitto-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 796,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_assistant_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/assistant-candidates/aratakiitto-E-ushi-assistant-v2.png",
+        "sha256": "42dce5542d02c9b5769a76eb08413684e5143a6a6d21caa4915712a851f0427d",
+        "prompt_file": "V4/prompts/continuation-20261008/aratakiitto-E-ushi-assistant-v2.txt",
+        "reference": [
+          "V4/assets/assistant-candidates/aratakiitto-E-ushi-assistant-v1.png"
+        ],
+        "review": [
+          "雷电三勾玉已移除，背布改为简单金色角饰",
+          "四姿唯一阿丑身份可辨；松手/接触锚点未标定"
+        ],
+        "fitting": {
+          "report": "V4/evidence/aratakiitto-E-assistant-review/fit.json",
+          "max_rects": 924,
+          "status": "offline_independent_assistant_candidate_unaligned_not_runtime",
+          "anchor_measured": false
+        },
+        "accepted": false
+      },
+      "E_assistant_history": [
+        {
+          "status": "rejected_wrong_symbol",
+          "output": "V4/assets/assistant-candidates/aratakiitto-E-ushi-assistant-v1.png",
+          "sha256": "4019149e093ae7aaf3241d79656ea585070141efea06b4934e209f2f1f821408",
+          "prompt_file": "V4/prompts/continuation-20261008/aratakiitto-E-ushi-assistant-v1.txt",
+          "review": [
+            "每格一只阿丑，抱持→释放→冲入→落地可辨",
+            "背布误用雷电三勾玉图案；该版需要拒收符号",
+            "腹部支撑点/松手弧线未标定"
+          ],
+          "fitting": null,
+          "accepted": false
+        }
+      ],
+      "E_contact_references": [
+        {
+          "status": "front_contact_reference_only",
+          "output": "V4/assets/composite-candidates/aratakiitto-E-contact-composite-v1.png",
+          "sha256": "dfb4259c6a8bbfaeb26e973bd50bf72de28003720ecde9f5f0eaa34ff797419c",
+          "prompt_file": "V4/prompts/continuation-20261008/aratakiitto-E-contact-composite-v1.txt",
+          "prompt": "Use case: precise-object-edit. Build a FOUR-POSE 2x2 CONTACT TEST sheet from these two references: adult Arataki Itto body identity and his SINGLE small bull Ushi. Preserve muscular adult proportions, white hair/red horns, purple-black open jacket and rope ornaments, no chibi body. Preserve Ushi's black little bull body, pale snout, golden horns, purple/gold saddlecloth, red cord and bell, NO Raiden triple-tomoe emblem. This is an integrated visual CONTACT CANDIDATE only; body/assistant/effects remain separate for game. Exactly one Itto and one Ushi in each cell, identical body and bull scale across phases. Ushi overall length about 30% of Itto's full standing height, small enough that BOTH palms can support his belly. Upper-left startup: Itto lowers hips and supports Ushi's belly from BELOW with two visible hands, Ushi faces RIGHT, four bull legs tuck above palms. Upper-right onset: Itto extends both arms forward and slightly upward, Ushi still rests on BOTH palms with actual palm/belly contact. Lower-left release: both hands clearly OPEN, Ushi flies to the RIGHT with a small clear air gap beyond BOTH fingertips, no ghost duplicate and no hand still glued to belly. Lower-right recovery: Itto settles into confident stance, Ushi lands in front facing right on FOUR legs, no extra bull. Same floor line and stable world-root, four poses distinct. Every full silhouette and bull contained INSIDE own cell with 15% wide transparent margins; no crossed cell boundary or clipped body. Clean stylized Genshin fighter sprite clusters and thin dark outline matching body reference, true alpha background, no haze/glow/particles/floor/shadow/text. No sword or club in this E action.\n",
+          "issues": [
+            "只有视觉接触参考；未分层/拟合/接入",
+            "源图光晕及格边问题待修"
+          ]
+        },
+        {
+          "status": "unselected_user_clarified_target_is_furina",
+          "output": "V4/assets/composite-candidates/aratakiitto-E-contact-composite-v2.png",
+          "sha256": "291a1b3d441b9f98580b39eb5c0f93f668035ee29058ca706d056f89a2eb6e6b",
+          "prompt_file": "V4/prompts/continuation-20261008/aratakiitto-E-contact-composite-v2.txt",
+          "prompt": "Use case: precise-object-edit. CORRECT CAMERA for this horizontal 2D SIDE-VIEW fighting game. The input sheet is WRONG because the fighter faces the viewer in three-quarter view. REDRAW all four poses from a TRUE ORTHOGRAPHIC RIGHT-FACING SIDE PROFILE camera, like a side-scrolling fighter. Camera is perpendicular to the fighter's movement X axis and never rotates. Itto's nose points RIGHT, only near-side eye visible, chest and belt viewed from SIDE not presented frontally, shoulders stacked along depth, hips/body side profile, arms reach RIGHT along horizontal combat plane. No front-facing torso, three-quarter beauty pose or diagonally facing the viewer. Ushi also exact RIGHT-FACING SIDE PROFILE, single near eye, snout RIGHT, bull lateral side silhouette with front/rear legs, not front-facing. Preserve adult tall muscular white-haired red-horned Itto and black/gold/purple small Ushi visual identities from input. FOUR chronological poses spacious 2x2: first body lowers into side-view bent-knee stance, two side-projected hands support small Ushi belly; second extends hands RIGHT still supporting belly; third open hands release Ushi RIGHT with clearly visible gap; fourth side-view body recovers and Ushi stands on ground in front. Itto and bull never turn to face viewer in any pose. Only ONE bull, same bull/body ratio across poses, bull length 30% standing fighter height. Fixed horizontal floor line, generous empty gutters, whole silhouettes inside cells, no cropped bull/feet/hair. Flat crisp Genshin fighter sprite shapes, thin dark outline, true transparent alpha, NO diffuse glow haze or background, shadow, text, sword or club. Contact test candidate only, game layers remain independent.\n",
+          "issues": [
+            "只有视觉接触参考；未分层/拟合/接入",
+            "源图光晕及格边问题待修"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yaemiko-E-body-v1",
+      "character": "yaemiko",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 八重神子 (yaemiko), 高挑成年女性，粉发狐耳祭服，优雅. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 屈腕掩袖，轻踏侧移，向后点指留下樱位，再回身正立. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 杀生樱最多三个; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/樱/雷独立\",\"contact\":\"指尖布点；樱worldRoot不跟身体\",\"active_event\":\"每次一樱；明确节拍雷击；上限三，替换最旧\",\"interrupt\":\"布点前打断取消；已布点限时存在\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/八重神子侧视待机双帧.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/yaemiko-talents.json",
+      "source_sha256": "dfc4167765a5000e2b9a0b70b519a4656efe3d6a59b9053c9878b983113e9f61",
+      "output": "V4/assets/skill-candidates/yaemiko-E-body-v1.png",
+      "sha256": "f85200baeaf9c75d98ad16ecb337767980b661390aeee59c15d3965ddbeaaffc",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/yaemiko-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 811,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "corrected_source_candidate",
+        "output": "V4/assets/effect-candidates/yaemiko-E-fx-v2.png",
+        "sha256": "2957db46e161536cb8154b1b3cb226ea19d05973bca1047ed499ad31930c2e6f",
+        "prompt": "Use case: precise-object-edit. Edit target: the provided Yae Miko E effect sprite sheet. Change ONLY the upper-left anticipation symbol: remove the entire eye outline, pupil and triple tomoe emblem. Replace it with a small loose cluster of five distinct purple sakura petals with tiny electrical sparks, no eye shape or circular emblem. Preserve the other three lightning phases, purple palette, crisp sprite rendering, four-cell 2x2 layout and scale. Transparent background, generous transparent gutters, no characters, weapons, text, shadows or new symbols. This is an independent effect candidate.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "首格眼形符号误借雷电，待替换",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "review": "眼形与三勾玉已移除；花瓣数量与提示不完全一致，仍为候选",
+        "fitting": {
+          "report": "V4/evidence/yaemiko-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 782,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_effect_history": [
+        {
+          "status": "source_candidate",
+          "output": "V4/assets/effect-candidates/yaemiko-E-fx-v1.png",
+          "sha256": "7a94fd470572e8811969fde27c73e85a18edeed5d53e2c220adf80a41cd65a5c",
+          "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for yaemiko in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 杀生樱一次雷击：1小紫色预兆；2细紫雷从上方到地面；3紧凑紫白落雷峰值；4少量雷碎消散。不要樱树、狐狸或人物。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+          "issues": [
+            "尚未拟合/合成",
+            "助手/武器与挂点仍缺",
+            "未确定伤害tick与判定盒",
+            "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+            "首格眼形符号误借雷电，待替换"
+          ]
+        }
+      ],
+      "E_prop_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/prop-candidates/yaemiko-E-sesshou-sakura-prop-v1.png",
+        "sha256": "d39d6da058fe049429479f88e7022abe8e0bb603a4b213825b0534622adb715b",
+        "prompt": "Use case: stylized-concept. Create a single independent transparent-background 2D fighting-game WORLD PROP sprite sheet: Yae Miko's one Sesshou Sakura fox shrine totem, inspired by her Genshin Impact identity. Exactly four chronological phases in 2x2 grid, row-major, broad transparent gutters and fixed world-ground root at the same x/y coordinate in every cell. First: a petite magenta sakura glyph at ground level beginning to take shape. Second: one slender pink-purple shrine stem manifests, capped with two upward fox-ear petal shapes and a tiny violet luminous core. Third: the same SINGLE shrine stays rooted upright at full size, short distinct fox-ear silhouette, small sakura petals, restrained violet electro charge at top. Fourth: same prop gracefully fades into a few separated sakura petals without moving along the ground. It is a placed stationary totem, no character, no humanoid fox, no sword, no eye, no pupil, no triple-tomoe, no Raiden emblem, no three shrines together, no repeated lightning strike, no text or border. Crisp flat color clusters and dark one-pixel-like outlines in coherent adult Genshin fighter sprite aesthetics, readable at 64 pixels tall; pink petal / purple electro accents. True alpha transparent PNG, no opaque black/white canvas, no background glow haze or cast shadow. Keep all four phase silhouettes well inside each cell, not touching edges. Later logic will handle max three separate instances and only one hit event per clear beat; this visual sheet is only one shrine.\n",
+        "prompt_file": "V4/prompts/continuation-20261008/yaemiko-E-sesshou-sakura-prop-v1.txt",
+        "issues": [
+          "樱姿顺序视觉先小后大；带大面积半透明光晕，源图下缘需检查",
+          "世界位置锚点、出入场tick、对象池及双方并发未验证"
+        ],
+        "fitting": {
+          "report": "V4/evidence/yaemiko-E-prop-review/fit.json",
+          "max_rects": 531,
+          "status": "offline_independent_prop_candidate_unaligned_not_runtime",
+          "anchor_measured": false
+        }
+      }
+    },
+    {
+      "id": "arlecchino-E-body-v1",
+      "character": "arlecchino",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 阿蕾奇诺 (arlecchino), 高挑成年女性，白黑短发，红黑礼服，威严. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 收拢双臂，前脚低步疾进，单臂斜划布下血偿标记，再挺身收手. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 标记突袭斩; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/镰柄刃/火引导/标记独立\",\"contact\":\"右掌握柄左掌支撑；镰刃不变长；只有两手\",\"active_event\":\"切斩一次并标记；引导火不叠伤\",\"interrupt\":\"有限定向突袭；标记限时，受击仍保留至到期\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/阿蕾奇诺双帧战斗待机 sprite sheet.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/arlecchino-talents.json",
+      "source_sha256": "62c6dc0ba977afb6de674009577b8fbd9e72f2ee3ae1cf1cab548b993611b44e",
+      "output": "V4/assets/skill-candidates/arlecchino-E-body-v1.png",
+      "sha256": "e6d41a7d0c289c548dd8c5652a0c221c87685d33db0a9c8667f32d7c03151c46",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收",
+        "有效姿势为爪划，镰柄握点未达标"
+      ],
+      "fitting": {
+        "report": "V4/evidence/arlecchino-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 973,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/arlecchino-E-fx-v1.png",
+        "sha256": "f1df8b183c717a8f43f1ee8b6f27c1d72e14f674d223534f8fb37d3756cb8b1b",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for arlecchino in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 切斩红黑火与血偿标记：1短红黑火弧；2薄斜切红弧向右；3紧凑十字红色标记峰值；4火弧消退保留小标记轮廓。无镰刀。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/arlecchino-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 784,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/light1-candidates/arlecchino-light1-body-v1.png",
+        "sha256": "f3d77977a9987f1b265a6e61b2befd9f2faa9ccb2c76ede2a4afe75644871966",
+        "prompt": "Use case: stylized-concept. arlecchino light1 BODY animation candidate. Image1 locks this character identity, face, age, outfit and own proportions. Image2 locks ACCEPTED Raiden readable fighting-sprite style only: clean cel color blocks, restrained highlights and thin dark colored outline. Do not copy Raiden clothing/weapon/body proportions. Four distinct chronological full-body poses in 2x2 grid row-major, all facing right with fixed side-view camera and consistent scale, broad transparent gutters, stable floor baseline within each row, full feet/hair/clothes inside cells. Unique move is 短枪尾击. Exact choreography: 1右手闭合圆柱握拳贴近右腰，左手闭合支撑拳在前胸，两拳间为未来长柄。2右脚小步植地，腰转驱动前端握点。3以柄尾向右肋高短击：前手握拳向右伸出，后手仍握紧长柄靠腰，避免张爪。4两拳收回至腰胸原握位。 Draw BODY ONLY, no weapon or handle or scabbard, no gun, no umbrella, no cane, no wind/water/flames/sparks, no assistant. Where gripping is specified draw an actual CLOSED gripping fist with curled fingers and thumb, NOT a pointing index finger or open palm. Exactly two arms. All omitted prop contact positions must remain readable. Genuine transparent alpha, no background light/halo/ground/shadow/text/checkerboard. Anticipation, transition, active strike, recovery are real pose differences, not rotations of one image. Fighting-game adaptation, one short light attack event; logic ticks and hitbox still to calibrate. Keep character-specific adult/young proportions.\n",
+        "issues": [
+          "未完成独立武器/特效",
+          "脚底/握点未标定",
+          "拟合/播放待做",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/arlecchino-light1-review/fit.json",
+          "frames": 4,
+          "max_rects": 968,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/arlecchino-E-held-weapon-composite-v1.png",
+        "sha256": "a125f88f4dd257a326c738d9923598c475f7ba9f74aa28bfc348b136aa791c38",
+        "prompt_file": "V4/prompts/continuation-20261008/arlecchino-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/arlecchino-E-body-v1.png"
+        ],
+        "source_purpose": "身体与手持武器的合成接触小样，非正式导出",
+        "review": [
+          "双手握同一镰柄比空爪明确",
+          "第二、三姿刃尖碰或越过格边，暂不接入",
+          "首姿镰刀方向与攻击转换过大，需过渡"
+        ],
+        "fitting": {
+          "report": "V4/evidence/arlecchino-E-composite-review/fit.json",
+          "max_rects": 1933,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "wanderer-E-body-v1",
+      "character": "wanderer",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 流浪者 (wanderer), 少年感纤细体型，大圆帽蓝白服. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 压低屈膝收掌，展开双臂起浮，单手向前压风，双脚落回待机. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 限时低空悬浮; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/起跃风/风掌独立\",\"contact\":\"地面footRoot切空中pelvisPivot；显示Y不独自决定受击盒\",\"active_event\":\"起跃风冲一次；悬浮仅状态，非持续攻击\",\"interrupt\":\"有限悬浮；受击落地取消，非全程无敌\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/蓝帽流浪者双帧待机.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/wanderer-talents.json",
+      "source_sha256": "276f0a26f835245b2ad06620b265ba52b8591991cc953c09e1cb57816cdc3631",
+      "output": "V4/assets/skill-candidates/wanderer-E-body-v1.png",
+      "sha256": "3de03579496d36dbe5652d639f1c4c01550c50119a5248e5d150a0d3eadd9ed3",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/wanderer-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 813,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/wanderer-E-fx-v1.png",
+        "sha256": "31fd8292ede351fb83616f81b451f6aceee44155ca3485ffdfd21d9bc6acec9d",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for wanderer in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 起跃风冲一次：1脚下薄青风环；2向上紧凑风推；3短青白风冲峰值；4离散小风片。不要长时间风场或浮空身体。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/wanderer-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 773,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/light1-candidates/wanderer-light1-body-v2.png",
+        "sha256": "b086e4ddab179b62958fe4938e08d7e60afb84be8251ab6e4eefc33c1d784670",
+        "prompt": "Use case: precise-object-edit. Edit target Image1 is Wanderer light1 four-pose body sheet. Supporting identity image2 provides the MISSING broad circular blue/gold HAT. Correct only two failures: (A) restore that same broad blue round hat with its gold rim on the head in ALL FOUR poses, with readable clearance and no clipping; keep the blue ribbons attached correctly. (B) change the right attacking hand from a fist into an OPEN upright WIND-PRESS PALM in all relevant poses: pose1 open palm near chest, pose2 elbow bent as palm begins forward, pose3 open upright palm fully extends right, pose4 open palm retracts near chest. Keep the character grounded, no floating. Preserve face, slim youthful proportions, outfit, camera, four poses' leg positions, grid order, scale and sprite rendering. Do not add weapons, wind effects, glow, floor or background. Exactly two arms. Four complete poses in 2x2 grid, generous transparent gutters; expand available canvas spacing if needed so the full round hats fit, without shrinking the body differently between poses. Genuine transparent alpha. This is a palm-cast light attack, not a punch. Body-only candidate.\n",
+        "issues": [
+          "圆帽与开掌已修正，过渡二三姿差异仍偏小",
+          "尚未风刃合成/锚点标定/正式验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/wanderer-light1-review/fit.json",
+          "frames": 4,
+          "max_rects": 849,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_history": [
+        {
+          "status": "rejected_identity_and_hand_pose",
+          "output": "V4/assets/light1-candidates/wanderer-light1-body-v1.png",
+          "sha256": "1c36db8832daf5a66748129563a1ef942591d6d403ca5821a7f01235e879a81a",
+          "prompt": "Use case: stylized-concept. wanderer light1 BODY animation candidate. Image1 locks this character identity, face, age, outfit and own proportions. Image2 locks ACCEPTED Raiden readable fighting-sprite style only: clean cel color blocks, restrained highlights and thin dark colored outline. Do not copy Raiden clothing/weapon/body proportions. Four distinct chronological full-body poses in 2x2 grid row-major, all facing right with fixed side-view camera and consistent scale, broad transparent gutters, stable floor baseline within each row, full feet/hair/clothes inside cells. Unique move is 前掌短风刃. Exact choreography: 1双脚植地，右掌收胸、左手低位平衡。2肩转，右掌前推起势。3右掌短促向右压风，左手向后平衡，身体仍在地面。4收右掌，双脚恢复原地重心。动作不是悬浮E，风刃独立。 Draw BODY ONLY, no weapon or handle or scabbard, no gun, no umbrella, no cane, no wind/water/flames/sparks, no assistant. Where gripping is specified draw an actual CLOSED gripping fist with curled fingers and thumb, NOT a pointing index finger or open palm. Exactly two arms. All omitted prop contact positions must remain readable. Genuine transparent alpha, no background light/halo/ground/shadow/text/checkerboard. Anticipation, transition, active strike, recovery are real pose differences, not rotations of one image. Fighting-game adaptation, one short light attack event; logic ticks and hitbox still to calibrate. Keep character-specific adult/young proportions.\n",
+          "issues": [
+            "圆帽缺失",
+            "掌压风误画成握拳",
+            "保留历史，不可作为合格派生"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neuvillette-E-body-v1",
+      "character": "neuvillette",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 那维莱特 (neuvillette), 高挑成年男性，白长发蓝黑审判官袍. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 左手稳杖右手收掌，举掌对准前方，下压召瀑，扶杖收势. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 瀑布落点压制; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/杖/瀑布独立\",\"contact\":\"左掌全程持杖；右掌提示落点；杖底和脚底分别标记\",\"active_event\":\"固定前方瀑布一次；不用装饰水滴治疗\",\"interrupt\":\"落点不追踪；持杖收掌可惩罚\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/那维莱特持杖待战双帧立绘.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/neuvillette-talents.json",
+      "source_sha256": "72d4f3528f8f34752350ae0dda4e43c800d22ebac75c9d1f799ee86fccdcae46",
+      "output": "V4/assets/skill-candidates/neuvillette-E-body-v1.png",
+      "sha256": "425e94ceaef99ad5cd7134654c294e272cdb8828a96b6191b4e87cef33d89c75",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/neuvillette-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 866,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/neuvillette-E-fx-v1.png",
+        "sha256": "c2f0167266a2cba624758892710f2a5b393b9615fd122c129cb8009860b62e8f",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for neuvillette in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 固定前方落瀑：1空中小蓝水汇聚；2窄竖直落水带；3落地紧凑白蓝水花峰值；4水滴消散。不要人、杖、长水平水束。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/neuvillette-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 827,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/light1-candidates/neuvillette-light1-body-v1.png",
+        "sha256": "64d1c97b03c844068eef7d4153479f6769c4b84b9c9c2d4e8fcfbf5842413eca",
+        "prompt": "Use case: stylized-concept. neuvillette light1 BODY animation candidate. Image1 locks this character identity, face, age, outfit and own proportions. Image2 locks ACCEPTED Raiden readable fighting-sprite style only: clean cel color blocks, restrained highlights and thin dark colored outline. Do not copy Raiden clothing/weapon/body proportions. Four distinct chronological full-body poses in 2x2 grid row-major, all facing right with fixed side-view camera and consistent scale, broad transparent gutters, stable floor baseline within each row, full feet/hair/clothes inside cells. Unique move is 杖尾点地水波. Exact choreography: 1左拳垂直握未来杖柄，靠左腰；右掌放松。2左拳将杖轻提少许，躯干端正。3左拳将杖向下点地，右手向右低位引波，双脚保持着地。4持杖收掌至原位置。杖独立，不用剑斩姿势。 Draw BODY ONLY, no weapon or handle or scabbard, no gun, no umbrella, no cane, no wind/water/flames/sparks, no assistant. Where gripping is specified draw an actual CLOSED gripping fist with curled fingers and thumb, NOT a pointing index finger or open palm. Exactly two arms. All omitted prop contact positions must remain readable. Genuine transparent alpha, no background light/halo/ground/shadow/text/checkerboard. Anticipation, transition, active strike, recovery are real pose differences, not rotations of one image. Fighting-game adaptation, one short light attack event; logic ticks and hitbox still to calibrate. Keep character-specific adult/young proportions.\n",
+        "issues": [
+          "未完成独立武器/特效",
+          "脚底/握点未标定",
+          "拟合/播放待做",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/neuvillette-light1-review/fit.json",
+          "frames": 4,
+          "max_rects": 786,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/neuvillette-E-held-weapon-composite-v1.png",
+        "sha256": "7e58e6e2ef8a7fb9743a5ac2fc733482e42a799d662284c0acbbcc19cccd6ab0",
+        "prompt_file": "V4/prompts/continuation-20261008/neuvillette-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/neuvillette-E-body-v1.png"
+        ],
+        "source_purpose": "左手持杖、右掌提示落点的合成接触小样",
+        "review": [
+          "持杖与右掌释放的区分清楚",
+          "第二、三姿杖倾角与握持连贯性需检查，第三姿杖底贴近足部",
+          "E水瀑仍为独立特效，杖底与脚底挂点未测"
+        ],
+        "fitting": {
+          "report": "V4/evidence/neuvillette-E-composite-review/fit.json",
+          "max_rects": 1558,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "clorinde-E-body-v1",
+      "character": "clorinde",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 克洛琳德 (clorinde), 高挑成年女性，紫黑猎装三角帽. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 右手抬枪瞄准，左脚稳住侧身，扣扳机后转为持剑突刺，回撤收姿. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 枪击接迅捷突刺; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/短枪/剑/子弹独立\",\"contact\":\"右掌枪口及扳机，左掌剑柄；两挂点分开；枪收起事件明确\",\"active_event\":\"子弹和刺各一个ID；刺快移扫掠\",\"interrupt\":\"不自动穿背；打断前未发射事件取消\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/克洛琳德双帧侧视待机.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/clorinde-talents.json",
+      "source_sha256": "ff9385ba8fc8764d18d4928cdabfb76395592dc6389362c209f4c7dc5b5d77d8",
+      "output": "V4/assets/skill-candidates/clorinde-E-body-v1.png",
+      "sha256": "ad774ed30c7b93c999f8ab832c00e3b1b25773b136a2220546b5add3b2807752",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收",
+        "伸指手型并非枪剑握持，不允许直接贴道具"
+      ],
+      "fitting": {
+        "report": "V4/evidence/clorinde-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 825,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "corrected_source_candidate",
+        "output": "V4/assets/effect-candidates/clorinde-E-fx-v2.png",
+        "sha256": "6bc3e56358e98376d70890e180060ef51cc892cbad90b76b4202adc8266a5edf",
+        "prompt": "Use case: precise-object-edit. Edit target: the provided Clorinde E effect sprite sheet. Correct ONLY the lower-left third phase: the bullet trail travels strictly LEFT TO RIGHT, thin fading tail at left, bright pointed projectile and impact burst at right. Remove the left-pointing arrowhead completely. Preserve the other three phases, purple and small gold palette, crisp sprite rendering, four-cell 2x2 layout, scale and positions. Transparent background with generous empty gutters. Effect only: no character, weapon, text, border or background.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "第三格弹迹反向，待更正",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "review": "第三相左指箭头已移除；左尾右命中形态可见，挂点仍未标定",
+        "fitting": {
+          "report": "V4/evidence/clorinde-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 622,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/light1-candidates/clorinde-light1-body-v1.png",
+        "sha256": "d50a26dc30a52bf5fd532e42d5f1e7e5e7c17c7be184924b7e17f14c24f332d0",
+        "prompt": "Use case: stylized-concept. clorinde light1 BODY animation candidate. Image1 locks this character identity, face, age, outfit and own proportions. Image2 locks ACCEPTED Raiden readable fighting-sprite style only: clean cel color blocks, restrained highlights and thin dark colored outline. Do not copy Raiden clothing/weapon/body proportions. Four distinct chronological full-body poses in 2x2 grid row-major, all facing right with fixed side-view camera and consistent scale, broad transparent gutters, stable floor baseline within each row, full feet/hair/clothes inside cells. Unique move is 紧凑剑尖直刺. Exact choreography: 1右手闭合握剑拳在右腰前，左手在后腰维持平衡。2前脚小步，右肘逐渐伸出。3紧凑水平刺：右闭合握拳朝右胸高，左手收后，身体不大幅跨步。4右肘回收，恢复原剑握位。枪不参与轻1，不要伸指假握持。 Draw BODY ONLY, no weapon or handle or scabbard, no gun, no umbrella, no cane, no wind/water/flames/sparks, no assistant. Where gripping is specified draw an actual CLOSED gripping fist with curled fingers and thumb, NOT a pointing index finger or open palm. Exactly two arms. All omitted prop contact positions must remain readable. Genuine transparent alpha, no background light/halo/ground/shadow/text/checkerboard. Anticipation, transition, active strike, recovery are real pose differences, not rotations of one image. Fighting-game adaptation, one short light attack event; logic ticks and hitbox still to calibrate. Keep character-specific adult/young proportions.\n",
+        "issues": [
+          "未完成独立武器/特效",
+          "脚底/握点未标定",
+          "拟合/播放待做",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/clorinde-light1-review/fit.json",
+          "frames": 4,
+          "max_rects": 816,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_effect_history": [
+        {
+          "status": "source_candidate",
+          "output": "V4/assets/effect-candidates/clorinde-E-fx-v1.png",
+          "sha256": "0f839702418081dd9d37fb9e1cefc9f9659908de7a77db21847ec3abc6298833",
+          "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for clorinde in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 短枪第一段子弹的独立枪口/射线效果：1极小紫白蓄闪；2小枪口白紫星闪加向右短细弹迹；3短细弹迹与小撞击闪；4弹迹收散。不要枪剑、人物，不画第二段突刺。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+          "issues": [
+            "尚未拟合/合成",
+            "助手/武器与挂点仍缺",
+            "未确定伤害tick与判定盒",
+            "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+            "第三格弹迹反向，待更正"
+          ]
+        }
+      ],
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/clorinde-E-held-weapon-composite-v1.png",
+        "sha256": "b3344f3c3d0e499bd291a195c3471993a1bfe7984a05f3249a005c56f9186a86",
+        "prompt_file": "V4/prompts/continuation-20261008/clorinde-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/clorinde-E-body-v1.png"
+        ],
+        "source_purpose": "身体与手持武器的合成接触小样，非正式导出",
+        "review": [
+          "枪剑分别存在，二姿枪口向右，三姿剑尖前突",
+          "右左手持器身份需核对，枪拔收连续性不足",
+          "枪剑长尖接近格边，需裁边与握柄坐标复核"
+        ],
+        "fitting": {
+          "report": "V4/evidence/clorinde-E-composite-review/fit.json",
+          "max_rects": 1552,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "navia-E-body-v1",
+      "character": "navia",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 娜维娅 (navia), 高挑成年女性，金发黑黄华服礼帽. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 闭伞收向肩侧，双手向前瞄准，肩膀承受后坐，收伞恢复. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 伞枪霰射，伞枪独立层; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/伞枪/霰弹独立\",\"contact\":\"两手持柄；开合轴与枪口保持；后坐身体先接力\",\"active_event\":\"扇面一次ID；多颗视觉不多算\",\"interrupt\":\"装填收伞空档；弹丸不自动追踪\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/娜维娅双帧待机精灵图.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/navia-talents.json",
+      "source_sha256": "198e8ce1702c8be0afc0c34326433111415b7fcf6c0dc4f64542f9c5aab6328b",
+      "output": "V4/assets/skill-candidates/navia-E-body-v1.png",
+      "sha256": "78f18542064b850ffc63cb5e3f1474c0c0f01f9e71fdd6797fdde152a98cefac",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/navia-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 777,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/navia-E-fx-v1.png",
+        "sha256": "91a330a399c5e08a5cec426e30925486847ebc7717fe557f8e475815c140a97b",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for navia in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 伞枪单次扇面霰射：1小金色蓄闪；2向右短扇面3条金色弹迹；3右方紧凑碎晶撞击；4金屑消散。多条弹迹仅视觉同一命中，不画伞枪。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/navia-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 824,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/light1-candidates/navia-light1-body-v1.png",
+        "sha256": "64215a88c0a1cdf4000a5b0e4bf5f9f80395c6c46eafb02f8b822173b41ca4ef",
+        "prompt": "Use case: stylized-concept. navia light1 BODY animation candidate. Image1 locks this character identity, face, age, outfit and own proportions. Image2 locks ACCEPTED Raiden readable fighting-sprite style only: clean cel color blocks, restrained highlights and thin dark colored outline. Do not copy Raiden clothing/weapon/body proportions. Four distinct chronological full-body poses in 2x2 grid row-major, all facing right with fixed side-view camera and consistent scale, broad transparent gutters, stable floor baseline within each row, full feet/hair/clothes inside cells. Unique move is 闭伞短刺. Exact choreography: 1两闭合圆柱握拳前后分开，未来闭伞握点在胸前横轴上。2前脚小步植地，两拳前送。3闭伞向右短刺：前拳到肋高，后拳在胸前，两手持续握住同一未来伞柄。4两拳拉回，恢复稳立。伞独立，无霰射特效。 Draw BODY ONLY, no weapon or handle or scabbard, no gun, no umbrella, no cane, no wind/water/flames/sparks, no assistant. Where gripping is specified draw an actual CLOSED gripping fist with curled fingers and thumb, NOT a pointing index finger or open palm. Exactly two arms. All omitted prop contact positions must remain readable. Genuine transparent alpha, no background light/halo/ground/shadow/text/checkerboard. Anticipation, transition, active strike, recovery are real pose differences, not rotations of one image. Fighting-game adaptation, one short light attack event; logic ticks and hitbox still to calibrate. Keep character-specific adult/young proportions.\n",
+        "issues": [
+          "未完成独立武器/特效",
+          "脚底/握点未标定",
+          "拟合/播放待做",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/navia-light1-review/fit.json",
+          "frames": 4,
+          "max_rects": 765,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/navia-E-held-weapon-composite-v1.png",
+        "sha256": "67171eee839605ede5963c51a31519236b57df520775c9bc420554ee0232d15f",
+        "prompt_file": "V4/prompts/continuation-20261008/navia-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/navia-E-body-v1.png"
+        ],
+        "source_purpose": "身体与手持武器的合成接触小样，非正式导出",
+        "review": [
+          "双手与同一伞柄有视觉联系；伞轴、开合可辨",
+          "第二、三姿手指接触与轴线需放大复核",
+          "源图有大范围低alpha光晕；全车/武器像素裁边检查待做"
+        ],
+        "fitting": {
+          "report": "V4/evidence/navia-E-composite-review/fit.json",
+          "max_rects": 1773,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    },
+    {
+      "id": "skirk-E-body-v1",
+      "character": "skirk",
+      "group": "E",
+      "layer": "body",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fighting game E body animation source candidate. Character: 丝柯克 (skirk), 高挑成年女性，浅色长发紫蓝异域装，冷静. Reference 1 locks identity and costume; reference 2 locks the accepted Raiden fighting-sprite rendering style only, not Raiden proportions or outfit. Preserve this character's age and body proportions. Create exactly four readable full-body poses in a spacious 2x2 grid, all facing right, fixed orthographic side fighting view, stable scale, transparent background, no text. Chronological poses: 低身手靠剑位，错步瞬进，单手水平一闪，反向踏步收剑. Keep every body and loose costume fully inside its cell, broad transparent gutters, consistent standing foot baseline within each row. Clean anime sprite color blocks, restrained highlights, dark colored outline, no chibi exaggeration. Body layer only: omit separate weapon, summoned assistant, projectile, water, lightning, flames, trails, stage or ground shadows. Fingers and contact grips must be anatomically readable. Show anticipation, action onset, active command or strike posture, recovery. Gameplay meaning is 七相一闪疾进切位; independent layers will be generated separately. No copied generic sword slash. Do not add weapons that this motion does not need.\nADDITIONAL PRODUCTION CONTACT SPEC (overrides any ambiguous weapon-drawing wording): {\"status\":\"design_candidate_unmeasured\",\"layers\":\"身体/剑/空间斩独立；重攻晶枪另组\",\"contact\":\"右掌剑柄；空掌为独立剑预留；刹停时刀尖不漂移\",\"active_event\":\"一闪切斩一次；快移扫掠；重攻枪不能偷换剑图\",\"interrupt\":\"墙边截止；不整段无敌\",\"ticks\":null,\"pixel_anchors\":null,\"hitboxes\":null}\nInput1 locks actual character face/costume/age/proportions; actual reference clothing takes priority over approximate verbal color descriptions. Input2 is accepted Raiden sprite STYLE ONLY: clean cel blocks, thin dark colored outline, restrained highlights; no detailed painterly promotional artwork. Draw only BODY with empty grips/supporting palms where props belong, OMIT all weapon handles/blades/bow/gun/cane/umbrella and all assistants. No halo, no ground shadow, no floor, no background light. Genuine transparent alpha. Four poses must express anticipation, transition, active gesture, clear recovery in row-major order; each has precisely two arms. Preserve complete feet/hair/clothing inside generous transparent cell gutters. When airborne keep a consistent pelvis pivot and do not fake a grounded foot anchor. Separate props/effects are fitted later. The 4 source poses do not define logic ticks, damage or hitboxes, and this is only a design source candidate.\n",
+      "reference": "/workspace/scratch/6ac56ca346fc/recovered-v4-originals/原神格斗/Skirk双帧待机精灵图.png",
+      "status": "source_candidate",
+      "source_basis": "assets/roster-v2/skirk-talents.json",
+      "source_sha256": "89dd0cbb5783b2b1dfcfc42f4f92aaad4f2a0eb57548bd34f26f87c531569a85",
+      "output": "V4/assets/skill-candidates/skirk-E-body-v1.png",
+      "sha256": "99bb55043df627486a02c9bef7da2c371150d785065b74a0c1fbf9601194208a",
+      "issues": [
+        "独立武器/助手/特效未完成",
+        "脚底/接触点待标定",
+        "仅源图候选非验收"
+      ],
+      "fitting": {
+        "report": "V4/evidence/skirk-E-review/fit.json",
+        "frames": 4,
+        "max_rects": 986,
+        "budget760": false,
+        "status": "offline_candidate",
+        "anchors_measured": false
+      },
+      "E_effect_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/effect-candidates/skirk-E-fx-v1.png",
+        "sha256": "34978da2f52d50b59a9bb3d7ce8e8860116927cec2b17d56ea941cbfc4ca4114",
+        "prompt": "Use case: stylized-concept. Asset type: independent E EFFECT source sprite sequence for skirk in a 2D fighting game. Reference image locks ONLY the accepted V3 FX treatment: crisp stylized sprite color blocks, bright core and a few restrained shards, clear silhouette, true transparent background; use the new character's element colors, NOT Raiden purple for everyone. Exactly FOUR distinct chronological effect phases in spacious 2x2 grid row-major, broad empty gutters. All cells same coordinate frame and scale; the emitter/ground origin is fixed in each cell; do not individually center changing effects. Full effect contained, no clipped particles. Specific sequence (project adaptation, not claimed official animation): 一闪短空间冰斩：1小冰蓝蓄锋；2薄冰蓝紫短斜斩向右；3紧凑冷色棱线斩击峰值；4少量冰蓝碎光消散。不画剑晶枪人物，不画长传送门。 Draw EFFECT ONLY: no character, face, hands, weapon, assistant, text, border, background, floor texture or cast shadow. No large full-screen fog/halo/gradient backdrop; keep compact readable boundaries for later rectangle fitting. Phase1 anticipation, phase2 onset, phase3 active peak, phase4 recovery/dissipation; this is not four gameplay damage events. Logic tick, hitbox and pool budget remain pending, visuals must not imply automatic homing or extra repeated hits. Genuine transparent alpha.\n",
+        "issues": [
+          "助手/武器与挂点仍缺",
+          "未确定伤害tick与判定盒",
+          "首轮80px多数超850参考；降采样优化不能代替并发/真机验收",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/skirk-E-fx-review/fit.json",
+          "frames": 4,
+          "max_rects": 738,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "light1_body_candidate": {
+        "status": "source_candidate",
+        "output": "V4/assets/light1-candidates/skirk-light1-body-v1.png",
+        "sha256": "dd717d07353ac63f6449917a5fd6930fda10697f6f353a858914a19981393bc2",
+        "prompt": "Use case: stylized-concept. skirk light1 BODY animation candidate. Image1 locks this character identity, face, age, outfit and own proportions. Image2 locks ACCEPTED Raiden readable fighting-sprite style only: clean cel color blocks, restrained highlights and thin dark colored outline. Do not copy Raiden clothing/weapon/body proportions. Four distinct chronological full-body poses in 2x2 grid row-major, all facing right with fixed side-view camera and consistent scale, broad transparent gutters, stable floor baseline within each row, full feet/hair/clothes inside cells. Unique move is 窄步快切. Exact choreography: 1右手闭合握剑拳低位靠右腰，左手开掌在身后平衡。2窄步向右，右肘向外抬起。3短距离横切：右握拳扫向右，左手后收，保持精确窄站距，不做大力双手重劈。4右拳收回低位，控制刹停。剑独立，不画晶枪。 Draw BODY ONLY, no weapon or handle or scabbard, no gun, no umbrella, no cane, no wind/water/flames/sparks, no assistant. Where gripping is specified draw an actual CLOSED gripping fist with curled fingers and thumb, NOT a pointing index finger or open palm. Exactly two arms. All omitted prop contact positions must remain readable. Genuine transparent alpha, no background light/halo/ground/shadow/text/checkerboard. Anticipation, transition, active strike, recovery are real pose differences, not rotations of one image. Fighting-game adaptation, one short light attack event; logic ticks and hitbox still to calibrate. Keep character-specific adult/young proportions.\n",
+        "issues": [
+          "未完成独立武器/特效",
+          "脚底/握点未标定",
+          "拟合/播放待做",
+          "已离线拟合；尚未合成或运行时接入"
+        ],
+        "fitting": {
+          "report": "V4/evidence/skirk-light1-review/fit.json",
+          "frames": 4,
+          "max_rects": 929,
+          "status": "offline_candidate",
+          "anchors_measured": false
+        }
+      },
+      "E_integrated_candidate": {
+        "status": "source_candidate_not_fitted",
+        "output": "V4/assets/composite-candidates/skirk-E-held-weapon-composite-v1.png",
+        "sha256": "4d623d9ca1ededbb190f0290e80f3f3cedff482a33d59ed490af494d41da40a3",
+        "prompt_file": "V4/prompts/continuation-20261008/skirk-E-held-weapon-composite-v1.txt",
+        "reference": [
+          "V4/assets/skill-candidates/skirk-E-body-v1.png"
+        ],
+        "source_purpose": "持剑E身体与握柄合成候选",
+        "review": [
+          "一把紫晶剑、起跑与前刺可读；未混入重攻晶枪",
+          "第三姿剑柄是否仍同右掌，需高倍像素核对",
+          "第四姿剑向下伸出格子边风险；剑长变化与锚点未测"
+        ],
+        "fitting": {
+          "report": "V4/evidence/skirk-E-composite-review/fit.json",
+          "max_rects": 1687,
+          "budget760": false,
+          "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+        },
+        "accepted": false
+      }
+    }
+  ],
+  "policy": "跨角色E身体优先；原图母版步态不重复；后续按组轮转扩展"
+}

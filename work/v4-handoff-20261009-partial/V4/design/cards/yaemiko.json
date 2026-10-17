@@ -1,0 +1,978 @@
+{
+  "character": "yaemiko",
+  "status": "design_candidate",
+  "source": "assets/roster-v2/yaemiko-talents.json",
+  "source_sha256": "dfc4167765a5000e2b9a0b70b519a4656efe3d6a59b9053c9878b983113e9f61",
+  "identity_note": "优雅从容，袖摆与指印承担发力，不做莽撞拳斗",
+  "symbols": "粉发狐耳、狐印、杀生樱",
+  "stance": "脚步轻稳，袖摆延迟；防御侧身收袖护胸",
+  "groups": [
+    {
+      "actionId": "yaemiko.light1",
+      "status": "design_candidate_not_implemented",
+      "input": "light1输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "食指狐印"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.light1.0"
+      ],
+      "visualPoses": [
+        "食指狐印短咬：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.light2",
+      "status": "design_candidate_not_implemented",
+      "input": "light2输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "袖摆掌拍"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.light2.0"
+      ],
+      "visualPoses": [
+        "收袖掌拍引狐灵：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.light3",
+      "status": "design_candidate_not_implemented",
+      "input": "light3输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "转腕狐灵咬"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.light3.0"
+      ],
+      "visualPoses": [
+        "转腕狐灵扑：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.heavy",
+      "status": "专属方向已研究；逐姿待标定",
+      "input": "heavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "双手结狐印召短程狐灵咬；狐灵单层"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.heavy.0"
+      ],
+      "visualPoses": [
+        "短咏唱狐形雷 burst；低攻贴地狐灵，空攻指印俯压"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.crouchlight",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "低位指印狐灵"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.crouchlight.0"
+      ],
+      "visualPoses": [
+        "低位指印狐灵"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.crouchheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "狐灵贴地扑咬"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.crouchheavy.0"
+      ],
+      "visualPoses": [
+        "狐灵贴地扑咬"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.airlight",
+      "status": "design_candidate_not_implemented",
+      "input": "airlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "空中指印短雷"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.airlight.0"
+      ],
+      "visualPoses": [
+        "空中指印短雷"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.airheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "airheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "向下点指狐灵扑落"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.airheavy.0"
+      ],
+      "visualPoses": [
+        "向下点指狐灵扑落"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.E",
+      "status": "design_candidate_not_implemented",
+      "input": "E输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "屈腕掩袖，轻踏侧移，向后点指留下樱位，再回身正立"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.E.0"
+      ],
+      "visualPoses": [
+        "屈腕掩袖，轻踏侧移，向后点指留下樱位，再回身正立"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "mechanic_rule": "E短侧步留下单樱，每人最多3株；候选每株只在明确节拍释放一次可防雷，不自动实时追踪。新樱替换最旧樱，主人被击中未布点取消，已布点定时结束。"
+    },
+    {
+      "actionId": "yaemiko.Q",
+      "status": "design_candidate_not_implemented",
+      "input": "Q输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "天狐霆雷消耗樱位；首段命中确认才进入完整演出；落空和防御不锁对手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "由研究稿声明的分段编号，具体tick待标定，尚未实现"
+      ],
+      "visualPoses": [
+        "Q前置雷命中确认后解放场上樱；基础雷1段，加已有樱数量0—3段；每段单独hitId，演出结束移除消耗樱。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "lock": "仅前置有效命中成立；退出解锁双方；贴墙/体型差异待验证",
+      "mechanic_rule": "Q前置雷命中确认后解放场上樱；基础雷1段，加已有樱数量0—3段；每段单独hitId，演出结束移除消耗樱。"
+    },
+    {
+      "actionId": "yaemiko.throw",
+      "status": "design_candidate_not_implemented",
+      "input": "throw输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "前臂探出抓取"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "yaemiko.throw.0"
+      ],
+      "visualPoses": [
+        "狐印束腕→轻引转体→雷压弹出，不让优雅角色做重体力抱摔。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "grab": {
+        "distance": "待调",
+        "eligible": "地面可抓状态；不可抓/无敌/已有锁位排除",
+        "escape": "窗口tick待调",
+        "pairAnchor": "腕/腰/肩等实际接触点逐帧标定",
+        "victim": "必须有配对victim动作；墙边与不同体型待验证"
+      },
+      "pair_rule": "狐印束腕→轻引转体→雷压弹出，不让优雅角色做重体力抱摔。"
+    },
+    {
+      "actionId": "yaemiko.victim",
+      "status": "design_candidate_not_implemented",
+      "input": "victim输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "狐印束腕→轻引转体→雷压弹出，不让优雅角色做重体力抱摔。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "pair_rule": "狐印束腕→轻引转体→雷压弹出，不让优雅角色做重体力抱摔。"
+    },
+    {
+      "actionId": "yaemiko.idle",
+      "status": "design_candidate_not_implemented",
+      "input": "idle输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "双脚保持基准，呼气肩臂微降",
+        "吸气肩臂微升；不是走路补帧"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.walk",
+      "status": "design_candidate_not_implemented",
+      "input": "walk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "接触：前脚跟落下后脚尖支撑",
+        "下降：膝弯重心落",
+        "经过：后脚经过支撑脚",
+        "上升：脚踝推送",
+        "另一脚接触",
+        "另一脚经过并回到循环"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.backwalk",
+      "status": "design_candidate_not_implemented",
+      "input": "backwalk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前掌先承重、后脚探落",
+        "膝弯稳身",
+        "收前脚靠近支撑位",
+        "前掌推出后撤",
+        "另一脚探落",
+        "收脚恢复；不是正走随意倒放"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.jump",
+      "status": "design_candidate_not_implemented",
+      "input": "jump输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝起跳",
+        "蹬地上升",
+        "空中顶点收腿",
+        "下降准备",
+        "屈膝落地回稳"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.forwarddash",
+      "status": "design_candidate_not_implemented",
+      "input": "forwarddash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前倾蓄脚",
+        "后脚推地",
+        "身体前移",
+        "前脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.backdash",
+      "status": "design_candidate_not_implemented",
+      "input": "backdash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "后倾收臂",
+        "前脚蹬地",
+        "短后撤",
+        "后脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.crouch",
+      "status": "design_candidate_not_implemented",
+      "input": "crouch输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝下沉",
+        "低姿稳住，头颈不缩入胸腔"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.standguard",
+      "status": "design_candidate_not_implemented",
+      "input": "standguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "抬臂进入角色专属防姿",
+        "防姿保持",
+        "后脚受力吸收冲击",
+        "回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.crouchguard",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "下沉抬臂",
+        "低姿防护",
+        "后膝吸收冲击",
+        "回蹲下"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.hit_knockdown",
+      "status": "design_candidate_not_implemented",
+      "input": "hit_knockdown输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "躯干被击向后",
+        "空受击失衡",
+        "击倒倒下",
+        "落地停留"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.wakeup",
+      "status": "design_candidate_not_implemented",
+      "input": "wakeup输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "手肘支撑起身",
+        "单膝支撑",
+        "双脚承重回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.victory",
+      "status": "design_candidate_not_implemented",
+      "input": "victory输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "收招平复",
+        "角色符号明确的庆祝或谢幕",
+        "呼吸保持"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "yaemiko.defeat",
+      "status": "design_candidate_not_implemented",
+      "input": "defeat输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "支撑失力",
+        "跪落或倒下",
+        "结束停留不抽搐"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    }
+  ],
+  "research_reference": "yaemiko-research.md",
+  "orientation": "优雅狐印与布点雷术",
+  "original_basis": "本地普攻驱役狐灵；E迅移留樱最多3株；Q一次雷后依樱化霆雷。",
+  "adaptation": "普通攻击本来就具狐灵识别，不需要给她剑。布点要有清晰位置和反制，不能三个无条件自动追击炮台。",
+  "normal_direction": "轻1食指狐印短咬，轻2收袖掌拍引狐灵，轻3转腕狐灵扑；重攻短咏唱狐形雷 burst；低攻贴地狐灵，空攻指印俯压。",
+  "E_rule": "E短侧步留下单樱，每人最多3株；候选每株只在明确节拍释放一次可防雷，不自动实时追踪。新樱替换最旧樱，主人被击中未布点取消，已布点定时结束。",
+  "Q_rule": "Q前置雷命中确认后解放场上樱；基础雷1段，加已有樱数量0—3段；每段单独hitId，演出结束移除消耗樱。",
+  "throw_rule": "狐印束腕→轻引转体→雷压弹出，不让优雅角色做重体力抱摔。",
+  "counterplay": "布点控区；抢点指起手、离开标定落雷区、近身逼她花位移。",
+  "representative_sample": "指印手型与狐灵起点小样；樱层绑定世界位置，不跟着她走。",
+  "video_observation": "尚未逐帧观看，时间点待补",
+  "E_layer_contact_spec": {
+    "status": "design_candidate_unmeasured",
+    "layers": "身体/樱/雷独立",
+    "contact": "指尖布点；樱worldRoot不跟身体",
+    "active_event": "每次一樱；明确节拍雷击；上限三，替换最旧",
+    "interrupt": "布点前打断取消；已布点限时存在",
+    "ticks": null,
+    "pixel_anchors": null,
+    "hitboxes": null
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "key": "furina",
+    "name": "芙宁娜",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 芙宁娜. Move design (candidate): 空手舞台指挥者；抱着蓝色海马形沙龙助手海薇玛夫人，用它朝右喷水。身体有托住海马、指挥与收回的动作，禁止用剑。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/furina-idle.png"
+    ]
+  },
+  {
+    "key": "zhongli",
+    "name": "钟离",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 钟离. Move design (candidate): 从容的近身岩之掌击：收掌蓄势、向右伸掌、掌击定格、平稳收掌。此招空手，长枪不是必要道具。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/zhongli-idle.png"
+    ]
+  },
+  {
+    "key": "mavuika",
+    "name": "玛薇卡",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 玛薇卡. Move design (candidate): 以炽烈拳击打出第一段近身攻击：腰部蓄力、右向直拳、拳头伸展的命中姿态、收拳。此招不骑摩托，不挥大剑。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/mavuika-idle.png"
+    ]
+  },
+  {
+    "key": "venti",
+    "name": "温迪",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 温迪. Move design (candidate): 诗人般灵动的短弓近身速射：抬弓、拉短弦、朝右放箭、放下弓。箭与风特效独立，身体层没有飞箭。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/venti-idle.png"
+    ]
+  },
+  {
+    "key": "kamisatoayaka",
+    "name": "神里绫华",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 神里绫华. Move design (candidate): 优雅的居合拔刀轻斩：手握刀柄、短距离拔刀、刀锋向右横斩、回鞘准备。刀鞘固定在腰部，武器长度一致。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/kamisatoayaka-idle.png"
+    ]
+  },
+  {
+    "key": "tartaglia",
+    "name": "达达利亚",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 达达利亚. Move design (candidate): 双水刃的快速第一斩：双手守势、转腰带右侧水刃、右向短横斩、回到双刃守势。水刃是硬轮廓武器，无大片水浪。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/tartaglia-idle.png"
+    ]
+  },
+  {
+    "key": "aratakiitto",
+    "name": "荒泷一斗",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 荒泷一斗. Move design (candidate): 豪迈的大剑第一击：持大剑蓄势、肩腰转动、右向短横挥、收势。双手有清楚握柄关系，保留壮硕体型。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/aratakiitto-idle.png"
+    ]
+  },
+  {
+    "key": "yaemiko",
+    "name": "八重神子",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 八重神子. Move design (candidate): 狡黠的御币短扫：胸前持御币、抬腕、朝右挥御币的命中姿势、轻巧收回。纸垂和手部清楚，狐雷特效独立。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/yaemiko-idle.png"
+    ]
+  },
+  {
+    "key": "arlecchino",
+    "name": "阿蕾奇诺",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 阿蕾奇诺. Move design (candidate): 克制凌厉的镰刃短切：低持镰刃、向右提刃、近身切击、收回。保持礼服与锋利轮廓，巨大镰刃完整在单格内。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/arlecchino-idle.png"
+    ]
+  },
+  {
+    "key": "wanderer",
+    "name": "流浪者",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 流浪者. Move design (candidate): 傲慢而精准的空手风掌：偏侧守势、伸手蓄势、右向掌击、收手。此招脚踏地，不悬浮；风刃独立。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/wanderer-idle.png"
+    ]
+  },
+  {
+    "key": "neuvillette",
+    "name": "那维莱特",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 那维莱特. Move design (candidate): 权杖配合的审判水击：左手稳定持权杖，右手抬起、前送、掌击姿态、收回。所有帧保留完整权杖，水效果独立。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/neuvillette-idle.png"
+    ]
+  },
+  {
+    "key": "clorinde",
+    "name": "克洛琳德",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 克洛琳德. Move design (candidate): 决斗式刺剑轻攻：短剑/刺剑守势、肩肘蓄势、向右直刺、收剑。手枪挂在腰部，此招不射击。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/clorinde-idle.png"
+    ]
+  },
+  {
+    "key": "navia",
+    "name": "娜维娅",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 娜维娅. Move design (candidate): 伞柄近身轻击：持闭合伞守势、抬伞、向右短戳、收回。伞作为道具全程完整，不出现大剑；炮火独立。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/navia-idle.png"
+    ]
+  },
+  {
+    "key": "skirk",
+    "name": "丝柯克",
+    "prompt": "Use case: stylized-concept. Asset type: transparent sprite sheet for a 2D fighting game, candidate source art. Create exactly FOUR equal-sized cells in ONE horizontal row, no labels, no grid lines. One consistent full-body character per cell, facing right with a small three-quarter face angle. All frames have identical character scale and ground baseline. Reference image 1 controls STYLE: match its clean anime game-sprite linework, clearly separated flat color masses, controlled highlights, slender combat proportions, sharp readable silhouette. Do not turn into big-head chibi. Reference image 2 controls character costume and identity only; improve readability without redesigning clothes. Each cell must fully contain hair, hands, feet, weapons and props with generous transparent margins. No overlap between cells, no scenery, no mist, no text, no shadows on ground. Preserve true transparent alpha. Body and handheld solid props only; no projectile, water jet, slash trail, light bloom, smoke or background effects baked into the sprite. The four poses must show distinct anticipation, execution, contact, recovery, never four copies of idle. Character: 丝柯克. Move design (candidate): 冷静利落的单手剑短斩：低持剑、提肘蓄势、右向斜切、收剑。武器与四肢完整，深渊特效独立。 Four frames in reading order: (1) preparation; (2) starting motion; (3) clearly extended contact pose; (4) recovery toward the stance. Keep feet planted except a small intentional forward combat step. No opponent shown.",
+    "refs": [
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/V3/assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "/workspace/scratch/6ac56ca346fc/genshin-fighter-v3/assets/roster-v2/skirk-idle.png"
+    ]
+  }
+]

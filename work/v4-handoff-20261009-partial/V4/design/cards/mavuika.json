@@ -1,0 +1,981 @@
+{
+  "character": "mavuika",
+  "status": "design_candidate",
+  "source": "assets/roster-v2/mavuika-talents.json",
+  "source_sha256": "dbf751a08c41f6b10bfc48eea77142b6cea65122e7fe095ae17cbbab62de0442",
+  "identity_note": "强健果断的骑乘与挥剑气质；面部无遮挡",
+  "symbols": "红橙长发、红黑骑装、大剑与炎轮摩托",
+  "stance": "大步前行，髋与肩自然交替；双手架防，禁止戴眼镜",
+  "groups": [
+    {
+      "actionId": "mavuika.light1",
+      "status": "design_candidate_not_implemented",
+      "input": "light1输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "肩带横斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.light1.0"
+      ],
+      "visualPoses": [
+        "肩带横斩、轻2旋身斜挑、轻3踏步下劈：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.light2",
+      "status": "design_candidate_not_implemented",
+      "input": "light2输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "旋身斜挑"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.light2.0"
+      ],
+      "visualPoses": [
+        "旋身斜挑、轻3踏步下劈：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.light3",
+      "status": "design_candidate_not_implemented",
+      "input": "light3输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "踏步下劈"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.light3.0"
+      ],
+      "visualPoses": [
+        "踏步下劈：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.heavy",
+      "status": "专属方向已研究；逐姿待标定",
+      "input": "heavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "大剑双手肩上蓄势下劈"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.heavy.0"
+      ],
+      "visualPoses": [
+        "双手大剑蓄势砸下"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.crouchlight",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "低位剑柄顶击"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.crouchlight.0"
+      ],
+      "visualPoses": [
+        "低位剑柄顶击"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.crouchheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "大剑低扫"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.crouchheavy.0"
+      ],
+      "visualPoses": [
+        "大剑低扫"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.airlight",
+      "status": "design_candidate_not_implemented",
+      "input": "airlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "空中横斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.airlight.0"
+      ],
+      "visualPoses": [
+        "空中横斩"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.airheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "airheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "双手大剑下劈"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.airheavy.0"
+      ],
+      "visualPoses": [
+        "双手大剑下劈"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.E",
+      "status": "design_candidate_not_implemented",
+      "input": "E输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "屈膝握空车把前探，蹬地起乘，压低身体冲入，再脱离回站姿"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.E.0"
+      ],
+      "visualPoses": [
+        "屈膝前探并召车",
+        "蹬地起乘，双手握把",
+        "压低身体定向冲入",
+        "骑乘制动并保留车体；下车另设转换"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "mechanic_rule": "E收身握把→踏步起乘→定向短冲→制动下车；一次车前缘扫掠hitId，不再把轮火单独结算。不能穿墙；受击前未启动取消，启动后仍可受击，不永久无敌。"
+    },
+    {
+      "actionId": "mavuika.Q",
+      "status": "design_candidate_not_implemented",
+      "input": "Q输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "腾跃骑乘落斩；首段命中确认才进入完整演出；落空和防御不锁对手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "由研究稿声明的分段编号，具体tick待标定，尚未实现"
+      ],
+      "visualPoses": [
+        "Q前置焚曜环确认后，腾跃骑乘坠日斩；落地一段主体伤害，火环仅装饰；结束回到常态剑/空手状态。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "lock": "仅前置有效命中成立；退出解锁双方；贴墙/体型差异待验证",
+      "mechanic_rule": "Q前置焚曜环确认后，腾跃骑乘坠日斩；落地一段主体伤害，火环仅装饰；结束回到常态剑/空手状态。"
+    },
+    {
+      "actionId": "mavuika.throw",
+      "status": "design_candidate_not_implemented",
+      "input": "throw输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "前臂探出抓取"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "mavuika.throw.0"
+      ],
+      "visualPoses": [
+        "抓肩转腰摔出，火轮尾迹只作视觉；被投者肩接触、过身翻出与落地对应。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "grab": {
+        "distance": "待调",
+        "eligible": "地面可抓状态；不可抓/无敌/已有锁位排除",
+        "escape": "窗口tick待调",
+        "pairAnchor": "腕/腰/肩等实际接触点逐帧标定",
+        "victim": "必须有配对victim动作；墙边与不同体型待验证"
+      },
+      "pair_rule": "抓肩转腰摔出，火轮尾迹只作视觉；被投者肩接触、过身翻出与落地对应。"
+    },
+    {
+      "actionId": "mavuika.victim",
+      "status": "design_candidate_not_implemented",
+      "input": "victim输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "抓肩转腰摔出，火轮尾迹只作视觉；被投者肩接触、过身翻出与落地对应。"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "pair_rule": "抓肩转腰摔出，火轮尾迹只作视觉；被投者肩接触、过身翻出与落地对应。"
+    },
+    {
+      "actionId": "mavuika.idle",
+      "status": "design_candidate_not_implemented",
+      "input": "idle输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "双脚保持基准，呼气肩臂微降",
+        "吸气肩臂微升；不是走路补帧"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.walk",
+      "status": "design_candidate_not_implemented",
+      "input": "walk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "接触：前脚跟落下后脚尖支撑",
+        "下降：膝弯重心落",
+        "经过：后脚经过支撑脚",
+        "上升：脚踝推送",
+        "另一脚接触",
+        "另一脚经过并回到循环"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.backwalk",
+      "status": "design_candidate_not_implemented",
+      "input": "backwalk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前掌先承重、后脚探落",
+        "膝弯稳身",
+        "收前脚靠近支撑位",
+        "前掌推出后撤",
+        "另一脚探落",
+        "收脚恢复；不是正走随意倒放"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.jump",
+      "status": "design_candidate_not_implemented",
+      "input": "jump输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝起跳",
+        "蹬地上升",
+        "空中顶点收腿",
+        "下降准备",
+        "屈膝落地回稳"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.forwarddash",
+      "status": "design_candidate_not_implemented",
+      "input": "forwarddash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前倾蓄脚",
+        "后脚推地",
+        "身体前移",
+        "前脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.backdash",
+      "status": "design_candidate_not_implemented",
+      "input": "backdash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "后倾收臂",
+        "前脚蹬地",
+        "短后撤",
+        "后脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.crouch",
+      "status": "design_candidate_not_implemented",
+      "input": "crouch输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝下沉",
+        "低姿稳住，头颈不缩入胸腔"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.standguard",
+      "status": "design_candidate_not_implemented",
+      "input": "standguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "抬臂进入角色专属防姿",
+        "防姿保持",
+        "后脚受力吸收冲击",
+        "回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.crouchguard",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "下沉抬臂",
+        "低姿防护",
+        "后膝吸收冲击",
+        "回蹲下"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.hit_knockdown",
+      "status": "design_candidate_not_implemented",
+      "input": "hit_knockdown输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "躯干被击向后",
+        "空受击失衡",
+        "击倒倒下",
+        "落地停留"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.wakeup",
+      "status": "design_candidate_not_implemented",
+      "input": "wakeup输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "手肘支撑起身",
+        "单膝支撑",
+        "双脚承重回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.victory",
+      "status": "design_candidate_not_implemented",
+      "input": "victory输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "收招平复",
+        "角色符号明确的庆祝或谢幕",
+        "呼吸保持"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    },
+    {
+      "actionId": "mavuika.defeat",
+      "status": "design_candidate_not_implemented",
+      "input": "defeat输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "支撑失力",
+        "跪落或倒下",
+        "结束停留不抽搐"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过"
+    }
+  ],
+  "research_reference": "mavuika-research.md",
+  "orientation": "有重量的大剑与炎轮冲入",
+  "original_basis": "本地普攻大剑；E点按焚曜环、长按驰轮车；Q骑车腾跃后坠日斩。",
+  "adaptation": "无眼镜为用户硬约束，面部及头顶都不留墨镜。普攻大剑，E选可读的短距驰轮突进；摩托只在专属动作出现，不把火神全套改成空手拳击。",
+  "normal_direction": "轻1肩带横斩、轻2旋身斜挑、轻3踏步下劈；重攻双手大剑蓄势砸下。蹲重低扫，空重落斩。",
+  "E_rule": "E收身握把→踏步起乘→定向短冲→骑乘制动；制动保留车体，后续下车另设可见转换；一次车前缘扫掠hitId，轮火仅视觉。不能穿墙；启动后仍可受击。",
+  "Q_rule": "Q前置焚曜环确认后，腾跃骑乘坠日斩；落地一段主体伤害，火环仅装饰；结束回到常态剑/空手状态。",
+  "throw_rule": "抓肩转腰摔出，火轮尾迹只作视觉；被投者肩接触、过身翻出与落地对应。",
+  "counterplay": "贴身冲入与重压；E路径单向可跳避，制动收招可反击。",
+  "representative_sample": "无眼镜待机→握把身体/车独立接触→短冲，轮转与掌握点不能滑。",
+  "video_observation": "尚未逐帧观看，时间点待补",
+  "E_layer_contact_spec": {
+    "status": "design_candidate_unmeasured",
+    "layers": "身体/摩托/轮火独立，所有帧无眼镜",
+    "contact": "leftGrip/rightGrip同车把；seat与骨盆对齐；制动保持骑乘接触；下车独立转换",
+    "active_event": "车前缘连续扫掠一次，轮火零伤害",
+    "interrupt": "墙边骑乘制动可惩罚；车不骤然消失；仍可受击",
+    "ticks": null,
+    "pixel_anchors": null,
+    "hitboxes": null
+  }
+}

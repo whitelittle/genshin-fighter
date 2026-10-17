@@ -1,0 +1,44 @@
+[
+  {
+    "id": "aratakiitto-light2-body-v2",
+    "character": "aratakiitto",
+    "group": "light2",
+    "prompt": "Use case: stylized-concept. Asset: transparent BODY ONLY animation sheet for a horizontal 2D fighting game. Reference image 1 is the immutable character model: preserve its exact adult age, head-to-body ratio, shoulder and limb proportions, face, costume silhouette, hair, ornaments and footwear. Do not invent a new physique or redesign the clothing. Reference image 2 only supplies compact readable cel-sprite finish, NOT its character anatomy or costume. FOUR distinct chronological full-body poses in a 2x2 grid of equal cells, right-facing side combat camera throughout. All four use exactly the same anatomical scale, feet on the same local baseline, fixed nominal cell center; movements may shift weight naturally but no arbitrary per-cell rescaling. Every cell needs generous transparent margins (at least 10% on every edge), including all hair, fingers, coat and feet. True transparent alpha, no background or floor shadow. Simple controlled cel color blocks, preserve face/skin/white hair, thin coherent dark outline. No glow, particles, water, weapons, assistants, grid, labels or text. Hands are empty but shaped for later weapon anchors. No duplicated poses or rotated copies. Candidate display poses, not 60Hz gameplay ticks. Arataki Itto LIGHT2 shoulder check into two-handed greatsword follow-up, a project adaptation. Keep the lean muscular adult build and long cream-and-black geometric coat panels of image1, its red horns, white/red long hair, purple rope and open-toe shin guards. DO NOT shorten him into a stocky big-head fighter, inflate deltoids, replace coat panels with purple sashes or change the necklace. 1: low wide stance, two empty grip fists aligned at near hip, knees flexed. 2: front foot short step right, near shoulder drives forward, hands still at hip, obvious shoulder-check silhouette. 3: hips rotate, both grip fists sweep forward to chest height along one handle axis, consistent distance between hands, realistic heavy follow-through. 4: rear leg bears weight, elbows draw back, hands return hip, broad stable stance. No sword drawn; no ghost weapons.",
+    "refs": [
+      "/workspace/scratch/1c5183d0903d/project/V4/evidence/aratakiitto-idle-review/source-cell-0.png",
+      "/workspace/scratch/1c5183d0903d/project/V4/evidence/v3-accepted-contact.png"
+    ],
+    "issues": [
+      "需复核与原母版外观一致性",
+      "独立大剑/双握点及肩撞→斩击逻辑仍待"
+    ]
+  },
+  {
+    "id": "zhongli-light3-body-v1",
+    "character": "zhongli",
+    "group": "light3",
+    "prompt": "Use case: stylized-concept. Asset: transparent BODY ONLY animation sheet for a horizontal 2D fighting game. Reference image 1 is the immutable character model: preserve its exact adult age, head-to-body ratio, shoulder and limb proportions, face, costume silhouette, hair, ornaments and footwear. Do not invent a new physique or redesign the clothing. Reference image 2 only supplies compact readable cel-sprite finish, NOT its character anatomy or costume. FOUR distinct chronological full-body poses in a 2x2 grid of equal cells, right-facing side combat camera throughout. All four use exactly the same anatomical scale, feet on the same local baseline, fixed nominal cell center; movements may shift weight naturally but no arbitrary per-cell rescaling. Every cell needs generous transparent margins (at least 10% on every edge), including all hair, fingers, coat and feet. True transparent alpha, no background or floor shadow. Simple controlled cel color blocks, preserve face/skin/white hair, thin coherent dark outline. No glow, particles, water, weapons, assistants, grid, labels or text. Hands are empty but shaped for later weapon anchors. No duplicated poses or rotated copies. Candidate display poses, not 60Hz gameplay ticks. Zhongli LIGHT3 shaft press, project adaptation from polearm combat. Preserve image1 slender tall adult anatomy, amber tipped long dark ponytail, silver shoulder pieces, brown/black/cream long fitted coat and geometric gold trim exactly. 1: straight poised knees slightly flexed, two empty grip fists along an imaginary diagonal polearm shaft near chest and waist. 2: front foot short measured step right, arms lift empty grip points together, prepare to press the shaft. 3: arms press diagonally downward to right waist height, one palm-down grip ahead, other grip behind, torso inclines slightly, weight firmly front foot. 4: hands return to controlled side stance, shoulders settle, feet stable. Do not draw any polearm or stone effect, no exaggerated crouch, no front-facing torso.",
+    "refs": [
+      "/workspace/scratch/1c5183d0903d/project/V4/evidence/zhongli-idle-review/source-cell-0.png",
+      "/workspace/scratch/1c5183d0903d/project/V4/evidence/v3-accepted-contact.png"
+    ],
+    "issues": [
+      "独立枪杆及双握点待制作",
+      "数值/盒/tick待调"
+    ]
+  },
+  {
+    "id": "yaemiko-light3-body-v1",
+    "character": "yaemiko",
+    "group": "light3",
+    "prompt": "Use case: stylized-concept. Asset: transparent BODY ONLY animation sheet for a horizontal 2D fighting game. Reference image 1 is the immutable character model: preserve its exact adult age, head-to-body ratio, shoulder and limb proportions, face, costume silhouette, hair, ornaments and footwear. Do not invent a new physique or redesign the clothing. Reference image 2 only supplies compact readable cel-sprite finish, NOT its character anatomy or costume. FOUR distinct chronological full-body poses in a 2x2 grid of equal cells, right-facing side combat camera throughout. All four use exactly the same anatomical scale, feet on the same local baseline, fixed nominal cell center; movements may shift weight naturally but no arbitrary per-cell rescaling. Every cell needs generous transparent margins (at least 10% on every edge), including all hair, fingers, coat and feet. True transparent alpha, no background or floor shadow. Simple controlled cel color blocks, preserve face/skin/white hair, thin coherent dark outline. No glow, particles, water, weapons, assistants, grid, labels or text. Hands are empty but shaped for later weapon anchors. No duplicated poses or rotated copies. Candidate display poses, not 60Hz gameplay ticks. Yae Miko LIGHT3 wrist turn commanding fox-spirit pounce, project adaptation. Preserve adult elegant tall body, long pink hair/fox ears, gold shrine headpiece, asymmetric white/red shrine robes, purple back bow and footwear of image1. No sword. 1: near hand softly gathered at chest with thumb and middle finger near contact, far hand supports sleeve, feet grounded. 2: near elbow unfolds, wrist turns palm slightly upward, front foot makes small precise step. 3: near arm extends forward to right, wrist gently bends down, index and middle fingers guide a fox spirit release (do not draw spirit or lightning), far hand keeps flowing sleeve clear, torso slight forward tilt. 4: elbow bends, hand returns sleeve at chest, weight recenters elegantly. Do not turn front, no floating feet, no martial punch fist.",
+    "refs": [
+      "/workspace/scratch/1c5183d0903d/project/V4/evidence/yaemiko-idle-review/source-cell-0.png",
+      "/workspace/scratch/1c5183d0903d/project/V4/evidence/v3-accepted-contact.png"
+    ],
+    "issues": [
+      "狐灵及释放出点待制作",
+      "数值/盒/tick待调"
+    ]
+  }
+]

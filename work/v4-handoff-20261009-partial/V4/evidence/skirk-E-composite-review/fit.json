@@ -1,0 +1,71 @@
+{
+  "character": "skirk",
+  "source": "V4/assets/composite-candidates/skirk-E-held-weapon-composite-v1.png",
+  "source_sha256": "4d623d9ca1ededbb190f0290e80f3f3cedff482a33d59ed490af494d41da40a3",
+  "height": 64,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1547,
+    1627,
+    1687,
+    1519
+  ],
+  "max_rects": 1687,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "0cc7642903937ed64de01db7acbe1b6b5c0605098379c5bd5bbd34ce7e55278f",
+      "fit_sha256": "0819828e149d77fe60c0e17c5b95c544bc675a54f33684146951bc1ba98c9506",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1547,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "656e4f42a819e742a7ecb2153a5fbbbeffaa98da2760125701aacb0a97c041c2",
+      "fit_sha256": "db0a4358e6eecb08f8804289cfb689e716a4eca26d63c2d0956767c581fc0cc4",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1627,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "34d6c738530157568b8abe414e568f1b304ff69133d1858c21e7ad021f6c9369",
+      "fit_sha256": "1839290d65294b04de1ed47b467658e4e75f4f0d0c545e20549fe1872c4d776b",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1687,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "93f2bbb3ca549ef82c6c038206c6e359d4401b6da4090dace47d23b97af49486",
+      "fit_sha256": "269501af488aba40f93e5db699a361a314679374e69d4f6101c9220738cb18c0",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1519,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

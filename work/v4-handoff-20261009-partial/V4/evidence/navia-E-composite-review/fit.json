@@ -1,0 +1,71 @@
+{
+  "character": "navia",
+  "source": "V4/assets/composite-candidates/navia-E-held-weapon-composite-v1.png",
+  "source_sha256": "67171eee839605ede5963c51a31519236b57df520775c9bc420554ee0232d15f",
+  "height": 64,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1274,
+    1541,
+    1773,
+    1326
+  ],
+  "max_rects": 1773,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "cee1fb85f3e9defd66267ca7f5647dbfbfae494554eb24d40d14e90bc067bec8",
+      "fit_sha256": "59d612aff49d013122f9b22373e5d0964ce9c9babb7164554dd38f763146215e",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1274,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "5a661d358f2b73b214410c7edeee02da0e93a0167beddc95aae89fc4fd2af13a",
+      "fit_sha256": "3fb08805623ff176a2d3786cd7014276cd788bb61edeebc8970d79834e78dfe6",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false
+      },
+      "rect_count": 1541,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "c40b1fbe3e8dda45cb3a3fb954e75986e9fef3ef0524df4db9150c147e34ca23",
+      "fit_sha256": "7d4384c90565caacc46eec1155ae3d7ae8c1aa42e87736b5ea2fc180651cbdb9",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1773,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "4b46890fc5d4e3d1cc8b3908c795cb7d636bfbf6e965f3afe59e81db25a6f614",
+      "fit_sha256": "e2f6ad53e1fdf8f620c713a044d8736b555fca464af096295e91d1e87f964da2",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": false,
+        "bottom": false
+      },
+      "rect_count": 1326,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

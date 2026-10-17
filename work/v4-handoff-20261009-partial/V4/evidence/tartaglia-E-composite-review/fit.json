@@ -1,0 +1,71 @@
+{
+  "character": "tartaglia",
+  "source": "V4/assets/composite-candidates/tartaglia-E-held-weapon-composite-v1.png",
+  "source_sha256": "877af59f06a916c3b80585649ad761ee30e3b20036a10218175fd513f00164a8",
+  "height": 80,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1586,
+    1823,
+    1635,
+    1738
+  ],
+  "max_rects": 1823,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "bbc798bf1c0257adf50282c37b034677d4bb09c50aa53973235b0aba84a2dd82",
+      "fit_sha256": "e8a5ac4211b9d770c4ea584f96534d586af59bb41551e536226a6f0af4df13be",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1586,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "c9d799ae4895e7403cd02e1b4ac410d6e285b795340d68ada17558c5a9550f9c",
+      "fit_sha256": "d934c79c0cb46712d9eb8086fea295b0e1cd6cc4575d691ab6c3b18cb7473bd2",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1823,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "bcb8806f6f4ffc61aed2c4256983d5de195a08a078fde13d8a67022c70b56a9e",
+      "fit_sha256": "33df80fd2798c7683274505021ad69cdf402c958e6d6dccb25c9ac80d1aaf1da",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1635,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "6cfdcd287bdc0d801fa2a7566248eca35625662507c16da24039434fdc097c4e",
+      "fit_sha256": "7c687031243e8fe1762f9f77279b1046060c84bdb8bca0026b69bc29d20bb916",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1738,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

@@ -1,0 +1,77 @@
+{
+  "method": "生产预览JS使用@napi-rs/canvas CPU及最小DOM逐帧执行；不是浏览器UI/GPU/真机",
+  "characters": [
+    {
+      "key": "furina",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "zhongli",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "mavuika",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "venti",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "kamisatoayaka",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "tartaglia",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "aratakiitto",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "yaemiko",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "arlecchino",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "wanderer",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "neuvillette",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "clorinde",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "navia",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    },
+    {
+      "key": "skirk",
+      "frames": 8,
+      "checks": "双组全部帧、逐帧/重播/滑条、背景与脚底线开关"
+    }
+  ],
+  "baselineFrames": 40,
+  "passed": true
+}

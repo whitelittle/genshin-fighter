@@ -1,0 +1,1530 @@
+{
+  "identity_references": [
+    {
+      "character": "furina",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "zhongli",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "mavuika",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "venti",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "kamisatoayaka",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "tartaglia",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "aratakiitto",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "yaemiko",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "arlecchino",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "wanderer",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "neuvillette",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "clorinde",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "navia",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    },
+    {
+      "character": "skirk",
+      "exists": true,
+      "hash_matches": true,
+      "accepted": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "mavuika-walk-body-v3",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.656881,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            73,
+            6,
+            455,
+            501
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            62,
+            5,
+            399,
+            502
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            56,
+            7,
+            416,
+            501
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            96,
+            4,
+            498,
+            488
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 5,
+          "alpha32_bbox": [
+            70,
+            7,
+            403,
+            496
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 6,
+          "alpha32_bbox": [
+            76,
+            0,
+            386,
+            496
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "furina-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.634514,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            71,
+            48,
+            390,
+            700
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            40,
+            49,
+            511,
+            690
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            50,
+            43,
+            535,
+            701
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            78,
+            48,
+            415,
+            701
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": true,
+      "source_gate": "candidate_requires_visual_review",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "zhongli-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.672709,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            77,
+            99,
+            512,
+            665
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            17,
+            99,
+            542,
+            665
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            11
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            0,
+            99,
+            542,
+            665
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            12,
+            53
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            93,
+            516,
+            666
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            54,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "mavuika-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.627651,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            30,
+            118,
+            541,
+            680
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            23
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            0,
+            96,
+            537,
+            679
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            34,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            32,
+            57,
+            542,
+            680
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            23
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            84,
+            514,
+            681
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            22,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "venti-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.662354,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            22,
+            27,
+            541,
+            698
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            38
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            0,
+            32,
+            542,
+            699
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            40,
+            34
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            0,
+            31,
+            506,
+            699
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            35,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            5,
+            45,
+            494,
+            699
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "kamisatoayaka-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.63127,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            45,
+            37,
+            444,
+            691
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            25,
+            41,
+            542,
+            690
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            25
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            0,
+            62,
+            500,
+            686
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            27,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            67,
+            38,
+            422,
+            691
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "tartaglia-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.721539,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            20,
+            120,
+            542,
+            677
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            114
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            0,
+            120,
+            542,
+            674
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            114,
+            70
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            0,
+            122,
+            542,
+            672
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            69,
+            36
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            119,
+            524,
+            677
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            35,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "aratakiitto-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.648087,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            7,
+            199,
+            522,
+            652
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            9,
+            162,
+            542,
+            653
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            41
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            0,
+            140,
+            542,
+            655
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            41,
+            32
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            151,
+            534,
+            655
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            31,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "yaemiko-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.596882,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            42,
+            44,
+            541,
+            690
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            34
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            0,
+            46,
+            466,
+            690
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            37,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            3,
+            45,
+            505,
+            690
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            83,
+            44,
+            447,
+            690
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "arlecchino-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.639393,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            48,
+            52,
+            542,
+            678
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            29
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            0,
+            78,
+            509,
+            678
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            29,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            24,
+            110,
+            542,
+            678
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            156
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            48,
+            486,
+            678
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            154,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "wanderer-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.597479,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            48,
+            34,
+            542,
+            696
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            38
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            0,
+            40,
+            542,
+            696
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            49,
+            16
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            0,
+            42,
+            538,
+            697
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            21,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            55,
+            36,
+            434,
+            696
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "neuvillette-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.563641,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            53,
+            31,
+            508,
+            709
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            40,
+            35,
+            521,
+            709
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            27,
+            33,
+            542,
+            709
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            20
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            32,
+            496,
+            709
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            19,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "clorinde-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.747084,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            173,
+            10,
+            576,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            27,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            113,
+            10,
+            588,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            33,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            159,
+            7,
+            623,
+            504
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            110,
+            0,
+            523,
+            504
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            22,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "navia-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.746439,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            244,
+            16,
+            587,
+            500
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            149,
+            33,
+            550,
+            500
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            196,
+            25,
+            647,
+            480
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            225,
+            12,
+            576,
+            480
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": true,
+      "source_gate": "candidate_requires_visual_review",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "skirk-light2-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.65344,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            135,
+            18,
+            642,
+            504
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            143,
+            15,
+            657,
+            503
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            150,
+            12,
+            744,
+            496
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            189,
+            23,
+            708,
+            497
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        }
+      ],
+      "all_cells_edge_clear": true,
+      "source_gate": "candidate_requires_visual_review",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "aratakiitto-light2-body-v2",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.651906,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            148,
+            42,
+            694,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            42,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            56,
+            70,
+            638,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            41,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            134,
+            0,
+            735,
+            489
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            31,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            131,
+            0,
+            698,
+            489
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            28,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "zhongli-light3-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.748291,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            167,
+            12,
+            551,
+            494
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            91,
+            20,
+            523,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            11,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            143,
+            31,
+            660,
+            478
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": true
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            142,
+            0,
+            518,
+            485
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    },
+    {
+      "id": "yaemiko-light3-body-v1",
+      "exists": true,
+      "hash_matches": true,
+      "mode": "RGBA",
+      "transparent_fraction": 0.695804,
+      "has_real_alpha": true,
+      "cells": [
+        {
+          "pose": 1,
+          "alpha32_bbox": [
+            263,
+            12,
+            617,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            65,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 2,
+          "alpha32_bbox": [
+            65,
+            13,
+            473,
+            511
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            0,
+            56,
+            0,
+            0
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 3,
+          "alpha32_bbox": [
+            253,
+            0,
+            767,
+            491
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            42,
+            0,
+            0,
+            8
+          ],
+          "edge_clear": false
+        },
+        {
+          "pose": 4,
+          "alpha32_bbox": [
+            0,
+            0,
+            433,
+            499
+          ],
+          "edge_pixels_top_bottom_left_right": [
+            54,
+            0,
+            5,
+            0
+          ],
+          "edge_clear": false
+        }
+      ],
+      "all_cells_edge_clear": false,
+      "source_gate": "needs_correction",
+      "anchors_measured": false,
+      "accepted": false
+    }
+  ],
+  "limitations": [
+    "Alpha and hashes cannot prove anatomy, motion or costume consistency.",
+    "Diagnostic fit is not V3 painter or runtime validation."
+  ]
+}

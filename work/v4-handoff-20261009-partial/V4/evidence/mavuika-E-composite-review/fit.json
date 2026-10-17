@@ -1,0 +1,71 @@
+{
+  "character": "mavuika",
+  "source": "V4/assets/composite-candidates/mavuika-E-rider-composite-v5.png",
+  "source_sha256": "847ce38c06fd10cd8fcb036fef7869b119c65d8764ec4c8b7383cbecafe6a23f",
+  "height": 76,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1552,
+    2400,
+    2471,
+    2185
+  ],
+  "max_rects": 2471,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "d8f76892e4693099a914dc53a6f2fbe39e1332aa767eee5d382444d8a0fa4f49",
+      "fit_sha256": "8c18abe7093fee998be5db372658664d94995178ae792d582950141f8d1f7fdf",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1552,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "f9e032387be33cb16412fc95166c718226b945e589325ca0cd737bad460d5f28",
+      "fit_sha256": "5eb51824e817affb64ef15c7ebc1cb8854a0c6e854f226af64473de501bc2535",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 2400,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "577a374ec4e2b728bf58336e8f38f257a8e2981eca7f206699b9fa716050e6bf",
+      "fit_sha256": "d91fb716b69c011d6591a12d7f161c8d380e9a2e1cc634f9c3a59f4f1f16cc76",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 2471,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "88bf9843656140f6cfa58f35da557df76b76dc061420a889a5dba2c9add7d8b8",
+      "fit_sha256": "475f28f7d1b98097ed23c6c6536827a698c1d89b1effb91b33c766e3eb730738",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 2185,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

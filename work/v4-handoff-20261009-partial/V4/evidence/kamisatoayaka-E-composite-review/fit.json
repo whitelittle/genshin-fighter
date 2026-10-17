@@ -1,0 +1,71 @@
+{
+  "character": "kamisatoayaka",
+  "source": "V4/assets/composite-candidates/kamisatoayaka-E-held-weapon-composite-v1.png",
+  "source_sha256": "64f87d301d52a23b67e6b879cdc25f942e3741054b0b8dd95e712cda618a0670",
+  "height": 72,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1356,
+    1497,
+    1575,
+    1452
+  ],
+  "max_rects": 1575,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "cbc8a20cdfe93659ea2ffc8c20843076ad59599c978d50d468453040c3e22dba",
+      "fit_sha256": "234f94030779834d082e17ffc17aad17cea53b20c8c7dc21ad073165567cd508",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1356,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "2c43887c951d8b089df35c568fe9390e9e1bad8f6f1b886cde57e8283f3c4e14",
+      "fit_sha256": "e3bce70fc004dc9076c3ac00bfaa029e60d996db79b7b697a24f58da58608316",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1497,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "34efa14b6b9c8f1e535fe187a233f25402d17ef9dcd7c37f9467173b2ea6917c",
+      "fit_sha256": "c29021b95a9f9bdebb1829296875d632ec2754ffbdc6b0ab007a94aa0d5f6815",
+      "edge_alpha32": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1575,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "8c22128fff967ef96c036ba94aeffb29bd8fd8d4ceab507d0d59491544372cc5",
+      "fit_sha256": "4ff8da8d1a7d05c640efa4f06e7f0c030c08c4605b11a8157ed0bd65f18a4e5e",
+      "edge_alpha32": {
+        "left": true,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1452,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

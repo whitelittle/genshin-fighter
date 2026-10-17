@@ -1,0 +1,1133 @@
+{
+  "members": [
+    {
+      "member": "usher",
+      "canvas": [
+        48,
+        48
+      ],
+      "inspection_transform": {
+        "scale": 0.0660377358490566,
+        "canvas": [
+          48,
+          48
+        ],
+        "root_candidate": [
+          24,
+          40
+        ],
+        "source_roots_x": [
+          315.5,
+          315.5,
+          315.5,
+          315.5
+        ],
+        "source_root_y_fraction": 0.9,
+        "opaque_height_target": 28,
+        "constant_across_poses": true,
+        "anchor_measured": false
+      },
+      "palette": [
+        [
+          240,
+          243,
+          247,
+          64
+        ],
+        [
+          219,
+          227,
+          237,
+          64
+        ],
+        [
+          182,
+          200,
+          231,
+          64
+        ],
+        [
+          134,
+          182,
+          242,
+          64
+        ],
+        [
+          116,
+          150,
+          207,
+          64
+        ],
+        [
+          91,
+          120,
+          188,
+          64
+        ],
+        [
+          59,
+          122,
+          225,
+          64
+        ],
+        [
+          55,
+          103,
+          208,
+          64
+        ],
+        [
+          55,
+          92,
+          184,
+          64
+        ],
+        [
+          47,
+          74,
+          141,
+          64
+        ],
+        [
+          35,
+          86,
+          204,
+          64
+        ],
+        [
+          31,
+          62,
+          137,
+          64
+        ],
+        [
+          29,
+          45,
+          96,
+          64
+        ],
+        [
+          19,
+          42,
+          99,
+          64
+        ],
+        [
+          13,
+          31,
+          80,
+          64
+        ],
+        [
+          4,
+          17,
+          57,
+          64
+        ],
+        [
+          240,
+          243,
+          247,
+          128
+        ],
+        [
+          219,
+          227,
+          237,
+          128
+        ],
+        [
+          182,
+          200,
+          231,
+          128
+        ],
+        [
+          134,
+          182,
+          242,
+          128
+        ],
+        [
+          116,
+          150,
+          207,
+          128
+        ],
+        [
+          91,
+          120,
+          188,
+          128
+        ],
+        [
+          59,
+          122,
+          225,
+          128
+        ],
+        [
+          55,
+          103,
+          208,
+          128
+        ],
+        [
+          55,
+          92,
+          184,
+          128
+        ],
+        [
+          47,
+          74,
+          141,
+          128
+        ],
+        [
+          35,
+          86,
+          204,
+          128
+        ],
+        [
+          31,
+          62,
+          137,
+          128
+        ],
+        [
+          29,
+          45,
+          96,
+          128
+        ],
+        [
+          19,
+          42,
+          99,
+          128
+        ],
+        [
+          13,
+          31,
+          80,
+          128
+        ],
+        [
+          4,
+          17,
+          57,
+          128
+        ],
+        [
+          240,
+          243,
+          247,
+          255
+        ],
+        [
+          219,
+          227,
+          237,
+          255
+        ],
+        [
+          182,
+          200,
+          231,
+          255
+        ],
+        [
+          134,
+          182,
+          242,
+          255
+        ],
+        [
+          116,
+          150,
+          207,
+          255
+        ],
+        [
+          91,
+          120,
+          188,
+          255
+        ],
+        [
+          59,
+          122,
+          225,
+          255
+        ],
+        [
+          55,
+          103,
+          208,
+          255
+        ],
+        [
+          55,
+          92,
+          184,
+          255
+        ],
+        [
+          47,
+          74,
+          141,
+          255
+        ],
+        [
+          35,
+          86,
+          204,
+          255
+        ],
+        [
+          31,
+          62,
+          137,
+          255
+        ],
+        [
+          29,
+          45,
+          96,
+          255
+        ],
+        [
+          19,
+          42,
+          99,
+          255
+        ],
+        [
+          13,
+          31,
+          80,
+          255
+        ],
+        [
+          4,
+          17,
+          57,
+          255
+        ]
+      ],
+      "frames": [
+        {
+          "rects": 284,
+          "source_sha256": "7f935d6e3fc96842c5b8a75120f1406091eabcc49cb4ae670ba66b85da316049",
+          "fit_sha256": "d815a69c88f868a16bc1d9b98afd0bfd98deca7034c422ea51d230d22ea7ffe0",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 296,
+          "source_sha256": "88285d9f928890359a7e629d24097a7b2d570eac04a7e2c67d60bf0ff3447b0d",
+          "fit_sha256": "3bdfa33316e5acda58fb6929a24ec66d70368db76c008137705bdd13fb715078",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 311,
+          "source_sha256": "8258f9dace079c4b471a00aee4374bb96228548e8a89b350e28847e7f549ea04",
+          "fit_sha256": "eebeaab72b7bc5d3446b80b9a8b8bb6a68bc9ae59e904be4ca8203f4ca62e273",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 286,
+          "source_sha256": "106710f84103e21f8fc23be104e5a5ab90d65df649b97945303c4b9debcf0574",
+          "fit_sha256": "896c8b9a9fbd9ac552d27a9ecee2f2980b59faa2e7c733eed4aa1889ced03e30",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        }
+      ],
+      "rect_counts": [
+        284,
+        296,
+        311,
+        286
+      ],
+      "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime",
+      "anchors_measured": false
+    },
+    {
+      "member": "chevalmarin",
+      "canvas": [
+        48,
+        48
+      ],
+      "inspection_transform": {
+        "scale": 0.056795131845841784,
+        "canvas": [
+          48,
+          48
+        ],
+        "root_candidate": [
+          24,
+          40
+        ],
+        "source_roots_x": [
+          384.0,
+          384.0,
+          384.0,
+          384.0
+        ],
+        "source_root_y_fraction": 0.9,
+        "opaque_height_target": 28,
+        "constant_across_poses": true,
+        "anchor_measured": false
+      },
+      "palette": [
+        [
+          240,
+          243,
+          247,
+          64
+        ],
+        [
+          219,
+          227,
+          237,
+          64
+        ],
+        [
+          182,
+          200,
+          231,
+          64
+        ],
+        [
+          134,
+          182,
+          242,
+          64
+        ],
+        [
+          116,
+          150,
+          207,
+          64
+        ],
+        [
+          91,
+          120,
+          188,
+          64
+        ],
+        [
+          59,
+          122,
+          225,
+          64
+        ],
+        [
+          55,
+          103,
+          208,
+          64
+        ],
+        [
+          55,
+          92,
+          184,
+          64
+        ],
+        [
+          47,
+          74,
+          141,
+          64
+        ],
+        [
+          35,
+          86,
+          204,
+          64
+        ],
+        [
+          31,
+          62,
+          137,
+          64
+        ],
+        [
+          29,
+          45,
+          96,
+          64
+        ],
+        [
+          19,
+          42,
+          99,
+          64
+        ],
+        [
+          13,
+          31,
+          80,
+          64
+        ],
+        [
+          4,
+          17,
+          57,
+          64
+        ],
+        [
+          240,
+          243,
+          247,
+          128
+        ],
+        [
+          219,
+          227,
+          237,
+          128
+        ],
+        [
+          182,
+          200,
+          231,
+          128
+        ],
+        [
+          134,
+          182,
+          242,
+          128
+        ],
+        [
+          116,
+          150,
+          207,
+          128
+        ],
+        [
+          91,
+          120,
+          188,
+          128
+        ],
+        [
+          59,
+          122,
+          225,
+          128
+        ],
+        [
+          55,
+          103,
+          208,
+          128
+        ],
+        [
+          55,
+          92,
+          184,
+          128
+        ],
+        [
+          47,
+          74,
+          141,
+          128
+        ],
+        [
+          35,
+          86,
+          204,
+          128
+        ],
+        [
+          31,
+          62,
+          137,
+          128
+        ],
+        [
+          29,
+          45,
+          96,
+          128
+        ],
+        [
+          19,
+          42,
+          99,
+          128
+        ],
+        [
+          13,
+          31,
+          80,
+          128
+        ],
+        [
+          4,
+          17,
+          57,
+          128
+        ],
+        [
+          240,
+          243,
+          247,
+          255
+        ],
+        [
+          219,
+          227,
+          237,
+          255
+        ],
+        [
+          182,
+          200,
+          231,
+          255
+        ],
+        [
+          134,
+          182,
+          242,
+          255
+        ],
+        [
+          116,
+          150,
+          207,
+          255
+        ],
+        [
+          91,
+          120,
+          188,
+          255
+        ],
+        [
+          59,
+          122,
+          225,
+          255
+        ],
+        [
+          55,
+          103,
+          208,
+          255
+        ],
+        [
+          55,
+          92,
+          184,
+          255
+        ],
+        [
+          47,
+          74,
+          141,
+          255
+        ],
+        [
+          35,
+          86,
+          204,
+          255
+        ],
+        [
+          31,
+          62,
+          137,
+          255
+        ],
+        [
+          29,
+          45,
+          96,
+          255
+        ],
+        [
+          19,
+          42,
+          99,
+          255
+        ],
+        [
+          13,
+          31,
+          80,
+          255
+        ],
+        [
+          4,
+          17,
+          57,
+          255
+        ]
+      ],
+      "frames": [
+        {
+          "rects": 264,
+          "source_sha256": "906fc777346bfa2c1dabf65ef6bb639c057f2c2dc81ad7014bae85481fd3509a",
+          "fit_sha256": "5a03eb385ea4d5cfbced1b521a2bc31b9ebd8c5ebc4d89859a7acdf79de709e0",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": true
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 240,
+          "source_sha256": "bb72f2a3dc2919271e153b4f8a36124be780ac5d449a09dce870ebe3a88e68d8",
+          "fit_sha256": "9d5e1e677f50044caddb72ba5d8118316e4386d902d635aeebe960eacacddaf8",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": true
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 244,
+          "source_sha256": "1576ded5d849de40ed2fd0f63be6f10795cef2688b32f8b1eadfb57687d9e58d",
+          "fit_sha256": "079f54fdb4b8b8889ac64ae8270662376637e2a75cb3d0116a0722ef3dab31a9",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": true,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 222,
+          "source_sha256": "c6df02b170a4dea65ba435e7da823ba3fa77a9522c64bbcebf3187313072ad80",
+          "fit_sha256": "686e5c6595603d9899eb0f5309d16024874cef184af9365c846a9dc31bca3cf0",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": true,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        }
+      ],
+      "rect_counts": [
+        264,
+        240,
+        244,
+        222
+      ],
+      "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime",
+      "anchors_measured": false
+    },
+    {
+      "member": "crabaletta",
+      "canvas": [
+        48,
+        48
+      ],
+      "inspection_transform": {
+        "scale": 0.07446808510638298,
+        "canvas": [
+          48,
+          48
+        ],
+        "root_candidate": [
+          24,
+          40
+        ],
+        "source_roots_x": [
+          271.5,
+          285.5,
+          294.5,
+          237.5
+        ],
+        "source_root_y_fraction": 0.9,
+        "opaque_height_target": 28,
+        "constant_across_poses": true,
+        "anchor_measured": false
+      },
+      "palette": [
+        [
+          240,
+          243,
+          247,
+          64
+        ],
+        [
+          219,
+          227,
+          237,
+          64
+        ],
+        [
+          182,
+          200,
+          231,
+          64
+        ],
+        [
+          134,
+          182,
+          242,
+          64
+        ],
+        [
+          116,
+          150,
+          207,
+          64
+        ],
+        [
+          91,
+          120,
+          188,
+          64
+        ],
+        [
+          59,
+          122,
+          225,
+          64
+        ],
+        [
+          55,
+          103,
+          208,
+          64
+        ],
+        [
+          55,
+          92,
+          184,
+          64
+        ],
+        [
+          47,
+          74,
+          141,
+          64
+        ],
+        [
+          35,
+          86,
+          204,
+          64
+        ],
+        [
+          31,
+          62,
+          137,
+          64
+        ],
+        [
+          29,
+          45,
+          96,
+          64
+        ],
+        [
+          19,
+          42,
+          99,
+          64
+        ],
+        [
+          13,
+          31,
+          80,
+          64
+        ],
+        [
+          4,
+          17,
+          57,
+          64
+        ],
+        [
+          240,
+          243,
+          247,
+          128
+        ],
+        [
+          219,
+          227,
+          237,
+          128
+        ],
+        [
+          182,
+          200,
+          231,
+          128
+        ],
+        [
+          134,
+          182,
+          242,
+          128
+        ],
+        [
+          116,
+          150,
+          207,
+          128
+        ],
+        [
+          91,
+          120,
+          188,
+          128
+        ],
+        [
+          59,
+          122,
+          225,
+          128
+        ],
+        [
+          55,
+          103,
+          208,
+          128
+        ],
+        [
+          55,
+          92,
+          184,
+          128
+        ],
+        [
+          47,
+          74,
+          141,
+          128
+        ],
+        [
+          35,
+          86,
+          204,
+          128
+        ],
+        [
+          31,
+          62,
+          137,
+          128
+        ],
+        [
+          29,
+          45,
+          96,
+          128
+        ],
+        [
+          19,
+          42,
+          99,
+          128
+        ],
+        [
+          13,
+          31,
+          80,
+          128
+        ],
+        [
+          4,
+          17,
+          57,
+          128
+        ],
+        [
+          240,
+          243,
+          247,
+          255
+        ],
+        [
+          219,
+          227,
+          237,
+          255
+        ],
+        [
+          182,
+          200,
+          231,
+          255
+        ],
+        [
+          134,
+          182,
+          242,
+          255
+        ],
+        [
+          116,
+          150,
+          207,
+          255
+        ],
+        [
+          91,
+          120,
+          188,
+          255
+        ],
+        [
+          59,
+          122,
+          225,
+          255
+        ],
+        [
+          55,
+          103,
+          208,
+          255
+        ],
+        [
+          55,
+          92,
+          184,
+          255
+        ],
+        [
+          47,
+          74,
+          141,
+          255
+        ],
+        [
+          35,
+          86,
+          204,
+          255
+        ],
+        [
+          31,
+          62,
+          137,
+          255
+        ],
+        [
+          29,
+          45,
+          96,
+          255
+        ],
+        [
+          19,
+          42,
+          99,
+          255
+        ],
+        [
+          13,
+          31,
+          80,
+          255
+        ],
+        [
+          4,
+          17,
+          57,
+          255
+        ]
+      ],
+      "frames": [
+        {
+          "rects": 386,
+          "source_sha256": "ab50454f3a8f355653f0740bbd82e3627f1beab31ca1bf13d7a757f0b7aa753f",
+          "fit_sha256": "6cada7174a5ac4e4a388a5f9734850759c1a7a8dde8a6aa89b7be1aa60bc06b9",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 408,
+          "source_sha256": "d1ac61562817efb5f5aaa35571d4b02d1426267c4e838df933b039f96b6e20b5",
+          "fit_sha256": "4294a0e8312d6623aed8e0ca4c62df2e15a6a32bc29ab1b522a3526fa0bc96dd",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 423,
+          "source_sha256": "371a748f7c90a92e66817d66725d8f03071ee4eed8e13de077818a1b80ac0a34",
+          "fit_sha256": "2ac267484e6592bea794909b289f616ca27144caebb9a9a9f4eed5ae2556f0df",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        },
+        {
+          "rects": 393,
+          "source_sha256": "655104ff66b518936d2a58c51233c31ddedc7971627fc30739e197fd7506fefd",
+          "fit_sha256": "d98363f1d4b387533a2d845ec566956d6b2a8674f403c92ebd464f9b4ac690ab",
+          "edge_alpha32": {
+            "left": false,
+            "right": false,
+            "top": false,
+            "bottom": false
+          },
+          "reconstruction_exact": true
+        }
+      ],
+      "rect_counts": [
+        386,
+        408,
+        423,
+        393
+      ],
+      "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime",
+      "anchors_measured": false
+    }
+  ],
+  "scene_status": "illustrative_static_slots_unmeasured_not_runtime"
+}

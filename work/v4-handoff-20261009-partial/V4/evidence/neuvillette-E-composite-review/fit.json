@@ -1,0 +1,71 @@
+{
+  "character": "neuvillette",
+  "source": "V4/assets/composite-candidates/neuvillette-E-held-weapon-composite-v1.png",
+  "source_sha256": "7e58e6e2ef8a7fb9743a5ac2fc733482e42a799d662284c0acbbcc19cccd6ab0",
+  "height": 64,
+  "palette_scope": "复用该角色E身体19色调色板，车与武器细节可能损失",
+  "method": "premultiplied BOX to existing body height; weighted OKLab nearest of existing palette; 1px outline; exact rectangle reconstruction",
+  "rect_counts": [
+    1338,
+    1479,
+    1558,
+    1276
+  ],
+  "max_rects": 1558,
+  "budget760": false,
+  "frames": [
+    {
+      "source_sha256": "6d9c2a1e61c01d524330d9c6f9e8dca7fa139f90908040f635c9de162e510ea3",
+      "fit_sha256": "d25fbfebd62aac9ccb7f622aa694235e7f9cbec26cd6ee00f5d15098b5e11185",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1338,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "c7c3efcb802954c79df8593eceebb063ddf10294bcf3bd18a1d3135f121b357b",
+      "fit_sha256": "1d532e6e811891ff27604292613168a235dba0f6018d65e7bf79162e6378b91f",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "rect_count": 1479,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "85daf276d86d5ee7c35351170af05b14f0f31f7ed18eaf3e4cbd3f5449b4ee9e",
+      "fit_sha256": "19cfea95be5f53e781f26285808d78d8b4f58b79594cc853903ec74fa1d0b914",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1558,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    },
+    {
+      "source_sha256": "4ca932635d2120ff4658c2ea9b99569469500ba6357e7f12aedfdc1e28a11aed",
+      "fit_sha256": "3e86db96b23605fc54a6aabd8d85202171f9f1ad521ebe84805f0b00fbc6c6e3",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "rect_count": 1276,
+      "rect_reconstruction_exact": true,
+      "anchor_status": "未人工逐像素标定"
+    }
+  ],
+  "status": "offline_diagnostic_candidate_not_V3_encoder_not_runtime"
+}

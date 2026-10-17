@@ -1,0 +1,376 @@
+{
+  "member": "chevalmarin",
+  "canvas": [
+    48,
+    48
+  ],
+  "inspection_transform": {
+    "scale": 0.056795131845841784,
+    "canvas": [
+      48,
+      48
+    ],
+    "root_candidate": [
+      24,
+      40
+    ],
+    "source_roots_x": [
+      384.0,
+      384.0,
+      384.0,
+      384.0
+    ],
+    "source_root_y_fraction": 0.9,
+    "opaque_height_target": 28,
+    "constant_across_poses": true,
+    "anchor_measured": false
+  },
+  "palette": [
+    [
+      240,
+      243,
+      247,
+      64
+    ],
+    [
+      219,
+      227,
+      237,
+      64
+    ],
+    [
+      182,
+      200,
+      231,
+      64
+    ],
+    [
+      134,
+      182,
+      242,
+      64
+    ],
+    [
+      116,
+      150,
+      207,
+      64
+    ],
+    [
+      91,
+      120,
+      188,
+      64
+    ],
+    [
+      59,
+      122,
+      225,
+      64
+    ],
+    [
+      55,
+      103,
+      208,
+      64
+    ],
+    [
+      55,
+      92,
+      184,
+      64
+    ],
+    [
+      47,
+      74,
+      141,
+      64
+    ],
+    [
+      35,
+      86,
+      204,
+      64
+    ],
+    [
+      31,
+      62,
+      137,
+      64
+    ],
+    [
+      29,
+      45,
+      96,
+      64
+    ],
+    [
+      19,
+      42,
+      99,
+      64
+    ],
+    [
+      13,
+      31,
+      80,
+      64
+    ],
+    [
+      4,
+      17,
+      57,
+      64
+    ],
+    [
+      240,
+      243,
+      247,
+      128
+    ],
+    [
+      219,
+      227,
+      237,
+      128
+    ],
+    [
+      182,
+      200,
+      231,
+      128
+    ],
+    [
+      134,
+      182,
+      242,
+      128
+    ],
+    [
+      116,
+      150,
+      207,
+      128
+    ],
+    [
+      91,
+      120,
+      188,
+      128
+    ],
+    [
+      59,
+      122,
+      225,
+      128
+    ],
+    [
+      55,
+      103,
+      208,
+      128
+    ],
+    [
+      55,
+      92,
+      184,
+      128
+    ],
+    [
+      47,
+      74,
+      141,
+      128
+    ],
+    [
+      35,
+      86,
+      204,
+      128
+    ],
+    [
+      31,
+      62,
+      137,
+      128
+    ],
+    [
+      29,
+      45,
+      96,
+      128
+    ],
+    [
+      19,
+      42,
+      99,
+      128
+    ],
+    [
+      13,
+      31,
+      80,
+      128
+    ],
+    [
+      4,
+      17,
+      57,
+      128
+    ],
+    [
+      240,
+      243,
+      247,
+      255
+    ],
+    [
+      219,
+      227,
+      237,
+      255
+    ],
+    [
+      182,
+      200,
+      231,
+      255
+    ],
+    [
+      134,
+      182,
+      242,
+      255
+    ],
+    [
+      116,
+      150,
+      207,
+      255
+    ],
+    [
+      91,
+      120,
+      188,
+      255
+    ],
+    [
+      59,
+      122,
+      225,
+      255
+    ],
+    [
+      55,
+      103,
+      208,
+      255
+    ],
+    [
+      55,
+      92,
+      184,
+      255
+    ],
+    [
+      47,
+      74,
+      141,
+      255
+    ],
+    [
+      35,
+      86,
+      204,
+      255
+    ],
+    [
+      31,
+      62,
+      137,
+      255
+    ],
+    [
+      29,
+      45,
+      96,
+      255
+    ],
+    [
+      19,
+      42,
+      99,
+      255
+    ],
+    [
+      13,
+      31,
+      80,
+      255
+    ],
+    [
+      4,
+      17,
+      57,
+      255
+    ]
+  ],
+  "frames": [
+    {
+      "rects": 264,
+      "source_sha256": "906fc777346bfa2c1dabf65ef6bb639c057f2c2dc81ad7014bae85481fd3509a",
+      "fit_sha256": "5a03eb385ea4d5cfbced1b521a2bc31b9ebd8c5ebc4d89859a7acdf79de709e0",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "reconstruction_exact": true
+    },
+    {
+      "rects": 240,
+      "source_sha256": "bb72f2a3dc2919271e153b4f8a36124be780ac5d449a09dce870ebe3a88e68d8",
+      "fit_sha256": "9d5e1e677f50044caddb72ba5d8118316e4386d902d635aeebe960eacacddaf8",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": true
+      },
+      "reconstruction_exact": true
+    },
+    {
+      "rects": 244,
+      "source_sha256": "1576ded5d849de40ed2fd0f63be6f10795cef2688b32f8b1eadfb57687d9e58d",
+      "fit_sha256": "079f54fdb4b8b8889ac64ae8270662376637e2a75cb3d0116a0722ef3dab31a9",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "reconstruction_exact": true
+    },
+    {
+      "rects": 222,
+      "source_sha256": "c6df02b170a4dea65ba435e7da823ba3fa77a9522c64bbcebf3187313072ad80",
+      "fit_sha256": "686e5c6595603d9899eb0f5309d16024874cef184af9365c846a9dc31bca3cf0",
+      "edge_alpha32": {
+        "left": false,
+        "right": false,
+        "top": true,
+        "bottom": false
+      },
+      "reconstruction_exact": true
+    }
+  ],
+  "rect_counts": [
+    264,
+    240,
+    244,
+    222
+  ],
+  "status": "offline_palette_diagnostic_not_V3_encoder_not_runtime",
+  "anchors_measured": false
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "characters": [
+    "arlecchino",
+    "wanderer",
+    "neuvillette",
+    "clorinde",
+    "navia",
+    "skirk"
+  ],
+  "frames": 24,
+  "checks": "生产JS逐帧/播放暂停/换角色；全部PNG CPU解码；不是浏览器UI/GPU/真机"
+}

@@ -1,0 +1,30 @@
+{
+  "giaCompatible": true,
+  "bytes": 143259,
+  "warnings": [
+    "整合包把服务端 UIControlGroup 与客户端 UIControlTemplate 并排写入同一 GIA 的 Root.graph；导入时拆回两类资产，模板边界、脚本映射与控件挂载关系会保留。",
+    "客户端控件模板为空，整合包只包含服务端控件与脚本。",
+    "AnimationProbe: 新服务端控件模板写入显式空 Info.related，避免跨沙箱复用伴生资源 GUID 产生无法加载的索引。",
+    "Name1: 垂直居中按推定值导出，尚待实机确认。",
+    "Name2: 垂直居中按推定值导出，尚待实机确认。",
+    "Timer: 垂直居中按推定值导出，尚待实机确认。",
+    "Status: 垂直居中按推定值导出，尚待实机确认。",
+    "Stats: 垂直居中按推定值导出，尚待实机确认。",
+    "Combo1: 垂直居中按推定值导出，尚待实机确认。",
+    "Combo2: 垂直居中按推定值导出，尚待实机确认。",
+    "State1: 垂直居中按推定值导出，尚待实机确认。",
+    "State2: 垂直居中按推定值导出，尚待实机确认。",
+    "Help: 垂直居中按推定值导出，尚待实机确认。",
+    "ArtNote: 垂直居中按推定值导出，尚待实机确认。",
+    "LeftText: 垂直居中按推定值导出，尚待实机确认。",
+    "RightText: 垂直居中按推定值导出，尚待实机确认。",
+    "DownText: 垂直居中按推定值导出，尚待实机确认。",
+    "JumpText: 垂直居中按推定值导出，尚待实机确认。",
+    "LightText: 垂直居中按推定值导出，尚待实机确认。",
+    "HeavyText: 垂直居中按推定值导出，尚待实机确认。",
+    "BlockText: 垂直居中按推定值导出，尚待实机确认。",
+    "RestartText: 垂直居中按推定值导出，尚待实机确认。"
+  ],
+  "serverLogicIncludedInSave": true,
+  "serverLogicIncludedInGia": false
+}

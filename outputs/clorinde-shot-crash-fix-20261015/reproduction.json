@@ -1,0 +1,14 @@
+{
+  "scope": "offline Lua 5.3 simulation; native device pending",
+  "oldDeliveredScriptReproduced": true,
+  "beforeErrors": {
+    "airHeavy": "[string \"<python>\"]:11344: attempt to index a nil value (local 'cfg')\nstack traceback:\n\t[string \"<python>\"]:30: in main chunk\n\t[string \"<python>\"]:11749: in method 'step'\n\t[string \"<python>\"]:7888: in upvalue 'oldStep'\n\t[string \"<python>\"]:11671: in method 'fighterTick'\n\t[string \"<python>\"]:11417: in upvalue 'oldFighter'\n\t[string \"<python>\"]:11092: in upvalue 'oldFighter'\n\t[string \"<python>\"]:10595: in upvalue 'oldFighter'\n\t[string \"<python>\"]:10208: in upvalue 'oldFighter'\n\t[string \"<python>\"]:11354: in method 'attackUpdate'\n\t[string \"<python>\"]:11344: in upvalue 'firearm'",
+    "airLight": "[string \"<python>\"]:33: wrong ground shot damage/configuration\nstack traceback:\n\t[string \"<python>\"]:33: in main chunk\n\t[C]: in function 'assert'"
+  },
+  "afterTransitionCases": 16,
+  "nearRangeChecksWrongAirLightMuzzle": true,
+  "snapshotReplay": true,
+  "onlyChangedModule": "gf_sim_clorinde",
+  "protocolVersion": 8,
+  "sourceSha256": "10067e422f4f80bf6b16f5d7d454a5c7411fd0d495d634875d3316a1a36ca2af"
+}

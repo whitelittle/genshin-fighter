@@ -1,0 +1,23 @@
+{
+  "simulatorVerified": true,
+  "deviceVerified": false,
+  "coreTests": [
+    "ROLLBACK_PASS false frames=600 rollbacks=16 stalls=0",
+    "ROLLBACK_PASS true frames=558 rollbacks=16 stalls=87",
+    "ROLLBACK_SUPER_PASS",
+    "ROLLBACK_GUARDS_PASS"
+  ],
+  "tests": {
+    "actualCombatStateReplay": true,
+    "localAttackWithoutRemoteReply": true,
+    "lateInputRollback": true,
+    "reorderedPackets": true,
+    "duplicatePackets": true,
+    "lossAndRetransmission": true,
+    "fullStateMatchesReference": true,
+    "roleStageRestartReplay": true,
+    "predictionLimit": true,
+    "invalidPacketRejected": true,
+    "twoRuntimeUIBoot": true
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "status": "actual fitted preview, reconstructed rectangle output; not yet switched into GIA",
+  "approvedAyakaMaster": true,
+  "displayCanvas": [
+    1600,
+    900
+  ],
+  "realDeviceVerified": false,
+  "presets": [
+    {
+      "key": "light",
+      "name": "轻量",
+      "character": {
+        "grid": [
+          57,
+          96
+        ],
+        "rectangles": 1121,
+        "colors": 24,
+        "shownHeight": 226,
+        "compressedBytes": 3167
+      },
+      "scenes": [
+        {
+          "country": "mondstadt",
+          "grid": [
+            192,
+            108
+          ],
+          "colors": 24,
+          "rectangles": 7938,
+          "totalSceneAndActorImages": 9059,
+          "templateControlsApprox": 18118,
+          "compressedBytes": 20548
+        }
+      ]
+    },
+    {
+      "key": "baseline",
+      "name": "当前精度对照",
+      "character": {
+        "grid": [
+          57,
+          96
+        ],
+        "rectangles": 1146,
+        "colors": 25,
+        "shownHeight": 226,
+        "compressedBytes": 3213
+      },
+      "scenes": [
+        {
+          "country": "mondstadt",
+          "grid": [
+            240,
+            135
+          ],
+          "colors": 32,
+          "rectangles": 13133,
+          "totalSceneAndActorImages": 14279,
+          "templateControlsApprox": 28558,
+          "compressedBytes": 32954
+        }
+      ]
+    },
+    {
+      "key": "balanced",
+      "name": "中低精度",
+      "character": {
+        "grid": [
+          77,
+          128
+        ],
+        "rectangles": 2072,
+        "colors": 39,
+        "shownHeight": 226,
+        "compressedBytes": 5738
+      },
+      "scenes": [
+        {
+          "country": "mondstadt",
+          "grid": [
+            320,
+            180
+          ],
+          "colors": 40,
+          "rectangles": 23387,
+          "totalSceneAndActorImages": 25459,
+          "templateControlsApprox": 50918,
+          "compressedBytes": 59598
+        }
+      ]
+    },
+    {
+      "key": "medium",
+      "name": "中精度",
+      "character": {
+        "grid": [
+          86,
+          144
+        ],
+        "rectangles": 2542,
+        "colors": 44,
+        "shownHeight": 226,
+        "compressedBytes": 7037
+      },
+      "scenes": [
+        {
+          "country": "mondstadt",
+          "grid": [
+            480,
+            270
+          ],
+          "colors": 48,
+          "rectangles": 48894,
+          "totalSceneAndActorImages": 51436,
+          "templateControlsApprox": 102872,
+          "compressedBytes": 125151
+        }
+      ]
+    },
+    {
+      "key": "high",
+      "name": "高精度",
+      "character": {
+        "grid": [
+          115,
+          192
+        ],
+        "rectangles": 4526,
+        "colors": 48,
+        "shownHeight": 226,
+        "compressedBytes": 12071
+      },
+      "scenes": [
+        {
+          "country": "mondstadt",
+          "grid": [
+            640,
+            360
+          ],
+          "colors": 64,
+          "rectangles": 84019,
+          "totalSceneAndActorImages": 88545,
+          "templateControlsApprox": 177090,
+          "compressedBytes": 216458
+        }
+      ]
+    }
+  ]
+}

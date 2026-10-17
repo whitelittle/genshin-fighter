@@ -1,0 +1,24 @@
+{
+  "candidate": true,
+  "deviceVerified": false,
+  "giaCompatible": true,
+  "giaRoundTrip": true,
+  "giaBytes": 9494240,
+  "controlCount": 9713,
+  "guidRange": [
+    1073741850,
+    1073751563
+  ],
+  "scriptPath": "lua/fighter_duel_vnext.lua",
+  "poolPerFighter": 2335,
+  "sharedActorPools": 4670,
+  "fxPoolPerFighter": 338,
+  "stagePool": 2486,
+  "residentImages": 9590,
+  "portraitRows": 683,
+  "frameCounts": [
+    18,
+    22
+  ],
+  "serverLogicIncludedInGia": false
+}

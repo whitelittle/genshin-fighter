@@ -1,0 +1,56 @@
+{
+  "mockOnly": true,
+  "cases": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "restartCycles": 3,
+      "battleFatalAndBrokenTeardownRestart": true,
+      "exhaustedPoolsStillShowReservedButtons": true,
+      "nativeTouchAndKeyboardRestart": true,
+      "coordinateFreeExit": true,
+      "quitSignalAndServerClose": true,
+      "exitTimeoutKeepsErrorPage": true,
+      "imagePoolBefore": 8000,
+      "imagePoolAfter": 16000,
+      "maxInstructions": 647668
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1950,
+        900
+      ],
+      "restartCycles": 3,
+      "battleFatalAndBrokenTeardownRestart": true,
+      "exhaustedPoolsStillShowReservedButtons": true,
+      "nativeTouchAndKeyboardRestart": true,
+      "coordinateFreeExit": true,
+      "quitSignalAndServerClose": true,
+      "exitTimeoutKeepsErrorPage": true,
+      "imagePoolBefore": 8000,
+      "imagePoolAfter": 12000,
+      "maxInstructions": 657552
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "restartCycles": 3,
+      "battleFatalAndBrokenTeardownRestart": true,
+      "exhaustedPoolsStillShowReservedButtons": true,
+      "nativeTouchAndKeyboardRestart": true,
+      "coordinateFreeExit": true,
+      "quitSignalAndServerClose": true,
+      "exitTimeoutKeepsErrorPage": true,
+      "imagePoolBefore": 8000,
+      "imagePoolAfter": 12000,
+      "maxInstructions": 612528
+    }
+  ]
+}

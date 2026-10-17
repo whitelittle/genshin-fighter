@@ -1,0 +1,28 @@
+{
+  "filename": "gpt_20261002_1256_原神格斗_双人_轻量_导入修订.gia",
+  "originalGuidRange": [
+    1073741850,
+    1180004735
+  ],
+  "newGuidRange": [
+    1073741850,
+    1073746685
+  ],
+  "controlCount": 4835,
+  "rootName": "FighterOnlineDemo_ImportFix",
+  "serverContainerIndex": 1073741850,
+  "fighterRootIndex": 1073741851,
+  "scriptMappingIndex": 1073746685,
+  "scriptPath": "lua/fighter_online_importfix.lua",
+  "scriptMount": "FighterDemo",
+  "dynamicTemplateIndexRequired": false,
+  "encoding": {
+    "ascii": true,
+    "bom": false,
+    "crlf": false
+  },
+  "giaCompatible": true,
+  "simulatorVerified": false,
+  "deviceVerified": false,
+  "rootCause": "unconfirmed; user reports imported client hierarchy empty"
+}

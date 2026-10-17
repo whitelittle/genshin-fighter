@@ -1,0 +1,71 @@
+__loaders['gf_character_clorinde_view']=function()
+local G=require('gf_gfx')
+local Rules=require('gf_clorinde_rules_data')
+return function(P,D)
+ local publish=require('gf_character_effect_channel')(P)
+ -- Compact tracer and muzzle flash are code-native rectangles, not a flying sword.
+ -- Original raster effects stay in the immutable bank for historical reference.
+ local image=P.image
+ local function procedural(w,h,ax,ay,bytes,pal)
+  return {w=w,h=h,ax=ax,ay=ay,n=#bytes/5,bytes=bytes,pal=pal,u=1,baked=true,seam=0}
+ end
+ local tracer=procedural(30,8,0,4,{0,3,20,2,0,14,2,12,4,1,24,0,6,8,1,25,2,5,4,2},
+  {{136,78,245,130},{196,161,255,220},{247,239,255,255}})
+ local muzzle=procedural(24,24,12,12,{0,10,24,4,0,10,0,4,24,0,6,6,12,12,1,9,9,6,6,2},
+  {{136,78,245,110},{210,184,255,190},{255,249,255,255}})
+ function P.image(id)
+  if id==D.effectIds.bullet then return tracer end
+  if id==D.effectIds.gun then return muzzle end
+  return image(id)
+ end
+
+ local function peak(exclude)local n=0;for name,id in pairs(D.effectIds)do if name~=exclude then n=math.max(n,D.frames[id].n) end end;return n end
+ function P.newView(v,layers)
+  v.characterChannels={}
+  for i,capacity in ipairs({D.auxPeak,peak('wings'),D.frames[D.effectIds.impact].n})do
+   local ch={slots={G.bitmap(layers.fx),G.bitmap(layers.fx)},capacity=capacity}
+   for _,b in ipairs(ch.slots)do b.pinned=true;b.node:on(false) end;v.characterChannels[i]=ch
+  end
+ end
+ function P.reserveExtras(v,budget)
+  for _,ch in ipairs(v.characterChannels)do for _,b in ipairs(ch.slots)do
+   if #b.kids<ch.capacity then b:ensure(math.min(ch.capacity,#b.kids+budget));return false end
+  end end;return true
+ end
+ function P.extras(v)
+  local f=v.f;local id,t=f.moveId,f.t
+  if f.airMove then id,t=f.airMoveId,(f.airT or 0)-(f.airMoveId=='airLight' and 1 or 0) elseif f.state=='skill' then id='skill' elseif f.state=='burst' then id='burst' elseif f.state~='attack' then id=nil end
+  local g=id and D.groups[id];local out={}
+  local impact=v.confirmedImpact
+  if impact and v.app.t<impact.untilTime then
+   out[3]={id=D.effectIds.impact,x=impact.x,y=impact.y,face=impact.face,alpha=math.min(1,(impact.untilTime-v.app.t)/.12),scale=1}
+  end
+  if not g or (id=='burst' and not f.cinematicConfirmed) then return out end
+  local x,y,face=f.x/100,f.y/100,f.face
+  local function add(channel,name,dx,dy,alpha,scale)
+   local image=D.effectIds[name];if image then out[channel]={id=image,x=x+face*dx,y=y+dy,face=face,alpha=math.max(0,math.min(1,alpha or 1)),scale=scale or 1} end
+  end
+  for _,e in ipairs(g.events)do local age=t-e.tick
+   if age>=0 and age<8 then
+    local shot=e.kind=='shot' or e.kind=='confirm-shot'
+    if shot then
+     local cfg=Rules.shot[id] or Rules.shot.burst
+     local spent=id=='skill' and ((f.skillHitMask or 0)&2~=0) or (id~='skill' and id~='burst' and f.connected)
+     if age<3 then add(1,'gun',cfg.x,cfg.y,1-age/3) end
+     if not spent then add(2,'bullet',cfg.x+age*Rules.shot.speed,cfg.y,math.min(1,(8-age)/2)) end
+    else
+     add(1,id=='airHeavy' and 'down' or id=='heavy' and 'diagonal' or 'sword',170,180,1-age/8)
+    end
+   end
+  end
+  return out
+ end
+ function P.drawExtras(v)
+  local out=P.extras(v);local total=0;for _,e in pairs(out)do total=total+P.image(e.id).n end
+  for i,ch in ipairs(v.characterChannels)do local e=out[i]
+   if e then publish(ch,e.id,e.x,e.y,e.face,e.scale,e.alpha,0,math.max(1,math.floor(320*P.image(e.id).n/math.max(1,total)))) else publish(ch) end
+  end
+ end
+ function P.freeView(v)for _,ch in ipairs(v.characterChannels)do for _,b in ipairs(ch.slots)do b:free() end end end
+end
+end

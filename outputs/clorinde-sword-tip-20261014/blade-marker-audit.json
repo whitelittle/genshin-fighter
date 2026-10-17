@@ -1,0 +1,235 @@
+{
+  "scope": "manual source-pose markers; artwork/device acceptance pending",
+  "markers": [
+    {
+      "pose": "light1_2",
+      "start": 6,
+      "finish": 9,
+      "hx": 18000,
+      "hy": 19125,
+      "tx": 33075,
+      "ty": 19125,
+      "move": "light1",
+      "source": "outputs/clorinde-actions-20261011/fit/light1-2.png",
+      "anchor": [
+        42,
+        64
+      ],
+      "basePixel": [
+        82,
+        21.5
+      ],
+      "tipPixel": [
+        115.5,
+        21.5
+      ]
+    },
+    {
+      "pose": "light3_2",
+      "start": 9,
+      "finish": 11,
+      "hx": 9000,
+      "hy": 16425,
+      "tx": 12825,
+      "ty": 13725,
+      "move": "light3",
+      "source": "outputs/clorinde-actions-20261011/fit/light3-2.png",
+      "anchor": [
+        43,
+        73
+      ],
+      "basePixel": [
+        63,
+        36.5
+      ],
+      "tipPixel": [
+        71.5,
+        42.5
+      ]
+    },
+    {
+      "pose": "light3_3",
+      "start": 11,
+      "finish": 13,
+      "hx": 7200,
+      "hy": 16200,
+      "tx": 10125,
+      "ty": 13275,
+      "move": "light3",
+      "source": "outputs/clorinde-actions-20261011/fit/light3-3.png",
+      "anchor": [
+        42,
+        73
+      ],
+      "basePixel": [
+        58,
+        37
+      ],
+      "tipPixel": [
+        64.5,
+        43.5
+      ]
+    },
+    {
+      "pose": "crouchLight_2",
+      "start": 6,
+      "finish": 8,
+      "hx": 15750,
+      "hy": 17325,
+      "tx": 19575,
+      "ty": 17325,
+      "move": "crouchLight",
+      "source": "outputs/clorinde-actions-20261011/fit/crouchlight-2.png",
+      "anchor": [
+        34,
+        65
+      ],
+      "basePixel": [
+        69,
+        26.5
+      ],
+      "tipPixel": [
+        77.5,
+        26.5
+      ]
+    },
+    {
+      "pose": "crouchLight_3",
+      "start": 8,
+      "finish": 9,
+      "hx": 13500,
+      "hy": 17775,
+      "tx": 17775,
+      "ty": 17775,
+      "move": "crouchLight",
+      "source": "outputs/clorinde-actions-20261011/fit/crouchlight-3.png",
+      "anchor": [
+        35,
+        63
+      ],
+      "basePixel": [
+        65,
+        23.5
+      ],
+      "tipPixel": [
+        74.5,
+        23.5
+      ]
+    },
+    {
+      "pose": "crouchHeavy_2",
+      "start": 12,
+      "finish": 14,
+      "hx": 9900,
+      "hy": 11700,
+      "tx": 13725,
+      "ty": 10125,
+      "move": "crouchHeavy",
+      "source": "outputs/clorinde-actions-20261011/fit/crouchheavy-2.png",
+      "anchor": [
+        35,
+        61
+      ],
+      "basePixel": [
+        57,
+        35
+      ],
+      "tipPixel": [
+        65.5,
+        38.5
+      ]
+    },
+    {
+      "pose": "crouchHeavy_3",
+      "start": 14,
+      "finish": 16,
+      "hx": 8100,
+      "hy": 9675,
+      "tx": 11475,
+      "ty": 8325,
+      "move": "crouchHeavy",
+      "source": "outputs/clorinde-actions-20261011/fit/crouchheavy-3.png",
+      "anchor": [
+        36,
+        55
+      ],
+      "basePixel": [
+        54,
+        33.5
+      ],
+      "tipPixel": [
+        61.5,
+        36.5
+      ]
+    },
+    {
+      "pose": "airHeavy_2",
+      "start": 10,
+      "finish": 12,
+      "hx": 15300,
+      "hy": 20700,
+      "tx": 26325,
+      "ty": 10575,
+      "move": "airHeavy",
+      "source": "outputs/clorinde-actions-20261011/fit/airheavy-2.png",
+      "anchor": [
+        38,
+        78
+      ],
+      "basePixel": [
+        72,
+        32
+      ],
+      "tipPixel": [
+        96.5,
+        54.5
+      ]
+    },
+    {
+      "pose": "airHeavy_3",
+      "start": 12,
+      "finish": 14,
+      "hx": 11250,
+      "hy": 17550,
+      "tx": 28125,
+      "ty": 675,
+      "move": "airHeavy",
+      "source": "outputs/clorinde-actions-20261011/fit/airheavy-3.png",
+      "anchor": [
+        39,
+        77
+      ],
+      "basePixel": [
+        64,
+        38
+      ],
+      "tipPixel": [
+        101.5,
+        75.5
+      ]
+    },
+    {
+      "pose": "skill_4",
+      "start": 18,
+      "finish": 22,
+      "hx": 10350,
+      "hy": 18450,
+      "tx": 14625,
+      "ty": 16425,
+      "move": "skill",
+      "source": "outputs/clorinde-actions-20261011/fit/E-4.png",
+      "anchor": [
+        45,
+        68
+      ],
+      "basePixel": [
+        68,
+        27
+      ],
+      "tipPixel": [
+        77.5,
+        31.5
+      ]
+    }
+  ]
+}

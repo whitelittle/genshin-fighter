@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "seats",
+      "signalName": "FighterHello",
+      "actions": [
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "Player1",
+          "signalName": "FighterSeat",
+          "params": [
+            1
+          ]
+        },
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "Player2",
+          "signalName": "FighterSeat",
+          "params": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "selection",
+      "signalName": "FighterSelect",
+      "actions": [
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "AllPlayers",
+          "signalName": "FighterSelectOut",
+          "params": [
+            {
+              "fromSignalParam": 0
+            },
+            {
+              "fromSignalParam": 1
+            },
+            {
+              "fromSignalParam": 2
+            },
+            {
+              "fromSignalParam": 3
+            },
+            {
+              "fromSignalParam": 4
+            },
+            {
+              "fromSignalParam": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "join",
+      "signalName": "FighterJoin",
+      "actions": [
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "AllPlayers",
+          "signalName": "FighterJoined",
+          "params": []
+        }
+      ]
+    },
+    {
+      "id": "frames",
+      "signalName": "FighterFrames",
+      "actions": [
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "AllPlayers",
+          "signalName": "FighterFramesOut",
+          "params": [
+            {
+              "fromSignalParam": 0
+            },
+            {
+              "fromSignalParam": 1
+            },
+            {
+              "fromSignalParam": 2
+            },
+            {
+              "fromSignalParam": 3
+            },
+            {
+              "fromSignalParam": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

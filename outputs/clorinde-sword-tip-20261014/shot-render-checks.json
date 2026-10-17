@@ -1,0 +1,438 @@
+{
+  "mockOnly": true,
+  "sourceSha256": "dc41d10906c148be19551ac25ab5b8f65aec5dc02a1bb5e1cc025abe45bc146c",
+  "checks": [
+    {
+      "device": "KeyboardAndMouse",
+      "move": "light2",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 14,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "light2",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 17,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "light2",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "light2",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 14,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "light2",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 17,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "light2",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "heavy",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 20,
+      "hp": 962
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "heavy",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 23,
+      "hp": 962
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "heavy",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "heavy",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 20,
+      "hp": 962
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "heavy",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 23,
+      "hp": 962
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "heavy",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "airLight",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 10,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "airLight",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 12,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "airLight",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "airLight",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 10,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "airLight",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 12,
+      "hp": 982
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "airLight",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "skill",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 11,
+      "hp": 965
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "skill",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 14,
+      "hp": 965
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "skill",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "skill",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 11,
+      "hp": 965
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "skill",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 14,
+      "hp": 965
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "move": "skill",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "light2",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 14,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "light2",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 17,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "light2",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "light2",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 14,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "light2",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 17,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "light2",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "heavy",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 20,
+      "hp": 962
+    },
+    {
+      "device": "Mobile",
+      "move": "heavy",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 23,
+      "hp": 962
+    },
+    {
+      "device": "Mobile",
+      "move": "heavy",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "heavy",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 20,
+      "hp": 962
+    },
+    {
+      "device": "Mobile",
+      "move": "heavy",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 23,
+      "hp": 962
+    },
+    {
+      "device": "Mobile",
+      "move": "heavy",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "airLight",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 10,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "airLight",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 12,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "airLight",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "airLight",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 10,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "airLight",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 12,
+      "hp": 982
+    },
+    {
+      "device": "Mobile",
+      "move": "airLight",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "skill",
+      "face": 1,
+      "distance": 450,
+      "hit": true,
+      "tick": 11,
+      "hp": 965
+    },
+    {
+      "device": "Mobile",
+      "move": "skill",
+      "face": 1,
+      "distance": 650,
+      "hit": true,
+      "tick": 14,
+      "hp": 965
+    },
+    {
+      "device": "Mobile",
+      "move": "skill",
+      "face": 1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    },
+    {
+      "device": "Mobile",
+      "move": "skill",
+      "face": -1,
+      "distance": 450,
+      "hit": true,
+      "tick": 11,
+      "hp": 965
+    },
+    {
+      "device": "Mobile",
+      "move": "skill",
+      "face": -1,
+      "distance": 650,
+      "hit": true,
+      "tick": 14,
+      "hp": 965
+    },
+    {
+      "device": "Mobile",
+      "move": "skill",
+      "face": -1,
+      "distance": 850,
+      "hit": false,
+      "tick": null,
+      "hp": 1000
+    }
+  ]
+}

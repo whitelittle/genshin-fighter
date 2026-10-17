@@ -1,0 +1,39 @@
+{
+  "mockOnly": true,
+  "oncePerScriptInitialization": true,
+  "cases": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "autoErrorPage": true,
+      "action": "restart",
+      "passed": true,
+      "maxInstructions": 481198
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1950,
+        900
+      ],
+      "autoErrorPage": true,
+      "action": "restart",
+      "passed": true,
+      "maxInstructions": 505168
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "autoErrorPage": true,
+      "action": "quit",
+      "passed": true,
+      "maxInstructions": 54408
+    }
+  ]
+}

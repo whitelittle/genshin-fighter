@@ -1,0 +1,51 @@
+{
+  "profile": "raw-scalar-fields",
+  "compressed": false,
+  "fieldSerialization": "one scalar per printable UTF8 codepoint; lazy reading; no base64/LZ4",
+  "minified": false,
+  "initialSixCharacterDecode": false,
+  "bytes": 4853933,
+  "sha256": "774cc0482319f5260eb2e1f4de7d8f5b51a274635be6f51125f503696d60d630",
+  "modules": {
+    "gf_animation_data": {
+      "frames": 152,
+      "rectangles": 127874
+    },
+    "gf_inbetween_data": {
+      "frames": 152,
+      "rectangles": 126635
+    },
+    "gf_furina_data": {
+      "frames": 178,
+      "rectangles": 111071
+    },
+    "gf_ayaka_data": {
+      "frames": 157,
+      "rectangles": 115499
+    },
+    "gf_clorinde_data": {
+      "frames": 129,
+      "rectangles": 94792
+    },
+    "gf_arlecchino_data": {
+      "frames": 129,
+      "rectangles": 100850
+    }
+  },
+  "nativeDeviceTested": false,
+  "signalBindings": {
+    "GF3Hello": "信号_65",
+    "GF3Seat": "信号_64",
+    "GF3Progress": "信号_63",
+    "GF3Reveal": "信号_62",
+    "GF3Team": "信号_61",
+    "GF3Reset": "信号_60",
+    "GF3BattleHello": "信号_66",
+    "GF3BattleSeat": "信号_70",
+    "GF3BattleFrames": "信号_69",
+    "GF3BattleFramesOut": "信号_68",
+    "GF3Quit": "信号_67",
+    "GF3Close": "信号_59"
+  },
+  "sameMapOnly": true
+}

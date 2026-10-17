@@ -1,0 +1,75 @@
+{
+  "name": "gpt_20261013_现有信号绑定_保留PC修复",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 5,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_现有信号绑定_保留PC修复_A.gia",
+      "bytes": 5135905,
+      "sha256": "ebb4055b9cbb82379eaea1d1ad65371e56b7de43329bd9cf4ee0b3a76ddf7172"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_现有信号绑定_保留PC修复_仅脚本.gia",
+      "bytes": 4854131,
+      "sha256": "961fe23871e249206d5bcab186b93003ed767550615683945d805ed217bd5489"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_现有信号绑定_保留PC修复_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_现有信号绑定_保留PC修复.lua",
+      "bytes": 4853933,
+      "sha256": "774cc0482319f5260eb2e1f4de7d8f5b51a274635be6f51125f503696d60d630"
+    }
+  ],
+  "sourceSha256": "774cc0482319f5260eb2e1f4de7d8f5b51a274635be6f51125f503696d60d630",
+  "templateSha256": "28fdcfe46d4a9a519f596b5f3cb1690f5c7c9ecbe99881b8c11a6a81c39e93bb",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "single-character GFV2 preserved; independent GF3 team preparation and GF3Battle frames required",
+  "nativeDeviceTested": false,
+  "externalDelivery": true,
+  "importsRequired": [
+    "gpt_20261013_现有信号绑定_保留PC修复_仅脚本.gia",
+    "gpt_20261013_GF3复用现有信号_不新增.gia"
+  ],
+  "nodeSha256": "b6211526a176dd3b2867424898900a058a4f53c2576ad83eef532fc70183e8e4",
+  "embeddedSignalDefinitions": 0,
+  "signalBindings": {
+    "GF3Hello": "信号_65",
+    "GF3Seat": "信号_64",
+    "GF3Progress": "信号_63",
+    "GF3Reveal": "信号_62",
+    "GF3Team": "信号_61",
+    "GF3Reset": "信号_60",
+    "GF3BattleHello": "信号_66",
+    "GF3BattleSeat": "信号_70",
+    "GF3BattleFrames": "信号_69",
+    "GF3BattleFramesOut": "信号_68",
+    "GF3Quit": "信号_67",
+    "GF3Close": "信号_59"
+  },
+  "sameMapOnly": true,
+  "copySha256Verified": true
+}

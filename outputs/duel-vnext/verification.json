@@ -1,0 +1,22 @@
+{
+  "simulatorVerified": true,
+  "deviceVerified": false,
+  "oneReadyDoesNotStart": true,
+  "menuToFight": true,
+  "actionSmoke": true,
+  "twoRuntimeViewMatch": true,
+  "mobile": [
+    {
+      "canvasId": "mobile-16-9",
+      "controlBounds": true
+    },
+    {
+      "canvasId": "mobile-19.5-9",
+      "controlBounds": true
+    },
+    {
+      "canvasId": "mobile-4-3",
+      "controlBounds": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "profile": "raw-scalar-fields",
+  "compressed": false,
+  "fieldSerialization": "one scalar per printable UTF8 codepoint; lazy reading; no base64/LZ4",
+  "minified": false,
+  "initialSixCharacterDecode": false,
+  "bytes": 4881002,
+  "sha256": "cdbabe07dee028e0fc492ceabf1a592ead063245452817061aa17a47442d9059",
+  "modules": {
+    "gf_animation_data": {
+      "frames": 152,
+      "rectangles": 127874
+    },
+    "gf_inbetween_data": {
+      "frames": 152,
+      "rectangles": 126635
+    },
+    "gf_furina_data": {
+      "frames": 178,
+      "rectangles": 111071
+    },
+    "gf_ayaka_data": {
+      "frames": 157,
+      "rectangles": 115499
+    },
+    "gf_clorinde_data": {
+      "frames": 129,
+      "rectangles": 94792
+    },
+    "gf_arlecchino_data": {
+      "frames": 129,
+      "rectangles": 102137
+    }
+  },
+  "nativeDeviceTested": false
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "device": "KeyboardAndMouse",
+    "canvas": [
+      1600,
+      900
+    ],
+    "trigger": "native W jump -> native air K -> real landing -> native ground K",
+    "restoredOriginalClorindeModule": true,
+    "noArtificialErrorCall": true,
+    "error": "[run] genshin_fighter.lua:11487: attempt to index a nil value (local 'cfg')",
+    "nativePointerRestartPassed": true,
+    "titleStartToMenuPassed": true,
+    "maxInstructions": 752782,
+    "scope": "offline native UI approximation; no device acceptance"
+  },
+  {
+    "device": "Mobile",
+    "canvas": [
+      1950,
+      900
+    ],
+    "trigger": "native W jump -> native air K -> real landing -> native ground K",
+    "restoredOriginalClorindeModule": true,
+    "noArtificialErrorCall": true,
+    "error": "[run] genshin_fighter.lua:11487: attempt to index a nil value (local 'cfg')",
+    "nativePointerRestartPassed": true,
+    "titleStartToMenuPassed": true,
+    "maxInstructions": 701552,
+    "scope": "offline native UI approximation; no device acceptance"
+  }
+]

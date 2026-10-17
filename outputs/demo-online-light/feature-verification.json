@@ -1,0 +1,12 @@
+{
+  "simulatorVerified": true,
+  "deviceVerified": false,
+  "tests": {
+    "roleSync": true,
+    "stageSync": true,
+    "superStartupPoseSync": true,
+    "superDamageMeterKnockdownSync": true,
+    "player2TouchFacingLeft236": true,
+    "pausePixelsEqual": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "base": "clorinde-shot-crash-fix-20261015",
+  "protocolVersion": 8,
+  "changedModules": [
+    "gf_app_exit",
+    "gf_app",
+    "gf_gfx",
+    "gf_input",
+    "gf_ui"
+  ],
+  "addedModules": [
+    "gf_app_recovery"
+  ],
+  "bootstrapChanged": true,
+  "allSimulationAndNahidaRaidenModulesByteIdentical": true,
+  "sourceSha256": "bd236b021a3903d5631ae187af050336c63fdce20bc86eaab24d4f727681c584"
+}

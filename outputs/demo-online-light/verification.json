@@ -1,0 +1,20 @@
+{
+  "simulatorVerified": true,
+  "deviceVerified": false,
+  "method": "Two independent Lua runtimes; compare every scene node and rendered PNG bytes after each stepped frame. Pause and switch views without stepping.",
+  "tests": {
+    "twoIndependentRuntimes": true,
+    "bootPixelEquality": true,
+    "immediateClickPauseEquality": true,
+    "startupPauseEquality": true,
+    "hitDamageAndPauseEquality": true,
+    "pauseSwitchDoesNotAdvance": true,
+    "player2Attack": true,
+    "sharedRestart": true,
+    "player2LeftFacingMotion": true,
+    "floatAndLandEquality": true,
+    "onePlayerWaits": true,
+    "singlePlayerFilePreserved": true
+  },
+  "screenshots": true
+}

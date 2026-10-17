@@ -1,0 +1,550 @@
+{
+  "protocolVersion": 8,
+  "nativeDeviceVerified": false,
+  "externalDelivery": false,
+  "sourceSha256": "dc41d10906c148be19551ac25ab5b8f65aec5dc02a1bb5e1cc025abe45bc146c",
+  "preview": "http://127.0.0.1:8791/",
+  "artworkAccepted": false,
+  "files": [
+    {
+      "path": "airHeavy_2-audit.png",
+      "bytes": 7179,
+      "sha256": "d8678e2659bfb904eb9ad1d9bcadc1478eef96a46e326cff5274b37e0f4109ac"
+    },
+    {
+      "path": "airHeavy_2-face-1-KeyboardAndMouse.png",
+      "bytes": 113171,
+      "sha256": "798cfc064c1b0534238583ffcabdfca3ae76fe8621549d823960ccdce7d21b0d"
+    },
+    {
+      "path": "airHeavy_2-face-1-Mobile.png",
+      "bytes": 122675,
+      "sha256": "67dc54499675fad2a6fe51fc6f96567b1630716142dcaf0ddc4d41719322d431"
+    },
+    {
+      "path": "airHeavy_2-face1-KeyboardAndMouse.png",
+      "bytes": 113662,
+      "sha256": "e2d4bbebd2c235774b1a03bf34fb9338bb9e5ec903d915734882f757287d47ae"
+    },
+    {
+      "path": "airHeavy_2-face1-Mobile.png",
+      "bytes": 123262,
+      "sha256": "c6cef58f91b008c7b4040da4357ddaeb3cc67420dccb35f15e5641212b4ae6e2"
+    },
+    {
+      "path": "airHeavy_3-audit.png",
+      "bytes": 7748,
+      "sha256": "edd6f7db3ccd41cff65a8c8ac70d0d613760481ca24eb4f28688b204d85e3613"
+    },
+    {
+      "path": "airHeavy_3-face-1-KeyboardAndMouse.png",
+      "bytes": 115198,
+      "sha256": "e14ab341b3d607679ef0d6c20bb726d891623d8bc785e6bb701ab4f5da2f18ce"
+    },
+    {
+      "path": "airHeavy_3-face-1-Mobile.png",
+      "bytes": 125077,
+      "sha256": "4235aeede0bb28cfcfe718ec4bdb5d21212f25f123d7b43a8e7cda8b71241486"
+    },
+    {
+      "path": "airHeavy_3-face1-KeyboardAndMouse.png",
+      "bytes": 116204,
+      "sha256": "9b103acd3ffa291a0fcdd38a7570922f8c82fd05e56a12ed4d4ecc564c7c5c50"
+    },
+    {
+      "path": "airHeavy_3-face1-Mobile.png",
+      "bytes": 125834,
+      "sha256": "808096842262b16f02206de19856d522a5c9211dd08a03b2d2c09163224d5560"
+    },
+    {
+      "path": "airLight-face-1-distance450-KeyboardAndMouse.png",
+      "bytes": 135929,
+      "sha256": "6baa6edf947ccedf41668438389a20a946bdf1df78f628c058a88200179fb15c"
+    },
+    {
+      "path": "airLight-face-1-distance450-Mobile.png",
+      "bytes": 142980,
+      "sha256": "c6eaa9a2f853daaa5562ec4b287f5a6ec3b2a69521aea07af449c807ecc43acc"
+    },
+    {
+      "path": "airLight-face-1-distance650-KeyboardAndMouse.png",
+      "bytes": 137037,
+      "sha256": "064c543a72f6f88f7d9854e8b7dfd2aed0e0f8fd31e9a2d2420a3cecfa7b7cdc"
+    },
+    {
+      "path": "airLight-face-1-distance650-Mobile.png",
+      "bytes": 145191,
+      "sha256": "9b245dd63e2e0c2d676fd779775671d90e8ac9b59948625a77b375934925d0db"
+    },
+    {
+      "path": "airLight-face-1-distance850-KeyboardAndMouse.png",
+      "bytes": 110711,
+      "sha256": "6b2d581f5b0bad182fe0cc05c2aca0463836d6460e8b5bb3621b11a224b0cce5"
+    },
+    {
+      "path": "airLight-face-1-distance850-Mobile.png",
+      "bytes": 120814,
+      "sha256": "0859c8be9401433c8da2b00a05a2745f82b1d47dfedfd2484eff9ebd1f27c8b5"
+    },
+    {
+      "path": "airLight-face1-distance450-KeyboardAndMouse.png",
+      "bytes": 133965,
+      "sha256": "ccdd6188a296863439737d9e970966512453b1a52c77c45fd464f3ebdfa3443c"
+    },
+    {
+      "path": "airLight-face1-distance450-Mobile.png",
+      "bytes": 140940,
+      "sha256": "fa9f643f9b9f6952ad40bdfd3a43fc6a69db8b359bfe1a086dd34efa9065816c"
+    },
+    {
+      "path": "airLight-face1-distance650-KeyboardAndMouse.png",
+      "bytes": 133680,
+      "sha256": "2f61921a7deb96dc72e3175cf27e5b7ebac992d53bd9d901ab8244292d365d67"
+    },
+    {
+      "path": "airLight-face1-distance650-Mobile.png",
+      "bytes": 142059,
+      "sha256": "d00787576b3a6fe4a3f60af569a4fad382ad9db25a4a1674d215b686fdcaa13d"
+    },
+    {
+      "path": "airLight-face1-distance850-KeyboardAndMouse.png",
+      "bytes": 110420,
+      "sha256": "72acf84d1286daa05f75dc416a66d866e90fff5a83e54429de88241433d001e3"
+    },
+    {
+      "path": "airLight-face1-distance850-Mobile.png",
+      "bytes": 120736,
+      "sha256": "49887bc64d47ebd966b6ba79b1d03a3b92856855a1ee76c4476d9d3cb058b59d"
+    },
+    {
+      "path": "blade-marker-audit.json",
+      "bytes": 4453,
+      "sha256": "8695d45d8230b176c9483c6a1ff9557fc03dbfb1f0d596f1d98225fea9b79f5b"
+    },
+    {
+      "path": "blade-render-checks.json",
+      "bytes": 5643,
+      "sha256": "73d94978b12b690a4aaa93b7c590c76e16ddf9fae7a4c0f84161a4c7141442f3"
+    },
+    {
+      "path": "crouchHeavy_2-audit.png",
+      "bytes": 5932,
+      "sha256": "38211b49f1e23779ba989206c149bade4149058c6a2bd3d438bc4ca9d8e26c46"
+    },
+    {
+      "path": "crouchHeavy_2-face-1-KeyboardAndMouse.png",
+      "bytes": 108096,
+      "sha256": "1ca0f831958ff4c815ac492882c11eb92a3b559b7d6f3072e8b004080391740b"
+    },
+    {
+      "path": "crouchHeavy_2-face-1-Mobile.png",
+      "bytes": 117674,
+      "sha256": "7aa2a390f71d7a0b7cc1586e3640ac16e6c80b24af460c88d138a4d9237144f2"
+    },
+    {
+      "path": "crouchHeavy_2-face1-KeyboardAndMouse.png",
+      "bytes": 108204,
+      "sha256": "86befd16bd028b914fc9595abf65b6eb2c580ede7172ed65072a9f7ff1d7fa4b"
+    },
+    {
+      "path": "crouchHeavy_2-face1-Mobile.png",
+      "bytes": 118184,
+      "sha256": "574a80b8c19a0247933f3e6853eab9d34bcf82a931c3afec27e6a6fad56e345b"
+    },
+    {
+      "path": "crouchHeavy_3-audit.png",
+      "bytes": 5282,
+      "sha256": "a8c7ca35bb30437d8a9239f2f27e1e8e3687b6f90052a46d94df5b824db8f76a"
+    },
+    {
+      "path": "crouchHeavy_3-face-1-KeyboardAndMouse.png",
+      "bytes": 107249,
+      "sha256": "f9f0bb5dbe309b47fda11d0f4b3ff66e768f926c3551ae00a1c05e434da92404"
+    },
+    {
+      "path": "crouchHeavy_3-face-1-Mobile.png",
+      "bytes": 116720,
+      "sha256": "0d466bd3c0a7f6d749b2647b3cba0c06f7ea9c5fec17a718818b6443ec641807"
+    },
+    {
+      "path": "crouchHeavy_3-face1-KeyboardAndMouse.png",
+      "bytes": 107366,
+      "sha256": "9f47f44ca292f2124e49a29edb83f49a23c68b82943715ed57063b5d754ef864"
+    },
+    {
+      "path": "crouchHeavy_3-face1-Mobile.png",
+      "bytes": 116945,
+      "sha256": "742ceb8818f5e16f150cce389125efcbe500d33cff8f3a8720bce51baa3c8ae8"
+    },
+    {
+      "path": "crouchLight_2-audit.png",
+      "bytes": 6384,
+      "sha256": "566cca2123ad347ed0ef2c2f00d7ae37658d2f3fad47fda85ef1e29a429cf9d7"
+    },
+    {
+      "path": "crouchLight_2-face-1-KeyboardAndMouse.png",
+      "bytes": 107665,
+      "sha256": "91ba44de3aaf49c5dcb5d12ec0cd7b1cff5e64e098b34a62b154d98266f040f3"
+    },
+    {
+      "path": "crouchLight_2-face-1-Mobile.png",
+      "bytes": 117136,
+      "sha256": "7e0b503982127f5acc66b27c32871b365dfc3c488cd34725ddbb79b8a5cbe7d8"
+    },
+    {
+      "path": "crouchLight_2-face1-KeyboardAndMouse.png",
+      "bytes": 107445,
+      "sha256": "c8119d60435833e672639840597ffef638de19e115dc214afbdda39a2c12141f"
+    },
+    {
+      "path": "crouchLight_2-face1-Mobile.png",
+      "bytes": 117261,
+      "sha256": "8f1037010d676b29b21ce22a9e275fb6ff4019e46366a1b0b057651b3c932fd7"
+    },
+    {
+      "path": "crouchLight_3-audit.png",
+      "bytes": 5991,
+      "sha256": "5e3810539d8e9710d2c3403a1a95f5fb5109826fc303da27766a72f7b9215c08"
+    },
+    {
+      "path": "crouchLight_3-face-1-KeyboardAndMouse.png",
+      "bytes": 107758,
+      "sha256": "a2a57cae63888b349fcc607775df7e68461ef49729e8039f47bbd8f5414d3014"
+    },
+    {
+      "path": "crouchLight_3-face-1-Mobile.png",
+      "bytes": 117359,
+      "sha256": "e0fbb5e47f9096023763f3556406a41163741b961bd3a9f1948c3f15dd1fd274"
+    },
+    {
+      "path": "crouchLight_3-face1-KeyboardAndMouse.png",
+      "bytes": 107479,
+      "sha256": "83521b45100c6447bdb68df6ac7044fa90e022016f104dd9943b8ff7f1eee5a7"
+    },
+    {
+      "path": "crouchLight_3-face1-Mobile.png",
+      "bytes": 117440,
+      "sha256": "1d463a73cc6bd4c25ba9ad39de67192aa00ae3b46ee503c6c0e6fd5a5fed269f"
+    },
+    {
+      "path": "heavy-face-1-distance450-KeyboardAndMouse.png",
+      "bytes": 138670,
+      "sha256": "ed29f371b72b2e0a5d754e5cba1a0d347356016cd2cdd370b159d895251922cc"
+    },
+    {
+      "path": "heavy-face-1-distance450-Mobile.png",
+      "bytes": 146390,
+      "sha256": "480925d67384ab3edbef9bdabc1e7a580606be35c2720d0669d5a7ef7af7612d"
+    },
+    {
+      "path": "heavy-face-1-distance650-KeyboardAndMouse.png",
+      "bytes": 138783,
+      "sha256": "b33b7fb8edbf4da5a02f1a3b26508144342e099da4bb6c54103b56b2c99b0a40"
+    },
+    {
+      "path": "heavy-face-1-distance650-Mobile.png",
+      "bytes": 147847,
+      "sha256": "bd012346f309a9a2a216e545c23e5bda1b50e9c6e79a4b352b717bd36114b99d"
+    },
+    {
+      "path": "heavy-face-1-distance850-KeyboardAndMouse.png",
+      "bytes": 111446,
+      "sha256": "9b0509df0212bd489ef541b84310d89d2c796d5c51d96cdf27762e973baa66a1"
+    },
+    {
+      "path": "heavy-face-1-distance850-Mobile.png",
+      "bytes": 122506,
+      "sha256": "0dfcbfa63e7b14f3e0499c7691122b0537e10e7fd5946fdf1ab19ffc2ac6a502"
+    },
+    {
+      "path": "heavy-face1-distance450-KeyboardAndMouse.png",
+      "bytes": 134989,
+      "sha256": "f8815e6cc88aa9a9a5b0c2f404d46dfce294fe9797a86061af2b310c99856460"
+    },
+    {
+      "path": "heavy-face1-distance450-Mobile.png",
+      "bytes": 142545,
+      "sha256": "5b642e098f1e584709b274960dd30c6fe0e227450dbab329ac438002b58e9311"
+    },
+    {
+      "path": "heavy-face1-distance650-KeyboardAndMouse.png",
+      "bytes": 136283,
+      "sha256": "b20952c7db4fdbec0be908f740326af9c5905828bdb2bc849e222c42c8ddbc64"
+    },
+    {
+      "path": "heavy-face1-distance650-Mobile.png",
+      "bytes": 145427,
+      "sha256": "709c0a6847a15cfd15e7a602f7abf8075d81903dd55b0a2830ef0996d56a4df2"
+    },
+    {
+      "path": "heavy-face1-distance850-KeyboardAndMouse.png",
+      "bytes": 110848,
+      "sha256": "5358fbc51897b86fa238f5b6cadb772dcf618fb34f1a048b94668172242aae13"
+    },
+    {
+      "path": "heavy-face1-distance850-Mobile.png",
+      "bytes": 122221,
+      "sha256": "80997734ebc8b15d93d7ee1d39b54d309fd48342ad863cd92eb2cfbe98a435ee"
+    },
+    {
+      "path": "light1_2-audit.png",
+      "bytes": 7208,
+      "sha256": "43c74b1438a7eec684032425fe8a64fbf7555eaa1b7f41a821f4b4e5cbad83ad"
+    },
+    {
+      "path": "light1_2-face-1-KeyboardAndMouse.png",
+      "bytes": 109252,
+      "sha256": "4e951a1b5dca59256fdf2e6be5ae3c3cf40f5e302943ebbcd6e19fc7d84a1605"
+    },
+    {
+      "path": "light1_2-face-1-Mobile.png",
+      "bytes": 118894,
+      "sha256": "ef83d1b1684f5266bb9c64edbec39e6e0d2bf66b9360e1c4ae204c2141bdd05d"
+    },
+    {
+      "path": "light1_2-face1-KeyboardAndMouse.png",
+      "bytes": 109097,
+      "sha256": "43503aab2d209820fe1f7a187fb0abc146eb501263fec0e0a4da554f8eafef0c"
+    },
+    {
+      "path": "light1_2-face1-Mobile.png",
+      "bytes": 119409,
+      "sha256": "f2dd3b9da5854a200929b8c0834c64c04fc944e33be631c50970f0735885c6b3"
+    },
+    {
+      "path": "light2-face-1-distance450-KeyboardAndMouse.png",
+      "bytes": 137533,
+      "sha256": "807a513263b71d6cf2554bf9df7619bed64932b444477ed484bf6ad1c11336fc"
+    },
+    {
+      "path": "light2-face-1-distance450-Mobile.png",
+      "bytes": 144702,
+      "sha256": "9ce05d8313cd8e4354faf560bebc5e060a821088c0a8bda6fc67ac54b432b813"
+    },
+    {
+      "path": "light2-face-1-distance650-KeyboardAndMouse.png",
+      "bytes": 136965,
+      "sha256": "922fa8cc574e6051ae07bb76f8bef8cb3de1f5f433284867e7ebc368ebbe0f04"
+    },
+    {
+      "path": "light2-face-1-distance650-Mobile.png",
+      "bytes": 145775,
+      "sha256": "aef3912cfdaaa933cee572dd0d642ef938c4f49bffd769246bf21a80dcee1305"
+    },
+    {
+      "path": "light2-face-1-distance850-KeyboardAndMouse.png",
+      "bytes": 110778,
+      "sha256": "531ee86173a3319cacf6febdabeb6b3b5847f62c8d00f6e0c756a8e93b65d8c1"
+    },
+    {
+      "path": "light2-face-1-distance850-Mobile.png",
+      "bytes": 121951,
+      "sha256": "8d012182b72644678274567c2581f3358b08c4637c6c4f81b1efe6d9083bc59e"
+    },
+    {
+      "path": "light2-face1-distance450-KeyboardAndMouse.png",
+      "bytes": 135035,
+      "sha256": "029070cf759e999ae4ee82b74fad669cee435e21c52ca2f3604a18c0abb77f32"
+    },
+    {
+      "path": "light2-face1-distance450-Mobile.png",
+      "bytes": 141880,
+      "sha256": "11af8ef77f0a8563dde63ad05c2c9bf105fa0453e62674bf503fdd99c14ea4b0"
+    },
+    {
+      "path": "light2-face1-distance650-KeyboardAndMouse.png",
+      "bytes": 134620,
+      "sha256": "8bbbcf01aba6880a2fe3c3e6bfc7973e4e8b84c50715ce818db5a2ebbc902031"
+    },
+    {
+      "path": "light2-face1-distance650-Mobile.png",
+      "bytes": 143465,
+      "sha256": "5c15a52e58b7651f2e844df19f63efa8bf614780b0a3c23b0dbad882088fe6e4"
+    },
+    {
+      "path": "light2-face1-distance850-KeyboardAndMouse.png",
+      "bytes": 110104,
+      "sha256": "70352cbd639521c28f23ab58579e3b88286c1c4c61b0c549c63d88e2a670d571"
+    },
+    {
+      "path": "light2-face1-distance850-Mobile.png",
+      "bytes": 121326,
+      "sha256": "6abb3c389c9ed4f3d01f96e381beb59646097a1550f7b248f9d803ddb79b65b1"
+    },
+    {
+      "path": "light3_2-audit.png",
+      "bytes": 6675,
+      "sha256": "275536e5f4354f020140297b53e8255127bd2b42b166a44b6ded735fac25cacd"
+    },
+    {
+      "path": "light3_2-face-1-KeyboardAndMouse.png",
+      "bytes": 109008,
+      "sha256": "f53f7c8d6874ad2ea44fceb903fdc847119b14f7f57657f1dd9b3ab8df4bfa75"
+    },
+    {
+      "path": "light3_2-face-1-Mobile.png",
+      "bytes": 118700,
+      "sha256": "d38e349cd0f81f19bbebaa056c0dfc062d02a97256033bdc3459b02569ecd6de"
+    },
+    {
+      "path": "light3_2-face1-KeyboardAndMouse.png",
+      "bytes": 108780,
+      "sha256": "043723d11bdcbe170010aef63d2abee680f4a119b90a1f0fdc15fcb33a6b1aec"
+    },
+    {
+      "path": "light3_2-face1-Mobile.png",
+      "bytes": 118707,
+      "sha256": "c0890893514b25df2347ed1f6be5a8b48fcd8b3ac53e6127dff637162bd0537b"
+    },
+    {
+      "path": "light3_3-audit.png",
+      "bytes": 6653,
+      "sha256": "7980cadedd0ad829eaaced9d0a8b1cb1dbde8e38ebfc5a1936824be6e5b16b5e"
+    },
+    {
+      "path": "light3_3-face-1-KeyboardAndMouse.png",
+      "bytes": 108662,
+      "sha256": "5fd6b9e7bcd8d64ee9759c9aefd1d351fcf396ca86c684a84ef39001a9f661b7"
+    },
+    {
+      "path": "light3_3-face-1-Mobile.png",
+      "bytes": 118257,
+      "sha256": "652101e9c4dca5332489bdb1b05f65e82cf3654bdb63fb5d2a3c50f96a6d5911"
+    },
+    {
+      "path": "light3_3-face1-KeyboardAndMouse.png",
+      "bytes": 108506,
+      "sha256": "512524b7827cd66bdc9df64a080637761a8c08274e3bd105cc362c67beb07bd3"
+    },
+    {
+      "path": "light3_3-face1-Mobile.png",
+      "bytes": 118816,
+      "sha256": "813002d079db359f2d67ef14098597da7cd635593d0a887758b1bb216201d595"
+    },
+    {
+      "path": "logic-and-pixels.json",
+      "bytes": 880,
+      "sha256": "3c115b6537bb147c0bbb847b186c4e89d3af4ed5cd508b7fb0132e4b8a663fde"
+    },
+    {
+      "path": "mock-flow.json",
+      "bytes": 1724,
+      "sha256": "8124fe56aaaf3cb2cba0718b0ac0446f7af04941be6c5cc84899e1c18bbfa6a8"
+    },
+    {
+      "path": "release/build.json",
+      "bytes": 883,
+      "sha256": "d2093a097f10a31310ec217010e33998e883a2243675e74f335e266b2e620381"
+    },
+    {
+      "path": "release/genshin_fighter.lua",
+      "bytes": 4885806,
+      "sha256": "dc41d10906c148be19551ac25ab5b8f65aec5dc02a1bb5e1cc025abe45bc146c"
+    },
+    {
+      "path": "shot-render-checks.json",
+      "bytes": 8379,
+      "sha256": "a98999f3f94c82c3bb2fc7aa4ce1071fabef6e3108c4d9a184f4740c5fa71bec"
+    },
+    {
+      "path": "simulator/browser-preview.png",
+      "bytes": 46279,
+      "sha256": "639792d3c98d7a6542ee6e7a1c88f3de6cf7301b79baaa60cd064b03b7a232b9"
+    },
+    {
+      "path": "simulator/index.html",
+      "bytes": 12367,
+      "sha256": "5f1232bf209cd5108399c66160348753d18cdb7d96f9b4b140b045217eba880b"
+    },
+    {
+      "path": "skill-face-1-distance450-KeyboardAndMouse.png",
+      "bytes": 169421,
+      "sha256": "6706a7980287eea165fa1de55525ce6a95627c0196c2e97d9c56f8679cf4e740"
+    },
+    {
+      "path": "skill-face-1-distance450-Mobile.png",
+      "bytes": 164964,
+      "sha256": "914770fa01fc41417d3bd319e69d45a75b06ebebae4257295fc3cb9dfc5ef064"
+    },
+    {
+      "path": "skill-face-1-distance650-KeyboardAndMouse.png",
+      "bytes": 166157,
+      "sha256": "3614825d25a93877f382102dcde8e3ae7049d477a2c3228353253b7f9b07f77d"
+    },
+    {
+      "path": "skill-face-1-distance650-Mobile.png",
+      "bytes": 173020,
+      "sha256": "9c67c226912475831718c808f65054a16ccf87c692dbf01bdf09f7715d581f10"
+    },
+    {
+      "path": "skill-face-1-distance850-KeyboardAndMouse.png",
+      "bytes": 127920,
+      "sha256": "423b35367ff6e33d2e8b57af7a61e1902dd020bbdbe7d9ea5fd2d8590dc0d5bf"
+    },
+    {
+      "path": "skill-face-1-distance850-Mobile.png",
+      "bytes": 130269,
+      "sha256": "83cb4d4b1cf8693fac65dd65ad384848f4a784ea25ebe542a04454cee804a623"
+    },
+    {
+      "path": "skill-face1-distance450-KeyboardAndMouse.png",
+      "bytes": 149147,
+      "sha256": "d4775199d161fdec646d037e6efc34fca0a8d31df9db24f1fc6bf97bafd71fe5"
+    },
+    {
+      "path": "skill-face1-distance450-Mobile.png",
+      "bytes": 156343,
+      "sha256": "fd3f8195880db4adec6a15a5d0f8e41e58e4b41ab808a5f74a0c6af79ceaae8a"
+    },
+    {
+      "path": "skill-face1-distance650-KeyboardAndMouse.png",
+      "bytes": 149637,
+      "sha256": "878acedd500fa5aad5b96069c4d5fb88b4e8ab88fec7dc01db9563dfc0cf3167"
+    },
+    {
+      "path": "skill-face1-distance650-Mobile.png",
+      "bytes": 157093,
+      "sha256": "cd241d5083ebc65a88e1b24a8742f289a32208b907a524b4fa625a1116379924"
+    },
+    {
+      "path": "skill-face1-distance850-KeyboardAndMouse.png",
+      "bytes": 127408,
+      "sha256": "b75d9374f58db18994db4ff45ecb70ef3e405575f1a0a69c90af11e92c7b6eb3"
+    },
+    {
+      "path": "skill-face1-distance850-Mobile.png",
+      "bytes": 129960,
+      "sha256": "c24c1d5ec114791e680305486b963947690244d58878b3e0331edbc539631105"
+    },
+    {
+      "path": "skill_4-face-1-KeyboardAndMouse.png",
+      "bytes": 111064,
+      "sha256": "ea26bcda00e05ee4faeec00fdfb1d5602d7e8eb2b605dcd82291ce42dda1b2c1"
+    },
+    {
+      "path": "skill_4-face-1-Mobile.png",
+      "bytes": 120585,
+      "sha256": "b87bcc6f6d52320a53a67ac4ff070fe8186329a8b78a35ade13ae96c5bdc67d4"
+    },
+    {
+      "path": "skill_4-face1-KeyboardAndMouse.png",
+      "bytes": 110706,
+      "sha256": "882a0bb8389266c775562505eedcb6edc66dc757b1a5a12bb8a06afb9781a729"
+    },
+    {
+      "path": "skill_4-face1-Mobile.png",
+      "bytes": 120721,
+      "sha256": "e2563db08164f4302775e6f29b359e3ebe95b5ada5475c60c8d11f773b9dd570"
+    },
+    {
+      "path": "sword-pose-audit.png",
+      "bytes": 120554,
+      "sha256": "5a1ddd81682c8fb9b10628087a76335e80bc11352212dc92413c2107a17bfc8c"
+    },
+    {
+      "path": "本批说明.md",
+      "bytes": 2913,
+      "sha256": "995386727b715f5c4248854d01739da757de53e77317d5a3937c055fc12c03cd"
+    }
+  ]
+}

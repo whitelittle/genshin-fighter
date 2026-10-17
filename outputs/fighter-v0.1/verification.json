@@ -1,0 +1,22 @@
+{
+  "simulatorVerified": true,
+  "deviceVerified": false,
+  "tests": {
+    "giaImported": true,
+    "realKeyboard": true,
+    "lightDamageAndOneHit": true,
+    "heavyStartup": true,
+    "guardChipDamage": true,
+    "jumpAndLand": true,
+    "moveAndRelease": true,
+    "whiff": true,
+    "airHeight": true,
+    "draw": true,
+    "matchVictory": true,
+    "restart": true,
+    "timeoutAndNextRound": true,
+    "aiLongRunWithoutLuaErrors": true
+  },
+  "art": "procedural placeholder figures, not approved character sprites",
+  "notes": "Boundary scenarios set initial state in test-only source; delivery source has normal starting state."
+}

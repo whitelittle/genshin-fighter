@@ -1,0 +1,13 @@
+{
+  "simulatorVerified": true,
+  "deviceVerified": false,
+  "tests": {
+    "asciiLua": true,
+    "giaReimportFullHierarchy": true,
+    "visibleStaticMessageWithoutLua": true,
+    "bootMessageWithLua": true,
+    "gameplayPreserved": true,
+    "onlinePausePixelEquality": true,
+    "visibleInitError": false
+  }
+}

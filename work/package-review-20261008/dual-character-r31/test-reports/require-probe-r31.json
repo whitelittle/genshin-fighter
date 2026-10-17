@@ -1,0 +1,6 @@
+{
+  "checks": [
+    "GFTEST PASS require independent files, nested dependency, shared cache, missing module failure"
+  ],
+  "method": "Actual Lua Worker global require of independent registered script mappings, nested dependencies, identity cache, missing module error"
+}

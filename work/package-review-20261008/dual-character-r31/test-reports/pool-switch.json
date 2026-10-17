@@ -1,0 +1,11 @@
+{
+  "method": "Actual split-file Lua Worker: options low→high→low; asserts 24000 preallocation and 14000 reclamation before loading completes; keyboard and mobile rules",
+  "checks": [
+    "QUALITY LOADING",
+    "QUALITY HIGH PASS preallocated=24000",
+    "QUALITY PASS default low, high 24000 prewarm, low shrink to 14000 before ready, mobile lock",
+    "KEY PASS I=E",
+    "KEY PASS O=Q",
+    "KEY PASS L=throw"
+  ]
+}

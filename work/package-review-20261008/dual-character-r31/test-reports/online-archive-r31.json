@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "NET GFV2 TRANSPORT PASS seats 1/2, 24-word packet forwarding and validation",
+    "GFTEST PASS GFV2 two clients same match, both sides, loss/jitter, confirmed hashes, deterministic replay"
+  ],
+  "method": "Actual Lua GFV2 transport serialization and validation; two rollback clients through simulated latency, jitter and packet loss with deterministic replay"
+}

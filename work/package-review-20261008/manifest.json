@@ -1,0 +1,581 @@
+[
+  {
+    "package": "GF_V2_20261007_0333.zip",
+    "entry": "GF_V2_20261007_0333/GF_DUAL_POOL_A.gia",
+    "status": "recovered-local-header-crc-verified",
+    "size": 3310419,
+    "sha256": "b0e4a441719fb20f78e9dd2ef44f42846f47015b0632312928cb4520716ceaa0"
+  },
+  {
+    "package": "GF_V2_20261007_0333.zip",
+    "entry": "GF_V2_20261007_0333/GF_DUAL_POOL_B_ImageTemplate.gia",
+    "status": "recovered-local-header-crc-verified",
+    "size": 878,
+    "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+  },
+  {
+    "package": "GF_V2_20261007_0333.zip",
+    "entry": "GF_V2_20261007_0333/GF_DUAL_POOL_Lua_Only.gia",
+    "status": "recovered-local-header-crc-verified",
+    "size": 3028645,
+    "sha256": "4405e1b2a41a480a9a0cfe881270a0e4c963b0ed8459f12d5239bcb527a5bd36"
+  },
+  {
+    "package": "GF_V2_20261007_0333.zip",
+    "entry": "GF_V2_20261007_0333/README.md",
+    "status": "recovered-local-header-crc-verified",
+    "size": 2013,
+    "sha256": "897c6db089fe50015d7f79d36cb183708242ff8ae675031b9e624a1e74a2b50a"
+  },
+  {
+    "package": "GF_V2_20261007_0333.zip",
+    "entry": "GF_V2_20261007_0333/genshin_fighter_dual_pool.lua",
+    "status": "damaged-compressed-stream"
+  },
+  {
+    "package": "GF_V2_20261007_0324.zip",
+    "entry": "GF_V2_20261007_0324/GF_DUAL_POOL_A.gia",
+    "status": "zip-crc-verified",
+    "size": 3309365,
+    "sha256": "75564d77671db0f7b920caad4d5206b3d10de5809eb6987f37787e3547affa69"
+  },
+  {
+    "package": "GF_V2_20261007_0324.zip",
+    "entry": "GF_V2_20261007_0324/GF_DUAL_POOL_B_ImageTemplate.gia",
+    "status": "zip-crc-verified",
+    "size": 878,
+    "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+  },
+  {
+    "package": "GF_V2_20261007_0324.zip",
+    "entry": "GF_V2_20261007_0324/GF_DUAL_POOL_Lua_Only.gia",
+    "status": "zip-crc-verified",
+    "size": 3027591,
+    "sha256": "53f426e1930efda58b2b5f3eb2bd2b125ae8031df1ce822aa9edfdf8af0fd562"
+  },
+  {
+    "package": "GF_V2_20261007_0324.zip",
+    "entry": "GF_V2_20261007_0324/README.md",
+    "status": "zip-crc-verified",
+    "size": 1947,
+    "sha256": "bfea3b6cb047ef533d602bc294fb5ee38d2374fe2779a35817abba2e9130e023"
+  },
+  {
+    "package": "GF_V2_20261007_0324.zip",
+    "entry": "GF_V2_20261007_0324/genshin_fighter_dual_pool.lua",
+    "status": "zip-crc-verified",
+    "size": 3027393,
+    "sha256": "95878a34751693b099972445d86ab2f2c628524fcc6d5fefb7dbb3518ac95dcc",
+    "header": "-- Boot execution marker: unchanged LUA WAIT means this script was not executed.\npcall(function()\n    local c = script.object\n    if c then c.text = 'GF LUA 已执行 / 等待初始化' end\nend)\n-- 原神格斗 v2 client bundle cff1918d7b4a. Ge"
+  },
+  {
+    "package": "GF_V2_20261007_0324.zip",
+    "entry": "GF_V2_20261007_0324/verification.json",
+    "status": "zip-crc-verified",
+    "size": 535,
+    "sha256": "acc830fcbeffe5114bca75836b276d2ff58e8921610101b4d74186cdd40363ba"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "INSTALL.md",
+    "status": "zip-crc-verified",
+    "size": 4688,
+    "sha256": "266d2b1984d07133ddd568c573ba41ca05debbb25d2c2123ce368172b986b4d3"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "GF_IMAGE_TEMPLATE_B.gia",
+    "status": "zip-crc-verified",
+    "size": 878,
+    "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "GFV2_Online_All_Nodes.html",
+    "status": "zip-crc-verified",
+    "size": 54367,
+    "sha256": "4699c60baff7abdedfd6f5fc8fa86b5297ad664cbd1a657db5b53b7f6d9ff10e"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "SHA256.json",
+    "status": "zip-crc-verified",
+    "size": 2189,
+    "sha256": "a538cebe7152ec8a50a7859147aa092b7cb98413128ded153d7352db4057a21e"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "GF_FORMAL_A.gia",
+    "status": "zip-crc-verified",
+    "size": 4580772,
+    "sha256": "171d813d6aea767ed0ca63568ea1bb3b8b9d0259e9ff45238afd1fc05619c24f"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "ART_STANDARD.md",
+    "status": "zip-crc-verified",
+    "size": 1450,
+    "sha256": "ea34f979c248f1920675e67bcb871c0b5374e0d32d8e242beaf91a7a157a6909"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "GF_FORMAL_LUA_ONLY.gia",
+    "status": "zip-crc-verified",
+    "size": 4298968,
+    "sha256": "36dc5b10e55ce24ea3453bf5e2b9c2c085352f7f68b7e1b5e5ab78f79654c12d"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "MERGE_REVIEW.md",
+    "status": "zip-crc-verified",
+    "size": 3510,
+    "sha256": "b6edecede800509ce31d969e6797f39cdd47886c2db2a93a669185b3179ca4ef"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "verification.json",
+    "status": "zip-crc-verified",
+    "size": 506,
+    "sha256": "3b4a595e5cffdeae9edf726573debb5b95bcfcdd82e81f78507559e677ee4693"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "release-audit.json",
+    "status": "zip-crc-verified",
+    "size": 841,
+    "sha256": "893c80c9dad2a19732dc002a0238d1a1fad915160430f81e57d390c6cd8a1b62"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "genshin_fighter.lua",
+    "status": "zip-crc-verified",
+    "size": 4298800,
+    "sha256": "b3800ccd54f64db0ba3897eb058947912f9f2dc1b55be3e59dc4f7318ab80b9d",
+    "header": "GF_RELEASE_ID='archive-merged-sd-r33'\nGF_FIRST_SCENE='intro'\nGF_FIRST_ARGS={chars={'raidenshogun','nahida'},mode='demo',cpu={2,2},rounds=2,time=99,seed=21}\nGF_SETTINGS={quality='lo'}\n-- Dual pool production client 3e5080"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/ai-throws.json",
+    "status": "zip-crc-verified",
+    "size": 418,
+    "sha256": "7d3d388183abc46c55e4ed3eaa6b8164a5f3e6b1a48938d645e265ff0487b8c5"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/full-flow-text.json",
+    "status": "zip-crc-verified",
+    "size": 800,
+    "sha256": "56ff1b04aafba704c236ec3b63cfc3f5729e1136b0002e198d2cfc001f1964f2"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/nahida-hits.json",
+    "status": "zip-crc-verified",
+    "size": 2692,
+    "sha256": "b98be90f920317631258630c1cf73ddbaafa6a2c60296f4c0c8e9f9a63377471"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/static-responses.json",
+    "status": "zip-crc-verified",
+    "size": 357,
+    "sha256": "d6665306bdb4cdcc6a2bbd8a837356b12eff760a31eb939a56110c54e8db1af7"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/single-flow.json",
+    "status": "zip-crc-verified",
+    "size": 254,
+    "sha256": "1bc4cc99a159d7fd6ad083c107a9aea2406854426a4d6a87b67a497c8e8f8d76"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/dynamic-pool.json",
+    "status": "zip-crc-verified",
+    "size": 455,
+    "sha256": "2516ead16e49b0e34c6bd5d80968c1ffb8261dd76be26219ea42d36ae1f8597e"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "test-reports/raiden-hits.json",
+    "status": "zip-crc-verified",
+    "size": 2544,
+    "sha256": "54a0ea0531e35de8216d3de8b146531f9652f3d0c9519a48156d222e9c5d6a16"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "optional-modular/GF_MODULAR_LUA_ONLY.gia",
+    "status": "zip-crc-verified",
+    "size": 4301038,
+    "sha256": "274c78d46f63be782abf96ef889c28c82480df36704af3df5fd4008666ba9543"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "optional-modular/gf_art_sd.lua",
+    "status": "zip-crc-verified",
+    "size": 3938330,
+    "sha256": "85d6b2458f81c8e9bf94fd19abf253e3caeac800b33feacfb9e6507724dfdddb",
+    "header": "return {\n[\"gf_animation_data\"] = function() return {[\"raiden\"]={[\"lo\"]={[\"pal\"]={{162,131,182,255},{36,20,53,255},{228,210,226,255},{66,43,101,255},{105,75,114,255},{86,58,112,255},{191,158,180,255},{177,136,128,255},{14"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "optional-modular/GF_ART_SD.gia",
+    "status": "zip-crc-verified",
+    "size": 3938480,
+    "sha256": "5fd0084e8368e0ab7b2cbcd82c8cb6f309b77082b5ea44bb3125d7bc3f8d2ba3"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "optional-modular/genshin_fighter.lua",
+    "status": "zip-crc-verified",
+    "size": 362438,
+    "sha256": "19d993f8dd63f162361fa7a76bf346e615d97d8b6470742901d8b6601dfc1e10",
+    "header": "GF_RELEASE_ID='archive-merged-sd-r33'\nGF_FIRST_SCENE='intro'\nGF_FIRST_ARGS={chars={'raidenshogun','nahida'},mode='demo',cpu={2,2},rounds=2,time=99,seed=21}\nGF_SETTINGS={quality='lo'}\n-- Dual pool production client 3e5080"
+  },
+  {
+    "package": "GF_FORMAL_r33.zip",
+    "entry": "optional-modular/GF_MODULAR_A.gia",
+    "status": "zip-crc-verified",
+    "size": 644406,
+    "sha256": "e0ae2edcc6d3cc59838593134ad760a6c79e75510aeecabe821e4612f13ee6a1"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "GFV2_Online_All_Nodes.html",
+    "status": "zip-crc-verified",
+    "size": 54367,
+    "sha256": "4699c60baff7abdedfd6f5fc8fa86b5297ad664cbd1a657db5b53b7f6d9ff10e"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "GF_ART_SD_HD.gia",
+    "status": "zip-crc-verified",
+    "size": 19616160,
+    "sha256": "c575fd89b5c790ac61c8c109073462b0cf25a13cea01be0cf2b92eca2dc1d332"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "GF_DUAL_POOL_A.gia",
+    "status": "zip-crc-verified",
+    "size": 646915,
+    "sha256": "b21e51f537322ce8cb1bc7f3dc753182abde01ea9f8f554477160eb65d0de28f"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "GF_DUAL_POOL_B_ImageTemplate.gia",
+    "status": "zip-crc-verified",
+    "size": 878,
+    "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "GF_DUAL_POOL_Lua_Only.gia",
+    "status": "zip-crc-verified",
+    "size": 19981227,
+    "sha256": "f295874794a5594754f7d5c3252b3fc0feea09b0e74e07313393279c76cf496c"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "INSTALL.md",
+    "status": "zip-crc-verified",
+    "size": 6339,
+    "sha256": "73bd0ca1c720cfea86e0de3bd00c6410d84e9a560aafd9fc11727eb39f13f42e"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "genshin_fighter_dual_pool.lua",
+    "status": "zip-crc-verified",
+    "size": 364947,
+    "sha256": "5f4d388f5e2edfdb63eb129f2171cf4bfabf5253b421f74f09d4bc93bc430cdc",
+    "header": "GF_RELEASE_ID='dual-eye-grass-r31'\nGF_FIRST_SCENE='intro'\nGF_FIRST_ARGS={chars={'raidenshogun','nahida'},mode='versus',cpu={false,2},rounds=2,time=99,seed=21}\nGF_SETTINGS={quality='lo'}\n-- Boot execution marker: unchange"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "genshin_fighter_standalone.lua",
+    "status": "zip-crc-verified",
+    "size": 19977153,
+    "sha256": "4bbb37494f06536240aecd874d4d5d3b830793eb2e4c6701a11bfbe718ec3364",
+    "header": "GF_RELEASE_ID='dual-eye-grass-r31'\nGF_FIRST_SCENE='intro'\nGF_FIRST_ARGS={chars={'raidenshogun','nahida'},mode='demo',cpu={2,2},rounds=2,time=99,seed=21}\nGF_SETTINGS={quality='lo'}\n-- Boot execution marker: unchanged LUA "
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "gf_art_hd.lua",
+    "status": "zip-crc-verified",
+    "size": 9194946,
+    "sha256": "6a0a7c494be01d732f93b4025ae6110facc59a8962ea930b582fb77772b7bfed",
+    "header": "return {[\"raiden\"]={[\"pal\"]={{156,125,164,255},{35,21,55,255},{229,211,227,255},{65,40,105,255},{100,71,108,255},{86,56,127,255},{200,159,149,255},{172,131,123,255},{139,107,142,255},{80,53,86,255},{119,89,135,255},{124,"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "gf_art_sd.lua",
+    "status": "zip-crc-verified",
+    "size": 10420988,
+    "sha256": "9020bef1bb41a6b7d8d600b97ece4ff8620c2228ee69f479b3638ffff8bf159c",
+    "header": "return {\n[\"gf_animation_data\"] = function()\nreturn {[\"raiden\"]={[\"hi\"]={[\"pal\"]={{156,125,164,255},{35,21,55,255},{229,211,227,255},{65,40,105,255},{100,71,108,255},{86,56,127,255},{200,159,149,255},{172,131,123,255},{13"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "require-probe/require-probe.gia",
+    "status": "zip-crc-verified",
+    "size": 730,
+    "sha256": "5e6d20e89896a521c5509a740d93230ef247e9fde7f14e02d7f0d57e5aa95cef"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "require-probe/require_probe_a.lua",
+    "status": "zip-crc-verified",
+    "size": 18,
+    "sha256": "5089d44f185d4c30f00c624703aa34b277181c9bad288995288cbde334fe08c6",
+    "header": "return {value=17}\n"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "require-probe/require_probe_b.lua",
+    "status": "zip-crc-verified",
+    "size": 103,
+    "sha256": "8a17ee87962a10751c4996b312562a5d3c3bcd057a4ca810d61457f6d7de0b26",
+    "header": "local a=require('default_import_file/require_probe_a.lua')\nreturn {read=function() return a.value end}\n"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "require-probe/require_probe_main.lua",
+    "status": "zip-crc-verified",
+    "size": 273,
+    "sha256": "3558fbc82d1f4aaa3296938a3a38c0003ce6e7dfd6d590734797370ea65a62af",
+    "header": "local a=require('default_import_file/require_probe_a.lua')\nlocal b=require('default_import_file/require_probe_b.lua')\nassert(a.value==17 and b.read()==17)\na.value=29\nassert(b.read()==29 and require('default_import_file/r"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "test-reports/full-demo-r31.json",
+    "status": "zip-crc-verified",
+    "size": 254,
+    "sha256": "1bc4cc99a159d7fd6ad083c107a9aea2406854426a4d6a87b67a497c8e8f8d76"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "test-reports/online-archive-r31.json",
+    "status": "zip-crc-verified",
+    "size": 383,
+    "sha256": "fbf8f4c87d47c878b4d96a92c496ec0ba0a679d94d23696731c18a58dacde814"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "test-reports/pool-switch.json",
+    "status": "zip-crc-verified",
+    "size": 423,
+    "sha256": "f651b357a38065ce349924e1d2ff26e0e3638f243a4afda14f90405da55dc1d5"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "test-reports/quality-pool-switch.json",
+    "status": "zip-crc-verified",
+    "size": 428,
+    "sha256": "e5286b57a2d918a484cc5bc1b6e4b7804bb88dac3d8608c288968c68f286aa35"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "test-reports/quality-report.json",
+    "status": "zip-crc-verified",
+    "size": 614,
+    "sha256": "ef6ff136a61976fb4a38a986d8a1282a6253f4d402478246a55310944087a655"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "test-reports/require-probe-r31.json",
+    "status": "zip-crc-verified",
+    "size": 271,
+    "sha256": "fb0cda0ef48b90c40d001b0d0396718ee03378c25f08055ea07b4990b8e90d26"
+  },
+  {
+    "package": "dual-character-r31.zip",
+    "entry": "verification.json",
+    "status": "zip-crc-verified",
+    "size": 567,
+    "sha256": "0f675e5d8ea616d1bd808bc3254cf7a6ffed83e6d2b6f10ccaa49ade0b3082c9"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "GF_DUAL_POOL_A_Online.gia",
+    "status": "zip-crc-verified",
+    "size": 3308381,
+    "sha256": "b85e88d43a8dd9c4966401be8110b79feb7b6d85c3ace0b13de1086a42e0cd17"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "GF_DUAL_POOL_B_ImageTemplate_Backup.gia",
+    "status": "zip-crc-verified",
+    "size": 878,
+    "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "genshin_fighter_online_1073742224.lua",
+    "status": "zip-crc-verified",
+    "size": 3026409,
+    "sha256": "3262d6cb37338fdac29d3ceaf49c356c32efe1857dce6b2151d59fba3be43028",
+    "header": "-- Dual pool production client e4f750a07f03\nGF_BUILD='e4f750a07f03'\nlocal __loaders, __loaded = {}, {}\nlocal function require(name)\n local m=__loaded[name]\n if m==nil then\n  local f=__loaders[name]\n  if not f then error("
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "GFV2_Server_Node_Graph.json",
+    "status": "zip-crc-verified",
+    "size": 9896,
+    "sha256": "073d917eb1de1d4e506f2c00c779784216a49ee6ee57b373979c8350b334ce86"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "simulator-serverLogic.json",
+    "status": "zip-crc-verified",
+    "size": 1077,
+    "sha256": "df3b9d77cfee2ed0ae1d16135c01313ca18e0570e0f53a8a9e7f2df90fc77a79"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "服务器节点接线.md",
+    "status": "zip-crc-verified",
+    "size": 4401,
+    "sha256": "a809d4e5cc88f0876ae7139fa4e33723173d1a42d6aef48fca31a05c149fb290"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "安装与核对.md",
+    "status": "zip-crc-verified",
+    "size": 3467,
+    "sha256": "7dca5ad2066c56495ce15be963317d7999530676ae984c100daaa93ef5bb19f1"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "delivery.json",
+    "status": "zip-crc-verified",
+    "size": 1884,
+    "sha256": "3ab1384a8f493d0fbde2963fb41cd18cbe715c3b646c02f2c5718453f546657e"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "verification.json",
+    "status": "zip-crc-verified",
+    "size": 849,
+    "sha256": "075351bc1a8c5d4cfc7684402225614499d5449dac57864b1087a48af47cd6c8"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "pool-stress.json",
+    "status": "zip-crc-verified",
+    "size": 277,
+    "sha256": "0396f7ea430eacb1eedacf26ea699b352984cbc3608235e093b1768197e8a6af"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "full-match.json",
+    "status": "zip-crc-verified",
+    "size": 217,
+    "sha256": "55b1fea211331a2b8ed14b3e24a7c45566bb4757c8dd9f5d02da4ccd37e19d2b"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "player-1.png",
+    "status": "zip-crc-verified",
+    "size": 439816,
+    "sha256": "3431e1468a278f2b256e51886e1d8565c099a3dcc77f6a17a7d46f0b0284d988"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "player-2.png",
+    "status": "zip-crc-verified",
+    "size": 415180,
+    "sha256": "868d20c79c1c7069908d620d0b12c47e0eb3a3f60c6c8d09074de3b1e7b1ba7d"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "result-player-1.png",
+    "status": "zip-crc-verified",
+    "size": 279361,
+    "sha256": "4647f5f887829e0429f383cf89095710f0abaec108001d10b896dcd66e94cc60"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "result-player-2.png",
+    "status": "zip-crc-verified",
+    "size": 279407,
+    "sha256": "e3210feb16e7976aab8c6ef606e6ba6cb8d184569437aee6e6c94b9194d48145"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "walk-pc/report.json",
+    "status": "zip-crc-verified",
+    "size": 2638,
+    "sha256": "903d66ba09696318bf57151cd93be002f32ec4c4c2d3de0cea5b909399331ad9"
+  },
+  {
+    "package": "GF_Online_BackgroundPool_20261007.zip",
+    "entry": "walk-mobile/report.json",
+    "status": "zip-crc-verified",
+    "size": 2638,
+    "sha256": "991f885a37bfcae38df81e7e668a85641397a5707373e07f98ad590313eb7898"
+  },
+  {
+    "package": "GF_Text_Fix_1073742224_20261007.zip",
+    "entry": "GF_DUAL_POOL_A_TextFix_1073742224.gia",
+    "status": "zip-crc-verified",
+    "size": 3310703,
+    "sha256": "de26e78176b2dc1ee90f8a9be87ffe44619c88f9f03475cf84ed967df417b3af"
+  },
+  {
+    "package": "GF_Text_Fix_1073742224_20261007.zip",
+    "entry": "genshin_fighter_text_fix_1073742224.lua",
+    "status": "zip-crc-verified",
+    "size": 3028731,
+    "sha256": "ac3a1a92eb3941dad48df858b40705546e02fdc135fe46203ad6eccb60bf6030",
+    "header": "-- Boot execution marker: unchanged LUA WAIT means this script was not executed.\npcall(function()\n    local c = script.object\n    if c then c.text = 'GF LUA 已执行 / 等待初始化' end\nend)\n-- 原神格斗 v2 client bundle cff1918d7b4a. Ge"
+  },
+  {
+    "package": "GF_Text_Fix_1073742224_20261007.zip",
+    "entry": "README_1073742224.md",
+    "status": "zip-crc-verified",
+    "size": 954,
+    "sha256": "cea7e4362f6ade8a3719aa13f592590959ef1124cdb40767d52c94fd06cccc2e"
+  },
+  {
+    "package": "GF_Text_Fix_1073742224_20261007.zip",
+    "entry": "verification_1073742224.json",
+    "status": "zip-crc-verified",
+    "size": 214,
+    "sha256": "9cc38e1e93a0c2093f7dc27aa06f5ef94a824f684a28ae16d376a623b067ce0a"
+  },
+  {
+    "package": "GF_UI_Visibility_Probe_20261007.zip",
+    "entry": "GF_UI_VISIBILITY_PROBE_A.gia",
+    "status": "zip-crc-verified",
+    "size": 3312055,
+    "sha256": "242ebf41ab1262b2435d1b23b96853cf55289a5fe7a1b9f5e60836f71cab5f85"
+  },
+  {
+    "package": "GF_UI_Visibility_Probe_20261007.zip",
+    "entry": "GF_DUAL_POOL_B_ImageTemplate.gia",
+    "status": "zip-crc-verified",
+    "size": 878,
+    "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+  },
+  {
+    "package": "GF_UI_Visibility_Probe_20261007.zip",
+    "entry": "genshin_fighter_ui_visibility_probe.lua",
+    "status": "zip-crc-verified",
+    "size": 3030083,
+    "sha256": "80f08bafd3281645ad2ba04d7db1e221d6b239028f3a1305bd21f6167e12cf04",
+    "header": "-- Boot execution marker: unchanged LUA WAIT means this script was not executed.\npcall(function()\n    local c = script.object\n    if c then c.text = 'GF LUA 已执行 / 等待初始化' end\nend)\n-- 原神格斗 v2 client bundle cff1918d7b4a. Ge"
+  },
+  {
+    "package": "GF_UI_Visibility_Probe_20261007.zip",
+    "entry": "README.md",
+    "status": "zip-crc-verified",
+    "size": 2421,
+    "sha256": "1facccd6a38635d51e3169cef1233682dab2fdf89a9b6c425a5e61b98776de20"
+  },
+  {
+    "package": "GF_UI_Visibility_Probe_20261007.zip",
+    "entry": "verification.json",
+    "status": "zip-crc-verified",
+    "size": 210,
+    "sha256": "bf1a2aab830b896a0ae4b4b2f53ba02f77c6c48daba332ef37ac0a8bfcdb3b6c"
+  }
+]

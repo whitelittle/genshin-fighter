@@ -1,0 +1,71 @@
+{
+  "filename": "仅供格式验证_旧工程资源.gia",
+  "sourceFilename": "gpt_20261013_GF3全部引用修正版.gia",
+  "sha256": "d462fb44cb22bdb8111bb9b0a8ae7f22bd5eee9c3cef4f43081414e1454fa39a",
+  "embeddedSignalDefinitions": 0,
+  "sameMapOnly": true,
+  "requiredExistingSignals": [
+    {
+      "id": 1073741977,
+      "name": "GF3Hello",
+      "kind": "监听信号"
+    },
+    {
+      "id": 1073741981,
+      "name": "GF3Seat",
+      "kind": "发送客户端脚本信号"
+    },
+    {
+      "id": 1073741985,
+      "name": "GF3Progress",
+      "kind": "发送客户端脚本信号"
+    },
+    {
+      "id": 1073741989,
+      "name": "GF3Reveal",
+      "kind": "发送客户端脚本信号"
+    },
+    {
+      "id": 1073741993,
+      "name": "GF3Team",
+      "kind": "监听信号"
+    },
+    {
+      "id": 1073741997,
+      "name": "GF3Reset",
+      "kind": "监听信号"
+    },
+    {
+      "id": 1073742001,
+      "name": "GF3BattleHello",
+      "kind": "监听信号"
+    },
+    {
+      "id": 1073742005,
+      "name": "GF3BattleSeat",
+      "kind": "发送客户端脚本信号"
+    },
+    {
+      "id": 1073742009,
+      "name": "GF3BattleFrames",
+      "kind": "监听信号"
+    },
+    {
+      "id": 1073742013,
+      "name": "GF3BattleFramesOut",
+      "kind": "发送客户端脚本信号"
+    },
+    {
+      "id": 1073742017,
+      "name": "GF3Quit",
+      "kind": "监听信号"
+    },
+    {
+      "id": 1073742021,
+      "name": "GF3Close",
+      "kind": "发送客户端脚本信号"
+    }
+  ],
+  "graphUnchanged": true,
+  "nativeImportVerified": false
+}

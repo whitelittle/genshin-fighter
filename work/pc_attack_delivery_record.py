@@ -1,0 +1,64 @@
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[1];O=R/'outputs/pc-attack-budget-20261014';P=R/'outputs/pc-continuous-attack-audit-20261014'
+def read(name):return json.loads((P/name/'mock-cost.json').read_text(encoding='utf8'))
+base=read('raw-release');a=read('flash-only-candidate-final');b=read('packaged-shared-budget');rows=[]
+names={('clorinde','clorinde'):'双克洛琳德',('furina','arlecchino'):'芙宁娜＋仆人',('raidenshogun','nahida'):'雷电＋纳西妲'}
+for pair,name in names.items():
+ before=next(x for x in base['rows'] if tuple(x['pair'])==pair and x['scenario']=='attack-natural');A=next(x for x in a['rows'] if tuple(x['pair'])==pair and x['scenario']=='attack-natural');B=next(x for x in b['rows'] if tuple(x['pair'])==pair and x['scenario']=='attack-natural')
+ rows.append({'pair':name,'baseline':before,'flashOnly':A,'sharedBudget':B,'peakReductionPercent':round((1-B['callsPeak']/before['callsPeak'])*100,1),'averageInstructionIncreasePercent':round((B['instructionsMean']/before['instructionsMean']-1)*100,1)})
+assert b['sourceSha256']==json.loads((O/'shared-budget/build.json').read_text())['sha256']
+(O/'comparison.json').write_text(json.dumps({'scope':'offline calls, not native FPS','rows':rows,'baselineSha256':base['sourceSha256'],'ASha256':a['sourceSha256'],'BSha256':b['sourceSha256']},ensure_ascii=False,indent=2),encoding='utf8')
+table='\n'.join(f"|{x['pair']}|{x['baseline']['callsPeak']}|{x['flashOnly']['callsPeak']}|{x['sharedBudget']['callsPeak']}|{x['peakReductionPercent']}%|" for x in rows)
+text='''# PC连续攻击性能候选 · 安装与验证
+
+2026-10-14，V9。当前仍是候选，不声称真机帧率已恢复。旧六角色无压缩稳定版及尺寸修复交付保留。
+
+## 两份独立对照
+
+- A：`gia/gpt_20261014_PC连续攻击_A_仅闪白优化_仅脚本.gia`。PC闪白按逻辑拍结束，改固定透明度，不每回调重写整身alpha；完整轮廓在隐藏状态分批准备，等待时有轻量命中光环。可能短命中只显示光环，属于明确显示适配，待美术确认。
+- B：`gia/gpt_20261014_PC连续攻击_B_闪白与共享绘制预算_仅脚本.gia`。含A，再给PC双身体缓冲、闪白、旧角色动画特效及角色独立特效通道共享每回调3200属性写入预算，两名角色各1600上限。按实际变化写入计数并为新叶保守预留；完整背缓冲完成再发布，尾部隐藏也分批。角色特效淡出四档，预算不足时保留上一完整透明度。
+
+手机保留原轻量闪白与原绘制调度，不启用PC共享预算。两个候选仍为六角色、协议6、无LZ4；未改伤害、取消窗口、Q首击确认、服务器节点、信号、按键映射和触摸标题入口。当前开发源码包含B，已重新生成runtime/dist；GIA使用独立无压缩构建，不用开发大体积脚本替代。
+
+## 使用
+
+同一PC、同一角色配对和场景，先保留当前脚本并记录连续攻击时FPS/最大毫秒/丢时；然后替换主脚本为A，再试B。一次只挂载一份，使用已有GF_HOST。已有UI、B图片模板、服务器节点和变量无需重导。不要把两份候选同时挂载。恢复时换回之前的尺寸修复脚本。
+
+每份都比较待机、移动、连续普通攻击、连续受击、E/Q、冻结与跨回合；尤其确认B有没有明显延后动作或特效消失。若帧率未改善而显示延迟增加，记录该配对与场景，不把离线调用减少当验收。只生成项目内文件，未复制外部目录或安装到关卡。
+
+## 离线结果
+
+普通连续攻击每回调控件调用峰值，来自同输入安排和模拟哈希的隔离PC近似器；不是实际FPS。每份27场4860测量回调，自然攻击组与追加视觉命中压力组分开。
+
+|配对|旧候选|A闪白|B共享预算|B峰值下降|
+|---|---:|---:|---:|---:|
+'''+table+'''
+
+B普通攻击平均调用下降约12%–14%；为检查预算增加了判断，平均Lua指令增加约4%–6%，峰值指令下降。实际引擎可能受CPU、UI布局或GPU限制，必须测量净效果，不承诺帧率按调用降幅同比提升。
+
+B规则3600拍旧角色全状态差分、240拍芙宁娜快照、188＋161像素状态通过；PC与手机横/竖屏开始→选人→战斗→暂停→结算→重赛→重选通过，60ms延迟/抖动/3%丢包、71/71回滚与断线结算通过。A规则/像素检查与27场负载实验通过，未单独重复A的整套联机流程。
+
+新增专项检查180回调的已发布身体矩形位置/尺寸/完整性，注册预算峰值3196≤3200；此情境连续落后目标姿势最多2回调（60Hz下约33ms），不是所有角色/E/Q/设备的延迟上限。60/30/15回调频率下，闪白在逻辑截止后的首次显示更新关闭，不随低显示频率拉长到五个回调；冻结完整覆盖检查通过。模拟器截图中的60FPS来自固定输入dt，不能当真机60FPS证明。
+
+## 边界与剩余项
+
+3200是本批PC实验默认值，不是千星通用预算。它覆盖已注册的Bitmap分批几何与角色特效透明度；HUD、父容器变换、粒子、投射物、背景/大招立绘、未注册一次性绘制及池管理仍在预算外。因此总控件调用峰值可略高于3200，E/Q等其他峰值仍待专项处理。控件池PC16000/手机12000不变，矩形原图和角色尺度不变。一般攻击跨帧尺寸匹配尚未实施。
+
+失败修订已留记录：最初取消未显示闪白任务会打断加载阶段预热，已限定到预热完成后；旧测试期待一步完成全身闪白，改为验证即时光环、隐藏准备与完整发布，新逻辑时钟和预算测试另行补充。实验旧版本在性能调查目录保留，最终以本目录build与GIA清单为准。
+
+证据：`comparison.json`、`logic-and-pixels.json`、`flash-only-logic-and-pixels.json`、`mock-flow.json`、`budget-and-feedback.json`、`attack-PC.png`、`frozen-PC.png`。GIA只替换一个脚本文本字段，反向替换与原仅脚本GIA逐字节一致，保留脚本身份与其他字段；原生导入/真机尚未验证。
+
+后续用户反馈分开记录：移动端开始页无法进入见`docs/current/移动端开始页无法进入反馈_20261014.md`；大招受理反馈与按键说明见`docs/current/大招受理反馈与操作说明优化方案_20261014.md`。两项本批只调查/设计，未偷偷改进性能候选。
+'''
+(O/'安装与验证说明.md').write_text(text,encoding='utf8')
+note='> 2026-10-14 PC连续攻击优化候选：A仅闪白、B再加PC注册Bitmap共享3200写入预算已生成仅脚本GIA。B普通攻击峰值降48%–56%，规则/像素/完整流程与回滚通过；180回调完整发布及逻辑计时通过，真机净效果待验。四显示模块更新，不改战斗规则，手机不启用共享预算。见[安装与验证](../../outputs/pc-attack-budget-20261014/安装与验证说明.md)。移动端标题单例及大招/操作说明反馈另有调查方案，未改实现。\n\n'
+p=R/'docs/current/V9_执行与验收台账_20261013.md';s=p.read_text(encoding='utf8')
+if 'PC连续攻击优化候选：' not in s:p.write_text(note+s,encoding='utf8')
+p=R/'AI_START.md';s=p.read_text(encoding='utf8');note=note.replace('../../outputs/','outputs/')
+if not s.startswith('> 2026-10-14 PC连续攻击优化候选：'):p.write_text(note+s,encoding='utf8')
+manifest={'date':'2026-10-14','version':'V9','runtimeIntegratedCandidate':True,'nativeDeviceVerified':False,'externalPublished':False,'files':[]}
+for p in O.rglob('*'):
+ if p.is_file() and p.name!='delivery.json':manifest['files'].append({'file':p.relative_to(O).as_posix(),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size})
+(O/'delivery.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+print('Two candidates documented; user feedback plans recorded')

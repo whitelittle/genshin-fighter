@@ -1,0 +1,61 @@
+from pathlib import Path
+import json,hashlib
+r=Path.cwd();o=r/'outputs/arlecchino-actions-20261011';v=json.loads((o/'verification.json').read_text(encoding='utf-8'))
+text='''# 阿蕾奇诺完整动作候选交付
+
+2026-10-12。匿名玩家要求逐角色推进至动作交付；本包仅制作阿蕾奇诺。克洛琳德暂通过的决定保留，其他角色未新增或修改正式素材，未发布外部应用。
+
+入口：[完整播放器](player.html)。25组、138个主序列显示状态，含保持与共享姿势；120个活动身体图（包括低位投/被投变体）、8个独立特效与独立头像。不是138张独立新绘图。
+
+## 本批完成与证据
+
+|项目|交付内容|验证层级|
+|---|---|---|
+|母版体型|首版过长停用，正常成年比例母版、浅深底与世界尺度板、逐源制图单位|源图/显示单位候选已核对；最终美术由匿名玩家复核|
+|25组动作|待机、移动、防御、轻重/蹲空攻、E/Q、投/被投、受击倒地、起身、胜败|全部文件与独立播放有覆盖；原图/保持/共享明确区分|
+|Q统一演出|短切确认→头像→蓄势→释放→三波血火冲击/对手反应→收束恢复|完整162tick；防御/空挥24tick，不进完整背景/头像；独立演出检查|
+|特效分层|横/上/下镰光、火翼，光点/命中/标记/释放小图元，头像单独调色板|8层独立PNG与矩形；引导点绑定实际手掌，标记绑定对手|
+|投技配对|成人/低位自身姿，8tick控制、32tick释放，接触点与脚底约束；被投同时间线|两原对手素材PNG及单位保持，48配对状态检查；非正式抓取/逃脱逻辑|
+|单向倒地起身|头左脚右；落地在被投/倒地/起身共享，起身回待机|8次场景边界root与图片一致；整体镜像，不逐姿翻向|
+|透明/拟合|实际轮廓与枪杆归属，禁止把邻姿误恢复为内部阴影；保护原RGBA|120对象28源图高alpha重复归属为0；全部实际活动目标矩形重建一致|
+|交付数据|原图、提示词、脚本、PNG/JSON/JS、帧表CSV、Lua5.3纯数据、哈希与负载计划|Lua纯数据载入通过，不等于游戏模拟器|
+
+检查范围见`verification.json`：276主序列源图/拟合状态、32 Q分支状态、48配对状态、8倒地起身边界，无记录控制台错误。关键截图：`evidence/Q-portrait-final.jpg`、`Q-full-final.jpg`、`throw-raiden-initial.jpg`、`throw-low-forearm-v2.jpg`。前期误归邻姿的失败截图与源试图保留历史，不作为通过证据。
+
+## 文件与重建
+
+- `actions.json`、`action-data.js`：身体序列、源坐标、制图单位、锚点、时序/保持/变体/事件。
+- `effects.json`、`effect-data.js`、`fx-bindings.json`：独立效果与实际手掌绑定。
+- `pairing-profiles.json`、`opponent-models.json`：接触点、原对手参数与身体适配。
+- `frames/`、`fit/`、`source/`、`prompts/`：逐对象、拟合、原图和完整生成提示词。复杂源图使用内置image_gen；基础光点/标记/命中图形为可复现代码图元，不是占位图。
+- `frame-order.csv`、`arlecchino_animation_data.lua`：帧表与独立纯数据导出；矩形颜色索引从0开始，Lua消费者访问palette时用c+1。
+- `load-plan.json`、`verification.json`、`manifest.json`、`browser-full-delivery.json`：负载候选、检查、哈希和独立浏览器证据。
+
+从项目根目录重建已有源图（不重复生成、不运行旧UI壳覆盖完整播放器）：
+
+```powershell
+python work/arlecchino_fit_initial.py
+python work/arlecchino_pairing_profiles.py
+python work/arlecchino_effects_portrait_opponents.py
+python work/arlecchino_effect_bindings.py
+python work/check_arlecchino_ownership.py
+python work/check_arlecchino_full_delivery.py
+```
+
+完整播放器使用`player-v2.js`；旧`player.js`与早期检查点脚本保留历史，不能覆盖最新版本。服务仅指向本包：`python -m http.server 8770 --bind 127.0.0.1 --directory outputs/arlecchino-actions-20261011`。
+
+## 明确边界
+
+本包完成的是完整动作候选的制作/拟合/独立演出交付。最终美术观感和细节一致性仍待用户复核；正式战斗的判定盒、伤害/硬直/取消平衡、命中确认来源、抓取/逃脱/墙边、速度/碰撞继承及确定性回滚尚未接入。独立播放器通过不登记模拟器或真机通过。
+
+活动身体峰值1385矩形，单特效峰值641；两同角色双身体缓冲容量候选5540，两个身体加两个最大特效的可见估计4052。它们不是平台硬预算合格证明；隐藏控件、实际更新/并发与设备成本未测。正式游戏/平台开放须另外验收。
+
+当前仅这一位新角色；完成本候选包不推断为下一位或批量制作授权。
+'''
+(o/'完整动作候选交付.md').write_text(text,encoding='utf-8')
+f=o/'制作与交付.md';s=f.read_text(encoding='utf-8');s='> 最新完整候选入口：[完整动作候选交付](完整动作候选交付.md)。25组/138主状态/120身体图/8特效；下方保留各阶段历史，最终边界以完整交付说明为准。\n\n'+s;f.write_text(s,encoding='utf-8')
+status={'character':'arlecchino','assetProductionStatus':'complete candidate delivery','actionsWithNewPoses':25,'mainDisplayStates':138,'uniqueBodySpritesIncludingVariants':120,'effects':8,'pendingNewGroups':[],'candidateDelivery':'完整动作候选交付.md','verification':'verification.json','renderer':'player-v2.js','sourceTool':'built-in image_gen plus code-native small FX recipes','artUserAccepted':False,'battleRuntimeIntegrated':False,'simulator':'not run','device':'not observed','performanceAccepted':False,'followupOutsideAssetDelivery':['final user art review','combat boxes/balance/cancel/throw escape/wall limits','deterministic battle integration','platform pool/device validation'],'doNotStartAnotherCharacter':True}
+(o/'current-status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')
+for p in [r/'AI_START.md',r/'docs/current/V4_执行与验收台账_20261009.md']:
+ with p.open('a',encoding='utf-8') as f:f.write('\n> 2026-10-12 阿蕾奇诺完整动作候选交付：25组/138主状态/120身体图（含低位投/被投）/8独立特效及独立头像，Q162/短24、单向落地共享与原对手配对已保存；实际目标重建、Lua5.3纯数据、276主状态+32Q+48配对+8边界浏览器检查通过。不是正式战斗/平台预算/模拟器/真机验收。入口`outputs/arlecchino-actions-20261011/完整动作候选交付.md`，本次只完成这一位新角色，不自动制作下一位。\n')
+files={f.relative_to(o).as_posix():{'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in o.rglob('*') if f.is_file() and f.name!='manifest.json'};(o/'manifest.json').write_text(json.dumps({'status':'complete candidate asset delivery; not formal game/device acceptance','files':files},ensure_ascii=False,indent=2),encoding='utf-8');print('Full candidate delivery documentation and manifest saved')

@@ -1,0 +1,14 @@
+from pathlib import Path
+import json
+p=Path('outputs/arlecchino-actions-20261011');f=p/'source-calibration.json';c=json.loads(f.read_text(encoding='utf-8'));c.update({
+'E-body-v1':{'bodySeeds':[[420,250],[1035,250],[365,645],[1100,620],[360,975],[1000,975]],'bladeCenters':[[-999,-999],[-999,-999],[620,665],[1285,675],[606,943],[-999,-999]],'minBladeArea':6000,'shaftHints':[[[-999,-999],[-998,-998]],[[-999,-999],[-998,-998]],[[130,555],[622,700]],[[855,505],[1295,718]],[[140,966],[600,958]],[[-999,-999],[-998,-998]]],'supportY':[423,422,790,797,1151,1154]},
+'Q-body-v1':{'bodySeeds':[[265,300],[835,290],[275,820],[815,820],[278,1300],[833,1300]],'bladeCenters':[[544,341],[-999,-999],[-999,-999],[954,846],[568,1310],[-999,-999]],'minBladeArea':6000,'shaftHints':[[[60,203],[568,320]],[[-999,-999],[-998,-998]],[[-999,-999],[-998,-998]],[[690,714],[946,848]],[[46,1150],[568,1330]],[[-999,-999],[-998,-998]]],'supportY':[506,533,1000,1008,1504,1508]},
+'hit-knockdown-v1':{'supportY':[642,631,973,979]},'wakeup-v1':{'supportY':[677,690,706]},'victim-v1':{'supportY':[772,762,1380,1520]},'throw-adult-v1':{'supportY':[634,636,1285,1285]},'throw-low-v1':{'supportY':[708,716,1447,1444]}})
+f.write_text(json.dumps(c,ensure_ascii=False,indent=2),encoding='utf-8');f=p/'additional-body-plans.json';plans=json.loads(f.read_text(encoding='utf-8'));new=[
+{'key':'E','label':'E · 万相化灰','source':'source/E-v1.png','group':'E-body-v1','n':6,'unit':.70,'hips':[420,1035,365,1100,360,1000],'durations':[4,6,6,4,8,12],'phases':['引导抬手','指向','持镰','切斩有效','制动','收势'],'hitTick':18,'appendIdle':True,'motion':{'kind':'dash','distance':85,'beginTick':10,'endTick':20,'height':0}},
+{'key':'Q','label':'Q · 厄月将升','source':'source/Q-body-v1.png','group':'Q-body-v1','n':6,'unit':.65,'hips':[265,835,275,815,278,833],'durations':[6,6,10,18,24,10],'phases':['短切确认','确认收势','蓄势','释放','截击','收束'],'hitTick':6},
+{'key':'hit_knockdown','label':'受击与倒地','source':'source/hit-knockdown-v1.png','group':'hit-knockdown-v1','n':4,'unit':.50,'hips':[335,1080,370,1150],'durations':[4,6,8,18],'phases':['站受击','失衡','侧倒','落地'],'weaponLayer':'none'},
+{'key':'wakeup','label':'起身','source':'source/wakeup-v1.png','group':'wakeup-v1','n':3,'unit':.46,'hips':[510,1270,1850],'durations':[8,10,8],'phases':['侧撑','单膝','站稳'],'weaponLayer':'none'},
+{'key':'victim','label':'被投','source':'source/victim-v1.png','group':'victim-v1','n':4,'unit':.44,'hips':[280,790,350,780],'durations':[4,4,8,16],'phases':['接触','牵引','离地','侧落'],'weaponLayer':'none'},
+{'key':'throw','label':'投技','source':'source/throw-adult-v1.png','group':'throw-adult-v1','n':4,'unit':.46,'hips':[345,900,450,965],'durations':[4,8,16,6],'phases':['接近','控制','前送','释放'],'weaponLayer':'none','appendIdlePrefix':True}]
+plans=[x for x in plans if x['key'] not in {y['key'] for y in new}]+new;f.write_text(json.dumps(plans,ensure_ascii=False,indent=2),encoding='utf-8')

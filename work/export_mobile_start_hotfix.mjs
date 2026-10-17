@@ -1,0 +1,10 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {decode,encode} from './node-gia-wire.mjs';
+const O='outputs/mobile-start-hotfix-20261014';fs.mkdirSync(O+'/gia',{recursive:true});
+const bases=[['stable','outputs/body-scale-fix-20261013/gia/gpt_20261013_同角色尺寸修复_仅脚本.gia','outputs/body-scale-fix-20261013/release/genshin_fighter.lua','稳定基线'],['pc-budget','outputs/pc-attack-budget-20261014/gia/gpt_20261014_PC连续攻击_B_闪白与共享绘制预算_仅脚本.gia','outputs/pc-attack-budget-20261014/shared-budget/genshin_fighter.lua','保留PC预算候选']];
+let count=0;const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+function patch(fields,from,to){return fields.map(f=>{if(f.w!==2)return f;if(f.v.equals(from)){count++;return {...f,v:to}}try{const a=decode(f.v);if(!encode(a).equals(f.v))return f;const n=count,r=patch(a,from,to);return n===count?f:{...f,v:encode(r)}}catch{return f}})}
+const files=[];for(const [variant,templatePath,sourcePath,label]of bases){const old=fs.readFileSync(sourcePath),source=fs.readFileSync(O+'/'+variant+'/genshin_fighter.lua'),template=fs.readFileSync(templatePath);assert.equal(template.readUInt32BE(16),template.length-24);
+const envelope=payload=>{const h=Buffer.from(template.subarray(0,20));h.writeUInt32BE(payload.length+20,0);h.writeUInt32BE(payload.length,16);return Buffer.concat([h,payload,template.subarray(-4)])};
+count=0;const output=envelope(encode(patch(decode(template.subarray(20,-4)),old,source)));assert.equal(count,1);count=0;const restored=envelope(encode(patch(decode(output.subarray(20,-4)),source,old)));assert.equal(count,1);assert(restored.equals(template));
+const filename='gpt_20261014_移动端开始紧急修复_'+label+'_仅脚本.gia';fs.writeFileSync(O+'/gia/'+filename,output);files.push({variant,filename,sha256:sha(output),sourceSha256:sha(source),bytes:output.length,reverseTemplateByteIdentical:true});}
+fs.writeFileSync(O+'/gia/delivery.json',JSON.stringify({protocolVersion:6,changedModules:['gf_input','gf_scene_title'],nativeImportVerified:false,nativeDeviceVerified:false,externalDelivery:false,files},null,2));console.log(JSON.stringify(files));

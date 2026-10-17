@@ -1,0 +1,43 @@
+{
+  "sha": "53ea33cff52b5c55d71207acb6fa0a7eb97eec6d",
+  "url": "https://api.github.com/repos/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc/git/trees/53ea33cff52b5c55d71207acb6fa0a7eb97eec6d",
+  "tree": [
+    {
+      "path": "#swc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "145c87bfe62fd93b7d451ccb776e93507578747e",
+      "url": "https://api.github.com/repos/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc/git/trees/145c87bfe62fd93b7d451ccb776e93507578747e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "847d00c3cb7b1546dba4aecf488791a17ddee94e",
+      "size": 65,
+      "url": "https://api.github.com/repos/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc/git/blobs/847d00c3cb7b1546dba4aecf488791a17ddee94e"
+    },
+    {
+      "path": "effect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e817ca087930135dda82d9f3173f3982c5855040",
+      "url": "https://api.github.com/repos/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc/git/trees/e817ca087930135dda82d9f3173f3982c5855040"
+    },
+    {
+      "path": "fighter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7be2ee724092595269af72cb4315b174b674750",
+      "url": "https://api.github.com/repos/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc/git/trees/a7be2ee724092595269af72cb4315b174b674750"
+    },
+    {
+      "path": "ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d822e82504633b6ce389003117aa34da5c316f0",
+      "url": "https://api.github.com/repos/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc/git/trees/9d822e82504633b6ce389003117aa34da5c316f0"
+    }
+  ],
+  "truncated": false
+}

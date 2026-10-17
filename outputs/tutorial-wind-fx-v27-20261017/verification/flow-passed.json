@@ -1,0 +1,87 @@
+{
+  "clientSha256": "33144fcb2172016be3a5e15f03c166cf3814b4ceeea248cc11c37f052ce03220",
+  "passed": true,
+  "offlineOnly": true,
+  "result": {
+    "local": [
+      {
+        "device": "KeyboardAndMouse",
+        "canvas": [
+          1600,
+          900
+        ],
+        "titleMenuSelectFightPauseResultRematchReselect": true,
+        "characters": [
+          4,
+          3
+        ],
+        "updates": 2743,
+        "maxMockInstructions": 733185,
+        "stats": {
+          "controls": 16186,
+          "active": 3831,
+          "visibleImages": 3794,
+          "visibleTexts": 25,
+          "glyphs": 151
+        }
+      },
+      {
+        "device": "Mobile",
+        "canvas": [
+          1600,
+          900
+        ],
+        "titleMenuSelectFightPauseResultRematchReselect": true,
+        "characters": [
+          4,
+          3
+        ],
+        "updates": 2564,
+        "maxMockInstructions": 755545,
+        "stats": {
+          "controls": 12186,
+          "active": 3831,
+          "visibleImages": 3794,
+          "visibleTexts": 25,
+          "glyphs": 151
+        }
+      },
+      {
+        "device": "Mobile",
+        "canvas": [
+          900,
+          1600
+        ],
+        "titleMenuSelectFightPauseResultRematchReselect": true,
+        "characters": [
+          4,
+          3
+        ],
+        "updates": 2564,
+        "maxMockInstructions": 752548,
+        "stats": {
+          "controls": 12186,
+          "active": 3831,
+          "visibleImages": 3794,
+          "visibleTexts": 25,
+          "glyphs": 151
+        }
+      }
+    ],
+    "network": {
+      "characters": [
+        4,
+        3
+      ],
+      "commonConfirmedHashes": 4,
+      "rollbacks": [
+        70,
+        71
+      ],
+      "latency": 0.06,
+      "jitter": 0.04,
+      "packetLoss": 0.03,
+      "disconnectToResult": true
+    }
+  }
+}

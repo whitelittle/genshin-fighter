@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "checks-d.lua": {
+      "passed": true,
+      "assertions_log": [
+        "PASS 60-tick frozen intro, 20-tick FIGHT, no held attack leakage, next-round reset",
+        "PASS retirement budget, no double enqueue, no early reuse, pinned buffers",
+        "PASS animated Raiden idle, no walking inbetween, aligned boot anchors"
+      ]
+    },
+    "checks-e.lua": {
+      "passed": true,
+      "assertions_log": [
+        "PASS preallocated raidenshogun",
+        "PASS preallocated nahida",
+        "PASS idle sample 1:1",
+        "PASS walk uses ground frames 1:0",
+        "PASS six gait poses 1",
+        "PASS reverse gait 1",
+        "PASS idle sample 2:1",
+        "PASS walk uses ground frames 2:0",
+        "PASS six gait poses 2",
+        "PASS reverse gait 2",
+        "PASS gait clock follows simulation",
+        "PASS four simulation ticks advance gait four ticks",
+        "PASS Nahida walking grounded",
+        "PASS body visible 1",
+        "BODY_WRITE_PEAK 1 1600",
+        "PASS body visible 2",
+        "BODY_WRITE_PEAK 2 1600",
+        "PASS single primitive stage",
+        "PASS stage under 40 primitives",
+        "STAGE_NODES 38",
+        "PASS primitive menu background",
+        "MENU_NODES 22",
+        "PASS fixed stage versus",
+        "PASS skip stage picker versus",
+        "PASS fixed stage training",
+        "PASS skip stage picker training",
+        "PASS fixed stage arcade",
+        "PASS skip stage picker arcade",
+        "PASS fixed stage online",
+        "PASS skip stage picker online",
+        "PASS prediction exhaustion counted",
+        "PASS confirmed input resumes without extra stall",
+        "PASS diagnostics enabled without overlay",
+        "ALL CHECKS PASSED",
+        "PASS idle hit and ice overlay idle_0",
+        "PASS idle hit and ice overlay idle_1",
+        "PASS candidate 36 poses preparation, body buffers, slice budget, current-image flash, disabled unfinished actions, snapshot replay, baseline attacks"
+      ]
+    }
+  },
+  "source_reassembly_passed": true,
+  "client_sha256": "059621f9059add015d279dd6eafc09257f8ff4721a9d165ed9e3c7869c77630c",
+  "scope": "Lua logic/data/view methods with mocked native UI; not full simulator screenshots or true-device testing",
+  "native_device_tested": false,
+  "formal_role_accepted": false,
+  "candidate_36_decoded_target_frames_exact": true,
+  "full_state_snapshot_replay_ticks": 180
+}

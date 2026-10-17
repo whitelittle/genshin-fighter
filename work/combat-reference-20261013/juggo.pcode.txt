@@ -1,0 +1,3975 @@
+
+METHOD 0 bsface1::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 1 bsface1::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getlocal_2 
+0005: constructsuper 2
+0007: returnvoid 
+
+METHOD 2 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict bsface1
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.display::BitmapData
+000b: pushscope 
+000c: getlex flash.display::BitmapData
+000e: newclass 0
+0010: popscope 
+0011: popscope 
+0012: initproperty bsface1
+0014: returnvoid 
+
+METHOD 3 bsface2::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 4 bsface2::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getlocal_2 
+0005: constructsuper 2
+0007: returnvoid 
+
+METHOD 5 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict bsface2
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.display::BitmapData
+000b: pushscope 
+000c: getlex flash.display::BitmapData
+000e: newclass 1
+0010: popscope 
+0011: popscope 
+0012: initproperty bsface2
+0014: returnvoid 
+
+METHOD 6 bsface3::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 7 bsface3::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getlocal_2 
+0005: constructsuper 2
+0007: returnvoid 
+
+METHOD 8 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict bsface3
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.display::BitmapData
+000b: pushscope 
+000c: getlex flash.display::BitmapData
+000e: newclass 2
+0010: popscope 
+0011: popscope 
+0012: initproperty bsface3
+0014: returnvoid 
+
+METHOD 9 snd_die::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 10 snd_die::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 11 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_die
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.events::EventDispatcher
+000c: pushscope 
+000d: getlex flash.media::Sound
+000f: pushscope 
+0010: getlex flash.media::Sound
+0012: newclass 3
+0014: popscope 
+0015: popscope 
+0016: popscope 
+0017: initproperty snd_die
+0019: returnvoid 
+
+METHOD 12 snd_hurt1::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 13 snd_hurt1::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 14 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt1
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.events::EventDispatcher
+000c: pushscope 
+000d: getlex flash.media::Sound
+000f: pushscope 
+0010: getlex flash.media::Sound
+0012: newclass 4
+0014: popscope 
+0015: popscope 
+0016: popscope 
+0017: initproperty snd_hurt1
+0019: returnvoid 
+
+METHOD 15 snd_hurt2::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 16 snd_hurt2::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 17 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt2
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.events::EventDispatcher
+000c: pushscope 
+000d: getlex flash.media::Sound
+000f: pushscope 
+0010: getlex flash.media::Sound
+0012: newclass 5
+0014: popscope 
+0015: popscope 
+0016: popscope 
+0017: initproperty snd_hurt2
+0019: returnvoid 
+
+METHOD 18 snd_hurt3::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 19 snd_hurt3::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 20 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt3
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.events::EventDispatcher
+000c: pushscope 
+000d: getlex flash.media::Sound
+000f: pushscope 
+0010: getlex flash.media::Sound
+0012: newclass 6
+0014: popscope 
+0015: popscope 
+0016: popscope 
+0017: initproperty snd_hurt3
+0019: returnvoid 
+
+METHOD 21 snd_hurt4::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 22 snd_hurt4::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 23 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt4
+0005: getlex Object
+0008: pushscope 
+0009: getlex flash.events::EventDispatcher
+000c: pushscope 
+000d: getlex flash.media::Sound
+000f: pushscope 
+0010: getlex flash.media::Sound
+0012: newclass 7
+0014: popscope 
+0015: popscope 
+0016: popscope 
+0017: initproperty snd_hurt4
+0019: returnvoid 
+
+METHOD 24 juggo_fla::mc_020_3::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 25 juggo_fla::mc_020_3::juggo_fla::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 26 juggo_fla::mc_020_3::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: callpropvoid addFrameScript, 2
+0012: returnvoid 
+
+METHOD 27 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.display::DisplayObject
+000f: pushscope 
+0010: getlex flash.display::InteractiveObject
+0013: pushscope 
+0014: getlex flash.display::DisplayObjectContainer
+0017: pushscope 
+0018: getlex flash.display::Sprite
+001b: pushscope 
+001c: getlex flash.display::MovieClip
+001e: pushscope 
+001f: getlex flash.display::MovieClip
+0021: newclass 8
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: popscope 
+002a: initproperty juggo_fla::mc_020_3
+002c: returnvoid 
+
+METHOD 28 juggo_fla::mc_021_2::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 29 juggo_fla::mc_021_2::juggo_fla::frame10
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 30 juggo_fla::mc_021_2::juggo_fla::frame13
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid walk, 0
+000c: returnvoid 
+
+METHOD 31 juggo_fla::mc_021_2::juggo_fla::frame20
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid walk, 0
+000c: returnvoid 
+
+METHOD 32 juggo_fla::mc_021_2::juggo_fla::frame24
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 走
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 33 juggo_fla::mc_021_2::juggo_fla::frame26
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 34 juggo_fla::mc_021_2::juggo_fla::frame27
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 3
+000a: callpropvoid dash, 1
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: callpropvoid setBisha, 0
+0018: getlex parent
+001b: getproperty $mc_ctrler
+001e: callpropvoid setBishaUP, 0
+0022: getlex parent
+0025: getproperty $mc_ctrler
+0028: callpropvoid setBishaSUPER, 0
+002c: getlex parent
+002f: getproperty $effect_ctrler
+0032: callpropvoid dash, 0
+0036: returnvoid 
+
+METHOD 35 juggo_fla::mc_021_2::juggo_fla::frame34
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid dashStop, 0
+000c: returnvoid 
+
+METHOD 36 juggo_fla::mc_021_2::juggo_fla::frame37
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 37 juggo_fla::mc_021_2::juggo_fla::frame68
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 38 juggo_fla::mc_021_2::juggo_fla::frame74
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getproperty isBeHitByWu
+0006: iffalse 25
+000a: getlex parent
+000d: getproperty $fighter_ctrler
+0010: callpropvoid setDirectToTarget, 0
+0014: getlocal_0 
+0015: pushfalse 
+0016: initproperty isBeHitByWu
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: pushtrue 
+0020: callpropvoid setAirMove, 1
+0024: returnvoid 
+
+METHOD 39 juggo_fla::mc_021_2::juggo_fla::frame81
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 跳招
+000b: callpropvoid setSkillAIR, 1
+000f: returnvoid 
+
+METHOD 40 juggo_fla::mc_021_2::juggo_fla::frame88
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 41 juggo_fla::mc_021_2::juggo_fla::frame90
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 1.5
+000a: pushdouble -1.2
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushbyte 0
+0018: pushdouble 0.1
+001a: callpropvoid dampingPercent, 2
+001e: returnvoid 
+
+METHOD 42 juggo_fla::mc_021_2::juggo_fla::frame92
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring tz0atm
+000a: pushstring 跳招1
+000d: callpropvoid setHitTarget, 2
+0011: getlex parent
+0014: getproperty $mc_ctrler
+0017: pushstring 跳招1
+001a: pushtrue 
+001b: callpropvoid setTouchFloor, 2
+001f: returnvoid 
+
+METHOD 43 juggo_fla::mc_021_2::juggo_fla::frame98
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 跳招loop
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 44 juggo_fla::mc_021_2::juggo_fla::frame99
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 15
+000a: pushbyte -10
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.7
+0018: pushdouble 0.8
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 45 juggo_fla::mc_021_2::juggo_fla::frame100
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushbyte 0
+000e: setproperty airHitTimes
+0011: getlex parent
+0014: getproperty $mc_ctrler
+0017: callproperty getAction, 0
+001b: pushbyte 0
+001d: setproperty jumpTimes
+0020: returnvoid 
+
+METHOD 46 juggo_fla::mc_021_2::juggo_fla::frame111
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 47 juggo_fla::mc_021_2::juggo_fla::frame114
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: returnvoid 
+
+METHOD 48 juggo_fla::mc_021_2::juggo_fla::frame119
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 49 juggo_fla::mc_021_2::juggo_fla::frame127
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 5
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.5
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 50 juggo_fla::mc_021_2::juggo_fla::frame136
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍2
+000b: callpropvoid setAttack, 1
+000f: returnvoid 
+
+METHOD 51 juggo_fla::mc_021_2::juggo_fla::frame145
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 52 juggo_fla::mc_021_2::juggo_fla::frame152
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring b
+000a: pushstring applyG
+000d: pushfalse 
+000e: newobject 1
+0010: callpropvoid addAttacker, 2
+0014: returnvoid 
+
+METHOD 53 juggo_fla::mc_021_2::juggo_fla::frame153
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 6
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.6
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 54 juggo_fla::mc_021_2::juggo_fla::frame159
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍3
+000b: callpropvoid setAttack, 1
+000f: returnvoid 
+
+METHOD 55 juggo_fla::mc_021_2::juggo_fla::frame166
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 56 juggo_fla::mc_021_2::juggo_fla::frame169
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 57 juggo_fla::mc_021_2::juggo_fla::frame176
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid dash, 0
+000c: returnvoid 
+
+METHOD 58 juggo_fla::mc_021_2::juggo_fla::frame177
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 20
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushstring b
+0018: pushstring applyG
+001b: pushfalse 
+001c: newobject 1
+001e: callpropvoid addAttacker, 2
+0022: returnvoid 
+
+METHOD 59 juggo_fla::mc_021_2::juggo_fla::frame180
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 5
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.3
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 60 juggo_fla::mc_021_2::juggo_fla::frame187
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍4
+000b: callpropvoid setAttack, 1
+000f: returnvoid 
+
+METHOD 61 juggo_fla::mc_021_2::juggo_fla::frame192
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 62 juggo_fla::mc_021_2::juggo_fla::frame195
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 63 juggo_fla::mc_021_2::juggo_fla::frame209
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 8
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.5
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 64 juggo_fla::mc_021_2::juggo_fla::frame216
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍5
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: callpropvoid setBisha, 0
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: callpropvoid setBishaSUPER, 0
+0023: returnvoid 
+
+METHOD 65 juggo_fla::mc_021_2::juggo_fla::frame225
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 66 juggo_fla::mc_021_2::juggo_fla::frame232
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 67 juggo_fla::mc_021_2::juggo_fla::frame240
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 12
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.8
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 68 juggo_fla::mc_021_2::juggo_fla::frame246
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid setZhao3, 0
+000c: returnvoid 
+
+METHOD 69 juggo_fla::mc_021_2::juggo_fla::frame251
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 70 juggo_fla::mc_021_2::juggo_fla::frame259
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 71 juggo_fla::mc_021_2::juggo_fla::frame264
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 5
+000a: callpropvoid addQi, 1
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: pushbyte 10
+0016: pushbyte -10
+0018: callpropvoid move, 2
+001c: getlex parent
+001f: getproperty $mc_ctrler
+0022: pushbyte 0
+0024: pushbyte 1
+0026: callpropvoid damping, 2
+002a: getlex parent
+002d: getproperty $effect_ctrler
+0030: pushbyte 100
+0032: pushbyte 0
+0034: pushbyte -100
+0036: callpropvoid shadow, 3
+003a: returnvoid 
+
+METHOD 72 juggo_fla::mc_021_2::juggo_fla::frame268
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring sj一段
+000b: pushtrue 
+000c: callpropvoid setTouchFloor, 2
+0010: returnvoid 
+
+METHOD 73 juggo_fla::mc_021_2::juggo_fla::frame271
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stop, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushfalse 
+0013: pushfalse 
+0014: callpropvoid setSteelBody, 2
+0018: returnvoid 
+
+METHOD 74 juggo_fla::mc_021_2::juggo_fla::frame273
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushbyte 0
+000a: pushbyte 5
+000c: callpropvoid shake, 2
+0010: returnvoid 
+
+METHOD 75 juggo_fla::mc_021_2::juggo_fla::frame274
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: returnvoid 
+
+METHOD 76 juggo_fla::mc_021_2::juggo_fla::frame280
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring sj二段
+000b: callpropvoid setSkill1, 1
+000f: returnvoid 
+
+METHOD 77 juggo_fla::mc_021_2::juggo_fla::frame287
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 78 juggo_fla::mc_021_2::juggo_fla::frame292
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty skill1
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: callproperty getAction, 0
+001a: pushnull 
+001b: setproperty skill2
+001e: returnvoid 
+
+METHOD 79 juggo_fla::mc_021_2::juggo_fla::frame293
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 80 juggo_fla::mc_021_2::juggo_fla::frame307
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 5
+000a: callpropvoid addQi, 1
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: pushtrue 
+0015: pushfalse 
+0016: callpropvoid setSteelBody, 2
+001a: returnvoid 
+
+METHOD 81 juggo_fla::mc_021_2::juggo_fla::frame311
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: getlex parent
+0011: getproperty $effect_ctrler
+0014: callpropvoid endShadow, 0
+0018: getlex parent
+001b: getproperty $effect_ctrler
+001e: pushbyte 0
+0020: pushbyte 5
+0022: callpropvoid shake, 2
+0026: returnvoid 
+
+METHOD 82 juggo_fla::mc_021_2::juggo_fla::frame329
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 83 juggo_fla::mc_021_2::juggo_fla::frame339
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushtrue 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: pushbyte 5
+0016: callpropvoid addQi, 1
+001a: returnvoid 
+
+METHOD 84 juggo_fla::mc_021_2::juggo_fla::frame345
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 5
+000a: callpropvoid loseEnergy, 1
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: pushstring 招1x
+0017: callpropvoid setZhao1, 1
+001b: getlex parent
+001e: getproperty $mc_ctrler
+0021: pushstring 招3x
+0024: callpropvoid setZhao3, 1
+0028: returnvoid 
+
+METHOD 85 juggo_fla::mc_021_2::juggo_fla::frame346
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty zhao1
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: callproperty getAction, 0
+001a: pushnull 
+001b: setproperty zhao3
+001e: getlex parent
+0021: getproperty $mc_ctrler
+0024: pushbyte 16
+0026: pushbyte 0
+0028: callpropvoid move, 2
+002c: getlex parent
+002f: getproperty $mc_ctrler
+0032: pushdouble 0.8
+0034: pushbyte 0
+0036: callpropvoid damping, 2
+003a: getlex parent
+003d: getproperty $effect_ctrler
+0040: pushbyte 0
+0042: pushshort 255
+0045: pushshort 255
+0048: callpropvoid shadow, 3
+004c: returnvoid 
+
+METHOD 86 juggo_fla::mc_021_2::juggo_fla::frame352
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: returnvoid 
+
+METHOD 87 juggo_fla::mc_021_2::juggo_fla::frame354
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring kj2
+000b: pushfalse 
+000c: callproperty justHit, 2
+0010: iffalse 33
+0014: getlex parent
+0017: getproperty $mc_ctrler
+001a: pushstring 砍技22
+001d: callpropvoid gotoAndPlay, 1
+0021: returnvoid 
+
+METHOD 88 juggo_fla::mc_021_2::juggo_fla::frame356
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 89 juggo_fla::mc_021_2::juggo_fla::frame358
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid setDash, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushstring 砍技22
+0015: callpropvoid setAttack, 1
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: pushstring 砍技22
+0022: callpropvoid setSkill2, 1
+0026: returnvoid 
+
+METHOD 90 juggo_fla::mc_021_2::juggo_fla::frame361
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 91 juggo_fla::mc_021_2::juggo_fla::frame362
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 5
+000a: callpropvoid loseEnergy, 1
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: pushbyte 5
+0016: callpropvoid addQi, 1
+001a: getlex parent
+001d: getproperty $mc_ctrler
+0020: pushbyte 16
+0022: pushbyte 0
+0024: callpropvoid move, 2
+0028: getlex parent
+002b: getproperty $mc_ctrler
+002e: pushdouble 0.6
+0030: pushbyte 0
+0032: callpropvoid damping, 2
+0036: getlex parent
+0039: getproperty $mc_ctrler
+003c: pushtrue 
+003d: pushfalse 
+003e: callpropvoid setSteelBody, 2
+0042: getlex parent
+0045: getproperty $effect_ctrler
+0048: pushbyte 0
+004a: pushshort 255
+004d: pushshort 255
+0050: callpropvoid shadow, 3
+0054: returnvoid 
+
+METHOD 92 juggo_fla::mc_021_2::juggo_fla::frame369
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: returnvoid 
+
+METHOD 93 juggo_fla::mc_021_2::juggo_fla::frame370
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callproperty getTargetSP, 0
+000c: callproperty getCurrentTarget, 0
+0010: getproperty energy
+0013: pushbyte 20
+0015: ifnlt 50
+0019: getlex parent
+001c: getproperty $fighter_ctrler
+001f: getproperty hitModel
+0022: pushstring kj21
+0025: callproperty getHitVO, 1
+0029: pushbyte 1
+002b: setproperty hurtType
+002e: jump 71
+0032: getlex parent
+0035: getproperty $fighter_ctrler
+0038: getproperty hitModel
+003b: pushstring kj21
+003e: callproperty getHitVO, 1
+0042: pushbyte 0
+0044: setproperty hurtType
+0047: getlex parent
+004a: getproperty $fighter_ctrler
+004d: callproperty getTargetSP, 0
+0051: callproperty getCurrentTarget, 0
+0055: getproperty energy
+0058: pushbyte 20
+005a: ifnlt 119
+005e: getlex parent
+0061: getproperty $fighter_ctrler
+0064: getproperty hitModel
+0067: pushstring kj21
+006a: callproperty getHitVO, 1
+006e: pushbyte 10
+0070: setproperty hitx
+0073: jump 140
+0077: getlex parent
+007a: getproperty $fighter_ctrler
+007d: getproperty hitModel
+0080: pushstring kj21
+0083: callproperty getHitVO, 1
+0087: pushbyte 4
+0089: setproperty hitx
+008c: getlex parent
+008f: getproperty $mc_ctrler
+0092: pushstring upb
+0094: pushstring applyG
+0097: pushfalse 
+0098: newobject 1
+009a: callpropvoid addAttacker, 2
+009e: returnvoid 
+
+METHOD 94 juggo_fla::mc_021_2::juggo_fla::frame377
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring kj21
+000b: pushtrue 
+000c: callproperty justHit, 2
+0010: iffalse 53
+0014: getlex parent
+0017: getproperty $mc_ctrler
+001a: pushstring 招1_loop
+001d: callpropvoid setZhao1, 1
+0021: getlex parent
+0024: getproperty $mc_ctrler
+0027: callpropvoid setSkill1, 0
+002b: getlex parent
+002e: getproperty $mc_ctrler
+0031: callpropvoid setZhao2, 0
+0035: getlex parent
+0038: getproperty $mc_ctrler
+003b: callpropvoid setBishaSUPER, 0
+003f: returnvoid 
+
+METHOD 95 juggo_fla::mc_021_2::juggo_fla::frame380
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 96 juggo_fla::mc_021_2::juggo_fla::frame382
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid setBisha, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: callpropvoid setSkill1, 0
+0016: getlex parent
+0019: getproperty $mc_ctrler
+001c: callpropvoid setZhao2, 0
+0020: returnvoid 
+
+METHOD 97 juggo_fla::mc_021_2::juggo_fla::frame385
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 98 juggo_fla::mc_021_2::juggo_fla::frame387
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 99 juggo_fla::mc_021_2::juggo_fla::frame388
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 16
+000a: pushbyte -7
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushbyte 0
+0018: pushdouble 0.5
+001a: callpropvoid damping, 2
+001e: getlex parent
+0021: getproperty $effect_ctrler
+0024: pushbyte 0
+0026: pushshort 255
+0029: pushshort 255
+002c: callpropvoid shadow, 3
+0030: returnvoid 
+
+METHOD 100 juggo_fla::mc_021_2::juggo_fla::frame394
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: returnvoid 
+
+METHOD 101 juggo_fla::mc_021_2::juggo_fla::frame399
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 102 juggo_fla::mc_021_2::juggo_fla::frame401
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 15
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.8
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 103 juggo_fla::mc_021_2::juggo_fla::frame403
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring upb
+000a: pushstring applyG
+000d: pushfalse 
+000e: newobject 1
+0010: callpropvoid addAttacker, 2
+0014: returnvoid 
+
+METHOD 104 juggo_fla::mc_021_2::juggo_fla::frame407
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushtrue 
+0009: callpropvoid setTouchFloor, 1
+000d: returnvoid 
+
+METHOD 105 juggo_fla::mc_021_2::juggo_fla::frame412
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: getlex parent
+0011: getproperty $effect_ctrler
+0014: callpropvoid endShadow, 0
+0018: returnvoid 
+
+METHOD 106 juggo_fla::mc_021_2::juggo_fla::frame417
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 107 juggo_fla::mc_021_2::juggo_fla::frame420
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 108 juggo_fla::mc_021_2::juggo_fla::frame438
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring dilie
+000a: pushstring x
+000d: pushstring moveToTarget
+0010: pushtrue 
+0011: pushstring offset
+0014: pushbyte 0
+0016: newobject 2
+0018: pushstring y
+001b: pushstring moveToTarget
+001e: pushfalse 
+001f: pushstring offset
+0022: pushbyte 0
+0024: newobject 2
+0026: pushstring applyG
+0029: pushfalse 
+002a: newobject 3
+002c: callpropvoid addAttacker, 2
+0030: returnvoid 
+
+METHOD 109 juggo_fla::mc_021_2::juggo_fla::frame452
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 110 juggo_fla::mc_021_2::juggo_fla::frame459
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 111 juggo_fla::mc_021_2::juggo_fla::frame465
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushtrue 
+0009: callpropvoid isApplyG, 1
+000d: returnvoid 
+
+METHOD 112 juggo_fla::mc_021_2::juggo_fla::frame470
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: returnvoid 
+
+METHOD 113 juggo_fla::mc_021_2::juggo_fla::frame471
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 3
+000a: pushbyte -4
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.2
+0018: pushdouble 0.5
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 114 juggo_fla::mc_021_2::juggo_fla::frame474
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: pushfalse 
+0004: initproperty isBeHitByWu
+0007: getlex parent
+000a: getproperty $fighter_ctrler
+000d: pushstring zh31
+0010: pushtrue 
+0011: callproperty justHit, 2
+0015: iffalse 30
+0019: getlocal_0 
+001a: pushtrue 
+001b: initproperty isBeHitByWu
+001e: getlex parent
+0021: getproperty $mc_ctrler
+0024: pushdouble 0.1
+0026: pushdouble -0.1
+0028: callpropvoid movePercent, 2
+002c: returnvoid 
+
+METHOD 115 juggo_fla::mc_021_2::juggo_fla::frame479
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid setAttackAIR, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: callproperty getAction, 0
+0016: pushbyte 1
+0018: setproperty jumpTimes
+001b: returnvoid 
+
+METHOD 116 juggo_fla::mc_021_2::juggo_fla::frame481
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid setBishaAIR, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushdouble 0.5
+0014: pushdouble 0.5
+0016: callpropvoid damping, 2
+001a: returnvoid 
+
+METHOD 117 juggo_fla::mc_021_2::juggo_fla::frame485
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 118 juggo_fla::mc_021_2::juggo_fla::frame494
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushtrue 
+0009: callpropvoid isApplyG, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: pushbyte 2
+0015: pushbyte 4
+0017: callpropvoid movePercent, 2
+001b: getlex parent
+001e: getproperty $mc_ctrler
+0021: pushstring 招31
+0024: pushtrue 
+0025: callpropvoid setTouchFloor, 2
+0029: returnvoid 
+
+METHOD 119 juggo_fla::mc_021_2::juggo_fla::frame503
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 招3loop
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 120 juggo_fla::mc_021_2::juggo_fla::frame504
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushbyte 0
+000a: pushbyte 3
+000c: callpropvoid shake, 2
+0010: returnvoid 
+
+METHOD 121 juggo_fla::mc_021_2::juggo_fla::frame511
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 122 juggo_fla::mc_021_2::juggo_fla::frame519
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 123 juggo_fla::mc_021_2::juggo_fla::frame539
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: pushbyte 0
+0005: initproperty Loop_num
+0008: returnvoid 
+
+METHOD 124 juggo_fla::mc_021_2::juggo_fla::frame544
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: dup 
+0004: setlocal_1 
+0005: getproperty Loop_num
+0008: increment 
+0009: setlocal_2 
+000a: getlocal_1 
+000b: getlocal_2 
+000c: setproperty Loop_num
+000f: kill 2
+0011: kill 1
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀0
+001c: callpropvoid setBisha, 1
+0020: getlocal_0 
+0021: pushdouble 0.8
+0023: initproperty u_add_qi
+0026: getlex parent
+0029: getproperty $mc_ctrler
+002c: getlocal_0 
+002d: getproperty u_add_qi
+0030: callpropvoid addQi, 1
+0034: returnvoid 
+
+METHOD 125 juggo_fla::mc_021_2::juggo_fla::frame545
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: getlocal_0 
+0009: getproperty u_add_qi
+000c: callpropvoid addQi, 1
+0010: returnvoid 
+
+METHOD 126 juggo_fla::mc_021_2::juggo_fla::frame546
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: getlocal_0 
+0009: getproperty u_add_qi
+000c: callpropvoid addQi, 1
+0010: returnvoid 
+
+METHOD 127 juggo_fla::mc_021_2::juggo_fla::frame547
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: getlocal_0 
+0009: getproperty u_add_qi
+000c: callpropvoid addQi, 1
+0010: returnvoid 
+
+METHOD 128 juggo_fla::mc_021_2::juggo_fla::frame548
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: getlocal_0 
+0009: getproperty u_add_qi
+000c: callpropvoid addQi, 1
+0010: getlocal_0 
+0011: getproperty Loop_num
+0014: pushbyte 3
+0016: ifnlt 39
+001a: getlex parent
+001d: getproperty $mc_ctrler
+0020: pushstring 招1_loop
+0023: callpropvoid setZhao1, 1
+0027: returnvoid 
+
+METHOD 129 juggo_fla::mc_021_2::juggo_fla::frame549
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getproperty Loop_num
+0006: pushbyte 3
+0008: ifne 25
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushstring 招11
+0015: callpropvoid gotoAndPlay, 1
+0019: returnvoid 
+
+METHOD 130 juggo_fla::mc_021_2::juggo_fla::frame550
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty zhao1
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: callproperty getAction, 0
+001a: pushnull 
+001b: setproperty bisha
+001e: getlex parent
+0021: getproperty $mc_ctrler
+0024: pushdouble 2.5
+0026: pushbyte 0
+0028: callpropvoid movePercent, 2
+002c: getlex parent
+002f: getproperty $mc_ctrler
+0032: pushtrue 
+0033: pushfalse 
+0034: callpropvoid setSteelBody, 2
+0038: getlex parent
+003b: getproperty $effect_ctrler
+003e: pushbyte 100
+0040: pushbyte 0
+0042: pushbyte -100
+0044: callpropvoid shadow, 3
+0048: getlex parent
+004b: getproperty $effect_ctrler
+004e: callpropvoid dash, 0
+0052: returnvoid 
+
+METHOD 131 juggo_fla::mc_021_2::juggo_fla::frame553
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushtrue 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: pushdouble 0.5
+0015: pushbyte 0
+0017: callpropvoid damping, 2
+001b: returnvoid 
+
+METHOD 132 juggo_fla::mc_021_2::juggo_fla::frame559
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushfalse 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: callpropvoid endAct, 0
+0017: returnvoid 
+
+METHOD 133 juggo_fla::mc_021_2::juggo_fla::frame560
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 1
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.08
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: getlex parent
+0021: getproperty $mc_ctrler
+0024: pushfalse 
+0025: pushfalse 
+0026: callpropvoid setSteelBody, 2
+002a: returnvoid 
+
+METHOD 134 juggo_fla::mc_021_2::juggo_fla::frame564
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: getlex parent
+000f: getproperty $effect_ctrler
+0012: callpropvoid endShadow, 0
+0016: returnvoid 
+
+METHOD 135 juggo_fla::mc_021_2::juggo_fla::frame571
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 136 juggo_fla::mc_021_2::juggo_fla::frame572
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty zhao1
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: callproperty getAction, 0
+001a: pushnull 
+001b: setproperty bisha
+001e: getlex parent
+0021: getproperty $mc_ctrler
+0024: pushdouble 4.6
+0026: pushbyte 0
+0028: callpropvoid movePercent, 2
+002c: getlex parent
+002f: getproperty $mc_ctrler
+0032: pushtrue 
+0033: pushfalse 
+0034: callpropvoid setSteelBody, 2
+0038: getlex parent
+003b: getproperty $effect_ctrler
+003e: pushbyte 0
+0040: pushshort 255
+0043: pushshort 255
+0046: callpropvoid shadow, 3
+004a: getlex parent
+004d: getproperty $effect_ctrler
+0050: callpropvoid dash, 0
+0054: returnvoid 
+
+METHOD 137 juggo_fla::mc_021_2::juggo_fla::frame575
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushtrue 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: pushdouble 1.2
+0015: pushbyte 0
+0017: callpropvoid damping, 2
+001b: returnvoid 
+
+METHOD 138 juggo_fla::mc_021_2::juggo_fla::frame578
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushfalse 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: callpropvoid endAct, 0
+0017: returnvoid 
+
+METHOD 139 juggo_fla::mc_021_2::juggo_fla::frame579
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 0.8
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.06
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: getlex parent
+0021: getproperty $mc_ctrler
+0024: pushfalse 
+0025: pushfalse 
+0026: callpropvoid setSteelBody, 2
+002a: returnvoid 
+
+METHOD 140 juggo_fla::mc_021_2::juggo_fla::frame588
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 141 juggo_fla::mc_021_2::juggo_fla::frame595
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 142 juggo_fla::mc_021_2::juggo_fla::frame607
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 143 juggo_fla::mc_021_2::juggo_fla::frame628
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 144 juggo_fla::mc_021_2::juggo_fla::frame637
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 20
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 145 juggo_fla::mc_021_2::juggo_fla::frame669
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 146 juggo_fla::mc_021_2::juggo_fla::frame690
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 147 juggo_fla::mc_021_2::juggo_fla::frame692
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushfalse 
+0009: pushstring 重吾1
+000c: callpropvoid bisha, 2
+0010: returnvoid 
+
+METHOD 148 juggo_fla::mc_021_2::juggo_fla::frame695
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 必杀01
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 149 juggo_fla::mc_021_2::juggo_fla::frame699
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushfalse 
+0009: pushstring 重吾1
+000c: callpropvoid bisha, 2
+0010: returnvoid 
+
+METHOD 150 juggo_fla::mc_021_2::juggo_fla::frame730
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endBisha, 0
+000c: returnvoid 
+
+METHOD 151 juggo_fla::mc_021_2::juggo_fla::frame732
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 4
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushtrue 
+0017: pushfalse 
+0018: callpropvoid setSteelBody, 2
+001c: getlex parent
+001f: getproperty $effect_ctrler
+0022: pushbyte 100
+0024: pushbyte 0
+0026: pushbyte -100
+0028: callpropvoid shadow, 3
+002c: getlex parent
+002f: getproperty $effect_ctrler
+0032: callpropvoid dash, 0
+0036: returnvoid 
+
+METHOD 152 juggo_fla::mc_021_2::juggo_fla::frame735
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring bs
+000a: pushfalse 
+000b: callproperty justHit, 2
+000f: iffalse 32
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀1
+001c: callpropvoid gotoAndPlay, 1
+0020: getlex parent
+0023: getproperty $mc_ctrler
+0026: pushdouble 0.5
+0028: pushbyte 0
+002a: callpropvoid damping, 2
+002e: returnvoid 
+
+METHOD 153 juggo_fla::mc_021_2::juggo_fla::frame736
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring bs
+000a: pushfalse 
+000b: callproperty justHit, 2
+000f: iffalse 32
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀1
+001c: callpropvoid gotoAndPlay, 1
+0020: returnvoid 
+
+METHOD 154 juggo_fla::mc_021_2::juggo_fla::frame737
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring bs
+000a: pushfalse 
+000b: callproperty justHit, 2
+000f: iffalse 32
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀1
+001c: callpropvoid gotoAndPlay, 1
+0020: returnvoid 
+
+METHOD 155 juggo_fla::mc_021_2::juggo_fla::frame738
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring bs
+000a: pushfalse 
+000b: callproperty justHit, 2
+000f: iffalse 32
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀1
+001c: callpropvoid gotoAndPlay, 1
+0020: returnvoid 
+
+METHOD 156 juggo_fla::mc_021_2::juggo_fla::frame739
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring bs
+000a: pushfalse 
+000b: callproperty justHit, 2
+000f: iffalse 32
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀1
+001c: callpropvoid gotoAndPlay, 1
+0020: returnvoid 
+
+METHOD 157 juggo_fla::mc_021_2::juggo_fla::frame740
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring bs
+000a: pushfalse 
+000b: callproperty justHit, 2
+000f: iffalse 32
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushstring 必杀1
+001c: callpropvoid gotoAndPlay, 1
+0020: returnvoid 
+
+METHOD 158 juggo_fla::mc_021_2::juggo_fla::frame741
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushbyte 1
+0014: pushbyte 0
+0016: callpropvoid movePercent, 2
+001a: getlex parent
+001d: getproperty $mc_ctrler
+0020: pushdouble 0.1
+0022: pushbyte 0
+0024: callpropvoid damping, 2
+0028: getlex parent
+002b: getproperty $mc_ctrler
+002e: pushfalse 
+002f: pushfalse 
+0030: callpropvoid setSteelBody, 2
+0034: returnvoid 
+
+METHOD 159 juggo_fla::mc_021_2::juggo_fla::frame746
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: getlex parent
+000f: getproperty $effect_ctrler
+0012: callpropvoid endShadow, 0
+0016: returnvoid 
+
+METHOD 160 juggo_fla::mc_021_2::juggo_fla::frame752
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 161 juggo_fla::mc_021_2::juggo_fla::frame754
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring followmc
+000b: pushstring bs
+000d: newobject 1
+000f: callpropvoid moveTarget, 1
+0013: getlex parent
+0016: getproperty $mc_ctrler
+0019: pushfalse 
+001a: pushfalse 
+001b: callpropvoid setSteelBody, 2
+001f: returnvoid 
+
+METHOD 162 juggo_fla::mc_021_2::juggo_fla::frame757
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 2
+000a: pushbyte -2
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.1
+0018: pushdouble 0.3
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 163 juggo_fla::mc_021_2::juggo_fla::frame762
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 1
+000a: pushbyte -1
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushbyte 0
+0018: pushdouble 0.05
+001a: callpropvoid dampingPercent, 2
+001e: getlex parent
+0021: getproperty $effect_ctrler
+0024: pushbyte 1
+0026: callpropvoid slowDown, 1
+002a: returnvoid 
+
+METHOD 164 juggo_fla::mc_021_2::juggo_fla::frame772
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 2
+000a: pushbyte 6
+000c: callpropvoid movePercent, 2
+0010: returnvoid 
+
+METHOD 165 juggo_fla::mc_021_2::juggo_fla::frame775
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 必杀2
+000b: pushtrue 
+000c: callpropvoid setTouchFloor, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushbyte 2
+0018: pushbyte 6
+001a: callpropvoid movePercent, 2
+001e: returnvoid 
+
+METHOD 166 juggo_fla::mc_021_2::juggo_fla::frame782
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 必杀1_loop
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 167 juggo_fla::mc_021_2::juggo_fla::frame784
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring followmc
+000b: pushstring bs
+000d: newobject 1
+000f: callpropvoid moveTarget, 1
+0013: getlex parent
+0016: getproperty $effect_ctrler
+0019: pushbyte 5
+001b: dup 
+001c: callpropvoid shake, 2
+0020: returnvoid 
+
+METHOD 168 juggo_fla::mc_021_2::juggo_fla::frame798
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 169 juggo_fla::mc_021_2::juggo_fla::frame806
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 170 juggo_fla::mc_021_2::juggo_fla::frame817
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushfalse 
+0009: pushstring 重吾2
+000c: callpropvoid bisha, 2
+0010: returnvoid 
+
+METHOD 171 juggo_fla::mc_021_2::juggo_fla::frame833
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endBisha, 0
+000c: returnvoid 
+
+METHOD 172 juggo_fla::mc_021_2::juggo_fla::frame835
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 0
+000a: pushbyte 3
+000c: callpropvoid movePercent, 2
+0010: returnvoid 
+
+METHOD 173 juggo_fla::mc_021_2::juggo_fla::frame837
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 空中必杀2
+000b: pushtrue 
+000c: callpropvoid setTouchFloor, 2
+0010: returnvoid 
+
+METHOD 174 juggo_fla::mc_021_2::juggo_fla::frame840
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 空中必杀_loop
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 175 juggo_fla::mc_021_2::juggo_fla::frame841
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushbyte 0
+000a: pushbyte 8
+000c: callpropvoid shake, 2
+0010: returnvoid 
+
+METHOD 176 juggo_fla::mc_021_2::juggo_fla::frame869
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 177 juggo_fla::mc_021_2::juggo_fla::frame896
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushtrue 
+0009: pushstring 重吾3
+000c: callpropvoid bisha, 2
+0010: returnvoid 
+
+METHOD 178 juggo_fla::mc_021_2::juggo_fla::frame928
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endBisha, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushtrue 
+0013: pushtrue 
+0014: callpropvoid setSteelBody, 2
+0018: returnvoid 
+
+METHOD 179 juggo_fla::mc_021_2::juggo_fla::frame931
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring cbs0atm
+000a: pushstring 超必杀1
+000d: callpropvoid setHitTarget, 2
+0011: getlex parent
+0014: getproperty $effect_ctrler
+0017: callpropvoid dash, 0
+001b: returnvoid 
+
+METHOD 180 juggo_fla::mc_021_2::juggo_fla::frame932
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 4.5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: returnvoid 
+
+METHOD 181 juggo_fla::mc_021_2::juggo_fla::frame935
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 超必杀2
+000b: pushbyte 0
+000d: callpropvoid setBishaSUPER, 2
+0011: returnvoid 
+
+METHOD 182 juggo_fla::mc_021_2::juggo_fla::frame937
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 超必杀0
+000b: callpropvoid gotoAndPlay, 1
+000f: returnvoid 
+
+METHOD 183 juggo_fla::mc_021_2::juggo_fla::frame938
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 4
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.2
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 184 juggo_fla::mc_021_2::juggo_fla::frame944
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 4
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.2
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 185 juggo_fla::mc_021_2::juggo_fla::frame949
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring cbs3
+000b: pushtrue 
+000c: callproperty justHit, 2
+0010: iftrue 33
+0014: getlex parent
+0017: getproperty $mc_ctrler
+001a: pushstring 超必杀0
+001d: callpropvoid gotoAndPlay, 1
+0021: getlex parent
+0024: getproperty $mc_ctrler
+0027: pushfalse 
+0028: pushfalse 
+0029: callpropvoid setSteelBody, 2
+002d: getlex parent
+0030: getproperty $effect_ctrler
+0033: pushbyte 0
+0035: pushbyte 2
+0037: callpropvoid startShake, 2
+003b: returnvoid 
+
+METHOD 186 juggo_fla::mc_021_2::juggo_fla::frame950
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 1.7
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: returnvoid 
+
+METHOD 187 juggo_fla::mc_021_2::juggo_fla::frame977
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: returnvoid 
+
+METHOD 188 juggo_fla::mc_021_2::juggo_fla::frame978
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring cbs2
+000b: pushfalse 
+000c: callproperty justHit, 2
+0010: iftrue 33
+0014: getlex parent
+0017: getproperty $mc_ctrler
+001a: pushstring 超必杀0
+001d: callpropvoid gotoAndPlay, 1
+0021: returnvoid 
+
+METHOD 189 juggo_fla::mc_021_2::juggo_fla::frame979
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: getlex parent
+000f: getproperty $effect_ctrler
+0012: pushtrue 
+0013: pushstring 重吾3
+0016: callpropvoid bisha, 2
+001a: returnvoid 
+
+METHOD 190 juggo_fla::mc_021_2::juggo_fla::frame999
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endBisha, 0
+000c: returnvoid 
+
+METHOD 191 juggo_fla::mc_021_2::juggo_fla::frame1000
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte -20
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushbyte 5
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: getlex parent
+0021: getproperty $effect_ctrler
+0024: callpropvoid dash, 0
+0028: getlex parent
+002b: getproperty $effect_ctrler
+002e: pushbyte 0
+0030: pushbyte 5
+0032: callpropvoid shake, 2
+0036: returnvoid 
+
+METHOD 192 juggo_fla::mc_021_2::juggo_fla::frame1017
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty bishaSUPER
+0010: returnvoid 
+
+METHOD 193 juggo_fla::mc_021_2::juggo_fla::frame1019
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 194 juggo_fla::mc_021_2::juggo_fla::frame1094
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 195 juggo_fla::mc_021_2::juggo_fla::frame1114
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 196 juggo_fla::mc_021_2::juggo_fla::frame1174
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 197 juggo_fla::mc_021_2::juggo_fla::frame1202
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stop, 0
+000c: returnvoid 
+
+METHOD 198 juggo_fla::mc_021_2::juggo_fla::frame1224
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stop, 0
+000c: returnvoid 
+
+METHOD 199 juggo_fla::mc_021_2::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 9
+000a: getlocal_0 
+000b: getproperty frame10
+000e: pushbyte 12
+0010: getlocal_0 
+0011: getproperty frame13
+0014: pushbyte 19
+0016: getlocal_0 
+0017: getproperty frame20
+001a: pushbyte 23
+001c: getlocal_0 
+001d: getproperty frame24
+0020: pushbyte 25
+0022: getlocal_0 
+0023: getproperty frame26
+0026: pushbyte 26
+0028: getlocal_0 
+0029: getproperty frame27
+002c: pushbyte 33
+002e: getlocal_0 
+002f: getproperty frame34
+0032: pushbyte 36
+0034: getlocal_0 
+0035: getproperty frame37
+0038: pushbyte 67
+003a: getlocal_0 
+003b: getproperty frame68
+003e: pushbyte 73
+0040: getlocal_0 
+0041: getproperty frame74
+0044: pushbyte 80
+0046: getlocal_0 
+0047: getproperty frame81
+004a: pushbyte 87
+004c: getlocal_0 
+004d: getproperty frame88
+0050: pushbyte 89
+0052: getlocal_0 
+0053: getproperty frame90
+0056: pushbyte 91
+0058: getlocal_0 
+0059: getproperty frame92
+005c: pushbyte 97
+005e: getlocal_0 
+005f: getproperty frame98
+0062: pushbyte 98
+0064: getlocal_0 
+0065: getproperty frame99
+0068: pushbyte 99
+006a: getlocal_0 
+006b: getproperty frame100
+006e: pushbyte 110
+0070: getlocal_0 
+0071: getproperty frame111
+0074: pushbyte 113
+0076: getlocal_0 
+0077: getproperty frame114
+007a: pushbyte 118
+007c: getlocal_0 
+007d: getproperty frame119
+0080: pushbyte 126
+0082: getlocal_0 
+0083: getproperty frame127
+0086: pushshort 135
+0089: getlocal_0 
+008a: getproperty frame136
+008d: pushshort 144
+0090: getlocal_0 
+0091: getproperty frame145
+0094: pushshort 151
+0097: getlocal_0 
+0098: getproperty frame152
+009b: pushshort 152
+009e: getlocal_0 
+009f: getproperty frame153
+00a2: pushshort 158
+00a5: getlocal_0 
+00a6: getproperty frame159
+00a9: pushshort 165
+00ac: getlocal_0 
+00ad: getproperty frame166
+00b0: pushshort 168
+00b3: getlocal_0 
+00b4: getproperty frame169
+00b7: pushshort 175
+00ba: getlocal_0 
+00bb: getproperty frame176
+00be: pushshort 176
+00c1: getlocal_0 
+00c2: getproperty frame177
+00c5: pushshort 179
+00c8: getlocal_0 
+00c9: getproperty frame180
+00cc: pushshort 186
+00cf: getlocal_0 
+00d0: getproperty frame187
+00d3: pushshort 191
+00d6: getlocal_0 
+00d7: getproperty frame192
+00da: pushshort 194
+00dd: getlocal_0 
+00de: getproperty frame195
+00e1: pushshort 208
+00e4: getlocal_0 
+00e5: getproperty frame209
+00e8: pushshort 215
+00eb: getlocal_0 
+00ec: getproperty frame216
+00ef: pushshort 224
+00f2: getlocal_0 
+00f3: getproperty frame225
+00f6: pushshort 231
+00f9: getlocal_0 
+00fa: getproperty frame232
+00fd: pushshort 239
+0100: getlocal_0 
+0101: getproperty frame240
+0104: pushshort 245
+0107: getlocal_0 
+0108: getproperty frame246
+010b: pushshort 250
+010e: getlocal_0 
+010f: getproperty frame251
+0112: pushshort 258
+0115: getlocal_0 
+0116: getproperty frame259
+0119: pushshort 263
+011c: getlocal_0 
+011d: getproperty frame264
+0120: pushshort 267
+0123: getlocal_0 
+0124: getproperty frame268
+0127: pushshort 270
+012a: getlocal_0 
+012b: getproperty frame271
+012e: pushshort 272
+0131: getlocal_0 
+0132: getproperty frame273
+0135: pushshort 273
+0138: getlocal_0 
+0139: getproperty frame274
+013c: pushshort 279
+013f: getlocal_0 
+0140: getproperty frame280
+0143: pushshort 286
+0146: getlocal_0 
+0147: getproperty frame287
+014a: pushshort 291
+014d: getlocal_0 
+014e: getproperty frame292
+0151: pushshort 292
+0154: getlocal_0 
+0155: getproperty frame293
+0158: pushshort 306
+015b: getlocal_0 
+015c: getproperty frame307
+015f: pushshort 310
+0162: getlocal_0 
+0163: getproperty frame311
+0166: pushshort 328
+0169: getlocal_0 
+016a: getproperty frame329
+016d: pushshort 338
+0170: getlocal_0 
+0171: getproperty frame339
+0174: pushshort 344
+0177: getlocal_0 
+0178: getproperty frame345
+017b: pushshort 345
+017e: getlocal_0 
+017f: getproperty frame346
+0182: pushshort 351
+0185: getlocal_0 
+0186: getproperty frame352
+0189: pushshort 353
+018c: getlocal_0 
+018d: getproperty frame354
+0190: pushshort 355
+0193: getlocal_0 
+0194: getproperty frame356
+0197: pushshort 357
+019a: getlocal_0 
+019b: getproperty frame358
+019e: pushshort 360
+01a1: getlocal_0 
+01a2: getproperty frame361
+01a5: pushshort 361
+01a8: getlocal_0 
+01a9: getproperty frame362
+01ac: pushshort 368
+01af: getlocal_0 
+01b0: getproperty frame369
+01b3: pushshort 369
+01b6: getlocal_0 
+01b7: getproperty frame370
+01ba: pushshort 376
+01bd: getlocal_0 
+01be: getproperty frame377
+01c1: pushshort 379
+01c4: getlocal_0 
+01c5: getproperty frame380
+01c8: pushshort 381
+01cb: getlocal_0 
+01cc: getproperty frame382
+01cf: pushshort 384
+01d2: getlocal_0 
+01d3: getproperty frame385
+01d6: pushshort 386
+01d9: getlocal_0 
+01da: getproperty frame387
+01dd: pushshort 387
+01e0: getlocal_0 
+01e1: getproperty frame388
+01e4: pushshort 393
+01e7: getlocal_0 
+01e8: getproperty frame394
+01eb: pushshort 398
+01ee: getlocal_0 
+01ef: getproperty frame399
+01f2: pushshort 400
+01f5: getlocal_0 
+01f6: getproperty frame401
+01f9: pushshort 402
+01fc: getlocal_0 
+01fd: getproperty frame403
+0200: pushshort 406
+0203: getlocal_0 
+0204: getproperty frame407
+0207: pushshort 411
+020a: getlocal_0 
+020b: getproperty frame412
+020e: pushshort 416
+0211: getlocal_0 
+0212: getproperty frame417
+0215: pushshort 419
+0218: getlocal_0 
+0219: getproperty frame420
+021c: pushshort 437
+021f: getlocal_0 
+0220: getproperty frame438
+0223: pushshort 451
+0226: getlocal_0 
+0227: getproperty frame452
+022a: pushshort 458
+022d: getlocal_0 
+022e: getproperty frame459
+0231: pushshort 464
+0234: getlocal_0 
+0235: getproperty frame465
+0238: pushshort 469
+023b: getlocal_0 
+023c: getproperty frame470
+023f: pushshort 470
+0242: getlocal_0 
+0243: getproperty frame471
+0246: pushshort 473
+0249: getlocal_0 
+024a: getproperty frame474
+024d: pushshort 478
+0250: getlocal_0 
+0251: getproperty frame479
+0254: pushshort 480
+0257: getlocal_0 
+0258: getproperty frame481
+025b: pushshort 484
+025e: getlocal_0 
+025f: getproperty frame485
+0262: pushshort 493
+0265: getlocal_0 
+0266: getproperty frame494
+0269: pushshort 502
+026c: getlocal_0 
+026d: getproperty frame503
+0270: pushshort 503
+0273: getlocal_0 
+0274: getproperty frame504
+0277: pushshort 510
+027a: getlocal_0 
+027b: getproperty frame511
+027e: pushshort 518
+0281: getlocal_0 
+0282: getproperty frame519
+0285: pushshort 538
+0288: getlocal_0 
+0289: getproperty frame539
+028c: pushshort 543
+028f: getlocal_0 
+0290: getproperty frame544
+0293: pushshort 544
+0296: getlocal_0 
+0297: getproperty frame545
+029a: pushshort 545
+029d: getlocal_0 
+029e: getproperty frame546
+02a1: pushshort 546
+02a4: getlocal_0 
+02a5: getproperty frame547
+02a8: pushshort 547
+02ab: getlocal_0 
+02ac: getproperty frame548
+02af: pushshort 548
+02b2: getlocal_0 
+02b3: getproperty frame549
+02b6: pushshort 549
+02b9: getlocal_0 
+02ba: getproperty frame550
+02bd: pushshort 552
+02c0: getlocal_0 
+02c1: getproperty frame553
+02c4: pushshort 558
+02c7: getlocal_0 
+02c8: getproperty frame559
+02cb: pushshort 559
+02ce: getlocal_0 
+02cf: getproperty frame560
+02d2: pushshort 563
+02d5: getlocal_0 
+02d6: getproperty frame564
+02d9: pushshort 570
+02dc: getlocal_0 
+02dd: getproperty frame571
+02e0: pushshort 571
+02e3: getlocal_0 
+02e4: getproperty frame572
+02e7: pushshort 574
+02ea: getlocal_0 
+02eb: getproperty frame575
+02ee: pushshort 577
+02f1: getlocal_0 
+02f2: getproperty frame578
+02f5: pushshort 578
+02f8: getlocal_0 
+02f9: getproperty frame579
+02fc: pushshort 587
+02ff: getlocal_0 
+0300: getproperty frame588
+0303: pushshort 594
+0306: getlocal_0 
+0307: getproperty frame595
+030a: pushshort 606
+030d: getlocal_0 
+030e: getproperty frame607
+0311: pushshort 627
+0314: getlocal_0 
+0315: getproperty frame628
+0318: pushshort 636
+031b: getlocal_0 
+031c: getproperty frame637
+031f: pushshort 668
+0322: getlocal_0 
+0323: getproperty frame669
+0326: pushshort 689
+0329: getlocal_0 
+032a: getproperty frame690
+032d: pushshort 691
+0330: getlocal_0 
+0331: getproperty frame692
+0334: pushshort 694
+0337: getlocal_0 
+0338: getproperty frame695
+033b: pushshort 698
+033e: getlocal_0 
+033f: getproperty frame699
+0342: pushshort 729
+0345: getlocal_0 
+0346: getproperty frame730
+0349: pushshort 731
+034c: getlocal_0 
+034d: getproperty frame732
+0350: pushshort 734
+0353: getlocal_0 
+0354: getproperty frame735
+0357: pushshort 735
+035a: getlocal_0 
+035b: getproperty frame736
+035e: pushshort 736
+0361: getlocal_0 
+0362: getproperty frame737
+0365: pushshort 737
+0368: getlocal_0 
+0369: getproperty frame738
+036c: pushshort 738
+036f: getlocal_0 
+0370: getproperty frame739
+0373: pushshort 739
+0376: getlocal_0 
+0377: getproperty frame740
+037a: pushshort 740
+037d: getlocal_0 
+037e: getproperty frame741
+0381: pushshort 745
+0384: getlocal_0 
+0385: getproperty frame746
+0388: pushshort 751
+038b: getlocal_0 
+038c: getproperty frame752
+038f: pushshort 753
+0392: getlocal_0 
+0393: getproperty frame754
+0396: pushshort 756
+0399: getlocal_0 
+039a: getproperty frame757
+039d: pushshort 761
+03a0: getlocal_0 
+03a1: getproperty frame762
+03a4: pushshort 771
+03a7: getlocal_0 
+03a8: getproperty frame772
+03ab: pushshort 774
+03ae: getlocal_0 
+03af: getproperty frame775
+03b2: pushshort 781
+03b5: getlocal_0 
+03b6: getproperty frame782
+03b9: pushshort 783
+03bc: getlocal_0 
+03bd: getproperty frame784
+03c0: pushshort 797
+03c3: getlocal_0 
+03c4: getproperty frame798
+03c7: pushshort 805
+03ca: getlocal_0 
+03cb: getproperty frame806
+03ce: pushshort 816
+03d1: getlocal_0 
+03d2: getproperty frame817
+03d5: pushshort 832
+03d8: getlocal_0 
+03d9: getproperty frame833
+03dc: pushshort 834
+03df: getlocal_0 
+03e0: getproperty frame835
+03e3: pushshort 836
+03e6: getlocal_0 
+03e7: getproperty frame837
+03ea: pushshort 839
+03ed: getlocal_0 
+03ee: getproperty frame840
+03f1: pushshort 840
+03f4: getlocal_0 
+03f5: getproperty frame841
+03f8: pushshort 868
+03fb: getlocal_0 
+03fc: getproperty frame869
+03ff: pushshort 895
+0402: getlocal_0 
+0403: getproperty frame896
+0406: pushshort 927
+0409: getlocal_0 
+040a: getproperty frame928
+040d: pushshort 930
+0410: getlocal_0 
+0411: getproperty frame931
+0414: pushshort 931
+0417: getlocal_0 
+0418: getproperty frame932
+041b: pushshort 934
+041e: getlocal_0 
+041f: getproperty frame935
+0422: pushshort 936
+0425: getlocal_0 
+0426: getproperty frame937
+0429: pushshort 937
+042c: getlocal_0 
+042d: getproperty frame938
+0430: pushshort 943
+0433: getlocal_0 
+0434: getproperty frame944
+0437: pushshort 948
+043a: getlocal_0 
+043b: getproperty frame949
+043e: pushshort 949
+0441: getlocal_0 
+0442: getproperty frame950
+0445: pushshort 976
+0448: getlocal_0 
+0449: getproperty frame977
+044c: pushshort 977
+044f: getlocal_0 
+0450: getproperty frame978
+0453: pushshort 978
+0456: getlocal_0 
+0457: getproperty frame979
+045a: pushshort 998
+045d: getlocal_0 
+045e: getproperty frame999
+0461: pushshort 999
+0464: getlocal_0 
+0465: getproperty frame1000
+0468: pushshort 1016
+046b: getlocal_0 
+046c: getproperty frame1017
+046f: pushshort 1018
+0472: getlocal_0 
+0473: getproperty frame1019
+0476: pushshort 1093
+0479: getlocal_0 
+047a: getproperty frame1094
+047d: pushshort 1113
+0480: getlocal_0 
+0481: getproperty frame1114
+0484: pushshort 1173
+0487: getlocal_0 
+0488: getproperty frame1174
+048b: pushshort 1201
+048e: getlocal_0 
+048f: getproperty frame1202
+0492: pushshort 1223
+0495: getlocal_0 
+0496: getproperty frame1224
+0499: callpropvoid addFrameScript, 340
+049e: returnvoid 
+
+METHOD 200 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.display::DisplayObject
+000f: pushscope 
+0010: getlex flash.display::InteractiveObject
+0013: pushscope 
+0014: getlex flash.display::DisplayObjectContainer
+0017: pushscope 
+0018: getlex flash.display::Sprite
+001b: pushscope 
+001c: getlex flash.display::MovieClip
+001e: pushscope 
+001f: getlex flash.display::MovieClip
+0021: newclass 9
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: popscope 
+002a: initproperty juggo_fla::mc_021_2
+002c: returnvoid 
+
+METHOD 201 juggo_fla::mc_06_9::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 202 juggo_fla::mc_06_9::juggo_fla::frame15
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 203 juggo_fla::mc_06_9::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 14
+000a: getlocal_0 
+000b: getproperty frame15
+000e: callpropvoid addFrameScript, 2
+0012: returnvoid 
+
+METHOD 204 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.display::DisplayObject
+000f: pushscope 
+0010: getlex flash.display::InteractiveObject
+0013: pushscope 
+0014: getlex flash.display::DisplayObjectContainer
+0017: pushscope 
+0018: getlex flash.display::Sprite
+001b: pushscope 
+001c: getlex flash.display::MovieClip
+001e: pushscope 
+001f: getlex flash.display::MovieClip
+0021: newclass 10
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: popscope 
+002a: initproperty juggo_fla::mc_06_9
+002d: returnvoid 
+
+METHOD 205 juggo_fla::特效地波_12::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 206 juggo_fla::特效地波_12::setAttackerCtrler
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: initproperty $attacker_ctrler
+0007: returnvoid 
+
+METHOD 207 juggo_fla::特效地波_12::juggo_fla::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 208 juggo_fla::特效地波_12::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: callpropvoid addFrameScript, 2
+0012: returnvoid 
+
+METHOD 209 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.display::DisplayObject
+000f: pushscope 
+0010: getlex flash.display::InteractiveObject
+0013: pushscope 
+0014: getlex flash.display::DisplayObjectContainer
+0017: pushscope 
+0018: getlex flash.display::Sprite
+001b: pushscope 
+001c: getlex flash.display::MovieClip
+001e: pushscope 
+001f: getlex flash.display::MovieClip
+0021: newclass 11
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: popscope 
+002a: initproperty juggo_fla::特效地波_12
+002d: returnvoid 
+
+METHOD 210 main_mc::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 211 main_mc::setFighterCtrler
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: initproperty $fighter_ctrler
+0007: getlocal_0 
+0008: getlocal_0 
+0009: getproperty $fighter_ctrler
+000c: getproperty defineAction
+000f: initproperty defineAction
+0012: returnvoid 
+
+METHOD 212 main_mc::setFighterMcCtrler
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: initproperty $mc_ctrler
+0007: returnvoid 
+
+METHOD 213 main_mc::setEffectCtrler
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: initproperty $effect_ctrler
+0007: returnvoid 
+
+METHOD 214 main_mc::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 215 main_mc::frame2
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getproperty $fighter_ctrler
+0006: iftrue 11
+000a: returnvoid 
+000b: getlocal_0 
+000c: getproperty $fighter_ctrler
+000f: pushstring tk
+0012: pushstring power
+0015: pushbyte 30
+0017: pushstring hitType
+001a: pushbyte 2
+001c: pushstring hitx
+001f: pushbyte 2
+0021: pushstring hity
+0024: pushbyte -5
+0026: pushstring hurtTime
+0029: pushshort 400
+002c: pushstring hurtType
+002f: pushbyte 0
+0031: pushstring isBreakDef
+0034: pushfalse 
+0035: newobject 7
+0037: callpropvoid defineAction, 2
+003b: getlocal_0 
+003c: getproperty $fighter_ctrler
+003f: pushstring tz
+0042: pushstring power
+0045: pushbyte 70
+0047: pushstring hitType
+004a: pushbyte 5
+004c: pushstring hitx
+004f: pushbyte 5
+0051: pushstring hity
+0054: pushbyte 8
+0056: pushstring hurtTime
+0059: pushshort 300
+005c: pushstring hurtType
+005f: pushbyte 1
+0061: pushstring isBreakDef
+0064: pushfalse 
+0065: newobject 7
+0067: callpropvoid defineAction, 2
+006b: getlocal_0 
+006c: getproperty $fighter_ctrler
+006f: pushstring k1
+0072: pushstring power
+0075: pushbyte 20
+0077: pushstring hitType
+007a: pushbyte 2
+007c: pushstring hitx
+007f: pushbyte 3
+0081: pushstring hity
+0084: pushbyte 0
+0086: pushstring hurtTime
+0089: pushshort 500
+008c: pushstring hurtType
+008f: pushbyte 0
+0091: pushstring isBreakDef
+0094: pushfalse 
+0095: newobject 7
+0097: callpropvoid defineAction, 2
+009b: getlocal_0 
+009c: getproperty $fighter_ctrler
+009f: pushstring k2
+00a2: pushstring power
+00a5: pushbyte 30
+00a7: pushstring hitType
+00aa: pushbyte 3
+00ac: pushstring hitx
+00af: pushbyte 6
+00b1: pushstring hity
+00b4: pushbyte 0
+00b6: pushstring hurtTime
+00b9: pushshort 500
+00bc: pushstring hurtType
+00bf: pushbyte 0
+00c1: pushstring isBreakDef
+00c4: pushfalse 
+00c5: newobject 7
+00c7: callpropvoid defineAction, 2
+00cb: getlocal_0 
+00cc: getproperty $fighter_ctrler
+00cf: pushstring k3
+00d2: pushstring power
+00d5: pushbyte 30
+00d7: pushstring hitType
+00da: pushbyte 3
+00dc: pushstring hitx
+00df: pushbyte 4
+00e1: pushstring hity
+00e4: pushbyte 0
+00e6: pushstring hurtTime
+00e9: pushshort 500
+00ec: pushstring hurtType
+00ef: pushbyte 0
+00f1: pushstring isBreakDef
+00f4: pushfalse 
+00f5: newobject 7
+00f7: callpropvoid defineAction, 2
+00fb: getlocal_0 
+00fc: getproperty $fighter_ctrler
+00ff: pushstring k4
+0102: pushstring power
+0105: pushbyte 40
+0107: pushstring hitType
+010a: pushbyte 6
+010c: pushstring hitx
+010f: pushbyte 4
+0111: pushstring hity
+0114: pushbyte 0
+0116: pushstring hurtTime
+0119: pushshort 600
+011c: pushstring hurtType
+011f: pushbyte 0
+0121: pushstring isBreakDef
+0124: pushfalse 
+0125: newobject 7
+0127: callpropvoid defineAction, 2
+012b: getlocal_0 
+012c: getproperty $fighter_ctrler
+012f: pushstring k5
+0132: pushstring power
+0135: pushbyte 50
+0137: pushstring hitType
+013a: pushbyte 5
+013c: pushstring hitx
+013f: pushbyte 5
+0141: pushstring hity
+0144: pushbyte -5
+0146: pushstring hurtTime
+0149: pushshort 600
+014c: pushstring hurtType
+014f: pushbyte 0
+0151: pushstring isBreakDef
+0154: pushfalse 
+0155: newobject 7
+0157: callpropvoid defineAction, 2
+015b: getlocal_0 
+015c: getproperty $fighter_ctrler
+015f: pushstring kj1
+0162: pushstring power
+0165: pushbyte 60
+0167: pushstring hitType
+016a: pushbyte 3
+016c: pushstring hitx
+016f: pushbyte 2
+0171: pushstring hity
+0174: pushbyte 2
+0176: pushstring hurtTime
+0179: pushshort 800
+017c: pushstring hurtType
+017f: pushbyte 0
+0181: pushstring isBreakDef
+0184: pushtrue 
+0185: newobject 7
+0187: callpropvoid defineAction, 2
+018b: getlocal_0 
+018c: getproperty $fighter_ctrler
+018f: pushstring kj12
+0192: pushstring power
+0195: pushbyte 100
+0197: pushstring hitType
+019a: pushbyte 3
+019c: pushstring hitx
+019f: pushbyte 5
+01a1: pushstring hity
+01a4: pushbyte -4
+01a6: pushstring hurtTime
+01a9: pushshort 500
+01ac: pushstring hurtType
+01af: pushbyte 0
+01b1: pushstring isBreakDef
+01b4: pushtrue 
+01b5: newobject 7
+01b7: callpropvoid defineAction, 2
+01bb: getlocal_0 
+01bc: getproperty $fighter_ctrler
+01bf: pushstring kj13
+01c2: pushstring power
+01c5: pushbyte 30
+01c7: pushstring hitType
+01ca: pushbyte 3
+01cc: pushstring hitx
+01cf: pushbyte 5
+01d1: pushstring hity
+01d4: pushbyte -4
+01d6: pushstring hurtTime
+01d9: pushbyte 0
+01db: pushstring hurtType
+01de: pushbyte 1
+01e0: pushstring isBreakDef
+01e3: pushtrue 
+01e4: newobject 7
+01e6: callpropvoid defineAction, 2
+01ea: getlocal_0 
+01eb: getproperty $fighter_ctrler
+01ee: pushstring sj
+01f1: pushstring power
+01f4: pushbyte 60
+01f6: pushstring hitType
+01f9: pushbyte 3
+01fb: pushstring hitx
+01fe: pushbyte 0
+0200: pushstring hity
+0203: pushbyte 0
+0205: pushstring hurtTime
+0208: pushshort 600
+020b: pushstring hurtType
+020e: pushbyte 0
+0210: pushstring isBreakDef
+0213: pushfalse 
+0214: newobject 7
+0216: callpropvoid defineAction, 2
+021a: getlocal_0 
+021b: getproperty $fighter_ctrler
+021e: pushstring sj2
+0221: pushstring power
+0224: pushshort 140
+0227: pushstring hitType
+022a: pushbyte 5
+022c: pushstring hitx
+022f: pushbyte 8
+0231: pushstring hity
+0234: pushbyte -5
+0236: pushstring hurtTime
+0239: pushbyte 0
+023b: pushstring hurtType
+023e: pushbyte 1
+0240: pushstring isBreakDef
+0243: pushtrue 
+0244: newobject 7
+0246: callpropvoid defineAction, 2
+024a: getlocal_0 
+024b: getproperty $fighter_ctrler
+024e: pushstring kj2
+0251: pushstring power
+0254: pushbyte 60
+0256: pushstring hitType
+0259: pushbyte 3
+025b: pushstring hitx
+025e: pushbyte 4
+0260: pushstring hity
+0263: pushbyte 0
+0265: pushstring hurtTime
+0268: pushshort 600
+026b: pushstring hurtType
+026e: pushbyte 0
+0270: pushstring isBreakDef
+0273: pushfalse 
+0274: newobject 7
+0276: callpropvoid defineAction, 2
+027a: getlocal_0 
+027b: getproperty $fighter_ctrler
+027e: pushstring kj21
+0281: pushstring power
+0284: pushbyte 60
+0286: pushstring hitType
+0289: pushbyte 3
+028b: pushstring hitx
+028e: pushbyte 4
+0290: pushstring hity
+0293: pushbyte 0
+0295: pushstring hurtTime
+0298: pushshort 600
+029b: pushstring hurtType
+029e: pushbyte 0
+02a0: pushstring isBreakDef
+02a3: pushfalse 
+02a4: newobject 7
+02a6: callpropvoid defineAction, 2
+02aa: getlocal_0 
+02ab: getproperty $fighter_ctrler
+02ae: pushstring kj22
+02b1: pushstring power
+02b4: pushbyte 60
+02b6: pushstring hitType
+02b9: pushbyte 3
+02bb: pushstring hitx
+02be: pushbyte 8
+02c0: pushstring hity
+02c3: pushbyte -2
+02c5: pushstring hurtTime
+02c8: pushshort 800
+02cb: pushstring hurtType
+02ce: pushbyte 0
+02d0: pushstring isBreakDef
+02d3: pushfalse 
+02d4: newobject 7
+02d6: callpropvoid defineAction, 2
+02da: getlocal_0 
+02db: getproperty $fighter_ctrler
+02de: pushstring kj23
+02e1: pushstring power
+02e4: pushbyte 120
+02e6: pushstring hitType
+02e9: pushbyte 3
+02eb: pushstring hitx
+02ee: pushbyte 12
+02f0: pushstring hity
+02f3: pushbyte 0
+02f5: pushstring hurtTime
+02f8: pushbyte 0
+02fa: pushstring hurtType
+02fd: pushbyte 1
+02ff: pushstring isBreakDef
+0302: pushfalse 
+0303: newobject 7
+0305: callpropvoid defineAction, 2
+0309: getlocal_0 
+030a: getproperty $fighter_ctrler
+030d: pushstring zh1
+0310: pushstring power
+0313: pushbyte 120
+0315: pushstring hitType
+0318: pushbyte 5
+031a: pushstring hitx
+031d: pushbyte 7
+031f: pushstring hity
+0322: pushbyte 0
+0324: pushstring hurtTime
+0327: pushbyte 0
+0329: pushstring hurtType
+032c: pushbyte 1
+032e: pushstring isBreakDef
+0331: pushfalse 
+0332: newobject 7
+0334: callpropvoid defineAction, 2
+0338: getlocal_0 
+0339: getproperty $fighter_ctrler
+033c: pushstring zh11
+033f: pushstring power
+0342: pushshort 150
+0345: pushstring hitType
+0348: pushbyte 5
+034a: pushstring hitx
+034d: pushbyte 20
+034f: pushstring hity
+0352: pushbyte 0
+0354: pushstring hurtTime
+0357: pushbyte 0
+0359: pushstring hurtType
+035c: pushbyte 1
+035e: pushstring isBreakDef
+0361: pushtrue 
+0362: newobject 7
+0364: callpropvoid defineAction, 2
+0368: getlocal_0 
+0369: getproperty $fighter_ctrler
+036c: pushstring zh2
+036f: pushstring power
+0372: pushshort 130
+0375: pushstring hitType
+0378: pushbyte 3
+037a: pushstring hitx
+037d: pushbyte 0
+037f: pushstring hity
+0382: pushbyte -5
+0384: pushstring hurtTime
+0387: pushshort 600
+038a: pushstring hurtType
+038d: pushbyte 1
+038f: pushstring isBreakDef
+0392: pushfalse 
+0393: newobject 7
+0395: callpropvoid defineAction, 2
+0399: getlocal_0 
+039a: getproperty $fighter_ctrler
+039d: pushstring zh21
+03a0: pushstring power
+03a3: pushbyte 20
+03a5: pushstring hitType
+03a8: pushbyte 2
+03aa: pushstring hitx
+03ad: pushbyte 0
+03af: pushstring hity
+03b2: pushbyte 0
+03b4: pushstring hurtTime
+03b7: pushshort 600
+03ba: pushstring hurtType
+03bd: pushbyte 0
+03bf: pushstring isBreakDef
+03c2: pushfalse 
+03c3: newobject 7
+03c5: callpropvoid defineAction, 2
+03c9: getlocal_0 
+03ca: getproperty $fighter_ctrler
+03cd: pushstring zh22
+03d0: pushstring power
+03d3: pushbyte 80
+03d5: pushstring hitType
+03d8: pushbyte 2
+03da: pushstring hitx
+03dd: pushbyte 0
+03df: pushstring hity
+03e2: pushbyte 0
+03e4: pushstring hurtTime
+03e7: pushbyte 0
+03e9: pushstring hurtType
+03ec: pushbyte 1
+03ee: pushstring isBreakDef
+03f1: pushfalse 
+03f2: newobject 7
+03f4: callpropvoid defineAction, 2
+03f8: getlocal_0 
+03f9: getproperty $fighter_ctrler
+03fc: pushstring zh3
+03ff: pushstring power
+0402: pushbyte 80
+0404: pushstring hitType
+0407: pushbyte 3
+0409: pushstring hitx
+040c: pushbyte 6
+040e: pushstring hity
+0411: pushbyte 8
+0413: pushstring hurtTime
+0416: pushbyte 0
+0418: pushstring hurtType
+041b: pushbyte 1
+041d: pushstring isBreakDef
+0420: pushtrue 
+0421: newobject 7
+0423: callpropvoid defineAction, 2
+0427: getlocal_0 
+0428: getproperty $fighter_ctrler
+042b: pushstring zh31
+042e: pushstring power
+0431: pushbyte 80
+0433: pushstring hitType
+0436: pushbyte 6
+0438: pushstring hitx
+043b: pushbyte 4
+043d: pushstring hity
+0440: pushdouble -5.5
+0442: pushstring hurtTime
+0445: pushshort 400
+0448: pushstring hurtType
+044b: pushbyte 0
+044d: pushstring isBreakDef
+0450: pushfalse 
+0451: newobject 7
+0453: callpropvoid defineAction, 2
+0457: getlocal_0 
+0458: getproperty $fighter_ctrler
+045b: pushstring zh32
+045e: pushstring power
+0461: pushbyte 80
+0463: pushstring hitType
+0466: pushbyte 3
+0468: pushstring hitx
+046b: pushbyte 6
+046d: pushstring hity
+0470: pushbyte 6
+0472: pushstring hurtTime
+0475: pushbyte 0
+0477: pushstring hurtType
+047a: pushbyte 1
+047c: pushstring isBreakDef
+047f: pushfalse 
+0480: newobject 7
+0482: callpropvoid defineAction, 2
+0486: getlocal_0 
+0487: getproperty $fighter_ctrler
+048a: pushstring sh1
+048d: pushstring power
+0490: pushbyte 0
+0492: pushstring hitType
+0495: pushbyte 11
+0497: pushstring hitx
+049a: pushbyte 0
+049c: pushstring hity
+049f: pushbyte 0
+04a1: pushstring hurtTime
+04a4: pushshort 1000
+04a7: pushstring hurtType
+04aa: pushbyte 0
+04ac: pushstring isBreakDef
+04af: pushtrue 
+04b0: newobject 7
+04b2: callpropvoid defineAction, 2
+04b6: getlocal_0 
+04b7: getproperty $fighter_ctrler
+04ba: pushstring sh12
+04bd: pushstring power
+04c0: pushbyte 50
+04c2: pushstring hitType
+04c5: pushbyte 3
+04c7: pushstring hitx
+04ca: pushbyte 5
+04cc: pushstring hity
+04cf: pushbyte 0
+04d1: pushstring hurtTime
+04d4: pushshort 1000
+04d7: pushstring hurtType
+04da: pushbyte 0
+04dc: pushstring isBreakDef
+04df: pushfalse 
+04e0: newobject 7
+04e2: callpropvoid defineAction, 2
+04e6: getlocal_0 
+04e7: getproperty $fighter_ctrler
+04ea: pushstring sh2
+04ed: pushstring power
+04f0: pushbyte 0
+04f2: pushstring hitType
+04f5: pushbyte 11
+04f7: pushstring hitx
+04fa: pushbyte 0
+04fc: pushstring hity
+04ff: pushbyte 0
+0501: pushstring hurtTime
+0504: pushshort 1000
+0507: pushstring hurtType
+050a: pushbyte 0
+050c: pushstring isBreakDef
+050f: pushtrue 
+0510: newobject 7
+0512: callpropvoid defineAction, 2
+0516: getlocal_0 
+0517: getproperty $fighter_ctrler
+051a: pushstring sh22
+051d: pushstring power
+0520: pushshort 150
+0523: pushstring hitType
+0526: pushbyte 6
+0528: pushstring hitx
+052b: pushbyte 0
+052d: pushstring hity
+0530: pushbyte 10
+0532: pushstring hurtTime
+0535: pushbyte 0
+0537: pushstring hurtType
+053a: pushbyte 1
+053c: pushstring isBreakDef
+053f: pushfalse 
+0540: newobject 7
+0542: callpropvoid defineAction, 2
+0546: getlocal_0 
+0547: getproperty $fighter_ctrler
+054a: pushstring bs
+054c: pushstring power
+054f: pushbyte 80
+0551: pushstring hitType
+0554: pushbyte 2
+0556: pushstring hitx
+0559: pushbyte 0
+055b: pushstring hity
+055e: pushbyte 0
+0560: pushstring hurtTime
+0563: pushshort 1000
+0566: pushstring hurtType
+0569: pushbyte 0
+056b: pushstring isBreakDef
+056e: pushfalse 
+056f: newobject 7
+0571: callpropvoid defineAction, 2
+0575: getlocal_0 
+0576: getproperty $fighter_ctrler
+0579: pushstring bs1
+057c: pushstring power
+057f: pushshort 250
+0582: pushstring hitType
+0585: pushbyte 3
+0587: pushstring hitx
+058a: pushbyte 5
+058c: pushstring hity
+058f: pushbyte -10
+0591: pushstring hurtTime
+0594: pushbyte 0
+0596: pushstring hurtType
+0599: pushbyte 1
+059b: pushstring isBreakDef
+059e: pushfalse 
+059f: pushstring slow
+05a2: pushdouble 1.5
+05a4: newobject 8
+05a6: callpropvoid defineAction, 2
+05aa: getlocal_0 
+05ab: getproperty $fighter_ctrler
+05ae: pushstring sbs
+05b1: pushstring power
+05b4: pushshort 150
+05b7: pushstring hitType
+05ba: pushbyte 3
+05bc: pushstring hitx
+05bf: pushbyte 4
+05c1: pushstring hity
+05c4: pushbyte -6
+05c6: pushstring hurtTime
+05c9: pushshort 1000
+05cc: pushstring hurtType
+05cf: pushbyte 0
+05d1: pushstring isBreakDef
+05d4: pushfalse 
+05d5: newobject 7
+05d7: callpropvoid defineAction, 2
+05db: getlocal_0 
+05dc: getproperty $fighter_ctrler
+05df: pushstring sbs2
+05e2: pushstring power
+05e5: pushshort 200
+05e8: pushstring hitType
+05eb: pushbyte 3
+05ed: pushstring hitx
+05f0: pushbyte 1
+05f2: pushstring hity
+05f5: pushbyte 8
+05f7: pushstring hurtTime
+05fa: pushbyte 0
+05fc: pushstring hurtType
+05ff: pushbyte 1
+0601: pushstring isBreakDef
+0604: pushtrue 
+0605: newobject 7
+0607: callpropvoid defineAction, 2
+060b: getlocal_0 
+060c: getproperty $fighter_ctrler
+060f: pushstring kbs1
+0612: pushstring power
+0615: pushbyte 40
+0617: pushstring hitType
+061a: pushbyte 2
+061c: pushstring hitx
+061f: pushbyte 0
+0621: pushstring hity
+0624: pushbyte 20
+0626: pushstring hurtTime
+0629: pushshort 1000
+062c: pushstring hurtType
+062f: pushbyte 0
+0631: pushstring isBreakDef
+0634: pushfalse 
+0635: newobject 7
+0637: callpropvoid defineAction, 2
+063b: getlocal_0 
+063c: getproperty $fighter_ctrler
+063f: pushstring kbs
+0642: pushstring power
+0645: pushshort 240
+0648: pushstring hitType
+064b: pushbyte 3
+064d: pushstring hitx
+0650: pushbyte 0
+0652: pushstring hity
+0655: pushbyte 10
+0657: pushstring hurtTime
+065a: pushbyte 0
+065c: pushstring hurtType
+065f: pushbyte 1
+0661: pushstring isBreakDef
+0664: pushtrue 
+0665: newobject 7
+0667: callpropvoid defineAction, 2
+066b: getlocal_0 
+066c: getproperty $fighter_ctrler
+066f: pushstring kbs2
+0672: pushstring power
+0675: pushshort 240
+0678: pushstring hitType
+067b: pushbyte 3
+067d: pushstring hitx
+0680: pushbyte 0
+0682: pushstring hity
+0685: pushbyte 10
+0687: pushstring hurtTime
+068a: pushbyte 0
+068c: pushstring hurtType
+068f: pushbyte 1
+0691: pushstring isBreakDef
+0694: pushfalse 
+0695: newobject 7
+0697: callpropvoid defineAction, 2
+069b: getlocal_0 
+069c: getproperty $fighter_ctrler
+069f: pushstring cbs
+06a2: pushstring power
+06a5: pushshort 400
+06a8: pushstring hitType
+06ab: pushbyte 5
+06ad: pushstring hitx
+06b0: pushbyte 20
+06b2: pushstring hity
+06b5: pushbyte 0
+06b7: pushstring hurtTime
+06ba: pushbyte 1
+06bc: pushstring hurtType
+06bf: pushbyte 1
+06c1: pushstring isBreakDef
+06c4: pushfalse 
+06c5: newobject 7
+06c7: callpropvoid defineAction, 2
+06cb: getlocal_0 
+06cc: getproperty $fighter_ctrler
+06cf: pushstring cbs1
+06d2: pushstring power
+06d5: pushbyte 30
+06d7: pushstring hitType
+06da: pushbyte 3
+06dc: pushstring hitx
+06df: pushbyte 4
+06e1: pushstring hity
+06e4: pushbyte 0
+06e6: pushstring hurtTime
+06e9: pushshort 1000
+06ec: pushstring hurtType
+06ef: pushbyte 0
+06f1: pushstring isBreakDef
+06f4: pushtrue 
+06f5: newobject 7
+06f7: callpropvoid defineAction, 2
+06fb: getlocal_0 
+06fc: getproperty $fighter_ctrler
+06ff: pushstring cbs2
+0702: pushstring power
+0705: pushbyte 20
+0707: pushstring hitType
+070a: pushbyte 2
+070c: pushstring hitx
+070f: pushbyte 3
+0711: pushstring hity
+0714: pushbyte 0
+0716: pushstring hurtTime
+0719: pushshort 1000
+071c: pushstring hurtType
+071f: pushbyte 0
+0721: pushstring isBreakDef
+0724: pushfalse 
+0725: newobject 7
+0727: callpropvoid defineAction, 2
+072b: getlocal_0 
+072c: getproperty $fighter_ctrler
+072f: pushstring cbs3
+0732: pushstring power
+0735: pushbyte 30
+0737: pushstring hitType
+073a: pushbyte 3
+073c: pushstring hitx
+073f: pushbyte 0
+0741: pushstring hity
+0744: pushbyte 0
+0746: pushstring hurtTime
+0749: pushshort 1000
+074c: pushstring hurtType
+074f: pushbyte 0
+0751: pushstring isBreakDef
+0754: pushtrue 
+0755: newobject 7
+0757: callpropvoid defineAction, 2
+075b: getlocal_0 
+075c: getproperty $fighter_ctrler
+075f: pushstring 重吾1
+0762: getlex bsface1
+0765: callpropvoid defineBishaFace, 2
+0769: getlocal_0 
+076a: getproperty $fighter_ctrler
+076d: pushstring 重吾2
+0770: getlex bsface2
+0773: callpropvoid defineBishaFace, 2
+0777: getlocal_0 
+0778: getproperty $fighter_ctrler
+077b: pushstring 重吾3
+077e: getlex bsface3
+0781: callpropvoid defineBishaFace, 2
+0785: getlocal_0 
+0786: getproperty $fighter_ctrler
+0789: getlex snd_hurt1
+078c: getlex snd_hurt2
+078f: callpropvoid defineHurtSound, 2
+0793: getlocal_0 
+0794: getproperty $fighter_ctrler
+0797: getlex snd_hurt3
+079a: getlex snd_hurt4
+079d: callpropvoid defineHurtFlySound, 2
+07a1: getlocal_0 
+07a2: getproperty $fighter_ctrler
+07a5: getlex snd_die
+07a8: callpropvoid defineDieSound, 1
+07ac: getlocal_0 
+07ad: getproperty $fighter_ctrler
+07b0: pushbyte 9
+07b2: setproperty speed
+07b5: getlocal_0 
+07b6: getproperty $fighter_ctrler
+07b9: pushbyte 14
+07bb: setproperty jumpPower
+07be: getlocal_0 
+07bf: getproperty $fighter_ctrler
+07c2: pushbyte 6
+07c4: setproperty heavy
+07c7: getlocal_0 
+07c8: getproperty $fighter_ctrler
+07cb: pushbyte 1
+07cd: setproperty defenseType
+07d0: getlocal_0 
+07d1: getproperty $fighter_ctrler
+07d4: getlocal_0 
+07d5: getproperty mc
+07d8: callpropvoid initMc, 1
+07dc: returnvoid 
+
+METHOD 216 main_mc::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: pushbyte 1
+0010: getlocal_0 
+0011: getproperty frame2
+0014: callpropvoid addFrameScript, 4
+0018: returnvoid 
+
+METHOD 217 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.display::DisplayObject
+000f: pushscope 
+0010: getlex flash.display::InteractiveObject
+0013: pushscope 
+0014: getlex flash.display::DisplayObjectContainer
+0017: pushscope 
+0018: getlex flash.display::Sprite
+001b: pushscope 
+001c: getlex flash.display::MovieClip
+001e: pushscope 
+001f: getlex flash.display::MovieClip
+0021: newclass 12
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: popscope 
+002a: initproperty main_mc
+002d: returnvoid 

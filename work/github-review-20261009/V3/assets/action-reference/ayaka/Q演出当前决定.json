@@ -1,0 +1,33 @@
+{
+  "decision": "大招必须有演出，特效保持原冰球/冰风，不使用复杂新变体",
+  "usedEffects": [
+    "Q-attack-effect-0.png",
+    "Q-attack-effect-1.png",
+    "Q-attack-effect-2.png"
+  ],
+  "unusedGeneration": {
+    "status": "not integrated / not selected",
+    "prompt": "Use case: stylized-concept. NEW fighting-game ultimate ability effect animation sheet: Kamisato Ayaka icy blizzard, dramatic Soumetsu-inspired horizontal side-view swirling frost storm, NOT a small round projectile. Transparent PNG2400x1600, EXACTLY SIX complete isolated effect frames3columns x2rows. Each cell800x800, chronological left-right top-bottom. Phase1: sharp ice crescents gathering into a tall compact forward-rolling spiral;2: fully unleashed majestic tall ICE BLADE BLIZZARD, layered pale-cyan/white katana-like curved ice ribbons rotating around transparent navy central airflow, snowflake crystals;3: first intense slice strike with bright forward cutting edge;4: second rotation/pulse distinct silhouette;5: climactic high-density final slicing pulse and large ice blossom shards,6: dissipating outward frost-petal shards leaving open center. Storm tall silhouette500-620px in each cell and width500-650, approximately1.5 times a fighter's standing height, readable gap/negative space so opponent silhouette remains visible. Rich but crisp videogame sprite shading, sharp ice chips and thin light-blue translucent trails, no blurred airbrush halo, no opaque rectangle/background, no ground shadows. Complete effects with generous transparent margins. NO people, no weapons, no words, no grid, no Raiden eye symbols, no Nahida temple. Must feel like a spectacular finishing attack, not ordinary slash or identical circular orb repeated."
+  },
+  "preview": {
+    "phases": [
+      "聚霜",
+      "切入蓄势",
+      "拔刀",
+      "冰球释放",
+      "冰风第一击",
+      "冰风第二击",
+      "冰风收束",
+      "收刀恢复"
+    ],
+    "ticks": 152,
+    "hitTicks": [
+      70,
+      94,
+      118
+    ]
+  },
+  "guard": "removed extra 1px external outline; preserve native source edge",
+  "simulation": "not implemented",
+  "device": "not observed"
+}

@@ -1,0 +1,1188 @@
+{
+  "project_version": "V3",
+  "runtime_release": "r33-opt-E-20261008",
+  "status": "accepted_development_baseline",
+  "evidence": "anonymous player relatively satisfied; not full QA completion",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 947,
+      "sha256": "515c6857c71c0189df5f4598265ba7c7726c75920f44ad270fa60d82af434ef9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1815,
+      "sha256": "a63ecc60d2b6c563083eb5e518a97cf262715ac4a5bc3cd057ed5af8a0595e53"
+    },
+    {
+      "path": "assets/action-reference/nahida/app.js",
+      "bytes": 16672,
+      "sha256": "dc9e3ae2d8e7186c5468cb2e0970fc8976542cadd0d1e360e63a371fa49d4bdf"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/air.png",
+      "bytes": 107080,
+      "sha256": "9339672ee873d5ffc663ff478506dbca6c5f92ca65da0f55fe5172f7e4203d79"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/aranara-r23.png",
+      "bytes": 1388747,
+      "sha256": "a82de53700181094a089d09281de7c45052abe590db1109af29737d2a5d63f4a"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/basic.png",
+      "bytes": 94969,
+      "sha256": "f37581e8702047a833d0461a7625718545bde619c94865f7b47c20eb9cb78b48"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/effects.png",
+      "bytes": 148723,
+      "sha256": "ad7dee2c1a087aa5ff4dc21e6cae061deb234e430684a03ca3332e6f1f82a24e"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/guard.png",
+      "bytes": 106310,
+      "sha256": "0a26d2d509b8d55f9caa7237740520149bbc077cda972dcbe588e67cbc6c0923"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/heavy.png",
+      "bytes": 110636,
+      "sha256": "46107ada95f81cedb997cb91bb54b58fa29c194ca9c0a0b604d9fc29240513da"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/hurt.png",
+      "bytes": 104295,
+      "sha256": "ae0e955afbf437f91542c3bbc504b158492d496a50f60dd85f88b8a1062c43e3"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/air.png",
+      "bytes": 1439849,
+      "sha256": "fb285a5a4c687c1949e8a20e95d58bb1b702b5c45b51de76f385f7a3e7d76df7"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/basic.png",
+      "bytes": 1659678,
+      "sha256": "5ed5d609f17e9eea968f7521546abc0de42eb1da7514cef917d441c4f41ff930"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/guard.png",
+      "bytes": 1446977,
+      "sha256": "d5dbde8eec2369941a31eb26710a690ab39c958e4b25dedd2942bf3f6cd2d76a"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/heavy.png",
+      "bytes": 1375780,
+      "sha256": "8170fb78061767e60e626a3d17a55f551c5ab2f5e7d2af3ce6ed2535172ece20"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/hurt.png",
+      "bytes": 1268933,
+      "sha256": "48655109ed9421013c160837debf679c5f15251f669ae4ce2e8bb75f7248b802"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/light.png",
+      "bytes": 1472893,
+      "sha256": "e700e87775e243c3ba05a36b081129ff9f28abbfec1b6f44cfb03308cacd6b0a"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/move.png",
+      "bytes": 1445532,
+      "sha256": "156f45974662015d11c052f7cf0f1080938ba892f285a013dd7147f40c2d4d4e"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/skill.png",
+      "bytes": 1485591,
+      "sha256": "9e703c544b9788a1d23f7c7af891901af0666ec749e7072cb536a053cdd041f1"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/throw.png",
+      "bytes": 1377439,
+      "sha256": "9d190e3e6fae5874896887d15afd14155c48631293dbf2f44d2cd0c6eab81246"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/inbetweens-r28/victim.png",
+      "bytes": 1349887,
+      "sha256": "7ddf5f03d68eb005c049c12ef1aee3c5bacbaf97e1714b4ebff112f38b3a0dc8"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/light.png",
+      "bytes": 104011,
+      "sha256": "0ad7acebf5844dba4a83be9cebf69db36bc4041dc0906573692af4b2819eaaf7"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/move.png",
+      "bytes": 105439,
+      "sha256": "cae80a735373c3b1aa50e9ce468c2ac7a74dcc976435d15b4c392d721b9df999"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/original-portrait.png",
+      "bytes": 5930,
+      "sha256": "154986ebb5ef309fa5f3f1a8f40821c450f380148e620d3877713192664d324d"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/raiden-eye-r31.png",
+      "bytes": 1237427,
+      "sha256": "3f87c170c55d4826f16ea205076f3fd4b0c53b0ac103a7a015a9fd19f5aeaed0"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/skill.png",
+      "bytes": 102109,
+      "sha256": "ae8f94524b9db968b1aa438aafd75524bc17c01950932f27e77a0deaf1319ab9"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/throw.png",
+      "bytes": 81442,
+      "sha256": "c5ddd06e5680ea03a5db36202277b03a4f78216e799d04a3584a9274a470cf92"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/victim.png",
+      "bytes": 88248,
+      "sha256": "5503b87a15b1be9244dae142d82e25ed4cfdcc243639449f8a61a13df4be04ff"
+    },
+    {
+      "path": "assets/action-reference/nahida/assets/viewfinder-r27.png",
+      "bytes": 1688965,
+      "sha256": "350ed86bd09e79ea13c79580af0f3e2afaf88a2aa81601d005c7fbeb9f3bbfad"
+    },
+    {
+      "path": "assets/action-reference/nahida/atlas.json",
+      "bytes": 14257,
+      "sha256": "f547bd222d2a99d486fea3ac9e66b6ebdef112ea2bdfa1cd381b843d28a1a7e7"
+    },
+    {
+      "path": "assets/action-reference/nahida/index.html",
+      "bytes": 4902,
+      "sha256": "978288044be8269bda7b6a5c9e737d142651d6c9c2b87f3ca5ac3297022611ef"
+    },
+    {
+      "path": "assets/action-reference/raiden/app.js",
+      "bytes": 16672,
+      "sha256": "2d55763132579dc55f91657baa12eec78f2abb7d1b846c48135f3042246ed88b"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/effects.png",
+      "bytes": 69516,
+      "sha256": "4625cb73602683aa3661e94ae5fae8a2399293b0cb4d494013fdd5d7972fccb4"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/air.png",
+      "bytes": 1048133,
+      "sha256": "8e47326c92bdcd54498d570ca23db41371fbd1fca1e255f65cc1faa39fc6c63e"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/basic.png",
+      "bytes": 1545918,
+      "sha256": "de74066cac8509f948cc38ce43a01532fa9ce2ca67e42636c595ff3eabe06622"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/guard.png",
+      "bytes": 1291831,
+      "sha256": "9b190254b5acddb9e56a40f568914c1d636eeefda84831cdd336816752850f68"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/heavy.png",
+      "bytes": 1266977,
+      "sha256": "6fc94d6aa45ed4d181e7595ca46a0d5c647272fd838d1b3bf2a5f970561472c5"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/hurt.png",
+      "bytes": 1050407,
+      "sha256": "9947c02cbcf6ffa0fe98d5848b5495e7c884c34bc8f1b0c65922986b959d05b8"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/light.png",
+      "bytes": 1160874,
+      "sha256": "8e3586b152bdb9f952daa7d20d8de54cda52c2e421e82cd3ffdb1fb91627d5d5"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/move.png",
+      "bytes": 1254451,
+      "sha256": "83877967674d9872630290e627e8ae58b026e8eea1c003132ec7fb103b2ee4ec"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/qburst.png",
+      "bytes": 931799,
+      "sha256": "b926995a342c194e0d3d1bc7ea3d3a877f85d30b3ed2eca54b4cec9f5bda6ed2"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/skill.png",
+      "bytes": 1396165,
+      "sha256": "fe9d01a06d923bab2b3fbc80874584763a2fd8a1fedc346df0462a7980ed8da2"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/throw.png",
+      "bytes": 1008554,
+      "sha256": "74340a18732e3d283ff31b19bcce656dca36b07661c0ac7781ddc395c2efd13a"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/inbetweens-r28/victim.png",
+      "bytes": 1189238,
+      "sha256": "2b568a4cc639f56f190922f15932a65c9055f37ed410f620c3177c61f7cba08b"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/original-portrait.png",
+      "bytes": 4168,
+      "sha256": "cc7d434c4148d32ee57774dde9cb53dca5fca06494d0c9fcf86da38cf816476e"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/raiden-eye-r31.png",
+      "bytes": 1237427,
+      "sha256": "3f87c170c55d4826f16ea205076f3fd4b0c53b0ac103a7a015a9fd19f5aeaed0"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/air.png",
+      "bytes": 65918,
+      "sha256": "207259a3f8e28e7a728c71c466fd5507254e76ebca99267c50e7feb25c9d0510"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/basic.png",
+      "bytes": 103250,
+      "sha256": "d6302e9410ec7bd39402388fe03b5d0b357e80be355096c7ac15fd703630fc13"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/guard.png",
+      "bytes": 88158,
+      "sha256": "ee7882c74e89593e7a4933a0cc0df976900d53291de0567704a05532495ad3e8"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/heavy.png",
+      "bytes": 80510,
+      "sha256": "5f3234ed8b0f78d417fa5d49ead004ab6198b2a42d3afc91d8e13a9c3fa1ac5e"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/hurt.png",
+      "bytes": 69683,
+      "sha256": "3ef6fc2f1d427b62435ed0d8d636704e7d8d899030ef85484c7248bacabbbab7"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/light.png",
+      "bytes": 72531,
+      "sha256": "2f4614f29f11c2f44fb69f45b6e7071e2c858b286e5c35837c7ded8889a832c9"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/move.png",
+      "bytes": 77776,
+      "sha256": "50b8fbce236ebccd35c33a2083dc7aa9a2e36be2feb98690932c6f9481f8f7de"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/qburst.png",
+      "bytes": 92504,
+      "sha256": "6da6c04e2cec46738c5c5d107d4774111d697a125fc62e52d5a5fccf9fee481f"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/skill.png",
+      "bytes": 86212,
+      "sha256": "9d8478fc6145e7256abb7cc095a169e19bf4b40c8c265e5e9066d1bcab6ab2c7"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/throw.png",
+      "bytes": 58686,
+      "sha256": "23185ccfca5043acbcadfb09bb670c6a7709a0e5a13a47e08a87da440b721f55"
+    },
+    {
+      "path": "assets/action-reference/raiden/assets/safe/victim.png",
+      "bytes": 76332,
+      "sha256": "bcc4f5b7bef7c6ba578a4a7e1c8b5cdf69500ac4935df7993ff245b9deebc531"
+    },
+    {
+      "path": "assets/action-reference/raiden/atlas.json",
+      "bytes": 13772,
+      "sha256": "e770a0587f740592677d2475f297d88b1caa551a178fddef3733e1682d552bc3"
+    },
+    {
+      "path": "assets/action-reference/raiden/index.html",
+      "bytes": 4908,
+      "sha256": "981b8e9dee6d3b261738a54b8be980799bfcacec3094e524c9f693762153e1dc"
+    },
+    {
+      "path": "assets/animation-source/aranara-r23.md",
+      "bytes": 687,
+      "sha256": "63876aa0bfda45b2cfded4dc622e6c6d1e206267949fbed0c6f40d72045515be"
+    },
+    {
+      "path": "assets/animation-source/aranara-r23.png",
+      "bytes": 1388747,
+      "sha256": "a82de53700181094a089d09281de7c45052abe590db1109af29737d2a5d63f4a"
+    },
+    {
+      "path": "assets/animation-source/inbetween-r28-jobs.json",
+      "bytes": 50513,
+      "sha256": "43209c811c03d17951f070bed1d3f98c5b5d843d6cf441cbe22263655a52d545"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/README.md",
+      "bytes": 35156,
+      "sha256": "d9aa26c4d900ad563e3b7b54b652cca713dae1a2ce0c88b2391d3cfb0b00afd3"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-air.png",
+      "bytes": 1663286,
+      "sha256": "af672b7c8d5365cbaa2f50a7710318df41f982d8f032d2f3f93ced0ea98cdc77"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-basic.png",
+      "bytes": 1989323,
+      "sha256": "6a003d6269cb6b7a8c34f6808ccbcdd8c5dcbc71c78dda90291bf24d57e9a5dc"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-guard.png",
+      "bytes": 1663189,
+      "sha256": "c940d5186652d561781a8c2271f9ab8999087f71361ca60c452fe34cb13994d4"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-heavy.png",
+      "bytes": 1620975,
+      "sha256": "cc8ed6416250d89568f1856ff33260651ee86e15d05e4a243b0381576446e874"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-hurt.png",
+      "bytes": 1491216,
+      "sha256": "98a2d1d50166346767dc7a1f4fe1d67daa3fcd3614baf453996a8f6ac9130e4c"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-light.png",
+      "bytes": 1743410,
+      "sha256": "92017498d8e5a897475473b8b244e6899f7a6180275547f532748bdbbee9bd8e"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-move.png",
+      "bytes": 1694532,
+      "sha256": "4d75fd640353eaa0167b00d81c25792773499859b2df651e70b32f922315b59d"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-skill.png",
+      "bytes": 1713201,
+      "sha256": "2a880ea17586e7e6c4a7929ff1c91f2be910cea05099fc6db3db04316c7b4953"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-throw.png",
+      "bytes": 1566899,
+      "sha256": "a166628ff718088e7cb8c9644092bea0f6852479141ddb8f72c7c81ad714cef5"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/nahida-victim.png",
+      "bytes": 1578287,
+      "sha256": "e8b794fedf935ae6b2975ef445b6298661479f584d26b86cad98c46ed30c046a"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-air.png",
+      "bytes": 1218272,
+      "sha256": "4bf89c07a57872b8cb00cf0d99d7d9fa07700b500db3da129a92352f86beb6b5"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-basic.png",
+      "bytes": 1750464,
+      "sha256": "45cbe20770415fc4f0f36ecb5e968d8bf7d8cbe4f9a947c8a4f2a7ddc0abf193"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-guard.png",
+      "bytes": 1484714,
+      "sha256": "e96d9db83895d73f1368dceeb902e6810e6300d9abffc6ff7bbac9431ece558e"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-heavy.png",
+      "bytes": 1457205,
+      "sha256": "a7777e7644e75b5c88052a4c9a49ad1aafccc8deee7273ed25c97e24897d2295"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-hurt.png",
+      "bytes": 1999591,
+      "sha256": "3f4b127439dee6ff73f79caa9f0f5c1edd23a8cf210ec79b5a6e47b5260b175b"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-light.png",
+      "bytes": 1348690,
+      "sha256": "3f53157103278f0a9c6883faf5933eb2351fbc7f78ed1a6efdcfb29190cda38a"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-move.png",
+      "bytes": 2190035,
+      "sha256": "694532318b57574dcb74527679293f02d882473fb73329f302e91e6d1fb0595c"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-qburst.png",
+      "bytes": 1071139,
+      "sha256": "47b1019055b1d1985c3184047f6ce411b9d82715e7c62a6da84db7150831d56e"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-skill.png",
+      "bytes": 1566791,
+      "sha256": "dc4e0df3e9ffa3157167f551cf45cf85477462202945427b88a4f58a9cbdb24b"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-throw.png",
+      "bytes": 1927414,
+      "sha256": "e980e9d05290901b0f0ea9dcedc1cb38697fe4d98c27696be0f976a767b37069"
+    },
+    {
+      "path": "assets/animation-source/inbetweens-r28/raiden-victim.png",
+      "bytes": 2113299,
+      "sha256": "ae42b52908fbec5e5622d327b96f14d9b251d3194f2921d409447f70bc460c2d"
+    },
+    {
+      "path": "assets/animation-source/manifest.json",
+      "bytes": 32233,
+      "sha256": "670f3cb6ec9c12725ee7f717e468c2717b29a72077690b4cf7829fec837eeff7"
+    },
+    {
+      "path": "assets/animation-source/nahida-air.png",
+      "bytes": 2408447,
+      "sha256": "5440fabfc758a694e6c7daf0df5ade8e553a3ea5de979b502501bf0e016628a6"
+    },
+    {
+      "path": "assets/animation-source/nahida-basic.png",
+      "bytes": 2302570,
+      "sha256": "822b9aea0d95a0654406c57a0941bbc65b76c2981d341f4f800482a3cdec221c"
+    },
+    {
+      "path": "assets/animation-source/nahida-effects.png",
+      "bytes": 2591027,
+      "sha256": "be285f389b350a5bd7c67aff615f67c29afe91c36988275ed6c45ac8d0bc8322"
+    },
+    {
+      "path": "assets/animation-source/nahida-guard.png",
+      "bytes": 2415135,
+      "sha256": "43c6f4cbc5d0b148ff00b9951cce1bf33e79540de87bb196fcb56e436610cb65"
+    },
+    {
+      "path": "assets/animation-source/nahida-heavy.png",
+      "bytes": 2458122,
+      "sha256": "d55dd88dbcb1e624ae8dcedfd51c2879c1de5a56e2768d518c2db5556e33ab94"
+    },
+    {
+      "path": "assets/animation-source/nahida-hurt.png",
+      "bytes": 2403001,
+      "sha256": "d941281d8f2060aeba825c346a286a1a5400d21585c417878b027a085b4c4531"
+    },
+    {
+      "path": "assets/animation-source/nahida-light.png",
+      "bytes": 2407190,
+      "sha256": "9076b40e7bd056949acd3ac24289c2a71bcb17d1c3daab4ab6c0aa8690f7da75"
+    },
+    {
+      "path": "assets/animation-source/nahida-move.png",
+      "bytes": 2434319,
+      "sha256": "1fce5e8cbd7e0f620d79976f8b1f359e43d1fe432f48fe724df9e47197c62b62"
+    },
+    {
+      "path": "assets/animation-source/nahida-skill.png",
+      "bytes": 2354697,
+      "sha256": "00bdb7d76d231236a24e633446cb1d9c781d200956f6abcb044e8bdeb62efc7f"
+    },
+    {
+      "path": "assets/animation-source/nahida-throw.png",
+      "bytes": 2169767,
+      "sha256": "69c6a71d41f909c47d9230a2b8c28efe7bb160df89d287829ed79ce9e28b8a8c"
+    },
+    {
+      "path": "assets/animation-source/nahida-victim.png",
+      "bytes": 2228368,
+      "sha256": "a3280eb9d77a69366ba2638267a42e8636e5dd170157e2f38881ece6b86ef52d"
+    },
+    {
+      "path": "assets/animation-source/nahida-viewfinder-r27.md",
+      "bytes": 1334,
+      "sha256": "84b41e73e5007dc3c24d9d51cc16446bf6ef8ae60022e0166dfec68055c0c17e"
+    },
+    {
+      "path": "assets/animation-source/nahida-viewfinder-r27.png",
+      "bytes": 1688965,
+      "sha256": "350ed86bd09e79ea13c79580af0f3e2afaf88a2aa81601d005c7fbeb9f3bbfad"
+    },
+    {
+      "path": "assets/animation-source/prompts.md",
+      "bytes": 4456,
+      "sha256": "b0725a6e2b5a1b20c7616adb3d3049ffcaf6abd2a568c7040a68a8ed1e3dc678"
+    },
+    {
+      "path": "assets/animation-source/raiden-eye-r31/README.md",
+      "bytes": 1586,
+      "sha256": "420139930422541fecfb65fe575b5fa31409aaaf00ef0e6227451f807da8bbe5"
+    },
+    {
+      "path": "assets/animation-source/raiden-eye-r31/eye.png",
+      "bytes": 1237427,
+      "sha256": "3f87c170c55d4826f16ea205076f3fd4b0c53b0ac103a7a015a9fd19f5aeaed0"
+    },
+    {
+      "path": "client/genshin_fighter.lua",
+      "bytes": 4133857,
+      "sha256": "2ff912f492e617bfebe615ecd0584af42738375f943b5464e2817769e292bd87"
+    },
+    {
+      "path": "design/ROSTER_PLAN.md",
+      "bytes": 1445,
+      "sha256": "274a10e097dcc3f17a37231ebd5d49aeb0ec5f9a6884e179a9546ecf0320ef1e"
+    },
+    {
+      "path": "design/diluc.json",
+      "bytes": 7334,
+      "sha256": "30a5064162acfcb8a3f3643aaff3f437d41cf1208fb4641001cd821e7232ce28"
+    },
+    {
+      "path": "design/keqing.json",
+      "bytes": 7071,
+      "sha256": "cf352a08a94108742ffc7ada29a7a9b18607404b9822342219dee1c4efe69a43"
+    },
+    {
+      "path": "docs/ART_STANDARD.md",
+      "bytes": 1450,
+      "sha256": "ea34f979c248f1920675e67bcb871c0b5374e0d32d8e242beaf91a7a157a6909"
+    },
+    {
+      "path": "docs/ASSET_INDEX.md",
+      "bytes": 1667,
+      "sha256": "302fdea665ce6307c154d0743f40614b31022faab9f5eee1053567f592117c97"
+    },
+    {
+      "path": "docs/CHARACTER_STANDARD.md",
+      "bytes": 3876,
+      "sha256": "b4dc6fe58e3131a7234aecebfd4e724c5afa8f84eb5bd9db246b6f5deb757c0b"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 2271,
+      "sha256": "cbf5aaac75c51c81a8a14831c02b9b9d14025f299d83eb4e2beffb6b3444b06e"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "bytes": 1446,
+      "sha256": "3befaaf25bf00d3d7b1e0e0e39a5b92dba27afa609f14d67b916e4e7796835e3"
+    },
+    {
+      "path": "history/r33/DECISIONS.md",
+      "bytes": 885,
+      "sha256": "8c057270b0359f4aba1c1a885f9e19051578028454746a0f58da840f416e4197"
+    },
+    {
+      "path": "history/r33/EVALUATION.md",
+      "bytes": 1799,
+      "sha256": "c4dde85213f07632d7dc6e9650c9ccb87a20992e419a6b602fdc5592cc4d630a"
+    },
+    {
+      "path": "history/r33/HANDOFF.md",
+      "bytes": 797,
+      "sha256": "311dc302dd23702acc78ba21f44694fbf5ce145495fbb029a588d76811f173df"
+    },
+    {
+      "path": "history/r33/PROJECT_PROGRESS.md",
+      "bytes": 1932,
+      "sha256": "4fc0d4fa55658225d9f5f103161c373ecaa2b7633025eac8b728c65a23bb12de"
+    },
+    {
+      "path": "history/r33/TECHNICAL_AND_ASSET_INDEX.md",
+      "bytes": 1141,
+      "sha256": "d6eb69cca8501b9deccd08d1d9f980d679c9f0973a303325c080513e93405399"
+    },
+    {
+      "path": "history/r33/UNIFIED_CHARACTER_STANDARD.md",
+      "bytes": 3113,
+      "sha256": "2806253e16a3f3ee33cbe69141660c16849864e619c8ccae1052d81d9dd8da65"
+    },
+    {
+      "path": "history/r33/WORKFLOW.md",
+      "bytes": 1188,
+      "sha256": "cde141c9b663045f832aadba95c1fc52060622ab5355faae142fe393672d9c5e"
+    },
+    {
+      "path": "installation/reference/GF_IMAGE_TEMPLATE_B.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "path": "installation/reference/INSTALL-r33-sealed.md",
+      "bytes": 4688,
+      "sha256": "266d2b1984d07133ddd568c573ba41ca05debbb25d2c2123ce368172b986b4d3"
+    },
+    {
+      "path": "source/bootstrap.lua",
+      "bytes": 5288,
+      "sha256": "49a037342676900268e463b36df77e3dc518144ca5d707203eef2a034bb2063c"
+    },
+    {
+      "path": "source/modules/gf_ai.lua",
+      "bytes": 6772,
+      "sha256": "dc53c0f17692ebd49f388c3b3d664d1ba5f8c10d56e4d7be9cf1963cecd83d9e"
+    },
+    {
+      "path": "source/modules/gf_animation_data.lua",
+      "bytes": 1589857,
+      "sha256": "7451cb153109c937814fbcaf52c347b4ec1415f7da5f53bfd0051bcca03eb9fc"
+    },
+    {
+      "path": "source/modules/gf_animation_effects.lua",
+      "bytes": 250936,
+      "sha256": "4ec8dd7457d0d15d5301632d1deb3a660d0b995216fa1ed2e8a43075ebc94eeb"
+    },
+    {
+      "path": "source/modules/gf_app.lua",
+      "bytes": 11986,
+      "sha256": "b3f89af9ff994adfff08192d89b523a3f882bedc8ee756673fe2ea35f85549db"
+    },
+    {
+      "path": "source/modules/gf_aranara_data.lua",
+      "bytes": 51781,
+      "sha256": "a25a5a93be9049712688c07d4d9e7d9fd5550f1e02b050449b86da126db6f34e"
+    },
+    {
+      "path": "source/modules/gf_art.lua",
+      "bytes": 7175,
+      "sha256": "22ca48754142caa02445926b24daf4f81596c6a98f67ad2868285b6581295ab3"
+    },
+    {
+      "path": "source/modules/gf_art_nahida.lua",
+      "bytes": 72777,
+      "sha256": "de297acef055cf4029b81641188682538d2cebc5990086dc19e14e684dfd1463"
+    },
+    {
+      "path": "source/modules/gf_art_raidenshogun.lua",
+      "bytes": 69239,
+      "sha256": "bc4dc834992cfdc6f99cedbde41c052e8b2ea01b370705bf8f53ddc19e0d1ead"
+    },
+    {
+      "path": "source/modules/gf_audio.lua",
+      "bytes": 2264,
+      "sha256": "c7d30774066b29bbe2021a1198c18dc0e8cfd17559064e89e386ab7adc2a7ba8"
+    },
+    {
+      "path": "source/modules/gf_backdrop.lua",
+      "bytes": 3148,
+      "sha256": "0b4de3e93f503d935e40bed63e02829d31e5adccaaba976525c7d6d131fc9916"
+    },
+    {
+      "path": "source/modules/gf_bg_fontaine.lua",
+      "bytes": 134,
+      "sha256": "1ee679d0f11e0cab4d04d27ea00a4e575ddc9491d927bfc711fb23bd7b975c76"
+    },
+    {
+      "path": "source/modules/gf_bg_inazuma.lua",
+      "bytes": 138,
+      "sha256": "ad1628f48dc15f1b32b2a1a19c314145798a212349327ab8a78481391f031710"
+    },
+    {
+      "path": "source/modules/gf_bg_liyue.lua",
+      "bytes": 131,
+      "sha256": "08e7d6e000c78e71d97c43bb32984eb91ac36917c750a168be28bae23c4b0153"
+    },
+    {
+      "path": "source/modules/gf_bg_mondstadt.lua",
+      "bytes": 148,
+      "sha256": "2d01951121c6b58662f00771f35fb342b0f72b06c6f53efc1c9e6d5e77ff1563"
+    },
+    {
+      "path": "source/modules/gf_bg_natlan.lua",
+      "bytes": 133,
+      "sha256": "4992a47bc87e06b92e20ffdadae39b1305430195ec7296c1faae22602c784e77"
+    },
+    {
+      "path": "source/modules/gf_bg_snezhnaya.lua",
+      "bytes": 142,
+      "sha256": "13da8bd24d1105c9dff4b824df256bddb9401e917a996dc9ea61507530510f1e"
+    },
+    {
+      "path": "source/modules/gf_bg_sumeru.lua",
+      "bytes": 133,
+      "sha256": "d20dacc011d9f723f18664c8741778b200021f59d22003a5e4a404f88e9c986d"
+    },
+    {
+      "path": "source/modules/gf_bglist.lua",
+      "bytes": 176,
+      "sha256": "d20d71a8bde725a0399ee97fe23c77316aecda61f007d6fdbd3faaf394160392"
+    },
+    {
+      "path": "source/modules/gf_fview.lua",
+      "bytes": 24750,
+      "sha256": "ca67ae955b50208d7314ddec34c5cee2d29f77a873c18805eddc70d8d177d99e"
+    },
+    {
+      "path": "source/modules/gf_fx.lua",
+      "bytes": 11479,
+      "sha256": "a0377237c6b2f56e2a92f75fea8009c9671fd778b498c0e9c41e2f95b415454b"
+    },
+    {
+      "path": "source/modules/gf_gfx.lua",
+      "bytes": 24200,
+      "sha256": "6b2ed9b19824d02204d9dcfd22cf4a393d83dee8433f4d2b8c02783c097084e7"
+    },
+    {
+      "path": "source/modules/gf_hud.lua",
+      "bytes": 12529,
+      "sha256": "9e472ea0bfc5fb998270bec3cf1a5fa3462bf6adc2ab8fb0f15614603d72f637"
+    },
+    {
+      "path": "source/modules/gf_inbetween_data.lua",
+      "bytes": 1585402,
+      "sha256": "679420b7fce332577ac11eaafcc7cf5cc70af3a219705ff798a78a0aea3d3cb3"
+    },
+    {
+      "path": "source/modules/gf_input.lua",
+      "bytes": 9542,
+      "sha256": "173f5d7b615705f3064cd8f5ed17a14741cb197c027750c1fa42d481b59246df"
+    },
+    {
+      "path": "source/modules/gf_kits.lua",
+      "bytes": 18491,
+      "sha256": "0951f5443ae75ec4e92f13a2b207fff111261108dc92a17baff33a1f96e33fa3"
+    },
+    {
+      "path": "source/modules/gf_logo.lua",
+      "bytes": 20043,
+      "sha256": "5f9c736d55c14395cd41d5cb407fd4db7b46517c10fd6906f5b8cde6720be2e0"
+    },
+    {
+      "path": "source/modules/gf_net.lua",
+      "bytes": 7402,
+      "sha256": "c6fb3e6659dd81a4ec293f544ed81aca5b129567460cf8bf3558d160bc7a718a"
+    },
+    {
+      "path": "source/modules/gf_online.lua",
+      "bytes": 10138,
+      "sha256": "56804c97839c368ef3c2e2ca73474ddf510d0c4f805e46ca165413564fd2f1a3"
+    },
+    {
+      "path": "source/modules/gf_paint.lua",
+      "bytes": 2250,
+      "sha256": "06d5a540b4a17ffd0b1aa955c0e8bc029576ea8a37359977a490802761ef34bb"
+    },
+    {
+      "path": "source/modules/gf_raiden_eye_r31.lua",
+      "bytes": 40651,
+      "sha256": "823b2526cff6d9a8429959e9656fef1025aa2bc14c1746beddce9a01ef7136cc"
+    },
+    {
+      "path": "source/modules/gf_roster.lua",
+      "bytes": 340,
+      "sha256": "8f710dd789ef623b09671c84d3032f52a8b5bfb0ecfa8a3d212aaf1dd707e09d"
+    },
+    {
+      "path": "source/modules/gf_scene_fight.lua",
+      "bytes": 42245,
+      "sha256": "4b411e2735c8d03034fba19240172f975801f89f0dc16011cd8ab4cd60b04d1b"
+    },
+    {
+      "path": "source/modules/gf_scene_gallery.lua",
+      "bytes": 1552,
+      "sha256": "ebeae4626b274b5187591dccfc7d2290d080e6bbefcb9765338ded8c545364a5"
+    },
+    {
+      "path": "source/modules/gf_scene_howto.lua",
+      "bytes": 4642,
+      "sha256": "d926720a00cd7c135e5bd80ecbb757778b64814e87018258d0ea49f6e80a276a"
+    },
+    {
+      "path": "source/modules/gf_scene_intro.lua",
+      "bytes": 1842,
+      "sha256": "ba356ee7f16d058f17f28575e6586ff23db76cb071fb7a3093a29da865294489"
+    },
+    {
+      "path": "source/modules/gf_scene_menu.lua",
+      "bytes": 8351,
+      "sha256": "de941f02eea067b697469b8790ef80adcc7a8655605352889c52cc5e89ea2897"
+    },
+    {
+      "path": "source/modules/gf_scene_online.lua",
+      "bytes": 2830,
+      "sha256": "086e492ec35d4dc731aa05feb4ad352c2327c5c5ae68a075b350f9c1ecec8164"
+    },
+    {
+      "path": "source/modules/gf_scene_options.lua",
+      "bytes": 4832,
+      "sha256": "c1570d339d0bf72b5dc52ea45e005c8840a48c530b51d828543dcf066bab5a50"
+    },
+    {
+      "path": "source/modules/gf_scene_result.lua",
+      "bytes": 7153,
+      "sha256": "8a988f8971d5fa9e4703fd88d3afefc64840544fcd22b8c35bb89cbb6c9aea20"
+    },
+    {
+      "path": "source/modules/gf_scene_select.lua",
+      "bytes": 18746,
+      "sha256": "1c7628ee11f316efbc351307446b1b7a42a1e3e6556c4f4d0f5a10df2a4dd306"
+    },
+    {
+      "path": "source/modules/gf_scene_stageview.lua",
+      "bytes": 615,
+      "sha256": "266b9a8ef8de15331b3df0bf87be04133eaf103f28e954e70367977079addd51"
+    },
+    {
+      "path": "source/modules/gf_scene_test.lua",
+      "bytes": 1375,
+      "sha256": "4b57f51f45ccf5bb63f7ef1871efc7d600ac0ad2d3691e1304cdf0b8e6609611"
+    },
+    {
+      "path": "source/modules/gf_scene_title.lua",
+      "bytes": 6839,
+      "sha256": "7881cecc5d019709e2090120cbc900e3bf0716d980b6d032c02c334bd4fbdaee"
+    },
+    {
+      "path": "source/modules/gf_scene_vs.lua",
+      "bytes": 7954,
+      "sha256": "259244af86a4c96b0c06ed53447398e858526fd56088cc66b04428b461975c44"
+    },
+    {
+      "path": "source/modules/gf_show.lua",
+      "bytes": 1279,
+      "sha256": "3ece7e74b82719f7ec937b471817ea1e5b3c776a46e06701bf48652f2cf22b92"
+    },
+    {
+      "path": "source/modules/gf_sim.lua",
+      "bytes": 45841,
+      "sha256": "e4344bfabdf8a50b1e924364c89a36a7974f18c7d90a44aa424b60c2fd203ac9"
+    },
+    {
+      "path": "source/modules/gf_stage.lua",
+      "bytes": 26947,
+      "sha256": "2e18b6219c46ba28a30ecab886a9bd62cf7d0d42c32dedcd7b015da239996d81"
+    },
+    {
+      "path": "source/modules/gf_touch.lua",
+      "bytes": 5484,
+      "sha256": "41581c988a8e8450433318c51d4becdab1e3ad73b549e69acba11b940a8b30b5"
+    },
+    {
+      "path": "source/modules/gf_transport.lua",
+      "bytes": 3648,
+      "sha256": "175164715269c96bc3bfd02d415463183a42360265cf5b75ac1cdba3ea511395"
+    },
+    {
+      "path": "source/modules/gf_ui.lua",
+      "bytes": 12682,
+      "sha256": "eca6778252f1967d1c597db422d88823aff4cd5f9f24bf0348e23d8f7b442f42"
+    },
+    {
+      "path": "source/modules/gf_util.lua",
+      "bytes": 3251,
+      "sha256": "4c4cf339d2d14d9e4b97ae3645db35ff81ef053f4c41d4feca56f4b14e79c512"
+    },
+    {
+      "path": "source/modules/gf_viewfinder_data.lua",
+      "bytes": 85631,
+      "sha256": "69b2e8ce5b593307401386e6e63c1434714d52831f8dbb72dbd47c193eb75400"
+    },
+    {
+      "path": "source/order.json",
+      "bytes": 1945,
+      "sha256": "25f4cba1d3cf7c8eff97313d993aaa1b1cab6b787f730904663f6e4170dc7690"
+    },
+    {
+      "path": "source/prefix.lua",
+      "bytes": 543,
+      "sha256": "1001a4d0b5719852e6dd3af38a1dd4553dd2d318bb927d69de9dd4c4933a3d7a"
+    },
+    {
+      "path": "tests/checks-d.lua",
+      "bytes": 2978,
+      "sha256": "aeda277d04717c87e3bfae8e22cc585300439fe3e1aa99b9cdcf7aec6ebb069c"
+    },
+    {
+      "path": "tests/checks-e.lua",
+      "bytes": 5839,
+      "sha256": "11ba82eda2c70ef847e857189c66991cf2d6953dfbbe2d98d0ec1ba0911da9b1"
+    },
+    {
+      "path": "tools/legacy-animation/DELIVERY.md",
+      "bytes": 9533,
+      "sha256": "f70046228b8cf131c54a12ed7e4b07cf31a6a93f6b7ca344d473a317f103e037"
+    },
+    {
+      "path": "tools/legacy-animation/boundary-pool-r24.py",
+      "bytes": 4629,
+      "sha256": "6bdca35bc3b5ca8c90024053997dc88a21d6b99d00cab54fb0acc8810e6ea671"
+    },
+    {
+      "path": "tools/legacy-animation/eye-fit-report-r31.json",
+      "bytes": 668,
+      "sha256": "850ca0cb8d5be6809d33da32d202ade13be23f78d83bc6cfeaff1b45c9ab9e5b"
+    },
+    {
+      "path": "tools/legacy-animation/finalize-r31.py",
+      "bytes": 5883,
+      "sha256": "fb5cb9462197c4f0c68176247322696c272c5247664428d78ace0bcce9537333"
+    },
+    {
+      "path": "tools/legacy-animation/fit-effects.py",
+      "bytes": 1551,
+      "sha256": "997b5b421b3971af4f7d83a98faffb24055c4414eece0a29a9f8b4f7afd560e4"
+    },
+    {
+      "path": "tools/legacy-animation/fit-hd-r31.py",
+      "bytes": 2163,
+      "sha256": "81b23d76152f5f7ebdb2865100a013dbbda3b7ffcdbbb8b1cb6e1919fc614895"
+    },
+    {
+      "path": "tools/legacy-animation/fit-raiden-eye-r31.py",
+      "bytes": 2151,
+      "sha256": "f086f0bee09a29ef06c34f54190ad5f20ddf8abeaeb47afcfc969b94aadd881e"
+    },
+    {
+      "path": "tools/legacy-animation/fit-report.json",
+      "bytes": 528,
+      "sha256": "3883f6664a59ddb196f55f2cd797b6857e306f5b4062b62c509b45e735c4d712"
+    },
+    {
+      "path": "tools/legacy-animation/fit.py",
+      "bytes": 3281,
+      "sha256": "cac01f59c53e44a9b6b9954f1c0eea4edb22e6c3d0e942ba00784eecccf77bed"
+    },
+    {
+      "path": "tools/legacy-animation/fix-delivery.py",
+      "bytes": 2405,
+      "sha256": "6b2f437a2be665b5e69d1fe36d8759dbffe789576a71543b53e0b0ad45149cba"
+    },
+    {
+      "path": "tools/legacy-animation/fix-scale-throw.py",
+      "bytes": 4095,
+      "sha256": "cd24315e80dc935cd5b357c9495f1965487bf99f6e6b98e68c1f089f2cab4891"
+    },
+    {
+      "path": "tools/legacy-animation/freeze.json",
+      "bytes": 452,
+      "sha256": "8aa2938bce9b5a70b70880098775eb535413d75f77d42cce32e5a9e3cacb78a8"
+    },
+    {
+      "path": "tools/legacy-animation/full-demo-r31.py",
+      "bytes": 2280,
+      "sha256": "efa6d1d9ca36027519ec273319c56b3f84fd970549548c91fb0e2fd91770a22a"
+    },
+    {
+      "path": "tools/legacy-animation/hd-fit-report-r31.json",
+      "bytes": 33798,
+      "sha256": "6d501e729de045c2df34db1cdd860b2b20df4994fece68f7d32574ae3f31bb58"
+    },
+    {
+      "path": "tools/legacy-animation/high-pool-r31.py",
+      "bytes": 2988,
+      "sha256": "c5224478aa08c5a86c1466f48f928c07ebd49514c23fbe7570cc17d43461057c"
+    },
+    {
+      "path": "tools/legacy-animation/inbetween-fit-report-r28.json",
+      "bytes": 2967,
+      "sha256": "6895b3096664bd98bfca5e5b51965cee45ecacc4f3476690fb9be378c1414c54"
+    },
+    {
+      "path": "tools/legacy-animation/integrate-inbetweens-r28.py",
+      "bytes": 7905,
+      "sha256": "aeb325e7328a90538291c78a5f493b069dc92cf61a49840ad164b11adfcfebce"
+    },
+    {
+      "path": "tools/legacy-animation/integrate-nahida-r25.py",
+      "bytes": 9470,
+      "sha256": "834001d4142383de73e09d8c2cab9d7dbf49a9eddf5323b0079f9f6ad963ce84"
+    },
+    {
+      "path": "tools/legacy-animation/integrate.py",
+      "bytes": 9971,
+      "sha256": "895690299c298868b508caddcb069559c8cf6bcc91b96ffd570afaeaa8e8a59e"
+    },
+    {
+      "path": "tools/legacy-animation/nahida-capture-pool.py",
+      "bytes": 9400,
+      "sha256": "bd1164bf0323b1b6acef8909d6a0a30ed94e22dc4b67762be3249925d4195b32"
+    },
+    {
+      "path": "tools/legacy-animation/nahida-frame-strike-r26.py",
+      "bytes": 7106,
+      "sha256": "302d1d9db94ee20f7e78f8ec4ad7234e294aab58755612b3660a80a798818afb"
+    },
+    {
+      "path": "tools/legacy-animation/pixel-strike-ai-r27.py",
+      "bytes": 7548,
+      "sha256": "de2df15b4b573a97cb644a69683de95ebe8a8eaf50d68b3cb97d7bd5d11dad21"
+    },
+    {
+      "path": "tools/legacy-animation/polish-burst.py",
+      "bytes": 2505,
+      "sha256": "b538e514944887f99702e8a712a93122ff067bc949d84807db4b3243a6ef9e5c"
+    },
+    {
+      "path": "tools/legacy-animation/pool-preview-release.py",
+      "bytes": 878,
+      "sha256": "f533d0ca57c450f992c826b0eb87cbfece15ce5b56de40fd5ac5a53e0ee909ba"
+    },
+    {
+      "path": "tools/legacy-animation/prepare-inbetweens-r28.py",
+      "bytes": 4315,
+      "sha256": "e63621546458252a0b0b88eee35b591b26d6b584390bb972c4891c97e7d2f5b8"
+    },
+    {
+      "path": "tools/legacy-animation/prepare.py",
+      "bytes": 4434,
+      "sha256": "7c57cfa6b156d895faaf47508b322bbc5c5b459b1eb446a654b066ea9b8acf61"
+    },
+    {
+      "path": "tools/legacy-animation/preview-engine-r23.js",
+      "bytes": 14266,
+      "sha256": "41194800ea696876687fab2139d474a66080adf8efde8f0a5d2da9a498c940a2"
+    },
+    {
+      "path": "tools/legacy-animation/quality-input-r31.py",
+      "bytes": 5610,
+      "sha256": "59b46a362f993f56188adc2a2ddd7dc2471f9d72ab920c901dff3253baaa9ba9"
+    },
+    {
+      "path": "tools/legacy-animation/restore-burst.py",
+      "bytes": 6778,
+      "sha256": "24602cbe1a9af1295889fc8ea825982c718eadaf6299a8af7b409faa06a95a55"
+    },
+    {
+      "path": "tools/legacy-animation/split-art-r31.py",
+      "bytes": 1886,
+      "sha256": "7159c2cf58a496cb248ce6e0fcb2e86420c12056d4655c0e74030c55f0476a9e"
+    },
+    {
+      "path": "tools/legacy-animation/test-action-previews.mjs",
+      "bytes": 3514,
+      "sha256": "ff987191aaa14e93727907e0d26e0d0b6aeb03fe83e17820ccb152f753d58fee"
+    },
+    {
+      "path": "tools/legacy-animation/test-ai-demo.mjs",
+      "bytes": 4521,
+      "sha256": "baac0ca52a03c50ed214cc78a42875fc763ddfd9b7abe5f366f8031fe1ec630b"
+    },
+    {
+      "path": "tools/legacy-animation/test-ai-throw-r27.mjs",
+      "bytes": 4761,
+      "sha256": "56bad049a285f8930acfb5f34550c266a76a8bce240a7fecb0defb4e10e3d1f8"
+    },
+    {
+      "path": "tools/legacy-animation/test-battle.mjs",
+      "bytes": 7640,
+      "sha256": "98403a81892f9b246e969d1d99619e38bf0caeb97ab962d29394aaa43ac53c80"
+    },
+    {
+      "path": "tools/legacy-animation/test-budget.mjs",
+      "bytes": 7597,
+      "sha256": "d2ce2251eed2d2d245f54ee080cfcef3c520f1f4d2f664a0bfd4acdaaee71b23"
+    },
+    {
+      "path": "tools/legacy-animation/test-burst-cinema.mjs",
+      "bytes": 7286,
+      "sha256": "0b8d4fb2b6dc1c34a4e7b2a0049270531043902a31056bec9229b5739411bfc6"
+    },
+    {
+      "path": "tools/legacy-animation/test-demo-throw-diagnostics.mjs",
+      "bytes": 4628,
+      "sha256": "11860d5398ef3e25fbaa7d282b359a7e54de1a89618ce4b7aade5f5f0905b669"
+    },
+    {
+      "path": "tools/legacy-animation/test-dynamic-pool.mjs",
+      "bytes": 6085,
+      "sha256": "45e2e11670990fb72e08d1900753b18838468017a1fc75ad6603484828cf243e"
+    },
+    {
+      "path": "tools/legacy-animation/test-formal-r33.mjs",
+      "bytes": 7257,
+      "sha256": "58f535c0df0190523a2c00362101f1484b85bd2ea820d16fbca78b37fc2652b4"
+    },
+    {
+      "path": "tools/legacy-animation/test-full-demo-r31.mjs",
+      "bytes": 5298,
+      "sha256": "19290674d67f88d54bf80d3785ea432e80c2b201d727cbaa824257c50ad3a4dd"
+    },
+    {
+      "path": "tools/legacy-animation/test-inbetweens-r28.mjs",
+      "bytes": 7435,
+      "sha256": "b75b452bb3156f294f13a6b2493b352d0b3d460ae3d021b457d75e48f6c49d29"
+    },
+    {
+      "path": "tools/legacy-animation/test-nahida-confirmed-hits-r31.mjs",
+      "bytes": 5449,
+      "sha256": "46b832cfec1848e69be97a72ef5e1e10628f1496bcf220173c8620f80f1cd71f"
+    },
+    {
+      "path": "tools/legacy-animation/test-nahida-r25.mjs",
+      "bytes": 6495,
+      "sha256": "d6ba0aad5808c2a0a26aa0821f7e44579021d84046543c24c9d90b382840585b"
+    },
+    {
+      "path": "tools/legacy-animation/test-nahida-r26.mjs",
+      "bytes": 6434,
+      "sha256": "762348c9509b2e22e970d023a24e4cf0007cc04f6a625f16cfc3f43fa24b1659"
+    },
+    {
+      "path": "tools/legacy-animation/test-nahida-r27.mjs",
+      "bytes": 6521,
+      "sha256": "4ded75cc5706443d73e9c57c39fe50f7096304e57ebd3dc93447f009d5e9f4bb"
+    },
+    {
+      "path": "tools/legacy-animation/test-online-archive-r31.mjs",
+      "bytes": 9663,
+      "sha256": "796fb6a5920afadf6a0149ca4ad1d150f38e1dd515ddcc1dd934dfb54154d7a4"
+    },
+    {
+      "path": "tools/legacy-animation/test-player-entry-r31.mjs",
+      "bytes": 3431,
+      "sha256": "c78ccaf28ae5b91229b5bb0e137b94952820b5bb0db8d683c53a272411e5b928"
+    },
+    {
+      "path": "tools/legacy-animation/test-pool-stress.mjs",
+      "bytes": 4510,
+      "sha256": "2125f6e197151c20063bcb8958d702f1d69c78e6d27f83d791257e2afa3057cc"
+    },
+    {
+      "path": "tools/legacy-animation/test-pool-switch-r31.mjs",
+      "bytes": 8515,
+      "sha256": "9e5bcfcf3fe1e23f5d2be793d9bd78555c124848e98991aa565ded98459dc414"
+    },
+    {
+      "path": "tools/legacy-animation/test-quality-input-r31.mjs",
+      "bytes": 8463,
+      "sha256": "483c7e685a222e8cc525d26570b6593b94f25fffcb686290736edce66f974e42"
+    },
+    {
+      "path": "tools/legacy-animation/test-raiden-confirmed-hits-r30.mjs",
+      "bytes": 5368,
+      "sha256": "b4c8797ab19c712032da6c8a58180a369172ad855228e700e9f17dcb1cf33891"
+    },
+    {
+      "path": "tools/legacy-animation/test-require-probe-r31.mjs",
+      "bytes": 3591,
+      "sha256": "173a06213e0e41121c342c63ea64f0b99febe5cc3f018b79f1b569d94dfe5d7c"
+    },
+    {
+      "path": "tools/legacy-animation/test-round-fix.mjs",
+      "bytes": 4819,
+      "sha256": "73b5d624d17e6b4bf4ddfa99ad0a982933207416803a72332281898c934774a5"
+    },
+    {
+      "path": "tools/legacy-animation/test-static-responses-r29.mjs",
+      "bytes": 2883,
+      "sha256": "b246f0949964778587644e990899f39b91f2260ba74d963a738b3856dedf1059"
+    },
+    {
+      "path": "tools/legacy-animation/test-throw-cinema.mjs",
+      "bytes": 5473,
+      "sha256": "ded0b6febecc5be64100e462ec196886ca7410a4901cab34192bc7d0e3bc1262"
+    },
+    {
+      "path": "tools/lua_runner.py",
+      "bytes": 889,
+      "sha256": "1fd772d456a5af9d22b7522b389ba836e3e43eae5524110f0d62b6a3371a9594"
+    },
+    {
+      "path": "tools/rebuild.py",
+      "bytes": 413,
+      "sha256": "73ca2cee35c15039e1565354080670d865d545d20e04a8f296fbbbca3c2b6098"
+    },
+    {
+      "path": "tools/verify_assets.py",
+      "bytes": 372,
+      "sha256": "498c91801eba969f0f7695ba9ca40d4f1516e18f6494ce56da9cde958bd7a085"
+    },
+    {
+      "path": "verification/full-flow.json",
+      "bytes": 254,
+      "sha256": "1bc4cc99a159d7fd6ad083c107a9aea2406854426a4d6a87b67a497c8e8f8d76"
+    },
+    {
+      "path": "verification/raiden-idle-frame-audit.png",
+      "bytes": 17106,
+      "sha256": "f4a3f43cf0e6e6cddb805d2d6d5249761d03796f9081bf095d3e645ae89312a0"
+    },
+    {
+      "path": "verification/validation.json",
+      "bytes": 612,
+      "sha256": "deb7c09f32678a692ccfe3ace902956d54be3eb53bd195b1152bbd43639af5b8"
+    }
+  ]
+}

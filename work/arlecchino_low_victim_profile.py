@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('work/arlecchino_pairing_profiles.py');s=p.read_text(encoding='utf-8').replace("for i,h in enumerate([(490,150),(885,210)]):", "for i,h in enumerate([(490,150),(885,210)] if model=='raiden' else [(567,346),(619,1050)]):").replace("match(d['victim']['sourceFrames'][i],h", "match(({**d['victim'],**d['victim'].get('variants',{}).get(model,{})})['sourceFrames'][i],h");p.write_text(s,encoding='utf-8')

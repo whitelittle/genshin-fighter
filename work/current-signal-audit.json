@@ -1,0 +1,417 @@
+{
+  "filename": "111.gia",
+  "signals": [
+    "信号_29",
+    "信号_28",
+    "信号_27",
+    "信号_26",
+    "信号_25",
+    "信号_24",
+    "信号_30",
+    "信号_34",
+    "信号_33",
+    "信号_32",
+    "信号_31",
+    "信号_23"
+  ],
+  "definitions": [
+    {
+      "id": 1073741977,
+      "kind": "监听信号",
+      "names": [
+        "信号_29"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073741978,
+      "kind": "发送信号",
+      "names": [
+        "信号_29"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741979,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_29"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741980,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_29"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741981,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_28"
+      ],
+      "referencedNodes": 4
+    },
+    {
+      "id": 1073741982,
+      "kind": "发送信号",
+      "names": [
+        "信号_28"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741983,
+      "kind": "监听信号",
+      "names": [
+        "信号_28"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741984,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_28"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741985,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_27"
+      ],
+      "referencedNodes": 96
+    },
+    {
+      "id": 1073741986,
+      "kind": "发送信号",
+      "names": [
+        "信号_27"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741987,
+      "kind": "监听信号",
+      "names": [
+        "信号_27"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741988,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_27"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741989,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_26"
+      ],
+      "referencedNodes": 10
+    },
+    {
+      "id": 1073741990,
+      "kind": "发送信号",
+      "names": [
+        "信号_26"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741991,
+      "kind": "监听信号",
+      "names": [
+        "信号_26"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741992,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_26"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741993,
+      "kind": "监听信号",
+      "names": [
+        "信号_25"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073741994,
+      "kind": "发送信号",
+      "names": [
+        "信号_25"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741995,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_25"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741996,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_25"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741997,
+      "kind": "监听信号",
+      "names": [
+        "信号_24"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073741998,
+      "kind": "发送信号",
+      "names": [
+        "信号_24"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741999,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_24"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742000,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_24"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742001,
+      "kind": "监听信号",
+      "names": [
+        "信号_30"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073742002,
+      "kind": "发送信号",
+      "names": [
+        "信号_30"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742003,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_30"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742004,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_30"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742005,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_34"
+      ],
+      "referencedNodes": 2
+    },
+    {
+      "id": 1073742006,
+      "kind": "发送信号",
+      "names": [
+        "信号_34"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742007,
+      "kind": "监听信号",
+      "names": [
+        "信号_34"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742008,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_34"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742009,
+      "kind": "监听信号",
+      "names": [
+        "信号_33"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073742010,
+      "kind": "发送信号",
+      "names": [
+        "信号_33"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742011,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_33"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742012,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_33"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742013,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_32"
+      ],
+      "referencedNodes": 2
+    },
+    {
+      "id": 1073742014,
+      "kind": "发送信号",
+      "names": [
+        "信号_32"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742015,
+      "kind": "监听信号",
+      "names": [
+        "信号_32"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742016,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_32"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742017,
+      "kind": "监听信号",
+      "names": [
+        "信号_31"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073742018,
+      "kind": "发送信号",
+      "names": [
+        "信号_31"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742019,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_31"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742020,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_31"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742021,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "信号_23"
+      ],
+      "referencedNodes": 4
+    },
+    {
+      "id": 1073742022,
+      "kind": "发送信号",
+      "names": [
+        "信号_23"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742023,
+      "kind": "监听信号",
+      "names": [
+        "信号_23"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742024,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "信号_23"
+      ],
+      "referencedNodes": 0
+    }
+  ],
+  "numericNameOccurrences": {
+    "信号_29": 9,
+    "信号_28": 12,
+    "信号_27": 104,
+    "信号_26": 18,
+    "信号_25": 9,
+    "信号_24": 9,
+    "信号_30": 9,
+    "信号_34": 10,
+    "信号_33": 9,
+    "信号_32": 10,
+    "信号_31": 9,
+    "信号_23": 12
+  }
+}

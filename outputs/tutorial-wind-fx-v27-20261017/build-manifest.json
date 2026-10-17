@@ -1,0 +1,15 @@
+{
+  "clientSha256": "33144fcb2172016be3a5e15f03c166cf3814b4ceeea248cc11c37f052ce03220",
+  "baselineSha256": "f4040e91b0b93f91e3c73493a62ea1876babfa76dc21c52c8055fa577f87fb1d",
+  "onlyChangedSourceFiles": [
+    "source/battle/gf_battle_events.lua",
+    "source/battle/gf_scene_fight.lua",
+    "source/teaching/gf_character_lumine_training.lua",
+    "source/teaching/gf_lumine_training_rules.lua",
+    "source/teaching/gf_sim_lumine_training.lua",
+    "source/teaching/gf_wind_skill_fx_data.lua"
+  ],
+  "effectPeak": 126,
+  "bodyBudgetSeparate": true,
+  "scope": "authored wind effect frames; confirmed launcher->E and resource dash extension; no OTG; balance/art/device acceptance pending"
+}

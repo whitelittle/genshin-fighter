@@ -1,0 +1,100 @@
+{
+  "key": "budget5000",
+  "target": 5000,
+  "w": 160,
+  "h": 90,
+  "colors": 31,
+  "tolerance": 3,
+  "method": "nearest",
+  "fitMethod": "纵向无重叠",
+  "overdraw": 1,
+  "rectangles": 4974,
+  "approxControls": 9948,
+  "compressedBytes": 13569,
+  "actualColors": 31,
+  "exactReconstruction": true,
+  "candidates": [
+    {
+      "w": 240,
+      "h": 135,
+      "colors": 24,
+      "tolerance": 14,
+      "rectangles": 7600,
+      "actualColors": 13,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 224,
+      "h": 126,
+      "colors": 24,
+      "tolerance": 12,
+      "rectangles": 6289,
+      "actualColors": 13,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 208,
+      "h": 117,
+      "colors": 24,
+      "tolerance": 10,
+      "rectangles": 7262,
+      "actualColors": 24,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 192,
+      "h": 108,
+      "colors": 24,
+      "tolerance": 8,
+      "rectangles": 6282,
+      "actualColors": 24,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 192,
+      "h": 108,
+      "colors": 20,
+      "tolerance": 12,
+      "rectangles": 5074,
+      "actualColors": 8,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 176,
+      "h": 99,
+      "colors": 32,
+      "tolerance": 3,
+      "rectangles": 5474,
+      "actualColors": 32,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 160,
+      "h": 90,
+      "colors": 32,
+      "tolerance": 3,
+      "rectangles": 5028,
+      "actualColors": 32,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    },
+    {
+      "w": 160,
+      "h": 90,
+      "colors": 31,
+      "tolerance": 3,
+      "rectangles": 4974,
+      "actualColors": 31,
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1
+    }
+  ],
+  "includesCharacter": false,
+  "realDeviceVerified": false
+}

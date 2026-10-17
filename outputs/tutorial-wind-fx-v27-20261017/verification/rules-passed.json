@@ -1,0 +1,220 @@
+{
+  "clientSha256": "33144fcb2172016be3a5e15f03c166cf3814b4ceeea248cc11c37f052ce03220",
+  "passed": true,
+  "offlineOnly": true,
+  "result": {
+    "courses": [
+      {
+        "course": "low",
+        "objectives": 2
+      },
+      {
+        "course": "air",
+        "objectives": 2
+      },
+      {
+        "course": "skill",
+        "objectives": 4
+      },
+      {
+        "course": "burst",
+        "objectives": 4
+      },
+      {
+        "course": "assist",
+        "objectives": 3
+      },
+      {
+        "course": "throw",
+        "objectives": 3
+      },
+      {
+        "course": "side",
+        "objectives": 3
+      },
+      {
+        "course": "anemo",
+        "objectives": 4
+      },
+      {
+        "course": "geo",
+        "objectives": 6
+      },
+      {
+        "course": "electro",
+        "objectives": 6
+      },
+      {
+        "course": "dendro",
+        "objectives": 4
+      },
+      {
+        "course": "hydro",
+        "objectives": 4
+      },
+      {
+        "course": "pyro",
+        "objectives": 5
+      },
+      {
+        "course": "cryo",
+        "objectives": 4
+      }
+    ],
+    "earlyHeldAndLateTechRejected": true,
+    "reactions": [
+      {
+        "branch": "skill",
+        "course": "anemo",
+        "reaction": "swirl"
+      },
+      {
+        "branch": "skillUp",
+        "course": "anemo",
+        "reaction": "swirl"
+      },
+      {
+        "branch": "skillDown",
+        "course": "anemo",
+        "reaction": "swirl"
+      },
+      {
+        "branch": "skill",
+        "course": "anemo",
+        "reaction": "swirl"
+      },
+      {
+        "branch": "skill",
+        "course": "geo",
+        "reaction": "crystal"
+      },
+      {
+        "branch": "skillUp",
+        "course": "geo",
+        "reaction": "crystal"
+      },
+      {
+        "branch": "skillDown",
+        "course": "geo",
+        "reaction": "crystal"
+      },
+      {
+        "branch": "skill",
+        "course": "geo",
+        "reaction": "crystal"
+      },
+      {
+        "branch": "skill",
+        "course": "electro",
+        "reaction": "electro"
+      },
+      {
+        "branch": "skillUp",
+        "course": "electro",
+        "reaction": "overload"
+      },
+      {
+        "branch": "skillDown",
+        "course": "electro",
+        "reaction": "superconduct"
+      },
+      {
+        "branch": "skill",
+        "course": "electro",
+        "reaction": "quicken"
+      },
+      {
+        "branch": "skillUp",
+        "course": "electro",
+        "reaction": "aggravate"
+      },
+      {
+        "branch": "skill",
+        "course": "electro",
+        "reaction": "hyperbloom"
+      },
+      {
+        "branch": "skill",
+        "course": "dendro",
+        "reaction": "bloom"
+      },
+      {
+        "branch": "skillUp",
+        "course": "dendro",
+        "reaction": "quicken"
+      },
+      {
+        "branch": "skillDown",
+        "course": "dendro",
+        "reaction": "spread"
+      },
+      {
+        "branch": "skill",
+        "course": "dendro",
+        "reaction": "burning"
+      },
+      {
+        "branch": "skill",
+        "course": "hydro",
+        "reaction": "vaporize"
+      },
+      {
+        "branch": "skillUp",
+        "course": "hydro",
+        "reaction": "frozen"
+      },
+      {
+        "branch": "skillDown",
+        "course": "hydro",
+        "reaction": "electro"
+      },
+      {
+        "branch": "skill",
+        "course": "hydro",
+        "reaction": "bloom"
+      },
+      {
+        "branch": "skill",
+        "course": "pyro",
+        "reaction": "vaporize"
+      },
+      {
+        "branch": "skillUp",
+        "course": "pyro",
+        "reaction": "melt"
+      },
+      {
+        "branch": "skillDown",
+        "course": "pyro",
+        "reaction": "overload"
+      },
+      {
+        "branch": "skill",
+        "course": "pyro",
+        "reaction": "burning"
+      },
+      {
+        "branch": "skill",
+        "course": "pyro",
+        "reaction": "burgeon"
+      },
+      {
+        "branch": "skill",
+        "course": "cryo",
+        "reaction": "frozen"
+      },
+      {
+        "branch": "skillUp",
+        "course": "cryo",
+        "reaction": "melt"
+      },
+      {
+        "branch": "skillDown",
+        "course": "cryo",
+        "reaction": "superconduct"
+      }
+    ],
+    "snapshotReplay": true,
+    "wrongBranchRecovery": true
+  }
+}

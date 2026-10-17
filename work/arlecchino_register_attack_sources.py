@@ -1,0 +1,10 @@
+from pathlib import Path
+import json
+p=Path('outputs/arlecchino-actions-20261011')
+c={
+ 'light3-hook-v2':{'bladeCenters':[[658,208],[1354,188],[659,474],[1385,423],[672,880],[1398,896]],'bodySeeds':[[310,190],[1085,190],[350,550],[1090,550],[375,870],[1095,870]],'minBladeArea':6000,'shaftHints':[[[94,122],[627,207]],[[854,129],[1375,196]],[[127,520],[655,471]],[[834,545],[1388,383]],[[160,800],[674,887]],[[869,819],[1394,908]]],'supportY':[338,336,690,703,1006,1008]},
+ 'heavy-hook-v2':{'bladeCenters':[[565,300],[1105,180],[560,540],[1147,759],[558,1148],[1134,1145]],'bodySeeds':[[310,255],[930,265],[315,670],[950,725],[300,1090],[930,1090]],'minBladeArea':6000,'shaftHints':[[[95,215],[566,293]],[[710,220],[1122,155]],[[183,668],[577,569]],[[743,568],[1157,786]],[[112,1002],[558,1155]],[[712,1024],[1160,1157]]],'supportY':[416,416,861,855,1250,1247]},
+ 'crouchlight-v1':{'bladeCenters':[[174,236],[960,235],[140,730],[993,738]],'bodySeeds':[[450,300],[1230,300],[455,800],[1260,830]],'minBladeArea':6000,'shaftHints':[[[210,175],[725,322]],[[1025,210],[1495,328]],[[235,685],[840,776]],[[1025,700],[1495,840]]],'supportY':[482,484,978,993]}}
+(p/'source-calibration.json').write_text(json.dumps(c,ensure_ascii=False,indent=2),encoding='utf-8')
+plans=[{'key':'light3','label':'轻3 · 钩斩','source':'source/light3-hook-v2.png','group':'light3-hook-v2','n':6,'unit':.95,'hips':[308,1085,357,1091,373,1095],'durations':[4,4,3,4,4,14],'phases':['低位持镰','屈膝蓄势','前踏挑起','上钩有效','制动','恢复'],'hitTick':11}, {'key':'heavy','label':'站重','source':'source/heavy-hook-v2.png','group':'heavy-hook-v2','n':6,'unit':.70,'hips':[307,930,315,950,300,930],'durations':[5,9,4,5,5,18],'phases':['持镰','重蓄势','蹬地','重钩有效','制动','恢复'],'hitTick':18}, {'key':'crouchlight','label':'蹲轻','source':'source/crouchlight-v1.png','group':'crouchlight-v1','n':4,'unit':.65,'hips':[450,1230,455,1260],'durations':[4,3,3,12],'phases':['低位持柄','短送枪尾','低位有效','低位恢复'],'hitTick':7}]
+(p/'additional-body-plans.json').write_text(json.dumps(plans,ensure_ascii=False,indent=2),encoding='utf-8')

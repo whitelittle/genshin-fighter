@@ -1,0 +1,65 @@
+candidate 9b20e2e91f737f1bf9ce45536e8f1ae8e183ba1a906d08cf7e7c6f7e82bc2637
+{
+  "scope": "project-local merge; offline verification only; no native acceptance or external publishing",
+  "sha256": "c9c2dbb366ed70683020fd1c8c0942ecc052d3cf5dbc9ffd6b38741f399103c3",
+  "v15RecoverySha256": "bd236b021a3903d5631ae187af050336c63fdce20bc86eaab24d4f727681c584",
+  "v15CrashFixSha256": "10067e422f4f80bf6b16f5d7d454a5c7411fd0d495d634875d3316a1a36ca2af",
+  "changedV15Modules": [
+    "gf_app",
+    "gf_art",
+    "gf_fview",
+    "gf_input",
+    "gf_kits",
+    "gf_battle_pause",
+    "gf_scene_fight",
+    "gf_scene_howto",
+    "gf_scene_menu",
+    "gf_touch",
+    "gf_character_registry"
+  ],
+  "addedModules": [
+    "gf_character_lawachurl_training",
+    "gf_character_lumine_training",
+    "gf_lawachurl_training_data",
+    "gf_lumine_training_data",
+    "gf_paimon_training_avatar",
+    "gf_scene_training_courses",
+    "gf_scene_update_notice",
+    "gf_training_coach",
+    "gf_training_courses",
+    "gf_training_lesson",
+    "gf_update_notice_data"
+  ],
+  "exportProfile": "V15 lazy scalar fields, no base64/LZ4; daily readable sources retained",
+  "assetModulesMatchV15AfterExactRawSerialization": [
+    "gf_animation_data",
+    "gf_arlecchino_data",
+    "gf_ayaka_data",
+    "gf_clorinde_data",
+    "gf_furina_data",
+    "gf_inbetween_data"
+  ],
+  "allSimulationModulesIdenticalToV15": [
+    "gf_sim_physics",
+    "gf_sim_flow",
+    "gf_sim_snapshot",
+    "gf_sim",
+    "gf_sim_combat",
+    "gf_sim_projectiles",
+    "gf_sim_actions",
+    "gf_sim_fighter",
+    "gf_sim_furina",
+    "gf_sim_ayaka",
+    "gf_sim_clorinde",
+    "gf_sim_arlecchino",
+    "gf_sim_team",
+    "gf_sim_feedback"
+  ],
+  "protectedRecoveryModulesIdentical": [
+    "gf_app_recovery",
+    "gf_app_exit",
+    "gf_gfx",
+    "gf_ui"
+  ],
+  "bootstrapIdenticalToV15": true
+}

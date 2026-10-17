@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('outputs/arlecchino-actions-20261011/player.js');s=p.read_text(encoding='utf-8');s=s.replace("airRootSource:inheritAir?'jump-current-root':'standalone-demo'", "airRootSource:previousState?.selected===key?previousActive.airRootSource:inheritAir?'jump-current-root':'standalone-demo'");s=s.replace("$('source').href=d.sourceFrames[0].source", "$('source').href=(d.sourceFrames.find(f=>!f.file.startsWith('frames/idle-'))||d.sourceFrames[0]).source");p.write_text(s,encoding='utf-8')

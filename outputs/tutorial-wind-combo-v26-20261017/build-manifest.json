@@ -1,0 +1,324 @@
+{
+  "clientSha256": "f4040e91b0b93f91e3c73493a62ea1876babfa76dc21c52c8055fa577f87fb1d",
+  "baselineSha256": "93d0de7aab5485b888141428c939cda7bf01b5af3cbd02cc22b59572f774088e",
+  "onlyChangedSourceFiles": [
+    "source/battle/gf_battle_events.lua",
+    "source/battle/gf_scene_fight.lua",
+    "source/characters/gf_character_registry.lua",
+    "source/teaching/gf_lumine_training_data.lua",
+    "source/teaching/gf_character_lumine_training.lua",
+    "source/teaching/gf_training_lesson.lua",
+    "source/teaching/gf_lumine_training_rules.lua",
+    "source/teaching/gf_sim_lumine_training.lua",
+    "source/teaching/gf_training_extended.lua",
+    "source/teaching/gf_training_courses.lua",
+    "source/teaching/gf_training_juggle.lua"
+  ],
+  "frames": {
+    "skill_0": {
+      "file": "fit/skill_0.png",
+      "anchor": [
+        23,
+        75
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skill_0.json",
+      "rectangles": 734,
+      "sourceAnchor": [
+        191.0,
+        681
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skill.png",
+      "bounds": [
+        69,
+        63,
+        503,
+        744
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skill_1": {
+      "file": "fit/skill_1.png",
+      "anchor": [
+        31,
+        76
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skill_1.json",
+      "rectangles": 782,
+      "sourceAnchor": [
+        265.0,
+        685
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skill.png",
+      "bounds": [
+        507,
+        60,
+        970,
+        745
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skill_2": {
+      "file": "fit/skill_2.png",
+      "anchor": [
+        26,
+        74
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skill_2.json",
+      "rectangles": 830,
+      "sourceAnchor": [
+        220.0,
+        664
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skill.png",
+      "bounds": [
+        40,
+        818,
+        608,
+        1482
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skill_3": {
+      "file": "fit/skill_3.png",
+      "anchor": [
+        26,
+        75
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skill_3.json",
+      "rectangles": 707,
+      "sourceAnchor": [
+        224.0,
+        677
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skill.png",
+      "bounds": [
+        548,
+        813,
+        1002,
+        1490
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillUp_0": {
+      "file": "fit/skillUp_0.png",
+      "anchor": [
+        27,
+        65
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillUp_0.json",
+      "rectangles": 745,
+      "sourceAnchor": [
+        229.0,
+        586
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillUp.png",
+      "bounds": [
+        31,
+        134,
+        502,
+        720
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillUp_1": {
+      "file": "fit/skillUp_1.png",
+      "anchor": [
+        31,
+        75
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillUp_1.json",
+      "rectangles": 775,
+      "sourceAnchor": [
+        270.0,
+        677.5
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillUp.png",
+      "bounds": [
+        502,
+        40,
+        1016,
+        696
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillUp_2": {
+      "file": "fit/skillUp_2.png",
+      "anchor": [
+        27,
+        78
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillUp_2.json",
+      "rectangles": 797,
+      "sourceAnchor": [
+        233.0,
+        705.5
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillUp.png",
+      "bounds": [
+        27,
+        780,
+        591,
+        1448
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillUp_3": {
+      "file": "fit/skillUp_3.png",
+      "anchor": [
+        30,
+        71
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillUp_3.json",
+      "rectangles": 800,
+      "sourceAnchor": [
+        254.0,
+        636
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillUp.png",
+      "bounds": [
+        518,
+        846,
+        963,
+        1482
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillDown_0": {
+      "file": "fit/skillDown_0.png",
+      "anchor": [
+        27,
+        64
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillDown_0.json",
+      "rectangles": 689,
+      "sourceAnchor": [
+        232.0,
+        571
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillDown.png",
+      "bounds": [
+        28,
+        135,
+        491,
+        706
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillDown_1": {
+      "file": "fit/skillDown_1.png",
+      "anchor": [
+        30,
+        64
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillDown_1.json",
+      "rectangles": 616,
+      "sourceAnchor": [
+        253.0,
+        570
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillDown.png",
+      "bounds": [
+        519,
+        134,
+        1023,
+        704
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillDown_2": {
+      "file": "fit/skillDown_2.png",
+      "anchor": [
+        26,
+        67
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillDown_2.json",
+      "rectangles": 722,
+      "sourceAnchor": [
+        224.0,
+        602
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillDown.png",
+      "bounds": [
+        36,
+        845,
+        613,
+        1447
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    },
+    "skillDown_3": {
+      "file": "fit/skillDown_3.png",
+      "anchor": [
+        29,
+        76
+      ],
+      "scale": 4.5,
+      "rectData": "fit/skillDown_3.json",
+      "rectangles": 718,
+      "sourceAnchor": [
+        244.0,
+        684
+      ],
+      "sourceUnit": 0.4819277108433735,
+      "sameQuantizationAndContrastAsApprovedWalk": true,
+      "source": "source/skillDown.png",
+      "bounds": [
+        528,
+        777,
+        978,
+        1461
+      ],
+      "sheetFactor": 0.5,
+      "ownership": "actual connected silhouette; no rectangle cell clipping"
+    }
+  },
+  "bodyUniqueMean": 765.4022988505748,
+  "bodyPeak": 1086,
+  "artAcceptance": "pending",
+  "comboDesign": "J,J,down+K,confirmed jump cancel,J,K; wind skill cancel optional",
+  "scope": "Traveler only; new wind projectiles, timings and damage reach require verification"
+}

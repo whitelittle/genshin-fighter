@@ -1,0 +1,25 @@
+{
+  "seed": 20261013,
+  "method": "one BVN Bleach, one BVN Naruto, one SF3 player index",
+  "bvn": [
+    {
+      "id": "yoruichi",
+      "name": "四枫院·夜一",
+      "file": "yoruichi.swf",
+      "start_frame": 1
+    },
+    {
+      "id": "juggo",
+      "name": "天秤·重吾",
+      "file": "juggo.swf",
+      "start_frame": 1
+    }
+  ],
+  "sf3_player_index": 18,
+  "sf3": {
+    "player_number": 18,
+    "name": "Twelve（十二）",
+    "action_source": "plpat19.c",
+    "mapping_evidence": "Ck_Pass.c Passive_AS_tbl[18] = VS_NO12_AS; PLPAT.c plxx_extra_attack_table[18] = pl19_extra_attack"
+  }
+}

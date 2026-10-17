@@ -1,0 +1,36 @@
+# Python
+
+.venv
+venv
+__pycache__
+
+# macOS
+
+.DS_Store
+
+# IDEs
+
+.vscode
+
+# Project
+
+SLPM_656.21*
+SLUS_209.49*
+THIRD_U.BIN*
+
+assets
+asm
+libs
+bin
+build
+ctx.c
+.splache
+temp
+rom
+
+# cps3
+src/cps3/
+sfiii3n/
+decrypted.bin
+config/cps3/game_syms.txt
+config/cps3/game.ld

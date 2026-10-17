@@ -1,0 +1,490 @@
+{
+  "sha": "891f5776dbdf3cbf40919e27aa8d6e77a5f66c97",
+  "files": [
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/EffectCtrl.as",
+      "ok": true,
+      "bytes": 20025
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/SoundCtrl.as",
+      "ok": true,
+      "bytes": 10279
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/BitmapDataCacheVO.as",
+      "ok": true,
+      "bytes": 1174
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/DisplayFrameBitmapCache.as",
+      "ok": true,
+      "bytes": 17035
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectBlackBackHandler.as",
+      "ok": true,
+      "bytes": 14836
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectCacheVO.as",
+      "ok": true,
+      "bytes": 1049
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectHitHandler.as",
+      "ok": true,
+      "bytes": 6535
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectManager.as",
+      "ok": true,
+      "bytes": 6360
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectShadowHandler.as",
+      "ok": true,
+      "bytes": 3945
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectShakeHandler.as",
+      "ok": true,
+      "bytes": 6226
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/effect/EffectSlowHandler.as",
+      "ok": true,
+      "bytes": 5720
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/BaseFighterEventCtrl.as",
+      "ok": true,
+      "bytes": 5306
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/FighterEventCtrl.as",
+      "ok": true,
+      "bytes": 6301
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameCameraCtrler.as",
+      "ok": true,
+      "bytes": 6901
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameCtrl.as",
+      "ok": true,
+      "bytes": 22772
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameEndCtrl.as",
+      "ok": true,
+      "bytes": 5310
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameMainLogicCtrl.as",
+      "ok": true,
+      "bytes": 13552
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameRoundCtrl.as",
+      "ok": true,
+      "bytes": 7379
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameRunFactory.as",
+      "ok": true,
+      "bytes": 3203
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameSpriteUtil.as",
+      "ok": true,
+      "bytes": 4163
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/GameStartCtrl.as",
+      "ok": true,
+      "bytes": 6385
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/IFightSession.as",
+      "ok": true,
+      "bytes": 3663
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/MusouFightSession.as",
+      "ok": true,
+      "bytes": 2588
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/TrainingCtrl.as",
+      "ok": true,
+      "bytes": 3648
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/game_ctrls/VersusFightSession.as",
+      "ok": true,
+      "bytes": 2368
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/Assister.as",
+      "ok": true,
+      "bytes": 10579
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/Bullet.as",
+      "ok": true,
+      "bytes": 16417
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/FighterAction.as",
+      "ok": true,
+      "bytes": 4477
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/FighterAttacker.as",
+      "ok": true,
+      "bytes": 16126
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/FighterMC.as",
+      "ok": true,
+      "bytes": 21543
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/FighterMain.as",
+      "ok": true,
+      "bytes": 20933
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/AssisterCtrler.as",
+      "ok": true,
+      "bytes": 11563
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/EnemyBossAICtrl.as",
+      "ok": true,
+      "bytes": 1770
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/EnemyFighterAICtrl.as",
+      "ok": true,
+      "bytes": 7113
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterAICtrl.as",
+      "ok": true,
+      "bytes": 5637
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterActionLogic.as",
+      "ok": true,
+      "bytes": 7329
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterAttackerCtrler.as",
+      "ok": true,
+      "bytes": 7202
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterBuffCtrler.as",
+      "ok": true,
+      "bytes": 3748
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterCameraCtrler.as",
+      "ok": true,
+      "bytes": 3469
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterCtrler.as",
+      "ok": true,
+      "bytes": 20323
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterEffectCtrl.as",
+      "ok": true,
+      "bytes": 9458
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterKeyCtrl.as",
+      "ok": true,
+      "bytes": 6318
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterMcCtrler.as",
+      "ok": true,
+      "bytes": 27563
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterVoice.as",
+      "ok": true,
+      "bytes": 960
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/FighterVoiceCtrler.as",
+      "ok": true,
+      "bytes": 2310
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/ai/FighterAILogic.as",
+      "ok": true,
+      "bytes": 25177
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/ai/FighterAILogicBase.as",
+      "ok": true,
+      "bytes": 7435
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcActionCtrl.as",
+      "ok": true,
+      "bytes": 9639
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcActsPart.as",
+      "ok": true,
+      "bytes": 3390
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcAirHandler.as",
+      "ok": true,
+      "bytes": 11617
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcFloorHandler.as",
+      "ok": true,
+      "bytes": 12347
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcGhostHandler.as",
+      "ok": true,
+      "bytes": 3810
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcHurtCtrl.as",
+      "ok": true,
+      "bytes": 26017
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/ctrler/mc/FighterMcRuntime.as",
+      "ok": true,
+      "bytes": 2171
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/events/FighterEvent.as",
+      "ok": true,
+      "bytes": 2526
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/events/FighterEventDispatcher.as",
+      "ok": true,
+      "bytes": 2282
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/models/FighterHitModel.as",
+      "ok": true,
+      "bytes": 2681
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/models/HitVO.as",
+      "ok": true,
+      "bytes": 6452
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/utils/McAreaCacher.as",
+      "ok": true,
+      "bytes": 3042
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/vos/FighterBuffVO.as",
+      "ok": true,
+      "bytes": 1767
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/vos/MoveTargetParamVO.as",
+      "ok": true,
+      "bytes": 2931
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/stage/GameCamera.as",
+      "ok": true,
+      "bytes": 10727
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/stage/GameStage.as",
+      "ok": true,
+      "bytes": 15261
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ui/fight/HitsUI.as",
+      "ok": true,
+      "bytes": 2316
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/BishaFaceEffectView.as",
+      "ok": true,
+      "bytes": 1845
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/BitmapFilterView.as",
+      "ok": true,
+      "bytes": 7842
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/BlackBackView.as",
+      "ok": true,
+      "bytes": 3489
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/BuffEffectView.as",
+      "ok": true,
+      "bytes": 2288
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/EffectView.as",
+      "ok": true,
+      "bytes": 6602
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/FollowEffectView.as",
+      "ok": true,
+      "bytes": 9326
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/ShadowEffectView.as",
+      "ok": true,
+      "bytes": 6838
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/ShineEffectView.as",
+      "ok": true,
+      "bytes": 4575
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/SpecialEffectView.as",
+      "ok": true,
+      "bytes": 2705
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/views/effects/SteelHitEffect.as",
+      "ok": true,
+      "bytes": 2004
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterActionState.as",
+      "ok": true,
+      "bytes": 6107
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterDefenseType.as",
+      "ok": true,
+      "bytes": 1130
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterHitFloorType.as",
+      "ok": true,
+      "bytes": 1184
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterHitRange.as",
+      "ok": true,
+      "bytes": 2360
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterHurtType.as",
+      "ok": true,
+      "bytes": 1126
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterInputCmd.as",
+      "ok": true,
+      "bytes": 3099
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterSpecialFrame.as",
+      "ok": true,
+      "bytes": 4258
+    },
+    {
+      "path": "AGENTS.md",
+      "ok": true,
+      "bytes": 1470
+    },
+    {
+      "path": "README.md",
+      "ok": true,
+      "bytes": 7415
+    },
+    {
+      "path": ".gitmodules",
+      "ok": true,
+      "bytes": 348
+    },
+    {
+      "path": "HOW2BUILD.md",
+      "ok": true,
+      "bytes": 6717
+    },
+    {
+      "path": ".agents/map.md",
+      "ok": true,
+      "bytes": 4694
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/GameConfig.as",
+      "ok": true,
+      "bytes": 9248
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/ctrler/GameLogic.as",
+      "ok": true,
+      "bytes": 14265
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/data/EffectModel.as",
+      "ok": true,
+      "bytes": 17276
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/data/vos/EffectVO.as",
+      "ok": true,
+      "bytes": 4582
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/fighter/FighterMC.as",
+      "ok": true,
+      "bytes": 21543
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/input/GameInputer.as",
+      "ok": true,
+      "bytes": 10158
+    },
+    {
+      "path": "CORE_KernelLogic/src/net/play5d/game/bvn/interfaces/BaseGameSprite.as",
+      "ok": true,
+      "bytes": 16089
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/HitType.as",
+      "ok": true,
+      "bytes": 2378
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterHitRange.as",
+      "ok": true,
+      "bytes": 2360
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterHurtType.as",
+      "ok": true,
+      "bytes": 1126
+    },
+    {
+      "path": "CORE_Shared/src/net/play5d/game/bvn/data/fighter/FighterSpecialFrame.as",
+      "ok": true,
+      "bytes": 4258
+    }
+  ]
+}

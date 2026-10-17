@@ -1,0 +1,257 @@
+{
+  "targetHeadWorld": 44.49072001569435,
+  "targetTorsoWorld": 89.93534911536804,
+  "actions": {
+    "forwarddash": {
+      "checks": [
+        {
+          "source": "forwarddash-review-0.png",
+          "scale": 0.48201067151238347,
+          "headWorld": 45.95308845605028,
+          "headDeviation": 0.03286906662423239,
+          "torsoWorld": 87.0733300294367,
+          "torsoDeviation": -0.031823071952052695,
+          "rectangles": 744,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "forwarddash-review-1.png",
+          "scale": 0.502807712225631,
+          "headWorld": 45.87689867806558,
+          "headDeviation": 0.031156579661606898,
+          "torsoWorld": 87.21793652801205,
+          "torsoDeviation": -0.03021517805940943,
+          "rectangles": 776,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "forwarddash-review-2.png",
+          "scale": 0.5203711988327474,
+          "headWorld": 44.94513251651112,
+          "headDeviation": 0.010213646815706134,
+          "torsoWorld": 89.0260682963977,
+          "torsoDeviation": -0.010110382935234141,
+          "rectangles": 815,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "forwarddash-review-3.png",
+          "scale": 0.5436903176451673,
+          "headWorld": 43.49862334337214,
+          "headDeviation": -0.02229895744488386,
+          "torsoWorld": 91.98655335411296,
+          "torsoDeviation": 0.022807541850019986,
+          "rectangles": 756,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        }
+      ],
+      "displayPoses": 6,
+      "newUniquePoses": 4,
+      "totalTicks": 14,
+      "firstLastIdleReused": true
+    },
+    "backdash": {
+      "checks": [
+        {
+          "source": "backdash-review-0.png",
+          "scale": 0.5362548258079927,
+          "headWorld": 43.380330736363085,
+          "headDeviation": -0.024957772743160134,
+          "torsoWorld": 92.2373889061092,
+          "torsoDeviation": 0.02559660704477973,
+          "rectangles": 801,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "backdash-review-1.png",
+          "scale": 0.57971021349176,
+          "headWorld": 42.06795293267788,
+          "headDeviation": -0.054455560219340615,
+          "torsoWorld": 95.11488337473656,
+          "torsoDeviation": 0.057591751300417826,
+          "rectangles": 837,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "backdash-review-2.png",
+          "scale": 0.5722500213441958,
+          "headWorld": 45.56849592880141,
+          "headDeviation": 0.024224735242020623,
+          "torsoWorld": 87.80821827556885,
+          "torsoDeviation": -0.023651777201315283,
+          "rectangles": 835,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "backdash-review-3.png",
+          "scale": 0.6003602935937103,
+          "headWorld": 43.04629357562744,
+          "headDeviation": -0.03246579150792306,
+          "torsoWorld": 92.95314659265041,
+          "torsoDeviation": 0.03355518722022399,
+          "rectangles": 874,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        }
+      ],
+      "displayPoses": 6,
+      "newUniquePoses": 4,
+      "totalTicks": 18,
+      "firstLastIdleReused": true
+    },
+    "jump": {
+      "checks": [
+        {
+          "source": "jump-review-0.png",
+          "scale": 0.678387898665836,
+          "headWorld": 45.69938314806072,
+          "headDeviation": 0.027166634568737136,
+          "torsoWorld": 87.55672749546427,
+          "torsoDeviation": -0.02644812794191187,
+          "rectangles": 796,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "jump-review-1.png",
+          "scale": 0.6711946510599103,
+          "headWorld": 47.217959324996144,
+          "headDeviation": 0.06129905985652173,
+          "torsoWorld": 84.74081671901841,
+          "torsoDeviation": -0.057758517061919035,
+          "rectangles": 766,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "jump-review-2.png",
+          "scale": 0.6839084518132146,
+          "headWorld": 47.898010701008175,
+          "headDeviation": 0.0765843008185052,
+          "torsoWorld": 83.53767470600494,
+          "torsoDeviation": -0.07113637154125285,
+          "rectangles": 825,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "jump-review-3.png",
+          "scale": 0.686569849591381,
+          "headWorld": 48.08440357116541,
+          "headDeviation": 0.08077377831159782,
+          "torsoWorld": 83.21385189032482,
+          "torsoDeviation": -0.07473698930573969,
+          "rectangles": 854,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "jump-review-4.png",
+          "scale": 0.6829378400526789,
+          "headWorld": 47.83003322190347,
+          "headDeviation": 0.07505639839119604,
+          "torsoWorld": 83.65640095715423,
+          "torsoDeviation": -0.06981624266737707,
+          "rectangles": 850,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "jump-review-5.png",
+          "scale": 0.6706277827969294,
+          "headWorld": 46.583294551376255,
+          "headDeviation": 0.0470339552819945,
+          "torsoWorld": 85.89535101671659,
+          "torsoDeviation": -0.0449211365540928,
+          "rectangles": 816,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        }
+      ],
+      "displayPoses": 6,
+      "newUniquePoses": 6,
+      "totalTicks": 32,
+      "firstLastIdleReused": false
+    },
+    "defeat": {
+      "checks": [
+        {
+          "source": "defeat-review-0.png",
+          "scale": 0.581907093081788,
+          "headWorld": 41.90135152850776,
+          "headDeviation": -0.05820019290029865,
+          "torsoWorld": 95.49306385220703,
+          "torsoDeviation": 0.061796777257289826,
+          "rectangles": 814,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "defeat-review-1.png",
+          "scale": 0.5951229794421272,
+          "headWorld": 45.11173504037268,
+          "headDeviation": 0.013958304663517662,
+          "torsoWorld": 88.69728538316286,
+          "torsoDeviation": -0.01376615251270108,
+          "rectangles": 796,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "defeat-review-2.png",
+          "scale": 0.6850117699179684,
+          "headWorld": 44.52576504466795,
+          "headDeviation": 0.0007876930056702758,
+          "torsoWorld": 89.86456342729875,
+          "torsoDeviation": -0.0007870730337465881,
+          "rectangles": 842,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        },
+        {
+          "source": "defeat-review-3.png",
+          "scale": 0.5816547465375242,
+          "headWorld": 41.54252962337863,
+          "headDeviation": -0.0662652883854371,
+          "torsoWorld": 96.3178812961304,
+          "torsoDeviation": 0.07096800361084843,
+          "rectangles": 625,
+          "face": "right; side-lying defeat changes head tilt",
+          "limbs": "source-chain review candidate; not user acceptance",
+          "sourceTouchOuterAtlas": false
+        }
+      ],
+      "displayPoses": 4,
+      "newUniquePoses": 4,
+      "totalTicks": 88,
+      "firstLastIdleReused": false
+    }
+  },
+  "simulation": "not run",
+  "device": "not observed",
+  "userAcceptance": "pending"
+}

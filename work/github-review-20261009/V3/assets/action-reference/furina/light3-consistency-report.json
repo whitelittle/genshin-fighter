@@ -1,0 +1,1287 @@
+{
+  "targets": [
+    44.49072001569435,
+    89.93534911536804,
+    116.33941137627306,
+    112.69867529585049
+  ],
+  "segmentOrder": [
+    "skull-to-chin",
+    "neck-to-pelvis",
+    "left hip-knee-ankle",
+    "right hip-knee-ankle"
+  ],
+  "tolerances": [
+    0.06,
+    0.08,
+    0.12,
+    0.12
+  ],
+  "before": {
+    "sourceFrames": [
+      {
+        "file": "sword-light3-0.png",
+        "anchor": [
+          223.0,
+          522.0
+        ],
+        "scale": 0.6730401529636711,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.27083333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-1.png",
+        "anchor": [
+          236.0,
+          512.0
+        ],
+        "scale": 0.7105205485772288,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.36250000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-2.png",
+        "anchor": [
+          240.0,
+          456.0
+        ],
+        "scale": 0.7193188490898416,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.34285714285714,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-3.png",
+        "anchor": [
+          269.0,
+          463.0
+        ],
+        "scale": 0.6489180685758316,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.27619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-4.png",
+        "anchor": [
+          178.0,
+          480.0
+        ],
+        "scale": 0.7777319518210208,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.15833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-5.png",
+        "anchor": [
+          158.5,
+          484.0
+        ],
+        "scale": 0.7515402915878729,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          1112,
+          527,
+          1455,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "latest-light3-preparation.png",
+        "anchor": [
+          35,
+          80
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.27083333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-1.png",
+        "anchor": [
+          39,
+          82
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.36250000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-2.png",
+        "anchor": [
+          40,
+          74
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.34285714285714,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-3.png",
+        "anchor": [
+          40,
+          68
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.27619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-4.png",
+        "anchor": [
+          32,
+          84
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.15833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-5.png",
+        "anchor": [
+          28,
+          82
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          1112,
+          527,
+          1455,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 78.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "hitId": "furina.sword-light3",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 16,
+      "box": [
+        55,
+        90,
+        215,
+        150
+      ],
+      "lunge": 30,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "轻攻三准备帧整体大小对齐待机；其余攻击姿势/人体比例仍待复核",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light3-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 8,
+      "duration": 9,
+      "worldOffset": [
+        160,
+        -165
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "canonical grid only; anatomy not measured",
+      "targetHeadWorld": 44.49072001569435,
+      "targetTorsoWorld": 89.93534911536804,
+      "bboxNormalization": false,
+      "worldCell": 4.5,
+      "candidateOnly": true
+    }
+  },
+  "measurements": [
+    {
+      "nativeLengths": [
+        70.61161377563892,
+        137.03284277865654,
+        175.43834464610654,
+        167.03849012456521
+      ],
+      "beforeWorld": [
+        47.52445133656769,
+        92.2286054647937,
+        118.0770503163088,
+        112.42361094425804
+      ],
+      "beforeDeviation": [
+        0.06818795739433225,
+        0.025498943096155635,
+        0.01493594405782006,
+        -0.002440706165093509
+      ],
+      "admissibleScaleInterval": [
+        0.6038006620046986,
+        0.6678811132469306
+      ],
+      "compatible": true,
+      "candidateScale": 0.6494193431562917,
+      "afterDeviation": [
+        0.030699162009628633,
+        -0.01049165179759437,
+        -0.020683935076726723,
+        -0.037450739738127514
+      ],
+      "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+    },
+    {
+      "nativeLengths": [
+        64.6297145282261,
+        118.01694793545543,
+        179.79163120320487,
+        162.01599821774687
+      ],
+      "beforeWorld": [
+        45.920740220984904,
+        83.85346658851005,
+        127.74564843209593,
+        115.11569593196083
+      ],
+      "beforeDeviation": [
+        0.03214198836939719,
+        -0.06762505051329959,
+        0.09804276058206973,
+        0.02144675285459474
+      ],
+      "admissibleScaleInterval": [
+        0.7010901623332114,
+        0.7247286198441432
+      ],
+      "compatible": true,
+      "candidateScale": 0.7105563146922542,
+      "afterDeviation": [
+        0.0321939442335204,
+        -0.06757811671278247,
+        0.09809803375292536,
+        0.021498170342981515
+      ],
+      "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+    },
+    {
+      "nativeLengths": [
+        63.788713735268246,
+        110.72488428533127,
+        191.05157962256115,
+        163.6672480962754
+      ],
+      "beforeWorld": [
+        45.884424148974524,
+        79.64649632973037,
+        137.4270023708969,
+        117.72893653431437
+      ],
+      "beforeDeviation": [
+        0.03132572664116329,
+        -0.11440276695250551,
+        0.18125922028624397,
+        0.04463460839498512
+      ],
+      "admissibleScaleInterval": [
+        0.7472622050606197,
+        0.6820155111977876
+      ],
+      "compatible": false,
+      "candidateScale": null,
+      "afterDeviation": null,
+      "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+    },
+    {
+      "nativeLengths": [
+        63.63961030678928,
+        111.36426715962351,
+        180.16520832009115,
+        169.94352061638062
+      ],
+      "beforeWorld": [
+        41.29689300520028,
+        72.2662851535858,
+        116.91245900763589,
+        110.27942116535873
+      ],
+      "beforeDeviation": [
+        -0.07178636374883185,
+        -0.19646406152397955,
+        0.0049256535217410136,
+        -0.021466571138843205
+      ],
+      "admissibleScaleInterval": [
+        0.7429719002015506,
+        0.7232258767182599
+      ],
+      "compatible": false,
+      "candidateScale": null,
+      "afterDeviation": null,
+      "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+    },
+    {
+      "nativeLengths": [
+        59.30430001273095,
+        126.66885963013956,
+        164.98459126867698,
+        166.2188671526538
+      ],
+      "beforeWorld": [
+        46.12284900028063,
+        98.51441943509136,
+        128.3137881877815,
+        129.2737239801124
+      ],
+      "beforeDeviation": [
+        0.0366847060243245,
+        0.09539152740395962,
+        0.10292622826481468,
+        0.14707403295335975
+      ],
+      "admissibleScaleInterval": [
+        0.7051980515034297,
+        0.7593753855597574
+      ],
+      "compatible": true,
+      "candidateScale": 0.7200400884526448,
+      "afterDeviation": [
+        -0.04021617515459874,
+        0.014135796318336169,
+        0.021111575906163305,
+        0.061984513064653246
+      ],
+      "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+    },
+    {
+      "nativeLengths": [
+        60.67124524847005,
+        143.0873858870865,
+        149.57777276004714,
+        137.49162535402883
+      ],
+      "beforeWorld": [
+        45.59688534503453,
+        107.53593571212748,
+        112.41372295515042,
+        103.33049620945741
+      ],
+      "beforeDeviation": [
+        0.024862832719946493,
+        0.19570265496141692,
+        -0.03374340968965284,
+        -0.0831259024278701
+      ],
+      "admissibleScaleInterval": [
+        0.7213154547048373,
+        0.6788171888278476
+      ],
+      "compatible": false,
+      "candidateScale": null,
+      "afterDeviation": null,
+      "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+    }
+  ],
+  "newRecovery": {
+    "nativeLengths": [
+      189.1877374461675,
+      363.4460069941614,
+      435.8188813369211,
+      420.94997967149914
+    ],
+    "beforeWorld": [
+      47.29693436154187,
+      90.86150174854035,
+      108.95472033423027,
+      105.23749491787478
+    ],
+    "beforeDeviation": [
+      0.06307414995436389,
+      0.010297982298197894,
+      -0.06347540317320932,
+      -0.06620468571071503
+    ],
+    "admissibleScaleInterval": [
+      0.23559766967501097,
+      0.249277061258028
+    ],
+    "compatible": true,
+    "candidateScale": 0.24750772456951647,
+    "afterDeviation": [
+      0.05247625561551006,
+      0.0002262189432022943,
+      -0.0728117121440689,
+      -0.07551378618633031
+    ],
+    "confidence": "manual projected landmarks; foreshortening/occlusion require visual review, not art acceptance"
+  },
+  "policy": "intersect all segment tolerance intervals first; no compatible interval means no scaling fix; then weighted log estimate within intersection; never fit by bbox",
+  "changedFrames": [
+    4,
+    5
+  ],
+  "visualAcceptance": false,
+  "runtimeIntegrated": false,
+  "after": {
+    "sourceFrames": [
+      {
+        "file": "sword-light3-0.png",
+        "anchor": [
+          223.0,
+          522.0
+        ],
+        "scale": 0.6730401529636711,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.27083333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-1.png",
+        "anchor": [
+          236.0,
+          512.0
+        ],
+        "scale": 0.7105205485772288,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.36250000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-2.png",
+        "anchor": [
+          240.0,
+          456.0
+        ],
+        "scale": 0.7193188490898416,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.34285714285714,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-3.png",
+        "anchor": [
+          269.0,
+          463.0
+        ],
+        "scale": 0.6489180685758316,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.27619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "sword-light3-4.png",
+        "anchor": [
+          110.25260282058069,
+          480.0
+        ],
+        "scale": 0.7200400884526448,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.15833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "proportionTrial": {
+          "landmarks": {
+            "head": [
+              [
+                177,
+                53
+              ],
+              [
+                183,
+                112
+              ]
+            ],
+            "torso": [
+              [
+                170,
+                122
+              ],
+              [
+                157,
+                248
+              ]
+            ],
+            "legs": [
+              [
+                [
+                  143,
+                  251
+                ],
+                [
+                  109,
+                  326
+                ],
+                [
+                  79,
+                  403
+                ]
+              ],
+              [
+                [
+                  186,
+                  253
+                ],
+                [
+                  214,
+                  328
+                ],
+                [
+                  246,
+                  408
+                ]
+              ]
+            ]
+          },
+          "segmentDeviation": [
+            -0.04021617515459874,
+            0.014135796318336169,
+            0.021111575906163305,
+            0.061984513064653246
+          ],
+          "visualAcceptance": false
+        }
+      },
+      {
+        "file": "light3-recovery-source-v2.png",
+        "anchor": [
+          486.00424447946455,
+          1390
+        ],
+        "scale": 0.24750772456951647,
+        "source": "light3-recovery-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "supportPoint": [
+          443,
+          1390
+        ],
+        "proportionTrial": {
+          "landmarks": {
+            "head": [
+              [
+                621,
+                179
+              ],
+              [
+                665,
+                363
+              ]
+            ],
+            "torso": [
+              [
+                604,
+                383
+              ],
+              [
+                622,
+                746
+              ]
+            ],
+            "legs": [
+              [
+                [
+                  588,
+                  755
+                ],
+                [
+                  511,
+                  970
+                ],
+                [
+                  446,
+                  1167
+                ]
+              ],
+              [
+                [
+                  695,
+                  751
+                ],
+                [
+                  679,
+                  962
+                ],
+                [
+                  691,
+                  1171
+                ]
+              ]
+            ]
+          },
+          "segmentDeviation": [
+            0.05247625561551006,
+            0.0002262189432022943,
+            -0.0728117121440689,
+            -0.07551378618633031
+          ],
+          "visualAcceptance": false
+        }
+      }
+    ],
+    "frames": [
+      {
+        "file": "latest-light3-preparation.png",
+        "anchor": [
+          35,
+          80
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          46,
+          11,
+          435,
+          534
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.27083333333334,
+          "contactSheetHeadLengthPx": 35,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-1.png",
+        "anchor": [
+          39,
+          82
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          553,
+          14,
+          944,
+          527
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 83.36250000000001,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-2.png",
+        "anchor": [
+          40,
+          74
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          999,
+          72,
+          1523,
+          529
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 82.34285714285714,
+          "contactSheetHeadLengthPx": 33,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "unified-size-4-3.png",
+        "anchor": [
+          40,
+          68
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          35,
+          546,
+          634,
+          1010
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 91.27619047619048,
+          "contactSheetHeadLengthPx": 32,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        }
+      },
+      {
+        "file": "latest-light3-consistency-4.png",
+        "anchor": [
+          19,
+          78
+        ],
+        "scale": 4.5,
+        "source": "sword-light3-source-v1.png",
+        "roi": [
+          642,
+          531,
+          1027,
+          1012
+        ],
+        "anatomy": {
+          "headLengthSourcePx": 76.15833333333333,
+          "contactSheetHeadLengthPx": 38,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "proportionTrial": {
+          "landmarks": {
+            "head": [
+              [
+                177,
+                53
+              ],
+              [
+                183,
+                112
+              ]
+            ],
+            "torso": [
+              [
+                170,
+                122
+              ],
+              [
+                157,
+                248
+              ]
+            ],
+            "legs": [
+              [
+                [
+                  143,
+                  251
+                ],
+                [
+                  109,
+                  326
+                ],
+                [
+                  79,
+                  403
+                ]
+              ],
+              [
+                [
+                  186,
+                  253
+                ],
+                [
+                  214,
+                  328
+                ],
+                [
+                  246,
+                  408
+                ]
+              ]
+            ]
+          },
+          "segmentDeviation": [
+            -0.04021617515459874,
+            0.014135796318336169,
+            0.021111575906163305,
+            0.061984513064653246
+          ],
+          "visualAcceptance": false
+        }
+      },
+      {
+        "file": "latest-light3-consistency-5.png",
+        "anchor": [
+          28,
+          78
+        ],
+        "scale": 4.5,
+        "source": "light3-recovery-source-v2.png",
+        "anatomy": {
+          "headLengthSourcePx": 78.8125,
+          "contactSheetHeadLengthPx": 39,
+          "targetHeadLengthWorld": 59.23076923076924,
+          "review": "manual estimate; montage verified"
+        },
+        "supportPoint": [
+          443,
+          1390
+        ],
+        "proportionTrial": {
+          "landmarks": {
+            "head": [
+              [
+                621,
+                179
+              ],
+              [
+                665,
+                363
+              ]
+            ],
+            "torso": [
+              [
+                604,
+                383
+              ],
+              [
+                622,
+                746
+              ]
+            ],
+            "legs": [
+              [
+                [
+                  588,
+                  755
+                ],
+                [
+                  511,
+                  970
+                ],
+                [
+                  446,
+                  1167
+                ]
+              ],
+              [
+                [
+                  695,
+                  751
+                ],
+                [
+                  679,
+                  962
+                ],
+                [
+                  691,
+                  1171
+                ]
+              ]
+            ]
+          },
+          "segmentDeviation": [
+            0.05247625561551006,
+            0.0002262189432022943,
+            -0.0728117121440689,
+            -0.07551378618633031
+          ],
+          "visualAcceptance": false
+        }
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "hitId": "furina.sword-light3",
+        "damageSegments": 1
+      }
+    ],
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 16,
+      "box": [
+        55,
+        90,
+        215,
+        150
+      ],
+      "lunge": 30,
+      "level": "mid",
+      "status": "design-only"
+    },
+    "previewOnly": true,
+    "status": "轻攻三试修：回收倍率多段约束；恢复姿单张返修。中段投影/比例待复核，非整组验收",
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "sword-light3-effect-0-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2-fit.png",
+          "anchor": [
+            24.151111111111113,
+            24.151111111111113
+          ],
+          "scale": 4.5,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "sword-light3-effect-0.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-1.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        },
+        {
+          "file": "sword-light3-effect-2.png",
+          "anchor": [
+            209.0,
+            209.0
+          ],
+          "scale": 0.52,
+          "source": "sword-watertrail-source-v1.png"
+        }
+      ],
+      "startTick": 8,
+      "duration": 9,
+      "worldOffset": [
+        160,
+        -165
+      ],
+      "followActor": true
+    },
+    "displayCalibration": {
+      "method": "canonical grid only; anatomy not measured",
+      "targetHeadWorld": 44.49072001569435,
+      "targetTorsoWorld": 89.93534911536804,
+      "bboxNormalization": false,
+      "worldCell": 4.5,
+      "candidateOnly": true
+    }
+  }
+}

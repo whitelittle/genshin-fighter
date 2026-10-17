@@ -1,0 +1,244 @@
+{
+  "character": "kamisatoayaka",
+  "status": "complete_visual_candidate_review_only",
+  "actions": {
+    "idle": {
+      "frames": 2,
+      "effect": "none",
+      "max_preview_size": [
+        54,
+        72
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "walk": {
+      "frames": 6,
+      "effect": "none",
+      "max_preview_size": [
+        72,
+        72
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "backwalk": {
+      "frames": 6,
+      "effect": "none",
+      "max_preview_size": [
+        37,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "crouch": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        33,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "crouchguard": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        75,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "jump": {
+      "frames": 6,
+      "effect": "none",
+      "max_preview_size": [
+        62,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "guard": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        46,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "hurt_knockdown": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        67,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "wakeup": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        79,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "forwarddash": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        92,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "backdash": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        42,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "light2": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        100,
+        104
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "light3": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        120,
+        112
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "heavy": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        120,
+        112
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "crouchlight": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        120,
+        112
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "crouchheavy": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        120,
+        112
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "airlight": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        120,
+        112
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "airheavy": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        87,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "E": {
+      "frames": 4,
+      "effect": "existing-ayaka-E-fx-candidate",
+      "max_preview_size": [
+        108,
+        72
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "Q": {
+      "frames": 6,
+      "effect": "preview-derived-ice-burst",
+      "max_preview_size": [
+        66,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "throw": {
+      "frames": 6,
+      "effect": "none",
+      "max_preview_size": [
+        71,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "victim": {
+      "frames": 6,
+      "effect": "none",
+      "max_preview_size": [
+        64,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "defeat": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        62,
+        68
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "light1": {
+      "frames": 4,
+      "effect": "preview-derived-ice-slash",
+      "max_preview_size": [
+        54,
+        72
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    },
+    "victory": {
+      "frames": 4,
+      "effect": "none",
+      "max_preview_size": [
+        108,
+        72
+      ],
+      "preview_normalization": "fixed_pixel_scale_4x_and_footline_y370"
+    }
+  },
+  "action_count": 25,
+  "frame_count": 110,
+  "evidence_boundary": [
+    "fitted PNG frame exports and CPU-side GIF/PNG assembly",
+    "not simulator combat, game import, or real-device validation"
+  ],
+  "open_items": [
+    "world anchors",
+    "weapon separation",
+    "hitboxes/cancel timing",
+    "Q effect user review",
+    "real runtime integration"
+  ]
+}

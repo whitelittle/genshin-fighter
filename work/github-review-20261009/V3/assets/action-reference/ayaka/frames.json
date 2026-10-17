@@ -1,0 +1,66 @@
+{
+  "frames": [
+    {
+      "file": "guard-0.png",
+      "roi": [
+        53,
+        18,
+        507,
+        756
+      ],
+      "anchor": [
+        267,
+        736
+      ],
+      "scale": 0.5,
+      "source": "standguard-source-v2.png"
+    },
+    {
+      "file": "guard-1.png",
+      "roi": [
+        549,
+        18,
+        1002,
+        756
+      ],
+      "anchor": [
+        251,
+        736
+      ],
+      "scale": 0.5,
+      "source": "standguard-source-v2.png"
+    },
+    {
+      "file": "guard-2.png",
+      "roi": [
+        1032,
+        28,
+        1494,
+        756
+      ],
+      "anchor": [
+        258,
+        726
+      ],
+      "scale": 0.5,
+      "source": "standguard-source-v2.png"
+    },
+    {
+      "file": "guard-3.png",
+      "roi": [
+        1528,
+        17,
+        1953,
+        756
+      ],
+      "anchor": [
+        222,
+        737
+      ],
+      "scale": 0.5,
+      "source": "standguard-source-v2.png"
+    }
+  ],
+  "scale_policy": "same 0.5 source-pixel scale for all frames",
+  "status": "source candidate; rough support anchors"
+}

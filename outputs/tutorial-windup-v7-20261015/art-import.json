@@ -1,0 +1,478 @@
+{
+  "lumine": {
+    "idle_0": {
+      "source": "outputs/lumine-basic-20261015/source/idle-v1.png",
+      "roi": [
+        50,
+        35,
+        881,
+        873
+      ],
+      "sourceUnit": 0.09523809523809523,
+      "alphaComponentArea": 196768
+    },
+    "idle_1": {
+      "source": "outputs/lumine-basic-20261015/source/idle-v1.png",
+      "roi": [
+        930,
+        35,
+        1766,
+        873
+      ],
+      "sourceUnit": 0.09523809523809523,
+      "alphaComponentArea": 202446
+    },
+    "walk_0": {
+      "source": "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+      "roi": [
+        36,
+        27,
+        508,
+        510
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 71177
+    },
+    "walk_1": {
+      "source": "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+      "roi": [
+        559,
+        29,
+        1040,
+        510
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 66380
+    },
+    "walk_2": {
+      "source": "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+      "roi": [
+        1097,
+        28,
+        1536,
+        511
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 66030
+    },
+    "walk_3": {
+      "source": "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+      "roi": [
+        33,
+        526,
+        533,
+        1002
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 72297
+    },
+    "walk_4": {
+      "source": "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+      "roi": [
+        573,
+        526,
+        1075,
+        1007
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 70105
+    },
+    "walk_5": {
+      "source": "outputs/lumine-basic-20261015/source/walk-forward-v1.png",
+      "roi": [
+        1085,
+        528,
+        1536,
+        1006
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 63793
+    },
+    "back_0": {
+      "source": "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+      "roi": [
+        43,
+        36,
+        533,
+        504
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 74131
+    },
+    "back_1": {
+      "source": "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+      "roi": [
+        551,
+        40,
+        1025,
+        507
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 73046
+    },
+    "back_2": {
+      "source": "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+      "roi": [
+        1045,
+        41,
+        1521,
+        510
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 71670
+    },
+    "back_3": {
+      "source": "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+      "roi": [
+        34,
+        519,
+        524,
+        986
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 69278
+    },
+    "back_4": {
+      "source": "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+      "roi": [
+        542,
+        520,
+        1040,
+        985
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 70603
+    },
+    "back_5": {
+      "source": "outputs/lumine-basic-20261015/source/walk-back-v2.png",
+      "roi": [
+        1029,
+        518,
+        1523,
+        989
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 73805
+    },
+    "block_0": {
+      "source": "outputs/lumine-basic-20261015/source/guard-standing-v1.png",
+      "roi": [
+        23,
+        18,
+        497,
+        704
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 112674
+    },
+    "block_1": {
+      "source": "outputs/lumine-basic-20261015/source/guard-standing-v1.png",
+      "roi": [
+        544,
+        65,
+        1097,
+        703
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 105049
+    },
+    "block_2": {
+      "source": "outputs/lumine-basic-20261015/source/guard-standing-v1.png",
+      "roi": [
+        1075,
+        126,
+        1568,
+        703
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 104164
+    },
+    "block_3": {
+      "source": "outputs/lumine-basic-20261015/source/guard-standing-v1.png",
+      "roi": [
+        1573,
+        128,
+        2151,
+        706
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 103862
+    },
+    "cblock_0": {
+      "source": "outputs/lumine-basic-20261015/source/guard-crouch-v1.png",
+      "roi": [
+        40,
+        245,
+        535,
+        662
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 96883
+    },
+    "cblock_1": {
+      "source": "outputs/lumine-basic-20261015/source/guard-crouch-v1.png",
+      "roi": [
+        581,
+        281,
+        1050,
+        672
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 78271
+    },
+    "cblock_2": {
+      "source": "outputs/lumine-basic-20261015/source/guard-crouch-v1.png",
+      "roi": [
+        1039,
+        242,
+        1612,
+        665
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 95800
+    },
+    "cblock_3": {
+      "source": "outputs/lumine-basic-20261015/source/guard-crouch-v1.png",
+      "roi": [
+        1615,
+        254,
+        2132,
+        665
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 93068
+    },
+    "jump_0": {
+      "source": "outputs/lumine-basic-20261015/source/jump-v1.png",
+      "roi": [
+        41,
+        167,
+        548,
+        504
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 62324
+    },
+    "jump_1": {
+      "source": "outputs/lumine-basic-20261015/source/jump-v1.png",
+      "roi": [
+        540,
+        96,
+        1043,
+        508
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 63551
+    },
+    "jump_2": {
+      "source": "outputs/lumine-basic-20261015/source/jump-v1.png",
+      "roi": [
+        1009,
+        26,
+        1524,
+        502
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 68949
+    },
+    "jump_3": {
+      "source": "outputs/lumine-basic-20261015/source/jump-v1.png",
+      "roi": [
+        49,
+        528,
+        592,
+        910
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 63367
+    },
+    "jump_4": {
+      "source": "outputs/lumine-basic-20261015/source/jump-v1.png",
+      "roi": [
+        551,
+        564,
+        1063,
+        968
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 61615
+    },
+    "jump_5": {
+      "source": "outputs/lumine-basic-20261015/source/jump-v1.png",
+      "roi": [
+        1049,
+        624,
+        1527,
+        990
+      ],
+      "sourceUnit": 0.16913319238900634,
+      "alphaComponentArea": 63264
+    },
+    "backdash_0": {
+      "source": "outputs/lumine-basic-20261015/source/backstep-v1.png",
+      "roi": [
+        46,
+        126,
+        629,
+        641
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 99917
+    },
+    "backdash_1": {
+      "source": "outputs/lumine-basic-20261015/source/backstep-v1.png",
+      "roi": [
+        542,
+        95,
+        1113,
+        610
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 81794
+    },
+    "backdash_2": {
+      "source": "outputs/lumine-basic-20261015/source/backstep-v1.png",
+      "roi": [
+        1110,
+        147,
+        1654,
+        639
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 92847
+    },
+    "backdash_3": {
+      "source": "outputs/lumine-basic-20261015/source/backstep-v1.png",
+      "roi": [
+        1619,
+        101,
+        2158,
+        658
+      ],
+      "sourceUnit": 0.14035087719298245,
+      "alphaComponentArea": 91018
+    },
+    "light1_0": {
+      "source": "outputs/lumine-training-20261015/source/light-test-v1.png",
+      "roi": [
+        69,
+        16,
+        552,
+        514
+      ],
+      "sourceUnit": 0.16666666666666666,
+      "alphaComponentArea": 86766
+    },
+    "light1_1": {
+      "source": "outputs/lumine-training-20261015/source/light-test-v1.png",
+      "roi": [
+        770,
+        71,
+        1517,
+        514
+      ],
+      "sourceUnit": 0.16666666666666666,
+      "alphaComponentArea": 85819
+    },
+    "light1_2": {
+      "source": "outputs/lumine-training-20261015/source/light-test-v1.png",
+      "roi": [
+        86,
+        573,
+        878,
+        1003
+      ],
+      "sourceUnit": 0.16666666666666666,
+      "alphaComponentArea": 94812
+    },
+    "light1_3": {
+      "source": "outputs/lumine-training-20261015/source/light-test-v1.png",
+      "roi": [
+        939,
+        538,
+        1503,
+        1006
+      ],
+      "sourceUnit": 0.16666666666666666,
+      "alphaComponentArea": 77545
+    }
+  },
+  "bodyPeak": {
+    "lumine": 1173,
+    "lawachurl": 1054
+  },
+  "bodyStats": {
+    "lumine": {
+      "uniqueFrameMean": 974.1111111111111,
+      "peak": 1173,
+      "frameRects": {
+        "idle_0": 867,
+        "idle_1": 897,
+        "walk_0": 1061,
+        "walk_1": 954,
+        "walk_2": 957,
+        "walk_3": 1064,
+        "walk_4": 986,
+        "walk_5": 929,
+        "back_0": 1003,
+        "back_1": 944,
+        "back_2": 945,
+        "back_3": 917,
+        "back_4": 958,
+        "back_5": 984,
+        "block_0": 1086,
+        "block_1": 1049,
+        "block_2": 1002,
+        "block_3": 1024,
+        "cblock_0": 972,
+        "cblock_1": 763,
+        "cblock_2": 922,
+        "cblock_3": 924,
+        "jump_0": 884,
+        "jump_1": 954,
+        "jump_2": 1004,
+        "jump_3": 954,
+        "jump_4": 880,
+        "jump_5": 878,
+        "backdash_0": 1083,
+        "backdash_1": 922,
+        "backdash_2": 968,
+        "backdash_3": 958,
+        "light1_0": 1114,
+        "light1_1": 1031,
+        "light1_2": 1173,
+        "light1_3": 1057
+      }
+    },
+    "lawachurl": {
+      "uniqueFrameMean": 930.75,
+      "peak": 1054,
+      "frameRects": {
+        "crouch": 949,
+        "crouchGuard": 836,
+        "down": 669,
+        "guard": 1054,
+        "hurt": 1012,
+        "idle": 1044,
+        "strikeHigh": 863,
+        "strikeLow": 1019
+      }
+    }
+  },
+  "pixelReconstruction": true,
+  "placeholder": {
+    "dash": "walk accelerated",
+    "lumineHurt": "idle (stationary dummy does not attack)"
+  },
+  "excluded": [
+    "walk-back-v1",
+    "dash-forward-v1",
+    "crouch-v1"
+  ],
+  "lawachurlAttackArt": {
+    "strikeHigh": "assets/roster-v2/lawachurl-special.png",
+    "strikeLow": "assets/roster-v2/lawachurl-slash.png",
+    "palette": "unchanged existing idle palette",
+    "pixelReconstruction": true
+  }
+}

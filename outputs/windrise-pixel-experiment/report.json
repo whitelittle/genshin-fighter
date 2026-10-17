@@ -1,0 +1,226 @@
+{
+  "status": "实际矩形拟合预览，未接入正式GIA，真机未测",
+  "source": "source.png",
+  "presets": [
+    {
+      "key": "240-average",
+      "w": 240,
+      "h": 135,
+      "colors": 32,
+      "method": "average",
+      "rectangles": 8847,
+      "approxControls": 17694,
+      "compressedBytes": 25052,
+      "exactReconstruction": true
+    },
+    {
+      "key": "240-nearest",
+      "w": 240,
+      "h": 135,
+      "colors": 32,
+      "method": "nearest",
+      "rectangles": 9701,
+      "approxControls": 19402,
+      "compressedBytes": 26687,
+      "exactReconstruction": true
+    },
+    {
+      "key": "320-nearest",
+      "w": 320,
+      "h": 180,
+      "colors": 32,
+      "method": "nearest",
+      "rectangles": 15296,
+      "approxControls": 30592,
+      "compressedBytes": 43060,
+      "exactReconstruction": true
+    },
+    {
+      "key": "480-nearest",
+      "w": 480,
+      "h": 270,
+      "colors": 32,
+      "method": "nearest",
+      "rectangles": 29553,
+      "approxControls": 59106,
+      "compressedBytes": 85690,
+      "exactReconstruction": true
+    },
+    {
+      "key": "budget5000",
+      "target": 5000,
+      "w": 160,
+      "h": 90,
+      "colors": 31,
+      "tolerance": 3,
+      "method": "nearest",
+      "fitMethod": "纵向无重叠",
+      "overdraw": 1,
+      "rectangles": 4974,
+      "approxControls": 9948,
+      "compressedBytes": 13569,
+      "actualColors": 31,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 240,
+          "h": 135,
+          "colors": 24,
+          "tolerance": 14,
+          "rectangles": 7600,
+          "actualColors": 13,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 224,
+          "h": 126,
+          "colors": 24,
+          "tolerance": 12,
+          "rectangles": 6289,
+          "actualColors": 13,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 208,
+          "h": 117,
+          "colors": 24,
+          "tolerance": 10,
+          "rectangles": 7262,
+          "actualColors": 24,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 192,
+          "h": 108,
+          "colors": 24,
+          "tolerance": 8,
+          "rectangles": 6282,
+          "actualColors": 24,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 192,
+          "h": 108,
+          "colors": 20,
+          "tolerance": 12,
+          "rectangles": 5074,
+          "actualColors": 8,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 176,
+          "h": 99,
+          "colors": 32,
+          "tolerance": 3,
+          "rectangles": 5474,
+          "actualColors": 32,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 32,
+          "tolerance": 3,
+          "rectangles": 5028,
+          "actualColors": 32,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 4974,
+          "actualColors": 31,
+          "fitMethod": "纵向无重叠",
+          "overdraw": 1
+        }
+      ],
+      "includesCharacter": false,
+      "realDeviceVerified": false
+    }
+  ],
+  "oldComparison": [
+    {
+      "key": "light",
+      "country": "mondstadt",
+      "grid": [
+        192,
+        108
+      ],
+      "colors": 24,
+      "rectangles": 7938,
+      "totalSceneAndActorImages": 9059,
+      "templateControlsApprox": 18118,
+      "compressedBytes": 20548
+    },
+    {
+      "key": "baseline",
+      "country": "mondstadt",
+      "grid": [
+        240,
+        135
+      ],
+      "colors": 32,
+      "rectangles": 13133,
+      "totalSceneAndActorImages": 14279,
+      "templateControlsApprox": 28558,
+      "compressedBytes": 32954
+    },
+    {
+      "key": "balanced",
+      "country": "mondstadt",
+      "grid": [
+        320,
+        180
+      ],
+      "colors": 40,
+      "rectangles": 23387,
+      "totalSceneAndActorImages": 25459,
+      "templateControlsApprox": 50918,
+      "compressedBytes": 59598
+    },
+    {
+      "key": "medium",
+      "country": "mondstadt",
+      "grid": [
+        480,
+        270
+      ],
+      "colors": 48,
+      "rectangles": 48894,
+      "totalSceneAndActorImages": 51436,
+      "templateControlsApprox": 102872,
+      "compressedBytes": 125151
+    },
+    {
+      "key": "high",
+      "country": "mondstadt",
+      "grid": [
+        640,
+        360
+      ],
+      "colors": 64,
+      "rectangles": 84019,
+      "totalSceneAndActorImages": 88545,
+      "templateControlsApprox": 177090,
+      "compressedBytes": 216458
+    }
+  ],
+  "fairComparison": {
+    "sameGrid": "240x135",
+    "samePalette": 32,
+    "sameMethod": "average",
+    "sameTolerance": 3,
+    "previousRectangles": 13133,
+    "newRectangles": 8847,
+    "reductionPercent": 32.6
+  }
+}

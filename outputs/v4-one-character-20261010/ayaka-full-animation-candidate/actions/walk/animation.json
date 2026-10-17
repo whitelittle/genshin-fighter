@@ -1,0 +1,25 @@
+{
+  "character": "kamisatoayaka",
+  "actionId": "kamisatoayaka.walk.candidate.v1",
+  "fps": 8,
+  "loop": true,
+  "frames": [
+    "frame-00.png",
+    "frame-01.png",
+    "frame-02.png",
+    "frame-03.png",
+    "frame-04.png",
+    "frame-05.png"
+  ],
+  "durations_ms": [
+    160,
+    160,
+    160,
+    160,
+    160,
+    160
+  ],
+  "world_anchor": null,
+  "effect_layer": "none",
+  "status": "preview_candidate_not_runtime_or_device"
+}

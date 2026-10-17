@@ -1,0 +1,642 @@
+{
+  "palette": [
+    [
+      147,
+      164,
+      220
+    ],
+    [
+      78,
+      66,
+      79
+    ],
+    [
+      115,
+      113,
+      152
+    ],
+    [
+      230,
+      192,
+      160
+    ],
+    [
+      128,
+      137,
+      193
+    ],
+    [
+      115,
+      93,
+      87
+    ],
+    [
+      205,
+      217,
+      242
+    ],
+    [
+      188,
+      82,
+      117
+    ],
+    [
+      162,
+      128,
+      97
+    ],
+    [
+      127,
+      45,
+      76
+    ],
+    [
+      56,
+      47,
+      64
+    ],
+    [
+      48,
+      51,
+      116
+    ],
+    [
+      36,
+      36,
+      88
+    ],
+    [
+      245,
+      234,
+      230
+    ],
+    [
+      34,
+      30,
+      51
+    ],
+    [
+      83,
+      84,
+      131
+    ],
+    [
+      182,
+      159,
+      157
+    ],
+    [
+      182,
+      194,
+      228
+    ],
+    [
+      16,
+      22,
+      37
+    ]
+  ],
+  "actions": {
+    "light1": {
+      "source": "light1-attack-source-v1.png",
+      "sha256": "5f82c8b1d0d8b83b5f89564d1c43b0a0a279a89531dc4bd2733e1284594abd31",
+      "rois": [
+        [
+          36,
+          51,
+          395,
+          505
+        ],
+        [
+          550,
+          51,
+          911,
+          505
+        ],
+        [
+          1015,
+          52,
+          1525,
+          504
+        ],
+        [
+          62,
+          547,
+          477,
+          986
+        ],
+        [
+          537,
+          546,
+          1022,
+          988
+        ],
+        [
+          1033,
+          542,
+          1499,
+          993
+        ]
+      ],
+      "rectangles": [
+        858,
+        870,
+        857,
+        861,
+        850,
+        873
+      ],
+      "scale": 0.68,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "light2": {
+      "source": "light2-attack-source-v1.png",
+      "sha256": "a1d21ace12feae4c3960a6fa30c02e5ca907784234ca5e1a3317024c30506f37",
+      "rois": [
+        [
+          27,
+          79,
+          616,
+          506
+        ],
+        [
+          604,
+          83,
+          1008,
+          507
+        ],
+        [
+          1057,
+          19,
+          1503,
+          505
+        ],
+        [
+          101,
+          531,
+          520,
+          1009
+        ],
+        [
+          607,
+          579,
+          993,
+          1007
+        ],
+        [
+          1100,
+          544,
+          1499,
+          1008
+        ]
+      ],
+      "rectangles": [
+        957,
+        927,
+        953,
+        990,
+        933,
+        962
+      ],
+      "scale": 0.72,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "light3": {
+      "source": "light3-attack-source-v1.png",
+      "sha256": "f0b5ddfc5e0743dd45a55d52bfcdcdd8e95638e97c2324731399d494b3fdbcee",
+      "rois": [
+        [
+          85,
+          16,
+          412,
+          528
+        ],
+        [
+          571,
+          13,
+          931,
+          529
+        ],
+        [
+          1050,
+          111,
+          1524,
+          529
+        ],
+        [
+          97,
+          619,
+          614,
+          1006
+        ],
+        [
+          593,
+          593,
+          998,
+          1007
+        ],
+        [
+          1081,
+          523,
+          1420,
+          1010
+        ]
+      ],
+      "rectangles": [
+        911,
+        994,
+        1054,
+        976,
+        981,
+        852
+      ],
+      "scale": 0.72,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "heavy": {
+      "source": "heavy-attack-source-v1.png",
+      "sha256": "99340c173ab9aa092186d3be2ee041dcceefbfb26578d32f03a580fcfb0eebc9",
+      "rois": [
+        [
+          46,
+          67,
+          496,
+          492
+        ],
+        [
+          544,
+          124,
+          943,
+          492
+        ],
+        [
+          1041,
+          15,
+          1518,
+          493
+        ],
+        [
+          32,
+          527,
+          511,
+          999
+        ],
+        [
+          555,
+          535,
+          968,
+          1000
+        ],
+        [
+          1040,
+          601,
+          1519,
+          1003
+        ]
+      ],
+      "rectangles": [
+        891,
+        827,
+        989,
+        1075,
+        943,
+        897
+      ],
+      "scale": 0.74,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "crouchlight": {
+      "source": "crouchlight-attack-source-v3.png",
+      "sha256": "fffff7d9a95a537b0b62ac84ad735f71dfa9cce33cec4163d3f2aa0561b4bd53",
+      "rois": [
+        [
+          3,
+          9,
+          630,
+          396
+        ],
+        [
+          638,
+          9,
+          1272,
+          397
+        ],
+        [
+          1251,
+          9,
+          1908,
+          397
+        ],
+        [
+          12,
+          418,
+          669,
+          809
+        ],
+        [
+          646,
+          416,
+          1267,
+          808
+        ],
+        [
+          1244,
+          418,
+          1908,
+          809
+        ]
+      ],
+      "rectangles": [
+        961,
+        993,
+        966,
+        1011,
+        1042,
+        1009
+      ],
+      "scale": 0.72,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "crouchheavy": {
+      "source": "crouchheavy-attack-source-v1.png",
+      "sha256": "ad81641e0af9cdb44fcfc2040953ce9634aead17058fe4fc74f3cd305c4fbe2c",
+      "rois": [
+        [
+          36,
+          106,
+          536,
+          495
+        ],
+        [
+          486,
+          121,
+          1053,
+          494
+        ],
+        [
+          1073,
+          142,
+          1527,
+          496
+        ],
+        [
+          10,
+          595,
+          617,
+          972
+        ],
+        [
+          583,
+          569,
+          1042,
+          973
+        ],
+        [
+          1061,
+          572,
+          1525,
+          972
+        ]
+      ],
+      "rectangles": [
+        1002,
+        922,
+        947,
+        1045,
+        988,
+        989
+      ],
+      "scale": 0.72,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "airlight": {
+      "source": "airlight-attack-source-v1.png",
+      "sha256": "e2e5f3db90a2d0f0b580a90b120ecd383f7a155631600b473c91e801131109ff",
+      "rois": [
+        [
+          23,
+          20,
+          554,
+          463
+        ],
+        [
+          575,
+          9,
+          962,
+          489
+        ],
+        [
+          1006,
+          48,
+          1528,
+          486
+        ],
+        [
+          12,
+          529,
+          581,
+          989
+        ],
+        [
+          581,
+          541,
+          961,
+          989
+        ],
+        [
+          1039,
+          536,
+          1526,
+          993
+        ]
+      ],
+      "rectangles": [
+        905,
+        903,
+        912,
+        914,
+        863,
+        882
+      ],
+      "scale": 0.64,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "airheavy": {
+      "source": "airheavy-attack-source-v1.png",
+      "sha256": "c2e752d7b2c86e45af519b29790d6354a917ec864b5bebc1c6a2b0d0a38b6ca5",
+      "rois": [
+        [
+          31,
+          60,
+          594,
+          511
+        ],
+        [
+          512,
+          17,
+          964,
+          523
+        ],
+        [
+          1032,
+          93,
+          1532,
+          521
+        ],
+        [
+          29,
+          521,
+          641,
+          979
+        ],
+        [
+          557,
+          538,
+          1053,
+          956
+        ],
+        [
+          1085,
+          541,
+          1526,
+          949
+        ]
+      ],
+      "rectangles": [
+        881,
+        908,
+        884,
+        945,
+        817,
+        801
+      ],
+      "scale": 0.66,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "skillE": {
+      "source": "skillE-attack-source-v1.png",
+      "sha256": "3574658979061855aeae6ed8523808fcb236a7b16d369f473842f2ed83ae7b21",
+      "rois": [
+        [
+          80,
+          11,
+          428,
+          512
+        ],
+        [
+          557,
+          51,
+          979,
+          510
+        ],
+        [
+          1000,
+          48,
+          1477,
+          510
+        ],
+        [
+          16,
+          514,
+          470,
+          1010
+        ],
+        [
+          528,
+          524,
+          969,
+          1011
+        ],
+        [
+          1101,
+          505,
+          1478,
+          1013
+        ]
+      ],
+      "rectangles": [
+        751,
+        810,
+        847,
+        839,
+        808,
+        762
+      ],
+      "scale": 0.61,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    },
+    "skillQ": {
+      "source": "skillQ-attack-source-v1.png",
+      "sha256": "4d864c4b1b2c9c587d9c8f6d7fa50cf1d2fdc7a4794efe9027b7c3636bd0e928",
+      "rois": [
+        [
+          117,
+          29,
+          471,
+          503
+        ],
+        [
+          608,
+          26,
+          975,
+          503
+        ],
+        [
+          1021,
+          28,
+          1514,
+          503
+        ],
+        [
+          31,
+          524,
+          682,
+          1000
+        ],
+        [
+          622,
+          529,
+          1040,
+          1001
+        ],
+        [
+          1129,
+          525,
+          1496,
+          1000
+        ]
+      ],
+      "rectangles": [
+        820,
+        873,
+        882,
+        953,
+        928,
+        868
+      ],
+      "scale": 0.645,
+      "simulation": "not run",
+      "device": "not observed",
+      "anatomicalScale": "provisional fixed action scale, not per-frame bbox normalization"
+    }
+  },
+  "validation": "source extraction / exact rectangle reconstruction only; not runtime budget acceptance"
+}

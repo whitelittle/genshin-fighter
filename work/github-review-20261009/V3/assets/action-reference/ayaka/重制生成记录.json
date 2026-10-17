@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-10",
+  "mode": "built_in_imagegen",
+  "items": [
+    {
+      "id": "guard-v2",
+      "file": "standguard-source-v2.png",
+      "prompt": "Edit the reference into four standing DEFENSIVE sword-block key poses of Kamisato Ayaka. Preserve face, normal adult body proportions, costume colors, sword and hip scabbard identity. Change defense structure: hands at upper chest not waist, elbows tucked, katana nearly vertical (about 80 degrees) on the RIGHT/front of body with blade tip above the head, clearly between incoming attacker on right and her torso. Stagger feet moderately, knees slightly bent, torso retracts. Four left-to-right full-body poses: entering upright shield-like blade guard, stable guard, absorbing impact with hands/shoulders recoiling together a little LEFT, recovering guard. NO offensive reaching, no sword swing, no forward lunge, no change of facing; all face RIGHT. Both hands grip the same hilt continuously, same head/limb sizes and blade length. Place poses with wide transparent separation in a 2x2 layout so blade/hair never enter another object. Entire body and full katana visible. True transparent background, crisp flat colors and dark clean contours, no text, no particle effects or glow. Identity reference only, redesign the pose mechanics.",
+      "status": "source_candidate_not_approved"
+    },
+    {
+      "id": "walk-v2",
+      "file": "walk-source-v2.png",
+      "prompt": "Create six full-body side-view fighting-game forward walking key poses of Kamisato Ayaka, same identity/outfit/normal body proportion and crisp flat-color style as reference. All face RIGHT. One fixed camera and identical anatomical body scale, head size, leg lengths, shoulders and hips. She carries SAME sheathed katana at left hip, left hand steadies scabbard mouth, right hand rests on hilt, no bare missing weapon. A coherent actual gait cycle: right foot front contact, right foot loaded/left heel lifts, left leg passing under pelvis, left foot front contact, left foot loaded/right heel lifts, right leg passing. Small vertical hip bob only, not hopping, natural modest steps. Ankles remain under a believable supporting pelvis. No offensive stance, no mirrors, no backwards-facing frame. Six distinct poses arranged in 3 columns by 2 rows with broad transparent spacing, complete shoes, headpiece and sheathed weapon in each. Genuine transparent background, no labels, gradients, shadows, particles or ice effects. Design held weapon and body together.",
+      "status": "rejected_for_preview",
+      "issues": [
+        "No clearly alternating supporting legs",
+        "Background is not clean transparent as requested"
+      ]
+    }
+  ]
+}

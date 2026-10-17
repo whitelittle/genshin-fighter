@@ -1,0 +1,388 @@
+{
+  "candidate": true,
+  "game_bootstrap_bundled": true,
+  "formal_integrated": false,
+  "user_accepted": false,
+  "scope": "movement/receive-hit training probe; attacks E Q throw dash disabled, missing animation states explicitly pending",
+  "frames": 36,
+  "groups": {
+    "idle": 2,
+    "walk": 6,
+    "back": 6,
+    "crouch": 4,
+    "jump": 6,
+    "guard": 4,
+    "hurt": 4,
+    "getup": 4
+  },
+  "body_peak_images": 1078,
+  "double_body_images": 2156,
+  "scale_design_units_per_pixel": 4.926470588235294,
+  "anchors": "automatic draft, not final foot/grip calibration",
+  "client_sha256": "059621f9059add015d279dd6eafc09257f8ff4721a9d165ed9e3c7869c77630c",
+  "provenance": [
+    {
+      "pose": "idle_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-idle-review/optimized-0.png",
+      "sha256": "02996855d5e76f0419347990147439c70f8477c6a28154bcf8ec1bd83c537927",
+      "draft_anchor": {
+        "ax": 28.0,
+        "ay": 69
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "idle_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-idle-review/optimized-1.png",
+      "sha256": "761f6460103a8410125320d7d680751ea91b5f792721e26625e394a19a70eae5",
+      "draft_anchor": {
+        "ax": 26.0,
+        "ay": 69
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "walk_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-walk-review/optimized-0.png",
+      "sha256": "0d8bdccce8c6c601611f2387c1ae791461a9c8ec9285eb0e44dc60efa5271d0f",
+      "draft_anchor": {
+        "ax": 54.0,
+        "ay": 72
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "walk_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-walk-review/optimized-1.png",
+      "sha256": "8f04cb68817336a08ea3dda4ba76a8d5e96c39e1dc43146167b5354bb13730ae",
+      "draft_anchor": {
+        "ax": 39.0,
+        "ay": 72
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "walk_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-walk-review/optimized-2.png",
+      "sha256": "f6733efdd5adc8b7ea739b7f5bbf59b529c5ea68602474847243f5978e0c0297",
+      "draft_anchor": {
+        "ax": 50.0,
+        "ay": 72
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "walk_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-walk-review/optimized-3.png",
+      "sha256": "96e8d9f66bc7183f159b9514950605b22c33790dfbac6305435ca8c33a97b4a9",
+      "draft_anchor": {
+        "ax": 57.0,
+        "ay": 71
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "walk_4",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-walk-review/optimized-4.png",
+      "sha256": "d162a5b577f97a1149256f1f587924e19484dbd5d8984d081ac844eb03d53c22",
+      "draft_anchor": {
+        "ax": 41.0,
+        "ay": 71
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "walk_5",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/kamisatoayaka-walk-review/optimized-5.png",
+      "sha256": "b0d1fa07c7277125312062248bdb5f867fa95a741361b48f1cd5337a05edacac",
+      "draft_anchor": {
+        "ax": 47.0,
+        "ay": 70
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "back_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-backwalk-body-v1/fit-0.png",
+      "sha256": "a4e4d796aa9e6e0d55653b9b35dd3e04ccfa828b29301b0446c9bdbdecee4f36",
+      "draft_anchor": {
+        "ax": 28.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "back_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-backwalk-body-v1/fit-1.png",
+      "sha256": "fd241cc4c27bddbf207101d7cc6fa0cf10dea915f82984aec4ce3ebfd965224d",
+      "draft_anchor": {
+        "ax": 17.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "back_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-backwalk-body-v1/fit-2.png",
+      "sha256": "14e3e314d174144149d461b4d646d6af3cee0ff7485e1be895cb61d4b0bb3d50",
+      "draft_anchor": {
+        "ax": 12.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "back_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-backwalk-body-v1/fit-3.png",
+      "sha256": "ffa838984cfa786c4351272af122f718ba838500de23d487e23b38338821ecd4",
+      "draft_anchor": {
+        "ax": 28.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "back_4",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-backwalk-body-v1/fit-4.png",
+      "sha256": "d3b236e5cf36b4f91a2cf5dfca7c46f4dec68bc5e13025403afb201c88ce39d4",
+      "draft_anchor": {
+        "ax": 22.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "back_5",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-backwalk-body-v1/fit-5.png",
+      "sha256": "d76d2acb0ee885717df68f58bb64b5f31290c5ab99d85d0111aab28903938024",
+      "draft_anchor": {
+        "ax": 17.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "crouch_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-crouch-body-v2/fit-0.png",
+      "sha256": "c2848afb64795f59b5b7b433008db42765a86ddc3be2fc09cbd348bd9444f53d",
+      "draft_anchor": {
+        "ax": 15.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "crouch_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-crouch-body-v2/fit-1.png",
+      "sha256": "e0e9b3d5111bc0c615d2e9d24ffb340c703ee3b0e0f5e9eebae52b26a914406e",
+      "draft_anchor": {
+        "ax": 15.0,
+        "ay": 59
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "crouch_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-crouch-body-v2/fit-2.png",
+      "sha256": "a99d8df60c365439f98efe4b5f769eed21b500188b49420d92ee6397db0a89bb",
+      "draft_anchor": {
+        "ax": 13.0,
+        "ay": 47
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "crouch_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-crouch-body-v2/fit-3.png",
+      "sha256": "e2a2395fcc43323c98be07a9f636f5fe10079fe505a71ef74e296dd321914179",
+      "draft_anchor": {
+        "ax": 12.0,
+        "ay": 48
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "jump_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-jump-body-v1/fit-0.png",
+      "sha256": "55fb877b2df27ffd54e354e6cc7c4e7cf6faec8db888c461f26ef79a6ae64a4c",
+      "draft_anchor": {
+        "ax": 31.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "jump_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-jump-body-v1/fit-1.png",
+      "sha256": "bf6858d9da8dcfffda3553f00db768f3e2b300d5bcf1f5fa2373d7eef06bbe67",
+      "draft_anchor": {
+        "ax": 35.0,
+        "ay": 60
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "jump_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-jump-body-v1/fit-2.png",
+      "sha256": "2a2f67e7fa46f3bd0a5b6a8963038c5f167e2a2e8bb07a8edd89794371d7c981",
+      "draft_anchor": {
+        "ax": 4.0,
+        "ay": 64
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "jump_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-jump-body-v1/fit-3.png",
+      "sha256": "258d4ab09bda6dc8b4c966a60a0914f054f46d78c7e343d6f20d8b0b8c386c98",
+      "draft_anchor": {
+        "ax": 28.0,
+        "ay": 53
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "jump_4",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-jump-body-v1/fit-4.png",
+      "sha256": "8bd0434527a9ca688fdf6ecabc88357c63bace95ad0a9adc1b69e725a896ace6",
+      "draft_anchor": {
+        "ax": 56.5,
+        "ay": 66
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "jump_5",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-jump-body-v1/fit-5.png",
+      "sha256": "f0b1ff103a304febd4871daa4f9095e673ad69c4dc6436b614c3501c7641368b",
+      "draft_anchor": {
+        "ax": 43.5,
+        "ay": 57
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "guard_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-standguard-body-v1/fit-0.png",
+      "sha256": "a5e1af3dff66658c80aa61b2fe8075b098dd6ae233eb3e826803fa6084fb861f",
+      "draft_anchor": {
+        "ax": 36.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "guard_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-standguard-body-v1/fit-1.png",
+      "sha256": "4543a10a41cfdc7140abe82e3f9bcd47478acece14b2945ada564df63ace6a92",
+      "draft_anchor": {
+        "ax": 23.5,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "guard_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-standguard-body-v1/fit-2.png",
+      "sha256": "195be2bbd5e01ec277e50a5021a6f91ee8d1df4213d1a91e4bd58c748c8ec62e",
+      "draft_anchor": {
+        "ax": 35.0,
+        "ay": 63
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "guard_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-standguard-body-v1/fit-3.png",
+      "sha256": "f60d49929e2c84a2673f406def0cedd5efb9b71ad5510eeb0e193f870dae06ae",
+      "draft_anchor": {
+        "ax": 32.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "hurt_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-hit_knockdown-body-v1/fit-0.png",
+      "sha256": "3698655d8bbb07a85a8516bfc515658eec9d8502e9eea266d812a10f4d6b1b7c",
+      "draft_anchor": {
+        "ax": 20.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "hurt_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-hit_knockdown-body-v1/fit-1.png",
+      "sha256": "7ff72bb89d5b46169315f31e6f6f424bec0ab367f771894dba5a6699efcb7704",
+      "draft_anchor": {
+        "ax": 58.0,
+        "ay": 55
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "hurt_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-hit_knockdown-body-v1/fit-2.png",
+      "sha256": "bc98f97932b87826aab73e1b354b06a47829624f22c00b04f78e66962d8e112c",
+      "draft_anchor": {
+        "ax": 27.0,
+        "ay": 40
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "hurt_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-hit_knockdown-body-v1/fit-3.png",
+      "sha256": "f701e1c361e6cb4eb3af94cdbc2d8f21cb21c6c539636df780b21b41d4b085aa",
+      "draft_anchor": {
+        "ax": 21.0,
+        "ay": 19
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "getup_0",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-wakeup-body-v1/fit-0.png",
+      "sha256": "13982039309be725fa5809ad3665483a7449e77a2adfffe6abc1e9fb37ec53a1",
+      "draft_anchor": {
+        "ax": 32.0,
+        "ay": 24
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "getup_1",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-wakeup-body-v1/fit-1.png",
+      "sha256": "f918da6cef5a2acfdeee96b05c4193fc10e857faf0ef299c166834e4a60d192b",
+      "draft_anchor": {
+        "ax": 35.0,
+        "ay": 39
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "getup_2",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-wakeup-body-v1/fit-2.png",
+      "sha256": "4db023d3f6617a1b59d70f17e935bc0f1dd1fa9858b243347eed7168e493c969",
+      "draft_anchor": {
+        "ax": 40.0,
+        "ay": 51
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    },
+    {
+      "pose": "getup_3",
+      "image": "work/v4-handoff-20261009-partial/V4/evidence/codex-batch-20261009/kamisatoayaka-wakeup-body-v1/fit-3.png",
+      "sha256": "09c9b9de75cf1ae6d49532cca3a87b0860084073c4922d55e97373e09a749947",
+      "draft_anchor": {
+        "ax": 31.0,
+        "ay": 68
+      },
+      "anchor_method": "lowest opaque support-band median; candidate diagnostic, requires manual body/foot calibration"
+    }
+  ],
+  "baseline_unchanged": true,
+  "native_device_tested": false,
+  "visual_semantic_accepted": false
+}

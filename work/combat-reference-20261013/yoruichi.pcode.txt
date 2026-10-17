@@ -1,0 +1,3408 @@
+
+METHOD 0 bsface1::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 1 bsface1::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getlocal_2 
+0005: constructsuper 2
+0007: returnvoid 
+
+METHOD 2 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict bsface1
+0005: getlex Object
+0007: pushscope 
+0008: getlex flash.display::BitmapData
+000a: pushscope 
+000b: getlex flash.display::BitmapData
+000d: newclass 0
+000f: popscope 
+0010: popscope 
+0011: initproperty bsface1
+0013: returnvoid 
+
+METHOD 3 bsface2::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 4 bsface2::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getlocal_2 
+0005: constructsuper 2
+0007: returnvoid 
+
+METHOD 5 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict bsface2
+0005: getlex Object
+0007: pushscope 
+0008: getlex flash.display::BitmapData
+000a: pushscope 
+000b: getlex flash.display::BitmapData
+000d: newclass 1
+000f: popscope 
+0010: popscope 
+0011: initproperty bsface2
+0013: returnvoid 
+
+METHOD 6 bsface3::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 7 bsface3::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getlocal_2 
+0005: constructsuper 2
+0007: returnvoid 
+
+METHOD 8 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict bsface3
+0005: getlex Object
+0007: pushscope 
+0008: getlex flash.display::BitmapData
+000a: pushscope 
+000b: getlex flash.display::BitmapData
+000d: newclass 2
+000f: popscope 
+0010: popscope 
+0011: initproperty bsface3
+0013: returnvoid 
+
+METHOD 9 snd_hurt1::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 10 snd_hurt1::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 11 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt1
+0005: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.media::Sound
+000e: pushscope 
+000f: getlex flash.media::Sound
+0011: newclass 3
+0013: popscope 
+0014: popscope 
+0015: popscope 
+0016: initproperty snd_hurt1
+0018: returnvoid 
+
+METHOD 12 snd_hurt2::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 13 snd_hurt2::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 14 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt2
+0005: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.media::Sound
+000e: pushscope 
+000f: getlex flash.media::Sound
+0011: newclass 4
+0013: popscope 
+0014: popscope 
+0015: popscope 
+0016: initproperty snd_hurt2
+0018: returnvoid 
+
+METHOD 15 snd_hurt3::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 16 snd_hurt3::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: returnvoid 
+
+METHOD 17 
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict snd_hurt3
+0005: getlex Object
+0007: pushscope 
+0008: getlex flash.events::EventDispatcher
+000b: pushscope 
+000c: getlex flash.media::Sound
+000e: pushscope 
+000f: getlex flash.media::Sound
+0011: newclass 5
+0013: popscope 
+0014: popscope 
+0015: popscope 
+0016: initproperty snd_hurt3
+0018: returnvoid 
+
+METHOD 18 main_mc::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 19 main_mc::initFighter
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: getproperty fighter_ctrler
+0007: initproperty $fighter_ctrler
+000a: getlocal_0 
+000b: getlocal_1 
+000c: getproperty mc_ctrler
+000f: initproperty $mc_ctrler
+0012: getlocal_0 
+0013: getlocal_1 
+0014: getproperty effect_ctrler
+0017: initproperty $effect_ctrler
+001a: getlocal_0 
+001b: getlocal_0 
+001c: getproperty $fighter_ctrler
+001f: getproperty defineAction
+0022: initproperty defineAction
+0025: returnvoid 
+
+METHOD 20 main_mc::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 21 main_mc::frame2
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getproperty $fighter_ctrler
+0006: iftrue 11
+000a: returnvoid 
+000b: getlocal_0 
+000c: pushstring tk
+000f: pushstring power
+0012: pushbyte 20
+0014: pushstring hitType
+0017: pushbyte 2
+0019: pushstring hitx
+001c: pushbyte 0
+001e: pushstring hity
+0021: pushbyte -1
+0023: pushstring hurtTime
+0026: pushshort 400
+0029: pushstring hurtType
+002c: pushbyte 0
+002e: pushstring isBreakDef
+0031: pushfalse 
+0032: newobject 7
+0034: callpropvoid defineAction, 2
+0038: getlocal_0 
+0039: pushstring tk2
+003c: pushstring power
+003f: pushbyte 30
+0041: pushstring hitType
+0044: pushbyte 3
+0046: pushstring hitx
+0049: pushbyte 4
+004b: pushstring hity
+004e: pushbyte 3
+0050: pushstring hurtTime
+0053: pushshort 600
+0056: pushstring hurtType
+0059: pushbyte 0
+005b: pushstring isBreakDef
+005e: pushfalse 
+005f: newobject 7
+0061: callpropvoid defineAction, 2
+0065: getlocal_0 
+0066: pushstring tkx
+0069: pushstring power
+006c: pushbyte 50
+006e: pushstring hitType
+0071: pushbyte 5
+0073: pushstring hitx
+0076: pushbyte 0
+0078: pushstring hity
+007b: pushbyte 0
+007d: pushstring hurtTime
+0080: pushshort 900
+0083: pushstring hurtType
+0086: pushbyte 0
+0088: pushstring isBreakDef
+008b: pushtrue 
+008c: newobject 7
+008e: callpropvoid defineAction, 2
+0092: getlocal_0 
+0093: pushstring tz
+0096: pushstring power
+0099: pushbyte 100
+009b: pushstring hitType
+009e: pushbyte 3
+00a0: pushstring hitx
+00a3: pushbyte 5
+00a5: pushstring hity
+00a8: pushbyte 0
+00aa: pushstring hurtTime
+00ad: pushbyte 0
+00af: pushstring hurtType
+00b2: pushbyte 1
+00b4: pushstring isBreakDef
+00b7: pushfalse 
+00b8: pushstring slowDown
+00bb: pushdouble 0.5
+00bd: newobject 8
+00bf: callpropvoid defineAction, 2
+00c3: getlocal_0 
+00c4: pushstring tz1
+00c7: pushstring power
+00ca: pushbyte 100
+00cc: pushstring hitType
+00cf: pushbyte 3
+00d1: pushstring hitx
+00d4: pushbyte 3
+00d6: pushstring hity
+00d9: pushbyte -3
+00db: pushstring hurtTime
+00de: pushbyte 0
+00e0: pushstring hurtType
+00e3: pushbyte 1
+00e5: pushstring isBreakDef
+00e8: pushfalse 
+00e9: pushstring slowDown
+00ec: pushdouble 0.5
+00ee: newobject 8
+00f0: callpropvoid defineAction, 2
+00f4: getlocal_0 
+00f5: pushstring tz2
+00f8: pushstring power
+00fb: pushbyte 100
+00fd: pushstring hitType
+0100: pushbyte 3
+0102: pushstring hitx
+0105: pushbyte 6
+0107: pushstring hity
+010a: pushbyte 8
+010c: pushstring hurtTime
+010f: pushbyte 0
+0111: pushstring hurtType
+0114: pushbyte 1
+0116: pushstring isBreakDef
+0119: pushfalse 
+011a: pushstring slowDown
+011d: pushdouble 0.5
+011f: newobject 8
+0121: callpropvoid defineAction, 2
+0125: getlocal_0 
+0126: pushstring tzs
+0129: pushstring power
+012c: pushbyte 80
+012e: pushstring hitType
+0131: pushbyte 3
+0133: pushstring hitx
+0136: pushbyte 5
+0138: pushstring hity
+013b: pushbyte -3
+013d: pushstring hurtTime
+0140: pushbyte 0
+0142: pushstring hurtType
+0145: pushbyte 1
+0147: pushstring isBreakDef
+014a: pushfalse 
+014b: newobject 7
+014d: callpropvoid defineAction, 2
+0151: getlocal_0 
+0152: pushstring k1
+0155: pushstring power
+0158: pushbyte 30
+015a: pushstring hitType
+015d: pushbyte 2
+015f: pushstring hitx
+0162: pushbyte 2
+0164: pushstring hity
+0167: pushbyte 0
+0169: pushstring hurtTime
+016c: pushshort 300
+016f: pushstring hurtType
+0172: pushbyte 0
+0174: pushstring isBreakDef
+0177: pushfalse 
+0178: newobject 7
+017a: callpropvoid defineAction, 2
+017e: getlocal_0 
+017f: pushstring k2
+0182: pushstring power
+0185: pushbyte 40
+0187: pushstring hitType
+018a: pushbyte 2
+018c: pushstring hitx
+018f: pushbyte 4
+0191: pushstring hity
+0194: pushbyte 0
+0196: pushstring hurtTime
+0199: pushshort 400
+019c: pushstring hurtType
+019f: pushbyte 0
+01a1: pushstring isBreakDef
+01a4: pushfalse 
+01a5: newobject 7
+01a7: callpropvoid defineAction, 2
+01ab: getlocal_0 
+01ac: pushstring k3
+01af: pushstring power
+01b2: pushbyte 40
+01b4: pushstring hitType
+01b7: pushbyte 3
+01b9: pushstring hitx
+01bc: pushbyte 4
+01be: pushstring hity
+01c1: pushbyte 0
+01c3: pushstring hurtTime
+01c6: pushshort 500
+01c9: pushstring hurtType
+01cc: pushbyte 0
+01ce: pushstring isBreakDef
+01d1: pushfalse 
+01d2: newobject 7
+01d4: callpropvoid defineAction, 2
+01d8: getlocal_0 
+01d9: pushstring k4
+01dc: pushstring power
+01df: pushbyte 80
+01e1: pushstring hitType
+01e4: pushbyte 5
+01e6: pushstring hitx
+01e9: pushbyte 6
+01eb: pushstring hity
+01ee: pushbyte -4
+01f0: pushstring hurtTime
+01f3: pushshort 400
+01f6: pushstring hurtType
+01f9: pushbyte 0
+01fb: pushstring isBreakDef
+01fe: pushfalse 
+01ff: newobject 7
+0201: callpropvoid defineAction, 2
+0205: getlocal_0 
+0206: pushstring k4old
+0209: pushstring power
+020c: pushbyte 80
+020e: pushstring hitType
+0211: pushbyte 3
+0213: pushstring hitx
+0216: pushbyte 8
+0218: pushstring hity
+021b: pushbyte -4
+021d: pushstring hurtTime
+0220: pushbyte 0
+0222: pushstring hurtType
+0225: pushbyte 1
+0227: pushstring isBreakDef
+022a: pushfalse 
+022b: newobject 7
+022d: callpropvoid defineAction, 2
+0231: getlocal_0 
+0232: pushstring zh1
+0235: pushstring power
+0238: pushbyte 30
+023a: pushstring hitType
+023d: pushbyte 4
+023f: pushstring hitx
+0242: pushbyte 2
+0244: pushstring hity
+0247: pushbyte 0
+0249: pushstring hurtTime
+024c: pushshort 400
+024f: pushstring hurtType
+0252: pushbyte 0
+0254: pushstring isBreakDef
+0257: pushfalse 
+0258: newobject 7
+025a: callpropvoid defineAction, 2
+025e: getlocal_0 
+025f: pushstring zh12
+0262: pushstring power
+0265: pushbyte 60
+0267: pushstring hitType
+026a: pushbyte 5
+026c: pushstring hitx
+026f: pushbyte 4
+0271: pushstring hity
+0274: pushbyte 0
+0276: pushstring hurtTime
+0279: pushbyte 0
+027b: pushstring hurtType
+027e: pushbyte 1
+0280: pushstring isBreakDef
+0283: pushfalse 
+0284: newobject 7
+0286: callpropvoid defineAction, 2
+028a: getlocal_0 
+028b: pushstring zh2
+028e: pushstring power
+0291: pushshort 140
+0294: pushstring hitType
+0297: pushbyte 9
+0299: pushstring hitx
+029c: pushbyte 6
+029e: pushstring hity
+02a1: pushbyte 0
+02a3: pushstring hurtTime
+02a6: pushbyte 0
+02a8: pushstring hurtType
+02ab: pushbyte 1
+02ad: pushstring isBreakDef
+02b0: pushtrue 
+02b1: newobject 7
+02b3: callpropvoid defineAction, 2
+02b7: getlocal_0 
+02b8: pushstring zh31
+02bb: pushstring power
+02be: pushbyte 60
+02c0: pushstring hitType
+02c3: pushbyte 3
+02c5: pushstring hitx
+02c8: pushbyte 5
+02ca: pushstring hity
+02cd: pushbyte 0
+02cf: pushstring hurtTime
+02d2: pushshort 500
+02d5: pushstring hurtType
+02d8: pushbyte 0
+02da: pushstring isBreakDef
+02dd: pushfalse 
+02de: newobject 7
+02e0: callpropvoid defineAction, 2
+02e4: getlocal_0 
+02e5: pushstring zh32
+02e8: pushstring power
+02eb: pushbyte 60
+02ed: pushstring hitType
+02f0: pushbyte 3
+02f2: pushstring hitx
+02f5: pushbyte 8
+02f7: pushstring hity
+02fa: pushbyte 0
+02fc: pushstring hurtTime
+02ff: pushshort 600
+0302: pushstring hurtType
+0305: pushbyte 0
+0307: pushstring isBreakDef
+030a: pushfalse 
+030b: newobject 7
+030d: callpropvoid defineAction, 2
+0311: getlocal_0 
+0312: pushstring kj1
+0315: pushstring power
+0318: pushbyte 120
+031a: pushstring hitType
+031d: pushbyte 6
+031f: pushstring hitx
+0322: pushbyte 4
+0324: pushstring hity
+0327: pushbyte 0
+0329: pushstring hurtTime
+032c: pushbyte 0
+032e: pushstring hurtType
+0331: pushbyte 1
+0333: pushstring isBreakDef
+0336: pushfalse 
+0337: newobject 7
+0339: callpropvoid defineAction, 2
+033d: getlocal_0 
+033e: pushstring kj21
+0341: pushstring power
+0344: pushbyte 90
+0346: pushstring hitType
+0349: pushbyte 3
+034b: pushstring hitx
+034e: pushbyte 7
+0350: pushstring hity
+0353: pushbyte 0
+0355: pushstring hurtTime
+0358: pushshort 600
+035b: pushstring hurtType
+035e: pushbyte 0
+0360: pushstring isBreakDef
+0363: pushfalse 
+0364: newobject 7
+0366: callpropvoid defineAction, 2
+036a: getlocal_0 
+036b: pushstring kj2
+036e: pushstring power
+0371: pushbyte 100
+0373: pushstring hitType
+0376: pushbyte 3
+0378: pushstring hitx
+037b: pushbyte 8
+037d: pushstring hity
+0380: pushbyte 0
+0382: pushstring hurtTime
+0385: pushbyte 0
+0387: pushstring hurtType
+038a: pushbyte 1
+038c: pushstring isBreakDef
+038f: pushfalse 
+0390: newobject 7
+0392: callpropvoid defineAction, 2
+0396: getlocal_0 
+0397: pushstring shx
+039a: pushstring power
+039d: pushbyte 70
+039f: pushstring hitType
+03a2: pushbyte 5
+03a4: pushstring hitx
+03a7: pushbyte 5
+03a9: pushstring hity
+03ac: pushbyte -3
+03ae: pushstring hurtTime
+03b1: pushbyte 0
+03b3: pushstring hurtType
+03b6: pushbyte 1
+03b8: pushstring isBreakDef
+03bb: pushfalse 
+03bc: newobject 7
+03be: callpropvoid defineAction, 2
+03c2: getlocal_0 
+03c3: pushstring sh1
+03c6: pushstring power
+03c9: pushbyte 0
+03cb: pushstring hitType
+03ce: pushbyte 11
+03d0: pushstring hitx
+03d3: pushbyte 0
+03d5: pushstring hity
+03d8: pushbyte 0
+03da: pushstring hurtTime
+03dd: pushshort 1000
+03e0: pushstring hurtType
+03e3: pushbyte 0
+03e5: pushstring isBreakDef
+03e8: pushtrue 
+03e9: newobject 7
+03eb: callpropvoid defineAction, 2
+03ef: getlocal_0 
+03f0: pushstring sh12
+03f3: pushstring power
+03f6: pushbyte 50
+03f8: pushstring hitType
+03fb: pushbyte 3
+03fd: pushstring hitx
+0400: pushbyte 3
+0402: pushstring hity
+0405: pushbyte 0
+0407: pushstring hurtTime
+040a: pushshort 1000
+040d: pushstring hurtType
+0410: pushbyte 0
+0412: pushstring isBreakDef
+0415: pushtrue 
+0416: newobject 7
+0418: callpropvoid defineAction, 2
+041c: getlocal_0 
+041d: pushstring sh2
+0420: pushstring power
+0423: pushbyte 0
+0425: pushstring hitType
+0428: pushbyte 11
+042a: pushstring hitx
+042d: pushbyte 5
+042f: pushstring hity
+0432: pushbyte 0
+0434: pushstring hurtTime
+0437: pushshort 1000
+043a: pushstring hurtType
+043d: pushbyte 0
+043f: pushstring isBreakDef
+0442: pushtrue 
+0443: newobject 7
+0445: callpropvoid defineAction, 2
+0449: getlocal_0 
+044a: pushstring sh22
+044d: pushstring power
+0450: pushshort 160
+0453: pushstring hitType
+0456: pushbyte 5
+0458: pushstring hitx
+045b: pushbyte -10
+045d: pushstring hity
+0460: pushbyte -6
+0462: pushstring hurtTime
+0465: pushbyte 0
+0467: pushstring hurtType
+046a: pushbyte 1
+046c: pushstring isBreakDef
+046f: pushtrue 
+0470: newobject 7
+0472: callpropvoid defineAction, 2
+0476: getlocal_0 
+0477: pushstring bs
+047a: pushstring power
+047d: pushshort 320
+0480: pushstring hitType
+0483: pushbyte 5
+0485: pushstring hitx
+0488: pushbyte 10
+048a: pushstring hity
+048d: pushbyte 0
+048f: pushstring hurtTime
+0492: pushbyte 0
+0494: pushstring hurtType
+0497: pushbyte 1
+0499: pushstring isBreakDef
+049c: pushfalse 
+049d: pushstring slowDown
+04a0: pushbyte 1
+04a2: newobject 8
+04a4: callpropvoid defineAction, 2
+04a8: getlocal_0 
+04a9: pushstring kbs1
+04ac: pushstring power
+04af: pushbyte 40
+04b1: pushstring hitType
+04b4: pushbyte 1
+04b6: pushstring hitx
+04b9: pushbyte 0
+04bb: pushstring hity
+04be: pushbyte 0
+04c0: pushstring hurtTime
+04c3: pushshort 600
+04c6: pushstring hurtType
+04c9: pushbyte 0
+04cb: pushstring isBreakDef
+04ce: pushfalse 
+04cf: newobject 7
+04d1: callpropvoid defineAction, 2
+04d5: getlocal_0 
+04d6: pushstring kbs
+04d9: pushstring power
+04dc: pushbyte 60
+04de: pushstring hitType
+04e1: pushbyte 6
+04e3: pushstring hitx
+04e6: pushbyte 4
+04e8: pushstring hity
+04eb: pushbyte 0
+04ed: pushstring hurtTime
+04f0: pushbyte 0
+04f2: pushstring hurtType
+04f5: pushbyte 1
+04f7: pushstring isBreakDef
+04fa: pushfalse 
+04fb: newobject 7
+04fd: callpropvoid defineAction, 2
+0501: getlocal_0 
+0502: pushstring sbs1
+0505: pushstring power
+0508: pushbyte 20
+050a: pushstring hitType
+050d: pushbyte 3
+050f: pushstring hitx
+0512: pushbyte 6
+0514: pushstring hity
+0517: pushbyte 0
+0519: pushstring hurtTime
+051c: pushshort 800
+051f: pushstring hurtType
+0522: pushbyte 0
+0524: pushstring isBreakDef
+0527: pushfalse 
+0528: pushstring slowDown
+052b: pushdouble 0.5
+052d: newobject 8
+052f: callpropvoid defineAction, 2
+0533: getlocal_0 
+0534: pushstring sbs2
+0537: pushstring power
+053a: pushbyte 10
+053c: pushstring hitType
+053f: pushbyte 2
+0541: pushstring hitx
+0544: pushbyte 2
+0546: pushstring hity
+0549: pushbyte -2
+054b: pushstring hurtTime
+054e: pushshort 400
+0551: pushstring hurtType
+0554: pushbyte 0
+0556: pushstring isBreakDef
+0559: pushfalse 
+055a: newobject 7
+055c: callpropvoid defineAction, 2
+0560: getlocal_0 
+0561: pushstring sbs3
+0564: pushstring power
+0567: pushbyte 10
+0569: pushstring hitType
+056c: pushbyte 2
+056e: pushstring hitx
+0571: pushbyte 2
+0573: pushstring hity
+0576: pushbyte 0
+0578: pushstring hurtTime
+057b: pushshort 400
+057e: pushstring hurtType
+0581: pushbyte 0
+0583: pushstring isBreakDef
+0586: pushfalse 
+0587: newobject 7
+0589: callpropvoid defineAction, 2
+058d: getlocal_0 
+058e: pushstring sbs4
+0591: pushstring power
+0594: pushbyte 10
+0596: pushstring hitType
+0599: pushbyte 2
+059b: pushstring hitx
+059e: pushbyte 4
+05a0: pushstring hity
+05a3: pushdouble -0.5
+05a5: pushstring hurtTime
+05a8: pushshort 400
+05ab: pushstring hurtType
+05ae: pushbyte 0
+05b0: pushstring isBreakDef
+05b3: pushfalse 
+05b4: newobject 7
+05b6: callpropvoid defineAction, 2
+05ba: getlocal_0 
+05bb: pushstring sbs5
+05be: pushstring power
+05c1: pushbyte 30
+05c3: pushstring hitType
+05c6: pushbyte 3
+05c8: pushstring hitx
+05cb: pushbyte 3
+05cd: pushstring hity
+05d0: pushbyte -8
+05d2: pushstring hurtTime
+05d5: pushshort 800
+05d8: pushstring hurtType
+05db: pushbyte 0
+05dd: pushstring isBreakDef
+05e0: pushfalse 
+05e1: pushstring slowDown
+05e4: pushdouble 0.5
+05e6: newobject 8
+05e8: callpropvoid defineAction, 2
+05ec: getlocal_0 
+05ed: pushstring sbs6
+05f0: pushstring power
+05f3: pushbyte 30
+05f5: pushstring hitType
+05f8: pushbyte 3
+05fa: pushstring hitx
+05fd: pushbyte 7
+05ff: pushstring hity
+0602: pushbyte -7
+0604: pushstring hurtTime
+0607: pushshort 800
+060a: pushstring hurtType
+060d: pushbyte 0
+060f: pushstring isBreakDef
+0612: pushfalse 
+0613: pushstring slowDown
+0616: pushdouble 0.5
+0618: newobject 8
+061a: callpropvoid defineAction, 2
+061e: getlocal_0 
+061f: pushstring sbs7
+0622: pushstring power
+0625: pushbyte 10
+0627: pushstring hitType
+062a: pushbyte 2
+062c: pushstring hitx
+062f: pushbyte 2
+0631: pushstring hity
+0634: pushbyte -1
+0636: pushstring hurtTime
+0639: pushshort 800
+063c: pushstring hurtType
+063f: pushbyte 0
+0641: pushstring isBreakDef
+0644: pushfalse 
+0645: newobject 7
+0647: callpropvoid defineAction, 2
+064b: getlocal_0 
+064c: pushstring sbs
+064f: pushstring power
+0652: pushbyte 50
+0654: pushstring hitType
+0657: pushbyte 5
+0659: pushstring hitx
+065c: pushbyte 5
+065e: pushstring hity
+0661: pushbyte 10
+0663: pushstring hurtTime
+0666: pushshort 800
+0669: pushstring hurtType
+066c: pushbyte 1
+066e: pushstring isBreakDef
+0671: pushfalse 
+0672: pushstring slowDown
+0675: pushdouble 0.5
+0677: newobject 8
+0679: callpropvoid defineAction, 2
+067d: getlocal_0 
+067e: pushstring cbs1
+0681: pushstring power
+0684: pushbyte 100
+0686: pushstring hitType
+0689: pushbyte 9
+068b: pushstring hitx
+068e: pushbyte 5
+0690: pushstring hity
+0693: pushbyte -8
+0695: pushstring hurtTime
+0698: pushshort 1000
+069b: pushstring hurtType
+069e: pushbyte 0
+06a0: pushstring isBreakDef
+06a3: pushfalse 
+06a4: pushstring slowDown
+06a7: pushbyte 1
+06a9: newobject 8
+06ab: callpropvoid defineAction, 2
+06af: getlocal_0 
+06b0: pushstring cbs2
+06b3: pushstring power
+06b6: pushbyte 100
+06b8: pushstring hitType
+06bb: pushbyte 9
+06bd: pushstring hitx
+06c0: pushbyte 5
+06c2: pushstring hity
+06c5: pushbyte -8
+06c7: pushstring hurtTime
+06ca: pushshort 1000
+06cd: pushstring hurtType
+06d0: pushbyte 0
+06d2: pushstring isBreakDef
+06d5: pushfalse 
+06d6: pushstring slowDown
+06d9: pushbyte 1
+06db: newobject 8
+06dd: callpropvoid defineAction, 2
+06e1: getlocal_0 
+06e2: pushstring cbs3
+06e5: pushstring power
+06e8: pushbyte 20
+06ea: pushstring hitType
+06ed: pushbyte 1
+06ef: pushstring hitx
+06f2: pushbyte 0
+06f4: pushstring hity
+06f7: pushbyte -1
+06f9: pushstring hurtTime
+06fc: pushshort 1000
+06ff: pushstring hurtType
+0702: pushbyte 0
+0704: pushstring isBreakDef
+0707: pushfalse 
+0708: newobject 7
+070a: callpropvoid defineAction, 2
+070e: getlocal_0 
+070f: pushstring cbs
+0712: pushstring power
+0715: pushshort 150
+0718: pushstring hitType
+071b: pushbyte 5
+071d: pushstring hitx
+0720: pushbyte 0
+0722: pushstring hity
+0725: pushbyte 10
+0727: pushstring hurtTime
+072a: pushshort 1000
+072d: pushstring hurtType
+0730: pushbyte 1
+0732: pushstring isBreakDef
+0735: pushtrue 
+0736: pushstring slowDown
+0739: pushbyte 1
+073b: newobject 8
+073d: callpropvoid defineAction, 2
+0741: getlocal_0 
+0742: getproperty $fighter_ctrler
+0745: pushstring 夜一1
+0748: getlex bsface1
+074b: callpropvoid defineBishaFace, 2
+074f: getlocal_0 
+0750: getproperty $fighter_ctrler
+0753: pushstring 夜一2
+0756: getlex bsface2
+0759: callpropvoid defineBishaFace, 2
+075d: getlocal_0 
+075e: getproperty $fighter_ctrler
+0761: pushstring 夜一3
+0764: getlex bsface3
+0767: callpropvoid defineBishaFace, 2
+076b: getlocal_0 
+076c: getproperty $fighter_ctrler
+076f: getlex snd_hurt1
+0772: callpropvoid defineHurtSound, 1
+0776: getlocal_0 
+0777: getproperty $fighter_ctrler
+077a: getlex snd_hurt2
+077d: callpropvoid defineHurtFlySound, 1
+0781: getlocal_0 
+0782: getproperty $fighter_ctrler
+0785: getlex snd_hurt3
+0788: callpropvoid defineDieSound, 1
+078c: getlocal_0 
+078d: getproperty $fighter_ctrler
+0790: pushbyte 13
+0792: setproperty speed
+0795: getlocal_0 
+0796: getproperty $fighter_ctrler
+0799: pushbyte 16
+079b: setproperty jumpPower
+079e: getlocal_0 
+079f: getproperty $fighter_ctrler
+07a2: pushbyte 1
+07a4: setproperty heavy
+07a7: getlocal_0 
+07a8: getproperty $fighter_ctrler
+07ab: pushbyte 1
+07ad: setproperty defenseType
+07b0: getlocal_0 
+07b1: pushfalse 
+07b2: initproperty speedbuff
+07b5: getlocal_0 
+07b6: getproperty $fighter_ctrler
+07b9: getlocal_0 
+07ba: getproperty mc
+07bd: callpropvoid initMc, 1
+07c1: returnvoid 
+
+METHOD 22 main_mc::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: pushbyte 1
+0010: getlocal_0 
+0011: getproperty frame2
+0014: callpropvoid addFrameScript, 4
+0018: returnvoid 
+
+METHOD 23 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0006: pushscope 
+0007: getlex flash.events::EventDispatcher
+000a: pushscope 
+000b: getlex flash.display::DisplayObject
+000e: pushscope 
+000f: getlex flash.display::InteractiveObject
+0012: pushscope 
+0013: getlex flash.display::DisplayObjectContainer
+0016: pushscope 
+0017: getlex flash.display::Sprite
+001a: pushscope 
+001b: getlex flash.display::MovieClip
+001d: pushscope 
+001e: getlex flash.display::MovieClip
+0020: newclass 6
+0022: popscope 
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: initproperty main_mc
+002b: returnvoid 
+
+METHOD 24 yoruichi_fla::AI面_3::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 25 yoruichi_fla::AI面_3::yoruichi_fla::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 26 yoruichi_fla::AI面_3::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: callpropvoid addFrameScript, 2
+0012: returnvoid 
+
+METHOD 27 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0006: pushscope 
+0007: getlex flash.events::EventDispatcher
+000a: pushscope 
+000b: getlex flash.display::DisplayObject
+000e: pushscope 
+000f: getlex flash.display::InteractiveObject
+0012: pushscope 
+0013: getlex flash.display::DisplayObjectContainer
+0016: pushscope 
+0017: getlex flash.display::Sprite
+001a: pushscope 
+001b: getlex flash.display::MovieClip
+001d: pushscope 
+001e: getlex flash.display::MovieClip
+0020: newclass 7
+0022: popscope 
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: initproperty yoruichi_fla::AI面_3
+002b: returnvoid 
+
+METHOD 28 yoruichi_fla::sprite124_16::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 29 yoruichi_fla::sprite124_16::yoruichi_fla::frame9
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 30 yoruichi_fla::sprite124_16::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 8
+000a: getlocal_0 
+000b: getproperty frame9
+000e: callpropvoid addFrameScript, 2
+0012: returnvoid 
+
+METHOD 31 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0006: pushscope 
+0007: getlex flash.events::EventDispatcher
+000a: pushscope 
+000b: getlex flash.display::DisplayObject
+000e: pushscope 
+000f: getlex flash.display::InteractiveObject
+0012: pushscope 
+0013: getlex flash.display::DisplayObjectContainer
+0016: pushscope 
+0017: getlex flash.display::Sprite
+001a: pushscope 
+001b: getlex flash.display::MovieClip
+001d: pushscope 
+001e: getlex flash.display::MovieClip
+0020: newclass 8
+0022: popscope 
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: initproperty yoruichi_fla::sprite124_16
+002b: returnvoid 
+
+METHOD 32 yoruichi_fla::夜一全动作_2::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 33 yoruichi_fla::夜一全动作_2::EndBuff_yoruichi
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: getproperty speed
+000b: pushbyte 13
+000d: ifne 41
+0011: getlex parent
+0014: pushfalse 
+0015: setproperty speedbuff
+0018: getlex stage
+001b: getlex Event
+001e: getproperty ENTER_FRAME
+0021: getlocal_0 
+0022: getproperty EndBuff_yoruichi
+0025: callpropvoid removeEventListener, 2
+0029: returnvoid 
+
+METHOD 34 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 35 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame10
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushshort 255
+000b: pushbyte 0
+000d: pushshort 255
+0010: callpropvoid shadow, 3
+0014: returnvoid 
+
+METHOD 36 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame25
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 走
+000b: callpropvoid loop, 1
+000f: returnvoid 
+
+METHOD 37 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame35
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 1.8
+000a: callpropvoid dash, 1
+000e: getlex parent
+0011: getproperty speedbuff
+0014: iftrue 41
+0018: getlex parent
+001b: getproperty $mc_ctrler
+001e: pushstring 瞬哄
+0021: callpropvoid setZhao1, 1
+0025: jump 101
+0029: getlex parent
+002c: getproperty $fighter_ctrler
+002f: callproperty getTargetSP, 0
+0033: callproperty getCurrentTarget, 0
+0037: getproperty energy
+003a: pushbyte 70
+003c: ifnge 101
+0040: getlex parent
+0043: getproperty $fighter_ctrler
+0046: callproperty getTargetSP, 0
+004a: callproperty getCurrentTarget, 0
+004e: getlex parent
+0051: getproperty $fighter_ctrler
+0054: callproperty getTargetSP, 0
+0058: callproperty getCurrentTarget, 0
+005c: getproperty energy
+005f: pushbyte 10
+0061: add 
+0062: setproperty energy
+0065: getlex parent
+0068: getproperty $mc_ctrler
+006b: pushstring 砍3
+006e: callpropvoid setAttack, 1
+0072: getlex parent
+0075: getproperty $effect_ctrler
+0078: callpropvoid dash, 0
+007c: getlex parent
+007f: getproperty $effect_ctrler
+0082: pushbyte 50
+0084: dup 
+0085: dup 
+0086: callpropvoid shadow, 3
+008a: returnvoid 
+
+METHOD 38 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame43
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 39 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame46
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid dashStop, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: callpropvoid idle, 0
+0016: returnvoid 
+
+METHOD 40 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame81
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 41 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame100
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endGlow, 0
+000c: returnvoid 
+
+METHOD 42 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame109
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callproperty getTargetSP, 0
+000c: callproperty getCurrentTarget, 0
+0010: callproperty getBuffCtrl, 0
+0014: pushdouble 1.5
+0016: pushbyte 12
+0018: callpropvoid speedUp, 2
+001c: getlex stage
+001f: getlex Event
+0022: getproperty ENTER_FRAME
+0025: getlocal_0 
+0026: getproperty EndBuff_yoruichi
+0029: callpropvoid addEventListener, 2
+002d: getlex parent
+0030: pushtrue 
+0031: setproperty speedbuff
+0034: getlex parent
+0037: getproperty $mc_ctrler
+003a: pushtrue 
+003b: pushfalse 
+003c: callpropvoid setSteelBody, 2
+0040: getlex parent
+0043: getproperty $mc_ctrler
+0046: pushstring shunhong
+0048: pushstring applyG
+004b: pushfalse 
+004c: newobject 1
+004e: callpropvoid addAttacker, 2
+0052: returnvoid 
+
+METHOD 43 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame122
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte -10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 44 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame123
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 45 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame128
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 46 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame182
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 0.5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: returnvoid 
+
+METHOD 47 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame188
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 48 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame204
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 49 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame244
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 50 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame280
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stop, 0
+000c: returnvoid 
+
+METHOD 51 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame291
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stop, 0
+000c: returnvoid 
+
+METHOD 52 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame310
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushstring 跳砍下
+000f: setproperty skill1
+0012: getlex parent
+0015: getproperty $mc_ctrler
+0018: pushdouble -0.5
+001a: pushdouble -0.1
+001c: callpropvoid movePercent, 2
+0020: getlex parent
+0023: getproperty $mc_ctrler
+0026: pushdouble 0.1
+0028: pushdouble 0.01
+002a: callpropvoid dampingPercent, 2
+002e: returnvoid 
+
+METHOD 53 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame311
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty skill1
+0010: returnvoid 
+
+METHOD 54 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame318
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 1
+000a: pushdouble 0.5
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.2
+0018: pushdouble 0.1
+001a: callpropvoid dampingPercent, 2
+001e: returnvoid 
+
+METHOD 55 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame325
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 56 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame329
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 57 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame337
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: callpropvoid isApplyG, 1
+000d: getlex parent
+0010: getproperty $fighter_ctrler
+0013: pushtrue 
+0014: callpropvoid setCross, 1
+0018: getlex parent
+001b: getproperty $effect_ctrler
+001e: pushshort 255
+0021: pushbyte 0
+0023: pushshort 255
+0026: callpropvoid shadow, 3
+002a: returnvoid 
+
+METHOD 58 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame338
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 4
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.2
+0018: pushbyte 0
+001a: callpropvoid dampingPercent, 2
+001e: returnvoid 
+
+METHOD 59 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame345
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 60 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame353
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushtrue 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: pushbyte 2
+0015: pushbyte -2
+0017: callpropvoid movePercent, 2
+001b: getlex parent
+001e: getproperty $mc_ctrler
+0021: pushdouble 0.1
+0023: pushdouble 0.1
+0025: callpropvoid dampingPercent, 2
+0029: getlex parent
+002c: getproperty $effect_ctrler
+002f: pushshort 255
+0032: pushbyte 0
+0034: pushshort 255
+0037: callpropvoid shadow, 3
+003b: returnvoid 
+
+METHOD 61 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame366
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 62 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame374
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 落地
+000b: pushtrue 
+000c: callpropvoid setTouchFloor, 2
+0010: getlex parent
+0013: getproperty $fighter_ctrler
+0016: pushtrue 
+0017: callpropvoid setCross, 1
+001b: getlex parent
+001e: getproperty $mc_ctrler
+0021: pushbyte 2
+0023: dup 
+0024: callpropvoid movePercent, 2
+0028: getlex parent
+002b: getproperty $effect_ctrler
+002e: pushshort 255
+0031: pushbyte 0
+0033: pushshort 255
+0036: callpropvoid shadow, 3
+003a: returnvoid 
+
+METHOD 63 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame381
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stop, 0
+000c: returnvoid 
+
+METHOD 64 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame386
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 65 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame399
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 12
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 1.5
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 66 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame408
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍2
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: callpropvoid setBisha, 0
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: callpropvoid setSkill1, 0
+0023: returnvoid 
+
+METHOD 67 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame412
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 68 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame417
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 69 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame428
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 6
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.8
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 70 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame436
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍3
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: callpropvoid setDash, 0
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: callpropvoid setZhao1, 0
+0023: getlex parent
+0026: getproperty $mc_ctrler
+0029: callpropvoid setBisha, 0
+002d: getlex parent
+0030: getproperty $mc_ctrler
+0033: callpropvoid setSkill1, 0
+0037: returnvoid 
+
+METHOD 71 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame441
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 72 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame447
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 73 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame467
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushtrue 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: pushbyte 2
+0015: pushbyte 0
+0017: callpropvoid movePercent, 2
+001b: getlex parent
+001e: getproperty $mc_ctrler
+0021: pushdouble 0.15
+0023: pushbyte 0
+0025: callpropvoid dampingPercent, 2
+0029: getlex parent
+002c: getproperty $effect_ctrler
+002f: pushshort 255
+0032: pushbyte 0
+0034: pushshort 255
+0037: callpropvoid shadow, 3
+003b: returnvoid 
+
+METHOD 74 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame471
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.5
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 75 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame476
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushfalse 
+0009: callpropvoid setCross, 1
+000d: getlex parent
+0010: getproperty $mc_ctrler
+0013: callpropvoid endAct, 0
+0017: returnvoid 
+
+METHOD 76 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame478
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍4
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: pushstring 招30
+0018: callpropvoid setZhao3, 1
+001c: getlex parent
+001f: getproperty $mc_ctrler
+0022: callpropvoid setBishaUP, 0
+0026: returnvoid 
+
+METHOD 77 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame485
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 78 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame504
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 79 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame506
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushbyte 12
+0014: pushbyte 0
+0016: callpropvoid move, 2
+001a: getlex parent
+001d: getproperty $mc_ctrler
+0020: pushdouble 0.5
+0022: pushbyte 0
+0024: callpropvoid damping, 2
+0028: returnvoid 
+
+METHOD 80 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame514
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 81 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame516
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍5
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: callpropvoid setZhao1, 0
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: callpropvoid setBisha, 0
+0023: returnvoid 
+
+METHOD 82 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame524
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 83 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame553
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 12
+000a: pushbyte -12
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.5
+0018: pushdouble 0.5
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 84 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame561
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 85 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame564
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 86 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame566
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 87 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame579
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 88 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame581
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte -6
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: returnvoid 
+
+METHOD 89 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame583
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: pushbyte 0
+000c: callpropvoid damping, 2
+0010: returnvoid 
+
+METHOD 90 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame600
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 91 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame608
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 92 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame646
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushtrue 
+0009: pushfalse 
+000a: callpropvoid setSteelBody, 2
+000e: returnvoid 
+
+METHOD 93 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame647
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 94 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame667
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushfalse 
+0009: callpropvoid setSteelBody, 1
+000d: returnvoid 
+
+METHOD 95 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame671
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 96 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame675
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 97 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame694
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: returnvoid 
+
+METHOD 98 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame695
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushshort 255
+000b: pushbyte 0
+000d: pushshort 255
+0010: callpropvoid shadow, 3
+0014: returnvoid 
+
+METHOD 99 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame696
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 100 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame699
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 1
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: returnvoid 
+
+METHOD 101 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame705
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 2
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.1
+0018: pushbyte 0
+001a: callpropvoid dampingPercent, 2
+001e: returnvoid 
+
+METHOD 102 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame715
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍5
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: callpropvoid setZhao1, 0
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: callpropvoid setSkill1, 0
+0023: getlex parent
+0026: getproperty $mc_ctrler
+0029: callpropvoid setBisha, 0
+002d: getlex parent
+0030: getproperty $mc_ctrler
+0033: callpropvoid setBishaSUPER, 0
+0037: returnvoid 
+
+METHOD 103 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame724
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: getlex parent
+000f: getproperty $effect_ctrler
+0012: callpropvoid endShadow, 0
+0016: returnvoid 
+
+METHOD 104 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame730
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 105 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame744
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 5
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 106 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame745
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte -10
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $fighter_ctrler
+0016: pushtrue 
+0017: callpropvoid setCross, 1
+001b: returnvoid 
+
+METHOD 107 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame746
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushshort 255
+000b: pushbyte 0
+000d: pushshort 255
+0010: callpropvoid shadow, 3
+0014: getlex parent
+0017: getproperty $mc_ctrler
+001a: pushstring kj1atm
+001c: pushstring x
+001f: pushstring start
+0022: pushbyte 0
+0024: pushstring add
+0027: pushbyte 2
+0029: pushstring max
+002c: pushbyte 24
+002e: pushstring hit
+0031: pushbyte 0
+0033: newobject 4
+0035: pushstring y
+0038: pushstring start
+003b: pushdouble -1.4
+003d: pushstring add
+0040: pushdouble 0.1
+0042: pushstring max
+0045: pushbyte 0
+0047: pushstring hit
+004a: pushbyte 0
+004c: newobject 4
+004e: pushstring hold
+0051: pushbyte 3
+0053: pushstring hits
+0056: pushbyte 1
+0058: pushstring hp
+005b: pushshort 200
+005e: newobject 5
+0060: callpropvoid fire, 2
+0064: returnvoid 
+
+METHOD 108 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame757
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: getlex parent
+000f: getproperty $fighter_ctrler
+0012: pushfalse 
+0013: callpropvoid setCross, 1
+0017: returnvoid 
+
+METHOD 109 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame758
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 110 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame763
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 111 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame769
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 112 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame788
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty speedbuff
+0008: iftrue 25
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushstring 瞬哄
+0015: callpropvoid setZhao1, 1
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: pushdouble 1.6
+0021: pushdouble 13.5
+0023: getlex parent
+0026: getproperty $fighter_ctrler
+0029: getproperty speed
+002c: divide 
+002d: add 
+002e: pushbyte 0
+0030: callpropvoid movePercent, 2
+0034: getlex parent
+0037: getproperty $fighter_ctrler
+003a: pushtrue 
+003b: callpropvoid setCross, 1
+003f: getlex parent
+0042: getproperty $mc_ctrler
+0045: pushtrue 
+0046: pushfalse 
+0047: callpropvoid setSteelBody, 2
+004b: getlex parent
+004e: getproperty $effect_ctrler
+0051: callpropvoid dash, 0
+0055: returnvoid 
+
+METHOD 113 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame792
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 0.4
+000a: pushbyte 0
+000c: callpropvoid dampingPercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushfalse 
+0017: callpropvoid setSteelBody, 1
+001b: returnvoid 
+
+METHOD 114 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame796
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty speedbuff
+0008: iffalse 25
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushstring 砍技22
+0015: callpropvoid gotoAndPlay, 1
+0019: returnvoid 
+
+METHOD 115 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame798
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍技22
+000b: callpropvoid gotoAndPlay, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: pushstring 砍技12
+0018: callpropvoid setSkill1, 1
+001c: getlex parent
+001f: getproperty $mc_ctrler
+0022: callpropvoid setBishaUP, 0
+0026: returnvoid 
+
+METHOD 116 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame802
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: callpropvoid endAct, 0
+0016: returnvoid 
+
+METHOD 117 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame805
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring 砍4
+000b: callpropvoid setAttack, 1
+000f: getlex parent
+0012: getproperty $mc_ctrler
+0015: callpropvoid setSkill1, 0
+0019: getlex parent
+001c: getproperty $mc_ctrler
+001f: callpropvoid setBishaUP, 0
+0023: getlex parent
+0026: getproperty $fighter_ctrler
+0029: pushstring kj21
+002c: pushtrue 
+002d: callproperty justHit, 2
+0031: iffalse 66
+0035: getlex parent
+0038: getproperty $mc_ctrler
+003b: pushstring 上必杀2
+003e: callpropvoid setBishaUP, 1
+0042: returnvoid 
+
+METHOD 118 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame810
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: returnvoid 
+
+METHOD 119 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame814
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 120 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame824
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 121 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame841
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 122 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame854
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 10
+000a: callpropvoid addQi, 1
+000e: returnvoid 
+
+METHOD 123 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame858
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte -8
+000a: pushbyte 0
+000c: callpropvoid move, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.4
+0018: pushbyte 0
+001a: callpropvoid damping, 2
+001e: returnvoid 
+
+METHOD 124 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame872
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 125 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame888
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushfalse 
+0009: pushstring 夜一1
+000c: callpropvoid bisha, 2
+0010: returnvoid 
+
+METHOD 126 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame939
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endBisha, 0
+000c: returnvoid 
+
+METHOD 127 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame973
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 128 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1010
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callproperty getAction, 0
+000c: pushnull 
+000d: setproperty bishaSUPER
+0010: getlex parent
+0013: getproperty $effect_ctrler
+0016: pushfalse 
+0017: pushstring 夜一2
+001a: callpropvoid bisha, 2
+001e: returnvoid 
+
+METHOD 129 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1017
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushstring kj21
+000b: pushtrue 
+000c: callproperty justHit, 2
+0010: iffalse 34
+0014: getlex parent
+0017: getproperty $effect_ctrler
+001a: pushfalse 
+001b: pushstring 夜一2
+001e: callpropvoid bisha, 2
+0022: returnvoid 
+
+METHOD 130 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1031
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 1.5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $effect_ctrler
+0016: callpropvoid endBisha, 0
+001a: returnvoid 
+
+METHOD 131 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1035
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: returnvoid 
+
+METHOD 132 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1036
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 0
+000a: dup 
+000b: pushtrue 
+000c: callpropvoid moveToTarget, 3
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushfalse 
+0017: callpropvoid isApplyG, 1
+001b: returnvoid 
+
+METHOD 133 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1037
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushshort 255
+000b: pushbyte 0
+000d: pushshort 255
+0010: callpropvoid shadow, 3
+0014: returnvoid 
+
+METHOD 134 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1061
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 135 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1068
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 136 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1082
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: getlex parent
+000f: getproperty $effect_ctrler
+0012: pushfalse 
+0013: pushstring 夜一2
+0016: callpropvoid bisha, 2
+001a: returnvoid 
+
+METHOD 137 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1105
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushstring sbs1atm
+0018: pushstring 上必杀1
+001b: callpropvoid setHitTarget, 2
+001f: getlex parent
+0022: getproperty $effect_ctrler
+0025: callpropvoid endBisha, 0
+0029: getlex parent
+002c: getproperty $effect_ctrler
+002f: pushshort 255
+0032: pushbyte 0
+0034: pushshort 255
+0037: callpropvoid shadow, 3
+003b: returnvoid 
+
+METHOD 138 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1118
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid endAct, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushbyte 5
+0014: pushbyte 0
+0016: callpropvoid movePercent, 2
+001a: getlex parent
+001d: getproperty $mc_ctrler
+0020: pushdouble 0.5
+0022: pushbyte 0
+0024: callpropvoid dampingPercent, 2
+0028: getlex parent
+002b: getproperty $effect_ctrler
+002e: pushshort 255
+0031: pushbyte 0
+0033: pushshort 255
+0036: callpropvoid shadow, 3
+003a: returnvoid 
+
+METHOD 139 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1124
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 140 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1132
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 141 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1135
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 1
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.1
+0018: pushbyte 0
+001a: callpropvoid dampingPercent, 2
+001e: getlex parent
+0021: getproperty $fighter_ctrler
+0024: callpropvoid setDirectToTarget, 0
+0028: getlex parent
+002b: getproperty $effect_ctrler
+002e: pushshort 255
+0031: pushbyte 0
+0033: pushshort 255
+0036: callpropvoid shadow, 3
+003a: returnvoid 
+
+METHOD 142 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1140
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 0.5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: returnvoid 
+
+METHOD 143 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1149
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushdouble 0.5
+0014: pushbyte 0
+0016: callpropvoid movePercent, 2
+001a: returnvoid 
+
+METHOD 144 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1174
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushdouble 0.5
+0014: pushbyte 0
+0016: callpropvoid movePercent, 2
+001a: returnvoid 
+
+METHOD 145 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1199
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble 0.5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.1
+0018: pushbyte 0
+001a: callpropvoid dampingPercent, 2
+001e: returnvoid 
+
+METHOD 146 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1204
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushdouble -0.5
+000a: pushbyte 0
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.05
+0018: pushbyte 0
+001a: callpropvoid dampingPercent, 2
+001e: getlex parent
+0021: getproperty $fighter_ctrler
+0024: callpropvoid setDirectToTarget, 0
+0028: returnvoid 
+
+METHOD 147 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1213
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: callpropvoid setDirectToTarget, 0
+000c: returnvoid 
+
+METHOD 148 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1220
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 2
+000a: pushbyte -2
+000c: callpropvoid movePercent, 2
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushdouble 0.1
+0018: pushdouble 0.1
+001a: callpropvoid dampingPercent, 2
+001e: returnvoid 
+
+METHOD 149 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1233
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 2
+000a: pushbyte -2
+000c: callpropvoid move, 2
+0010: returnvoid 
+
+METHOD 150 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1270
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endShadow, 0
+000c: returnvoid 
+
+METHOD 151 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1274
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 0
+000a: pushdouble -0.2
+000c: callpropvoid move, 2
+0010: returnvoid 
+
+METHOD 152 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1306
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: callpropvoid endAct, 0
+0016: returnvoid 
+
+METHOD 153 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1321
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 154 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1335
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: pushtrue 
+0009: pushstring 夜一3
+000c: callpropvoid bisha, 2
+0010: returnvoid 
+
+METHOD 155 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1385
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid endBisha, 0
+000c: returnvoid 
+
+METHOD 156 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1388
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushbyte 6
+000a: callpropvoid movePercent, 1
+000e: getlex parent
+0011: getproperty $mc_ctrler
+0014: pushdouble 0.1
+0016: callpropvoid dampingPercent, 1
+001a: getlex parent
+001d: getproperty $effect_ctrler
+0020: callpropvoid shadow, 0
+0024: returnvoid 
+
+METHOD 157 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1398
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: pushstring cbs1
+000b: pushstring 超必杀1
+000e: pushtrue 
+000f: pushtrue 
+0010: callpropvoid justHitToPlay, 4
+0014: returnvoid 
+
+METHOD 158 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1400
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 10
+000a: pushbyte 30
+000c: pushtrue 
+000d: callpropvoid moveToTarget, 3
+0011: getlex parent
+0014: getproperty $mc_ctrler
+0017: pushbyte 3
+0019: pushbyte -3
+001b: callpropvoid movePercent, 2
+001f: getlex parent
+0022: getproperty $mc_ctrler
+0025: pushdouble 0.15
+0027: pushdouble 0.15
+0029: callpropvoid dampingPercent, 2
+002d: returnvoid 
+
+METHOD 159 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1401
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid shadow, 0
+000c: returnvoid 
+
+METHOD 160 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1413
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 10
+000a: pushbyte 30
+000c: pushtrue 
+000d: callpropvoid moveToTarget, 3
+0011: getlex parent
+0014: getproperty $mc_ctrler
+0017: pushbyte 3
+0019: pushbyte -3
+001b: callpropvoid movePercent, 2
+001f: getlex parent
+0022: getproperty $mc_ctrler
+0025: pushdouble 0.15
+0027: pushdouble 0.15
+0029: callpropvoid dampingPercent, 2
+002d: returnvoid 
+
+METHOD 161 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1414
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid shadow, 0
+000c: returnvoid 
+
+METHOD 162 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1427
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 0
+000a: dup 
+000b: pushfalse 
+000c: callpropvoid moveToTarget, 3
+0010: getlex parent
+0013: getproperty $mc_ctrler
+0016: pushbyte 0
+0018: pushbyte -3
+001a: callpropvoid move, 2
+001e: returnvoid 
+
+METHOD 163 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1428
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $effect_ctrler
+0008: callpropvoid shadow, 0
+000c: returnvoid 
+
+METHOD 164 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1460
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid stopMove, 0
+000c: getlex parent
+000f: getproperty $mc_ctrler
+0012: pushtrue 
+0013: callpropvoid isApplyG, 1
+0017: returnvoid 
+
+METHOD 165 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1461
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $fighter_ctrler
+0008: pushbyte 0
+000a: pushbyte 50
+000c: pushfalse 
+000d: callpropvoid moveToTarget, 3
+0011: getlex parent
+0014: getproperty $mc_ctrler
+0017: pushbyte 0
+0019: pushbyte 10
+001b: callpropvoid move, 2
+001f: getlex parent
+0022: getproperty $effect_ctrler
+0025: callpropvoid shadow, 0
+0029: returnvoid 
+
+METHOD 166 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1485
+0000: getlocal_0 
+0001: pushscope 
+0002: getlex parent
+0005: getproperty $mc_ctrler
+0008: callpropvoid idle, 0
+000c: returnvoid 
+
+METHOD 167 yoruichi_fla::夜一全动作_2::yoruichi_fla::frame1506
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 168 yoruichi_fla::夜一全动作_2::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: pushbyte 9
+0010: getlocal_0 
+0011: getproperty frame10
+0014: pushbyte 24
+0016: getlocal_0 
+0017: getproperty frame25
+001a: pushbyte 34
+001c: getlocal_0 
+001d: getproperty frame35
+0020: pushbyte 42
+0022: getlocal_0 
+0023: getproperty frame43
+0026: pushbyte 45
+0028: getlocal_0 
+0029: getproperty frame46
+002c: pushbyte 80
+002e: getlocal_0 
+002f: getproperty frame81
+0032: pushbyte 99
+0034: getlocal_0 
+0035: getproperty frame100
+0038: pushbyte 108
+003a: getlocal_0 
+003b: getproperty frame109
+003e: pushbyte 121
+0040: getlocal_0 
+0041: getproperty frame122
+0044: pushbyte 122
+0046: getlocal_0 
+0047: getproperty frame123
+004a: pushbyte 127
+004c: getlocal_0 
+004d: getproperty frame128
+0050: pushshort 181
+0053: getlocal_0 
+0054: getproperty frame182
+0057: pushshort 187
+005a: getlocal_0 
+005b: getproperty frame188
+005e: pushshort 203
+0061: getlocal_0 
+0062: getproperty frame204
+0065: pushshort 243
+0068: getlocal_0 
+0069: getproperty frame244
+006c: pushshort 279
+006f: getlocal_0 
+0070: getproperty frame280
+0073: pushshort 290
+0076: getlocal_0 
+0077: getproperty frame291
+007a: pushshort 309
+007d: getlocal_0 
+007e: getproperty frame310
+0081: pushshort 310
+0084: getlocal_0 
+0085: getproperty frame311
+0088: pushshort 317
+008b: getlocal_0 
+008c: getproperty frame318
+008f: pushshort 324
+0092: getlocal_0 
+0093: getproperty frame325
+0096: pushshort 328
+0099: getlocal_0 
+009a: getproperty frame329
+009d: pushshort 336
+00a0: getlocal_0 
+00a1: getproperty frame337
+00a4: pushshort 337
+00a7: getlocal_0 
+00a8: getproperty frame338
+00ab: pushshort 344
+00ae: getlocal_0 
+00af: getproperty frame345
+00b2: pushshort 352
+00b5: getlocal_0 
+00b6: getproperty frame353
+00b9: pushshort 365
+00bc: getlocal_0 
+00bd: getproperty frame366
+00c0: pushshort 373
+00c3: getlocal_0 
+00c4: getproperty frame374
+00c7: pushshort 380
+00ca: getlocal_0 
+00cb: getproperty frame381
+00ce: pushshort 385
+00d1: getlocal_0 
+00d2: getproperty frame386
+00d5: pushshort 398
+00d8: getlocal_0 
+00d9: getproperty frame399
+00dc: pushshort 407
+00df: getlocal_0 
+00e0: getproperty frame408
+00e3: pushshort 411
+00e6: getlocal_0 
+00e7: getproperty frame412
+00ea: pushshort 416
+00ed: getlocal_0 
+00ee: getproperty frame417
+00f1: pushshort 427
+00f4: getlocal_0 
+00f5: getproperty frame428
+00f8: pushshort 435
+00fb: getlocal_0 
+00fc: getproperty frame436
+00ff: pushshort 440
+0102: getlocal_0 
+0103: getproperty frame441
+0106: pushshort 446
+0109: getlocal_0 
+010a: getproperty frame447
+010d: pushshort 466
+0110: getlocal_0 
+0111: getproperty frame467
+0114: pushshort 470
+0117: getlocal_0 
+0118: getproperty frame471
+011b: pushshort 475
+011e: getlocal_0 
+011f: getproperty frame476
+0122: pushshort 477
+0125: getlocal_0 
+0126: getproperty frame478
+0129: pushshort 484
+012c: getlocal_0 
+012d: getproperty frame485
+0130: pushshort 503
+0133: getlocal_0 
+0134: getproperty frame504
+0137: pushshort 505
+013a: getlocal_0 
+013b: getproperty frame506
+013e: pushshort 513
+0141: getlocal_0 
+0142: getproperty frame514
+0145: pushshort 515
+0148: getlocal_0 
+0149: getproperty frame516
+014c: pushshort 523
+014f: getlocal_0 
+0150: getproperty frame524
+0153: pushshort 552
+0156: getlocal_0 
+0157: getproperty frame553
+015a: pushshort 560
+015d: getlocal_0 
+015e: getproperty frame561
+0161: pushshort 563
+0164: getlocal_0 
+0165: getproperty frame564
+0168: pushshort 565
+016b: getlocal_0 
+016c: getproperty frame566
+016f: pushshort 578
+0172: getlocal_0 
+0173: getproperty frame579
+0176: pushshort 580
+0179: getlocal_0 
+017a: getproperty frame581
+017d: pushshort 582
+0180: getlocal_0 
+0181: getproperty frame583
+0184: pushshort 599
+0187: getlocal_0 
+0188: getproperty frame600
+018b: pushshort 607
+018e: getlocal_0 
+018f: getproperty frame608
+0192: pushshort 645
+0195: getlocal_0 
+0196: getproperty frame646
+0199: pushshort 646
+019c: getlocal_0 
+019d: getproperty frame647
+01a0: pushshort 666
+01a3: getlocal_0 
+01a4: getproperty frame667
+01a7: pushshort 670
+01aa: getlocal_0 
+01ab: getproperty frame671
+01ae: pushshort 674
+01b1: getlocal_0 
+01b2: getproperty frame675
+01b5: pushshort 693
+01b8: getlocal_0 
+01b9: getproperty frame694
+01bc: pushshort 694
+01bf: getlocal_0 
+01c0: getproperty frame695
+01c3: pushshort 695
+01c6: getlocal_0 
+01c7: getproperty frame696
+01ca: pushshort 698
+01cd: getlocal_0 
+01ce: getproperty frame699
+01d1: pushshort 704
+01d4: getlocal_0 
+01d5: getproperty frame705
+01d8: pushshort 714
+01db: getlocal_0 
+01dc: getproperty frame715
+01df: pushshort 723
+01e2: getlocal_0 
+01e3: getproperty frame724
+01e6: pushshort 729
+01e9: getlocal_0 
+01ea: getproperty frame730
+01ed: pushshort 743
+01f0: getlocal_0 
+01f1: getproperty frame744
+01f4: pushshort 744
+01f7: getlocal_0 
+01f8: getproperty frame745
+01fb: pushshort 745
+01fe: getlocal_0 
+01ff: getproperty frame746
+0202: pushshort 756
+0205: getlocal_0 
+0206: getproperty frame757
+0209: pushshort 757
+020c: getlocal_0 
+020d: getproperty frame758
+0210: pushshort 762
+0213: getlocal_0 
+0214: getproperty frame763
+0217: pushshort 768
+021a: getlocal_0 
+021b: getproperty frame769
+021e: pushshort 787
+0221: getlocal_0 
+0222: getproperty frame788
+0225: pushshort 791
+0228: getlocal_0 
+0229: getproperty frame792
+022c: pushshort 795
+022f: getlocal_0 
+0230: getproperty frame796
+0233: pushshort 797
+0236: getlocal_0 
+0237: getproperty frame798
+023a: pushshort 801
+023d: getlocal_0 
+023e: getproperty frame802
+0241: pushshort 804
+0244: getlocal_0 
+0245: getproperty frame805
+0248: pushshort 809
+024b: getlocal_0 
+024c: getproperty frame810
+024f: pushshort 813
+0252: getlocal_0 
+0253: getproperty frame814
+0256: pushshort 823
+0259: getlocal_0 
+025a: getproperty frame824
+025d: pushshort 840
+0260: getlocal_0 
+0261: getproperty frame841
+0264: pushshort 853
+0267: getlocal_0 
+0268: getproperty frame854
+026b: pushshort 857
+026e: getlocal_0 
+026f: getproperty frame858
+0272: pushshort 871
+0275: getlocal_0 
+0276: getproperty frame872
+0279: pushshort 887
+027c: getlocal_0 
+027d: getproperty frame888
+0280: pushshort 938
+0283: getlocal_0 
+0284: getproperty frame939
+0287: pushshort 972
+028a: getlocal_0 
+028b: getproperty frame973
+028e: pushshort 1009
+0291: getlocal_0 
+0292: getproperty frame1010
+0295: pushshort 1016
+0298: getlocal_0 
+0299: getproperty frame1017
+029c: pushshort 1030
+029f: getlocal_0 
+02a0: getproperty frame1031
+02a3: pushshort 1034
+02a6: getlocal_0 
+02a7: getproperty frame1035
+02aa: pushshort 1035
+02ad: getlocal_0 
+02ae: getproperty frame1036
+02b1: pushshort 1036
+02b4: getlocal_0 
+02b5: getproperty frame1037
+02b8: pushshort 1060
+02bb: getlocal_0 
+02bc: getproperty frame1061
+02bf: pushshort 1067
+02c2: getlocal_0 
+02c3: getproperty frame1068
+02c6: pushshort 1081
+02c9: getlocal_0 
+02ca: getproperty frame1082
+02cd: pushshort 1104
+02d0: getlocal_0 
+02d1: getproperty frame1105
+02d4: pushshort 1117
+02d7: getlocal_0 
+02d8: getproperty frame1118
+02db: pushshort 1123
+02de: getlocal_0 
+02df: getproperty frame1124
+02e2: pushshort 1131
+02e5: getlocal_0 
+02e6: getproperty frame1132
+02e9: pushshort 1134
+02ec: getlocal_0 
+02ed: getproperty frame1135
+02f0: pushshort 1139
+02f3: getlocal_0 
+02f4: getproperty frame1140
+02f7: pushshort 1148
+02fa: getlocal_0 
+02fb: getproperty frame1149
+02fe: pushshort 1173
+0301: getlocal_0 
+0302: getproperty frame1174
+0305: pushshort 1198
+0308: getlocal_0 
+0309: getproperty frame1199
+030c: pushshort 1203
+030f: getlocal_0 
+0310: getproperty frame1204
+0313: pushshort 1212
+0316: getlocal_0 
+0317: getproperty frame1213
+031a: pushshort 1219
+031d: getlocal_0 
+031e: getproperty frame1220
+0321: pushshort 1232
+0324: getlocal_0 
+0325: getproperty frame1233
+0328: pushshort 1269
+032b: getlocal_0 
+032c: getproperty frame1270
+032f: pushshort 1273
+0332: getlocal_0 
+0333: getproperty frame1274
+0336: pushshort 1305
+0339: getlocal_0 
+033a: getproperty frame1306
+033d: pushshort 1320
+0340: getlocal_0 
+0341: getproperty frame1321
+0344: pushshort 1334
+0347: getlocal_0 
+0348: getproperty frame1335
+034b: pushshort 1384
+034e: getlocal_0 
+034f: getproperty frame1385
+0352: pushshort 1387
+0355: getlocal_0 
+0356: getproperty frame1388
+0359: pushshort 1397
+035c: getlocal_0 
+035d: getproperty frame1398
+0360: pushshort 1399
+0363: getlocal_0 
+0364: getproperty frame1400
+0367: pushshort 1400
+036a: getlocal_0 
+036b: getproperty frame1401
+036e: pushshort 1412
+0371: getlocal_0 
+0372: getproperty frame1413
+0375: pushshort 1413
+0378: getlocal_0 
+0379: getproperty frame1414
+037c: pushshort 1426
+037f: getlocal_0 
+0380: getproperty frame1427
+0383: pushshort 1427
+0386: getlocal_0 
+0387: getproperty frame1428
+038a: pushshort 1459
+038d: getlocal_0 
+038e: getproperty frame1460
+0391: pushshort 1460
+0394: getlocal_0 
+0395: getproperty frame1461
+0398: pushshort 1484
+039b: getlocal_0 
+039c: getproperty frame1485
+039f: pushshort 1505
+03a2: getlocal_0 
+03a3: getproperty frame1506
+03a6: callpropvoid addFrameScript, 268
+03ab: returnvoid 
+
+METHOD 169 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0006: pushscope 
+0007: getlex flash.events::EventDispatcher
+000a: pushscope 
+000b: getlex flash.display::DisplayObject
+000e: pushscope 
+000f: getlex flash.display::InteractiveObject
+0012: pushscope 
+0013: getlex flash.display::DisplayObjectContainer
+0016: pushscope 
+0017: getlex flash.display::Sprite
+001a: pushscope 
+001b: getlex flash.display::MovieClip
+001d: pushscope 
+001e: getlex flash.display::MovieClip
+0020: newclass 9
+0022: popscope 
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: initproperty yoruichi_fla::夜一全动作_2
+002b: returnvoid 
+
+METHOD 170 yoruichi_fla::瞬哄_9::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 171 yoruichi_fla::瞬哄_9::setAttackerCtrler
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getlocal_1 
+0004: initproperty $attacker_ctrler
+0007: returnvoid 
+
+METHOD 172 yoruichi_fla::瞬哄_9::yoruichi_fla::frame1
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 173 yoruichi_fla::瞬哄_9::yoruichi_fla::frame21
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: getproperty $attacker_ctrler
+0006: callpropvoid removeSelf, 0
+000a: returnvoid 
+
+METHOD 174 yoruichi_fla::瞬哄_9::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 0
+000a: getlocal_0 
+000b: getproperty frame1
+000e: pushbyte 20
+0010: getlocal_0 
+0011: getproperty frame21
+0014: callpropvoid addFrameScript, 4
+0018: returnvoid 
+
+METHOD 175 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0006: pushscope 
+0007: getlex flash.events::EventDispatcher
+000a: pushscope 
+000b: getlex flash.display::DisplayObject
+000e: pushscope 
+000f: getlex flash.display::InteractiveObject
+0012: pushscope 
+0013: getlex flash.display::DisplayObjectContainer
+0016: pushscope 
+0017: getlex flash.display::Sprite
+001a: pushscope 
+001b: getlex flash.display::MovieClip
+001d: pushscope 
+001e: getlex flash.display::MovieClip
+0020: newclass 10
+0022: popscope 
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: initproperty yoruichi_fla::瞬哄_9
+002c: returnvoid 
+
+METHOD 176 yoruichi_fla::砍4效果_17::$cinit
+0000: getlocal_0 
+0001: pushscope 
+0002: returnvoid 
+
+METHOD 177 yoruichi_fla::砍4效果_17::yoruichi_fla::frame23
+0000: getlocal_0 
+0001: pushscope 
+0002: findpropstrict stop
+0005: callpropvoid stop, 0
+0009: returnvoid 
+
+METHOD 178 yoruichi_fla::砍4效果_17::$init
+0000: getlocal_0 
+0001: pushscope 
+0002: getlocal_0 
+0003: constructsuper 0
+0005: findpropstrict addFrameScript
+0008: pushbyte 22
+000a: getlocal_0 
+000b: getproperty frame23
+000e: callpropvoid addFrameScript, 2
+0012: returnvoid 
+
+METHOD 179 
+0000: getlocal_0 
+0001: pushscope 
+0002: getscopeobject 0
+0004: getlex Object
+0006: pushscope 
+0007: getlex flash.events::EventDispatcher
+000a: pushscope 
+000b: getlex flash.display::DisplayObject
+000e: pushscope 
+000f: getlex flash.display::InteractiveObject
+0012: pushscope 
+0013: getlex flash.display::DisplayObjectContainer
+0016: pushscope 
+0017: getlex flash.display::Sprite
+001a: pushscope 
+001b: getlex flash.display::MovieClip
+001d: pushscope 
+001e: getlex flash.display::MovieClip
+0020: newclass 11
+0022: popscope 
+0023: popscope 
+0024: popscope 
+0025: popscope 
+0026: popscope 
+0027: popscope 
+0028: popscope 
+0029: initproperty yoruichi_fla::砍4效果_17
+002c: returnvoid 

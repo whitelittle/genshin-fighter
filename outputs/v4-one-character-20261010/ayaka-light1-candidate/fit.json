@@ -1,0 +1,176 @@
+{
+  "actionId": "kamisatoayaka.light1.candidate.v1",
+  "character": "kamisatoayaka",
+  "action": "light1",
+  "frame_sequence": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "frame_duration_ticks": null,
+  "phase_ticks": null,
+  "damage": null,
+  "hitbox": null,
+  "cancel": null,
+  "palette": [
+    [
+      147,
+      164,
+      220
+    ],
+    [
+      78,
+      66,
+      79
+    ],
+    [
+      115,
+      113,
+      152
+    ],
+    [
+      230,
+      192,
+      160
+    ],
+    [
+      128,
+      137,
+      193
+    ],
+    [
+      115,
+      93,
+      87
+    ],
+    [
+      205,
+      217,
+      242
+    ],
+    [
+      188,
+      82,
+      117
+    ],
+    [
+      162,
+      128,
+      97
+    ],
+    [
+      127,
+      45,
+      76
+    ],
+    [
+      56,
+      47,
+      64
+    ],
+    [
+      48,
+      51,
+      116
+    ],
+    [
+      36,
+      36,
+      88
+    ],
+    [
+      245,
+      234,
+      230
+    ],
+    [
+      34,
+      30,
+      51
+    ],
+    [
+      83,
+      84,
+      131
+    ],
+    [
+      182,
+      159,
+      157
+    ],
+    [
+      182,
+      194,
+      228
+    ],
+    [
+      16,
+      22,
+      37
+    ]
+  ],
+  "palette_sha256": "d57d73b94cd58900706cd1c2e23181f26724294aa28798398bfccbd25b9ac6fb",
+  "optimized_height": 72,
+  "rectangles": [
+    494,
+    639,
+    502,
+    497
+  ],
+  "max_rectangles": 639,
+  "source_sha256": "4f0ef67c8a0c3ea9ebbc3c49efd1010dc2f48005792b49c456714014a3eb6963",
+  "frames": [
+    {
+      "frame": 0,
+      "source_grid_index": 0,
+      "source_sha256": "dd77c2c3dcf07e91b9b9bab9ef2d88a3af1dffd966c23fb6a7665825a5376350",
+      "fit_sha256": "c504be4f4a025652f66104cb2ac6ae962981a9d6691d448cb9316d997be58043",
+      "rectangles": 494,
+      "foot_anchor": null,
+      "grip_anchor": null,
+      "reconstruction_exact": true
+    },
+    {
+      "frame": 1,
+      "source_grid_index": 1,
+      "source_sha256": "ccd57d4657e7bc293ec66b20227d662f283c6e3fdde5a329ffd5948e4230340a",
+      "fit_sha256": "76f3e689471a4cdc208d8771759b7d48ff05309ea63c0a9042a10352218247c6",
+      "rectangles": 639,
+      "foot_anchor": null,
+      "grip_anchor": null,
+      "reconstruction_exact": true
+    },
+    {
+      "frame": 2,
+      "source_grid_index": 2,
+      "source_sha256": "dcb24be97bbaa7e2406fe4552b935c16403e8266bc4833bacce593df133c9223",
+      "fit_sha256": "6971986cc308a0d9fdff10140586ac1523664ace9e80a45f4606ced2a4dee032",
+      "rectangles": 502,
+      "foot_anchor": null,
+      "grip_anchor": null,
+      "reconstruction_exact": true
+    },
+    {
+      "frame": 3,
+      "source_grid_index": 3,
+      "source_sha256": "25fce68de31dd11c18049546ae440b8983e549abd3490c177a12645e8a62213b",
+      "fit_sha256": "5a994fc56602dfccdad31126f749348d417f1b363414e6b2ed6461d13e21ffad",
+      "rectangles": 497,
+      "foot_anchor": null,
+      "grip_anchor": null,
+      "reconstruction_exact": true
+    }
+  ],
+  "status": "offline_candidate_not_runtime_or_device",
+  "anchor_status": "unset; foot and sword grip require visual review",
+  "missing_layers": [
+    "separate_weapon_layer",
+    "hit_fx",
+    "weapon_grip_calibration"
+  ],
+  "evidence_boundary": [
+    "source cells and exact fitted reconstruction checked offline",
+    "not a game client import, simulator combat test, or real-device result"
+  ]
+}

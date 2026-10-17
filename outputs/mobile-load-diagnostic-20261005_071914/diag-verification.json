@@ -1,0 +1,13 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "READY"
+  ],
+  "first": "D2 DECODE | decode 0 left 37 | create 0/4042 | task 0/5472 | dt 17ms",
+  "last": "D2 READY | decode 1430 left 0 | create 4042/4042 | task 5472/5472 | dt 17ms",
+  "samples": 44
+}

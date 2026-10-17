@@ -1,0 +1,79 @@
+{
+  "key": "klee",
+  "name": "可莉",
+  "height": 150,
+  "design": {
+    "key": "klee",
+    "name": "可莉",
+    "weapon": "bomb",
+    "color": "#ffb575",
+    "identity": "抛物线炸弹与延迟爆破，防止满屏遮挡",
+    "moves": {
+      "A": {
+        "name": "砰砰 · 小炸弹",
+        "startup": 12,
+        "active": 3,
+        "recovery": 22,
+        "reach": 220,
+        "damage": 9,
+        "fx": "bomb",
+        "notes": "抬手短抛，炸弹走抛物线并落地；近身有死角。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 242,
+        "projectile": true,
+        "flight": 28,
+        "speed": 8
+      },
+      "E": {
+        "name": "蹦蹦炸弹",
+        "startup": 24,
+        "active": 3,
+        "recovery": 30,
+        "reach": 300,
+        "damage": 15,
+        "fx": "bounce",
+        "notes": "大炸弹最多三次弹跳，地面碎雷数量严格限制，受击可清。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 322,
+        "projectile": true,
+        "flight": 45,
+        "speed": 7
+      },
+      "Q": {
+        "name": "轰轰火花",
+        "startup": 30,
+        "active": 60,
+        "recovery": 35,
+        "reach": 280,
+        "damage": 32,
+        "fx": "sparks",
+        "notes": "定点短时间三束火花，不无条件追踪躲避中的对手。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 310,
+        "interval": 20,
+        "support": false,
+        "effectDuration": 0
+      }
+    },
+    "video": null,
+    "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+  },
+  "notes": [
+    "第一批比例修订候选；基础/攻击/连接姿势各16张，普攻/E各8张连接。",
+    "采用用户指定idle-ratio-master-v3比例母版；整体预览120%，不拉长身体。动作源板仍为候选。",
+    "具体特效仍待讨论；未接入正式测试GIA或真机验收。"
+  ],
+  "sourceVersion": "v3"
+}

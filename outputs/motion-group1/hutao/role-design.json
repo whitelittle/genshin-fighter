@@ -1,0 +1,73 @@
+{
+  "key": "hutao",
+  "name": "胡桃",
+  "height": 212,
+  "design": {
+    "key": "hutao",
+    "name": "胡桃",
+    "weapon": "polearm",
+    "color": "#ff9674",
+    "identity": "生命换压制；冲刺枪有可读收招",
+    "moves": {
+      "A": {
+        "name": "往生秘传枪法 · 点刺",
+        "startup": 8,
+        "active": 3,
+        "recovery": 17,
+        "reach": 135,
+        "damage": 8,
+        "fx": "thrust",
+        "notes": "小幅前探，与长枪钟离分开，不共用大幅旋转挥剑。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 12,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 157
+      },
+      "E": {
+        "name": "蝶引来生 · 火蝶突刺",
+        "startup": 17,
+        "active": 4,
+        "recovery": 28,
+        "reach": 230,
+        "damage": 17,
+        "fx": "butterfly",
+        "notes": "先压身前冲，枪尖带火，蝶尾低透明；生命消耗不能换无惩罚的永久追身。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 14,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 252,
+        "dash": 120
+      },
+      "Q": {
+        "name": "安神秘法 · 幽灵环扫",
+        "startup": 25,
+        "active": 5,
+        "recovery": 35,
+        "reach": 210,
+        "damage": 34,
+        "fx": "ghost",
+        "notes": "将幽灵由侧后扫至前方，近中距离爆发并按实际命中回血，不空挥回血。",
+        "height": "mid",
+        "hitCount": 1,
+        "blockstun": 18,
+        "hitstun": 20,
+        "cancel": "命中后可接特殊技；空挥不可取消",
+        "effectExtent": 232,
+        "support": false,
+        "effectDuration": 0
+      }
+    },
+    "video": "https://www.youtube.com/watch?v=2dcaQiLBqEo",
+    "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+  },
+  "notes": [
+    "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+    "角色特效独立；具体最终技能效果待讨论。",
+    "状态型技能配套及正式战斗/真机仍需独立验收。"
+  ],
+  "sourceVersion": "v3"
+}

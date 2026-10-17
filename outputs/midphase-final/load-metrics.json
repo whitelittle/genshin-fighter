@@ -1,0 +1,164 @@
+[
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=5608 current sprite caps=0,0",
+    "time": 0
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=5461 destroy=0 reuse=0 decode=147 updates=80",
+    "time": 1.3333333333333335
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=8462 current sprite caps=0,0",
+    "time": 1.5166666666666662
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=2908 destroy=5461 reuse=0 decode=93 updates=84",
+    "time": 2.916666666666661
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=501 current sprite caps=0,0",
+    "time": 3.649999999999992
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=486 destroy=0 reuse=2908 decode=15 updates=8",
+    "time": 3.7833333333333248
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=448 current sprite caps=0,0",
+    "time": 4.166666666666657
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=422 destroy=0 reuse=3394 decode=26 updates=8",
+    "time": 4.29999999999999
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=142 current sprite caps=0,0",
+    "time": 5.199999999999987
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=3697 decode=23 updates=4",
+    "time": 5.266666666666653
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=1107 current sprite caps=0,0",
+    "time": 5.716666666666652
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=430 destroy=0 reuse=3231 decode=92 updates=19",
+    "time": 6.033333333333317
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=1246 current sprite caps=0,0",
+    "time": 6.2333333333333165
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=642 destroy=0 reuse=3661 decode=19 updates=15",
+    "time": 6.483333333333316
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=781 current sprite caps=0,0",
+    "time": 6.749999999999981
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=173 destroy=0 reuse=4303 decode=23 updates=10",
+    "time": 6.916666666666647
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=674 current sprite caps=0,0",
+    "time": 7.266666666666646
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=4408 decode=21 updates=9",
+    "time": 7.416666666666646
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] battle compressed tasks=21104 current sprite caps=1521,3964",
+    "time": 7.98333333333331
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] battle create=14158 destroy=3933 reuse=1128 decode=2741 updates=526",
+    "time": 16.75000000000033
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] battle compressed tasks=5458 current sprite caps=2969,2333",
+    "time": 24.399999999999896
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] battle create=2111 destroy=0 reuse=13655 decode=1442 updates=229",
+    "time": 28.216666666666345
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] battle compressed tasks=7786 current sprite caps=1746,2246",
+    "time": 35.21666666666595
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] battle create=0 destroy=187 reuse=14188 decode=4306 updates=546",
+    "time": 44.316666666665434
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=19334 current sprite caps=0,0",
+    "time": 49.23333333333182
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[RESOURCE] menu compressed tasks=1536 current sprite caps=0,0",
+    "time": 51.94999999999833
+  },
+  {
+    "source": "client",
+    "level": "info",
+    "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=2872 decode=0 updates=14",
+    "time": 52.18333333333165
+  }
+]

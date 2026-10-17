@@ -1,0 +1,1712 @@
+{
+  "version": "group1-v2",
+  "status": "art_candidate",
+  "deviceVerified": false,
+  "productionCombatChanged": false,
+  "roles": [
+    {
+      "key": "ganyu",
+      "name": "甘雨 · 第一组",
+      "height": 214,
+      "variant": "group1-v3",
+      "design": {
+        "key": "ganyu",
+        "name": "甘雨",
+        "weapon": "character-specific",
+        "color": "#aecbdc",
+        "identity": "按原作角色动作意图改编为横版格斗",
+        "evidence": "技能名沿用现有talent-index；数值、动作适配为候选。",
+        "moves": {
+          "A": {
+            "name": "普通攻击",
+            "startup": 10,
+            "active": 5,
+            "recovery": 25,
+            "reach": 145,
+            "damage": 9,
+            "fx": "slash",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 167,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+          },
+          "E": {
+            "name": "山泽麟迹",
+            "startup": 17,
+            "active": 5,
+            "recovery": 25,
+            "reach": 220,
+            "damage": 15,
+            "fx": "seal",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 242,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+          },
+          "Q": {
+            "name": "降众天华",
+            "startup": 27,
+            "active": 5,
+            "recovery": 25,
+            "reach": 270,
+            "damage": 32,
+            "fx": "seal",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 292,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。",
+            "support": false,
+            "effectDuration": 0
+          }
+        }
+      },
+      "frames": [
+        {
+          "id": "basic0",
+          "source": "basic-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            38,
+            23,
+            195,
+            326
+          ],
+          "anchor": [
+            85.91525423728814,
+            323
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic0.png",
+          "grid": [
+            58,
+            98
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            25.55428074750109,
+            97.09815950920246
+          ],
+          "rectCount": 1291
+        },
+        {
+          "id": "basic1",
+          "source": "basic-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            363,
+            21,
+            177,
+            327
+          ],
+          "anchor": [
+            76.45762711864404,
+            324
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic1.png",
+          "grid": [
+            53,
+            98
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            22.894091736091156,
+            97.10091743119266
+          ],
+          "rectCount": 1201
+        },
+        {
+          "id": "basic2",
+          "source": "basic-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            662,
+            36,
+            248,
+            313
+          ],
+          "anchor": [
+            76.26282051282055,
+            310
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic2.png",
+          "grid": [
+            74,
+            94
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            22.755841604631936,
+            93.09904153354633
+          ],
+          "rectCount": 1307
+        },
+        {
+          "id": "basic3",
+          "source": "basic-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            977,
+            26,
+            261,
+            325
+          ],
+          "anchor": [
+            75.23809523809518,
+            321
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic3.png",
+          "grid": [
+            78,
+            97
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            22.484948002189363,
+            95.80615384615385
+          ],
+          "rectCount": 1448
+        },
+        {
+          "id": "basic4",
+          "source": "basic-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            46,
+            365,
+            235,
+            319
+          ],
+          "anchor": [
+            63.34426229508196,
+            316
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic4.png",
+          "grid": [
+            70,
+            96
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            18.86850366236484,
+            95.09717868338558
+          ],
+          "rectCount": 1320
+        },
+        {
+          "id": "basic5",
+          "source": "basic-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            347,
+            468,
+            246,
+            218
+          ],
+          "anchor": [
+            133.4108108108108,
+            215
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic5.png",
+          "grid": [
+            74,
+            65
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            40.13170731707317,
+            64.10550458715596
+          ],
+          "rectCount": 1080
+        },
+        {
+          "id": "basic6",
+          "source": "basic-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            654,
+            382,
+            255,
+            308
+          ],
+          "anchor": [
+            80.7295918367347,
+            305
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic6.png",
+          "grid": [
+            76,
+            92
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            24.06058423369348,
+            91.1038961038961
+          ],
+          "rectCount": 1410
+        },
+        {
+          "id": "basic7",
+          "source": "basic-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            949,
+            453,
+            290,
+            238
+          ],
+          "anchor": [
+            113.61783439490455,
+            235
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic7.png",
+          "grid": [
+            87,
+            71
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            34.08535031847136,
+            70.10504201680672
+          ],
+          "rectCount": 1324
+        },
+        {
+          "id": "basic8",
+          "source": "basic-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            43,
+            693,
+            260,
+            290
+          ],
+          "anchor": [
+            85.6867469879518,
+            247
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic8.png",
+          "grid": [
+            78,
+            87
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            25.70602409638554,
+            74.1
+          ],
+          "rectCount": 1404
+        },
+        {
+          "id": "basic9",
+          "source": "basic-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            354,
+            684,
+            276,
+            296
+          ],
+          "anchor": [
+            104.5408163265306,
+            293
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic9.png",
+          "grid": [
+            83,
+            89
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            31.437999112688548,
+            88.09797297297297
+          ],
+          "rectCount": 1322
+        },
+        {
+          "id": "basic10",
+          "source": "basic-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            680,
+            764,
+            263,
+            220
+          ],
+          "anchor": [
+            120.68131868131866,
+            212
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic10.png",
+          "grid": [
+            79,
+            66
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            36.250282037354275,
+            63.6
+          ],
+          "rectCount": 1161
+        },
+        {
+          "id": "basic11",
+          "source": "basic-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            1010,
+            761,
+            223,
+            223
+          ],
+          "anchor": [
+            91.40611353711802,
+            220
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic11.png",
+          "grid": [
+            67,
+            67
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            27.462823349717073,
+            66.09865470852019
+          ],
+          "rectCount": 1099
+        },
+        {
+          "id": "basic12",
+          "source": "basic-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            32,
+            1000,
+            258,
+            232
+          ],
+          "anchor": [
+            98.25570776255708,
+            229
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic12.png",
+          "grid": [
+            77,
+            70
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            29.3243778981275,
+            69.09482758620689
+          ],
+          "rectCount": 1140
+        },
+        {
+          "id": "basic13",
+          "source": "basic-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            345,
+            1011,
+            285,
+            191
+          ],
+          "anchor": [
+            53.589999999999975,
+            188
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic13.png",
+          "grid": [
+            85,
+            57
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            15.982982456140343,
+            56.10471204188482
+          ],
+          "rectCount": 913
+        },
+        {
+          "id": "basic14",
+          "source": "basic-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            628,
+            1139,
+            364,
+            96
+          ],
+          "anchor": [
+            183.39526411657562,
+            90
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic14.png",
+          "grid": [
+            109,
+            29
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            54.91781260633721,
+            27.1875
+          ],
+          "rectCount": 725
+        },
+        {
+          "id": "basic15",
+          "source": "basic-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            1008,
+            1061,
+            206,
+            173
+          ],
+          "anchor": [
+            121.34482758620697,
+            170
+          ],
+          "unit": 0.66875,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-basic15.png",
+          "grid": [
+            62,
+            52
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            36.52125878808171,
+            51.09826589595376
+          ],
+          "rectCount": 956
+        },
+        {
+          "id": "attack0",
+          "source": "attack-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            39,
+            19,
+            241,
+            304
+          ],
+          "anchor": [
+            69,
+            299
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack0.png",
+          "grid": [
+            80,
+            101
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            22.904564315352697,
+            99.33881578947368
+          ],
+          "rectCount": 1643
+        },
+        {
+          "id": "attack1",
+          "source": "attack-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            334,
+            21,
+            262,
+            302
+          ],
+          "anchor": [
+            69.80000000000001,
+            263
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack1.png",
+          "grid": [
+            87,
+            100
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            23.177862595419853,
+            87.08609271523179
+          ],
+          "rectCount": 1623
+        },
+        {
+          "id": "attack2",
+          "source": "attack-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            649,
+            25,
+            272,
+            298
+          ],
+          "anchor": [
+            82.26282051282055,
+            295
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack2.png",
+          "grid": [
+            90,
+            99
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            27.21931561085974,
+            98.00335570469798
+          ],
+          "rectCount": 1600
+        },
+        {
+          "id": "attack3",
+          "source": "attack-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            969,
+            87,
+            265,
+            230
+          ],
+          "anchor": [
+            93.625,
+            227
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack3.png",
+          "grid": [
+            88,
+            76
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            31.09056603773585,
+            75.00869565217391
+          ],
+          "rectCount": 1291
+        },
+        {
+          "id": "attack4",
+          "source": "attack-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            28,
+            405,
+            292,
+            226
+          ],
+          "anchor": [
+            112.61363636363637,
+            223
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack4.png",
+          "grid": [
+            97,
+            75
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            37.409324408468244,
+            74.00442477876106
+          ],
+          "rectCount": 1338
+        },
+        {
+          "id": "attack5",
+          "source": "attack-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            344,
+            404,
+            273,
+            228
+          ],
+          "anchor": [
+            125.31767337807605,
+            225
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack5.png",
+          "grid": [
+            91,
+            76
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            41.77255779269201,
+            75
+          ],
+          "rectCount": 1493
+        },
+        {
+          "id": "attack6",
+          "source": "attack-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            656,
+            343,
+            246,
+            285
+          ],
+          "anchor": [
+            83.58064516129036,
+            282
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack6.png",
+          "grid": [
+            82,
+            95
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            27.860215053763454,
+            94
+          ],
+          "rectCount": 1520
+        },
+        {
+          "id": "attack7",
+          "source": "attack-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            953,
+            339,
+            294,
+            227
+          ],
+          "anchor": [
+            149.0414746543779,
+            224
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack7.png",
+          "grid": [
+            98,
+            75
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            49.6804915514593,
+            74.00881057268722
+          ],
+          "rectCount": 1373
+        },
+        {
+          "id": "attack8",
+          "source": "attack-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            38,
+            653,
+            256,
+            260
+          ],
+          "anchor": [
+            166.9543147208122,
+            255
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack8.png",
+          "grid": [
+            85,
+            86
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            55.43404980964468,
+            84.34615384615384
+          ],
+          "rectCount": 1500
+        },
+        {
+          "id": "attack9",
+          "source": "attack-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            318,
+            717,
+            303,
+            191
+          ],
+          "anchor": [
+            138.9219512195122,
+            185
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack9.png",
+          "grid": [
+            101,
+            63
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            46.307317073170736,
+            61.02094240837696
+          ],
+          "rectCount": 1349
+        },
+        {
+          "id": "attack10",
+          "source": "attack-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            656,
+            653,
+            267,
+            259
+          ],
+          "anchor": [
+            178.4179104477612,
+            254
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack10.png",
+          "grid": [
+            89,
+            86
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            59.472636815920396,
+            84.33976833976834
+          ],
+          "rectCount": 1728
+        },
+        {
+          "id": "attack11",
+          "source": "attack-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            974,
+            634,
+            213,
+            278
+          ],
+          "anchor": [
+            85.79999999999995,
+            275
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack11.png",
+          "grid": [
+            71,
+            92
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            28.599999999999984,
+            91.00719424460432
+          ],
+          "rectCount": 1424
+        },
+        {
+          "id": "attack12",
+          "source": "attack-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            40,
+            931,
+            230,
+            285
+          ],
+          "anchor": [
+            90.67336683417085,
+            282
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack12.png",
+          "grid": [
+            76,
+            95
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            29.96163425824776,
+            94
+          ],
+          "rectCount": 1547
+        },
+        {
+          "id": "attack13",
+          "source": "attack-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            345,
+            929,
+            248,
+            289
+          ],
+          "anchor": [
+            91.65296803652967,
+            286
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack13.png",
+          "grid": [
+            82,
+            96
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            30.304610399175132,
+            95.00346020761246
+          ],
+          "rectCount": 1366
+        },
+        {
+          "id": "attack14",
+          "source": "attack-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            662,
+            929,
+            278,
+            292
+          ],
+          "anchor": [
+            114.27083333333337,
+            289
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack14.png",
+          "grid": [
+            92,
+            97
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            37.81624700239809,
+            96.00342465753425
+          ],
+          "rectCount": 1619
+        },
+        {
+          "id": "attack15",
+          "source": "attack-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            973,
+            926,
+            269,
+            295
+          ],
+          "anchor": [
+            106.44186046511618,
+            292
+          ],
+          "unit": 0.740484429065744,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-attack15.png",
+          "grid": [
+            89,
+            98
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            35.21682372265926,
+            97.00338983050847
+          ],
+          "rectCount": 1488
+        },
+        {
+          "id": "connections0",
+          "source": "connections-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            59,
+            7,
+            176,
+            256
+          ],
+          "anchor": [
+            83.2037037037037,
+            253
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections0.png",
+          "grid": [
+            68,
+            98
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            32.146885521885515,
+            96.8515625
+          ],
+          "rectCount": 1236
+        },
+        {
+          "id": "connections1",
+          "source": "connections-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            396,
+            8,
+            231,
+            255
+          ],
+          "anchor": [
+            71.31515151515151,
+            252
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections1.png",
+          "grid": [
+            89,
+            98
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            27.47640036730946,
+            96.84705882352941
+          ],
+          "rectCount": 1382
+        },
+        {
+          "id": "connections2",
+          "source": "connections-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            773,
+            10,
+            256,
+            253
+          ],
+          "anchor": [
+            62.9591836734694,
+            217
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections2.png",
+          "grid": [
+            98,
+            97
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            24.101562500000004,
+            83.19762845849803
+          ],
+          "rectCount": 1491
+        },
+        {
+          "id": "connections3",
+          "source": "connections-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            1136,
+            11,
+            269,
+            252
+          ],
+          "anchor": [
+            74.75999999999999,
+            249
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections3.png",
+          "grid": [
+            103,
+            97
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            28.625576208178433,
+            95.8452380952381
+          ],
+          "rectCount": 1504
+        },
+        {
+          "id": "connections4",
+          "source": "connections-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            36,
+            254,
+            284,
+            272
+          ],
+          "anchor": [
+            61.95652173913044,
+            269
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections4.png",
+          "grid": [
+            109,
+            104
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            23.77908756889161,
+            102.8529411764706
+          ],
+          "rectCount": 1535
+        },
+        {
+          "id": "connections5",
+          "source": "connections-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            423,
+            281,
+            247,
+            245
+          ],
+          "anchor": [
+            67,
+            240
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections5.png",
+          "grid": [
+            95,
+            94
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            25.76923076923077,
+            92.08163265306122
+          ],
+          "rectCount": 1521
+        },
+        {
+          "id": "connections6",
+          "source": "connections-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            832,
+            278,
+            200,
+            249
+          ],
+          "anchor": [
+            103.00349650349654,
+            246
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections6.png",
+          "grid": [
+            77,
+            96
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            39.656346153846165,
+            94.8433734939759
+          ],
+          "rectCount": 1272
+        },
+        {
+          "id": "connections7",
+          "source": "connections-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            1241,
+            270,
+            167,
+            259
+          ],
+          "anchor": [
+            75.74553571428578,
+            256
+          ],
+          "unit": 0.856,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections7.png",
+          "grid": [
+            64,
+            99
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            29.028229255774193,
+            97.85328185328186
+          ],
+          "rectCount": 1215
+        },
+        {
+          "id": "connections8",
+          "source": "connections-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            61,
+            543,
+            205,
+            224
+          ],
+          "anchor": [
+            69.56687898089172,
+            221
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections8.png",
+          "grid": [
+            90,
+            99
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            30.541556625757337,
+            97.67410714285714
+          ],
+          "rectCount": 1570
+        },
+        {
+          "id": "connections9",
+          "source": "connections-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            477,
+            549,
+            187,
+            216
+          ],
+          "anchor": [
+            86.05172413793105,
+            210
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections9.png",
+          "grid": [
+            82,
+            95
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            37.73391111930666,
+            92.36111111111111
+          ],
+          "rectCount": 1574
+        },
+        {
+          "id": "connections10",
+          "source": "connections-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            802,
+            552,
+            268,
+            211
+          ],
+          "anchor": [
+            143.79999999999995,
+            182
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections10.png",
+          "grid": [
+            118,
+            93
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            63.31492537313431,
+            80.21800947867298
+          ],
+          "rectCount": 1540
+        },
+        {
+          "id": "connections11",
+          "source": "connections-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            1202,
+            590,
+            231,
+            173
+          ],
+          "anchor": [
+            72.97000000000003,
+            170
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections11.png",
+          "grid": [
+            102,
+            76
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            32.22051948051949,
+            74.6820809248555
+          ],
+          "rectCount": 1518
+        },
+        {
+          "id": "connections12",
+          "source": "connections-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            70,
+            777,
+            180,
+            239
+          ],
+          "anchor": [
+            65.6953125,
+            236
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections12.png",
+          "grid": [
+            79,
+            105
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            28.832942708333334,
+            103.68200836820084
+          ],
+          "rectCount": 1774
+        },
+        {
+          "id": "connections13",
+          "source": "connections-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            450,
+            775,
+            183,
+            241
+          ],
+          "anchor": [
+            115.14485981308417,
+            238
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections13.png",
+          "grid": [
+            81,
+            106
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            50.965757622184796,
+            104.6804979253112
+          ],
+          "rectCount": 1697
+        },
+        {
+          "id": "connections14",
+          "source": "connections-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            843,
+            768,
+            187,
+            250
+          ],
+          "anchor": [
+            92.23045267489715,
+            247
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections14.png",
+          "grid": [
+            82,
+            110
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            40.443300103430836,
+            108.68
+          ],
+          "rectCount": 1602
+        },
+        {
+          "id": "connections15",
+          "source": "connections-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            1243,
+            768,
+            165,
+            252
+          ],
+          "anchor": [
+            72.55072463768124,
+            249
+          ],
+          "unit": 0.981651376146789,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/ganyu-connections15.png",
+          "grid": [
+            73,
+            111
+          ],
+          "displayScale": 2.2291666666666665,
+          "pixelAnchor": [
+            32.098199385155944,
+            109.67857142857143
+          ],
+          "rectCount": 1509
+        }
+      ],
+      "notes": [
+        "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+        "角色特效独立；具体最终技能效果待讨论。",
+        "状态型技能配套及正式战斗/真机仍需独立验收。"
+      ],
+      "preservedDisconnectedWeapons": {
+        "connections-v3.png": [
+          {
+            "box": [
+              264,
+              257,
+              53,
+              179
+            ],
+            "area": 1957,
+            "center": [
+              292.1895758814512,
+              345.37966274910576
+            ]
+          }
+        ]
+      },
+      "sequences": {
+        "idle": [
+          [
+            "basic0",
+            24
+          ],
+          [
+            "basic1",
+            24
+          ]
+        ],
+        "walk": [
+          [
+            "basic2",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ],
+          [
+            "basic4",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ]
+        ],
+        "crouch": [
+          [
+            "basic5",
+            36
+          ]
+        ],
+        "guard": [
+          [
+            "basic6",
+            36
+          ]
+        ],
+        "crouchGuard": [
+          [
+            "basic7",
+            36
+          ]
+        ],
+        "jump": [
+          [
+            "basic8",
+            6
+          ],
+          [
+            "basic9",
+            14
+          ],
+          [
+            "basic10",
+            14
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "hurt": [
+          [
+            "basic12",
+            20
+          ]
+        ],
+        "airHurt": [
+          [
+            "basic13",
+            24
+          ]
+        ],
+        "down": [
+          [
+            "basic14",
+            36
+          ]
+        ],
+        "getup": [
+          [
+            "basic15",
+            16
+          ],
+          [
+            "basic5",
+            8
+          ],
+          [
+            "basic0",
+            12
+          ]
+        ],
+        "A": [
+          [
+            "connections0",
+            4
+          ],
+          [
+            "connections1",
+            3
+          ],
+          [
+            "connections2",
+            3
+          ],
+          [
+            "connections3",
+            3
+          ],
+          [
+            "connections4",
+            2
+          ],
+          [
+            "connections5",
+            9
+          ],
+          [
+            "connections6",
+            8
+          ],
+          [
+            "connections7",
+            8
+          ]
+        ],
+        "lowA": [
+          [
+            "attack3",
+            8
+          ],
+          [
+            "attack4",
+            3
+          ],
+          [
+            "attack5",
+            14
+          ]
+        ],
+        "airA": [
+          [
+            "attack6",
+            8
+          ],
+          [
+            "attack7",
+            6
+          ],
+          [
+            "basic10",
+            10
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "E": [
+          [
+            "connections8",
+            6
+          ],
+          [
+            "connections9",
+            6
+          ],
+          [
+            "connections10",
+            5
+          ],
+          [
+            "connections11",
+            3
+          ],
+          [
+            "connections12",
+            2
+          ],
+          [
+            "connections13",
+            9
+          ],
+          [
+            "connections14",
+            8
+          ],
+          [
+            "connections15",
+            8
+          ]
+        ],
+        "Q": [
+          [
+            "attack11",
+            27
+          ],
+          [
+            "attack12",
+            5
+          ],
+          [
+            "attack13",
+            25
+          ]
+        ],
+        "win": [
+          [
+            "attack14",
+            18
+          ],
+          [
+            "attack15",
+            48
+          ]
+        ]
+      },
+      "pool": 1774,
+      "dataBytes": 1770258,
+      "gzipBytes": 306669
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "ganyu",
+      "id": "basic0",
+      "grid": [
+        58,
+        98
+      ],
+      "rects": 1291,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic1",
+      "grid": [
+        53,
+        98
+      ],
+      "rects": 1201,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic2",
+      "grid": [
+        74,
+        94
+      ],
+      "rects": 1307,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic3",
+      "grid": [
+        78,
+        97
+      ],
+      "rects": 1448,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic4",
+      "grid": [
+        70,
+        96
+      ],
+      "rects": 1320,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic5",
+      "grid": [
+        74,
+        65
+      ],
+      "rects": 1080,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic6",
+      "grid": [
+        76,
+        92
+      ],
+      "rects": 1410,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic7",
+      "grid": [
+        87,
+        71
+      ],
+      "rects": 1324,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic8",
+      "grid": [
+        78,
+        87
+      ],
+      "rects": 1404,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic9",
+      "grid": [
+        83,
+        89
+      ],
+      "rects": 1322,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic10",
+      "grid": [
+        79,
+        66
+      ],
+      "rects": 1161,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic11",
+      "grid": [
+        67,
+        67
+      ],
+      "rects": 1099,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic12",
+      "grid": [
+        77,
+        70
+      ],
+      "rects": 1140,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic13",
+      "grid": [
+        85,
+        57
+      ],
+      "rects": 913,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic14",
+      "grid": [
+        109,
+        29
+      ],
+      "rects": 725,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "basic15",
+      "grid": [
+        62,
+        52
+      ],
+      "rects": 956,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack0",
+      "grid": [
+        80,
+        101
+      ],
+      "rects": 1643,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack1",
+      "grid": [
+        87,
+        100
+      ],
+      "rects": 1623,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack2",
+      "grid": [
+        90,
+        99
+      ],
+      "rects": 1600,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack3",
+      "grid": [
+        88,
+        76
+      ],
+      "rects": 1291,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack4",
+      "grid": [
+        97,
+        75
+      ],
+      "rects": 1338,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack5",
+      "grid": [
+        91,
+        76
+      ],
+      "rects": 1493,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack6",
+      "grid": [
+        82,
+        95
+      ],
+      "rects": 1520,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack7",
+      "grid": [
+        98,
+        75
+      ],
+      "rects": 1373,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack8",
+      "grid": [
+        85,
+        86
+      ],
+      "rects": 1500,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack9",
+      "grid": [
+        101,
+        63
+      ],
+      "rects": 1349,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack10",
+      "grid": [
+        89,
+        86
+      ],
+      "rects": 1728,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack11",
+      "grid": [
+        71,
+        92
+      ],
+      "rects": 1424,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack12",
+      "grid": [
+        76,
+        95
+      ],
+      "rects": 1547,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack13",
+      "grid": [
+        82,
+        96
+      ],
+      "rects": 1366,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack14",
+      "grid": [
+        92,
+        97
+      ],
+      "rects": 1619,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "attack15",
+      "grid": [
+        89,
+        98
+      ],
+      "rects": 1488,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections0",
+      "grid": [
+        68,
+        98
+      ],
+      "rects": 1236,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections1",
+      "grid": [
+        89,
+        98
+      ],
+      "rects": 1382,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections2",
+      "grid": [
+        98,
+        97
+      ],
+      "rects": 1491,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections3",
+      "grid": [
+        103,
+        97
+      ],
+      "rects": 1504,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections4",
+      "grid": [
+        109,
+        104
+      ],
+      "rects": 1535,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections5",
+      "grid": [
+        95,
+        94
+      ],
+      "rects": 1521,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections6",
+      "grid": [
+        77,
+        96
+      ],
+      "rects": 1272,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections7",
+      "grid": [
+        64,
+        99
+      ],
+      "rects": 1215,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections8",
+      "grid": [
+        90,
+        99
+      ],
+      "rects": 1570,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections9",
+      "grid": [
+        82,
+        95
+      ],
+      "rects": 1574,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections10",
+      "grid": [
+        118,
+        93
+      ],
+      "rects": 1540,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections11",
+      "grid": [
+        102,
+        76
+      ],
+      "rects": 1518,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections12",
+      "grid": [
+        79,
+        105
+      ],
+      "rects": 1774,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections13",
+      "grid": [
+        81,
+        106
+      ],
+      "rects": 1697,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections14",
+      "grid": [
+        82,
+        110
+      ],
+      "rects": 1602,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "ganyu",
+      "id": "connections15",
+      "grid": [
+        73,
+        111
+      ],
+      "rects": 1509,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "ganyu",
+      "pool": 1774,
+      "dataBytes": 1770258,
+      "gzipBytes": 306669
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "klee",
+      "id": "basic0",
+      "grid": [
+        47,
+        98
+      ],
+      "rects": 1092,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic1",
+      "grid": [
+        47,
+        98
+      ],
+      "rects": 1045,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic2",
+      "grid": [
+        51,
+        95
+      ],
+      "rects": 994,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic3",
+      "grid": [
+        50,
+        97
+      ],
+      "rects": 938,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic4",
+      "grid": [
+        49,
+        94
+      ],
+      "rects": 1018,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic5",
+      "grid": [
+        53,
+        71
+      ],
+      "rects": 929,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic6",
+      "grid": [
+        59,
+        92
+      ],
+      "rects": 1091,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic7",
+      "grid": [
+        51,
+        65
+      ],
+      "rects": 874,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic8",
+      "grid": [
+        53,
+        66
+      ],
+      "rects": 819,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic9",
+      "grid": [
+        53,
+        86
+      ],
+      "rects": 989,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic10",
+      "grid": [
+        54,
+        77
+      ],
+      "rects": 955,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic11",
+      "grid": [
+        58,
+        65
+      ],
+      "rects": 887,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic12",
+      "grid": [
+        66,
+        80
+      ],
+      "rects": 1031,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic13",
+      "grid": [
+        83,
+        61
+      ],
+      "rects": 969,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic14",
+      "grid": [
+        87,
+        28
+      ],
+      "rects": 705,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "basic15",
+      "grid": [
+        55,
+        57
+      ],
+      "rects": 791,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack0",
+      "grid": [
+        43,
+        92
+      ],
+      "rects": 920,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack1",
+      "grid": [
+        53,
+        89
+      ],
+      "rects": 807,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack2",
+      "grid": [
+        45,
+        92
+      ],
+      "rects": 901,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack3",
+      "grid": [
+        44,
+        72
+      ],
+      "rects": 828,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack4",
+      "grid": [
+        51,
+        67
+      ],
+      "rects": 736,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack5",
+      "grid": [
+        43,
+        63
+      ],
+      "rects": 685,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack6",
+      "grid": [
+        41,
+        88
+      ],
+      "rects": 924,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack7",
+      "grid": [
+        49,
+        72
+      ],
+      "rects": 854,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack8",
+      "grid": [
+        45,
+        92
+      ],
+      "rects": 925,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack9",
+      "grid": [
+        54,
+        91
+      ],
+      "rects": 870,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack10",
+      "grid": [
+        52,
+        91
+      ],
+      "rects": 854,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack11",
+      "grid": [
+        50,
+        96
+      ],
+      "rects": 1066,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack12",
+      "grid": [
+        61,
+        97
+      ],
+      "rects": 1021,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack13",
+      "grid": [
+        45,
+        97
+      ],
+      "rects": 965,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack14",
+      "grid": [
+        40,
+        95
+      ],
+      "rects": 920,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "attack15",
+      "grid": [
+        40,
+        98
+      ],
+      "rects": 917,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections0",
+      "grid": [
+        50,
+        98
+      ],
+      "rects": 1164,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections1",
+      "grid": [
+        61,
+        88
+      ],
+      "rects": 1111,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections2",
+      "grid": [
+        65,
+        92
+      ],
+      "rects": 1150,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections3",
+      "grid": [
+        56,
+        92
+      ],
+      "rects": 953,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections4",
+      "grid": [
+        75,
+        92
+      ],
+      "rects": 962,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections5",
+      "grid": [
+        71,
+        91
+      ],
+      "rects": 982,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections6",
+      "grid": [
+        54,
+        96
+      ],
+      "rects": 987,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections7",
+      "grid": [
+        50,
+        96
+      ],
+      "rects": 1078,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections8",
+      "grid": [
+        50,
+        98
+      ],
+      "rects": 1068,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections9",
+      "grid": [
+        61,
+        93
+      ],
+      "rects": 1096,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections10",
+      "grid": [
+        61,
+        102
+      ],
+      "rects": 1061,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections11",
+      "grid": [
+        60,
+        93
+      ],
+      "rects": 981,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections12",
+      "grid": [
+        73,
+        87
+      ],
+      "rects": 934,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections13",
+      "grid": [
+        70,
+        87
+      ],
+      "rects": 1026,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections14",
+      "grid": [
+        53,
+        91
+      ],
+      "rects": 1040,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "klee",
+      "id": "connections15",
+      "grid": [
+        50,
+        91
+      ],
+      "rects": 1047,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "klee",
+      "pool": 1164,
+      "dataBytes": 1232590,
+      "gzipBytes": 215666
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

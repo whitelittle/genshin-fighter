@@ -1,0 +1,51 @@
+{
+  "profile": "raw-scalar-fields",
+  "compressed": false,
+  "fieldSerialization": "one scalar per printable UTF8 codepoint; lazy reading; no base64/LZ4",
+  "minified": false,
+  "initialSixCharacterDecode": false,
+  "bytes": 4865902,
+  "sha256": "5ffc56cba2b8315e74df6cba98d87985fa241a46cc824493c3bf54cd22274164",
+  "modules": {
+    "gf_animation_data": {
+      "frames": 152,
+      "rectangles": 127874
+    },
+    "gf_inbetween_data": {
+      "frames": 152,
+      "rectangles": 126635
+    },
+    "gf_furina_data": {
+      "frames": 178,
+      "rectangles": 111071
+    },
+    "gf_ayaka_data": {
+      "frames": 157,
+      "rectangles": 115499
+    },
+    "gf_clorinde_data": {
+      "frames": 129,
+      "rectangles": 94792
+    },
+    "gf_arlecchino_data": {
+      "frames": 129,
+      "rectangles": 100850
+    }
+  },
+  "nativeDeviceTested": false,
+  "variant": "pc-budget",
+  "baseSha256": "f386e964e1aeb124dba48341f3ee27da1776cb10a936cc2ba1ab337023f61c84",
+  "changedModules": [
+    {
+      "module": "input/gf_input.lua",
+      "oldSha256": "173f5d7b615705f3064cd8f5ed17a14741cb197c027750c1fa42d481b59246df",
+      "newSha256": "642e0887ae7f95581e2e5a2ca3ee51ef7522a4c4fa6361506cca058951330a35"
+    },
+    {
+      "module": "menu/gf_scene_title.lua",
+      "oldSha256": "ebb0818ea34202c4702ca281ab0efd1937eeb4574db46d4235315f01241f6b1e",
+      "newSha256": "6e8a04d4bdb0eaca13d1f459bc8be5d6c5770ecec5b2f14dd5a5daf28d5ba4b9"
+    }
+  ],
+  "reverseBaseByteIdentical": true
+}

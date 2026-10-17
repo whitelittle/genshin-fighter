@@ -1,0 +1,438 @@
+{
+  "scope": "seeded isolated decision probes; 16 seeds, 6 roles, 4 difficulties; not human win-rate",
+  "curves": [
+    {
+      "version": "before",
+      "character": 1,
+      "difficulty": 1,
+      "attacksPer60Seconds": 316.31,
+      "heavyRequests": 218.31,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 95.81
+    },
+    {
+      "version": "before",
+      "character": 1,
+      "difficulty": 2,
+      "attacksPer60Seconds": 340.06,
+      "heavyRequests": 207.56,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 1,
+      "difficulty": 3,
+      "attacksPer60Seconds": 351.19,
+      "heavyRequests": 196.94,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 1,
+      "difficulty": 4,
+      "attacksPer60Seconds": 361,
+      "heavyRequests": 185.44,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 2,
+      "difficulty": 1,
+      "attacksPer60Seconds": 316.31,
+      "heavyRequests": 218.31,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 95.81
+    },
+    {
+      "version": "before",
+      "character": 2,
+      "difficulty": 2,
+      "attacksPer60Seconds": 340.06,
+      "heavyRequests": 207.56,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 2,
+      "difficulty": 3,
+      "attacksPer60Seconds": 351.19,
+      "heavyRequests": 196.94,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 2,
+      "difficulty": 4,
+      "attacksPer60Seconds": 361,
+      "heavyRequests": 185.44,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 3,
+      "difficulty": 1,
+      "attacksPer60Seconds": 316.31,
+      "heavyRequests": 218.31,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 95.81
+    },
+    {
+      "version": "before",
+      "character": 3,
+      "difficulty": 2,
+      "attacksPer60Seconds": 340.06,
+      "heavyRequests": 207.56,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 3,
+      "difficulty": 3,
+      "attacksPer60Seconds": 351.19,
+      "heavyRequests": 196.94,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 3,
+      "difficulty": 4,
+      "attacksPer60Seconds": 361,
+      "heavyRequests": 185.44,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 4,
+      "difficulty": 1,
+      "attacksPer60Seconds": 316.31,
+      "heavyRequests": 218.31,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 95.81
+    },
+    {
+      "version": "before",
+      "character": 4,
+      "difficulty": 2,
+      "attacksPer60Seconds": 340.06,
+      "heavyRequests": 207.56,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 4,
+      "difficulty": 3,
+      "attacksPer60Seconds": 351.19,
+      "heavyRequests": 196.94,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 4,
+      "difficulty": 4,
+      "attacksPer60Seconds": 361,
+      "heavyRequests": 185.44,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 5,
+      "difficulty": 1,
+      "attacksPer60Seconds": 316.31,
+      "heavyRequests": 218.31,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 95.81
+    },
+    {
+      "version": "before",
+      "character": 5,
+      "difficulty": 2,
+      "attacksPer60Seconds": 340.06,
+      "heavyRequests": 207.56,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 5,
+      "difficulty": 3,
+      "attacksPer60Seconds": 351.19,
+      "heavyRequests": 196.94,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 5,
+      "difficulty": 4,
+      "attacksPer60Seconds": 361,
+      "heavyRequests": 185.44,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 6,
+      "difficulty": 1,
+      "attacksPer60Seconds": 316.31,
+      "heavyRequests": 218.31,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 95.81
+    },
+    {
+      "version": "before",
+      "character": 6,
+      "difficulty": 2,
+      "attacksPer60Seconds": 340.06,
+      "heavyRequests": 207.56,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 6,
+      "difficulty": 3,
+      "attacksPer60Seconds": 351.19,
+      "heavyRequests": 196.94,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "before",
+      "character": 6,
+      "difficulty": 4,
+      "attacksPer60Seconds": 361,
+      "heavyRequests": 185.44,
+      "throwRequests": 7,
+      "defendedAttackWindowsPer100": 100
+    },
+    {
+      "version": "after",
+      "character": 1,
+      "difficulty": 1,
+      "attacksPer60Seconds": 42.69,
+      "heavyRequests": 12.88,
+      "throwRequests": 5.56,
+      "defendedAttackWindowsPer100": 17.88
+    },
+    {
+      "version": "after",
+      "character": 1,
+      "difficulty": 2,
+      "attacksPer60Seconds": 86.81,
+      "heavyRequests": 28.06,
+      "throwRequests": 6.44,
+      "defendedAttackWindowsPer100": 44.94
+    },
+    {
+      "version": "after",
+      "character": 1,
+      "difficulty": 3,
+      "attacksPer60Seconds": 163.12,
+      "heavyRequests": 52,
+      "throwRequests": 6.94,
+      "defendedAttackWindowsPer100": 69.38
+    },
+    {
+      "version": "after",
+      "character": 1,
+      "difficulty": 4,
+      "attacksPer60Seconds": 300.94,
+      "heavyRequests": 93.38,
+      "throwRequests": 7.31,
+      "defendedAttackWindowsPer100": 87.31
+    },
+    {
+      "version": "after",
+      "character": 2,
+      "difficulty": 1,
+      "attacksPer60Seconds": 42.69,
+      "heavyRequests": 12.88,
+      "throwRequests": 5.56,
+      "defendedAttackWindowsPer100": 17.88
+    },
+    {
+      "version": "after",
+      "character": 2,
+      "difficulty": 2,
+      "attacksPer60Seconds": 86.81,
+      "heavyRequests": 28.06,
+      "throwRequests": 6.44,
+      "defendedAttackWindowsPer100": 44.94
+    },
+    {
+      "version": "after",
+      "character": 2,
+      "difficulty": 3,
+      "attacksPer60Seconds": 163.12,
+      "heavyRequests": 52,
+      "throwRequests": 6.94,
+      "defendedAttackWindowsPer100": 69.38
+    },
+    {
+      "version": "after",
+      "character": 2,
+      "difficulty": 4,
+      "attacksPer60Seconds": 300.94,
+      "heavyRequests": 93.38,
+      "throwRequests": 7.31,
+      "defendedAttackWindowsPer100": 87.31
+    },
+    {
+      "version": "after",
+      "character": 3,
+      "difficulty": 1,
+      "attacksPer60Seconds": 42.69,
+      "heavyRequests": 12.88,
+      "throwRequests": 5.56,
+      "defendedAttackWindowsPer100": 17.88
+    },
+    {
+      "version": "after",
+      "character": 3,
+      "difficulty": 2,
+      "attacksPer60Seconds": 86.81,
+      "heavyRequests": 28.06,
+      "throwRequests": 6.44,
+      "defendedAttackWindowsPer100": 44.94
+    },
+    {
+      "version": "after",
+      "character": 3,
+      "difficulty": 3,
+      "attacksPer60Seconds": 163.12,
+      "heavyRequests": 52,
+      "throwRequests": 6.94,
+      "defendedAttackWindowsPer100": 69.38
+    },
+    {
+      "version": "after",
+      "character": 3,
+      "difficulty": 4,
+      "attacksPer60Seconds": 300.94,
+      "heavyRequests": 93.38,
+      "throwRequests": 7.31,
+      "defendedAttackWindowsPer100": 87.31
+    },
+    {
+      "version": "after",
+      "character": 4,
+      "difficulty": 1,
+      "attacksPer60Seconds": 42.69,
+      "heavyRequests": 12.88,
+      "throwRequests": 5.56,
+      "defendedAttackWindowsPer100": 17.88
+    },
+    {
+      "version": "after",
+      "character": 4,
+      "difficulty": 2,
+      "attacksPer60Seconds": 86.81,
+      "heavyRequests": 28.06,
+      "throwRequests": 6.44,
+      "defendedAttackWindowsPer100": 44.94
+    },
+    {
+      "version": "after",
+      "character": 4,
+      "difficulty": 3,
+      "attacksPer60Seconds": 163.12,
+      "heavyRequests": 52,
+      "throwRequests": 6.94,
+      "defendedAttackWindowsPer100": 69.38
+    },
+    {
+      "version": "after",
+      "character": 4,
+      "difficulty": 4,
+      "attacksPer60Seconds": 300.94,
+      "heavyRequests": 93.38,
+      "throwRequests": 7.31,
+      "defendedAttackWindowsPer100": 87.31
+    },
+    {
+      "version": "after",
+      "character": 5,
+      "difficulty": 1,
+      "attacksPer60Seconds": 42.69,
+      "heavyRequests": 12.88,
+      "throwRequests": 5.56,
+      "defendedAttackWindowsPer100": 17.88
+    },
+    {
+      "version": "after",
+      "character": 5,
+      "difficulty": 2,
+      "attacksPer60Seconds": 86.81,
+      "heavyRequests": 28.06,
+      "throwRequests": 6.44,
+      "defendedAttackWindowsPer100": 44.94
+    },
+    {
+      "version": "after",
+      "character": 5,
+      "difficulty": 3,
+      "attacksPer60Seconds": 163.12,
+      "heavyRequests": 52,
+      "throwRequests": 6.94,
+      "defendedAttackWindowsPer100": 69.38
+    },
+    {
+      "version": "after",
+      "character": 5,
+      "difficulty": 4,
+      "attacksPer60Seconds": 300.94,
+      "heavyRequests": 93.38,
+      "throwRequests": 7.31,
+      "defendedAttackWindowsPer100": 87.31
+    },
+    {
+      "version": "after",
+      "character": 6,
+      "difficulty": 1,
+      "attacksPer60Seconds": 31,
+      "heavyRequests": 3.88,
+      "throwRequests": 5.62,
+      "defendedAttackWindowsPer100": 12.38
+    },
+    {
+      "version": "after",
+      "character": 6,
+      "difficulty": 2,
+      "attacksPer60Seconds": 57.75,
+      "heavyRequests": 8.81,
+      "throwRequests": 6.25,
+      "defendedAttackWindowsPer100": 36.88
+    },
+    {
+      "version": "after",
+      "character": 6,
+      "difficulty": 3,
+      "attacksPer60Seconds": 163.12,
+      "heavyRequests": 52,
+      "throwRequests": 6.94,
+      "defendedAttackWindowsPer100": 69.38
+    },
+    {
+      "version": "after",
+      "character": 6,
+      "difficulty": 4,
+      "attacksPer60Seconds": 300.94,
+      "heavyRequests": 93.38,
+      "throwRequests": 7.31,
+      "defendedAttackWindowsPer100": 87.31
+    }
+  ],
+  "fourFullMatchesAndTeamProfileChange": true
+}

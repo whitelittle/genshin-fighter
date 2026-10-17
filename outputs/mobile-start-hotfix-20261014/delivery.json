@@ -1,0 +1,88 @@
+{
+  "version": "V9",
+  "affectedReports": "at least two; user own phone can enter",
+  "severity": "entry blocking",
+  "nativeAffectedDeviceVerified": false,
+  "changedModules": [
+    "gf_input",
+    "gf_scene_title"
+  ],
+  "externalDelivery": false,
+  "files": [
+    {
+      "file": "logic-and-pixels.json",
+      "bytes": 648,
+      "sha256": "5b3d5da159bbf514a79585dd9aea1e78337c1d86a689cfb77a5bd82a7e06a816"
+    },
+    {
+      "file": "menu-1600x900.png",
+      "bytes": 264573,
+      "sha256": "816058f5bfedd9a0f695b77d2ca561205bc2fb86acd74c6903d1430f508b41a2"
+    },
+    {
+      "file": "menu-900x1600.png",
+      "bytes": 179351,
+      "sha256": "c26cab1cdae6348787a3415b15cf63caaf1f4a6bc87f65c03e616d1052621ba4"
+    },
+    {
+      "file": "mock-flow.json",
+      "bytes": 1724,
+      "sha256": "0701d1808e17d74fe36e448b52a7c53f307699d69cbc5c2795a52fc3309e28b0"
+    },
+    {
+      "file": "pc-budget-start-regression.json",
+      "bytes": 3456,
+      "sha256": "ef2d6b4b22853fc8ece95819d50e1c09f11f649f495e6d9733b9bd2df4916c06"
+    },
+    {
+      "file": "start-regression.json",
+      "bytes": 3456,
+      "sha256": "ef2d6b4b22853fc8ece95819d50e1c09f11f649f495e6d9733b9bd2df4916c06"
+    },
+    {
+      "file": "安装与验证说明.md",
+      "bytes": 3450,
+      "sha256": "abd786961c0b44a277de919ab65e6025e8a8e1ee8bf27c0cdf02c9f074e3d46e"
+    },
+    {
+      "file": "gia/gpt_20261014_移动端开始紧急修复_保留PC预算候选_仅脚本.gia",
+      "bytes": 4866100,
+      "sha256": "cab77806322be38c00ce09c643b3e416b4c01b1e9e69378926934ebc6b14ee69"
+    },
+    {
+      "file": "gia/gpt_20261014_移动端开始紧急修复_稳定基线_仅脚本.gia",
+      "bytes": 4862888,
+      "sha256": "8a65355f85427a5287ff50d2eaa3ee004ea91134d5aa6d56de564c2c580881a4"
+    },
+    {
+      "file": "history/gf_input.lua",
+      "bytes": 9542,
+      "sha256": "173f5d7b615705f3064cd8f5ed17a14741cb197c027750c1fa42d481b59246df"
+    },
+    {
+      "file": "history/gf_scene_title.lua",
+      "bytes": 7191,
+      "sha256": "ebb0818ea34202c4702ca281ab0efd1937eeb4574db46d4235315f01241f6b1e"
+    },
+    {
+      "file": "pc-budget/build.json",
+      "bytes": 1523,
+      "sha256": "38a13e1695584b215d0b7e72310f1a116ee8b034feee9cbbace5422fdd9ce8ea"
+    },
+    {
+      "file": "pc-budget/genshin_fighter.lua",
+      "bytes": 4865902,
+      "sha256": "5ffc56cba2b8315e74df6cba98d87985fa241a46cc824493c3bf54cd22274164"
+    },
+    {
+      "file": "stable/build.json",
+      "bytes": 1520,
+      "sha256": "c28033a6f221ea20cc22c5143529d5b76b7eec60fcab25bf5e814162a74c2339"
+    },
+    {
+      "file": "stable/genshin_fighter.lua",
+      "bytes": 4862690,
+      "sha256": "28df8ea490fdbbbbb85c92b1b3c532a4282145717001fcbe8634d8b51f553820"
+    }
+  ]
+}

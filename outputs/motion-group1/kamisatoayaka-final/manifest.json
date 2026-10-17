@@ -1,0 +1,1667 @@
+{
+  "status": "integrated_candidate",
+  "deviceVerified": false,
+  "roles": [
+    {
+      "key": "kamisatoayaka",
+      "name": "神里绫华 · 比例与步态修复",
+      "height": 226,
+      "frames": [
+        {
+          "id": "basic0",
+          "source": "basic-final.png",
+          "sourceIndex": 0,
+          "crop": [
+            52,
+            10,
+            202,
+            349
+          ],
+          "grid": [
+            56,
+            96
+          ],
+          "pixelAnchor": [
+            34.95384615384615,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic0.png",
+          "rectCount": 1176,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic1",
+          "source": "basic-final.png",
+          "sourceIndex": 1,
+          "crop": [
+            346,
+            9,
+            219,
+            350
+          ],
+          "grid": [
+            60,
+            96
+          ],
+          "pixelAnchor": [
+            38.644067796610166,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic1.png",
+          "rectCount": 1208,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic2",
+          "source": "basic-final.png",
+          "sourceIndex": 2,
+          "crop": [
+            640,
+            14,
+            253,
+            345
+          ],
+          "grid": [
+            70,
+            95
+          ],
+          "pixelAnchor": [
+            45.81159420289855,
+            95
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic2.png",
+          "rectCount": 1242,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic3",
+          "source": "basic-final.png",
+          "sourceIndex": 3,
+          "crop": [
+            954,
+            14,
+            229,
+            353
+          ],
+          "grid": [
+            63,
+            97
+          ],
+          "pixelAnchor": [
+            56.333333333333336,
+            97
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic3.png",
+          "rectCount": 1143,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic4",
+          "source": "basic-final.png",
+          "sourceIndex": 4,
+          "crop": [
+            49,
+            369,
+            236,
+            317
+          ],
+          "grid": [
+            65,
+            87
+          ],
+          "pixelAnchor": [
+            45.22641509433962,
+            87
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic4.png",
+          "rectCount": 1057,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic5",
+          "source": "basic-final.png",
+          "sourceIndex": 5,
+          "crop": [
+            308,
+            439,
+            266,
+            226
+          ],
+          "grid": [
+            73,
+            62
+          ],
+          "pixelAnchor": [
+            38.18604651162791,
+            62
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic5.png",
+          "rectCount": 1087,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic6",
+          "source": "basic-final.png",
+          "sourceIndex": 6,
+          "crop": [
+            619,
+            370,
+            281,
+            333
+          ],
+          "grid": [
+            77,
+            92
+          ],
+          "pixelAnchor": [
+            26.77777777777778,
+            92
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic6.png",
+          "rectCount": 1301,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic7",
+          "source": "basic-final.png",
+          "sourceIndex": 7,
+          "crop": [
+            900,
+            457,
+            326,
+            216
+          ],
+          "grid": [
+            90,
+            59
+          ],
+          "pixelAnchor": [
+            33.114285714285714,
+            59
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic7.png",
+          "rectCount": 1038,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic8",
+          "source": "basic-final.png",
+          "sourceIndex": 8,
+          "crop": [
+            19,
+            744,
+            252,
+            209
+          ],
+          "grid": [
+            69,
+            57
+          ],
+          "pixelAnchor": [
+            35.1875,
+            57
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic8.png",
+          "rectCount": 940,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic9",
+          "source": "basic-final.png",
+          "sourceIndex": 9,
+          "crop": [
+            290,
+            680,
+            312,
+            249
+          ],
+          "grid": [
+            86,
+            68
+          ],
+          "pixelAnchor": [
+            57.588235294117645,
+            68
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic9.png",
+          "rectCount": 1012,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic10",
+          "source": "basic-final.png",
+          "sourceIndex": 10,
+          "crop": [
+            637,
+            675,
+            293,
+            314
+          ],
+          "grid": [
+            81,
+            86
+          ],
+          "pixelAnchor": [
+            43.8421052631579,
+            86
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic10.png",
+          "rectCount": 1117,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic11",
+          "source": "basic-final.png",
+          "sourceIndex": 11,
+          "crop": [
+            930,
+            770,
+            269,
+            211
+          ],
+          "grid": [
+            74,
+            58
+          ],
+          "pixelAnchor": [
+            46.857142857142854,
+            58
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic11.png",
+          "rectCount": 840,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic12",
+          "source": "basic-final.png",
+          "sourceIndex": 12,
+          "crop": [
+            15,
+            978,
+            270,
+            271
+          ],
+          "grid": [
+            74,
+            75
+          ],
+          "pixelAnchor": [
+            38.70967741935484,
+            75
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic12.png",
+          "rectCount": 1146,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic13",
+          "source": "basic-final.png",
+          "sourceIndex": 13,
+          "crop": [
+            299,
+            962,
+            271,
+            273
+          ],
+          "grid": [
+            75,
+            75
+          ],
+          "pixelAnchor": [
+            54,
+            75
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic13.png",
+          "rectCount": 1080,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic14",
+          "source": "basic-final.png",
+          "sourceIndex": 14,
+          "crop": [
+            560,
+            1132,
+            411,
+            114
+          ],
+          "grid": [
+            113,
+            31
+          ],
+          "pixelAnchor": [
+            55.744680851063826,
+            31
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic14.png",
+          "rectCount": 836,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "basic15",
+          "source": "basic-final.png",
+          "sourceIndex": 15,
+          "crop": [
+            988,
+            1044,
+            226,
+            210
+          ],
+          "grid": [
+            62,
+            58
+          ],
+          "pixelAnchor": [
+            39.666666666666664,
+            58
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-basic15.png",
+          "rectCount": 1021,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack0",
+          "source": "attack-final.png",
+          "sourceIndex": 0,
+          "crop": [
+            29,
+            16,
+            266,
+            303
+          ],
+          "grid": [
+            74,
+            85
+          ],
+          "pixelAnchor": [
+            40.45652173913044,
+            85
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack0.png",
+          "rectCount": 1086,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack1",
+          "source": "attack-final.png",
+          "sourceIndex": 1,
+          "crop": [
+            324,
+            38,
+            356,
+            281
+          ],
+          "grid": [
+            99,
+            78
+          ],
+          "pixelAnchor": [
+            27.333333333333332,
+            78
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack1.png",
+          "rectCount": 949,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack2",
+          "source": "attack-final.png",
+          "sourceIndex": 2,
+          "crop": [
+            650,
+            25,
+            280,
+            310
+          ],
+          "grid": [
+            78,
+            87
+          ],
+          "pixelAnchor": [
+            18.5,
+            87
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack2.png",
+          "rectCount": 1074,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack3",
+          "source": "attack-final.png",
+          "sourceIndex": 3,
+          "crop": [
+            949,
+            64,
+            228,
+            250
+          ],
+          "grid": [
+            64,
+            70
+          ],
+          "pixelAnchor": [
+            37.52272727272727,
+            70
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack3.png",
+          "rectCount": 978,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack4",
+          "source": "attack-final.png",
+          "sourceIndex": 4,
+          "crop": [
+            46,
+            417,
+            384,
+            199
+          ],
+          "grid": [
+            107,
+            56
+          ],
+          "pixelAnchor": [
+            55.535714285714285,
+            56
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack4.png",
+          "rectCount": 1186,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack5",
+          "source": "attack-final.png",
+          "sourceIndex": 5,
+          "crop": [
+            345,
+            385,
+            277,
+            231
+          ],
+          "grid": [
+            77,
+            64
+          ],
+          "pixelAnchor": [
+            44.111111111111114,
+            64
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack5.png",
+          "rectCount": 925,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack6",
+          "source": "attack-final.png",
+          "sourceIndex": 6,
+          "crop": [
+            660,
+            324,
+            219,
+            316
+          ],
+          "grid": [
+            61,
+            88
+          ],
+          "pixelAnchor": [
+            37.391304347826086,
+            88
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack6.png",
+          "rectCount": 933,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack7",
+          "source": "attack-final.png",
+          "sourceIndex": 7,
+          "crop": [
+            912,
+            347,
+            306,
+            269
+          ],
+          "grid": [
+            85,
+            75
+          ],
+          "pixelAnchor": [
+            4.1875,
+            75
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack7.png",
+          "rectCount": 846,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack8",
+          "source": "attack-final.png",
+          "sourceIndex": 8,
+          "crop": [
+            16,
+            689,
+            302,
+            236
+          ],
+          "grid": [
+            84,
+            66
+          ],
+          "pixelAnchor": [
+            18.4375,
+            66
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack8.png",
+          "rectCount": 882,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack9",
+          "source": "attack-final.png",
+          "sourceIndex": 9,
+          "crop": [
+            350,
+            701,
+            360,
+            239
+          ],
+          "grid": [
+            100,
+            67
+          ],
+          "pixelAnchor": [
+            50.69230769230769,
+            67
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack9.png",
+          "rectCount": 927,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack10",
+          "source": "attack-final.png",
+          "sourceIndex": 10,
+          "crop": [
+            670,
+            600,
+            233,
+            345
+          ],
+          "grid": [
+            65,
+            96
+          ],
+          "pixelAnchor": [
+            38.69230769230769,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack10.png",
+          "rectCount": 1084,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack11",
+          "source": "attack-final.png",
+          "sourceIndex": 11,
+          "crop": [
+            986,
+            626,
+            189,
+            322
+          ],
+          "grid": [
+            53,
+            90
+          ],
+          "pixelAnchor": [
+            29.071428571428573,
+            90
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack11.png",
+          "rectCount": 1155,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack12",
+          "source": "attack-final.png",
+          "sourceIndex": 12,
+          "crop": [
+            10,
+            931,
+            335,
+            322
+          ],
+          "grid": [
+            93,
+            90
+          ],
+          "pixelAnchor": [
+            54.38636363636363,
+            90
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack12.png",
+          "rectCount": 1326,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack13",
+          "source": "attack-final.png",
+          "sourceIndex": 13,
+          "crop": [
+            386,
+            928,
+            244,
+            329
+          ],
+          "grid": [
+            68,
+            92
+          ],
+          "pixelAnchor": [
+            47.319148936170215,
+            92
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack13.png",
+          "rectCount": 1194,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack14",
+          "source": "attack-final.png",
+          "sourceIndex": 14,
+          "crop": [
+            708,
+            925,
+            202,
+            348
+          ],
+          "grid": [
+            56,
+            97
+          ],
+          "pixelAnchor": [
+            25.5,
+            97
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack14.png",
+          "rectCount": 1177,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "attack15",
+          "source": "attack-final.png",
+          "sourceIndex": 15,
+          "crop": [
+            985,
+            925,
+            201,
+            344
+          ],
+          "grid": [
+            56,
+            96
+          ],
+          "pixelAnchor": [
+            33.55263157894737,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-attack15.png",
+          "rectCount": 971,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections0",
+          "source": "connections-final.png",
+          "sourceIndex": 0,
+          "crop": [
+            45,
+            3,
+            197,
+            293
+          ],
+          "grid": [
+            65,
+            96
+          ],
+          "pixelAnchor": [
+            42.878787878787875,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections0.png",
+          "rectCount": 1264,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections1",
+          "source": "connections-final.png",
+          "sourceIndex": 1,
+          "crop": [
+            350,
+            2,
+            258,
+            295
+          ],
+          "grid": [
+            85,
+            97
+          ],
+          "pixelAnchor": [
+            49.785714285714285,
+            97
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections1.png",
+          "rectCount": 1325,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections2",
+          "source": "connections-final.png",
+          "sourceIndex": 2,
+          "crop": [
+            656,
+            9,
+            285,
+            288
+          ],
+          "grid": [
+            93,
+            94
+          ],
+          "pixelAnchor": [
+            57.40350877192982,
+            94
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections2.png",
+          "rectCount": 1317,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections3",
+          "source": "connections-final.png",
+          "sourceIndex": 3,
+          "crop": [
+            984,
+            19,
+            328,
+            277
+          ],
+          "grid": [
+            107,
+            91
+          ],
+          "pixelAnchor": [
+            43.142857142857146,
+            91
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections3.png",
+          "rectCount": 1246,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections4",
+          "source": "connections-final.png",
+          "sourceIndex": 4,
+          "crop": [
+            19,
+            334,
+            309,
+            265
+          ],
+          "grid": [
+            101,
+            87
+          ],
+          "pixelAnchor": [
+            54.989010989010985,
+            87
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections4.png",
+          "rectCount": 1432,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections5",
+          "source": "connections-final.png",
+          "sourceIndex": 5,
+          "crop": [
+            328,
+            311,
+            328,
+            288
+          ],
+          "grid": [
+            107,
+            94
+          ],
+          "pixelAnchor": [
+            63.217948717948715,
+            94
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections5.png",
+          "rectCount": 1400,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections6",
+          "source": "connections-final.png",
+          "sourceIndex": 6,
+          "crop": [
+            656,
+            307,
+            314,
+            292
+          ],
+          "grid": [
+            103,
+            96
+          ],
+          "pixelAnchor": [
+            66.48148148148148,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections6.png",
+          "rectCount": 1521,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections7",
+          "source": "connections-final.png",
+          "sourceIndex": 7,
+          "crop": [
+            1032,
+            305,
+            209,
+            294
+          ],
+          "grid": [
+            68,
+            96
+          ],
+          "pixelAnchor": [
+            45.5,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections7.png",
+          "rectCount": 1328,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections8",
+          "source": "connections-final.png",
+          "sourceIndex": 8,
+          "crop": [
+            35,
+            680,
+            221,
+            198
+          ],
+          "grid": [
+            72,
+            65
+          ],
+          "pixelAnchor": [
+            39,
+            65
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections8.png",
+          "rectCount": 1210,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections9",
+          "source": "connections-final.png",
+          "sourceIndex": 9,
+          "crop": [
+            350,
+            669,
+            243,
+            216
+          ],
+          "grid": [
+            80,
+            71
+          ],
+          "pixelAnchor": [
+            19.903225806451612,
+            71
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections9.png",
+          "rectCount": 1108,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections10",
+          "source": "connections-final.png",
+          "sourceIndex": 10,
+          "crop": [
+            664,
+            649,
+            232,
+            233
+          ],
+          "grid": [
+            76,
+            76
+          ],
+          "pixelAnchor": [
+            4.111111111111111,
+            76
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections10.png",
+          "rectCount": 1217,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections11",
+          "source": "connections-final.png",
+          "sourceIndex": 11,
+          "crop": [
+            984,
+            645,
+            324,
+            236
+          ],
+          "grid": [
+            106,
+            77
+          ],
+          "pixelAnchor": [
+            75.17948717948718,
+            77
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections11.png",
+          "rectCount": 1232,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections12",
+          "source": "connections-final.png",
+          "sourceIndex": 12,
+          "crop": [
+            37,
+            925,
+            291,
+            257
+          ],
+          "grid": [
+            95,
+            84
+          ],
+          "pixelAnchor": [
+            13.285714285714286,
+            84
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections12.png",
+          "rectCount": 1340,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections13",
+          "source": "connections-final.png",
+          "sourceIndex": 13,
+          "crop": [
+            328,
+            907,
+            328,
+            274
+          ],
+          "grid": [
+            107,
+            90
+          ],
+          "pixelAnchor": [
+            36.46666666666667,
+            90
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections13.png",
+          "rectCount": 1521,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "connections14",
+          "source": "connections-final.png",
+          "sourceIndex": 14,
+          "crop": [
+            720,
+            905,
+            255,
+            280
+          ],
+          "grid": [
+            84,
+            92
+          ],
+          "pixelAnchor": [
+            48.05797101449275,
+            92
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections14.png",
+          "rectCount": 1299,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections15",
+          "source": "connections-final.png",
+          "sourceIndex": 15,
+          "crop": [
+            1013,
+            899,
+            203,
+            286
+          ],
+          "grid": [
+            67,
+            94
+          ],
+          "pixelAnchor": [
+            43.736111111111114,
+            94
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-connections15.png",
+          "rectCount": 1292,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "walk0",
+          "source": "walk-final.png",
+          "sourceIndex": 0,
+          "crop": [
+            45,
+            9,
+            339,
+            499
+          ],
+          "grid": [
+            65,
+            95
+          ],
+          "pixelAnchor": [
+            43.63636363636363,
+            95
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk0.png",
+          "rectCount": 1225,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "walk1",
+          "source": "walk-final.png",
+          "sourceIndex": 1,
+          "crop": [
+            423,
+            9,
+            304,
+            501
+          ],
+          "grid": [
+            58,
+            96
+          ],
+          "pixelAnchor": [
+            42.24561403508772,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk1.png",
+          "rectCount": 1252,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "walk2",
+          "source": "walk-final.png",
+          "sourceIndex": 2,
+          "crop": [
+            793,
+            9,
+            291,
+            503
+          ],
+          "grid": [
+            56,
+            96
+          ],
+          "pixelAnchor": [
+            43.72093023255814,
+            96
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk2.png",
+          "rectCount": 1222,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "walk3",
+          "source": "walk-final.png",
+          "sourceIndex": 3,
+          "crop": [
+            1183,
+            12,
+            353,
+            499
+          ],
+          "grid": [
+            67,
+            95
+          ],
+          "pixelAnchor": [
+            46.59090909090909,
+            95
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk3.png",
+          "rectCount": 1272,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "walk4",
+          "source": "walk-final.png",
+          "sourceIndex": 4,
+          "crop": [
+            34,
+            517,
+            350,
+            491
+          ],
+          "grid": [
+            67,
+            94
+          ],
+          "pixelAnchor": [
+            56.95454545454545,
+            94
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk4.png",
+          "rectCount": 1272,
+          "review": "integrated_candidate",
+          "edgeRisk": true
+        },
+        {
+          "id": "walk5",
+          "source": "walk-final.png",
+          "sourceIndex": 5,
+          "crop": [
+            413,
+            517,
+            302,
+            494
+          ],
+          "grid": [
+            58,
+            94
+          ],
+          "pixelAnchor": [
+            44.224489795918366,
+            94
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk5.png",
+          "rectCount": 1248,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "walk6",
+          "source": "walk-final.png",
+          "sourceIndex": 6,
+          "crop": [
+            792,
+            517,
+            298,
+            497
+          ],
+          "grid": [
+            57,
+            95
+          ],
+          "pixelAnchor": [
+            40.97727272727273,
+            95
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk6.png",
+          "rectCount": 1170,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "walk7",
+          "source": "walk-final.png",
+          "sourceIndex": 7,
+          "crop": [
+            1184,
+            517,
+            352,
+            500
+          ],
+          "grid": [
+            67,
+            95
+          ],
+          "pixelAnchor": [
+            43.45454545454545,
+            95
+          ],
+          "displayScale": 2.3541666666666665,
+          "png": "frames/kamisatoayaka-walk7.png",
+          "rectCount": 1229,
+          "review": "integrated_candidate",
+          "edgeRisk": false
+        }
+      ],
+      "notes": [
+        "新比例母版全套动作接入；八帧近远腿步态，非整图平移",
+        "源板与拟合保留，真机待验"
+      ],
+      "design": {
+        "key": "kamisatoayaka",
+        "name": "神里绫华",
+        "weapon": "sword",
+        "color": "#b1d9ff",
+        "identity": "居合中距离，冰风推进但可越过",
+        "moves": {
+          "A": {
+            "name": "神里流 · 横向居合",
+            "startup": 7,
+            "active": 3,
+            "recovery": 15,
+            "reach": 120,
+            "damage": 8,
+            "fx": "slash",
+            "notes": "手贴刀柄，半转髋出刀，剑路水平；视觉起手与有效帧需对应。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 142
+          },
+          "E": {
+            "name": "神里流 · 冰华",
+            "startup": 18,
+            "active": 5,
+            "recovery": 26,
+            "reach": 130,
+            "damage": 15,
+            "fx": "icepillar",
+            "notes": "脚边冰花抬升，作为近身对空候选；不用长距离投射判定。",
+            "height": "high",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 152,
+            "heightRange": 240
+          },
+          "Q": {
+            "name": "神里流 · 霜灭",
+            "startup": 28,
+            "active": 5,
+            "recovery": 35,
+            "reach": 440,
+            "damage": 34,
+            "fx": "blizzard",
+            "notes": "朝前的移动冰风团，有独立飞行速度；风团可被跳过，不能永久夹墙。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 475,
+            "projectile": true,
+            "flight": 55,
+            "speed": 8,
+            "interval": 12
+          }
+        },
+        "video": null,
+        "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+      },
+      "sequences": {
+        "idle": [
+          [
+            "basic0",
+            24
+          ],
+          [
+            "basic1",
+            24
+          ]
+        ],
+        "walk": [
+          [
+            "walk0",
+            4
+          ],
+          [
+            "walk1",
+            4
+          ],
+          [
+            "walk2",
+            4
+          ],
+          [
+            "walk3",
+            4
+          ],
+          [
+            "walk4",
+            4
+          ],
+          [
+            "walk5",
+            4
+          ],
+          [
+            "walk6",
+            4
+          ],
+          [
+            "walk7",
+            4
+          ]
+        ],
+        "crouch": [
+          [
+            "basic5",
+            36
+          ]
+        ],
+        "guard": [
+          [
+            "basic6",
+            36
+          ]
+        ],
+        "crouchGuard": [
+          [
+            "basic7",
+            36
+          ]
+        ],
+        "jump": [
+          [
+            "basic8",
+            6
+          ],
+          [
+            "basic9",
+            14
+          ],
+          [
+            "basic10",
+            14
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "hurt": [
+          [
+            "basic12",
+            20
+          ]
+        ],
+        "airHurt": [
+          [
+            "basic13",
+            24
+          ]
+        ],
+        "down": [
+          [
+            "basic14",
+            36
+          ]
+        ],
+        "getup": [
+          [
+            "basic15",
+            16
+          ],
+          [
+            "basic5",
+            8
+          ],
+          [
+            "basic0",
+            12
+          ]
+        ],
+        "A": [
+          [
+            "connections0",
+            3
+          ],
+          [
+            "connections1",
+            2
+          ],
+          [
+            "connections2",
+            2
+          ],
+          [
+            "connections3",
+            2
+          ],
+          [
+            "connections4",
+            1
+          ],
+          [
+            "connections5",
+            5
+          ],
+          [
+            "connections6",
+            5
+          ],
+          [
+            "connections7",
+            5
+          ]
+        ],
+        "lowA": [
+          [
+            "attack3",
+            8
+          ],
+          [
+            "attack4",
+            3
+          ],
+          [
+            "attack5",
+            14
+          ]
+        ],
+        "airA": [
+          [
+            "attack6",
+            8
+          ],
+          [
+            "attack7",
+            6
+          ],
+          [
+            "basic10",
+            10
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "E": [
+          [
+            "connections8",
+            6
+          ],
+          [
+            "connections9",
+            6
+          ],
+          [
+            "connections10",
+            6
+          ],
+          [
+            "connections11",
+            3
+          ],
+          [
+            "connections12",
+            2
+          ],
+          [
+            "connections13",
+            9
+          ],
+          [
+            "connections14",
+            9
+          ],
+          [
+            "connections15",
+            8
+          ]
+        ],
+        "Q": [
+          [
+            "attack11",
+            28
+          ],
+          [
+            "attack12",
+            5
+          ],
+          [
+            "attack13",
+            35
+          ]
+        ],
+        "win": [
+          [
+            "attack14",
+            18
+          ],
+          [
+            "attack15",
+            48
+          ]
+        ]
+      },
+      "pool": 1521,
+      "dataBytes": 1981813,
+      "gzipBytes": 346410,
+      "variant": "archive-final"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "READY"
+  ],
+  "first": "MOBILE DIAG DECODE | decode 0 left 35 | create 0/4042 | task 0/5425",
+  "last": "MOBILE DIAG READY | decode 1383 left 0 | create 4042/4042 | task 5425/5425",
+  "samples": 43
+}

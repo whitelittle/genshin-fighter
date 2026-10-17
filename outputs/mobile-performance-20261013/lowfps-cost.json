@@ -1,0 +1,240 @@
+{
+  "mockOnly": true,
+  "nativeFPSNotMeasured": true,
+  "cases": [
+    {
+      "pair": [
+        "furina",
+        "arlecchino"
+      ],
+      "scenario": "idle",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 14,
+        "callsPeak": 75,
+        "colorWrites": 366,
+        "instructionsPeak": 57875,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 14,
+        "callsPeak": 75,
+        "colorWrites": 372,
+        "instructionsPeak": 61075,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "furina",
+        "arlecchino"
+      ],
+      "scenario": "hits",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 1599,
+        "callsPeak": 5507,
+        "colorWrites": 71421,
+        "instructionsPeak": 248107,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 15,
+        "callsPeak": 79,
+        "colorWrites": 372,
+        "instructionsPeak": 60479,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "furina",
+        "arlecchino"
+      ],
+      "scenario": "skill",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 2460,
+        "callsPeak": 7977,
+        "colorWrites": 15260,
+        "instructionsPeak": 350555,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 1485,
+        "callsPeak": 4248,
+        "colorWrites": 1266,
+        "instructionsPeak": 506932,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "arlecchino",
+        "nahida"
+      ],
+      "scenario": "idle",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 14,
+        "callsPeak": 76,
+        "colorWrites": 367,
+        "instructionsPeak": 57876,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 13,
+        "callsPeak": 76,
+        "colorWrites": 373,
+        "instructionsPeak": 61076,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "arlecchino",
+        "nahida"
+      ],
+      "scenario": "hits",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 1503,
+        "callsPeak": 3469,
+        "colorWrites": 76247,
+        "instructionsPeak": 166461,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 16,
+        "callsPeak": 80,
+        "colorWrites": 373,
+        "instructionsPeak": 61280,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "arlecchino",
+        "nahida"
+      ],
+      "scenario": "skill",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 1866,
+        "callsPeak": 11139,
+        "colorWrites": 15877,
+        "instructionsPeak": 584139,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 924,
+        "callsPeak": 2979,
+        "colorWrites": 595,
+        "instructionsPeak": 365379,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "kamisatoayaka",
+        "nahida"
+      ],
+      "scenario": "idle",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 15,
+        "callsPeak": 82,
+        "colorWrites": 379,
+        "instructionsPeak": 60882,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 15,
+        "callsPeak": 73,
+        "colorWrites": 376,
+        "instructionsPeak": 63873,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "kamisatoayaka",
+        "nahida"
+      ],
+      "scenario": "hits",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 2091,
+        "callsPeak": 3713,
+        "colorWrites": 77829,
+        "instructionsPeak": 177613,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 17,
+        "callsPeak": 77,
+        "colorWrites": 376,
+        "instructionsPeak": 63877,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    },
+    {
+      "pair": [
+        "kamisatoayaka",
+        "nahida"
+      ],
+      "scenario": "skill",
+      "callbackHz": 10,
+      "before": {
+        "callsMean": 1934,
+        "callsPeak": 11144,
+        "colorWrites": 16671,
+        "instructionsPeak": 590044,
+        "simTicksIn6Seconds": 240,
+        "residentImages": 16000,
+        "LZ4Blocks": 887
+      },
+      "after": {
+        "callsMean": 976,
+        "callsPeak": 3257,
+        "colorWrites": 569,
+        "instructionsPeak": 396292,
+        "simTicksIn6Seconds": 360,
+        "residentImages": 12000,
+        "LZ4Blocks": 0
+      }
+    }
+  ]
+}

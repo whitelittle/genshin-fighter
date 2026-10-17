@@ -1,0 +1,65 @@
+{
+  "name": "gpt_20261013_手机无压缩_选人退出与AI修复",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 5,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_手机无压缩_选人退出与AI修复_A.gia",
+      "bytes": 5133924,
+      "sha256": "28fdcfe46d4a9a519f596b5f3cb1690f5c7c9ecbe99881b8c11a6a81c39e93bb"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_手机无压缩_选人退出与AI修复_仅脚本.gia",
+      "bytes": 4852150,
+      "sha256": "f734a330b9d225077d918e82335cac939b7554c01ab62cbf8c1dd0b493af0417"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_手机无压缩_选人退出与AI修复_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_手机无压缩_选人退出与AI修复.lua",
+      "bytes": 4851952,
+      "sha256": "b7f1c4f94a1365daf6192cd4ccf974d5dad709d5f10787289bbc105dfde700a1"
+    }
+  ],
+  "sourceSha256": "b7f1c4f94a1365daf6192cd4ccf974d5dad709d5f10787289bbc105dfde700a1",
+  "templateSha256": "9f374ed3f701b5fc9d4774380127956df32e493948cd002e93234a2a6e0cd591",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "self-contained GF3 graph variables, GF3Battle, GF3Quit -> GF3Close and stage settlement; replace old GF3 mount, preserve GFV2",
+  "nativeDeviceTested": false,
+  "externalDelivery": true,
+  "copySha256Verified": true,
+  "compressed": false,
+  "initialSixCharacterDecode": false,
+  "importsRequired": [
+    "gpt_20261013_手机无压缩_选人退出与AI修复_仅脚本.gia",
+    "gpt_20261013_GF3全部引用修正版.gia"
+  ],
+  "nodeSha256": "a9f7af4ac0f20247b52fcdf2735b023c35be060cde30901030b30ffd32bf188d",
+  "nodeEmbeddedVariables": 17,
+  "exportDirectory": "%USERPROFILE%/AppData/LocalLow/miHoYo/原神/BeyondLocal/Beyond_Local_Export",
+  "nodeSourceDirectory": "outputs/signal-reference-fix-20261013",
+  "previousNodeInvalidatedByNativeValidation": true
+}

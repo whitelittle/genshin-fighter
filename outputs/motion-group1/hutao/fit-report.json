@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "hutao",
+      "id": "basic0",
+      "grid": [
+        100,
+        98
+      ],
+      "rects": 1390,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic1",
+      "grid": [
+        73,
+        95
+      ],
+      "rects": 1268,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic2",
+      "grid": [
+        93,
+        96
+      ],
+      "rects": 1265,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic3",
+      "grid": [
+        99,
+        94
+      ],
+      "rects": 1292,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic4",
+      "grid": [
+        102,
+        96
+      ],
+      "rects": 1242,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic5",
+      "grid": [
+        95,
+        67
+      ],
+      "rects": 1187,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic6",
+      "grid": [
+        117,
+        93
+      ],
+      "rects": 1575,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic7",
+      "grid": [
+        105,
+        61
+      ],
+      "rects": 1165,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic8",
+      "grid": [
+        88,
+        67
+      ],
+      "rects": 829,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic9",
+      "grid": [
+        98,
+        94
+      ],
+      "rects": 1247,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic10",
+      "grid": [
+        113,
+        81
+      ],
+      "rects": 1298,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic11",
+      "grid": [
+        90,
+        60
+      ],
+      "rects": 1095,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic12",
+      "grid": [
+        101,
+        88
+      ],
+      "rects": 1242,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic13",
+      "grid": [
+        93,
+        78
+      ],
+      "rects": 1131,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic14",
+      "grid": [
+        121,
+        41
+      ],
+      "rects": 885,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "basic15",
+      "grid": [
+        96,
+        58
+      ],
+      "rects": 1194,
+      "source": "basic-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack0",
+      "grid": [
+        100,
+        89
+      ],
+      "rects": 1143,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack1",
+      "grid": [
+        137,
+        82
+      ],
+      "rects": 1459,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack2",
+      "grid": [
+        98,
+        87
+      ],
+      "rects": 1337,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack3",
+      "grid": [
+        97,
+        63
+      ],
+      "rects": 1029,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack4",
+      "grid": [
+        122,
+        58
+      ],
+      "rects": 1140,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack5",
+      "grid": [
+        112,
+        60
+      ],
+      "rects": 1015,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack6",
+      "grid": [
+        71,
+        95
+      ],
+      "rects": 1203,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack7",
+      "grid": [
+        112,
+        69
+      ],
+      "rects": 948,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack8",
+      "grid": [
+        74,
+        81
+      ],
+      "rects": 934,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack9",
+      "grid": [
+        139,
+        65
+      ],
+      "rects": 1100,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack10",
+      "grid": [
+        107,
+        77
+      ],
+      "rects": 1123,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack11",
+      "grid": [
+        76,
+        99
+      ],
+      "rects": 1161,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack12",
+      "grid": [
+        84,
+        97
+      ],
+      "rects": 1379,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack13",
+      "grid": [
+        72,
+        97
+      ],
+      "rects": 1444,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack14",
+      "grid": [
+        73,
+        97
+      ],
+      "rects": 1267,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "attack15",
+      "grid": [
+        74,
+        98
+      ],
+      "rects": 1284,
+      "source": "attack-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections0",
+      "grid": [
+        105,
+        98
+      ],
+      "rects": 1128,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections1",
+      "grid": [
+        125,
+        90
+      ],
+      "rects": 1276,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections2",
+      "grid": [
+        124,
+        90
+      ],
+      "rects": 1243,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections3",
+      "grid": [
+        147,
+        82
+      ],
+      "rects": 1294,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections4",
+      "grid": [
+        159,
+        75
+      ],
+      "rects": 1202,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections5",
+      "grid": [
+        141,
+        77
+      ],
+      "rects": 1058,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections6",
+      "grid": [
+        119,
+        84
+      ],
+      "rects": 1311,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections7",
+      "grid": [
+        105,
+        96
+      ],
+      "rects": 1167,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections8",
+      "grid": [
+        106,
+        98
+      ],
+      "rects": 1192,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections9",
+      "grid": [
+        123,
+        74
+      ],
+      "rects": 1128,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections10",
+      "grid": [
+        128,
+        69
+      ],
+      "rects": 1027,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections11",
+      "grid": [
+        128,
+        81
+      ],
+      "rects": 1352,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections12",
+      "grid": [
+        170,
+        76
+      ],
+      "rects": 1318,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections13",
+      "grid": [
+        112,
+        83
+      ],
+      "rects": 1124,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections14",
+      "grid": [
+        108,
+        92
+      ],
+      "rects": 1099,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "hutao",
+      "id": "connections15",
+      "grid": [
+        103,
+        94
+      ],
+      "rects": 1294,
+      "source": "connections-v3.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "hutao",
+      "pool": 1575,
+      "dataBytes": 1495396,
+      "gzipBytes": 267239
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

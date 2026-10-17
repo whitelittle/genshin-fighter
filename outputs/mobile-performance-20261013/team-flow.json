@@ -1,0 +1,71 @@
+[
+  {
+    "device": "KeyboardAndMouse",
+    "stockIndices": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "selectionToFightResultRematch": true,
+    "maxMockInstructions": 625473,
+    "stats": {
+      "controls": 16186,
+      "active": 2247,
+      "visibleImages": 2228,
+      "visibleTexts": 16,
+      "glyphs": 83
+    }
+  },
+  {
+    "device": "Mobile",
+    "stockIndices": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "selectionToFightResultRematch": true,
+    "maxMockInstructions": 631741,
+    "stats": {
+      "controls": 12186,
+      "active": 2243,
+      "visibleImages": 2218,
+      "visibleTexts": 16,
+      "glyphs": 77
+    }
+  },
+  {
+    "revealedRosterToGF3BattleFight": true,
+    "commonConfirmedHashes": 4,
+    "rollbacks": [
+      39,
+      40
+    ],
+    "mockOnly": true
+  }
+]

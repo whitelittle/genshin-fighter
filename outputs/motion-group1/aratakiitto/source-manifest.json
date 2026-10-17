@@ -1,0 +1,942 @@
+{
+  "version": "group1-v2",
+  "status": "art_candidate",
+  "deviceVerified": false,
+  "productionCombatChanged": false,
+  "roles": [
+    {
+      "key": "aratakiitto",
+      "name": "荒泷一斗 · 第一组",
+      "height": 237,
+      "variant": "group1-v2",
+      "design": {
+        "key": "aratakiitto",
+        "name": "荒泷一斗",
+        "weapon": "character-specific",
+        "color": "#aecbdc",
+        "identity": "按原作角色动作意图改编为横版格斗",
+        "evidence": "技能名沿用现有talent-index；数值、动作适配为候选。",
+        "moves": {
+          "A": {
+            "name": "普通攻击",
+            "startup": 10,
+            "active": 5,
+            "recovery": 25,
+            "reach": 145,
+            "damage": 9,
+            "fx": "slash",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 167,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+          },
+          "E": {
+            "name": "魔杀绝技·赤牛发破！",
+            "startup": 17,
+            "active": 5,
+            "recovery": 25,
+            "reach": 220,
+            "damage": 15,
+            "fx": "seal",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 242,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。"
+          },
+          "Q": {
+            "name": "最恶鬼王·一斗轰临！！",
+            "startup": 27,
+            "active": 5,
+            "recovery": 25,
+            "reach": 270,
+            "damage": 32,
+            "fx": "seal",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "effectExtent": 292,
+            "notes": "新动作探针候选；实际战斗数值继续分开管理，最终特效待讨论。",
+            "support": false,
+            "effectDuration": 0
+          }
+        }
+      },
+      "frames": [
+        {
+          "id": "basic0",
+          "source": "basic-v2.png",
+          "sourceIndex": 0,
+          "crop": [
+            44,
+            13,
+            228,
+            289
+          ],
+          "anchor": [
+            71.83333333333333,
+            286
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic1",
+          "source": "basic-v2.png",
+          "sourceIndex": 1,
+          "crop": [
+            424,
+            11,
+            189,
+            291
+          ],
+          "anchor": [
+            78.7518796992481,
+            288
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic2",
+          "source": "basic-v2.png",
+          "sourceIndex": 2,
+          "crop": [
+            724,
+            9,
+            222,
+            292
+          ],
+          "anchor": [
+            56.65999999999997,
+            286
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic3",
+          "source": "basic-v2.png",
+          "sourceIndex": 3,
+          "crop": [
+            1070,
+            21,
+            241,
+            281
+          ],
+          "anchor": [
+            69.20689655172418,
+            235
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic4",
+          "source": "basic-v2.png",
+          "sourceIndex": 4,
+          "crop": [
+            53,
+            315,
+            224,
+            283
+          ],
+          "anchor": [
+            108.63333333333333,
+            236
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic5",
+          "source": "basic-v2.png",
+          "sourceIndex": 5,
+          "crop": [
+            393,
+            393,
+            230,
+            206
+          ],
+          "anchor": [
+            135.8700361010831,
+            203
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic6",
+          "source": "basic-v2.png",
+          "sourceIndex": 6,
+          "crop": [
+            712,
+            332,
+            252,
+            267
+          ],
+          "anchor": [
+            66.5625,
+            261
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic7",
+          "source": "basic-v2.png",
+          "sourceIndex": 7,
+          "crop": [
+            1074,
+            410,
+            204,
+            190
+          ],
+          "anchor": [
+            75.54838709677415,
+            187
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic8",
+          "source": "basic-v2.png",
+          "sourceIndex": 8,
+          "crop": [
+            53,
+            671,
+            227,
+            231
+          ],
+          "anchor": [
+            92.1012658227848,
+            228
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic9",
+          "source": "basic-v2.png",
+          "sourceIndex": 9,
+          "crop": [
+            385,
+            605,
+            226,
+            291
+          ],
+          "anchor": [
+            77.92361111111109,
+            288
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic10",
+          "source": "basic-v2.png",
+          "sourceIndex": 10,
+          "crop": [
+            724,
+            638,
+            259,
+            242
+          ],
+          "anchor": [
+            141.453237410072,
+            239
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic11",
+          "source": "basic-v2.png",
+          "sourceIndex": 11,
+          "crop": [
+            1067,
+            728,
+            239,
+            175
+          ],
+          "anchor": [
+            111.32517482517483,
+            172
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic12",
+          "source": "basic-v2.png",
+          "sourceIndex": 12,
+          "crop": [
+            24,
+            919,
+            252,
+            270
+          ],
+          "anchor": [
+            72.41666666666667,
+            267
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic13",
+          "source": "basic-v2.png",
+          "sourceIndex": 13,
+          "crop": [
+            348,
+            933,
+            287,
+            228
+          ],
+          "anchor": [
+            114.0205128205128,
+            225
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic14",
+          "source": "basic-v2.png",
+          "sourceIndex": 14,
+          "crop": [
+            654,
+            1067,
+            360,
+            106
+          ],
+          "anchor": [
+            179.66388308977037,
+            102
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "basic15",
+          "source": "basic-v2.png",
+          "sourceIndex": 15,
+          "crop": [
+            1058,
+            1002,
+            246,
+            175
+          ],
+          "anchor": [
+            163.01522842639588,
+            172
+          ],
+          "unit": 0.8374558303886925,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack0",
+          "source": "attack-v2.png",
+          "sourceIndex": 0,
+          "crop": [
+            12,
+            10,
+            281,
+            234
+          ],
+          "anchor": [
+            89.11764705882354,
+            212
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack1",
+          "source": "attack-v2.png",
+          "sourceIndex": 1,
+          "crop": [
+            402,
+            8,
+            384,
+            236
+          ],
+          "anchor": [
+            226.28865979381442,
+            229
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack2",
+          "source": "attack-v2.png",
+          "sourceIndex": 2,
+          "crop": [
+            809,
+            9,
+            369,
+            235
+          ],
+          "anchor": [
+            220.91949152542384,
+            228
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack3",
+          "source": "attack-v2.png",
+          "sourceIndex": 3,
+          "crop": [
+            1188,
+            60,
+            320,
+            183
+          ],
+          "anchor": [
+            145.83219178082186,
+            173
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack4",
+          "source": "attack-v2.png",
+          "sourceIndex": 4,
+          "crop": [
+            54,
+            334,
+            413,
+            173
+          ],
+          "anchor": [
+            225.9401993355482,
+            167
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack5",
+          "source": "attack-v2.png",
+          "sourceIndex": 5,
+          "crop": [
+            500,
+            311,
+            286,
+            195
+          ],
+          "anchor": [
+            103.89492753623188,
+            174
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack6",
+          "source": "attack-v2.png",
+          "sourceIndex": 6,
+          "crop": [
+            828,
+            250,
+            266,
+            248
+          ],
+          "anchor": [
+            182.55294117647054,
+            245
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack7",
+          "source": "attack-v2.png",
+          "sourceIndex": 7,
+          "crop": [
+            1155,
+            258,
+            359,
+            225
+          ],
+          "anchor": [
+            133.54237288135596,
+            222
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack8",
+          "source": "attack-v2.png",
+          "sourceIndex": 8,
+          "crop": [
+            26,
+            522,
+            284,
+            232
+          ],
+          "anchor": [
+            129.07746478873239,
+            191
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack9",
+          "source": "attack-v2.png",
+          "sourceIndex": 9,
+          "crop": [
+            485,
+            528,
+            300,
+            226
+          ],
+          "anchor": [
+            188.2828282828283,
+            220
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack10",
+          "source": "attack-v2.png",
+          "sourceIndex": 10,
+          "crop": [
+            865,
+            523,
+            248,
+            231
+          ],
+          "anchor": [
+            80.30409356725147,
+            192
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack11",
+          "source": "attack-v2.png",
+          "sourceIndex": 11,
+          "crop": [
+            1255,
+            486,
+            269,
+            268
+          ],
+          "anchor": [
+            77.27450980392155,
+            239
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack12",
+          "source": "attack-v2.png",
+          "sourceIndex": 12,
+          "crop": [
+            40,
+            754,
+            281,
+            260
+          ],
+          "anchor": [
+            84.83333333333333,
+            218
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack13",
+          "source": "attack-v2.png",
+          "sourceIndex": 13,
+          "crop": [
+            481,
+            758,
+            198,
+            256
+          ],
+          "anchor": [
+            52.76470588235293,
+            250
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack14",
+          "source": "attack-v2.png",
+          "sourceIndex": 14,
+          "crop": [
+            855,
+            760,
+            221,
+            254
+          ],
+          "anchor": [
+            63.83870967741939,
+            251
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "attack15",
+          "source": "attack-v2.png",
+          "sourceIndex": 15,
+          "crop": [
+            1300,
+            767,
+            183,
+            247
+          ],
+          "anchor": [
+            127.20000000000005,
+            238
+          ],
+          "unit": 0.983402489626556,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections0",
+          "source": "connections-v2.png",
+          "sourceIndex": 0,
+          "crop": [
+            19,
+            10,
+            301,
+            259
+          ],
+          "anchor": [
+            98.02380952380952,
+            226
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections1",
+          "source": "connections-v2.png",
+          "sourceIndex": 1,
+          "crop": [
+            418,
+            18,
+            301,
+            251
+          ],
+          "anchor": [
+            87.12,
+            248
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections2",
+          "source": "connections-v2.png",
+          "sourceIndex": 2,
+          "crop": [
+            750,
+            10,
+            340,
+            259
+          ],
+          "anchor": [
+            110.82550335570465,
+            256
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections3",
+          "source": "connections-v2.png",
+          "sourceIndex": 3,
+          "crop": [
+            1140,
+            42,
+            352,
+            227
+          ],
+          "anchor": [
+            130.2833333333333,
+            224
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections4",
+          "source": "connections-v2.png",
+          "sourceIndex": 4,
+          "crop": [
+            44,
+            285,
+            442,
+            237
+          ],
+          "anchor": [
+            244.7642276422764,
+            229
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections5",
+          "source": "connections-v2.png",
+          "sourceIndex": 5,
+          "crop": [
+            481,
+            282,
+            322,
+            241
+          ],
+          "anchor": [
+            121.64024390243901,
+            197
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections6",
+          "source": "connections-v2.png",
+          "sourceIndex": 6,
+          "crop": [
+            845,
+            307,
+            357,
+            231
+          ],
+          "anchor": [
+            223.01351351351354,
+            213
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections7",
+          "source": "connections-v2.png",
+          "sourceIndex": 7,
+          "crop": [
+            1178,
+            274,
+            303,
+            253
+          ],
+          "anchor": [
+            99.29999999999995,
+            221
+          ],
+          "unit": 0.9367588932806324,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections8",
+          "source": "connections-v2.png",
+          "sourceIndex": 8,
+          "crop": [
+            59,
+            530,
+            239,
+            241
+          ],
+          "anchor": [
+            99.33898305084745,
+            202
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections9",
+          "source": "connections-v2.png",
+          "sourceIndex": 9,
+          "crop": [
+            398,
+            552,
+            296,
+            223
+          ],
+          "anchor": [
+            111.87460815047024,
+            185
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections10",
+          "source": "connections-v2.png",
+          "sourceIndex": 10,
+          "crop": [
+            810,
+            591,
+            245,
+            184
+          ],
+          "anchor": [
+            107.33663366336634,
+            157
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections11",
+          "source": "connections-v2.png",
+          "sourceIndex": 11,
+          "crop": [
+            1182,
+            537,
+            273,
+            237
+          ],
+          "anchor": [
+            69.39130434782601,
+            200
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections12",
+          "source": "connections-v2.png",
+          "sourceIndex": 12,
+          "crop": [
+            46,
+            767,
+            279,
+            245
+          ],
+          "anchor": [
+            112.02676399026763,
+            200
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections13",
+          "source": "connections-v2.png",
+          "sourceIndex": 13,
+          "crop": [
+            440,
+            794,
+            334,
+            219
+          ],
+          "anchor": [
+            216.67857142857144,
+            214
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections14",
+          "source": "connections-v2.png",
+          "sourceIndex": 14,
+          "crop": [
+            851,
+            811,
+            232,
+            206
+          ],
+          "anchor": [
+            90.42990654205607,
+            171
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        },
+        {
+          "id": "connections15",
+          "source": "connections-v2.png",
+          "sourceIndex": 15,
+          "crop": [
+            1218,
+            776,
+            238,
+            241
+          ],
+          "anchor": [
+            73.02127659574467,
+            200
+          ],
+          "unit": 1.0085106382978724,
+          "review": "candidate",
+          "edgeRisk": false
+        }
+      ],
+      "notes": [
+        "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+        "角色特效独立；具体最终技能效果待讨论。",
+        "状态型技能配套及正式战斗/真机仍需独立验收。"
+      ]
+    }
+  ]
+}

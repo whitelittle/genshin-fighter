@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "kirara",
+      "id": "basic0",
+      "grid": [
+        67,
+        98
+      ],
+      "rects": 1481,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic1",
+      "grid": [
+        70,
+        98
+      ],
+      "rects": 1497,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic2",
+      "grid": [
+        87,
+        98
+      ],
+      "rects": 1504,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic3",
+      "grid": [
+        77,
+        98
+      ],
+      "rects": 1480,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic4",
+      "grid": [
+        86,
+        94
+      ],
+      "rects": 1579,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic5",
+      "grid": [
+        73,
+        75
+      ],
+      "rects": 1524,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic6",
+      "grid": [
+        87,
+        93
+      ],
+      "rects": 1609,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic7",
+      "grid": [
+        78,
+        68
+      ],
+      "rects": 1414,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic8",
+      "grid": [
+        76,
+        75
+      ],
+      "rects": 1366,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic9",
+      "grid": [
+        76,
+        91
+      ],
+      "rects": 1558,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic10",
+      "grid": [
+        98,
+        77
+      ],
+      "rects": 1441,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic11",
+      "grid": [
+        82,
+        69
+      ],
+      "rects": 1563,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic12",
+      "grid": [
+        92,
+        84
+      ],
+      "rects": 1542,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic13",
+      "grid": [
+        100,
+        67
+      ],
+      "rects": 1634,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic14",
+      "grid": [
+        103,
+        40
+      ],
+      "rects": 1258,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "basic15",
+      "grid": [
+        82,
+        68
+      ],
+      "rects": 1376,
+      "source": "basic-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack0",
+      "grid": [
+        103,
+        104
+      ],
+      "rects": 1964,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack1",
+      "grid": [
+        126,
+        103
+      ],
+      "rects": 2205,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack2",
+      "grid": [
+        108,
+        102
+      ],
+      "rects": 2060,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack3",
+      "grid": [
+        111,
+        82
+      ],
+      "rects": 1955,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack4",
+      "grid": [
+        126,
+        77
+      ],
+      "rects": 1907,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack5",
+      "grid": [
+        112,
+        75
+      ],
+      "rects": 1863,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack6",
+      "grid": [
+        97,
+        101
+      ],
+      "rects": 1944,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack7",
+      "grid": [
+        126,
+        93
+      ],
+      "rects": 1819,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack8",
+      "grid": [
+        91,
+        78
+      ],
+      "rects": 1468,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack9",
+      "grid": [
+        99,
+        84
+      ],
+      "rects": 1603,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack10",
+      "grid": [
+        100,
+        77
+      ],
+      "rects": 1725,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack11",
+      "grid": [
+        121,
+        101
+      ],
+      "rects": 2246,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack12",
+      "grid": [
+        125,
+        96
+      ],
+      "rects": 1876,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack13",
+      "grid": [
+        122,
+        95
+      ],
+      "rects": 1721,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack14",
+      "grid": [
+        78,
+        100
+      ],
+      "rects": 1778,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "attack15",
+      "grid": [
+        82,
+        98
+      ],
+      "rects": 1778,
+      "source": "attack-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections0",
+      "grid": [
+        92,
+        98
+      ],
+      "rects": 1644,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections1",
+      "grid": [
+        100,
+        97
+      ],
+      "rects": 1730,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections2",
+      "grid": [
+        89,
+        97
+      ],
+      "rects": 1840,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections3",
+      "grid": [
+        117,
+        95
+      ],
+      "rects": 1598,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections4",
+      "grid": [
+        129,
+        89
+      ],
+      "rects": 1715,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections5",
+      "grid": [
+        101,
+        85
+      ],
+      "rects": 1645,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections6",
+      "grid": [
+        101,
+        88
+      ],
+      "rects": 1425,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections7",
+      "grid": [
+        95,
+        90
+      ],
+      "rects": 1458,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections8",
+      "grid": [
+        91,
+        98
+      ],
+      "rects": 1585,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections9",
+      "grid": [
+        82,
+        76
+      ],
+      "rects": 1415,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections10",
+      "grid": [
+        86,
+        75
+      ],
+      "rects": 1420,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections11",
+      "grid": [
+        97,
+        84
+      ],
+      "rects": 1621,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections12",
+      "grid": [
+        105,
+        85
+      ],
+      "rects": 1495,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections13",
+      "grid": [
+        106,
+        91
+      ],
+      "rects": 1480,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections14",
+      "grid": [
+        108,
+        89
+      ],
+      "rects": 1501,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kirara",
+      "id": "connections15",
+      "grid": [
+        87,
+        92
+      ],
+      "rects": 1460,
+      "source": "connections-v5.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "kirara",
+      "pool": 2246,
+      "dataBytes": 2105374,
+      "gzipBytes": 368908
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

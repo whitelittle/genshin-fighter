@@ -1,0 +1,15 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "READY"
+  ],
+  "first": "D5 DECODE | decode 0 left 36 | create 0/4042 | task 0/5438 | dt 17ms",
+  "last": "D5 READY | decode 1396 left 0 | create 4042/4042 | task 5438/5438 | dt 17ms",
+  "samples": 51,
+  "maxTextDuringCreate": 0,
+  "battleText": null
+}

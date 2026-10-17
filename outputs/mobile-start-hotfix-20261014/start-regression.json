@@ -1,0 +1,159 @@
+{
+  "scope": "isolated native UI approximation, not affected-user device",
+  "rows": [
+    {
+      "version": "before",
+      "case": "click-missing-coordinates",
+      "reproducedCannotStart": true
+    },
+    {
+      "version": "before",
+      "case": "click-coordinate-error",
+      "reproducedCannotStart": true
+    },
+    {
+      "version": "before",
+      "case": "release-without-click",
+      "reproducedCannotStart": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "case": "click-missing-coordinates",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "case": "click-coordinate-error",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "case": "release-without-click",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "case": "early-release-queued",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "case": "native-hit-test-tap",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "case": "spatial-area-requires-coordinates",
+      "passed": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "case": "click-missing-coordinates",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "case": "click-coordinate-error",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "case": "release-without-click",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "case": "early-release-queued",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "case": "native-hit-test-tap",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "Mobile",
+      "case": "spatial-area-requires-coordinates",
+      "passed": true
+    },
+    {
+      "version": "after",
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "case": "click-missing-coordinates",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "case": "click-coordinate-error",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "case": "release-without-click",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "KeyboardAndMouse",
+      "case": "early-release-queued",
+      "enteredMenuOnce": true
+    },
+    {
+      "version": "after",
+      "device": "KeyboardAndMouse",
+      "case": "spatial-area-requires-coordinates",
+      "passed": true
+    }
+  ],
+  "source": "genshin_fighter.lua"
+}

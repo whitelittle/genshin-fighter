@@ -1,0 +1,15 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "READY"
+  ],
+  "first": "D4 BATTLE DECODE | decode 0 left 35 | create 0/4042 | task 0/5435 | dt 17ms",
+  "last": "D4 BATTLE READY | decode 1393 left 0 | create 4042/4042 | task 5435/5435 | dt 17ms",
+  "samples": 44,
+  "maxTextDuringCreate": 0,
+  "battleText": null
+}

@@ -1,0 +1,8 @@
+{
+  "status": "rejected",
+  "userDecision": "三张板全部重新生成；先统一母版与武器颜色，保留错误版本后期清理",
+  "files": ["basic-v2.png", "attack-v2.png", "connections-v2.png", "attack-repair-rejected-v3.png", "attack-regenerated-superseded-v4.png", "basic-v5.png"],
+  "reason": "肢体错误且武器颜色前后不一致，旧板及单板返修不接入",
+  "mustNotIntegrate": true,
+  "deleteAuthorized": false
+}

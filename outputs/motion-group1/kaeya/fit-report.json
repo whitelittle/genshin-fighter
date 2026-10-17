@@ -1,0 +1,592 @@
+{
+  "profile": "96 body pixels, 32 colors, average sample, alpha threshold 220, disjoint exact rectangles",
+  "frames": [
+    {
+      "role": "kaeya",
+      "id": "basic0",
+      "grid": [
+        49,
+        98
+      ],
+      "rects": 1106,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic1",
+      "grid": [
+        51,
+        98
+      ],
+      "rects": 1165,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic2",
+      "grid": [
+        73,
+        96
+      ],
+      "rects": 1211,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic3",
+      "grid": [
+        73,
+        97
+      ],
+      "rects": 1070,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic4",
+      "grid": [
+        72,
+        97
+      ],
+      "rects": 1052,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic5",
+      "grid": [
+        70,
+        74
+      ],
+      "rects": 1171,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic6",
+      "grid": [
+        86,
+        94
+      ],
+      "rects": 1222,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic7",
+      "grid": [
+        80,
+        62
+      ],
+      "rects": 1080,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic8",
+      "grid": [
+        66,
+        62
+      ],
+      "rects": 998,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic9",
+      "grid": [
+        72,
+        87
+      ],
+      "rects": 1170,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic10",
+      "grid": [
+        65,
+        92
+      ],
+      "rects": 1038,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic11",
+      "grid": [
+        86,
+        55
+      ],
+      "rects": 970,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic12",
+      "grid": [
+        76,
+        87
+      ],
+      "rects": 1172,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic13",
+      "grid": [
+        95,
+        77
+      ],
+      "rects": 1034,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic14",
+      "grid": [
+        107,
+        30
+      ],
+      "rects": 786,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "basic15",
+      "grid": [
+        71,
+        58
+      ],
+      "rects": 848,
+      "source": "basic-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack0",
+      "grid": [
+        106,
+        94
+      ],
+      "rects": 1424,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack1",
+      "grid": [
+        167,
+        91
+      ],
+      "rects": 1381,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack2",
+      "grid": [
+        105,
+        93
+      ],
+      "rects": 1146,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack3",
+      "grid": [
+        73,
+        73
+      ],
+      "rects": 1138,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack4",
+      "grid": [
+        167,
+        63
+      ],
+      "rects": 1164,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack5",
+      "grid": [
+        93,
+        61
+      ],
+      "rects": 1168,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack6",
+      "grid": [
+        74,
+        97
+      ],
+      "rects": 1155,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack7",
+      "grid": [
+        106,
+        91
+      ],
+      "rects": 1189,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack8",
+      "grid": [
+        111,
+        95
+      ],
+      "rects": 1574,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack9",
+      "grid": [
+        120,
+        87
+      ],
+      "rects": 1378,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack10",
+      "grid": [
+        101,
+        88
+      ],
+      "rects": 1333,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack11",
+      "grid": [
+        112,
+        91
+      ],
+      "rects": 1435,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack12",
+      "grid": [
+        124,
+        90
+      ],
+      "rects": 1542,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack13",
+      "grid": [
+        107,
+        87
+      ],
+      "rects": 1350,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack14",
+      "grid": [
+        86,
+        91
+      ],
+      "rects": 1099,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "attack15",
+      "grid": [
+        59,
+        98
+      ],
+      "rects": 1088,
+      "source": "attack-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections0",
+      "grid": [
+        125,
+        99
+      ],
+      "rects": 1574,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections1",
+      "grid": [
+        141,
+        90
+      ],
+      "rects": 1458,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections2",
+      "grid": [
+        112,
+        96
+      ],
+      "rects": 1441,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections3",
+      "grid": [
+        166,
+        84
+      ],
+      "rects": 1697,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections4",
+      "grid": [
+        183,
+        86
+      ],
+      "rects": 1487,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections5",
+      "grid": [
+        187,
+        86
+      ],
+      "rects": 1783,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections6",
+      "grid": [
+        128,
+        87
+      ],
+      "rects": 1550,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections7",
+      "grid": [
+        132,
+        95
+      ],
+      "rects": 1658,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections8",
+      "grid": [
+        127,
+        99
+      ],
+      "rects": 1716,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections9",
+      "grid": [
+        118,
+        96
+      ],
+      "rects": 1722,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections10",
+      "grid": [
+        125,
+        94
+      ],
+      "rects": 1823,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections11",
+      "grid": [
+        149,
+        92
+      ],
+      "rects": 1923,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections12",
+      "grid": [
+        150,
+        92
+      ],
+      "rects": 1618,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections13",
+      "grid": [
+        141,
+        90
+      ],
+      "rects": 1862,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections14",
+      "grid": [
+        107,
+        92
+      ],
+      "rects": 1665,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    },
+    {
+      "role": "kaeya",
+      "id": "connections15",
+      "grid": [
+        126,
+        98
+      ],
+      "rects": 1652,
+      "source": "connections-v1.png",
+      "edgeRisk": false,
+      "exact": true
+    }
+  ],
+  "pools": [
+    {
+      "key": "kaeya",
+      "pool": 1923,
+      "dataBytes": 1687874,
+      "gzipBytes": 295113
+    }
+  ],
+  "verified": "native fitting reconstruction only",
+  "deviceVerified": false,
+  "productionCombatChanged": false
+}

@@ -1,0 +1,1700 @@
+{
+  "version": "group1-v2",
+  "status": "art_candidate",
+  "deviceVerified": false,
+  "productionCombatChanged": false,
+  "roles": [
+    {
+      "key": "hutao",
+      "name": "胡桃 · 第一组",
+      "height": 212,
+      "variant": "group1-v3",
+      "design": {
+        "key": "hutao",
+        "name": "胡桃",
+        "weapon": "polearm",
+        "color": "#ff9674",
+        "identity": "生命换压制；冲刺枪有可读收招",
+        "moves": {
+          "A": {
+            "name": "往生秘传枪法 · 点刺",
+            "startup": 8,
+            "active": 3,
+            "recovery": 17,
+            "reach": 135,
+            "damage": 8,
+            "fx": "thrust",
+            "notes": "小幅前探，与长枪钟离分开，不共用大幅旋转挥剑。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 12,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 157
+          },
+          "E": {
+            "name": "蝶引来生 · 火蝶突刺",
+            "startup": 17,
+            "active": 4,
+            "recovery": 28,
+            "reach": 230,
+            "damage": 17,
+            "fx": "butterfly",
+            "notes": "先压身前冲，枪尖带火，蝶尾低透明；生命消耗不能换无惩罚的永久追身。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 14,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 252,
+            "dash": 120
+          },
+          "Q": {
+            "name": "安神秘法 · 幽灵环扫",
+            "startup": 25,
+            "active": 5,
+            "recovery": 35,
+            "reach": 210,
+            "damage": 34,
+            "fx": "ghost",
+            "notes": "将幽灵由侧后扫至前方，近中距离爆发并按实际命中回血，不空挥回血。",
+            "height": "mid",
+            "hitCount": 1,
+            "blockstun": 18,
+            "hitstun": 20,
+            "cancel": "命中后可接特殊技；空挥不可取消",
+            "effectExtent": 232,
+            "support": false,
+            "effectDuration": 0
+          }
+        },
+        "video": "https://www.youtube.com/watch?v=2dcaQiLBqEo",
+        "evidence": "格斗数值为设计候选；动作由原作技能资料与可用官方实机视频约束"
+      },
+      "frames": [
+        {
+          "id": "basic0",
+          "source": "basic-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            23,
+            0,
+            302,
+            297
+          ],
+          "anchor": [
+            102.41624365482234,
+            294
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic0.png",
+          "grid": [
+            100,
+            98
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            33.912663461861705,
+            97.01010101010101
+          ],
+          "rectCount": 1390
+        },
+        {
+          "id": "basic1",
+          "source": "basic-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            363,
+            9,
+            220,
+            288
+          ],
+          "anchor": [
+            73.44055944055947,
+            285
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic1.png",
+          "grid": [
+            73,
+            95
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            24.368912905276552,
+            94.01041666666667
+          ],
+          "rectCount": 1268
+        },
+        {
+          "id": "basic2",
+          "source": "basic-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            646,
+            5,
+            281,
+            292
+          ],
+          "anchor": [
+            119.6062992125984,
+            289
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic2.png",
+          "grid": [
+            93,
+            96
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            39.58500294224787,
+            95.01369863013699
+          ],
+          "rectCount": 1265
+        },
+        {
+          "id": "basic3",
+          "source": "basic-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            968,
+            11,
+            300,
+            286
+          ],
+          "anchor": [
+            119.75301204819289,
+            283
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic3.png",
+          "grid": [
+            99,
+            94
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            39.51849397590365,
+            93.01398601398601
+          ],
+          "rectCount": 1292
+        },
+        {
+          "id": "basic4",
+          "source": "basic-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            12,
+            318,
+            309,
+            291
+          ],
+          "anchor": [
+            144.80327868852459,
+            288
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic4.png",
+          "grid": [
+            102,
+            96
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            47.79914053795957,
+            95.01030927835052
+          ],
+          "rectCount": 1242
+        },
+        {
+          "id": "basic5",
+          "source": "basic-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            360,
+            401,
+            287,
+            203
+          ],
+          "anchor": [
+            159.77499999999998,
+            200
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic5.png",
+          "grid": [
+            95,
+            67
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            52.887195121951216,
+            66.00985221674877
+          ],
+          "rectCount": 1187
+        },
+        {
+          "id": "basic6",
+          "source": "basic-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            664,
+            319,
+            356,
+            282
+          ],
+          "anchor": [
+            116.04166666666663,
+            279
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic6.png",
+          "grid": [
+            117,
+            93
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            38.13728932584269,
+            92.01063829787235
+          ],
+          "rectCount": 1575
+        },
+        {
+          "id": "basic7",
+          "source": "basic-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            959,
+            419,
+            319,
+            185
+          ],
+          "anchor": [
+            141.33333333333326,
+            182
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic7.png",
+          "grid": [
+            105,
+            61
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            46.52037617554857,
+            60.01081081081081
+          ],
+          "rectCount": 1165
+        },
+        {
+          "id": "basic8",
+          "source": "basic-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            26,
+            709,
+            268,
+            204
+          ],
+          "anchor": [
+            144.1891891891892,
+            201
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic8.png",
+          "grid": [
+            88,
+            67
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            47.34570391286809,
+            66.01470588235294
+          ],
+          "rectCount": 829
+        },
+        {
+          "id": "basic9",
+          "source": "basic-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            336,
+            615,
+            297,
+            284
+          ],
+          "anchor": [
+            127.98947368421051,
+            281
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic9.png",
+          "grid": [
+            98,
+            94
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            42.23221690590111,
+            93.00704225352112
+          ],
+          "rectCount": 1247
+        },
+        {
+          "id": "basic10",
+          "source": "basic-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            679,
+            636,
+            342,
+            247
+          ],
+          "anchor": [
+            119.03370786516848,
+            244
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic10.png",
+          "grid": [
+            113,
+            81
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            39.32985084433929,
+            80.01619433198381
+          ],
+          "rectCount": 1298
+        },
+        {
+          "id": "basic11",
+          "source": "basic-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            992,
+            733,
+            273,
+            181
+          ],
+          "anchor": [
+            174.37438423645312,
+            178
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic11.png",
+          "grid": [
+            90,
+            60
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            57.486060737292235,
+            59.005524861878456
+          ],
+          "rectCount": 1095
+        },
+        {
+          "id": "basic12",
+          "source": "basic-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            20,
+            943,
+            306,
+            266
+          ],
+          "anchor": [
+            115.59171597633136,
+            263
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic12.png",
+          "grid": [
+            101,
+            88
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            38.152821286305446,
+            87.00751879699249
+          ],
+          "rectCount": 1242
+        },
+        {
+          "id": "basic13",
+          "source": "basic-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            346,
+            938,
+            281,
+            237
+          ],
+          "anchor": [
+            116.93243243243245,
+            234
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic13.png",
+          "grid": [
+            93,
+            78
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            38.70005770895452,
+            77.0126582278481
+          ],
+          "rectCount": 1131
+        },
+        {
+          "id": "basic14",
+          "source": "basic-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            622,
+            1079,
+            367,
+            125
+          ],
+          "anchor": [
+            188.25192802056551,
+            111
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic14.png",
+          "grid": [
+            121,
+            41
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            62.06671196318373,
+            36.408
+          ],
+          "rectCount": 885
+        },
+        {
+          "id": "basic15",
+          "source": "basic-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            988,
+            1021,
+            290,
+            176
+          ],
+          "anchor": [
+            120.16981132075466,
+            173
+          ],
+          "unit": 0.7285223367697594,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-basic15.png",
+          "grid": [
+            96,
+            58
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            39.78035133376706,
+            57.01136363636363
+          ],
+          "rectCount": 1194
+        },
+        {
+          "id": "attack0",
+          "source": "attack-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            15,
+            67,
+            291,
+            258
+          ],
+          "anchor": [
+            72.78030303030303,
+            255
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack0.png",
+          "grid": [
+            100,
+            89
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            25.01041341247527,
+            87.96511627906976
+          ],
+          "rectCount": 1143
+        },
+        {
+          "id": "attack1",
+          "source": "attack-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            319,
+            87,
+            397,
+            238
+          ],
+          "anchor": [
+            83.66981132075472,
+            235
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack1.png",
+          "grid": [
+            137,
+            82
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            28.873461337388907,
+            80.96638655462185
+          ],
+          "rectCount": 1459
+        },
+        {
+          "id": "attack2",
+          "source": "attack-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            675,
+            72,
+            285,
+            253
+          ],
+          "anchor": [
+            48,
+            248
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack2.png",
+          "grid": [
+            98,
+            87
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            16.50526315789474,
+            85.28063241106719
+          ],
+          "rectCount": 1337
+        },
+        {
+          "id": "attack3",
+          "source": "attack-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            965,
+            142,
+            282,
+            183
+          ],
+          "anchor": [
+            98.11666666666656,
+            179
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack3.png",
+          "grid": [
+            97,
+            63
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            33.749349881796654,
+            61.622950819672134
+          ],
+          "rectCount": 1029
+        },
+        {
+          "id": "attack4",
+          "source": "attack-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            32,
+            454,
+            355,
+            169
+          ],
+          "anchor": [
+            157.86842105263156,
+            163
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack4.png",
+          "grid": [
+            122,
+            58
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            54.253372868791686,
+            55.94082840236686
+          ],
+          "rectCount": 1140
+        },
+        {
+          "id": "attack5",
+          "source": "attack-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            367,
+            450,
+            325,
+            174
+          ],
+          "anchor": [
+            112.13372093023258,
+            171
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack5.png",
+          "grid": [
+            112,
+            60
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            38.64300536672631,
+            58.96551724137931
+          ],
+          "rectCount": 1015
+        },
+        {
+          "id": "attack6",
+          "source": "attack-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            666,
+            346,
+            205,
+            277
+          ],
+          "anchor": [
+            147.73913043478262,
+            209
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack6.png",
+          "grid": [
+            71,
+            95
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            51.16818663838813,
+            71.67870036101083
+          ],
+          "rectCount": 1203
+        },
+        {
+          "id": "attack7",
+          "source": "attack-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            919,
+            372,
+            326,
+            201
+          ],
+          "anchor": [
+            66.34375,
+            198
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack7.png",
+          "grid": [
+            112,
+            69
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            22.792944785276074,
+            67.97014925373135
+          ],
+          "rectCount": 948
+        },
+        {
+          "id": "attack8",
+          "source": "attack-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            34,
+            670,
+            216,
+            235
+          ],
+          "anchor": [
+            82.38888888888889,
+            232
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack8.png",
+          "grid": [
+            74,
+            81
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            28.22582304526749,
+            79.96595744680852
+          ],
+          "rectCount": 934
+        },
+        {
+          "id": "attack9",
+          "source": "attack-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            293,
+            716,
+            405,
+            188
+          ],
+          "anchor": [
+            62.44055944055947,
+            185
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack9.png",
+          "grid": [
+            139,
+            65
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            21.430216696883374,
+            63.962765957446805
+          ],
+          "rectCount": 1100
+        },
+        {
+          "id": "attack10",
+          "source": "attack-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            648,
+            684,
+            310,
+            224
+          ],
+          "anchor": [
+            122.23696682464458,
+            213
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack10.png",
+          "grid": [
+            107,
+            77
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            42.19146919431281,
+            73.21875
+          ],
+          "rectCount": 1123
+        },
+        {
+          "id": "attack11",
+          "source": "attack-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            998,
+            621,
+            221,
+            289
+          ],
+          "anchor": [
+            56.56329113924062,
+            286
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack11.png",
+          "grid": [
+            76,
+            99
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            19.451629532046546,
+            97.97231833910034
+          ],
+          "rectCount": 1161
+        },
+        {
+          "id": "attack12",
+          "source": "attack-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            33,
+            921,
+            245,
+            282
+          ],
+          "anchor": [
+            61.6116504854369,
+            278
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack12.png",
+          "grid": [
+            84,
+            97
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            21.123994452149795,
+            95.62411347517731
+          ],
+          "rectCount": 1379
+        },
+        {
+          "id": "attack13",
+          "source": "attack-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            377,
+            918,
+            208,
+            283
+          ],
+          "anchor": [
+            67.86111111111109,
+            280
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack13.png",
+          "grid": [
+            72,
+            97
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            23.490384615384606,
+            95.97173144876325
+          ],
+          "rectCount": 1444
+        },
+        {
+          "id": "attack14",
+          "source": "attack-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            675,
+            920,
+            211,
+            282
+          ],
+          "anchor": [
+            107.046875,
+            279
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack14.png",
+          "grid": [
+            73,
+            97
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            37.035174763033176,
+            95.96808510638297
+          ],
+          "rectCount": 1267
+        },
+        {
+          "id": "attack15",
+          "source": "attack-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            996,
+            921,
+            216,
+            285
+          ],
+          "anchor": [
+            109.52806122448987,
+            282
+          ],
+          "unit": 0.7598566308243727,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-attack15.png",
+          "grid": [
+            74,
+            98
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            37.523502456538196,
+            96.96842105263158
+          ],
+          "rectCount": 1284
+        },
+        {
+          "id": "connections0",
+          "source": "connections-v3.png",
+          "sourceIndex": 0,
+          "crop": [
+            38,
+            0,
+            279,
+            261
+          ],
+          "anchor": [
+            96.6951219512195,
+            258
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections0.png",
+          "grid": [
+            105,
+            98
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            36.39063729346971,
+            96.8735632183908
+          ],
+          "rectCount": 1128
+        },
+        {
+          "id": "connections1",
+          "source": "connections-v3.png",
+          "sourceIndex": 1,
+          "crop": [
+            407,
+            23,
+            332,
+            238
+          ],
+          "anchor": [
+            134.68531468531467,
+            235
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections1.png",
+          "grid": [
+            125,
+            90
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            50.70983233633835,
+            88.8655462184874
+          ],
+          "rectCount": 1276
+        },
+        {
+          "id": "connections2",
+          "source": "connections-v3.png",
+          "sourceIndex": 2,
+          "crop": [
+            749,
+            21,
+            330,
+            240
+          ],
+          "anchor": [
+            130.77397260273972,
+            237
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections2.png",
+          "grid": [
+            124,
+            90
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            49.139310917393104,
+            88.875
+          ],
+          "rectCount": 1243
+        },
+        {
+          "id": "connections3",
+          "source": "connections-v3.png",
+          "sourceIndex": 3,
+          "crop": [
+            1137,
+            43,
+            391,
+            218
+          ],
+          "anchor": [
+            239.5333333333333,
+            213
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections3.png",
+          "grid": [
+            147,
+            82
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            90.0547314578005,
+            80.11926605504587
+          ],
+          "rectCount": 1294
+        },
+        {
+          "id": "connections4",
+          "source": "connections-v3.png",
+          "sourceIndex": 4,
+          "crop": [
+            32,
+            319,
+            423,
+            200
+          ],
+          "anchor": [
+            232.55855855855856,
+            196
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections4.png",
+          "grid": [
+            159,
+            75
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            87.4156283943518,
+            73.5
+          ],
+          "rectCount": 1202
+        },
+        {
+          "id": "connections5",
+          "source": "connections-v3.png",
+          "sourceIndex": 5,
+          "crop": [
+            481,
+            314,
+            374,
+            205
+          ],
+          "anchor": [
+            129.843137254902,
+            186
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections5.png",
+          "grid": [
+            141,
+            77
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            48.95155709342562,
+            69.86341463414634
+          ],
+          "rectCount": 1058
+        },
+        {
+          "id": "connections6",
+          "source": "connections-v3.png",
+          "sourceIndex": 6,
+          "crop": [
+            861,
+            298,
+            316,
+            222
+          ],
+          "anchor": [
+            70.07746478873241,
+            219
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections6.png",
+          "grid": [
+            119,
+            84
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            26.38993136031379,
+            82.86486486486487
+          ],
+          "rectCount": 1311
+        },
+        {
+          "id": "connections7",
+          "source": "connections-v3.png",
+          "sourceIndex": 7,
+          "crop": [
+            1203,
+            273,
+            279,
+            254
+          ],
+          "anchor": [
+            82.81632653061229,
+            251
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections7.png",
+          "grid": [
+            105,
+            96
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            31.167434715821827,
+            94.86614173228347
+          ],
+          "rectCount": 1167
+        },
+        {
+          "id": "connections8",
+          "source": "connections-v3.png",
+          "sourceIndex": 8,
+          "crop": [
+            38,
+            525,
+            281,
+            261
+          ],
+          "anchor": [
+            98.19653179190752,
+            258
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections8.png",
+          "grid": [
+            106,
+            98
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            37.04210807808611,
+            96.8735632183908
+          ],
+          "rectCount": 1192
+        },
+        {
+          "id": "connections9",
+          "source": "connections-v3.png",
+          "sourceIndex": 9,
+          "crop": [
+            399,
+            581,
+            328,
+            197
+          ],
+          "anchor": [
+            156.45614035087715,
+            194
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections9.png",
+          "grid": [
+            123,
+            74
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            58.67105263157893,
+            72.8730964467005
+          ],
+          "rectCount": 1128
+        },
+        {
+          "id": "connections10",
+          "source": "connections-v3.png",
+          "sourceIndex": 10,
+          "crop": [
+            764,
+            594,
+            341,
+            183
+          ],
+          "anchor": [
+            134.9403973509934,
+            180
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections10.png",
+          "grid": [
+            128,
+            69
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            50.65211396166321,
+            67.8688524590164
+          ],
+          "rectCount": 1027
+        },
+        {
+          "id": "connections11",
+          "source": "connections-v3.png",
+          "sourceIndex": 11,
+          "crop": [
+            1180,
+            562,
+            341,
+            216
+          ],
+          "anchor": [
+            122.47058823529414,
+            213
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections11.png",
+          "grid": [
+            128,
+            81
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            45.97136449887874,
+            79.875
+          ],
+          "rectCount": 1352
+        },
+        {
+          "id": "connections12",
+          "source": "connections-v3.png",
+          "sourceIndex": 12,
+          "crop": [
+            28,
+            818,
+            451,
+            201
+          ],
+          "anchor": [
+            257.36,
+            196
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections12.png",
+          "grid": [
+            170,
+            76
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            97.00931263858094,
+            74.1094527363184
+          ],
+          "rectCount": 1318
+        },
+        {
+          "id": "connections13",
+          "source": "connections-v3.png",
+          "sourceIndex": 13,
+          "crop": [
+            483,
+            799,
+            297,
+            220
+          ],
+          "anchor": [
+            71.89999999999998,
+            217
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections13.png",
+          "grid": [
+            112,
+            83
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            27.113804713804704,
+            81.86818181818182
+          ],
+          "rectCount": 1124
+        },
+        {
+          "id": "connections14",
+          "source": "connections-v3.png",
+          "sourceIndex": 14,
+          "crop": [
+            836,
+            776,
+            288,
+            245
+          ],
+          "anchor": [
+            84.33812949640287,
+            242
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections14.png",
+          "grid": [
+            108,
+            92
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            31.626798561151077,
+            90.87346938775511
+          ],
+          "rectCount": 1099
+        },
+        {
+          "id": "connections15",
+          "source": "connections-v3.png",
+          "sourceIndex": 15,
+          "crop": [
+            1217,
+            770,
+            274,
+            250
+          ],
+          "anchor": [
+            78.22297297297291,
+            247
+          ],
+          "unit": 0.8313725490196079,
+          "review": "candidate",
+          "edgeRisk": false,
+          "png": "frames/hutao-connections15.png",
+          "grid": [
+            103,
+            94
+          ],
+          "displayScale": 2.2083333333333335,
+          "pixelAnchor": [
+            29.404986190570106,
+            92.872
+          ],
+          "rectCount": 1294
+        }
+      ],
+      "notes": [
+        "第一批人物动作候选，基础/攻击/连接各16姿势，普攻/E各8张。",
+        "角色特效独立；具体最终技能效果待讨论。",
+        "状态型技能配套及正式战斗/真机仍需独立验收。"
+      ],
+      "sequences": {
+        "idle": [
+          [
+            "basic0",
+            24
+          ],
+          [
+            "basic1",
+            24
+          ]
+        ],
+        "walk": [
+          [
+            "basic2",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ],
+          [
+            "basic4",
+            8
+          ],
+          [
+            "basic3",
+            8
+          ]
+        ],
+        "crouch": [
+          [
+            "basic5",
+            36
+          ]
+        ],
+        "guard": [
+          [
+            "basic6",
+            36
+          ]
+        ],
+        "crouchGuard": [
+          [
+            "basic7",
+            36
+          ]
+        ],
+        "jump": [
+          [
+            "basic8",
+            6
+          ],
+          [
+            "basic9",
+            14
+          ],
+          [
+            "basic10",
+            14
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "hurt": [
+          [
+            "basic12",
+            20
+          ]
+        ],
+        "airHurt": [
+          [
+            "basic13",
+            24
+          ]
+        ],
+        "down": [
+          [
+            "basic14",
+            36
+          ]
+        ],
+        "getup": [
+          [
+            "basic15",
+            16
+          ],
+          [
+            "basic5",
+            8
+          ],
+          [
+            "basic0",
+            12
+          ]
+        ],
+        "A": [
+          [
+            "connections0",
+            3
+          ],
+          [
+            "connections1",
+            3
+          ],
+          [
+            "connections2",
+            2
+          ],
+          [
+            "connections3",
+            2
+          ],
+          [
+            "connections4",
+            1
+          ],
+          [
+            "connections5",
+            6
+          ],
+          [
+            "connections6",
+            6
+          ],
+          [
+            "connections7",
+            5
+          ]
+        ],
+        "lowA": [
+          [
+            "attack3",
+            8
+          ],
+          [
+            "attack4",
+            3
+          ],
+          [
+            "attack5",
+            14
+          ]
+        ],
+        "airA": [
+          [
+            "attack6",
+            8
+          ],
+          [
+            "attack7",
+            6
+          ],
+          [
+            "basic10",
+            10
+          ],
+          [
+            "basic11",
+            6
+          ]
+        ],
+        "E": [
+          [
+            "connections8",
+            6
+          ],
+          [
+            "connections9",
+            6
+          ],
+          [
+            "connections10",
+            5
+          ],
+          [
+            "connections11",
+            2
+          ],
+          [
+            "connections12",
+            2
+          ],
+          [
+            "connections13",
+            10
+          ],
+          [
+            "connections14",
+            9
+          ],
+          [
+            "connections15",
+            9
+          ]
+        ],
+        "Q": [
+          [
+            "attack11",
+            25
+          ],
+          [
+            "attack12",
+            5
+          ],
+          [
+            "attack13",
+            35
+          ]
+        ],
+        "win": [
+          [
+            "attack14",
+            18
+          ],
+          [
+            "attack15",
+            48
+          ]
+        ]
+      },
+      "pool": 1575,
+      "dataBytes": 1495396,
+      "gzipBytes": 267239
+    }
+  ]
+}

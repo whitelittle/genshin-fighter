@@ -1,0 +1,28 @@
+{
+  "protocolVersion": 6,
+  "changedModules": [
+    "gf_input",
+    "gf_scene_title"
+  ],
+  "nativeImportVerified": false,
+  "nativeDeviceVerified": false,
+  "externalDelivery": false,
+  "files": [
+    {
+      "variant": "stable",
+      "filename": "gpt_20261014_移动端开始紧急修复_稳定基线_仅脚本.gia",
+      "sha256": "8a65355f85427a5287ff50d2eaa3ee004ea91134d5aa6d56de564c2c580881a4",
+      "sourceSha256": "28df8ea490fdbbbbb85c92b1b3c532a4282145717001fcbe8634d8b51f553820",
+      "bytes": 4862888,
+      "reverseTemplateByteIdentical": true
+    },
+    {
+      "variant": "pc-budget",
+      "filename": "gpt_20261014_移动端开始紧急修复_保留PC预算候选_仅脚本.gia",
+      "sha256": "cab77806322be38c00ce09c643b3e416b4c01b1e9e69378926934ebc6b14ee69",
+      "sourceSha256": "5ffc56cba2b8315e74df6cba98d87985fa241a46cc824493c3bf54cd22274164",
+      "bytes": 4866100,
+      "reverseTemplateByteIdentical": true
+    }
+  ]
+}

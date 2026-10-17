@@ -1,0 +1,34 @@
+{
+  "raiden": {
+    "hi": {
+      "palette": 24,
+      "limit": 1250,
+      "poses": 78,
+      "maximum": 1247,
+      "mean": 1191.8
+    },
+    "lo": {
+      "palette": 18,
+      "limit": 760,
+      "poses": 78,
+      "maximum": 756,
+      "mean": 707.0
+    }
+  },
+  "nahida": {
+    "hi": {
+      "palette": 24,
+      "limit": 1250,
+      "poses": 74,
+      "maximum": 1249,
+      "mean": 1193.8
+    },
+    "lo": {
+      "palette": 18,
+      "limit": 760,
+      "poses": 74,
+      "maximum": 758,
+      "mean": 711.8
+    }
+  }
+}

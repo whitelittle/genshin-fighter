@@ -1,0 +1,16 @@
+{
+  "ayaka": "user approved new proportion master, full action set not remade",
+  "kaeyaWalk": "not accepted as complete alternating cycle; no runtime integration",
+  "sources": [
+    {
+      "key": "kaeya-walk",
+      "prompt": "Create a NEW true alternating walking sprite sheet for Kaeya for our 2D side-view fighting game. The reference sheet only establishes identity, proportions and costume; do not copy its incorrect walking poses. Same refined anime sprite paint style, slender adult ~7 heads tall, blue hair, eyepatch, fur cape, navy outfit. 8 sequential frames, exactly 4 columns by 2 rows, equally sized cells, fully transparent background, no labels or numbers. Every figure faces RIGHT, same slightly three-quarter side fighting camera, same body size, fixed root centered within each cell, shoes on a common ground baseline. One continuous normal WALK cycle, not running, not attacking, not translating an idle sprite. Frames left to right top row then bottom: 1 left leg forward heel contact / right leg back toe support; 2 weight rolls onto left foot, right heel lifts; 3 left support leg almost vertical, right bent knee passes forward; 4 left foot pushes off, right knee extends; 5 RIGHT foot forward heel contact and LEFT leg behind toe support (opposite to frame 1); 6 weight on right foot, left heel lifts; 7 right support leg vertical, left bent knee passes forward; 8 right toe pushes off, left leg extends, reconnect to frame1. Both leg silhouettes must clearly alternate, feet must pass rather than stay in the same wide stance, knees bend naturally. Mild opposing arm swing, his sheathed sword stays held low and stable in right hand without attacking, cape lags modestly. Tiny torso rise/fall but equal identity/scale. Separate silhouettes with generous gutters, no floor drawing, no effects.",
+      "source": "C:\\Users\\Cheng\\.codex\\generated_images\\01a0f9d6-536d-7a82-aa51-cdee567758ac\\exec-9cdc21fc-8f85-4ce2-bf3b-8a58a8457ee1.png"
+    },
+    {
+      "key": "ayaka-ratio",
+      "prompt": "Create ONE corrected full-body standing Kamisato Ayaka sprite for a side-view 2D fighting game, transparent background. Use first reference for character costume/identity only, second (Yanfei corrected master) for refined anime fighting-sprite drawing style and mature human proportions. Ayaka currently has a too-large chibi head in first reference; correct it to a slender young adult, about 6.5 to 7 head lengths tall, natural modest head size, longer anatomically consistent legs/torso, NOT enlarged eyes or child/chibi proportions. Keep Ayaka recognizable silver-blue high ponytail with bow, blue/gold/pink Inazuman dress with armored shoulders and sleeve details, fan and sword ornaments; normal body and hands. Same slight three-quarter side camera as Yanfei, faces RIGHT, calm combat-ready standing with slight knee bend, feet fully visible, sheathed katana held at side. Crisp refined hand-painted pixel-art anime contours matching Yanfei, no special effects, no aura, no text, no environment, no cropped hair or feet. Single figure only. This is a proportion master for later animation, not a portrait.",
+      "source": "C:\\Users\\Cheng\\.codex\\generated_images\\01a0f9d6-536d-7a82-aa51-cdee567758ac\\exec-eeea9dec-2bbc-45d6-b07f-aba4b718126c.png"
+    }
+  ]
+}

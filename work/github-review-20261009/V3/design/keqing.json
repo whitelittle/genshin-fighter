@@ -1,0 +1,291 @@
+{
+  "character": "keqing",
+  "name": "刻晴",
+  "status": "design_candidate_not_implemented",
+  "baseline": "V3 E",
+  "logic_hz": 60,
+  "no_element_reactions": true,
+  "weapon": "sword",
+  "animation_requirements": {
+    "idle": "2-4 real aligned poses, no gait interpolants",
+    "walk": "6 distinct grounded gait poses; reverse for back",
+    "hit": "standing/air/knockdown/getup",
+    "victim": "grab/pull/lift/rotation/release/land/getup",
+    "frame_event_policy": "logic tick, not render count"
+  },
+  "normals": [
+    {
+      "actionId": "light1",
+      "status": "design_candidate",
+      "startup": 5,
+      "active": 3,
+      "recovery": 10,
+      "damage": 32,
+      "box": {
+        "x": 35,
+        "y": 120,
+        "w": 145,
+        "h": 90
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "light2",
+      "status": "design_candidate",
+      "startup": 6,
+      "active": 3,
+      "recovery": 12,
+      "damage": 38,
+      "box": {
+        "x": 40,
+        "y": 100,
+        "w": 160,
+        "h": 120
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "light3",
+      "status": "design_candidate",
+      "startup": 7,
+      "active": 4,
+      "recovery": 16,
+      "damage": 48,
+      "box": {
+        "x": 30,
+        "y": 80,
+        "w": 180,
+        "h": 150
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "heavy",
+      "status": "design_candidate",
+      "startup": 10,
+      "active": 4,
+      "recovery": 18,
+      "damage": 70,
+      "box": {
+        "x": 30,
+        "y": 110,
+        "w": 190,
+        "h": 180
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "crouchLight",
+      "status": "design_candidate",
+      "startup": 5,
+      "active": 3,
+      "recovery": 9,
+      "damage": 26,
+      "box": {
+        "x": 40,
+        "y": 0,
+        "w": 150,
+        "h": 70
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "crouchHeavy",
+      "status": "design_candidate",
+      "startup": 9,
+      "active": 4,
+      "recovery": 22,
+      "damage": 60,
+      "box": {
+        "x": 40,
+        "y": 0,
+        "w": 200,
+        "h": 70
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "airLight",
+      "status": "design_candidate",
+      "startup": 5,
+      "active": 6,
+      "recovery": 8,
+      "damage": 34,
+      "box": {
+        "x": 30,
+        "y": -40,
+        "w": 150,
+        "h": 140
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    },
+    {
+      "actionId": "airHeavy",
+      "status": "design_candidate",
+      "startup": 8,
+      "active": 6,
+      "recovery": 12,
+      "damage": 58,
+      "box": {
+        "x": 20,
+        "y": -80,
+        "w": 180,
+        "h": 170
+      },
+      "box_space": "face-relative design units; integrate with C=100",
+      "source": "V3 weapon baseline candidate; not calibrated to new art",
+      "keyframes": [
+        "anticipation",
+        "commit",
+        "active",
+        "recover"
+      ],
+      "source_hashes": [],
+      "cancel_candidate": [
+        "skill",
+        "burst"
+      ]
+    }
+  ],
+  "specials": {
+    "E": {
+      "concept": "投楔，二次 E 瞬移到楔前完成单次斩击",
+      "proposal": {
+        "startup": 12,
+        "projectile_active": 30,
+        "recovery": 18,
+        "damage": 42,
+        "recast_window": 120,
+        "teleport_max_distance": 520,
+        "slash_startup": 6,
+        "slash_active": 3,
+        "slash_recovery": 20,
+        "slash_damage": 54
+      },
+      "rules": [
+        "楔碰撞和过期按逻辑 tick 更新",
+        "瞬移落点做边界与对手身体校正，不默认跨过墙",
+        "两次伤害分别有命中 ID，瞬移无默认全程无敌",
+        "落空/防御仍付收招，效果不能扩大逻辑盒"
+      ]
+    },
+    "Q": {
+      "concept": "短起手后先判定命中；命中后多方向斩影，单次总伤害",
+      "proposal": {
+        "startup": 10,
+        "active": 3,
+        "recovery": 26,
+        "damage": 180,
+        "confirmed_cinematic_ticks": 72
+      },
+      "rules": [
+        "命中后短演出，最终结算一次",
+        "落空或防御不进入完整演出",
+        "斩影只画少量剪影/剑路，不创建完整多个人物"
+      ]
+    },
+    "throw": {
+      "concept": "近身抓腕、转体牵引、低位摔出；对手独立被投序列",
+      "proposal": {
+        "startup": 6,
+        "grab_active": 2,
+        "whiff_recovery": 24,
+        "confirmed_ticks": 48,
+        "damage": 90
+      }
+    }
+  },
+  "required_tests": [
+    "idle-hit while body buffer pending",
+    "both directions and corner",
+    "miss/block/hit confirm",
+    "knockdown-getup and throw protection",
+    "copy/hash determinism and rollback",
+    "same-device performance vs E"
+  ],
+  "source_hashes": []
+}

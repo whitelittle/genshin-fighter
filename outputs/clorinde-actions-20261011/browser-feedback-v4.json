@@ -1,0 +1,408 @@
+{
+  "checks": [
+    {
+      "selected": "defeat",
+      "time": 0,
+      "total": 48,
+      "phase": 0,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 10,
+      "total": 48,
+      "phase": 1,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 20,
+      "total": 48,
+      "phase": 2,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 32,
+      "total": 48,
+      "phase": 3,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 0,
+      "total": 48,
+      "phase": 0,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 10,
+      "total": 48,
+      "phase": 1,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 20,
+      "total": 48,
+      "phase": 2,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "defeat",
+      "time": 32,
+      "total": 48,
+      "phase": 3,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 4,
+      "ready": true,
+      "events": [],
+      "fullStage": false
+    },
+    {
+      "selected": "Q",
+      "time": 12,
+      "total": 162,
+      "phase": 2,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": "头像切入",
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 10,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        },
+        {
+          "tick": 70,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 94,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 118,
+          "kind": "cinematic-slash"
+        }
+      ],
+      "fullStage": true
+    },
+    {
+      "selected": "Q",
+      "time": 42,
+      "total": 162,
+      "phase": 3,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": "蓄势",
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 10,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        },
+        {
+          "tick": 70,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 94,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 118,
+          "kind": "cinematic-slash"
+        }
+      ],
+      "fullStage": true
+    },
+    {
+      "selected": "Q",
+      "time": 52,
+      "total": 162,
+      "phase": 4,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": "释放",
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 10,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        },
+        {
+          "tick": 70,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 94,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 118,
+          "kind": "cinematic-slash"
+        }
+      ],
+      "fullStage": true
+    },
+    {
+      "selected": "Q",
+      "time": 70,
+      "total": 162,
+      "phase": 5,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": "持续冲击",
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 10,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        },
+        {
+          "tick": 70,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 94,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 118,
+          "kind": "cinematic-slash"
+        }
+      ],
+      "fullStage": true
+    },
+    {
+      "selected": "Q",
+      "time": 132,
+      "total": 162,
+      "phase": 8,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": "收束",
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 10,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        },
+        {
+          "tick": 70,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 94,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 118,
+          "kind": "cinematic-slash"
+        }
+      ],
+      "fullStage": true
+    },
+    {
+      "selected": "Q",
+      "time": 142,
+      "total": 162,
+      "phase": 9,
+      "branch": "hit",
+      "model": "raiden",
+      "cinematicStage": "恢复",
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 10,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        },
+        {
+          "tick": 70,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 94,
+          "kind": "cinematic-slash"
+        },
+        {
+          "tick": 118,
+          "kind": "cinematic-slash"
+        }
+      ],
+      "fullStage": false
+    },
+    {
+      "selected": "Q",
+      "time": 0,
+      "total": 24,
+      "phase": 0,
+      "branch": "block",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 3,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        }
+      ],
+      "fullStage": false
+    },
+    {
+      "selected": "Q",
+      "time": 0,
+      "total": 24,
+      "phase": 0,
+      "branch": "whiff",
+      "model": "raiden",
+      "cinematicStage": null,
+      "contact": null,
+      "root": [
+        410,
+        550
+      ],
+      "frames": 3,
+      "ready": true,
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm-shot"
+        }
+      ],
+      "fullStage": false
+    }
+  ],
+  "artAccepted": false,
+  "formalGame": false,
+  "simulator": false,
+  "device": false
+}

@@ -1,0 +1,54 @@
+{
+  "name": "gpt_20261013_同角色尺寸修复",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 6,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_同角色尺寸修复_A.gia",
+      "bytes": 5143952,
+      "sha256": "5ce9db081226a3a7eaabd5f03eabdcda357f0b67287b18f8c7f685b0169c6680"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_同角色尺寸修复_仅脚本.gia",
+      "bytes": 4862178,
+      "sha256": "1cccfd05a152a8e88e921733ddf4157de5afea88f6cd3387d70237095bfee3ce"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_同角色尺寸修复_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_同角色尺寸修复.lua",
+      "bytes": 4861980,
+      "sha256": "50c026607d7cbf60ecbb02822bc879934fbe2525a779eefb74766a01a426ee5e"
+    }
+  ],
+  "sourceSha256": "50c026607d7cbf60ecbb02822bc879934fbe2525a779eefb74766a01a426ee5e",
+  "templateSha256": "4c3cced3b68d59417b7f450e4dc8443eab929e5e4f401f49cd752af70e094424",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "GFV2 same-connection matchmaking and team flow; existing GF3 exit/close only; nodes unchanged",
+  "nativeDeviceTested": false,
+  "externalDelivery": false,
+  "scope": "body source-unit calibration candidate; same-character training review; native device pending"
+}

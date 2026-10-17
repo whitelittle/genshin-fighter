@@ -1,0 +1,41 @@
+{
+  "status": "plan only, no platform pool/load acceptance",
+  "common": [
+    "idle",
+    "walk",
+    "backwalk",
+    "jump",
+    "crouch",
+    "standguard",
+    "crouchguard",
+    "light1",
+    "light2",
+    "light3",
+    "hit_knockdown",
+    "wakeup"
+  ],
+  "streamOnDemand": [
+    "E",
+    "Q",
+    "throw",
+    "victim",
+    "victory",
+    "defeat",
+    "heavy",
+    "crouchlight",
+    "crouchheavy",
+    "airlight",
+    "airheavy",
+    "forwarddash",
+    "backdash"
+  ],
+  "cpuData": "store rectangles once per unique file; shared poses reuse same identity",
+  "visibleBodies": 2,
+  "bodyBuffersPerActor": 2,
+  "sharedBodyRectCapacityEstimate": 3876,
+  "swap": "predecode; bounded property diffs to inactive buffer; commit atomically; preserve previous complete pose",
+  "effects": "preallocate shared gun/bullet/impact/sword pools; no allocation per projectile",
+  "diffDrawing": "required runtime work, not implemented by PNG canvas preview",
+  "platformControlsAndHiddenPool": "not measured",
+  "overflow": "do not enable formal character until hard budget measured; never display partially written body"
+}

@@ -1,0 +1,477 @@
+{
+  "date": "2026-10-11",
+  "status": "standalone browser candidate check, not game simulation or device acceptance",
+  "loads": [
+    {
+      "key": "light1",
+      "mode": "fit",
+      "ready": true,
+      "frames": 4,
+      "total": 21
+    },
+    {
+      "key": "light2",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 26
+    },
+    {
+      "key": "light3",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 31
+    },
+    {
+      "key": "heavy",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 40
+    },
+    {
+      "key": "crouchlight",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 21
+    },
+    {
+      "key": "crouchheavy",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 38
+    },
+    {
+      "key": "airlight",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 22
+    },
+    {
+      "key": "airheavy",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 30
+    },
+    {
+      "key": "E",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 40
+    },
+    {
+      "key": "Q",
+      "mode": "fit",
+      "ready": true,
+      "frames": 3,
+      "total": 24
+    },
+    {
+      "key": "throw",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 50
+    },
+    {
+      "key": "victim",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 50
+    },
+    {
+      "key": "idle",
+      "mode": "fit",
+      "ready": true,
+      "frames": 2,
+      "total": 60
+    },
+    {
+      "key": "walk",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 36
+    },
+    {
+      "key": "backwalk",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 42
+    },
+    {
+      "key": "jump",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 43
+    },
+    {
+      "key": "forwarddash",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 30
+    },
+    {
+      "key": "backdash",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 30
+    },
+    {
+      "key": "crouch",
+      "mode": "fit",
+      "ready": true,
+      "frames": 4,
+      "total": 28
+    },
+    {
+      "key": "standguard",
+      "mode": "fit",
+      "ready": true,
+      "frames": 4,
+      "total": 34
+    },
+    {
+      "key": "crouchguard",
+      "mode": "fit",
+      "ready": true,
+      "frames": 4,
+      "total": 34
+    },
+    {
+      "key": "hit_knockdown",
+      "mode": "fit",
+      "ready": true,
+      "frames": 4,
+      "total": 36
+    },
+    {
+      "key": "wakeup",
+      "mode": "fit",
+      "ready": true,
+      "frames": 5,
+      "total": 36
+    },
+    {
+      "key": "victory",
+      "mode": "fit",
+      "ready": true,
+      "frames": 6,
+      "total": 68
+    },
+    {
+      "key": "defeat",
+      "mode": "fit",
+      "ready": true,
+      "frames": 4,
+      "total": 48
+    },
+    {
+      "key": "light1",
+      "mode": "source",
+      "ready": true,
+      "frames": 4,
+      "total": 21
+    },
+    {
+      "key": "light2",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 26
+    },
+    {
+      "key": "light3",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 31
+    },
+    {
+      "key": "heavy",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 40
+    },
+    {
+      "key": "crouchlight",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 21
+    },
+    {
+      "key": "crouchheavy",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 38
+    },
+    {
+      "key": "airlight",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 22
+    },
+    {
+      "key": "airheavy",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 30
+    },
+    {
+      "key": "E",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 40
+    },
+    {
+      "key": "Q",
+      "mode": "source",
+      "ready": true,
+      "frames": 3,
+      "total": 24
+    },
+    {
+      "key": "throw",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 50
+    },
+    {
+      "key": "victim",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 50
+    },
+    {
+      "key": "idle",
+      "mode": "source",
+      "ready": true,
+      "frames": 2,
+      "total": 60
+    },
+    {
+      "key": "walk",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 36
+    },
+    {
+      "key": "backwalk",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 42
+    },
+    {
+      "key": "jump",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 43
+    },
+    {
+      "key": "forwarddash",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 30
+    },
+    {
+      "key": "backdash",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 30
+    },
+    {
+      "key": "crouch",
+      "mode": "source",
+      "ready": true,
+      "frames": 4,
+      "total": 28
+    },
+    {
+      "key": "standguard",
+      "mode": "source",
+      "ready": true,
+      "frames": 4,
+      "total": 34
+    },
+    {
+      "key": "crouchguard",
+      "mode": "source",
+      "ready": true,
+      "frames": 4,
+      "total": 34
+    },
+    {
+      "key": "hit_knockdown",
+      "mode": "source",
+      "ready": true,
+      "frames": 4,
+      "total": 36
+    },
+    {
+      "key": "wakeup",
+      "mode": "source",
+      "ready": true,
+      "frames": 5,
+      "total": 36
+    },
+    {
+      "key": "victory",
+      "mode": "source",
+      "ready": true,
+      "frames": 6,
+      "total": 68
+    },
+    {
+      "key": "defeat",
+      "mode": "source",
+      "ready": true,
+      "frames": 4,
+      "total": 48
+    }
+  ],
+  "qBranches": [
+    {
+      "branch": "hit",
+      "frames": 10,
+      "total": 162
+    },
+    {
+      "branch": "block",
+      "frames": 3,
+      "total": 24
+    },
+    {
+      "branch": "whiff",
+      "frames": 3,
+      "total": 24
+    }
+  ],
+  "confirmedCutin": {
+    "tick": 18,
+    "fullStage": true,
+    "stage": "头像切入"
+  },
+  "pairedStates": [
+    {
+      "model": "raiden",
+      "phase": 0,
+      "tick": 0,
+      "contact": false,
+      "total": 50
+    },
+    {
+      "model": "raiden",
+      "phase": 1,
+      "tick": 4,
+      "contact": true,
+      "total": 50
+    },
+    {
+      "model": "raiden",
+      "phase": 2,
+      "tick": 8,
+      "contact": true,
+      "total": 50
+    },
+    {
+      "model": "raiden",
+      "phase": 3,
+      "tick": 16,
+      "contact": true,
+      "total": 50
+    },
+    {
+      "model": "raiden",
+      "phase": 4,
+      "tick": 32,
+      "contact": false,
+      "total": 50
+    },
+    {
+      "model": "raiden",
+      "phase": 5,
+      "tick": 38,
+      "contact": false,
+      "total": 50
+    },
+    {
+      "model": "nahida",
+      "phase": 0,
+      "tick": 0,
+      "contact": false,
+      "total": 50
+    },
+    {
+      "model": "nahida",
+      "phase": 1,
+      "tick": 4,
+      "contact": true,
+      "total": 50
+    },
+    {
+      "model": "nahida",
+      "phase": 2,
+      "tick": 8,
+      "contact": true,
+      "total": 50
+    },
+    {
+      "model": "nahida",
+      "phase": 3,
+      "tick": 16,
+      "contact": true,
+      "total": 50
+    },
+    {
+      "model": "nahida",
+      "phase": 4,
+      "tick": 32,
+      "contact": false,
+      "total": 50
+    },
+    {
+      "model": "nahida",
+      "phase": 5,
+      "tick": 38,
+      "contact": false,
+      "total": 50
+    }
+  ],
+  "fallAndWakeupRoots": {
+    "fall": [
+      410,
+      550
+    ],
+    "rise": [
+      410,
+      550
+    ]
+  },
+  "mirror": "whole-world body, opponent and FX transform; controls observed",
+  "consoleErrors": [],
+  "artAccepted": false
+}

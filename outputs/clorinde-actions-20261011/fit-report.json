@@ -1,0 +1,1806 @@
+{
+  "measurementPolicy": "Face skin regions are diagnostic only and do not drive scale. Declared source drawing units are provisional, uniform per sheet; no per-pose silhouette normalization or X/Y warping. Anatomy, body build, contact and final world scale require visual review.",
+  "motherFaceBox": [
+    600,
+    311,
+    658,
+    340
+  ],
+  "motherWorldScale": 0.25,
+  "groups": {
+    "idle": {
+      "sourcePoses": 2,
+      "displayPoses": 2,
+      "scale": 0.25,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            600,
+            311,
+            658,
+            340
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 746,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            615,
+            312,
+            670,
+            339
+          ],
+          "faceRatio": 0.9310344827586207,
+          "rectangles": 757,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "light1": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            404,
+            104,
+            452,
+            153
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1240,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            389,
+            130,
+            419,
+            152
+          ],
+          "faceRatio": 0.4489795918367347,
+          "rectangles": 1115,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            440,
+            97,
+            460,
+            124
+          ],
+          "faceRatio": 0.5510204081632653,
+          "rectangles": 1063,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            291,
+            94,
+            333,
+            137
+          ],
+          "faceRatio": 0.8775510204081632,
+          "rectangles": 1021,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "walk": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            401,
+            131,
+            420,
+            147
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1002,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            362,
+            135,
+            400,
+            149
+          ],
+          "faceRatio": 0.875,
+          "rectangles": 892,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            376,
+            137,
+            411,
+            151
+          ],
+          "faceRatio": 0.875,
+          "rectangles": 966,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            388,
+            126,
+            410,
+            148
+          ],
+          "faceRatio": 1.375,
+          "rectangles": 937,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            383,
+            127,
+            406,
+            148
+          ],
+          "faceRatio": 1.3125,
+          "rectangles": 861,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            373,
+            137,
+            389,
+            146
+          ],
+          "faceRatio": 0.5625,
+          "rectangles": 938,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "backwalk": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            318,
+            111,
+            354,
+            135
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 851,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            252,
+            111,
+            289,
+            134
+          ],
+          "faceRatio": 0.9583333333333334,
+          "rectangles": 771,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            235,
+            114,
+            267,
+            136
+          ],
+          "faceRatio": 0.9166666666666666,
+          "rectangles": 724,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            356,
+            107,
+            393,
+            135
+          ],
+          "faceRatio": 1.1666666666666667,
+          "rectangles": 873,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            284,
+            113,
+            320,
+            136
+          ],
+          "faceRatio": 0.9583333333333334,
+          "rectangles": 772,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            248,
+            104,
+            283,
+            127
+          ],
+          "faceRatio": 0.9583333333333334,
+          "rectangles": 749,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "jump": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            385,
+            124,
+            403,
+            140
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 885,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            383,
+            128,
+            403,
+            141
+          ],
+          "faceRatio": 0.8125,
+          "rectangles": 954,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            318,
+            120,
+            339,
+            132
+          ],
+          "faceRatio": 0.75,
+          "rectangles": 972,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            314,
+            113,
+            339,
+            132
+          ],
+          "faceRatio": 1.1875,
+          "rectangles": 802,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            348,
+            128,
+            384,
+            141
+          ],
+          "faceRatio": 0.8125,
+          "rectangles": 847,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            335,
+            124,
+            355,
+            137
+          ],
+          "faceRatio": 0.8125,
+          "rectangles": 912,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "forwarddash": {
+      "sourcePoses": 4,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            478,
+            154,
+            501,
+            170
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1245,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            613,
+            150,
+            639,
+            172
+          ],
+          "faceRatio": 1.375,
+          "rectangles": 1240,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            593,
+            149,
+            636,
+            169
+          ],
+          "faceRatio": 1.25,
+          "rectangles": 1101,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            360,
+            140,
+            379,
+            153
+          ],
+          "faceRatio": 0.8125,
+          "rectangles": 1052,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "backdash": {
+      "sourcePoses": 4,
+      "displayPoses": 6,
+      "scale": 0.5638629283489096,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            356,
+            161,
+            384,
+            175
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 874,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            352,
+            160,
+            378,
+            175
+          ],
+          "faceRatio": 1.0714285714285714,
+          "rectangles": 915,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            374,
+            143,
+            423,
+            173
+          ],
+          "faceRatio": 2.142857142857143,
+          "rectangles": 918,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            371,
+            147,
+            418,
+            174
+          ],
+          "faceRatio": 1.9285714285714286,
+          "rectangles": 823,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "crouch": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.603836530442035,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            395,
+            160,
+            439,
+            176
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1126,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            382,
+            147,
+            433,
+            180
+          ],
+          "faceRatio": 2.0625,
+          "rectangles": 1060,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            469,
+            146,
+            524,
+            176
+          ],
+          "faceRatio": 1.875,
+          "rectangles": 961,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            369,
+            144,
+            419,
+            175
+          ],
+          "faceRatio": 1.9375,
+          "rectangles": 928,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [
+        {
+          "bbox": [
+            1046,
+            382,
+            1047,
+            383
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ],
+      "visualAccepted": false
+    },
+    "standguard": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.5,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            273,
+            166,
+            316,
+            184
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 808,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            291,
+            163,
+            336,
+            182
+          ],
+          "faceRatio": 1.0555555555555556,
+          "rectangles": 805,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            295,
+            147,
+            308,
+            169
+          ],
+          "faceRatio": 1.2222222222222223,
+          "rectangles": 782,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            284,
+            158,
+            309,
+            171
+          ],
+          "faceRatio": 0.7222222222222222,
+          "rectangles": 747,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "crouchguard": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.6452762923351159,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            418,
+            187,
+            441,
+            206
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1230,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            440,
+            172,
+            475,
+            208
+          ],
+          "faceRatio": 1.894736842105263,
+          "rectangles": 1082,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            498,
+            167,
+            548,
+            193
+          ],
+          "faceRatio": 1.368421052631579,
+          "rectangles": 1181,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            419,
+            174,
+            481,
+            205
+          ],
+          "faceRatio": 1.631578947368421,
+          "rectangles": 1094,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "light2": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            270,
+            109,
+            295,
+            119
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 862,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            244,
+            111,
+            257,
+            119
+          ],
+          "faceRatio": 0.8,
+          "rectangles": 794,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            272,
+            110,
+            294,
+            122
+          ],
+          "faceRatio": 1.2,
+          "rectangles": 849,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            258,
+            112,
+            272,
+            121
+          ],
+          "faceRatio": 0.9,
+          "rectangles": 874,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            246,
+            101,
+            264,
+            109
+          ],
+          "faceRatio": 0.8,
+          "rectangles": 824,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            266,
+            108,
+            285,
+            118
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 841,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "light3": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            271,
+            110,
+            309,
+            136
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 854,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            270,
+            129,
+            290,
+            143
+          ],
+          "faceRatio": 0.5384615384615384,
+          "rectangles": 954,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            358,
+            118,
+            382,
+            131
+          ],
+          "faceRatio": 0.5,
+          "rectangles": 847,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            305,
+            111,
+            321,
+            124
+          ],
+          "faceRatio": 0.5,
+          "rectangles": 828,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            289,
+            123,
+            304,
+            133
+          ],
+          "faceRatio": 0.38461538461538464,
+          "rectangles": 766,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            235,
+            120,
+            250,
+            131
+          ],
+          "faceRatio": 0.4230769230769231,
+          "rectangles": 814,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "heavy": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            248,
+            112,
+            268,
+            122
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 849,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            235,
+            111,
+            267,
+            124
+          ],
+          "faceRatio": 1.3,
+          "rectangles": 819,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            267,
+            108,
+            286,
+            123
+          ],
+          "faceRatio": 1.5,
+          "rectangles": 877,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            249,
+            114,
+            274,
+            126
+          ],
+          "faceRatio": 1.2,
+          "rectangles": 909,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            262,
+            107,
+            290,
+            123
+          ],
+          "faceRatio": 1.6,
+          "rectangles": 905,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            285,
+            98,
+            307,
+            126
+          ],
+          "faceRatio": 2.8,
+          "rectangles": 926,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [
+        {
+          "bbox": [
+            200,
+            1202,
+            201,
+            1204
+          ],
+          "area": 2,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            690,
+            1202,
+            691,
+            1203
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ],
+      "visualAccepted": false
+    },
+    "crouchlight": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            358,
+            138,
+            397,
+            160
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1027,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            309,
+            139,
+            332,
+            153
+          ],
+          "faceRatio": 0.6363636363636364,
+          "rectangles": 949,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            304,
+            128,
+            320,
+            142
+          ],
+          "faceRatio": 0.6363636363636364,
+          "rectangles": 849,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            330,
+            124,
+            364,
+            140
+          ],
+          "faceRatio": 0.7272727272727273,
+          "rectangles": 837,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            303,
+            132,
+            341,
+            145
+          ],
+          "faceRatio": 0.5909090909090909,
+          "rectangles": 871,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            371,
+            136,
+            392,
+            149
+          ],
+          "faceRatio": 0.5909090909090909,
+          "rectangles": 963,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "crouchheavy": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            308,
+            139,
+            356,
+            167
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 799,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            333,
+            139,
+            376,
+            163
+          ],
+          "faceRatio": 0.8571428571428571,
+          "rectangles": 908,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            323,
+            138,
+            353,
+            163
+          ],
+          "faceRatio": 0.8928571428571429,
+          "rectangles": 901,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            308,
+            133,
+            351,
+            158
+          ],
+          "faceRatio": 0.8928571428571429,
+          "rectangles": 807,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            322,
+            137,
+            369,
+            161
+          ],
+          "faceRatio": 0.8571428571428571,
+          "rectangles": 901,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            314,
+            140,
+            357,
+            166
+          ],
+          "faceRatio": 0.9285714285714286,
+          "rectangles": 800,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "airlight": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            325,
+            131,
+            349,
+            143
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 916,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            302,
+            131,
+            318,
+            140
+          ],
+          "faceRatio": 0.75,
+          "rectangles": 912,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            345,
+            131,
+            358,
+            145
+          ],
+          "faceRatio": 1.1666666666666667,
+          "rectangles": 977,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            307,
+            136,
+            326,
+            147
+          ],
+          "faceRatio": 0.9166666666666666,
+          "rectangles": 928,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            348,
+            127,
+            364,
+            139
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 936,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            343,
+            221,
+            360,
+            235
+          ],
+          "faceRatio": 1.1666666666666667,
+          "rectangles": 950,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "airheavy": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            360,
+            134,
+            379,
+            145
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 878,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            222,
+            110,
+            232,
+            121
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 896,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            358,
+            128,
+            385,
+            142
+          ],
+          "faceRatio": 1.2727272727272727,
+          "rectangles": 916,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            651,
+            217,
+            673,
+            244
+          ],
+          "faceRatio": 2.4545454545454546,
+          "rectangles": 831,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            337,
+            111,
+            354,
+            132
+          ],
+          "faceRatio": 1.9090909090909092,
+          "rectangles": 883,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            744,
+            298,
+            818,
+            334
+          ],
+          "faceRatio": 3.272727272727273,
+          "rectangles": 990,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "E": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            270,
+            125,
+            290,
+            136
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 939,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            259,
+            120,
+            276,
+            130
+          ],
+          "faceRatio": 0.9090909090909091,
+          "rectangles": 883,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            252,
+            123,
+            274,
+            137
+          ],
+          "faceRatio": 1.2727272727272727,
+          "rectangles": 960,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            356,
+            129,
+            371,
+            138
+          ],
+          "faceRatio": 0.8181818181818182,
+          "rectangles": 977,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            357,
+            114,
+            366,
+            122
+          ],
+          "faceRatio": 0.7272727272727273,
+          "rectangles": 758,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            242,
+            108,
+            257,
+            124
+          ],
+          "faceRatio": 1.4545454545454546,
+          "rectangles": 716,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "Q": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            240,
+            110,
+            256,
+            123
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 804,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            271,
+            96,
+            305,
+            119
+          ],
+          "faceRatio": 1.7692307692307692,
+          "rectangles": 800,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            288,
+            104,
+            310,
+            126
+          ],
+          "faceRatio": 1.6923076923076923,
+          "rectangles": 815,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            297,
+            107,
+            315,
+            119
+          ],
+          "faceRatio": 0.9230769230769231,
+          "rectangles": 645,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            196,
+            115,
+            209,
+            123
+          ],
+          "faceRatio": 0.6153846153846154,
+          "rectangles": 920,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            244,
+            113,
+            272,
+            124
+          ],
+          "faceRatio": 0.8461538461538461,
+          "rectangles": 782,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "throw": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            304,
+            132,
+            325,
+            144
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 880,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            402,
+            174,
+            452,
+            220
+          ],
+          "faceRatio": 3.8333333333333335,
+          "rectangles": 926,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            307,
+            148,
+            331,
+            159
+          ],
+          "faceRatio": 0.9166666666666666,
+          "rectangles": 928,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            324,
+            120,
+            349,
+            142
+          ],
+          "faceRatio": 1.8333333333333333,
+          "rectangles": 887,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": [
+            354,
+            101,
+            362,
+            109
+          ],
+          "faceRatio": 0.6666666666666666,
+          "rectangles": 943,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            242,
+            118,
+            258,
+            130
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 759,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "victim": {
+      "sourcePoses": 6,
+      "displayPoses": 6,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            326,
+            133,
+            346,
+            149
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1102,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            374,
+            129,
+            402,
+            143
+          ],
+          "faceRatio": 0.875,
+          "rectangles": 1012,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            227,
+            86,
+            237,
+            97
+          ],
+          "faceRatio": 0.6875,
+          "rectangles": 894,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": null,
+          "faceRatio": null,
+          "rectangles": 734,
+          "canvasContact": false
+        },
+        {
+          "frame": 4,
+          "visibleFaceBox": null,
+          "faceRatio": null,
+          "rectangles": 532,
+          "canvasContact": false
+        },
+        {
+          "frame": 5,
+          "visibleFaceBox": [
+            375,
+            127,
+            401,
+            145
+          ],
+          "faceRatio": 1.125,
+          "rectangles": 670,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [
+        {
+          "bbox": [
+            100,
+            493,
+            101,
+            494
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            939,
+            1353,
+            940,
+            1354
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ],
+      "visualAccepted": false
+    },
+    "hit_knockdown": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            354,
+            138,
+            381,
+            152
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1516,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            293,
+            108,
+            331,
+            132
+          ],
+          "faceRatio": 1.7142857142857142,
+          "rectangles": 1408,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            192,
+            109,
+            222,
+            151
+          ],
+          "faceRatio": 3.0,
+          "rectangles": 978,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            529,
+            136,
+            569,
+            161
+          ],
+          "faceRatio": 1.7857142857142858,
+          "rectangles": 846,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [
+        {
+          "bbox": [
+            291,
+            43,
+            292,
+            44
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ],
+      "visualAccepted": false
+    },
+    "wakeup": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.70703125,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": null,
+          "faceRatio": null,
+          "rectangles": 866,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            514,
+            166,
+            549,
+            182
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 1013,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            491,
+            143,
+            527,
+            164
+          ],
+          "faceRatio": 1.3125,
+          "rectangles": 1202,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            342,
+            124,
+            369,
+            150
+          ],
+          "faceRatio": 1.625,
+          "rectangles": 1185,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "victory": {
+      "sourcePoses": 4,
+      "displayPoses": 6,
+      "scale": 0.4713541666666667,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            317,
+            161,
+            339,
+            174
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 783,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            295,
+            148,
+            322,
+            167
+          ],
+          "faceRatio": 1.4615384615384615,
+          "rectangles": 701,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            315,
+            158,
+            333,
+            172
+          ],
+          "faceRatio": 1.0769230769230769,
+          "rectangles": 755,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            299,
+            158,
+            324,
+            173
+          ],
+          "faceRatio": 1.1538461538461537,
+          "rectangles": 727,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    },
+    "defeat": {
+      "sourcePoses": 4,
+      "displayPoses": 4,
+      "scale": 0.544360902255639,
+      "frames": [
+        {
+          "frame": 0,
+          "visibleFaceBox": [
+            336,
+            141,
+            358,
+            161
+          ],
+          "faceRatio": 1.0,
+          "rectangles": 884,
+          "canvasContact": false
+        },
+        {
+          "frame": 1,
+          "visibleFaceBox": [
+            397,
+            133,
+            439,
+            157
+          ],
+          "faceRatio": 1.2,
+          "rectangles": 855,
+          "canvasContact": false
+        },
+        {
+          "frame": 2,
+          "visibleFaceBox": [
+            406,
+            149,
+            432,
+            162
+          ],
+          "faceRatio": 0.65,
+          "rectangles": 821,
+          "canvasContact": false
+        },
+        {
+          "frame": 3,
+          "visibleFaceBox": [
+            400,
+            147,
+            441,
+            169
+          ],
+          "faceRatio": 1.1,
+          "rectangles": 742,
+          "canvasContact": false
+        }
+      ],
+      "fragments": [],
+      "visualAccepted": false
+    }
+  },
+  "errors": {},
+  "runtimeIntegrated": false
+}

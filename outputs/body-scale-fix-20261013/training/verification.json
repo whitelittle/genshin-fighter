@@ -1,0 +1,4287 @@
+{
+  "mockOnly": true,
+  "diagnosticPoseLock": true,
+  "sourceSha256": "50c026607d7cbf60ecbb02822bc879934fbe2525a779eefb74766a01a426ee5e",
+  "pixelGeometry": [
+    {
+      "key": "raidenshogun",
+      "images": 68,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    },
+    {
+      "key": "nahida",
+      "images": 68,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    },
+    {
+      "key": "furina",
+      "images": 178,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "images": 157,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    },
+    {
+      "key": "clorinde",
+      "images": 129,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    },
+    {
+      "key": "arlecchino",
+      "images": 129,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    }
+  ],
+  "training": [
+    {
+      "key": "raidenshogun",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "basic_0",
+          "shot": "raidenshogun-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "basic_1",
+          "shot": "raidenshogun-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "basic_2",
+          "shot": "raidenshogun-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "basic_3",
+          "shot": "raidenshogun-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "basic_4",
+          "shot": "raidenshogun-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "basic_5",
+          "shot": "raidenshogun-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "basic_6",
+          "shot": "raidenshogun-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "basic_7",
+          "shot": "raidenshogun-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "basic_7",
+          "shot": "raidenshogun-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "basic_6",
+          "shot": "raidenshogun-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "basic_5",
+          "shot": "raidenshogun-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "basic_4",
+          "shot": "raidenshogun-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "basic_3",
+          "shot": "raidenshogun-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "basic_2",
+          "shot": "raidenshogun-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "raidenshogun-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "raidenshogun-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "raidenshogun-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "hurt_3",
+          "shot": "raidenshogun-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "hurt_4",
+          "shot": "raidenshogun-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "hurt_5",
+          "shot": "raidenshogun-getup-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 0,
+          "pose": "move_0",
+          "shot": "raidenshogun-jump-0.png"
+        },
+        {
+          "action": "jump",
+          "frame": 1,
+          "pose": "move_1",
+          "shot": "raidenshogun-jump-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 2,
+          "pose": "move_2",
+          "shot": "raidenshogun-jump-2.png"
+        },
+        {
+          "action": "jump",
+          "frame": 3,
+          "pose": "move_3",
+          "shot": "raidenshogun-jump-3.png"
+        },
+        {
+          "action": "dash",
+          "frame": 0,
+          "pose": "move_4",
+          "shot": "raidenshogun-dash-0.png"
+        },
+        {
+          "action": "dash",
+          "frame": 1,
+          "pose": "move_5",
+          "shot": "raidenshogun-dash-1.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 0,
+          "pose": "move_6",
+          "shot": "raidenshogun-backdash-0.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 1,
+          "pose": "move_7",
+          "shot": "raidenshogun-backdash-1.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 0,
+          "pose": "guard_0",
+          "shot": "raidenshogun-crouch-0.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 1,
+          "pose": "guard_1",
+          "shot": "raidenshogun-crouch-1.png"
+        },
+        {
+          "action": "block",
+          "frame": 0,
+          "pose": "guard_6",
+          "shot": "raidenshogun-block-0.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 0,
+          "pose": "guard_7",
+          "shot": "raidenshogun-cblock-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 0,
+          "pose": "light_0",
+          "shot": "raidenshogun-light1-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 1,
+          "pose": "light_1",
+          "shot": "raidenshogun-light1-1.png"
+        },
+        {
+          "action": "light1",
+          "frame": 2,
+          "pose": "light_2",
+          "shot": "raidenshogun-light1-2.png"
+        },
+        {
+          "action": "light1",
+          "frame": 3,
+          "pose": "light_3",
+          "shot": "raidenshogun-light1-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 0,
+          "pose": "light_4",
+          "shot": "raidenshogun-light2-0.png"
+        },
+        {
+          "action": "light2",
+          "frame": 1,
+          "pose": "light_5",
+          "shot": "raidenshogun-light2-1.png"
+        },
+        {
+          "action": "light2",
+          "frame": 2,
+          "pose": "light_6",
+          "shot": "raidenshogun-light2-2.png"
+        },
+        {
+          "action": "light2",
+          "frame": 3,
+          "pose": "light_7",
+          "shot": "raidenshogun-light2-3.png"
+        },
+        {
+          "action": "light3",
+          "frame": 0,
+          "pose": "heavy_0",
+          "shot": "raidenshogun-light3-0.png"
+        },
+        {
+          "action": "light3",
+          "frame": 1,
+          "pose": "heavy_1",
+          "shot": "raidenshogun-light3-1.png"
+        },
+        {
+          "action": "light3",
+          "frame": 2,
+          "pose": "heavy_2",
+          "shot": "raidenshogun-light3-2.png"
+        },
+        {
+          "action": "light3",
+          "frame": 3,
+          "pose": "heavy_3",
+          "shot": "raidenshogun-light3-3.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 0,
+          "pose": "heavy_4",
+          "shot": "raidenshogun-heavy-0.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 1,
+          "pose": "heavy_5",
+          "shot": "raidenshogun-heavy-1.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 2,
+          "pose": "heavy_6",
+          "shot": "raidenshogun-heavy-2.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 3,
+          "pose": "heavy_7",
+          "shot": "raidenshogun-heavy-3.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 0,
+          "pose": "air_0",
+          "shot": "raidenshogun-crouchLight-0.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 1,
+          "pose": "air_1",
+          "shot": "raidenshogun-crouchLight-1.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 0,
+          "pose": "air_2",
+          "shot": "raidenshogun-crouchHeavy-0.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 1,
+          "pose": "air_3",
+          "shot": "raidenshogun-crouchHeavy-1.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 0,
+          "pose": "air_4",
+          "shot": "raidenshogun-airLight-0.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 1,
+          "pose": "air_5",
+          "shot": "raidenshogun-airLight-1.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 0,
+          "pose": "air_6",
+          "shot": "raidenshogun-airHeavy-0.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 1,
+          "pose": "air_7",
+          "shot": "raidenshogun-airHeavy-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 0,
+          "pose": "skill_0",
+          "shot": "raidenshogun-skill-0.png"
+        },
+        {
+          "action": "skill",
+          "frame": 1,
+          "pose": "skill_1",
+          "shot": "raidenshogun-skill-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 2,
+          "pose": "skill_2",
+          "shot": "raidenshogun-skill-2.png"
+        },
+        {
+          "action": "skill",
+          "frame": 3,
+          "pose": "skill_3",
+          "shot": "raidenshogun-skill-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "qburst_0",
+          "shot": "raidenshogun-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "qburst_1",
+          "shot": "raidenshogun-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "qburst_2",
+          "shot": "raidenshogun-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "qburst_3",
+          "shot": "raidenshogun-burst-3.png"
+        },
+        {
+          "action": "throw",
+          "frame": 0,
+          "pose": "throw_0",
+          "shot": "raidenshogun-throw-0.png"
+        },
+        {
+          "action": "throw",
+          "frame": 1,
+          "pose": "throw_1",
+          "shot": "raidenshogun-throw-1.png"
+        },
+        {
+          "action": "throw",
+          "frame": 2,
+          "pose": "throw_2",
+          "shot": "raidenshogun-throw-2.png"
+        },
+        {
+          "action": "throw",
+          "frame": 3,
+          "pose": "throw_3",
+          "shot": "raidenshogun-throw-3.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 0,
+          "pose": "victim_0",
+          "shot": "raidenshogun-thrown-0.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 1,
+          "pose": "victim_1",
+          "shot": "raidenshogun-thrown-1.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 2,
+          "pose": "victim_2",
+          "shot": "raidenshogun-thrown-2.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 3,
+          "pose": "victim_3",
+          "shot": "raidenshogun-thrown-3.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "hurt_6",
+          "shot": "raidenshogun-win-0.png"
+        },
+        {
+          "action": "lose",
+          "frame": 0,
+          "pose": "hurt_7",
+          "shot": "raidenshogun-lose-0.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2409,
+        "visibleImages": 2385,
+        "visibleTexts": 15,
+        "glyphs": 68
+      }
+    },
+    {
+      "key": "nahida",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "basic_0",
+          "shot": "nahida-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "basic_1",
+          "shot": "nahida-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "basic_2",
+          "shot": "nahida-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "basic_3",
+          "shot": "nahida-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "basic_4",
+          "shot": "nahida-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "basic_5",
+          "shot": "nahida-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "basic_6",
+          "shot": "nahida-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "basic_7",
+          "shot": "nahida-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "basic_7",
+          "shot": "nahida-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "basic_6",
+          "shot": "nahida-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "basic_5",
+          "shot": "nahida-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "basic_4",
+          "shot": "nahida-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "basic_3",
+          "shot": "nahida-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "basic_2",
+          "shot": "nahida-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "nahida-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "nahida-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "nahida-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "hurt_3",
+          "shot": "nahida-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "hurt_4",
+          "shot": "nahida-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "hurt_5",
+          "shot": "nahida-getup-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 0,
+          "pose": "move_0",
+          "shot": "nahida-jump-0.png"
+        },
+        {
+          "action": "jump",
+          "frame": 1,
+          "pose": "move_1",
+          "shot": "nahida-jump-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 2,
+          "pose": "move_2",
+          "shot": "nahida-jump-2.png"
+        },
+        {
+          "action": "jump",
+          "frame": 3,
+          "pose": "move_3",
+          "shot": "nahida-jump-3.png"
+        },
+        {
+          "action": "dash",
+          "frame": 0,
+          "pose": "move_4",
+          "shot": "nahida-dash-0.png"
+        },
+        {
+          "action": "dash",
+          "frame": 1,
+          "pose": "move_5",
+          "shot": "nahida-dash-1.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 0,
+          "pose": "move_6",
+          "shot": "nahida-backdash-0.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 1,
+          "pose": "move_7",
+          "shot": "nahida-backdash-1.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 0,
+          "pose": "guard_0",
+          "shot": "nahida-crouch-0.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 1,
+          "pose": "guard_1",
+          "shot": "nahida-crouch-1.png"
+        },
+        {
+          "action": "block",
+          "frame": 0,
+          "pose": "guard_6",
+          "shot": "nahida-block-0.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 0,
+          "pose": "guard_7",
+          "shot": "nahida-cblock-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 0,
+          "pose": "light_0",
+          "shot": "nahida-light1-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 1,
+          "pose": "light_1",
+          "shot": "nahida-light1-1.png"
+        },
+        {
+          "action": "light1",
+          "frame": 2,
+          "pose": "light_2",
+          "shot": "nahida-light1-2.png"
+        },
+        {
+          "action": "light1",
+          "frame": 3,
+          "pose": "light_3",
+          "shot": "nahida-light1-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 0,
+          "pose": "light_4",
+          "shot": "nahida-light2-0.png"
+        },
+        {
+          "action": "light2",
+          "frame": 1,
+          "pose": "light_5",
+          "shot": "nahida-light2-1.png"
+        },
+        {
+          "action": "light2",
+          "frame": 2,
+          "pose": "light_6",
+          "shot": "nahida-light2-2.png"
+        },
+        {
+          "action": "light2",
+          "frame": 3,
+          "pose": "light_7",
+          "shot": "nahida-light2-3.png"
+        },
+        {
+          "action": "light3",
+          "frame": 0,
+          "pose": "heavy_0",
+          "shot": "nahida-light3-0.png"
+        },
+        {
+          "action": "light3",
+          "frame": 1,
+          "pose": "heavy_1",
+          "shot": "nahida-light3-1.png"
+        },
+        {
+          "action": "light3",
+          "frame": 2,
+          "pose": "heavy_2",
+          "shot": "nahida-light3-2.png"
+        },
+        {
+          "action": "light3",
+          "frame": 3,
+          "pose": "heavy_3",
+          "shot": "nahida-light3-3.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 0,
+          "pose": "heavy_4",
+          "shot": "nahida-heavy-0.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 1,
+          "pose": "heavy_5",
+          "shot": "nahida-heavy-1.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 2,
+          "pose": "heavy_6",
+          "shot": "nahida-heavy-2.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 3,
+          "pose": "heavy_7",
+          "shot": "nahida-heavy-3.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 0,
+          "pose": "air_0",
+          "shot": "nahida-crouchLight-0.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 1,
+          "pose": "air_1",
+          "shot": "nahida-crouchLight-1.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 0,
+          "pose": "air_2",
+          "shot": "nahida-crouchHeavy-0.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 1,
+          "pose": "air_3",
+          "shot": "nahida-crouchHeavy-1.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 0,
+          "pose": "air_4",
+          "shot": "nahida-airLight-0.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 1,
+          "pose": "air_5",
+          "shot": "nahida-airLight-1.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 0,
+          "pose": "air_6",
+          "shot": "nahida-airHeavy-0.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 1,
+          "pose": "air_7",
+          "shot": "nahida-airHeavy-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 0,
+          "pose": "skill_0",
+          "shot": "nahida-skill-0.png"
+        },
+        {
+          "action": "skill",
+          "frame": 1,
+          "pose": "skill_1",
+          "shot": "nahida-skill-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 2,
+          "pose": "skill_2",
+          "shot": "nahida-skill-2.png"
+        },
+        {
+          "action": "skill",
+          "frame": 3,
+          "pose": "skill_3",
+          "shot": "nahida-skill-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "skill_4",
+          "shot": "nahida-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "skill_5",
+          "shot": "nahida-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "skill_6",
+          "shot": "nahida-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "skill_7",
+          "shot": "nahida-burst-3.png"
+        },
+        {
+          "action": "throw",
+          "frame": 0,
+          "pose": "throw_0",
+          "shot": "nahida-throw-0.png"
+        },
+        {
+          "action": "throw",
+          "frame": 1,
+          "pose": "throw_1",
+          "shot": "nahida-throw-1.png"
+        },
+        {
+          "action": "throw",
+          "frame": 2,
+          "pose": "throw_2",
+          "shot": "nahida-throw-2.png"
+        },
+        {
+          "action": "throw",
+          "frame": 3,
+          "pose": "throw_3",
+          "shot": "nahida-throw-3.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 0,
+          "pose": "victim_0",
+          "shot": "nahida-thrown-0.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 1,
+          "pose": "victim_1",
+          "shot": "nahida-thrown-1.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 2,
+          "pose": "victim_2",
+          "shot": "nahida-thrown-2.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 3,
+          "pose": "victim_3",
+          "shot": "nahida-thrown-3.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "hurt_6",
+          "shot": "nahida-win-0.png"
+        },
+        {
+          "action": "lose",
+          "frame": 0,
+          "pose": "hurt_7",
+          "shot": "nahida-lose-0.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2787,
+        "visibleImages": 2763,
+        "visibleTexts": 15,
+        "glyphs": 64
+      }
+    },
+    {
+      "key": "furina",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "furina-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "idle_1",
+          "shot": "furina-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "walk_0",
+          "shot": "furina-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "walk_1",
+          "shot": "furina-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "walk_2",
+          "shot": "furina-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "walk_3",
+          "shot": "furina-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "walk_4",
+          "shot": "furina-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "walk_5",
+          "shot": "furina-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "back_0",
+          "shot": "furina-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "back_1",
+          "shot": "furina-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "back_2",
+          "shot": "furina-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "back_3",
+          "shot": "furina-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "back_4",
+          "shot": "furina-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "back_5",
+          "shot": "furina-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "furina-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "furina-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "furina-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "hurt_3",
+          "shot": "furina-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "hurt_3",
+          "shot": "furina-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "getup_1",
+          "shot": "furina-getup-1.png"
+        },
+        {
+          "action": "getup",
+          "frame": 2,
+          "pose": "getup_2",
+          "shot": "furina-getup-2.png"
+        },
+        {
+          "action": "getup",
+          "frame": 3,
+          "pose": "getup_3",
+          "shot": "furina-getup-3.png"
+        },
+        {
+          "action": "jump",
+          "frame": 0,
+          "pose": "jump_0",
+          "shot": "furina-jump-0.png"
+        },
+        {
+          "action": "jump",
+          "frame": 1,
+          "pose": "jump_1",
+          "shot": "furina-jump-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 2,
+          "pose": "jump_2",
+          "shot": "furina-jump-2.png"
+        },
+        {
+          "action": "jump",
+          "frame": 3,
+          "pose": "jump_3",
+          "shot": "furina-jump-3.png"
+        },
+        {
+          "action": "jump",
+          "frame": 4,
+          "pose": "jump_4",
+          "shot": "furina-jump-4.png"
+        },
+        {
+          "action": "jump",
+          "frame": 5,
+          "pose": "jump_5",
+          "shot": "furina-jump-5.png"
+        },
+        {
+          "action": "dash",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "furina-dash-0.png"
+        },
+        {
+          "action": "dash",
+          "frame": 1,
+          "pose": "dash_1",
+          "shot": "furina-dash-1.png"
+        },
+        {
+          "action": "dash",
+          "frame": 2,
+          "pose": "dash_2",
+          "shot": "furina-dash-2.png"
+        },
+        {
+          "action": "dash",
+          "frame": 3,
+          "pose": "dash_3",
+          "shot": "furina-dash-3.png"
+        },
+        {
+          "action": "dash",
+          "frame": 4,
+          "pose": "dash_4",
+          "shot": "furina-dash-4.png"
+        },
+        {
+          "action": "dash",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "furina-dash-5.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "furina-backdash-0.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 1,
+          "pose": "backdash_1",
+          "shot": "furina-backdash-1.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 2,
+          "pose": "backdash_2",
+          "shot": "furina-backdash-2.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 3,
+          "pose": "backdash_3",
+          "shot": "furina-backdash-3.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 4,
+          "pose": "backdash_4",
+          "shot": "furina-backdash-4.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "furina-backdash-5.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 0,
+          "pose": "crouch_0",
+          "shot": "furina-crouch-0.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 1,
+          "pose": "crouch_1",
+          "shot": "furina-crouch-1.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 2,
+          "pose": "crouch_2",
+          "shot": "furina-crouch-2.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 3,
+          "pose": "crouch_3",
+          "shot": "furina-crouch-3.png"
+        },
+        {
+          "action": "block",
+          "frame": 0,
+          "pose": "block_0",
+          "shot": "furina-block-0.png"
+        },
+        {
+          "action": "block",
+          "frame": 1,
+          "pose": "block_1",
+          "shot": "furina-block-1.png"
+        },
+        {
+          "action": "block",
+          "frame": 2,
+          "pose": "block_2",
+          "shot": "furina-block-2.png"
+        },
+        {
+          "action": "block",
+          "frame": 3,
+          "pose": "block_3",
+          "shot": "furina-block-3.png"
+        },
+        {
+          "action": "block",
+          "frame": 4,
+          "pose": "block_4",
+          "shot": "furina-block-4.png"
+        },
+        {
+          "action": "block",
+          "frame": 5,
+          "pose": "block_5",
+          "shot": "furina-block-5.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 0,
+          "pose": "cblock_0",
+          "shot": "furina-cblock-0.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 1,
+          "pose": "cblock_1",
+          "shot": "furina-cblock-1.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 2,
+          "pose": "cblock_2",
+          "shot": "furina-cblock-2.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 3,
+          "pose": "cblock_3",
+          "shot": "furina-cblock-3.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 4,
+          "pose": "cblock_4",
+          "shot": "furina-cblock-4.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 5,
+          "pose": "cblock_5",
+          "shot": "furina-cblock-5.png"
+        },
+        {
+          "action": "light1",
+          "frame": 0,
+          "pose": "light1_0",
+          "shot": "furina-light1-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 1,
+          "pose": "light1_1",
+          "shot": "furina-light1-1.png"
+        },
+        {
+          "action": "light1",
+          "frame": 2,
+          "pose": "light1_2",
+          "shot": "furina-light1-2.png"
+        },
+        {
+          "action": "light1",
+          "frame": 3,
+          "pose": "light1_3",
+          "shot": "furina-light1-3.png"
+        },
+        {
+          "action": "light1",
+          "frame": 4,
+          "pose": "light1_4",
+          "shot": "furina-light1-4.png"
+        },
+        {
+          "action": "light1",
+          "frame": 5,
+          "pose": "light1_5",
+          "shot": "furina-light1-5.png"
+        },
+        {
+          "action": "light2",
+          "frame": 0,
+          "pose": "light2_0",
+          "shot": "furina-light2-0.png"
+        },
+        {
+          "action": "light2",
+          "frame": 1,
+          "pose": "light2_1",
+          "shot": "furina-light2-1.png"
+        },
+        {
+          "action": "light2",
+          "frame": 2,
+          "pose": "light2_2",
+          "shot": "furina-light2-2.png"
+        },
+        {
+          "action": "light2",
+          "frame": 3,
+          "pose": "light2_3",
+          "shot": "furina-light2-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 4,
+          "pose": "light2_4",
+          "shot": "furina-light2-4.png"
+        },
+        {
+          "action": "light2",
+          "frame": 5,
+          "pose": "light2_5",
+          "shot": "furina-light2-5.png"
+        },
+        {
+          "action": "light3",
+          "frame": 0,
+          "pose": "light3_0",
+          "shot": "furina-light3-0.png"
+        },
+        {
+          "action": "light3",
+          "frame": 1,
+          "pose": "light3_1",
+          "shot": "furina-light3-1.png"
+        },
+        {
+          "action": "light3",
+          "frame": 2,
+          "pose": "light3_2",
+          "shot": "furina-light3-2.png"
+        },
+        {
+          "action": "light3",
+          "frame": 3,
+          "pose": "light3_3",
+          "shot": "furina-light3-3.png"
+        },
+        {
+          "action": "light3",
+          "frame": 4,
+          "pose": "light3_4",
+          "shot": "furina-light3-4.png"
+        },
+        {
+          "action": "light3",
+          "frame": 5,
+          "pose": "light3_5",
+          "shot": "furina-light3-5.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 0,
+          "pose": "heavy_0",
+          "shot": "furina-heavy-0.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 1,
+          "pose": "heavy_1",
+          "shot": "furina-heavy-1.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 2,
+          "pose": "heavy_2",
+          "shot": "furina-heavy-2.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 3,
+          "pose": "heavy_3",
+          "shot": "furina-heavy-3.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 4,
+          "pose": "heavy_4",
+          "shot": "furina-heavy-4.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 5,
+          "pose": "heavy_5",
+          "shot": "furina-heavy-5.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 0,
+          "pose": "crouchLight_0",
+          "shot": "furina-crouchLight-0.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 1,
+          "pose": "crouchLight_1",
+          "shot": "furina-crouchLight-1.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 2,
+          "pose": "crouchLight_2",
+          "shot": "furina-crouchLight-2.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 3,
+          "pose": "crouchLight_3",
+          "shot": "furina-crouchLight-3.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 4,
+          "pose": "crouchLight_4",
+          "shot": "furina-crouchLight-4.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 5,
+          "pose": "crouchLight_5",
+          "shot": "furina-crouchLight-5.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 0,
+          "pose": "crouchHeavy_0",
+          "shot": "furina-crouchHeavy-0.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 1,
+          "pose": "crouchHeavy_1",
+          "shot": "furina-crouchHeavy-1.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 2,
+          "pose": "crouchHeavy_2",
+          "shot": "furina-crouchHeavy-2.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 3,
+          "pose": "crouchHeavy_3",
+          "shot": "furina-crouchHeavy-3.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 4,
+          "pose": "crouchHeavy_4",
+          "shot": "furina-crouchHeavy-4.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 5,
+          "pose": "crouchHeavy_5",
+          "shot": "furina-crouchHeavy-5.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 0,
+          "pose": "airLight_0",
+          "shot": "furina-airLight-0.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 1,
+          "pose": "airLight_1",
+          "shot": "furina-airLight-1.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 2,
+          "pose": "airLight_2",
+          "shot": "furina-airLight-2.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 3,
+          "pose": "airLight_3",
+          "shot": "furina-airLight-3.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 4,
+          "pose": "airLight_4",
+          "shot": "furina-airLight-4.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 5,
+          "pose": "airLight_5",
+          "shot": "furina-airLight-5.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 0,
+          "pose": "airHeavy_0",
+          "shot": "furina-airHeavy-0.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 1,
+          "pose": "airHeavy_1",
+          "shot": "furina-airHeavy-1.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 2,
+          "pose": "airHeavy_2",
+          "shot": "furina-airHeavy-2.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 3,
+          "pose": "airHeavy_3",
+          "shot": "furina-airHeavy-3.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 4,
+          "pose": "airHeavy_4",
+          "shot": "furina-airHeavy-4.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 5,
+          "pose": "airHeavy_5",
+          "shot": "furina-airHeavy-5.png"
+        },
+        {
+          "action": "skill",
+          "frame": 0,
+          "pose": "skill_0",
+          "shot": "furina-skill-0.png"
+        },
+        {
+          "action": "skill",
+          "frame": 1,
+          "pose": "skill_1",
+          "shot": "furina-skill-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 2,
+          "pose": "skill_2",
+          "shot": "furina-skill-2.png"
+        },
+        {
+          "action": "skill",
+          "frame": 3,
+          "pose": "skill_3",
+          "shot": "furina-skill-3.png"
+        },
+        {
+          "action": "skill",
+          "frame": 4,
+          "pose": "skill_4",
+          "shot": "furina-skill-4.png"
+        },
+        {
+          "action": "skill",
+          "frame": 5,
+          "pose": "skill_5",
+          "shot": "furina-skill-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "burst_0",
+          "shot": "furina-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "burst_0",
+          "shot": "furina-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "burst_2",
+          "shot": "furina-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "burst_3",
+          "shot": "furina-burst-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 4,
+          "pose": "burst_4",
+          "shot": "furina-burst-4.png"
+        },
+        {
+          "action": "burst",
+          "frame": 5,
+          "pose": "burst_5",
+          "shot": "furina-burst-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 6,
+          "pose": "burst_6",
+          "shot": "furina-burst-6.png"
+        },
+        {
+          "action": "burst",
+          "frame": 7,
+          "pose": "burst_0",
+          "shot": "furina-burst-7.png"
+        },
+        {
+          "action": "throw",
+          "frame": 0,
+          "pose": "throw_0",
+          "shot": "furina-throw-0.png"
+        },
+        {
+          "action": "throw",
+          "frame": 1,
+          "pose": "throw_1",
+          "shot": "furina-throw-1.png"
+        },
+        {
+          "action": "throw",
+          "frame": 2,
+          "pose": "throw_2",
+          "shot": "furina-throw-2.png"
+        },
+        {
+          "action": "throw",
+          "frame": 3,
+          "pose": "throw_3",
+          "shot": "furina-throw-3.png"
+        },
+        {
+          "action": "throw",
+          "frame": 4,
+          "pose": "throw_4",
+          "shot": "furina-throw-4.png"
+        },
+        {
+          "action": "throw",
+          "frame": 5,
+          "pose": "throw_5",
+          "shot": "furina-throw-5.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 0,
+          "pose": "thrown_0",
+          "shot": "furina-thrown-0.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 1,
+          "pose": "thrown_1",
+          "shot": "furina-thrown-1.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 2,
+          "pose": "thrown_1",
+          "shot": "furina-thrown-2.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 3,
+          "pose": "thrown_3",
+          "shot": "furina-thrown-3.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 4,
+          "pose": "thrown_4",
+          "shot": "furina-thrown-4.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 5,
+          "pose": "thrown_5",
+          "shot": "furina-thrown-5.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "furina-win-0.png"
+        },
+        {
+          "action": "win",
+          "frame": 1,
+          "pose": "win_1",
+          "shot": "furina-win-1.png"
+        },
+        {
+          "action": "win",
+          "frame": 2,
+          "pose": "win_2",
+          "shot": "furina-win-2.png"
+        },
+        {
+          "action": "win",
+          "frame": 3,
+          "pose": "idle_0",
+          "shot": "furina-win-3.png"
+        },
+        {
+          "action": "lose",
+          "frame": 0,
+          "pose": "lose_0",
+          "shot": "furina-lose-0.png"
+        },
+        {
+          "action": "lose",
+          "frame": 1,
+          "pose": "lose_1",
+          "shot": "furina-lose-1.png"
+        },
+        {
+          "action": "lose",
+          "frame": 2,
+          "pose": "lose_2",
+          "shot": "furina-lose-2.png"
+        },
+        {
+          "action": "lose",
+          "frame": 3,
+          "pose": "lose_3",
+          "shot": "furina-lose-3.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2480,
+        "visibleImages": 2456,
+        "visibleTexts": 15,
+        "glyphs": 66
+      }
+    },
+    {
+      "key": "kamisatoayaka",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "kamisatoayaka-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "idle_1",
+          "shot": "kamisatoayaka-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "walk_0",
+          "shot": "kamisatoayaka-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "walk_1",
+          "shot": "kamisatoayaka-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "walk_2",
+          "shot": "kamisatoayaka-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "walk_3",
+          "shot": "kamisatoayaka-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "walk_4",
+          "shot": "kamisatoayaka-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "walk_5",
+          "shot": "kamisatoayaka-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "back_0",
+          "shot": "kamisatoayaka-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "back_1",
+          "shot": "kamisatoayaka-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "back_2",
+          "shot": "kamisatoayaka-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "back_3",
+          "shot": "kamisatoayaka-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "back_4",
+          "shot": "kamisatoayaka-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "back_5",
+          "shot": "kamisatoayaka-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "kamisatoayaka-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "kamisatoayaka-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "kamisatoayaka-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "thrown_5",
+          "shot": "kamisatoayaka-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "getup_0",
+          "shot": "kamisatoayaka-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "getup_1",
+          "shot": "kamisatoayaka-getup-1.png"
+        },
+        {
+          "action": "getup",
+          "frame": 2,
+          "pose": "getup_2",
+          "shot": "kamisatoayaka-getup-2.png"
+        },
+        {
+          "action": "getup",
+          "frame": 3,
+          "pose": "getup_3",
+          "shot": "kamisatoayaka-getup-3.png"
+        },
+        {
+          "action": "jump",
+          "frame": 0,
+          "pose": "jump_0",
+          "shot": "kamisatoayaka-jump-0.png"
+        },
+        {
+          "action": "jump",
+          "frame": 1,
+          "pose": "jump_1",
+          "shot": "kamisatoayaka-jump-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 2,
+          "pose": "jump_2",
+          "shot": "kamisatoayaka-jump-2.png"
+        },
+        {
+          "action": "jump",
+          "frame": 3,
+          "pose": "jump_3",
+          "shot": "kamisatoayaka-jump-3.png"
+        },
+        {
+          "action": "jump",
+          "frame": 4,
+          "pose": "jump_4",
+          "shot": "kamisatoayaka-jump-4.png"
+        },
+        {
+          "action": "jump",
+          "frame": 5,
+          "pose": "jump_5",
+          "shot": "kamisatoayaka-jump-5.png"
+        },
+        {
+          "action": "dash",
+          "frame": 0,
+          "pose": "dash_0",
+          "shot": "kamisatoayaka-dash-0.png"
+        },
+        {
+          "action": "dash",
+          "frame": 1,
+          "pose": "dash_1",
+          "shot": "kamisatoayaka-dash-1.png"
+        },
+        {
+          "action": "dash",
+          "frame": 2,
+          "pose": "dash_2",
+          "shot": "kamisatoayaka-dash-2.png"
+        },
+        {
+          "action": "dash",
+          "frame": 3,
+          "pose": "dash_3",
+          "shot": "kamisatoayaka-dash-3.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 0,
+          "pose": "backdash_0",
+          "shot": "kamisatoayaka-backdash-0.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 1,
+          "pose": "backdash_1",
+          "shot": "kamisatoayaka-backdash-1.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 2,
+          "pose": "backdash_2",
+          "shot": "kamisatoayaka-backdash-2.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 3,
+          "pose": "backdash_3",
+          "shot": "kamisatoayaka-backdash-3.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 0,
+          "pose": "crouch_0",
+          "shot": "kamisatoayaka-crouch-0.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 1,
+          "pose": "crouch_1",
+          "shot": "kamisatoayaka-crouch-1.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 2,
+          "pose": "crouch_2",
+          "shot": "kamisatoayaka-crouch-2.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 3,
+          "pose": "crouch_3",
+          "shot": "kamisatoayaka-crouch-3.png"
+        },
+        {
+          "action": "block",
+          "frame": 0,
+          "pose": "block_0",
+          "shot": "kamisatoayaka-block-0.png"
+        },
+        {
+          "action": "block",
+          "frame": 1,
+          "pose": "block_1",
+          "shot": "kamisatoayaka-block-1.png"
+        },
+        {
+          "action": "block",
+          "frame": 2,
+          "pose": "block_2",
+          "shot": "kamisatoayaka-block-2.png"
+        },
+        {
+          "action": "block",
+          "frame": 3,
+          "pose": "block_3",
+          "shot": "kamisatoayaka-block-3.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 0,
+          "pose": "cblock_0",
+          "shot": "kamisatoayaka-cblock-0.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 1,
+          "pose": "cblock_1",
+          "shot": "kamisatoayaka-cblock-1.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 2,
+          "pose": "cblock_2",
+          "shot": "kamisatoayaka-cblock-2.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 3,
+          "pose": "cblock_3",
+          "shot": "kamisatoayaka-cblock-3.png"
+        },
+        {
+          "action": "light1",
+          "frame": 0,
+          "pose": "light1_0",
+          "shot": "kamisatoayaka-light1-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 1,
+          "pose": "light1_1",
+          "shot": "kamisatoayaka-light1-1.png"
+        },
+        {
+          "action": "light1",
+          "frame": 2,
+          "pose": "light1_2",
+          "shot": "kamisatoayaka-light1-2.png"
+        },
+        {
+          "action": "light1",
+          "frame": 3,
+          "pose": "light1_3",
+          "shot": "kamisatoayaka-light1-3.png"
+        },
+        {
+          "action": "light1",
+          "frame": 4,
+          "pose": "light1_4",
+          "shot": "kamisatoayaka-light1-4.png"
+        },
+        {
+          "action": "light1",
+          "frame": 5,
+          "pose": "light1_5",
+          "shot": "kamisatoayaka-light1-5.png"
+        },
+        {
+          "action": "light2",
+          "frame": 0,
+          "pose": "light2_0",
+          "shot": "kamisatoayaka-light2-0.png"
+        },
+        {
+          "action": "light2",
+          "frame": 1,
+          "pose": "light2_1",
+          "shot": "kamisatoayaka-light2-1.png"
+        },
+        {
+          "action": "light2",
+          "frame": 2,
+          "pose": "light2_2",
+          "shot": "kamisatoayaka-light2-2.png"
+        },
+        {
+          "action": "light2",
+          "frame": 3,
+          "pose": "light2_3",
+          "shot": "kamisatoayaka-light2-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 4,
+          "pose": "light2_4",
+          "shot": "kamisatoayaka-light2-4.png"
+        },
+        {
+          "action": "light2",
+          "frame": 5,
+          "pose": "light2_5",
+          "shot": "kamisatoayaka-light2-5.png"
+        },
+        {
+          "action": "light3",
+          "frame": 0,
+          "pose": "light3_0",
+          "shot": "kamisatoayaka-light3-0.png"
+        },
+        {
+          "action": "light3",
+          "frame": 1,
+          "pose": "light3_1",
+          "shot": "kamisatoayaka-light3-1.png"
+        },
+        {
+          "action": "light3",
+          "frame": 2,
+          "pose": "light3_2",
+          "shot": "kamisatoayaka-light3-2.png"
+        },
+        {
+          "action": "light3",
+          "frame": 3,
+          "pose": "light3_3",
+          "shot": "kamisatoayaka-light3-3.png"
+        },
+        {
+          "action": "light3",
+          "frame": 4,
+          "pose": "light3_4",
+          "shot": "kamisatoayaka-light3-4.png"
+        },
+        {
+          "action": "light3",
+          "frame": 5,
+          "pose": "light3_5",
+          "shot": "kamisatoayaka-light3-5.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 0,
+          "pose": "heavy_0",
+          "shot": "kamisatoayaka-heavy-0.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 1,
+          "pose": "heavy_1",
+          "shot": "kamisatoayaka-heavy-1.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 2,
+          "pose": "heavy_2",
+          "shot": "kamisatoayaka-heavy-2.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 3,
+          "pose": "heavy_3",
+          "shot": "kamisatoayaka-heavy-3.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 4,
+          "pose": "heavy_4",
+          "shot": "kamisatoayaka-heavy-4.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 5,
+          "pose": "heavy_5",
+          "shot": "kamisatoayaka-heavy-5.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 0,
+          "pose": "crouchLight_0",
+          "shot": "kamisatoayaka-crouchLight-0.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 1,
+          "pose": "crouchLight_1",
+          "shot": "kamisatoayaka-crouchLight-1.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 2,
+          "pose": "crouchLight_2",
+          "shot": "kamisatoayaka-crouchLight-2.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 3,
+          "pose": "crouchLight_3",
+          "shot": "kamisatoayaka-crouchLight-3.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 4,
+          "pose": "crouchLight_4",
+          "shot": "kamisatoayaka-crouchLight-4.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 5,
+          "pose": "crouchLight_5",
+          "shot": "kamisatoayaka-crouchLight-5.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 0,
+          "pose": "crouchHeavy_0",
+          "shot": "kamisatoayaka-crouchHeavy-0.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 1,
+          "pose": "crouchHeavy_1",
+          "shot": "kamisatoayaka-crouchHeavy-1.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 2,
+          "pose": "crouchHeavy_2",
+          "shot": "kamisatoayaka-crouchHeavy-2.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 3,
+          "pose": "crouchHeavy_3",
+          "shot": "kamisatoayaka-crouchHeavy-3.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 4,
+          "pose": "crouchHeavy_4",
+          "shot": "kamisatoayaka-crouchHeavy-4.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 5,
+          "pose": "crouchHeavy_5",
+          "shot": "kamisatoayaka-crouchHeavy-5.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 0,
+          "pose": "airLight_0",
+          "shot": "kamisatoayaka-airLight-0.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 1,
+          "pose": "airLight_1",
+          "shot": "kamisatoayaka-airLight-1.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 2,
+          "pose": "airLight_2",
+          "shot": "kamisatoayaka-airLight-2.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 3,
+          "pose": "airLight_3",
+          "shot": "kamisatoayaka-airLight-3.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 4,
+          "pose": "airLight_4",
+          "shot": "kamisatoayaka-airLight-4.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 5,
+          "pose": "airLight_5",
+          "shot": "kamisatoayaka-airLight-5.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 0,
+          "pose": "airHeavy_0",
+          "shot": "kamisatoayaka-airHeavy-0.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 1,
+          "pose": "airHeavy_1",
+          "shot": "kamisatoayaka-airHeavy-1.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 2,
+          "pose": "airHeavy_2",
+          "shot": "kamisatoayaka-airHeavy-2.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 3,
+          "pose": "airHeavy_3",
+          "shot": "kamisatoayaka-airHeavy-3.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 4,
+          "pose": "airHeavy_4",
+          "shot": "kamisatoayaka-airHeavy-4.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 5,
+          "pose": "airHeavy_5",
+          "shot": "kamisatoayaka-airHeavy-5.png"
+        },
+        {
+          "action": "skill",
+          "frame": 0,
+          "pose": "skill_0",
+          "shot": "kamisatoayaka-skill-0.png"
+        },
+        {
+          "action": "skill",
+          "frame": 1,
+          "pose": "skill_1",
+          "shot": "kamisatoayaka-skill-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 2,
+          "pose": "skill_2",
+          "shot": "kamisatoayaka-skill-2.png"
+        },
+        {
+          "action": "skill",
+          "frame": 3,
+          "pose": "skill_3",
+          "shot": "kamisatoayaka-skill-3.png"
+        },
+        {
+          "action": "skill",
+          "frame": 4,
+          "pose": "skill_4",
+          "shot": "kamisatoayaka-skill-4.png"
+        },
+        {
+          "action": "skill",
+          "frame": 5,
+          "pose": "skill_5",
+          "shot": "kamisatoayaka-skill-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "burst_0",
+          "shot": "kamisatoayaka-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "burst_1",
+          "shot": "kamisatoayaka-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "burst_2",
+          "shot": "kamisatoayaka-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "burst_3",
+          "shot": "kamisatoayaka-burst-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 4,
+          "pose": "burst_3",
+          "shot": "kamisatoayaka-burst-4.png"
+        },
+        {
+          "action": "burst",
+          "frame": 5,
+          "pose": "burst_5",
+          "shot": "kamisatoayaka-burst-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 6,
+          "pose": "burst_5",
+          "shot": "kamisatoayaka-burst-6.png"
+        },
+        {
+          "action": "burst",
+          "frame": 7,
+          "pose": "burst_7",
+          "shot": "kamisatoayaka-burst-7.png"
+        },
+        {
+          "action": "throw",
+          "frame": 0,
+          "pose": "throw_0",
+          "shot": "kamisatoayaka-throw-0.png"
+        },
+        {
+          "action": "throw",
+          "frame": 1,
+          "pose": "throw_1",
+          "shot": "kamisatoayaka-throw-1.png"
+        },
+        {
+          "action": "throw",
+          "frame": 2,
+          "pose": "throw_2",
+          "shot": "kamisatoayaka-throw-2.png"
+        },
+        {
+          "action": "throw",
+          "frame": 3,
+          "pose": "throw_3",
+          "shot": "kamisatoayaka-throw-3.png"
+        },
+        {
+          "action": "throw",
+          "frame": 4,
+          "pose": "throw_4",
+          "shot": "kamisatoayaka-throw-4.png"
+        },
+        {
+          "action": "throw",
+          "frame": 5,
+          "pose": "throw_5",
+          "shot": "kamisatoayaka-throw-5.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 0,
+          "pose": "thrown_0",
+          "shot": "kamisatoayaka-thrown-0.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 1,
+          "pose": "thrown_1",
+          "shot": "kamisatoayaka-thrown-1.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 2,
+          "pose": "thrown_1",
+          "shot": "kamisatoayaka-thrown-2.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 3,
+          "pose": "thrown_3",
+          "shot": "kamisatoayaka-thrown-3.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 4,
+          "pose": "thrown_4",
+          "shot": "kamisatoayaka-thrown-4.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 5,
+          "pose": "thrown_5",
+          "shot": "kamisatoayaka-thrown-5.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "win_0",
+          "shot": "kamisatoayaka-win-0.png"
+        },
+        {
+          "action": "win",
+          "frame": 1,
+          "pose": "win_1",
+          "shot": "kamisatoayaka-win-1.png"
+        },
+        {
+          "action": "win",
+          "frame": 2,
+          "pose": "win_2",
+          "shot": "kamisatoayaka-win-2.png"
+        },
+        {
+          "action": "win",
+          "frame": 3,
+          "pose": "win_3",
+          "shot": "kamisatoayaka-win-3.png"
+        },
+        {
+          "action": "lose",
+          "frame": 0,
+          "pose": "lose_0",
+          "shot": "kamisatoayaka-lose-0.png"
+        },
+        {
+          "action": "lose",
+          "frame": 1,
+          "pose": "lose_1",
+          "shot": "kamisatoayaka-lose-1.png"
+        },
+        {
+          "action": "lose",
+          "frame": 2,
+          "pose": "lose_2",
+          "shot": "kamisatoayaka-lose-2.png"
+        },
+        {
+          "action": "lose",
+          "frame": 3,
+          "pose": "lose_3",
+          "shot": "kamisatoayaka-lose-3.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2132,
+        "visibleImages": 2108,
+        "visibleTexts": 15,
+        "glyphs": 66
+      }
+    },
+    {
+      "key": "clorinde",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "clorinde-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "idle_1",
+          "shot": "clorinde-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "walk_0",
+          "shot": "clorinde-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "walk_1",
+          "shot": "clorinde-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "walk_2",
+          "shot": "clorinde-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "walk_3",
+          "shot": "clorinde-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "walk_4",
+          "shot": "clorinde-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "walk_5",
+          "shot": "clorinde-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "back_0",
+          "shot": "clorinde-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "back_1",
+          "shot": "clorinde-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "back_2",
+          "shot": "clorinde-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "back_3",
+          "shot": "clorinde-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "back_4",
+          "shot": "clorinde-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "back_5",
+          "shot": "clorinde-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "clorinde-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "clorinde-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "clorinde-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "thrown_4",
+          "shot": "clorinde-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "thrown_4",
+          "shot": "clorinde-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "thrown_5",
+          "shot": "clorinde-getup-1.png"
+        },
+        {
+          "action": "getup",
+          "frame": 2,
+          "pose": "getup_2",
+          "shot": "clorinde-getup-2.png"
+        },
+        {
+          "action": "getup",
+          "frame": 3,
+          "pose": "getup_3",
+          "shot": "clorinde-getup-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 4,
+          "pose": "idle_0",
+          "shot": "clorinde-getup-4.png"
+        },
+        {
+          "action": "jump",
+          "frame": 0,
+          "pose": "jump_0",
+          "shot": "clorinde-jump-0.png"
+        },
+        {
+          "action": "jump",
+          "frame": 1,
+          "pose": "jump_1",
+          "shot": "clorinde-jump-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 2,
+          "pose": "jump_2",
+          "shot": "clorinde-jump-2.png"
+        },
+        {
+          "action": "jump",
+          "frame": 3,
+          "pose": "jump_3",
+          "shot": "clorinde-jump-3.png"
+        },
+        {
+          "action": "jump",
+          "frame": 4,
+          "pose": "jump_4",
+          "shot": "clorinde-jump-4.png"
+        },
+        {
+          "action": "jump",
+          "frame": 5,
+          "pose": "jump_5",
+          "shot": "clorinde-jump-5.png"
+        },
+        {
+          "action": "dash",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "clorinde-dash-0.png"
+        },
+        {
+          "action": "dash",
+          "frame": 1,
+          "pose": "dash_1",
+          "shot": "clorinde-dash-1.png"
+        },
+        {
+          "action": "dash",
+          "frame": 2,
+          "pose": "dash_2",
+          "shot": "clorinde-dash-2.png"
+        },
+        {
+          "action": "dash",
+          "frame": 3,
+          "pose": "dash_3",
+          "shot": "clorinde-dash-3.png"
+        },
+        {
+          "action": "dash",
+          "frame": 4,
+          "pose": "dash_4",
+          "shot": "clorinde-dash-4.png"
+        },
+        {
+          "action": "dash",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "clorinde-dash-5.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "clorinde-backdash-0.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 1,
+          "pose": "backdash_1",
+          "shot": "clorinde-backdash-1.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 2,
+          "pose": "backdash_2",
+          "shot": "clorinde-backdash-2.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 3,
+          "pose": "backdash_3",
+          "shot": "clorinde-backdash-3.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 4,
+          "pose": "backdash_4",
+          "shot": "clorinde-backdash-4.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "clorinde-backdash-5.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 0,
+          "pose": "crouch_0",
+          "shot": "clorinde-crouch-0.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 1,
+          "pose": "crouch_1",
+          "shot": "clorinde-crouch-1.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 2,
+          "pose": "crouch_2",
+          "shot": "clorinde-crouch-2.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 3,
+          "pose": "crouch_3",
+          "shot": "clorinde-crouch-3.png"
+        },
+        {
+          "action": "block",
+          "frame": 0,
+          "pose": "block_0",
+          "shot": "clorinde-block-0.png"
+        },
+        {
+          "action": "block",
+          "frame": 1,
+          "pose": "block_1",
+          "shot": "clorinde-block-1.png"
+        },
+        {
+          "action": "block",
+          "frame": 2,
+          "pose": "block_2",
+          "shot": "clorinde-block-2.png"
+        },
+        {
+          "action": "block",
+          "frame": 3,
+          "pose": "block_3",
+          "shot": "clorinde-block-3.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 0,
+          "pose": "cblock_0",
+          "shot": "clorinde-cblock-0.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 1,
+          "pose": "cblock_1",
+          "shot": "clorinde-cblock-1.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 2,
+          "pose": "cblock_2",
+          "shot": "clorinde-cblock-2.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 3,
+          "pose": "cblock_3",
+          "shot": "clorinde-cblock-3.png"
+        },
+        {
+          "action": "light1",
+          "frame": 0,
+          "pose": "light1_0",
+          "shot": "clorinde-light1-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 1,
+          "pose": "light1_1",
+          "shot": "clorinde-light1-1.png"
+        },
+        {
+          "action": "light1",
+          "frame": 2,
+          "pose": "light1_2",
+          "shot": "clorinde-light1-2.png"
+        },
+        {
+          "action": "light1",
+          "frame": 3,
+          "pose": "light1_3",
+          "shot": "clorinde-light1-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 0,
+          "pose": "light2_0",
+          "shot": "clorinde-light2-0.png"
+        },
+        {
+          "action": "light2",
+          "frame": 1,
+          "pose": "light2_1",
+          "shot": "clorinde-light2-1.png"
+        },
+        {
+          "action": "light2",
+          "frame": 2,
+          "pose": "light2_2",
+          "shot": "clorinde-light2-2.png"
+        },
+        {
+          "action": "light2",
+          "frame": 3,
+          "pose": "light2_3",
+          "shot": "clorinde-light2-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 4,
+          "pose": "light2_4",
+          "shot": "clorinde-light2-4.png"
+        },
+        {
+          "action": "light2",
+          "frame": 5,
+          "pose": "light2_5",
+          "shot": "clorinde-light2-5.png"
+        },
+        {
+          "action": "light3",
+          "frame": 0,
+          "pose": "light3_0",
+          "shot": "clorinde-light3-0.png"
+        },
+        {
+          "action": "light3",
+          "frame": 1,
+          "pose": "light3_1",
+          "shot": "clorinde-light3-1.png"
+        },
+        {
+          "action": "light3",
+          "frame": 2,
+          "pose": "light3_2",
+          "shot": "clorinde-light3-2.png"
+        },
+        {
+          "action": "light3",
+          "frame": 3,
+          "pose": "light3_3",
+          "shot": "clorinde-light3-3.png"
+        },
+        {
+          "action": "light3",
+          "frame": 4,
+          "pose": "light3_4",
+          "shot": "clorinde-light3-4.png"
+        },
+        {
+          "action": "light3",
+          "frame": 5,
+          "pose": "light3_5",
+          "shot": "clorinde-light3-5.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 0,
+          "pose": "heavy_0",
+          "shot": "clorinde-heavy-0.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 1,
+          "pose": "heavy_1",
+          "shot": "clorinde-heavy-1.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 2,
+          "pose": "heavy_2",
+          "shot": "clorinde-heavy-2.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 3,
+          "pose": "heavy_3",
+          "shot": "clorinde-heavy-3.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 4,
+          "pose": "heavy_4",
+          "shot": "clorinde-heavy-4.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 5,
+          "pose": "heavy_5",
+          "shot": "clorinde-heavy-5.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 0,
+          "pose": "crouchLight_0",
+          "shot": "clorinde-crouchLight-0.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 1,
+          "pose": "crouchLight_1",
+          "shot": "clorinde-crouchLight-1.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 2,
+          "pose": "crouchLight_2",
+          "shot": "clorinde-crouchLight-2.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 3,
+          "pose": "crouchLight_3",
+          "shot": "clorinde-crouchLight-3.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 4,
+          "pose": "crouchLight_4",
+          "shot": "clorinde-crouchLight-4.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 5,
+          "pose": "crouchLight_5",
+          "shot": "clorinde-crouchLight-5.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 0,
+          "pose": "crouchHeavy_0",
+          "shot": "clorinde-crouchHeavy-0.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 1,
+          "pose": "crouchHeavy_1",
+          "shot": "clorinde-crouchHeavy-1.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 2,
+          "pose": "crouchHeavy_2",
+          "shot": "clorinde-crouchHeavy-2.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 3,
+          "pose": "crouchHeavy_3",
+          "shot": "clorinde-crouchHeavy-3.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 4,
+          "pose": "crouchHeavy_4",
+          "shot": "clorinde-crouchHeavy-4.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 5,
+          "pose": "crouchHeavy_5",
+          "shot": "clorinde-crouchHeavy-5.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 0,
+          "pose": "airLight_0",
+          "shot": "clorinde-airLight-0.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 1,
+          "pose": "airLight_1",
+          "shot": "clorinde-airLight-1.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 2,
+          "pose": "airLight_2",
+          "shot": "clorinde-airLight-2.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 3,
+          "pose": "airLight_3",
+          "shot": "clorinde-airLight-3.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 4,
+          "pose": "airLight_4",
+          "shot": "clorinde-airLight-4.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 5,
+          "pose": "airLight_5",
+          "shot": "clorinde-airLight-5.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 0,
+          "pose": "airHeavy_0",
+          "shot": "clorinde-airHeavy-0.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 1,
+          "pose": "airHeavy_1",
+          "shot": "clorinde-airHeavy-1.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 2,
+          "pose": "airHeavy_2",
+          "shot": "clorinde-airHeavy-2.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 3,
+          "pose": "airHeavy_3",
+          "shot": "clorinde-airHeavy-3.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 4,
+          "pose": "airHeavy_4",
+          "shot": "clorinde-airHeavy-4.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 5,
+          "pose": "airHeavy_5",
+          "shot": "clorinde-airHeavy-5.png"
+        },
+        {
+          "action": "skill",
+          "frame": 0,
+          "pose": "skill_0",
+          "shot": "clorinde-skill-0.png"
+        },
+        {
+          "action": "skill",
+          "frame": 1,
+          "pose": "skill_1",
+          "shot": "clorinde-skill-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 2,
+          "pose": "skill_2",
+          "shot": "clorinde-skill-2.png"
+        },
+        {
+          "action": "skill",
+          "frame": 3,
+          "pose": "skill_3",
+          "shot": "clorinde-skill-3.png"
+        },
+        {
+          "action": "skill",
+          "frame": 4,
+          "pose": "skill_4",
+          "shot": "clorinde-skill-4.png"
+        },
+        {
+          "action": "skill",
+          "frame": 5,
+          "pose": "skill_5",
+          "shot": "clorinde-skill-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "burst_0",
+          "shot": "clorinde-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "burst_1",
+          "shot": "clorinde-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "burst_1",
+          "shot": "clorinde-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "burst_3",
+          "shot": "clorinde-burst-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 4,
+          "pose": "burst_4",
+          "shot": "clorinde-burst-4.png"
+        },
+        {
+          "action": "burst",
+          "frame": 5,
+          "pose": "burst_4",
+          "shot": "clorinde-burst-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 6,
+          "pose": "burst_6",
+          "shot": "clorinde-burst-6.png"
+        },
+        {
+          "action": "burst",
+          "frame": 7,
+          "pose": "burst_3",
+          "shot": "clorinde-burst-7.png"
+        },
+        {
+          "action": "burst",
+          "frame": 8,
+          "pose": "burst_8",
+          "shot": "clorinde-burst-8.png"
+        },
+        {
+          "action": "burst",
+          "frame": 9,
+          "pose": "idle_0",
+          "shot": "clorinde-burst-9.png"
+        },
+        {
+          "action": "throw",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "clorinde-throw-0.png"
+        },
+        {
+          "action": "throw",
+          "frame": 1,
+          "pose": "throw_1",
+          "shot": "clorinde-throw-1.png"
+        },
+        {
+          "action": "throw",
+          "frame": 2,
+          "pose": "throw_1",
+          "shot": "clorinde-throw-2.png"
+        },
+        {
+          "action": "throw",
+          "frame": 3,
+          "pose": "throw_3",
+          "shot": "clorinde-throw-3.png"
+        },
+        {
+          "action": "throw",
+          "frame": 4,
+          "pose": "throw_4",
+          "shot": "clorinde-throw-4.png"
+        },
+        {
+          "action": "throw",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "clorinde-throw-5.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 0,
+          "pose": "thrown_0",
+          "shot": "clorinde-thrown-0.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 1,
+          "pose": "thrown_1",
+          "shot": "clorinde-thrown-1.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 2,
+          "pose": "thrown_2",
+          "shot": "clorinde-thrown-2.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 3,
+          "pose": "thrown_3",
+          "shot": "clorinde-thrown-3.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 4,
+          "pose": "thrown_4",
+          "shot": "clorinde-thrown-4.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 5,
+          "pose": "thrown_5",
+          "shot": "clorinde-thrown-5.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "clorinde-win-0.png"
+        },
+        {
+          "action": "win",
+          "frame": 1,
+          "pose": "win_1",
+          "shot": "clorinde-win-1.png"
+        },
+        {
+          "action": "win",
+          "frame": 2,
+          "pose": "win_2",
+          "shot": "clorinde-win-2.png"
+        },
+        {
+          "action": "win",
+          "frame": 3,
+          "pose": "win_3",
+          "shot": "clorinde-win-3.png"
+        },
+        {
+          "action": "win",
+          "frame": 4,
+          "pose": "win_4",
+          "shot": "clorinde-win-4.png"
+        },
+        {
+          "action": "win",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "clorinde-win-5.png"
+        },
+        {
+          "action": "lose",
+          "frame": 0,
+          "pose": "lose_0",
+          "shot": "clorinde-lose-0.png"
+        },
+        {
+          "action": "lose",
+          "frame": 1,
+          "pose": "lose_1",
+          "shot": "clorinde-lose-1.png"
+        },
+        {
+          "action": "lose",
+          "frame": 2,
+          "pose": "lose_2",
+          "shot": "clorinde-lose-2.png"
+        },
+        {
+          "action": "lose",
+          "frame": 3,
+          "pose": "lose_3",
+          "shot": "clorinde-lose-3.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2275,
+        "visibleImages": 2251,
+        "visibleTexts": 15,
+        "glyphs": 66
+      }
+    },
+    {
+      "key": "arlecchino",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "arlecchino-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "idle_1",
+          "shot": "arlecchino-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "walk_0",
+          "shot": "arlecchino-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "walk_1",
+          "shot": "arlecchino-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "walk_2",
+          "shot": "arlecchino-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "walk_3",
+          "shot": "arlecchino-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "walk_4",
+          "shot": "arlecchino-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "walk_5",
+          "shot": "arlecchino-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "back_0",
+          "shot": "arlecchino-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "back_1",
+          "shot": "arlecchino-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "back_2",
+          "shot": "arlecchino-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "back_3",
+          "shot": "arlecchino-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "back_4",
+          "shot": "arlecchino-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "back_5",
+          "shot": "arlecchino-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "arlecchino-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "arlecchino-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "arlecchino-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "hurt_3",
+          "shot": "arlecchino-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "hurt_3",
+          "shot": "arlecchino-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "getup_1",
+          "shot": "arlecchino-getup-1.png"
+        },
+        {
+          "action": "getup",
+          "frame": 2,
+          "pose": "getup_2",
+          "shot": "arlecchino-getup-2.png"
+        },
+        {
+          "action": "getup",
+          "frame": 3,
+          "pose": "getup_3",
+          "shot": "arlecchino-getup-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 4,
+          "pose": "idle_0",
+          "shot": "arlecchino-getup-4.png"
+        },
+        {
+          "action": "jump",
+          "frame": 0,
+          "pose": "jump_0",
+          "shot": "arlecchino-jump-0.png"
+        },
+        {
+          "action": "jump",
+          "frame": 1,
+          "pose": "jump_1",
+          "shot": "arlecchino-jump-1.png"
+        },
+        {
+          "action": "jump",
+          "frame": 2,
+          "pose": "jump_2",
+          "shot": "arlecchino-jump-2.png"
+        },
+        {
+          "action": "jump",
+          "frame": 3,
+          "pose": "jump_3",
+          "shot": "arlecchino-jump-3.png"
+        },
+        {
+          "action": "jump",
+          "frame": 4,
+          "pose": "jump_4",
+          "shot": "arlecchino-jump-4.png"
+        },
+        {
+          "action": "jump",
+          "frame": 5,
+          "pose": "jump_5",
+          "shot": "arlecchino-jump-5.png"
+        },
+        {
+          "action": "dash",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "arlecchino-dash-0.png"
+        },
+        {
+          "action": "dash",
+          "frame": 1,
+          "pose": "dash_1",
+          "shot": "arlecchino-dash-1.png"
+        },
+        {
+          "action": "dash",
+          "frame": 2,
+          "pose": "dash_2",
+          "shot": "arlecchino-dash-2.png"
+        },
+        {
+          "action": "dash",
+          "frame": 3,
+          "pose": "dash_3",
+          "shot": "arlecchino-dash-3.png"
+        },
+        {
+          "action": "dash",
+          "frame": 4,
+          "pose": "dash_4",
+          "shot": "arlecchino-dash-4.png"
+        },
+        {
+          "action": "dash",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "arlecchino-dash-5.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "arlecchino-backdash-0.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 1,
+          "pose": "backdash_1",
+          "shot": "arlecchino-backdash-1.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 2,
+          "pose": "backdash_2",
+          "shot": "arlecchino-backdash-2.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 3,
+          "pose": "backdash_3",
+          "shot": "arlecchino-backdash-3.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 4,
+          "pose": "backdash_4",
+          "shot": "arlecchino-backdash-4.png"
+        },
+        {
+          "action": "backdash",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "arlecchino-backdash-5.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 0,
+          "pose": "crouch_0",
+          "shot": "arlecchino-crouch-0.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 1,
+          "pose": "crouch_1",
+          "shot": "arlecchino-crouch-1.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 2,
+          "pose": "crouch_2",
+          "shot": "arlecchino-crouch-2.png"
+        },
+        {
+          "action": "crouch",
+          "frame": 3,
+          "pose": "crouch_3",
+          "shot": "arlecchino-crouch-3.png"
+        },
+        {
+          "action": "block",
+          "frame": 0,
+          "pose": "block_0",
+          "shot": "arlecchino-block-0.png"
+        },
+        {
+          "action": "block",
+          "frame": 1,
+          "pose": "block_1",
+          "shot": "arlecchino-block-1.png"
+        },
+        {
+          "action": "block",
+          "frame": 2,
+          "pose": "block_2",
+          "shot": "arlecchino-block-2.png"
+        },
+        {
+          "action": "block",
+          "frame": 3,
+          "pose": "block_3",
+          "shot": "arlecchino-block-3.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 0,
+          "pose": "cblock_0",
+          "shot": "arlecchino-cblock-0.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 1,
+          "pose": "cblock_1",
+          "shot": "arlecchino-cblock-1.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 2,
+          "pose": "cblock_2",
+          "shot": "arlecchino-cblock-2.png"
+        },
+        {
+          "action": "cblock",
+          "frame": 3,
+          "pose": "cblock_3",
+          "shot": "arlecchino-cblock-3.png"
+        },
+        {
+          "action": "light1",
+          "frame": 0,
+          "pose": "light1_0",
+          "shot": "arlecchino-light1-0.png"
+        },
+        {
+          "action": "light1",
+          "frame": 1,
+          "pose": "light1_1",
+          "shot": "arlecchino-light1-1.png"
+        },
+        {
+          "action": "light1",
+          "frame": 2,
+          "pose": "light1_2",
+          "shot": "arlecchino-light1-2.png"
+        },
+        {
+          "action": "light1",
+          "frame": 3,
+          "pose": "light1_3",
+          "shot": "arlecchino-light1-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 0,
+          "pose": "light2_0",
+          "shot": "arlecchino-light2-0.png"
+        },
+        {
+          "action": "light2",
+          "frame": 1,
+          "pose": "light2_1",
+          "shot": "arlecchino-light2-1.png"
+        },
+        {
+          "action": "light2",
+          "frame": 2,
+          "pose": "light2_2",
+          "shot": "arlecchino-light2-2.png"
+        },
+        {
+          "action": "light2",
+          "frame": 3,
+          "pose": "light2_3",
+          "shot": "arlecchino-light2-3.png"
+        },
+        {
+          "action": "light2",
+          "frame": 4,
+          "pose": "light2_4",
+          "shot": "arlecchino-light2-4.png"
+        },
+        {
+          "action": "light2",
+          "frame": 5,
+          "pose": "light2_5",
+          "shot": "arlecchino-light2-5.png"
+        },
+        {
+          "action": "light3",
+          "frame": 0,
+          "pose": "light3_0",
+          "shot": "arlecchino-light3-0.png"
+        },
+        {
+          "action": "light3",
+          "frame": 1,
+          "pose": "light3_1",
+          "shot": "arlecchino-light3-1.png"
+        },
+        {
+          "action": "light3",
+          "frame": 2,
+          "pose": "light3_2",
+          "shot": "arlecchino-light3-2.png"
+        },
+        {
+          "action": "light3",
+          "frame": 3,
+          "pose": "light3_3",
+          "shot": "arlecchino-light3-3.png"
+        },
+        {
+          "action": "light3",
+          "frame": 4,
+          "pose": "light3_4",
+          "shot": "arlecchino-light3-4.png"
+        },
+        {
+          "action": "light3",
+          "frame": 5,
+          "pose": "light3_5",
+          "shot": "arlecchino-light3-5.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 0,
+          "pose": "heavy_0",
+          "shot": "arlecchino-heavy-0.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 1,
+          "pose": "heavy_1",
+          "shot": "arlecchino-heavy-1.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 2,
+          "pose": "heavy_2",
+          "shot": "arlecchino-heavy-2.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 3,
+          "pose": "heavy_3",
+          "shot": "arlecchino-heavy-3.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 4,
+          "pose": "heavy_4",
+          "shot": "arlecchino-heavy-4.png"
+        },
+        {
+          "action": "heavy",
+          "frame": 5,
+          "pose": "heavy_5",
+          "shot": "arlecchino-heavy-5.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 0,
+          "pose": "crouchLight_0",
+          "shot": "arlecchino-crouchLight-0.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 1,
+          "pose": "crouchLight_1",
+          "shot": "arlecchino-crouchLight-1.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 2,
+          "pose": "crouchLight_2",
+          "shot": "arlecchino-crouchLight-2.png"
+        },
+        {
+          "action": "crouchLight",
+          "frame": 3,
+          "pose": "crouchLight_3",
+          "shot": "arlecchino-crouchLight-3.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 0,
+          "pose": "crouchHeavy_0",
+          "shot": "arlecchino-crouchHeavy-0.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 1,
+          "pose": "crouchHeavy_1",
+          "shot": "arlecchino-crouchHeavy-1.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 2,
+          "pose": "crouchHeavy_2",
+          "shot": "arlecchino-crouchHeavy-2.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 3,
+          "pose": "crouchHeavy_3",
+          "shot": "arlecchino-crouchHeavy-3.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 4,
+          "pose": "crouchHeavy_4",
+          "shot": "arlecchino-crouchHeavy-4.png"
+        },
+        {
+          "action": "crouchHeavy",
+          "frame": 5,
+          "pose": "crouchHeavy_5",
+          "shot": "arlecchino-crouchHeavy-5.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 0,
+          "pose": "airLight_0",
+          "shot": "arlecchino-airLight-0.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 1,
+          "pose": "airLight_1",
+          "shot": "arlecchino-airLight-1.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 2,
+          "pose": "airLight_2",
+          "shot": "arlecchino-airLight-2.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 3,
+          "pose": "airLight_3",
+          "shot": "arlecchino-airLight-3.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 4,
+          "pose": "jump_4",
+          "shot": "arlecchino-airLight-4.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 5,
+          "pose": "jump_5",
+          "shot": "arlecchino-airLight-5.png"
+        },
+        {
+          "action": "airLight",
+          "frame": 6,
+          "pose": "idle_0",
+          "shot": "arlecchino-airLight-6.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 0,
+          "pose": "airHeavy_0",
+          "shot": "arlecchino-airHeavy-0.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 1,
+          "pose": "airHeavy_1",
+          "shot": "arlecchino-airHeavy-1.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 2,
+          "pose": "airHeavy_2",
+          "shot": "arlecchino-airHeavy-2.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 3,
+          "pose": "airHeavy_3",
+          "shot": "arlecchino-airHeavy-3.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 4,
+          "pose": "airHeavy_4",
+          "shot": "arlecchino-airHeavy-4.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 5,
+          "pose": "airHeavy_5",
+          "shot": "arlecchino-airHeavy-5.png"
+        },
+        {
+          "action": "airHeavy",
+          "frame": 6,
+          "pose": "idle_0",
+          "shot": "arlecchino-airHeavy-6.png"
+        },
+        {
+          "action": "skill",
+          "frame": 0,
+          "pose": "skill_0",
+          "shot": "arlecchino-skill-0.png"
+        },
+        {
+          "action": "skill",
+          "frame": 1,
+          "pose": "skill_1",
+          "shot": "arlecchino-skill-1.png"
+        },
+        {
+          "action": "skill",
+          "frame": 2,
+          "pose": "skill_2",
+          "shot": "arlecchino-skill-2.png"
+        },
+        {
+          "action": "skill",
+          "frame": 3,
+          "pose": "skill_3",
+          "shot": "arlecchino-skill-3.png"
+        },
+        {
+          "action": "skill",
+          "frame": 4,
+          "pose": "skill_4",
+          "shot": "arlecchino-skill-4.png"
+        },
+        {
+          "action": "skill",
+          "frame": 5,
+          "pose": "skill_5",
+          "shot": "arlecchino-skill-5.png"
+        },
+        {
+          "action": "skill",
+          "frame": 6,
+          "pose": "idle_0",
+          "shot": "arlecchino-skill-6.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "burst_0",
+          "shot": "arlecchino-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "burst_1",
+          "shot": "arlecchino-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "burst_1",
+          "shot": "arlecchino-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "burst_3",
+          "shot": "arlecchino-burst-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 4,
+          "pose": "burst_4",
+          "shot": "arlecchino-burst-4.png"
+        },
+        {
+          "action": "burst",
+          "frame": 5,
+          "pose": "burst_4",
+          "shot": "arlecchino-burst-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 6,
+          "pose": "burst_6",
+          "shot": "arlecchino-burst-6.png"
+        },
+        {
+          "action": "burst",
+          "frame": 7,
+          "pose": "burst_6",
+          "shot": "arlecchino-burst-7.png"
+        },
+        {
+          "action": "burst",
+          "frame": 8,
+          "pose": "burst_8",
+          "shot": "arlecchino-burst-8.png"
+        },
+        {
+          "action": "burst",
+          "frame": 9,
+          "pose": "idle_0",
+          "shot": "arlecchino-burst-9.png"
+        },
+        {
+          "action": "throw",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "arlecchino-throw-0.png"
+        },
+        {
+          "action": "throw",
+          "frame": 1,
+          "pose": "throw_1",
+          "shot": "arlecchino-throw-1.png"
+        },
+        {
+          "action": "throw",
+          "frame": 2,
+          "pose": "throw_2",
+          "shot": "arlecchino-throw-2.png"
+        },
+        {
+          "action": "throw",
+          "frame": 3,
+          "pose": "throw_3",
+          "shot": "arlecchino-throw-3.png"
+        },
+        {
+          "action": "throw",
+          "frame": 4,
+          "pose": "throw_4",
+          "shot": "arlecchino-throw-4.png"
+        },
+        {
+          "action": "throw",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "arlecchino-throw-5.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 0,
+          "pose": "thrown_0",
+          "shot": "arlecchino-thrown-0.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 1,
+          "pose": "thrown_0",
+          "shot": "arlecchino-thrown-1.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 2,
+          "pose": "thrown_2",
+          "shot": "arlecchino-thrown-2.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 3,
+          "pose": "thrown_3",
+          "shot": "arlecchino-thrown-3.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 4,
+          "pose": "thrown_4",
+          "shot": "arlecchino-thrown-4.png"
+        },
+        {
+          "action": "thrown",
+          "frame": 5,
+          "pose": "hurt_3",
+          "shot": "arlecchino-thrown-5.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "arlecchino-win-0.png"
+        },
+        {
+          "action": "win",
+          "frame": 1,
+          "pose": "win_1",
+          "shot": "arlecchino-win-1.png"
+        },
+        {
+          "action": "win",
+          "frame": 2,
+          "pose": "win_2",
+          "shot": "arlecchino-win-2.png"
+        },
+        {
+          "action": "win",
+          "frame": 3,
+          "pose": "win_3",
+          "shot": "arlecchino-win-3.png"
+        },
+        {
+          "action": "win",
+          "frame": 4,
+          "pose": "win_4",
+          "shot": "arlecchino-win-4.png"
+        },
+        {
+          "action": "win",
+          "frame": 5,
+          "pose": "idle_0",
+          "shot": "arlecchino-win-5.png"
+        },
+        {
+          "action": "lose",
+          "frame": 0,
+          "pose": "lose_0",
+          "shot": "arlecchino-lose-0.png"
+        },
+        {
+          "action": "lose",
+          "frame": 1,
+          "pose": "lose_1",
+          "shot": "arlecchino-lose-1.png"
+        },
+        {
+          "action": "lose",
+          "frame": 2,
+          "pose": "lose_2",
+          "shot": "arlecchino-lose-2.png"
+        },
+        {
+          "action": "lose",
+          "frame": 3,
+          "pose": "lose_3",
+          "shot": "arlecchino-lose-3.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2289,
+        "visibleImages": 2265,
+        "visibleTexts": 15,
+        "glyphs": 66
+      }
+    }
+  ]
+}

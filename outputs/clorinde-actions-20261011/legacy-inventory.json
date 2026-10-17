@@ -1,0 +1,502 @@
+{
+  "character": "clorinde",
+  "date": "2026-10-11",
+  "actions": [
+    {
+      "actionId": "clorinde.light1",
+      "group": "light1",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/light1-candidates/clorinde-light1-body-v1.png",
+          "sha256": "d50a26dc30a52bf5fd532e42d5f1e7e5e7c17c7be184924b7e17f14c24f332d0",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.light2",
+      "group": "light2",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/action-candidates-20261009/clorinde-light2-body-v1.png",
+          "sha256": "b48bd426ba60bbd9e047c7449436cb4badc7e1f1f1cf89dc9dc790a101d47384",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "new_candidate",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.light3",
+      "group": "light3",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/clorinde-light3-body-full-v1.png",
+          "sha256": "b413f04da710cd0f6106b36087cce40a6899a81e3f6c352494edfc257d3ddf0d",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.heavy",
+      "group": "heavy",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/clorinde-heavy-body-full-v1.png",
+          "sha256": "762b7042f3bca52e2291b3eb37b5cd0f33375149c41e116e796d5184b1a44845",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.crouchlight",
+      "group": "crouchlight",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/clorinde-crouchlight-body-full-v1.png",
+          "sha256": "e2b0303c829f80737176beffec75c16cbdceac2c7cc66f5f3baee311c75fa777",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.crouchheavy",
+      "group": "crouchheavy",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/clorinde-crouchheavy-body-full-v1.png",
+          "sha256": "b6216f4dd155da1af7e59e0b0c36708e31014325c5444e400409735e48af63a9",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.airlight",
+      "group": "airlight",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.airheavy",
+      "group": "airheavy",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.E",
+      "group": "E",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/skill-candidates/clorinde-E-body-v1.png",
+          "sha256": "ad774ed30c7b93c999f8ab832c00e3b1b25773b136a2220546b5add3b2807752",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.Q",
+      "group": "Q",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.throw",
+      "group": "throw",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.victim",
+      "group": "victim",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.idle",
+      "group": "idle",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-idle-review/source-cell-0.png",
+          "sha256": "78bebf4b66feff3481376c7eaa083c172a3c2dfb8c1046513b4c179d95b673e0",
+          "size": [
+            768,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-idle-review/source-cell-1.png",
+          "sha256": "3ea329a0e273a97e85ef86853c7c6ac9317219ed00377a790d6521d99a030626",
+          "size": [
+            768,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.walk",
+      "group": "walk",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-walk-review/source-cell-0.png",
+          "sha256": "5f2869eff41bb8c22d0033385c36ceda3e1413aa438b3a85fadef79a01feb4c9",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-walk-review/source-cell-1.png",
+          "sha256": "37e249e2737804ddc9ee3c68b7e6a7b6c8ff687019df672b81e529edd2d36889",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-walk-review/source-cell-2.png",
+          "sha256": "5e0001627fa1ce52fd51f97e085c9f496fb9bfc6221ada88e668b9f8e39281c8",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-walk-review/source-cell-3.png",
+          "sha256": "c15372f198a69298857eb00c01cd1999ce3da9683100be907c832509b60dfa16",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-walk-review/source-cell-4.png",
+          "sha256": "0f0807745e75f6840081e88b44d212b40f8ab75bccdaa1a4dde8e16fd08a65cf",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/clorinde-walk-review/source-cell-5.png",
+          "sha256": "78adb481be22a43e7620d0e988b1bd7258b4f6b480f4531147026cd254b66971",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.backwalk",
+      "group": "backwalk",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/clorinde-backwalk-body-v2.png",
+          "sha256": "ef4401aa4795a764bdb1075453d4a96b87edc984601fa2944f0a339abc5983ed",
+          "size": [
+            1774,
+            887
+          ],
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.jump",
+      "group": "jump",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/clorinde-jump-body-v1.png",
+          "sha256": "0055621b9c3daa3fa1e352499f8d31b780ef175a02c1633863ed21a4459165be",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.forwarddash",
+      "group": "forwarddash",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.backdash",
+      "group": "backdash",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.crouch",
+      "group": "crouch",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.standguard",
+      "group": "standguard",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/clorinde-standguard-body-v2.png",
+          "sha256": "c16850acb84957c2ae2a0dac484a4e35ad0da222d1eba4d46d81d76be30ee74a",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.crouchguard",
+      "group": "crouchguard",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.hit_knockdown",
+      "group": "hit_knockdown",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/clorinde-hit_knockdown-body-v1.png",
+          "sha256": "4d3142188d1f7fa055a348d03da9786f4b93e6a6aa2f66605788d3e2a95cf0da",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.wakeup",
+      "group": "wakeup",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/clorinde-wakeup-body-v1.png",
+          "sha256": "7e334c04aa25d36e93c6ccb1f8857c49e7905ab785b04a973daea090c02e8223",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.victory",
+      "group": "victory",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "clorinde.defeat",
+      "group": "defeat",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    }
+  ],
+  "sourceCoveredGroups": 14,
+  "missingGroups": [
+    "airlight",
+    "airheavy",
+    "Q",
+    "throw",
+    "victim",
+    "forwarddash",
+    "backdash",
+    "crouch",
+    "crouchguard",
+    "victory",
+    "defeat"
+  ],
+  "verification": "source file and PNG only",
+  "simulation": "not run",
+  "device": "not observed"
+}

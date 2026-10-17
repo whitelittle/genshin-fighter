@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>克洛琳德 · 新轻1体型返修</title>
+<style>body{margin:24px;font:16px/1.65 system-ui;background:#f4f6fa;color:#232b3c}main{max-width:1400px;margin:auto}button,a{font:inherit}button{padding:7px 14px;cursor:pointer}.layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(220px,1fr);gap:20px}article{background:white;border:1px solid #cad1dd;border-radius:12px;padding:16px;margin:16px 0}.image{background:#f5f7fa;padding:8px}.image img{width:100%;height:auto;display:block}.dark .image{background:#242638}h1{font-size:26px}h2{font-size:20px}button[aria-pressed=true]{background:#263b7b;color:white}p{max-width:1000px}@media(max-width:750px){.layout{grid-template-columns:1fr}}</style>
+<main><h1>克洛琳德 · 新轻1体型返修</h1>
+<p>本次针对新动作板比单人图显得偏胖、偏矮的问题。返修收窄腰胯与腿部、拉开躯干，保留准备、蓄势、直刺和回收动作；屈膝和前倾仍按动作保留。新版为候选，尚未确认完全一致。</p>
+<button id="before" aria-pressed="false">返修前</button> <button id="after" aria-pressed="true">返修候选</button> <button id="bg">浅／深底</button>
+<div class="layout"><article><h2 id="label">返修候选 · light1-v2</h2><div class="image"><img id="board" src="source/light1-v2.png" alt="轻1四姿返修候选"></div><p><a id="download" href="source/light1-v2.png">打开原图</a> · <a href="prompts/light1-v2.txt">本次返修提示词</a></p></article>
+<article><h2>本轮体型参照</h2><div class="image"><img src="source/master-v1.png" alt="单人图体型参考"></div><p>衣装、身材和身份参照。旧素材稍后核对，本页不混入旧角色对照。</p></article></div>
+<details><summary>检查边界</summary><p>原图保留；新版重新绘制，没有整图非等比拉伸。实际alpha在白底合成检查，RGB预览光晕不等同于背景不透明。腰胯、腿粗、骨段、握点、刀长、衣装一致性仍需逐姿复核。本页不是25组完整动作交付，也没有战斗或真机验收。</p><a href="制作与交付.md">本轮记录</a></details></main>
+<script>const b=document.getElementById('board'),l=document.getElementById('label'),d=document.getElementById('download');for(const [id,v]of[['before',1],['after',2]])document.getElementById(id).onclick=()=>{b.src=d.href='source/light1-v'+v+'.png';l.textContent=(v===1?'返修前':'返修候选')+' · light1-v'+v;for(const name of['before','after'])document.getElementById(name).setAttribute('aria-pressed',name===id)};document.getElementById('bg').onclick=()=>document.body.classList.toggle('dark');</script>
+</html>

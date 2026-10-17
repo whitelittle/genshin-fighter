@@ -1,0 +1,235 @@
+{
+  "mockOnly": true,
+  "diagnosticPoseLock": true,
+  "sourceSha256": "3a5e939df913b5e70fffdf36701fe02ee24d1dcf12f03a0534aff86be6829a7a",
+  "pixelGeometry": [
+    {
+      "key": "furina",
+      "images": 178,
+      "geometryAndAnchorsScaleTogether": true,
+      "paletteAndRectangleCountUnchanged": true
+    }
+  ],
+  "training": [
+    {
+      "key": "furina",
+      "sameCharacterTraining": true,
+      "cameraZoom": 1,
+      "idleReentryAndMirror": true,
+      "productionInputWalkAndReturn": true,
+      "shots": [
+        {
+          "action": "idle",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "furina-idle-0.png"
+        },
+        {
+          "action": "idle",
+          "frame": 1,
+          "pose": "idle_1",
+          "shot": "furina-idle-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 0,
+          "pose": "walk_0",
+          "shot": "furina-walk-0.png"
+        },
+        {
+          "action": "walk",
+          "frame": 1,
+          "pose": "walk_1",
+          "shot": "furina-walk-1.png"
+        },
+        {
+          "action": "walk",
+          "frame": 2,
+          "pose": "walk_2",
+          "shot": "furina-walk-2.png"
+        },
+        {
+          "action": "walk",
+          "frame": 3,
+          "pose": "walk_3",
+          "shot": "furina-walk-3.png"
+        },
+        {
+          "action": "walk",
+          "frame": 4,
+          "pose": "walk_4",
+          "shot": "furina-walk-4.png"
+        },
+        {
+          "action": "walk",
+          "frame": 5,
+          "pose": "walk_5",
+          "shot": "furina-walk-5.png"
+        },
+        {
+          "action": "back",
+          "frame": 0,
+          "pose": "back_0",
+          "shot": "furina-back-0.png"
+        },
+        {
+          "action": "back",
+          "frame": 1,
+          "pose": "back_1",
+          "shot": "furina-back-1.png"
+        },
+        {
+          "action": "back",
+          "frame": 2,
+          "pose": "back_2",
+          "shot": "furina-back-2.png"
+        },
+        {
+          "action": "back",
+          "frame": 3,
+          "pose": "back_3",
+          "shot": "furina-back-3.png"
+        },
+        {
+          "action": "back",
+          "frame": 4,
+          "pose": "back_4",
+          "shot": "furina-back-4.png"
+        },
+        {
+          "action": "back",
+          "frame": 5,
+          "pose": "back_5",
+          "shot": "furina-back-5.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 0,
+          "pose": "hurt_0",
+          "shot": "furina-hurt-0.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 1,
+          "pose": "hurt_1",
+          "shot": "furina-hurt-1.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 2,
+          "pose": "hurt_2",
+          "shot": "furina-hurt-2.png"
+        },
+        {
+          "action": "hurt",
+          "frame": 3,
+          "pose": "hurt_3",
+          "shot": "furina-hurt-3.png"
+        },
+        {
+          "action": "getup",
+          "frame": 0,
+          "pose": "hurt_3",
+          "shot": "furina-getup-0.png"
+        },
+        {
+          "action": "getup",
+          "frame": 1,
+          "pose": "getup_1",
+          "shot": "furina-getup-1.png"
+        },
+        {
+          "action": "getup",
+          "frame": 2,
+          "pose": "getup_2",
+          "shot": "furina-getup-2.png"
+        },
+        {
+          "action": "getup",
+          "frame": 3,
+          "pose": "getup_3",
+          "shot": "furina-getup-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 0,
+          "pose": "burst_0",
+          "shot": "furina-burst-0.png"
+        },
+        {
+          "action": "burst",
+          "frame": 1,
+          "pose": "burst_0",
+          "shot": "furina-burst-1.png"
+        },
+        {
+          "action": "burst",
+          "frame": 2,
+          "pose": "burst_2",
+          "shot": "furina-burst-2.png"
+        },
+        {
+          "action": "burst",
+          "frame": 3,
+          "pose": "burst_3",
+          "shot": "furina-burst-3.png"
+        },
+        {
+          "action": "burst",
+          "frame": 4,
+          "pose": "burst_4",
+          "shot": "furina-burst-4.png"
+        },
+        {
+          "action": "burst",
+          "frame": 5,
+          "pose": "burst_5",
+          "shot": "furina-burst-5.png"
+        },
+        {
+          "action": "burst",
+          "frame": 6,
+          "pose": "burst_6",
+          "shot": "furina-burst-6.png"
+        },
+        {
+          "action": "burst",
+          "frame": 7,
+          "pose": "burst_0",
+          "shot": "furina-burst-7.png"
+        },
+        {
+          "action": "win",
+          "frame": 0,
+          "pose": "idle_0",
+          "shot": "furina-win-0.png"
+        },
+        {
+          "action": "win",
+          "frame": 1,
+          "pose": "win_1",
+          "shot": "furina-win-1.png"
+        },
+        {
+          "action": "win",
+          "frame": 2,
+          "pose": "win_2",
+          "shot": "furina-win-2.png"
+        },
+        {
+          "action": "win",
+          "frame": 3,
+          "pose": "idle_0",
+          "shot": "furina-win-3.png"
+        }
+      ],
+      "stats": {
+        "controls": 12122,
+        "active": 2480,
+        "visibleImages": 2456,
+        "visibleTexts": 15,
+        "glyphs": 66
+      }
+    }
+  ]
+}

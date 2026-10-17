@@ -1,0 +1,518 @@
+[
+  {
+    "key": "walk",
+    "label": "前走",
+    "expectedPoses": 6,
+    "durations": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "poses": [
+      "left heel contact, right toe pushes",
+      "left knee lowers and right leg starts passing",
+      "right knee passes left support leg",
+      "right heel contact, left toe pushes",
+      "right knee lowers and left leg starts passing",
+      "left knee passes right support leg, cycle ready"
+    ],
+    "motionMeaning": "continuous forward root",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 前走.\nPose 1: left heel contact, right toe pushes.\nPose 2: left knee lowers and right leg starts passing.\nPose 3: right knee passes left support leg.\nPose 4: right heel contact, left toe pushes.\nPose 5: right knee lowers and left leg starts passing.\nPose 6: left knee passes right support leg, cycle ready.\nMovement meaning: continuous forward root. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "backwalk",
+    "label": "后退",
+    "expectedPoses": 6,
+    "durations": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "poses": [
+      "right rear foot reaches backward while front foot supports",
+      "rear foot takes weight, knees soften",
+      "front foot draws toward support, no crossing",
+      "front foot pushes backward, opposite rear foot reaches",
+      "other rear foot bears weight",
+      "front foot returns to guarded spacing, cycle ready"
+    ],
+    "motionMeaning": "continuous backward root, facing right throughout",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 后退.\nPose 1: right rear foot reaches backward while front foot supports.\nPose 2: rear foot takes weight, knees soften.\nPose 3: front foot draws toward support, no crossing.\nPose 4: front foot pushes backward, opposite rear foot reaches.\nPose 5: other rear foot bears weight.\nPose 6: front foot returns to guarded spacing, cycle ready.\nMovement meaning: continuous backward root, facing right throughout. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "jump",
+    "label": "跳跃",
+    "expectedPoses": 6,
+    "durations": [
+      6,
+      5,
+      8,
+      8,
+      8,
+      8
+    ],
+    "poses": [
+      "crouch preload with sword kept safely low",
+      "rear/front feet push from floor",
+      "ascending knees lift, cape lags down",
+      "apex compact knees, right sword held forward safely",
+      "descending boots prepare to meet ground",
+      "both feet land with knee cushioning"
+    ],
+    "motionMeaning": "jump arc outside pose animation",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 跳跃.\nPose 1: crouch preload with sword kept safely low.\nPose 2: rear/front feet push from floor.\nPose 3: ascending knees lift, cape lags down.\nPose 4: apex compact knees, right sword held forward safely.\nPose 5: descending boots prepare to meet ground.\nPose 6: both feet land with knee cushioning.\nMovement meaning: jump arc outside pose animation. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "forwarddash",
+    "label": "前冲",
+    "expectedPoses": 4,
+    "durations": [
+      4,
+      5,
+      5,
+      8
+    ],
+    "poses": [
+      "load rear leg and lower hips, sword low",
+      "rear leg powerfully pushes forward",
+      "low forward glide with front knee driving",
+      "front foot plants braking, return hips upright"
+    ],
+    "motionMeaning": "idle bookends added explicitly",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 前冲.\nPose 1: load rear leg and lower hips, sword low.\nPose 2: rear leg powerfully pushes forward.\nPose 3: low forward glide with front knee driving.\nPose 4: front foot plants braking, return hips upright.\nMovement meaning: idle bookends added explicitly. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "backdash",
+    "label": "后撤",
+    "expectedPoses": 4,
+    "durations": [
+      4,
+      4,
+      4,
+      10
+    ],
+    "poses": [
+      "load front foot, hips ready to retreat",
+      "front foot pushes backward, rear leg reaches back",
+      "brief retreat airborne with rear foot seeking floor",
+      "rear foot lands, front foot gathers to safe stance"
+    ],
+    "motionMeaning": "idle bookends added explicitly",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 后撤.\nPose 1: load front foot, hips ready to retreat.\nPose 2: front foot pushes backward, rear leg reaches back.\nPose 3: brief retreat airborne with rear foot seeking floor.\nPose 4: rear foot lands, front foot gathers to safe stance.\nMovement meaning: idle bookends added explicitly. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "crouch",
+    "label": "蹲下",
+    "expectedPoses": 4,
+    "durations": [
+      3,
+      3,
+      2,
+      20
+    ],
+    "poses": [
+      "soft knees begin lowering",
+      "hips descend while torso remains controlled",
+      "deep combat crouch, sword tip stays above floor",
+      "hold balanced low guard, never kneel or sit"
+    ],
+    "motionMeaning": "root fixed",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 蹲下.\nPose 1: soft knees begin lowering.\nPose 2: hips descend while torso remains controlled.\nPose 3: deep combat crouch, sword tip stays above floor.\nPose 4: hold balanced low guard, never kneel or sit.\nMovement meaning: root fixed. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "standguard",
+    "label": "站防",
+    "expectedPoses": 4,
+    "durations": [
+      4,
+      18,
+      6,
+      6
+    ],
+    "poses": [
+      "raise sword toward chest while left hand braces near guard",
+      "hold blade diagonally across front torso, no outgoing swing",
+      "small defensive recoil absorbed by rear knee",
+      "lower sword to ready"
+    ],
+    "motionMeaning": "root fixed except specified recoil",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 站防.\nPose 1: raise sword toward chest while left hand braces near guard.\nPose 2: hold blade diagonally across front torso, no outgoing swing.\nPose 3: small defensive recoil absorbed by rear knee.\nPose 4: lower sword to ready.\nMovement meaning: root fixed except specified recoil. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "crouchguard",
+    "label": "蹲防",
+    "expectedPoses": 4,
+    "durations": [
+      4,
+      18,
+      6,
+      6
+    ],
+    "poses": [
+      "lower hips and bring sword close to chest",
+      "hold low protective blade position in front of body",
+      "rear knee absorbs a guarded impact without sitting",
+      "return to low balanced crouch"
+    ],
+    "motionMeaning": "low root fixed",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 蹲防.\nPose 1: lower hips and bring sword close to chest.\nPose 2: hold low protective blade position in front of body.\nPose 3: rear knee absorbs a guarded impact without sitting.\nPose 4: return to low balanced crouch.\nMovement meaning: low root fixed. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "light2",
+    "label": "轻攻二",
+    "expectedPoses": 6,
+    "durations": [
+      4,
+      5,
+      2,
+      2,
+      6,
+      7
+    ],
+    "poses": [
+      "recover sword from thrust to waist",
+      "place sword fully into its visible waist scabbard",
+      "right hand draws holstered pistol pointing right, left hand relaxed safely",
+      "extend pistol right horizontally for one shot, sword stays sheathed",
+      "wrist and shoulder absorb brief recoil, no flames in body layer",
+      "right hand returns pistol to holster, left stays clear"
+    ],
+    "motionMeaning": "one short gun shot",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 轻攻二.\nPose 1: recover sword from thrust to waist.\nPose 2: place sword fully into its visible waist scabbard.\nPose 3: right hand draws holstered pistol pointing right, left hand relaxed safely.\nPose 4: extend pistol right horizontally for one shot, sword stays sheathed.\nPose 5: wrist and shoulder absorb brief recoil, no flames in body layer.\nPose 6: right hand returns pistol to holster, left stays clear.\nMovement meaning: one short gun shot. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "source_candidate_requires_review"
+  },
+  {
+    "key": "light3",
+    "label": "轻攻三",
+    "expectedPoses": 6,
+    "durations": [
+      4,
+      5,
+      2,
+      2,
+      8,
+      10
+    ],
+    "poses": [
+      "pistol secured in holster, right hand reaches sword hilt",
+      "draw slender sword up toward right shoulder",
+      "step forward and begin diagonal forward-down cut",
+      "finish clean forward diagonal cut with blade fully visible",
+      "front knee brakes, elbow draws blade inward",
+      "return blade down-right combat ready"
+    ],
+    "motionMeaning": "one diagonal sword slash",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 轻攻三.\nPose 1: pistol secured in holster, right hand reaches sword hilt.\nPose 2: draw slender sword up toward right shoulder.\nPose 3: step forward and begin diagonal forward-down cut.\nPose 4: finish clean forward diagonal cut with blade fully visible.\nPose 5: front knee brakes, elbow draws blade inward.\nPose 6: return blade down-right combat ready.\nMovement meaning: one diagonal sword slash. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "heavy",
+    "label": "站重",
+    "expectedPoses": 6,
+    "durations": [
+      7,
+      7,
+      2,
+      2,
+      10,
+      12
+    ],
+    "poses": [
+      "right hand secures sword fully inside visible waist scabbard",
+      "draw pistol with strong stable stance, left hand supports wrist",
+      "extend pistol to aim chest-high to right",
+      "firm recoil stance of one fan-shot, no emitted particles on body",
+      "release supporting left hand, pull gun safely to side",
+      "holster gun and settle combat posture"
+    ],
+    "motionMeaning": "one fan-shaped gun hit ID",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 站重.\nPose 1: right hand secures sword fully inside visible waist scabbard.\nPose 2: draw pistol with strong stable stance, left hand supports wrist.\nPose 3: extend pistol to aim chest-high to right.\nPose 4: firm recoil stance of one fan-shot, no emitted particles on body.\nPose 5: release supporting left hand, pull gun safely to side.\nPose 6: holster gun and settle combat posture.\nMovement meaning: one fan-shaped gun hit ID. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "crouchlight",
+    "label": "蹲轻",
+    "expectedPoses": 6,
+    "durations": [
+      3,
+      3,
+      2,
+      1,
+      5,
+      7
+    ],
+    "poses": [
+      "balanced low combat crouch with sword at waist",
+      "right elbow pulls back and blade points forward at opponent shin",
+      "short forward low sword thrust, both feet support body",
+      "complete short low thrust, blade stays above floor and away from own ankle",
+      "retract right elbow and draw sword close",
+      "return low ready stance"
+    ],
+    "motionMeaning": "low sword tip",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 蹲轻.\nPose 1: balanced low combat crouch with sword at waist.\nPose 2: right elbow pulls back and blade points forward at opponent shin.\nPose 3: short forward low sword thrust, both feet support body.\nPose 4: complete short low thrust, blade stays above floor and away from own ankle.\nPose 5: retract right elbow and draw sword close.\nPose 6: return low ready stance.\nMovement meaning: low sword tip. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "crouchheavy",
+    "label": "蹲重",
+    "expectedPoses": 6,
+    "durations": [
+      6,
+      6,
+      2,
+      2,
+      10,
+      12
+    ],
+    "poses": [
+      "low crouch with blade pulled to rear side safely",
+      "rotate torso loading rear hip for low horizontal sweep",
+      "begin a real horizontal sword sweep toward RIGHT at opponent shin",
+      "finish blade across front at low level, keep legs clear of own blade",
+      "stop torso rotation with front knee and pull sword back",
+      "balanced crouch ready, no kick or unarmed punch"
+    ],
+    "motionMeaning": "one low sweep, knockdown candidate",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 蹲重.\nPose 1: low crouch with blade pulled to rear side safely.\nPose 2: rotate torso loading rear hip for low horizontal sweep.\nPose 3: begin a real horizontal sword sweep toward RIGHT at opponent shin.\nPose 4: finish blade across front at low level, keep legs clear of own blade.\nPose 5: stop torso rotation with front knee and pull sword back.\nPose 6: balanced crouch ready, no kick or unarmed punch.\nMovement meaning: one low sweep, knockdown candidate. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "airlight",
+    "label": "空轻",
+    "expectedPoses": 6,
+    "durations": [
+      3,
+      4,
+      1,
+      1,
+      6,
+      7
+    ],
+    "poses": [
+      "airborne bent knees with sword securely sheathed",
+      "draw pistol to right while legs tuck for balance",
+      "extend pistol horizontal RIGHT, both boots off ground",
+      "small airborne recoil through shoulder, no extra displacement",
+      "holster pistol while keeping knees compact",
+      "prepare descending boot position, sword remains sheathed"
+    ],
+    "motionMeaning": "air root inherits jump",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 空轻.\nPose 1: airborne bent knees with sword securely sheathed.\nPose 2: draw pistol to right while legs tuck for balance.\nPose 3: extend pistol horizontal RIGHT, both boots off ground.\nPose 4: small airborne recoil through shoulder, no extra displacement.\nPose 5: holster pistol while keeping knees compact.\nPose 6: prepare descending boot position, sword remains sheathed.\nMovement meaning: air root inherits jump. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "airheavy",
+    "label": "空重",
+    "expectedPoses": 6,
+    "durations": [
+      5,
+      5,
+      2,
+      2,
+      7,
+      9
+    ],
+    "poses": [
+      "airborne bent knees with slender sword raised near right shoulder",
+      "turn hips and bring sword point toward lower-right",
+      "extend arm to stab diagonally down-right, both feet airborne",
+      "follow the same down-forward thrust without touching own legs",
+      "retract blade safely as knees prepare descent",
+      "cushioned landing with sword low-forward"
+    ],
+    "motionMeaning": "air root inherits jump; landing recovery separate",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 空重.\nPose 1: airborne bent knees with slender sword raised near right shoulder.\nPose 2: turn hips and bring sword point toward lower-right.\nPose 3: extend arm to stab diagonally down-right, both feet airborne.\nPose 4: follow the same down-forward thrust without touching own legs.\nPose 5: retract blade safely as knees prepare descent.\nPose 6: cushioned landing with sword low-forward.\nMovement meaning: air root inherits jump; landing recovery separate. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "E",
+    "label": "E · 枪剑突进",
+    "expectedPoses": 6,
+    "durations": [
+      4,
+      4,
+      2,
+      8,
+      4,
+      18
+    ],
+    "poses": [
+      "sword sheathed, right hand draws pistol toward opponent",
+      "right arm aims short pistol shot to right, sword remains sheathed",
+      "pistol recoils, begin holstering",
+      "pistol fully holstered, draw slender sword as rear leg loads",
+      "strong directional sword thrust lunge RIGHT, straight visible blade",
+      "front foot brakes, sword retracts to low ready"
+    ],
+    "motionMeaning": "gun hit tick8, thrust hit tick18",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: E · 枪剑突进.\nPose 1: sword sheathed, right hand draws pistol toward opponent.\nPose 2: right arm aims short pistol shot to right, sword remains sheathed.\nPose 3: pistol recoils, begin holstering.\nPose 4: pistol fully holstered, draw slender sword as rear leg loads.\nPose 5: strong directional sword thrust lunge RIGHT, straight visible blade.\nPose 6: front foot brakes, sword retracts to low ready.\nMovement meaning: gun hit tick8, thrust hit tick18. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "Q",
+    "label": "Q · 残光截击",
+    "expectedPoses": 6,
+    "durations": [
+      7,
+      7,
+      10,
+      12,
+      12,
+      24
+    ],
+    "poses": [
+      "sword secured in scabbard, draw pistol aiming RIGHT for confirmation shot",
+      "controlled pistol recoil then holster, cape prepares to move",
+      "draw sword into first sweeping interception to RIGHT",
+      "compact passing thrust to RIGHT with both feet and blade visible",
+      "final stronger crossing sword cut with front foot braking",
+      "calm sheathing recovery, gun holstered"
+    ],
+    "motionMeaning": "confirmation gun tick14, sword hits24/36/48, independent stage",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: Q · 残光截击.\nPose 1: sword secured in scabbard, draw pistol aiming RIGHT for confirmation shot.\nPose 2: controlled pistol recoil then holster, cape prepares to move.\nPose 3: draw sword into first sweeping interception to RIGHT.\nPose 4: compact passing thrust to RIGHT with both feet and blade visible.\nPose 5: final stronger crossing sword cut with front foot braking.\nPose 6: calm sheathing recovery, gun holstered.\nMovement meaning: confirmation gun tick14, sword hits24/36/48, independent stage. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "throw",
+    "label": "投技",
+    "expectedPoses": 6,
+    "durations": [
+      4,
+      4,
+      8,
+      8,
+      8,
+      18
+    ],
+    "poses": [
+      "both weapons safely secured, approach with open right hand",
+      "right palm and left hand form a clear wrist/shoulder grasp in front",
+      "bend knees and rotate hips, hands retain contact with opponent",
+      "turn shoulder and hips to pull opponent across body, no sword drawn",
+      "extend both arms releasing opponent to RIGHT, rear leg counterbalances",
+      "release fingers and settle, hand returns toward sword hilt"
+    ],
+    "motionMeaning": "paired opponent motion at same ticks; no throw effect",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 投技.\nPose 1: both weapons safely secured, approach with open right hand.\nPose 2: right palm and left hand form a clear wrist/shoulder grasp in front.\nPose 3: bend knees and rotate hips, hands retain contact with opponent.\nPose 4: turn shoulder and hips to pull opponent across body, no sword drawn.\nPose 5: extend both arms releasing opponent to RIGHT, rear leg counterbalances.\nPose 6: release fingers and settle, hand returns toward sword hilt.\nMovement meaning: paired opponent motion at same ticks; no throw effect. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "victim",
+    "label": "被投",
+    "expectedPoses": 6,
+    "durations": [
+      4,
+      4,
+      8,
+      8,
+      8,
+      18
+    ],
+    "poses": [
+      "both weapons secured, wrist and shoulder pulled toward LEFT",
+      "lose balance with torso leaning LEFT, hips follow arms",
+      "turn sideways as hips are lifted by a shoulder throw",
+      "airborne horizontal rotation, arms protect head, legs fully drawn",
+      "land on right side with bent knees, no weapons drawn",
+      "rest on right side forearm with knees folded, ready to rise"
+    ],
+    "motionMeaning": "shared paired throw clock",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 6 distinct full-body poses, ordered left to right then top to bottom, two rows of three. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 被投.\nPose 1: both weapons secured, wrist and shoulder pulled toward LEFT.\nPose 2: lose balance with torso leaning LEFT, hips follow arms.\nPose 3: turn sideways as hips are lifted by a shoulder throw.\nPose 4: airborne horizontal rotation, arms protect head, legs fully drawn.\nPose 5: land on right side with bent knees, no weapons drawn.\nPose 6: rest on right side forearm with knees folded, ready to rise.\nMovement meaning: shared paired throw clock. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "hit_knockdown",
+    "label": "受击与倒地",
+    "expectedPoses": 4,
+    "durations": [
+      8,
+      8,
+      10,
+      18
+    ],
+    "poses": [
+      "sword held safely low and pistol holstered, torso recoils away from RIGHT opponent",
+      "rearward torso lean toward LEFT, front foot begins losing support",
+      "fall onto RIGHT SIDE with knees folded, sword safely released into sheath state",
+      "right-side resting body, right forearm supports and knees folded"
+    ],
+    "motionMeaning": "last frame will share wakeup first",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 受击与倒地.\nPose 1: sword held safely low and pistol holstered, torso recoils away from RIGHT opponent.\nPose 2: rearward torso lean toward LEFT, front foot begins losing support.\nPose 3: fall onto RIGHT SIDE with knees folded, sword safely released into sheath state.\nPose 4: right-side resting body, right forearm supports and knees folded.\nMovement meaning: last frame will share wakeup first. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "wakeup",
+    "label": "起身",
+    "expectedPoses": 4,
+    "durations": [
+      8,
+      8,
+      8,
+      6
+    ],
+    "poses": [
+      "rest on RIGHT SIDE forearm with knees folded, both weapons secured",
+      "push torso upward from right forearm, collect knees beneath hips",
+      "one knee plants and front boot takes weight, left hand balances",
+      "stand and return right hand to sword hilt, both feet planted"
+    ],
+    "motionMeaning": "first frame shared knockdown; last idle added",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 起身.\nPose 1: rest on RIGHT SIDE forearm with knees folded, both weapons secured.\nPose 2: push torso upward from right forearm, collect knees beneath hips.\nPose 3: one knee plants and front boot takes weight, left hand balances.\nPose 4: stand and return right hand to sword hilt, both feet planted.\nMovement meaning: first frame shared knockdown; last idle added. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "victory",
+    "label": "胜利",
+    "expectedPoses": 4,
+    "durations": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "poses": [
+      "calmly sheath slender sword, both feet fixed",
+      "straighten shoulders and give a restrained duelist nod",
+      "touch tricorne brim lightly with right hand while left rests",
+      "lower hand and return to poised calm stance"
+    ],
+    "motionMeaning": "idle first/last added exactly",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 胜利.\nPose 1: calmly sheath slender sword, both feet fixed.\nPose 2: straighten shoulders and give a restrained duelist nod.\nPose 3: touch tricorne brim lightly with right hand while left rests.\nPose 4: lower hand and return to poised calm stance.\nMovement meaning: idle first/last added exactly. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  },
+  {
+    "key": "defeat",
+    "label": "败北",
+    "expectedPoses": 4,
+    "durations": [
+      10,
+      10,
+      12,
+      16
+    ],
+    "poses": [
+      "both weapons secured, shoulders lower with exhausted composure",
+      "lower one knee toward floor, front foot remains planted",
+      "one-knee kneeling pose, gloved hand rests on thigh, head bows",
+      "hold quiet one-knee kneel, maintain complete body and hat"
+    ],
+    "motionMeaning": "no repetitive twitching",
+    "prompt": "Use case: stylized-concept. Asset: genuine transparent 2D fighting game sprite animation board. Reference image ONLY fixes Clorinde identity, clothing, anatomy and cel shading; DRAW NEW POSES, never copy its pose layout. Clorinde from Genshin Impact: adult natural anime anatomy, NOT chibi, indigo long hair, navy tricorne with complete white feather, navy fitted duelist coat, violet-blue long cape with gold trim, white shirt/cuffs and gloves, purple tights, navy low-heel boots with folded white cuffs. Right hand is main sword/gun hand; pistol and visible sword sheath at waist. Exactly two arms, two hands and two legs; no duplicate weapons. Same camera, side three-quarter toward RIGHT throughout; same anatomical scale and head/torso/leg lengths across poses. Entire feather/cape/weapon/boots with wide clear alpha gaps and generous outside margins. Clean broad cel colors and fine coordinated blue-black contour. NO background fog, lighting, floor, shadow, text, panels, grid lines or labels. NO effects, lightning, bullets or slash trails on body layer. Weapon grip must be physically connected, slender sword has same actual length, pistol shape remains stable. Do not make canvas/hat/weapon determine body scale.\nCRITICAL body-build lock: use the supplied single-character master as the same tall slender woman in every action. Preserve its narrow waist/pelvis, slender thighs/calves/arms, torso length and actual leg segments. Never redraw stockier or shorter figures to fit a pose board. Bent knees/lunges change pose height, not actual build. No whole-bitmap width/height distortion or arbitrary head-body-ratio redesign.\nDraw 4 distinct full-body poses, ordered left to right then top to bottom, two rows of two. No equal cell boundary requirement; space objects far enough that no bodies/weapons overlap. Action: 败北.\nPose 1: both weapons secured, shoulders lower with exhausted composure.\nPose 2: lower one knee toward floor, front foot remains planted.\nPose 3: one-knee kneeling pose, gloved hand rests on thigh, head bows.\nPose 4: hold quiet one-knee kneel, maintain complete body and hat.\nMovement meaning: no repetitive twitching. Do not replace action with unarmed punches or kicks. Show preparation, effective movement and recovery clearly.",
+    "status": "queued_after_body_review"
+  }
+]

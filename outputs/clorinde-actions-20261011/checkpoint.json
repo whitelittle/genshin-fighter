@@ -1,0 +1,365 @@
+{
+  "character": "clorinde",
+  "scope": "source and design checkpoint; not full action delivery",
+  "sources": [
+    {
+      "file": "source/backdash-v1.png",
+      "sha256": "ed1e537851cce7902e3abb6d7fdf9547edad8fe6b74a2ccb881baa627063ea88",
+      "size": [
+        1225,
+        1284
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1224,
+        1284
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/backwalk-v1.png",
+      "sha256": "6d41029a45ccb300b4232e223e9800543a561f7ab37f2c088c1beb06ac7cd99c",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1530,
+        1024
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/crouch-v1.png",
+      "sha256": "d6c1fad3a05c327e0e54bae1609f7cbbd8a13706cd124b7147d2fac85e586a59",
+      "size": [
+        1312,
+        1199
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1304,
+        1199
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/crouchguard-v1.png",
+      "sha256": "6c2e1aa0cdaeb498126adb9a402f020613655a3f55ba045a0c6d2e6f05215ca4",
+      "size": [
+        1402,
+        1122
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        19,
+        1396,
+        1106
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/forwarddash-v1.png",
+      "sha256": "a1fb973b8ae83df33b6f1a2a8169abd700188f6595bcd2805743757db9bf2db1",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1522,
+        1024
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/idle-single-v1.png",
+      "sha256": "ec9a37c7888f07866d1caeb3f4e8a511f4387a7d2b476995b8ca384f9ac1d783",
+      "size": [
+        1086,
+        1448
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        15,
+        1086,
+        1432
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/idle-v1.png",
+      "sha256": "2bf38a22383661991cc117341b00d714629e33ec82e2434b7133b14852e673e7",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1490,
+        1008
+      ],
+      "status": "实际alpha白底合成无大面积光晕；脚位/体型待修",
+      "accepted": false
+    },
+    {
+      "file": "source/idle-v2.png",
+      "sha256": "c7d51ee9e887c712ea43776afdd9cbcf017713bfbc46cade75ba66caf9a298c3",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1490,
+        1024
+      ],
+      "status": "透明背景复核更正；脚位/体型待修",
+      "accepted": false
+    },
+    {
+      "file": "source/idle-v3.png",
+      "sha256": "9b9c0395bff6b6b0c0574ef729ed15500e72d613dba196fb040c4f6a71aab798",
+      "size": [
+        1681,
+        935
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        17,
+        0,
+        1665,
+        922
+      ],
+      "status": "重新制图已消除大面积光晕，但帽羽碰顶；待修",
+      "accepted": false
+    },
+    {
+      "file": "source/jump-v1.png",
+      "sha256": "52b50543787bfb6a4ef325f91428473f0410598c21de2825f6c6b57894fa1f63",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1522,
+        1024
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/light1-v1.png",
+      "sha256": "a003be3221957aa4f58ba0f5d2231082cbf469922a25764ddb0868aa9b15bb24",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1523,
+        1024
+      ],
+      "status": "新动作腰胯/大腿偏宽、躯干紧凑；源图待修",
+      "accepted": false
+    },
+    {
+      "file": "source/light1-v2.png",
+      "sha256": "e031ca9830afc56e4eed205ed9a32f67454dcb535bfa9632ed1d57ea9d82b273",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        17,
+        0,
+        1524,
+        1008
+      ],
+      "status": "按单人母版返修腰胯/腿粗与躯干；新候选待复核",
+      "accepted": false
+    },
+    {
+      "file": "source/light2-v1.png",
+      "sha256": "93781a7540de4bfb3cacc22fe74e7a9dd4173109521bfa28f8901d4e805336a7",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1516,
+        1024
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/master-v1.png",
+      "sha256": "34b3d8768e1292b2c2c9a4a8dd831dba06fa5cf7d38ac1edf4d0355103f57cb0",
+      "size": [
+        1086,
+        1448
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        26,
+        0,
+        1076,
+        1432
+      ],
+      "status": "帽羽碰顶，剑尖余量不足；待修",
+      "accepted": false
+    },
+    {
+      "file": "source/master-v2.png",
+      "sha256": "0f23d9421b37e5476abedd424e31d26f04356863ff477b423495495ec724cd59",
+      "size": [
+        1086,
+        1448
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        29,
+        16,
+        1080,
+        1432
+      ],
+      "status": "完整主体，边距偏小；比例与拟合待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/standguard-v1.png",
+      "sha256": "71e53b4f376d2c8eee1c794e481fcadff6b74f23b87f78b193757be1e0f8840f",
+      "size": [
+        1086,
+        1448
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1072,
+        1448
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    },
+    {
+      "file": "source/walk-v1.png",
+      "sha256": "63f7c6e3f6b404644c9b7fc7b8f6c63a197e41421196198cd10d1f020ad016f8",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1520,
+        1024
+      ],
+      "status": "源图候选，待检查",
+      "accepted": false
+    }
+  ],
+  "legacyGroups": 14,
+  "missingLegacyGroups": [
+    "airlight",
+    "airheavy",
+    "Q",
+    "throw",
+    "victim",
+    "forwarddash",
+    "backdash",
+    "crouch",
+    "crouchguard",
+    "victory",
+    "defeat"
+  ],
+  "actionsDesigned": 25,
+  "runtimeIntegrated": false,
+  "simulator": "not run",
+  "device": "not observed",
+  "verification": "PNG decode / file hashes only; art statuses stated individually"
+}

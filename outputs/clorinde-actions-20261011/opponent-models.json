@@ -1,0 +1,526 @@
+{
+  "raiden": {
+    "basic_0": {
+      "file": "opponent/raiden/basic_0.png",
+      "ax": 23,
+      "ay": 56,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 46,
+      "height": 58,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_1": {
+      "file": "opponent/raiden/basic_1.png",
+      "ax": 25,
+      "ay": 56,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 50,
+      "height": 58,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_2": {
+      "file": "opponent/raiden/basic_2.png",
+      "ax": 25,
+      "ay": 56,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 50,
+      "height": 58,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_3": {
+      "file": "opponent/raiden/basic_3.png",
+      "ax": 27,
+      "ay": 60,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 53,
+      "height": 62,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_4": {
+      "file": "opponent/raiden/basic_4.png",
+      "ax": 25,
+      "ay": 60,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 50,
+      "height": 62,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_5": {
+      "file": "opponent/raiden/basic_5.png",
+      "ax": 25,
+      "ay": 55,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 50,
+      "height": 57,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_6": {
+      "file": "opponent/raiden/basic_6.png",
+      "ax": 27,
+      "ay": 59,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 54,
+      "height": 61,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_7": {
+      "file": "opponent/raiden/basic_7.png",
+      "ax": 27,
+      "ay": 60,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 54,
+      "height": 62,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_0": {
+      "file": "opponent/raiden/hurt_0.png",
+      "ax": 22,
+      "ay": 54,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 45,
+      "height": 56,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_1": {
+      "file": "opponent/raiden/hurt_1.png",
+      "ax": 29,
+      "ay": 42,
+      "scale": 5.6,
+      "nativeUnitRetained": true,
+      "width": 57,
+      "height": 44,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_2": {
+      "file": "opponent/raiden/hurt_2.png",
+      "ax": 34,
+      "ay": 38,
+      "scale": 4.666666666666667,
+      "nativeUnitRetained": true,
+      "width": 68,
+      "height": 40,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_3": {
+      "file": "opponent/raiden/hurt_3.png",
+      "ax": 39,
+      "ay": 23,
+      "scale": 4.2,
+      "nativeUnitRetained": true,
+      "width": 78,
+      "height": 25,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_4": {
+      "file": "opponent/raiden/hurt_4.png",
+      "ax": 30,
+      "ay": 37,
+      "scale": 4.666666666666667,
+      "nativeUnitRetained": true,
+      "width": 60,
+      "height": 39,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_5": {
+      "file": "opponent/raiden/hurt_5.png",
+      "ax": 24,
+      "ay": 46,
+      "scale": 5.25,
+      "nativeUnitRetained": true,
+      "width": 47,
+      "height": 48,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_6": {
+      "file": "opponent/raiden/hurt_6.png",
+      "ax": 19,
+      "ay": 58,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 37,
+      "height": 60,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_7": {
+      "file": "opponent/raiden/hurt_7.png",
+      "ax": 24,
+      "ay": 53,
+      "scale": 4.421052631578948,
+      "nativeUnitRetained": true,
+      "width": 48,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_0": {
+      "file": "opponent/raiden/throw_0.png",
+      "ax": 26,
+      "ay": 53,
+      "scale": 7,
+      "nativeUnitRetained": true,
+      "width": 52,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_1": {
+      "file": "opponent/raiden/throw_1.png",
+      "ax": 24,
+      "ay": 56,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 47,
+      "height": 58,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_2": {
+      "file": "opponent/raiden/throw_2.png",
+      "ax": 30,
+      "ay": 50,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 59,
+      "height": 52,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_3": {
+      "file": "opponent/raiden/throw_3.png",
+      "ax": 24,
+      "ay": 58,
+      "scale": 6.461538461538462,
+      "nativeUnitRetained": true,
+      "width": 48,
+      "height": 60,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_0": {
+      "file": "opponent/raiden/victim_0.png",
+      "ax": 22,
+      "ay": 61,
+      "scale": 5.6,
+      "nativeUnitRetained": true,
+      "width": 44,
+      "height": 63,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_1": {
+      "file": "opponent/raiden/victim_1.png",
+      "ax": 22,
+      "ay": 54,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 43,
+      "height": 56,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_2": {
+      "file": "opponent/raiden/victim_2.png",
+      "ax": 23,
+      "ay": 53,
+      "scale": 5.6,
+      "nativeUnitRetained": true,
+      "width": 45,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_3": {
+      "file": "opponent/raiden/victim_3.png",
+      "ax": 29,
+      "ay": 38,
+      "scale": 6,
+      "nativeUnitRetained": true,
+      "width": 59,
+      "height": 40,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_4": {
+      "file": "opponent/raiden/victim_4.png",
+      "ax": 33,
+      "ay": 37,
+      "scale": 4.9411764705882355,
+      "nativeUnitRetained": true,
+      "width": 65,
+      "height": 39,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_5": {
+      "file": "opponent/raiden/victim_5.png",
+      "ax": 40,
+      "ay": 26,
+      "scale": 4.2,
+      "nativeUnitRetained": true,
+      "width": 81,
+      "height": 28,
+      "contactStatus": "manual source-local attachment candidate"
+    }
+  },
+  "nahida": {
+    "basic_0": {
+      "file": "opponent/nahida/basic_0.png",
+      "ax": 21,
+      "ay": 69,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 41,
+      "height": 71,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_1": {
+      "file": "opponent/nahida/basic_1.png",
+      "ax": 20,
+      "ay": 69,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 41,
+      "height": 71,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_2": {
+      "file": "opponent/nahida/basic_2.png",
+      "ax": 22,
+      "ay": 65,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 44,
+      "height": 67,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_3": {
+      "file": "opponent/nahida/basic_3.png",
+      "ax": 22,
+      "ay": 69,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 44,
+      "height": 71,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_4": {
+      "file": "opponent/nahida/basic_4.png",
+      "ax": 24,
+      "ay": 69,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 47,
+      "height": 71,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_5": {
+      "file": "opponent/nahida/basic_5.png",
+      "ax": 24,
+      "ay": 69,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 48,
+      "height": 71,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_6": {
+      "file": "opponent/nahida/basic_6.png",
+      "ax": 22,
+      "ay": 69,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 44,
+      "height": 71,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "basic_7": {
+      "file": "opponent/nahida/basic_7.png",
+      "ax": 23,
+      "ay": 65,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 45,
+      "height": 67,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_0": {
+      "file": "opponent/nahida/hurt_0.png",
+      "ax": 22,
+      "ay": 64,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 44,
+      "height": 66,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_1": {
+      "file": "opponent/nahida/hurt_1.png",
+      "ax": 26,
+      "ay": 53,
+      "scale": 4.660714285714286,
+      "nativeUnitRetained": true,
+      "width": 51,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_2": {
+      "file": "opponent/nahida/hurt_2.png",
+      "ax": 31,
+      "ay": 48,
+      "scale": 4.078125,
+      "nativeUnitRetained": true,
+      "width": 62,
+      "height": 50,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_3": {
+      "file": "opponent/nahida/hurt_3.png",
+      "ax": 31,
+      "ay": 38,
+      "scale": 3.838235294117647,
+      "nativeUnitRetained": true,
+      "width": 61,
+      "height": 40,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_4": {
+      "file": "opponent/nahida/hurt_4.png",
+      "ax": 27,
+      "ay": 45,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 55,
+      "height": 47,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_5": {
+      "file": "opponent/nahida/hurt_5.png",
+      "ax": 21,
+      "ay": 67,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 42,
+      "height": 69,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_6": {
+      "file": "opponent/nahida/hurt_6.png",
+      "ax": 22,
+      "ay": 61,
+      "scale": 4.660714285714286,
+      "nativeUnitRetained": true,
+      "width": 45,
+      "height": 63,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "hurt_7": {
+      "file": "opponent/nahida/hurt_7.png",
+      "ax": 26,
+      "ay": 53,
+      "scale": 3.838235294117647,
+      "nativeUnitRetained": true,
+      "width": 53,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_0": {
+      "file": "opponent/nahida/throw_0.png",
+      "ax": 28,
+      "ay": 53,
+      "scale": 5.4375,
+      "nativeUnitRetained": true,
+      "width": 56,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_1": {
+      "file": "opponent/nahida/throw_1.png",
+      "ax": 27,
+      "ay": 53,
+      "scale": 5.4375,
+      "nativeUnitRetained": true,
+      "width": 55,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_2": {
+      "file": "opponent/nahida/throw_2.png",
+      "ax": 31,
+      "ay": 53,
+      "scale": 5.4375,
+      "nativeUnitRetained": true,
+      "width": 61,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "throw_3": {
+      "file": "opponent/nahida/throw_3.png",
+      "ax": 30,
+      "ay": 54,
+      "scale": 5.4375,
+      "nativeUnitRetained": true,
+      "width": 61,
+      "height": 56,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_0": {
+      "file": "opponent/nahida/victim_0.png",
+      "ax": 24,
+      "ay": 61,
+      "scale": 4.660714285714286,
+      "nativeUnitRetained": true,
+      "width": 49,
+      "height": 63,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_1": {
+      "file": "opponent/nahida/victim_1.png",
+      "ax": 30,
+      "ay": 53,
+      "scale": 4.660714285714286,
+      "nativeUnitRetained": true,
+      "width": 60,
+      "height": 55,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_2": {
+      "file": "opponent/nahida/victim_2.png",
+      "ax": 28,
+      "ay": 51,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 55,
+      "height": 53,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_3": {
+      "file": "opponent/nahida/victim_3.png",
+      "ax": 28,
+      "ay": 46,
+      "scale": 5.019230769230769,
+      "nativeUnitRetained": true,
+      "width": 57,
+      "height": 48,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_4": {
+      "file": "opponent/nahida/victim_4.png",
+      "ax": 33,
+      "ay": 46,
+      "scale": 4.35,
+      "nativeUnitRetained": true,
+      "width": 65,
+      "height": 48,
+      "contactStatus": "manual source-local attachment candidate"
+    },
+    "victim_5": {
+      "file": "opponent/nahida/victim_5.png",
+      "ax": 37,
+      "ay": 30,
+      "scale": 3.838235294117647,
+      "nativeUnitRetained": true,
+      "width": 73,
+      "height": 32,
+      "contactStatus": "manual source-local attachment candidate"
+    }
+  }
+}

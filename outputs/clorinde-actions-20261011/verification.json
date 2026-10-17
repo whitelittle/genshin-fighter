@@ -1,0 +1,1863 @@
+{
+  "actions": 25,
+  "displayPoses": 137,
+  "uniqueActiveBodySourceFiles": 122,
+  "uniqueActiveBodyFitFiles": 122,
+  "effects": 6,
+  "fileChecks": "passed",
+  "pixelRoundtrip": "passed for quantized outlined target",
+  "eventsAndSharedPoses": "passed",
+  "lua": "Lua 5.3 data module load passed; not battle simulation",
+  "peakBodyRectangles": 969,
+  "peakEffectRectangles": 119,
+  "bodyRectangleMean": 768.0573770491803,
+  "proposedTwoActorTwoBodyBufferCapacity": 3876,
+  "proposedVisibleTwoBodyTwoEffectRectangles": 2176,
+  "frameMetrics": [
+    {
+      "file": "fit/E-0.png",
+      "rectangles": 924,
+      "visibleLogicalPixels": 2687,
+      "paintedLogicalArea": 12056,
+      "overlapAreaRatio": 4.486788239672498
+    },
+    {
+      "file": "fit/E-1.png",
+      "rectangles": 879,
+      "visibleLogicalPixels": 2723,
+      "paintedLogicalArea": 15588,
+      "overlapAreaRatio": 5.7245684906353285
+    },
+    {
+      "file": "fit/E-2.png",
+      "rectangles": 941,
+      "visibleLogicalPixels": 2811,
+      "paintedLogicalArea": 14184,
+      "overlapAreaRatio": 5.045891141942369
+    },
+    {
+      "file": "fit/E-3.png",
+      "rectangles": 957,
+      "visibleLogicalPixels": 2840,
+      "paintedLogicalArea": 15927,
+      "overlapAreaRatio": 5.608098591549296
+    },
+    {
+      "file": "fit/E-4.png",
+      "rectangles": 782,
+      "visibleLogicalPixels": 2371,
+      "paintedLogicalArea": 11300,
+      "overlapAreaRatio": 4.765921552087726
+    },
+    {
+      "file": "fit/E-5.png",
+      "rectangles": 697,
+      "visibleLogicalPixels": 1946,
+      "paintedLogicalArea": 8982,
+      "overlapAreaRatio": 4.615621788283659
+    },
+    {
+      "file": "fit/Q-0.png",
+      "rectangles": 775,
+      "visibleLogicalPixels": 2366,
+      "paintedLogicalArea": 11675,
+      "overlapAreaRatio": 4.934488588334742
+    },
+    {
+      "file": "fit/Q-1.png",
+      "rectangles": 786,
+      "visibleLogicalPixels": 2441,
+      "paintedLogicalArea": 12131,
+      "overlapAreaRatio": 4.969684555510037
+    },
+    {
+      "file": "fit/Q-2.png",
+      "rectangles": 768,
+      "visibleLogicalPixels": 2215,
+      "paintedLogicalArea": 10377,
+      "overlapAreaRatio": 4.684875846501129
+    },
+    {
+      "file": "fit/Q-3.png",
+      "rectangles": 617,
+      "visibleLogicalPixels": 1968,
+      "paintedLogicalArea": 8513,
+      "overlapAreaRatio": 4.325711382113822
+    },
+    {
+      "file": "fit/Q-4.png",
+      "rectangles": 901,
+      "visibleLogicalPixels": 2737,
+      "paintedLogicalArea": 12848,
+      "overlapAreaRatio": 4.694190719766167
+    },
+    {
+      "file": "fit/Q-5.png",
+      "rectangles": 769,
+      "visibleLogicalPixels": 2368,
+      "paintedLogicalArea": 14427,
+      "overlapAreaRatio": 6.092483108108108
+    },
+    {
+      "file": "fit/airheavy-0.png",
+      "rectangles": 740,
+      "visibleLogicalPixels": 2181,
+      "paintedLogicalArea": 9366,
+      "overlapAreaRatio": 4.294360385144429
+    },
+    {
+      "file": "fit/airheavy-1.png",
+      "rectangles": 837,
+      "visibleLogicalPixels": 2530,
+      "paintedLogicalArea": 11158,
+      "overlapAreaRatio": 4.410276679841897
+    },
+    {
+      "file": "fit/airheavy-2.png",
+      "rectangles": 785,
+      "visibleLogicalPixels": 2393,
+      "paintedLogicalArea": 10199,
+      "overlapAreaRatio": 4.2620142081069785
+    },
+    {
+      "file": "fit/airheavy-3.png",
+      "rectangles": 807,
+      "visibleLogicalPixels": 2433,
+      "paintedLogicalArea": 10773,
+      "overlapAreaRatio": 4.42786683107275
+    },
+    {
+      "file": "fit/airheavy-4.png",
+      "rectangles": 654,
+      "visibleLogicalPixels": 1943,
+      "paintedLogicalArea": 8887,
+      "overlapAreaRatio": 4.5738548636129694
+    },
+    {
+      "file": "fit/airheavy-5.png",
+      "rectangles": 906,
+      "visibleLogicalPixels": 2908,
+      "paintedLogicalArea": 15283,
+      "overlapAreaRatio": 5.2555020632737275
+    },
+    {
+      "file": "fit/airlight-0.png",
+      "rectangles": 752,
+      "visibleLogicalPixels": 2329,
+      "paintedLogicalArea": 12707,
+      "overlapAreaRatio": 5.455989695148133
+    },
+    {
+      "file": "fit/airlight-1.png",
+      "rectangles": 743,
+      "visibleLogicalPixels": 2340,
+      "paintedLogicalArea": 13012,
+      "overlapAreaRatio": 5.5606837606837605
+    },
+    {
+      "file": "fit/airlight-2.png",
+      "rectangles": 781,
+      "visibleLogicalPixels": 2528,
+      "paintedLogicalArea": 16282,
+      "overlapAreaRatio": 6.440664556962025
+    },
+    {
+      "file": "fit/airlight-3.png",
+      "rectangles": 742,
+      "visibleLogicalPixels": 2306,
+      "paintedLogicalArea": 11104,
+      "overlapAreaRatio": 4.815264527320035
+    },
+    {
+      "file": "fit/airlight-4.png",
+      "rectangles": 748,
+      "visibleLogicalPixels": 2287,
+      "paintedLogicalArea": 16548,
+      "overlapAreaRatio": 7.235679930039353
+    },
+    {
+      "file": "fit/airlight-5.png",
+      "rectangles": 788,
+      "visibleLogicalPixels": 2254,
+      "paintedLogicalArea": 14635,
+      "overlapAreaRatio": 6.492901508429458
+    },
+    {
+      "file": "fit/backdash-0.png",
+      "rectangles": 864,
+      "visibleLogicalPixels": 2528,
+      "paintedLogicalArea": 13537,
+      "overlapAreaRatio": 5.354825949367089
+    },
+    {
+      "file": "fit/backdash-1.png",
+      "rectangles": 888,
+      "visibleLogicalPixels": 2680,
+      "paintedLogicalArea": 13416,
+      "overlapAreaRatio": 5.005970149253732
+    },
+    {
+      "file": "fit/backdash-2.png",
+      "rectangles": 895,
+      "visibleLogicalPixels": 2702,
+      "paintedLogicalArea": 15610,
+      "overlapAreaRatio": 5.77720207253886
+    },
+    {
+      "file": "fit/backdash-3.png",
+      "rectangles": 825,
+      "visibleLogicalPixels": 2344,
+      "paintedLogicalArea": 14448,
+      "overlapAreaRatio": 6.163822525597269
+    },
+    {
+      "file": "fit/backwalk-0.png",
+      "rectangles": 773,
+      "visibleLogicalPixels": 2338,
+      "paintedLogicalArea": 10793,
+      "overlapAreaRatio": 4.61633875106929
+    },
+    {
+      "file": "fit/backwalk-1.png",
+      "rectangles": 706,
+      "visibleLogicalPixels": 2042,
+      "paintedLogicalArea": 10609,
+      "overlapAreaRatio": 5.19539666993144
+    },
+    {
+      "file": "fit/backwalk-2.png",
+      "rectangles": 659,
+      "visibleLogicalPixels": 1989,
+      "paintedLogicalArea": 14646,
+      "overlapAreaRatio": 7.363499245852187
+    },
+    {
+      "file": "fit/backwalk-3.png",
+      "rectangles": 792,
+      "visibleLogicalPixels": 2393,
+      "paintedLogicalArea": 12108,
+      "overlapAreaRatio": 5.059757626410364
+    },
+    {
+      "file": "fit/backwalk-4.png",
+      "rectangles": 713,
+      "visibleLogicalPixels": 2113,
+      "paintedLogicalArea": 9789,
+      "overlapAreaRatio": 4.6327496450544245
+    },
+    {
+      "file": "fit/backwalk-5.png",
+      "rectangles": 670,
+      "visibleLogicalPixels": 1944,
+      "paintedLogicalArea": 10518,
+      "overlapAreaRatio": 5.410493827160494
+    },
+    {
+      "file": "fit/crouch-0.png",
+      "rectangles": 848,
+      "visibleLogicalPixels": 2442,
+      "paintedLogicalArea": 12314,
+      "overlapAreaRatio": 5.042588042588043
+    },
+    {
+      "file": "fit/crouch-1.png",
+      "rectangles": 829,
+      "visibleLogicalPixels": 2212,
+      "paintedLogicalArea": 13341,
+      "overlapAreaRatio": 6.03119349005425
+    },
+    {
+      "file": "fit/crouch-2.png",
+      "rectangles": 734,
+      "visibleLogicalPixels": 2118,
+      "paintedLogicalArea": 9788,
+      "overlapAreaRatio": 4.62134088762984
+    },
+    {
+      "file": "fit/crouch-3.png",
+      "rectangles": 698,
+      "visibleLogicalPixels": 1853,
+      "paintedLogicalArea": 9702,
+      "overlapAreaRatio": 5.235833783054506
+    },
+    {
+      "file": "fit/crouchguard-0.png",
+      "rectangles": 811,
+      "visibleLogicalPixels": 2424,
+      "paintedLogicalArea": 16424,
+      "overlapAreaRatio": 6.775577557755776
+    },
+    {
+      "file": "fit/crouchguard-1.png",
+      "rectangles": 740,
+      "visibleLogicalPixels": 2149,
+      "paintedLogicalArea": 14538,
+      "overlapAreaRatio": 6.765006979990694
+    },
+    {
+      "file": "fit/crouchguard-2.png",
+      "rectangles": 779,
+      "visibleLogicalPixels": 2472,
+      "paintedLogicalArea": 13723,
+      "overlapAreaRatio": 5.551375404530744
+    },
+    {
+      "file": "fit/crouchguard-3.png",
+      "rectangles": 723,
+      "visibleLogicalPixels": 2165,
+      "paintedLogicalArea": 15528,
+      "overlapAreaRatio": 7.172286374133949
+    },
+    {
+      "file": "fit/crouchheavy-0.png",
+      "rectangles": 599,
+      "visibleLogicalPixels": 1923,
+      "paintedLogicalArea": 13339,
+      "overlapAreaRatio": 6.936557462298492
+    },
+    {
+      "file": "fit/crouchheavy-1.png",
+      "rectangles": 691,
+      "visibleLogicalPixels": 2101,
+      "paintedLogicalArea": 11716,
+      "overlapAreaRatio": 5.576392194193241
+    },
+    {
+      "file": "fit/crouchheavy-2.png",
+      "rectangles": 707,
+      "visibleLogicalPixels": 2198,
+      "paintedLogicalArea": 10269,
+      "overlapAreaRatio": 4.671974522292993
+    },
+    {
+      "file": "fit/crouchheavy-3.png",
+      "rectangles": 617,
+      "visibleLogicalPixels": 1908,
+      "paintedLogicalArea": 8998,
+      "overlapAreaRatio": 4.715932914046122
+    },
+    {
+      "file": "fit/crouchheavy-4.png",
+      "rectangles": 706,
+      "visibleLogicalPixels": 2219,
+      "paintedLogicalArea": 12007,
+      "overlapAreaRatio": 5.410995944118972
+    },
+    {
+      "file": "fit/crouchheavy-5.png",
+      "rectangles": 594,
+      "visibleLogicalPixels": 1849,
+      "paintedLogicalArea": 13673,
+      "overlapAreaRatio": 7.394808004326663
+    },
+    {
+      "file": "fit/crouchlight-0.png",
+      "rectangles": 839,
+      "visibleLogicalPixels": 2395,
+      "paintedLogicalArea": 12147,
+      "overlapAreaRatio": 5.071816283924844
+    },
+    {
+      "file": "fit/crouchlight-1.png",
+      "rectangles": 762,
+      "visibleLogicalPixels": 2154,
+      "paintedLogicalArea": 11920,
+      "overlapAreaRatio": 5.5338904363974
+    },
+    {
+      "file": "fit/crouchlight-2.png",
+      "rectangles": 655,
+      "visibleLogicalPixels": 2006,
+      "paintedLogicalArea": 10083,
+      "overlapAreaRatio": 5.02642073778664
+    },
+    {
+      "file": "fit/crouchlight-3.png",
+      "rectangles": 684,
+      "visibleLogicalPixels": 2068,
+      "paintedLogicalArea": 11610,
+      "overlapAreaRatio": 5.614119922630561
+    },
+    {
+      "file": "fit/crouchlight-4.png",
+      "rectangles": 711,
+      "visibleLogicalPixels": 2025,
+      "paintedLogicalArea": 10530,
+      "overlapAreaRatio": 5.2
+    },
+    {
+      "file": "fit/crouchlight-5.png",
+      "rectangles": 755,
+      "visibleLogicalPixels": 2173,
+      "paintedLogicalArea": 11582,
+      "overlapAreaRatio": 5.329958582604694
+    },
+    {
+      "file": "fit/defeat-0.png",
+      "rectangles": 779,
+      "visibleLogicalPixels": 2297,
+      "paintedLogicalArea": 14816,
+      "overlapAreaRatio": 6.450152372659991
+    },
+    {
+      "file": "fit/defeat-1.png",
+      "rectangles": 747,
+      "visibleLogicalPixels": 2093,
+      "paintedLogicalArea": 12001,
+      "overlapAreaRatio": 5.733874820831343
+    },
+    {
+      "file": "fit/defeat-2.png",
+      "rectangles": 698,
+      "visibleLogicalPixels": 2094,
+      "paintedLogicalArea": 14416,
+      "overlapAreaRatio": 6.884431709646609
+    },
+    {
+      "file": "fit/defeat-3.png",
+      "rectangles": 653,
+      "visibleLogicalPixels": 1944,
+      "paintedLogicalArea": 15075,
+      "overlapAreaRatio": 7.75462962962963
+    },
+    {
+      "file": "fit/forwarddash-0.png",
+      "rectangles": 875,
+      "visibleLogicalPixels": 2498,
+      "paintedLogicalArea": 14002,
+      "overlapAreaRatio": 5.6052842273819055
+    },
+    {
+      "file": "fit/forwarddash-1.png",
+      "rectangles": 860,
+      "visibleLogicalPixels": 2663,
+      "paintedLogicalArea": 12818,
+      "overlapAreaRatio": 4.8133683815245965
+    },
+    {
+      "file": "fit/forwarddash-2.png",
+      "rectangles": 777,
+      "visibleLogicalPixels": 2547,
+      "paintedLogicalArea": 11687,
+      "overlapAreaRatio": 4.58853553199843
+    },
+    {
+      "file": "fit/forwarddash-3.png",
+      "rectangles": 745,
+      "visibleLogicalPixels": 2147,
+      "paintedLogicalArea": 11861,
+      "overlapAreaRatio": 5.524452724732185
+    },
+    {
+      "file": "fit/fx-bullet.png",
+      "rectangles": 67,
+      "visibleLogicalPixels": 292,
+      "paintedLogicalArea": 935,
+      "overlapAreaRatio": 3.202054794520548
+    },
+    {
+      "file": "fit/fx-diagonal.png",
+      "rectangles": 119,
+      "visibleLogicalPixels": 313,
+      "paintedLogicalArea": 839,
+      "overlapAreaRatio": 2.680511182108626
+    },
+    {
+      "file": "fit/fx-down.png",
+      "rectangles": 93,
+      "visibleLogicalPixels": 243,
+      "paintedLogicalArea": 628,
+      "overlapAreaRatio": 2.5843621399176953
+    },
+    {
+      "file": "fit/fx-gun.png",
+      "rectangles": 92,
+      "visibleLogicalPixels": 309,
+      "paintedLogicalArea": 1381,
+      "overlapAreaRatio": 4.46925566343042
+    },
+    {
+      "file": "fit/fx-impact.png",
+      "rectangles": 82,
+      "visibleLogicalPixels": 296,
+      "paintedLogicalArea": 1065,
+      "overlapAreaRatio": 3.597972972972973
+    },
+    {
+      "file": "fit/fx-sword.png",
+      "rectangles": 84,
+      "visibleLogicalPixels": 334,
+      "paintedLogicalArea": 981,
+      "overlapAreaRatio": 2.937125748502994
+    },
+    {
+      "file": "fit/heavy-0.png",
+      "rectangles": 782,
+      "visibleLogicalPixels": 2236,
+      "paintedLogicalArea": 10923,
+      "overlapAreaRatio": 4.885062611806798
+    },
+    {
+      "file": "fit/heavy-1.png",
+      "rectangles": 753,
+      "visibleLogicalPixels": 2183,
+      "paintedLogicalArea": 10950,
+      "overlapAreaRatio": 5.016032982134677
+    },
+    {
+      "file": "fit/heavy-2.png",
+      "rectangles": 821,
+      "visibleLogicalPixels": 2472,
+      "paintedLogicalArea": 11254,
+      "overlapAreaRatio": 4.552588996763754
+    },
+    {
+      "file": "fit/heavy-3.png",
+      "rectangles": 840,
+      "visibleLogicalPixels": 2539,
+      "paintedLogicalArea": 11225,
+      "overlapAreaRatio": 4.421031902323749
+    },
+    {
+      "file": "fit/heavy-4.png",
+      "rectangles": 843,
+      "visibleLogicalPixels": 2514,
+      "paintedLogicalArea": 11443,
+      "overlapAreaRatio": 4.5517104216388224
+    },
+    {
+      "file": "fit/heavy-5.png",
+      "rectangles": 837,
+      "visibleLogicalPixels": 2443,
+      "paintedLogicalArea": 12111,
+      "overlapAreaRatio": 4.957429390094147
+    },
+    {
+      "file": "fit/idle-0.png",
+      "rectangles": 727,
+      "visibleLogicalPixels": 2035,
+      "paintedLogicalArea": 10037,
+      "overlapAreaRatio": 4.932186732186732
+    },
+    {
+      "file": "fit/idle-1.png",
+      "rectangles": 748,
+      "visibleLogicalPixels": 2104,
+      "paintedLogicalArea": 9422,
+      "overlapAreaRatio": 4.478136882129277
+    },
+    {
+      "file": "fit/jump-0.png",
+      "rectangles": 775,
+      "visibleLogicalPixels": 2276,
+      "paintedLogicalArea": 13638,
+      "overlapAreaRatio": 5.992091388400703
+    },
+    {
+      "file": "fit/jump-1.png",
+      "rectangles": 818,
+      "visibleLogicalPixels": 2483,
+      "paintedLogicalArea": 10591,
+      "overlapAreaRatio": 4.265404752315747
+    },
+    {
+      "file": "fit/jump-2.png",
+      "rectangles": 829,
+      "visibleLogicalPixels": 2397,
+      "paintedLogicalArea": 12454,
+      "overlapAreaRatio": 5.195661243220693
+    },
+    {
+      "file": "fit/jump-3.png",
+      "rectangles": 703,
+      "visibleLogicalPixels": 2271,
+      "paintedLogicalArea": 13813,
+      "overlapAreaRatio": 6.0823425803610744
+    },
+    {
+      "file": "fit/jump-4.png",
+      "rectangles": 746,
+      "visibleLogicalPixels": 2218,
+      "paintedLogicalArea": 9988,
+      "overlapAreaRatio": 4.503155996393147
+    },
+    {
+      "file": "fit/jump-5.png",
+      "rectangles": 786,
+      "visibleLogicalPixels": 2471,
+      "paintedLogicalArea": 12275,
+      "overlapAreaRatio": 4.967624443545123
+    },
+    {
+      "file": "fit/knockdown-direction-v2-0.png",
+      "rectangles": 717,
+      "visibleLogicalPixels": 2211,
+      "paintedLogicalArea": 11583,
+      "overlapAreaRatio": 5.2388059701492535
+    },
+    {
+      "file": "fit/knockdown-direction-v2-1.png",
+      "rectangles": 729,
+      "visibleLogicalPixels": 2203,
+      "paintedLogicalArea": 11168,
+      "overlapAreaRatio": 5.0694507489786655
+    },
+    {
+      "file": "fit/knockdown-direction-v2-2.png",
+      "rectangles": 709,
+      "visibleLogicalPixels": 2083,
+      "paintedLogicalArea": 10994,
+      "overlapAreaRatio": 5.27796447431589
+    },
+    {
+      "file": "fit/knockdown-direction-v2-3.png",
+      "rectangles": 359,
+      "visibleLogicalPixels": 1023,
+      "paintedLogicalArea": 8917,
+      "overlapAreaRatio": 8.716520039100685
+    },
+    {
+      "file": "fit/light1-0.png",
+      "rectangles": 821,
+      "visibleLogicalPixels": 2248,
+      "paintedLogicalArea": 9469,
+      "overlapAreaRatio": 4.212188612099644
+    },
+    {
+      "file": "fit/light1-1.png",
+      "rectangles": 715,
+      "visibleLogicalPixels": 2095,
+      "paintedLogicalArea": 8720,
+      "overlapAreaRatio": 4.162291169451074
+    },
+    {
+      "file": "fit/light1-2.png",
+      "rectangles": 760,
+      "visibleLogicalPixels": 2338,
+      "paintedLogicalArea": 11349,
+      "overlapAreaRatio": 4.854148845166809
+    },
+    {
+      "file": "fit/light1-3.png",
+      "rectangles": 703,
+      "visibleLogicalPixels": 1956,
+      "paintedLogicalArea": 9274,
+      "overlapAreaRatio": 4.7413087934560325
+    },
+    {
+      "file": "fit/light2-0.png",
+      "rectangles": 811,
+      "visibleLogicalPixels": 2341,
+      "paintedLogicalArea": 12418,
+      "overlapAreaRatio": 5.30457069628364
+    },
+    {
+      "file": "fit/light2-1.png",
+      "rectangles": 738,
+      "visibleLogicalPixels": 2150,
+      "paintedLogicalArea": 12087,
+      "overlapAreaRatio": 5.621860465116279
+    },
+    {
+      "file": "fit/light2-2.png",
+      "rectangles": 772,
+      "visibleLogicalPixels": 2257,
+      "paintedLogicalArea": 11403,
+      "overlapAreaRatio": 5.052281789986708
+    },
+    {
+      "file": "fit/light2-3.png",
+      "rectangles": 821,
+      "visibleLogicalPixels": 2524,
+      "paintedLogicalArea": 11489,
+      "overlapAreaRatio": 4.55190174326466
+    },
+    {
+      "file": "fit/light2-4.png",
+      "rectangles": 810,
+      "visibleLogicalPixels": 2436,
+      "paintedLogicalArea": 10953,
+      "overlapAreaRatio": 4.496305418719212
+    },
+    {
+      "file": "fit/light2-5.png",
+      "rectangles": 796,
+      "visibleLogicalPixels": 2306,
+      "paintedLogicalArea": 10948,
+      "overlapAreaRatio": 4.747614917606245
+    },
+    {
+      "file": "fit/light3-0.png",
+      "rectangles": 824,
+      "visibleLogicalPixels": 2377,
+      "paintedLogicalArea": 12888,
+      "overlapAreaRatio": 5.421960454354228
+    },
+    {
+      "file": "fit/light3-1.png",
+      "rectangles": 878,
+      "visibleLogicalPixels": 2636,
+      "paintedLogicalArea": 12453,
+      "overlapAreaRatio": 4.7242033383915025
+    },
+    {
+      "file": "fit/light3-2.png",
+      "rectangles": 775,
+      "visibleLogicalPixels": 2489,
+      "paintedLogicalArea": 9826,
+      "overlapAreaRatio": 3.9477701888308556
+    },
+    {
+      "file": "fit/light3-3.png",
+      "rectangles": 795,
+      "visibleLogicalPixels": 2398,
+      "paintedLogicalArea": 11290,
+      "overlapAreaRatio": 4.708090075062552
+    },
+    {
+      "file": "fit/light3-4.png",
+      "rectangles": 724,
+      "visibleLogicalPixels": 2189,
+      "paintedLogicalArea": 13298,
+      "overlapAreaRatio": 6.074920054819552
+    },
+    {
+      "file": "fit/light3-5.png",
+      "rectangles": 755,
+      "visibleLogicalPixels": 2123,
+      "paintedLogicalArea": 10143,
+      "overlapAreaRatio": 4.777673104097975
+    },
+    {
+      "file": "fit/portrait.png",
+      "rectangles": 552,
+      "visibleLogicalPixels": 1345,
+      "paintedLogicalArea": 10731,
+      "overlapAreaRatio": 7.978438661710038
+    },
+    {
+      "file": "fit/standguard-0.png",
+      "rectangles": 817,
+      "visibleLogicalPixels": 2420,
+      "paintedLogicalArea": 14059,
+      "overlapAreaRatio": 5.809504132231405
+    },
+    {
+      "file": "fit/standguard-1.png",
+      "rectangles": 791,
+      "visibleLogicalPixels": 2364,
+      "paintedLogicalArea": 12702,
+      "overlapAreaRatio": 5.373096446700508
+    },
+    {
+      "file": "fit/standguard-2.png",
+      "rectangles": 796,
+      "visibleLogicalPixels": 2264,
+      "paintedLogicalArea": 9986,
+      "overlapAreaRatio": 4.410777385159011
+    },
+    {
+      "file": "fit/standguard-3.png",
+      "rectangles": 740,
+      "visibleLogicalPixels": 2118,
+      "paintedLogicalArea": 11505,
+      "overlapAreaRatio": 5.432011331444759
+    },
+    {
+      "file": "fit/throw-clinch-adult-v3-1.png",
+      "rectangles": 860,
+      "visibleLogicalPixels": 2545,
+      "paintedLogicalArea": 15058,
+      "overlapAreaRatio": 5.916699410609037
+    },
+    {
+      "file": "fit/throw-clinch-adult-v3-2.png",
+      "rectangles": 845,
+      "visibleLogicalPixels": 2642,
+      "paintedLogicalArea": 12954,
+      "overlapAreaRatio": 4.903103709311128
+    },
+    {
+      "file": "fit/throw-clinch-adult-v3-3.png",
+      "rectangles": 794,
+      "visibleLogicalPixels": 2501,
+      "paintedLogicalArea": 11881,
+      "overlapAreaRatio": 4.750499800079968
+    },
+    {
+      "file": "fit/throw-clinch-low-v3-1.png",
+      "rectangles": 969,
+      "visibleLogicalPixels": 2840,
+      "paintedLogicalArea": 14993,
+      "overlapAreaRatio": 5.279225352112676
+    },
+    {
+      "file": "fit/throw-clinch-low-v3-2.png",
+      "rectangles": 923,
+      "visibleLogicalPixels": 2885,
+      "paintedLogicalArea": 13375,
+      "overlapAreaRatio": 4.636048526863085
+    },
+    {
+      "file": "fit/victim-direction-v2-0.png",
+      "rectangles": 941,
+      "visibleLogicalPixels": 2754,
+      "paintedLogicalArea": 14004,
+      "overlapAreaRatio": 5.084967320261438
+    },
+    {
+      "file": "fit/victim-direction-v2-1.png",
+      "rectangles": 924,
+      "visibleLogicalPixels": 2791,
+      "paintedLogicalArea": 15143,
+      "overlapAreaRatio": 5.425653887495521
+    },
+    {
+      "file": "fit/victim-direction-v2-2.png",
+      "rectangles": 936,
+      "visibleLogicalPixels": 2918,
+      "paintedLogicalArea": 14894,
+      "overlapAreaRatio": 5.104180945853324
+    },
+    {
+      "file": "fit/victim-direction-v2-3.png",
+      "rectangles": 781,
+      "visibleLogicalPixels": 2483,
+      "paintedLogicalArea": 14306,
+      "overlapAreaRatio": 5.761578735400725
+    },
+    {
+      "file": "fit/victory-0.png",
+      "rectangles": 743,
+      "visibleLogicalPixels": 2100,
+      "paintedLogicalArea": 12326,
+      "overlapAreaRatio": 5.86952380952381
+    },
+    {
+      "file": "fit/victory-1.png",
+      "rectangles": 689,
+      "visibleLogicalPixels": 2041,
+      "paintedLogicalArea": 11828,
+      "overlapAreaRatio": 5.795198432141107
+    },
+    {
+      "file": "fit/victory-2.png",
+      "rectangles": 724,
+      "visibleLogicalPixels": 2129,
+      "paintedLogicalArea": 11212,
+      "overlapAreaRatio": 5.266322217003288
+    },
+    {
+      "file": "fit/victory-3.png",
+      "rectangles": 681,
+      "visibleLogicalPixels": 2061,
+      "paintedLogicalArea": 12514,
+      "overlapAreaRatio": 6.071809801067443
+    },
+    {
+      "file": "fit/wakeup-direction-v2-0.png",
+      "rectangles": 372,
+      "visibleLogicalPixels": 1105,
+      "paintedLogicalArea": 8899,
+      "overlapAreaRatio": 8.05339366515837
+    },
+    {
+      "file": "fit/wakeup-direction-v2-1.png",
+      "rectangles": 521,
+      "visibleLogicalPixels": 1529,
+      "paintedLogicalArea": 8642,
+      "overlapAreaRatio": 5.6520601700457815
+    },
+    {
+      "file": "fit/wakeup-direction-v2-2.png",
+      "rectangles": 726,
+      "visibleLogicalPixels": 2035,
+      "paintedLogicalArea": 12101,
+      "overlapAreaRatio": 5.946437346437347
+    },
+    {
+      "file": "fit/walk-0.png",
+      "rectangles": 802,
+      "visibleLogicalPixels": 2353,
+      "paintedLogicalArea": 11449,
+      "overlapAreaRatio": 4.865703357416065
+    },
+    {
+      "file": "fit/walk-1.png",
+      "rectangles": 757,
+      "visibleLogicalPixels": 2180,
+      "paintedLogicalArea": 11165,
+      "overlapAreaRatio": 5.121559633027523
+    },
+    {
+      "file": "fit/walk-2.png",
+      "rectangles": 798,
+      "visibleLogicalPixels": 2374,
+      "paintedLogicalArea": 11839,
+      "overlapAreaRatio": 4.9869418702611625
+    },
+    {
+      "file": "fit/walk-3.png",
+      "rectangles": 801,
+      "visibleLogicalPixels": 2291,
+      "paintedLogicalArea": 10000,
+      "overlapAreaRatio": 4.364906154517678
+    },
+    {
+      "file": "fit/walk-4.png",
+      "rectangles": 698,
+      "visibleLogicalPixels": 2096,
+      "paintedLogicalArea": 9758,
+      "overlapAreaRatio": 4.655534351145038
+    },
+    {
+      "file": "fit/walk-5.png",
+      "rectangles": 774,
+      "visibleLogicalPixels": 2315,
+      "paintedLogicalArea": 11476,
+      "overlapAreaRatio": 4.957235421166307
+    }
+  ],
+  "events": [
+    {
+      "action": "light1",
+      "tick": 6,
+      "kind": "slash",
+      "hitId": "clorinde.light1.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "light2",
+      "tick": 11,
+      "kind": "shot",
+      "hitId": "clorinde.light2.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "light3",
+      "tick": 9,
+      "kind": "slash",
+      "hitId": "clorinde.light3.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "heavy",
+      "tick": 16,
+      "kind": "shot",
+      "hitId": "clorinde.heavy.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "crouchlight",
+      "tick": 6,
+      "kind": "slash",
+      "hitId": "clorinde.crouchlight.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "crouchheavy",
+      "tick": 12,
+      "kind": "slash",
+      "hitId": "clorinde.crouchheavy.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "airlight",
+      "tick": 7,
+      "kind": "shot",
+      "hitId": "clorinde.airlight.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "airheavy",
+      "tick": 10,
+      "kind": "slash",
+      "hitId": "clorinde.airheavy.1",
+      "damageSegments": 1
+    },
+    {
+      "action": "E",
+      "tick": 8,
+      "kind": "shot",
+      "hitId": "clorinde.E.gun",
+      "damageSegments": 1
+    },
+    {
+      "action": "E",
+      "tick": 18,
+      "kind": "thrust",
+      "hitId": "clorinde.E.sword",
+      "damageSegments": 1,
+      "collision": "swept, direction fixed"
+    },
+    {
+      "action": "Q",
+      "tick": 6,
+      "kind": "confirm-shot",
+      "hitId": "clorinde.Q.confirm",
+      "damageSegments": 1
+    },
+    {
+      "action": "Q",
+      "tick": 70,
+      "kind": "cinematic-slash",
+      "hitId": "clorinde.Q.1",
+      "damageSegments": 1,
+      "requires": "confirmation hit"
+    },
+    {
+      "action": "Q",
+      "tick": 94,
+      "kind": "cinematic-slash",
+      "hitId": "clorinde.Q.2",
+      "damageSegments": 1,
+      "requires": "confirmation hit"
+    },
+    {
+      "action": "Q",
+      "tick": 118,
+      "kind": "cinematic-slash",
+      "hitId": "clorinde.Q.3",
+      "damageSegments": 1,
+      "requires": "confirmation hit"
+    },
+    {
+      "action": "throw",
+      "tick": 8,
+      "kind": "grab",
+      "requires": "grounded target in range",
+      "escapeWindow": "proposed tick8-12"
+    },
+    {
+      "action": "throw",
+      "tick": 32,
+      "kind": "release",
+      "hitId": "clorinde.throw.release",
+      "damageSegments": 1
+    }
+  ],
+  "sourceFileSizes": {
+    "fit/E-0.png": 3829,
+    "fit/E-1.png": 3779,
+    "fit/E-2.png": 3933,
+    "fit/E-3.png": 3898,
+    "fit/E-4.png": 3177,
+    "fit/E-5.png": 3113,
+    "fit/Q-0.png": 3361,
+    "fit/Q-1.png": 3450,
+    "fit/Q-2.png": 3192,
+    "fit/Q-3.png": 2650,
+    "fit/Q-4.png": 3673,
+    "fit/Q-5.png": 3304,
+    "fit/airheavy-0.png": 3221,
+    "fit/airheavy-1.png": 3516,
+    "fit/airheavy-2.png": 3243,
+    "fit/airheavy-3.png": 3538,
+    "fit/airheavy-4.png": 2931,
+    "fit/airheavy-5.png": 3771,
+    "fit/airlight-0.png": 3308,
+    "fit/airlight-1.png": 3242,
+    "fit/airlight-2.png": 3356,
+    "fit/airlight-3.png": 3180,
+    "fit/airlight-4.png": 3215,
+    "fit/airlight-5.png": 3403,
+    "fit/backdash-0.png": 3602,
+    "fit/backdash-1.png": 3599,
+    "fit/backdash-2.png": 3727,
+    "fit/backdash-3.png": 3411,
+    "fit/backwalk-0.png": 3276,
+    "fit/backwalk-1.png": 3024,
+    "fit/backwalk-2.png": 2842,
+    "fit/backwalk-3.png": 3349,
+    "fit/backwalk-4.png": 2924,
+    "fit/backwalk-5.png": 2888,
+    "fit/crouch-0.png": 3645,
+    "fit/crouch-1.png": 3462,
+    "fit/crouch-2.png": 3090,
+    "fit/crouch-3.png": 2940,
+    "fit/crouchguard-0.png": 3343,
+    "fit/crouchguard-1.png": 3039,
+    "fit/crouchguard-2.png": 3205,
+    "fit/crouchguard-3.png": 3053,
+    "fit/crouchheavy-0.png": 2574,
+    "fit/crouchheavy-1.png": 3058,
+    "fit/crouchheavy-2.png": 2986,
+    "fit/crouchheavy-3.png": 2635,
+    "fit/crouchheavy-4.png": 3060,
+    "fit/crouchheavy-5.png": 2648,
+    "fit/crouchlight-0.png": 3532,
+    "fit/crouchlight-1.png": 3276,
+    "fit/crouchlight-2.png": 2941,
+    "fit/crouchlight-3.png": 2940,
+    "fit/crouchlight-4.png": 3061,
+    "fit/crouchlight-5.png": 3247,
+    "fit/defeat-0.png": 3300,
+    "fit/defeat-1.png": 3212,
+    "fit/defeat-2.png": 3081,
+    "fit/defeat-3.png": 2903,
+    "fit/forwarddash-0.png": 3591,
+    "fit/forwarddash-1.png": 3547,
+    "fit/forwarddash-2.png": 3002,
+    "fit/forwarddash-3.png": 3185,
+    "fit/fx-bullet.png": 368,
+    "fit/fx-diagonal.png": 566,
+    "fit/fx-down.png": 505,
+    "fit/fx-gun.png": 508,
+    "fit/fx-impact.png": 529,
+    "fit/fx-sword.png": 443,
+    "fit/heavy-0.png": 3262,
+    "fit/heavy-1.png": 3263,
+    "fit/heavy-2.png": 3542,
+    "fit/heavy-3.png": 3503,
+    "fit/heavy-4.png": 3529,
+    "fit/heavy-5.png": 3523,
+    "fit/idle-0.png": 3215,
+    "fit/idle-1.png": 3225,
+    "fit/jump-0.png": 3214,
+    "fit/jump-1.png": 3324,
+    "fit/jump-2.png": 3522,
+    "fit/jump-3.png": 3041,
+    "fit/jump-4.png": 3125,
+    "fit/jump-5.png": 3269,
+    "fit/knockdown-direction-v2-0.png": 3157,
+    "fit/knockdown-direction-v2-1.png": 3236,
+    "fit/knockdown-direction-v2-2.png": 2920,
+    "fit/knockdown-direction-v2-3.png": 1662,
+    "fit/light1-0.png": 3340,
+    "fit/light1-1.png": 2960,
+    "fit/light1-2.png": 3181,
+    "fit/light1-3.png": 2936,
+    "fit/light2-0.png": 3367,
+    "fit/light2-1.png": 3068,
+    "fit/light2-2.png": 3195,
+    "fit/light2-3.png": 3500,
+    "fit/light2-4.png": 3436,
+    "fit/light2-5.png": 3400,
+    "fit/light3-0.png": 3505,
+    "fit/light3-1.png": 3741,
+    "fit/light3-2.png": 3258,
+    "fit/light3-3.png": 3189,
+    "fit/light3-4.png": 3184,
+    "fit/light3-5.png": 3271,
+    "fit/portrait.png": 2324,
+    "fit/standguard-0.png": 3383,
+    "fit/standguard-1.png": 3463,
+    "fit/standguard-2.png": 3359,
+    "fit/standguard-3.png": 3107,
+    "fit/throw-clinch-adult-v3-1.png": 3540,
+    "fit/throw-clinch-adult-v3-2.png": 3595,
+    "fit/throw-clinch-adult-v3-3.png": 3352,
+    "fit/throw-clinch-low-v3-1.png": 3850,
+    "fit/throw-clinch-low-v3-2.png": 3760,
+    "fit/victim-direction-v2-0.png": 3724,
+    "fit/victim-direction-v2-1.png": 3930,
+    "fit/victim-direction-v2-2.png": 3471,
+    "fit/victim-direction-v2-3.png": 3035,
+    "fit/victory-0.png": 3153,
+    "fit/victory-1.png": 3027,
+    "fit/victory-2.png": 3156,
+    "fit/victory-3.png": 3013,
+    "fit/wakeup-direction-v2-0.png": 1688,
+    "fit/wakeup-direction-v2-1.png": 2398,
+    "fit/wakeup-direction-v2-2.png": 3101,
+    "fit/walk-0.png": 3419,
+    "fit/walk-1.png": 3203,
+    "fit/walk-2.png": 3321,
+    "fit/walk-3.png": 3317,
+    "fit/walk-4.png": 3175,
+    "fit/walk-5.png": 3216,
+    "frames/E-0.png": 244797,
+    "frames/E-1.png": 242209,
+    "frames/E-2.png": 256959,
+    "frames/E-3.png": 260117,
+    "frames/E-4.png": 208142,
+    "frames/E-5.png": 185798,
+    "frames/Q-0.png": 213795,
+    "frames/Q-1.png": 215444,
+    "frames/Q-2.png": 203962,
+    "frames/Q-3.png": 177139,
+    "frames/Q-4.png": 245773,
+    "frames/Q-5.png": 214788,
+    "frames/airheavy-0.png": 250760,
+    "frames/airheavy-1.png": 251507,
+    "frames/airheavy-2.png": 264113,
+    "frames/airheavy-3.png": 933058,
+    "frames/airheavy-4.png": 255961,
+    "frames/airheavy-5.png": 1187874,
+    "frames/airlight-0.png": 267626,
+    "frames/airlight-1.png": 264263,
+    "frames/airlight-2.png": 283792,
+    "frames/airlight-3.png": 256051,
+    "frames/airlight-4.png": 262641,
+    "frames/airlight-5.png": 259115,
+    "frames/backdash-0.png": 354403,
+    "frames/backdash-1.png": 366251,
+    "frames/backdash-2.png": 372170,
+    "frames/backdash-3.png": 333249,
+    "frames/backwalk-0.png": 219332,
+    "frames/backwalk-1.png": 196896,
+    "frames/backwalk-2.png": 193214,
+    "frames/backwalk-3.png": 224571,
+    "frames/backwalk-4.png": 202019,
+    "frames/backwalk-5.png": 189451,
+    "frames/crouch-0.png": 398841,
+    "frames/crouch-1.png": 375153,
+    "frames/crouch-2.png": 347998,
+    "frames/crouch-3.png": 321517,
+    "frames/crouchguard-0.png": 421059,
+    "frames/crouchguard-1.png": 383278,
+    "frames/crouchguard-2.png": 412727,
+    "frames/crouchguard-3.png": 378136,
+    "frames/crouchheavy-0.png": 226607,
+    "frames/crouchheavy-1.png": 248830,
+    "frames/crouchheavy-2.png": 253950,
+    "frames/crouchheavy-3.png": 225473,
+    "frames/crouchheavy-4.png": 261423,
+    "frames/crouchheavy-5.png": 226279,
+    "frames/crouchlight-0.png": 286913,
+    "frames/crouchlight-1.png": 263118,
+    "frames/crouchlight-2.png": 237404,
+    "frames/crouchlight-3.png": 245257,
+    "frames/crouchlight-4.png": 244615,
+    "frames/crouchlight-5.png": 264653,
+    "frames/defeat-0.png": 393829,
+    "frames/defeat-1.png": 368464,
+    "frames/defeat-2.png": 365798,
+    "frames/defeat-3.png": 340321,
+    "frames/forwarddash-0.png": 345249,
+    "frames/forwarddash-1.png": 351482,
+    "frames/forwarddash-2.png": 329016,
+    "frames/forwarddash-3.png": 299893,
+    "frames/fx-bullet.png": 75607,
+    "frames/fx-diagonal.png": 106427,
+    "frames/fx-down.png": 76382,
+    "frames/fx-gun.png": 97840,
+    "frames/fx-impact.png": 102411,
+    "frames/fx-sword.png": 88434,
+    "frames/heavy-0.png": 215851,
+    "frames/heavy-1.png": 212548,
+    "frames/heavy-2.png": 235249,
+    "frames/heavy-3.png": 239509,
+    "frames/heavy-4.png": 241948,
+    "frames/heavy-5.png": 235663,
+    "frames/idle-0.png": 1156770,
+    "frames/idle-1.png": 1185392,
+    "frames/jump-0.png": 243802,
+    "frames/jump-1.png": 259983,
+    "frames/jump-2.png": 253491,
+    "frames/jump-3.png": 237100,
+    "frames/jump-4.png": 237507,
+    "frames/jump-5.png": 258993,
+    "frames/knockdown-direction-v2-0.png": 388698,
+    "frames/knockdown-direction-v2-1.png": 400642,
+    "frames/knockdown-direction-v2-2.png": 378783,
+    "frames/knockdown-direction-v2-3.png": 196839,
+    "frames/light1-0.png": 335953,
+    "frames/light1-1.png": 303145,
+    "frames/light1-2.png": 308418,
+    "frames/light1-3.png": 272222,
+    "frames/light2-0.png": 227594,
+    "frames/light2-1.png": 207634,
+    "frames/light2-2.png": 216827,
+    "frames/light2-3.png": 237311,
+    "frames/light2-4.png": 232141,
+    "frames/light2-5.png": 220524,
+    "frames/light3-0.png": 221099,
+    "frames/light3-1.png": 244985,
+    "frames/light3-2.png": 222285,
+    "frames/light3-3.png": 216741,
+    "frames/light3-4.png": 203629,
+    "frames/light3-5.png": 201838,
+    "frames/standguard-0.png": 401847,
+    "frames/standguard-1.png": 399477,
+    "frames/standguard-2.png": 377299,
+    "frames/standguard-3.png": 363142,
+    "frames/throw-clinch-adult-v3-1.png": 368082,
+    "frames/throw-clinch-adult-v3-2.png": 376517,
+    "frames/throw-clinch-adult-v3-3.png": 353248,
+    "frames/throw-clinch-low-v3-1.png": 353945,
+    "frames/throw-clinch-low-v3-2.png": 355283,
+    "frames/victim-direction-v2-0.png": 349371,
+    "frames/victim-direction-v2-1.png": 352205,
+    "frames/victim-direction-v2-2.png": 357728,
+    "frames/victim-direction-v2-3.png": 296773,
+    "frames/victory-0.png": 401875,
+    "frames/victory-1.png": 387842,
+    "frames/victory-2.png": 403824,
+    "frames/victory-3.png": 391028,
+    "frames/wakeup-direction-v2-0.png": 351862,
+    "frames/wakeup-direction-v2-1.png": 429313,
+    "frames/wakeup-direction-v2-2.png": 380945,
+    "frames/walk-0.png": 270127,
+    "frames/walk-1.png": 250771,
+    "frames/walk-2.png": 268429,
+    "frames/walk-3.png": 255649,
+    "frames/walk-4.png": 237793,
+    "frames/walk-5.png": 258093,
+    "opponent/nahida/basic_0.png": 2526,
+    "opponent/nahida/basic_1.png": 2532,
+    "opponent/nahida/basic_2.png": 2524,
+    "opponent/nahida/basic_3.png": 2589,
+    "opponent/nahida/basic_4.png": 2784,
+    "opponent/nahida/basic_5.png": 2679,
+    "opponent/nahida/basic_6.png": 2692,
+    "opponent/nahida/basic_7.png": 2585,
+    "opponent/nahida/hurt_0.png": 2582,
+    "opponent/nahida/hurt_1.png": 2466,
+    "opponent/nahida/hurt_2.png": 2519,
+    "opponent/nahida/hurt_3.png": 2319,
+    "opponent/nahida/hurt_4.png": 2506,
+    "opponent/nahida/hurt_5.png": 2668,
+    "opponent/nahida/hurt_6.png": 2579,
+    "opponent/nahida/hurt_7.png": 2512,
+    "opponent/nahida/throw_0.png": 2506,
+    "opponent/nahida/throw_1.png": 2363,
+    "opponent/nahida/throw_2.png": 2499,
+    "opponent/nahida/throw_3.png": 2474,
+    "opponent/nahida/victim_0.png": 2578,
+    "opponent/nahida/victim_1.png": 2490,
+    "opponent/nahida/victim_2.png": 2615,
+    "opponent/nahida/victim_3.png": 2418,
+    "opponent/nahida/victim_4.png": 2585,
+    "opponent/nahida/victim_5.png": 2271,
+    "opponent/raiden/basic_0.png": 2603,
+    "opponent/raiden/basic_1.png": 2656,
+    "opponent/raiden/basic_2.png": 2828,
+    "opponent/raiden/basic_3.png": 2862,
+    "opponent/raiden/basic_4.png": 2876,
+    "opponent/raiden/basic_5.png": 2761,
+    "opponent/raiden/basic_6.png": 2968,
+    "opponent/raiden/basic_7.png": 2902,
+    "opponent/raiden/hurt_0.png": 2600,
+    "opponent/raiden/hurt_1.png": 2608,
+    "opponent/raiden/hurt_2.png": 2561,
+    "opponent/raiden/hurt_3.png": 2231,
+    "opponent/raiden/hurt_4.png": 2680,
+    "opponent/raiden/hurt_5.png": 2365,
+    "opponent/raiden/hurt_6.png": 2429,
+    "opponent/raiden/hurt_7.png": 2562,
+    "opponent/raiden/throw_0.png": 2607,
+    "opponent/raiden/throw_1.png": 2687,
+    "opponent/raiden/throw_2.png": 2669,
+    "opponent/raiden/throw_3.png": 2712,
+    "opponent/raiden/victim_0.png": 2658,
+    "opponent/raiden/victim_1.png": 2488,
+    "opponent/raiden/victim_2.png": 2576,
+    "opponent/raiden/victim_3.png": 2589,
+    "opponent/raiden/victim_4.png": 2515,
+    "opponent/raiden/victim_5.png": 2478,
+    "portrait.png": 102162,
+    "source/E-v1.png": 2396690,
+    "source/Q-v1.png": 2310918,
+    "source/airheavy-single-3-v1.png": 960556,
+    "source/airheavy-single-5-v1.png": 1217369,
+    "source/airheavy-v1.png": 2362361,
+    "source/airlight-v1.png": 2442900,
+    "source/backdash-v1.png": 1650401,
+    "source/backwalk-v1.png": 2257007,
+    "source/crouch-v1.png": 1656576,
+    "source/crouchguard-v1.png": 1783439,
+    "source/crouchheavy-v1.png": 2380378,
+    "source/crouchlight-v1.png": 2364976,
+    "source/defeat-v1.png": 1637183,
+    "source/forwarddash-v1.png": 2209377,
+    "source/heavy-v1.png": 2230118,
+    "source/hit-knockdown-direction-v2.png": 1541177,
+    "source/idle-single-v1.png": 1212162,
+    "source/jump-v1.png": 2337678,
+    "source/light1-v2.png": 2142335,
+    "source/light2-v1.png": 2243874,
+    "source/light3-v1.png": 2321376,
+    "source/master-v2.png": 1185407,
+    "source/standguard-v1.png": 1735633,
+    "source/throw-clinch-adult-v3.png": 1614312,
+    "source/throw-clinch-low-v3.png": 1606385,
+    "source/victim-direction-v2.png": 2212242,
+    "source/victory-v1.png": 2339485,
+    "source/wakeup-direction-v2.png": 1272638,
+    "source/walk-v1.png": 2389689
+  },
+  "worldScale": "provisional uniform source drawing units, not art acceptance",
+  "visualAcceptance": "not accepted",
+  "battleRuntimeIntegrated": false,
+  "simulator": "not run",
+  "device": "not observed",
+  "performanceAccepted": false,
+  "browser": {
+    "date": "2026-10-11",
+    "status": "standalone browser candidate check, not game simulation or device acceptance",
+    "loads": [
+      {
+        "key": "light1",
+        "mode": "fit",
+        "ready": true,
+        "frames": 4,
+        "total": 21
+      },
+      {
+        "key": "light2",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 26
+      },
+      {
+        "key": "light3",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 31
+      },
+      {
+        "key": "heavy",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 40
+      },
+      {
+        "key": "crouchlight",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 21
+      },
+      {
+        "key": "crouchheavy",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 38
+      },
+      {
+        "key": "airlight",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 22
+      },
+      {
+        "key": "airheavy",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 30
+      },
+      {
+        "key": "E",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 40
+      },
+      {
+        "key": "Q",
+        "mode": "fit",
+        "ready": true,
+        "frames": 3,
+        "total": 24
+      },
+      {
+        "key": "throw",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 50
+      },
+      {
+        "key": "victim",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 50
+      },
+      {
+        "key": "idle",
+        "mode": "fit",
+        "ready": true,
+        "frames": 2,
+        "total": 60
+      },
+      {
+        "key": "walk",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 36
+      },
+      {
+        "key": "backwalk",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 42
+      },
+      {
+        "key": "jump",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 43
+      },
+      {
+        "key": "forwarddash",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 30
+      },
+      {
+        "key": "backdash",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 30
+      },
+      {
+        "key": "crouch",
+        "mode": "fit",
+        "ready": true,
+        "frames": 4,
+        "total": 28
+      },
+      {
+        "key": "standguard",
+        "mode": "fit",
+        "ready": true,
+        "frames": 4,
+        "total": 34
+      },
+      {
+        "key": "crouchguard",
+        "mode": "fit",
+        "ready": true,
+        "frames": 4,
+        "total": 34
+      },
+      {
+        "key": "hit_knockdown",
+        "mode": "fit",
+        "ready": true,
+        "frames": 4,
+        "total": 36
+      },
+      {
+        "key": "wakeup",
+        "mode": "fit",
+        "ready": true,
+        "frames": 5,
+        "total": 36
+      },
+      {
+        "key": "victory",
+        "mode": "fit",
+        "ready": true,
+        "frames": 6,
+        "total": 68
+      },
+      {
+        "key": "defeat",
+        "mode": "fit",
+        "ready": true,
+        "frames": 4,
+        "total": 48
+      },
+      {
+        "key": "light1",
+        "mode": "source",
+        "ready": true,
+        "frames": 4,
+        "total": 21
+      },
+      {
+        "key": "light2",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 26
+      },
+      {
+        "key": "light3",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 31
+      },
+      {
+        "key": "heavy",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 40
+      },
+      {
+        "key": "crouchlight",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 21
+      },
+      {
+        "key": "crouchheavy",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 38
+      },
+      {
+        "key": "airlight",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 22
+      },
+      {
+        "key": "airheavy",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 30
+      },
+      {
+        "key": "E",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 40
+      },
+      {
+        "key": "Q",
+        "mode": "source",
+        "ready": true,
+        "frames": 3,
+        "total": 24
+      },
+      {
+        "key": "throw",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 50
+      },
+      {
+        "key": "victim",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 50
+      },
+      {
+        "key": "idle",
+        "mode": "source",
+        "ready": true,
+        "frames": 2,
+        "total": 60
+      },
+      {
+        "key": "walk",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 36
+      },
+      {
+        "key": "backwalk",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 42
+      },
+      {
+        "key": "jump",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 43
+      },
+      {
+        "key": "forwarddash",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 30
+      },
+      {
+        "key": "backdash",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 30
+      },
+      {
+        "key": "crouch",
+        "mode": "source",
+        "ready": true,
+        "frames": 4,
+        "total": 28
+      },
+      {
+        "key": "standguard",
+        "mode": "source",
+        "ready": true,
+        "frames": 4,
+        "total": 34
+      },
+      {
+        "key": "crouchguard",
+        "mode": "source",
+        "ready": true,
+        "frames": 4,
+        "total": 34
+      },
+      {
+        "key": "hit_knockdown",
+        "mode": "source",
+        "ready": true,
+        "frames": 4,
+        "total": 36
+      },
+      {
+        "key": "wakeup",
+        "mode": "source",
+        "ready": true,
+        "frames": 5,
+        "total": 36
+      },
+      {
+        "key": "victory",
+        "mode": "source",
+        "ready": true,
+        "frames": 6,
+        "total": 68
+      },
+      {
+        "key": "defeat",
+        "mode": "source",
+        "ready": true,
+        "frames": 4,
+        "total": 48
+      }
+    ],
+    "qBranches": [
+      {
+        "branch": "hit",
+        "frames": 10,
+        "total": 162
+      },
+      {
+        "branch": "block",
+        "frames": 3,
+        "total": 24
+      },
+      {
+        "branch": "whiff",
+        "frames": 3,
+        "total": 24
+      }
+    ],
+    "confirmedCutin": {
+      "tick": 18,
+      "fullStage": true,
+      "stage": "头像切入"
+    },
+    "pairedStates": [
+      {
+        "model": "raiden",
+        "phase": 0,
+        "tick": 0,
+        "contact": false,
+        "total": 50
+      },
+      {
+        "model": "raiden",
+        "phase": 1,
+        "tick": 4,
+        "contact": true,
+        "total": 50
+      },
+      {
+        "model": "raiden",
+        "phase": 2,
+        "tick": 8,
+        "contact": true,
+        "total": 50
+      },
+      {
+        "model": "raiden",
+        "phase": 3,
+        "tick": 16,
+        "contact": true,
+        "total": 50
+      },
+      {
+        "model": "raiden",
+        "phase": 4,
+        "tick": 32,
+        "contact": false,
+        "total": 50
+      },
+      {
+        "model": "raiden",
+        "phase": 5,
+        "tick": 38,
+        "contact": false,
+        "total": 50
+      },
+      {
+        "model": "nahida",
+        "phase": 0,
+        "tick": 0,
+        "contact": false,
+        "total": 50
+      },
+      {
+        "model": "nahida",
+        "phase": 1,
+        "tick": 4,
+        "contact": true,
+        "total": 50
+      },
+      {
+        "model": "nahida",
+        "phase": 2,
+        "tick": 8,
+        "contact": true,
+        "total": 50
+      },
+      {
+        "model": "nahida",
+        "phase": 3,
+        "tick": 16,
+        "contact": true,
+        "total": 50
+      },
+      {
+        "model": "nahida",
+        "phase": 4,
+        "tick": 32,
+        "contact": false,
+        "total": 50
+      },
+      {
+        "model": "nahida",
+        "phase": 5,
+        "tick": 38,
+        "contact": false,
+        "total": 50
+      }
+    ],
+    "fallAndWakeupRoots": {
+      "fall": [
+        410,
+        550
+      ],
+      "rise": [
+        410,
+        550
+      ]
+    },
+    "mirror": "whole-world body, opponent and FX transform; controls observed",
+    "consoleErrors": [],
+    "artAccepted": false
+  }
+}

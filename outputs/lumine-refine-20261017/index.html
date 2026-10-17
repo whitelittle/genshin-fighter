@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><title>荧 · 步态与轻二第三帧返修</title>
+<style>body{background:#19253d;color:#eef2fa;font:16px system-ui;margin:28px}button,select{font:inherit;padding:8px;margin-right:10px}canvas{background:#263454;max-width:100%;border:1px solid #8396b7}img{width:100%;max-width:1800px;image-rendering:pixelated}section{margin:28px 0}p{line-height:1.7}</style>
+<h1>荧 · 步态与轻二第三帧返修</h1>
+<p>只返修截图对应walk_00与轻攻击2第三帧；母版、另外三张步态及其余攻击保持。前后走仍共用四姿。下方先列母版／返修前／返修后，全部同一源单位与脚底参考，动作与观感待验。</p>
+<select id="group"></select><button id="play">暂停</button><button id="mirror">镜像</button><button id="slow">慢放</button><input id="frame" type="range" min="0" max="3" value="0"><span id="label"></span><br><canvas id="cv" width="1000" height="430"></canvas>
+<section><h2>前后走首姿 · 母版／返修前／返修后</h2><img src="walk00-before-after-runtime-review.png"></section><section><h2>轻二第三姿 · 母版／返修前／返修后</h2><img src="light2third-before-after-runtime-review.png"></section><div id="boards"></div>
+<p>留档：<a href="source/walk00.png">步态源图</a> · <a href="source/light2third.png">轻二第三姿源图</a> · <a href="prompts.json">返修提示词</a> · <a href="import.json">拟合与保留项</a></p>
+<script>
+let data,decoded={},running=true,mirror=false,speed=1,tick=0,last=0;
+const cv=document.querySelector('#cv'),ctx=cv.getContext('2d'),group=document.querySelector('#group'),slider=document.querySelector('#frame');
+const labels={idle:'待机',walk:'前走',back:'后走（复用前走）',dash:'前冲',light1:'轻击一',light2:'轻击二',light3:'轻击三',heavy:'重击'};
+function rects(key){if(!decoded[key]){let b=Uint8Array.from(atob(data.frames[key].d),v=>v.charCodeAt(0));decoded[key]=new DataView(b.buffer)}return decoded[key]}
+function draw(key,x,flip){let f=data.frames[key],v=rects(key);ctx.save();ctx.translate(x,375);ctx.scale(flip?-1:1,1);for(let i=0;i<f.n;i++){let o=i*10,a=v.getUint16(o,true),b=v.getUint16(o+2,true),w=v.getUint16(o+4,true),h=v.getUint16(o+6,true),c=v.getUint16(o+8,true);ctx.fillStyle=`rgb(${f.pal[c].slice(0,3)})`;ctx.fillRect((a-f.ax)*f.u,(b-f.ay)*f.u,w*f.u,h*f.u)}ctx.restore()}
+function render(i){let g=data.groups[group.value],key=g.frames[i];ctx.clearRect(0,0,1000,430);ctx.fillStyle='#a2b5d2';ctx.fillRect(0,375,1000,1);draw('teaching_master',190,mirror);draw(key,650,mirror);document.querySelector('#label').textContent=key+' · '+data.frames[key].n+'矩形';slider.value=i}
+function step(ts){if(data){let g=data.groups[group.value];if(running)tick+=(ts-(last||ts))*60/1000*speed;let total=g.durations.reduce((a,b)=>a+b,0),v=tick%total,i=0;while(i<g.frames.length-1&&v>=g.durations[i])v-=g.durations[i++];render(running?i:Number(slider.value))}last=ts;requestAnimationFrame(step)}
+group.onchange=()=>{tick=0;slider.max=data.groups[group.value].frames.length-1;slider.value=0};slider.oninput=()=>{running=false;document.querySelector('#play').textContent='播放'};document.querySelector('#play').onclick=e=>{running=!running;e.target.textContent=running?'暂停':'播放'};document.querySelector('#mirror').onclick=()=>mirror=!mirror;document.querySelector('#slow').onclick=()=>speed=speed===1?.25:1;
+fetch('review-data.json').then(r=>r.json()).then(v=>{data=v;for(let k in data.groups){let o=document.createElement('option');o.value=k;o.textContent=labels[k];group.append(o)}for(let k of ['dash','light1','light2','light3','heavy']){let s=document.createElement('section');s.innerHTML=`<h2>${labels[k]} · 母版 / 起手 / 有效 / 随动 / 收势</h2><img src="${k}-runtime-review.png">`;document.querySelector('#boards').append(s)}requestAnimationFrame(step)});
+</script>

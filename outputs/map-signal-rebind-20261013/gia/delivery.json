@@ -1,0 +1,161 @@
+{
+  "name": "gpt_20261013_绑定已有GF3_保留PC修复",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 5,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_绑定已有GF3_保留PC修复_A.gia",
+      "bytes": 5135626,
+      "sha256": "5859b7c8f9845c994d7b6e12b34ad672bbc0222adb446bae2224097783300911"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_绑定已有GF3_保留PC修复_仅脚本.gia",
+      "bytes": 4853852,
+      "sha256": "d750558131684793366482b116a2ff727367fa64922baff393fbb5b8a1669002"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_绑定已有GF3_保留PC修复_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_绑定已有GF3_保留PC修复.lua",
+      "bytes": 4853654,
+      "sha256": "1a1a7cd8db0ac0a1a1ab62f10170780a2a75862f0bb597c9f1290344e1e7c839"
+    }
+  ],
+  "sourceSha256": "1a1a7cd8db0ac0a1a1ab62f10170780a2a75862f0bb597c9f1290344e1e7c839",
+  "templateSha256": "28fdcfe46d4a9a519f596b5f3cb1690f5c7c9ecbe99881b8c11a6a81c39e93bb",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "nativeDeviceTested": false,
+  "externalDelivery": true,
+  "importsRequired": [
+    "gpt_20261013_绑定已有GF3_保留PC修复_仅脚本.gia",
+    "gpt_20261013_GF3绑定地图已有命名信号.gia",
+    "gpt_20261013_GFV2恢复原节点_引用已有信号.gia"
+  ],
+  "serverNodes": [
+    {
+      "filename": "gpt_20261013_GF3绑定地图已有命名信号.gia",
+      "bytes": 97618,
+      "sha256": "3e61b7d4fbf99d0a7457ae847caef6cc8d0238cfc5dafb6e7082078809d43f3f",
+      "nodes": 517,
+      "embeddedSignalDefinitions": 0,
+      "requiredExistingSignals": [
+        {
+          "id": 1073741841,
+          "signal": "GF3Hello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741845,
+          "signal": "GF3Seat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741849,
+          "signal": "GF3Progress",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741853,
+          "signal": "GF3Reveal",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741857,
+          "signal": "GF3Team",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741861,
+          "signal": "GF3Reset",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741865,
+          "signal": "GF3BattleHello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741869,
+          "signal": "GF3BattleSeat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741873,
+          "signal": "GF3BattleFrames",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741877,
+          "signal": "GF3BattleFramesOut",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741921,
+          "signal": "GF3Quit",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741925,
+          "signal": "GF3Close",
+          "kind": "发送客户端脚本信号"
+        }
+      ]
+    },
+    {
+      "filename": "gpt_20261013_GFV2恢复原节点_引用已有信号.gia",
+      "bytes": 3920,
+      "sha256": "1b9ae338dcc7ccffe02e79ccb30e939c602313fa331a7cc315915fe0c1f6e37f",
+      "nodes": 26,
+      "embeddedSignalDefinitions": 0,
+      "requiredExistingSignals": [
+        {
+          "id": 1073741825,
+          "signal": "GFV2Hello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741829,
+          "signal": "GFV2Seat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741833,
+          "signal": "GFV2Frames",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741837,
+          "signal": "GFV2FramesOut",
+          "kind": "发送客户端脚本信号"
+        }
+      ]
+    }
+  ],
+  "sameMapOnly": true,
+  "numericSignalAliases": false,
+  "mapUnmodified": true,
+  "copySha256Verified": true
+}

@@ -1,0 +1,203 @@
+{
+  "scope": "REJECTED by user: head too small and support-leg continuity incorrect; not used in live candidate",
+  "generator": "built-in image_gen",
+  "canonicalMother": "outputs/lumine-basic-20261015/source/master-v1.png",
+  "motherUnchangedSha256": "57fa7e2a0e8b126fb57f576daffcade4b3cd03905029d9c7b404a9429ae19f35",
+  "oldNonWalkFramesUnchanged": 76,
+  "uniqueBodyFrames": 84,
+  "uniqueFrameMean": 973.3333333333334,
+  "peak": 1529,
+  "newFramePeak": 1024,
+  "newPalette": 16,
+  "durations": {
+    "walk": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "back": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "anchorMethod": "stable head-column offset calibrated to original idle; fixed foot plane",
+  "newFrames": {
+    "walk_0": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        52,
+        57,
+        645,
+        679
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 119544,
+      "anchor": [
+        24.5,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 0,
+      "n": 1024,
+      "w": 76,
+      "h": 80,
+      "u": 4
+    },
+    "walk_1": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        562,
+        58,
+        1121,
+        680
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 96150,
+      "anchor": [
+        20.5,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 1,
+      "n": 808,
+      "w": 72,
+      "h": 80,
+      "u": 4
+    },
+    "walk_2": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        1109,
+        57,
+        1699,
+        678
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 116010,
+      "anchor": [
+        23.5,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 2,
+      "n": 986,
+      "w": 76,
+      "h": 80,
+      "u": 4
+    },
+    "walk_3": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        1650,
+        58,
+        2169,
+        680
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 100066,
+      "anchor": [
+        21.0,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 3,
+      "n": 834,
+      "w": 67,
+      "h": 80,
+      "u": 4
+    },
+    "back_0": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        52,
+        57,
+        645,
+        679
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 119544,
+      "anchor": [
+        24.5,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 0,
+      "n": 1024,
+      "w": 76,
+      "h": 80,
+      "u": 4
+    },
+    "back_1": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        1650,
+        58,
+        2169,
+        680
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 100066,
+      "anchor": [
+        21.0,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 3,
+      "n": 834,
+      "w": 67,
+      "h": 80,
+      "u": 4
+    },
+    "back_2": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        1109,
+        57,
+        1699,
+        678
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 116010,
+      "anchor": [
+        23.5,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 2,
+      "n": 986,
+      "w": 76,
+      "h": 80,
+      "u": 4
+    },
+    "back_3": {
+      "source": "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png",
+      "roi": [
+        562,
+        58,
+        1121,
+        680
+      ],
+      "sourceUnit": 0.12861736334405144,
+      "alphaComponentArea": 96150,
+      "anchor": [
+        20.5,
+        80
+      ],
+      "standingSourcePixels": 622.0,
+      "phase": 1,
+      "n": 808,
+      "w": 72,
+      "h": 80,
+      "u": 4
+    }
+  },
+  "pixelReconstructionToQuantizedTarget": true,
+  "sources": {
+    "outputs/lumine-walk-four-20261016/source/walk-v1-rejected-repeat.png": "8231789b95d42296991891708b1038849af55068487ee79fcdb540e5fd0560fa",
+    "outputs/lumine-walk-four-20261016/source/walk-v2-rejected-high-knee.png": "3d8d22006fd257b614f2a7c58e25152bc583d9cf9f64e387b10880c30dadd702",
+    "outputs/lumine-walk-four-20261016/source/walk-v3-candidate.png": "1ff59be5e15dbc99a72bf4d26f45513c5d8ce34607ad0a3ad9b4445f88b9468b"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "mode": "fit",
+      "label": "近侧腿落脚 · walk-00 · 704 身体图元"
+    },
+    {
+      "mode": "fit",
+      "label": "近侧腿承重／远侧腿经过 · walk-02 · 616 身体图元"
+    },
+    {
+      "mode": "fit",
+      "label": "远侧腿落脚 · walk-04 · 687 身体图元"
+    },
+    {
+      "mode": "fit",
+      "label": "远侧腿承重／近侧腿经过 · walk-06 · 629 身体图元"
+    },
+    {
+      "mode": "source",
+      "label": "远侧腿承重／近侧腿经过 · walk-06 · 629 身体图元"
+    },
+    {
+      "mode": "source",
+      "label": "近侧腿落脚 · walk-00 · 704 身体图元"
+    },
+    {
+      "mode": "source",
+      "label": "近侧腿承重／远侧腿经过 · walk-02 · 616 身体图元"
+    },
+    {
+      "mode": "source",
+      "label": "远侧腿落脚 · walk-04 · 687 身体图元"
+    }
+  ],
+  "errors": [],
+  "scope": "local artwork player; not game/device acceptance"
+}

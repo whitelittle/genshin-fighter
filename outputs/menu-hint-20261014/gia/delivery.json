@@ -1,0 +1,37 @@
+{
+  "protocolVersion": 6,
+  "changedModules": [
+    "gf_scene_menu",
+    "gf_hud",
+    "gf_touch",
+    "gf_ui"
+  ],
+  "nativeImportVerified": false,
+  "nativeDeviceVerified": false,
+  "externalDelivery": true,
+  "files": [
+    {
+      "variant": "stable",
+      "filename": "gpt_20261014_菜单提示与入口修复_稳定基线_仅脚本.gia",
+      "sha256": "0fb8dc236479e6f7a0b3e106a2ce5b17af70d67030628b98b5866388cd76815c",
+      "sourceSha256": "a60d37ab774a48b2a7166bff81bd40b51107fd9012cc27a365228de523844d39",
+      "bytes": 4863300,
+      "reverseTemplateByteIdentical": true
+    },
+    {
+      "variant": "pc-budget",
+      "filename": "gpt_20261014_菜单提示与入口修复_保留PC预算候选_仅脚本.gia",
+      "sha256": "caf803f6d6450196d12f060d7f84ee156d84358b7000ec67809c0cb7cdc9e63d",
+      "sourceSha256": "3db89550841756dfad85ce100a249464ccef25932ceb75a5fe42830bb81a462a",
+      "bytes": 4866512,
+      "reverseTemplateByteIdentical": true
+    }
+  ],
+  "externalDeliveryRecord": {
+    "date": "2026-10-14",
+    "variant": "pc-budget",
+    "directory": "%LOCALAPPDATA%Low/miHoYo/原神/BeyondLocal/Beyond_Local_Export",
+    "sha256Verified": true,
+    "nativeEditorImported": false
+  }
+}

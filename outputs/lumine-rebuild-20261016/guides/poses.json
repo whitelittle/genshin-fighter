@@ -1,0 +1,175 @@
+{
+  "scope": "abstract pose reference only, character art not yet validated",
+  "left": "near camera cyan",
+  "right": "far camera orange",
+  "poses": [
+    {
+      "key": "walk_0",
+      "phase": "left contact",
+      "joints": {
+        "right": {
+          "hip": [
+            545,
+            850
+          ],
+          "knee": [
+            515.8058990254266,
+            1143.5518769626358
+          ],
+          "ankle": [
+            370,
+            1400
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        },
+        "left": {
+          "hip": [
+            495,
+            850
+          ],
+          "knee": [
+            633.5156417971953,
+            1110.45809063554
+          ],
+          "ankle": [
+            690,
+            1400
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        }
+      }
+    },
+    {
+      "key": "walk_1",
+      "phase": "left support/right passing",
+      "joints": {
+        "right": {
+          "hip": [
+            545,
+            815
+          ],
+          "knee": [
+            652.2758893831058,
+            1089.8033543409972
+          ],
+          "ankle": [
+            560,
+            1370
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        },
+        "left": {
+          "hip": [
+            495,
+            815
+          ],
+          "knee": [
+            543.6954053994233,
+            1105.9531878034434
+          ],
+          "ankle": [
+            520,
+            1400
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        }
+      }
+    },
+    {
+      "key": "walk_2",
+      "phase": "right contact",
+      "joints": {
+        "right": {
+          "hip": [
+            545,
+            850
+          ],
+          "knee": [
+            693.2923781384427,
+            1105.0183730362287
+          ],
+          "ankle": [
+            690,
+            1400
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        },
+        "left": {
+          "hip": [
+            495,
+            850
+          ],
+          "knee": [
+            516.9137881082812,
+            1144.1849518427912
+          ],
+          "ankle": [
+            370,
+            1400
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        }
+      }
+    },
+    {
+      "key": "walk_3",
+      "phase": "right support/left passing",
+      "joints": {
+        "right": {
+          "hip": [
+            545,
+            815
+          ],
+          "knee": [
+            568.6954053994233,
+            1109.0468121965566
+          ],
+          "ankle": [
+            520,
+            1400
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        },
+        "left": {
+          "hip": [
+            495,
+            815
+          ],
+          "knee": [
+            621.5278149484885,
+            1081.4877333844113
+          ],
+          "ankle": [
+            560,
+            1370
+          ],
+          "boneLengths": [
+            295,
+            295
+          ]
+        }
+      }
+    }
+  ]
+}

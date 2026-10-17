@@ -1,0 +1,65 @@
+{
+  "mockOnly": true,
+  "results": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "movement": true,
+      "realHitHurtAndRecovery": true,
+      "whiffNoDamage": true,
+      "jump": true,
+      "pause": true,
+      "replay1200": 1209319813,
+      "stats": {
+        "controls": 16186,
+        "active": 2456,
+        "visibleImages": 2443,
+        "visibleTexts": 9,
+        "glyphs": 115
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "movement": true,
+      "realHitHurtAndRecovery": true,
+      "whiffNoDamage": true,
+      "jump": true,
+      "pause": true,
+      "replay1200": 1209319813,
+      "stats": {
+        "controls": 12186,
+        "active": 2479,
+        "visibleImages": 2460,
+        "visibleTexts": 13,
+        "glyphs": 106
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "movement": true,
+      "realHitHurtAndRecovery": true,
+      "whiffNoDamage": true,
+      "jump": true,
+      "pause": true,
+      "replay1200": 1209319813,
+      "stats": {
+        "controls": 12186,
+        "active": 2479,
+        "visibleImages": 2460,
+        "visibleTexts": 13,
+        "glyphs": 106
+      }
+    }
+  ]
+}

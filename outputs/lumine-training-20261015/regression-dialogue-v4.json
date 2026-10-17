@@ -1,0 +1,27 @@
+{
+  "logic": {
+    "checks-d.lua": true,
+    "checks-e.lua": true,
+    "skill-feedback.lua": true,
+    "clorinde-ballistics.lua": true,
+    "clorinde-shot-transition.lua": true,
+    "clorinde-legacy-melee.lua": true,
+    "clorinde-q-fx.lua": true,
+    "furinaDeliveredTimeline": true,
+    "ayakaDeliveredTimeline": true,
+    "baselineNonBurstFullStateTicks": 3600,
+    "baselineScope": "non-Q rules; presentation feedback events excluded; changed Q boundaries tested separately",
+    "furinaSnapshotTicks": 240,
+    "legacyRulesEnabled": true,
+    "rosterProtocolIsolation": true
+  },
+  "pixelsAndViews": {
+    "exactPixelStates": 188,
+    "ayakaExactPixelStates": 161,
+    "viewBudgetAndFlash": true
+  },
+  "scope": "Lua 5.3 offline and mock UI; no native device acceptance",
+  "sourceReassembled": false,
+  "clientSha256": "8f8c64219945c213cef72d15349cb46828f043b5f05e25287422a6b4fb262587",
+  "frozenBaselineByteIdentical": true
+}

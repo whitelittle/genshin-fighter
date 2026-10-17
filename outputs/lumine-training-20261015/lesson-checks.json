@@ -1,0 +1,62 @@
+{
+  "mockOnly": true,
+  "results": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "sixObjectivesInOrder": true,
+      "pauseStopsAdvance": true,
+      "oldHitAndWhiffCannotComplete": true,
+      "automaticDialogue": true,
+      "restartResets": true,
+      "stats": {
+        "controls": 16186,
+        "active": 2443,
+        "visibleImages": 2433,
+        "visibleTexts": 6,
+        "glyphs": 56
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "sixObjectivesInOrder": true,
+      "pauseStopsAdvance": true,
+      "oldHitAndWhiffCannotComplete": true,
+      "automaticDialogue": true,
+      "restartResets": true,
+      "stats": {
+        "controls": 12186,
+        "active": 2466,
+        "visibleImages": 2450,
+        "visibleTexts": 10,
+        "glyphs": 59
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "sixObjectivesInOrder": true,
+      "pauseStopsAdvance": true,
+      "oldHitAndWhiffCannotComplete": true,
+      "automaticDialogue": true,
+      "restartResets": true,
+      "stats": {
+        "controls": 12186,
+        "active": 2466,
+        "visibleImages": 2450,
+        "visibleTexts": 10,
+        "glyphs": 59
+      }
+    }
+  ]
+}

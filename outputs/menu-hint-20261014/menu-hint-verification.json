@@ -1,0 +1,37 @@
+{
+  "scope": "mock UI, not native device",
+  "rows": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "menuHintClickOpensBattleMenu": true
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "menuHintClickOpensBattleMenu": true
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "menuHintClickOpensBattleMenu": true
+    },
+    {
+      "device": "Controller",
+      "canvas": [
+        1600,
+        900
+      ],
+      "menuHintClickOpensBattleMenu": true
+    }
+  ]
+}

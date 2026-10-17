@@ -1,0 +1,165 @@
+{
+  "scope": "荧教学关前进行走候选；既有拟合方式与效果沿用确认；新动作美术及真机待验",
+  "sourceUnit": 0.24096385542168675,
+  "logicalCell": 4.5,
+  "bodyUniqueFrames": 88,
+  "bodyUniqueMean": 934.2386363636364,
+  "bodyPeak": 1529,
+  "newPeak": 704,
+  "preservedOldFrames": 84,
+  "onlyChangedSourceFiles": [
+    "source/teaching/gf_lumine_training_data.lua"
+  ],
+  "clientSha256": "ae8015cdc02608375803c5e05be834f8311987ef96d12cebebe623a4c306dfd9",
+  "baselineSha256": "43ef9f407a7676c1c1256bcf3eb7c5c6296d2474d39b883f9922747c61224a73",
+  "frames": {
+    "master": {
+      "file": "fit/master.png",
+      "anchor": [
+        30,
+        79
+      ],
+      "scale": 4.5,
+      "rectData": "fit/master.json",
+      "rectangles": 628,
+      "source": "source/master.png",
+      "sourceAnchor": [
+        520,
+        1435
+      ],
+      "sourceSha256": "2969a8651272156583400f6c9de19a06e8e7360cdfcf14d8da3e636ae9916b5d",
+      "sourceBounds": [
+        101,
+        107,
+        930,
+        1435
+      ],
+      "sameSourceScale": 0.24096385542168675,
+      "sourceGroundedBySupportSole": true,
+      "pixelRoundtrip": true
+    },
+    "walk-00": {
+      "file": "fit/walk-00.png",
+      "anchor": [
+        30,
+        81
+      ],
+      "scale": 4.5,
+      "rectData": "fit/walk-00.json",
+      "rectangles": 704,
+      "source": "source/walk-00.png",
+      "sourceAnchor": [
+        520,
+        1470
+      ],
+      "sourceSha256": "c8cc73a0060c310492c8eab31b6c6a6b9ae5239a3cc0dd366db0cf492a82be23",
+      "sourceBounds": [
+        64,
+        66,
+        995,
+        1470
+      ],
+      "sameSourceScale": 0.24096385542168675,
+      "sourceGroundedBySupportSole": true,
+      "pixelRoundtrip": true
+    },
+    "walk-02": {
+      "file": "fit/walk-02.png",
+      "anchor": [
+        30,
+        80
+      ],
+      "scale": 4.5,
+      "rectData": "fit/walk-02.json",
+      "rectangles": 616,
+      "source": "source/walk-02.png",
+      "sourceAnchor": [
+        520,
+        1448
+      ],
+      "sourceSha256": "da85de9338379eff81a32e692221afb5d968c444f3ad09ef328f5c2e8fb92cb5",
+      "sourceBounds": [
+        99,
+        106,
+        931,
+        1447
+      ],
+      "sameSourceScale": 0.24096385542168675,
+      "sourceGroundedBySupportSole": true,
+      "pixelRoundtrip": true
+    },
+    "walk-04": {
+      "file": "fit/walk-04.png",
+      "anchor": [
+        30,
+        81
+      ],
+      "scale": 4.5,
+      "rectData": "fit/walk-04.json",
+      "rectangles": 687,
+      "source": "source/walk-04.png",
+      "sourceAnchor": [
+        520,
+        1457
+      ],
+      "sourceSha256": "81b6f4489893f3a7ba83b62c7fad8cea69214496554467f75d0c7ce23b176ca9",
+      "sourceBounds": [
+        82,
+        113,
+        965,
+        1457
+      ],
+      "sameSourceScale": 0.24096385542168675,
+      "sourceGroundedBySupportSole": true,
+      "pixelRoundtrip": true
+    },
+    "walk-06": {
+      "file": "fit/walk-06.png",
+      "anchor": [
+        30,
+        81
+      ],
+      "scale": 4.5,
+      "rectData": "fit/walk-06.json",
+      "rectangles": 629,
+      "source": "source/walk-06.png",
+      "sourceAnchor": [
+        520,
+        1468
+      ],
+      "sourceSha256": "87360aae79aa7894743d99ed5cb2898c41dd927815695748c6d1d181dd33a597",
+      "sourceBounds": [
+        72,
+        103,
+        940,
+        1468
+      ],
+      "sameSourceScale": 0.24096385542168675,
+      "sourceGroundedBySupportSole": true,
+      "pixelRoundtrip": true
+    }
+  },
+  "walk": {
+    "frames": [
+      "walk_00",
+      "walk_02",
+      "walk_04",
+      "walk_06"
+    ],
+    "durations": [
+      12,
+      11,
+      12,
+      11
+    ]
+  },
+  "phases": [
+    "近侧腿落脚",
+    "近侧腿承重／远侧腿经过",
+    "远侧腿落脚",
+    "远侧腿承重／近侧腿经过"
+  ],
+  "backward": "旧后退暂代，未倒放新前走冒充完成",
+  "otherActions": "跳跃、冲撤、攻防等沿用旧暂代，未宣称本批完成",
+  "userScopeConfirmed": "继续完成教学关；旅行者荧；母版、拟合方式与效果已初步确认"
+}

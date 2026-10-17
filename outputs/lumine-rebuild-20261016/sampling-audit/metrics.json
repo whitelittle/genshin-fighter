@@ -1,0 +1,233 @@
+{
+  "variants": {
+    "nearest84": {
+      "idle_0": {
+        "size": [
+          52,
+          84
+        ],
+        "rectangles": 698,
+        "cleanupChangedPixels": 0
+      },
+      "walk_0": {
+        "size": [
+          53,
+          85
+        ],
+        "rectangles": 704,
+        "cleanupChangedPixels": 0
+      },
+      "walk_1": {
+        "size": [
+          54,
+          84
+        ],
+        "rectangles": 673,
+        "cleanupChangedPixels": 0
+      },
+      "walk_2": {
+        "size": [
+          53,
+          83
+        ],
+        "rectangles": 689,
+        "cleanupChangedPixels": 0
+      },
+      "walk_3": {
+        "size": [
+          54,
+          84
+        ],
+        "rectangles": 665,
+        "cleanupChangedPixels": 0
+      },
+      "dash_0": {
+        "size": [
+          61,
+          71
+        ],
+        "rectangles": 771,
+        "cleanupChangedPixels": 0
+      },
+      "dash_1": {
+        "size": [
+          60,
+          69
+        ],
+        "rectangles": 677,
+        "cleanupChangedPixels": 0
+      },
+      "dash_2": {
+        "size": [
+          59,
+          61
+        ],
+        "rectangles": 681,
+        "cleanupChangedPixels": 0
+      },
+      "dash_3": {
+        "size": [
+          54,
+          74
+        ],
+        "rectangles": 699,
+        "cleanupChangedPixels": 0
+      }
+    },
+    "area84": {
+      "idle_0": {
+        "size": [
+          52,
+          84
+        ],
+        "rectangles": 750,
+        "cleanupChangedPixels": 3
+      },
+      "walk_0": {
+        "size": [
+          53,
+          85
+        ],
+        "rectangles": 775,
+        "cleanupChangedPixels": 1
+      },
+      "walk_1": {
+        "size": [
+          54,
+          84
+        ],
+        "rectangles": 758,
+        "cleanupChangedPixels": 1
+      },
+      "walk_2": {
+        "size": [
+          53,
+          83
+        ],
+        "rectangles": 771,
+        "cleanupChangedPixels": 3
+      },
+      "walk_3": {
+        "size": [
+          54,
+          84
+        ],
+        "rectangles": 761,
+        "cleanupChangedPixels": 2
+      },
+      "dash_0": {
+        "size": [
+          61,
+          71
+        ],
+        "rectangles": 847,
+        "cleanupChangedPixels": 3
+      },
+      "dash_1": {
+        "size": [
+          60,
+          69
+        ],
+        "rectangles": 745,
+        "cleanupChangedPixels": 4
+      },
+      "dash_2": {
+        "size": [
+          59,
+          61
+        ],
+        "rectangles": 751,
+        "cleanupChangedPixels": 3
+      },
+      "dash_3": {
+        "size": [
+          54,
+          74
+        ],
+        "rectangles": 774,
+        "cleanupChangedPixels": 3
+      }
+    },
+    "area64": {
+      "idle_0": {
+        "size": [
+          40,
+          64
+        ],
+        "rectangles": 468,
+        "cleanupChangedPixels": 0
+      },
+      "walk_0": {
+        "size": [
+          40,
+          65
+        ],
+        "rectangles": 486,
+        "cleanupChangedPixels": 1
+      },
+      "walk_1": {
+        "size": [
+          41,
+          64
+        ],
+        "rectangles": 496,
+        "cleanupChangedPixels": 0
+      },
+      "walk_2": {
+        "size": [
+          40,
+          63
+        ],
+        "rectangles": 496,
+        "cleanupChangedPixels": 2
+      },
+      "walk_3": {
+        "size": [
+          41,
+          64
+        ],
+        "rectangles": 487,
+        "cleanupChangedPixels": 1
+      },
+      "dash_0": {
+        "size": [
+          47,
+          54
+        ],
+        "rectangles": 552,
+        "cleanupChangedPixels": 1
+      },
+      "dash_1": {
+        "size": [
+          45,
+          52
+        ],
+        "rectangles": 479,
+        "cleanupChangedPixels": 1
+      },
+      "dash_2": {
+        "size": [
+          45,
+          47
+        ],
+        "rectangles": 508,
+        "cleanupChangedPixels": 1
+      },
+      "dash_3": {
+        "size": [
+          41,
+          56
+        ],
+        "rectangles": 479,
+        "cleanupChangedPixels": 0
+      }
+    }
+  },
+  "nahidaLoIdle": {
+    "w": 46,
+    "h": 55,
+    "n": 713,
+    "u": 4.7837
+  },
+  "scope": "offline comparison only; no anatomy correction or live replacement"
+}

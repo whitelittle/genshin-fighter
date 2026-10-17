@@ -1,0 +1,57 @@
+{
+  "mockOnly": true,
+  "results": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "noticeOncePerApp": true,
+      "confirmedOnlyThreeEntries": true,
+      "skillsGroupedOnceAndNoTutorialNoticeEntries": true,
+      "tutorialToCourses": true,
+      "trainingToSelectionAndFreeRoom": true,
+      "lumineFreeRoomHasNoLesson": true
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "noticeOncePerApp": true,
+      "confirmedOnlyThreeEntries": true,
+      "skillsGroupedOnceAndNoTutorialNoticeEntries": true,
+      "tutorialToCourses": true,
+      "trainingToSelectionAndFreeRoom": true,
+      "lumineFreeRoomHasNoLesson": true
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "noticeOncePerApp": true,
+      "confirmedOnlyThreeEntries": true,
+      "skillsGroupedOnceAndNoTutorialNoticeEntries": true,
+      "tutorialToCourses": true,
+      "trainingToSelectionAndFreeRoom": true,
+      "lumineFreeRoomHasNoLesson": true
+    },
+    {
+      "device": "Controller",
+      "canvas": [
+        1600,
+        900
+      ],
+      "noticeOncePerApp": true,
+      "confirmedOnlyThreeEntries": true,
+      "skillsGroupedOnceAndNoTutorialNoticeEntries": true,
+      "tutorialToCourses": true,
+      "trainingToSelectionAndFreeRoom": true,
+      "lumineFreeRoomHasNoLesson": true
+    }
+  ]
+}

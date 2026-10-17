@@ -1,0 +1,51 @@
+{
+  "stamp": "20261004_191454",
+  "lua": "gpt_20261004_191454_实机信号绑定修复.lua",
+  "scriptPath": "lua/gpt_20261004_191454_实机信号绑定修复.lua",
+  "files": [
+    {
+      "kind": "server",
+      "filename": "gpt_20261004_191454_A_实机信号绑定修复.gia",
+      "bytes": 5689466,
+      "sha256": "de8dadcf39b3ca9e4afbd6ae2f64d1e3c4738818aa4f3724d730f24679349dfd"
+    },
+    {
+      "kind": "client",
+      "filename": "gpt_20261004_143008_B_通用图元模板.gia",
+      "bytes": 1679,
+      "sha256": "2bf5d64aeb4bab88e68a6f20b406240c9e53e19a123789aad6c93a5a5503761d"
+    }
+  ],
+  "stageSeedRange": [
+    1,
+    210
+  ],
+  "deviceVerified": false,
+  "pixelTemplateIndex": 1073742822,
+  "previousStamp": "20261004_165353",
+  "officialVerified": false,
+  "signalBindings": {
+    "FighterHello": "信号_16",
+    "FighterSeat": "信号_15",
+    "FighterTeam": "信号_14",
+    "FighterTeamOut": "信号_13",
+    "FighterJoin": "信号_12",
+    "FighterJoined": "信号_17",
+    "FighterFrames": "信号_20",
+    "FighterFramesOut": "信号_19",
+    "FighterFlow": "信号_18",
+    "FighterFlowOut": "信号_11"
+  },
+  "requiredNodeGraph": "gpt_20261004_191546_联机节点_常量修复_引用现有信号.gia",
+  "onlyUpdateA": false,
+  "updateFiles": [
+    "gpt_20261004_191454_A_实机信号绑定修复.gia",
+    "gpt_20261004_191546_联机节点_常量修复_引用现有信号.gia"
+  ],
+  "nodeGraph": {
+    "path": "outputs/network-import-fix/gpt_20261004_191546_联机节点_常量修复_引用现有信号.gia",
+    "sha256": "6c4356a1f0f845dff817493ce07c2dd11eb9455493530df2af445f7567326233",
+    "sameProjectOnly": true,
+    "officialImportVerified": false
+  }
+}

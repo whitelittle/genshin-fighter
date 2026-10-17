@@ -1,0 +1,90 @@
+[
+  {
+    "id": "master",
+    "requestedPoses": 1,
+    "source": "source/master-v1.png",
+    "prompt": "prompts/master-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-9f6af9cb-5028-4b7f-8db6-de35d1519709.png"
+  },
+  {
+    "id": "idle",
+    "requestedPoses": 2,
+    "source": "source/idle-v1.png",
+    "prompt": "prompts/idle-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-5d707746-f71c-4e6d-b66f-2b325e179376.png"
+  },
+  {
+    "id": "walk-forward",
+    "requestedPoses": 6,
+    "source": "source/walk-forward-v1.png",
+    "prompt": "prompts/walk-forward-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-fcf0a8fc-608a-4b3f-95ae-82724e46d4f3.png"
+  },
+  {
+    "id": "walk-back",
+    "requestedPoses": 6,
+    "source": "source/walk-back-v1.png",
+    "prompt": "prompts/walk-back-v1.txt",
+    "status": "rejected_grip_user_feedback",
+    "generatedFile": "exec-96ba7f7e-bb97-465f-acda-3104f7177aa5.png"
+  },
+  {
+    "id": "crouch",
+    "requestedPoses": 4,
+    "source": "source/crouch-v1.png",
+    "prompt": "prompts/crouch-v1.txt",
+    "status": "needs_revision_spacing_transition",
+    "generatedFile": "exec-2c8c488c-d2d5-4d56-b9e6-17e30c8f3cb1.png"
+  },
+  {
+    "id": "guard-standing",
+    "requestedPoses": 4,
+    "source": "source/guard-standing-v1.png",
+    "prompt": "prompts/guard-standing-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-4ac6ce88-633d-4287-b1d3-645d73fa4a46.png"
+  },
+  {
+    "id": "guard-crouch",
+    "requestedPoses": 4,
+    "source": "source/guard-crouch-v1.png",
+    "prompt": "prompts/guard-crouch-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-fd7fa865-5764-4e3c-a614-2a4c15d4e892.png"
+  },
+  {
+    "id": "jump",
+    "requestedPoses": 6,
+    "source": "source/jump-v1.png",
+    "prompt": "prompts/jump-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-0cbbd5bf-0b94-4316-a5d1-1e9be09ab175.png"
+  },
+  {
+    "id": "dash-forward",
+    "requestedPoses": 4,
+    "source": "source/dash-forward-v1.png",
+    "prompt": "prompts/dash-forward-v1.txt",
+    "status": "needs_revision_blade_boundary",
+    "generatedFile": "exec-c3db6582-769e-4f22-af00-a8e528154711.png"
+  },
+  {
+    "id": "backstep",
+    "requestedPoses": 4,
+    "source": "source/backstep-v1.png",
+    "prompt": "prompts/backstep-v1.txt",
+    "status": "candidate_unapproved",
+    "generatedFile": "exec-ed9869cc-7e5d-427e-9e43-f19d4dae4bb3.png"
+  },
+  {
+    "id": "walk-back-v2",
+    "requestedPoses": 6,
+    "source": "source/walk-back-v2.png",
+    "prompt": "prompts/walk-back-v2.txt",
+    "status": "grip_revised_awaiting_review",
+    "generatedFile": "exec-797c3fc6-e661-406c-a36e-cce8099a865f.png"
+  }
+]

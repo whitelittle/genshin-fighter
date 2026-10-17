@@ -1,0 +1,447 @@
+{
+  "simulatorOnly": true,
+  "scenarios": [
+    "local ready keeps cover until battle display handoff; peer wait injected",
+    "pc-16-9 loading cover / home backing covers simulator canvas; home exits loading",
+    "mobile-19.5-9 loading cover / home backing covers simulator canvas; home exits loading",
+    "GF10 two-player selection, single-ready barrier, three rounds, results and return to selection"
+  ],
+  "logs": [
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 0.03333333333333333
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 0.03333333333333333
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 0.03333333333333333
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 0.03333333333333333
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000091000000006503",
+      "time": 0.03333333333333333
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=4 batch=96",
+      "time": 0.03333333333333333
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 0.7166666666666672
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 0.7166666666666672
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 0.7166666666666672
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 0.7166666666666672
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.000010299999999575",
+      "time": 0.7166666666666672
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 0.7166666666666672
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 1.0666666666666678
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 1.0666666666666678
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 1.0666666666666678
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 1.0666666666666678
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000097000000014447",
+      "time": 1.0666666666666678
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 1.0666666666666678
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 1.4166666666666665
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 1.4166666666666665
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 1.4166666666666665
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 1.4166666666666665
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.000010399999998967",
+      "time": 1.4166666666666665
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 1.4166666666666665
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 1.7666666666666653
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 1.7666666666666653
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 1.7666666666666653
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 1.7666666666666653
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000088999999992012",
+      "time": 1.7666666666666653
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 1.7666666666666653
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 2.116666666666664
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 2.116666666666664
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 2.116666666666664
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 2.116666666666664
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000093999999997152",
+      "time": 2.116666666666664
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 2.116666666666664
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 2.466666666666663
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 2.466666666666663
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 2.466666666666663
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 2.466666666666663
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.000010400000000743",
+      "time": 2.466666666666663
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 2.466666666666663
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 2.8166666666666615
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 2.8166666666666615
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 2.8166666666666615
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 2.8166666666666615
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000091999999991543",
+      "time": 2.8166666666666615
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 2.8166666666666615
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] battle create=4042 destroy=0 reuse=0 decode=1321 updates=230",
+      "time": 8.666666666666677
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=1321 cpu=0.76237430000003",
+      "time": 8.666666666666677
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 8.666666666666677
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=4042 cpu=0.14556410000001",
+      "time": 8.666666666666677
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.000023399999999896",
+      "time": 8.666666666666677
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=3.8333333333333 progressWrites=68 layoutWrites=0 batch=96",
+      "time": 8.666666666666677
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] battle create=554 destroy=0 reuse=2898 decode=3398 updates=465",
+      "time": 23.533333333333278
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=3398 cpu=1.9291574",
+      "time": 23.533333333333278
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=1144 cpu=0.02018780000008",
+      "time": 23.533333333333278
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=554 cpu=0.021789499999947",
+      "time": 23.533333333333278
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000056000000014933",
+      "time": 23.533333333333278
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=7.75 progressWrites=136 layoutWrites=0 batch=96",
+      "time": 23.533333333333278
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] battle create=0 destroy=0 reuse=2921 decode=3230 updates=439",
+      "time": 37.849999999999135
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=3230 cpu=1.8466641",
+      "time": 37.849999999999135
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=1675 cpu=0.028543800000058",
+      "time": 37.849999999999135
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 37.849999999999135
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.0000058000000002778",
+      "time": 37.849999999999135
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=7.3166666666666 progressWrites=128 layoutWrites=0 batch=128",
+      "time": 37.849999999999135
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD METRIC] menu create=0 destroy=0 reuse=0 decode=0 updates=2",
+      "time": 43.216666666665496
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] decode tasks=0 cpu=0",
+      "time": 43.216666666665496
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] recycle tasks=0 cpu=0",
+      "time": 43.216666666665496
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] create tasks=0 cpu=0",
+      "time": 43.216666666665496
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD PHASE] paint tasks=0 cpu=0.000010700000000696",
+      "time": 43.216666666665496
+    },
+    {
+      "source": "client",
+      "level": "info",
+      "text": "[LOAD SCHEDULE] wall=0.033333333333333 progressWrites=2 layoutWrites=0 batch=96",
+      "time": 43.216666666665496
+    }
+  ],
+  "deviceVerified": false,
+  "fullscreenDeviceClipVerified": false,
+  "powerMeasured": false,
+  "richTextVisualVerification": false
+}

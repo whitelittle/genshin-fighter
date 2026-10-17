@@ -1,0 +1,14 @@
+{
+  "localDraftWithoutNativeSeat": true,
+  "lateSeatPreservesThreeReadyRoles": true,
+  "revealAfterAcknowledgment": true,
+  "quitSignalCloseRootAndStopUpdate": true,
+  "mockOnly": true,
+  "nativeSignalNames": [
+    "GF3Hello",
+    "GF3Quit",
+    "GF3Team"
+  ],
+  "actualNameBindingsUsed": false,
+  "battleTransportBindingsAndGFV2Isolation": true
+}

@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "orb_0": {
+      "rectangles": 98,
+      "grid": 24,
+      "source": "source/orb.png",
+      "sourceSha256": "0757f2b7b2e4959673d896bac581313ab2475d0dd8608a2970895563aaf40fc1"
+    },
+    "orb_1": {
+      "rectangles": 75,
+      "grid": 24,
+      "source": "source/orb.png",
+      "sourceSha256": "0757f2b7b2e4959673d896bac581313ab2475d0dd8608a2970895563aaf40fc1"
+    },
+    "orb_2": {
+      "rectangles": 84,
+      "grid": 24,
+      "source": "source/orb.png",
+      "sourceSha256": "0757f2b7b2e4959673d896bac581313ab2475d0dd8608a2970895563aaf40fc1"
+    },
+    "orb_3": {
+      "rectangles": 91,
+      "grid": 24,
+      "source": "source/orb.png",
+      "sourceSha256": "0757f2b7b2e4959673d896bac581313ab2475d0dd8608a2970895563aaf40fc1"
+    },
+    "blade_0": {
+      "rectangles": 56,
+      "grid": 24,
+      "source": "source/blade.png",
+      "sourceSha256": "9c87871ef1218c8b6cb2fec49f3897592434fade0ac6db35d7d51098b7762234"
+    },
+    "blade_1": {
+      "rectangles": 62,
+      "grid": 24,
+      "source": "source/blade.png",
+      "sourceSha256": "9c87871ef1218c8b6cb2fec49f3897592434fade0ac6db35d7d51098b7762234"
+    },
+    "blade_2": {
+      "rectangles": 64,
+      "grid": 24,
+      "source": "source/blade.png",
+      "sourceSha256": "9c87871ef1218c8b6cb2fec49f3897592434fade0ac6db35d7d51098b7762234"
+    },
+    "blade_3": {
+      "rectangles": 40,
+      "grid": 24,
+      "source": "source/blade.png",
+      "sourceSha256": "9c87871ef1218c8b6cb2fec49f3897592434fade0ac6db35d7d51098b7762234"
+    },
+    "impact_0": {
+      "rectangles": 54,
+      "grid": 28,
+      "source": "source/impact.png",
+      "sourceSha256": "b64d65ab22229fab33f7d55e1e66129f547cff05b052a0a1f504a27fcc1758f8"
+    },
+    "impact_1": {
+      "rectangles": 126,
+      "grid": 28,
+      "source": "source/impact.png",
+      "sourceSha256": "b64d65ab22229fab33f7d55e1e66129f547cff05b052a0a1f504a27fcc1758f8"
+    },
+    "impact_2": {
+      "rectangles": 97,
+      "grid": 28,
+      "source": "source/impact.png",
+      "sourceSha256": "b64d65ab22229fab33f7d55e1e66129f547cff05b052a0a1f504a27fcc1758f8"
+    },
+    "impact_3": {
+      "rectangles": 21,
+      "grid": 28,
+      "source": "source/impact.png",
+      "sourceSha256": "b64d65ab22229fab33f7d55e1e66129f547cff05b052a0a1f504a27fcc1758f8"
+    }
+  },
+  "effectPeak": 126,
+  "bodyBudgetSeparate": true,
+  "palette": [
+    [
+      5,
+      57,
+      64
+    ],
+    [
+      7,
+      96,
+      100
+    ],
+    [
+      15,
+      144,
+      139
+    ],
+    [
+      44,
+      190,
+      168
+    ],
+    [
+      99,
+      230,
+      197
+    ],
+    [
+      170,
+      251,
+      227
+    ],
+    [
+      235,
+      255,
+      248
+    ]
+  ],
+  "artAcceptance": "pending"
+}

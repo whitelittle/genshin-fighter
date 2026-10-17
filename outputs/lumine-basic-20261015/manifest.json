@@ -1,0 +1,208 @@
+{
+  "version": "regular-assets-round-final-group1-v1",
+  "date": "2026-10-15",
+  "character": "荧",
+  "generator": "built-in imagegen",
+  "phase": "source_candidates_not_accepted",
+  "trainingRoom": "existing_unchanged",
+  "items": [
+    {
+      "id": "master",
+      "requestedPoses": 1,
+      "source": "source/master-v1.png",
+      "prompt": "prompts/master-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-9f6af9cb-5028-4b7f-8db6-de35d1519709.png",
+      "sha256": "57fa7e2a0e8b126fb57f576daffcade4b3cd03905029d9c7b404a9429ae19f35",
+      "size": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "idle",
+      "requestedPoses": 2,
+      "source": "source/idle-v1.png",
+      "prompt": "prompts/idle-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-5d707746-f71c-4e6d-b66f-2b325e179376.png",
+      "sha256": "0e31426d95f978b2470dfca8814763aa3ce49149bfc2edb45b03174dff614332",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "walk-forward",
+      "requestedPoses": 6,
+      "source": "source/walk-forward-v1.png",
+      "prompt": "prompts/walk-forward-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-fcf0a8fc-608a-4b3f-95ae-82724e46d4f3.png",
+      "sha256": "f44bab42ace58098617812f961fae2144b80c0fc4e34d37c46e0febaafe106c6",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "walk-back",
+      "requestedPoses": 6,
+      "source": "source/walk-back-v1.png",
+      "prompt": "prompts/walk-back-v1.txt",
+      "status": "rejected_grip_user_feedback",
+      "generatedFile": "exec-96ba7f7e-bb97-465f-acda-3104f7177aa5.png",
+      "sha256": "3967a66ab7eb62fcd632e17abd2f6720e9ba6a88ef7f323eb8ee5621ff43057d",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "crouch",
+      "requestedPoses": 4,
+      "source": "source/crouch-v1.png",
+      "prompt": "prompts/crouch-v1.txt",
+      "status": "needs_revision_spacing_transition",
+      "generatedFile": "exec-2c8c488c-d2d5-4d56-b9e6-17e30c8f3cb1.png",
+      "sha256": "060494415ca1122c48767319f314f00bcee65e61b25ced2d6e87851b2775e5f7",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "guard-standing",
+      "requestedPoses": 4,
+      "source": "source/guard-standing-v1.png",
+      "prompt": "prompts/guard-standing-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-4ac6ce88-633d-4287-b1d3-645d73fa4a46.png",
+      "sha256": "7b7889e4c632d66deee49bcd4e137a2b1215dd1149d02847b40d35e3075d8a4e",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "guard-crouch",
+      "requestedPoses": 4,
+      "source": "source/guard-crouch-v1.png",
+      "prompt": "prompts/guard-crouch-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-fd7fa865-5764-4e3c-a614-2a4c15d4e892.png",
+      "sha256": "2c86ec38c67d721c26baa78fe6f8510f48e59118080fd6f68f39e7ef0e339ad2",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "jump",
+      "requestedPoses": 6,
+      "source": "source/jump-v1.png",
+      "prompt": "prompts/jump-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-0cbbd5bf-0b94-4316-a5d1-1e9be09ab175.png",
+      "sha256": "d3437a230b69dcab1b28bd1f1ec35838f2b7697d97d3262d908af4931be03514",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "dash-forward",
+      "requestedPoses": 4,
+      "source": "source/dash-forward-v1.png",
+      "prompt": "prompts/dash-forward-v1.txt",
+      "status": "needs_revision_blade_boundary",
+      "generatedFile": "exec-c3db6582-769e-4f22-af00-a8e528154711.png",
+      "sha256": "5af365dd244e614754e9ca2d1026df3fcb8c65410da51524c2f77a1f5c388cc3",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "backstep",
+      "requestedPoses": 4,
+      "source": "source/backstep-v1.png",
+      "prompt": "prompts/backstep-v1.txt",
+      "status": "candidate_unapproved",
+      "generatedFile": "exec-ed9869cc-7e5d-427e-9e43-f19d4dae4bb3.png",
+      "sha256": "c32054aedb8abb7b4f8c0aa2d9b1861dba161847a5c8748256376d9a0756c98e",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "walk-back-v2",
+      "requestedPoses": 6,
+      "source": "source/walk-back-v2.png",
+      "prompt": "prompts/walk-back-v2.txt",
+      "status": "grip_revised_awaiting_review",
+      "generatedFile": "exec-797c3fc6-e661-406c-a36e-cce8099a865f.png",
+      "sha256": "854722c884a9a28d2a6cc685c3580b884280245022006e1abb5d35c58ca1277e",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ]
+    }
+  ]
+}

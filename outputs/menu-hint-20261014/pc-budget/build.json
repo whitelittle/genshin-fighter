@@ -1,0 +1,45 @@
+{
+  "profile": "raw-scalar-fields",
+  "compressed": false,
+  "fieldSerialization": "one scalar per printable UTF8 codepoint; lazy reading; no base64/LZ4",
+  "minified": false,
+  "initialSixCharacterDecode": false,
+  "bytes": 4866314,
+  "sha256": "3db89550841756dfad85ce100a249464ccef25932ceb75a5fe42830bb81a462a",
+  "modules": {
+    "gf_animation_data": {
+      "frames": 152,
+      "rectangles": 127874
+    },
+    "gf_inbetween_data": {
+      "frames": 152,
+      "rectangles": 126635
+    },
+    "gf_furina_data": {
+      "frames": 178,
+      "rectangles": 111071
+    },
+    "gf_ayaka_data": {
+      "frames": 157,
+      "rectangles": 115499
+    },
+    "gf_clorinde_data": {
+      "frames": 129,
+      "rectangles": 94792
+    },
+    "gf_arlecchino_data": {
+      "frames": 129,
+      "rectangles": 100850
+    }
+  },
+  "nativeDeviceTested": false,
+  "variant": "pc-budget",
+  "baseSha256": "5ffc56cba2b8315e74df6cba98d87985fa241a46cc824493c3bf54cd22274164",
+  "changedModules": [
+    "menu/gf_scene_menu.lua",
+    "render/gf_hud.lua",
+    "input/gf_touch.lua",
+    "render/gf_ui.lua"
+  ],
+  "reverseBaseByteIdentical": true
+}

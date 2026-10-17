@@ -1,0 +1,81 @@
+{
+  "mockOnly": true,
+  "results": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "tenCourseCategories": true,
+      "sevenElementPages": true,
+      "pendingCoursesCannotFakeComplete": true,
+      "realBackstep": true,
+      "completeReturnReplayFreePractice": true,
+      "stats": {
+        "controls": 16186,
+        "active": 67,
+        "visibleImages": 27,
+        "visibleTexts": 28,
+        "glyphs": 145
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "tenCourseCategories": true,
+      "sevenElementPages": true,
+      "pendingCoursesCannotFakeComplete": true,
+      "realBackstep": true,
+      "completeReturnReplayFreePractice": true,
+      "stats": {
+        "controls": 12186,
+        "active": 67,
+        "visibleImages": 27,
+        "visibleTexts": 28,
+        "glyphs": 130
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "tenCourseCategories": true,
+      "sevenElementPages": true,
+      "pendingCoursesCannotFakeComplete": true,
+      "realBackstep": true,
+      "completeReturnReplayFreePractice": true,
+      "stats": {
+        "controls": 12186,
+        "active": 67,
+        "visibleImages": 27,
+        "visibleTexts": 28,
+        "glyphs": 130
+      }
+    },
+    {
+      "device": "Controller",
+      "canvas": [
+        1600,
+        900
+      ],
+      "tenCourseCategories": true,
+      "sevenElementPages": true,
+      "pendingCoursesCannotFakeComplete": true,
+      "realBackstep": true,
+      "completeReturnReplayFreePractice": true,
+      "stats": {
+        "controls": 16186,
+        "active": 67,
+        "visibleImages": 27,
+        "visibleTexts": 28,
+        "glyphs": 146
+      }
+    }
+  ]
+}

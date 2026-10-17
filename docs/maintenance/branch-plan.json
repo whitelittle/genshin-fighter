@@ -1,8 +1,6 @@
 {
   "destination": "https://github.com/whitelittle/genshin-fighter",
   "visibility": "PUBLIC",
-  "localPlan": "fast-forward master to consolidated history; preserve tags before deleting local v2 and temporary consolidation branch",
-  "remotePlan": "after explicit destination confirmation and verified push: preserve tags, fast-forward master, delete four old work branches; no force push",
   "refs": [
     {
       "ref": "v2",
@@ -29,5 +27,12 @@
       "commit": "e5c01142d76686d97afc624957a5e8c2474bcad2",
       "preserveTag": "archive/20261018/v4-handoff"
     }
+  ],
+  "status": "completed",
+  "localResult": "fast-forward master to consolidated history; preserve tags before deleting local v2 and temporary consolidation branch",
+  "remoteResult": "Published full master; preserved five archive tags; removed four old work branches and temporary transfer branch; no master history rewrite.",
+  "verifiedContentSnapshot": "68b10d03f1196a8017f134041b9255475e0430ec",
+  "remainingRemoteHeads": [
+    "master"
   ]
 }

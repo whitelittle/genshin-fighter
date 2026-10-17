@@ -15,3 +15,5 @@
 原图、提示词、动作编排、标定与拟合数据保留原路径。设计、模拟器验证、真机观察和待验推断分别登记；素材保存状态与美术验收状态分别标注。
 
 本地验证依赖见 [requirements-maintenance.txt](requirements-maintenance.txt)。历史分支通过 `archive/20261018/` 标签保留。待取走的冗余资料留在本地归档目录，移出原因和文件校验见 [归档清单](docs/maintenance/archive-manifest.json)。
+
+本轮保存与分支整理结果见 [Git 上传回执](docs/maintenance/Git上传回执.md)。

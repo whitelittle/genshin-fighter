@@ -1,0 +1,64 @@
+{
+  "scope": "complete design cards, incomplete production",
+  "roles": {
+    "zhongli": {
+      "name": "钟离",
+      "designCards": 25,
+      "existingMainPreviewGroups": 25,
+      "missingMainPreview": [],
+      "redesignAll": true
+    },
+    "mavuika": {
+      "name": "玛薇卡（火神）",
+      "designCards": 25,
+      "existingMainPreviewGroups": 9,
+      "missingMainPreview": [
+        "forwarddash",
+        "backdash",
+        "crouchguard",
+        "light2",
+        "light3",
+        "heavy",
+        "crouchlight",
+        "crouchheavy",
+        "airlight",
+        "airheavy",
+        "E",
+        "Q",
+        "throw",
+        "victim",
+        "victory",
+        "defeat"
+      ],
+      "redesignAll": false
+    },
+    "neuvillette": {
+      "name": "那维莱特（水龙）",
+      "designCards": 25,
+      "existingMainPreviewGroups": 15,
+      "missingMainPreview": [
+        "crouchlight",
+        "crouchheavy",
+        "airlight",
+        "airheavy",
+        "E",
+        "Q",
+        "throw",
+        "victim",
+        "victory",
+        "defeat"
+      ],
+      "redesignAll": false
+    }
+  },
+  "cards": 75,
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false,
+  "designDirectionAcceptedByUser": true,
+  "bodySamples": {
+    "zhongli": 2,
+    "mavuika": 3,
+    "neuvillette": 3
+  }
+}

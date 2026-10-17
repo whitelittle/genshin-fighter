@@ -1,0 +1,17 @@
+{
+  "sourceFramesCompared": 151,
+  "singleRepairsPreserved": [
+    "crouchheavy-3",
+    "light1-5"
+  ],
+  "PNGByteHashes": "unchanged after repeat extraction",
+  "viewerControlFlow": {
+    "materials": 3,
+    "actions": 25,
+    "QBranches": 3,
+    "ticksExercised": 3444,
+    "result": "passed",
+    "scope": "fake canvas/image loader, not browser or visual acceptance",
+    "effects": "E four lifecycle frames; Q three frames on hit and none on whiff/block"
+  }
+}

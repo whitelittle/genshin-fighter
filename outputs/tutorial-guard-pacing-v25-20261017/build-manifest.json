@@ -1,0 +1,20 @@
+{
+  "clientSha256": "93d0de7aab5485b888141428c939cda7bf01b5af3cbd02cc22b59572f774088e",
+  "baselineSha256": "d3b0304d4c101fb59aeb581971e23772a37b2c9e70e732d0bfde6443a21a4dd0",
+  "onlyChangedSourceFiles": [
+    "source/teaching/gf_training_lesson.lua",
+    "source/teaching/gf_training_attack.lua",
+    "source/teaching/gf_sim_lumine_training.lua",
+    "source/teaching/gf_training_coach.lua"
+  ],
+  "guardReadyTicks": 60,
+  "guardStartupTicks": [
+    90,
+    96
+  ],
+  "guardRecoveryMinimumTicks": 120,
+  "guardRetryAttemptLimit": 420,
+  "allArtRenderingAndInputSourcesUnchanged": true,
+  "approach": "walk or dash; do not complete while dash/backdash is active",
+  "scope": "local teaching lesson pace; ordinary opponent kit unchanged"
+}

@@ -1,0 +1,1 @@
+window.NEUVILLETTE_FX={};

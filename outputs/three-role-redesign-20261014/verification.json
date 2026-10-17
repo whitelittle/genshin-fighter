@@ -1,0 +1,128 @@
+{
+  "designCards": 75,
+  "coverageUI": [
+    {
+      "role": "mavuika",
+      "all": 25,
+      "missing": 18
+    },
+    {
+      "role": "neuvillette",
+      "all": 25,
+      "missing": 12
+    },
+    {
+      "role": "zhongli",
+      "all": 25,
+      "missing": 0
+    }
+  ],
+  "bodyObjects": [
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/light1-0.json",
+      "rectangles": 1086,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/light1-1.json",
+      "rectangles": 1029,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/light1-2.json",
+      "rectangles": 1022,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/light1-3.json",
+      "rectangles": 1085,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/standguard-0.json",
+      "rectangles": 755,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/standguard-1.json",
+      "rectangles": 786,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/standguard-2.json",
+      "rectangles": 750,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/standguard-3.json",
+      "rectangles": 688,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/heavy-0.json",
+      "rectangles": 551,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/heavy-1.json",
+      "rectangles": 533,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/heavy-2.json",
+      "rectangles": 573,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/heavy-3.json",
+      "rectangles": 452,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/E-0.json",
+      "rectangles": 570,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/E-1.json",
+      "rectangles": 582,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/E-2.json",
+      "rectangles": 611,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/E-3.json",
+      "rectangles": 567,
+      "exact": true
+    }
+  ],
+  "bodyFrameReferences": 38,
+  "browserPhaseChecks": 64,
+  "oldMasterActionTablesUnchanged": {
+    "zhongli": true,
+    "mavuika": true,
+    "neuvillette": true
+  },
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false
+}

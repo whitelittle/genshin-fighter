@@ -1,0 +1,834 @@
+{
+  "date": "2026-10-14",
+  "scope": "8 body preview groups plus 75 visual design cards; animation production remains incomplete",
+  "designDirectionAcceptedByUser": true,
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false,
+  "files": [
+    {
+      "path": "outputs/three-role-redesign-20261014/all-design-cards.json",
+      "sha256": "1a9b98cb4bf283b2045c56d1cfdf8854682571d1c2366a8a36396000c224b08f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/browser-checks.json",
+      "sha256": "404d8cc61674a41c6632d6183c1a4d4d0beef311687f7210209d50a73e6874e4"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/coverage-browser-checks.json",
+      "sha256": "7a45e76bf1221306b44912892776449d97108e9cf04e6b6353397dd780a9418e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/coverage.json",
+      "sha256": "e20d9dc44e4a7724a06ff423c40f1d7349ef1e329b55400a5b7b9cc2aa2e901c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/index.html",
+      "sha256": "776514d06677bb2ec5e9e97de09900001db7b3f3e2d4663d7d9d8d3481b50251"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/action-data.js",
+      "sha256": "bb765207cd511c6a24e028740544585fcb4807f561d89a868312430fe51e5aae"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/actions.json",
+      "sha256": "0664d0004003ff26da6b0d8cd294b3f4870e541cb71ffd096edd0533797b73d9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/effect-data.js",
+      "sha256": "404c72f9e5a466c9563eece8348b69a0d546924d18174c98bbaa426e03f48060"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/evidence/heavy-comparison.png",
+      "sha256": "c66cec88fa95e65b95c76ffc9499136af514abe772c7acecddf690d5daf6dd7f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/evidence/hit_knockdown-chain-20261014.png",
+      "sha256": "11e13169f075037bed8dd091112d29e4a87aeb371a6248aec93c438bf621d442"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/evidence/wakeup-chain-20261014.png",
+      "sha256": "c4868ec346f07ec3d3f2c6a9fc9ffa7c1103e007e48ab6b65220e3f5816a01e2"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-0.json",
+      "sha256": "bc56295f8146fd0a120050d51b25cd4f4de50a4eff865d2dc717183d9b7dec34"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-0.png",
+      "sha256": "0ba1a9a416a6be1d5c869c0ec8190ebf4fdf581d3888ccbe458fd46767847282"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-1.json",
+      "sha256": "a506405da4f4de81c399c946b2fa1262e8a6031a16a438c2f52c645a139ca299"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-1.png",
+      "sha256": "74b7419164811a74f7f68193233d2099d1c881ae3ee69d1f8d1bc467cbad3e34"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-2.json",
+      "sha256": "9819f2980d8afae42b65b8f55379a1bd02d75ddfb3a71325b28f2d51240d4c55"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-2.png",
+      "sha256": "4a1f5d95b113f7161ddcb748f40801c4872ac7f3774b3362f495a3f584768d56"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-3.json",
+      "sha256": "22763c4bd5a5dfb1ba1dc098d83d3df30763ddcf262c521e7782a5ec7e8fd293"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/heavy-3.png",
+      "sha256": "53954080b78a596ddec5d977bf4b860ac2677d2c5ba0d7c1deeea652d44abcd3"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-0.json",
+      "sha256": "f328613f8d2fd4833ba0ea7b05dbfff7b364539526658a050d1c4c6072f3d9c6"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-0.png",
+      "sha256": "d997c3f4246acee5b2f25787cea559d3d49505e0dbaceec0664cb91154e85e59"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-1.json",
+      "sha256": "5d86a1e6462e2d0a9b77d6d90c936a42dc577487edc9e46250686835c86800c6"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-1.png",
+      "sha256": "e334af6c4289c3a79ed9901a16f290d062ba4a14db70a317d8d6b1c320493aae"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-2.json",
+      "sha256": "3dc7d119a4a7a7266e296e3dd57bbbb2f76461547c27640269dc4fee905d18dd"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-2.png",
+      "sha256": "5a85e8444827a79dca1e0ecb1d3b7164268c6ad4b40ab9e9ed205208feff2dc5"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-3.json",
+      "sha256": "1e16d836468765f56f3479033e6b9a93c748b5fa8c8ea12f21061669ae776aa9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-3.png",
+      "sha256": "729164a01a1af9dab3b82a3c8fdc42c84630103678f990bcf877321a694f7cec"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-4.json",
+      "sha256": "224eea3c7eac8799dc5d60863d74db7db6cbeb651d0891cdeac7eefce742864b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-4.png",
+      "sha256": "f6858dad3f2c538a39ef8bad5e6334cd71cbdad843cd7ccfab38c44247ae3467"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-5.json",
+      "sha256": "a87e581ef466c8ef249d43610e0a5579c254b9c4cb409dda60b146ebae185da5"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/hit_knockdown-chain-20261014-5.png",
+      "sha256": "a7bb34ad3d01f501d318ce64c738af210e69269bd52e4d88bea142bb0dd76c9a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/reference.png",
+      "sha256": "21dbe9a40acc7e91f91739ff1bab8f14dd15ea1e2a198e7a936634ee0f5b3d19"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-0.json",
+      "sha256": "61bc65a95cdcabfcbfa7d80841dd97526552959b1b524963e73ac6ec6d8650c0"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-0.png",
+      "sha256": "13b3b76a2261d3dfb4866ff268ff0a5bdafae2bcb4a097f26c1a243d879ab3d7"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-1.json",
+      "sha256": "1f8cbf35f604c9cceeb9870785479f70231cee4477908e4cd23f532870aed41f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-1.png",
+      "sha256": "fa323704183f2e52df2266a4edc0afe0f80f83b1132101f924c8a7fa27e331e2"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-2.json",
+      "sha256": "8d110aa1cbcc6e29f08b929cb6bf2653c6008489ab6d61b01a07fc3c185924f2"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-2.png",
+      "sha256": "ddc249b6b7277b89d695d4dc3164eaf7c9719899f333321a15c5512d5f89f620"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-3.json",
+      "sha256": "73991263d6041f64f50362c0c408637c1d0bd073af803fbd164f229e41393f6e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/fit/wakeup-chain-20261014-3.png",
+      "sha256": "f01e2f200a00339c41b2b29d4ddaf9b0cee6a888c0aed81fd1734a36e6366107"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/heavy-0.png",
+      "sha256": "cd099d21703ab0b405a123037f304f1b1838f3f862864943dc0085990735d8b0"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/heavy-1.png",
+      "sha256": "bda80a81dcf21e38b113370e2a17a8f07553281d63f9fd3552c657b2ce2a4459"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/heavy-2.png",
+      "sha256": "f387c63d8733ff97c5980731280e2f1d671583d16ab58966583c0e19d076315d"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/heavy-3.png",
+      "sha256": "659a2bf841a1ec067ea5ca83e22ac6ff439c03103f4d587895b5af2dc726081b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-0.png",
+      "sha256": "f5ceac72c9a81125c8a8eec289fcb79640e4fdcd7334107249c3a8dc56986a66"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-1.png",
+      "sha256": "0472f3f5c2236dfb08d2e48545d946212c426e3a113f6b8fbbc7213db547e416"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-2.png",
+      "sha256": "57e2bb18014c187f9c43bb9c201c073f6dc23703e33affac7fe1a45d1903c6a7"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-3.png",
+      "sha256": "d9aa3cf7656434a493d6d9ad1fdc058a96dce60cfb7ecba60089c734fe362085"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-4.png",
+      "sha256": "d4d67d629ed0c924f9f8f8c5563c6da4d95b59e388893dfceb53a474a859fcdc"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-5.png",
+      "sha256": "f7675d45264440d87cce3d7362590efbb25827a9c363c87d7322177ad2ed9e0f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit_knockdown-chain-20261014-0.png",
+      "sha256": "ca76d26661d6f4739bd3c43f1d36084eaa638a9a08f6e296dea6b664e788223e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit_knockdown-chain-20261014-1.png",
+      "sha256": "e0b101f169541ec2a94ada0a327db88c034985ca4b511544a490ce25897e3e6e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit_knockdown-chain-20261014-2.png",
+      "sha256": "9628019521e31e9e0863b1df6a1e96bfdb12d2c897eebe47f4b3a7d97624d91a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit_knockdown-chain-20261014-3.png",
+      "sha256": "5fc14e4c64d77f623d6752a3ce69cceb3576e2cd672f0e2389c71dc444550e57"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit_knockdown-chain-20261014-4.png",
+      "sha256": "6d73c668087fecd7e9754a3e4156555a7f94b366188cf1289ac9b16e995ce582"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/hit_knockdown-chain-20261014-5.png",
+      "sha256": "30746b061b04d771e68f017711e6bd65368486159d2ae9d1bc2e53dacf845321"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/reference.png",
+      "sha256": "f1e333f08c570df585d25794202dc752441aeca09c9f2f4bbf513313164554e2"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/wakeup-chain-20261014-0.png",
+      "sha256": "0916cc85cc3f1c09e185059a676e0e16fce2452e42c2a2a9c1785f4674d7cce7"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/wakeup-chain-20261014-1.png",
+      "sha256": "c3a87220a95eb0f2d0e3c22dfed814789549c0e64a71bd7c52caf222ededfb5f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/wakeup-chain-20261014-2.png",
+      "sha256": "105b0c8b059f88ebd30929b95b8596e37ff4e9a5c734951f7366360277ed7d05"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/frames/wakeup-chain-20261014-3.png",
+      "sha256": "f9e2808ac8f9f803008c8a20e65d88e1d4db69c7727d57c4aebba1cc7fd7d7af"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/history/reaction-chain-20261014/action-data.js",
+      "sha256": "3de9db211a6b22fd81a83f30a448a977c575cdcbfd817cd4f9d407ab9fbda5df"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/history/reaction-chain-20261014/actions.json",
+      "sha256": "a2d40ed962013c49e05ee74fe251e59d1fd9526ee99933741b85c37f10f2a5a9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/history/reaction-chain-20261014/player.html",
+      "sha256": "bf7abc14a4b915d6385b160f7c30490ac819e2c059ebc0ed0634427d21b52498"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/history/reaction-chain-20261014/player.js",
+      "sha256": "c4624d45ec1aaaa77a922c25523b53ddadd0f601cce1fd7c8a19d44a7e08a3ed"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/history/reaction-chain-20261014/wakeup-large-low-poses-rejected.png",
+      "sha256": "cd1dbca2acdc5b73bc9375c4e58f0976d51ef09475939ce954fbf94624fabcab"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/player.css",
+      "sha256": "86046f5a992772670192b8f01cd954c99d16a614e1a899aebdb8169fccbb80e8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/player.html",
+      "sha256": "704918f6934b93afd5d33dd3a85f65140b1c7f2c53fa2ac44986836d34cf6733"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/player.js",
+      "sha256": "44a127f2a38dc05ae624ebcc15a82fd8675b094b7502485c629e9481f0e9ede8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/prompts/heavy.txt",
+      "sha256": "89bb5911e1bd2e7f4c73f4a103618df93ecc835d1ff78ad70835b37933af749c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/prompts/hit-knockdown-20261014.txt",
+      "sha256": "619f48b76f802434e492a165bf0fea71f3658fd8cdab4ad1a946db6719928371"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/prompts/wakeup-20261014.txt",
+      "sha256": "6fa2c9a4216fb4e4cbe1dd60a459867beaaf38810d0ff58d82f34784851eda73"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/prompts/wakeup-unit-revision-20261014.txt",
+      "sha256": "24b72cf54797097dd2c6da2fb5d738703c5a81b1e4af734a0beb93d04d3d4c06"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/reaction-source-regions-20261014.json",
+      "sha256": "afddd41b2db88ecb27cf0d40665bb720167525a3bfc483871968ef847675359a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/sources/heavy.png",
+      "sha256": "6779487fe0b525d174ef5b6cb3e1b49b39149cfccb98deb33270ea25db30e79a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/sources/hit-knockdown-20261014.png",
+      "sha256": "8155002b4f2e4691671f745992f89fdb550ba9e1a3e8816de5c5c8304f7844e4"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika/sources/wakeup-20261014.png",
+      "sha256": "d6136d28d8797e1d6d88c77498fc0d27382e94874d05a2f7c323d6280f419293"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/mavuika-design-v2.json",
+      "sha256": "9d1f29279a3c6dbbbb5ead5b610806f63f30f5f8394fa802b3e06ecb943d1a58"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/action-data.js",
+      "sha256": "d540bae06bf81b2064b1c19735969a58a7464bafa9297f4e1854eb177e37500d"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/actions.json",
+      "sha256": "bc48a2e10af253d80698d433d778a26770ab1c814d17075a73d64433099bc76e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/effect-data.js",
+      "sha256": "404c72f9e5a466c9563eece8348b69a0d546924d18174c98bbaa426e03f48060"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/evidence/browser-wakeup-chain-20261014.png",
+      "sha256": "e10df729a3cb1302525319c1b1f96ae7426f9cbfa4c5743b2663644a8bd8ec1b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/evidence/E-comparison.png",
+      "sha256": "7a2d100f49574dfac60a55386cabcf0cde790b9f91960740a1999db32420536b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/evidence/hit_knockdown-chain-20261014.png",
+      "sha256": "a735e4f132f7c65d7519370ada27505a46166cdfc1c434a36bfd2a2ec9b3256d"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/evidence/wakeup-chain-20261014.png",
+      "sha256": "f1710564d04bf552d3ff587cff31293256726c404c74bf80f1bb40faf20a0b9f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-0.json",
+      "sha256": "57b60bb2ff21b0fae1e113d6e86050857348a80103252c131b1b0a767a0a76be"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-0.png",
+      "sha256": "23bcce1db829232e9976f9f0e78cc34aa3cbfc588605dfb2a96e9c40b810fab8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-1.json",
+      "sha256": "0c224965a6e76b1be58b3569b8243ba0d050584dcf4c4f2f92503da30aa0ed31"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-1.png",
+      "sha256": "a4ea56b6bb1ffa9563aada8d5420c7056baeacbb623cc746742b5e3f53e0f56b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-2.json",
+      "sha256": "2bee563a96a38bf88936ca919ee5f0d08fad9328aa0df323b3e155a48ef9c07a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-2.png",
+      "sha256": "6f1ab8536df5caec6cb810b6b61b3dcf5d23aa1a38cc6e4fd03041d5268df87b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-3.json",
+      "sha256": "027832b0dc4e53b2157bf5b189a39aa10e870b8c4af56fc7f46258e399091c9d"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/E-3.png",
+      "sha256": "e0cc1dc4d16f7c64eaa8ad4d5ea718a392cd23cf1077b0f9519131b9252a0523"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-0.json",
+      "sha256": "2e3846f607cf72b5b9e489fc45484540757fdc875e62d71f3a42e2edefb9e13a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-0.png",
+      "sha256": "b0d0b0af66b1a82e977608c6a1e5cdb0e4224eebfd344ccf5f152383830ddedf"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-1.json",
+      "sha256": "7b86eb2cebbff03449a8188e10b0d98aa6e35913975b94eedc212a69db75a4c5"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-1.png",
+      "sha256": "3ad59388e9d2933c42bfcfdcd2ea2061e8e40f24ea7944ba2e35fdd1315c7a91"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-2.json",
+      "sha256": "7952fa2d9af6420a049dc46f9c7e6cab86cb64dca63ed0fe6ca915b7ac54cf5c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-2.png",
+      "sha256": "7108eb24ee69c6620048cd1db2357ff2635f6c7cd8e9b6264730704d74059624"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-3.json",
+      "sha256": "dee067caf8143edc899270a2ecbad3b109dd103922b5e0a37f72608ae4e7da3b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-3.png",
+      "sha256": "8a05c85a57cfceca7930a43bdfc5971ec4c0d137b4767125d26cc44ce3892bc9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-4.json",
+      "sha256": "db212d762ce46bd1f3b770a0cf6b03689adaa6d8b9c19a39c7054b0670f72c35"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-4.png",
+      "sha256": "abc88585ccd02f0cad07ccc909e231c6fa63526fec89651efb10c717a9f70c40"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-5.json",
+      "sha256": "426a2f09e017d87b0b16e8a0b6a5c3a862ed993ec4cf3c73fb5e4ef117e43546"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/hit_knockdown-chain-20261014-5.png",
+      "sha256": "e45a51c13b1eefe6241d1b7957f4f1a0f08d9f38ec2e41512bd75c696bb34c0e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/reference.png",
+      "sha256": "fdad794e700f6e2fb026bc599b287d88902d8267a063944a42497fccbe152ead"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-0.json",
+      "sha256": "620c4c60d447b08a5e27c445f25d1bb3043d1a9cecb1caa169802f530d33352f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-0.png",
+      "sha256": "52703afe605d731755432b7f47ce0650136a2832745fbc521eaa0ee6403aa65f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-1.json",
+      "sha256": "b63d94d359c406e819a1e67cd1d240cbe1147489e3a657a53a3391b0853cb5b5"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-1.png",
+      "sha256": "3de229c0d0cfc9c4711bc851a5b03ebebbf7e995fe1c5f8c4a0b9e01149d8ddd"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-2.json",
+      "sha256": "e7e4cd1aaacaeb572349cb8a2c205fed7045b968f33ffc3c61e5f27ba81bb9fe"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-2.png",
+      "sha256": "07cb543542e087cf3bb67911ff8854fa3954fccd24016c84dddc3b56fa5afd41"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-3.json",
+      "sha256": "89afce0040ddcf17efa931f7bda27ec94fce40cbcedfa8803f3bfb6c790fe5f7"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/fit/wakeup-chain-20261014-3.png",
+      "sha256": "f38c0b81aa450b16d8def04bfcf1df56df24847df3fc3c0f9dce2149ffa3aafb"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/E-0.png",
+      "sha256": "97f75e2a7abe104be448622b2717ccaa09e516df96fcdb4eee4a327986a600a6"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/E-1.png",
+      "sha256": "e272a06e67baeaaf0fe8e90f81357ec71d270f9fb59639173ff6472c2af7d12e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/E-2.png",
+      "sha256": "cf27fdba241e1f57398e7a2ffb016f91d6a346fbefe18b9626038a18cdc1a72a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/E-3.png",
+      "sha256": "1252232307376b70f3253080f1d04211837c8094bde3200c732558e7c1d85edb"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-0.png",
+      "sha256": "5fc7d586e564ea9c3371fc95c1dd08b040718b7015508390d90668e59bf0f8d2"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-1.png",
+      "sha256": "d393bb27717d04ae5ca5030186ec827f2f33b5597740b1f59d341061c6e020aa"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-2.png",
+      "sha256": "9825679d642e70e17cd82a5b04f45e50232690dce471d93956f9809e9baac56f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-3.png",
+      "sha256": "f012f7b654bf8402098e7436dd328af6403314febe60e7a58ef6c431fd8fc9ae"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-4.png",
+      "sha256": "86eb740470adf6de8dcb2101ad75a5d853511370c0198164ff947f2bd2052cf6"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-5.png",
+      "sha256": "0eb4123d8a987ed765e9d36fe2ce2acb7bac69daeb005bceb6e4416c28e56436"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit_knockdown-chain-20261014-0.png",
+      "sha256": "810fd99036b71a2d8780399ed786c9b173c37b7d1b8c760abd926e968119da90"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit_knockdown-chain-20261014-1.png",
+      "sha256": "af0617ba44e540a4e0ef5a827d53aa55480e3494c2bdb43f43da01458263df1e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit_knockdown-chain-20261014-2.png",
+      "sha256": "44768733e8cf3983045a7d6157791831374a79eaef68e3ad03aa87e879d05ec5"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit_knockdown-chain-20261014-3.png",
+      "sha256": "ec53d1fbdbf9d8e07ada0db93e352c8e527679b586ef8f42605c2eb32950daae"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit_knockdown-chain-20261014-4.png",
+      "sha256": "f7ceb74bb8f0ccd99b3f54ab7d8060b46ca5fe37c6be5675745623e9a8ead371"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/hit_knockdown-chain-20261014-5.png",
+      "sha256": "fc366f43aa6cc2ffe6cdfcbe39775d3d91a5508af322186adef5b44fc31776ac"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/reference.png",
+      "sha256": "ef0ee708310350845d51b7d410f9fd5fd5d0a10a3b56ef0b4ea7c85de1d6b010"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/wakeup-chain-20261014-0.png",
+      "sha256": "648ccf20dfbd024e8dbb79c1d2f95bd292d1002f4d66c5d2b392eabbafba6d40"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/wakeup-chain-20261014-1.png",
+      "sha256": "acf39d21d795d587c4630d683b6157895178bda66441a0ffb4d9afb260ce031c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/wakeup-chain-20261014-2.png",
+      "sha256": "68089c3b4de8ddb0ad733339984e391e6401459f15a060a4eface8583c90955a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/frames/wakeup-chain-20261014-3.png",
+      "sha256": "e0836807c2ba642f955b43da46d25d498280c0c631a8b07bb3080e3875eb96a2"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/hit-knockdown-spacing-rejected.png",
+      "sha256": "f1e9c6a8ff14bae6cec08423db53c9ed05868f42c488699d44d3bb5684b8103f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/reaction-chain-20261014/action-data.js",
+      "sha256": "16203756c930753df838d82cafa4cabe2bec82ec3455f2bcbfbbfcd2d3b96ef5"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/reaction-chain-20261014/actions.json",
+      "sha256": "87563abe31f753714b63fb3e43843b10547cf03c7049dd856aee80de1f53d938"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/reaction-chain-20261014/player.html",
+      "sha256": "72e2460d033fc9dbee46863155ba5d0fff3a4c40886e162138ca9f8b6e611bfe"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/reaction-chain-20261014/player.js",
+      "sha256": "c4624d45ec1aaaa77a922c25523b53ddadd0f601cce1fd7c8a19d44a7e08a3ed"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/reaction-chain-20261014/wakeup-elbow-before-unit-revision.png",
+      "sha256": "3d05c3fa041af3588eaa90607a6ed245c4cfc0041c4896544ad753ab887a9648"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/history/reaction-chain-20261014/wakeup-large-low-poses-rejected.png",
+      "sha256": "b909590f1b3ee056d59c86faf1dd8263410dbd7610eb7e131185a307f697813f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/player.css",
+      "sha256": "86046f5a992772670192b8f01cd954c99d16a614e1a899aebdb8169fccbb80e8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/player.html",
+      "sha256": "3059ee89be18f828ff3098d488d49e33f69774a2b00b90d13fbf6bda34a63165"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/player.js",
+      "sha256": "44a127f2a38dc05ae624ebcc15a82fd8675b094b7502485c629e9481f0e9ede8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/prompts/E.txt",
+      "sha256": "c0f343bcaa94d51f7716427ca016cf446d98613a6ada2aeb48731f994daae951"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/prompts/hit-knockdown-20261014.txt",
+      "sha256": "b685f68f2065a56b28d175fe04186c43596972c6d7bdc5b33da06341c4e794e1"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/prompts/hit-knockdown-spacing-20261014.txt",
+      "sha256": "ebe6b966e8a98db5a7de46c300bdb491f2f1d2ca418805232d59f0d5a8d144b3"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/prompts/wakeup-20261014.txt",
+      "sha256": "82a8a89a61ad8272554a790fac6ef6ab5f6b7715f81c59005ac36d3080d562d9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/prompts/wakeup-elbow-20261014.txt",
+      "sha256": "80518536a3aba070084a0874dfafa2c3017b0ed0c30b0a2eea6fb93757a905e0"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/prompts/wakeup-unit-revision-20261014.txt",
+      "sha256": "3ced7c2f6ef6fc0ba96bcead33f85f2690fd0910c0cededd4135f858e52f125a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/reaction-source-regions-20261014.json",
+      "sha256": "6f8b5231ded3e7efcee20a1f3f2bb09a3af3d7943de41b7b9144e615c46962f9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/sources/E.png",
+      "sha256": "3cf33e5a7cf91a9c3f819620b73980d029ca63737f37dcaef5d9f502304d5a62"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/sources/hit-knockdown-20261014.png",
+      "sha256": "e2c555de5fce6c1723c9cf4a650d4ea3676f13ca6b43a56ccb91678710383436"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette/sources/wakeup-20261014.png",
+      "sha256": "af694a17fbde804531d8d6caf7fa19d02c492b2d96764fcdff9c2526c1ada3f8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/neuvillette-design-v2.json",
+      "sha256": "5589f041fa6bc642a0f66330826bf51e81077759ba870e284c506e472fefba16"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/reaction-adoption-20261014.json",
+      "sha256": "74eeae3954e2ded8f27c3f4c191cb32581c054371a3236df6c85268e4015d79f"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/reaction-boundary-browser-20261014.json",
+      "sha256": "c292da77dda8137ff60e66dbb0c03e30ebd76816ef936323052abacac7acaa6d"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/reaction-browser-checks-20261014.json",
+      "sha256": "738f2166d1248668cdc77b73d485e0cf378152adc40856fda20a245a5085c9a8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/reaction-chain-20261014.json",
+      "sha256": "48f4a2a038363a6fbffbe162f9100352cc3cb106ec7015a7ab4e130c32c91490"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/reaction-chain-playback-20261014.json",
+      "sha256": "67bdeeb83a4343019fcaa0957077e31e707201fc82620cbbedebbcd8266dcc10"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/reaction-verification-20261014.json",
+      "sha256": "597bc53dcfd2df764e77439caa6605cc068c410dd96acc2cbd39297c7b227b1c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/sample-verification.json",
+      "sha256": "39ccbde89d007fbdcd794d65b655ae4d747bedc3663725f0c4c2604b3c2523dd"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/verification.json",
+      "sha256": "2a8a8d0e348611792ae2f7b4eaab8d91e63da3561b8d5f9402c18021be758dee"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/action-data.js",
+      "sha256": "903eb2e4010a5ee83400f0250d0af4cb79fa3d29ad18498843a86c8c723e3f75"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/actions.json",
+      "sha256": "70712e38935ea8c077ba3247f3a614d5040500806e8a80e30be0fa760799eee3"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/effect-data.js",
+      "sha256": "404c72f9e5a466c9563eece8348b69a0d546924d18174c98bbaa426e03f48060"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/evidence/browser-light1.png",
+      "sha256": "7c173f6dd2f704f1a7b3fb589a07a9489516e7e13e3cf0f29e34699184480f6e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/evidence/light1-comparison.png",
+      "sha256": "5d515edb658e681eb509941688ae2145df6c9f95c8ff722b4599e40ed6d9cc22"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/evidence/standguard-comparison.png",
+      "sha256": "b2d0fc4731642a654f9ea27b27d5769e5f773009518076f709a130cc40ed5682"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-0.json",
+      "sha256": "5655f64210a8fd8ddcbcf2bf3a4726692c0971b4940cfb9caf6709c7fd8f626b"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-0.png",
+      "sha256": "cd8ca30cee42774e435bdc308236a888b4a32b53ae2b27430d1abdac41e21071"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-1.json",
+      "sha256": "370709119ddca4f557e888f6513b88fee2d3671b08077ed7319d92e2c0d62303"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-1.png",
+      "sha256": "0fa771edf674354c3f7900b37bf0bd7bc63b53ff5495da07f5fb10d37c6e913d"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-2.json",
+      "sha256": "9ab2e53caf57461ddb522ecbb819c4ca15b063f6bda9e407fbfd9d4d2d6983e4"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-2.png",
+      "sha256": "9ab93a15cfa3571292a9c124a2315faf879cb61ad5425c2a2c7008b97aa6378c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-3.json",
+      "sha256": "52d7339887a2cfc716e24cf0be977d757d2ba05201e3e8dd85452da83348d023"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/light1-3.png",
+      "sha256": "f8e0c1c2963d3ca77c1b57636908951328ebc4ea9f1f2e3a33330c08a2a55746"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/reference.png",
+      "sha256": "97e2916d703c86aa39c883ed907b338ca6eb6988841262aaab0d7afa56dbc0ce"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-0.json",
+      "sha256": "a6ce57cc4b99afcf45b7493947eec44c07e07f258dd424e0895419d8eed7ba87"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-0.png",
+      "sha256": "9de44d3648b8a5f2945c2d6e516fa706fa6e43d81fe03614a83942ecbe0fc266"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-1.json",
+      "sha256": "e9b61c7827eb0caa6ba31b5f6ad6b014c9da6257855c7748dd089a956fc11d89"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-1.png",
+      "sha256": "b819d2abad9195577cba51b295aa7711159d0a2391fe07201fee2e31a5fc9235"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-2.json",
+      "sha256": "d5419d0bce55d5c43139a676ee9348fe018c6c668dd72b4c9470622c10d12834"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-2.png",
+      "sha256": "ea37ea2233c3c7fa976fe1101ea3e73e1673064dc1f43d28e759195fa429648e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-3.json",
+      "sha256": "afd5a5c78e20065a83ccf67cf0effbfacd0c62732b777362d20dc10195e254e0"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/fit/standguard-3.png",
+      "sha256": "86166eb39b46cf8396f9bfe241d6bc9ffeddc934b4793a257362cc1c19d4223e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/light1-0.png",
+      "sha256": "f2077b4dba0c2012cda0550f5459493efd23bdcf368b49aaa4c151ee73a40025"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/light1-1.png",
+      "sha256": "668130ac71005211e80803c8da4e9462d7bfbe87c09411d1e6dc1a5fad99a22e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/light1-2.png",
+      "sha256": "d86b3901e1c9c520eec2b16f4ddf78ca5f83635e7b4b316e6725a903cd2c745e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/light1-3.png",
+      "sha256": "96fe3e3aca60b361e6571f05387e7c53e4c533c2102ae136e5bba346ac539386"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/reference.png",
+      "sha256": "5fa2a2689221b75a746f2a5cdfd74ea58054bbee42386993bc880822efa8eead"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/standguard-0.png",
+      "sha256": "5197add3c562e200154ff5c522f54e192294fb8d7b848271688d7a1a34bbd81e"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/standguard-1.png",
+      "sha256": "2bb1de84eb35123d6205f21766222694bfa663a70a269aadd40d167b6b24d6a9"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/standguard-2.png",
+      "sha256": "81ff14a5fa6aa3b86e6bb39c6f7701285a17b97358be07f8fc4feab4f43dcb12"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/frames/standguard-3.png",
+      "sha256": "9fb76eb1a0d3c07ad77d29b471ced698b63ae06e1c2d76f7a1e70b025d12ee80"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/history/light1-rejected-lunge.png",
+      "sha256": "b73ff430133a217fb19017778b869c5db7bed90e2d7a6da2d389b3b2cee75b6a"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/player.css",
+      "sha256": "86046f5a992772670192b8f01cd954c99d16a614e1a899aebdb8169fccbb80e8"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/player.html",
+      "sha256": "5fb996076b7f12b8d10aa49cedb8a6183786ff53dede35753d47d344a8050cdc"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/player.js",
+      "sha256": "c4624d45ec1aaaa77a922c25523b53ddadd0f601cce1fd7c8a19d44a7e08a3ed"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/prompts/light1-correction.txt",
+      "sha256": "ca3fc81a77c4e15b792c7ef57e009c627357568c4f01a15262e4ce3179164023"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/prompts/light1.txt",
+      "sha256": "22fa9d4f0806223492faeae22d0e8f018ca6bebdeff21fde761502f2f5108948"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/prompts/standguard.txt",
+      "sha256": "400552de40a5f0ada1c6cf36ccb0dee0e8721ae49b50fd90da5c81e3e88a5944"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/sources/light1.png",
+      "sha256": "519b9d164fcb506206680c7fe64b98f3bf1c44113df9317de32808e0d5ee62d7"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli/sources/standguard.png",
+      "sha256": "3bd327c4dfbd7a6a1ad1deb571d60539ffea5dba8423293388b9dee2af27105c"
+    },
+    {
+      "path": "outputs/three-role-redesign-20261014/zhongli-design-v2.json",
+      "sha256": "b89f06de74e97a8c80d4d30cfa190d39cbc03a2737c6bdca73e85cd3bbda046b"
+    }
+  ]
+}

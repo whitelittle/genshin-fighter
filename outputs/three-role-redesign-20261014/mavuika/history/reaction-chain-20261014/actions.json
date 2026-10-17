@@ -1,0 +1,180 @@
+{
+  "idle": {
+    "sourceFrames": [
+      {
+        "file": "frames/reference.png",
+        "source": "frames/reference.png",
+        "anchor": [
+          535,
+          848
+        ],
+        "scale": 0.24,
+        "roi": [
+          0,
+          0,
+          887,
+          887
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/reference.png",
+        "anchor": [
+          33.1,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 412
+      }
+    ],
+    "durations": [
+      60
+    ],
+    "phases": [
+      "历史母版对照"
+    ],
+    "events": [],
+    "status": "仅复用历史母版供人体对照，未制作新待机"
+  },
+  "heavy": {
+    "sourceFrames": [
+      {
+        "file": "frames/heavy-0.png",
+        "source": "sources/heavy.png",
+        "scale": 0.41,
+        "anchor": [
+          401,
+          577
+        ],
+        "roi": [
+          101,
+          1,
+          681,
+          548
+        ],
+        "sourceOrigin": [
+          69,
+          -31
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      },
+      {
+        "file": "frames/heavy-1.png",
+        "source": "sources/heavy.png",
+        "scale": 0.41,
+        "anchor": [
+          479,
+          489
+        ],
+        "roi": [
+          743,
+          101,
+          1504,
+          562
+        ],
+        "sourceOrigin": [
+          711,
+          69
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      },
+      {
+        "file": "frames/heavy-2.png",
+        "source": "sources/heavy.png",
+        "scale": 0.41,
+        "anchor": [
+          419,
+          451
+        ],
+        "roi": [
+          78,
+          568,
+          883,
+          988
+        ],
+        "sourceOrigin": [
+          46,
+          536
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      },
+      {
+        "file": "frames/heavy-3.png",
+        "source": "sources/heavy.png",
+        "scale": 0.41,
+        "anchor": [
+          296,
+          465
+        ],
+        "roi": [
+          854,
+          561,
+          1531,
+          998
+        ],
+        "sourceOrigin": [
+          822,
+          529
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/heavy-0.png",
+        "anchor": [
+          39,
+          55
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-0.json",
+        "rectangles": 551
+      },
+      {
+        "file": "fit/heavy-1.png",
+        "anchor": [
+          46,
+          47
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-1.json",
+        "rectangles": 533
+      },
+      {
+        "file": "fit/heavy-2.png",
+        "anchor": [
+          41,
+          44
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-2.json",
+        "rectangles": 573
+      },
+      {
+        "file": "fit/heavy-3.png",
+        "anchor": [
+          29,
+          45
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-3.json",
+        "rectangles": 452
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      4,
+      20
+    ],
+    "phases": [
+      "双手蓄肩",
+      "腰髋带剑",
+      "前下重斩",
+      "制动收剑"
+    ],
+    "events": [],
+    "status": "2026-10-14新设计身体小样；比例/武器/动作衔接/源板留白仍待美术验收；不代表角色全动作已补齐，未接特效/判定/正式战斗"
+  }
+}

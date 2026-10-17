@@ -1,0 +1,18 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "TEXT",
+    "PAINT",
+    "REVEAL",
+    "READY"
+  ],
+  "first": "T3 DECODE | decode 0 left 36 | create 0/4042 | task 0/7271 | dt 17ms | text 0/813 | reveal 0/13001",
+  "last": "T3 READY | decode 1398 left 0 | create 4042/4042 | task 7271/7271 | dt 17ms | text 813/813 | reveal 13001/13001",
+  "samples": 152,
+  "maxTextDuringCreate": 0,
+  "battleText": 13405
+}

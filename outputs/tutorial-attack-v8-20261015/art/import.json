@@ -1,0 +1,277 @@
+{
+  "scope": "generated candidates, not final art/device acceptance",
+  "generator": "built-in image_gen",
+  "old36BodiesUnchanged": true,
+  "uniqueBodyFrames": 48,
+  "uniqueFrameMean": 998.4791666666666,
+  "bodyPeak": 1174,
+  "newPaletteColors": 14,
+  "newFrames": {
+    "light2_0": {
+      "source": "outputs/lumine-attacks-20261015/source/light2-v1.png",
+      "roi": [
+        97,
+        82,
+        752,
+        496
+      ],
+      "sourceUnit": 0.17167381974248927,
+      "alphaComponentArea": 96933,
+      "standingSourcePixels": 466,
+      "n": 1174,
+      "w": 112,
+      "h": 71,
+      "anchor": [
+        78.0,
+        71
+      ],
+      "u": 4
+    },
+    "light2_1": {
+      "source": "outputs/lumine-attacks-20261015/source/light2-v1.png",
+      "roi": [
+        825,
+        29,
+        1523,
+        501
+      ],
+      "sourceUnit": 0.17167381974248927,
+      "alphaComponentArea": 94628,
+      "standingSourcePixels": 466,
+      "n": 1157,
+      "w": 120,
+      "h": 81,
+      "anchor": [
+        80.5,
+        81
+      ],
+      "u": 4
+    },
+    "light2_2": {
+      "source": "outputs/lumine-attacks-20261015/source/light2-v1.png",
+      "roi": [
+        114,
+        512,
+        751,
+        996
+      ],
+      "sourceUnit": 0.17167381974248927,
+      "alphaComponentArea": 96276,
+      "standingSourcePixels": 466,
+      "n": 1114,
+      "w": 109,
+      "h": 83,
+      "anchor": [
+        95.0,
+        83
+      ],
+      "u": 4
+    },
+    "light2_3": {
+      "source": "outputs/lumine-attacks-20261015/source/light2-v1.png",
+      "roi": [
+        870,
+        529,
+        1478,
+        995
+      ],
+      "sourceUnit": 0.17167381974248927,
+      "alphaComponentArea": 85360,
+      "standingSourcePixels": 466,
+      "n": 1070,
+      "w": 104,
+      "h": 80,
+      "anchor": [
+        58.5,
+        80
+      ],
+      "u": 4
+    },
+    "light3_0": {
+      "source": "outputs/lumine-attacks-20261015/source/light3-v1.png",
+      "roi": [
+        35,
+        60,
+        648,
+        506
+      ],
+      "sourceUnit": 0.16806722689075632,
+      "alphaComponentArea": 94900,
+      "standingSourcePixels": 476,
+      "n": 1027,
+      "w": 103,
+      "h": 75,
+      "anchor": [
+        78.0,
+        75
+      ],
+      "u": 4
+    },
+    "light3_1": {
+      "source": "outputs/lumine-attacks-20261015/source/light3-v1.png",
+      "roi": [
+        803,
+        74,
+        1519,
+        506
+      ],
+      "sourceUnit": 0.16806722689075632,
+      "alphaComponentArea": 90173,
+      "standingSourcePixels": 476,
+      "n": 1010,
+      "w": 120,
+      "h": 73,
+      "anchor": [
+        71.0,
+        73
+      ],
+      "u": 4
+    },
+    "light3_2": {
+      "source": "outputs/lumine-attacks-20261015/source/light3-v1.png",
+      "roi": [
+        76,
+        588,
+        884,
+        982
+      ],
+      "sourceUnit": 0.16806722689075632,
+      "alphaComponentArea": 95757,
+      "standingSourcePixels": 476,
+      "n": 1005,
+      "w": 136,
+      "h": 66,
+      "anchor": [
+        79.0,
+        66
+      ],
+      "u": 4
+    },
+    "light3_3": {
+      "source": "outputs/lumine-attacks-20261015/source/light3-v1.png",
+      "roi": [
+        903,
+        515,
+        1498,
+        991
+      ],
+      "sourceUnit": 0.16806722689075632,
+      "alphaComponentArea": 82570,
+      "standingSourcePixels": 476,
+      "n": 1035,
+      "w": 100,
+      "h": 80,
+      "anchor": [
+        59.0,
+        80
+      ],
+      "u": 4
+    },
+    "heavy_0": {
+      "source": "outputs/lumine-attacks-20261015/source/heavy-v1.png",
+      "roi": [
+        88,
+        11,
+        595,
+        528
+      ],
+      "sourceUnit": 0.16877637130801687,
+      "alphaComponentArea": 93000,
+      "standingSourcePixels": 474,
+      "n": 1139,
+      "w": 86,
+      "h": 87,
+      "anchor": [
+        74.5,
+        87
+      ],
+      "u": 4
+    },
+    "heavy_1": {
+      "source": "outputs/lumine-attacks-20261015/source/heavy-v1.png",
+      "roi": [
+        857,
+        69,
+        1480,
+        524
+      ],
+      "sourceUnit": 0.16877637130801687,
+      "alphaComponentArea": 94693,
+      "standingSourcePixels": 474,
+      "n": 1040,
+      "w": 105,
+      "h": 77,
+      "anchor": [
+        10.0,
+        77
+      ],
+      "u": 4
+    },
+    "heavy_2": {
+      "source": "outputs/lumine-attacks-20261015/source/heavy-v1.png",
+      "roi": [
+        128,
+        607,
+        842,
+        971
+      ],
+      "sourceUnit": 0.16877637130801687,
+      "alphaComponentArea": 90267,
+      "standingSourcePixels": 474,
+      "n": 1051,
+      "w": 121,
+      "h": 61,
+      "anchor": [
+        72.0,
+        61
+      ],
+      "u": 4
+    },
+    "heavy_3": {
+      "source": "outputs/lumine-attacks-20261015/source/heavy-v1.png",
+      "roi": [
+        911,
+        531,
+        1486,
+        1005
+      ],
+      "sourceUnit": 0.16877637130801687,
+      "alphaComponentArea": 82895,
+      "standingSourcePixels": 474,
+      "n": 1037,
+      "w": 97,
+      "h": 80,
+      "anchor": [
+        56.0,
+        80
+      ],
+      "u": 4
+    }
+  },
+  "pixelReconstructionToQuantizedTarget": true,
+  "groups": {
+    "light2": [
+      8,
+      4,
+      9,
+      9
+    ],
+    "light3": [
+      12,
+      5,
+      12,
+      12
+    ],
+    "heavy": [
+      26,
+      6,
+      15,
+      15
+    ]
+  },
+  "sources": {
+    "outputs/lumine-attacks-20261015/source/heavy-v1.png": "eb9783a33d65aea4769fb75cf394de274f5dcbcf93be659f8512b8be9767bd7d",
+    "outputs/lumine-attacks-20261015/source/light2-v1.png": "c051cd1613d0136c804c7bac6d9fb0d51fe923b2748bc8e7ec9420fdbffc53e8",
+    "outputs/lumine-attacks-20261015/source/light3-v1.png": "4406c5f84d8377b8845c53a91b5db8eb4e984ce8938bca24609e98bc8d3d9e66"
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "idle": {
+    "sourceFrames": [
+      {
+        "file": "frames/reference.png",
+        "source": "frames/reference.png",
+        "sourceOrigin": [
+          355,
+          0
+        ],
+        "roi": [
+          387,
+          32,
+          1113,
+          985
+        ],
+        "anchor": [
+          480,
+          979
+        ],
+        "scale": 0.25,
+        "extraction": "alpha64 connected support",
+        "sourceHash": "93afebdc24de4d8b605f33f3ba71d4509e7c536115bd41cebcf21f8fd5179201"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/reference.png",
+        "anchor": [
+          29,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 523
+      }
+    ],
+    "durations": [
+      60
+    ],
+    "phases": [
+      "历史母版对照"
+    ],
+    "events": [],
+    "status": "仅复用历史母版供人体对照，未制作新待机"
+  },
+  "E": {
+    "sourceFrames": [
+      {
+        "file": "frames/E-0.png",
+        "source": "sources/E.png",
+        "scale": 0.48,
+        "anchor": [
+          270,
+          538
+        ],
+        "roi": [
+          242,
+          4,
+          632,
+          514
+        ],
+        "sourceOrigin": [
+          210,
+          -28
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      },
+      {
+        "file": "frames/E-1.png",
+        "source": "sources/E.png",
+        "scale": 0.48,
+        "anchor": [
+          308,
+          535
+        ],
+        "roi": [
+          774,
+          4,
+          1242,
+          512
+        ],
+        "sourceOrigin": [
+          742,
+          -28
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      },
+      {
+        "file": "frames/E-2.png",
+        "source": "sources/E.png",
+        "scale": 0.48,
+        "anchor": [
+          296,
+          538
+        ],
+        "roi": [
+          219,
+          506,
+          668,
+          1016
+        ],
+        "sourceOrigin": [
+          187,
+          474
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      },
+      {
+        "file": "frames/E-3.png",
+        "source": "sources/E.png",
+        "scale": 0.48,
+        "anchor": [
+          314,
+          537
+        ],
+        "roi": [
+          806,
+          507,
+          1210,
+          1016
+        ],
+        "sourceOrigin": [
+          774,
+          475
+        ],
+        "sourceUnitPolicy": "whole-sheet provisional anatomical unit, no per-pose bounding normalization"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/E-0.png",
+        "anchor": [
+          31,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-0.json",
+        "rectangles": 570
+      },
+      {
+        "file": "fit/E-1.png",
+        "anchor": [
+          35,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-1.json",
+        "rectangles": 582
+      },
+      {
+        "file": "fit/E-2.png",
+        "anchor": [
+          34,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-2.json",
+        "rectangles": 611
+      },
+      {
+        "file": "fit/E-3.png",
+        "anchor": [
+          36,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-3.json",
+        "rectangles": 567
+      }
+    ],
+    "durations": [
+      8,
+      10,
+      4,
+      24
+    ],
+    "phases": [
+      "扶杖聚势",
+      "指示固定落点",
+      "下压召瀑",
+      "收掌回杖"
+    ],
+    "events": [],
+    "status": "2026-10-14新设计身体小样；比例/武器/动作衔接/源板留白仍待美术验收；不代表角色全动作已补齐，未接特效/判定/正式战斗"
+  },
+  "hit_knockdown": {
+    "frames": [
+      {
+        "file": "fit/hit_knockdown-chain-20261014-0.png",
+        "anchor": [
+          29,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-0.json",
+        "rectangles": 585
+      },
+      {
+        "file": "fit/hit_knockdown-chain-20261014-1.png",
+        "anchor": [
+          33,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-1.json",
+        "rectangles": 578
+      },
+      {
+        "file": "fit/hit_knockdown-chain-20261014-2.png",
+        "anchor": [
+          29,
+          58
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-2.json",
+        "rectangles": 507
+      },
+      {
+        "file": "fit/hit_knockdown-chain-20261014-3.png",
+        "anchor": [
+          29,
+          40
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-3.json",
+        "rectangles": 376
+      },
+      {
+        "file": "fit/hit_knockdown-chain-20261014-4.png",
+        "anchor": [
+          32,
+          23
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-4.json",
+        "rectangles": 263
+      },
+      {
+        "file": "fit/hit_knockdown-chain-20261014-5.png",
+        "anchor": [
+          30,
+          20
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-5.json",
+        "rectangles": 215
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/hit_knockdown-chain-20261014-0.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          282,
+          620
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          -17,
+          14
+        ],
+        "roi": [
+          15,
+          46,
+          438,
+          635
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/hit_knockdown-chain-20261014-1.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          322,
+          581
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          468,
+          47
+        ],
+        "roi": [
+          500,
+          79,
+          988,
+          628
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/hit_knockdown-chain-20261014-2.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          284,
+          592
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          6,
+          643
+        ],
+        "roi": [
+          38,
+          675,
+          581,
+          1174
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/hit_knockdown-chain-20261014-3.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          287,
+          404
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          508,
+          784
+        ],
+        "roi": [
+          540,
+          816,
+          1024,
+          1159
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/hit_knockdown-chain-20261014-4.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          318,
+          219
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          -18,
+          1221
+        ],
+        "roi": [
+          14,
+          1253,
+          520,
+          1443
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/hit_knockdown-chain-20261014-5.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          291,
+          188
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          489,
+          1242
+        ],
+        "roi": [
+          521,
+          1274,
+          1015,
+          1432
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      }
+    ],
+    "durations": [
+      5,
+      6,
+      8,
+      8,
+      8,
+      16
+    ],
+    "phases": [
+      "站立受力",
+      "补步失衡",
+      "空中受击",
+      "侧身下落",
+      "肩背落地",
+      "同向倒地"
+    ],
+    "events": [],
+    "previewOnly": true,
+    "runtimeIntegrated": false,
+    "artAccepted": false,
+    "status": "2026-10-14新增受击起身身体候选；共享倒地首尾与固定单位，人体/支撑/武器/落地连接仍待美术验收；不是正式战斗受击规则；手杖握持连续候选，刚性/避穿与遮挡继续复核",
+    "continuation": {
+      "next": "wakeup",
+      "sharedPose": true
+    }
+  },
+  "wakeup": {
+    "frames": [
+      {
+        "file": "fit/hit_knockdown-chain-20261014-5.png",
+        "anchor": [
+          30,
+          20
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit_knockdown-chain-20261014-5.json",
+        "rectangles": 215
+      },
+      {
+        "file": "fit/wakeup-chain-20261014-0.png",
+        "anchor": [
+          39,
+          30
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-chain-20261014-0.json",
+        "rectangles": 352
+      },
+      {
+        "file": "fit/wakeup-chain-20261014-1.png",
+        "anchor": [
+          37,
+          43
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-chain-20261014-1.json",
+        "rectangles": 439
+      },
+      {
+        "file": "fit/wakeup-chain-20261014-2.png",
+        "anchor": [
+          35,
+          46
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-chain-20261014-2.json",
+        "rectangles": 554
+      },
+      {
+        "file": "fit/wakeup-chain-20261014-3.png",
+        "anchor": [
+          32,
+          61
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-chain-20261014-3.json",
+        "rectangles": 568
+      },
+      {
+        "file": "fit/reference.png",
+        "anchor": [
+          29,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 523
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/hit_knockdown-chain-20261014-5.png",
+        "source": "sources/hit-knockdown-20261014.png",
+        "anchor": [
+          291,
+          188
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          489,
+          1242
+        ],
+        "roi": [
+          521,
+          1274,
+          1015,
+          1432
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/wakeup-chain-20261014-0.png",
+        "source": "sources/wakeup-20261014.png",
+        "anchor": [
+          396,
+          294
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          104,
+          114
+        ],
+        "roi": [
+          136,
+          146,
+          781,
+          411
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/wakeup-chain-20261014-1.png",
+        "source": "sources/wakeup-20261014.png",
+        "anchor": [
+          372,
+          437
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          838,
+          -19
+        ],
+        "roi": [
+          870,
+          13,
+          1439,
+          419
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/wakeup-chain-20261014-2.png",
+        "source": "sources/wakeup-20261014.png",
+        "anchor": [
+          350,
+          465
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          150,
+          497
+        ],
+        "roi": [
+          182,
+          529,
+          761,
+          964
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/wakeup-chain-20261014-3.png",
+        "source": "sources/wakeup-20261014.png",
+        "anchor": [
+          318,
+          623
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          907,
+          374
+        ],
+        "roi": [
+          939,
+          406,
+          1396,
+          1000
+        ],
+        "unitPolicy": "fixed role source drawing unit for this chain; no per-pose bounding box resizing",
+        "rootKind": "manual boot/contact or virtual pelvis-relative floor"
+      },
+      {
+        "file": "frames/reference.png",
+        "source": "frames/reference.png",
+        "sourceOrigin": [
+          355,
+          0
+        ],
+        "roi": [
+          387,
+          32,
+          1113,
+          985
+        ],
+        "anchor": [
+          480,
+          979
+        ],
+        "scale": 0.25,
+        "extraction": "alpha64 connected support",
+        "sourceHash": "93afebdc24de4d8b605f33f3ba71d4509e7c536115bd41cebcf21f8fd5179201"
+      }
+    ],
+    "durations": [
+      10,
+      8,
+      8,
+      10,
+      8,
+      6
+    ],
+    "phases": [
+      "共享同向倒地",
+      "撑肘抬身",
+      "收膝撑掌",
+      "单膝承重",
+      "站起收稳",
+      "回母版待机"
+    ],
+    "events": [],
+    "previewOnly": true,
+    "runtimeIntegrated": false,
+    "artAccepted": false,
+    "status": "2026-10-14新增受击起身身体候选；共享倒地首尾与固定单位，人体/支撑/武器/落地连接仍待美术验收；不是正式战斗受击规则",
+    "continuation": {
+      "next": "idle",
+      "sharedPose": true
+    }
+  }
+}

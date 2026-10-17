@@ -1,0 +1,9 @@
+{
+  "clientSha256": "1ae0d2c64a48dc6b5d03705f8997967547a1051e0c797121f20b01153dd81b1f",
+  "baselineSha256": "ebc78541fb09b6912eae16fedfbaca602a0895b61f60be5b63b4f5cd4571399d",
+  "onlyChangedSourceFiles": [
+    "source/teaching/gf_sim_lumine_training.lua"
+  ],
+  "allArtRenderingInputBindingsAndPaimonSourceUnchanged": true,
+  "ruleChange": "Lumine teaching takeoff attack press retained until first airborne tick; latest press wins; heavy wins simultaneous press"
+}

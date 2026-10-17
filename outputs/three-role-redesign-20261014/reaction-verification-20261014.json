@@ -1,0 +1,119 @@
+{
+  "scope": "independent body previews, not combat simulation",
+  "newGroups": 4,
+  "newBodies": 20,
+  "newMainPreviewStates": 24,
+  "exactReconstructionObjects": [
+    "mavuika/fit/hit_knockdown-chain-20261014-0.json",
+    "mavuika/fit/hit_knockdown-chain-20261014-1.json",
+    "mavuika/fit/hit_knockdown-chain-20261014-2.json",
+    "mavuika/fit/hit_knockdown-chain-20261014-3.json",
+    "mavuika/fit/hit_knockdown-chain-20261014-4.json",
+    "mavuika/fit/hit_knockdown-chain-20261014-5.json",
+    "mavuika/fit/wakeup-chain-20261014-0.json",
+    "mavuika/fit/wakeup-chain-20261014-1.json",
+    "mavuika/fit/wakeup-chain-20261014-2.json",
+    "mavuika/fit/wakeup-chain-20261014-3.json",
+    "neuvillette/fit/hit_knockdown-chain-20261014-0.json",
+    "neuvillette/fit/hit_knockdown-chain-20261014-1.json",
+    "neuvillette/fit/hit_knockdown-chain-20261014-2.json",
+    "neuvillette/fit/hit_knockdown-chain-20261014-3.json",
+    "neuvillette/fit/hit_knockdown-chain-20261014-4.json",
+    "neuvillette/fit/hit_knockdown-chain-20261014-5.json",
+    "neuvillette/fit/wakeup-chain-20261014-0.json",
+    "neuvillette/fit/wakeup-chain-20261014-1.json",
+    "neuvillette/fit/wakeup-chain-20261014-2.json",
+    "neuvillette/fit/wakeup-chain-20261014-3.json"
+  ],
+  "newBodyReferences": 96,
+  "browserPhaseStartChecks": 96,
+  "sharedDownBoundaries": [
+    {
+      "role": "mavuika",
+      "down": {
+        "selected": "hit_knockdown",
+        "time": 35,
+        "total": 51,
+        "phase": 5,
+        "frames": 6,
+        "material": "fit",
+        "ready": true,
+        "root": [
+          670,
+          550
+        ],
+        "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+        "effect": null,
+        "palm": null,
+        "mirror": true,
+        "background": "light"
+      },
+      "up": {
+        "selected": "wakeup",
+        "time": 0,
+        "total": 50,
+        "phase": 0,
+        "frames": 6,
+        "material": "fit",
+        "ready": true,
+        "root": [
+          670,
+          550
+        ],
+        "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+        "effect": null,
+        "palm": null,
+        "mirror": true,
+        "background": "light"
+      },
+      "sameFile": true,
+      "sameRoot": true
+    },
+    {
+      "role": "neuvillette",
+      "down": {
+        "selected": "hit_knockdown",
+        "time": 35,
+        "total": 51,
+        "phase": 5,
+        "frames": 6,
+        "material": "fit",
+        "ready": true,
+        "root": [
+          670,
+          550
+        ],
+        "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+        "effect": null,
+        "palm": null,
+        "mirror": true,
+        "background": "light"
+      },
+      "up": {
+        "selected": "wakeup",
+        "time": 0,
+        "total": 50,
+        "phase": 0,
+        "frames": 6,
+        "material": "fit",
+        "ready": true,
+        "root": [
+          670,
+          550
+        ],
+        "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+        "effect": null,
+        "palm": null,
+        "mirror": true,
+        "background": "light"
+      },
+      "sameFile": true,
+      "sameRoot": true
+    }
+  ],
+  "chainReplayEndsAtIdle": true,
+  "designDirectionAcceptedByUser": true,
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false
+}

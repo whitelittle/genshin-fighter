@@ -1,0 +1,16 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "PAINT",
+    "READY"
+  ],
+  "first": "T1 DECODE | decode 0 left 36 | create 0/4042 | task 0/6251 | dt 17ms",
+  "last": "T1 READY | decode 1396 left 0 | create 4042/4042 | task 6251/6251 | dt 17ms",
+  "samples": 125,
+  "maxTextDuringCreate": 0,
+  "battleText": 13405
+}

@@ -1,0 +1,683 @@
+{
+  "version": "V9",
+  "groups": 25,
+  "displayStates": 145,
+  "sourcePixelsChanged": false,
+  "groundAnchorChanges": [
+    {
+      "group": "zhongli_idle",
+      "material": "sourceFrames",
+      "frame": 0,
+      "oldY": 972.0,
+      "soleY": 972
+    },
+    {
+      "group": "zhongli_idle",
+      "material": "sourceFrames",
+      "frame": 1,
+      "oldY": 974.0,
+      "soleY": 974
+    },
+    {
+      "group": "zhongli_idle",
+      "material": "initialFrames",
+      "frame": 0,
+      "oldY": 82.80489130434783,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_idle",
+      "material": "initialFrames",
+      "frame": 1,
+      "oldY": 82.97527173913043,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_idle",
+      "material": "frames",
+      "frame": 0,
+      "oldY": 82.80489130434783,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_idle",
+      "material": "frames",
+      "frame": 1,
+      "oldY": 82.97527173913043,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "sourceFrames",
+      "frame": 0,
+      "oldY": 492.0,
+      "soleY": 491
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "sourceFrames",
+      "frame": 1,
+      "oldY": 495.0,
+      "soleY": 494
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "sourceFrames",
+      "frame": 2,
+      "oldY": 493.0,
+      "soleY": 493
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "sourceFrames",
+      "frame": 3,
+      "oldY": 488.0,
+      "soleY": 488
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "sourceFrames",
+      "frame": 4,
+      "oldY": 489.0,
+      "soleY": 489
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "sourceFrames",
+      "frame": 5,
+      "oldY": 489.0,
+      "soleY": 489
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "initialFrames",
+      "frame": 0,
+      "oldY": 83.82717391304348,
+      "soleY": 84
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "initialFrames",
+      "frame": 1,
+      "oldY": 84.33831521739131,
+      "soleY": 85
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "initialFrames",
+      "frame": 2,
+      "oldY": 83.99755434782608,
+      "soleY": 84
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "initialFrames",
+      "frame": 3,
+      "oldY": 83.14565217391305,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "initialFrames",
+      "frame": 4,
+      "oldY": 83.31603260869565,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "initialFrames",
+      "frame": 5,
+      "oldY": 83.31603260869565,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "frames",
+      "frame": 0,
+      "oldY": 83.82717391304348,
+      "soleY": 84
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "frames",
+      "frame": 1,
+      "oldY": 84.33831521739131,
+      "soleY": 85
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "frames",
+      "frame": 2,
+      "oldY": 83.99755434782608,
+      "soleY": 84
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "frames",
+      "frame": 3,
+      "oldY": 83.14565217391305,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "frames",
+      "frame": 4,
+      "oldY": 83.31603260869565,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_walk",
+      "material": "frames",
+      "frame": 5,
+      "oldY": 83.31603260869565,
+      "soleY": 83
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "sourceFrames",
+      "frame": 0,
+      "oldY": 490.0,
+      "soleY": 489
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "sourceFrames",
+      "frame": 1,
+      "oldY": 489.0,
+      "soleY": 489
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "sourceFrames",
+      "frame": 2,
+      "oldY": 485.0,
+      "soleY": 485
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "sourceFrames",
+      "frame": 3,
+      "oldY": 476.0,
+      "soleY": 476
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "sourceFrames",
+      "frame": 4,
+      "oldY": 471.0,
+      "soleY": 471
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "sourceFrames",
+      "frame": 5,
+      "oldY": 484.0,
+      "soleY": 483
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "initialFrames",
+      "frame": 0,
+      "oldY": 77.06438127090301,
+      "soleY": 77
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "initialFrames",
+      "frame": 1,
+      "oldY": 76.90710702341137,
+      "soleY": 77
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "initialFrames",
+      "frame": 2,
+      "oldY": 76.27801003344482,
+      "soleY": 77
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "initialFrames",
+      "frame": 3,
+      "oldY": 74.86254180602006,
+      "soleY": 75
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "initialFrames",
+      "frame": 4,
+      "oldY": 74.07617056856186,
+      "soleY": 74
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "initialFrames",
+      "frame": 5,
+      "oldY": 76.12073578595317,
+      "soleY": 76
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "frames",
+      "frame": 0,
+      "oldY": 77.06438127090301,
+      "soleY": 77
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "frames",
+      "frame": 1,
+      "oldY": 76.90710702341137,
+      "soleY": 77
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "frames",
+      "frame": 2,
+      "oldY": 76.27801003344482,
+      "soleY": 77
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "frames",
+      "frame": 3,
+      "oldY": 74.86254180602006,
+      "soleY": 75
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "frames",
+      "frame": 4,
+      "oldY": 74.07617056856186,
+      "soleY": 74
+    },
+    {
+      "group": "zhongli_backwalk",
+      "material": "frames",
+      "frame": 5,
+      "oldY": 76.12073578595317,
+      "soleY": 76
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "sourceFrames",
+      "frame": 0,
+      "oldY": 512.0,
+      "soleY": 512
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "sourceFrames",
+      "frame": 1,
+      "oldY": 485.0,
+      "soleY": 485
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "sourceFrames",
+      "frame": 2,
+      "oldY": 445.0,
+      "soleY": 445
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "sourceFrames",
+      "frame": 3,
+      "oldY": 369.0,
+      "soleY": 369
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "sourceFrames",
+      "frame": 4,
+      "oldY": 319.0,
+      "soleY": 317
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "sourceFrames",
+      "frame": 5,
+      "oldY": 315.0,
+      "soleY": 314
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "initialFrames",
+      "frame": 0,
+      "oldY": 87.23478260869565,
+      "soleY": 87
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "initialFrames",
+      "frame": 1,
+      "oldY": 76.27801003344482,
+      "soleY": 76
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "initialFrames",
+      "frame": 2,
+      "oldY": 67.89787475665153,
+      "soleY": 68
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "initialFrames",
+      "frame": 3,
+      "oldY": 53.888897515527944,
+      "soleY": 54
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "initialFrames",
+      "frame": 4,
+      "oldY": 42.35170807453416,
+      "soleY": 42
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "initialFrames",
+      "frame": 5,
+      "oldY": 41.82065217391304,
+      "soleY": 42
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "frames",
+      "frame": 0,
+      "oldY": 87.23478260869565,
+      "soleY": 87
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "frames",
+      "frame": 1,
+      "oldY": 76.27801003344482,
+      "soleY": 76
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "frames",
+      "frame": 2,
+      "oldY": 67.89787475665153,
+      "soleY": 68
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "frames",
+      "frame": 3,
+      "oldY": 53.888897515527944,
+      "soleY": 54
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "frames",
+      "frame": 4,
+      "oldY": 42.35170807453416,
+      "soleY": 42
+    },
+    {
+      "group": "zhongli_crouch",
+      "material": "frames",
+      "frame": 5,
+      "oldY": 41.82065217391304,
+      "soleY": 42
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "sourceFrames",
+      "frame": 0,
+      "oldY": 506.0,
+      "soleY": 506
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "sourceFrames",
+      "frame": 1,
+      "oldY": 503.0,
+      "soleY": 502
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "sourceFrames",
+      "frame": 2,
+      "oldY": 491.0,
+      "soleY": 490
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "sourceFrames",
+      "frame": 3,
+      "oldY": 470.0,
+      "soleY": 470
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "sourceFrames",
+      "frame": 4,
+      "oldY": 488.0,
+      "soleY": 488
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "sourceFrames",
+      "frame": 5,
+      "oldY": 497.0,
+      "soleY": 495
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "initialFrames",
+      "frame": 0,
+      "oldY": 86.2125,
+      "soleY": 86
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "initialFrames",
+      "frame": 1,
+      "oldY": 85.70135869565217,
+      "soleY": 86
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "initialFrames",
+      "frame": 2,
+      "oldY": 80.95818723702665,
+      "soleY": 81
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "initialFrames",
+      "frame": 3,
+      "oldY": 77.49561711079944,
+      "soleY": 78
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "initialFrames",
+      "frame": 4,
+      "oldY": 79.1863354037267,
+      "soleY": 80
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "initialFrames",
+      "frame": 5,
+      "oldY": 84.67907608695653,
+      "soleY": 85
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "frames",
+      "frame": 0,
+      "oldY": 86.2125,
+      "soleY": 86
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "frames",
+      "frame": 1,
+      "oldY": 85.70135869565217,
+      "soleY": 86
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "frames",
+      "frame": 2,
+      "oldY": 80.95818723702665,
+      "soleY": 81
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "frames",
+      "frame": 3,
+      "oldY": 77.49561711079944,
+      "soleY": 78
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "frames",
+      "frame": 4,
+      "oldY": 79.1863354037267,
+      "soleY": 80
+    },
+    {
+      "group": "zhongli_standguard",
+      "material": "frames",
+      "frame": 5,
+      "oldY": 84.67907608695653,
+      "soleY": 85
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "sourceFrames",
+      "frame": 0,
+      "oldY": 377.0,
+      "soleY": 377
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "sourceFrames",
+      "frame": 1,
+      "oldY": 406.0,
+      "soleY": 406
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "sourceFrames",
+      "frame": 2,
+      "oldY": 376.0,
+      "soleY": 375
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "sourceFrames",
+      "frame": 3,
+      "oldY": 349.0,
+      "soleY": 348
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "sourceFrames",
+      "frame": 4,
+      "oldY": 360.0,
+      "soleY": 359
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "sourceFrames",
+      "frame": 5,
+      "oldY": 390.0,
+      "soleY": 390
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "initialFrames",
+      "frame": 0,
+      "oldY": 52.79459499702203,
+      "soleY": 53
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "initialFrames",
+      "frame": 1,
+      "oldY": 56.85571768910065,
+      "soleY": 57
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "initialFrames",
+      "frame": 2,
+      "oldY": 51.25043478260869,
+      "soleY": 52
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "initialFrames",
+      "frame": 3,
+      "oldY": 46.94429347826087,
+      "soleY": 47
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "initialFrames",
+      "frame": 4,
+      "oldY": 48.42391304347826,
+      "soleY": 49
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "initialFrames",
+      "frame": 5,
+      "oldY": 53.87705640423032,
+      "soleY": 54
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "frames",
+      "frame": 0,
+      "oldY": 52.79459499702203,
+      "soleY": 53
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "frames",
+      "frame": 1,
+      "oldY": 56.85571768910065,
+      "soleY": 57
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "frames",
+      "frame": 2,
+      "oldY": 51.25043478260869,
+      "soleY": 52
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "frames",
+      "frame": 3,
+      "oldY": 46.94429347826087,
+      "soleY": 47
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "frames",
+      "frame": 4,
+      "oldY": 48.42391304347826,
+      "soleY": 49
+    },
+    {
+      "group": "zhongli_crouchguard",
+      "material": "frames",
+      "frame": 5,
+      "oldY": 53.87705640423032,
+      "soleY": 54
+    }
+  ],
+  "EBody36TickTailPreserved": true,
+  "runtimeIntegrated": false,
+  "deviceVerified": false
+}

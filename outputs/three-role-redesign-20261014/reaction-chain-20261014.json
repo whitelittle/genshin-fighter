@@ -1,0 +1,293 @@
+{
+  "scope": "2 independent body reaction chains, not combat simulation",
+  "newGroups": 4,
+  "uniqueNewBodies": 20,
+  "displayStates": 24,
+  "sharedDownBoundaryExact": true,
+  "designDirectionAcceptedByUser": true,
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false,
+  "audit": [
+    {
+      "role": "mavuika",
+      "key": "hit_knockdown",
+      "pose": 0,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        325,
+        557
+      ],
+      "rectangles": 346,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "hit_knockdown",
+      "pose": 1,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        799,
+        554
+      ],
+      "rectangles": 350,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "hit_knockdown",
+      "pose": 2,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        1350,
+        605
+      ],
+      "rectangles": 322,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "hit_knockdown",
+      "pose": 3,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        260,
+        1040
+      ],
+      "rectangles": 275,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "hit_knockdown",
+      "pose": 4,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        775,
+        956
+      ],
+      "rectangles": 233,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "hit_knockdown",
+      "pose": 5,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        1288,
+        962
+      ],
+      "rectangles": 183,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "wakeup",
+      "pose": 0,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        470,
+        396
+      ],
+      "rectangles": 284,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "wakeup",
+      "pose": 1,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        1140,
+        406
+      ],
+      "rectangles": 366,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "wakeup",
+      "pose": 2,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        520,
+        970
+      ],
+      "rectangles": 427,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "key": "wakeup",
+      "pose": 3,
+      "sourceCanvasContact": false,
+      "unit": 0.36,
+      "rootSheet": [
+        1175,
+        1006
+      ],
+      "rectangles": 397,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "hit_knockdown",
+      "pose": 0,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        265,
+        634
+      ],
+      "rectangles": 585,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "hit_knockdown",
+      "pose": 1,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        790,
+        628
+      ],
+      "rectangles": 578,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "hit_knockdown",
+      "pose": 2,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        290,
+        1235
+      ],
+      "rectangles": 507,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "hit_knockdown",
+      "pose": 3,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        795,
+        1188
+      ],
+      "rectangles": 376,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "hit_knockdown",
+      "pose": 4,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        300,
+        1440
+      ],
+      "rectangles": 263,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "hit_knockdown",
+      "pose": 5,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        780,
+        1430
+      ],
+      "rectangles": 215,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "wakeup",
+      "pose": 0,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        500,
+        408
+      ],
+      "rectangles": 352,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "wakeup",
+      "pose": 1,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        1210,
+        418
+      ],
+      "rectangles": 439,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "wakeup",
+      "pose": 2,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        500,
+        962
+      ],
+      "rectangles": 554,
+      "reconstructionExact": true,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "key": "wakeup",
+      "pose": 3,
+      "sourceCanvasContact": false,
+      "unit": 0.42,
+      "rootSheet": [
+        1225,
+        997
+      ],
+      "rectangles": 568,
+      "reconstructionExact": true,
+      "artAccepted": false
+    }
+  ]
+}

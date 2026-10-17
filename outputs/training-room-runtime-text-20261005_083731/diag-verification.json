@@ -1,0 +1,17 @@
+{
+  "simulatorOnly": true,
+  "deviceVerified": false,
+  "canvas": "mobile-19.5-9",
+  "phases": [
+    "DECODE",
+    "CREATE",
+    "TEXT",
+    "PAINT",
+    "READY"
+  ],
+  "first": "T2 DECODE | decode 0 left 36 | create 0/4042 | task 0/7067 | dt 17ms | text 0/813",
+  "last": "T2 READY | decode 1399 left 0 | create 4042/4042 | task 7067/7067 | dt 17ms | text 813/813",
+  "samples": 134,
+  "maxTextDuringCreate": 0,
+  "battleText": 13405
+}

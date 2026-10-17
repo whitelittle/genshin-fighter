@@ -1,0 +1,1230 @@
+{
+  "scope": "generated candidates; native and aesthetic acceptance pending",
+  "generator": "built-in image_gen",
+  "partial": false,
+  "roles": {
+    "lumine": {
+      "frames": 88,
+      "mean": 979.0681818181819,
+      "peak": 1529,
+      "newPaletteColors": 10,
+      "newFrames": {
+        "crouchLight_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchLight-v1.png",
+          "roi": [
+            49,
+            140,
+            723,
+            492
+          ],
+          "sourceUnit": 0.25806451612903225,
+          "alphaComponentArea": 85960,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 941,
+          "w": 118,
+          "h": 62,
+          "u": 4,
+          "anchor": [
+            34.0,
+            62
+          ]
+        },
+        "crouchLight_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchLight-v1.png",
+          "roi": [
+            792,
+            174,
+            1512,
+            492
+          ],
+          "sourceUnit": 0.25806451612903225,
+          "alphaComponentArea": 77220,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 837,
+          "w": 126,
+          "h": 56,
+          "u": 4,
+          "anchor": [
+            40.0,
+            56
+          ]
+        },
+        "crouchLight_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchLight-v1.png",
+          "roi": [
+            62,
+            618,
+            800,
+            949
+          ],
+          "sourceUnit": 0.25806451612903225,
+          "alphaComponentArea": 83713,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 867,
+          "w": 129,
+          "h": 58,
+          "u": 4,
+          "anchor": [
+            7.0,
+            58
+          ]
+        },
+        "crouchLight_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchLight-v1.png",
+          "roi": [
+            847,
+            639,
+            1505,
+            949
+          ],
+          "sourceUnit": 0.25806451612903225,
+          "alphaComponentArea": 72112,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 798,
+          "w": 116,
+          "h": 54,
+          "u": 4,
+          "anchor": [
+            36.0,
+            54
+          ]
+        },
+        "crouchHeavy_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchHeavy-v1.png",
+          "roi": [
+            24,
+            101,
+            605,
+            483
+          ],
+          "sourceUnit": 0.21978021978021978,
+          "alphaComponentArea": 101277,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 819,
+          "w": 87,
+          "h": 57,
+          "u": 4,
+          "anchor": [
+            56.0,
+            57
+          ]
+        },
+        "crouchHeavy_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchHeavy-v1.png",
+          "roi": [
+            748,
+            135,
+            1528,
+            483
+          ],
+          "sourceUnit": 0.21978021978021978,
+          "alphaComponentArea": 90938,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 710,
+          "w": 116,
+          "h": 52,
+          "u": 4,
+          "anchor": [
+            60.0,
+            52
+          ]
+        },
+        "crouchHeavy_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchHeavy-v1.png",
+          "roi": [
+            45,
+            601,
+            992,
+            963
+          ],
+          "sourceUnit": 0.21978021978021978,
+          "alphaComponentArea": 104440,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 791,
+          "w": 141,
+          "h": 54,
+          "u": 4,
+          "anchor": [
+            77.0,
+            54
+          ]
+        },
+        "crouchHeavy_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/crouchHeavy-v1.png",
+          "roi": [
+            965,
+            598,
+            1519,
+            962
+          ],
+          "sourceUnit": 0.21978021978021978,
+          "alphaComponentArea": 93201,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 771,
+          "w": 83,
+          "h": 54,
+          "u": 4,
+          "anchor": [
+            44.0,
+            54
+          ]
+        },
+        "airLight_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airLight-v1.png",
+          "roi": [
+            29,
+            14,
+            557,
+            534
+          ],
+          "sourceUnit": 0.15151515151515152,
+          "alphaComponentArea": 93388,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 772,
+          "w": 74,
+          "h": 73,
+          "u": 4,
+          "anchor": [
+            38.0,
+            73
+          ]
+        },
+        "airLight_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airLight-v1.png",
+          "roi": [
+            605,
+            158,
+            1304,
+            495
+          ],
+          "sourceUnit": 0.15151515151515152,
+          "alphaComponentArea": 75703,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 577,
+          "w": 99,
+          "h": 47,
+          "u": 4,
+          "anchor": [
+            3.0,
+            47
+          ]
+        },
+        "airLight_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airLight-v1.png",
+          "roi": [
+            9,
+            607,
+            615,
+            1154
+          ],
+          "sourceUnit": 0.15151515151515152,
+          "alphaComponentArea": 106938,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 841,
+          "w": 86,
+          "h": 77,
+          "u": 4,
+          "anchor": [
+            27.0,
+            77
+          ]
+        },
+        "airLight_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airLight-v1.png",
+          "roi": [
+            712,
+            646,
+            1267,
+            1174
+          ],
+          "sourceUnit": 0.15151515151515152,
+          "alphaComponentArea": 103839,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 877,
+          "w": 78,
+          "h": 74,
+          "u": 4,
+          "anchor": [
+            43.0,
+            74
+          ]
+        },
+        "airHeavy_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airHeavy-v1.png",
+          "roi": [
+            31,
+            23,
+            559,
+            590
+          ],
+          "sourceUnit": 0.21390374331550802,
+          "alphaComponentArea": 110968,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 1529,
+          "w": 105,
+          "h": 113,
+          "u": 4,
+          "anchor": [
+            24.0,
+            113
+          ]
+        },
+        "airHeavy_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airHeavy-v1.png",
+          "roi": [
+            745,
+            123,
+            1384,
+            587
+          ],
+          "sourceUnit": 0.21390374331550802,
+          "alphaComponentArea": 99897,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 1350,
+          "w": 127,
+          "h": 92,
+          "u": 4,
+          "anchor": [
+            3.0,
+            92
+          ]
+        },
+        "airHeavy_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airHeavy-v1.png",
+          "roi": [
+            50,
+            657,
+            809,
+            1093
+          ],
+          "sourceUnit": 0.21390374331550802,
+          "alphaComponentArea": 102672,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 1408,
+          "w": 151,
+          "h": 86,
+          "u": 4,
+          "anchor": [
+            144.0,
+            86
+          ]
+        },
+        "airHeavy_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/airHeavy-v1.png",
+          "roi": [
+            755,
+            660,
+            1298,
+            1034
+          ],
+          "sourceUnit": 0.21390374331550802,
+          "alphaComponentArea": 90569,
+          "anatomyScale": 0.93,
+          "canonicalMirror": false,
+          "n": 1322,
+          "w": 108,
+          "h": 74,
+          "u": 4,
+          "anchor": [
+            69.0,
+            74
+          ]
+        },
+        "skill_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skill-v1.png",
+          "roi": [
+            191,
+            15,
+            707,
+            501
+          ],
+          "sourceUnit": 0.16597510373443983,
+          "alphaComponentArea": 77121,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 889,
+          "w": 86,
+          "h": 81,
+          "u": 4,
+          "anchor": [
+            48.0,
+            81
+          ]
+        },
+        "skill_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skill-v1.png",
+          "roi": [
+            876,
+            21,
+            1387,
+            504
+          ],
+          "sourceUnit": 0.16597510373443983,
+          "alphaComponentArea": 79156,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 931,
+          "w": 85,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            51.0,
+            80
+          ]
+        },
+        "skill_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skill-v1.png",
+          "roi": [
+            110,
+            524,
+            689,
+            1006
+          ],
+          "sourceUnit": 0.16597510373443983,
+          "alphaComponentArea": 93733,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1019,
+          "w": 96,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            75.0,
+            80
+          ]
+        },
+        "skill_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skill-v1.png",
+          "roi": [
+            891,
+            524,
+            1419,
+            1006
+          ],
+          "sourceUnit": 0.16597510373443983,
+          "alphaComponentArea": 83688,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 943,
+          "w": 88,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            53.0,
+            80
+          ]
+        },
+        "skillUp_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillUp-v1.png",
+          "roi": [
+            181,
+            42,
+            540,
+            543
+          ],
+          "sourceUnit": 0.16427104722792607,
+          "alphaComponentArea": 76629,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 908,
+          "w": 59,
+          "h": 82,
+          "u": 4,
+          "anchor": [
+            48.5,
+            82
+          ]
+        },
+        "skillUp_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillUp-v1.png",
+          "roi": [
+            814,
+            47,
+            1178,
+            546
+          ],
+          "sourceUnit": 0.16427104722792607,
+          "alphaComponentArea": 76536,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 925,
+          "w": 60,
+          "h": 82,
+          "u": 4,
+          "anchor": [
+            48.0,
+            82
+          ]
+        },
+        "skillUp_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillUp-v1.png",
+          "roi": [
+            181,
+            558,
+            563,
+            1106
+          ],
+          "sourceUnit": 0.16427104722792607,
+          "alphaComponentArea": 79761,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 939,
+          "w": 63,
+          "h": 90,
+          "u": 4,
+          "anchor": [
+            52.0,
+            90
+          ]
+        },
+        "skillUp_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillUp-v1.png",
+          "roi": [
+            805,
+            619,
+            1174,
+            1106
+          ],
+          "sourceUnit": 0.16427104722792607,
+          "alphaComponentArea": 76502,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 916,
+          "w": 61,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            24.0,
+            80
+          ]
+        },
+        "skillDown_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillDown-v1.png",
+          "roi": [
+            72,
+            17,
+            690,
+            538
+          ],
+          "sourceUnit": 0.16359918200409,
+          "alphaComponentArea": 111611,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1196,
+          "w": 101,
+          "h": 85,
+          "u": 4,
+          "anchor": [
+            89.0,
+            85
+          ]
+        },
+        "skillDown_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillDown-v1.png",
+          "roi": [
+            759,
+            148,
+            1404,
+            533
+          ],
+          "sourceUnit": 0.16359918200409,
+          "alphaComponentArea": 99751,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1092,
+          "w": 106,
+          "h": 63,
+          "u": 4,
+          "anchor": [
+            84.0,
+            63
+          ]
+        },
+        "skillDown_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillDown-v1.png",
+          "roi": [
+            65,
+            693,
+            762,
+            996
+          ],
+          "sourceUnit": 0.16359918200409,
+          "alphaComponentArea": 93171,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 949,
+          "w": 114,
+          "h": 50,
+          "u": 4,
+          "anchor": [
+            73.0,
+            50
+          ]
+        },
+        "skillDown_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/skillDown-v1.png",
+          "roi": [
+            808,
+            524,
+            1384,
+            1013
+          ],
+          "sourceUnit": 0.16359918200409,
+          "alphaComponentArea": 101449,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1113,
+          "w": 94,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            83.0,
+            80
+          ]
+        },
+        "burst_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/burst-v1.png",
+          "roi": [
+            142,
+            248,
+            595,
+            672
+          ],
+          "sourceUnit": 0.1864801864801865,
+          "alphaComponentArea": 62827,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 873,
+          "w": 84,
+          "h": 79,
+          "u": 4,
+          "anchor": [
+            55.0,
+            79
+          ]
+        },
+        "burst_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/burst-v1.png",
+          "roi": [
+            849,
+            4,
+            1218,
+            672
+          ],
+          "sourceUnit": 0.1864801864801865,
+          "alphaComponentArea": 63888,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 908,
+          "w": 69,
+          "h": 125,
+          "u": 4,
+          "anchor": [
+            54.0,
+            125
+          ]
+        },
+        "burst_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/burst-v1.png",
+          "roi": [
+            134,
+            673,
+            667,
+            1111
+          ],
+          "sourceUnit": 0.1864801864801865,
+          "alphaComponentArea": 70988,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1052,
+          "w": 99,
+          "h": 82,
+          "u": 4,
+          "anchor": [
+            58.0,
+            82
+          ]
+        },
+        "burst_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/burst-v1.png",
+          "roi": [
+            798,
+            682,
+            1392,
+            1111
+          ],
+          "sourceUnit": 0.1864801864801865,
+          "alphaComponentArea": 67855,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1033,
+          "w": 111,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            71.0,
+            80
+          ]
+        },
+        "throwTech_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/throwTech-v1.png",
+          "roi": [
+            8,
+            54,
+            611,
+            645
+          ],
+          "sourceUnit": 0.1436265709156194,
+          "alphaComponentArea": 117936,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 988,
+          "w": 87,
+          "h": 85,
+          "u": 4,
+          "anchor": [
+            27.0,
+            85
+          ]
+        },
+        "throwTech_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/throwTech-v1.png",
+          "roi": [
+            634,
+            126,
+            1193,
+            637
+          ],
+          "sourceUnit": 0.1436265709156194,
+          "alphaComponentArea": 117862,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 967,
+          "w": 80,
+          "h": 73,
+          "u": 4,
+          "anchor": [
+            15.0,
+            73
+          ]
+        },
+        "throwTech_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/throwTech-v1.png",
+          "roi": [
+            14,
+            672,
+            600,
+            1258
+          ],
+          "sourceUnit": 0.1436265709156194,
+          "alphaComponentArea": 125889,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1026,
+          "w": 84,
+          "h": 84,
+          "u": 4,
+          "anchor": [
+            41.0,
+            84
+          ]
+        },
+        "throwTech_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/throwTech-v1.png",
+          "roi": [
+            593,
+            694,
+            1189,
+            1251
+          ],
+          "sourceUnit": 0.1436265709156194,
+          "alphaComponentArea": 121158,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1034,
+          "w": 86,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            73.0,
+            80
+          ]
+        },
+        "lumineHurt_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lumineHurt-v1.png",
+          "roi": [
+            31,
+            77,
+            586,
+            655
+          ],
+          "sourceUnit": 0.21680216802168023,
+          "alphaComponentArea": 122352,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 1015,
+          "w": 82,
+          "h": 85,
+          "u": 4,
+          "anchor": [
+            52.0,
+            84
+          ]
+        },
+        "lumineHurt_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lumineHurt-v1.png",
+          "roi": [
+            696,
+            100,
+            1285,
+            614
+          ],
+          "sourceUnit": 0.21680216802168023,
+          "alphaComponentArea": 113848,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 957,
+          "w": 87,
+          "h": 75,
+          "u": 4,
+          "anchor": [
+            63.0,
+            75
+          ]
+        },
+        "lumineHurt_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lumineHurt-v1.png",
+          "roi": [
+            48,
+            916,
+            711,
+            1134
+          ],
+          "sourceUnit": 0.21680216802168023,
+          "alphaComponentArea": 64700,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 540,
+          "w": 98,
+          "h": 32,
+          "u": 4,
+          "anchor": [
+            86.0,
+            32
+          ]
+        },
+        "lumineHurt_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lumineHurt-v1.png",
+          "roi": [
+            779,
+            788,
+            1246,
+            1157
+          ],
+          "sourceUnit": 0.21680216802168023,
+          "alphaComponentArea": 89257,
+          "anatomyScale": 0.68,
+          "canonicalMirror": false,
+          "n": 808,
+          "w": 69,
+          "h": 54,
+          "u": 4,
+          "anchor": [
+            41.5,
+            53
+          ]
+        }
+      },
+      "groups": {
+        "crouchLight": [
+          9,
+          4,
+          8,
+          8
+        ],
+        "crouchHeavy": [
+          22,
+          5,
+          14,
+          14
+        ],
+        "airLight": [
+          7,
+          8,
+          6,
+          6
+        ],
+        "airHeavy": [
+          14,
+          10,
+          10,
+          10
+        ],
+        "skill": [
+          18,
+          6,
+          12,
+          12
+        ],
+        "skillUp": [
+          20,
+          6,
+          12,
+          12
+        ],
+        "skillDown": [
+          24,
+          6,
+          12,
+          12
+        ],
+        "burst": [
+          32,
+          8,
+          17,
+          17
+        ],
+        "throwTech": [
+          18,
+          30,
+          12,
+          20
+        ],
+        "lumineHurt": [
+          20,
+          20,
+          30,
+          20
+        ]
+      },
+      "oldFramesUnchanged": true,
+      "exactQuantizedPixelReconstruction": true
+    },
+    "lawachurl": {
+      "frames": 16,
+      "mean": 983.1875,
+      "peak": 1106,
+      "newPaletteColors": 6,
+      "newFrames": {
+        "lawThrown_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawThrown-v1.png",
+          "roi": [
+            80,
+            52,
+            655,
+            495
+          ],
+          "sourceUnit": 0.1762114537444934,
+          "alphaComponentArea": 135748,
+          "anatomyScale": 1,
+          "canonicalMirror": true,
+          "n": 1019,
+          "w": 101,
+          "h": 78,
+          "u": 5.6,
+          "anchor": [
+            33.5,
+            78
+          ]
+        },
+        "lawThrown_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawThrown-v1.png",
+          "roi": [
+            877,
+            15,
+            1488,
+            511
+          ],
+          "sourceUnit": 0.1762114537444934,
+          "alphaComponentArea": 136089,
+          "anatomyScale": 1,
+          "canonicalMirror": true,
+          "n": 1007,
+          "w": 108,
+          "h": 87,
+          "u": 5.6,
+          "anchor": [
+            11.0,
+            87
+          ]
+        },
+        "lawThrown_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawThrown-v1.png",
+          "roi": [
+            70,
+            583,
+            730,
+            970
+          ],
+          "sourceUnit": 0.1762114537444934,
+          "alphaComponentArea": 144393,
+          "anatomyScale": 1,
+          "canonicalMirror": true,
+          "n": 1032,
+          "w": 116,
+          "h": 68,
+          "u": 5.6,
+          "anchor": [
+            62.0,
+            68
+          ]
+        },
+        "lawThrown_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawThrown-v1.png",
+          "roi": [
+            924,
+            540,
+            1471,
+            994
+          ],
+          "sourceUnit": 0.1762114537444934,
+          "alphaComponentArea": 146903,
+          "anatomyScale": 1,
+          "canonicalMirror": true,
+          "n": 1015,
+          "w": 96,
+          "h": 80,
+          "u": 5.6,
+          "anchor": [
+            82.0,
+            80
+          ]
+        },
+        "lawGrab_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawGrab-v1.png",
+          "roi": [
+            68,
+            22,
+            750,
+            483
+          ],
+          "sourceUnit": 0.16913319238900634,
+          "alphaComponentArea": 155865,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1025,
+          "w": 115,
+          "h": 78,
+          "u": 5.6,
+          "anchor": [
+            16.0,
+            78
+          ]
+        },
+        "lawGrab_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawGrab-v1.png",
+          "roi": [
+            804,
+            26,
+            1512,
+            483
+          ],
+          "sourceUnit": 0.16913319238900634,
+          "alphaComponentArea": 148991,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1023,
+          "w": 120,
+          "h": 77,
+          "u": 5.6,
+          "anchor": [
+            16.0,
+            77
+          ]
+        },
+        "lawGrab_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawGrab-v1.png",
+          "roi": [
+            61,
+            513,
+            787,
+            986
+          ],
+          "sourceUnit": 0.16913319238900634,
+          "alphaComponentArea": 173528,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1106,
+          "w": 123,
+          "h": 80,
+          "u": 5.6,
+          "anchor": [
+            20.0,
+            80
+          ]
+        },
+        "lawGrab_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/lawGrab-v1.png",
+          "roi": [
+            921,
+            507,
+            1446,
+            986
+          ],
+          "sourceUnit": 0.16913319238900634,
+          "alphaComponentArea": 159400,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1058,
+          "w": 89,
+          "h": 81,
+          "u": 5.6,
+          "anchor": [
+            42.0,
+            81
+          ]
+        }
+      },
+      "groups": {
+        "lawThrown": [
+          12,
+          18,
+          20,
+          20
+        ],
+        "lawGrab": [
+          18,
+          30,
+          20,
+          20
+        ]
+      },
+      "oldFramesUnchanged": true,
+      "exactQuantizedPixelReconstruction": true
+    },
+    "aether": {
+      "frames": 4,
+      "mean": 955.0,
+      "peak": 1051,
+      "newPaletteColors": 14,
+      "newFrames": {
+        "assist_0": {
+          "source": "outputs/tutorial-complete-art-20261015/source/aether-v1.png",
+          "roi": [
+            27,
+            26,
+            558,
+            598
+          ],
+          "sourceUnit": 0.145985401459854,
+          "alphaComponentArea": 100432,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1051,
+          "w": 78,
+          "h": 84,
+          "u": 4,
+          "anchor": [
+            60.0,
+            84
+          ]
+        },
+        "assist_1": {
+          "source": "outputs/tutorial-complete-art-20261015/source/aether-v1.png",
+          "roi": [
+            629,
+            37,
+            1296,
+            598
+          ],
+          "sourceUnit": 0.145985401459854,
+          "alphaComponentArea": 89403,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 908,
+          "w": 97,
+          "h": 82,
+          "u": 4,
+          "anchor": [
+            68.5,
+            82
+          ]
+        },
+        "assist_2": {
+          "source": "outputs/tutorial-complete-art-20261015/source/aether-v1.png",
+          "roi": [
+            45,
+            641,
+            815,
+            1099
+          ],
+          "sourceUnit": 0.145985401459854,
+          "alphaComponentArea": 101678,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 1024,
+          "w": 112,
+          "h": 67,
+          "u": 4,
+          "anchor": [
+            14.0,
+            67
+          ]
+        },
+        "assist_3": {
+          "source": "outputs/tutorial-complete-art-20261015/source/aether-v1.png",
+          "roi": [
+            780,
+            602,
+            1174,
+            1150
+          ],
+          "sourceUnit": 0.145985401459854,
+          "alphaComponentArea": 82319,
+          "anatomyScale": 1,
+          "canonicalMirror": false,
+          "n": 837,
+          "w": 58,
+          "h": 80,
+          "u": 4,
+          "anchor": [
+            34.0,
+            80
+          ]
+        }
+      },
+      "groups": {
+        "aether": [
+          20,
+          6,
+          19,
+          19
+        ]
+      },
+      "oldFramesUnchanged": false,
+      "exactQuantizedPixelReconstruction": true
+    }
+  },
+  "sources": {
+    "outputs/tutorial-complete-art-20261015/source/aether-v1.png": "2c15af356391adaa8bfe9c03045038d68ad8f3c83da729f7a3b872f195ab40a2",
+    "outputs/tutorial-complete-art-20261015/source/air-v1.png": "e39562f1d4658da6921ba5bf55b20467769c0413535035b54e8ef392befc4a5d",
+    "outputs/tutorial-complete-art-20261015/source/airHeavy-v1.png": "1476289182c3820a9dd8baee5b9fe54f9891bf9bfebb8a38d20c1ca26c7e7353",
+    "outputs/tutorial-complete-art-20261015/source/airLight-v1.png": "275c0d09983c1c25394517c27b6cf9c5022c255a7cef36c5f80e054eade9ef81",
+    "outputs/tutorial-complete-art-20261015/source/burst-v1.png": "85e8702156f81cec8e036e40686a2291763052e962426a93a7c0d33368c527ad",
+    "outputs/tutorial-complete-art-20261015/source/crouchHeavy-v1.png": "9b6fdd4ab11f76f8c6c11c29ed45844a62c82d537d37e83a3d62a00550ba95db",
+    "outputs/tutorial-complete-art-20261015/source/crouchLight-v1.png": "851cfe9e0d08c81a439fc6c47ea12b654a6b0fb4a298eabe8536567d23d45d4a",
+    "outputs/tutorial-complete-art-20261015/source/lawGrab-v1.png": "d8d92901594cb56970cff256d6e8d8b1c0425ae6e6e0c8c7c07c318ce483c18c",
+    "outputs/tutorial-complete-art-20261015/source/lawThrown-v1.png": "f1cf721e7f77a5d57daf9962c69e99688849c78513dabdc9bd3110a142f7839f",
+    "outputs/tutorial-complete-art-20261015/source/low-v1.png": "a2f93905f523f5bd3bd7ee91fd1b4ba472de136d6ff6beac37a46dfdd694ca0e",
+    "outputs/tutorial-complete-art-20261015/source/lumineHurt-v1.png": "bc8becfc8850e3293a0c61b3e03c7c797d3941e3de3261eb8e472f3cea499d52",
+    "outputs/tutorial-complete-art-20261015/source/skill-v1.png": "4bad14801ea02d39e7170bc7807722b6269e6f8a9b9a8cb1155bc149d040adaf",
+    "outputs/tutorial-complete-art-20261015/source/skillDown-v1.png": "766f037d37c15e364d5c0a23dc653bf434a395fa74a6509e45030e005038c685",
+    "outputs/tutorial-complete-art-20261015/source/skillUp-v1.png": "71cf28cafd1001afee0da1b2598303770d9f289fc1f607bb40bcff18b659e776",
+    "outputs/tutorial-complete-art-20261015/source/throwTech-v1.png": "e55cee988d9644b37b42898b48591056294cc1871a6fe999c777c554dfef0050"
+  }
+}

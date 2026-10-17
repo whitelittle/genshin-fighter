@@ -1,0 +1,84 @@
+[
+  {
+    "role": "mavuika",
+    "down": {
+      "selected": "hit_knockdown",
+      "time": 35,
+      "total": 51,
+      "phase": 5,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        670,
+        550
+      ],
+      "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+      "effect": null,
+      "palm": null,
+      "mirror": true,
+      "background": "light"
+    },
+    "up": {
+      "selected": "wakeup",
+      "time": 0,
+      "total": 50,
+      "phase": 0,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        670,
+        550
+      ],
+      "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+      "effect": null,
+      "palm": null,
+      "mirror": true,
+      "background": "light"
+    },
+    "sameFile": true,
+    "sameRoot": true
+  },
+  {
+    "role": "neuvillette",
+    "down": {
+      "selected": "hit_knockdown",
+      "time": 35,
+      "total": 51,
+      "phase": 5,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        670,
+        550
+      ],
+      "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+      "effect": null,
+      "palm": null,
+      "mirror": true,
+      "background": "light"
+    },
+    "up": {
+      "selected": "wakeup",
+      "time": 0,
+      "total": 50,
+      "phase": 0,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        670,
+        550
+      ],
+      "frameFile": "fit/hit_knockdown-chain-20261014-5.png",
+      "effect": null,
+      "palm": null,
+      "mirror": true,
+      "background": "light"
+    },
+    "sameFile": true,
+    "sameRoot": true
+  }
+]

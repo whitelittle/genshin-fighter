@@ -1,0 +1,1056 @@
+{
+  "date": "2026-10-11",
+  "scope": "钟离本轮25组动作库存与生成候选",
+  "activeState": "继续钟离：行走边距修复、轻攻一回收过渡与直接慢放检查",
+  "groups": [
+    {
+      "id": "idle",
+      "name": "待机",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 2,
+        "reference": "evidence/zhongli-idle-review",
+        "localFile": "review/legacy/idle.png",
+        "sha256": "6546d026a69e3965fe67d2a0e307658cbc235e043b10ee5158adc8d8b9908145"
+      },
+      "current": {
+        "status": "整理旧源；不是新重画的通过版",
+        "file": "sources/idle.png",
+        "sha256": "6546d026a69e3965fe67d2a0e307658cbc235e043b10ee5158adc8d8b9908145",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6913636525472006,
+        "opaqueBBox": [
+          131,
+          30,
+          1399,
+          985
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 2,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧母版外部残留棕色晕染，已恢复去晕染与微呼吸候选；脚位／头身比例／身份细节未验收",
+      "nextStep": "人工复核母版与两姿脚位；不按包围盒等高",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收",
+      "latestCandidate": "batches/20261011-resume/mother-clean-candidate.png"
+    },
+    {
+      "id": "walk",
+      "name": "前走",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 6,
+        "reference": "evidence/zhongli-walk-review",
+        "localFile": "review/legacy/walk.png",
+        "sha256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74"
+      },
+      "current": {
+        "status": "整理旧源；不是新重画的通过版",
+        "file": "sources/walk.png",
+        "sha256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6588973999023438,
+        "opaqueBBox": [
+          100,
+          11,
+          1437,
+          1007
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "最新稿右边距220像素，完整两鞋；四边10%留白指令未完全实现，最小30像素；身份细节、步态和腿链待复核",
+      "nextStep": "先审最新候选与其余五姿真实步态，不整组重复画",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收",
+      "latestCandidate": "batches/20261011-refinement/walk-padding-v3.png"
+    },
+    {
+      "id": "backwalk",
+      "name": "后退",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/backwalk.png",
+        "sha256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6591498057047526,
+        "opaqueBBox": [
+          98,
+          9,
+          1426,
+          999
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "jump",
+      "name": "跳跃",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 1,
+        "partialPoses": [
+          "jump"
+        ]
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/jump.png",
+        "sha256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6498165130615234,
+        "opaqueBBox": [
+          55,
+          3,
+          1477,
+          1009
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 jump 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "forwarddash",
+      "name": "前冲",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/forwarddash.png",
+        "sha256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6599311828613281,
+        "opaqueBBox": [
+          34,
+          8,
+          1519,
+          1014
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "backdash",
+      "name": "后撤",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/backdash.png",
+        "sha256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6924146016438802,
+        "opaqueBBox": [
+          69,
+          14,
+          1481,
+          1007
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "crouch",
+      "name": "蹲下",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 1,
+        "partialPoses": [
+          "crouch"
+        ]
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/crouch.png",
+        "sha256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.7171268463134766,
+        "opaqueBBox": [
+          99,
+          13,
+          1463,
+          987
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 crouch 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "standguard",
+      "name": "站立格挡",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 1,
+        "partialPoses": [
+          "guard"
+        ]
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/standguard.png",
+        "sha256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6584186553955078,
+        "opaqueBBox": [
+          92,
+          8,
+          1448,
+          1013
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 guard 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "crouchguard",
+      "name": "蹲防",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 1,
+        "partialPoses": [
+          "crouchGuard"
+        ]
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/crouchguard.png",
+        "sha256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6463451385498047,
+        "opaqueBBox": [
+          17,
+          98,
+          1489,
+          972
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 crouchGuard 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "light1",
+      "name": "轻攻一",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/continuation-batch/zhongli-light1-candidate-v1.png",
+        "localFile": "review/legacy/light1.png",
+        "sha256": "5e0d45ba27e7482a12e60876e1e84e436cc85b0901014d48052336a61697bc99"
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/light1.png",
+        "sha256": "44c6e6984bfc066ff4d87080cf7fd511151103db1bd337e6c69c7ab7566976bc",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 1.7801920572916668e-05,
+        "opaqueBBox": [
+          0,
+          0,
+          1536,
+          987
+        ],
+        "opaqueEdgePixels": [
+          624,
+          313,
+          44,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "已有第6姿提取图带邻姿残片，撤出独立新候选。新增回收第二稿，末姿复用持枪准备；枪长、两脚高差、肩胯与腿链未验收",
+      "nextStep": "用直接慢放核对连续性，不能以量化重建或头身筛查代替源图验收",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收",
+      "latestCandidate": "batches/20261011-refinement/light1-recovery-v2.png",
+      "delivery": "batches/20261011-refinement/light1-action-candidate.json"
+    },
+    {
+      "id": "light2",
+      "name": "轻攻二",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/action-candidates-20261009/zhongli-light2-body-v1.png",
+        "localFile": "review/legacy/light2.png",
+        "sha256": "5c30a8a8413230d495e0068280f19befb3a6e8ac6d6a6d2b66fa0b84aaa0eb28"
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/light2.png",
+        "sha256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6623916625976562,
+        "opaqueBBox": [
+          16,
+          68,
+          1533,
+          976
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修",
+      "nextStep": "保留身体关键姿势，返修一体持械",
+      "savedPromptFiles": [
+        "prompts/basic-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "light3",
+      "name": "轻攻三",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/action-candidates-20261009/zhongli-light3-body-v1.png",
+        "localFile": "review/legacy/light3.png",
+        "sha256": "f82f1df23fbe95796bfe07d2564ea12e214354c0733dad58c74b2e5e783adefe"
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/light3.png",
+        "sha256": "04d2549f785aa8f5d17209049067a53f6498054cd9f5b4da5d45bc4eaae9325f",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.06528345743815105,
+        "opaqueBBox": [
+          7,
+          10,
+          1517,
+          978
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修",
+      "nextStep": "保留身体关键姿势，返修一体持械",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "heavy",
+      "name": "站重",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/full-delivery-20261009/zhongli-heavy-body-full-v1.png",
+        "localFile": "review/legacy/heavy.png",
+        "sha256": "dc7fd38edb35aad54a3c8df7003aebe1d9cf15f3275fda038d78877c21cd2db6"
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/heavy.png",
+        "sha256": "d5c653fd8a8d92919c82cf93abfd5549817066815fa0f57239dc018d77821cf6",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          0,
+          46,
+          1536,
+          934
+        ],
+        "opaqueEdgePixels": [
+          200,
+          78,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修",
+      "nextStep": "保留身体关键姿势，返修一体持械",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "crouchlight",
+      "name": "蹲轻",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/full-delivery-20261009/zhongli-crouchlight-body-full-v1.png",
+        "localFile": "review/legacy/crouchlight.png",
+        "sha256": "cdf54729e7933a8bc032307f81b9ade983943fcec856176946b80cdfbe02f029"
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/crouchlight.png",
+        "sha256": "8a6c0ad52f735656f44fb37b086ef82e3ec99715754f5d26675cb014febc8d6d",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          27,
+          77,
+          1529,
+          931
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 3,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修",
+      "nextStep": "保留身体关键姿势，返修一体持械",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "crouchheavy",
+      "name": "蹲重",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/full-delivery-20261009/zhongli-crouchheavy-body-full-v1.png",
+        "localFile": "review/legacy/crouchheavy.png",
+        "sha256": "af24f29706516f66b4caf98fb7ad26b8ac610d36210f1ab931a53c174f5f32e5"
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/crouchheavy.png",
+        "sha256": "3813ef1ecb6477ad69f63e0e92e02595e086082eb6f851ec947998b54ca522cd",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.0034077962239583335,
+        "opaqueBBox": [
+          8,
+          0,
+          1536,
+          882
+        ],
+        "opaqueEdgePixels": [
+          0,
+          64,
+          158,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 7,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修",
+      "nextStep": "保留身体关键姿势，返修一体持械",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "airlight",
+      "name": "空轻",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/full-delivery-20261009/zhongli-airlight-body-full-v1.png",
+        "localFile": "review/legacy/airlight.png",
+        "sha256": "9c57799596fb5a909acdfab4682152e6b61f6968011db794b2a515d1d37987e2"
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/airlight.png",
+        "sha256": "377b18a743d620d192f9f4bdd742a36b550aeeaad25a02ddd8485f2565610544",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.009674708048502604,
+        "opaqueBBox": [
+          16,
+          45,
+          1531,
+          951
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 4,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修",
+      "nextStep": "保留身体关键姿势，返修一体持械",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "airheavy",
+      "name": "空重",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/airheavy.png",
+        "sha256": "7f56548e03556e61c9ff8769f30f6e39fb81cade362d203251ff6833b7461675",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.05606269836425781,
+        "opaqueBBox": [
+          14,
+          8,
+          1518,
+          978
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 5,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "skillE",
+      "name": "E · 地心",
+      "legacy": {
+        "status": "已有连续候选",
+        "count": 4,
+        "reference": "assets/skill-candidates/zhongli-E-body-v1.png",
+        "localFile": "review/legacy/skillE.png",
+        "sha256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893"
+      },
+      "current": {
+        "status": "整理旧源；不是新重画的通过版",
+        "file": "sources/skillE.png",
+        "sha256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.7275002797444662,
+        "opaqueBBox": [
+          201,
+          16,
+          1345,
+          1002
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 4,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "有四姿与独立岩脊；需确认掌势和释放tick",
+      "nextStep": "保留空手施术，重新对齐岩脊释放",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "skillQ",
+      "name": "Q · 天星",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 2,
+        "partialPoses": [
+          "qCharge",
+          "qRelease"
+        ]
+      },
+      "current": {
+        "status": "已生成/整理候选；仍待姿势、尺度、握点复核",
+        "file": "sources/skillQ.png",
+        "sha256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.6295496622721354,
+        "opaqueBBox": [
+          15,
+          16,
+          1431,
+          1001
+        ],
+        "opaqueEdgePixels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "substantialComponentsAtAlpha64": 6,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 qCharge,qRelease 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/attack-skill-batch.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "throw",
+      "name": "投技",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/throw.png",
+        "sha256": "68af3e7d68188978cc8eee2ccb7d7873cf223b25747903bdc386905a9040f15b",
+        "size": [
+          1024,
+          1536
+        ],
+        "transparentFraction": 7.62939453125e-06,
+        "opaqueBBox": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "opaqueEdgePixels": [
+          924,
+          630,
+          1,
+          2
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "victim",
+      "name": "被投",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/victim.png",
+        "sha256": "ed68f34841de26342705a9f90bc62b4653ab79424c6ec6fa2d27ab3934531373",
+        "size": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "opaqueEdgePixels": [
+          801,
+          722,
+          643,
+          809
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "hit_knockdown",
+      "name": "受击与倒地",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 3,
+        "partialPoses": [
+          "hurt",
+          "airHurt",
+          "down"
+        ]
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/hit_knockdown.png",
+        "sha256": "96fba9a970bad7bf1536941aff58cb7eb8d732a589b1010dca1bef524da65125",
+        "size": [
+          1024,
+          1536
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          0,
+          13,
+          1024,
+          1536
+        ],
+        "opaqueEdgePixels": [
+          990,
+          767,
+          0,
+          918
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 hurt,airHurt,down 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "wakeup",
+      "name": "起身",
+      "legacy": {
+        "status": "仅有旧单姿",
+        "count": 1,
+        "partialPoses": [
+          "getup"
+        ]
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/wakeup.png",
+        "sha256": "0c9d6c8c40066d34ac94ed17e928edbb7284fa44eecdad3f49fafa23149c0eff",
+        "size": [
+          1024,
+          1536
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "opaqueEdgePixels": [
+          1536,
+          1536,
+          935,
+          1024
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "旧roster仅有 getup 单姿，不能算完整动作",
+      "nextStep": "补连续动作；优先利用旧单姿",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "victory",
+      "name": "胜利",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/victory.png",
+        "sha256": "f766661412e271be8f7a0598afcfd1fb98871caacedb9cfb056a7001bbf0d288",
+        "size": [
+          1024,
+          1536
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "opaqueEdgePixels": [
+          935,
+          807,
+          896,
+          756
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收"
+    },
+    {
+      "id": "defeat",
+      "name": "败北",
+      "legacy": {
+        "status": "缺连续源图",
+        "count": 0,
+        "partialPoses": []
+      },
+      "current": {
+        "status": "未通过；背景或相邻姿势粘连",
+        "file": "sources/defeat.png",
+        "sha256": "f1d0b1a0f3447c8f5c5d892cabbfc399688ad08f289dc643552ae411922f9d9b",
+        "size": [
+          1024,
+          1536
+        ],
+        "transparentFraction": 0.0,
+        "opaqueBBox": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "opaqueEdgePixels": [
+          1503,
+          1227,
+          795,
+          894
+        ],
+        "substantialComponentsAtAlpha64": 1,
+        "interpretation": "组件仅筛查背景粘连/相邻人物接触；不等于动作或比例验收"
+      },
+      "accepted": false,
+      "issue": "历史交接包未找到该动作的连续源图",
+      "nextStep": "补缺；不使用普通步态代替该动作",
+      "savedPromptFiles": [
+        "prompts/remaining-and-fx.json"
+      ],
+      "status": "待审查/返修，未验收"
+    }
+  ],
+  "warnings": [
+    "候选文件存在不代表通过",
+    "未对应的生成图不要按编号猜测",
+    "全量动作构建与展示仍未完成"
+  ],
+  "latestBatch": "batches/20261011-refinement",
+  "latestDelivery": "batches/20261011-refinement/light1-action-review.html",
+  "generatedImages": 48
+}

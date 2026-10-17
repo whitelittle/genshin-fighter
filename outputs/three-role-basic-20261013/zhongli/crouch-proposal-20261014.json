@@ -1,0 +1,219 @@
+{
+  "frames": [
+    {
+      "file": "fit/crouch-strict-20261014-0.png",
+      "anchor": [
+        39,
+        81
+      ],
+      "scale": 4.5,
+      "rectData": "fit/crouch-strict-20261014-0.json",
+      "rectangles": 761
+    },
+    {
+      "file": "fit/crouch-strict-20261014-1.png",
+      "anchor": [
+        44,
+        76
+      ],
+      "scale": 4.5,
+      "rectData": "fit/crouch-strict-20261014-1.json",
+      "rectangles": 783
+    },
+    {
+      "file": "fit/crouch-strict-20261014-2.png",
+      "anchor": [
+        47,
+        67
+      ],
+      "scale": 4.5,
+      "rectData": "fit/crouch-strict-20261014-2.json",
+      "rectangles": 739
+    },
+    {
+      "file": "fit/crouch-strict-20261014-3.png",
+      "anchor": [
+        47,
+        59
+      ],
+      "scale": 4.5,
+      "rectData": "fit/crouch-strict-20261014-3.json",
+      "rectangles": 709
+    },
+    {
+      "file": "fit/crouch-strict-20261014-4.png",
+      "anchor": [
+        49,
+        55
+      ],
+      "scale": 4.5,
+      "rectData": "fit/crouch-strict-20261014-4.json",
+      "rectangles": 707
+    },
+    {
+      "file": "fit/crouch-strict-20261014-5.png",
+      "anchor": [
+        51,
+        54
+      ],
+      "scale": 4.5,
+      "rectData": "fit/crouch-strict-20261014-5.json",
+      "rectangles": 680
+    }
+  ],
+  "sourceFrames": [
+    {
+      "file": "frames/crouch-strict-20261014-0.png",
+      "source": "sources/crouch-strict-20261014.png",
+      "anchor": [
+        286,
+        621
+      ],
+      "scale": 0.57,
+      "roi": [
+        40,
+        3,
+        415,
+        596
+      ],
+      "sourceOrigin": [
+        8,
+        -29
+      ],
+      "rootKind": "manual boot support or virtual standing floor",
+      "sourceHash": "6ff1a6d9a04284fc3e3b186e26e5230e151e2c998b9e932bf5bd7379b5c1382a",
+      "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+    },
+    {
+      "file": "frames/crouch-strict-20261014-1.png",
+      "source": "sources/crouch-strict-20261014.png",
+      "anchor": [
+        324,
+        580
+      ],
+      "scale": 0.57,
+      "roi": [
+        503,
+        44,
+        897,
+        595
+      ],
+      "sourceOrigin": [
+        471,
+        12
+      ],
+      "rootKind": "manual boot support or virtual standing floor",
+      "sourceHash": "6ff1a6d9a04284fc3e3b186e26e5230e151e2c998b9e932bf5bd7379b5c1382a",
+      "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+    },
+    {
+      "file": "frames/crouch-strict-20261014-2.png",
+      "source": "sources/crouch-strict-20261014.png",
+      "anchor": [
+        354,
+        506
+      ],
+      "scale": 0.57,
+      "roi": [
+        23,
+        601,
+        447,
+        1089
+      ],
+      "sourceOrigin": [
+        -9,
+        569
+      ],
+      "rootKind": "manual boot support or virtual standing floor",
+      "sourceHash": "6ff1a6d9a04284fc3e3b186e26e5230e151e2c998b9e932bf5bd7379b5c1382a",
+      "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+    },
+    {
+      "file": "frames/crouch-strict-20261014-3.png",
+      "source": "sources/crouch-strict-20261014.png",
+      "anchor": [
+        350,
+        443
+      ],
+      "scale": 0.57,
+      "roi": [
+        508,
+        649,
+        958,
+        1091
+      ],
+      "sourceOrigin": [
+        476,
+        617
+      ],
+      "rootKind": "manual boot support or virtual standing floor",
+      "sourceHash": "6ff1a6d9a04284fc3e3b186e26e5230e151e2c998b9e932bf5bd7379b5c1382a",
+      "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+    },
+    {
+      "file": "frames/crouch-strict-20261014-4.png",
+      "source": "sources/crouch-strict-20261014.png",
+      "anchor": [
+        365,
+        412
+      ],
+      "scale": 0.57,
+      "roi": [
+        17,
+        1105,
+        486,
+        1524
+      ],
+      "sourceOrigin": [
+        -15,
+        1073
+      ],
+      "rootKind": "manual boot support or virtual standing floor",
+      "sourceHash": "6ff1a6d9a04284fc3e3b186e26e5230e151e2c998b9e932bf5bd7379b5c1382a",
+      "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+    },
+    {
+      "file": "frames/crouch-strict-20261014-5.png",
+      "source": "sources/crouch-strict-20261014.png",
+      "anchor": [
+        379,
+        410
+      ],
+      "scale": 0.57,
+      "roi": [
+        519,
+        1107,
+        984,
+        1528
+      ],
+      "sourceOrigin": [
+        487,
+        1075
+      ],
+      "rootKind": "manual boot support or virtual standing floor",
+      "sourceHash": "6ff1a6d9a04284fc3e3b186e26e5230e151e2c998b9e932bf5bd7379b5c1382a",
+      "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+    }
+  ],
+  "durations": [
+    4,
+    4,
+    4,
+    4,
+    6,
+    14
+  ],
+  "phases": [
+    "待机屈膝",
+    "髋部下沉",
+    "继续承重",
+    "低位蹲伏",
+    "重心收稳",
+    "低位保持"
+  ],
+  "events": [],
+  "status": "2026-10-14严格复核候选：源图新绘、单组等比单位与人工支撑root；肢体/握点/接缝尚待用户美术验收",
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "previewOnly": true
+}

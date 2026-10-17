@@ -1,0 +1,1636 @@
+{
+  "idle": [
+    {
+      "roi": [
+        101,
+        8,
+        686,
+        981
+      ],
+      "file": "frames/idle-0.png",
+      "source": "sources/idle.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        738,
+        7,
+        1323,
+        982
+      ],
+      "file": "frames/idle-1.png",
+      "source": "sources/idle.png",
+      "edge": false
+    }
+  ],
+  "walk": [
+    {
+      "roi": [
+        100,
+        12,
+        518,
+        506
+      ],
+      "file": "frames/walk-0.png",
+      "source": "sources/walk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        557,
+        10,
+        899,
+        506
+      ],
+      "file": "frames/walk-1.png",
+      "source": "sources/walk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        991,
+        11,
+        1423,
+        506
+      ],
+      "file": "frames/walk-2.png",
+      "source": "sources/walk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        104,
+        517,
+        522,
+        1006
+      ],
+      "file": "frames/walk-3.png",
+      "source": "sources/walk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        572,
+        517,
+        898,
+        1007
+      ],
+      "file": "frames/walk-4.png",
+      "source": "sources/walk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1005,
+        516,
+        1437,
+        1006
+      ],
+      "file": "frames/walk-5.png",
+      "source": "sources/walk.png",
+      "edge": false
+    }
+  ],
+  "backwalk": [
+    {
+      "roi": [
+        97,
+        9,
+        490,
+        500
+      ],
+      "file": "frames/backwalk-0.png",
+      "source": "sources/backwalk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        612,
+        9,
+        955,
+        499
+      ],
+      "file": "frames/backwalk-1.png",
+      "source": "sources/backwalk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1094,
+        9,
+        1423,
+        496
+      ],
+      "file": "frames/backwalk-2.png",
+      "source": "sources/backwalk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        108,
+        512,
+        459,
+        989
+      ],
+      "file": "frames/backwalk-3.png",
+      "source": "sources/backwalk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        600,
+        516,
+        938,
+        989
+      ],
+      "file": "frames/backwalk-4.png",
+      "source": "sources/backwalk.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1117,
+        514,
+        1426,
+        999
+      ],
+      "file": "frames/backwalk-5.png",
+      "source": "sources/backwalk.png",
+      "edge": false
+    }
+  ],
+  "jump": [
+    {
+      "roi": [
+        55,
+        162,
+        484,
+        525
+      ],
+      "file": "frames/jump-0.png",
+      "source": "sources/jump.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        572,
+        1,
+        977,
+        535
+      ],
+      "file": "frames/jump-1.png",
+      "source": "sources/jump.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1078,
+        28,
+        1468,
+        475
+      ],
+      "file": "frames/jump-2.png",
+      "source": "sources/jump.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        58,
+        536,
+        456,
+        960
+      ],
+      "file": "frames/jump-3.png",
+      "source": "sources/jump.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        571,
+        520,
+        975,
+        1010
+      ],
+      "file": "frames/jump-4.png",
+      "source": "sources/jump.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1085,
+        688,
+        1477,
+        1005
+      ],
+      "file": "frames/jump-5.png",
+      "source": "sources/jump.png",
+      "edge": false
+    }
+  ],
+  "forwarddash": [
+    {
+      "roi": [
+        34,
+        8,
+        365,
+        520
+      ],
+      "file": "frames/forwarddash-0.png",
+      "source": "sources/forwarddash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        501,
+        147,
+        952,
+        510
+      ],
+      "file": "frames/forwarddash-1.png",
+      "source": "sources/forwarddash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1050,
+        146,
+        1519,
+        513
+      ],
+      "file": "frames/forwarddash-2.png",
+      "source": "sources/forwarddash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        68,
+        600,
+        629,
+        960
+      ],
+      "file": "frames/forwarddash-3.png",
+      "source": "sources/forwarddash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        648,
+        633,
+        1151,
+        997
+      ],
+      "file": "frames/forwarddash-4.png",
+      "source": "sources/forwarddash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1128,
+        520,
+        1460,
+        1014
+      ],
+      "file": "frames/forwarddash-5.png",
+      "source": "sources/forwarddash.png",
+      "edge": false
+    }
+  ],
+  "backdash": [
+    {
+      "roi": [
+        98,
+        13,
+        418,
+        502
+      ],
+      "file": "frames/backdash-0.png",
+      "source": "sources/backdash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        589,
+        73,
+        975,
+        494
+      ],
+      "file": "frames/backdash-1.png",
+      "source": "sources/backdash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1094,
+        97,
+        1481,
+        494
+      ],
+      "file": "frames/backdash-2.png",
+      "source": "sources/backdash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        69,
+        529,
+        480,
+        902
+      ],
+      "file": "frames/backdash-3.png",
+      "source": "sources/backdash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        561,
+        619,
+        1019,
+        989
+      ],
+      "file": "frames/backdash-4.png",
+      "source": "sources/backdash.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1117,
+        514,
+        1450,
+        1008
+      ],
+      "file": "frames/backdash-5.png",
+      "source": "sources/backdash.png",
+      "edge": false
+    }
+  ],
+  "crouch": [
+    {
+      "roi": [
+        124,
+        13,
+        397,
+        526
+      ],
+      "file": "frames/crouch-0.png",
+      "source": "sources/crouch.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        605,
+        40,
+        922,
+        526
+      ],
+      "file": "frames/crouch-1.png",
+      "source": "sources/crouch.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1090,
+        80,
+        1407,
+        526
+      ],
+      "file": "frames/crouch-2.png",
+      "source": "sources/crouch.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        98,
+        617,
+        440,
+        987
+      ],
+      "file": "frames/crouch-3.png",
+      "source": "sources/crouch.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        610,
+        662,
+        946,
+        982
+      ],
+      "file": "frames/crouch-4.png",
+      "source": "sources/crouch.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1121,
+        668,
+        1463,
+        984
+      ],
+      "file": "frames/crouch-5.png",
+      "source": "sources/crouch.png",
+      "edge": false
+    }
+  ],
+  "standguard": [
+    {
+      "roi": [
+        118,
+        7,
+        435,
+        514
+      ],
+      "file": "frames/standguard-0.png",
+      "source": "sources/standguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        590,
+        11,
+        948,
+        515
+      ],
+      "file": "frames/standguard-1.png",
+      "source": "sources/standguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1077,
+        23,
+        1448,
+        515
+      ],
+      "file": "frames/standguard-2.png",
+      "source": "sources/standguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        92,
+        541,
+        503,
+        1012
+      ],
+      "file": "frames/standguard-3.png",
+      "source": "sources/standguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        584,
+        523,
+        948,
+        1013
+      ],
+      "file": "frames/standguard-4.png",
+      "source": "sources/standguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1086,
+        515,
+        1421,
+        1013
+      ],
+      "file": "frames/standguard-5.png",
+      "source": "sources/standguard.png",
+      "edge": false
+    }
+  ],
+  "crouchguard": [
+    {
+      "roi": [
+        16,
+        125,
+        491,
+        504
+      ],
+      "file": "frames/crouchguard-0.png",
+      "source": "sources/crouchguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        542,
+        97,
+        976,
+        505
+      ],
+      "file": "frames/crouchguard-1.png",
+      "source": "sources/crouchguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1072,
+        131,
+        1471,
+        509
+      ],
+      "file": "frames/crouchguard-2.png",
+      "source": "sources/crouchguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        27,
+        606,
+        510,
+        956
+      ],
+      "file": "frames/crouchguard-3.png",
+      "source": "sources/crouchguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        540,
+        603,
+        971,
+        964
+      ],
+      "file": "frames/crouchguard-4.png",
+      "source": "sources/crouchguard.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1064,
+        581,
+        1490,
+        973
+      ],
+      "file": "frames/crouchguard-5.png",
+      "source": "sources/crouchguard.png",
+      "edge": false
+    }
+  ],
+  "light1": [
+    {
+      "roi": [
+        96,
+        14,
+        629,
+        470
+      ],
+      "file": "frames/light1-0.png",
+      "source": "sources/light1.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        694,
+        18,
+        1220,
+        470
+      ],
+      "file": "frames/light1-1.png",
+      "source": "sources/light1.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        22,
+        504,
+        631,
+        855
+      ],
+      "file": "frames/light1-2.png",
+      "source": "sources/light1.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        673,
+        502,
+        1236,
+        856
+      ],
+      "file": "frames/light1-3.png",
+      "source": "sources/light1.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        74,
+        884,
+        669,
+        1238
+      ],
+      "file": "frames/light1-4.png",
+      "source": "sources/light1.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        136,
+        92,
+        1352,
+        1075
+      ],
+      "file": "frames/light1-5.png",
+      "source": "sources/light1-5-single-repair.png",
+      "edge": false
+    }
+  ],
+  "light2": [
+    {
+      "roi": [
+        16,
+        69,
+        497,
+        473
+      ],
+      "file": "frames/light2-0.png",
+      "source": "sources/light2.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        531,
+        67,
+        1049,
+        473
+      ],
+      "file": "frames/light2-1.png",
+      "source": "sources/light2.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1015,
+        74,
+        1534,
+        474
+      ],
+      "file": "frames/light2-2.png",
+      "source": "sources/light2.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        17,
+        563,
+        644,
+        953
+      ],
+      "file": "frames/light2-3.png",
+      "source": "sources/light2.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        611,
+        581,
+        1051,
+        957
+      ],
+      "file": "frames/light2-4.png",
+      "source": "sources/light2.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1082,
+        490,
+        1525,
+        976
+      ],
+      "file": "frames/light2-5.png",
+      "source": "sources/light2.png",
+      "edge": false
+    }
+  ],
+  "light3": [
+    {
+      "roi": [
+        134,
+        43,
+        711,
+        402
+      ],
+      "file": "frames/light3-0.png",
+      "source": "sources/light3.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        884,
+        10,
+        1248,
+        400
+      ],
+      "file": "frames/light3-1.png",
+      "source": "sources/light3.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        103,
+        434,
+        723,
+        762
+      ],
+      "file": "frames/light3-2.png",
+      "source": "sources/light3.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        728,
+        442,
+        1342,
+        757
+      ],
+      "file": "frames/light3-3.png",
+      "source": "sources/light3.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        92,
+        821,
+        728,
+        1109
+      ],
+      "file": "frames/light3-4.png",
+      "source": "sources/light3.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        816,
+        748,
+        1306,
+        1145
+      ],
+      "file": "frames/light3-5.png",
+      "source": "sources/light3.png",
+      "edge": false
+    }
+  ],
+  "heavy": [
+    {
+      "roi": [
+        67,
+        10,
+        590,
+        468
+      ],
+      "file": "frames/heavy-0.png",
+      "source": "sources/heavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        631,
+        54,
+        1237,
+        459
+      ],
+      "file": "frames/heavy-1.png",
+      "source": "sources/heavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        12,
+        504,
+        754,
+        832
+      ],
+      "file": "frames/heavy-2.png",
+      "source": "sources/heavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        662,
+        500,
+        1248,
+        832
+      ],
+      "file": "frames/heavy-3.png",
+      "source": "sources/heavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        63,
+        877,
+        646,
+        1215
+      ],
+      "file": "frames/heavy-4.png",
+      "source": "sources/heavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        735,
+        801,
+        1204,
+        1233
+      ],
+      "file": "frames/heavy-5.png",
+      "source": "sources/heavy.png",
+      "edge": false
+    }
+  ],
+  "crouchlight": [
+    {
+      "roi": [
+        28,
+        48,
+        598,
+        464
+      ],
+      "file": "frames/crouchlight-0.png",
+      "source": "sources/crouchlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        646,
+        78,
+        1240,
+        458
+      ],
+      "file": "frames/crouchlight-1.png",
+      "source": "sources/crouchlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        19,
+        490,
+        650,
+        824
+      ],
+      "file": "frames/crouchlight-2.png",
+      "source": "sources/crouchlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        649,
+        546,
+        1252,
+        824
+      ],
+      "file": "frames/crouchlight-3.png",
+      "source": "sources/crouchlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        29,
+        875,
+        634,
+        1208
+      ],
+      "file": "frames/crouchlight-4.png",
+      "source": "sources/crouchlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        667,
+        853,
+        1238,
+        1237
+      ],
+      "file": "frames/crouchlight-5.png",
+      "source": "sources/crouchlight.png",
+      "edge": false
+    }
+  ],
+  "crouchheavy": [
+    {
+      "roi": [
+        87,
+        13,
+        677,
+        349
+      ],
+      "file": "frames/crouchheavy-0.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        844,
+        5,
+        1523,
+        350
+      ],
+      "file": "frames/crouchheavy-1.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        55,
+        350,
+        794,
+        686
+      ],
+      "file": "frames/crouchheavy-2.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        14,
+        48,
+        1805,
+        852
+      ],
+      "file": "frames/crouchheavy-3.png",
+      "source": "sources/crouchheavy-3-single-repair.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        48,
+        692,
+        881,
+        1007
+      ],
+      "file": "frames/crouchheavy-4.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        836,
+        685,
+        1529,
+        1012
+      ],
+      "file": "frames/crouchheavy-5.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false
+    }
+  ],
+  "airlight": [
+    {
+      "roi": [
+        69,
+        25,
+        570,
+        443
+      ],
+      "file": "frames/airlight-0.png",
+      "source": "sources/airlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        656,
+        37,
+        1233,
+        450
+      ],
+      "file": "frames/airlight-1.png",
+      "source": "sources/airlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        32,
+        465,
+        646,
+        835
+      ],
+      "file": "frames/airlight-2.png",
+      "source": "sources/airlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        662,
+        463,
+        1244,
+        818
+      ],
+      "file": "frames/airlight-3.png",
+      "source": "sources/airlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        48,
+        827,
+        606,
+        1232
+      ],
+      "file": "frames/airlight-4.png",
+      "source": "sources/airlight.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        679,
+        829,
+        1233,
+        1232
+      ],
+      "file": "frames/airlight-5.png",
+      "source": "sources/airlight.png",
+      "edge": false
+    }
+  ],
+  "airheavy": [
+    {
+      "roi": [
+        19,
+        34,
+        506,
+        471
+      ],
+      "file": "frames/airheavy-0.png",
+      "source": "sources/airheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        523,
+        60,
+        1011,
+        500
+      ],
+      "file": "frames/airheavy-1.png",
+      "source": "sources/airheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        14,
+        551,
+        662,
+        964
+      ],
+      "file": "frames/airheavy-2.png",
+      "source": "sources/airheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        510,
+        540,
+        1023,
+        999
+      ],
+      "file": "frames/airheavy-3.png",
+      "source": "sources/airheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        33,
+        997,
+        510,
+        1493
+      ],
+      "file": "frames/airheavy-4.png",
+      "source": "sources/airheavy.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        526,
+        1000,
+        1019,
+        1529
+      ],
+      "file": "frames/airheavy-5.png",
+      "source": "sources/airheavy.png",
+      "edge": false
+    }
+  ],
+  "skillE": [
+    {
+      "roi": [
+        201,
+        16,
+        689,
+        501
+      ],
+      "file": "frames/skillE-0.png",
+      "source": "sources/skillE.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        831,
+        63,
+        1345,
+        501
+      ],
+      "file": "frames/skillE-1.png",
+      "source": "sources/skillE.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        201,
+        502,
+        694,
+        1002
+      ],
+      "file": "frames/skillE-2.png",
+      "source": "sources/skillE.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        941,
+        501,
+        1283,
+        1002
+      ],
+      "file": "frames/skillE-3.png",
+      "source": "sources/skillE.png",
+      "edge": false
+    }
+  ],
+  "skillQ": [
+    {
+      "roi": [
+        49,
+        15,
+        369,
+        511
+      ],
+      "file": "frames/skillQ-0.png",
+      "source": "sources/skillQ.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        493,
+        18,
+        881,
+        510
+      ],
+      "file": "frames/skillQ-1.png",
+      "source": "sources/skillQ.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1001,
+        17,
+        1431,
+        510
+      ],
+      "file": "frames/skillQ-2.png",
+      "source": "sources/skillQ.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        15,
+        520,
+        478,
+        1001
+      ],
+      "file": "frames/skillQ-3.png",
+      "source": "sources/skillQ.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        532,
+        521,
+        871,
+        1001
+      ],
+      "file": "frames/skillQ-4.png",
+      "source": "sources/skillQ.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        1019,
+        521,
+        1359,
+        1002
+      ],
+      "file": "frames/skillQ-5.png",
+      "source": "sources/skillQ.png",
+      "edge": false
+    }
+  ],
+  "throw": [
+    {
+      "roi": [
+        198,
+        8,
+        535,
+        423
+      ],
+      "file": "frames/throw-0.png",
+      "source": "sources/throw.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        686,
+        8,
+        1015,
+        423
+      ],
+      "file": "frames/throw-1.png",
+      "source": "sources/throw.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        203,
+        420,
+        561,
+        839
+      ],
+      "file": "frames/throw-2.png",
+      "source": "sources/throw.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        679,
+        417,
+        1045,
+        838
+      ],
+      "file": "frames/throw-3.png",
+      "source": "sources/throw.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        217,
+        837,
+        585,
+        1243
+      ],
+      "file": "frames/throw-4.png",
+      "source": "sources/throw.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        712,
+        836,
+        1048,
+        1243
+      ],
+      "file": "frames/throw-5.png",
+      "source": "sources/throw.png",
+      "edge": false
+    }
+  ],
+  "victim": [
+    {
+      "roi": [
+        124,
+        10,
+        544,
+        448
+      ],
+      "file": "frames/victim-0.png",
+      "source": "sources/victim.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        668,
+        41,
+        1184,
+        447
+      ],
+      "file": "frames/victim-1.png",
+      "source": "sources/victim.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        141,
+        486,
+        581,
+        883
+      ],
+      "file": "frames/victim-2.png",
+      "source": "sources/victim.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        690,
+        490,
+        1178,
+        842
+      ],
+      "file": "frames/victim-3.png",
+      "source": "sources/victim.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        85,
+        897,
+        606,
+        1238
+      ],
+      "file": "frames/victim-4.png",
+      "source": "sources/victim.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        674,
+        1017,
+        1200,
+        1196
+      ],
+      "file": "frames/victim-5.png",
+      "source": "sources/victim.png",
+      "edge": false
+    }
+  ],
+  "hit_knockdown": [
+    {
+      "roi": [
+        159,
+        20,
+        453,
+        527
+      ],
+      "file": "frames/hit_knockdown-0.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        693,
+        102,
+        1029,
+        507
+      ],
+      "file": "frames/hit_knockdown-1.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        115,
+        533,
+        535,
+        986
+      ],
+      "file": "frames/hit_knockdown-2.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        682,
+        582,
+        1194,
+        902
+      ],
+      "file": "frames/hit_knockdown-3.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        18,
+        1054,
+        614,
+        1213
+      ],
+      "file": "frames/hit_knockdown-4.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        632,
+        1054,
+        1235,
+        1221
+      ],
+      "file": "frames/hit_knockdown-5.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false
+    }
+  ],
+  "wakeup": [
+    {
+      "roi": [
+        12,
+        83,
+        780,
+        231
+      ],
+      "file": "frames/wakeup-0.png",
+      "source": "sources/wakeup.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        847,
+        21,
+        1525,
+        241
+      ],
+      "file": "frames/wakeup-1.png",
+      "source": "sources/wakeup.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        15,
+        285,
+        745,
+        587
+      ],
+      "file": "frames/wakeup-2.png",
+      "source": "sources/wakeup.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        885,
+        315,
+        1506,
+        598
+      ],
+      "file": "frames/wakeup-3.png",
+      "source": "sources/wakeup.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        87,
+        607,
+        512,
+        992
+      ],
+      "file": "frames/wakeup-4.png",
+      "source": "sources/wakeup.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        957,
+        583,
+        1247,
+        1016
+      ],
+      "file": "frames/wakeup-5.png",
+      "source": "sources/wakeup.png",
+      "edge": false
+    }
+  ],
+  "victory": [
+    {
+      "roi": [
+        97,
+        7,
+        415,
+        536
+      ],
+      "file": "frames/victory-0.png",
+      "source": "sources/victory.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        603,
+        8,
+        915,
+        536
+      ],
+      "file": "frames/victory-1.png",
+      "source": "sources/victory.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        98,
+        542,
+        419,
+        1069
+      ],
+      "file": "frames/victory-2.png",
+      "source": "sources/victory.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        603,
+        541,
+        927,
+        1069
+      ],
+      "file": "frames/victory-3.png",
+      "source": "sources/victory.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        107,
+        1066,
+        401,
+        1533
+      ],
+      "file": "frames/victory-4.png",
+      "source": "sources/victory.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        625,
+        1064,
+        916,
+        1534
+      ],
+      "file": "frames/victory-5.png",
+      "source": "sources/victory.png",
+      "edge": false
+    }
+  ],
+  "defeat": [
+    {
+      "roi": [
+        74,
+        14,
+        428,
+        674
+      ],
+      "file": "frames/defeat-0.png",
+      "source": "sources/defeat.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        546,
+        15,
+        848,
+        662
+      ],
+      "file": "frames/defeat-1.png",
+      "source": "sources/defeat.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        48,
+        674,
+        482,
+        1113
+      ],
+      "file": "frames/defeat-2.png",
+      "source": "sources/defeat.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        521,
+        678,
+        979,
+        1100
+      ],
+      "file": "frames/defeat-3.png",
+      "source": "sources/defeat.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        36,
+        1119,
+        524,
+        1504
+      ],
+      "file": "frames/defeat-4.png",
+      "source": "sources/defeat.png",
+      "edge": false
+    },
+    {
+      "roi": [
+        552,
+        1124,
+        980,
+        1488
+      ],
+      "file": "frames/defeat-5.png",
+      "source": "sources/defeat.png",
+      "edge": false
+    }
+  ]
+}

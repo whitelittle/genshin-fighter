@@ -1,0 +1,4009 @@
+{
+  "palette": [
+    [
+      32,
+      25,
+      24
+    ],
+    [
+      176,
+      132,
+      81
+    ],
+    [
+      248,
+      231,
+      208
+    ],
+    [
+      79,
+      52,
+      40
+    ],
+    [
+      122,
+      110,
+      106
+    ],
+    [
+      236,
+      189,
+      124
+    ],
+    [
+      119,
+      76,
+      50
+    ],
+    [
+      57,
+      44,
+      41
+    ],
+    [
+      158,
+      147,
+      144
+    ],
+    [
+      154,
+      112,
+      69
+    ],
+    [
+      99,
+      64,
+      45
+    ],
+    [
+      191,
+      155,
+      114
+    ],
+    [
+      233,
+      167,
+      81
+    ],
+    [
+      140,
+      89,
+      53
+    ],
+    [
+      192,
+      182,
+      180
+    ],
+    [
+      213,
+      174,
+      131
+    ],
+    [
+      212,
+      145,
+      71
+    ],
+    [
+      192,
+      104,
+      47
+    ],
+    [
+      45,
+      36,
+      34
+    ],
+    [
+      241,
+      208,
+      161
+    ],
+    [
+      40,
+      29,
+      27
+    ]
+  ],
+  "poses": [
+    {
+      "roi": [
+        101,
+        8,
+        686,
+        981
+      ],
+      "file": "frames/idle-0.png",
+      "source": "sources/idle.png",
+      "edge": false,
+      "id": "idle-0",
+      "index": 0,
+      "scale": 0.3407608695652174,
+      "headProjection": 120,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        271.5,
+        972.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "idle",
+      "sourceSHA256": "4772af2deaf80665d6545163fbe7d4611cf096dac3976c4175cfc08d120d2ebf",
+      "frameSHA256": "5fa2a2689221b75a746f2a5cdfd74ea58054bbee42386993bc880822efa8eead",
+      "fittedSHA256": "97e2916d703c86aa39c883ed907b338ca6eb6988841262aaab0d7afa56dbc0ce",
+      "rectangles": 611,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        738,
+        7,
+        1323,
+        982
+      ],
+      "file": "frames/idle-1.png",
+      "source": "sources/idle.png",
+      "edge": false,
+      "id": "idle-1",
+      "index": 1,
+      "scale": 0.3407608695652174,
+      "headProjection": 120,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        268.0,
+        974.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "idle",
+      "sourceSHA256": "4772af2deaf80665d6545163fbe7d4611cf096dac3976c4175cfc08d120d2ebf",
+      "frameSHA256": "780f764c4854ddcfc1603fa5cc178bf5d0b0caeff885408f18af0c7f7fabe173",
+      "fittedSHA256": "26d3f3a4e09462d3984a454f117176fb92c7e2d5701c64e0d02540563f9d3e10",
+      "rectangles": 623,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        100,
+        12,
+        518,
+        506
+      ],
+      "file": "frames/walk-0.png",
+      "source": "sources/walk.png",
+      "edge": false,
+      "id": "walk-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        152.5,
+        492.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "walk",
+      "sourceSHA256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+      "frameSHA256": "646b7e5432e178958827324ffbd3e0269c50d7a81c4123c8633e9a6e5740c4af",
+      "fittedSHA256": "f6f1a20ad70047d4e810349d1000368962b4e1827fe7ae7cdd6abf7a9220c500",
+      "rectangles": 733,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        557,
+        10,
+        899,
+        506
+      ],
+      "file": "frames/walk-1.png",
+      "source": "sources/walk.png",
+      "edge": false,
+      "id": "walk-1",
+      "index": 1,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        277.0,
+        495.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "walk",
+      "sourceSHA256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+      "frameSHA256": "dfbf1aec0aa8d01457d87afdd76c9fe33145d50cb71a16f5eaa472a6483aedb6",
+      "fittedSHA256": "93dc1fa2c68f93eff87454ca7ff83b2878e34ad29aea9e3fb720157065ab3b21",
+      "rectangles": 671,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        991,
+        11,
+        1423,
+        506
+      ],
+      "file": "frames/walk-2.png",
+      "source": "sources/walk.png",
+      "edge": false,
+      "id": "walk-2",
+      "index": 2,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        362.5,
+        493.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "walk",
+      "sourceSHA256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+      "frameSHA256": "df8e7e0895810abc66a6c416a966c7b7cc0c5f98809d67b1ff6325698b29d167",
+      "fittedSHA256": "50c59802445e60b6e2edbe1ec218ffc7ade42f737ffdb0b8f1492f35cafbfc00",
+      "rectangles": 746,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        104,
+        517,
+        522,
+        1006
+      ],
+      "file": "frames/walk-3.png",
+      "source": "sources/walk.png",
+      "edge": false,
+      "id": "walk-3",
+      "index": 3,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        347.5,
+        488.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "walk",
+      "sourceSHA256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+      "frameSHA256": "d8169a69c51cc8dffc00ea7039c627fa3ee87732ff6a03d055fc9a6bfee647f6",
+      "fittedSHA256": "2ee1ac8380660f5a25fb74c3b07300443265bf906eee5017a10c8d9220f12023",
+      "rectangles": 758,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        572,
+        517,
+        898,
+        1007
+      ],
+      "file": "frames/walk-4.png",
+      "source": "sources/walk.png",
+      "edge": false,
+      "id": "walk-4",
+      "index": 4,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        235.0,
+        489.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "walk",
+      "sourceSHA256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+      "frameSHA256": "2e89a79ab7a868f4c4ad3cd5f623183695ee26751005115e6b2008b874fb1516",
+      "fittedSHA256": "671f7f54d30c2d055fc07515e6f47629db1f8a42b2bc9da939db7bb7a4d9ec06",
+      "rectangles": 619,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1005,
+        516,
+        1437,
+        1006
+      ],
+      "file": "frames/walk-5.png",
+      "source": "sources/walk.png",
+      "edge": false,
+      "id": "walk-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        361.5,
+        489.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "walk",
+      "sourceSHA256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74",
+      "frameSHA256": "b4412874b001b824ffcfd3dad5526bdc57b98598f8a3a90d42cf838992be1e79",
+      "fittedSHA256": "c56f10c8b41e589c7b0443f132932c1086d23f6df7a6323522adedf0270786f6",
+      "rectangles": 664,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        97,
+        9,
+        490,
+        500
+      ],
+      "file": "frames/backwalk-0.png",
+      "source": "sources/backwalk.png",
+      "edge": false,
+      "id": "backwalk-0",
+      "index": 0,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        155.0,
+        490.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backwalk",
+      "sourceSHA256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+      "frameSHA256": "03935cdaf1d241f4c7cbd2f80bff8c896a11973321f3742f55945c9e106bbf12",
+      "fittedSHA256": "2e6489c0d3aecbd0fad49929b3aad69abd7e2aad34df08f1407e8dc009a2c582",
+      "rectangles": 722,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        612,
+        9,
+        955,
+        499
+      ],
+      "file": "frames/backwalk-1.png",
+      "source": "sources/backwalk.png",
+      "edge": false,
+      "id": "backwalk-1",
+      "index": 1,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        171.0,
+        489.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backwalk",
+      "sourceSHA256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+      "frameSHA256": "2ed9c6e31c8279bade64005ba178e48c83f0c31dd0a4f86f75405b7c8566279d",
+      "fittedSHA256": "72d21d94aec651169643273b80fe0478d96e635b453e4adbdcaa19a34cc4afaf",
+      "rectangles": 674,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1094,
+        9,
+        1423,
+        496
+      ],
+      "file": "frames/backwalk-2.png",
+      "source": "sources/backwalk.png",
+      "edge": false,
+      "id": "backwalk-2",
+      "index": 2,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        279.5,
+        485.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backwalk",
+      "sourceSHA256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+      "frameSHA256": "42df6ff3b074e4fb9a69206f2638e3f1dd9f9d01db8dc70a9b1974a17e7d26bf",
+      "fittedSHA256": "504258edb4f5cc1024a26cbf03269749a98f3d1e9f65202d9d9b1d767ad66dbf",
+      "rectangles": 672,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        108,
+        512,
+        459,
+        989
+      ],
+      "file": "frames/backwalk-3.png",
+      "source": "sources/backwalk.png",
+      "edge": false,
+      "id": "backwalk-3",
+      "index": 3,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        320.5,
+        476.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backwalk",
+      "sourceSHA256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+      "frameSHA256": "64bbd1f08274ca6f714e4c90ed36b45ced3552da6dfea38b244174a81ca32678",
+      "fittedSHA256": "ddb4280c1d5174b00d61484db90f4ab664ec7dc64ab1ccd99c4e01e4a656804d",
+      "rectangles": 646,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        600,
+        516,
+        938,
+        989
+      ],
+      "file": "frames/backwalk-4.png",
+      "source": "sources/backwalk.png",
+      "edge": false,
+      "id": "backwalk-4",
+      "index": 4,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        308.5,
+        471.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backwalk",
+      "sourceSHA256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+      "frameSHA256": "3da51d9d7583ea341286159841423538c1608b797be4e2e0960dff8518893ecd",
+      "fittedSHA256": "9f593e82c4f4adb294884b373fcb93db616c0c9b2f9d64ef9e8f18ff912a1e34",
+      "rectangles": 633,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1117,
+        514,
+        1426,
+        999
+      ],
+      "file": "frames/backwalk-5.png",
+      "source": "sources/backwalk.png",
+      "edge": false,
+      "id": "backwalk-5",
+      "index": 5,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        271.5,
+        484.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backwalk",
+      "sourceSHA256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718",
+      "frameSHA256": "6b36965f312186e790abdbb61e31a924b59284c58ecef0e7f6a80c31736e98dc",
+      "fittedSHA256": "ef69c7b9d3683d89676554bbd76415b4ae801fbc2ffd8c70560fc08972dc7b91",
+      "rectangles": 651,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        55,
+        162,
+        484,
+        525
+      ],
+      "file": "frames/jump-0.png",
+      "source": "sources/jump.png",
+      "edge": false,
+      "id": "jump-0",
+      "index": 0,
+      "scale": 0.6195652173913043,
+      "headProjection": 66,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        277.5,
+        362.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "jump",
+      "sourceSHA256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+      "frameSHA256": "7854d28cc7e77a47f89f1f3ffdcf12e43ccffc94e3723a2394737071c66c9aed",
+      "fittedSHA256": "84cefaa113625fb2d9b11e0da8f99fb3372707262045095f34a60bb312308899",
+      "rectangles": 641,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        572,
+        1,
+        977,
+        535
+      ],
+      "file": "frames/jump-1.png",
+      "source": "sources/jump.png",
+      "edge": false,
+      "id": "jump-1",
+      "index": 1,
+      "scale": 0.6195652173913043,
+      "headProjection": 66,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        263.25,
+        240.3
+      ],
+      "rootKind": "pelvis guide",
+      "key": "jump",
+      "sourceSHA256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+      "frameSHA256": "8b3a012c09bd734c67c8d45be11e7a24ae252ea2ccb44340560b1de5929e306b",
+      "fittedSHA256": "25635ae28f284770a479421d7d546f8ac26d158910d4e3062ffadc50ca4b3249",
+      "rectangles": 705,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1078,
+        28,
+        1468,
+        475
+      ],
+      "file": "frames/jump-2.png",
+      "source": "sources/jump.png",
+      "edge": false,
+      "id": "jump-2",
+      "index": 2,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        288.6,
+        236.91000000000003
+      ],
+      "rootKind": "pelvis guide",
+      "key": "jump",
+      "sourceSHA256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+      "frameSHA256": "7bc9e6f3371dbff7608aa99e6c124fb0490ee36f10657ef345d31dc8bcb21b84",
+      "fittedSHA256": "2b8a2cdb1c684f0dd21c34ed46e5374f7638c3a820d5d115bd88e706290a60b8",
+      "rectangles": 672,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        58,
+        536,
+        456,
+        960
+      ],
+      "file": "frames/jump-3.png",
+      "source": "sources/jump.png",
+      "edge": false,
+      "id": "jump-3",
+      "index": 3,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        262.68,
+        233.20000000000002
+      ],
+      "rootKind": "pelvis guide",
+      "key": "jump",
+      "sourceSHA256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+      "frameSHA256": "ef906c05810bcf60fb4a6a2379845b4e9b4654ea48267a1a8e86a2048fcfbef2",
+      "fittedSHA256": "9af90b6111406313e34177239a1864681e507abd7e06bd17d15d4b272aa23467",
+      "rectangles": 672,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        571,
+        520,
+        975,
+        1010
+      ],
+      "file": "frames/jump-4.png",
+      "source": "sources/jump.png",
+      "edge": false,
+      "id": "jump-4",
+      "index": 4,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        266.64,
+        269.5
+      ],
+      "rootKind": "pelvis guide",
+      "key": "jump",
+      "sourceSHA256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+      "frameSHA256": "2dd2940568208da530fa12018c6d332b9dcfb1dbd7614c9b68c1a9a9c46ea59a",
+      "fittedSHA256": "cbcf620f2e5cc6a70e68092d4a8a5fa4f57688c4350615049e7ddb1ca4bd2758",
+      "rectangles": 670,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1085,
+        688,
+        1477,
+        1005
+      ],
+      "file": "frames/jump-5.png",
+      "source": "sources/jump.png",
+      "edge": false,
+      "id": "jump-5",
+      "index": 5,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        45.0,
+        315.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "jump",
+      "sourceSHA256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be",
+      "frameSHA256": "b28c99b697abee7b11500d2301069c067981d6ed8e0985a35871187bdae8e224",
+      "fittedSHA256": "8f10d9cc62d3b9f0dcd2fedc7d71e51eda87bb028396e4834d588bae89253757",
+      "rectangles": 566,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        34,
+        8,
+        365,
+        520
+      ],
+      "file": "frames/forwarddash-0.png",
+      "source": "sources/forwarddash.png",
+      "edge": false,
+      "id": "forwarddash-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        143.0,
+        511.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "forwarddash",
+      "sourceSHA256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+      "frameSHA256": "6e42f823605f2b0ee4dce00b579faee5cea7c37b8d29e54d7f1e4008a39215d8",
+      "fittedSHA256": "861e3860762b6333532f0c6a4657d276515f71f258a4541a1a14b05119dd5e88",
+      "rectangles": 776,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        501,
+        147,
+        952,
+        510
+      ],
+      "file": "frames/forwarddash-1.png",
+      "source": "sources/forwarddash.png",
+      "edge": false,
+      "id": "forwarddash-1",
+      "index": 1,
+      "scale": 0.6013427109974424,
+      "headProjection": 68,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        120.0,
+        362.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "forwarddash",
+      "sourceSHA256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+      "frameSHA256": "a804c5e72ba7400202f039434a95a230f90d26ab61d3802cbf6ac41899fb5436",
+      "fittedSHA256": "3fb942de85d22633f1b3f35d1638027f9f5bbf03823257c89136d79610da40f1",
+      "rectangles": 618,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1050,
+        146,
+        1519,
+        513
+      ],
+      "file": "frames/forwarddash-2.png",
+      "source": "sources/forwarddash.png",
+      "edge": false,
+      "id": "forwarddash-2",
+      "index": 2,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        304.85,
+        190.84
+      ],
+      "rootKind": "pelvis guide",
+      "key": "forwarddash",
+      "sourceSHA256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+      "frameSHA256": "1c6ea28ecf16e5c68eb533a7ca5f49908d510c859ee3362d00c43468b27edf8b",
+      "fittedSHA256": "1f4d8293df473e504595e9b2dc6375a57bf6c0c37e6445e094debc64cd9a759b",
+      "rectangles": 650,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        68,
+        600,
+        629,
+        960
+      ],
+      "file": "frames/forwarddash-3.png",
+      "source": "sources/forwarddash.png",
+      "edge": false,
+      "id": "forwarddash-3",
+      "index": 3,
+      "scale": 0.6195652173913043,
+      "headProjection": 66,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        364.65000000000003,
+        187.20000000000002
+      ],
+      "rootKind": "pelvis guide",
+      "key": "forwarddash",
+      "sourceSHA256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+      "frameSHA256": "0f0600a72c8864285f3366a2ea79aede173e31d5a0e109c38fa64ef9a117c97e",
+      "fittedSHA256": "84d37c76bcd9edf896f9556a542edc650d7b334df4eb4a9fcce25423eaa41a14",
+      "rectangles": 704,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        648,
+        633,
+        1151,
+        997
+      ],
+      "file": "frames/forwarddash-4.png",
+      "source": "sources/forwarddash.png",
+      "edge": false,
+      "id": "forwarddash-4",
+      "index": 4,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        33.0,
+        363.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "forwarddash",
+      "sourceSHA256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+      "frameSHA256": "496f30ea040e73fd2c198eddaa033b4f93906ba88e1386b2af03d499ef8f47a8",
+      "fittedSHA256": "77a214b91fddc3d5b7aee937dc37c5298cdf79907267da2de65d70348b9e5e92",
+      "rectangles": 699,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1128,
+        520,
+        1460,
+        1014
+      ],
+      "file": "frames/forwarddash-5.png",
+      "source": "sources/forwarddash.png",
+      "edge": false,
+      "id": "forwarddash-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        139.5,
+        493.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "forwarddash",
+      "sourceSHA256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62",
+      "frameSHA256": "fdc4507cdc1bbd760f80d24dbeda1716003e93eff01b9a367a7839a5e66885ce",
+      "fittedSHA256": "b394c86046c14de2a71dccde55ec5542fc966297bd2903528cef512f27fc6674",
+      "rectangles": 776,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        98,
+        13,
+        418,
+        502
+      ],
+      "file": "frames/backdash-0.png",
+      "source": "sources/backdash.png",
+      "edge": false,
+      "id": "backdash-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        153.5,
+        487.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backdash",
+      "sourceSHA256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+      "frameSHA256": "ff4eb505b59561227bc1544dbc06877d91430203d648453f32bb1e2287755cea",
+      "fittedSHA256": "745c2e88016f304727ed6c680b832f8e42defc652c9e95ec61f91b6a21d2bf55",
+      "rectangles": 766,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        589,
+        73,
+        975,
+        494
+      ],
+      "file": "frames/backdash-1.png",
+      "source": "sources/backdash.png",
+      "edge": false,
+      "id": "backdash-1",
+      "index": 1,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        190.0,
+        420.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backdash",
+      "sourceSHA256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+      "frameSHA256": "cced3ff831dd203b71c8a1cf4137fbde6e1f6ef11d2d916f9ed353063b3d179b",
+      "fittedSHA256": "9878ac3d83abb831c653340ab81218cba57a98d8e2dfc749b022821e1ad314ae",
+      "rectangles": 579,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1094,
+        97,
+        1481,
+        494
+      ],
+      "file": "frames/backdash-2.png",
+      "source": "sources/backdash.png",
+      "edge": false,
+      "id": "backdash-2",
+      "index": 2,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        259.29,
+        206.44
+      ],
+      "rootKind": "pelvis guide",
+      "key": "backdash",
+      "sourceSHA256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+      "frameSHA256": "4dc289ce8d85e87489a2b9dc0aba1bf9a9078d5919b79c9a3d1872dad9aeecde",
+      "fittedSHA256": "8ec59c5bd3afaaebc29013f642b9432edf0ea8ea1d91d58db062e0e710db7b8c",
+      "rectangles": 606,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        69,
+        529,
+        480,
+        902
+      ],
+      "file": "frames/backdash-3.png",
+      "source": "sources/backdash.png",
+      "edge": false,
+      "id": "backdash-3",
+      "index": 3,
+      "scale": 0.6195652173913043,
+      "headProjection": 66,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        275.37,
+        193.96
+      ],
+      "rootKind": "pelvis guide",
+      "key": "backdash",
+      "sourceSHA256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+      "frameSHA256": "584098566dfa41befe18f1114535c8eb44f47d1ce469e02e4bac3609162edadf",
+      "fittedSHA256": "8578001ce5a7225b3f05a6d8b8570f35d314f4b064cc1f80eaf98cebc5aa52af",
+      "rectangles": 583,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        561,
+        619,
+        1019,
+        989
+      ],
+      "file": "frames/backdash-4.png",
+      "source": "sources/backdash.png",
+      "edge": false,
+      "id": "backdash-4",
+      "index": 4,
+      "scale": 0.6013427109974424,
+      "headProjection": 68,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        211.0,
+        369.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backdash",
+      "sourceSHA256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+      "frameSHA256": "0731835e52b54cfbf1996186acd544af4acb91333d7eb26ba78c6b02faed3108",
+      "fittedSHA256": "0953e11229c747f54c06d19b985fc43ffa1bfe755d425be1de49c3652f60dc9f",
+      "rectangles": 548,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1117,
+        514,
+        1450,
+        1008
+      ],
+      "file": "frames/backdash-5.png",
+      "source": "sources/backdash.png",
+      "edge": false,
+      "id": "backdash-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        146.0,
+        492.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "backdash",
+      "sourceSHA256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917",
+      "frameSHA256": "dee12b40b6dd57892532094da8e6418133344910234706842271d0f677a6dbbe",
+      "fittedSHA256": "cd3d15a88bfc53a40ad3b89583c2a378218e41344a51cea252abc44f3ed975c3",
+      "rectangles": 767,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        124,
+        13,
+        397,
+        526
+      ],
+      "file": "frames/crouch-0.png",
+      "source": "sources/crouch.png",
+      "edge": false,
+      "id": "crouch-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        124.0,
+        512.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouch",
+      "sourceSHA256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+      "frameSHA256": "1f2c143953a86ded3501d5a815c9746ea6abf88e9302abf0c5786fea686c8a9a",
+      "fittedSHA256": "71f789865ec86e18b7771df3eb6a3bde29f13a59ec0ae4ce2706e754d63c9bc9",
+      "rectangles": 706,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        605,
+        40,
+        922,
+        526
+      ],
+      "file": "frames/crouch-1.png",
+      "source": "sources/crouch.png",
+      "edge": false,
+      "id": "crouch-1",
+      "index": 1,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        157.5,
+        485.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouch",
+      "sourceSHA256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+      "frameSHA256": "ccd8f67e496ddf1f3657d497578d480ef5f664275ca5b5fe5d88bf4ed1b2f999",
+      "fittedSHA256": "73a88051b0b2b3005b1305a6099ae1c16539fb7876ca0f570461ba908e25a457",
+      "rectangles": 638,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1090,
+        80,
+        1407,
+        526
+      ],
+      "file": "frames/crouch-2.png",
+      "source": "sources/crouch.png",
+      "edge": false,
+      "id": "crouch-2",
+      "index": 2,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        159.5,
+        445.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouch",
+      "sourceSHA256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+      "frameSHA256": "337d4bf1b971219deb4f0891e5e64845a8bbde734fd5b462f227f9a0f68f581a",
+      "fittedSHA256": "ab2dc3a21084dc18c6608fa878e91b4ab26ba30bf3b7b3cc463f7152e95d392a",
+      "rectangles": 575,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        98,
+        617,
+        440,
+        987
+      ],
+      "file": "frames/crouch-3.png",
+      "source": "sources/crouch.png",
+      "edge": false,
+      "id": "crouch-3",
+      "index": 3,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        95.0,
+        369.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouch",
+      "sourceSHA256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+      "frameSHA256": "87556b76447b463a8d8bdb9baac8d244be9b55b65e0631a782043005242f592c",
+      "fittedSHA256": "4ec4446d5f835749c032d097832b8bc4de995a743179fb15550f130af0e41ec9",
+      "rectangles": 500,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        610,
+        662,
+        946,
+        982
+      ],
+      "file": "frames/crouch-4.png",
+      "source": "sources/crouch.png",
+      "edge": false,
+      "id": "crouch-4",
+      "index": 4,
+      "scale": 0.531055900621118,
+      "headProjection": 77,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        77.0,
+        319.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouch",
+      "sourceSHA256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+      "frameSHA256": "acb055667aa928f46162d5868c77f918a97fcdeacf944ef7547278b087ff4c36",
+      "fittedSHA256": "b5437b3220701036c1f5c0bf0f3dff79e7e63766848953d030ee3c42c371e78d",
+      "rectangles": 358,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1121,
+        668,
+        1463,
+        984
+      ],
+      "file": "frames/crouch-5.png",
+      "source": "sources/crouch.png",
+      "edge": false,
+      "id": "crouch-5",
+      "index": 5,
+      "scale": 0.531055900621118,
+      "headProjection": 77,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        73.0,
+        315.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouch",
+      "sourceSHA256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402",
+      "frameSHA256": "6e64ef7483812b0ff9afb3ae2c4f39a64999bde0ccc7a8215f2cdd0c4fa06f82",
+      "fittedSHA256": "5aabfb630611fa18c1074fb471137526ed49cdba8da127642cc91fce495ca700",
+      "rectangles": 357,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        118,
+        7,
+        435,
+        514
+      ],
+      "file": "frames/standguard-0.png",
+      "source": "sources/standguard.png",
+      "edge": false,
+      "id": "standguard-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        142.0,
+        506.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "standguard",
+      "sourceSHA256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+      "frameSHA256": "567a63c0ced3a3dc9f9fe981509b9e87a19cf91fef252d0e0ce529f5111c5a3a",
+      "fittedSHA256": "e01779ec03fe8b04eba4e37f900b3af22ad671ecf347649fe529d7761873100d",
+      "rectangles": 815,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        590,
+        11,
+        948,
+        515
+      ],
+      "file": "frames/standguard-1.png",
+      "source": "sources/standguard.png",
+      "edge": false,
+      "id": "standguard-1",
+      "index": 1,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        128.5,
+        503.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "standguard",
+      "sourceSHA256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+      "frameSHA256": "6c3e5d66fa871e3b41272f446db0673f9521a6067bd2dde88dde4fc0ebd0e480",
+      "fittedSHA256": "166e51ec80ad41c1adeac706206295e241499e72fdcdb05167d180f668f6c3b5",
+      "rectangles": 786,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1077,
+        23,
+        1448,
+        515
+      ],
+      "file": "frames/standguard-2.png",
+      "source": "sources/standguard.png",
+      "edge": false,
+      "id": "standguard-2",
+      "index": 2,
+      "scale": 0.6595371669004207,
+      "headProjection": 62,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        121.0,
+        491.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "standguard",
+      "sourceSHA256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+      "frameSHA256": "f2a3f0819d83afbcecdd2928fb4685fe21c54b2442db1fc1af202a8473930f17",
+      "fittedSHA256": "af7f077d5f50b946e3365bde3e04014cf895ab18b411e5efc715b2b00a787b72",
+      "rectangles": 763,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        92,
+        541,
+        503,
+        1012
+      ],
+      "file": "frames/standguard-3.png",
+      "source": "sources/standguard.png",
+      "edge": false,
+      "id": "standguard-3",
+      "index": 3,
+      "scale": 0.6595371669004207,
+      "headProjection": 62,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        166.0,
+        470.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "standguard",
+      "sourceSHA256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+      "frameSHA256": "3c56cf284d5627576a61dafe168fe03745c7274414b426aac80e382bd6cd086c",
+      "fittedSHA256": "039d4c76f4d0eed4ac6992d804fc941ad3d1bab1c713fec1c95b452ded3c4cfa",
+      "rectangles": 777,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        584,
+        523,
+        948,
+        1013
+      ],
+      "file": "frames/standguard-4.png",
+      "source": "sources/standguard.png",
+      "edge": false,
+      "id": "standguard-4",
+      "index": 4,
+      "scale": 0.6490683229813664,
+      "headProjection": 63,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        120.0,
+        488.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "standguard",
+      "sourceSHA256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+      "frameSHA256": "1127fe562240b121c85f1ea6a69ba79d11cf1a7a8c40c6ebab1c1cdd9002871b",
+      "fittedSHA256": "95eb637ac0f535a69e30c32f76aee219f98621eddcd26ebe3c111a1b8790ae8c",
+      "rectangles": 720,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1086,
+        515,
+        1421,
+        1013
+      ],
+      "file": "frames/standguard-5.png",
+      "source": "sources/standguard.png",
+      "edge": false,
+      "id": "standguard-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        154.0,
+        497.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "standguard",
+      "sourceSHA256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b",
+      "frameSHA256": "8d0a6a494a19d4fb22cb7d052a0c6abecbc38cb99000fb18d2ab26106b4c4021",
+      "fittedSHA256": "f1ff53874b92e83fe1c4bb0ae0bdf0aaa951e30b79e48a4e62d1d14f93378cdb",
+      "rectangles": 772,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        16,
+        125,
+        491,
+        504
+      ],
+      "file": "frames/crouchguard-0.png",
+      "source": "sources/crouchguard.png",
+      "edge": false,
+      "id": "crouchguard-0",
+      "index": 0,
+      "scale": 0.5601548540798094,
+      "headProjection": 73,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        81.5,
+        377.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchguard",
+      "sourceSHA256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+      "frameSHA256": "00bb381cf3698e54e05b9bd64f42f8d6a99782fd6fc3a3df283703e65207e6fd",
+      "fittedSHA256": "351d1fdc92ff1fd2f3e9ebc8fc33e0d2f5f4d8b873241fef75b8ca8a2607cd87",
+      "rectangles": 595,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        542,
+        97,
+        976,
+        505
+      ],
+      "file": "frames/crouchguard-1.png",
+      "source": "sources/crouchguard.png",
+      "edge": false,
+      "id": "crouchguard-1",
+      "index": 1,
+      "scale": 0.5601548540798094,
+      "headProjection": 73,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        81.0,
+        406.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchguard",
+      "sourceSHA256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+      "frameSHA256": "6f1947708dd3feaca813aef5b5ae015e5065f972dc90102ff77c48e8cb542072",
+      "fittedSHA256": "d9c655df5de440912a3ddd936cc664745ff4933755d67d9e4cdd6867e48a4721",
+      "rectangles": 563,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1072,
+        131,
+        1471,
+        509
+      ],
+      "file": "frames/crouchguard-2.png",
+      "source": "sources/crouchguard.png",
+      "edge": false,
+      "id": "crouchguard-2",
+      "index": 2,
+      "scale": 0.5452173913043478,
+      "headProjection": 75,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        61.0,
+        376.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchguard",
+      "sourceSHA256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+      "frameSHA256": "9fceacd81dbc012ec3cb580ea1b758c69e27d12e08d903f4fe7f4f6bf9360a2a",
+      "fittedSHA256": "0d79601fee96b62279632e4a7582d8393e751c9d61e0164a51340071bc73e14e",
+      "rectangles": 490,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        27,
+        606,
+        510,
+        956
+      ],
+      "file": "frames/crouchguard-3.png",
+      "source": "sources/crouchguard.png",
+      "edge": false,
+      "id": "crouchguard-3",
+      "index": 3,
+      "scale": 0.5380434782608695,
+      "headProjection": 76,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        81.0,
+        349.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchguard",
+      "sourceSHA256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+      "frameSHA256": "3377e40b16e598e3c1e267ee03df1f16502e84fbb01513fee595756a49711fc3",
+      "fittedSHA256": "a43a1b323b03a505748acec83e30b0295715628c4d707a934a108610f322149d",
+      "rectangles": 526,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        540,
+        603,
+        971,
+        964
+      ],
+      "file": "frames/crouchguard-4.png",
+      "source": "sources/crouchguard.png",
+      "edge": false,
+      "id": "crouchguard-4",
+      "index": 4,
+      "scale": 0.5380434782608695,
+      "headProjection": 76,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        76.0,
+        360.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchguard",
+      "sourceSHA256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+      "frameSHA256": "15db3ab4c79af455d87a607ce564a697a3a2b02f2dbb5b979201bca3c4ac91b9",
+      "fittedSHA256": "9ceb8b2b786f8e187dc9c22486adb685af80b3575da2bf6de426bc5514013eb7",
+      "rectangles": 522,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1064,
+        581,
+        1490,
+        973
+      ],
+      "file": "frames/crouchguard-5.png",
+      "source": "sources/crouchguard.png",
+      "edge": false,
+      "id": "crouchguard-5",
+      "index": 5,
+      "scale": 0.5525851938895417,
+      "headProjection": 74,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        93.5,
+        390.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchguard",
+      "sourceSHA256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6",
+      "frameSHA256": "73f97c5c64ecd793baa67066fef9b51f2f75f0d159c58cc6ccab8fdc484735e7",
+      "fittedSHA256": "87d5a07a8ab63db5ba6dd0ed586a4231be3bbf8cb938cd25045eec6cbc8a8c7d",
+      "rectangles": 549,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        96,
+        14,
+        629,
+        470
+      ],
+      "file": "frames/light1-0.png",
+      "source": "sources/light1.png",
+      "edge": false,
+      "id": "light1-0",
+      "index": 0,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        69.0,
+        454.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light1",
+      "sourceSHA256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf",
+      "frameSHA256": "776b049e208c97dcfdab28146a0500f01da0e297c8a036dcb5d84b814d22e29e",
+      "fittedSHA256": "7c034d943575e7377c2966fa6ad22e3d940a8bfb443ed1e89245451b227ef96c",
+      "rectangles": 832,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        694,
+        18,
+        1220,
+        470
+      ],
+      "file": "frames/light1-1.png",
+      "source": "sources/light1.png",
+      "edge": false,
+      "id": "light1-1",
+      "index": 1,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        45.5,
+        450.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light1",
+      "sourceSHA256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf",
+      "frameSHA256": "b07d5ed1d724e4a580a8a643cd7ebc84ef47b7b29637e1412595ebd081cd319c",
+      "fittedSHA256": "d4f19b69afce1c9cdd9950883903299a40b60b701ba237a7dd3b2a8cae1f1fdd",
+      "rectangles": 775,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        22,
+        504,
+        631,
+        855
+      ],
+      "file": "frames/light1-2.png",
+      "source": "sources/light1.png",
+      "edge": false,
+      "id": "light1-2",
+      "index": 2,
+      "scale": 0.8519021739130435,
+      "headProjection": 48,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        37.5,
+        350.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light1",
+      "sourceSHA256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf",
+      "frameSHA256": "43d0d065938767bd43bf157bb830ebab10a27e8257fae9adc0a524fbdcdc1fc5",
+      "fittedSHA256": "bd04275363bb2f2c9c517d441b57f15f3b4b08fbf89001508757c1af81cdd4ac",
+      "rectangles": 1053,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        673,
+        502,
+        1236,
+        856
+      ],
+      "file": "frames/light1-3.png",
+      "source": "sources/light1.png",
+      "edge": false,
+      "id": "light1-3",
+      "index": 3,
+      "scale": 0.8017902813299232,
+      "headProjection": 51,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        32.0,
+        353.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light1",
+      "sourceSHA256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf",
+      "frameSHA256": "6abb7b39069511b2c266871091904cbcdf1805fd051e3611cfdb99fce79205b3",
+      "fittedSHA256": "7d75bf3bd83e2b21b8190fad24e42b12f04a331093358b699cf86cd3613adb62",
+      "rectangles": 953,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        74,
+        884,
+        669,
+        1238
+      ],
+      "file": "frames/light1-4.png",
+      "source": "sources/light1.png",
+      "edge": false,
+      "id": "light1-4",
+      "index": 4,
+      "scale": 0.7434782608695653,
+      "headProjection": 55,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        27.5,
+        353.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light1",
+      "sourceSHA256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf",
+      "frameSHA256": "f5de57abbbf81aae41689310d9e3062419a5edda71549e01879700105ce22006",
+      "fittedSHA256": "86839a2b593bab836693d2d586a2ae915195120d6e65fe5fc2e789428b2e36e1",
+      "rectangles": 864,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        136,
+        92,
+        1352,
+        1075
+      ],
+      "file": "frames/light1-5.png",
+      "source": "sources/light1-5-single-repair.png",
+      "edge": false,
+      "id": "light1-5",
+      "index": 5,
+      "scale": 0.3407608695652174,
+      "headProjection": 120,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        177.5,
+        981.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light1",
+      "sourceSHA256": "2037cc74f4cc913019f66742be9d3044ca6c37fc94fea0e92bef9f74a5e64975",
+      "frameSHA256": "63191899d9a6d03f2acbe9a1f50531d37143338241a25e5868cb6be0b951aa52",
+      "fittedSHA256": "d4702637721606a1daa5edee7f01f68783d5836a5bbf025fa775b430765f02c2",
+      "rectangles": 1097,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        16,
+        69,
+        497,
+        473
+      ],
+      "file": "frames/light2-0.png",
+      "source": "sources/light2.png",
+      "edge": false,
+      "id": "light2-0",
+      "index": 0,
+      "scale": 0.6595371669004207,
+      "headProjection": 62,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        141.0,
+        403.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light2",
+      "sourceSHA256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+      "frameSHA256": "f7c7eb75cfc166fae97dc47363ea9676e25731180b969ef0329f8b95d0397c08",
+      "fittedSHA256": "6658e7073b17ed7061d92fa967b653eb3fcd5407971b869b634c7539b75345cf",
+      "rectangles": 675,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        531,
+        67,
+        1049,
+        473
+      ],
+      "file": "frames/light2-1.png",
+      "source": "sources/light2.png",
+      "edge": false,
+      "id": "light2-1",
+      "index": 1,
+      "scale": 0.6595371669004207,
+      "headProjection": 62,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        76.5,
+        405.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light2",
+      "sourceSHA256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+      "frameSHA256": "63c38f235624e16e1b49af163513b63daa71d6c55402a3b2a4a26c16837371b4",
+      "fittedSHA256": "ed2dd424da8e3a31298308f270a32e519898ab486f7132157895a504c294cd2f",
+      "rectangles": 649,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1015,
+        74,
+        1534,
+        474
+      ],
+      "file": "frames/light2-2.png",
+      "source": "sources/light2.png",
+      "edge": false,
+      "id": "light2-2",
+      "index": 2,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        60.5,
+        398.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light2",
+      "sourceSHA256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+      "frameSHA256": "a7a012cf20ccc10e4f0950460949b779e23e7addf74a6dfd6241e61cb9517a0b",
+      "fittedSHA256": "4158ffc3b06e934784a35ffe54ee41e7ef57667b12d0b81c0b59f07e5e99b5fe",
+      "rectangles": 638,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        17,
+        563,
+        644,
+        953
+      ],
+      "file": "frames/light2-3.png",
+      "source": "sources/light2.png",
+      "edge": false,
+      "id": "light2-3",
+      "index": 3,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        67.5,
+        389.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light2",
+      "sourceSHA256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+      "frameSHA256": "b799d5a823429d78e7dee2d8bf686869c9a474e069d260eeecff501ab2a9e1f1",
+      "fittedSHA256": "f4a79a1b6e16144a516d96ad5ae65eb6521a71ccf2c6304ae080f27c8d80d57d",
+      "rectangles": 620,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        611,
+        581,
+        1051,
+        957
+      ],
+      "file": "frames/light2-4.png",
+      "source": "sources/light2.png",
+      "edge": false,
+      "id": "light2-4",
+      "index": 4,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        384.0,
+        374.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light2",
+      "sourceSHA256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+      "frameSHA256": "d761be2cafe25154c011a8af3bfdeea65db081e621f5627414833bd384bdb14d",
+      "fittedSHA256": "3309a99c21ba3ff638071c35693d1e5a2f5b1a60ff2e6d2b7e980a6e03a26df9",
+      "rectangles": 642,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1082,
+        490,
+        1525,
+        976
+      ],
+      "file": "frames/light2-5.png",
+      "source": "sources/light2.png",
+      "edge": false,
+      "id": "light2-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        118.0,
+        485.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light2",
+      "sourceSHA256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b",
+      "frameSHA256": "e48eebedb38aea80fc5d1134458e2af174ed6c8c394fd57d0c1121074e026cc1",
+      "fittedSHA256": "4db65125ae4358122c78400f7bb38ff1cfcc7fb77f9457b7823dbce07cc9d528",
+      "rectangles": 722,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        134,
+        43,
+        711,
+        402
+      ],
+      "file": "frames/light3-0.png",
+      "source": "sources/light3.png",
+      "edge": false,
+      "id": "light3-0",
+      "index": 0,
+      "scale": 0.7434782608695653,
+      "headProjection": 55,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        340.0,
+        358.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light3",
+      "sourceSHA256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be",
+      "frameSHA256": "9554d9b2c590829c14d82d91575eafbabe55b23cd70a6379c154cfc523f5eed3",
+      "fittedSHA256": "dc19a2397b6d95bb69d0e501a09b9569c6366525496834e9d14c31fc50c9926a",
+      "rectangles": 947,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        884,
+        10,
+        1248,
+        400
+      ],
+      "file": "frames/light3-1.png",
+      "source": "sources/light3.png",
+      "edge": false,
+      "id": "light3-1",
+      "index": 1,
+      "scale": 0.8519021739130435,
+      "headProjection": 48,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        340.0,
+        389.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light3",
+      "sourceSHA256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be",
+      "frameSHA256": "3778e73ac129d7e481f23d8d91743962ac9eba6b9a48d916c25d1ac69d039cb8",
+      "fittedSHA256": "3379918c0d6b4bb6c0c9e14b64e9ea3f990a142b33b5915d6675a6887aff374b",
+      "rectangles": 927,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        103,
+        434,
+        723,
+        762
+      ],
+      "file": "frames/light3-2.png",
+      "source": "sources/light3.png",
+      "edge": false,
+      "id": "light3-2",
+      "index": 2,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        429.5,
+        327.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light3",
+      "sourceSHA256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be",
+      "frameSHA256": "50e99dab0400237fa90c1450aa173295ebea6e9bfbe88687e779d1bbdaeac4b4",
+      "fittedSHA256": "ca4c7ce39ef3cb1027ce80f2e74067b2261085121021e54b04195475effc66b5",
+      "rectangles": 816,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        728,
+        442,
+        1342,
+        757
+      ],
+      "file": "frames/light3-3.png",
+      "source": "sources/light3.png",
+      "edge": false,
+      "id": "light3-3",
+      "index": 3,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        43.0,
+        313.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light3",
+      "sourceSHA256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be",
+      "frameSHA256": "3535d61467cdadf262c736823c29a7b4fb7a32183760535969f3c6b3538440c0",
+      "fittedSHA256": "0302b999fa49aa2832f98d73760d332ffe5e678c0912190b593b332b2520c934",
+      "rectangles": 709,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        92,
+        821,
+        728,
+        1109
+      ],
+      "file": "frames/light3-4.png",
+      "source": "sources/light3.png",
+      "edge": false,
+      "id": "light3-4",
+      "index": 4,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        437.5,
+        286.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light3",
+      "sourceSHA256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be",
+      "frameSHA256": "ec9d36c63f4a4e607531f9d2d3b9ba805b261b906ac8a4ba77442befe1ddb2bc",
+      "fittedSHA256": "12b1afa8e3b874c62bbf9b7ecdf7df58191f3f1025a9f9c2b1ac06fa089e97ff",
+      "rectangles": 684,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        816,
+        748,
+        1306,
+        1145
+      ],
+      "file": "frames/light3-5.png",
+      "source": "sources/light3.png",
+      "edge": false,
+      "id": "light3-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        100.0,
+        395.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "light3",
+      "sourceSHA256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be",
+      "frameSHA256": "b11811d1b16032c56aeb984911a6a3b5a31df04ac69c529c9a26a9c016f76f5c",
+      "fittedSHA256": "309e44e763debe8e8e0c48f20e4683c4f8adb4219d4b91f42a0265eb142e0f81",
+      "rectangles": 730,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        67,
+        10,
+        590,
+        468
+      ],
+      "file": "frames/heavy-0.png",
+      "source": "sources/heavy.png",
+      "edge": false,
+      "id": "heavy-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        158.5,
+        456.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "heavy",
+      "sourceSHA256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8",
+      "frameSHA256": "90048928e5a48e4df752f00c1f13407191ee25fa99467f4602430c1aacb92bf6",
+      "fittedSHA256": "fa6d19e5aabcf8a7d8ea3f30e33730405139941336789c8fcfe0338313f81a1d",
+      "rectangles": 831,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        631,
+        54,
+        1237,
+        459
+      ],
+      "file": "frames/heavy-1.png",
+      "source": "sources/heavy.png",
+      "edge": false,
+      "id": "heavy-1",
+      "index": 1,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        55.0,
+        403.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "heavy",
+      "sourceSHA256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8",
+      "frameSHA256": "5a56f6d799a9cc79eea0c34fe0d1a7d50997be9e9c470d5111ce6466bc334763",
+      "fittedSHA256": "d6b0d86e260afc3b9f157bdd0d24b0d12429166a5bceaaa28e1f6cd55edad58c",
+      "rectangles": 902,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        12,
+        504,
+        754,
+        832
+      ],
+      "file": "frames/heavy-2.png",
+      "source": "sources/heavy.png",
+      "edge": false,
+      "id": "heavy-2",
+      "index": 2,
+      "scale": 0.7863712374581939,
+      "headProjection": 52,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        36.0,
+        326.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "heavy",
+      "sourceSHA256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8",
+      "frameSHA256": "f1e922df4f2a1918d447c99afff64a70611f21115268d9378deb6abdecf6793b",
+      "fittedSHA256": "30703ca2aa02b1303bbbc69df7886ccb6d270c4d322055679b9c04e5c5e8bce5",
+      "rectangles": 994,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        662,
+        500,
+        1248,
+        832
+      ],
+      "file": "frames/heavy-3.png",
+      "source": "sources/heavy.png",
+      "edge": false,
+      "id": "heavy-3",
+      "index": 3,
+      "scale": 0.7434782608695653,
+      "headProjection": 55,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        391.0,
+        331.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "heavy",
+      "sourceSHA256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8",
+      "frameSHA256": "fb1d3d5cd73dea2163a40870d646356ab50cd36fe8c82cc0f5be301b909e6031",
+      "fittedSHA256": "4101e9f9f6270fcb2f3c2032ba981b4cb3b3f682744c3bad280172d39c662f8a",
+      "rectangles": 825,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        63,
+        877,
+        646,
+        1215
+      ],
+      "file": "frames/heavy-4.png",
+      "source": "sources/heavy.png",
+      "edge": false,
+      "id": "heavy-4",
+      "index": 4,
+      "scale": 0.7434782608695653,
+      "headProjection": 55,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        22.0,
+        337.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "heavy",
+      "sourceSHA256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8",
+      "frameSHA256": "3517a51d0525dede3c39b4c1b2baebf1f8271092656287c30c26751e76e43539",
+      "fittedSHA256": "beb74b16c29822a26d08e6e7af95c269ab4a3cf09c0381069bfcd62737514aa4",
+      "rectangles": 828,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        735,
+        801,
+        1204,
+        1233
+      ],
+      "file": "frames/heavy-5.png",
+      "source": "sources/heavy.png",
+      "edge": false,
+      "id": "heavy-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        102.5,
+        430.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "heavy",
+      "sourceSHA256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8",
+      "frameSHA256": "a16ab8f10f749bdb322654da7465c77fd70ab8d7ccb6188157f018b1d36415cd",
+      "fittedSHA256": "32795462994bf6d504bd478ca1fcf540780c0eb2ab3d2854c4a7fa0ae4556b3d",
+      "rectangles": 772,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        28,
+        48,
+        598,
+        464
+      ],
+      "file": "frames/crouchlight-0.png",
+      "source": "sources/crouchlight.png",
+      "edge": false,
+      "id": "crouchlight-0",
+      "index": 0,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        126.0,
+        415.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchlight",
+      "sourceSHA256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e",
+      "frameSHA256": "84b0bc6f70c63ba02ae47786aace6daa6359ce5f6653031193cde5d9a2860d88",
+      "fittedSHA256": "609b2a7b6ea8eb7d50cc94b85d1ca2c38317774e0657973f4388fd6a25beee2a",
+      "rectangles": 733,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        646,
+        78,
+        1240,
+        458
+      ],
+      "file": "frames/crouchlight-1.png",
+      "source": "sources/crouchlight.png",
+      "edge": false,
+      "id": "crouchlight-1",
+      "index": 1,
+      "scale": 0.6595371669004207,
+      "headProjection": 62,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        97.0,
+        379.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchlight",
+      "sourceSHA256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e",
+      "frameSHA256": "39a901d6f7c717a5f41b9b7e3de064000a6f2a3ac4748b1742a447fb16310548",
+      "fittedSHA256": "47769d02e8b9861871fd7d33a8c189951a1ca6a0e87b3fe55a08402bf3b23b40",
+      "rectangles": 740,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        19,
+        490,
+        650,
+        824
+      ],
+      "file": "frames/crouchlight-2.png",
+      "source": "sources/crouchlight.png",
+      "edge": false,
+      "id": "crouchlight-2",
+      "index": 2,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        48.0,
+        332.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchlight",
+      "sourceSHA256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e",
+      "frameSHA256": "86178dd6f81f7fc0a109abbeeba9758f272f865f5ea073705364199cde20e9d1",
+      "fittedSHA256": "5c1e8fbd2d69d4ab75c8edf0d32b7a111f5ad6b62869f6b157a3b2893c496b3f",
+      "rectangles": 752,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        649,
+        546,
+        1252,
+        824
+      ],
+      "file": "frames/crouchlight-3.png",
+      "source": "sources/crouchlight.png",
+      "edge": false,
+      "id": "crouchlight-3",
+      "index": 3,
+      "scale": 0.6595371669004207,
+      "headProjection": 62,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        116.5,
+        277.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchlight",
+      "sourceSHA256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e",
+      "frameSHA256": "e775201fc63af58c58c84509274aeb6f8b82a7eede2dd2f7f351c2cfa797d0f9",
+      "fittedSHA256": "c21393656b7b9f5e3805c6001564cf1c5d4a7ae6e35633205b35a40d32dd73d2",
+      "rectangles": 660,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        29,
+        875,
+        634,
+        1208
+      ],
+      "file": "frames/crouchlight-4.png",
+      "source": "sources/crouchlight.png",
+      "edge": false,
+      "id": "crouchlight-4",
+      "index": 4,
+      "scale": 0.6490683229813664,
+      "headProjection": 63,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        50.5,
+        332.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchlight",
+      "sourceSHA256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e",
+      "frameSHA256": "cf1a554b70f42811ee0af123a6228be867688a1951d8e71d60a20467212ae505",
+      "fittedSHA256": "627600c7f255c2e944e4892dff1a043f87edd0d49e7c9cdc0767eae8075fce41",
+      "rectangles": 747,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        667,
+        853,
+        1238,
+        1237
+      ],
+      "file": "frames/crouchlight-5.png",
+      "source": "sources/crouchlight.png",
+      "edge": false,
+      "id": "crouchlight-5",
+      "index": 5,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        131.5,
+        383.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchlight",
+      "sourceSHA256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e",
+      "frameSHA256": "3e8138d794570e106af7b399eb05f67d5009a1b0425ac9ab46652f6cb24ae5c2",
+      "fittedSHA256": "c94e6843bc07105a887f248b7a0e0a27c4a5bca34fcef55899d5ebbe6b83b3fe",
+      "rectangles": 735,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        87,
+        13,
+        677,
+        349
+      ],
+      "file": "frames/crouchheavy-0.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false,
+      "id": "crouchheavy-0",
+      "index": 0,
+      "scale": 0.5111413043478261,
+      "headProjection": 80,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        243.0,
+        335.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchheavy",
+      "sourceSHA256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2",
+      "frameSHA256": "a6bfaee76887695713da00c82140d7d2b3f9bb0ca6bf1bdea157ced74e80af97",
+      "fittedSHA256": "31ae0227f94adc694d7bdef553b0bef033c3ca3b39cf23244322f109c54d378e",
+      "rectangles": 586,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        844,
+        5,
+        1523,
+        350
+      ],
+      "file": "frames/crouchheavy-1.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false,
+      "id": "crouchheavy-1",
+      "index": 1,
+      "scale": 0.5452173913043478,
+      "headProjection": 75,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        185.0,
+        344.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchheavy",
+      "sourceSHA256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2",
+      "frameSHA256": "762616d9ffde7b43e4270a8ec661d8c010bca8e7952fb692f3e045f08642712f",
+      "fittedSHA256": "2cb546b18fb0ac9f4aa2c06555fe6bd139b1b11b531edf34fc8d2f48ef74f90b",
+      "rectangles": 799,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        55,
+        350,
+        794,
+        686
+      ],
+      "file": "frames/crouchheavy-2.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false,
+      "id": "crouchheavy-2",
+      "index": 2,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        126.0,
+        334.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchheavy",
+      "sourceSHA256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2",
+      "frameSHA256": "923135866e5f3db10e13e4e6889dfda126654537bb5384c540d4582fa29e6cf3",
+      "fittedSHA256": "4daf1bbf958f799ae8472895ad31b085c8bd7af03bfe371549088d4a5d692964",
+      "rectangles": 677,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        14,
+        48,
+        1805,
+        852
+      ],
+      "file": "frames/crouchheavy-3.png",
+      "source": "sources/crouchheavy-3-single-repair.png",
+      "edge": false,
+      "id": "crouchheavy-3",
+      "index": 3,
+      "scale": 0.20445652173913043,
+      "headProjection": 200,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        314.5,
+        802.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchheavy",
+      "sourceSHA256": "a523824c6574ab316d7fe65508472ab617fa089ee7343fd97cc4aec123a1015a",
+      "frameSHA256": "7d9e17ccf5af3ca5759ff1968085e75f63135a154e84f77cce10ac395a7df417",
+      "fittedSHA256": "89307e63f10b29c3c99782e204931e3c5cda39d8951f6515cea0c24f75b243db",
+      "rectangles": 622,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        48,
+        692,
+        881,
+        1007
+      ],
+      "file": "frames/crouchheavy-4.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false,
+      "id": "crouchheavy-4",
+      "index": 4,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        707.5,
+        314.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchheavy",
+      "sourceSHA256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2",
+      "frameSHA256": "8fdad6e5d3e26687ef1f126ed828c2e7c1d83e83f71d6add8dbb22696f019a11",
+      "fittedSHA256": "49f538bf48165920a4c75ba370fbfe7adacc5b409f336627fe9419d1209ae45b",
+      "rectangles": 749,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        836,
+        685,
+        1529,
+        1012
+      ],
+      "file": "frames/crouchheavy-5.png",
+      "source": "sources/crouchheavy.png",
+      "edge": false,
+      "id": "crouchheavy-5",
+      "index": 5,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        248.0,
+        326.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "crouchheavy",
+      "sourceSHA256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2",
+      "frameSHA256": "dfbc8625069f5de80a8ffdf3af3c4cd4dac27e5637454e0f726c06bf1d2c7aa4",
+      "fittedSHA256": "140a0908c03bdd030d72dcbda260ff54eb16c87c113eefa92cf4a32e64636ae8",
+      "rectangles": 771,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        69,
+        25,
+        570,
+        443
+      ],
+      "file": "frames/airlight-0.png",
+      "source": "sources/airlight.png",
+      "edge": false,
+      "id": "airlight-0",
+      "index": 0,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        305.61,
+        250.79999999999998
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airlight",
+      "sourceSHA256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5",
+      "frameSHA256": "8c57782113b2dd80ad6ef42802714bdbd3442dc27587444f613a53f1d4c5fe4b",
+      "fittedSHA256": "0de2192b0459ae2035deec9a1c07044d31ba4f793fdbfda5ab3024e1d2064da9",
+      "rectangles": 793,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        656,
+        37,
+        1233,
+        450
+      ],
+      "file": "frames/airlight-1.png",
+      "source": "sources/airlight.png",
+      "edge": false,
+      "id": "airlight-1",
+      "index": 1,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        351.96999999999997,
+        247.79999999999998
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airlight",
+      "sourceSHA256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5",
+      "frameSHA256": "6bbd7ae067e409237e047552676d9510da7aee9e01d84fd8b02465eec6c9c903",
+      "fittedSHA256": "c2d898e9652b079ca1a51ca2d9000aa4ca5f87c62e7836c4f140de57c5fd9e98",
+      "rectangles": 728,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        32,
+        465,
+        646,
+        835
+      ],
+      "file": "frames/airlight-2.png",
+      "source": "sources/airlight.png",
+      "edge": false,
+      "id": "airlight-2",
+      "index": 2,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        374.53999999999996,
+        222.0
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airlight",
+      "sourceSHA256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5",
+      "frameSHA256": "5e6fd697f0f5a791b098e05349c892c76ddb9287b84f55a14f2e6e28b8c93ae9",
+      "fittedSHA256": "ed2a5e7d73a629772213efe72393db474593bdf16c8d5c1f1cc92b726eb92a7c",
+      "rectangles": 759,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        662,
+        463,
+        1244,
+        818
+      ],
+      "file": "frames/airlight-3.png",
+      "source": "sources/airlight.png",
+      "edge": false,
+      "id": "airlight-3",
+      "index": 3,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        355.02,
+        213.0
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airlight",
+      "sourceSHA256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5",
+      "frameSHA256": "7cbdc111861c28e36ac395287c0b323e733eef6970cbf9d6e288624489d11d43",
+      "fittedSHA256": "d95bf068fa4a84e10e7d708f497ddddb6174d271b476b0777dc3358623a5cd53",
+      "rectangles": 796,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        48,
+        827,
+        606,
+        1232
+      ],
+      "file": "frames/airlight-4.png",
+      "source": "sources/airlight.png",
+      "edge": false,
+      "id": "airlight-4",
+      "index": 4,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        340.38,
+        243.0
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airlight",
+      "sourceSHA256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5",
+      "frameSHA256": "4d4b8342019eb5012453783a676f0cf95c02ee830aeaa3641d66495ed5bca8e1",
+      "fittedSHA256": "12dc3e0213dab90d19412982eaa554465622af14e11c909825ffe1d815d76261",
+      "rectangles": 769,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        679,
+        829,
+        1233,
+        1232
+      ],
+      "file": "frames/airlight-5.png",
+      "source": "sources/airlight.png",
+      "edge": false,
+      "id": "airlight-5",
+      "index": 5,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        337.94,
+        241.79999999999998
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airlight",
+      "sourceSHA256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5",
+      "frameSHA256": "88ad5446fe40ccf21118a2f8fc7927e70facb11af4aeb1ed4c170dd1c68e7a39",
+      "fittedSHA256": "fab389549e79d383500066ba4e9f1873fc2c7a08b67513b7e839a5f9672d1e8a",
+      "rectangles": 791,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        19,
+        34,
+        506,
+        471
+      ],
+      "file": "frames/airheavy-0.png",
+      "source": "sources/airheavy.png",
+      "edge": false,
+      "id": "airheavy-0",
+      "index": 0,
+      "scale": 0.6195652173913043,
+      "headProjection": 66,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        297.07,
+        253.45999999999998
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airheavy",
+      "sourceSHA256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643",
+      "frameSHA256": "8da23a6633e9fdcc6e07abf9e1dbfdb9b72e40c50911cb57dab078eae84dd13f",
+      "fittedSHA256": "9b31b9610e628518ac3f7ed9db196fbf60457860662dd62ac49e02eead036046",
+      "rectangles": 827,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        523,
+        60,
+        1011,
+        500
+      ],
+      "file": "frames/airheavy-1.png",
+      "source": "sources/airheavy.png",
+      "edge": false,
+      "id": "airheavy-1",
+      "index": 1,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        297.68,
+        255.2
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airheavy",
+      "sourceSHA256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643",
+      "frameSHA256": "0f08c66e364ed2ab74d2360cbe078f406c381c063d9ed4e15315d8c7e66389b8",
+      "fittedSHA256": "2b2c9a05b871a3a2b88139b07c87581c8a73d64c7285dd42c8418f078ba64d8b",
+      "rectangles": 780,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        14,
+        551,
+        662,
+        964
+      ],
+      "file": "frames/airheavy-2.png",
+      "source": "sources/airheavy.png",
+      "edge": false,
+      "id": "airheavy-2",
+      "index": 2,
+      "scale": 0.6389266304347826,
+      "headProjection": 64,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        395.28,
+        239.54
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airheavy",
+      "sourceSHA256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643",
+      "frameSHA256": "26ea383e557699e6083d509113be4497a12f0caa5a91c9494b8ad87d6584fe00",
+      "fittedSHA256": "08902b72ccf1e4e7cc49512f479dbbc8ae1283ef248c374e9eabaa404ec1643a",
+      "rectangles": 751,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        510,
+        540,
+        1023,
+        999
+      ],
+      "file": "frames/airheavy-3.png",
+      "source": "sources/airheavy.png",
+      "edge": false,
+      "id": "airheavy-3",
+      "index": 3,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        312.93,
+        266.21999999999997
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airheavy",
+      "sourceSHA256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643",
+      "frameSHA256": "6e3968d3c87997c1d6dbf42e35415e6206e1457ef9912ce23a077a708e6ead5a",
+      "fittedSHA256": "24319d5eec445bd6796ede31ee4a3b06328b56fc32fc842169388759253e7ad2",
+      "rectangles": 902,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        33,
+        997,
+        510,
+        1493
+      ],
+      "file": "frames/airheavy-4.png",
+      "source": "sources/airheavy.png",
+      "edge": false,
+      "id": "airheavy-4",
+      "index": 4,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        290.96999999999997,
+        287.68
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airheavy",
+      "sourceSHA256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643",
+      "frameSHA256": "600b3ad3bad722a343eacd869608e53f05fe920a0f845af747cb8c5c6fd130c5",
+      "fittedSHA256": "17e467703c64563813d72335b01032d8810e313f77c34b6b0bb4edac5e1438cc",
+      "rectangles": 876,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        526,
+        1000,
+        1019,
+        1529
+      ],
+      "file": "frames/airheavy-5.png",
+      "source": "sources/airheavy.png",
+      "edge": false,
+      "id": "airheavy-5",
+      "index": 5,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        300.73,
+        306.82
+      ],
+      "rootKind": "pelvis guide",
+      "key": "airheavy",
+      "sourceSHA256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643",
+      "frameSHA256": "cfd22d724e92b8d8e5c4a6c668c578ee476022966d6d79fc7fb9eb7c43e7b892",
+      "fittedSHA256": "00691d78a4f663ca2722ec96aa6d53617f13bdc26617a99e4764009fd85e7972",
+      "rectangles": 805,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        201,
+        16,
+        689,
+        501
+      ],
+      "file": "frames/skillE-0.png",
+      "source": "sources/skillE.png",
+      "edge": false,
+      "id": "skillE-0",
+      "index": 0,
+      "scale": 0.6490683229813664,
+      "headProjection": 63,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        191.5,
+        484.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillE",
+      "sourceSHA256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893",
+      "frameSHA256": "0ba5164607ca15e876308d7ddbf8f06cead8d3fa6f838891f6e2024a1d9e09ff",
+      "fittedSHA256": "a819904afd6553f1e9683eb5c84e70692993d06e42400767378fc23522bb7a7b",
+      "rectangles": 846,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        831,
+        63,
+        1345,
+        501
+      ],
+      "file": "frames/skillE-1.png",
+      "source": "sources/skillE.png",
+      "edge": false,
+      "id": "skillE-1",
+      "index": 1,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        480.0,
+        437.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillE",
+      "sourceSHA256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893",
+      "frameSHA256": "1de90bf1e57bcb58f3b4c75b55f81624cd9fb3f2e51a7d7c1feaff57a532d47e",
+      "fittedSHA256": "45651f7d85f65c45964035c13ba6cc0b769817edf02d5de3124efdf3047e4cd1",
+      "rectangles": 852,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        201,
+        502,
+        694,
+        1002
+      ],
+      "file": "frames/skillE-2.png",
+      "source": "sources/skillE.png",
+      "edge": false,
+      "id": "skillE-2",
+      "index": 2,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        155.0,
+        499.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillE",
+      "sourceSHA256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893",
+      "frameSHA256": "9611ab54f1b775bc8ecea47eebe3d7facd13fc2a8942ef728b2b7cb88d6dc529",
+      "fittedSHA256": "155570d226376ad82e42bb79c3a228f60203b34743b63f0d4dc806fdbd75f472",
+      "rectangles": 1008,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        941,
+        501,
+        1283,
+        1002
+      ],
+      "file": "frames/skillE-3.png",
+      "source": "sources/skillE.png",
+      "edge": false,
+      "id": "skillE-3",
+      "index": 3,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        144.5,
+        500.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillE",
+      "sourceSHA256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893",
+      "frameSHA256": "25a7fe83de60c58e166db92b49e53119bf0319bb27cfac1960375c182a8ba788",
+      "fittedSHA256": "fe9c9bb1b611f5b128481f35be5c489364242fcb1c6c0519883ecedf5847855d",
+      "rectangles": 794,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        49,
+        15,
+        369,
+        511
+      ],
+      "file": "frames/skillQ-0.png",
+      "source": "sources/skillQ.png",
+      "edge": false,
+      "id": "skillQ-0",
+      "index": 0,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        145.0,
+        494.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillQ",
+      "sourceSHA256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+      "frameSHA256": "0d5a93f3e4920d0b2ca3d3270c72906fda8091d72486faaa5adacf516e86ee06",
+      "fittedSHA256": "5d68ec149ee74c190be6b582e1128ad7d15f181a336f37edc15306719d310869",
+      "rectangles": 798,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        493,
+        18,
+        881,
+        510
+      ],
+      "file": "frames/skillQ-1.png",
+      "source": "sources/skillQ.png",
+      "edge": false,
+      "id": "skillQ-1",
+      "index": 1,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        145.5,
+        491.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillQ",
+      "sourceSHA256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+      "frameSHA256": "f2523eeabc79bb2f4d46572273d250fa765ad891d4da4c6ef0dad325504b55c9",
+      "fittedSHA256": "4553d2653d0cb0ea69a9000d46d5ed447142e76fe84613e57512caf13f1f7b10",
+      "rectangles": 868,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1001,
+        17,
+        1431,
+        510
+      ],
+      "file": "frames/skillQ-2.png",
+      "source": "sources/skillQ.png",
+      "edge": false,
+      "id": "skillQ-2",
+      "index": 2,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        143.0,
+        492.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillQ",
+      "sourceSHA256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+      "frameSHA256": "1e73d127e78b053bfc9548989e67241023c0d07e1d72186790807e2d179c0d2f",
+      "fittedSHA256": "992de5560d41afc60cb5b0c908cc1717e93708b29d50b957ea46a7a77d0cb36e",
+      "rectangles": 897,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        15,
+        520,
+        478,
+        1001
+      ],
+      "file": "frames/skillQ-3.png",
+      "source": "sources/skillQ.png",
+      "edge": false,
+      "id": "skillQ-3",
+      "index": 3,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        136.5,
+        480.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillQ",
+      "sourceSHA256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+      "frameSHA256": "ba499c8840841d0e2e08f7bb60761da7bc0791f65859d7e4f263621cf741c6b3",
+      "fittedSHA256": "01cc73891660f6c99f0974355161587e2a73c70979819e4685fa8cf57543a288",
+      "rectangles": 940,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        532,
+        521,
+        871,
+        1001
+      ],
+      "file": "frames/skillQ-4.png",
+      "source": "sources/skillQ.png",
+      "edge": false,
+      "id": "skillQ-4",
+      "index": 4,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        131.0,
+        479.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillQ",
+      "sourceSHA256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+      "frameSHA256": "191bae373494a947664383d92c6e5a9cee2827ebb7f8436b92eb222259630e7a",
+      "fittedSHA256": "17563a2d1a63b071d8e2027e26e37917a5d81b05bba58769b54d259afbca7c60",
+      "rectangles": 851,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        1019,
+        521,
+        1359,
+        1002
+      ],
+      "file": "frames/skillQ-5.png",
+      "source": "sources/skillQ.png",
+      "edge": false,
+      "id": "skillQ-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        143.5,
+        479.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "skillQ",
+      "sourceSHA256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b",
+      "frameSHA256": "44a880b64dd1e392a8682818be199210e3b7295015e20feeb0ac755299d4d576",
+      "fittedSHA256": "cd7d9db36bfc08247a27f819640f63e5dafddfbaf646f5fc3f02d43483c7a179",
+      "rectangles": 804,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        198,
+        8,
+        535,
+        423
+      ],
+      "file": "frames/throw-0.png",
+      "source": "sources/throw.png",
+      "edge": false,
+      "id": "throw-0",
+      "index": 0,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        58.5,
+        413.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "throw",
+      "sourceSHA256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d",
+      "frameSHA256": "807d94502139ef29807175c3008c21f766799d241c8beea848557f68fa144a1c",
+      "fittedSHA256": "da4fc1c2a00d92f624a8a284e0ad56080607eb6d9933d9d38810dc8336c3bd57",
+      "rectangles": 610,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        686,
+        8,
+        1015,
+        423
+      ],
+      "file": "frames/throw-1.png",
+      "source": "sources/throw.png",
+      "edge": false,
+      "id": "throw-1",
+      "index": 1,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        42.0,
+        414.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "throw",
+      "sourceSHA256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d",
+      "frameSHA256": "b733d770a0ef9502a4fa6eae28f75151107665f6643129f60ba2778c290a755c",
+      "fittedSHA256": "87f58476888496f2486ff572de5dce1fad4ea681db2ad278613edef82bef4084",
+      "rectangles": 596,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        203,
+        420,
+        561,
+        839
+      ],
+      "file": "frames/throw-2.png",
+      "source": "sources/throw.png",
+      "edge": false,
+      "id": "throw-2",
+      "index": 2,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        326.5,
+        417.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "throw",
+      "sourceSHA256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d",
+      "frameSHA256": "efca194dad3034da91c9e6c9a10a8d5db0e4d056c25de0f130a535cd52e9e5c9",
+      "fittedSHA256": "c677b707d1535210ae0949027de73634364dac0ddb44807782e7251c1d9f985f",
+      "rectangles": 674,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        679,
+        417,
+        1045,
+        838
+      ],
+      "file": "frames/throw-3.png",
+      "source": "sources/throw.png",
+      "edge": false,
+      "id": "throw-3",
+      "index": 3,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        325.5,
+        420.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "throw",
+      "sourceSHA256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d",
+      "frameSHA256": "07026f0beb504194125b45b9c6c87105af9c9da1df4385a65fc4417a8ea0fe71",
+      "fittedSHA256": "78642901af4e37f1b5d6faeb1b265b22c0a0fd53c6472f5a6863b931379db7cc",
+      "rectangles": 657,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        217,
+        837,
+        585,
+        1243
+      ],
+      "file": "frames/throw-4.png",
+      "source": "sources/throw.png",
+      "edge": false,
+      "id": "throw-4",
+      "index": 4,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        54.0,
+        404.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "throw",
+      "sourceSHA256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d",
+      "frameSHA256": "1011ee1fa048224a7ac873f317827688900f8a3d63bef4bf6ad32b94000c9ca1",
+      "fittedSHA256": "7e4152dbb3a9e0356f1470cb0ccfa869a0703d6973f90fd991e9e5489a36d44c",
+      "rectangles": 664,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        712,
+        836,
+        1048,
+        1243
+      ],
+      "file": "frames/throw-5.png",
+      "source": "sources/throw.png",
+      "edge": false,
+      "id": "throw-5",
+      "index": 5,
+      "scale": 0.6703492516037063,
+      "headProjection": 61,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        46.0,
+        405.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "throw",
+      "sourceSHA256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d",
+      "frameSHA256": "10d44b259a3aa575db9a7bb4b4f7088dce908b0de94c339ab90ef3cdf782945c",
+      "fittedSHA256": "111c93b7679b77cec72866e11ac074ca5a59bd5f34bbdf1f3c98823c73b11cff",
+      "rectangles": 646,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        124,
+        10,
+        544,
+        448
+      ],
+      "file": "frames/victim-0.png",
+      "source": "sources/victim.png",
+      "edge": false,
+      "id": "victim-0",
+      "index": 0,
+      "scale": 0.6013427109974424,
+      "headProjection": 68,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        99.5,
+        437.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victim",
+      "sourceSHA256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc",
+      "frameSHA256": "b0098c68baed6f000eef3b5da0a6ae96f71767f0469056bc98885a902b155316",
+      "fittedSHA256": "0a200c35c946f742942baba9a519e543da40961c0d30f5cbe3af64f2b25c9fad",
+      "rectangles": 676,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        668,
+        41,
+        1184,
+        447
+      ],
+      "file": "frames/victim-1.png",
+      "source": "sources/victim.png",
+      "edge": false,
+      "id": "victim-1",
+      "index": 1,
+      "scale": 0.6103179753406879,
+      "headProjection": 67,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        258.0,
+        219.24
+      ],
+      "rootKind": "pelvis guide",
+      "key": "victim",
+      "sourceSHA256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc",
+      "frameSHA256": "5f33b2e3c519269ac1daea987ea953e7b6eab40845b482a4644f5a9e98bad531",
+      "fittedSHA256": "0847d3e10eeaea2ee8b0e9d324434556da4056c639f722b546528853c8b03495",
+      "rectangles": 658,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        141,
+        486,
+        581,
+        883
+      ],
+      "file": "frames/victim-2.png",
+      "source": "sources/victim.png",
+      "edge": false,
+      "id": "victim-2",
+      "index": 2,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        220.0,
+        214.38000000000002
+      ],
+      "rootKind": "pelvis guide",
+      "key": "victim",
+      "sourceSHA256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc",
+      "frameSHA256": "fe2faf16c7cbc502106e6af8b9e4fe4c8ca847e666cdcc292998d0f73e693e4a",
+      "fittedSHA256": "ebe9c18724ca0ed66745ca6f869c5c88baed98af5b12552e2b8aab02eecc570d",
+      "rectangles": 745,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        690,
+        490,
+        1178,
+        842
+      ],
+      "file": "frames/victim-3.png",
+      "source": "sources/victim.png",
+      "edge": false,
+      "id": "victim-3",
+      "index": 3,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        244.0,
+        190.08
+      ],
+      "rootKind": "pelvis guide",
+      "key": "victim",
+      "sourceSHA256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc",
+      "frameSHA256": "4727d5c504c1fe478d14d4dc9efca9ceef031f607a992061fa0ffa0970f9ca04",
+      "fittedSHA256": "3be1b7f5fb1b44cb1adc314889e456fd16bac9b166d2fcbbf91d711fd1fc6532",
+      "rectangles": 564,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        85,
+        897,
+        606,
+        1238
+      ],
+      "file": "frames/victim-4.png",
+      "source": "sources/victim.png",
+      "edge": false,
+      "id": "victim-4",
+      "index": 4,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        281.0,
+        339.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victim",
+      "sourceSHA256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc",
+      "frameSHA256": "745a5f8f08227068541895811ba0014517217e3309d28ce72f6b178e2b3c5a82",
+      "fittedSHA256": "010c38eeb2ac81eedc53f5dd261748b49acbb9469d2c16cbcb840b4f25613732",
+      "rectangles": 739,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        674,
+        1017,
+        1200,
+        1196
+      ],
+      "file": "frames/victim-5.png",
+      "source": "sources/victim.png",
+      "edge": false,
+      "id": "victim-5",
+      "index": 5,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        144.0,
+        178.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victim",
+      "sourceSHA256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc",
+      "frameSHA256": "8a9f5d90faf3d2a8f023976456233b24830a11880bcd120d617e071b3e0084a5",
+      "fittedSHA256": "a27c393d76f6118f6a13d8c4cdc6cb2f22c84d299cbc15905d358879b30c62f2",
+      "rectangles": 480,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        159,
+        20,
+        453,
+        527
+      ],
+      "file": "frames/hit_knockdown-0.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false,
+      "id": "hit_knockdown-0",
+      "index": 0,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        88.0,
+        505.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "hit_knockdown",
+      "sourceSHA256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6",
+      "frameSHA256": "8ada70ca2bb4314aa794e48a02046b02b948e0d651f35f6b35d638a9cb7145a3",
+      "fittedSHA256": "bd94dc86e5c52bd3f30f98f70889adaf8259563f2456a017d7cdb5f6520c0b9f",
+      "rectangles": 665,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        693,
+        102,
+        1029,
+        507
+      ],
+      "file": "frames/hit_knockdown-1.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false,
+      "id": "hit_knockdown-1",
+      "index": 1,
+      "scale": 0.6013427109974424,
+      "headProjection": 68,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        112.0,
+        404.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "hit_knockdown",
+      "sourceSHA256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6",
+      "frameSHA256": "5a005f8372f77a432355da29bf6e22ec081e5f02c788fa26e403c2b06aea1c39",
+      "fittedSHA256": "706c800e6980fd6be1aaac42773a062b4809edef431f3cc28c6cec0255195c18",
+      "rectangles": 548,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        115,
+        533,
+        535,
+        986
+      ],
+      "file": "frames/hit_knockdown-2.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false,
+      "id": "hit_knockdown-2",
+      "index": 2,
+      "scale": 0.6013427109974424,
+      "headProjection": 68,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        218.4,
+        226.5
+      ],
+      "rootKind": "pelvis guide",
+      "key": "hit_knockdown",
+      "sourceSHA256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6",
+      "frameSHA256": "1d99428fc37ed94b82cc28478a048eb29c6dc2a53c0a2260c7140882224c52e1",
+      "fittedSHA256": "955968654d3734201594c518196c324cf4ca1ea9303500944a6e9274a954a7ab",
+      "rectangles": 635,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        682,
+        582,
+        1194,
+        902
+      ],
+      "file": "frames/hit_knockdown-3.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false,
+      "id": "hit_knockdown-3",
+      "index": 3,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        266.24,
+        160.0
+      ],
+      "rootKind": "pelvis guide",
+      "key": "hit_knockdown",
+      "sourceSHA256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6",
+      "frameSHA256": "55495c2f94881740ab6f7799fb06196056c27cbdc3bca48994d3714084573875",
+      "fittedSHA256": "486a86ee83500fef926e312133371d6c33ecad9ced2c3d00360b42829eb5a567",
+      "rectangles": 559,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        18,
+        1054,
+        614,
+        1213
+      ],
+      "file": "frames/hit_knockdown-4.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false,
+      "id": "hit_knockdown-4",
+      "index": 4,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        392.0,
+        158.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "hit_knockdown",
+      "sourceSHA256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6",
+      "frameSHA256": "674e34e59eb2317b3c411d2643bbc912fa145ce386c47b8f460f0d31d5c12285",
+      "fittedSHA256": "723d141e4c7cbca6ddaba4f89535fb670594395a27490f3069adcd4e7329c3e7",
+      "rectangles": 470,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        632,
+        1054,
+        1235,
+        1221
+      ],
+      "file": "frames/hit_knockdown-5.png",
+      "source": "sources/hit_knockdown.png",
+      "edge": false,
+      "id": "hit_knockdown-5",
+      "index": 5,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        401.5,
+        166.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "hit_knockdown",
+      "sourceSHA256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6",
+      "frameSHA256": "22ad0b86491498775fda8b6ec5bfd2601d0af5ab490f56676924d96fceb49956",
+      "fittedSHA256": "aa7bd7da3815a72ec3d2e1bd87271fe90da35a85287a8e5d8fd87812363c8f10",
+      "rectangles": 456,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        12,
+        83,
+        780,
+        231
+      ],
+      "file": "frames/wakeup-0.png",
+      "source": "sources/wakeup.png",
+      "edge": false,
+      "id": "wakeup-0",
+      "index": 0,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        163.5,
+        147.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "wakeup",
+      "sourceSHA256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85",
+      "frameSHA256": "f4c93fb9ba623415b4b90cb593d47277f6c8cf9901a6848d9f66be1315c40a7d",
+      "fittedSHA256": "6b87bb5ae6d925fda2b46bfd9babb7335e4c8ede4b5db3b067ed46367f24cab6",
+      "rectangles": 506,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        847,
+        21,
+        1525,
+        241
+      ],
+      "file": "frames/wakeup-1.png",
+      "source": "sources/wakeup.png",
+      "edge": false,
+      "id": "wakeup-1",
+      "index": 1,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        224.5,
+        219.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "wakeup",
+      "sourceSHA256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85",
+      "frameSHA256": "209e9435a5f61f93790639d96ab8aebd347733793fe870eb197c83d7eb6a00f9",
+      "fittedSHA256": "d4adb033ca9646092aeb6b472a8adc358e5ebfbbe1f973ef1ab0a64a10fc2887",
+      "rectangles": 511,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        15,
+        285,
+        745,
+        587
+      ],
+      "file": "frames/wakeup-2.png",
+      "source": "sources/wakeup.png",
+      "edge": false,
+      "id": "wakeup-2",
+      "index": 2,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        144.0,
+        300.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "wakeup",
+      "sourceSHA256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85",
+      "frameSHA256": "0ad2f51ca5bd28c092781a4fa85492955bf74d710c6e5ff940ac6c7e7ae803d8",
+      "fittedSHA256": "2b7159170cdcfa120a24117f7d5bf2cefe7124e20941b35371e692d99a61a5f2",
+      "rectangles": 732,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        885,
+        315,
+        1506,
+        598
+      ],
+      "file": "frames/wakeup-3.png",
+      "source": "sources/wakeup.png",
+      "edge": false,
+      "id": "wakeup-3",
+      "index": 3,
+      "scale": 0.5841614906832298,
+      "headProjection": 70,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        283.5,
+        282.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "wakeup",
+      "sourceSHA256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85",
+      "frameSHA256": "f66bc716ed03c706b337d3ac3953f29e2eed011829c71ca591c4ca94ffc613c0",
+      "fittedSHA256": "8b862374588a26baebbbce766fcd32c57136ea1be640e02b82c906a97c09c5d4",
+      "rectangles": 714,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        87,
+        607,
+        512,
+        992
+      ],
+      "file": "frames/wakeup-4.png",
+      "source": "sources/wakeup.png",
+      "edge": false,
+      "id": "wakeup-4",
+      "index": 4,
+      "scale": 0.6013427109974424,
+      "headProjection": 68,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        346.0,
+        384.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "wakeup",
+      "sourceSHA256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85",
+      "frameSHA256": "127b66689ac59c82dbd6bf8963c11b1b21e8c7de732bf5eee3ee8299a6a12be3",
+      "fittedSHA256": "d16f08307917cb595e75431b3ac78a3bf5384c41a6653ab4f903d9cc0f6c739a",
+      "rectangles": 723,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        957,
+        583,
+        1247,
+        1016
+      ],
+      "file": "frames/wakeup-5.png",
+      "source": "sources/wakeup.png",
+      "edge": false,
+      "id": "wakeup-5",
+      "index": 5,
+      "scale": 0.6815217391304348,
+      "headProjection": 60,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        110.0,
+        431.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "wakeup",
+      "sourceSHA256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85",
+      "frameSHA256": "d3077d8c4e2df0dffc9862257678e289a1388f9d90ff37ff30be6f09f9e6d23e",
+      "fittedSHA256": "27732b334a67d139e8f1f95653915c4196c1ceba4fe9e389bc4c7bdbe08a6fb9",
+      "rectangles": 621,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        97,
+        7,
+        415,
+        536
+      ],
+      "file": "frames/victory-0.png",
+      "source": "sources/victory.png",
+      "edge": false,
+      "id": "victory-0",
+      "index": 0,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        126.0,
+        528.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victory",
+      "sourceSHA256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909",
+      "frameSHA256": "f1487db274268aafadda20ce63df80006e42474e16c02306b1470b06bf308df2",
+      "fittedSHA256": "f5a771cd47c1a7f023d9f3dfde2118e48888cc11d39707aa9aa484bfaf741ab4",
+      "rectangles": 714,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        603,
+        8,
+        915,
+        536
+      ],
+      "file": "frames/victory-1.png",
+      "source": "sources/victory.png",
+      "edge": false,
+      "id": "victory-1",
+      "index": 1,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        122.0,
+        527.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victory",
+      "sourceSHA256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909",
+      "frameSHA256": "d8f5751d602933a0a76cdceaf35dd6e420b832e786fbf3bff6384a2ae9695dea",
+      "fittedSHA256": "7de2429b417f334f8b97262d36a092628d8ca84a6b9217d72a0b10eef1f79054",
+      "rectangles": 719,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        98,
+        542,
+        419,
+        1069
+      ],
+      "file": "frames/victory-2.png",
+      "source": "sources/victory.png",
+      "edge": false,
+      "id": "victory-2",
+      "index": 2,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        122.0,
+        525.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victory",
+      "sourceSHA256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909",
+      "frameSHA256": "cb02783d7e46e1291e4fa8c88fb771ce23929079e15a5d4fd8fee9e54f6b6bcd",
+      "fittedSHA256": "79fa4e004e6b9c47d673a27c631a071a232d064d09e01bb11a92724e36cb1238",
+      "rectangles": 748,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        603,
+        541,
+        927,
+        1069
+      ],
+      "file": "frames/victory-3.png",
+      "source": "sources/victory.png",
+      "edge": false,
+      "id": "victory-3",
+      "index": 3,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        126.5,
+        526.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victory",
+      "sourceSHA256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909",
+      "frameSHA256": "0b59da202473683fec687a69e230f592d23442480a113e21381e99b41b522cb8",
+      "fittedSHA256": "b6ffa109e9271e6d0ea115ecaca7f1fc62d5af539b3302072d9c1a87eb08929e",
+      "rectangles": 745,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        107,
+        1066,
+        401,
+        1533
+      ],
+      "file": "frames/victory-4.png",
+      "source": "sources/victory.png",
+      "edge": false,
+      "id": "victory-4",
+      "index": 4,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        119.5,
+        466.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victory",
+      "sourceSHA256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909",
+      "frameSHA256": "914c40ef97c8726b53d1766f4badb61dd9f53abbbef9b47816fcf389d1da1acf",
+      "fittedSHA256": "016c4360f5738dab5c63488211c27cd59edc05eac344f7a016adab02f82d5daf",
+      "rectangles": 642,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        625,
+        1064,
+        916,
+        1534
+      ],
+      "file": "frames/victory-5.png",
+      "source": "sources/victory.png",
+      "edge": false,
+      "id": "victory-5",
+      "index": 5,
+      "scale": 0.6290969899665552,
+      "headProjection": 65,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        112.5,
+        468.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "victory",
+      "sourceSHA256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909",
+      "frameSHA256": "5f54520d27937a77a3ff373396b2a37d1d4ebb9b396edb01fb8d454ce3158333",
+      "fittedSHA256": "029fec0549ac1db3fb21697d35cbb6affc4252a009d6cc8bf5b4e6399544bab5",
+      "rectangles": 640,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        74,
+        14,
+        428,
+        674
+      ],
+      "file": "frames/defeat-0.png",
+      "source": "sources/defeat.png",
+      "edge": false,
+      "id": "defeat-0",
+      "index": 0,
+      "scale": 0.47548028311425683,
+      "headProjection": 86,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        113.5,
+        659.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "defeat",
+      "sourceSHA256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d",
+      "frameSHA256": "92af25f7e2e358a7b99b2a7ad8d6a619327d82284c44d7a65390ac752630138a",
+      "fittedSHA256": "d0b3e0eeb6efee5ed0ea173d920f68be1f9b1007ba56ade8517e71a982b10d95",
+      "rectangles": 614,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        546,
+        15,
+        848,
+        662
+      ],
+      "file": "frames/defeat-1.png",
+      "source": "sources/defeat.png",
+      "edge": false,
+      "id": "defeat-1",
+      "index": 1,
+      "scale": 0.47548028311425683,
+      "headProjection": 86,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        124.0,
+        646.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "defeat",
+      "sourceSHA256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d",
+      "frameSHA256": "0f0c7b2b42784e0b21981d3e537e620cee3fd9d3528cc46257212a8e9ab089a7",
+      "fittedSHA256": "c822889eb5cd983e7c26807d2bb402572772ff32b0ad81a7e33295cca77c0c52",
+      "rectangles": 607,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        48,
+        674,
+        482,
+        1113
+      ],
+      "file": "frames/defeat-2.png",
+      "source": "sources/defeat.png",
+      "edge": false,
+      "id": "defeat-2",
+      "index": 2,
+      "scale": 0.4543478260869565,
+      "headProjection": 90,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        251.5,
+        438.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "defeat",
+      "sourceSHA256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d",
+      "frameSHA256": "a8cd68a7116005c8e67ca9471fb0a2230446436bee522474c092337ce11209ff",
+      "fittedSHA256": "1299de4cce852c12d76c639a7a2fc5a5e280700ee422402852cf154378934178",
+      "rectangles": 551,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        521,
+        678,
+        979,
+        1100
+      ],
+      "file": "frames/defeat-3.png",
+      "source": "sources/defeat.png",
+      "edge": false,
+      "id": "defeat-3",
+      "index": 3,
+      "scale": 0.4700149925037481,
+      "headProjection": 87,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        199.5,
+        420.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "defeat",
+      "sourceSHA256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d",
+      "frameSHA256": "4d63eb10865d72b29eaa71ec5439077f527116d6e41db5b085348f297ff845a4",
+      "fittedSHA256": "9a4cfc0a57597ef7f909e5f1a439a785a6dd62b4f7b481cc8b1c4afd98630f0a",
+      "rectangles": 496,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        36,
+        1119,
+        524,
+        1504
+      ],
+      "file": "frames/defeat-4.png",
+      "source": "sources/defeat.png",
+      "edge": false,
+      "id": "defeat-4",
+      "index": 4,
+      "scale": 0.47548028311425683,
+      "headProjection": 86,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        234.0,
+        384.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "defeat",
+      "sourceSHA256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d",
+      "frameSHA256": "fcdf970c3adf7d6b9adf27f10d78bb17570aa6ca47f36a176dd2245a166bf805",
+      "fittedSHA256": "b2923b0a3bee2939cafdb464511f4fd175797e98c6816d0a3d7238bc20ce39ab",
+      "rectangles": 521,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    },
+    {
+      "roi": [
+        552,
+        1124,
+        980,
+        1488
+      ],
+      "file": "frames/defeat-5.png",
+      "source": "sources/defeat.png",
+      "edge": false,
+      "id": "defeat-5",
+      "index": 5,
+      "scale": 0.4700149925037481,
+      "headProjection": 87,
+      "headTarget": 40.891304347826086,
+      "anchor": [
+        186.5,
+        363.0
+      ],
+      "rootKind": "actual support pixels",
+      "key": "defeat",
+      "sourceSHA256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d",
+      "frameSHA256": "348e45bdecfca0d52ddbddb3407c2b4c8a961f2c4e5015f34b29531f6ece3c84",
+      "fittedSHA256": "082bc81c99f8b20d963a5f3eaee01d751577fa431b244a52de9b3ad57effe99d",
+      "rectangles": 445,
+      "registration": "head projection manually estimated; support pixel cluster / airborne pelvis guide; no independent anatomy acceptance"
+    }
+  ],
+  "bodyRectangles": {
+    "max": 1097,
+    "mean": 701.4930555555555
+  },
+  "pipeline": "premultiplied BOX / weighted OKLab / exact painter / 1 logical inner outline with pale-area protection",
+  "sourceCommit": "1c21eb57ffb1b8d88b41cbb743c46a34864849df",
+  "browserQA": "未执行，当前环境无受支持浏览器",
+  "runtime": "未接入",
+  "device": "未验收",
+  "anatomy": "projection estimates / root guides; no independent anatomical approval"
+}

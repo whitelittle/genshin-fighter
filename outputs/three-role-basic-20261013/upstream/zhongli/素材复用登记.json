@@ -1,0 +1,172 @@
+{
+  "idle": {
+    "sourceFrames": [
+      "reuse/idle/source-cell-0.png",
+      "reuse/idle/source-cell-1.png"
+    ],
+    "source": "evidence/zhongli-idle-review",
+    "decision": "复用视觉基准；待机循环需修脚位/比例",
+    "count": 2,
+    "accepted": false,
+    "issue": "主体完整，右手近胸、左手垂下；第二姿脚位和轮廓不同"
+  },
+  "walk": {
+    "sourceFrames": [
+      "reuse/walk/source-cell-0.png",
+      "reuse/walk/source-cell-1.png",
+      "reuse/walk/source-cell-2.png",
+      "reuse/walk/source-cell-3.png",
+      "reuse/walk/source-cell-4.png",
+      "reuse/walk/source-cell-5.png"
+    ],
+    "source": "evidence/zhongli-walk-review",
+    "decision": "保留，修边缘/步态/尺度后复用",
+    "count": 6,
+    "accepted": false,
+    "issue": "第1姿右鞋触及格子右边缘；腿链与躯干需单独核对"
+  },
+  "skillE": {
+    "source": "assets/skill-candidates/zhongli-E-body-v1.png",
+    "decision": "保留空手施术，重新对齐岩脊释放",
+    "count": 4,
+    "accepted": false,
+    "issue": "有四姿与独立岩脊；需确认掌势和释放tick"
+  },
+  "pillarFx": {
+    "source": "assets/prop-candidates/zhongli-E-stone-stele-prop-v1.png",
+    "decision": "复用原源图；新生成版本不采用",
+    "count": 4
+  },
+  "light1": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "light2": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "light3": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "heavy": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "crouchlight": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "crouchheavy": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "airlight": {
+    "decision": "保留身体关键姿势，返修一体持械",
+    "count": 4,
+    "accepted": false,
+    "issue": "旧稿部分空手或仅枪杆；完整持枪、枪长与攻击路线待修"
+  },
+  "backwalk": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "jump": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 jump 单姿，不能算完整动作"
+  },
+  "forwarddash": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "backdash": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "crouch": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 crouch 单姿，不能算完整动作"
+  },
+  "standguard": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 guard 单姿，不能算完整动作"
+  },
+  "crouchguard": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 crouchGuard 单姿，不能算完整动作"
+  },
+  "airheavy": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "skillQ": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 qCharge,qRelease 单姿，不能算完整动作"
+  },
+  "throw": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "victim": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "hit_knockdown": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 hurt,airHurt,down 单姿，不能算完整动作"
+  },
+  "wakeup": {
+    "decision": "补连续动作；优先利用旧单姿",
+    "count": 6,
+    "accepted": false,
+    "issue": "旧roster仅有 getup 单姿，不能算完整动作"
+  },
+  "victory": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  },
+  "defeat": {
+    "decision": "补缺；不使用普通步态代替该动作",
+    "count": 6,
+    "accepted": false,
+    "issue": "历史交接包未找到该动作的连续源图"
+  }
+}

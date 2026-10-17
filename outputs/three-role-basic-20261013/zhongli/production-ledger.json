@@ -1,0 +1,147 @@
+{
+  "character": "钟离",
+  "actionGroups": 25,
+  "displayPoses": 145,
+  "sourceBodyPoses": 144,
+  "art": "完整候选素材与拟合已构建",
+  "presentation": "25组含E/Q与双人投技展示已构建",
+  "anatomy": "人工投影估计与锚点引导，未独立验收",
+  "runtime": "未接入",
+  "simulator": "未执行",
+  "browser": "未执行",
+  "device": "未验收",
+  "userAcceptance": "待审阅",
+  "entry": "full-actions/offline.html",
+  "actions": {
+    "待机": {
+      "poses": 2,
+      "duration": 48,
+      "id": "zhongli_idle"
+    },
+    "前走": {
+      "poses": 6,
+      "duration": 36,
+      "id": "zhongli_walk"
+    },
+    "后退": {
+      "poses": 6,
+      "duration": 42,
+      "id": "zhongli_backwalk"
+    },
+    "跳跃": {
+      "poses": 6,
+      "duration": 44,
+      "id": "zhongli_jump"
+    },
+    "前冲": {
+      "poses": 6,
+      "duration": 24,
+      "id": "zhongli_forwarddash"
+    },
+    "后撤": {
+      "poses": 6,
+      "duration": 24,
+      "id": "zhongli_backdash"
+    },
+    "蹲下": {
+      "poses": 6,
+      "duration": 18,
+      "id": "zhongli_crouch"
+    },
+    "站立格挡": {
+      "poses": 6,
+      "duration": 33,
+      "id": "zhongli_standguard"
+    },
+    "蹲防": {
+      "poses": 6,
+      "duration": 33,
+      "id": "zhongli_crouchguard"
+    },
+    "轻攻一": {
+      "poses": 7,
+      "duration": 29,
+      "id": "zhongli_light1"
+    },
+    "轻攻二": {
+      "poses": 6,
+      "duration": 26,
+      "id": "zhongli_light2"
+    },
+    "轻攻三": {
+      "poses": 6,
+      "duration": 32,
+      "id": "zhongli_light3"
+    },
+    "站重": {
+      "poses": 6,
+      "duration": 41,
+      "id": "zhongli_heavy"
+    },
+    "蹲轻": {
+      "poses": 6,
+      "duration": 21,
+      "id": "zhongli_crouchlight"
+    },
+    "蹲重": {
+      "poses": 6,
+      "duration": 40,
+      "id": "zhongli_crouchheavy"
+    },
+    "空轻": {
+      "poses": 6,
+      "duration": 22,
+      "id": "zhongli_airlight"
+    },
+    "空重": {
+      "poses": 6,
+      "duration": 31,
+      "id": "zhongli_airheavy"
+    },
+    "E · 地心": {
+      "poses": 4,
+      "duration": 94,
+      "id": "zhongli_skillE",
+      "bodyActionTicks": 36,
+      "neutralDisplayTailTicks": 58
+    },
+    "Q · 天星": {
+      "poses": 6,
+      "duration": 47,
+      "id": "zhongli_skillQ"
+    },
+    "投技": {
+      "poses": 6,
+      "duration": 39,
+      "id": "zhongli_throw"
+    },
+    "被投": {
+      "poses": 6,
+      "duration": 39,
+      "id": "zhongli_victim"
+    },
+    "受击与倒地": {
+      "poses": 6,
+      "duration": 48,
+      "id": "zhongli_hit_knockdown"
+    },
+    "起身": {
+      "poses": 6,
+      "duration": 46,
+      "id": "zhongli_wakeup"
+    },
+    "胜利": {
+      "poses": 6,
+      "duration": 70,
+      "id": "zhongli_victory"
+    },
+    "败北": {
+      "poses": 6,
+      "duration": 80,
+      "id": "zhongli_defeat"
+    }
+  },
+  "latestVerification": "3444 tick控制流程；282次E逐tick检查；非浏览器或真机验收。",
+  "comparison": "size-review.html：源图／初始拟合／优化拟合同台同尺度三列对比",
+  "latestRepair": "E第36 tick恢复同档两姿待机，岩脊14..93 tick独立展示。"
+}

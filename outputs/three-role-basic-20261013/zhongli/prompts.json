@@ -1,0 +1,72 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": [
+    {
+      "key": "light3",
+      "prompt": "Use case: background-extraction. Edit target: supplied Zhongli light3 six-pose animation sheet. Preserve the six distinct poses in their existing chronological order, costume details, face, anatomy, black/brown/gold palette, and held spear geometry where present. Remove all brown/black background panels, amber atmospheric haze, floor, ground shadows, text, numerals, circles, arrows and separators. Output actual transparent alpha, no glow, no shadows, no attack trails. Repack as exactly 2 columns by 3 rows of isolated complete poses on a spacious transparent canvas, chronological reading order left-to-right then top-to-bottom. Keep head, every boot, coat tails and both spear ends fully inside each cell with generous transparent margins; no pose touching another cell. Each pose same body model and consistent head size. Do not add or omit poses or weapons. This is a production fighting-game sprite source sheet, sharp clean cel-shaded art matching the reference.",
+      "reference": "sources/light3.png",
+      "referenceSHA256": "04d2549f785aa8f5d17209049067a53f6498054cd9f5b4da5d45bc4eaae9325f"
+    },
+    {
+      "key": "crouchheavy",
+      "prompt": "Use case: background-extraction. Edit target: supplied Zhongli crouchheavy six-pose animation sheet. Preserve the six distinct poses in their existing chronological order, costume details, face, anatomy, black/brown/gold palette, and held spear geometry where present. Remove all brown/black background panels, amber atmospheric haze, floor, ground shadows, text, numerals, circles, arrows and separators. Output actual transparent alpha, no glow, no shadows, no attack trails. Repack as exactly 2 columns by 3 rows of isolated complete poses on a spacious transparent canvas, chronological reading order left-to-right then top-to-bottom. Keep head, every boot, coat tails and both spear ends fully inside each cell with generous transparent margins; no pose touching another cell. Each pose same body model and consistent head size. Do not add or omit poses or weapons. This is a production fighting-game sprite source sheet, sharp clean cel-shaded art matching the reference.",
+      "reference": "sources/crouchheavy.png",
+      "referenceSHA256": "3813ef1ecb6477ad69f63e0e92e02595e086082eb6f851ec947998b54ca522cd"
+    },
+    {
+      "key": "airheavy",
+      "prompt": "Use case: background-extraction. Edit target: supplied Zhongli airheavy six-pose animation sheet. Preserve the six distinct poses in their existing chronological order, costume details, face, anatomy, black/brown/gold palette, and held spear geometry where present. Remove all brown/black background panels, amber atmospheric haze, floor, ground shadows, text, numerals, circles, arrows and separators. Output actual transparent alpha, no glow, no shadows, no attack trails. Repack as exactly 2 columns by 3 rows of isolated complete poses on a spacious transparent canvas, chronological reading order left-to-right then top-to-bottom. Keep head, every boot, coat tails and both spear ends fully inside each cell with generous transparent margins; no pose touching another cell. Each pose same body model and consistent head size. Do not add or omit poses or weapons. This is a production fighting-game sprite source sheet, sharp clean cel-shaded art matching the reference.",
+      "reference": "sources/airheavy.png",
+      "referenceSHA256": "7f56548e03556e61c9ff8769f30f6e39fb81cade362d203251ff6833b7461675"
+    },
+    {
+      "key": "wakeup",
+      "prompt": "Use case: background-extraction. Edit target: supplied Zhongli wakeup six-pose animation sheet. Preserve the six distinct poses in their existing chronological order, costume details, face, anatomy, black/brown/gold palette, and held spear geometry where present. Remove all brown/black background panels, amber atmospheric haze, floor, ground shadows, text, numerals, circles, arrows and separators. Output actual transparent alpha, no glow, no shadows, no attack trails. Repack as exactly 2 columns by 3 rows of isolated complete poses on a spacious transparent canvas, chronological reading order left-to-right then top-to-bottom. Keep head, every boot, coat tails and both spear ends fully inside each cell with generous transparent margins; no pose touching another cell. Each pose same body model and consistent head size. Do not add or omit poses or weapons. This is a production fighting-game sprite source sheet, sharp clean cel-shaded art matching the reference.",
+      "reference": "sources/wakeup.png",
+      "referenceSHA256": "0c9d6c8c40066d34ac94ed17e928edbb7284fa44eecdad3f49fafa23149c0eff"
+    },
+    {
+      "key": "victory",
+      "prompt": "Use case: background-extraction. Edit target: supplied Zhongli victory six-pose animation sheet. Preserve the six distinct poses in their existing chronological order, costume details, face, anatomy, black/brown/gold palette, and held spear geometry where present. Remove all brown/black background panels, amber atmospheric haze, floor, ground shadows, text, numerals, circles, arrows and separators. Output actual transparent alpha, no glow, no shadows, no attack trails. Repack as exactly 2 columns by 3 rows of isolated complete poses on a spacious transparent canvas, chronological reading order left-to-right then top-to-bottom. Keep head, every boot, coat tails and both spear ends fully inside each cell with generous transparent margins; no pose touching another cell. Each pose same body model and consistent head size. Do not add or omit poses or weapons. This is a production fighting-game sprite source sheet, sharp clean cel-shaded art matching the reference.",
+      "reference": "sources/victory.png",
+      "referenceSHA256": "f766661412e271be8f7a0598afcfd1fb98871caacedb9cfb056a7001bbf0d288"
+    },
+    {
+      "key": "defeat",
+      "prompt": "Use case: background-extraction. Edit target: supplied Zhongli defeat six-pose animation sheet. Preserve the six distinct poses in their existing chronological order, costume details, face, anatomy, black/brown/gold palette, and held spear geometry where present. Remove all brown/black background panels, amber atmospheric haze, floor, ground shadows, text, numerals, circles, arrows and separators. Output actual transparent alpha, no glow, no shadows, no attack trails. Repack as exactly 2 columns by 3 rows of isolated complete poses on a spacious transparent canvas, chronological reading order left-to-right then top-to-bottom. Keep head, every boot, coat tails and both spear ends fully inside each cell with generous transparent margins; no pose touching another cell. Each pose same body model and consistent head size. Do not add or omit poses or weapons. This is a production fighting-game sprite source sheet, sharp clean cel-shaded art matching the reference.",
+      "reference": "sources/defeat.png",
+      "referenceSHA256": "f1d0b1a0f3447c8f5c5d892cabbfc399688ad08f289dc643552ae411922f9d9b"
+    },
+    {
+      "key": "light3",
+      "prompt": "Precise-object-edit of supplied Zhongli light3 sprite sheet. Correct only sprite separation and incomplete weapons. Rebuild spacing into SIX completely separate cells, exactly TWO columns THREE rows, each same-sized cell at least 700x600. Every pose's entire character AND spear must fit wholly within its cell with at least 60 pixels empty transparent space on all four sides. Middle-row spearhead MUST NOT cross into the other pose or touch its hair/coat. Maintain six original action poses, adult anatomy, identity, clothing, chronological order and clean cel-shaded style. Every held spear has the same black shaft, amber angular spearhead and rear cap, both hands gripping correctly. No cropped spear tips, no background, ground, shadow, glow, haze, text or numbers. Actual transparent alpha. Prioritize larger canvas and more separation over reproducing original packed layout.",
+      "reference": "full-actions/checks/light3-spacing-rejected.png",
+      "referenceSHA256": "5eb10bcd236ceb491e662819fb38565f3286a2c2a9f1ee79fef9a368b6e1fbce"
+    },
+    {
+      "key": "crouchheavy",
+      "prompt": "Precise-object-edit of supplied Zhongli crouchheavy sprite sheet. Correct only sprite separation and incomplete weapons. Rebuild spacing into SIX completely separate cells, exactly TWO columns THREE rows, each same-sized cell at least 700x600. Every pose's entire character AND spear must fit wholly within its cell with at least 60 pixels empty transparent space on all four sides. Middle-row spearhead MUST NOT cross into the other pose or touch its hair/coat. Maintain six original action poses, adult anatomy, identity, clothing, chronological order and clean cel-shaded style. Every held spear has the same black shaft, amber angular spearhead and rear cap, both hands gripping correctly. No cropped spear tips, no background, ground, shadow, glow, haze, text or numbers. Actual transparent alpha. Prioritize larger canvas and more separation over reproducing original packed layout.",
+      "reference": "full-actions/checks/crouchheavy-spacing-rejected.png",
+      "referenceSHA256": "4e25d393b8a78b9c3afc21666ff02569a0c735598ae0401fe248f3937b83bec9"
+    },
+    {
+      "key": "heavy",
+      "prompt": "Edit the supplied Zhongli six-pose heavy spear attack sprite sheet. Preserve six poses in same 2-column 3-row chronology, face, costume and adult long-limbed body. Repair clipping in the middle row: both full boots, rear coat tails and complete spear including rear cap and spearhead must be visible. All six poses must be isolated with at least 30 pixels transparent clearance from adjacent poses and sheet edges. Same spear design and length across all poses, grip connected correctly with two hands, no unattached spear. No amber haze, no glow, trails, shadow, floor, text or numbers. Actual transparent alpha. Do not change attack choreography.",
+      "reference": "history/repairs/heavy.png",
+      "referenceSHA256": "b3b9e789134f6b429b7653dfec9a38c313cafd25081d7aab1bfbe19e5c3db2ab"
+    },
+    {
+      "key": "idle",
+      "prompt": "Edit target: first supplied Zhongli standing mother sprite. Create exactly two matching full-body idle breathing poses side by side, true transparent alpha, 2 columns 1 row. First pose preserve mother. Second pose tiny upper chest/shoulder breathing only, same exact head-to-chin size, legs, boot positions, support soles baseline, pelvis, outer costume silhouette and face identity. Right hand remains near chest, left hand relaxed. Both complete sprites with generous transparent margins. No spear, shadows, floor, amber haze, glow, numbers or text. Adult tall anatomy, clean cel-shaded original style. Feet and pelvis must not slide between the two frames.",
+      "reference": "batches/20261011-resume/mother-clean-candidate.png",
+      "referenceSHA256": "08560777397e1be424d72cdb50c91d2fa11f27e7d887f25f225c16886067a49e"
+    },
+    {
+      "key": "crouchheavy-tip",
+      "prompt": "Edit supplied Zhongli low spear attack recovery pose. Preserve the character exactly: same face, costume, anatomy, kneeling stance, hand locations and black shaft. Repair the missing spearhead at the RIGHT end of the black shaft: extend canvas right if needed and attach the same angular amber spearhead used by his other spear sprites; rear spear cap stays left. The shaft must be continuous through both gloved gripping hands. Complete uncropped spear and character with generous transparent margins. No glow, haze, shadow, floor, text or trails. Actual transparent alpha. Only restore missing spearhead.",
+      "reference": "full-actions/sources/crouchheavy.png",
+      "referenceSHA256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2"
+    }
+  ],
+  "notes": "单姿枪尖返修输入为当时提取的第4姿；该输入后被完整返修图替换。整张来源的哈希记录在此保留。全部原始输出可在generated-originals恢复。"
+}

@@ -1,0 +1,31 @@
+{
+  "branch": "refs/remotes/origin/work/v4-handoff-20261009",
+  "commit": "e5c01142d76686d97afc624957a5e8c2474bcad2",
+  "one_mib_shards": 654,
+  "original_groups_verified": 32,
+  "complete": false,
+  "missing_shards": [
+    "V4_1M_0448.part"
+  ],
+  "damaged_groups": [
+    "V4_HANDOFF_20261009.zip.part023"
+  ],
+  "recovered_crc_checked_files": 2523,
+  "unrecoverable_files": [
+    {
+      "path": "V4/evidence/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1/source-0.png",
+      "error": "Error -3 while decompressing data: invalid stored block lengths"
+    },
+    {
+      "path": "V4/evidence/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1/source-1.png",
+      "error": "Bad magic number for file header"
+    },
+    {
+      "path": "V4/evidence/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1/source-2.png",
+      "error": "Bad magic number for file header"
+    }
+  ],
+  "archive_sha256": "e48ac7ed4018013b9868aec69723cb7ab2c05b90a3c7dfdaa51aa06a82e34f72",
+  "zip_entries": 2526,
+  "method": "Missing-shard holes preserve ZIP offsets in partial mode; only CRC-valid files extracted. Unaffected original groups SHA256 checked."
+}

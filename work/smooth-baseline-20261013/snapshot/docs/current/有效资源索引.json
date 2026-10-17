@@ -1,0 +1,456 @@
+{
+  "version": "20261004_143008",
+  "scope": "Selected current dependencies; not an exhaustive deletion allowlist",
+  "roles": [
+    {
+      "id": 1,
+      "key": "keqing",
+      "name": "刻晴",
+      "source": "assets/vnext/keqing-frames.json",
+      "type": "legacy-sample"
+    },
+    {
+      "id": 2,
+      "key": "diluc",
+      "name": "迪卢克",
+      "source": "assets/vnext/diluc-frames.json",
+      "type": "legacy-sample"
+    },
+    {
+      "id": 3,
+      "key": "kaeya",
+      "name": "凯亚",
+      "source": "outputs/motion-group1/kaeya",
+      "type": "motion-set"
+    },
+    {
+      "id": 4,
+      "key": "jean",
+      "name": "琴",
+      "source": "outputs/motion-group1/jean",
+      "type": "motion-set"
+    },
+    {
+      "id": 5,
+      "key": "klee",
+      "name": "可莉",
+      "source": "outputs/motion-group1/klee-approved-v3",
+      "type": "motion-set"
+    },
+    {
+      "id": 6,
+      "key": "lisa",
+      "name": "丽莎",
+      "source": "outputs/motion-group1/lisa",
+      "type": "motion-set"
+    },
+    {
+      "id": 7,
+      "key": "ganyu",
+      "name": "甘雨",
+      "source": "outputs/motion-group1/ganyu",
+      "type": "motion-set"
+    },
+    {
+      "id": 8,
+      "key": "yanfei",
+      "name": "烟绯",
+      "source": "outputs/motion-group1/yanfei",
+      "type": "motion-set"
+    },
+    {
+      "id": 9,
+      "key": "xiao",
+      "name": "魈",
+      "source": "outputs/motion-group1/xiao",
+      "type": "motion-set"
+    },
+    {
+      "id": 10,
+      "key": "hutao",
+      "name": "胡桃",
+      "source": "outputs/motion-group1/hutao",
+      "type": "motion-set"
+    },
+    {
+      "id": 11,
+      "key": "lawachurl",
+      "name": "岩盔丘丘王",
+      "source": "outputs/motion-group1/lawachurl",
+      "type": "motion-set"
+    },
+    {
+      "id": 12,
+      "key": "yaemiko",
+      "name": "八重神子",
+      "source": "outputs/motion-group1/yaemiko",
+      "type": "motion-set"
+    },
+    {
+      "id": 13,
+      "key": "kirara",
+      "name": "绮良良",
+      "source": "outputs/motion-group1/kirara",
+      "type": "motion-set"
+    },
+    {
+      "id": 14,
+      "key": "kamisatoayaka",
+      "name": "神里绫华",
+      "source": "outputs/motion-group1/kamisatoayaka-final",
+      "type": "motion-set"
+    },
+    {
+      "id": 15,
+      "key": "kamisatoayato",
+      "name": "神里绫人",
+      "source": "outputs/motion-group1/kamisatoayato",
+      "type": "motion-set"
+    },
+    {
+      "id": 16,
+      "key": "aratakiitto",
+      "name": "荒泷一斗",
+      "source": "outputs/motion-group1/aratakiitto",
+      "type": "motion-set"
+    },
+    {
+      "id": 17,
+      "key": "sangonomiyakokomi",
+      "name": "珊瑚宫心海",
+      "source": "outputs/motion-group1/sangonomiyakokomi",
+      "type": "motion-set"
+    },
+    {
+      "id": 18,
+      "key": "neuvillette",
+      "name": "那维莱特",
+      "source": "assets/roster-v2/neuvillette-frames.json",
+      "type": "legacy-sample"
+    },
+    {
+      "id": 19,
+      "key": "nahida",
+      "name": "纳西妲",
+      "source": "assets/roster-v2/nahida-frames.json",
+      "type": "legacy-sample"
+    }
+  ],
+  "resources": [
+    {
+      "path": "work/build-midphase.ps1",
+      "bytes": 1875,
+      "sha256": "f067b5d99283a849ab27155394a0a8993fb744ffe7367437748821342b564909"
+    },
+    {
+      "path": "work/group1-sets.mjs",
+      "bytes": 1709,
+      "sha256": "bf7cfc742b9958caabdda643b5daec9ca1e63522d3d7a35f255accad083b28fe"
+    },
+    {
+      "path": "work/build-group1-full.mjs",
+      "bytes": 2980,
+      "sha256": "db3652f28f4ab3550fb3a7739611a828c7dfd034c4522b2aa1e1830ce067480d"
+    },
+    {
+      "path": "work/restyle-group1-home.mjs",
+      "bytes": 6784,
+      "sha256": "5761d2a83db3ed2bbeb4f3636c1a849c1fb6fb68e166de00d2a0d03c9dc28ad8"
+    },
+    {
+      "path": "work/attach-group1-all.mjs",
+      "bytes": 1981,
+      "sha256": "0706447991cd25b11b691853caa9db4d04a822e4645220d0190b79e5b07d64d3"
+    },
+    {
+      "path": "work/build-test-repair.mjs",
+      "bytes": 7282,
+      "sha256": "8772a8d23271479a3dac027721523c2fb1177bc4747ec3bb2d441b61b83e0709"
+    },
+    {
+      "path": "work/build-country-scene-repair.mjs",
+      "bytes": 4937,
+      "sha256": "53ac83b9bd501137f3c07f11de3f7127917276567a6047fbeb536c9ac38905ae"
+    },
+    {
+      "path": "work/final-game-mechanics.mjs",
+      "bytes": 4691,
+      "sha256": "6d878e441442ad99152aff33f13d0c55ab8f8b886d18ecf9e23f6db54937b2da"
+    },
+    {
+      "path": "work/build-repair-loading.mjs",
+      "bytes": 9137,
+      "sha256": "509888822cde89357eb13b7cae61a9e15437672d29bf3298c22a9d15dac6355e"
+    },
+    {
+      "path": "work/repair-loading.lua",
+      "bytes": 12901,
+      "sha256": "a9acab19f3d81d8113636217a806e8abcd3ab76097bed200d7d68757051744f5"
+    },
+    {
+      "path": "work/build-roster-v2-loading-generated.mjs",
+      "bytes": 6163,
+      "sha256": "1560b18b9e0de1d0ac993143abfcbfdfa6fc3fd2909a5bc79118df723e68ed08"
+    },
+    {
+      "path": "work/finalize-test-repair.mjs",
+      "bytes": 837,
+      "sha256": "02155de70fe8a9da2d846cddc9d118853c4493a4d59651a79c763b14a7e5d457"
+    },
+    {
+      "path": "work/deliver-test-repair.mjs",
+      "bytes": 2144,
+      "sha256": "f199a106e75bfdfd8a76399090b0f74c3b5003e347629281100e6ff3986820a2"
+    },
+    {
+      "path": "work/write-midphase-install.mjs",
+      "bytes": 5918,
+      "sha256": "67c0bd8e466d71559832625a33a617b9c0e7b3a9e77139737074fa883f435a75"
+    },
+    {
+      "path": "work/build-ayaka-final.mjs",
+      "bytes": 6465,
+      "sha256": "b5ff332346e3a6fa2e0c3441ba0b65c2cc15aa34aa6aa490db63fc19594e3543"
+    },
+    {
+      "path": "outputs/test-v1/base.save.json",
+      "bytes": 11794090,
+      "sha256": "53bb7725acfc36e8a430257417992c2c9e71e867b929a2dacb8bf5b2bdbb6d94"
+    },
+    {
+      "path": "outputs/group1-full-test/home-portraits.json",
+      "bytes": 145331,
+      "sha256": "148ff3618d1e809a45f048b8aa297965d7eebb4294ef4bd3f74b1d3ea9c34ee9"
+    },
+    {
+      "path": "outputs/stage-pixel-nearest-9000/report.json",
+      "bytes": 7899,
+      "sha256": "1e8b75dead3bb7f506572921174ed89a6f51db85c7d53d48410ec908dff8b9a2"
+    },
+    {
+      "path": "outputs/midphase-final/delivery.json",
+      "bytes": 698,
+      "sha256": "6c2e91610c85a6846a0a9a46e02d3191d04a02148be7136616a7e1a17cfe078a"
+    },
+    {
+      "path": "outputs/midphase-final/角色编号.json",
+      "bytes": 1306,
+      "sha256": "5ec57352396e4821e262210403b301b1d978e042eae97e428f0be6ef08a55382"
+    },
+    {
+      "path": "outputs/midphase-final/verification.json",
+      "bytes": 747,
+      "sha256": "e0e347136984acb914c9c052ae8037d965b51df3b50a8d58d1e83fd675f37387"
+    },
+    {
+      "path": "outputs/midphase-final/collision-verification.json",
+      "bytes": 274,
+      "sha256": "94ffb722c076a635d0c555612c6525637f8dbcc45f15a8c113a73d6249339dd4"
+    },
+    {
+      "path": "outputs/midphase-final/loading-verification.json",
+      "bytes": 1813,
+      "sha256": "b7cb48f8d20965e463eab97720628c9a6b57aa7c9f49a9b5f912d086759e2989"
+    },
+    {
+      "path": "outputs/midphase-final/mobile-verification.json",
+      "bytes": 354,
+      "sha256": "7b34a39d7f04342c2963d9e7318ff1be926c3d4e9ef33875a7bdf590021d73bd"
+    },
+    {
+      "path": "outputs/midphase-final/gpt_20261004_143008_A_19角色_9000背景_蓝红圆点.gia",
+      "bytes": 5675698,
+      "sha256": "712bc529e246c52f5a2b55915f18cb8c4dba02759222e98cf79e2a7f38b02c99"
+    },
+    {
+      "path": "outputs/midphase-final/gpt_20261004_143008_B_通用图元模板.gia",
+      "bytes": 1679,
+      "sha256": "2bf5d64aeb4bab88e68a6f20b406240c9e53e19a123789aad6c93a5a5503761d"
+    },
+    {
+      "path": "outputs/midphase-final/gpt_20261004_143008_19角色_9000背景_蓝红圆点.lua",
+      "bytes": 4865748,
+      "sha256": "5d0c3571bd61f6ab2daefafabd2652ed5856dd6522059de69ad7a7d892227248"
+    },
+    {
+      "path": "assets/vnext/keqing-frames.json",
+      "bytes": 485661,
+      "sha256": "24720171b01fa3e57cc05fa3c53ab8b0a55a22abb6bb3935dab3d6357a7e94d9"
+    },
+    {
+      "path": "assets/vnext/diluc-frames.json",
+      "bytes": 959815,
+      "sha256": "842abbe42e91cb249c30db634b6f569a81efed1b3978e34666a1eb2e9c4f6cc2"
+    },
+    {
+      "path": "outputs/motion-group1/kaeya/manifest.json",
+      "bytes": 38718,
+      "sha256": "220f9b88c313663c71fa0ac16d0886348587d41a100087023e4c132e9391207b"
+    },
+    {
+      "path": "outputs/motion-group1/kaeya/data/kaeya.json",
+      "bytes": 1687874,
+      "sha256": "416d1d82ff25e747287de57672b1c353cd59ea89006b94cbd24f184568840b6a"
+    },
+    {
+      "path": "outputs/motion-group1/jean/manifest.json",
+      "bytes": 38499,
+      "sha256": "9e744d62b88599e9a57f8c430a5b5413d3b4d269eb156d9a168fc85892ece4a2"
+    },
+    {
+      "path": "outputs/motion-group1/jean/data/jean.json",
+      "bytes": 1501246,
+      "sha256": "d8360086c3fb94fc991d01b4f0fcbe91cfbf1c41aa177e8c4e6f3a6920934c1b"
+    },
+    {
+      "path": "outputs/motion-group1/klee-approved-v3/manifest.json",
+      "bytes": 40297,
+      "sha256": "f0ce7c8690fe34d3bd6c779710017b9a9a6066b093db2d64a49ed7c2ce031c47"
+    },
+    {
+      "path": "outputs/motion-group1/klee-approved-v3/data/klee.json",
+      "bytes": 1232590,
+      "sha256": "9037e0af912a74d6f0ba9746eec026b1c76f8a866933c7ca0d20f6b3121778e7"
+    },
+    {
+      "path": "outputs/motion-group1/lisa/manifest.json",
+      "bytes": 38684,
+      "sha256": "5f46c1ca19f13dc6aead01464c891b0d6343ebe9549e60f42c7081b6429a02b7"
+    },
+    {
+      "path": "outputs/motion-group1/lisa/data/lisa.json",
+      "bytes": 1844626,
+      "sha256": "0ab597dd16edb389132c200440d508948b82ee107a24d1230bfa841abe93eca9"
+    },
+    {
+      "path": "outputs/motion-group1/ganyu/manifest.json",
+      "bytes": 38719,
+      "sha256": "02d7a1cd30e4f7b6a6082ff4eb076e69f27a7292f951779707597bcd43e9d811"
+    },
+    {
+      "path": "outputs/motion-group1/ganyu/data/ganyu.json",
+      "bytes": 1770258,
+      "sha256": "8b6df6196a0bb3b7609d7721e9919ad64a43e7b4513a14bdcb05b94f18c32844"
+    },
+    {
+      "path": "outputs/motion-group1/yanfei/manifest.json",
+      "bytes": 38247,
+      "sha256": "b78d2ba33f038b64160274cb84520a02acfa5fe1cc54d9335a04b05e0894cf6b"
+    },
+    {
+      "path": "outputs/motion-group1/yanfei/data/yanfei.json",
+      "bytes": 1764225,
+      "sha256": "c67616634d9b07bac120894bd84307e9f2001d7ad331c5261ef2c4d100fcb0e0"
+    },
+    {
+      "path": "outputs/motion-group1/xiao/manifest.json",
+      "bytes": 39036,
+      "sha256": "100df329cb46cb8639afc74ba25ee7fbba2459d069330c099f79e984a911d58b"
+    },
+    {
+      "path": "outputs/motion-group1/xiao/data/xiao.json",
+      "bytes": 1497427,
+      "sha256": "d8c79112bf7b519a9e698cc95f06fa28822e904b1af2ea57156a5dd3b82ede7d"
+    },
+    {
+      "path": "outputs/motion-group1/hutao/manifest.json",
+      "bytes": 39089,
+      "sha256": "1310c9ec6a2f5cb7f2dddc4276e65f7fde3b7f7aeca79eb58162634517c73754"
+    },
+    {
+      "path": "outputs/motion-group1/hutao/data/hutao.json",
+      "bytes": 1495396,
+      "sha256": "067041e575302f10752aad421216729a0e1a1a120001e9633d8e457e20e1f938"
+    },
+    {
+      "path": "outputs/motion-group1/lawachurl/manifest.json",
+      "bytes": 37821,
+      "sha256": "812a2ad85dcd33a63e986f702613a330e6b5185395d5b09d2c282b42b3234b24"
+    },
+    {
+      "path": "outputs/motion-group1/lawachurl/data/lawachurl.json",
+      "bytes": 1901468,
+      "sha256": "40db1c99154287aee6ebbc0095dc6ccc2e8341170377421b10e7a5102ae0d383"
+    },
+    {
+      "path": "outputs/motion-group1/yaemiko/manifest.json",
+      "bytes": 39392,
+      "sha256": "eb71653edd001d67f8f2f4eaaf26c9b519a7739d88dc6df6e148f00d831a75be"
+    },
+    {
+      "path": "outputs/motion-group1/yaemiko/data/yaemiko.json",
+      "bytes": 2221923,
+      "sha256": "893d922015ae18a804b0e94f93e333b452ffbf87b031b88acdb2d4581893dc27"
+    },
+    {
+      "path": "outputs/motion-group1/kirara/manifest.json",
+      "bytes": 39768,
+      "sha256": "c9dac7383ae96c0c2d3368bba2f3a13f78c4e70fd3df8f42094f45a3c432a08d"
+    },
+    {
+      "path": "outputs/motion-group1/kirara/data/kirara.json",
+      "bytes": 2105374,
+      "sha256": "79521654643f2460bea3d5b9bdb298f186b37bfe6c99f67d57516b6e630ae429"
+    },
+    {
+      "path": "outputs/motion-group1/kamisatoayaka-final/manifest.json",
+      "bytes": 38176,
+      "sha256": "bc2a6c594c602f28b1ba5ffb0ead9add354f3f6f2434bcd72a25f8d5c40eaae3"
+    },
+    {
+      "path": "outputs/motion-group1/kamisatoayaka-final/data/kamisatoayaka.json",
+      "bytes": 1736159,
+      "sha256": "26e67be3e3d2416f2863e9877123b4b0a3843d3c31262b3bcca9589ae02a8269"
+    },
+    {
+      "path": "outputs/motion-group1/kamisatoayato/manifest.json",
+      "bytes": 39176,
+      "sha256": "013bf884b68c539720f91afd23b6f95fccdcaef9e858e345ff5f78ffacdc1fa5"
+    },
+    {
+      "path": "outputs/motion-group1/kamisatoayato/data/kamisatoayato.json",
+      "bytes": 2152991,
+      "sha256": "c56198c1b41b3df1b3636dd63f979877183448b191c4bf0e6fbf5704cb1f2a5f"
+    },
+    {
+      "path": "outputs/motion-group1/aratakiitto/manifest.json",
+      "bytes": 38556,
+      "sha256": "79f3ff9a25b2bd5c386f2b2d29d49de2b6fca586a9a1be321ebb7ac32d371ff9"
+    },
+    {
+      "path": "outputs/motion-group1/aratakiitto/data/aratakiitto.json",
+      "bytes": 2197922,
+      "sha256": "46b74b06ae72aed4c0829a53913e4c271cd9eac5ac529e71f829ba0639e9953f"
+    },
+    {
+      "path": "outputs/motion-group1/sangonomiyakokomi/manifest.json",
+      "bytes": 38831,
+      "sha256": "f47b7af849f6bd1c6b0fa16f986621ac497bb748a186fdb61ad4667a23ceea89"
+    },
+    {
+      "path": "outputs/motion-group1/sangonomiyakokomi/data/sangonomiyakokomi.json",
+      "bytes": 2435094,
+      "sha256": "0ee6707c2d22dc27b57bbb22bb384a6ceb7be2bec8d41d73e25f2dd7b1668355"
+    },
+    {
+      "path": "assets/roster-v2/neuvillette-frames.json",
+      "bytes": 1227323,
+      "sha256": "330cf1de47cee42c81650ad8bcc45815b4df0795c6e1bef597852a7950beca16"
+    },
+    {
+      "path": "assets/roster-v2/nahida-frames.json",
+      "bytes": 1052414,
+      "sha256": "5907fce205cf2f3b60acbe33d373a0d5e0646ae39c24f851be2e496e2e5fd1cf"
+    },
+    {
+      "path": "work/build-pixel-country-scenes.mjs",
+      "bytes": 6048,
+      "sha256": "d426819a594554cd1efaa7507ca6814b9eaab335cea37816a5c28b354d1fc6e7"
+    },
+    {
+      "path": "work/finish-midphase-records.mjs",
+      "bytes": 1928,
+      "sha256": "699ffe7a848eb3b2865eecb486233f846cf13b715911e5cd637aca00adddb9db"
+    }
+  ]
+}

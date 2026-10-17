@@ -1,0 +1,6 @@
+import{mkdirSync,writeFileSync,existsSync,readFileSync}from'node:fs';
+const dir='assets/roster-v2',roster=JSON.parse(readFileSync(dir+'/roster.json')).filter(r=>r[0]!=='ronova'),images=JSON.parse(readFileSync(dir+'/character-images.json'));
+const records=[];
+async function download(url,path){if(existsSync(path))return true;for(let i=0;i<3;i++)try{let r=await fetch(url,{signal:AbortSignal.timeout(20000)});if(!r.ok)throw Error(r.status);writeFileSync(path,Buffer.from(await r.arrayBuffer()));return true;}catch(e){if(i===2)return false;}}
+for(let offset=0;offset<roster.length;offset+=6)await Promise.all(roster.slice(offset,offset+6).map(async([key,name])=>{const d=images[key];if(!d)return;let head=d.hoyowiki_icon||d.mihoyo_icon||d['hoyolab-avatar'];const p=dir+'/'+key+'-official-head.png';let ok=head&&await download(head,p);if(!ok&&d.mihoyo_icon){head=d.mihoyo_icon;ok=await download(head,p);}let body=d.filename_gachaSplash&&'https://enka.network/ui/'+d.filename_gachaSplash+'.png',bp=dir+'/'+key+'-official-body.png',bok=body&&await download(body,bp);records.push({key,name,head:ok?{path:p,url:head}:null,body:bok?{path:bp,url:body}:null});console.log(key,!!ok,!!bok);}));
+writeFileSync(dir+'/official-source-records.json',JSON.stringify(records,null,2));

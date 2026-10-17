@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>原神格斗 logo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&family=Cinzel:wght@700;900&display=block">
+<style>
+  :root { --bg: #1b2036; --ink: #e9e4d8; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px system-ui, sans-serif; }
+  #wrap { padding: 16px; }
+  canvas { display: block; max-width: 100%; height: auto; background:
+    repeating-conic-gradient(#2a3050 0 25%, #222842 0 50%) 0 0 / 24px 24px; }
+  button { margin: 10px 8px 0 0; padding: 6px 12px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="cv" width="1400" height="500"></canvas>
+  <button id="save">导出 PNG（写入 game/tools/logo/logo.png）</button>
+  <span id="msg"></span>
+</div>
+<script>
+// 原神格斗 logo, drawn as flat graphic shapes (hard colour bands, no soft gradients) so it bakes
+// into few rectangles: slanted serif title with a navy outline, gold edge and three gold bands,
+// a white slash with element bars behind, a Genshin four-point star, and an angled plate
+// carrying GENSHIN FIGHTER. The PNG is baked by game/tools/build_logo.py.
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+const W = cv.width, H = cv.height;
+const NAVY = '#0e1226', GOLD = '#d3bc8e', CREAM = '#fff6dc', G1 = '#f6dc98', G2 = '#e2b35c', G3 = '#b57a2e';
+const SKEW = 0;                           // drawn upright: straight strokes bake into far fewer rects; the title scene tilts the whole logo
+
+function para(x, y, w, h, col, k = SKEW) { // slanted bar (parallelogram), x/y = left/top
+  ctx.fillStyle = col;
+  ctx.beginPath();
+  ctx.moveTo(x - k * h, y); ctx.lineTo(x + w - k * h, y);
+  ctx.lineTo(x + w, y + h); ctx.lineTo(x, y + h);
+  ctx.closePath(); ctx.fill();
+}
+
+function star(cx, cy, r, col, inner = 0.18) {
+  ctx.fillStyle = col;
+  ctx.beginPath();
+  for (let i = 0; i < 4; i++) {
+    const a = i * Math.PI / 2 - Math.PI / 2, b = a + Math.PI / 4;
+    const px = cx + Math.cos(a) * r, py = cy + Math.sin(a) * r;
+    const qx = cx + Math.cos(b) * r * inner, qy = cy + Math.sin(b) * r * inner;
+    if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+    const na = a + Math.PI / 2;
+    ctx.quadraticCurveTo(qx, qy, cx + Math.cos(na) * r, cy + Math.sin(na) * r);
+  }
+  ctx.closePath(); ctx.fill();
+}
+
+// hard-banded fill: three gold bands top to bottom
+function bands(y0, y1) {
+  const g = ctx.createLinearGradient(0, y0, 0, y1);
+  g.addColorStop(0, CREAM); g.addColorStop(0.36, CREAM);
+  g.addColorStop(0.36, G1); g.addColorStop(0.58, G1);
+  g.addColorStop(0.58, G2); g.addColorStop(0.8, G2);
+  g.addColorStop(0.8, G3); g.addColorStop(1, G3);
+  return g;
+}
+
+function glyphs(list, pass) {
+  for (const g of list) {
+    ctx.save();
+    ctx.translate(g.x, g.y);
+    ctx.transform(1, 0, SKEW, 1, 0, 0);
+    ctx.font = `900 ${g.size}px "Noto Serif SC"`;
+    ctx.textBaseline = 'alphabetic';
+    ctx.lineJoin = 'round';
+    if (pass === 'outline') { ctx.lineWidth = g.size * 0.2; ctx.strokeStyle = NAVY; ctx.strokeText(g.ch, 0, 0); }
+    if (pass === 'edge') { ctx.lineWidth = g.size * 0.075; ctx.strokeStyle = GOLD; ctx.strokeText(g.ch, 0, 0); }
+    if (pass === 'fill') { ctx.fillStyle = bands(-g.size * 0.86, g.size * 0.08); ctx.fillText(g.ch, 0, 0); }
+    ctx.restore();
+  }
+}
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  // behind the title: white slash and element bars
+  para(150, 168, 1120, 22, '#ffffff');
+  para(190, 132, 700, 9, '#ff8a4a');
+  para(420, 206, 760, 9, '#48baf5');
+  para(260, 226, 520, 6, '#be84ff');
+  // title: 原神 slightly smaller, 格斗 bigger and lower (forward motion)
+  const list = [
+    {ch: '原', x: 170, y: 300, size: 200}, {ch: '神', x: 380, y: 300, size: 200},
+    {ch: '格', x: 610, y: 322, size: 236}, {ch: '斗', x: 860, y: 322, size: 236},
+  ];
+  glyphs(list, 'outline');
+  glyphs(list, 'edge');
+  glyphs(list, 'fill');
+  // four-point star over the last character
+  star(1135, 96, 64, NAVY, 0.28);
+  star(1135, 96, 52, '#ffffff', 0.2);
+  star(1135, 96, 20, GOLD, 0.25);
+  // plate with GENSHIN FIGHTER
+  para(300, 360, 800, 74, NAVY);
+  para(306, 366, 788, 4, GOLD);
+  para(306, 424, 788, 4, GOLD);
+  para(286, 360, 14, 74, GOLD);
+  para(1104, 360, 14, 74, GOLD);
+  ctx.save();
+  ctx.font = '900 46px "Cinzel"';
+  ctx.letterSpacing = '14px';
+  ctx.fillStyle = GOLD;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.translate(700, 400);
+  ctx.transform(1, 0, SKEW, 1, 0, 0);
+  ctx.fillText('GENSHIN FIGHTER', 0, 2);
+  ctx.restore();
+}
+
+document.fonts.load('900 200px "Noto Serif SC"', '原神格斗')
+  .then(() => document.fonts.load('900 46px "Cinzel"', 'GENSHIN FIGHTER'))
+  .then(() => { draw(); window.logoReady = true; });
+
+async function save() {
+  const r = await fetch('/save', {method: 'POST', body: JSON.stringify({name: 'logo', png: cv.toDataURL('image/png')})});
+  document.getElementById('msg').textContent = await r.text();
+}
+document.getElementById('save').onclick = save;
+window.saveLogo = save;
+</script>
+</body>
+</html>

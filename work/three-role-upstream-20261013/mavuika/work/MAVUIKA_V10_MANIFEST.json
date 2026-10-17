@@ -1,0 +1,1292 @@
+{
+  "sourceCommit": "60da9119d3605e030d3a6135f7b217d612de641c",
+  "status": "candidate, not full character or formal game",
+  "files": [
+    {
+      "path": "mavuika-v10/dist/app.js",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 7164,
+      "sha256": "cf66de9190696d42611e6264fd0a36eb25bb6f67a5c35bf4beedbd23092023d9"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/backwalk-initial-rects-v5.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 34776,
+      "sha256": "f5e57db86c5163b14d8dbeba12d1d523ab18727c0f9a93fa93e40c213be8d6f2"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/backwalk-initial-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 36616,
+      "sha256": "099f5888188b36141eb99b06c3e0bad2ba2a1ecfc609cf8bd4102b6a20bcfc8e"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/backwalk-optimized-rects-v5.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 28178,
+      "sha256": "7a029f415893275afc28943a3f58e2199f5b5bd7b8f4e2f18cf034514ba3b0b0"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/backwalk-optimized-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 41306,
+      "sha256": "f9c17878f8c5e65f3831fe13352d507dff3bb4b8d508917a4c7c91d598f5bd28"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/brake-initial-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 13606,
+      "sha256": "8d15736ab931c0e230b87763aa82da797c1eb850a3eb8e0f8a94a6da2d4a812f"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/brake-optimized-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 12366,
+      "sha256": "e81f0db52fc8b1b0910d33d716457fc21ac94852d28f7601d3a804224accb870"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/claymore.svg",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 641,
+      "sha256": "ecc49b79c7353eab31eac1fca66a8ae7b4fc03d1784b2813fa6bb53fddf8e228"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/idle-initial-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 5511,
+      "sha256": "9ff2f401282a7017515c7ffbfe334983059e00ecd246de17ee532085fdbbcd96"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/idle-initial-rects-v5.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 11639,
+      "sha256": "cc799f39e8ef06caf64cd03fa8f3d63be440f77324464deaf2d05ab174946ba0"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/idle-initial-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 11068,
+      "sha256": "5ffc6293131c0f3aa92ace07b31be0da226294bf8c4a0cbef14b03c463036d86"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/idle-optimized-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 4493,
+      "sha256": "f87be572208fa2a97eb48243588bfbb35034eaf73c6c33dcb181948061c50de8"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/idle-optimized-rects-v5.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 9169,
+      "sha256": "516a487de1fdef5b676009f417818e61777cf7a3ebb8b1b00ab66489ccc83133"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/idle-optimized-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 12332,
+      "sha256": "f9a052d7ec0760e63577bfa1f2e84e3eeb30b9d95fcf7341a38533ee8b26c874"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-block-fade-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 1262,
+      "sha256": "22336788692f46b5a9a870f959c84fba345d9b81cf50a15f038c1a15af8f40b1"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-block-fragments-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 2091,
+      "sha256": "ee2a8c70ef17957e66e8d519fc230833946444517adb8f8587c7f7fb8b1d7a18"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-block-peak-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 3143,
+      "sha256": "188da1d2fa2b8e40ee80db75fa563fb4d28efb52ad5254ee2269d34a1d5d9263"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-block-start-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 1849,
+      "sha256": "e90ef0302127fc068b3e81371c3e4c7c591305677f14dc642be4a66b227b8d6d"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-hit-fade-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 1679,
+      "sha256": "8648482da0bd7ac26f2a5bedec0f363e129720e142ab0f46e56a20f2a0ac98c3"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-hit-fragments-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 2965,
+      "sha256": "a0068b2a9e0f5a7c4d3ccb21ad7d51921a993272d5da43fe9ea55470007b72ae"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-hit-peak-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 4165,
+      "sha256": "b44e6c73985566b67aae44e9ca8378cfa8876c77aa6c34ac334f2f26060880d9"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-hit-start-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 2156,
+      "sha256": "2571042cd49a4faa53f6f3bf0ec5929f943eed90870ad05a2df96d4d6a81ad74"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-prepare-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 1352,
+      "sha256": "3f35fcde825052b823e82e1d2345e0b65355ce42e75c95a2041c4315620d19d7"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-release-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 3595,
+      "sha256": "7d32057ff353582ad5b20e2ecfc3ea99734cafddf91a41b96531da17f813e3ad"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-residue-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 4424,
+      "sha256": "2b1100dd0edaddfbe2ef2bc437ea19f7c7c967ea3bba0cc413589445156e8e52"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-rig-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 11728,
+      "sha256": "a34b52d3141b4abe22122dd7d62981c5d5226b250b7c326dec692b30c4546e8b"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-fx-slash-rects-v7.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 6064,
+      "sha256": "288889c1fb66484080dd40e1a94fe1975cecff9cae22c8c60fe80fe8ebddb190"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-initial-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 34390,
+      "sha256": "c59e73d31241b1a063c64ec4d1ba62575794096d8a6d56948e2393555a2cea96"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/light1-optimized-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 38787,
+      "sha256": "5df419230bca7db93020e5fead2be5e4dc7defe2feb3517609403b799e975206"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-backwalk-initial-v5.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 10583,
+      "sha256": "25e8d2bc99aa6c14114016815d59ebd7423b45c7a7787400cfd3613ee5f1566e"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-backwalk-initial-v6.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 11654,
+      "sha256": "3cc1894d48b4869fd0bc3edeaf44474f94ce1eaf5a233da3e48f50048c36363e"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-backwalk-optimized-v5.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 8360,
+      "sha256": "65563bb9992331774c8a3092474f35214393a8db01c272c8c3c58466313d7785"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-backwalk-optimized-v6.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 12482,
+      "sha256": "73c0bafd84330687b8bc6b9136dc09460bad906b1e276660a6f64ec5d6767196"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-backwalk-source-v5.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 2171947,
+      "sha256": "dcc7023c84c03dc56f42cefd0616107ce9ab32a90fb8aca8acc233042bb4f496"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-backwalk-source-v6.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 2171085,
+      "sha256": "988f93c128cef052b5c875873aafacb4d3ddd91210a47789edeeeb9c6e34f126"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-idle-initial-v5.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 4003,
+      "sha256": "ff0d7e8614ccfe42ad5037f8a6a1733ad86630daf152932b923169ed83d1bcd1"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-idle-initial-v6.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 4051,
+      "sha256": "fec37ba9bc93c2591951d50474fffc97aba8055fa748e6562cb2677dd3fcf0f3"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-idle-optimized-v5.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 3147,
+      "sha256": "dd0ce121f8ffdeaf50709c7c395879e310690cce831e1e56f06aca0dc77ac74b"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-idle-optimized-v6.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 4227,
+      "sha256": "f6dc0ea186e4f374edbf744d0e6f85e35d2be0ead7ca5dc9a77540df4c609a22"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-idle-original.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 72786,
+      "sha256": "353b23f0c05a866af2dbf7c450ca30391d54f4b3c841207fa44e276f9fc1825f"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-idle-source-v5.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 1054900,
+      "sha256": "b49e690120eb8e9f4e9bec958eaf5501870c075c9fb438f1e4335074c7f67abb"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-integrated-v1.png",
+      "archive": "mavuika-v10-20261012-part01.zip",
+      "bytes": 2323432,
+      "sha256": "db4a97e97818904b57006488b4962b78d28af9e146c3a4b9d86d241e6c9f0317"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-light1-extracted-v6.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 2382189,
+      "sha256": "b6bd75d35804b292681639b6d9bca976746e9fa49a2ae948f68c601799d5f017"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-light1-fx-fit-v7.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 7223,
+      "sha256": "b8d225e4991f5d0cd56c330da90580d319068e88924d0a0c2dda6e4493fea7aa"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-light1-fx-source-v7.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 1571701,
+      "sha256": "dfd50507286a257898983f7acfdd1eab4ec76c0cc5254be57644a8a76d8c59c3"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-light1-initial-v6.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 10744,
+      "sha256": "00784b50619e283d9759e4170622111f55258ae68f187bc332b5b20b6e9edd69"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-light1-optimized-v6.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 11846,
+      "sha256": "f0973c9a9f6278ad26d1152a913944fd0ac541b1675f46170a7349d660b9a831"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-light1-source-v6.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 2229765,
+      "sha256": "71dc5a21f92f9f011ae7f04e17adbfe2eb8ab9fd18753df8c80c7e05d6bfbfe4"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-phase-initial-v4.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 14338,
+      "sha256": "ca670cab84862a52c4fa11dcb27498ee7067b187d1431a7ee2dde1302fe1cc9d"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-phase-optimized-v4.png",
+      "archive": "mavuika-v10-20261012-part02.zip",
+      "bytes": 12196,
+      "sha256": "074540e80d17a750c6110ae05264f0e7c69cca0a14d21e0624ac83a2e000dfce"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-phase-sheet-v3.png",
+      "archive": "mavuika-v10-20261012-part03.zip",
+      "bytes": 2461770,
+      "sha256": "e92ae1eb3413c8a82b54f02b6f6f04a32f64cee6cfe73652059f3b0624bab9fe"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-phase-sheet-v4.png",
+      "archive": "mavuika-v10-20261012-part03.zip",
+      "bytes": 2413391,
+      "sha256": "d2678197fbdbad31a6577e3f5c42eb495326e5cda5d687d8eeee50935a9c4bf9"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-q-body-sheet-v1.png",
+      "archive": "mavuika-v10-20261012-part03.zip",
+      "bytes": 1296478,
+      "sha256": "37096512476070bd698d6a9a3fd4254b186ef8e3440f7c95c6904520bafcff5f"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-q-body-sheet-v2.png",
+      "archive": "mavuika-v10-20261012-part03.zip",
+      "bytes": 1179956,
+      "sha256": "579bd478a455613ddb54f20cbe9d9fd19f31ac54952db0f7054dbcffa99d746d"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-q-fx-fit-v8.png",
+      "archive": "mavuika-v10-20261012-part03.zip",
+      "bytes": 50014,
+      "sha256": "3c2fe7f0926d625dec9ffa17fa100fbe04502ab3d8f2de11039393a335841d99"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-q-fx-source-v8.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 2084943,
+      "sha256": "c126cce1e48f4755f90335bcb5a5a15753d42b37e99ce3a3c5562c712167bf3b"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-walk-initial-v5.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 11214,
+      "sha256": "7ea2eb1d5e9003760fe11f125cd33f84d82db3aba6442200e8d0b5be30de1f57"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-walk-initial-v6.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 11960,
+      "sha256": "5315beb756c17ae57f5b4e5cfb43af5c356ca04c8ba28a1a2f1222f84457f381"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-walk-optimized-v5.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 8842,
+      "sha256": "9eb3761766548d27664dd99f21775e5cf141a2e0e0b07d5b5af047bb49438cf5"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-walk-optimized-v6.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 12620,
+      "sha256": "9666cc175f4ad075d1ff03e131df5bc4e16c0f0aae5df0d0a66194dc2bafae01"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-walk-source-v5.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 2168328,
+      "sha256": "9cd3dd526df4db1119d5048b089e6201c4b7f68da54a2351a5a4532eba3d7533"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/mavuika-walk-source-v6.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 2192955,
+      "sha256": "fc26a77679e7d37bd7601c19ab00df3153ad2d4687dd0820fadc8b0e9fa2591d"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/neutral-rig-v5.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 10345,
+      "sha256": "23e02777329ac5d6e5b685fcd4a469e274400817c2d1a7d7efa2fe199db3a7af"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/neutral-rig-v6.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 14603,
+      "sha256": "d869bd48fb9379a3820f12d8637a97658a0ed5ed4a8359f252a125f3be04f036"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-blade-prepare-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 24078,
+      "sha256": "b6d397d6eff3a9145c4fb7f354bbbea02da93341be0758fbf009a88a9fa6d506"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-brake-sparks-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 11076,
+      "sha256": "b8fc1023c9d05e471ef4bf3b54b12a5cdba2271735ad72e69dcf3b1ccf1e18e4"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-charge-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 2481,
+      "sha256": "80efc46d85616ca5eea2d776dbec5e491607e3ff48c5f1968fba5176e2b60879"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-impact-fade-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 7781,
+      "sha256": "d010c8a51f7974c44ed3425a89467b9608a958c3ebf4266a365a7d489ed70e5a"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-impact-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 10461,
+      "sha256": "fced67b50a2141bd27ef7c51b0ddca6a7c0323416c09896d243623ce836aa571"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-rig-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 13926,
+      "sha256": "d104105b1789ef1192021a2391c81f65f2914034ad81b8cb0c0106956de4f1cc"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-skid-residue-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 8899,
+      "sha256": "62a11aada7f7bf84758f639154c345570e99d43ae1116f85837adf1824d93ad1"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-slash-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 45563,
+      "sha256": "8b05b919d44715a3a935ff3eb2d51f00e9610b6c4600eb835d1337911bc8d63b"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-slash-residue-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 14217,
+      "sha256": "6bb891ab35270e47dd7d1adf9daaa30d770ce4fc3a209ab08dbf5881ba6a4368"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-sun-fade-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 15850,
+      "sha256": "d5b250706a4aa4bd1026dcae878c1d8a99fbb78c5dc0d6cb5d08d508da12a666"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-sun-full-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 25304,
+      "sha256": "06a36cc88195b3c0aa7ffef6d92637839c9433290627547c436fd1e875fdafc8"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-sun-open-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 16685,
+      "sha256": "85e5dae92f011031ed41f14982dac2e90e9510041a5cfb272d8a9f3c82846552"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/q-fx-wheel-trail-rects-v8.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 13867,
+      "sha256": "a5c65a46da951d25f956551dd5a465c520cce7df6fdd17bcc309b4b3efc3e80f"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/ride-initial-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 17423,
+      "sha256": "dbd7c5fff9db4b8346bb86c93460ccbc1c1151a4f8c15b81d61a684b0985626c"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/ride-optimized-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 15988,
+      "sha256": "b0ec2a1bac0dc5b4c3a575288eb9c765a195f3a16ff013b9fa79a942713a65c4"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/rig.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 5811,
+      "sha256": "ecc704997e2516bf23a2b770946a9137c6aff4f801d5fbcd5c7824c50977b311"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/slash-initial-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 7568,
+      "sha256": "d427c07389f84e36ea75b8eb48fc6383719e60f8b899eba5420caed2b0e7b602"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/slash-optimized-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 5611,
+      "sha256": "ac45092e555b05664f645a4bb1807e2b80c1406281e5bed7f642a118f8e3e6eb"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/v3-target-atlas-v7.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 25243,
+      "sha256": "af96910744bfbcee11cfa523c90cbbb36956a65daefda3caed8bd1f6c1574ca4"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/v3-target-data.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 130515,
+      "sha256": "1a90fc63c2f2da0c5491f03cb5ebc54c852edbf59358f9a00de83fdbb2d2f91c"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/v3-target-flash-v7.png",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 7731,
+      "sha256": "c219561fd2be7242f9001d013d7a91eeb4c19e9d060faefc39d2b5ec230db33f"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/v3-target-rig-v7.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 1197,
+      "sha256": "a677b66ba61c2094382a140055943ca124245466174f97c2ca858f0d9f1f3aa2"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/walk-initial-rects-v5.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 35633,
+      "sha256": "38a2183552b72ffb8b37cf2630e3d2d8f2e8fc228cad1b015ac0c27d7ed0538a"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/walk-initial-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 36316,
+      "sha256": "8eec1182afdadcceb767c53eab56edd992caed145e5aa9db30b934f32545f2cb"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/walk-optimized-rects-v5.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 27979,
+      "sha256": "a172e20c01f9b5dea57e3921eeb279d733db166f26a63037cece01e5529cbdb9"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/walk-optimized-rects-v6.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 41171,
+      "sha256": "da6597e5caff62deeda040922c94e5c25e2b7a995e0f8eb035d4b1b11cda1a71"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/windup-initial-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 8241,
+      "sha256": "969bff3ca78cb3e20337e6ab35b73d237012124fa76afa7aa1259758ff173466"
+    },
+    {
+      "path": "mavuika-v10/dist/assets/windup-optimized-rects-v4.json",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 6252,
+      "sha256": "d8409aca3ceae6302d728f12e8437077a931dccdd4b8ab3a27df6043e3408b26"
+    },
+    {
+      "path": "mavuika-v10/dist/fx-review-v7.html",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 3381,
+      "sha256": "7c7d668c05bb0ee05c9d469a6669313fbe77fb5bf3a29ca696b8601548406a75"
+    },
+    {
+      "path": "mavuika-v10/dist/fx-review-v7.js",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 4576,
+      "sha256": "75daff8d92cb14f10617c340b00c3b30b77068b6c5b22681ae57ce3efa3bc2a1"
+    },
+    {
+      "path": "mavuika-v10/dist/index.html",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 5062,
+      "sha256": "1ab028b7d209b3ce8848eec2fe5c606f47cd914e340bdac37a21a913f10f5a13"
+    },
+    {
+      "path": "mavuika-v10/dist/light1-fx-model-v7.js",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 2127,
+      "sha256": "0dbfa8b364f683e0d01c36cc2deebfbdf5cf6b2b5356b2b2f9f1cd598deee30c"
+    },
+    {
+      "path": "mavuika-v10/dist/light1-model.js",
+      "archive": "mavuika-v10-20261012-part04.zip",
+      "bytes": 2591,
+      "sha256": "99072d5a6429f87825a3e41de39eb0dc4b10a9cc0113915ee4c9bdca56a7022a"
+    },
+    {
+      "path": "mavuika-v10/dist/mavuika-fx-offline-v7.html",
+      "archive": "mavuika-v10-20261012-part05.zip",
+      "bytes": 6802961,
+      "sha256": "997769d34d6235f4579ebffdf1c6e7f9a45495697367c67aff5ab056308e301c"
+    },
+    {
+      "path": "mavuika-v10/dist/mavuika-q-fx-offline-v10.html",
+      "archive": "mavuika-v10-20261012-part05.zip",
+      "bytes": 3507475,
+      "sha256": "03751b1e18245f8b5782855c11ce153aa4f84e35701a275ef6020d362412ca9b"
+    },
+    {
+      "path": "mavuika-v10/dist/mavuika-q-fx-offline-v8.html",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3506034,
+      "sha256": "83395b73e429dc99e1bc6dccaa2242c09b73655d88432838e9c29d27937d30ff"
+    },
+    {
+      "path": "mavuika-v10/dist/mavuika-q-fx-offline-v9.html",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3506874,
+      "sha256": "a22c62b85187f45458dbb006d13d39738827e2d04e0d8ab2a9d8e127bfb0234d"
+    },
+    {
+      "path": "mavuika-v10/dist/neutral-review.html",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3145,
+      "sha256": "8e0c98be3361caf39bef19a7275bf8bef54104c53946562007a8d6ede16dae68"
+    },
+    {
+      "path": "mavuika-v10/dist/neutral-review.js",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3886,
+      "sha256": "589dcb513fe95f8b2467b2dd81f69851875806eeeed8cc856bfbddb5ede83582"
+    },
+    {
+      "path": "mavuika-v10/dist/offline.html",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3371665,
+      "sha256": "0c6e995b95b1c7aee71108396af4f85fd40b83abd10e56465507d44090f7a4ed"
+    },
+    {
+      "path": "mavuika-v10/dist/production-notes.md",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 17677,
+      "sha256": "aacb0748c74327c79bb3a53d7c70bfdfac88db9d4ed12dce9d153196be3ad492"
+    },
+    {
+      "path": "mavuika-v10/dist/q-fx-model-v10.js",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3609,
+      "sha256": "5ee027135a0baaab1f8926c7b038a0ef310d34d201473e056c030cd0244e84db"
+    },
+    {
+      "path": "mavuika-v10/dist/q-fx-model-v8.js",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3124,
+      "sha256": "3f907b0916da53c2e52054f2b0188def5bfe3563c5d418aa7de12212c624c1f3"
+    },
+    {
+      "path": "mavuika-v10/dist/q-fx-model-v9.js",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3657,
+      "sha256": "8889d745657e3719ea66fc766635b1459b7bb473b202c8cd07b81a8b5ae9190a"
+    },
+    {
+      "path": "mavuika-v10/dist/q-model.js",
+      "archive": "mavuika-v10-20261012-part06.zip",
+      "bytes": 3852,
+      "sha256": "b3a642cb24d291f81296b4970376c26c7743f2adddbf49fd37d743191f581bb8"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-bike-fx-v10.gif",
+      "archive": "mavuika-v10-20261012-part07.zip",
+      "bytes": 3279081,
+      "sha256": "74b945a9769162754711152e365cc1ca16400eda04ea14c70284e53fc9efe2cd"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-bike-fx-v8.gif",
+      "archive": "mavuika-v10-20261012-part07.zip",
+      "bytes": 3277770,
+      "sha256": "0f3f9d0d007cc2ff9d99068e2d9d1f2dd6d8573ec8c86eb09f903c1854466918"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-bike-fx-v9.gif",
+      "archive": "mavuika-v10-20261012-part08.zip",
+      "bytes": 3331885,
+      "sha256": "cd28d4aaf949f22753ccb99e314a9afd64f131f4f6c4b4ff57e3ce5b52112965"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-fx-branches-v7.gif",
+      "archive": "mavuika-v10-20261012-part08.zip",
+      "bytes": 3114148,
+      "sha256": "0f6c401a37e5e93f21fc112a761aae94dd9c483a10cfdff4665c8667d95be72c"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-fx-sheet-v7.png",
+      "archive": "mavuika-v10-20261012-part08.zip",
+      "bytes": 164047,
+      "sha256": "374d516eff8042181e3bfd7665358244895ba8f19cbf58147f1721a9a39a56c7"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-light1-block-v7.gif",
+      "archive": "mavuika-v10-20261012-part08.zip",
+      "bytes": 974667,
+      "sha256": "a4c539768239658868459ea76aabc30532e347bc61631cb4dfa0eb4faa08fda4"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-light1-hit-v7.gif",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 960584,
+      "sha256": "0776f93acbc2ffdd9938be1253b059fce44e2a8a7905477340689af3533486c2"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-light1-miss-v7.gif",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 866362,
+      "sha256": "af530fdbe1701045c9a6f39b86e317baffa1950e1c845fb3b9565acba8b73eab"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-light1-v6.gif",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 2069580,
+      "sha256": "a02d75b9450d5a0b09edff82d4672e958950a514b6654dd9f0c3805f473cb1a2"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-neutral-v6.gif",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 1047448,
+      "sha256": "a62c3c58b544cd49e2ff858dc775141e8daf60fbb3c9d553bc460e3f1bc03f64"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-bike-fx-v8.png",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 166557,
+      "sha256": "c0485fb745bd50b494044a4a2de252fae851201673040572b88f8231690c52de"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-bike-fx-v9.png",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 124003,
+      "sha256": "453b82031f98dbcd38bb8fb11073b391902b103c6570576909308883a8f09384"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-flow-v10.png",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 137930,
+      "sha256": "d3a4c645e647c3039fdec3aaa939386c7529fac83d49b205c6185f4a5d48202f"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-fx-v10.gif",
+      "archive": "mavuika-v10-20261012-part09.zip",
+      "bytes": 2598900,
+      "sha256": "54ad73dc674896aa11b2cdedf4fc1cb2b57f0a2d0d75afacf76208500b81a08d"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-fx-v8.gif",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 3024827,
+      "sha256": "23d85ca93d4b21ee6aed495e3f97d2bc8449c32ff44171329238bf31fb2c88b0"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-fx-v9.gif",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2780781,
+      "sha256": "4b3bedec99dc863e6b860ad5fec94fadb46248c5c5c5147a330c3beb72ffcab2"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-impact-v10.png",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 26513,
+      "sha256": "825338d4191dd703727a714e17aaceb98864f3f700892f2a55efb19109a3f0d4"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-impact-v8.png",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 40337,
+      "sha256": "6e402a3f914489b4e287ebf63bde23e5d908f0668ec4bbd0c4a7fe45479ee87d"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-q-impact-v9.png",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 25823,
+      "sha256": "ddf88e3c98192903babefcc1608239e0cfec95c436f6f8dd2455b1fda06ba248"
+    },
+    {
+      "path": "mavuika-v10/dist/review/mavuika-v6-review.png",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 294500,
+      "sha256": "131f1bb0040f20bc5d02998403e3af76a7977c7e384c6ebf525fe2dd39693261"
+    },
+    {
+      "path": "mavuika-v10/dist/style.css",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 3190,
+      "sha256": "36de62a7d42ae8d10033f42d326aa959329c86f579ee926d42d4fb53e0f0de5e"
+    },
+    {
+      "path": "mavuika-v10/production/FX_REVIEW_20261012.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 9851,
+      "sha256": "624351fc591c13100ab66a4d6ddc4544c5bda6aa75e70d8a491e4539d3ae2941"
+    },
+    {
+      "path": "mavuika-v10/production/RESUME_20261011.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 3436,
+      "sha256": "4b01d5060295763faa37ce72ec17995d0ee614be368d4461e0c6869388a45df1"
+    },
+    {
+      "path": "mavuika-v10/production/RESUME_20261012.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2543,
+      "sha256": "7e0befcaade497b428f2711b49f49b7bd7d10521f684ac803ddffa090cfd43b1"
+    },
+    {
+      "path": "mavuika-v10/production/RESUME_20261012_FX_V7.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 4434,
+      "sha256": "76e91882482f3ebf0d4ec810bc829a4689549e6bdb99482278ea7e41ebb8932e"
+    },
+    {
+      "path": "mavuika-v10/production/RESUME_20261012_FX_V8.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2395,
+      "sha256": "b6bfd6d12d6129169f78198b7da0ebf5a641221ee25992cee0610641d2063399"
+    },
+    {
+      "path": "mavuika-v10/production/RESUME_20261012_LAYER_V9.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2417,
+      "sha256": "f5580edd2a905a4b83f609f51603149daf0bb2c26af0ed133f2349d31a5fde00"
+    },
+    {
+      "path": "mavuika-v10/production/RESUME_20261012_ORIGIN_V10.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2094,
+      "sha256": "48f70065557fa4b150f9bc599a366a6206555e02b1fb0d9258a86130aa1fbe09"
+    },
+    {
+      "path": "mavuika-v10/production/action-ledger-v5.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2419,
+      "sha256": "bfa8583ce4eef29159672b2cfee239f850e0d446ce21a14f4355a6326bc419bc"
+    },
+    {
+      "path": "mavuika-v10/production/action-ledger-v6.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2540,
+      "sha256": "191f9e6012a6c5f9b837a9232e6d73b3d4789f40f73190e6958d9035292d5c35"
+    },
+    {
+      "path": "mavuika-v10/production/alpha-audit.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 418,
+      "sha256": "37f48628e0dcc21d658f405ca83ec1597f3c13dba39b31c38f859cbde0ba9e54"
+    },
+    {
+      "path": "mavuika-v10/production/build-fx-offline-v7.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2070,
+      "sha256": "c9869ca91bd0dcfa7b4c286bbd25ba27a64250ae11a315abfd397631f056ffb5"
+    },
+    {
+      "path": "mavuika-v10/production/build-offline.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 1135,
+      "sha256": "0584d1427febfa560abfa4b24bd566aa0867d4cbda35efc6a93bd04abf736888"
+    },
+    {
+      "path": "mavuika-v10/production/build-q-offline-v10.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 1953,
+      "sha256": "4e70b4d69dc3123b7d18d8a6bfd957a0134f4aed3d0a682fb523dfd547243bd2"
+    },
+    {
+      "path": "mavuika-v10/production/build-q-offline-v8.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 1950,
+      "sha256": "ca2cf10376b0875ec43d304fcc949b55ad58e068f2f1ac17b38768d631a05f82"
+    },
+    {
+      "path": "mavuika-v10/production/build-q-offline-v9.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 1950,
+      "sha256": "9dfe01ff9fa968e778c80db92dbb492d5514e1a705590c4d5746820967f74b9f"
+    },
+    {
+      "path": "mavuika-v10/production/export-v3-target.lua",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 829,
+      "sha256": "1edae2ec316cc6f19121c10719ff52aa545388a4d4d1e186f7502bba18db5374"
+    },
+    {
+      "path": "mavuika-v10/production/fit-actions-v6.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 5817,
+      "sha256": "28f5f101fee10fd6c2a4203493c0b4ffc227b490f78fa8aaf89528da592053fe"
+    },
+    {
+      "path": "mavuika-v10/production/fit-light1-fx-v7.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 5288,
+      "sha256": "e82cd0c29147906aabfa886e32539d5db814b768bebcbb9d352fe8573e94b634"
+    },
+    {
+      "path": "mavuika-v10/production/fit-neutral-v5.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 4271,
+      "sha256": "7e835ac0e17ee8e3e5705db9f0a949ce443654c672eae5ebb1a45cbbc6fc4cdc"
+    },
+    {
+      "path": "mavuika-v10/production/fit-phase-v4.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 3717,
+      "sha256": "854b37a60c73099c3e00fb2fd2463e6f672ca0b00051348c3a0c981cfe532f94"
+    },
+    {
+      "path": "mavuika-v10/production/fit-q-fx-v8.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 4216,
+      "sha256": "9b63a2bbbaa4f584b5a86b033ee59ecdf2cf338aef9cefa9ca85a300b422f6bf"
+    },
+    {
+      "path": "mavuika-v10/production/fit-report-v4.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 3107,
+      "sha256": "4fef3c78c306e0a0241f26964ea26fc107543e634991bc2e6b461a8b716b9d31"
+    },
+    {
+      "path": "mavuika-v10/production/fit-report-v6.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 5255,
+      "sha256": "85caf055ec71309cb86f12619c844d43283552404801f1ee541eb945f9a3cf42"
+    },
+    {
+      "path": "mavuika-v10/production/fix-q-layer-v9.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 4696,
+      "sha256": "c29ae4b79bf9868a7a021f66f3bd8784ff9cb805fbbc08343b23a77c68404188"
+    },
+    {
+      "path": "mavuika-v10/production/fix-q-origin-v10.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 4675,
+      "sha256": "cbd7328185f552cd3f51501de96d9081fec6d3e08d47e7f42e138249ef5a1dad"
+    },
+    {
+      "path": "mavuika-v10/production/fx-fit-report-v7.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 11728,
+      "sha256": "a34b52d3141b4abe22122dd7d62981c5d5226b250b7c326dec692b30c4546e8b"
+    },
+    {
+      "path": "mavuika-v10/production/fx-fit-report-v8.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 13926,
+      "sha256": "d104105b1789ef1192021a2391c81f65f2914034ad81b8cb0c0106956de4f1cc"
+    },
+    {
+      "path": "mavuika-v10/production/fx-render-verification-v7.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 166,
+      "sha256": "88f031bfc7be309a4f6b975189904dfef32aefcf85f4ed3e2d76ef5c86424d96"
+    },
+    {
+      "path": "mavuika-v10/production/fx-verification-v7.json",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 369,
+      "sha256": "5dc92f8a5ba05313e6e7a3efbca83a5a523dc6a1c96120a9e7af2179fd01ccd3"
+    },
+    {
+      "path": "mavuika-v10/production/image-prompts.md",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 3159,
+      "sha256": "57ae6c21d61dcb88a64501146b5fb13b89dbbbe349c6885b633056f18f749ae5"
+    },
+    {
+      "path": "mavuika-v10/production/integrate-q-fx-v8.py",
+      "archive": "mavuika-v10-20261012-part10.zip",
+      "bytes": 2735,
+      "sha256": "1d83d4c78be82c63fe486281e2262b7eb7fb90f489a1be8662e4ba6156d05fcf"
+    },
+    {
+      "path": "mavuika-v10/production/integrated-history/attempt-01.png",
+      "archive": "mavuika-v10-20261012-part11.zip",
+      "bytes": 2469294,
+      "sha256": "d41473a998c0fa5e02c2911d0f5ab0ae9f6b6221eac039f83a0b846e76b715d4"
+    },
+    {
+      "path": "mavuika-v10/production/integrated-history/attempt-02.png",
+      "archive": "mavuika-v10-20261012-part11.zip",
+      "bytes": 2486918,
+      "sha256": "c18be17ff558cd9add1be580c62e450e27beb95cf95046fc336acecacd1a4ae1"
+    },
+    {
+      "path": "mavuika-v10/production/integrated-history/attempt-04-reference-edit.png",
+      "archive": "mavuika-v10-20261012-part11.zip",
+      "bytes": 2391174,
+      "sha256": "c08a4ef11714fbac90a04e66111f54a0d0d11d91d7a7dc91f491ce55fe45505f"
+    },
+    {
+      "path": "mavuika-v10/production/integrated-history/backwalk-first-v6.png",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2182631,
+      "sha256": "093a5d9c16e11954769dfa14ff14e46a51234162472428830d23f129563ba02b"
+    },
+    {
+      "path": "mavuika-v10/production/integrated-history/light1-first-v6.png",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2231346,
+      "sha256": "284200399dfe03f84815e557b4e5420ca0420d5b7404ee5b95bd1de172f70913"
+    },
+    {
+      "path": "mavuika-v10/production/light1-bindings-v7.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 1095,
+      "sha256": "b908cfb2d41b7e498cb01ed652a952594b0b03ddf64e5ec33887999746fb8103"
+    },
+    {
+      "path": "mavuika-v10/production/light1-correction-prompt-v6.txt",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 1122,
+      "sha256": "af55f14c0ec978f977a3c93f16192ca7a22308d2c46aac90a87503faed7315d0"
+    },
+    {
+      "path": "mavuika-v10/production/light1-fx-playback-v7.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 196954,
+      "sha256": "7bd8c4fdff12c07e2d6d7059883511e133aed8d19b1c00efb55eda21fe9f4576"
+    },
+    {
+      "path": "mavuika-v10/production/light1-fx-prompt-v7.txt",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2291,
+      "sha256": "3a3d3b0d939cebe521c1197add59cfeb70a8aebafe664f2449b91187520c60a9"
+    },
+    {
+      "path": "mavuika-v10/production/light1-playback-v6.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 26073,
+      "sha256": "6fdb533aff64d9ba86853177abc647fe47434bac0b3851c1b215463d56a84a0c"
+    },
+    {
+      "path": "mavuika-v10/production/model-verification-v4.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 162,
+      "sha256": "b3ea7d1d0404dfdfc7917253d7b106806f044f470b2a0e4e3735fe806d155c96"
+    },
+    {
+      "path": "mavuika-v10/production/neutral-fit-report-v5.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 3162,
+      "sha256": "c6eafd8d3f9738aaf0d7d72cd4fe570ef85595a6f937a0ac3803fbfb1b9873bb"
+    },
+    {
+      "path": "mavuika-v10/production/neutral-prompts-v5.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 4775,
+      "sha256": "7ff536524ca7b062e9ea19ed16f78c10b726681e020e0df225e83cdac53bcc27"
+    },
+    {
+      "path": "mavuika-v10/production/prompts-v6.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 7952,
+      "sha256": "a1409a4cf9d7d7a1d21bb7159c674649aba28fb08244f685a6324c8aa071edb9"
+    },
+    {
+      "path": "mavuika-v10/production/q-budget-v8.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 326,
+      "sha256": "a754ab506943b95a7c2938714af1f1fbb08106671f5da731873432ad0724c15e"
+    },
+    {
+      "path": "mavuika-v10/production/q-fx-playback-v10.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 697200,
+      "sha256": "2d80c98980a91da7a5a383ffaf7a1a236c7b16e3e0cae5aa93f7e04ad5987bbe"
+    },
+    {
+      "path": "mavuika-v10/production/q-fx-playback-v8.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 566444,
+      "sha256": "c65076169ff51f52d41392a3678d0ef0188c92378ad2b8df4d54f6699379994a"
+    },
+    {
+      "path": "mavuika-v10/production/q-fx-playback-v9.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 661079,
+      "sha256": "c7a36c707460d941f031286dc1fce07ef64b2acc897cf00b23ddf8e315e3c371"
+    },
+    {
+      "path": "mavuika-v10/production/q-render-verification-v10.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 123,
+      "sha256": "06493de9f0677a28ed2528ab36a590a5e02c0e57328608dc4b7dd25124df6d6b"
+    },
+    {
+      "path": "mavuika-v10/production/q-render-verification-v8.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 123,
+      "sha256": "954e4d20eecbe819e2a19c665e3864513c5ab6df42d479a4272a93f9d5249973"
+    },
+    {
+      "path": "mavuika-v10/production/q-render-verification-v9.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 123,
+      "sha256": "b4b8599fea0fe1e9d102c67f2622ffd9aa026cf17c1505e3f06e9d121877dc31"
+    },
+    {
+      "path": "mavuika-v10/production/q-rig-before-v9.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2866,
+      "sha256": "51d8170679d9bd646224060ea2405b7ed127edcb07ad456ab0c45807e43b15cc"
+    },
+    {
+      "path": "mavuika-v10/production/render-light1-fx-v7.py",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 6310,
+      "sha256": "42344bc70a94843423f0af8fd9ef953bbca727af0a893172b5f26037ca475498"
+    },
+    {
+      "path": "mavuika-v10/production/render-q-fx-v10.py",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 3810,
+      "sha256": "36e7f9fd2bc02c0c0faf82774a0d89e42f4b8e40227a4a28fa7bc199eed7428b"
+    },
+    {
+      "path": "mavuika-v10/production/render-q-fx-v8.py",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 3088,
+      "sha256": "8c2ff28ee23c301ca2d767d844746cbbee32bb9aa986dfa7fd4f4d58b23bf78d"
+    },
+    {
+      "path": "mavuika-v10/production/render-q-fx-v9.py",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 3654,
+      "sha256": "136839f97d07879c1afaefe40f0ceebceffacc82561fc49fb93f8d2e2a8e02e6"
+    },
+    {
+      "path": "mavuika-v10/production/render-review-v6.py",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 4858,
+      "sha256": "f772f36607191758a02bd7af9e7eede703137051e356b9fa7165d7edd5d0288f"
+    },
+    {
+      "path": "mavuika-v10/production/render-verification-v4.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 155,
+      "sha256": "ed152a167db8ab2401fae8327f9f11f185c917be98e6a5ed5302eb65b88887bd"
+    },
+    {
+      "path": "mavuika-v10/production/rig-v3.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 394,
+      "sha256": "a6984717f7c9778fce6cb965fd17054aa89e0e02361d082325ce6ceeae335a25"
+    },
+    {
+      "path": "mavuika-v10/production/tools/artlib.py",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 11233,
+      "sha256": "5199ef7e5929e2137ed19c9eb2cc09ac76c999f2a0f4138e3854618caf181071"
+    },
+    {
+      "path": "mavuika-v10/production/v3-target-provenance.json",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 428,
+      "sha256": "8741fa4574d0d72be9d775161913f46730b416a5e235e7f71b7f42f3f5806f52"
+    },
+    {
+      "path": "mavuika-v10/production/verify-actions-preview.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2496,
+      "sha256": "a974440653e65d8d4101c504d92aae75997438a5c4b934d9bfd58ab78d92c81f"
+    },
+    {
+      "path": "mavuika-v10/production/verify-fx-review-v7.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2664,
+      "sha256": "765a25780beb411816430e052573521d21062b38db48e5b051d1fc5fa38b567a"
+    },
+    {
+      "path": "mavuika-v10/production/verify-light1-fx-v7.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 3109,
+      "sha256": "215ab4ac5acc35bcdf34b1845fc754ef0305445b303f5ddac27829042fb374e0"
+    },
+    {
+      "path": "mavuika-v10/production/verify-light1.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 1858,
+      "sha256": "cdb34859a283fcee6d4d02bfe5b9e319b5f0c6f9c53e96c6032491f16de7e36a"
+    },
+    {
+      "path": "mavuika-v10/production/verify-preview.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2547,
+      "sha256": "2038a62e67419f042023d5ebb1cde753520c31fe94a9940115c9f45b1cfe02dd"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q-fx-v10.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2505,
+      "sha256": "16df13b0600b4cefae3a82290ab36305a9efaa1e4100ce9c9ff51f9b090d6970"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q-fx-v8.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 1814,
+      "sha256": "771cb96b01b9c47a81d5067eeca7d1964cf094756f0618442c7916c8b0178d84"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q-fx-v9.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2501,
+      "sha256": "c37e22e2e89a3385bcd8ca556925d2372f2f76d8b4b29fa1b33de4a9ad87a710"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q-render-v10.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2481,
+      "sha256": "a431d33aeb92cdcd526855aaf47ac61d3c9f795fe26ba6df0919ae33159fe795"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q-render-v8.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2479,
+      "sha256": "00555e09accf2766de963bb9e84288b46d70deccf41349688ea470a8191f67d5"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q-render-v9.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2479,
+      "sha256": "75594dbf7e75f81d69d85cba24338e51277a00911513fc36bc78bf9935dcf668"
+    },
+    {
+      "path": "mavuika-v10/production/verify-q.cjs",
+      "archive": "mavuika-v10-20261012-part12.zip",
+      "bytes": 2769,
+      "sha256": "442df64c2e5f98cd6c58d4470ac0112edac398b5c1ec6af009804e883d92081e"
+    }
+  ],
+  "archives": [
+    {
+      "file": "mavuika-v10-20261012-part01.zip",
+      "bytes": 7892062,
+      "sha256": "4af5e402298836d6c623a2d5603d0c07c05ee496f99ca646349ed533a371d513"
+    },
+    {
+      "file": "mavuika-v10-20261012-part02.zip",
+      "bytes": 6212494,
+      "sha256": "d4aa52a84b1056dae0910570644e999f336b3864ac4fab498beaf776fc0bdcae"
+    },
+    {
+      "file": "mavuika-v10-20261012-part03.zip",
+      "bytes": 7320405,
+      "sha256": "563aad30e4c03f915d65b617b32400f53d0c55cafaa4a4b052dbfd2a943875d1"
+    },
+    {
+      "file": "mavuika-v10-20261012-part04.zip",
+      "bytes": 6624602,
+      "sha256": "c40af1fbb8748b861476ee6a686eb95c24fe8e4b34169cea519d6739e00c5a4a"
+    },
+    {
+      "file": "mavuika-v10-20261012-part05.zip",
+      "bytes": 7716537,
+      "sha256": "5e6543e1ef9fec9ba1d5bd768ef000ccab86e0ba2e10b55503a33585fb447498"
+    },
+    {
+      "file": "mavuika-v10-20261012-part06.zip",
+      "bytes": 7795160,
+      "sha256": "19e0a81f8ae2ea049a3e717a42a4df0771ed1aebca6a99e02fe206b536f52a83"
+    },
+    {
+      "file": "mavuika-v10-20261012-part07.zip",
+      "bytes": 6516061,
+      "sha256": "e28472295f7d87f8627b7958b234cde0426e64a36517c44ca91b0c05d857052a"
+    },
+    {
+      "file": "mavuika-v10-20261012-part08.zip",
+      "bytes": 7453909,
+      "sha256": "abea714d1d50b93d0eba2957cc6b0a191318e1375ea248ae2dee9d5f52acfb23"
+    },
+    {
+      "file": "mavuika-v10-20261012-part09.zip",
+      "bytes": 7667188,
+      "sha256": "49b0c51eb6b52ae65bf177160682513b13e17ed02a563627788560bac1a9c161"
+    },
+    {
+      "file": "mavuika-v10-20261012-part10.zip",
+      "bytes": 6019132,
+      "sha256": "85b71ff509681cceff46c281fe1a44c7c3ac6c6667f391037ac2a1862a81b618"
+    },
+    {
+      "file": "mavuika-v10-20261012-part11.zip",
+      "bytes": 7312060,
+      "sha256": "515f6a3699970cd72f899337db787beefa05a16e6b85c63c6907113dd11add01"
+    },
+    {
+      "file": "mavuika-v10-20261012-part12.zip",
+      "bytes": 4482983,
+      "sha256": "4f53746f71a0e310262f72f087a2cc569c0868f6f5517bf3f8b539754b916548"
+    }
+  ]
+}

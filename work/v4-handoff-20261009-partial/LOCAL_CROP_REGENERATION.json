@@ -1,0 +1,48 @@
+{
+  "source": "V4/assets/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1.png",
+  "source_sha256": "76b0b1fd8c73882b254df77c1796eec442bfa53b377c438353d870c1842b8250",
+  "method": "Original process_full_production.py nominal grid cropping; unchanged fourth crop used as pixel control",
+  "files": [
+    {
+      "path": "V4/evidence/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1/source-0.png",
+      "crop_box": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "archive_png_sha256": "da557fc6bd25dccb8e3b3d45600352c042669ea9049bd232f59c527b578ff99e",
+      "recreated_png_sha256": "4485c1755cf5640251d057d65c1c7f24b64cdbfb60cedc8e9afa2605e884fd32",
+      "byte_identical": false,
+      "status": "regenerated diagnostic crop, not recovered original compressed PNG bytes"
+    },
+    {
+      "path": "V4/evidence/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1/source-1.png",
+      "crop_box": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "archive_png_sha256": "5a9357b1b47ad6228fb0161e69fc389dc6bc7b10bcdd2583fd3627f5546b01a9",
+      "recreated_png_sha256": "e332cf3b3c8cb7f247ad276b47586499f68499163066322ee4771fbda749472f",
+      "byte_identical": false,
+      "status": "regenerated diagnostic crop, not recovered original compressed PNG bytes"
+    },
+    {
+      "path": "V4/evidence/full-delivery-20261009/tartaglia-crouchheavy-body-full-v1/source-2.png",
+      "crop_box": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "archive_png_sha256": "e9cb5d821ecee3bc593f779de99f469888c30b5c7a352562d3a18f05a8d7ef6d",
+      "recreated_png_sha256": "74be7c177d5d33728151bf3146b6f13a90b141ebef5f417c29d2ad9d19336d98",
+      "byte_identical": false,
+      "status": "regenerated diagnostic crop, not recovered original compressed PNG bytes"
+    }
+  ],
+  "archive_missing_shard": "V4_1M_0448.part",
+  "archive_original_sha256_restored": false
+}

@@ -1,0 +1,7 @@
+# generated screenshots, previews and logs; keep only the stage fitting data
+/build/*
+!/build/bgfit/
+/build/bgfit/*
+!/build/bgfit/*.cpu.json
+!/build/bgfit/*.ground.json
+__pycache__/

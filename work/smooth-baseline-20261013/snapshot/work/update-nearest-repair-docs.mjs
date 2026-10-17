@@ -1,0 +1,12 @@
+import {readFileSync as read,writeFileSync as write} from 'node:fs';
+const out='outputs/test-repair-v1',delivery=JSON.parse(read(out+'/delivery.json')),build=JSON.parse(read(out+'/build.json'));
+let install=read(out+'/GIA安装说明.md','utf8');
+install=install.replaceAll(/gpt_\d{8}_\d{6}_A_碰撞加载场景修复\.gia/g,delivery.files[0].filename).replaceAll(/gpt_\d{8}_\d{6}_B_通用图元模板\.gia/g,delivery.files[1].filename).replaceAll(/lua\/gpt_\d{8}_\d{6}_碰撞加载场景修复\.lua/g,delivery.scriptPath);
+install=install.replace('首次高精度场景仍增加创建量，并非所有加载均已很快','场景现改为每张不超过5000矩形；首次角色创建仍需加载，并非所有加载均已很快');
+install=install.replace('当前正式候选场景为240×135 / 32色；中高精度仅在拟合对照页，未切入本包','当前正式候选采用像素风母版→最近邻→合色→矩形拟合，场景为160×90或144×81，每张不超过5000矩形；中高精度仅在拟合对照页');
+install=install.replace('39635是全部动态池的声明上限之和',build.deferredImages+'是全部动态池的声明上限之和').replace('当前场景最多12822图片','当前场景最多4991图片');
+install=install.replace('gpt_时间戳_A_第一批完整测试界面.gia',delivery.files[0].filename).replace('gpt_时间戳_B_通用图元模板.gia',delivery.files[1].filename);
+write(out+'/GIA安装说明.md',install);
+let results=read(out+'/修复结果与未完成项.md','utf8');results=results.replace('场景大师图在assets/stages-country-v1；当前本包以240×135/32色拟合，含量化损失。6000矩形自适应版本因细节不足未采用。','本包最新场景在outputs/stage-pixel-nearest-v2：七张像素风母版以最近邻拟合，单张不超过5000矩形。风起地4974；其余六张4441–4991。旧高精度母版保留在assets/stages-country-v1；不再用于本包。');results+='\n最新玩家反馈需求见docs/玩家反馈需求_20261004_匿名玩家.md，七项均待核验/设计，不因碰撞单测通过就标记完成。行走试稿状态见assets/repair-art-v1/ayaka-walk-candidates/状态.md，未接入。\n';write(out+'/修复结果与未完成项.md',results);
+write('AI_START.md','最新用户反馈与背景（2026-10-04，优先于下方历史）：docs/玩家反馈需求_20261004_匿名玩家.md记录七项玩家观察、验收和待核验状态，未直接改按键/删角色。outputs/stage-pixel-nearest-v2七国像素风母版已生成并最近邻拟合，每张≤5000矩形，已接入outputs/test-repair-v1；两端三场、加载取消/复用、碰撞和手机比例全屏模拟器回归通过。真机未测。新GIA准确名称见delivery.json。用户要求背景优先；绫华行走试稿不合格未接入，全角色行走与绫华全动作仍未完成。进度表见docs/修复进度与验收清单_20261004.md。旧图不删除。\n\n'+read('AI_START.md','utf8'));
+console.log('NEAREST_REPAIR_DOCS_UPDATED');

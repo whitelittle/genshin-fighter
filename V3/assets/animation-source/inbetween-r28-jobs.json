@@ -1,0 +1,364 @@
+[
+  {
+    "char": "nahida",
+    "sheet": "basic",
+    "next": [
+      1,
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      2
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida basic keyframe sheet, read its 8 poses left-to-right top-to-bottom.  Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 1; 3: reference 3 to 4; 4: reference 4 to 5; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 3. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-42f4b7bb-1be1-452a-b847-1347016253b6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-42f4b7bb-1be1-452a-b847-1347016253b6.png",
+    "path": "animation-source/inbetweens-r28/nahida-basic.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "light",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      6,
+      7,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida light keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-84c6bc57-04ab-4e47-973a-1dd627bb5d4d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-84c6bc57-04ab-4e47-973a-1dd627bb5d4d.png",
+    "path": "animation-source/inbetweens-r28/nahida-light.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "move",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      4,
+      7,
+      6
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida move keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 5; 7: reference 7 to 8; 8: reference 8 to 7. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-debd6ac1-113b-4fa3-b463-543f933242c0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-debd6ac1-113b-4fa3-b463-543f933242c0.png",
+    "path": "animation-source/inbetweens-r28/nahida-move.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "heavy",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      6,
+      7,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida heavy keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-d69fe1aa-e3b6-4514-9e87-da94e3cb1efd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-d69fe1aa-e3b6-4514-9e87-da94e3cb1efd.png",
+    "path": "animation-source/inbetweens-r28/nahida-heavy.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "guard",
+    "next": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      2,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida guard keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 1; 3: reference 3 to 4; 4: reference 4 to 3; 5: reference 5 to 6; 6: reference 6 to 5; 7: reference 7 to 3; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-f964eb4e-0a33-4323-8a85-db9784654f95.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-f964eb4e-0a33-4323-8a85-db9784654f95.png",
+    "path": "animation-source/inbetweens-r28/nahida-guard.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "air",
+    "next": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida air keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 1; 3: reference 3 to 4; 4: reference 4 to 3; 5: reference 5 to 6; 6: reference 6 to 5; 7: reference 7 to 8; 8: reference 8 to 7. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-adeba16d-1794-47c4-b140-64646df3331c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-adeba16d-1794-47c4-b140-64646df3331c.png",
+    "path": "animation-source/inbetweens-r28/nahida-air.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "skill",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      6,
+      7,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida skill keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-29a755ff-5a2e-4759-bedd-5cf3766c60eb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-29a755ff-5a2e-4759-bedd-5cf3766c60eb.png",
+    "path": "animation-source/inbetweens-r28/nahida-skill.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "throw",
+    "next": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida throw keyframe sheet, read its 4 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 4 NEW intermediary body poses in a uniform 2 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-7a972141-e3ea-496d-91b2-4b03666c4e87.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-7a972141-e3ea-496d-91b2-4b03666c4e87.png",
+    "path": "animation-source/inbetweens-r28/nahida-throw.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "hurt",
+    "next": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida hurt keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 5; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 7; 8: reference 8 to 8. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-1128cf69-8634-4c42-aa9b-92f3542006a8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-1128cf69-8634-4c42-aa9b-92f3542006a8.png",
+    "path": "animation-source/inbetweens-r28/nahida-hurt.png"
+  },
+  {
+    "char": "nahida",
+    "sheet": "victim",
+    "next": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      0
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Nahida victim keyframe sheet, read its 6 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 6 NEW intermediary body poses in a uniform 3 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 5; 5: reference 5 to 6; 6: reference 6 to 1. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve petite Nahida, green eyes, white flowing hair with green tips and white-and-green leafy dress; no weapon. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-f42996e3-000f-4786-a498-b40bce8d7d73.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-f42996e3-000f-4786-a498-b40bce8d7d73.png",
+    "path": "animation-source/inbetweens-r28/nahida-victim.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "move",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      4,
+      7,
+      6
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun move keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 5; 7: reference 7 to 8; 8: reference 8 to 7. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-3048ca24-57dd-45c0-9ad2-513c55702b7d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-3048ca24-57dd-45c0-9ad2-513c55702b7d.png",
+    "path": "animation-source/inbetweens-r28/raiden-move.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "basic",
+    "next": [
+      1,
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      2
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun basic keyframe sheet, read its 8 poses left-to-right top-to-bottom.  Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 1; 3: reference 3 to 4; 4: reference 4 to 5; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 3. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-b48892f2-cb05-4b6e-95de-2720c3fa2aa4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-b48892f2-cb05-4b6e-95de-2720c3fa2aa4.png",
+    "path": "animation-source/inbetweens-r28/raiden-basic.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "guard",
+    "next": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      2,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun guard keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 1; 3: reference 3 to 4; 4: reference 4 to 3; 5: reference 5 to 6; 6: reference 6 to 5; 7: reference 7 to 3; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-001712fc-8ec9-47d9-b73c-7afb92ef7378.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-001712fc-8ec9-47d9-b73c-7afb92ef7378.png",
+    "path": "animation-source/inbetweens-r28/raiden-guard.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "light",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      6,
+      7,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun light keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-a67e20cd-9b6a-4df6-91cf-3a0189088a34.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-a67e20cd-9b6a-4df6-91cf-3a0189088a34.png",
+    "path": "animation-source/inbetweens-r28/raiden-light.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "heavy",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      6,
+      7,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun heavy keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-04027b31-d175-4cfb-86be-3ed1faa605b4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-04027b31-d175-4cfb-86be-3ed1faa605b4.png",
+    "path": "animation-source/inbetweens-r28/raiden-heavy.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "hurt",
+    "next": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun hurt keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 5; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 7; 8: reference 8 to 8. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-4e968d84-4c59-4df9-a335-4d09b716c112.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-4e968d84-4c59-4df9-a335-4d09b716c112.png",
+    "path": "animation-source/inbetweens-r28/raiden-hurt.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "air",
+    "next": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4,
+      7,
+      6
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun air keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 1; 3: reference 3 to 4; 4: reference 4 to 3; 5: reference 5 to 6; 6: reference 6 to 5; 7: reference 7 to 8; 8: reference 8 to 7. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-8b52ee53-1539-476d-af14-f3649b4796d0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-8b52ee53-1539-476d-af14-f3649b4796d0.png",
+    "path": "animation-source/inbetweens-r28/raiden-air.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "throw",
+    "next": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun throw keyframe sheet, read its 4 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 4 NEW intermediary body poses in a uniform 2 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-151be947-c1e0-4a82-aa9c-b6acd7fed7a3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-151be947-c1e0-4a82-aa9c-b6acd7fed7a3.png",
+    "path": "animation-source/inbetweens-r28/raiden-throw.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "skill",
+    "next": [
+      1,
+      2,
+      3,
+      0,
+      5,
+      6,
+      7,
+      4
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun skill keyframe sheet, read its 8 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 8 NEW intermediary body poses in a uniform 4 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 1; 5: reference 5 to 6; 6: reference 6 to 7; 7: reference 7 to 8; 8: reference 8 to 5. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-fdd06b84-aefb-4eb0-9a8b-615b3d425a66.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-fdd06b84-aefb-4eb0-9a8b-615b3d425a66.png",
+    "path": "animation-source/inbetweens-r28/raiden-skill.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "qburst",
+    "next": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun qburst keyframe sheet, read its 4 poses left-to-right top-to-bottom (the reference is a SINGLE ROW of 4 poses). Image 2 is the same character's identity/style reference. Draw EXACTLY 4 NEW intermediary body poses in a uniform 2 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 3. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-ab5172e4-5024-4172-a05b-38c94cdf565f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-ab5172e4-5024-4172-a05b-38c94cdf565f.png",
+    "path": "animation-source/inbetweens-r28/raiden-qburst.png"
+  },
+  {
+    "char": "raiden",
+    "sheet": "victim",
+    "next": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      0
+    ],
+    "prompt": "Use case: stylized-concept. Production 2D fighting-game sprite inbetweens. Image 1 is the EXISTING Raiden Shogun victim keyframe sheet, read its 6 poses left-to-right top-to-bottom. Image 2 is the same character's identity/style reference. Draw EXACTLY 6 NEW intermediary body poses in a uniform 3 columns x 2 rows grid, same-sized cells with generous transparent margins. Each output cell i is a distinct anatomically correct halfway-transition between reference pose i and reference pose j: 1: reference 1 to 2; 2: reference 2 to 3; 3: reference 3 to 4; 4: reference 4 to 5; 5: reference 5 to 6; 6: reference 6 to 1. For a pair with the same index, draw a subtle unique breathing/hair/fabric/expression variation. These are NEW DRAWN BODY POSES, not copies, not blended double-exposures and not ghosted overlaps. Preserve exact face, hair color/hairstyle, costume details, age proportions, weapon and original crisp anime pixel-sprite line/shading style. Full body and full weapon visible, exactly one body per cell, no opponent, no effects, no text, no labels, no grid lines, genuine transparent background. Same side-view three-quarter facing RIGHT. Preserve adult Raiden Shogun, violet eyes, long purple braid, purple kimono; correct polearm for polearm reference poses and sword for sword reference poses. Maintain a consistent character height and foot anchor for all standing poses; grounded crouching, airborne and fallen poses retain their intended original geometry. Do not redesign the character. Each intermediary should flow smoothly between the specified keyframes.",
+    "output_hint": "Generated images are saved to /workspace/scratch/59397218f32a/generated_images as /workspace/scratch/59397218f32a/generated_images/exec-136604c6-2a72-46d2-85eb-62bb3612597d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/workspace/scratch/59397218f32a/generated_images/exec-136604c6-2a72-46d2-85eb-62bb3612597d.png",
+    "path": "animation-source/inbetweens-r28/raiden-victim.png"
+  }
+]

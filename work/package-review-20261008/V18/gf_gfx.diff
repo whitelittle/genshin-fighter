@@ -1,0 +1,184 @@
+--- V18/gf_gfx
++++ r33/gf_gfx
+@@ -1,4 +1,5 @@
+ __loaders['gf_gfx'] = function()
++
+ local G = {}
+ 
+ G.RECT, G.ELLIPSE, G.TRI, G.STAR4, G.STAR5, G.RING = 100001, 100002, 100003, 100004, 100005, 100006
+@@ -348,7 +349,12 @@
+ 
+ function G.image(parent, shape)
+     local n = table.remove(freeImg) or table.remove(freeSecond)
+-    if not n then error('image pool exhausted', 2) end
++    if not n and G.reclaimDormant then
++        G.reclaimDormant()
++        n=table.remove(freeImg) or table.remove(freeSecond)
++    end
++    if not n and G.emergencyImages and G.emergencyImages() then n=table.remove(freeSecond) end
++    if not n then error('image pool exhausted; capacity='..G.counts.img, 2) end
+     n.freed = nil
+     n:parentTo(parent or G.root)
+     n:shape(shape or G.RECT)
+@@ -488,6 +494,7 @@
+ end
+ 
+ 
++local dormantBitmaps=setmetatable({},{__mode='k'})
+ local Bitmap = {}
+ Bitmap.__index = Bitmap
+ G.Bitmap = Bitmap
+@@ -496,16 +503,31 @@
+ 
+ function G.bitmap(parent, capacity)
+     local g = G.group(parent)
+-    return setmetatable({node = g, kids = {}, cap = capacity or 0, used = 0, job = nil, key = nil}, Bitmap)
+-end
+-
++    local bmp=setmetatable({node = g, kids = {}, cap = capacity or 0, used = 0, job = nil, key = nil}, Bitmap)
++    dormantBitmaps[bmp]=true
++    return bmp
++end
++
++function Bitmap:trim(keep)
++    keep=keep or 0
++    for i=#self.kids,keep+1,-1 do G.release(self.kids[i]);self.kids[i]=nil end
++    self.used=math.min(self.used,keep)
++    if keep==0 then self.key=nil end
++end
++function G.reclaimDormant()
++    for bmp in pairs(dormantBitmaps) do
++        if bmp~=G.activeBitmap and not bmp.job and not bmp.node.act then bmp:trim(0) end
++    end
++end
+ function Bitmap:ensure(n)
++    local previous=G.activeBitmap;G.activeBitmap=self
+     local kids = self.kids
+     for i = #kids + 1, n do
+         local c = G.image(self.node, G.RECT)
+         c.freed = nil
+         kids[i] = c
+     end
++    G.activeBitmap=previous
+ end
+ 
+ function Bitmap:start(img, key, tint)
+@@ -534,7 +556,8 @@
+         local c = nd.c
+         local px, py = ox + x + w * 0.5, oy - y - h * 0.5
+         if px ~= nd.x or py ~= nd.y then nd.x, nd.y = px, py; c:SetAnchoredPosition(px, py); writes = writes + 1 end
+-        local sw, sh = w + SEAM, h + SEAM
++        local seam=img.seam or SEAM
++        local sw, sh = w + seam, h + seam
+         if sw ~= nd.w or sh ~= nd.h then nd.w, nd.h = sw, sh; c:SetSizeDelta(sw, sh); writes = writes + 1 end
+         local col = tint or pal[ci + 1]
+         local key = col.key
+@@ -559,7 +582,8 @@
+     if stop >= n then
+         if not job.keep then
+             for k = n + 1, self.used do kids[k]:on(false) end
+-            self.used = n
++            N.bitmap=(N.bitmap or 0)+writes
++    self.used = n
+         elseif n > self.used then
+             self.used = n
+         end
+@@ -591,7 +615,7 @@
+             k = k + 1
+             local nd = kids[k]
+             nd:pos(p.ox + (x + w * 0.5 - (img.ax or 0)) * s, p.oy + ((img.ay or 0) - y - h * 0.5) * s)
+-            nd:size((w + SEAM) * s, (h + SEAM) * s)
++            nd:size((w + (img.seam or SEAM)) * s, (h + (img.seam or SEAM)) * s)
+             local c = p.tint or pal[ci + 1]
+             nd:color(c[1], c[2], c[3], (c[4] or 255) * (p.alpha or 1))
+             nd:on(true)
+@@ -606,13 +630,14 @@
+ function Bitmap:show() self.node:on(true) end
+ 
+ function Bitmap:free()
++    dormantBitmaps[self]=nil
+     for _, n in ipairs(self.kids) do G.release(n) end
+     self.kids = {}
+     G.release(self.node)
+ end
+ 
+ -- Experimental second pool. Only configured client templates are instantiated.
+-local growth = {target=0, created=0, batch=32, limit=18000}
++local growth = {target=0, created=0, batch=32, limit=20000, floor=14000, warning=2000, reserve=3500, destroyed=0, emergencies=0, warnings=0, retiring=false}
+ function G.configureSecondPool(templateIndex)
+     if type(templateIndex) ~= 'number' or templateIndex <= 0 or templateIndex % 1 ~= 0 then
+         error('第二池图片模板索引无效')
+@@ -638,25 +663,62 @@
+         c.name = 'GF_DYNAMIC_IMG_' .. growth.created
+         local n = newNode(c, 'image')
+         n.pool, n.secondPool, n.act = true, true, false
++        n.dynamicExtra=G.counts.img>=14000
+         freeSecond[#freeSecond+1] = n
+         G.counts.img = G.counts.img + 1
+     end
+     return G.counts.img >= growth.target
+ end
+-function G.backgroundImages(target)
+-    growth.backgroundTarget=math.min(growth.limit,math.max(growth.backgroundTarget or 0,target))
+-end
+-function G.growBackground()
+-    if not growth.backgroundTarget or G.counts.img>=growth.backgroundTarget then return end
+-    local target=growth.target
+-    growth.target=growth.backgroundTarget
+-    G.growImages(2)
+-    growth.target=target
++function G.emergencyImages()
++    if not growth.templateIndex or G.counts.img>=growth.limit then return false end
++    growth.target=math.min(growth.limit,math.max(growth.target,G.counts.img+64))
++    G.growImages();G.growImages();growth.emergencies=growth.emergencies+1
++    return #freeSecond>0
++end
++function G.requestImageRetirement()
++    growth.retiring=true;growth.reclaimed=false
++end
++function G.manageImagePool(phase, safeBoundary)
++    if not growth.templateIndex or G.counts.img<growth.floor then return end
++    local free=#freeImg+#freeSecond
++    if free<growth.warning then
++        growth.target=math.min(growth.limit,math.max(growth.target,G.counts.img-free+growth.reserve))
++        growth.warnings=growth.warnings+1
++    end
++    -- A warning creates immediately; remaining growth is spread across frames.
++    if G.counts.img<growth.target then G.growImages();G.growImages() end
++    -- Shrink is impossible during combat, even when all extra controls are idle.
++    if not growth.retiring or phase=='fight' or not safeBoundary or G.pending()>0 then return end
++    growth.boundaryTicks=(growth.boundaryTicks or 0)+1
++    if not growth.reclaimed or growth.boundaryTicks%30==0 then G.reclaimDormant();growth.reclaimed=true end
++    free=#freeImg+#freeSecond
++    local removable=math.min(32,G.counts.img-growth.floor,math.max(0,free-growth.reserve))
++    if removable<=0 then
++        if G.counts.img<=growth.floor then growth.retiring=false end
++        return
++    end
++    local removed=0
++    for i=#freeSecond,1,-1 do
++        local n=freeSecond[i]
++        -- Destroy only surplus leaf controls; group hierarchies are retained.
++        if not n.kids and not n.tw and not n.queued then
++            local ok=pcall(game.DestroyClientUIControl,n.c)
++            if ok then
++                table.remove(freeSecond,i);n.dead=true;n.c=nil
++                G.counts.img=G.counts.img-1;growth.destroyed=growth.destroyed+1;removed=removed+1
++            end
++            if removed>=removable then break end
++        end
++    end
++    growth.target=math.max(growth.floor,G.counts.img)
++    if G.counts.img<=growth.floor then growth.retiring=false end
+ end
+ function G.secondPoolStatus()
+     return {first=growth.first, created=growth.created, total=G.counts.img,
+-            target=growth.target, backgroundTarget=growth.backgroundTarget, backgroundBatch=2, batch=growth.batch, templateIndex=growth.templateIndex,
+-            freeFirst=#freeImg, freeSecond=#freeSecond}
++            target=growth.target, batch=growth.batch, templateIndex=growth.templateIndex,
++            floor=growth.floor,limit=growth.limit,warning=growth.warning,reserve=growth.reserve,
++            destroyed=growth.destroyed,emergencies=growth.emergencies,warnings=growth.warnings,
++            retiring=growth.retiring,freeFirst=#freeImg, freeSecond=#freeSecond}
+ end
+ 
+ return G

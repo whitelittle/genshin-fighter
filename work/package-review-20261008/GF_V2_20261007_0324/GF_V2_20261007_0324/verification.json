@@ -1,0 +1,15 @@
+{
+  "bytes": 3309365,
+  "ui_binary_unchanged": true,
+  "identity_patch_exact": true,
+  "sha256": "75564d77671db0f7b920caad4d5206b3d10de5809eb6987f37787e3547affa69",
+  "official_import_verified": false,
+  "lua_script_roundtrip": true,
+  "a_ui_semantic_unchanged": true,
+  "b_binary_unchanged": true,
+  "direction_command_restored": true,
+  "e_q_buttons_preserved": true,
+  "script_export_warnings": [
+    "脚本挂载关系不进入 GIA：官方 script.gia 只含映射（ID/名称/路径/源码），导入后需重新挂载。"
+  ]
+}

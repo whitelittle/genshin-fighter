@@ -1,0 +1,62 @@
+{
+  "build": "e4f750a07f03",
+  "imageTemplateIndex": 1073742224,
+  "initialPool": 256,
+  "foregroundFightPool": 11000,
+  "foregroundBatch": 32,
+  "backgroundExtra": 4000,
+  "backgroundBatch": 2,
+  "backgroundTarget": 15000,
+  "requiredLuaManualMount": "GF_HOST",
+  "serverNodeFormat": "JSON specification and manual wiring; native server GIA not generated",
+  "officialImportVerified": false,
+  "deviceDuelVerified": false,
+  "files": [
+    {
+      "name": "GF_DUAL_POOL_A_Online.gia",
+      "bytes": 3308381,
+      "sha256": "b85e88d43a8dd9c4966401be8110b79feb7b6d85c3ace0b13de1086a42e0cd17"
+    },
+    {
+      "name": "GF_DUAL_POOL_B_ImageTemplate_Backup.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "name": "genshin_fighter_online_1073742224.lua",
+      "bytes": 3026409,
+      "sha256": "3262d6cb37338fdac29d3ceaf49c356c32efe1857dce6b2151d59fba3be43028"
+    },
+    {
+      "name": "GFV2_Server_Node_Graph.json",
+      "bytes": 9896,
+      "sha256": "073d917eb1de1d4e506f2c00c779784216a49ee6ee57b373979c8350b334ce86"
+    },
+    {
+      "name": "simulator-serverLogic.json",
+      "bytes": 1077,
+      "sha256": "df3b9d77cfee2ed0ae1d16135c01313ca18e0570e0f53a8a9e7f2df90fc77a79"
+    },
+    {
+      "name": "服务器节点接线.md",
+      "bytes": 4401,
+      "sha256": "a809d4e5cc88f0876ae7139fa4e33723173d1a42d6aef48fca31a05c149fb290"
+    },
+    {
+      "name": "安装与核对.md",
+      "bytes": 3467,
+      "sha256": "7dca5ad2066c56495ce15be963317d7999530676ae984c100daaa93ef5bb19f1"
+    }
+  ],
+  "checks": {
+    "simulation": 4,
+    "rollback": 3,
+    "touch": "passed",
+    "pcWalkthrough": "passed",
+    "mobileWalkthrough": "passed",
+    "numericText": "passed",
+    "dualHandshakeBattleAudio": "passed",
+    "normalFullMatchReturnToSelection": "passed",
+    "poolStress": "passed"
+  }
+}

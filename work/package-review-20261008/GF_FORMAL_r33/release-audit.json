@@ -1,0 +1,22 @@
+{
+  "release": "archive-merged-sd-r33",
+  "baseline": "GF_Online_Repair_3e508011db14.lua",
+  "baseline_sha256": "b6623a610eb1596bf71ba6d7dba8c30e24492ee560138da6fea8b8b39c4be464",
+  "conflict_decisions": [
+    "gf_gfx: resolved 3 conflicts explicitly; see merged module and audit",
+    "gf_app: resolved 2 conflicts explicitly; see merged module and audit",
+    "gf_scene_fight: resolved 1 conflicts explicitly; see merged module and audit",
+    "gf_scene_online: preserve confirmed archive diagnostic UI and connection flow"
+  ],
+  "logic_bytes": 362438,
+  "art_bytes": 3938330,
+  "standalone_bytes": 4298800,
+  "quality": "lo",
+  "pool_floor": 14000,
+  "pool_limit": 20000,
+  "text_fixes_preserved": true,
+  "canvas_stretch_preserved": true,
+  "confirmed_transport_preserved": true,
+  "art_frames": 304,
+  "native_device_verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "AI THROWS seed=21 count=2/1 attempts=2/2",
+    "AI THROWS seed=21 count=2/1 attempts=2/2",
+    "AI THROWS seed=3 count=1/0 attempts=2/0",
+    "AI THROWS seed=11 count=0/3 attempts=0/3",
+    "AI THROWS seed=37 count=2/0 attempts=2/1",
+    "GFTEST PASS default level2 throw diagnostics"
+  ],
+  "method": "Actual bundled Lua; default difficulty 2; 5 matches; per-side 480-frame cooldown assertions"
+}

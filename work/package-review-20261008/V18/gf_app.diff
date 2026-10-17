@@ -1,0 +1,107 @@
+--- V18/gf_app
++++ r33/gf_app
+@@ -34,9 +34,10 @@
+     self.input = Input.new(self)
+     require('gf_ui').app = self
+     self.audio = Audio.new(env)
+-    self.settings = {quality = 'auto', sfx = true, shake = true, cpu = 2, rounds = 2, time = 99, touch = 'auto'}
++    self.settings = {quality = 'lo', sfx = true, shake = true, cpu = 2, rounds = 2, time = 99, touch = 'auto'}
+     for k, v in pairs(env.settings or {}) do self.settings[k] = v end   -- test / preview overrides
+     self.save = {wins = 0, played = 0, arcadeBest = 0, unlocked = {}}
++    self.settings.quality='lo'
+     self.quality = self:detectQuality()
+     self.debug = false
+     local first = env.firstScene or 'intro'
+@@ -44,13 +45,12 @@
+     return self
+ end
+ 
+-function App:detectQuality()
+-    local q = self.settings.quality
+-    if q ~= 'auto' then return q end
+-    local dev = self.input:device()
+-    if dev == 'touch' then return 'lo' end
+-    return 'hi'
+-end
++function App:isMobile()
++    local ok,d=pcall(self.env.game.GetDevice);local D=self.env.Enum.Device
++    return ok and (d==D.Mobile or d==D.MobileController)
++end
++function App:detectQuality() return 'lo' end
++function App:setQuality() return false end
+ 
+ function App:fit(force)
+     local ok, cw, ch = pcall(self.env.game.GetUICanvasSize)
+@@ -68,7 +68,6 @@
+ 
+ function App:go(name, args)
+     if self:requestScenePool(name,args) then return end
+-    if name=='fight' then G.backgroundImages(15000) end
+     local old = self.scene
+     if old and old.exit then old:exit() end
+     self.input:clearUI()
+@@ -79,11 +78,16 @@
+ end
+ 
+ function App:update(dt)
++    self:samplePerformance(dt)
+     if self.poolNext then
+         self:netPump()
+         if #G.trash>0 then G.flushTrash(100) end
+         if self:advanceScenePool() then return end
+     end
++    local sim=self.scene and self.scene.sim
++    local phase=sim and sim.phase
++    local safeBoundary=not sim or phase=='over' or (phase=='ko' and sim.phaseT>=90)
++    G.manageImagePool(phase,safeBoundary)
+     if dt > 0.25 then dt = 0.25 end
+     self.t = self.t + dt
+     if dt > 0 then self.fps = self.fps * 0.9 + (1 / dt) * 0.1 end
+@@ -112,7 +116,6 @@
+     local sc = self.scene
+     if sc and sc.draw then sc:draw(self.acc / STEP, dt) end
+     self.audio:update(dt)
+-    G.growBackground()
+     self:drawTransition()
+     if self.debug then self:drawDebug() elseif self.debugLayer then self.debugLayer:clear() end
+ end
+@@ -185,13 +188,29 @@
+     if self.bd then self.bd:free(true); self.bd = nil end
+ end
+ 
++function App:samplePerformance(dt)
++    if not self.debug then return end
++    local n=G.N
++    local writes=(n.pos or 0)+(n.size or 0)+(n.col or 0)+(n.vis or 0)+(n.bitmap or 0)
++    local p=self.perf or {samples=0,sum=0,max=0,slow=0,lastWrites=writes,writes=0}
++    p.samples=p.samples+1;p.sum=p.sum+dt;p.max=math.max(p.max,dt)
++    if dt>1/30 then p.slow=p.slow+1 end
++    p.writes=p.writes+math.max(0,writes-p.lastWrites);p.lastWrites=writes
++    self.perf=p
++    if p.samples%120==0 then
++        local s=G.secondPoolStatus()
++        print(('GF_PERF scene=%s dt_avg_ms=%.1f dt_max_ms=%.1f slow=%d ui_calls=%d pool=%d free=%d created=%d destroyed=%d'):format(
++          tostring(self.sceneName),p.sum/p.samples*1000,p.max*1000,p.slow,p.writes,s.total,s.freeFirst+s.freeSecond,s.created,s.destroyed))
++    end
++end
++
+ function App:drawDebug()
+     if not self.debugLayer then self.debugLayer = G.layer(self.layers.debug) end
+     local L = self.debugLayer
+     L:begin()
+     local c = G.counts
+     local s = ('FPS %d  | 场景 %s | 图片 %d/%d 文字 %d/%d | 写入 %d'):format(
+-        math.floor(self.fps + 0.5), tostring(self.sceneName), c.img - #G.freeImg, c.img, c.txt - #G.freeTxt, c.txt,
++        math.floor(self.fps + 0.5), tostring(self.sceneName), c.img - #G.freeImg - #(G.freeSecond or {}), c.img, c.txt - #G.freeTxt, c.txt,
+         G.N.pos + G.N.size + G.N.col + G.N.vis)
+     L:rect(-self.W / 2 + 330, self.H / 2 - 18, 660, 30, {0, 0, 0, 170})
+     L:label(s, -self.W / 2 + 330, self.H / 2 - 18, 650, 30, 16, {120, 255, 160}, 'l')
+@@ -219,7 +238,7 @@
+ 
+ function App:requestScenePool(name, args)
+     local needs = {intro=1800, title=8000, menu=3200, options=3200, howto=6400,
+-                   select=9500, online=3200, vs=9500, fight=11000, result=6400, test=256}
++                   select=14000, online=12000, vs=14000, fight=14000, result=6400, test=256}
+     local start = G.secondPoolStatus().total
+     if G.requestImages(needs[name] or 9500) then return false end
+     self.poolNext = {name=name, args=args, start=start}

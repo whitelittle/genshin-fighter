@@ -1,0 +1,51 @@
+{
+  "runtime": "mock",
+  "roster": [
+    "zhongli",
+    "tartaglia"
+  ],
+  "commonHashes": 4,
+  "maxInstructions": [
+    836623,
+    651987
+  ],
+  "imagePool": [
+    {
+      "freeSecond": 5696,
+      "total": 13758,
+      "first": 256,
+      "batch": 32,
+      "created": 13502,
+      "freeFirst": 0,
+      "backgroundTarget": 15000,
+      "templateIndex": 1073742224,
+      "target": 11000,
+      "backgroundBatch": 2
+    },
+    {
+      "templateIndex": 1073742224,
+      "backgroundTarget": 15000,
+      "created": 13474,
+      "first": 256,
+      "freeFirst": 0,
+      "batch": 32,
+      "backgroundBatch": 2,
+      "freeSecond": 7922,
+      "target": 11000,
+      "total": 13730
+    }
+  ],
+  "audioCounts": [
+    65,
+    65
+  ],
+  "confirmedAudioCounts": [
+    57,
+    57
+  ],
+  "confirmedAudioEqual": true,
+  "rollbacks": [
+    36,
+    36
+  ]
+}

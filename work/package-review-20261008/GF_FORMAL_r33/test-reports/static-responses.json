@@ -1,0 +1,14 @@
+{
+  "release": "r29",
+  "assets": 79,
+  "workerBytes": 59326057,
+  "checks": [
+    "all resource bytes equal original files",
+    "all three UTF-8 entry pages",
+    "HTTP without compression headers",
+    "both action scripts and simulator bootstrap",
+    "project JSON",
+    "HEAD and 404"
+  ],
+  "method": "Production Worker fetch plus local HTTP proxy"
+}

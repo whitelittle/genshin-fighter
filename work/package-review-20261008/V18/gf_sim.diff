@@ -1,0 +1,193 @@
+--- V18/gf_sim
++++ r33/gf_sim
+@@ -1,4 +1,6 @@
+ __loaders['gf_sim'] = function()
++
++
+ -- Deterministic fight simulation (60 ticks/s). Pure Lua, no client API: the same inputs give
+ -- the same match on every machine (integer positions), which keeps rollback netcode possible.
+ --
+@@ -95,6 +97,7 @@
+ 
+ ------------------------------------------------------------------ helpers
+ function S:setState(p, st, move, moveId)
++    if st~='burst' then p.cinematicConfirmed=false end
+     p.state, p.t = st, 0
+     p.move, p.moveId = move, moveId
+     p.connected = false
+@@ -192,6 +195,7 @@
+     p.energy = min(100, p.energy + 8)
+     self:setState(p, 'skill', sk, 'skill')
+     p.airSkill = p.y > 0
++    if p.key=='nahida' then p.castX=p.x;p.castY=p.y+190*C;p.castFace=p.face;p.captureHitT=nil;p.captureHitX=nil;p.captureHitY=nil end
+     if sk.style == 'rush' and sk.armor then p.armor = true end
+     self:emit({type = 'skill', p = p.id, style = sk.style, fx = sk.fx, element = p.element})
+     return true
+@@ -203,24 +207,30 @@
+     p.energy = 0
+     p.coat = 160
+     self:setState(p, 'burst', bu, 'burst')
+-    p.invul = 70
+-    self.freeze = 56
++    p.cinematicConfirmed=false
++    p.invul = p.key=='raidenshogun' and 24 or 70
++    self.freeze = p.key=='raidenshogun' and 0 or 56
+     self.freezeBy = p.id
+     p.stats.bursts = p.stats.bursts + 1
+-    self:emit({type = 'burst', p = p.id, fx = bu.fx, element = p.element, style = bu.style})
++    self:emit({type = p.key=='raidenshogun' and 'burstAttempt' or 'burst', p = p.id, fx = bu.fx, element = p.element, style = bu.style})
+     return true
+ end
+ 
++function S:throwRange(p)
++    return math.max(K.throw.range*C,math.floor(70*C*p.size)+math.floor(70*C*p.foe.size)+18*C)
++end
+ function S:tryThrow(p)
+     local d = p.foe
+     local th = K.throw
+     local dist = abs(d.x - p.x)
+-    local can = dist <= th.range * C and grounded(d) and d.state ~= 'down' and d.state ~= 'getup'
++    local can = dist <= self:throwRange(p) and grounded(d) and d.state ~= 'down' and d.state ~= 'getup'
+         and d.invul == 0 and (d.state ~= 'hit' and d.state ~= 'airhit') and d.state ~= 'thrown'
+         and d.state ~= 'attack' and d.state ~= 'skill' and d.state ~= 'burst'
+     if can then
+         self:setState(p, 'throw', th, 'throw')
+         self:setState(d, 'thrown')
++        p.stats.throws=(p.stats.throws or 0)+1
++        d.face=-p.face
+         d.vx, d.vy = 0, 0
+         self:emit({type = 'throw', p = p.id})
+     else
+@@ -243,7 +253,7 @@
+ 
+ function S:hit(a, d, m, kind, opts)
+     opts = opts or {}
+-    if d.invul > 0 or d.state == 'down' or d.state == 'getup' or d.state == 'ko' or d.state == 'thrown' then return false end
++    if (d.invul > 0 and not opts.ignoreInvul) or d.state == 'down' or d.state == 'getup' or d.state == 'ko' or d.state == 'thrown' then return false end
+     local level = m.level or 'mid'
+     local dirBack = backBitTo(d, a)
+     -- blocking
+@@ -447,7 +457,7 @@
+     if (pr & B.SK ~= 0 or ((pr & (B.LP | B.HP)) ~= 0 and motion236(p))) and self:startSkill(p) then return end
+     if pr & B.TH ~= 0 then self:tryThrow(p) return end
+     if pr & B.HP ~= 0 then
+-        if nowIn & f ~= 0 and abs(p.foe.x - p.x) <= K.throw.range * C and grounded(p.foe) and p.foe.state ~= 'airhit' then
++        if nowIn & f ~= 0 and abs(p.foe.x - p.x) <= self:throwRange(p) and grounded(p.foe) and p.foe.state ~= 'airhit' then
+             self:tryThrow(p) return
+         end
+         self:startMove(p, nowIn & B.D ~= 0 and 'crouchHeavy' or 'heavy') return
+@@ -584,6 +594,16 @@
+             p.vx = p.face * 3 * C
+         end
+     end
++    if st=='capture' and t>=8 and t<=13 and not p.connected then
++        local steps={0,0.10,0.26,0.48,0.74,1};local k=steps[t-7]
++        local cx=(p.castX or p.x)+(p.castFace or p.face)*math.floor((110+540*k)*C)
++        local cy=p.castY or 190*C
++        local hx0,hx1,hy0,hy1=self:hurtbox(d)
++        if hx0 and overlap(cx-sk.w*C/2,cx+sk.w*C/2,cy-sk.h*C/2,cy+sk.h*C/2,hx0,hx1,hy0,hy1) then
++            local result=self:hit(p,d,{damage=sk.damage,hitstun=sk.hitstun,blockstun=16,push=9,level='mid',energy=8,shake=8},'skill')
++            if result then p.captureHitT=t;p.captureHitX=d.x;p.captureHitY=cy end
++        end
++    end
+     if st == 'rush' and t >= sk.startup and t < sk.startup + sk.dur then
+         p.vx = p.face * floor(sk.speed * C) * (sk.startup + sk.dur - t) // sk.dur
+         if p.rushHits > 0 and (not p.lastRushHit or t - p.lastRushHit >= 5) then
+@@ -618,6 +638,55 @@
+ end
+ 
+ function S:burstUpdate(p)
++    if p.key=='nahida' then
++        local t,d,bu=p.t,p.foe,p.move
++        local per={damage=bu.damage//bu.hits,hitstun=75,blockstun=18,push=3,level='mid',energy=0,shake=9,launch=13}
++        if t==1 then self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style}) end
++        if (t==2 or t==28 or t==54) and not d.ko then
++            if math.abs(d.x-p.x)<=bu.range*C then
++                per.launch=t==54 and 26 or 13;per.knockdown=t==54
++                local result=self:hit(p,d,per,'burst',{unblockable=p.cinematicConfirmed==true,ignoreInvul=p.cinematicConfirmed==true})
++                if result=='hit' then p.cinematicConfirmed=true;p.invul=100 end
++                if t>2 then self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style}) end
++            end
++        end
++        if p.cinematicConfirmed and not d.ko and t<54 then
++            p.x=math.max(-WALL+400*C,math.min(WALL-400*C,p.x))
++            d.x=p.x+p.face*330*C;d.y=math.max(d.y,110*C);d.vx=0
++        end
++        if t>=90 then p.cinematicConfirmed=false;self:setState(p,p.y>0 and 'air' or 'idle') end
++        return
++    end
++    if p.key=='raidenshogun' then
++        local t,d,bu=p.t,p.foe,p.move
++        local per={damage=bu.damage//bu.hits,hitstun=80,blockstun=18,push=3,level='mid',energy=0,shake=12,launch=22}
++        if t==2 then
++            if math.abs(d.x-p.x)<=bu.range*C and d.y<420*C then
++                local result=self:hit(p,d,per,'burst',{unblockable=false})
++                if result=='hit' then
++                    p.cinematicConfirmed=true;p.invul=160
++                    -- Reserve space for the victim even at the stage wall.
++                    p.x=math.max(-WALL+400*C,math.min(WALL-400*C,p.x))
++                    d.x=p.x+p.face*330*C
++                    d.y=math.max(d.y,130*C);d.vx=0
++                    self.freeze=56;self.freezeBy=p.id
++                    self:emit({type='burst',p=p.id,fx=bu.fx,element=p.element,style=bu.style})
++                    self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style})
++                end
++            end
++        end
++        if p.cinematicConfirmed then
++            -- Hold the caught opponent in the cinematic until the final launch.
++            if t<70 then d.x=p.x+p.face*330*C;d.y=math.max(d.y,130*C);d.vx=0 end
++            if t==35 or t==70 then
++                per.launch=t==70 and 28 or 18;per.knockdown=t==70
++                self:hit(p,d,per,'burst',{unblockable=true,ignoreInvul=true})
++                self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style})
++            end
++            if t>=100 then p.cinematicConfirmed=false;self:setState(p,p.y>0 and 'air' or 'idle') end
++        elseif t>=32 then self:setState(p,p.y>0 and 'air' or 'idle') end
++        return
++    end
+     local bu = p.move
+     local t = p.t
+     local d = p.foe
+@@ -754,24 +823,33 @@
+     elseif st == 'throw' then
+         local d = p.foe
+         p.vx = 0
+-        if p.t == 10 then
++        local assist=p.key=='nahida'
++        local impact=assist and 34 or 30
++        if p.t == impact then
+             local dmg = K.throw.damage
+             d.hp = max(0, d.hp - dmg)
+             p.energy = min(100, p.energy + K.throw.energy)
+             p.stats.damage = p.stats.damage + dmg
+             self:setState(d, 'airhit')
+-            d.vy = 16 * C
+-            d.vx = p.face * 9 * C
++            d.vy = (assist and 24 or -12) * C
++            d.y=math.max(d.y,(assist and 20 or 40)*C)
++            d.vx = p.face * (assist and 15 or 9) * C
+             d.combo, d.comboDmg = 1, dmg
+             if d.hp <= 0 then d.ko = true; self:emit({type = 'ko', p = d.id, by = p.id, x = d.x, y = d.y + 170 * C}) end
+             p.hitstop, d.hitstop = 12, 12
+             self:emit({type = 'hit', p = d.id, by = p.id, kind = 'throw', dmg = dmg, combo = 1, x = d.x, y = d.y + floor(170 * C * d.size),
+                        element = p.element, heavy = true, shake = 9, weapon = p.weapon})
+-        elseif p.t < 10 then
+-            d.x = p.x + p.face * 90 * C
+-            d.y = 0
+-        end
+-        if p.t >= 34 then self:setState(p, 'idle') end
++        elseif p.t < impact then
++            if assist then
++                d.t=p.t;d.face=-p.face;d.y=0
++            else
++            d.x = p.x + p.face * 120 * C
++            d.t=p.t;d.face=-p.face
++            local lift=p.t<12 and 0 or p.t<24 and (p.t-12)/12 or (30-p.t)/6
++            d.y=math.max(0,lift)*160*C
++            end
++        end
++        if p.t >= (assist and 76 or 50) then self:setState(p, 'idle') end
+     elseif st == 'hit' or st == 'block' or st == 'cblock' then
+         p.vx = p.vx * 85 // 100
+         if p.atWall and p.foe and (st == 'hit' or st == 'block' or st == 'cblock') then

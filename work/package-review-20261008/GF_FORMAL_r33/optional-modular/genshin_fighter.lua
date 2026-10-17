@@ -1,0 +1,8517 @@
+GF_RELEASE_ID='archive-merged-sd-r33'
+GF_FIRST_SCENE='intro'
+GF_FIRST_ARGS={chars={'raidenshogun','nahida'},mode='demo',cpu={2,2},rounds=2,time=99,seed=21}
+GF_SETTINGS={quality='lo'}
+-- Dual pool production client 3e508011db14
+GF_BUILD='3e508011db14'
+local __externalRequire=require
+local __loaders, __loaded = {}, {}
+local function require(name)
+ local m=__loaded[name]
+ if m==nil then
+  local f=__loaders[name]
+  if not f then error('module not bundled: '..tostring(name)) end
+  m=f(); __loaded[name]=m
+ end
+ return m
+end
+GF_REQUIRE=require
+
+__loaders['gf_ai'] = function()
+local K = require('gf_kits')
+
+local AI = {}
+AI.__index = AI
+
+local B = {U = 1, D = 2, L = 4, R = 8, LP = 16, HP = 32, SK = 64, BU = 128, DA = 256, TH = 512}
+local C = 100
+
+local LEVELS = {
+    {react = 26, block = 0.25, comboLen = 2, aggro = 0.35, antiAir = 0.15, punish = 0.2, burstUse = 0.4, jump = 0.006},
+    {react = 16, block = 0.55, comboLen = 3, aggro = 0.5, antiAir = 0.45, punish = 0.5, burstUse = 0.7, jump = 0.008},
+    {react = 10, block = 0.78, comboLen = 4, aggro = 0.6, antiAir = 0.7, punish = 0.8, burstUse = 0.9, jump = 0.01},
+    {react = 6, block = 0.9, comboLen = 5, aggro = 0.7, antiAir = 0.85, punish = 0.95, burstUse = 1.0, jump = 0.01},
+}
+
+function AI.new(sim, id, level, seed)
+    local self = setmetatable({sim = sim, id = id, lv = LEVELS[level] or LEVELS[2], seed = seed or (id * 7919 + 13),
+                               plan = nil, planT = 0, hold = 0, press = 0, seen = {}, chain = 0, blockFor = 0}, AI)
+    return self
+end
+
+function AI:rand()
+    self.seed = (self.seed * 1103515245 + 12345) & 0x7fffffff
+    return (self.seed % 10000) / 10000
+end
+
+local function dirTo(p) return p.foe.x >= p.x and B.R or B.L end
+local function dirAway(p) return p.foe.x >= p.x and B.L or B.R end
+
+function AI:observe(foe)
+    local s = self.seen
+    s[#s + 1] = {state = foe.state, t = foe.t, x = foe.x, y = foe.y, vy = foe.vy, move = foe.move, moveId = foe.moveId,
+                 airMove = foe.airMove}
+    if #s > 40 then table.remove(s, 1) end
+end
+
+function AI:delayed()
+    local s = self.seen
+    local i = #s - self.lv.react
+    if i < 1 then i = 1 end
+    return s[i]
+end
+
+local function attacking(o)
+    return o and (o.state == 'attack' or o.state == 'skill' or o.state == 'burst' or o.airMove ~= nil)
+end
+
+function AI:throwChoice(p,foe,dist)
+    local sim=self.sim
+    if sim.tick<(self.throwReadyAt or 0) or sim.tick<(self.throwThinkAt or 0) then return 0 end
+    local allowed=foe.state=='idle' or foe.state=='walk' or foe.state=='back' or foe.state=='block' or foe.state=='cblock' or foe.state=='crouch' or foe.state=='land'
+    if p.y>0 or foe.y>0 or foe.invul>0 or not allowed or dist*C>sim:throwRange(p) then return 0 end
+    -- One shared policy for every fighter: evaluate at most once per 18 frames.
+    self.throwThinkAt=sim.tick+18
+    local chance=(foe.state=='block' or foe.state=='cblock') and 0.32 or 0.22
+    if self:rand()>=chance then return 0 end
+    local out=self:edge(B.TH)
+    if out~=0 then self.throwReadyAt=sim.tick+480;self.throwAttempts=(self.throwAttempts or 0)+1 end
+    return out
+end
+
+function AI:tick()
+    local sim = self.sim
+    local p = sim.f[self.id]
+    local foe = p.foe
+    self:observe(foe)
+    if sim.phase ~= 'fight' then return 0 end
+    local lv = self.lv
+    local o = self:delayed()
+    local dist = math.abs(foe.x - p.x) / C
+    local toward, away = dirTo(p), dirAway(p)
+    local out = 0
+
+    if p.state == 'hit' or p.state == 'airhit' or p.state == 'down' or p.state == 'getup' then
+        self.chain = 0
+        if self:rand() < lv.block then out = away end
+        return out
+    end
+
+    if (p.state == 'attack' or p.airMove) and p.connected then
+        if self.chain < lv.comboLen and p.t >= 2 then
+            self.chain = self.chain + 1
+            local id = p.moveId or p.airMoveId
+            if id == 'light1' then out = B.LP
+            elseif id == 'light2' then out = (p.kit.weapon.light3 and self:rand() < 0.6) and B.LP or B.HP
+            elseif id == 'light3' or id == 'crouchLight' then out = B.HP
+            elseif id == 'heavy' or id == 'crouchHeavy' then
+                if p.energy >= 100 and self:rand() < lv.burstUse then out = B.BU
+                elseif p.skillCd == 0 then out = B.SK end
+            elseif id == 'airLight' then out = B.HP end
+            if self.lastOut == out then out = 0 end
+            self.lastOut = out
+            return out
+        end
+        self.lastOut = 0
+        return 0
+    end
+    if p.state ~= 'idle' and p.state ~= 'walk' and p.state ~= 'back' and p.state ~= 'crouch' and p.state ~= 'air' and p.state ~= 'land' then
+        return 0
+    end
+    self.chain = 0
+
+    local throw=self:throwChoice(p,foe,dist)
+    if throw~=0 then return throw end
+
+    if attacking(o) and dist < 380 and p.y <= 0 then
+        if self.blockFor > 0 or self:rand() < lv.block then
+            self.blockFor = 10
+            local low = o.move and o.move.level == 'low'
+            local high = o.airMove ~= nil or (o.move and o.move.level == 'high')
+            return away | ((low and not high) and B.D or 0)
+        end
+    end
+    if self.blockFor > 0 then self.blockFor = self.blockFor - 1; if self.blockFor > 0 then return away end end
+
+    if p.energy >= 100 and p.kit.burst and self:rand() < lv.burstUse * 0.08 then
+        local bu = p.kit.burst
+        if bu.style == 'rain' or dist * 1 < (bu.range or 600) * 0.7 then return self:edge(B.BU) end
+    end
+
+    if o and o.y > 60 * C and o.vy and dist < 330 and self:rand() < lv.antiAir * 0.25 then
+        local sk = p.kit.skill
+        if sk and sk.style == 'rising' and p.skillCd == 0 then return self:edge(B.SK) end
+        return self:edge(B.HP)
+    end
+
+    if o and o.move and o.state == 'attack' and o.t > (o.move.startup + o.move.active) and dist < 240 then
+        if self:rand() < lv.punish * 0.3 then return self:edge(B.LP) end
+    end
+
+    local r = self:rand()
+    if dist > 520 then
+        local sk = p.kit.skill
+        if sk and (sk.style == 'projectile' or sk.style == 'zone' or sk.style == 'capture') and p.skillCd == 0 and r < 0.03 then return self:edge(B.SK) end
+        if p.kit.weapon.ranged and r < 0.025 then return self:edge(B.HP) end
+        if r < 0.02 then return self:edge(toward | B.DA) end
+        if r < 0.02 + lv.jump then return toward | B.U end
+        return toward
+    elseif dist > 230 then
+        local sk = p.kit.skill
+        if sk and sk.style == 'rush' and p.skillCd == 0 and r < 0.02 * lv.aggro then return self:edge(B.SK) end
+        if r < 0.05 * lv.aggro then return self:edge(toward | B.DA) end
+        if r < 0.05 * lv.aggro + lv.jump then return toward | B.U end
+        if r < 0.75 then return toward end
+        if r < 0.85 then return away end
+        return 0
+    else
+        if r < 0.06 * lv.aggro then return self:edge(B.LP) end
+        if r < 0.09 * lv.aggro then return self:edge(B.D | B.LP) end
+        if r < 0.11 * lv.aggro then return self:edge(B.HP) end
+        if r < 0.13 then return self:edge(B.D | B.HP) end
+        if r < 0.2 then return away end
+        return 0
+    end
+end
+
+function AI:edge(mask)
+    if self.lastOut and self.lastOut & mask ~= 0 and self.lastOut == mask then
+        self.lastOut = 0
+        return 0
+    end
+    self.lastOut = mask
+    return mask
+end
+
+return AI
+end
+__loaders['gf_app'] = function()
+local G = require('gf_gfx')
+local Input = require('gf_input')
+local Audio = require('gf_audio')
+
+local App = {}
+App.__index = App
+
+local STEP = 1 / 60
+local DESIGN_W, DESIGN_H = 1600, 900
+
+App.SCENES = {
+    intro = 'gf_scene_intro', title = 'gf_scene_title', menu = 'gf_scene_menu',
+    select = 'gf_scene_select', vs = 'gf_scene_vs', fight = 'gf_scene_fight',
+    result = 'gf_scene_result', options = 'gf_scene_options', howto = 'gf_scene_howto',
+    test = 'gf_scene_test', online = 'gf_scene_online', gallery = 'gf_scene_gallery',
+}
+
+function App.new(env)
+    local self = setmetatable({env = env, t = 0, acc = 0, frame = 0, fps = 60, scene = nil, sceneName = nil}, App)
+    -- Stretch a permanent opaque backing independently of design/safe-area sizing.
+    self.canvasBacking=G.image(G.root,G.RECT)
+    self.canvasBacking:pos(0,0):size(0,0):rgba({11,15,31},1):on(true)
+    env.safe(function()
+        local c=self.canvasBacking.c
+        c:SetAnchorMin(0,0);c:SetAnchorMax(1,1);c:SetPivot(.5,.5)
+    end)
+    self.view = G.group(G.root)
+    self.layers = {}
+    for _, name in ipairs({'back', 'world', 'front', 'hud', 'ui', 'top', 'curtain', 'debug'}) do
+        self.layers[name] = G.group(self.view)
+    end
+    self:fit(true)
+    self.input = Input.new(self)
+    require('gf_ui').app = self
+    self.audio = Audio.new(env)
+    self.settings = {quality = 'lo', sfx = true, shake = true, cpu = 2, rounds = 2, time = 99, touch = 'auto'}
+    for k, v in pairs(env.settings or {}) do self.settings[k] = v end   -- test / preview overrides
+    self.save = {wins = 0, played = 0, arcadeBest = 0, unlocked = {}}
+    self.settings.quality='lo'
+    self.quality = self:detectQuality()
+    self.debug = false
+    local first = env.firstScene or 'intro'
+    self:go(first, env.firstArgs)
+    return self
+end
+
+function App:isMobile()
+    local ok,d=pcall(self.env.game.GetDevice);local D=self.env.Enum.Device
+    return ok and (d==D.Mobile or d==D.MobileController)
+end
+function App:detectQuality() return 'lo' end
+function App:setQuality() return false end
+
+function App:fit(force)
+    local ok, cw, ch = pcall(self.env.game.GetUICanvasSize)
+    if not ok or type(cw) ~= 'number' or cw <= 0 then cw, ch = DESIGN_W, DESIGN_H end
+    if not force and cw == self.cw and ch == self.ch then return false end
+    self.cw, self.ch = cw, ch
+    local s
+    if cw / ch >= DESIGN_W / DESIGN_H then s = ch / DESIGN_H else s = cw / DESIGN_W end
+    self.s = s
+    self.W, self.H = cw / s, ch / s
+    self.view:pos(0, 0):scale(s, s)
+    if self.scene and self.scene.resize then self.scene:resize() end
+    return true
+end
+
+function App:go(name, args)
+    if self:requestScenePool(name,args) then return end
+    local old = self.scene
+    if old and old.exit then old:exit() end
+    self.input:clearUI()
+    local mod = require(App.SCENES[name] or name)
+    self.sceneName = name
+    self.scene = mod.new(self, args or {})
+    self.sceneT = 0
+end
+
+function App:update(dt)
+    self:samplePerformance(dt)
+    if self.poolNext then
+        self:netPump()
+        if #G.trash>0 then G.flushTrash(100) end
+        if self:advanceScenePool() then return end
+    end
+    local sim=self.scene and self.scene.sim
+    local phase=sim and sim.phase
+    local safeBoundary=not sim or phase=='over' or (phase=='ko' and sim.phaseT>=90)
+    G.manageImagePool(phase,safeBoundary)
+    if dt > 0.25 then dt = 0.25 end
+    self.t = self.t + dt
+    if dt > 0 then self.fps = self.fps * 0.9 + (1 / dt) * 0.1 end
+    self.fitT = (self.fitT or 0) + dt
+    if self.fitT > 0.5 then self.fitT = 0; self:fit(false) end
+    self.input:poll()
+    if #G.trash > 0 then G.flushTrash(400) end
+    self.acc = self.acc + dt
+    local steps = 0
+    while self.acc >= STEP and steps < 4 do
+        self.acc = self.acc - STEP
+        steps = steps + 1
+        self.frame = self.frame + 1
+        self.input:tick()
+        self:netPump()
+        local sc = self.scene
+        if sc and sc.tick then sc:tick() end
+        self.sceneT = self.sceneT + STEP
+        if self.nextScene then
+            local n = self.nextScene
+            self.nextScene = nil
+            self:go(n[1], n[2])
+        end
+    end
+    if self.acc > STEP * 4 then self.acc = 0 end
+    local sc = self.scene
+    if sc and sc.draw then sc:draw(self.acc / STEP, dt) end
+    self.audio:update(dt)
+    self:drawTransition()
+    if self.debug then self:drawDebug() elseif self.debugLayer then self.debugLayer:clear() end
+end
+
+function App:netOn()
+    if not self.net and self.env.netio then
+        if self.env.netio.start then self.env.netio.start() end
+        self.net = require('gf_online').new(self.env.netio)
+    end
+    return self.net
+end
+
+function App:netPump()
+    local o = self.net
+    if not o then return end
+    local O = require('gf_online')
+    if o.io.pump then o.io.pump() end
+    O.poll(o)
+    local sc = self.scene
+    if sc and sc.online and sc.state == 'run' and o.match then return end
+    O.keepAlive(o)
+end
+
+function App:switch(name, args) self.nextScene = {name, args} end
+
+function App:travel(name, args, col)
+    if self.trans then return end
+    self.trans = {t = 0, name = name, args = args, col = col or {255, 214, 120}}
+    self.audio:play(self.audio.ID.open)
+end
+
+function App:drawTransition()
+    local tr = self.trans
+    if not tr then if self.transL then self.transL:clear() end return end
+    self.transL = self.transL or G.layer(self.layers.curtain)
+    local L = self.transL
+    tr.t = tr.t + 1
+    local IN, HOLD, OUT = 16, 4, 18
+    local k
+    if tr.t <= IN then k = tr.t / IN
+    elseif tr.t <= IN + HOLD then
+        k = 1
+        if tr.t == IN + 1 then self:go(tr.name, tr.args) end
+    else k = 1 - (tr.t - IN - HOLD) / OUT end
+    local W, H = self.W, self.H
+    local e = k * k * (3 - 2 * k)
+    L:begin()
+    for i = 1, 3 do
+        local off = (1 - e) * (W * 1.4) * (tr.t <= IN + HOLD and 1 or -1) + (i - 2) * 30 * (1 - e)
+        local col = i == 2 and tr.col or {12, 14, 26}
+        L:rect(off, 0, W * 1.5 * (i == 2 and 0.04 or 1) + (i == 2 and 0 or 0), H * 1.6, col, i == 2 and 1 or 1, -12)
+    end
+    L:shape(G.STAR4, 0, 0, 140 * e, 140 * e, tr.col, e, tr.t * 6)
+    L:finish()
+    if tr.t >= IN + HOLD + OUT then self.trans = nil; L:clear() end
+end
+
+function App:backdrop(key)
+    local B = require('gf_backdrop')
+    if self.bd and self.bd.key ~= key then self.bd:free(true); self.bd = nil end
+    if not self.bd then
+        self.bd = B.new(self, self.layers.back, key)
+        self.bd.root:sibling(0)          -- under anything the scene already put in the back layer
+    end
+    self.bd.root:on(true)
+    return self.bd
+end
+
+function App:dropBackdrop()
+    if self.bd then self.bd:free(true); self.bd = nil end
+end
+
+function App:samplePerformance(dt)
+    if not self.debug then return end
+    local n=G.N
+    local writes=(n.pos or 0)+(n.size or 0)+(n.col or 0)+(n.vis or 0)+(n.bitmap or 0)
+    local p=self.perf or {samples=0,sum=0,max=0,slow=0,lastWrites=writes,writes=0}
+    p.samples=p.samples+1;p.sum=p.sum+dt;p.max=math.max(p.max,dt)
+    if dt>1/30 then p.slow=p.slow+1 end
+    p.writes=p.writes+math.max(0,writes-p.lastWrites);p.lastWrites=writes
+    self.perf=p
+    if p.samples%120==0 then
+        local s=G.secondPoolStatus()
+        print(('GF_PERF scene=%s dt_avg_ms=%.1f dt_max_ms=%.1f slow=%d ui_calls=%d pool=%d free=%d created=%d destroyed=%d'):format(
+          tostring(self.sceneName),p.sum/p.samples*1000,p.max*1000,p.slow,p.writes,s.total,s.freeFirst+s.freeSecond,s.created,s.destroyed))
+    end
+end
+
+function App:drawDebug()
+    if not self.debugLayer then self.debugLayer = G.layer(self.layers.debug) end
+    local L = self.debugLayer
+    L:begin()
+    local c = G.counts
+    local s = ('FPS %d  | 场景 %s | 图片 %d/%d 文字 %d/%d | 写入 %d'):format(
+        math.floor(self.fps + 0.5), tostring(self.sceneName), c.img - #G.freeImg - #(G.freeSecond or {}), c.img, c.txt - #G.freeTxt, c.txt,
+        G.N.pos + G.N.size + G.N.col + G.N.vis)
+    L:rect(-self.W / 2 + 330, self.H / 2 - 18, 660, 30, {0, 0, 0, 170})
+    L:label(s, -self.W / 2 + 330, self.H / 2 - 18, 650, 30, 16, {120, 255, 160}, 'l')
+    L:finish()
+end
+
+-- Cover the previous scene while the second image pool grows in frame batches.
+function App:drawScenePool(state)
+    local pending = self.poolNext
+    local total = math.max(1, state.target - pending.start)
+    local progress = math.max(0, math.min(1, (state.total - pending.start) / total))
+    self.poolLoadingL = self.poolLoadingL or G.layer(self.view)
+    local L = self.poolLoadingL
+    L.node:front()
+    local width = math.min(560, self.W - 160)
+    L:begin()
+    L:rect(0, 0, self.W + 80, self.H + 80, {0, 0, 0}, 1)
+    L:label('正在加载', 0, 48, width, 44, 28, {236, 229, 216})
+    L:rect(0, 0, width, 6, {45, 45, 45}, 1)
+    L:rect((progress - 1) * width / 2, 0, width * progress, 6, {211, 188, 142}, 1)
+    L:label(('%d%%'):format(math.floor(progress * 100)), 0, -36, width, 32, 20, {165, 165, 165})
+    L:finish()
+    self.env.host:SetVisible(false)
+end
+
+function App:requestScenePool(name, args)
+    local needs = {intro=1800, title=8000, menu=3200, options=3200, howto=6400,
+                   select=14000, online=12000, vs=14000, fight=14000, result=6400, test=256}
+    local start = G.secondPoolStatus().total
+    if G.requestImages(needs[name] or 9500) then return false end
+    self.poolNext = {name=name, args=args, start=start}
+    self:drawScenePool(G.secondPoolStatus())
+    return true
+end
+function App:advanceScenePool()
+    local pending = self.poolNext
+    if not pending then return false end
+    local done = G.growImages()
+    self:drawScenePool(G.secondPoolStatus())
+    if done then
+        self.poolNext = nil
+        self.poolLoadingL:free()
+        self.poolLoadingL = nil
+        self:go(pending.name, pending.args)
+    end
+    return true
+end
+
+return App
+end
+__loaders['gf_art'] = function()
+
+
+local U = require('gf_util')
+local R = require('gf_roster')
+
+local A = {}
+A.POSES = {'idle', 'walk1', 'walk2', 'jump', 'crouch', 'crouchGuard', 'guard',
+           'slash', 'special', 'qRelease', 'hurt', 'down'}
+A.roster = R
+A.byKey = {}
+for i, c in ipairs(R) do c.index = i; A.byKey[c.key] = c end
+
+local mods = {}
+local function mod(key)
+    local m = mods[key]
+    if not m then
+        m = require('gf_art_' .. key)
+        mods[key] = m
+    end
+    return m
+end
+A.mod = mod
+
+local cache = {}          -- key..tier..pose -> image
+local palCache = {}
+
+local function pal(key, tier)
+    local k = key .. ':' .. tier
+    local p = palCache[k]
+    if not p then
+        p = U.palette(mod(key)[tier].pal)
+        palCache[k] = p
+    end
+    return p
+end
+A.pal = pal
+
+local function newImage(src, palette)
+    return {bytes = nil, n = src.n, pal = palette, ax = src.ax or 0, ay = src.ay or 0,
+            u = src.u or 1, w = src.w, h = src.h, src = src.d}
+end
+
+local animations
+function A.animation(key,tier,pose)
+    tier='lo'
+    if key ~= 'raidenshogun' and key ~= 'nahida' then return nil end
+    animations = animations or require('gf_animation_data')
+    local char=animations[key=='raidenshogun' and 'raiden' or 'nahida']
+    local bank=char and char[tier]
+    local aliases={idle='basic_0',walk1='basic_2',walk2='basic_4',jump='move_1',crouch='guard_1',crouchGuard='guard_7',guard='guard_6',slash='light_2',special='skill_2',qRelease=key=='raidenshogun' and 'qburst_3' or 'skill_6',hurt='hurt_0',down='hurt_3'}
+    local img=bank and bank[aliases[pose] or pose]
+    if not img and bank then local extra=require('gf_inbetween_data');local c=extra.poses[key=='raidenshogun' and 'raiden' or 'nahida'];img=c and c[tier] and c[tier][pose] end
+    if img and img.d then
+        local raw=U.decodeAll(img.d);local values={}
+        for i=1,img.n*5 do values[i]=raw[i*2-1]+raw[i*2]*256 end
+        img.bytes=values;img.d=nil
+    end
+    if img then img.pal=bank.pal; if not img.baked and key=='raidenshogun' and (aliases[pose] or pose):match('^qburst_') then img.originalU=img.originalU or img.u;img.u=img.originalU*0.77 end end
+    if img and not img.baked then
+        local u=img.u;local bytes={}
+        for i=1,#img.bytes,5 do
+            for k=0,3 do bytes[i+k]=img.bytes[i+k]*u end
+            bytes[i+4]=img.bytes[i+4]
+        end
+        img.bytes=bytes;img.ax=img.ax*u;img.ay=img.ay*u;img.w=img.w*u;img.h=img.h*u
+        img.seam=0.08*u;img.u=1;img.baked=true
+    end
+    return img
+end
+function A.pose(key, tier, pose)
+    tier='lo'
+    local animated=A.animation(key,tier,pose)
+    if animated then return animated end
+    local k = key .. ':' .. tier .. ':' .. pose
+    local img = cache[k]
+    if not img then
+        local src = mod(key)[tier][pose]
+        img = newImage(src, pal(key, tier))
+        cache[k] = img
+    end
+    if not img.bytes then img.bytes = U.decodeAll(img.src) end
+    return img
+end
+
+function A.silhouette(key, pose)
+    local animated=A.animation(key,'lo',pose)
+    if animated then return animated end
+    local k = key .. ':sil:' .. pose
+    local img = cache[k]
+    if not img then
+        local m = mod(key)
+        local src = m.sil[pose]
+        local lo = m.lo[pose]
+        img = {bytes = U.decodeAll(src.d), n = src.n, pal = {{255, 255, 255, 255}},
+               ax = lo.ax, ay = lo.ay, u = lo.u, w = lo.w, h = lo.h}
+        cache[k] = img
+    end
+    return img
+end
+
+local function picture(key, which)
+    local k = key .. ':' .. which
+    local img = cache[k]
+    if not img then
+        local src = mod(key)[which]
+        img = {bytes = U.decodeAll(src.d), n = src.n, pal = U.palette(src.pal), ax = src.s / 2, ay = src.s,
+               u = 1, w = src.s, h = src.s}
+        cache[k] = img
+    end
+    return img
+end
+function A.face(key) return picture(key, 'face') end
+function A.round(key) return picture(key, 'round') end
+function A.portrait(key) return picture(key, 'portrait') end
+
+function A.prepare(key, tier)
+    if A.animation(key,tier,'basic_0') then return {step=function() return true end} end
+    local list = {}
+    for _, p in ipairs(A.POSES) do list[#list + 1] = p end
+    local job = {i = 1, cur = nil}
+    function job.step(_, budget)
+        while budget > 0 do
+            local pose = list[job.i]
+            if not pose then return true end
+            local k = key .. ':' .. tier .. ':' .. pose
+            local img = cache[k]
+            if not img then
+                img = newImage(mod(key)[tier][pose], pal(key, tier))
+                cache[k] = img
+            end
+            if img.bytes then
+                job.i = job.i + 1
+                A.silhouette(key, pose)
+            else
+                job.cur = job.cur or U.decoder(img.src)
+                local before = job.cur.i
+                if job.cur:step(budget) then
+                    img.bytes = job.cur.bytes
+                    job.cur = nil
+                end
+                budget = budget - math.max(4, (job.cur and job.cur.i or #img.src + 1) - before)
+            end
+        end
+        return list[job.i] == nil
+    end
+    return job
+end
+
+function A.trim(keep)
+    local k2 = {}
+    for _, k in ipairs(keep) do k2[k] = true end
+    for k, img in pairs(cache) do
+        local key = k:match('^([^:]+)')
+        if not k2[key] and not k:find(':face') and not k:find(':portrait') then
+            img.bytes = nil
+            if k:find(':sil:') then cache[k] = nil end
+        end
+    end
+end
+
+return A
+end
+__loaders['gf_audio'] = function()
+local A = {}
+A.__index = A
+
+local ELEM = {'geo', 'hydro', 'electro', 'pyro', 'anemo', 'dendro', 'cryo'}
+local function per(t) return t end
+
+A.ID = {
+    move = 50942, ok = 50915, okBig = 50873, back = 50863, open = 50923, close = 50922, fail = 50931,
+    lock = 50937, tick = 50886, coin = 50935,
+    jump = 30026, land = 30020, dash = 40096, dash2 = 30001, fall = 30134, down = 30004,
+    swing = {
+        sword = {40310, 40305}, claymore = {40284, 40277}, polearm = {40270, 40265},
+        catalyst = {40036, 40055}, bow = {40026, 40027},
+    },
+    punch = {40106, 40107}, slap = 40111, blade = 40176, blunt = 40186,
+    ehit = per({geo = 40117, hydro = 40126, electro = 40136, pyro = 40144, anemo = 40150, dendro = 40158, cryo = 40164}),
+    eboom = per({geo = 40221, hydro = 40227, electro = 40234, pyro = 40243, anemo = 40250, dendro = 40255, cryo = 40259}),
+    ecast = per({geo = 40049, hydro = 40055, electro = 40060, pyro = 40065, anemo = 40070, dendro = 40075, cryo = 40081}),
+    ecircle = per({geo = 40350, hydro = 40368, electro = 40385, pyro = 40400, anemo = 40421, dendro = 40440, cryo = 40461}),
+    guard = 40320, guardBreak = 40193, parry = 40332, shield = 40335,
+    heart = 10061, bell = 51063, clap = 30132, shock = 10067,
+}
+A.ELEM = ELEM
+
+function A.new(env)
+    return setmetatable({env = env, on = true, last = {}, lastEvent = {}, t = 0}, A)
+end
+
+function A:update(dt) self.t = self.t + dt end
+
+function A:play(id, gap)
+    if not self.on or not id then return end
+    if type(id) == 'table' then id = id[1] end
+    local stamp = self.eventTime or self.t
+    local last = self.eventTime and self.lastEvent or self.last
+    local t = last[id]
+    if t and stamp - t < (gap or 0.04) then return end
+    last[id] = stamp
+    self.env.safe(self.env.game.PlayAudio2D, id)
+end
+
+function A:swing(weapon, heavy)
+    local s = A.ID.swing[weapon] or A.ID.swing.sword
+    self:play(heavy and s[2] or s[1])
+end
+
+function A:hit(element, kind)
+    local id = A.ID
+    if kind == 'boom' then self:play(id.eboom[element] or id.eboom.pyro)
+    elseif kind == 'elem' then self:play(id.ehit[element] or id.punch[1])
+    elseif kind == 'blade' then self:play(id.blade)
+    else self:play(id.punch[1]) end
+end
+
+return A
+end
+__loaders['gf_backdrop'] = function()
+-- Menu backdrop: a stage painting with a slow Ken Burns drift, a navy veil, a vignette and
+-- floating sparks. Owned by the app so title -> menu -> options never rebuild it.
+local G = require('gf_gfx')
+local U = require('gf_util')
+local Paint = require('gf_paint')
+
+local B = {}
+B.__index = B
+
+function B.new(app, parent, key, opts)
+    opts = opts or {}
+    local self = setmetatable({app = app, key = key, opts = opts, ready = false, t = 0}, B)
+    self.root = G.group(parent)
+    self.kb = G.group(self.root)                 -- Ken Burns group
+    if Paint.available[key] then
+        self.paint = Paint.new(self.kb, key, 'full', app.quality == 'lo' and 700 or nil)
+    end
+    self.L = G.layer(self.root)                   -- veil + vignette (immediate)
+    self.sparks = {}
+    return self
+end
+
+function B:step(n)
+    if self.ready then return true end
+    if self.paint and not self.paint:step(n) then return false end
+    self.ready = true
+    -- slow drift: scale and pan back and forth
+    local s = self.opts.scale or 1.25
+    self.kb:scale(s, s):pos(0, self.opts.y or 40)
+    G.pingpong(self.kb, {localScaleX = s * 1.08, localScaleY = s * 1.08, anchoredPositionX = -60, anchoredPositionY = (self.opts.y or 40) + 20},
+               {localScaleX = s, localScaleY = s, anchoredPositionX = 40, anchoredPositionY = self.opts.y or 40}, 18, 'InOutSine')
+    -- rising sparks
+    for i = 1, 14 do
+        local n = G.image(self.root, G.STAR4)
+        local x = -900 + U.hash(i * 37) * 1800
+        local y0 = -520 - U.hash(i * 11) * 100
+        local sz = 10 + U.hash(i * 5) * 14
+        n:pos(x, y0):size(sz, sz):color(255, 236, 190, 200):on(true)
+        local t = n:tween({anchoredPositionY = 560, anchoredPositionX = x + (U.hash(i * 3) - 0.5) * 300, localRotationZ = 270},
+                          7 + U.hash(i * 17) * 6, 'Linear')
+        if t then pcall(function() t:SetLoops(-1) end) end
+        self.sparks[#self.sparks + 1] = n
+    end
+    return true
+end
+
+-- veil: 0..1 darkness over the painting; tint: colour of the veil
+function B:draw(veil, tint)
+    local app = self.app
+    local W, H = app.W, app.H
+    local L = self.L
+    L:begin()
+    tint = tint or {10, 12, 28}
+    L:rect(0, 0, W + 80, H + 80, tint, veil or 0.45)
+    -- vignette: dark feathered edges
+    L:shape(G.ELLIPSE, -W / 2, 0, W * 0.7, H * 1.6, {4, 5, 12}, 0.55, 0, 0.5)
+    L:shape(G.ELLIPSE, W / 2, 0, W * 0.7, H * 1.6, {4, 5, 12}, 0.55, 0, 0.5)
+    L:shape(G.ELLIPSE, 0, -H / 2, W * 1.6, H * 0.6, {4, 5, 12}, 0.6, 0, 0.5)
+    L:finish()
+end
+
+-- later: hide now, hand the nodes back to the pools over the next frames (see G.releaseLater)
+function B:free(later)
+    if later then
+        self.root:on(false)
+        G.releaseLater(self.root)
+        G.releaseLater(self.kb)
+        if self.paint then self.paint:free(true) end
+        self.L:free()
+        for _, n in ipairs(self.sparks) do G.releaseLater(n) end
+        return
+    end
+    if self.paint then self.paint:free() end
+    self.L:free()
+    for _, n in ipairs(self.sparks) do G.release(n) end
+    G.release(self.kb)
+    G.release(self.root)
+end
+
+return B
+end
+__loaders['gf_bglist'] = function()
+-- generated by game/tools/build_stages.py; do not edit
+return {'mondstadt','liyue','inazuma','sumeru','fontaine','natlan','snezhnaya'}
+end
+__loaders['gf_fview'] = function()
+
+
+local G = require('gf_gfx')
+local Art = require('gf_art')
+local K = require('gf_kits')
+local U = require('gf_util')
+
+local V = {}
+V.__index = V
+
+local C = 100
+local NEXT = {idle = 'walk1', walk1 = 'walk2', walk2 = 'walk1', slash = 'idle', special = 'idle', qRelease = 'idle',
+              crouch = 'idle', jump = 'idle', hurt = 'idle', guard = 'idle', crouchGuard = 'crouch', down = 'crouch'}
+
+function V.new(app, layers, fighter, tier)
+    local self = setmetatable({app = app, f = fighter, tier = tier or 'hi', key = fighter.key,
+                               element = fighter.element, ecol = K.elementColor[fighter.element] or {255, 255, 255}}, V)
+    self.root = G.group(layers.body)
+    self.spin = G.group(self.root)
+    self.content = G.group(self.spin)
+    self.aura = G.bitmap(self.content)       -- element glow behind the body
+    self.slots = {G.bitmap(self.content), G.bitmap(self.content)}
+    self.flash = G.bitmap(self.content)      -- white / ice overlay
+    for _, s in ipairs(self.slots) do s.node:on(false) end
+    self.aura.node:on(false)
+    self.flash.node:on(false)
+    self.animFx=G.bitmap(layers.ghost);self.animFx.node:on(false)
+    self.aimLayer=G.layer(layers.fx)
+    if fighter.key=='nahida' then self.captureBmp=G.bitmap(layers.fx);self.captureBmp.node:on(false) end
+    self.assistants={}
+    if fighter.key=='nahida' then for i=1,3 do self.assistants[i]=G.bitmap(layers.fx);self.assistants[i].node:on(false) end end
+    self.front = nil
+    self.want = 'idle'
+    self.shadow = G.image(layers.shadow, G.ELLIPSE)
+    self.shadow:color(0, 0, 0, 110):on(true)
+    self.ghosts = {}
+    for i = 1, 3 do
+        local g = G.bitmap(layers.ghost)
+        g.node:on(false)
+        self.ghosts[i] = {bmp = g, x = 0, y = 0, life = 0, pose = nil, face = 1, a = 0}
+    end
+    self.ghostI = 0
+    self.flashT = 0
+    self.trail = 0
+    self.walkT = 0
+    self.shake = 0
+    self.tilt, self.sx, self.sy, self.ox, self.oy = 0, 1, 1, 0, 0
+    return self
+end
+
+function V:image(pose) return Art.pose(self.key, self.tier, pose) end
+
+local function frameName(sheet,index) return sheet .. '_' .. index end
+local function attackPose(m,t,id)
+    local sheet,frames='light',{0,1,2,3}
+    if id=='light2' then frames={4,5,6,7}
+    elseif id=='light3' then sheet='heavy'
+    elseif id=='heavy' then sheet,frames='heavy',{4,5,6,7}
+    elseif id=='crouchLight' then sheet,frames='air',{0,0,1,0}
+    elseif id=='crouchHeavy' then sheet,frames='air',{2,2,3,2}
+    elseif id=='airLight' then sheet,frames='air',{4,4,5,4}
+    elseif id=='airHeavy' then sheet,frames='air',{6,6,7,6} end
+    local phase=t<m.startup and (t<m.startup/2 and 1 or 2) or t<m.startup+m.active and 3 or 4
+    return frameName(sheet,frames[phase])
+end
+function V:keyPose()
+    local f=self.f;local st,t=f.state,f.t
+    if f.airMove then return attackPose(f.airMove,f.airT or 0,f.airMoveId or 'airLight') end
+    if st=='idle' or st=='intro' then return frameName('basic',self.app.frame//25%2) end
+    if f.key=='nahida' and (st=='walk' or st=='back') then return frameName('move',1+self.walkT//16%2) end
+    if st=='walk' or st=='back' then local i=self.walkT//8%6;return frameName('basic',st=='back' and 7-i or 2+i) end
+    if st=='crouch' or st=='jumpsq' or st=='land' then return frameName('guard',t<5 and 0 or 1) end
+    if st=='air' then return frameName('move',f.vy>0 and 1 or f.vy==0 and 2 or 3) end
+    if st=='dash' then return frameName('move',t<5 and 4 or 5) end
+    if st=='backdash' then return frameName('move',t<5 and 6 or 7) end
+    if st=='attack' then return attackPose(f.move,t,f.moveId) end
+    if st=='skill' then
+        local startup=f.move.startup
+        if f.key=='nahida' then return frameName('skill',t<4 and 0 or t<startup and 1 or not f.connected and t<14 and 2 or 3) end
+        return frameName('skill',t<startup/2 and 0 or t<startup and 1 or t<startup+6 and 2 or 3)
+    end
+    if st=='burst' then
+        if f.key=='raidenshogun' then
+            if not f.cinematicConfirmed then return frameName('qburst',0) end
+            if t<16 then return frameName('qburst',t<9 and 1 or 2) end
+            if t<24 or (t>=35 and t<44) or (t>=70 and t<85) then return frameName('qburst',3) end
+            return frameName('qburst',t>=85 and 0 or 2)
+        end
+        return frameName('skill',t<8 and 4 or t<22 and 5 or t<74 and 6 or 7)
+    end
+    if st=='throw' and f.key=='nahida' then return frameName('skill',t<12 and 4 or t<30 and 5 or t<58 and 6 or 7) end
+    if st=='throw' then return frameName('throw',t<12 and 0 or t<24 and 1 or t<36 and 2 or 3) end
+    if st=='thrown' and f.foe.key=='nahida' then return frameName('basic',0) end
+    if st=='thrown' then return frameName('victim',t<12 and 0 or t<24 and 1 or 2) end
+    if st=='airhit' then return frameName('victim',3) end
+    if st=='hit' then return frameName('hurt',0) end
+    if st=='down' then return frameName('hurt',3) end
+    if st=='getup' then return frameName('hurt',t<8 and 4 or 5) end
+    if st=='block' then return frameName('guard',6) end
+    if st=='cblock' then return frameName('guard',7) end
+    if st=='win' then return frameName('hurt',6) end
+    if st=='lose' then return frameName('hurt',7) end
+    return frameName('basic',0)
+end
+local inbetweenKeys
+function V:middle(sheet,i,j)
+    inbetweenKeys=inbetweenKeys or require('gf_inbetween_data').keys
+    local k=inbetweenKeys[self.key=='raidenshogun' and 'raiden' or 'nahida']
+    return k[sheet..'_'..i..'_'..j] or k[sheet..'_'..j..'_'..i] or frameName(sheet,i)
+end
+function V:sequence(sheet,frames,ends,t)
+    local start=0
+    for i,finish in ipairs(ends) do
+        if t<finish then
+            local span=finish-start;local window=math.min(3,math.max(1,math.floor(span*0.35)))
+            if span>1 and t>=finish-window then return self:middle(sheet,frames[i],frames[i%#frames+1]) end
+            return frameName(sheet,frames[i])
+        end
+        start=finish
+    end
+    return frameName(sheet,frames[#frames])
+end
+function V:attackFrames(m,t,id)
+    local sheet,frames='light',{0,1,2,3}
+    if id=='light2' then frames={4,5,6,7} elseif id=='light3' then sheet='heavy'
+    elseif id=='heavy' then sheet,frames='heavy',{4,5,6,7}
+    elseif id=='crouchLight' then sheet,frames='air',{0,0,1,0}
+    elseif id=='crouchHeavy' then sheet,frames='air',{2,2,3,2}
+    elseif id=='airLight' then sheet,frames='air',{4,4,5,4}
+    elseif id=='airHeavy' then sheet,frames='air',{6,6,7,6} end
+    return self:sequence(sheet,frames,{math.ceil(m.startup/2),m.startup,m.startup+m.active,m.startup+m.active+m.recovery},t)
+end
+function V:animatedPose()
+    local f=self.f;local st,t=f.state,f.t
+    if f.airMove then return self:attackFrames(f.airMove,f.airT or 0,f.airMoveId or 'airLight') end
+    if st=='idle' or st=='intro' then return self:sequence('basic',{0,1},{25,50},self.app.frame%50) end
+    if st=='walk' or st=='back' then
+        if f.key=='nahida' then return self:sequence('move',{1,2},{16,32},self.walkT%32) end
+        return self:sequence('basic',st=='back' and {7,6,5,4,3,2} or {2,3,4,5,6,7},{8,16,24,32,40,48},self.walkT%48)
+    end
+    if st=='attack' then return self:attackFrames(f.move,t,f.moveId) end
+    if st=='crouch' or st=='jumpsq' or st=='land' then return self:sequence('guard',{0,1},{5,12},math.min(t,11)) end
+    if st=='dash' then return self:sequence('move',{4,5},{5,14},t) end
+    if st=='backdash' then return self:sequence('move',{6,7},{5,18},t) end
+    if st=='air' then
+        if f.vy>0 and f.vy<3*C then return self:middle('move',1,2) end
+        if f.vy<=0 and f.vy>-3*C then return self:middle('move',2,3) end
+    end
+    if st=='skill' then
+        if f.key=='nahida' then
+            if f.connected then return self:sequence('skill',{3,0},{27,30},t) end
+            return self:sequence('skill',{0,1,2,3},{4,8,14,30},t)
+        end
+        local su=f.move.startup
+        return self:sequence('skill',{0,1,2,3},{math.ceil(su/2),su,su+6,su+f.move.recovery},t)
+    end
+    if st=='burst' then
+        if f.key=='nahida' then return self:sequence('skill',{4,5,6,7},{8,22,74,90},t) end
+        if f.cinematicConfirmed then return self:sequence('qburst',{1,2,3,2,3,2,3,0},{9,16,24,35,44,70,85,94},t) end
+    end
+    if st=='throw' then
+        if f.key=='nahida' then return self:sequence('skill',{4,5,6,7},{12,30,58,76},t) end
+        return self:sequence('throw',{0,1,2,3},{12,24,36,50},t)
+    end
+    if st=='thrown' and f.foe.key~='nahida' then return self:sequence('victim',{0,1,2},{12,24,30},t) end
+    if st=='thrown' then return self:sequence('basic',{0,1},{18,36},t%36) end
+    if st=='airhit' and t>=3 and t<=5 then return self:middle('victim',2,3) end
+    if st=='hit' and t>=3 and t<=5 then return self:middle('hurt',0,1) end
+    if st=='down' and not f.ko and t>=35 then return self:middle('hurt',3,4) end
+    if st=='getup' then return self:sequence('hurt',{4,5},{8,16},t) end
+    if st=='block' and t>=3 and t<=5 then return self:middle('guard',6,2) end
+    if st=='cblock' and t>=3 and t<=5 then return self:middle('guard',7,4) end
+    if st=='win' and t%30>=22 then return self:middle('hurt',6,6) end
+    if st=='lose' and t%30>=22 then return self:middle('hurt',7,7) end
+    return self:keyPose()
+end
+
+function V:poseFor()
+    if self.key=='raidenshogun' or self.key=='nahida' then return self:animatedPose() end
+    local f = self.f
+    local st = f.state
+    if f.airMove then
+        local m = f.airMove
+        if (f.airT or 0) < m.startup and m.windup then return m.windup end
+        return m.pose or 'jump'
+    end
+    if st == 'idle' or st == 'intro' then return 'idle' end
+    if st == 'walk' or st == 'back' then
+        return ((self.walkT // 10) % 2 == 0) and 'walk1' or 'walk2'
+    end
+    if st == 'crouch' or st == 'jumpsq' or st == 'land' or st == 'getup' then return 'crouch' end
+    if st == 'air' then return 'jump' end
+    if st == 'dash' then return 'walk2' end
+    if st == 'backdash' then return 'jump' end
+    if st == 'attack' or st == 'throw' then
+        local m = f.move
+        if m.windup and f.t < m.startup then return m.windup end
+        return m.pose or 'slash'
+    end
+    if st == 'skill' then
+        local m = f.move
+        if f.t < m.startup then return 'guard' end
+        return (m.style == 'rising') and 'jump' or 'special'
+    end
+    if st == 'burst' then return 'qRelease' end
+    if st == 'hit' or st == 'airhit' or st == 'thrown' or st == 'lose' then return 'hurt' end
+    if st == 'down' then return 'down' end
+    if st == 'block' then return 'guard' end
+    if st == 'cblock' then return 'crouchGuard' end
+    if st == 'win' then return 'special' end
+    return 'idle'
+end
+
+local function slotHas(s, pose) return s.key == pose and not s.job end
+
+function V:updatePose(budget)
+    local want = self:poseFor()
+    self.want = want
+    local front, back = self.front, nil
+    for _, s in ipairs(self.slots) do if s ~= front then back = s end end
+    if front and slotHas(front, want) then
+        local nxt = NEXT[want]
+        if nxt and back and not slotHas(back, nxt) then
+            if not back.job or back.job.key ~= nxt then back:start(self:image(nxt), nxt) end
+            back:step(math.min(budget // 2, 220))
+        end
+        return
+    end
+    if not slotHas(back, want) then
+        if not back.job or back.job.key ~= want then back:start(self:image(want), want) end
+        back:step((self.key=='raidenshogun' or self.key=='nahida') and 1600 or budget)
+    end
+    if slotHas(back, want) then
+        back.node:on(true)
+        if front then front.node:on(false) end
+        self.front = back
+        self.poseImg = self:image(want)
+        self.poseChanged = true
+    end
+end
+
+function V:spawnGhost()
+    if self.key=='raidenshogun' or self.key=='nahida' then return end
+    if not self.poseImg then return end
+    self.ghostI = self.ghostI % #self.ghosts + 1
+    local g = self.ghosts[self.ghostI]
+    local sil = Art.silhouette(self.key, self.front.key)
+    g.bmp:draw(sil, self.front.key, self.ecol)
+    g.x, g.y, g.face, g.life, g.u = self.wx, self.wy, self.f.face, 14, sil.u
+    g.bmp.node:on(true)
+end
+
+function V:onHit(e)
+    self.flashT = 5
+    self.flashTint = {255, 255, 255}
+    self.shake = e.heavy and 10 or 6
+end
+
+function V:onBlock()
+    self.flashT = 3
+    self.flashTint = {150, 210, 255}
+    self.shake = 4
+end
+
+
+local effectData
+function V:drawAnimatedFx()
+    if not self.animFx then return end
+    if self.key~='raidenshogun' and self.key~='nahida' then self.animFx.node:on(false);return end
+    local f=self.f;local t,st=f.t,f.state;local idx,width,offset,up
+    if st=='attack' and f.move and t>=f.move.startup and t<f.move.startup+f.move.active then idx,width,offset,up=0,210,170,160
+    elseif st=='skill' then
+        if f.key=='nahida' then
+            self.animFx.node:on(false);return
+        else
+        idx,width,offset,up=4,130,25,260
+        if t>=f.move.startup then idx,width,offset,up=6,180,(f.foe.x-f.x)/100*f.face,0 end
+        end
+    elseif st=='burst' then
+        if f.key=='raidenshogun' then
+            if f.cinematicConfirmed then
+                if t<16 then idx,width,offset,up=5,250,0,110
+                elseif t<24 or (t>=35 and t<44) or (t>=70 and t<85) then idx,width,offset,up=9,640,200,10
+                elseif t<70 then idx,width,offset,up=5,230,0,110
+                elseif t<94 then idx,width,offset,up=10,460,200,0 end
+            end
+        else idx,width,offset,up=9,650,0,0 end
+    end
+    if not idx then self.animFx.node:on(false);return end
+    effectData=effectData or require('gf_animation_effects')
+    local bank=effectData[f.key=='raidenshogun' and 'raiden' or 'nahida']
+    if not bank then self.animFx.node:on(false);return end
+    local img=bank[tostring(idx)]
+    local scale=width/img.w
+    self.animFx:drawMany({{img=img,ox=0,oy=0,s=scale}})
+    self.animFx.node:pos(f.x/100+offset*f.face,f.y/100+up):scale(f.face,1):on(true)
+end
+
+local assistantData
+function V:drawAssistants()
+    if #self.assistants==0 then return end
+    local f=self.f;local t=f.t
+    local active=f.state=='throw' and t>=12 and t<68
+    if active then assistantData=assistantData or require('gf_aranara_data') end
+    for i,bmp in ipairs(self.assistants) do
+        if not active or t<12+(i-1)*3 then bmp.node:on(false)
+        else
+            local delay=t-12-(i-1)*3;local k=U.clamp(delay/20,0,1);local ease=k*k*(3-2*k)
+            local target=f.foe.x/C-f.face*16
+            local x=f.x/C-f.face*130+(target-f.x/C+f.face*130)*ease
+            local y=160+(i-2)*72+70*math.sin(k*math.pi)
+            local frame=delay<8 and 0 or delay<19 and 1 or 2;local alpha=1
+            if t>=38 then local out=U.clamp((t-38)/30,0,1);x=target+f.face*out*300;y=y+out*200;frame=3;alpha=1-out end
+            local img=assistantData[tostring((i-1)*4+frame)]
+            bmp:draw(img,tostring(frame));local scale=96/img.w
+            bmp.node:pos(x,y):scale(f.face*scale,scale):on(true)
+            for n=1,bmp.used do local c=img.pal[img.bytes[(n-1)*5+5]+1];bmp.kids[n]:color(c[1],c[2],c[3],(c[4] or 255)*alpha) end
+        end
+    end
+end
+
+local captureData
+function V:drawCapture()
+    if not self.captureBmp then return end
+    local bmp,f=self.captureBmp,self.f
+    if f.state~='skill' or f.t<4 then bmp.node:on(false);return end
+    local t=f.t;local steps={0,0.10,0.26,0.48,0.74,1};local k=t<8 and 0 or steps[math.min(6,t-7)]
+    local face=f.castFace or f.face
+    local x=(f.castX or f.x)/C+face*(110+540*k);local y=(f.castY or 190*C)/C
+    local index=t<6 and 0 or t<8 and 1 or t<10 and 2 or 3
+    local alpha=1;local age=f.captureHitT and t-f.captureHitT or math.max(0,t-14)
+    if f.captureHitT then
+        x=(f.captureHitX or f.foe.x)/C;y=(f.captureHitY or 190*C)/C
+        index=age<1 and 4 or age<3 and 5 or age<5 and 6 or 7
+        alpha=math.max(0,1-age/8)
+    elseif t>=14 then index=7;alpha=math.max(0,1-age/4) end
+    if alpha<=0 then bmp.node:on(false);return end
+    captureData=captureData or require('gf_viewfinder_data')
+    local img=captureData[tostring(index)];bmp:draw(img,tostring(index));local scale=380/img.w
+    bmp.node:pos(x,y):scale(face*scale,scale):on(true)
+    for i=1,bmp.used do local c=img.pal[img.bytes[(i-1)*5+5]+1];bmp.kids[i]:color(c[1],c[2],c[3],(c[4] or 255)*alpha) end
+end
+
+function V:draw(budget)
+    local f = self.f
+    local st = f.state
+    if st == 'walk' or st == 'back' then self.walkT = self.walkT + (f.hitstop > 0 and 0 or 1) else self.walkT = 0 end
+    self:updatePose(budget)
+    self:drawAnimatedFx()
+    self:drawCapture()
+    self:drawAssistants()
+    local x, y = f.x / C, f.y / C
+    self.wx, self.wy = x, y
+    local tilt, sx, sy, ox, oy = 0, 1, 1, 0, 0
+    local t = f.t
+    if st == 'idle' then
+        sy = 1 + 0.012 * math.sin(self.app.t * 3.2 + f.id)
+    elseif st == 'walk' or st == 'back' then
+        oy = math.abs(math.sin(self.walkT * 0.31)) * 5
+        tilt = (st == 'walk' and -3 or 3)
+    elseif st == 'dash' then
+        tilt = -10
+        sx = 1.06
+    elseif st == 'backdash' then
+        tilt = 12
+    elseif st == 'jumpsq' or st == 'land' then
+        sy, sx = 0.9, 1.06
+    elseif st == 'air' then
+        local vy = f.vy / C
+        sy = 1 + U.clamp(vy * 0.006, -0.06, 0.08)
+        sx = 2 - sy
+        if f.airMove then tilt = -(f.airMove.tilt or 0) end
+    elseif st == 'attack' then
+        local m = f.move
+        if t < m.startup then
+            local k = t / math.max(1, m.startup)
+            tilt = (m.tilt or 0) * 0.5 * k + 4 * k
+            sx = 1 - 0.04 * k
+        elseif t < m.startup + m.active then
+            tilt = -(m.tilt or 0)
+            sx = 1.06
+            ox = 8
+        else
+            local k = U.clamp((t - m.startup - m.active) / math.max(1, m.recovery), 0, 1)
+            tilt = -(m.tilt or 0) * (1 - k)
+        end
+    elseif st == 'skill' or st == 'burst' then
+        if t < 6 then sy, sx = 0.94, 1.05 else sx = 1.03 end
+    elseif st == 'thrown' then
+        tilt,ox=0,0
+    elseif st == 'hit' then
+        tilt = 8 + math.min(f.stun or 0, 10)
+        ox = -10
+    elseif st == 'airhit' then
+        tilt = U.clamp(f.vy / C * 2.2, -40, 50) + 20
+    elseif st == 'block' or st == 'cblock' then
+        ox = -6
+    elseif st == 'win' then
+        sy = 1 + 0.015 * math.sin(self.app.t * 4)
+    end
+    if self.shake > 0 then
+        ox = ox + ((self.shake % 2 == 0) and 1 or -1) * self.shake * 0.8
+        self.shake = self.shake - 1
+    end
+    if f.key=='nahida' and (st=='idle' or st=='walk' or st=='back' or st=='attack' or st=='skill' or st=='burst' or st=='throw' or st=='dash' or st=='win') then
+        local hover=st=='burst' and 65 or st=='skill' and 38 or 25
+        if st=='skill' and t>f.move.startup then hover=hover*(1-U.clamp((t-f.move.startup)/f.move.recovery,0,1)) end
+        oy=oy+hover+5*math.sin(self.app.t*6+f.id)
+        if st=='walk' or st=='back' then tilt=0 end
+    end
+    self.tilt, self.sx, self.sy, self.ox, self.oy = tilt, sx, sy, ox, oy
+    local face = f.face
+    local hc = 150 * f.size
+    if st == 'airhit' then
+        self.root:pos(x + ox * face, y + oy):rot(0):scale(face * sx, sy)
+        self.spin:pos(0, hc):rot(tilt * face)
+        self.content:pos(0, -hc)
+    else
+        self.root:pos(x + ox * face, y + oy):rot(tilt * face):scale(face * sx, sy)
+        self.spin:pos(0, 0):rot(0)
+        self.content:pos(0, 0)
+    end
+    local img = self.poseImg
+    if self.front and img then
+        self.front.node:scale(img.u, img.u)
+    end
+    local hgt = math.max(0, y+oy)
+    local k = U.clamp(1 - hgt / 500, 0.35, 1)
+    self.shadow:pos(x, 4):size(170 * k * f.size, 26 * k):color(0, 0, 0, 120 * k)
+    local coat = f.coat > 0 or st == 'burst'
+    local c = self.ecol
+    if coat then
+        local pulse = 0.5 + 0.5 * math.sin(self.app.t * 10)
+        self.aura.node:on(false)
+        if not self.glow then self.glow = G.image(self.content, G.ELLIPSE); self.glow:sibling(0) end
+        self.glow:pos(0, 170 * f.size):size(300 * f.size, 380 * f.size):color(c[1], c[2], c[3], 70 + 50 * pulse):soft(0.5):rot(0):scale(1, 1):on(true)
+        if self.app.frame % 6 == 0 and self.fx then
+            self.fx:spawn(self.fx.world, {shape = G.STAR4, x = x + (math.random() - 0.5) * 140, y = y + 40 + math.random() * 200, w = 14 + math.random() * 10,
+                                          col = c, a = 1, to = {y = y + 300 + math.random() * 80, s = 0.3, a = 0}, dur = 0.7})
+        end
+    else
+        self.aura.node:on(false)
+        if self.glow then self.glow:on(false) end
+    end
+    local frozen = f.frozen > 0
+    if (self.flashT > 0 or frozen) and img then
+        local sil = Art.silhouette(self.key, self.front.key)
+        local tint = frozen and {170, 235, 255} or self.flashTint
+        self.flash:draw(sil, self.front.key .. (frozen and ':ice' or ':flash'), tint)
+        local a = frozen and 140 or (30 + self.flashT * 28)
+        for i = 1, self.flash.used do self.flash.kids[i]:color(tint[1], tint[2], tint[3], a) end
+        self.flash.node:scale(sil.u, sil.u):on(true)
+        self.flash.node:front()
+        if self.flashT > 0 then self.flashT = self.flashT - 1 end
+    else
+        self.flash.node:on(false)
+    end
+    local speed = math.abs(f.vx) / C
+    local fast = speed > 9 and (st == 'dash' or st == 'backdash' or st == 'skill' or st == 'burst' or (st == 'airhit' and f.ko))
+    if fast and self.app.frame % 3 == 0 then self:spawnGhost() end
+    for _, g in ipairs(self.ghosts) do
+        if g.life > 0 then
+            g.life = g.life - 1
+            local a = g.life / 14
+            g.bmp.node:pos(g.x, g.y):scale(g.face * g.u, g.u)
+            local c = self.ecol
+            for i = 1, g.bmp.used do g.bmp.kids[i]:color(c[1], c[2], c[3], 110 * a) end
+            if g.life == 0 then g.bmp.node:on(false) end
+        end
+    end
+end
+
+function V:free()
+    if self.animFx then self.animFx:free() end
+    if self.aimLayer then self.aimLayer:free() end
+    if self.captureBmp then self.captureBmp:free() end
+    for _,bmp in ipairs(self.assistants) do bmp:free() end
+    for _, s in ipairs(self.slots) do s:free() end
+    self.aura:free()
+    self.flash:free()
+    for _, g in ipairs(self.ghosts) do g.bmp:free() end
+    G.release(self.shadow)
+    G.release(self.content)
+    G.release(self.spin)
+    if self.glow then G.release(self.glow) end
+    G.release(self.root)
+end
+
+return V
+end
+__loaders['gf_fx'] = function()
+local G = require('gf_gfx')
+local U = require('gf_util')
+local K = require('gf_kits')
+
+local FX = {}
+FX.__index = FX
+
+local RECT, ELLIPSE, TRI, STAR4, STAR5, RING = G.RECT, G.ELLIPSE, G.TRI, G.STAR4, G.STAR5, G.RING
+local WHITE = {255, 255, 255}
+
+function FX.new(app, parentWorld, parentScreen, nWorld, nScreen, nText)
+    local self = setmetatable({app = app, seed = 1234567, level = 2}, FX)
+    self.world = {parent = parentWorld, img = {}, i = 0}
+    self.screen = {parent = parentScreen, img = {}, i = 0}
+    self.text = {parent = parentWorld, txt = {}, i = 0}
+    for _ = 1, nWorld or 220 do
+        local n = G.image(parentWorld, ELLIPSE)
+        n:on(false)
+        self.world.img[#self.world.img + 1] = n
+    end
+    for _ = 1, nScreen or 40 do
+        local n = G.image(parentScreen, RECT)
+        n:on(false)
+        self.screen.img[#self.screen.img + 1] = n
+    end
+    for _ = 1, nText or 18 do
+        local t = G.textNode(parentWorld)
+        t:on(false)
+        self.text.txt[#self.text.txt + 1] = t
+    end
+    return self
+end
+
+function FX:rand()
+    self.seed = (self.seed * 1103515245 + 12345) & 0x7fffffff
+    return (self.seed % 100000) / 100000
+end
+
+local function nextNode(pool)
+    pool.i = pool.i % #pool.img + 1
+    return pool.img[pool.i]
+end
+
+function FX:spawn(pool, o)
+    local n = nextNode(pool)
+    n:stop()
+    local col = o.col or WHITE
+    n:shape(o.shape or ELLIPSE):pos(o.x, o.y):size(o.w or 40, o.h or o.w or 40):rot(o.rot or 0)
+     :scale(o.sx or o.s or 1, o.sy or o.s or 1):soft(o.soft or 0)
+     :color(col[1], col[2], col[3], 255 * (o.a or 1)):on(true)
+    if o.front ~= false then n:front() end
+    local to = o.to or {}
+    local fields = {}
+    if to.x then fields.anchoredPositionX = to.x end
+    if to.y then fields.anchoredPositionY = to.y end
+    if to.w then fields.sizeDeltaX = to.w end
+    if to.h then fields.sizeDeltaY = to.h end
+    if to.s or to.sx then fields.localScaleX = to.sx or to.s end
+    if to.s or to.sy then fields.localScaleY = to.sy or to.s end
+    if to.rot then fields.localRotationZ = to.rot end
+    local tc = to.col or col
+    fields.imageColor = G.col(tc[1], tc[2], tc[3], 255 * (to.a or 0))
+    n:tween(fields, o.dur or 0.3, o.ease or 'OutCubic', function() n:on(false) end)
+    return n
+end
+
+function FX:hitSpark(x, y, element, heavy, dir, kind)
+    local ec = K.elementColor[element] or WHITE
+    local W = self.world
+    local s = heavy and 1.35 or 1
+    if kind == 'burst' then s = 1.7 end
+    self:spawn(W, {shape = ELLIPSE, x = x, y = y, w = 70 * s, col = WHITE, a = 1, soft = 0.35,
+                   to = {s = 2.6, a = 0}, dur = 0.14, ease = 'OutQuad'})
+    self:spawn(W, {shape = RING, x = x, y = y, w = 50 * s, col = ec, a = 1,
+                   to = {s = 5.2, a = 0}, dur = 0.28, ease = 'OutCubic'})
+    if heavy then
+        self:spawn(W, {shape = RING, x = x, y = y, w = 40 * s, col = WHITE, a = 0.9,
+                       to = {s = 7.5, a = 0}, dur = 0.36, ease = 'OutExpo'})
+    end
+    local n = heavy and 9 or 6
+    for i = 1, n do
+        local ang = (self:rand() - 0.5) * 160 + (dir > 0 and 0 or 180)
+        if i % 3 == 0 then ang = self:rand() * 360 end
+        local rad = math.rad(ang)
+        local len = (70 + self:rand() * 110) * s
+        local d = (60 + self:rand() * 90) * s
+        local cx, cy = x + math.cos(rad) * 20, y + math.sin(rad) * 20
+        local col = (i % 2 == 0) and ec or WHITE
+        self:spawn(W, {shape = RECT, x = cx, y = cy, w = len, h = 7 * s, rot = ang, col = col, a = 1,
+                       to = {x = cx + math.cos(rad) * d, y = cy + math.sin(rad) * d, sy = 0.1, sx = 0.4, a = 0},
+                       dur = 0.16 + self:rand() * 0.08, ease = 'OutQuad'})
+    end
+    for i = 1, heavy and 6 or 3 do
+        local ang = self:rand() * math.pi * 2
+        local d = (90 + self:rand() * 140) * s
+        self:spawn(W, {shape = STAR4, x = x, y = y, w = (22 + self:rand() * 20) * s, col = (i % 2 == 0) and WHITE or ec, a = 1,
+                       rot = self:rand() * 90,
+                       to = {x = x + math.cos(ang) * d, y = y + math.sin(ang) * d - 30, s = 0.2, rot = 180, a = 0},
+                       dur = 0.35 + self:rand() * 0.2, ease = 'OutCubic'})
+    end
+end
+
+function FX:blockSpark(x, y, dir, heavy)
+    local W = self.world
+    local c = {150, 215, 255}
+    self:spawn(W, {shape = RING, x = x + dir * 30, y = y, w = 90, h = 150, col = c, a = 1, to = {s = 1.8, a = 0}, dur = 0.2})
+    self:spawn(W, {shape = ELLIPSE, x = x + dir * 30, y = y, w = 60, h = 120, col = WHITE, a = 0.9, soft = 0.4, to = {s = 1.6, a = 0}, dur = 0.12})
+    for i = 1, heavy and 7 or 4 do
+        local ang = math.rad((self:rand() - 0.5) * 120 + (dir > 0 and 180 or 0))
+        local d = 70 + self:rand() * 70
+        self:spawn(W, {shape = RECT, x = x + dir * 30, y = y + (self:rand() - 0.5) * 80, w = 30, h = 5, rot = math.deg(ang), col = c, a = 1,
+                       to = {x = x + dir * 30 + math.cos(ang) * d, y = y + math.sin(ang) * d, a = 0, sx = 0.3}, dur = 0.18})
+    end
+end
+
+local ARCS = {
+    arc = {r = 120, a0 = 70, a1 = -50, w = 26, oy = 150},
+    arcLow = {r = 115, a0 = -40, a1 = 60, w = 24, oy = 130},
+    arcHeavy = {r = 140, a0 = 80, a1 = -60, w = 34, oy = 150},
+    arcLowHeavy = {r = 140, a0 = -50, a1 = 70, w = 32, oy = 140},
+    rise = {r = 150, a0 = -60, a1 = 95, w = 36, oy = 140},
+    smash = {r = 170, a0 = 110, a1 = -70, w = 44, oy = 160},
+    fall = {r = 130, a0 = 60, a1 = -100, w = 30, oy = 60},
+    fallHeavy = {r = 150, a0 = 70, a1 = -110, w = 40, oy = 60},
+    spin = {r = 130, a0 = 200, a1 = -160, w = 28, oy = 150},
+    sweep = {r = 170, a0 = -20, a1 = -5, w = 22, oy = 40, flat = true},
+    sweepLow = {r = 140, a0 = -15, a1 = -5, w = 18, oy = 35, flat = true},
+}
+
+function FX:slash(x, y, face, style, element, scale)
+    local W = self.world
+    local ec = K.elementColor[element] or WHITE
+    scale = scale or 1
+    if style == 'thrust' or style == 'thrustLow' then
+        local yy = y + (style == 'thrust' and 160 or 40)
+        self:spawn(W, {shape = RECT, x = x + face * 120, y = yy, w = 220 * scale, h = 16, col = WHITE, a = 1,
+                       to = {x = x + face * 200, sy = 0.1, a = 0}, dur = 0.14})
+        self:spawn(W, {shape = TRI, x = x + face * 240, y = yy, w = 40, h = 70, rot = -90 * face, col = ec, a = 1,
+                       to = {x = x + face * 300, a = 0}, dur = 0.14})
+        self:spawn(W, {shape = RECT, x = x + face * 110, y = yy, w = 260 * scale, h = 36, col = ec, a = 0.6,
+                       to = {sy = 0.2, a = 0}, dur = 0.18})
+        return
+    end
+    if style == 'burst' or style == 'burstSmall' or style == 'burstLow' then
+        local yy = y + (style == 'burstLow' and 40 or 150)
+        local s = style == 'burstSmall' and 0.8 or 1
+        self:spawn(W, {shape = ELLIPSE, x = x + face * 150, y = yy, w = 120 * s, col = ec, a = 0.9, soft = 0.4, to = {s = 1.8, a = 0}, dur = 0.2})
+        self:spawn(W, {shape = STAR4, x = x + face * 150, y = yy, w = 120 * s, col = WHITE, a = 1, to = {s = 0.2, rot = 90, a = 0}, dur = 0.22})
+        return
+    end
+    if style == 'kick' then
+        self:spawn(W, {shape = RING, x = x + face * 120, y = y + 130, w = 140, h = 90, col = WHITE, a = 0.8, to = {s = 1.4, a = 0}, dur = 0.15})
+        return
+    end
+    local a = ARCS[style] or ARCS.arc
+    local segs = 9
+    local cx, cy = x + face * 30, y + a.oy
+    for i = 0, segs - 1 do
+        local k = i / (segs - 1)
+        local ang = a.a0 + (a.a1 - a.a0) * k
+        local rad = math.rad(ang)
+        local r = a.r * scale
+        local px, py = cx + face * math.cos(rad) * r, cy + math.sin(rad) * r * (a.flat and 0.35 or 1)
+        local w = a.w * scale * (0.35 + math.sin(k * math.pi) * 0.9)
+        local len = r * 0.42
+        local rot = (ang + 90) * face + (face < 0 and 180 or 0)
+        local delay = k
+        local col = (i % 3 == 1) and WHITE or ec
+        self:spawn(W, {shape = ELLIPSE, x = px, y = py, w = len, h = w, rot = rot, col = col, a = 0.95,
+                       to = {sy = 0.15, a = 0}, dur = 0.12 + delay * 0.08, ease = 'InQuad'})
+    end
+    local rad = math.rad((a.a0 + a.a1) / 2)
+    self:spawn(W, {shape = ELLIPSE, x = cx + face * math.cos(rad) * a.r * 0.8, y = cy + math.sin(rad) * a.r * 0.8 * (a.flat and 0.35 or 1),
+                   w = a.r * 1.6 * scale, h = 10, rot = ((a.a0 + a.a1) / 2 + 90) * face, col = WHITE, a = 0.7,
+                   to = {sy = 0.2, a = 0}, dur = 0.16})
+end
+
+function FX:dust(x, y, big)
+    local W = self.world
+    for i = 1, big and 5 or 3 do
+        local dx = (self:rand() - 0.5) * 2
+        self:spawn(W, {shape = ELLIPSE, x = x + dx * 40, y = y + 10, w = 60, h = 30, col = {200, 190, 170}, a = 0.55, soft = 0.4,
+                       to = {x = x + dx * 160, y = y + 30 + self:rand() * 30, s = 2.2, a = 0}, dur = 0.5, ease = 'OutQuad'})
+    end
+end
+
+function FX:wind(x, y, face, element)
+    local W = self.world
+    local ec = K.elementColor[element] or WHITE
+    for i = 1, 3 do
+        local yy = y + 60 + i * 60
+        self:spawn(W, {shape = RECT, x = x - face * 40, y = yy, w = 120, h = 4, col = i == 2 and ec or WHITE, a = 0.7,
+                       to = {x = x - face * 240, sx = 0.2, a = 0}, dur = 0.22})
+    end
+end
+
+function FX:number(x, y, value, element, big, label, hold)
+    local P = self.text
+    P.i = P.i % #P.txt + 1
+    local t = P.txt[P.i]
+    t:stop()
+    local ec = K.elementColor[element] or WHITE
+    local s = tostring(value)
+    if label then s = label end
+    local size = label and 44 or (big and 40 or 30)
+    local visualScale=size/20
+    t:size(400/visualScale, math.max(40,70/visualScale)):pos(x + (self:rand() - 0.5) * 60, y):scale(visualScale*(label and 0.6 or 0.8))
+    t:font(20, 'c'):text(s)
+    t:color(ec[1], ec[2], ec[3], 255):outline(20, 14, 30, 255):on(true)
+    t:front()
+    t.ty = y + (label and 90 or 70)
+    t:tween({anchoredPositionY = t.ty, localScaleX = visualScale, localScaleY = visualScale}, 0.25, 'OutBack')
+    local app = self.app
+    t.fadeAt = app.t + (hold or (label and 0.9 or 0.6))
+    self.fading = self.fading or {}
+    self.fading[#self.fading + 1] = t
+end
+
+function FX:update()
+    local list = self.fading
+    if not list then return end
+    local now = self.app.t
+    for i = #list, 1, -1 do
+        local t = list[i]
+        if t.fadeAt and now >= t.fadeAt then
+            t.fadeAt = nil
+            t:tween({fontColor = G.col(255, 255, 255, 0), anchoredPositionY = (t.ty or 0) + 40}, 0.25, 'InQuad', function() t:on(false) end)
+            table.remove(list, i)
+        end
+    end
+end
+
+function FX:flash(col, a, dur)
+    local S = self.screen
+    local app = self.app
+    col = col or WHITE
+    self:spawn(S, {shape = RECT, x = 0, y = 0, w = app.W + 40, h = app.H + 40, col = col, a = a or 0.8, to = {a = 0}, dur = dur or 0.18, ease = 'OutQuad'})
+end
+
+function FX:speedLines(col, n, dur)
+    local S = self.screen
+    local app = self.app
+    col = col or WHITE
+    for i = 1, n or 18 do
+        local ang = self:rand() * 360
+        local rad = math.rad(ang)
+        local r0 = 420 + self:rand() * 200
+        local len = 300 + self:rand() * 260
+        self:spawn(S, {shape = TRI, x = math.cos(rad) * r0, y = math.sin(rad) * r0, w = 26 + self:rand() * 20, h = len,
+                       rot = ang + 90, col = col, a = 0.85,
+                       to = {x = math.cos(rad) * (r0 + 300), y = math.sin(rad) * (r0 + 300), a = 0}, dur = (dur or 0.5) * (0.6 + self:rand() * 0.6)})
+    end
+end
+
+return FX
+end
+__loaders['gf_gfx'] = function()
+
+local G = {}
+
+G.RECT, G.ELLIPSE, G.TRI, G.STAR4, G.STAR5, G.RING = 100001, 100002, 100003, 100004, 100005, 100006
+
+local env, safe, realSafe, Color
+local N = {calls = 0, pos = 0, size = 0, col = 0, vis = 0, par = 0, txt = 0, tw = 0}
+G.N = N
+
+local floor = math.floor
+local function q(v) return floor(v * 100 + 0.5) / 100 end   -- 0.01 unit precision for the cache
+
+local queue, qh, qt = {}, 1, 0
+local direct = true     -- hot paths call the client directly unless calls are being queued
+local function deferred(f, ...)
+    qt = qt + 1
+    queue[qt] = table.pack(f, ...)
+end
+function G.defer(on) safe = on and deferred or realSafe; direct = not on end
+function G.flush(n)
+    local stop = math.min(qt, qh + n - 1)
+    for i = qh, stop do
+        local t = queue[i]
+        queue[i] = nil
+        realSafe(table.unpack(t, 1, t.n))
+    end
+    qh = stop + 1
+    return qt - qh + 1
+end
+function G.pending() return qt - qh + 1 end
+
+
+local Node = {}
+Node.__index = Node
+G.Node = Node
+
+local function newNode(c, kind)
+    return setmetatable({c = c, kind = kind}, Node)
+end
+
+function Node:on(v)
+    v = v and true or false
+    if v ~= self.act then
+        self.act = v
+        N.vis = N.vis + 1
+        if direct then self.c:SetActive(v);self.c:SetVisible(v)
+        else safe(self.c.SetActive,self.c,v);safe(self.c.SetVisible,self.c,v) end
+        -- Clear expired labels as well: do not rely on alpha/active alone on native mobile UI.
+        if not v and self.kind=='text' then self:text('');self:outline() end
+    end
+    return self
+end
+
+function Node:pos(x, y)
+    x, y = q(x), q(y)
+    if x ~= self.x or y ~= self.y then
+        self.x, self.y = x, y
+        N.pos = N.pos + 1
+        if direct then self.c:SetAnchoredPosition(x, y) else safe(self.c.SetAnchoredPosition, self.c, x, y) end
+    end
+    return self
+end
+
+function Node:size(w, h)
+    if w < 0 then w = 0 end
+    if h < 0 then h = 0 end
+    w, h = q(w), q(h)
+    if w ~= self.w or h ~= self.h then
+        self.w, self.h = w, h
+        N.size = N.size + 1
+        if direct then self.c:SetSizeDelta(w, h) else safe(self.c.SetSizeDelta, self.c, w, h) end
+    end
+    return self
+end
+
+function Node:rot(r)
+    r = q(r or 0)
+    if r ~= self.r then
+        self.r = r
+        N.pos = N.pos + 1
+        if direct then self.c:SetLocalRotation(0, 0, r) else safe(self.c.SetLocalRotation, self.c, 0, 0, r) end
+    end
+    return self
+end
+
+function Node:scale(sx, sy)
+    sy = sy or sx
+    sx, sy = floor(sx * 10000 + 0.5) / 10000, floor(sy * 10000 + 0.5) / 10000
+    if sx ~= self.sx or sy ~= self.sy then
+        self.sx, self.sy = sx, sy
+        N.size = N.size + 1
+        if direct then self.c:SetLocalScale(sx, sy, 1) else safe(self.c.SetLocalScale, self.c, sx, sy, 1) end
+    end
+    return self
+end
+
+local function c8(v)
+    v = floor(v + 0.5)
+    if v < 0 then return 0 elseif v > 255 then return 255 end
+    return v
+end
+
+local colorCache, colorCount = {}, 0
+local function colorOf(key, r, g, b, a)
+    local v = colorCache[key]
+    if v == nil then
+        if colorCount > 6000 then colorCache, colorCount = {}, 0 end
+        v = Color(r, g, b, a)
+        colorCache[key] = v
+        colorCount = colorCount + 1
+    end
+    return v
+end
+G.colorOf = colorOf
+
+function Node:color(r, g, b, a)
+    r, g, b, a = c8(r), c8(g), c8(b), c8(a or 255)
+    local key = ((r * 256 + g) * 256 + b) * 256 + a
+    if key ~= self.ck then
+        self.ck = key
+        N.col = N.col + 1
+        local c = self.c
+        local v = colorOf(key, r, g, b, a)
+        if direct then
+            if self.kind == 'text' then c.fontColor = v else c.imageColor = v end
+        elseif self.kind == 'text' then
+            safe(function() c.fontColor = v end)
+        else
+            safe(function() c.imageColor = v end)
+        end
+    end
+    return self
+end
+
+function Node:rgba(t, am)
+    return self:color(t[1], t[2], t[3], (t[4] or 255) * (am or 1))
+end
+
+function Node:shape(s)
+    if s ~= self.sh then
+        self.sh = s
+        N.size = N.size + 1
+        safe(self.c.SetImage, self.c, env.Enum.ImageSource.StaticReference, s)
+    end
+    return self
+end
+
+function Node:soft(k)
+    k = k or 0
+    if k == (self.sk or 0) then return self end
+    local was = self.sk or 0
+    self.sk = k
+    N.size = N.size + 1
+    local c = self.c
+    safe(function()
+        if k > 0 then
+            if was == 0 then
+                c.enableMask = true
+                c.enableSoftEdge = true
+                c.softEdgeMode = env.Enum.ImageMaskSoftEdgeMode.Percentage
+            end
+            c:SetSoftEdgeWidth(k, k)
+        else
+            c.enableSoftEdge = false
+            c.enableMask = false
+        end
+    end)
+    return self
+end
+
+function Node:hfill(amount, from)
+    amount = floor(amount * 1000 + 0.5) / 1000
+    local key = (from or 'Left') .. amount
+    if key ~= self.fk then
+        self.fk = key
+        N.size = N.size + 1
+        local c = self.c
+        safe(function() c:SetFillHorizontal(env.Enum.ImageFillHorizontalType[from or 'Left'], amount) end)
+    end
+    return self
+end
+
+function Node:rfill(amount)
+    amount = floor(amount * 1000 + 0.5) / 1000
+    if amount ~= self.rf then
+        self.rf = amount
+        N.size = N.size + 1
+        local c = self.c
+        safe(function() c:SetFillRadial360(env.Enum.ImageFillRadialType.Top, amount) end)
+    end
+    return self
+end
+
+function Node:front()
+    N.par = N.par + 1
+    safe(self.c.SetAsLastSibling, self.c)
+    return self
+end
+
+function Node:parentTo(p)
+    if self.parent ~= p then
+        self.parent = p
+        N.par = N.par + 1
+        local c, pc = self.c, p.c
+        safe(function() c.parent = pc end)
+    end
+    return self:front()
+end
+
+function Node:text(s)
+    s = s or ''
+    if s ~= self.tv then
+        self.tv = s
+        N.txt = N.txt + 1
+        local c = self.c
+        safe(function() c.text = s end)
+    end
+    return self
+end
+
+function Node:font(size, align, valign)
+    size = floor(size + 0.5)
+    local key = size .. (align or 'c') .. (valign or 'm')
+    if key ~= self.fnk then
+        self.fnk = key
+        N.txt = N.txt + 1
+        local c = self.c
+        local E = env.Enum
+        safe(function()
+            c.adaptiveFontSize = false
+            c.minimumFontSize = 1
+            c.fontSize = size
+            c.horizontalAlignment = (align == 'l' and E.TextHorizontalAlignment.Left)
+                or (align == 'r' and E.TextHorizontalAlignment.Right) or E.TextHorizontalAlignment.Middle
+            c.verticalAlignment = (valign == 't' and E.TextVerticalAlignment.Top)
+                or (valign == 'b' and E.TextVerticalAlignment.Bottom) or E.TextVerticalAlignment.Middle
+        end)
+    end
+    return self
+end
+
+function Node:outline(r, g, b, a)
+    local key = r and (((r * 256 + g) * 256 + b) * 256 + (a or 255)) or false
+    if key ~= self.ok then
+        self.ok = key
+        N.txt = N.txt + 1
+        local c = self.c
+        safe(function()
+            if r then c.enableOutline = true; c.outlineColor = Color(r, g, b, a or 255)
+            else c.enableOutline = false end
+        end)
+    end
+    return self
+end
+
+function Node:tween(fields, dur, ease, done)
+    if self.tw then pcall(function() self.tw:Kill(false) end); self.tw = nil end
+    if fields.anchoredPositionX or fields.anchoredPositionY then self.x, self.y = nil, nil end
+    if fields.localScaleX or fields.localScaleY then self.sx, self.sy = nil, nil end
+    if fields.localRotationZ then self.r = nil end
+    if fields.sizeDeltaX or fields.sizeDeltaY then self.w, self.h = nil, nil end
+    if fields.imageColor or fields.fontColor then self.ck = nil end
+    if fields.fillAmount then self.fk, self.rf = nil, nil end
+    N.tw = N.tw + 1
+    local ok, t = pcall(env.game.Tween, self.c, fields, dur)
+    if not ok or not t then if done then done() end return nil end
+    if ease then pcall(function() t:SetEase(env.Enum.EaseType[ease]) end) end
+    if done then pcall(function() t:SetOnComplete(done) end) end
+    pcall(function() t:Play() end)
+    self.tw = t
+    return t
+end
+
+function Node:stop()
+    if self.tw then
+        pcall(function() self.tw:Kill(false) end)
+        self.tw = nil
+        self.x, self.y, self.sx, self.sy, self.r, self.w, self.h, self.ck = nil, nil, nil, nil, nil, nil, nil, nil
+    end
+    return self
+end
+
+function G.pingpong(node, a, b, dur, ease)
+    local game, E = env.game, env.Enum
+    node:stop()
+    local ok, seq = pcall(game.TweenSequence)
+    if not ok or not seq then return nil end
+    local ok1, t1 = pcall(game.Tween, node.c, a, dur)
+    local ok2, t2 = pcall(game.Tween, node.c, b, dur)
+    if not (ok1 and ok2 and t1 and t2) then return nil end
+    pcall(function()
+        t1:SetEase(E.EaseType[ease or 'InOutSine'])
+        t2:SetEase(E.EaseType[ease or 'InOutSine'])
+        seq:Append(t1)
+        seq:Append(t2)
+        seq:SetLoops(-1)
+        seq:Play()
+    end)
+    node.tw = seq
+    node.x, node.y, node.ck, node.sx, node.sy, node.r = nil, nil, nil, nil, nil, nil
+    return seq
+end
+
+function G.col(r, g, b, a) return Color(c8(r), c8(g), c8(b), c8(a or 255)) end
+
+
+local freeImg, freeTxt, freeSecond = {}, {}, {}
+G.freeImg, G.freeTxt = freeImg, freeTxt
+G.counts = {img = 0, txt = 0, btn = 0, peakImg = 0, peakTxt = 0}
+
+function G.init(e, pools)
+    env = e
+    realSafe = e.safe
+    safe = realSafe
+    Color = e.Color
+    G.env = e
+    G.root = newNode(pools.root, 'image')
+    G.root.act = true
+    for i = #pools.imgs, 1, -1 do
+        local n = newNode(pools.imgs[i], 'image')
+        n.pool = true
+        freeImg[#freeImg + 1] = n
+    end
+    for i = #pools.txts, 1, -1 do
+        local n = newNode(pools.txts[i], 'text')
+        n.pool = true
+        freeTxt[#freeTxt + 1] = n
+    end
+    G.btns = {}
+    for i = 1, #pools.btns do G.btns[i] = newNode(pools.btns[i], 'button') end
+    G.counts.img, G.counts.txt, G.counts.btn = #pools.imgs, #pools.txts, #pools.btns
+end
+
+function G.parkAll()
+    local was, wasDirect = safe, direct
+    safe, direct = deferred, false
+    for _, n in ipairs(freeImg) do n:on(false) end
+    for _, n in ipairs(freeTxt) do n:on(false) end
+    for _, b in ipairs(G.btns) do b:on(false) end
+    safe, direct = was, wasDirect
+end
+
+local function used()
+    local ui, ut = G.counts.img - #freeImg - #freeSecond, G.counts.txt - #freeTxt
+    if ui > G.counts.peakImg then G.counts.peakImg = ui end
+    if ut > G.counts.peakTxt then G.counts.peakTxt = ut end
+end
+
+function G.image(parent, shape)
+    local n = table.remove(freeImg) or table.remove(freeSecond)
+    if not n and G.reclaimDormant then
+        G.reclaimDormant()
+        n=table.remove(freeImg) or table.remove(freeSecond)
+    end
+    if not n and G.emergencyImages and G.emergencyImages() then n=table.remove(freeSecond) end
+    if not n then error('image pool exhausted; capacity='..G.counts.img, 2) end
+    n.freed = nil
+    n:parentTo(parent or G.root)
+    n:shape(shape or G.RECT)
+    n:rot(0):scale(1, 1):soft(0)
+    if n.fk or n.rf then
+        n.fk, n.rf = nil, nil
+        local c = n.c
+        safe(function() c:SetFillUnused() end)
+    end
+    used()
+    return n
+end
+
+function G.textNode(parent)
+    local n = table.remove(freeTxt)
+    if not n then error('text pool exhausted', 2) end
+    n.freed = nil
+    n:parentTo(parent or G.root)
+    n.c:SetVisible(true)
+    n:rot(0):scale(1, 1)
+    if not n.bgDone then
+        n.bgDone = true
+        local c = n.c
+        safe(function() c.bgColor = Color(0, 0, 0, 0) end)
+    end
+    used()
+    return n
+end
+
+G.trash = {}
+function G.releaseLater(n)
+    if n and not n.freed and not n.queued then n.queued = true; G.trash[#G.trash + 1] = n end
+end
+
+function G.flushTrash(budget)
+    local t = G.trash
+    local n = #t
+    local stop = math.max(0, n - budget)
+    for i = n, stop + 1, -1 do
+        local x = t[i]
+        t[i] = nil
+        x.queued = nil
+        G.release(x)
+    end
+    return #t
+end
+
+function G.release(n)
+    if not n or n.freed then return end
+    n:stop()
+    n:on(false)
+    n.freed = true
+    if n.kind == 'text' then freeTxt[#freeTxt + 1] = n
+    else local pool = n.secondPool and freeSecond or freeImg; pool[#pool+1] = n end
+end
+
+function G.reuse(n) n.freed = nil end
+
+function G.group(parent)
+    local n = G.image(parent, G.RECT)
+    n.freed = nil
+    n:size(0, 0):color(0, 0, 0, 0):pos(0, 0):on(true)
+    n.kids = {}
+    return n
+end
+
+
+local Layer = {}
+Layer.__index = Layer
+
+function G.layer(parent)
+    local g = G.group(parent)
+    return setmetatable({node = g, items = {}, n = 0}, Layer)
+end
+
+function Layer:begin() self.n = 0 end
+
+function Node:sibling(i)
+    N.par = N.par + 1
+    if direct then self.c:SetSiblingIndex(i) else safe(self.c.SetSiblingIndex, self.c, i) end
+    return self
+end
+
+local function nodeAt(L, kind)
+    local i = L.n + 1
+    L.n = i
+    local items = L.items
+    local n = items[i]
+    if n and n.kind == kind then return n end
+    n = nil
+    for j = i + 1, #items do
+        if items[j].kind == kind then n = table.remove(items, j) break end
+    end
+    if not n then
+        if kind == 'text' then n = G.textNode(L.node) else n = G.image(L.node, G.RECT) end
+        n.freed = nil
+        if i > #items then items[i] = n return n end
+    end
+    table.insert(items, i, n)
+    n:sibling(i - 1)
+    return n
+end
+
+function Layer:shape(shape, x, y, w, h, col, am, rot, soft)
+    local n = nodeAt(self, 'image')
+    n:shape(shape):pos(x, y):size(w, h):rot(rot or 0):rgba(col, am):soft(soft or 0):scale(1):on((am or 1)>0.001)
+    return n
+end
+function Layer:rect(x, y, w, h, col, am, rot) return self:shape(G.RECT, x, y, w, h, col, am, rot) end
+
+function Layer:label(s, x, y, w, h, size, col, align, outline, am)
+    local n = nodeAt(self, 'text')
+    -- Native text can discard an entire line when its box is too short.
+    -- Keep a generous line box and render large type through transform scale.
+    local k = math.max(1, size / 20)
+    local nativeSize = math.max(1, floor(size / k + 0.5))
+    local lineHeight = math.max(h / k, nativeSize * 2)
+    -- Establish geometry before assigning text and font metrics.
+    n:pos(x, y):size(w / k, lineHeight):scale(k)
+    n:font(nativeSize, align):rgba(col, am):text((am or 1)>0.001 and s or '')
+    if outline then n:outline(outline[1], outline[2], outline[3], (outline[4] or 255) * (am or 1)) else n:outline() end
+    n:on((am or 1)>0.001 and s~=nil and s~='')
+    return n
+end
+
+function Layer:finish()
+    local items = self.items
+    for i = self.n + 1, #items do items[i]:on(false) end
+end
+
+function Layer:clear() self:begin(); self:finish() end
+
+function Layer:free()
+    for _, n in ipairs(self.items) do G.release(n) end
+    self.items = {}
+    G.release(self.node)
+end
+
+
+local dormantBitmaps=setmetatable({},{__mode='k'})
+local Bitmap = {}
+Bitmap.__index = Bitmap
+G.Bitmap = Bitmap
+
+local SEAM = 0.08    -- each rect grows by this many pixels so neighbours overlap (no hairlines)
+
+function G.bitmap(parent, capacity)
+    local g = G.group(parent)
+    local bmp=setmetatable({node = g, kids = {}, cap = capacity or 0, used = 0, job = nil, key = nil}, Bitmap)
+    dormantBitmaps[bmp]=true
+    return bmp
+end
+
+function Bitmap:trim(keep)
+    keep=keep or 0
+    for i=#self.kids,keep+1,-1 do G.release(self.kids[i]);self.kids[i]=nil end
+    self.used=math.min(self.used,keep)
+    if keep==0 then self.key=nil end
+end
+function G.reclaimDormant()
+    for bmp in pairs(dormantBitmaps) do
+        if bmp~=G.activeBitmap and not bmp.job and not bmp.node.act then bmp:trim(0) end
+    end
+end
+function Bitmap:ensure(n)
+    local previous=G.activeBitmap;G.activeBitmap=self
+    local kids = self.kids
+    for i = #kids + 1, n do
+        local c = G.image(self.node, G.RECT)
+        c.freed = nil
+        kids[i] = c
+    end
+    G.activeBitmap=previous
+end
+
+function Bitmap:start(img, key, tint)
+    if key and key == self.key and not self.job then return true end
+    self.job = {img = img, i = 0, key = key, tint = tint}
+    return false
+end
+
+function Bitmap:step(budget)
+    local job = self.job
+    if not job then return true end
+    local img = job.img
+    local n = img.n
+    local b, pal, ax, ay = img.bytes, img.pal, img.ax or 0, img.ay or 0
+    local ox, oy = (img.ox or 0) - ax, (img.oy or 0) + ay
+    local tint = job.tint
+    local kids = self.kids
+    local i = job.i
+    local stop = math.min(n, i + budget)
+    self:ensure(stop)
+    local writes = 0
+    for k = i + 1, stop do
+        local o = k * 5 - 5
+        local x, y, w, h, ci = b[o + 1], b[o + 2], b[o + 3], b[o + 4], b[o + 5]
+        local nd = kids[k]
+        local c = nd.c
+        local px, py = ox + x + w * 0.5, oy - y - h * 0.5
+        if px ~= nd.x or py ~= nd.y then nd.x, nd.y = px, py; c:SetAnchoredPosition(px, py); writes = writes + 1 end
+        local seam=img.seam or SEAM
+        local sw, sh = w + seam, h + seam
+        if sw ~= nd.w or sh ~= nd.h then nd.w, nd.h = sw, sh; c:SetSizeDelta(sw, sh); writes = writes + 1 end
+        local col = tint or pal[ci + 1]
+        local key = col.key
+        if not key then
+            key = ((col[1] * 256 + col[2]) * 256 + col[3]) * 256 + (col[4] or 255)
+            col.key = key
+        end
+        if key ~= nd.ck then
+            nd.ck = key
+            c.imageColor = colorOf(key, col[1], col[2], col[3], col[4] or 255)
+            writes = writes + 1
+        end
+        if not nd.act then
+            nd.act = true
+            c:SetActive(true)
+            c:SetVisible(true)
+            writes = writes + 2
+        end
+    end
+    N.pos = N.pos + writes
+    job.i = stop
+    if stop >= n then
+        if not job.keep then
+            for k = n + 1, self.used do kids[k]:on(false) end
+            N.bitmap=(N.bitmap or 0)+writes
+    self.used = n
+        elseif n > self.used then
+            self.used = n
+        end
+        self.key = job.key
+        self.job = nil
+        return true
+    end
+    return false
+end
+
+function Bitmap:draw(img, key, tint)
+    if self:start(img, key, tint) then return end
+    self:step(img.n)
+end
+
+function Bitmap:drawMany(list)
+    local total = 0
+    for _, p in ipairs(list) do total = total + p.img.n end
+    self:ensure(total)
+    local kids = self.kids
+    local k = 0
+    for _, p in ipairs(list) do
+        local img = p.img
+        local b, pal = img.bytes, img.pal
+        local s = p.s or 1
+        for r = 1, img.n do
+            local o = (r - 1) * 5
+            local x, y, w, h, ci = b[o + 1], b[o + 2], b[o + 3], b[o + 4], b[o + 5]
+            k = k + 1
+            local nd = kids[k]
+            nd:pos(p.ox + (x + w * 0.5 - (img.ax or 0)) * s, p.oy + ((img.ay or 0) - y - h * 0.5) * s)
+            nd:size((w + (img.seam or SEAM)) * s, (h + (img.seam or SEAM)) * s)
+            local c = p.tint or pal[ci + 1]
+            nd:color(c[1], c[2], c[3], (c[4] or 255) * (p.alpha or 1))
+            nd:on(true)
+        end
+    end
+    for i = k + 1, self.used do kids[i]:on(false) end
+    self.used = k
+    self.key = nil
+end
+
+function Bitmap:hide() self.node:on(false) end
+function Bitmap:show() self.node:on(true) end
+
+function Bitmap:free()
+    dormantBitmaps[self]=nil
+    for _, n in ipairs(self.kids) do G.release(n) end
+    self.kids = {}
+    G.release(self.node)
+end
+
+-- Experimental second pool. Only configured client templates are instantiated.
+local growth = {target=0, created=0, batch=32, limit=20000, floor=14000, warning=2000, reserve=3500, destroyed=0, emergencies=0, warnings=0, retiring=false}
+function G.configureSecondPool(templateIndex)
+    if type(templateIndex) ~= 'number' or templateIndex <= 0 or templateIndex % 1 ~= 0 then
+        error('第二池图片模板索引无效')
+    end
+    growth.templateIndex = templateIndex
+    growth.target = G.counts.img
+    growth.first = G.counts.img
+end
+function G.requestImages(target)
+    target = math.min(growth.limit, math.max(0, target))
+    growth.target = math.max(growth.target, target)
+    return G.counts.img >= growth.target
+end
+function G.growImages(budget)
+    if not growth.templateIndex then error('第二池没有配置图片模板索引') end
+    local remaining = math.min(budget or growth.batch, growth.target - G.counts.img)
+    for i=1,remaining do
+        local c = game.InstantiateClientUIControl(growth.templateIndex, G.root.c)
+        if not c then error('第二池模板无法实例化；请核对导入后的模板索引 '..growth.templateIndex) end
+        c:SetActive(false)
+        c:SetVisible(true)
+        growth.created = growth.created + 1
+        c.name = 'GF_DYNAMIC_IMG_' .. growth.created
+        local n = newNode(c, 'image')
+        n.pool, n.secondPool, n.act = true, true, false
+        n.dynamicExtra=G.counts.img>=14000
+        freeSecond[#freeSecond+1] = n
+        G.counts.img = G.counts.img + 1
+    end
+    return G.counts.img >= growth.target
+end
+function G.emergencyImages()
+    if not growth.templateIndex or G.counts.img>=growth.limit then return false end
+    growth.target=math.min(growth.limit,math.max(growth.target,G.counts.img+64))
+    G.growImages();G.growImages();growth.emergencies=growth.emergencies+1
+    return #freeSecond>0
+end
+function G.requestImageRetirement()
+    growth.retiring=true;growth.reclaimed=false
+end
+function G.manageImagePool(phase, safeBoundary)
+    if not growth.templateIndex or G.counts.img<growth.floor then return end
+    local free=#freeImg+#freeSecond
+    if free<growth.warning then
+        growth.target=math.min(growth.limit,math.max(growth.target,G.counts.img-free+growth.reserve))
+        growth.warnings=growth.warnings+1
+    end
+    -- A warning creates immediately; remaining growth is spread across frames.
+    if G.counts.img<growth.target then G.growImages();G.growImages() end
+    -- Shrink is impossible during combat, even when all extra controls are idle.
+    if not growth.retiring or phase=='fight' or not safeBoundary or G.pending()>0 then return end
+    growth.boundaryTicks=(growth.boundaryTicks or 0)+1
+    if not growth.reclaimed or growth.boundaryTicks%30==0 then G.reclaimDormant();growth.reclaimed=true end
+    free=#freeImg+#freeSecond
+    local removable=math.min(32,G.counts.img-growth.floor,math.max(0,free-growth.reserve))
+    if removable<=0 then
+        if G.counts.img<=growth.floor then growth.retiring=false end
+        return
+    end
+    local removed=0
+    for i=#freeSecond,1,-1 do
+        local n=freeSecond[i]
+        -- Destroy only surplus leaf controls; group hierarchies are retained.
+        if not n.kids and not n.tw and not n.queued then
+            local ok=pcall(game.DestroyClientUIControl,n.c)
+            if ok then
+                table.remove(freeSecond,i);n.dead=true;n.c=nil
+                G.counts.img=G.counts.img-1;growth.destroyed=growth.destroyed+1;removed=removed+1
+            end
+            if removed>=removable then break end
+        end
+    end
+    growth.target=math.max(growth.floor,G.counts.img)
+    if G.counts.img<=growth.floor then growth.retiring=false end
+end
+function G.secondPoolStatus()
+    return {first=growth.first, created=growth.created, total=G.counts.img,
+            target=growth.target, batch=growth.batch, templateIndex=growth.templateIndex,
+            floor=growth.floor,limit=growth.limit,warning=growth.warning,reserve=growth.reserve,
+            destroyed=growth.destroyed,emergencies=growth.emergencies,warnings=growth.warnings,
+            retiring=growth.retiring,freeFirst=#freeImg, freeSecond=#freeSecond}
+end
+
+return G
+end
+__loaders['gf_hud'] = function()
+-- Fight HUD: fighting-game structure dressed in Genshin's UI language.
+--   structure (fighting games): thick health bars draining toward the portraits with a red
+--   lag chunk and a slanted inner end, a big centre timer, win stars, a long super meter
+--   (元素爆发) along the bottom, big combo numbers;
+--   dress (Genshin, checked against in-game screens): translucent slate tracks, cream
+--   hairlines, small gold stars / diamonds, element-coloured accents, round E / Q buttons with
+--   a thin white rim and cream key-hint tags, cream capsule labels with dark-slate text.
+-- Every frame issues the same calls (alpha 0 instead of skipping) so layer slots stay put.
+local G = require('gf_gfx')
+local Art = require('gf_art')
+local K = require('gf_kits')
+local UI = require('gf_ui')
+local U = require('gf_util')
+
+local H = {}
+H.__index = H
+
+local WHITE = {255, 255, 255}
+local CREAM = {236, 229, 216}
+local GREY = {216, 210, 196}
+local SLATE = {30, 34, 50}
+local SLATE2 = {52, 58, 80}
+local SHADOW = {0, 0, 0}
+local TEXT = {73, 83, 102}
+local GOLD = {255, 214, 120}
+local HP = {{255, 240, 150}, {255, 210, 74}, {242, 160, 40}}
+local HP_LOW = {{255, 170, 140}, {244, 96, 70}, {214, 56, 44}}
+local LAG = {232, 72, 58}
+
+function H.new(app, parent, sim)
+    local self = setmetatable({app = app, sim = sim}, H)
+    self.root = G.group(parent)
+    self.under = G.layer(self.root)
+    self.faces = G.bitmap(self.root)
+    self.L = G.layer(self.root)
+    self.trail = {sim.f[1].hp, sim.f[2].hp}
+    self.trailHold = {0, 0}
+    self.combo = {{n = 0, t = 0, dmg = 0, punch = 0}, {n = 0, t = 0, dmg = 0, punch = 0}}
+    self.lastHp = {sim.f[1].hp, sim.f[2].hp}
+    self.shakeHp = {0, 0}
+    return self
+end
+
+-- Desktop E/Q orbs are real click buttons, using the same virtual bits as touch.
+function H:bindSkillButtons(index)
+    local input = self.app.input
+    local pad = input:pad(1)
+    self.skillSide = index == 1 and -1 or 1
+    self.skillGen = input.gen
+    self.skillAreas = {}
+    for _, bit in ipairs({64, 128}) do
+        self.skillAreas[#self.skillAreas + 1] = input:area(0, 0, 1, 1, {
+            click = function() pad.pulse = (pad.pulse or 0) | bit end,
+        })
+    end
+end
+
+function H:onHit(e)
+    local c = self.combo[e.by]
+    if c and e.combo >= 2 then
+        c.n, c.t, c.punch = e.combo, 110, 9
+        c.dmg = self.sim.f[e.p].comboDmg
+    end
+    self.shakeHp[e.p] = e.heavy and 10 or 5
+end
+
+local PR = 56                       -- portrait radius
+
+function H:drawFaces()
+    local W, Hh = self.app.W, self.app.H
+    local list = {}
+    for i, f in ipairs(self.sim.f) do
+        local side = i == 1 and -1 or 1
+        list[#list + 1] = {img = Art.round(f.key), ox = side * (W / 2 - 86), oy = Hh / 2 - 82 - PR, s = PR * 2 / 34}
+    end
+    self.faces:drawMany(list)
+    self.faces.node:on(true)
+    self.facesW = W
+end
+
+-- horizontal fill anchored at the outer end, three gradient bands
+local function fill(L, side, outer, cy, w, h, cols, am)
+    local cx = side * (outer - w / 2)
+    local a = (w > 0.5) and (am or 1) or 0
+    local bh = h / #cols
+    for k, c in ipairs(cols) do
+        L:rect(cx, cy + h / 2 - bh * (k - 0.5), w, bh + 0.5, c, a)
+    end
+end
+
+local function keyTag(L, x, y, s, label, a)
+    a = a or 1
+    L:rect(x, y - 2, s + 4, s + 4, SHADOW, 0.35 * a)
+    L:rect(x, y, s, s, CREAM, 0.96 * a)
+    L:label(label, x, y, s, s, s * 0.72, TEXT, 'c', nil, a)
+end
+
+function H:draw()
+    local app, sim = self.app, self.sim
+    local W, Hh = app.W, app.H
+    local top = Hh / 2
+    local L, B = self.L, self.under
+    if self.facesW ~= W then self:drawFaces() end
+    L:begin()
+    B:begin()
+    local barY = top - 70
+    local barH = 30
+    local inner = 92
+    local outer = W / 2 - 150
+    local barW = outer - inner
+    if self.skillAreas and self.skillGen == app.input.gen then
+        local gw = math.min(460, W / 2 - 260)
+        local gOuter, gy = W / 2 - 170, -Hh / 2 + 70
+        app.input:moveArea(self.skillAreas[1], self.skillSide * (gOuter - gw - 66), gy - 8, 94, 130)
+        app.input:moveArea(self.skillAreas[2], self.skillSide * (W / 2 - 104), gy, 126, 166)
+    end
+
+    for i, f in ipairs(sim.f) do
+        local side = i == 1 and -1 or 1
+        local ec = K.elementColor[f.element]
+        local align = i == 1 and 'l' or 'r'
+        local hpK = U.clamp(f.hp / f.maxhp, 0, 1)
+        local trK = U.clamp(self.trail[i] / f.maxhp, 0, 1)
+        local jit = 0
+        if self.shakeHp[i] > 0 then
+            jit = ((self.shakeHp[i] % 2 == 0) and 1 or -1) * self.shakeHp[i] * 0.4
+            self.shakeHp[i] = self.shakeHp[i] - 1
+        end
+        local y = barY + jit
+        local cxBar = side * (inner + barW / 2)
+        -- shadow, cream frame, slate track, slanted inner cap
+        B:shape(G.ELLIPSE, cxBar, y - 6, barW + 120, 90, SHADOW, 0.45, 0, 0.5)
+        L:rect(cxBar, y, barW + 10, barH + 10, CREAM, 0.95)
+        L:rect(cxBar, y, barW + 6, barH + 6, SLATE, 0.92)
+        L:shape(G.TRI, side * (inner - 10), y, barH + 10, 26, CREAM, 0.95, side * 90)
+        L:shape(G.TRI, side * (inner - 8), y, barH + 4, 20, SLATE, 0.92, side * 90)
+        -- lag chunk then health
+        local low = hpK <= 0.25
+        local blink = low and (app.frame % 24 < 12)
+        fill(L, side, outer, y, barW * trK, barH, {LAG}, 1)
+        fill(L, side, outer, y, barW * hpK, barH, (low and blink) and HP_LOW or HP, 1)
+        -- segment ticks + element line under the bar
+        for k = 1, 4 do L:rect(side * (outer - barW * k / 5), y, 2, barH, SLATE, 0.45) end
+        L:rect(cxBar, y - barH / 2 - 8, barW + 10, 4, ec, 0.95)
+        -- crystal shield over the bar
+        local sk = U.clamp(f.shield / 300, 0, 1)
+        fill(L, side, outer, y + barH / 2 + 7, barW * sk, 5, {{255, 230, 140}}, sk > 0 and 1 or 0)
+        -- portrait: element ring + cream ring + face (bitmap above this layer's under part)
+        local px, py = side * (W / 2 - 86), top - 82
+        B:shape(G.ELLIPSE, px, py - 4, PR * 2 + 30, PR * 2 + 30, SHADOW, 0.5, 0, 0.4)
+        B:shape(G.ELLIPSE, px, py, PR * 2 + 16, PR * 2 + 16, ec, 1)
+        B:shape(G.ELLIPSE, px, py, PR * 2 + 8, PR * 2 + 8, CREAM, 1)
+        B:shape(G.ELLIPSE, px, py, PR * 2 + 2, PR * 2 + 2, SLATE, 1)
+        -- name under the bar, title in grey
+        local nx = side * (outer - 2)
+        local tw = 520
+        local tx = nx + (i == 1 and tw / 2 or -tw / 2)
+        L:label(f.char.name, tx, y - 44, tw, 36, 28, WHITE, align, {0, 0, 0, 170})
+        L:label((K.title[f.key] or ''), tx + side * -((utf8.len(f.char.name) or 3) * 30 + 12), y - 46, tw, 24, 16, GREY, align, {0, 0, 0, 140})
+        -- win stars near the timer
+        for r = 1, 3 do
+            local on = r <= sim.winsNeeded
+            local won = f.wins >= r
+            local sx = side * (inner + 18 + (r - 1) * 34)
+            L:shape(G.STAR4, sx, y - 44, 30, 30, SHADOW, on and 0.5 or 0)
+            L:shape(G.STAR4, sx, y - 42, 28, 28, won and GOLD or SLATE2, on and 1 or 0, won and (app.t * 30) or 0)
+        end
+
+        -- super meter (元素爆发) along the bottom with the Q orb at its outer end; on phones
+        -- (compact) it sits under the name instead, since the touch buttons own the bottom corners
+        -- and already show E / Q readiness
+        local cm = self.compact
+        local gy = cm and (barY - 84) or (-Hh / 2 + 70)
+        local gw = cm and math.min(360, barW * 0.5) or math.min(460, W / 2 - 260)
+        local gOuter = cm and (outer + 4) or (W / 2 - 170)
+        local gcx = side * (gOuter - gw / 2)
+        local ek = U.clamp(f.energy / 100, 0, 1)
+        local ready = f.energy >= 100
+        local pulse = ready and (0.5 + 0.5 * math.sin(app.t * 8)) or 0
+        local gh = cm and 12 or 18
+        B:shape(G.ELLIPSE, gcx, gy - 4, gw + 120, 70, SHADOW, cm and 0 or 0.45, 0, 0.5)
+        L:rect(gcx, gy, gw + 8, gh + 4, CREAM, 0.9)
+        L:rect(gcx, gy, gw + 4, gh, SLATE, 0.92)
+        L:shape(G.TRI, side * (gOuter - gw - 6), gy, gh + 4, 16, CREAM, 0.9, -side * 90)
+        fill(L, side, gOuter, gy, gw * ek, gh - 4, {U.mix(ec, WHITE, 0.35), ec, U.mix(ec, SHADOW, 0.25)}, 1)
+        fill(L, side, gOuter, gy, gw * ek, gh - 4, {WHITE}, ready and 0.35 * pulse or 0)
+        for k = 1, 3 do L:rect(side * (gOuter - gw * k / 4), gy, 2, gh, SLATE, 0.6) end
+        if cm then
+            L:label('爆发就绪', side * (gOuter - gw - 70), gy, 120, 24, 16, ec, 'c', {0, 0, 0, 170}, ready and (0.6 + 0.4 * pulse) or 0)
+        else
+            L:label(ready and '元素爆发 · 就绪' or '元素爆发', side * (gOuter - gw / 2), gy + 26, gw, 26, 18,
+                    ready and ec or GREY, align, {0, 0, 0, 160})
+        end
+        -- Q orb
+        local qa = cm and 0 or 1
+        local qx, qy = side * (W / 2 - 104), gy + 18
+        B:shape(G.ELLIPSE, qx, qy, 170, 170, ec, ready and (0.3 + 0.35 * pulse) * qa or 0, 0, 0.5)
+        L:shape(G.ELLIPSE, qx, qy - 4, 108, 108, SHADOW, 0.4 * qa)
+        L:shape(G.ELLIPSE, qx, qy, 102, 102, WHITE, 0.9 * qa)
+        L:shape(G.ELLIPSE, qx, qy, 96, 96, SLATE, 0.9 * qa)
+        L:shape(G.ELLIPSE, qx, qy, 84 * math.sqrt(ek), 84 * math.sqrt(ek), ec, (ready and 0.95 or 0.7) * qa)
+        UI.element(L, f.element, qx, qy, 54, (ready and 1 or 0.65) * qa, ready and WHITE or nil, ready and ec or nil)
+        keyTag(L, qx, qy - 64, 24, 'Q', qa)
+        -- E orb at the inner end of the meter
+        local ea = cm and 0 or 1
+        local ex, ey = side * (gOuter - gw - 66), gy + 10
+        local cdLeft = f.kit.skill and f.skillCd or 0
+        local up = cdLeft <= 0
+        L:shape(G.ELLIPSE, ex, ey - 3, 76, 76, SHADOW, 0.4 * ea)
+        L:shape(G.ELLIPSE, ex, ey, 72, 72, WHITE, 0.9 * ea)
+        L:shape(G.ELLIPSE, ex, ey, 66, 66, up and ec or SLATE, 0.92 * ea)
+        UI.element(L, f.element, ex, ey, 38, up and ea or 0, WHITE, ec)
+        L:label(up and '' or ('%.1f'):format(cdLeft / 60), ex, ey, 70, 40, 24, WHITE, 'c', {0, 0, 0, 170}, ea)
+        keyTag(L, ex, ey - 48, 20, 'E', ea)
+
+        -- combo counter
+        local c = self.combo[i]
+        local ca = 0
+        if c.t > 0 then c.t = c.t - 1; ca = U.clamp(c.t / 18, 0, 1) end
+        local s = 1 + c.punch * 0.04
+        if c.punch > 0 then c.punch = c.punch - 1 end
+        local cx = side * (W / 2 - 260)
+        L:rect(cx, 112, 280, 46, SLATE, 0.55 * ca, side * 6)
+        L:rect(cx, 90, 300, 4, ec, ca, side * 6)
+        local num = L:label(tostring(c.n), cx - side * 50, 150, 220, 110, 96, WHITE, 'c', U.mix(ec, SHADOW, 0.45), ca)
+        num:scale(num.sx * s, num.sy * s)
+        L:label('连击', cx + side * 70, 150, 120, 46, 36, ec, 'c', {0, 0, 0, 200}, ca)
+        L:label('HITS', cx + side * 72, 120, 120, 26, 18, CREAM, 'c', {0, 0, 0, 160}, ca)
+        L:label(('伤害 %d'):format(c.dmg), cx + side * 20, 64, 260, 28, 20, GOLD, 'c', {0, 0, 0, 160}, ca)
+    end
+    -- timer: slate diamond with a cream rim, big white numbers, cream round capsule
+    local secs = math.max(0, math.ceil(sim.timer / 60))
+    local tstr = (sim.opts.training or sim.timeLimit >= 999) and '∞' or tostring(secs)
+    local low = (not sim.opts.training) and secs <= 10 and sim.phase == 'fight'
+    local tc = low and ((app.frame % 30 < 15) and {255, 110, 96} or WHITE) or WHITE
+    local ty = top - 74
+    B:shape(G.ELLIPSE, 0, ty - 6, 200, 170, SHADOW, 0.5, 0, 0.5)
+    L:shape(G.RECT, 0, ty, 112, 112, CREAM, 0.95, 45)
+    L:shape(G.RECT, 0, ty, 104, 104, SLATE, 0.95, 45)
+    L:shape(G.RECT, 0, ty, 88, 88, SLATE2, 0.6, 45)
+    L:shape(G.RECT, 0, ty + 80, 12, 12, GOLD, 1, 45)
+    L:label(tstr, 0, ty + 2, 130, 80, 64, tc, 'c', {0, 0, 0, 200})
+    L:rect(0, ty - 92, 120, 26, CREAM, 0.95)
+    L:shape(G.ELLIPSE, -60, ty - 92, 26, 26, CREAM, 0.95)
+    L:shape(G.ELLIPSE, 60, ty - 92, 26, 26, CREAM, 0.95)
+    L:label(('ROUND %d'):format(sim.round), 0, ty - 92, 140, 26, 17, TEXT, 'c')
+    L:finish()
+    B:finish()
+    -- lag chunk drains after a short hold (stays while the combo continues)
+    for i, f in ipairs(sim.f) do
+        if f.hp < self.lastHp[i] then self.trailHold[i] = 36 end
+        self.lastHp[i] = f.hp
+        if self.trailHold[i] > 0 then
+            if f.combo == 0 or self.trailHold[i] > 1 then self.trailHold[i] = self.trailHold[i] - 1 end
+        elseif self.trail[i] > f.hp then
+            self.trail[i] = math.max(f.hp, self.trail[i] - f.maxhp * 0.012)
+        end
+        if self.trail[i] < f.hp then self.trail[i] = f.hp end
+    end
+end
+
+function H:free()
+    self.L:free()
+    self.under:free()
+    self.faces:free()
+    G.release(self.root)
+end
+
+return H
+end
+__loaders['gf_input'] = function()
+-- Input hub: keyboard (two local players), controller, touch controls and mouse/touch menu
+-- buttons, turned into per-player virtual pads sampled once per 60 Hz tick.
+--
+-- Keyboard (7.1 key events, heard by Lua in our other maps):
+--   P1  W A S D move (W / Space = jump), J light, K heavy, E/I skill, Q/O burst, U dash, L throw
+--   P2  arrows move, , light  . heavy  / skill  RShift burst  RCtrl dash
+--   menus: P1 keys or arrows, J/Space/F = confirm, K/Backspace = back, P/Tab = pause, F9 = debug
+-- Controller: left stick / d-pad... only the stick is readable; NormalAttack light, Interact heavy,
+--   Skill1 skill, Skill2 burst, Sprint dash, Jump jump, MenuConfirm/MenuBack.
+-- Touch: GF_BTN pool — floating stick on the left half, 轻/重/技/爆/冲 on the right.
+local G = require('gf_gfx')
+
+local I = {}
+I.__index = I
+
+local B = {U = 1, D = 2, L = 4, R = 8, LP = 16, HP = 32, SK = 64, BU = 128, DA = 256, TH = 512}
+I.B = B
+I.DIRS = 15
+
+-- key event base name -> {player, bit} or menu action
+local CRAFT = {['1'] = 1, ['2'] = 2, ['3'] = 3, ['4'] = 4, ['5'] = 5, ['6'] = 6, ['7'] = 7, ['8'] = 8, ['9'] = 9, ['0'] = 10,
+    U = 11, Z = 12, Y = 13, G = 14, H = 15, I = 16, O = 17, P = 18, J = 19, K = 20, L = 21, V = 22,
+    F5 = 23, F6 = 24, F7 = 25, F8 = 26, F9 = 27, F10 = 28, TILDE = 29, MINUS = 30, EQUAL = 31, BRACKET = 32,
+    COMMA = 33, PERIOD = 34, SLASH = 35, UP = 36, DOWN = 37, LEFT = 38, RIGHT = 39, RCTRL = 40, RSHIFT = 41,
+    BACK = 42, CAPS = 43}
+I.CRAFT = CRAFT
+
+local function ck(name) return 'KeyboardCraftspersonKey' .. CRAFT[name] end
+
+-- {event base, player, bit, menu}
+local BINDS = {
+    {'KeyboardMoveForwardKey', 1, B.U, 'up'}, {'KeyboardMoveBackwardKey', 1, B.D, 'down'},
+    {'KeyboardMoveLeftKey', 1, B.L, 'left'}, {'KeyboardMoveRightKey', 1, B.R, 'right'},
+    {'KeyboardJumpKey', 1, B.U, 'ok'},
+    {ck('J'), 1, B.LP, 'ok'}, {ck('K'), 1, B.HP, 'back'}, {'KeyboardCharacterSkill1Key', 1, B.SK, 'alt'}, {'KeyboardCharacterSkill2Key', 1, B.BU, 'alt2'},
+    {ck('I'), 1, B.SK, 'alt'}, {ck('O'), 1, B.BU, 'alt2'},
+    {ck('U'), 1, B.DA}, {ck('L'), 1, B.TH},
+    {'KeyboardInteractKey', 0, 0, 'ok'},
+    {ck('UP'), 2, B.U, 'up'}, {ck('DOWN'), 2, B.D, 'down'}, {ck('LEFT'), 2, B.L, 'left'}, {ck('RIGHT'), 2, B.R, 'right'},
+    {ck('COMMA'), 2, B.LP, 'ok2'}, {ck('PERIOD'), 2, B.HP, 'back2'}, {ck('SLASH'), 2, B.SK}, {ck('RSHIFT'), 2, B.BU},
+    {ck('RCTRL'), 2, B.DA},
+    {ck('BACK'), 0, 0, 'back'}, {ck('P'), 0, 0, 'pause'}, {'KeyboardOpenShortcutWheelKey', 0, 0, 'pause'},
+    {ck('F9'), 0, 0, 'debug'}, {ck('H'), 0, 0, 'help'},
+    -- controller
+    {'ControllerNormalAttackKey', 'pad', B.LP, 'ok'}, {'ControllerInteractKey', 'pad', B.HP},
+    {'ControllerCharacterSkill1Key', 'pad', B.SK}, {'ControllerCharacterSkill2Key', 'pad', B.BU},
+    {'ControllerSprintKey', 'pad', B.DA}, {'ControllerJumpKey', 'pad', B.U},
+    {'ControllerMenuConfirmKey', 0, 0, 'ok'}, {'ControllerMenuBackKey', 0, 0, 'back'},
+    {'ControllerCharacterSkill3Key', 0, 0, 'pause'},
+}
+
+local function newPad()
+    return {held = 0, prev = 0, pressed = 0, released = 0, counts = {}, hist = {}, histN = 0, touch = 0, stick = 0}
+end
+
+function I.new(app)
+    local self = setmetatable({app = app, pads = {newPad(), newPad()}, menuQ = {}, rep = {}, held = {},
+                               dev = 'pc', padOwner = 1, buttons = {}, touchOn = false, mouseOn = false}, I)
+    self:attach()
+    return self
+end
+
+function I:attach()
+    local env = self.app.env
+    local E = env.Enum
+    local host = env.host
+    local n = 0
+    for _, b in ipairs(BINDS) do
+        local okd, dn = pcall(function() return E.KeyEventType[b[1] .. 'Down'] end)
+        local oku, up = pcall(function() return E.KeyEventType[b[1] .. 'Up'] end)
+        if okd and oku and dn and up then
+            local bind = b
+            env.safe(host.AddKeyEventListener, host, dn, function() self:key(bind, true) return true end)
+            env.safe(host.AddKeyEventListener, host, up, function() self:key(bind, false) return true end)
+            n = n + 1
+        end
+    end
+    self.listeners = n
+end
+
+function I:key(b, down)
+    local p, bit, menu = b[2], b[3], b[4]
+    if p == 'pad' then p = self.padOwner; self.dev = 'pad' end
+    if p ~= 0 and bit ~= 0 then
+        local pad = self.pads[p]
+        local c = pad.counts[bit] or 0
+        c = down and c + 1 or math.max(0, c - 1)
+        pad.counts[bit] = c
+        if c > 0 then pad.held = pad.held | bit else pad.held = pad.held & ~bit end
+    end
+    if menu then
+        if down then
+            self.menuQ[#self.menuQ + 1] = menu
+            self.held[menu] = 0
+        else
+            self.held[menu] = nil
+        end
+    end
+    if self.dev == 'touch' and p ~= 'pad' then self.dev = 'pc' end
+end
+
+function I:device()
+    local ok, d = pcall(self.app.env.game.GetDevice)
+    local D = self.app.env.Enum.Device
+    if ok and d ~= nil then
+        if d == D.Mobile then return 'touch' end
+        if d == D.Controller or d == D.MobileController then return 'pad' end
+    end
+    return 'pc'
+end
+
+local function stickDirs(x, y)
+    local m = 0
+    if x > 0.45 then m = m | B.R elseif x < -0.45 then m = m | B.L end
+    if y > 0.55 then m = m | B.U elseif y < -0.5 then m = m | B.D end
+    return m
+end
+
+function I:poll()
+    self.dev = self:device()
+    if self.dev == 'pad' then
+        local ok, x, y = pcall(self.app.env.game.GetControllerLeftStickAxis)
+        if ok and type(x) == 'number' and type(y) == 'number' then
+            local m = stickDirs(x, y)
+            local pad = self.pads[self.padOwner]
+            pad.stick = m
+            local was = self.stickMenu or 0
+            -- menu navigation from the stick (edge)
+            if m ~= was then
+                if m & B.U ~= 0 and was & B.U == 0 then self.menuQ[#self.menuQ + 1] = 'up' end
+                if m & B.D ~= 0 and was & B.D == 0 then self.menuQ[#self.menuQ + 1] = 'down' end
+                if m & B.L ~= 0 and was & B.L == 0 then self.menuQ[#self.menuQ + 1] = 'left' end
+                if m & B.R ~= 0 and was & B.R == 0 then self.menuQ[#self.menuQ + 1] = 'right' end
+                self.stickMenu = m
+            end
+        end
+    end
+end
+
+-- clean opposite directions (SOCD): left+right = neutral, up+down = up
+local function clean(m)
+    if m & B.L ~= 0 and m & B.R ~= 0 then m = m & ~(B.L | B.R) end
+    if m & B.U ~= 0 and m & B.D ~= 0 then m = m & ~B.D end
+    return m
+end
+
+-- once per 60 Hz tick
+function I:tick()
+    for _, pad in ipairs(self.pads) do
+        local now = clean(pad.held | pad.touch | pad.stick | (pad.pulse or 0))
+        pad.pulse = 0
+        pad.pressed = now & ~pad.prev
+        pad.released = pad.prev & ~now
+        pad.prev = now
+        pad.now = now
+        pad.histN = pad.histN + 1
+        pad.hist[pad.histN % 32] = now
+    end
+    -- menu key repeat for held directions
+    for k, t in pairs(self.held) do
+        if k == 'up' or k == 'down' or k == 'left' or k == 'right' then
+            t = t + 1
+            self.held[k] = t
+            if t > 22 and t % 6 == 0 then self.menuQ[#self.menuQ + 1] = k end
+        end
+    end
+end
+
+function I:pad(p) return self.pads[p] end
+
+-- direction history: bits of the pad i frames ago (0 = now)
+function I:past(p, i)
+    local pad = self.pads[p]
+    return pad.hist[(pad.histN - i) % 32] or 0
+end
+
+-- menu actions since the last call
+function I:menu()
+    local q = self.menuQ
+    self.menuQ = {}
+    return q
+end
+
+function I:clearUI()
+    self.menuQ = {}
+    for _, b in ipairs(self.buttons) do
+        if b.node then b.node:on(false) end
+    end
+    self.buttons = {}
+    self.usedBtn = 0
+    self.gen = (self.gen or 0) + 1
+    for _, pad in ipairs(self.pads) do pad.touch = 0; pad.pulse = 0 end
+end
+
+------------------------------------------------------------------ pointer buttons
+-- A clickable area over design coordinates; uses a pooled transparent preset button.
+-- handlers: {click = fn(x, y), down = fn(x, y, id), drag = fn(x, y, id), up = fn(x, y, id)}
+function I:area(x, y, w, h, handlers, parent)
+    self.usedBtn = (self.usedBtn or 0) + 1
+    local node = G.btns[self.usedBtn]
+    if not node then return nil end
+    local app = self.app
+    local b = {node = node, handlers = handlers}
+    self.buttons[#self.buttons + 1] = b
+    node.handlers = handlers
+    if not node.bound then
+        node.bound = true
+        local E = app.env.Enum.CursorEventType
+        local function conv(ev)
+            local ok, px, py = pcall(ev.GetUIPos, ev)
+            if not ok or type(px) ~= 'number' then return nil end
+            return (px - app.cw / 2) / app.s, (py - app.ch / 2) / app.s
+        end
+        local function on(name, key)
+            if not E[name] then return end
+            app.env.safe(node.c.AddCursorEventListener, node.c, E[name], function(ev)
+                local hd = node.handlers
+                if not hd or not hd[key] then return end
+                local px, py = conv(ev)
+                if px then
+                    local id = -1
+                    pcall(function() id = ev.touchId end)
+                    hd[key](px, py, id)
+                end
+            end)
+        end
+        on('CursorDown', 'down'); on('CursorDrag', 'drag'); on('CursorUp', 'up'); on('CursorClick', 'click')
+        pcall(function() node.c.raycastTarget = true end)
+    end
+    node:parentTo(parent or app.layers.top)
+    node:pos(x, y):size(w, h):on(true)
+    return b
+end
+
+function I:moveArea(b, x, y, w, h)
+    if b and b.node then b.node:pos(x, y):size(w, h) end
+end
+
+return I
+end
+__loaders['gf_kits'] = function()
+local K = {}
+
+local function m(t) t.recovery = t.recovery or 10 return t end
+
+K.weapons = {
+    sword = {
+        reach = 1.0,
+        light1 = m{pose = 'slash', startup = 5, active = 3, recovery = 9, damage = 32, hitstun = 15, blockstun = 11, push = 7,
+                   box = {x = 40, y = 120, w = 150, h = 110}, cancel = {'light2', 'heavy', 'skill', 'burst'}, fx = 'arc', tilt = -6, lunge = 18, energy = 4},
+        light2 = m{pose = 'slash', startup = 5, active = 3, recovery = 11, damage = 36, hitstun = 16, blockstun = 12, push = 8,
+                   box = {x = 40, y = 100, w = 160, h = 120}, cancel = {'light3', 'heavy', 'skill', 'burst'}, fx = 'arcLow', tilt = 6, lunge = 24, energy = 4},
+        light3 = m{pose = 'special', startup = 7, active = 4, recovery = 16, damage = 48, hitstun = 20, blockstun = 14, push = 12,
+                   box = {x = 30, y = 80, w = 180, h = 150}, cancel = {'heavy', 'skill', 'burst'}, fx = 'thrust', lunge = 40, energy = 6},
+        crouchLight = m{pose = 'crouch', startup = 5, active = 3, recovery = 9, damage = 26, hitstun = 14, blockstun = 10, push = 7,
+                   box = {x = 40, y = 0, w = 150, h = 70}, level = 'low', cancel = {'crouchLight', 'crouchHeavy', 'skill', 'burst'}, fx = 'sweepLow', lunge = 16, energy = 3},
+        heavy = m{pose = 'slash', windup = 'guard', startup = 10, active = 4, recovery = 18, damage = 70, hitstun = 22, blockstun = 16, push = 10,
+                  launch = 22, box = {x = 30, y = 110, w = 190, h = 180}, cancel = {'skill', 'burst'}, fx = 'rise', tilt = -14, lunge = 30, energy = 8, shake = 6},
+        crouchHeavy = m{pose = 'crouch', startup = 9, active = 4, recovery = 22, damage = 60, hitstun = 26, blockstun = 15, push = 6,
+                  knockdown = true, box = {x = 40, y = 0, w = 200, h = 70}, level = 'low', cancel = {'skill', 'burst'}, fx = 'sweep', lunge = 30, energy = 8, tilt = 8},
+        airLight = m{pose = 'jump', startup = 5, active = 6, recovery = 8, damage = 34, hitstun = 15, blockstun = 11, push = 6,
+                  box = {x = 30, y = -40, w = 150, h = 140}, level = 'high', cancel = {'airHeavy', 'skill'}, fx = 'arc', tilt = -10, energy = 4},
+        airHeavy = m{pose = 'slash', startup = 8, active = 6, recovery = 12, damage = 58, hitstun = 20, blockstun = 15, push = 8,
+                  spike = 14, box = {x = 20, y = -80, w = 180, h = 170}, level = 'high', cancel = {'skill'}, fx = 'fall', tilt = 18, energy = 6, shake = 4},
+    },
+    claymore = {
+        reach = 1.15, armorHeavy = true,
+        light1 = m{pose = 'slash', startup = 7, active = 4, recovery = 12, damage = 42, hitstun = 17, blockstun = 12, push = 9,
+                   box = {x = 40, y = 110, w = 175, h = 130}, cancel = {'light2', 'heavy', 'skill', 'burst'}, fx = 'arcHeavy', tilt = -8, lunge = 16, energy = 4, shake = 2},
+        light2 = m{pose = 'special', startup = 8, active = 4, recovery = 16, damage = 52, hitstun = 19, blockstun = 13, push = 11,
+                   box = {x = 40, y = 90, w = 190, h = 150}, cancel = {'heavy', 'skill', 'burst'}, fx = 'arcLowHeavy', tilt = 8, lunge = 26, energy = 5, shake = 3},
+        crouchLight = m{pose = 'crouch', startup = 7, active = 3, recovery = 12, damage = 34, hitstun = 15, blockstun = 11, push = 8,
+                   box = {x = 40, y = 0, w = 170, h = 75}, level = 'low', cancel = {'crouchHeavy', 'skill', 'burst'}, fx = 'sweepLow', lunge = 16, energy = 3},
+        heavy = m{pose = 'slash', windup = 'guard', startup = 15, active = 5, recovery = 22, damage = 105, hitstun = 26, blockstun = 19, push = 14,
+                  launch = 24, armor = true, box = {x = 30, y = 90, w = 230, h = 220}, cancel = {'skill', 'burst'}, fx = 'smash', tilt = -18, lunge = 34, energy = 10, shake = 10},
+        crouchHeavy = m{pose = 'crouch', startup = 12, active = 5, recovery = 26, damage = 80, hitstun = 28, blockstun = 17, push = 7,
+                  knockdown = true, box = {x = 40, y = 0, w = 235, h = 80}, level = 'low', cancel = {'skill', 'burst'}, fx = 'sweep', lunge = 34, energy = 9, tilt = 8, shake = 4},
+        airLight = m{pose = 'jump', startup = 7, active = 6, recovery = 10, damage = 44, hitstun = 16, blockstun = 12, push = 7,
+                  box = {x = 30, y = -40, w = 170, h = 150}, level = 'high', cancel = {'airHeavy', 'skill'}, fx = 'arcHeavy', tilt = -10, energy = 4},
+        airHeavy = m{pose = 'slash', startup = 11, active = 7, recovery = 14, damage = 78, hitstun = 22, blockstun = 16, push = 9,
+                  spike = 18, box = {x = 10, y = -100, w = 200, h = 190}, level = 'high', cancel = {'skill'}, fx = 'fallHeavy', tilt = 24, energy = 6, shake = 7},
+    },
+    polearm = {
+        reach = 1.2,
+        light1 = m{pose = 'slash', startup = 6, active = 3, recovery = 10, damage = 34, hitstun = 15, blockstun = 11, push = 8,
+                   box = {x = 50, y = 140, w = 200, h = 70}, cancel = {'light2', 'heavy', 'skill', 'burst'}, fx = 'thrust', lunge = 20, energy = 4},
+        light2 = m{pose = 'slash', startup = 6, active = 3, recovery = 12, damage = 38, hitstun = 16, blockstun = 12, push = 9,
+                   box = {x = 40, y = 100, w = 215, h = 110}, cancel = {'light3', 'heavy', 'skill', 'burst'}, fx = 'arc', tilt = -8, lunge = 22, energy = 4},
+        light3 = m{pose = 'special', startup = 8, active = 5, recovery = 16, damage = 50, hitstun = 20, blockstun = 14, push = 12,
+                   box = {x = 30, y = 70, w = 230, h = 170}, cancel = {'heavy', 'skill', 'burst'}, fx = 'spin', lunge = 36, energy = 6},
+        crouchLight = m{pose = 'crouch', startup = 6, active = 3, recovery = 10, damage = 28, hitstun = 14, blockstun = 10, push = 7,
+                   box = {x = 50, y = 0, w = 200, h = 65}, level = 'low', cancel = {'crouchLight', 'crouchHeavy', 'skill', 'burst'}, fx = 'thrustLow', lunge = 16, energy = 3},
+        heavy = m{pose = 'slash', windup = 'guard', startup = 11, active = 4, recovery = 19, damage = 74, hitstun = 22, blockstun = 16, push = 11,
+                  launch = 23, box = {x = 30, y = 110, w = 230, h = 200}, cancel = {'skill', 'burst'}, fx = 'rise', tilt = -16, lunge = 30, energy = 8, shake = 6},
+        crouchHeavy = m{pose = 'crouch', startup = 10, active = 4, recovery = 23, damage = 62, hitstun = 26, blockstun = 15, push = 6,
+                  knockdown = true, box = {x = 50, y = 0, w = 240, h = 70}, level = 'low', cancel = {'skill', 'burst'}, fx = 'sweep', lunge = 30, energy = 8, tilt = 6},
+        airLight = m{pose = 'jump', startup = 6, active = 6, recovery = 8, damage = 34, hitstun = 15, blockstun = 11, push = 6,
+                  box = {x = 40, y = -50, w = 180, h = 120}, level = 'high', cancel = {'airHeavy', 'skill'}, fx = 'thrust', tilt = -20, energy = 4},
+        airHeavy = m{pose = 'slash', startup = 9, active = 6, recovery = 12, damage = 60, hitstun = 20, blockstun = 15, push = 8,
+                  spike = 15, box = {x = 20, y = -110, w = 190, h = 190}, level = 'high', cancel = {'skill'}, fx = 'fall', tilt = 30, energy = 6, shake = 4},
+    },
+    catalyst = {
+        reach = 0.95, ranged = true,
+        light1 = m{pose = 'slash', startup = 6, active = 3, recovery = 10, damage = 30, hitstun = 15, blockstun = 11, push = 8,
+                   box = {x = 60, y = 120, w = 150, h = 120}, cancel = {'light2', 'heavy', 'skill', 'burst'}, fx = 'burstSmall', lunge = 12, energy = 5},
+        light2 = m{pose = 'special', startup = 7, active = 4, recovery = 14, damage = 42, hitstun = 18, blockstun = 12, push = 10,
+                   box = {x = 70, y = 90, w = 170, h = 150}, cancel = {'heavy', 'skill', 'burst'}, fx = 'burst', lunge = 14, energy = 5},
+        crouchLight = m{pose = 'crouch', startup = 6, active = 3, recovery = 10, damage = 26, hitstun = 14, blockstun = 10, push = 7,
+                   box = {x = 50, y = 0, w = 150, h = 70}, level = 'low', cancel = {'crouchLight', 'crouchHeavy', 'skill', 'burst'}, fx = 'burstLow', lunge = 10, energy = 3},
+        heavy = m{pose = 'special', windup = 'guard', startup = 14, active = 3, recovery = 18, damage = 60, hitstun = 22, blockstun = 15, push = 10,
+                  projectile = {speed = 15, w = 90, h = 80, y = 150, life = 70, style = 'orb'}, cancel = {'skill', 'burst'}, energy = 8},
+        crouchHeavy = m{pose = 'crouch', startup = 10, active = 5, recovery = 24, damage = 58, hitstun = 26, blockstun = 15, push = 6,
+                  knockdown = true, box = {x = 40, y = 0, w = 210, h = 80}, level = 'low', cancel = {'skill', 'burst'}, fx = 'burstLow', lunge = 22, energy = 8},
+        airLight = m{pose = 'jump', startup = 6, active = 6, recovery = 9, damage = 32, hitstun = 15, blockstun = 11, push = 6,
+                  box = {x = 40, y = -40, w = 150, h = 140}, level = 'high', cancel = {'airHeavy', 'skill'}, fx = 'burstSmall', energy = 4},
+        airHeavy = m{pose = 'special', startup = 10, active = 3, recovery = 14, damage = 50, hitstun = 20, blockstun = 14, push = 8,
+                  projectile = {speed = 14, vy = -8, w = 80, h = 80, y = 60, life = 60, style = 'orb'}, level = 'high', cancel = {'skill'}, energy = 6},
+    },
+    bow = {
+        reach = 0.95, ranged = true,
+        light1 = m{pose = 'slash', startup = 5, active = 3, recovery = 9, damage = 30, hitstun = 15, blockstun = 11, push = 8,
+                   box = {x = 40, y = 120, w = 140, h = 110}, cancel = {'light2', 'heavy', 'skill', 'burst'}, fx = 'arc', tilt = -6, lunge = 14, energy = 4},
+        light2 = m{pose = 'special', startup = 6, active = 4, recovery = 12, damage = 38, hitstun = 17, blockstun = 12, push = 9,
+                   box = {x = 40, y = 90, w = 160, h = 140}, cancel = {'heavy', 'skill', 'burst'}, fx = 'kick', lunge = 22, energy = 4},
+        crouchLight = m{pose = 'crouch', startup = 5, active = 3, recovery = 9, damage = 24, hitstun = 14, blockstun = 10, push = 7,
+                   box = {x = 40, y = 0, w = 140, h = 70}, level = 'low', cancel = {'crouchLight', 'crouchHeavy', 'skill', 'burst'}, fx = 'sweepLow', lunge = 12, energy = 3},
+        heavy = m{pose = 'special', windup = 'guard', startup = 13, active = 3, recovery = 17, damage = 56, hitstun = 22, blockstun = 15, push = 10,
+                  projectile = {speed = 26, w = 120, h = 30, y = 175, life = 60, style = 'arrow'}, cancel = {'skill', 'burst'}, energy = 8},
+        crouchHeavy = m{pose = 'crouch', startup = 9, active = 4, recovery = 22, damage = 56, hitstun = 26, blockstun = 15, push = 6,
+                  knockdown = true, box = {x = 40, y = 0, w = 200, h = 75}, level = 'low', cancel = {'skill', 'burst'}, fx = 'sweep', lunge = 24, energy = 8},
+        airLight = m{pose = 'jump', startup = 5, active = 6, recovery = 8, damage = 30, hitstun = 15, blockstun = 11, push = 6,
+                  box = {x = 30, y = -40, w = 140, h = 140}, level = 'high', cancel = {'airHeavy', 'skill'}, fx = 'kick', energy = 4},
+        airHeavy = m{pose = 'special', startup = 9, active = 3, recovery = 12, damage = 46, hitstun = 20, blockstun = 14, push = 8,
+                  projectile = {speed = 24, vy = -12, w = 110, h = 30, y = 60, life = 50, style = 'arrow'}, level = 'high', cancel = {'skill'}, energy = 6},
+    },
+}
+
+K.throw = {pose = 'slash', startup = 4, active = 2, recovery = 26, damage = 90, range = 130, knockdown = true, energy = 10}
+
+K.skills = {
+    raidenshogun  = {style = 'zone',  startup = 12, recovery = 18, damage = 80, cd = 150, delay = 18, w = 170, h = 260, fx = 'eye', hitstun = 28, launch = 16},
+    furina        = {style = 'projectile', startup = 13, recovery = 16, damage = 70, cd = 140, speed = 13, w = 110, h = 110, y = 140, life = 90, fx = 'bubble', hitstun = 24},
+    zhongli       = {style = 'pillar', startup = 14, recovery = 18, damage = 85, cd = 160, dist = 200, w = 120, h = 320, fx = 'pillar', hitstun = 28, launch = 24, shield = 120},
+    mavuika       = {style = 'rush', startup = 10, recovery = 16, damage = 90, cd = 150, speed = 34, dur = 16, w = 170, h = 220, fx = 'flameRush', hitstun = 26, launch = 18, armor = true},
+    nahida        = {style = 'capture', startup = 8, recovery = 22, damage = 70, cd = 140, range = 650, w = 280, h = 340, fx = 'capture', hitstun = 30},
+    venti         = {style = 'rising', startup = 6, recovery = 22, damage = 75, cd = 150, w = 210, h = 340, fx = 'wind', hitstun = 30, launch = 30, invuln = 8},
+    kamisatoayaka = {style = 'rising', startup = 7, recovery = 20, damage = 85, cd = 150, w = 260, h = 260, fx = 'iceBloom', hitstun = 28, launch = 26, invuln = 6},
+    tartaglia     = {style = 'rush', startup = 9, recovery = 14, damage = 80, cd = 140, speed = 30, dur = 14, w = 170, h = 220, fx = 'hydroRush', hitstun = 24, hits = 3},
+    aratakiitto   = {style = 'projectile', startup = 14, recovery = 18, damage = 95, cd = 170, speed = 16, w = 130, h = 150, y = 70, life = 80, fx = 'ushi', hitstun = 30, knockdown = true},
+    yaemiko       = {style = 'zone',  startup = 11, recovery = 15, damage = 75, cd = 140, delay = 22, w = 140, h = 360, fx = 'sakura', hitstun = 28, launch = 20},
+    arlecchino    = {style = 'rush', startup = 10, recovery = 16, damage = 88, cd = 150, speed = 32, dur = 15, w = 180, h = 220, fx = 'bloodRush', hitstun = 26, launch = 16},
+    wanderer      = {style = 'rising', startup = 6, recovery = 20, damage = 70, cd = 140, w = 200, h = 300, fx = 'wind', hitstun = 28, launch = 30, invuln = 8},
+    neuvillette   = {style = 'projectile', startup = 16, recovery = 18, damage = 80, cd = 150, speed = 20, w = 260, h = 90, y = 150, life = 70, fx = 'torrent', hitstun = 26},
+    clorinde      = {style = 'rush', startup = 8, recovery = 14, damage = 82, cd = 140, speed = 36, dur = 12, w = 170, h = 220, fx = 'nightRush', hitstun = 24},
+    navia         = {style = 'projectile', startup = 12, recovery = 20, damage = 100, cd = 170, speed = 22, w = 200, h = 200, y = 120, life = 18, fx = 'shards', hitstun = 30, knockdown = true},
+    skirk         = {style = 'rush', startup = 7, recovery = 14, damage = 84, cd = 140, speed = 40, dur = 11, w = 170, h = 220, fx = 'voidRush', hitstun = 24, invuln = 6},
+}
+
+K.bursts = {
+    raidenshogun  = {style = 'aoe',  damage = 300, hits = 3, range = 900, fx = 'musou'},
+    furina        = {style = 'aoe',  damage = 260, hits = 4, range = 1000, fx = 'fanfare'},
+    zhongli       = {style = 'rain', damage = 280, hits = 1, range = 2400, fx = 'meteor', petrify = 70},
+    mavuika       = {style = 'rush', damage = 320, hits = 4, range = 700, fx = 'sunfell'},
+    nahida        = {style = 'aoe',  damage = 250, hits = 3, range = 2400, fx = 'shrine'},
+    venti         = {style = 'aoe',  damage = 260, hits = 6, range = 700, fx = 'stormeye', pull = true},
+    kamisatoayaka = {style = 'beam', damage = 290, hits = 6, range = 1100, fx = 'soumetsu'},
+    tartaglia     = {style = 'rush', damage = 310, hits = 3, range = 600, fx = 'havoc'},
+    aratakiitto   = {style = 'rush', damage = 330, hits = 4, range = 520, fx = 'oni'},
+    yaemiko       = {style = 'rain', damage = 290, hits = 4, range = 2400, fx = 'tenko'},
+    arlecchino    = {style = 'rush', damage = 320, hits = 3, range = 650, fx = 'balemoon'},
+    wanderer      = {style = 'aoe',  damage = 270, hits = 5, range = 800, fx = 'kyougen'},
+    neuvillette   = {style = 'beam', damage = 300, hits = 3, range = 2400, fx = 'tides'},
+    clorinde      = {style = 'rush', damage = 300, hits = 5, range = 700, fx = 'lastlight'},
+    navia         = {style = 'rain', damage = 300, hits = 4, range = 1200, fx = 'salvo'},
+    skirk         = {style = 'beam', damage = 310, hits = 5, range = 900, fx = 'havocRuin'},
+}
+
+K.body = {
+    default = {walk = 4.4, back = 3.6, dash = 13, health = 1000, weight = 1.0},
+    aratakiitto = {walk = 3.9, back = 3.2, dash = 12, health = 1080, weight = 1.15},
+    navia = {walk = 4.0, back = 3.3, dash = 12, health = 1050, weight = 1.1},
+    mavuika = {walk = 4.1, back = 3.4, dash = 12.5, health = 1040, weight = 1.1},
+    zhongli = {walk = 4.0, back = 3.4, dash = 12, health = 1060, weight = 1.1},
+    nahida = {walk = 4.8, back = 4.0, dash = 14, health = 950, weight = 0.9},
+    venti = {walk = 4.7, back = 3.9, dash = 14, health = 960, weight = 0.92},
+    skirk = {walk = 4.8, back = 3.8, dash = 15, health = 970, weight = 0.95},
+    clorinde = {walk = 4.7, back = 3.8, dash = 14.5, health = 980, weight = 0.97},
+}
+
+K.reactionName = {
+    vaporize = '蒸发', melt = '融化', overload = '超载', frozen = '冻结', electro = '感电', superconduct = '超导',
+    swirl = '扩散', crystal = '结晶', bloom = '绽放', aggravate = '激化', burning = '燃烧',
+}
+local R = {}
+local function pair(a, b, r) R[a] = R[a] or {}; R[b] = R[b] or {}; R[a][b] = r; R[b][a] = r end
+pair('hydro', 'pyro', 'vaporize')
+pair('cryo', 'pyro', 'melt')
+pair('electro', 'pyro', 'overload')
+pair('hydro', 'cryo', 'frozen')
+pair('electro', 'hydro', 'electro')
+pair('electro', 'cryo', 'superconduct')
+pair('dendro', 'hydro', 'bloom')
+pair('dendro', 'electro', 'aggravate')
+pair('dendro', 'pyro', 'burning')
+for _, e in ipairs({'hydro', 'pyro', 'electro', 'cryo'}) do
+    R.anemo = R.anemo or {}; R.anemo[e] = 'swirl'; R[e].anemo = 'swirl'
+    R.geo = R.geo or {}; R.geo[e] = 'crystal'; R[e].geo = 'crystal'
+end
+K.reaction = R
+
+K.elementColor = {
+    anemo = {116, 255, 214}, geo = {255, 200, 64}, electro = {196, 120, 255}, dendro = {150, 230, 60},
+    hydro = {60, 170, 255}, pyro = {255, 110, 50}, cryo = {160, 230, 255},
+}
+K.elementName = {anemo = '风', geo = '岩', electro = '雷', dendro = '草', hydro = '水', pyro = '火', cryo = '冰'}
+K.weaponName = {sword = '单手剑', claymore = '双手剑', polearm = '长柄武器', catalyst = '法器', bow = '弓'}
+
+K.en = {
+    raidenshogun = 'RAIDEN SHOGUN', furina = 'FURINA', zhongli = 'ZHONGLI', mavuika = 'MAVUIKA', nahida = 'NAHIDA',
+    venti = 'VENTI', kamisatoayaka = 'KAMISATO AYAKA', tartaglia = 'TARTAGLIA', aratakiitto = 'ARATAKI ITTO',
+    yaemiko = 'YAE MIKO', arlecchino = 'ARLECCHINO', wanderer = 'WANDERER', neuvillette = 'NEUVILLETTE',
+    clorinde = 'CLORINDE', navia = 'NAVIA', skirk = 'SKIRK',
+}
+K.title = {
+    raidenshogun = '永恒的雷光', furina = '不休的独舞', zhongli = '尘世闲游', mavuika = '燃烧的太阳', nahida = '白草净华',
+    venti = '风色诗人', kamisatoayaka = '白鹭霜华', tartaglia = '公子', aratakiitto = '花坂豪快', yaemiko = '浮世笑百姿',
+    arlecchino = '「仆人」', wanderer = '久世浮倾', neuvillette = '谕告的潮音', clorinde = '秉烛狝影', navia = '明花蔓舵',
+    skirk = '深渊的剑客',
+}
+
+return K
+end
+__loaders['gf_net'] = function()
+local Sim = require('gf_sim')
+
+local N = {}
+
+N.KIND = -7201
+N.F = {kind = 1, nonce = 2, seq = 3, match = 4, frameEnd = 5, adv = 6, hashFrame = 7, hash = 8,
+       lobby = 9, seed = 10, setup = 11, roster = 12, drop = 13, inputs = 14}
+N.LEN = 24
+N.BITS = 10                         -- U D L R LP HP SK BU DA TH
+N.PER_INT = 3                       -- 3 x 10 bits per int (30 bits)
+N.INPUT_INTS = N.LEN - N.F.inputs + 1
+N.WINDOW = N.INPUT_INTS * N.PER_INT -- frames of input redundancy per packet (33)
+N.HASH_EVERY = 60
+local MASK = (1 << N.BITS) - 1
+
+
+function N.packInputs(get, frameEnd)
+    local ints = {}
+    local first = frameEnd - N.WINDOW + 1
+    for k = 0, N.INPUT_INTS - 1 do
+        local v = 0
+        for j = 0, N.PER_INT - 1 do
+            local f = first + k * N.PER_INT + j
+            local b = f >= 1 and (get(f) or 0) or 0
+            v = v | ((b & MASK) << (N.BITS * j))
+        end
+        ints[k + 1] = v
+    end
+    return ints
+end
+
+function N.unpackInputs(list, frameEnd)
+    local out = {}
+    local first = frameEnd - N.WINDOW + 1
+    for k = 0, N.INPUT_INTS - 1 do
+        local v = math.tointeger(list[N.F.inputs + k]) or 0
+        for j = 0, N.PER_INT - 1 do
+            local f = first + k * N.PER_INT + j
+            if f >= 1 then out[f] = (v >> (N.BITS * j)) & MASK end
+        end
+    end
+    return out
+end
+
+
+function N.new(opts)
+    local me = opts.side
+    local n = {
+        state = Sim.new(opts.simOpts), onFrame = opts.onFrame, onConfirmed = opts.onConfirmed,
+        delay = opts.delay or 2, maxPredict = opts.maxPredict or 12,
+        me = me, them = 3 - me, inputs = {[1] = {}, [2] = {}}, last = {[1] = 0, [2] = 0}, used = {},
+        snaps = {}, confirmed = 0, rollbackFrom = nil, frame = 0,
+        myHash = {}, theirHash = {}, desync = nil, dropped = nil,
+        stats = {rollbacks = 0, resimFrames = 0, maxRollback = 0, stalls = 0},
+        remoteFrameEnd = 0, remoteAdv = 0,
+    }
+    n.snaps[0] = Sim.copy(n.state)
+    return n
+end
+
+function N.setLocalInput(n, mask)
+    local f = n.frame + 1 + n.delay
+    local list, last = n.inputs[n.me], n.last[n.me]
+    for g = last + 1, f - 1 do list[g] = list[last] or 0 end
+    if f > last then
+        list[f] = mask & MASK
+        n.last[n.me] = f
+    end
+end
+
+function N.dropRemote(n, from)
+    if n.dropped then return end
+    n.dropped = from
+    local list, last = n.inputs[n.them], n.last[n.them]
+    for f = last + 1, from - 1 do list[f] = list[last] or 0 end
+    n.last[n.them] = math.max(last, from - 1)
+end
+
+local function inputFor(n, side, f)
+    if side == n.them and n.dropped and f >= n.dropped then return 0, true end
+    local list = n.inputs[side]
+    local b = list[f]
+    if b ~= nil then return b, true end
+    return list[n.last[side]] or 0, false   -- prediction: hold the last known mask
+end
+
+function N.receive(n, frames, frameEnd, adv)
+    if frameEnd and frameEnd > n.remoteFrameEnd then
+        n.remoteFrameEnd, n.remoteAdv = frameEnd, adv or 0
+    end
+    local side = n.them
+    local list = n.inputs[side]
+    local f = n.last[side] + 1
+    while frames[f] ~= nil do
+        if n.dropped and f >= n.dropped then break end
+        list[f] = frames[f]
+        local u = n.used[f]
+        if u ~= nil and u ~= frames[f] and f <= n.frame then
+            if not n.rollbackFrom or f < n.rollbackFrom then n.rollbackFrom = f end
+        end
+        f = f + 1
+    end
+    n.last[side] = f - 1
+end
+
+local function stepFrame(n, f, resim)
+    local a = inputFor(n, 1, f)
+    local b = inputFor(n, 2, f)
+    n.used[f] = n.them == 1 and a or b
+    n.state:step(a, b)
+    n.frame = f
+    n.snaps[f] = Sim.copy(n.state)
+    n.snaps[f].events = n.state.events
+    if n.onFrame then n.onFrame(n.state, f, resim) end
+end
+
+local function updateConfirmed(n)
+    local c = n.frame
+    local l = n.dropped and math.huge or n.last[n.them]
+    if l < c then c = l end
+    if c > n.confirmed then
+        for f = n.confirmed + 1, c do
+            if n.onConfirmed and n.snaps[f] then n.onConfirmed(n.snaps[f],f) end
+            if f % N.HASH_EVERY == 0 and n.snaps[f] then
+                n.myHash[f] = n.snaps[f]:hash()
+                local theirs = n.theirHash[f]
+                if theirs and theirs ~= n.myHash[f] and not n.desync then n.desync = {frame = f} end
+                n.theirHash[f] = nil
+            end
+        end
+        for f = n.confirmed, c - 1 do
+            n.snaps[f] = nil
+            n.used[f] = nil
+        end
+        for f, _ in pairs(n.myHash) do if f < c - N.HASH_EVERY * 4 then n.myHash[f] = nil end end
+        local old = c - N.WINDOW * 3
+        if old > 0 then n.inputs[1][old], n.inputs[2][old] = nil, nil end
+        n.confirmed = c
+    end
+end
+
+function N.noteHash(n, f, h)
+    if not f or f <= 0 or not h then return end
+    local mine = n.myHash[f]
+    if mine then
+        if mine ~= h and not n.desync then n.desync = {frame = f} end
+    elseif f > n.confirmed - N.HASH_EVERY * 4 then
+        n.theirHash[f] = h
+    end
+end
+
+local function rollback(n)
+    local from = n.rollbackFrom
+    n.rollbackFrom = nil
+    if not from then return end
+    local target = n.frame
+    local base = n.snaps[from - 1]
+    if not base then return end      -- older than the confirmed window: cannot happen
+    n.state = Sim.copy(base)
+    n.frame = from - 1
+    local count = 0
+    while n.frame < target do
+        stepFrame(n, n.frame + 1, true)
+        count = count + 1
+    end
+    n.stats.rollbacks = n.stats.rollbacks + 1
+    n.stats.resimFrames = n.stats.resimFrames + count
+    if count > n.stats.maxRollback then n.stats.maxRollback = count end
+end
+
+function N.settle(n)
+    rollback(n)
+    updateConfirmed(n)
+end
+
+function N.advance(n)
+    rollback(n)
+    if n.frame - n.confirmed >= n.maxPredict then
+        n.stats.stalls = n.stats.stalls + 1
+        updateConfirmed(n)
+        return false
+    end
+    stepFrame(n, n.frame + 1, false)
+    updateConfirmed(n)
+    return true
+end
+
+function N.advantage(n)
+    if n.dropped then return 0 end
+    return math.max(0, n.frame - n.remoteFrameEnd)
+end
+
+function N.shouldWait(n)
+    if n.dropped then return false end
+    return (N.advantage(n) - n.remoteAdv) >= 3
+end
+
+function N.packet(n, header)
+    local p = {}
+    local F = N.F
+    local frameEnd = n.last[n.me]
+    p[F.kind] = N.KIND
+    p[F.nonce] = header.nonce or 0
+    p[F.seq] = header.seq or 0
+    p[F.match] = header.match or 0
+    p[F.frameEnd] = frameEnd
+    p[F.adv] = N.advantage(n)
+    local hf = 0
+    for f in pairs(n.myHash) do if f > hf then hf = f end end
+    p[F.hashFrame] = hf
+    p[F.hash] = hf > 0 and n.myHash[hf] or 0
+    p[F.lobby] = header.lobby or 0
+    p[F.seed] = header.seed or 0
+    p[F.setup] = header.setup or 0
+    p[F.roster] = header.roster or 0
+    p[F.drop] = header.drop or 0
+    local list = n.inputs[n.me]
+    local ints = N.packInputs(function(f) return list[f] end, frameEnd)
+    for k = 1, #ints do p[F.inputs + k - 1] = ints[k] end
+    return p
+end
+
+function N.ingest(n, pkt)
+    local F = N.F
+    if not pkt or #pkt < N.LEN or math.tointeger(pkt[F.kind]) ~= N.KIND then return end
+    local frameEnd = math.tointeger(pkt[F.frameEnd]) or 0
+    if frameEnd > 0 then
+        N.receive(n, N.unpackInputs(pkt, frameEnd), frameEnd, math.tointeger(pkt[F.adv]))
+    end
+    N.noteHash(n, math.tointeger(pkt[F.hashFrame]), math.tointeger(pkt[F.hash]))
+end
+
+return N
+end
+__loaders['gf_online'] = function()
+local N = require('gf_net')
+
+local O = {}
+O.VERSION = 2
+O.TIMEOUT = 4        -- seconds without a new packet before a peer counts as gone
+O.DROP_AFTER = 5     -- seconds of silence in a match before the host drops the peer
+O.LOBBY_HZ = 5
+O.SEND_EVERY = 2     -- ticks between input packets in a match (30 Hz)
+O.SLOTS = 8
+
+local F = N.F
+
+function O.lobbyWord(char, ready, selecting)
+    return (char & 31) | ((ready and 1 or 0) << 5) | ((selecting and 1 or 0) << 6) | (O.VERSION << 8)
+end
+
+function O.parseLobby(w)
+    w = math.tointeger(w) or 0
+    return {char = w & 31, ready = (w >> 5) & 1 == 1, selecting = (w >> 6) & 1 == 1, version = (w >> 8) & 15}
+end
+
+local TIMES = {[0] = 60, 99, 999}
+function O.setupWord(stage, rounds, time)
+    local tc = time == 60 and 0 or (time == 99 and 1 or 2)
+    return (stage & 15) | (((rounds - 1) & 3) << 4) | (tc << 6)
+end
+function O.parseSetup(w)
+    w = math.tointeger(w) or 0
+    return {stage = w & 15, rounds = ((w >> 4) & 3) + 1, time = TIMES[(w >> 6) & 3] or 99}
+end
+
+function O.rosterWord(sa, sb, ca, cb) return (sa & 15) | ((sb & 15) << 4) | ((ca & 31) << 8) | ((cb & 31) << 13) end
+function O.parseRoster(w)
+    w = math.tointeger(w) or 0
+    return {slots = {w & 15, (w >> 4) & 15}, chars = {(w >> 8) & 31, (w >> 13) & 31}}
+end
+
+function O.new(io)
+    return {
+        io = io, nonce = nil, slot = nil, seq = 0, sentAt = {}, rtt = nil, rttLast = nil,
+        present = {}, peers = {}, dirty = io.dirty or {}, lastForce = -1, lastLobbySend = 0,
+        me = {char = 1, ready = false}, host = {stage = 1, rounds = 2, time = 99},
+        match = nil, lastMatchId = 0, matchCounter = 0, sinceSend = 0,
+        stats = {sent = 0, recv = 0, echo = 0},
+    }
+end
+
+
+local function readInt(v)
+    return math.tointeger(v) or (type(v) == 'number' and math.floor(v)) or nil
+end
+
+function O.poll(o)
+    local io = o.io
+    local now = io.now()
+    local force = false
+    if now - o.lastForce >= 0.2 then o.lastForce, force = now, true end
+    local nonce = readInt(io.player('GF_NONCE'))
+    if nonce and nonce ~= 0 then o.nonce = nonce end
+    local slot = readInt(io.player('GF_SLOT'))
+    if slot and slot >= 1 and slot <= O.SLOTS then o.slot = slot end
+    local slots = io.level('GF_SLOTS')
+    if type(slots) == 'table' and readInt(slots[1]) == O.SLOTS then
+        for k = 1, O.SLOTS do o.present[k] = readInt(slots[k + 1]) == 1 end
+    end
+    for k = 1, O.SLOTS do
+        if force or o.dirty[k] ~= false then
+            o.dirty[k] = false
+            local pkt = io.level('GF_IN_' .. k)
+            if type(pkt) == 'table' and #pkt >= N.LEN and readInt(pkt[F.kind]) == N.KIND then
+                local seq = readInt(pkt[F.seq]) or 0
+                if k == o.slot then
+                    local t = o.sentAt[seq]
+                    if t and seq ~= o.lastEcho then
+                        o.lastEcho = seq
+                        local r = now - t
+                        o.rttLast = r
+                        o.rtt = o.rtt and (o.rtt * 0.8 + r * 0.2) or r
+                        o.stats.echo = o.stats.echo + 1
+                    end
+                else
+                    local peer = o.peers[k]
+                    if not peer or (readInt(pkt[F.nonce]) ~= peer.nonce) or seq > peer.seq then
+                        peer = peer or {}
+                        o.peers[k] = peer
+                        peer.nonce = readInt(pkt[F.nonce])
+                        peer.seq, peer.seen, peer.pkt = seq, now, pkt
+                        peer.lobby = O.parseLobby(pkt[F.lobby])
+                        peer.match = readInt(pkt[F.match]) or 0
+                        peer.seed = readInt(pkt[F.seed]) or 0
+                        peer.setup = readInt(pkt[F.setup]) or 0
+                        peer.roster = readInt(pkt[F.roster]) or 0
+                        peer.drop = readInt(pkt[F.drop]) or 0
+                        o.stats.recv = o.stats.recv + 1
+                        local m = o.match
+                        if m and m.session and peer.match == m.id and k == m.peerSlot then
+                            N.ingest(m.session, pkt)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function O.markDirty(o, k) o.dirty[k] = true end
+
+function O.alive(o, k, now)
+    if k == o.slot then return o.slot ~= nil end
+    local p = o.peers[k]
+    return p ~= nil and o.present[k] ~= false and (now - (p.seen or -99)) < O.TIMEOUT
+        and p.lobby and p.lobby.version == O.VERSION
+end
+
+function O.pair(o)
+    local now = o.io.now()
+    local a, b
+    for k = 1, O.SLOTS do
+        if O.alive(o, k, now) then
+            if not a then a = k elseif not b then b = k end
+        end
+    end
+    return a, b
+end
+
+function O.isHost(o)
+    local a = O.pair(o)
+    return o.slot ~= nil and a == o.slot
+end
+
+function O.opponent(o)
+    local a, b = O.pair(o)
+    if o.slot == a then return b elseif o.slot == b then return a end
+    return nil
+end
+
+
+function O.send(o, pkt)
+    if not o.nonce or not o.slot then return false end
+    o.seq = o.seq + 1
+    pkt[F.nonce], pkt[F.seq] = o.nonce, o.seq
+    o.sentAt[o.seq] = o.io.now()
+    o.sentAt[o.seq - 200] = nil
+    o.io.send(pkt)
+    o.stats.sent = o.stats.sent + 1
+    return true
+end
+
+local function header(o)
+    local h = {match = 0, setup = O.setupWord(o.host.stage,o.host.rounds,o.host.time), lobby = O.lobbyWord(o.me.char, o.me.ready, o.me.selecting)}
+    local m = o.match
+    if m then
+        h.match = m.id
+        if m.hosting then h.seed, h.setup, h.roster, h.drop = m.seed, m.setupWord, m.rosterWord, m.drop or 0 end
+    end
+    return h
+end
+
+local function emptyPacket(h)
+    local p = {}
+    for k = 1, N.LEN do p[k] = 0 end
+    p[F.kind] = N.KIND
+    p[F.match], p[F.lobby] = h.match or 0, h.lobby or 0
+    p[F.seed], p[F.setup], p[F.roster], p[F.drop] = h.seed or 0, h.setup or 0, h.roster or 0, h.drop or 0
+    return p
+end
+
+function O.lobbyTick(o)
+    local now = o.io.now()
+    if now - o.lastLobbySend >= 1 / O.LOBBY_HZ then
+        o.lastLobbySend = now
+        O.send(o, emptyPacket(header(o)))
+    end
+end
+
+
+function O.bothReady(o)
+    local opp = O.opponent(o)
+    return o.me.selecting and o.me.ready and opp ~= nil and o.peers[opp] and o.peers[opp].lobby.selecting and o.peers[opp].lobby.ready
+end
+
+local function startSession(o, id, rosterWord, setupWord, seed, hosting, onFrame, makeSimOpts)
+    local r = O.parseRoster(rosterWord)
+    local side = (r.slots[1] == o.slot) and 1 or 2
+    local setup = O.parseSetup(setupWord)
+    local simOpts = makeSimOpts(r.chars, setup, seed)
+    local session = N.new({simOpts = simOpts, side = side, delay = 2, maxPredict = 12, onFrame = onFrame})
+    o.match = {id = id, rosterWord = rosterWord, roster = r, setupWord = setupWord, setup = setup, seed = seed,
+               hosting = hosting, session = session, side = side, peerSlot = r.slots[3 - side],
+               startedAt = o.io.now(), drop = 0}
+    o.lastMatchId = id
+    o.sinceSend = 0
+    return o.match
+end
+
+function O.hostStart(o, onFrame, makeSimOpts)
+    if not O.isHost(o) then return nil, '只有房主可以开始' end
+    local opp = O.opponent(o)
+    if not opp then return nil, '等待对手加入' end
+    if not O.bothReady(o) then return nil, '对手还没准备' end
+    o.matchCounter = o.matchCounter + 1
+    local id = ((o.slot or 1) << 20) | ((math.floor(o.io.now() * 10) & 0xfff) << 8) | (o.matchCounter & 0xff)
+    if id == 0 then id = 1 end
+    local seed = math.floor((math.floor(o.io.now() * 1000) * 2654435761 + (o.nonce or 7)) % 2147483648)
+    local rw = O.rosterWord(o.slot, opp, o.me.char, math.max(1, o.peers[opp].lobby.char))
+    local sw = O.setupWord(o.host.stage, o.host.rounds, o.host.time)
+    return startSession(o, id, rw, sw, seed, true, onFrame, makeSimOpts)
+end
+
+function O.checkJoin(o, onFrame, makeSimOpts)
+    if o.match or not o.me.selecting or not o.me.ready then return nil end
+    local h = O.pair(o)
+    if not h or h == o.slot then return nil end
+    local peer = o.peers[h]
+    if not peer or peer.match == 0 or peer.match == o.lastMatchId then return nil end
+    local r = O.parseRoster(peer.roster)
+    if r.slots[2] ~= o.slot then return nil, 'spectating' end
+    return startSession(o, peer.match, peer.roster, peer.setup, peer.seed, false, onFrame, makeSimOpts)
+end
+
+function O.keepAlive(o)
+    local m = o.match
+    if not m then return O.lobbyTick(o) end
+    o.kaT = (o.kaT or 0) + 1
+    if o.kaT >= 6 then
+        o.kaT = 0
+        O.send(o, N.packet(m.session, header(o)))
+    end
+end
+
+function O.leaveMatch(o)
+    o.match = nil
+    o.me.ready = false
+end
+
+function O.matchStep(o, localMask)
+    local m = o.match
+    local n = m.session
+    local now = o.io.now()
+    local ran = false
+    local p = o.peers[m.peerSlot]
+    if not m.synced and p and p.match == m.id then m.synced = true end
+    if not m.synced then
+        o.sinceSend = o.sinceSend + 1
+        if o.sinceSend >= O.SEND_EVERY then o.sinceSend = 0; O.send(o, N.packet(n, header(o))) end
+        return false
+    end
+    if N.shouldWait(n) then
+        m.waits = (m.waits or 0) + 1
+        N.settle(n)
+    else
+        N.setLocalInput(n, localMask)
+        ran = N.advance(n)
+    end
+    o.sinceSend = o.sinceSend + 1
+    if o.sinceSend >= O.SEND_EVERY then
+        o.sinceSend = 0
+        O.send(o, N.packet(n, header(o)))
+    end
+    if m.hosting then
+        if not n.dropped and now - m.startedAt > O.DROP_AFTER and (not p or now - (p.seen or 0) > O.DROP_AFTER) then
+            local from = math.max(n.confirmed + 1, n.last[n.them] + 1)
+            N.dropRemote(n, from)
+            m.drop = from
+        end
+    elseif p and p.match == m.id and p.drop ~= 0 and not n.dropped then
+        N.dropRemote(n, p.drop)
+    end
+    return ran
+end
+
+function O.hostLost(o)
+    local m = o.match
+    if not m or m.hosting then return false end
+    local p = o.peers[m.peerSlot]
+    return (not p) or (o.io.now() - (p.seen or 0) > O.DROP_AFTER + 2)
+end
+
+function O.peerGone(o)
+    local m = o.match
+    return m and m.session.dropped ~= nil
+end
+
+return O
+end
+__loaders['gf_paint'] = function()
+local G = require('gf_gfx')
+local U = require('gf_util')
+
+local P = {}
+P.__index = P
+
+local list = require('gf_bglist')
+P.available = {}
+for _, k in ipairs(list) do P.available[k] = true end
+
+function P.new(parent, key, part, limit)
+    local data = require('gf_bg_' .. key)
+    local src = part == 'ground' and data.ground or data
+    if not src then return nil end
+    local self = setmetatable({key = key, data = data, src = src, i = 0, nodes = {}, done = false}, P)
+    self.group = G.group(parent)
+    self.n = math.min(src.n, limit or src.n)
+    self.bytes = nil
+    self.w, self.h = src.w, src.h
+    local bg = src.bg
+    local base
+    if part == 'ground' then
+        base = G.image(self.group, G.ELLIPSE)
+        base:pos(0, -src.h * 0.55):size(src.w * 4, src.h * 2.3):color(bg[1], bg[2], bg[3], 255):soft(0.3):on(true)
+    else
+        base = G.image(self.group, G.RECT)
+        base:pos(0, 0):size(src.w * 1.6, src.h * 1.6):color(bg[1], bg[2], bg[3], 255):on(true)
+    end
+    self.nodes[1] = base
+    return self
+end
+
+function P:step(budget)
+    if self.done then return true end
+    if not self.bytes then
+        self.dec = self.dec or U.decoder(self.src.d)
+        if not self.dec:step(budget * 40) then return false end
+        self.bytes, self.dec = self.dec.bytes, nil
+        return false
+    end
+    local b = self.bytes
+    local stop = math.min(self.n, self.i + budget)
+    for k = self.i + 1, stop do
+        local o = (k - 1) * 12
+        local b1, b2, b3, b4, b5, b6 = b[o + 1], b[o + 2], b[o + 3], b[o + 4], b[o + 5], b[o + 6]
+        local x = ((b1 << 4) | (b2 >> 4)) - 2048
+        local y = (((b2 & 15) << 8) | b3) - 2048
+        local w = (b4 << 4) | (b5 >> 4)
+        local h = ((b5 & 15) << 8) | b6
+        local rk = (b[o + 7] << 8) | b[o + 8]
+        local node = G.image(self.group, (rk & 1) == 1 and G.ELLIPSE or G.RECT)
+        node:pos(x, y):size(w, h):rot(rk >> 1):color(b[o + 9], b[o + 10], b[o + 11], b[o + 12]):on(true)
+        self.nodes[#self.nodes + 1] = node
+    end
+    self.i = stop
+    if stop >= self.n then
+        self.done = true
+        self.bytes = nil
+        return true
+    end
+    return false
+end
+
+function P:free(later)
+    if later then
+        self.group:on(false)
+        G.releaseLater(self.group)
+        for _, n in ipairs(self.nodes) do G.releaseLater(n) end
+        self.nodes = {}
+        return
+    end
+    for _, n in ipairs(self.nodes) do G.release(n) end
+    self.nodes = {}
+    G.release(self.group)
+end
+
+return P
+end
+__loaders['gf_roster'] = function()
+return {
+{key='raidenshogun',name='雷电将军',element='electro',weapon='polearm',attack='源流',skill='神变·恶曜开眼',burst='奥义·梦想真说',h=336},
+{key='nahida',name='纳西妲',element='dendro',weapon='catalyst',attack='行相',skill='所闻遍计',burst='心景幻成',h=261},
+}
+end
+__loaders['gf_scene_fight'] = function()
+
+-- The fight: loads stage + both fighters over a few frames behind a curtain, then runs the
+-- simulation at 60 Hz and turns its events into effects, sound, camera and announcements.
+--
+-- args: {chars = {key1, key2}, mode = 'arcade' | 'versus' | 'cpu' | 'training' | 'demo' | 'online',
+--        cpu = {false|level, false|level}, stage = key, arcade = {...state for the ladder}}
+-- online: the match session (gf_online / gf_net) owns the simulation; this scene feeds it the
+-- local input each tick, re-binds the views after a rollback and plays each event once.
+local G = require('gf_gfx')
+local Art = require('gf_art')
+local K = require('gf_kits')
+local U = require('gf_util')
+local Sim = require('gf_sim')
+local AI = require('gf_ai')
+local FView = require('gf_fview')
+local FX = require('gf_fx')
+local Hud = require('gf_hud')
+local Stage = require('gf_stage')
+local UI = require('gf_ui')
+local Online = require('gf_online')
+
+local S = {}
+S.__index = S
+
+local C = Sim.C
+
+function S.new(app, args)
+    local self = setmetatable({app = app, args = args, state = 'load', t = 0, shake = 0, shakeT = 0, zoomPunch = 0,
+                               camX = 0, zoom = 1, slow = 0, banners = {}, paused = false, endT = 0}, S)
+    local L = app.layers
+    app:dropBackdrop()
+    self.mode = args.mode or 'versus'
+    self.tier = app.quality == 'lo' and 'lo' or 'hi'
+    local chars = {Art.byKey[args.chars[1]], Art.byKey[args.chars[2]]}
+    self.chars = chars
+    self.stageKey = args.stage or Stage.order[1]
+    local net = args.online and app.net
+    if net and net.match then
+        -- online: the session's state is the simulation; events come through onNetFrame
+        self.online = net
+        app.audio.lastEvent = {}
+        self.side = net.match.side
+        self.sim = net.match.session.state
+        self.seenEv, self.netEvents = {}, {}
+        net.onFrame = nil
+        net.match.session.onConfirmed = function(state,f)
+            if #state.events>0 or (self.stage and self.stage.L.lightning and state.tick%420==200) then self.netEvents[#self.netEvents+1]={state=state,frame=f} end
+        end
+    else
+        self.sim = Sim.new({chars = chars, rounds = args.rounds or app.settings.rounds, time = args.time or app.settings.time,
+                            seed = args.seed or (math.floor(app.t * 1000) % 100000 + 7), training = self.mode == 'training',
+                            infinite = args.infinite})
+    end
+    -- loading curtain
+    self.curtain = G.layer(L.curtain)
+    -- groups
+    self.stage = Stage.new(app, L.back, self.mode == 'training' and 'training' or self.stageKey)
+    self.worldG = G.group(L.world)
+    self.lay = {shadow = G.group(self.worldG), ghost = G.group(self.worldG), body = G.group(self.worldG),
+                proj = G.group(self.worldG), fx = G.group(self.worldG)}
+    self.prep = {Art.prepare(chars[1].key, self.tier), Art.prepare(chars[2].key, self.tier)}
+    self.loadStep = 0
+    return self
+end
+
+------------------------------------------------------------------ loading
+function S:loadTick()
+    self.loadStep = self.loadStep + 1
+    local app = self.app
+    local done = true
+    for _, j in ipairs(self.prep) do
+        if not j:step(9000) then done = false end
+    end
+    if not self.stage:buildStep(160) then done = false end
+    if done and not self.views then
+        self.views = {FView.new(app, self.lay, self.sim.f[1], self.tier), FView.new(app, self.lay, self.sim.f[2], self.tier)}
+        self.fx = FX.new(app, self.lay.fx, app.layers.top, 220, 30, 18)
+        for _, v in ipairs(self.views) do v.fx = self.fx end
+        self.projL = G.layer(self.lay.proj)
+        self.hud = Hud.new(app, app.layers.hud, self.sim)
+        self.annL = G.layer(app.layers.top)
+        self.burstBg = G.layer(app.layers.back)
+        self.burstEye=G.bitmap(app.layers.back);self.burstEye.node:on(false)
+        self:touchControls()
+        self.cut = {L = G.layer(app.layers.top), bmp = G.bitmap(app.layers.top)}
+        self.cut.bmp.node:on(false)
+        self.warm = 0
+        return false
+    end
+    if self.views then
+        -- warm-up: write the first poses of both fighters before showing the fight
+        self.warm = self.warm + 1
+        for _, v in ipairs(self.views) do v:draw(900) end
+        self:camera(true)
+        if self.warm >= 4 then
+            self:setupAI()
+            self.state = 'run'
+            self:curtainOpen()
+            return true
+        end
+    end
+    return false
+end
+
+-- phones (or the touch setting) get on-screen controls for player 1
+function S:touchControls()
+    local app = self.app
+    local want = app.settings.touch == 'on' or (app.settings.touch == 'auto' and app.input:device() == 'touch')
+    if self.mode == 'demo' then return end
+    if not want then self.hud:bindSkillButtons(self.side or 1); return end
+    if self.touch then self.touch:layout() return end
+    self.hud.compact = true
+    self.touch = require('gf_touch').new(app, app.layers.top, self.sim.f[self.side or 1], function() if not self.paused then self:openPause() end end)
+end
+
+function S:setupAI()
+    local cpu = (not self.online) and self.args.cpu or {}
+    self.ai = {}
+    for i = 1, 2 do
+        if cpu[i] then self.ai[i] = AI.new(self.sim, i, cpu[i], 97 + i * 31) end
+    end
+end
+
+function S:curtainDraw(a)
+    local app = self.app
+    local L = self.curtain
+    L:begin()
+    if a > 0.01 then
+        L:rect(0, 0, app.W + 40, app.H + 40, {6, 8, 16}, a)
+        local c1, c2 = self.chars[1], self.chars[2]
+        local k = self.loadStep
+        local dots = ('.'):rep(1 + (k // 10) % 3)
+        L:label('载入中' .. dots, 0, -app.H / 2 + 90, 400, 40, 26, UI.GOLD2, 'c', nil, a)
+        -- spinning element diamond
+        local ec = K.elementColor[c1.element]
+        L:shape(G.RECT, 0, -app.H / 2 + 150, 30, 30, ec, a, k * 6)
+        L:shape(G.RECT, 0, -app.H / 2 + 150, 30, 30, K.elementColor[c2.element], a * 0.7, -k * 6)
+    end
+    L:finish()
+end
+
+function S:curtainOpen() self.curtainA = 1 end
+
+------------------------------------------------------------------ inputs
+function S:inputs()
+    local app = self.app
+    local sim = self.sim
+    local ins = {0, 0}
+    for i = 1, 2 do
+        if self.ai[i] then
+            ins[i] = self.ai[i]:tick()
+        else
+            local pad = app.input:pad(i)
+            ins[i] = pad.now or 0
+            -- single human vs CPU: the controller / P2 keys also drive P1
+            if i == 1 and self.ai[2] then ins[i] = ins[i] | (app.input:pad(2).now or 0) end
+        end
+    end
+    if self.mode == 'training' then
+        local d = self.dummy or 'stand'
+        local p2 = sim.f[2]
+        local away = (p2.foe.x > p2.x) and Sim.B.L or Sim.B.R
+        if d == 'block' then ins[2] = away
+        elseif d == 'crouch' then ins[2] = Sim.B.D
+        elseif d == 'cblock' then ins[2] = away | Sim.B.D
+        elseif d == 'jump' then ins[2] = (sim.tick % 60 < 2) and Sim.B.U or 0
+        elseif d == 'cpu' then ins[2] = self.ai[2] and ins[2] or 0
+        else ins[2] = 0 end
+    end
+    return ins[1], ins[2]
+end
+
+------------------------------------------------------------------ events
+local REACT_COL = {vaporize = {255, 150, 80}, melt = {255, 170, 120}, overload = {255, 120, 200}, frozen = {170, 235, 255},
+                   electro = {200, 140, 255}, superconduct = {180, 170, 255}, swirl = {120, 255, 220}, crystal = {255, 210, 90},
+                   bloom = {120, 230, 120}, aggravate = {190, 120, 255}, burning = {255, 110, 60}}
+
+-- Online effects and sound are dispatched from confirmed snapshots in netTick.
+
+-- after a rollback the session holds a new state table: point everything at it
+function S:rebind(st)
+    self.sim = st
+    if self.views then for i, v in ipairs(self.views) do v.f = st.f[i] end end
+    if self.hud then self.hud.sim = st end
+    if self.touch then self.touch.f = st.f[self.side or 1] end
+end
+
+function S:events(list)
+    local app, sim, fx = self.app, self.sim, self.fx
+    local au = app.audio
+    for _, e in ipairs(list or sim.events) do
+        local ty = e.type
+        if ty == 'hit' then
+            local a, d = sim.f[e.by], sim.f[e.p]
+            local x, y = e.x / C, e.y / C
+            fx:hitSpark(x, y, e.element, e.heavy or e.kind == 'skill', a.face, e.kind)
+            if e.kind ~= 'throw' and a.move and a.move.fx and e.kind ~= 'skill' and e.kind ~= 'burst' then
+                -- no extra arc on hit (the swing already drew it)
+            end
+            self.views[e.p]:onHit(e)
+            self.hud:onHit(e)
+            fx:number(x, y + 60, e.dmg, e.element, e.heavy or e.kind=='burst', nil, e.kind=='burst' and 1.3 or nil)
+            self:addShake(e.shake or 3)
+            if e.heavy or e.kind == 'burst' then self.zoomPunch = math.max(self.zoomPunch, e.kind == 'burst' and 0.06 or 0.035) end
+            if e.kind == 'burst' then au:hit(e.element, 'boom')
+            elseif e.kind == 'skill' then au:hit(e.element, 'elem')
+            elseif a.weapon == 'claymore' or a.weapon == 'polearm' then au:play(e.heavy and au.ID.blunt or au.ID.blade)
+            elseif a.weapon == 'catalyst' then au:hit(e.element, 'elem')
+            else au:play(e.heavy and au.ID.punch[2] or au.ID.punch[1]) end
+        elseif ty == 'block' then
+            local d = sim.f[e.p]
+            fx:blockSpark(e.x / C, e.y / C, -d.face, e.heavy)
+            self.views[e.p]:onBlock()
+            au:play(au.ID.guard)
+            self:addShake(e.heavy and 3 or 1)
+        elseif ty == 'armor' then
+            fx:blockSpark(e.x / C, e.y / C, 0, true)
+            fx:number(e.x / C, e.y / C + 60, '霸体', 'geo', true, '霸体')
+            au:play(au.ID.shield)
+        elseif ty == 'swing' then
+            local p = sim.f[e.p]
+            local m = p.airMove or p.move
+            if m and m.fx then
+                self.pendingArc = self.pendingArc or {}
+                self.pendingArc[#self.pendingArc + 1] = {p = p, m = m, at = (m.startup or 5)}
+            end
+            au:swing(e.weapon, e.heavy)
+        elseif ty == 'skill' then
+            local p = sim.f[e.p]
+            local ec = K.elementColor[p.element]
+            if p.key~='nahida' then
+            fx:spawn(fx.world, {shape = G.RING, x = p.x / C, y = p.y / C + 160, w = 80, col = ec, a = 1, to = {s = 6, a = 0}, dur = 0.35})
+            fx:spawn(fx.world, {shape = G.STAR4, x = p.x / C, y = p.y / C + 170, w = 140, col = {255, 255, 255}, a = 1, to = {s = 0.1, rot = 180, a = 0}, dur = 0.3})
+            end
+            au:play(au.ID.ecast[p.element])
+            self:announceSmall(e.p, p.char.skill, ec)
+        elseif ty == 'skillActive' then
+            local p = sim.f[e.p]
+            self:skillFx(p, e)
+        elseif ty == 'burst' then
+            self:burstStart(e)
+        elseif ty == 'burstActive' then
+            self:burstHitFx(e)
+        elseif ty == 'reaction' then
+            local col = REACT_COL[e.r] or {255, 255, 255}
+            fx:number(e.x / C, e.y / C + 90, 0, 'anemo', true, K.reactionName[e.r] .. '！')
+            local tn = fx.text.txt[fx.text.i]
+            tn:color(col[1], col[2], col[3], 255)
+            fx:spawn(fx.world, {shape = G.RING, x = e.x / C, y = e.y / C, w = 120, col = col, a = 1, to = {s = 5, a = 0}, dur = 0.45})
+            fx:spawn(fx.world, {shape = G.ELLIPSE, x = e.x / C, y = e.y / C, w = 160, col = col, a = 0.8, soft = 0.5, to = {s = 2.5, a = 0}, dur = 0.4})
+            au:play(au.ID.eboom[sim.f[e.by].element])
+            self:addShake(5)
+        elseif ty == 'dot' then
+            fx:number(e.x / C, e.y / C, e.dmg, sim.f[e.p].foe.element, false)
+        elseif ty == 'shieldHit' then
+            fx:spawn(fx.world, {shape = G.RING, x = e.x / C, y = e.y / C, w = 160, h = 220, col = {255, 210, 90}, a = 1, to = {s = 1.3, a = 0}, dur = 0.25})
+        elseif ty == 'clash' then
+            fx:hitSpark(e.x / C, e.y / C, 'geo', true, 1)
+            au:play(au.ID.parry)
+        elseif ty == 'throw' then
+            au:play(au.ID.dash)
+        elseif ty == 'dash' then
+            local p = sim.f[e.p]
+            fx:dust(p.x / C, 0, false)
+            fx:wind(p.x / C, p.y / C, e.back and -p.face or p.face, p.element)
+            au:play(au.ID.dash)
+        elseif ty == 'jump' then
+            local p = sim.f[e.p]
+            fx:dust(p.x / C, 0, false)
+            au:play(au.ID.jump)
+        elseif ty == 'land' then
+            fx:dust(e.x / C, 0, e.hard)
+            if e.hard then self:addShake(4); au:play(au.ID.fall) else au:play(au.ID.land) end
+        elseif ty == 'ko' then
+            self:koFx(e)
+        elseif ty == 'announce' then
+            if e.what == 'round' then self:announceRound(e.round) else self:announceFight() end
+        elseif ty == 'roundEnd' then
+            G.requestImageRetirement()
+            self:roundEndFx(e)
+        elseif ty == 'victoryPose' then
+            if e.p then self:announceWinner(e.p) end
+        elseif ty == 'matchEnd' then
+            G.requestImageRetirement()
+            self.endT = 150
+            self.winner = e.winner
+        elseif ty == 'second' then
+            if e.left <= 5 and e.left > 0 then au:play(au.ID.tick) end
+        end
+    end
+end
+
+function S:addShake(n)
+    if not self.app.settings.shake then n = math.min(n, 2) end
+    self.shake = math.max(self.shake, n)
+end
+
+-- arcs appear at the first active frame of the swing
+function S:arcs()
+    local list = self.pendingArc
+    if not list then return end
+    for i = #list, 1, -1 do
+        local a = list[i]
+        local p = a.p
+        local m = p.airMove or p.move
+        local t = p.airMove and (p.airT or 0) or p.t
+        if m ~= a.m then table.remove(list, i)
+        elseif t >= a.at then
+            self.fx:slash(p.x / C, p.y / C, p.face, m.fx, p.element, p.kit.weapon.reach or 1)
+            table.remove(list, i)
+        end
+    end
+end
+
+function S:skillFx(p, e)
+    local fx = self.fx
+    local ec = K.elementColor[p.element]
+    local x, y = p.x / C, p.y / C
+    if e.style == 'rising' then
+        for i = 1, 6 do
+            local ang = math.rad(60 * i)
+            fx:spawn(fx.world, {shape = G.TRI, x = x + math.cos(ang) * 60, y = y + 40, w = 50, h = 160, rot = 60 * i - 90, col = ec, a = 0.9,
+                                to = {y = y + 300, a = 0, s = 0.4}, dur = 0.4})
+        end
+        fx:spawn(fx.world, {shape = G.ELLIPSE, x = x, y = y + 20, w = 320, h = 80, col = ec, a = 0.8, soft = 0.4, to = {s = 1.8, a = 0}, dur = 0.45})
+    elseif e.style == 'rush' then
+        fx:wind(x, y, p.face, p.element)
+        fx:spawn(fx.world, {shape = G.ELLIPSE, x = x + p.face * 120, y = y + 150, w = 360, h = 160, col = ec, a = 0.7, soft = 0.5,
+                            to = {x = x + p.face * 520, a = 0}, dur = 0.3})
+    elseif e.style == 'pillar' then
+        fx:dust(x + p.face * 200, 0, true)
+    end
+end
+
+------------------------------------------------------------------ bursts (cinematic)
+function S:burstStart(e)
+    local app, fx = self.app, self.fx
+    local p = self.sim.f[e.p]
+    local ec = K.elementColor[p.element]
+    self.banners={};self.annL:clear()
+    self.cine = {p = e.p, t = 0, ec = ec, name = p.char.burst, char = p.char}
+    fx:flash(ec, 0.6, 0.25)
+    fx:speedLines(ec, 22, 0.8)
+    app.audio:play(app.audio.ID.ecircle[p.element])
+    app.audio:play(app.audio.ID.shock)
+    -- portrait cut-in
+    local img = Art.portrait(p.char.key)
+    local bmp = self.cut.bmp
+    bmp:drawMany({{img = img, ox = 0, oy = 0, s = 5.2}})
+    local side = (e.p == 1) and -1 or 1
+    bmp.node:stop()
+    bmp.node:pos(side * (app.W / 2 + 300), -40):scale(1, 1):on(true)
+    bmp.node:front()
+    bmp.node:tween({anchoredPositionX = side * (app.W / 2 - 330)}, 0.28, 'OutCubic')
+    self.zoomPunch = p.key=='raidenshogun' and 0 or 0.12
+end
+
+function S:cineDraw()
+    local c = self.cine
+    local L = self.cut.L
+    L:begin()
+    if c then
+        local app = self.app
+        c.t = c.t + 1
+        local fz = self.sim.freeze
+        local a = U.clamp(math.min(c.t / 6, fz / 8), 0, 1)
+        if fz <= 0 then a = 0 end
+        local side = (c.p == 1) and -1 or 1
+        L:rect(0, 0, app.W + 40, app.H + 40, {4, 4, 12}, 0.72 * a)
+        -- diagonal banner
+        local k = U.ease.outCubic(U.clamp(c.t / 14, 0, 1))
+        local bx = -side * (1 - k) * app.W
+        L:rect(bx, -40, app.W * 1.6, 230, c.ec, 0.85 * a, -8 * side)
+        L:rect(bx, -40, app.W * 1.6, 200, {10, 10, 24}, 0.75 * a, -8 * side)
+        L:rect(bx, 40, app.W * 1.6, 6, {255, 255, 255}, 0.8 * a, -8 * side)
+        L:rect(bx, -120, app.W * 1.6, 6, {255, 255, 255}, 0.8 * a, -8 * side)
+        -- burst name
+        local nx = -side * 140 + bx * 0.4
+        L:label('元素爆发', nx, 30, 400, 40, 24, c.ec, 'c', {0, 0, 0}, a)
+        L:label(c.name, nx, -40, 900, 110, 64, {255, 255, 255}, 'c', {c.ec[1] // 3, c.ec[2] // 3, c.ec[3] // 3}, a)
+        L:label(c.char.name, nx, -100, 400, 40, 26, {255, 236, 190}, 'c', {0, 0, 0}, a)
+        if fz <= 0 and c.t > 4 then
+            self.cine = nil
+            self.cut.bmp.node:stop()
+            self.cut.bmp.node:on(false)
+        end
+    end
+    L:finish()
+end
+
+function S:burstHitFx(e)
+    local fx = self.fx
+    local p = self.sim.f[e.p]
+    local ec = K.elementColor[p.element]
+    local x, y = p.x / C, p.y / C
+    fx:flash({255, 255, 255}, 0.7, 0.2)
+    self:addShake(14)
+    if e.style == 'aoe' or e.style == 'rain' then
+        for i = 1, 3 do
+            fx:spawn(fx.world, {shape = G.RING, x = x, y = y + 160, w = 120, col = i == 2 and {255, 255, 255} or ec, a = 1,
+                                to = {s = 9 + i * 2, a = 0}, dur = 0.5 + i * 0.12})
+        end
+        fx:spawn(fx.world, {shape = G.ELLIPSE, x = x, y = y + 160, w = 400, col = ec, a = 0.8, soft = 0.5, to = {s = 4, a = 0}, dur = 0.6})
+        if e.style == 'rain' then
+            local tx = p.foe.x / C
+            for i = 1, 8 do
+                local ox = (fx:rand() - 0.5) * 500
+                fx:spawn(fx.world, {shape = G.RECT, x = tx + ox, y = 900, w = 30, h = 260, col = ec, a = 1, to = {y = 100, a = 0}, dur = 0.25 + i * 0.05, ease = 'InQuad'})
+            end
+        end
+    elseif e.style == 'beam' then
+        fx:spawn(fx.world, {shape = G.RECT, x = x + p.face * 600, y = y + 160, w = 1300, h = 160, col = ec, a = 0.95,
+                            to = {sy = 0.05, a = 0}, dur = 0.7, ease = 'InQuad'})
+        fx:spawn(fx.world, {shape = G.RECT, x = x + p.face * 600, y = y + 160, w = 1300, h = 50, col = {255, 255, 255}, a = 1,
+                            to = {sy = 0.05, a = 0}, dur = 0.6, ease = 'InQuad'})
+    elseif e.style == 'rush' then
+        fx:speedLines(ec, 14, 0.4)
+    end
+end
+
+------------------------------------------------------------------ announcements
+function S:banner(text, sub, col, life, size, y)
+    -- Round / fight / KO / victory share one announcement slot.
+    -- Replace immediately: animation age is render-frame based, simulation advances independently.
+    self.annL:clear()
+    self.banners = {}; self.bannerNext=nil
+    self.banners[1] = {text = text, sub = sub, col = col or UI.GOLD2, t = 0, life = life or 70, size = size or 120, y = y or 60}
+end
+
+function S:announceRound(n)
+    self.smalls=nil;self.cine=nil;self.cut.L:clear();self.cut.bmp.node:on(false)
+    local CN = {'一', '二', '三', '四', '五', '六', '七', '八', '九'}
+    local final = self.sim.f[1].wins == self.sim.winsNeeded - 1 and self.sim.f[2].wins == self.sim.winsNeeded - 1
+    self:banner(final and '决胜局' or ('第' .. (CN[n] or n) .. '回合'), final and 'FINAL ROUND' or ('ROUND ' .. n), UI.GOLD2, 80, 104)
+    self.app.audio:play(self.app.audio.ID.bell)
+end
+
+function S:announceFight()
+    self:banner('开战！', 'FIGHT', {255, 120, 90}, 50, 150)
+    self.fx:flash({255, 240, 210}, 0.35, 0.2)
+    self.app.audio:play(self.app.audio.ID.okBig)
+end
+
+function S:announceSmall(p, text, col)
+    self.smalls = self.smalls or {}
+    self.smalls[p] = {text = text, col = col, t = 0}
+end
+
+function S:koFx(e)
+    local fx, app = self.fx, self.app
+    fx:flash({255, 255, 255}, 0.95, 0.4)
+    fx:speedLines({255, 255, 255}, 26, 0.9)
+    for i = 1, 3 do
+        fx:spawn(fx.world, {shape = G.RING, x = e.x / C, y = e.y / C, w = 100, col = i == 2 and {255, 80, 80} or {255, 255, 255}, a = 1,
+                            to = {s = 10 + i * 3, a = 0}, dur = 0.6 + i * 0.15})
+    end
+    self:addShake(18)
+    self.zoomPunch = 0.14
+    app.audio:play(app.audio.ID.eboom.pyro)
+    app.audio:play(app.audio.ID.heart)
+end
+
+function S:roundEndFx(e)
+    self.smalls=nil
+    if e.reason == 'time' then self:banner('时间到', 'TIME UP', {255, 220, 140}, 90, 110)
+    elseif e.reason == 'double' then self:banner('双败', 'DOUBLE K.O.', {255, 90, 90}, 90, 120)
+    else self:banner('K.O.', e.perfect and 'PERFECT' or nil, {255, 70, 70}, 110, 170) end
+end
+
+function S:announceWinner(p)
+    local f = self.sim.f[p]
+    self:banner(f.char.name .. ' 胜', f.hp == f.maxhp and '完美胜利 · PERFECT' or 'WIN', K.elementColor[f.element], 100, 96, nil, true)
+end
+
+function S:drawBanners()
+    if #self.banners==0 and self.bannerNext then
+        self.banners={self.bannerNext};self.bannerNext=nil
+    end
+    local L = self.annL
+    L:begin()
+    for i = #self.banners, 1, -1 do
+        local b = self.banners[i]
+        b.t = b.t + 1
+        local t = b.t
+        if t > b.life then table.remove(self.banners, i)
+        else
+            -- Genshin-style title card with a fighting-game punch: soft dark band, thin cream
+            -- rules with diamonds, small caps sub line above, big text slamming in with an
+            -- afterimage and a light sweep
+            local W = self.app.W
+            local inK = U.ease.outBack(U.clamp(t / 10, 0, 1))
+            local lineK = U.ease.outCubic(U.clamp((t - 3) / 14, 0, 1))
+            local outK = U.clamp((b.life - t) / 10, 0, 1)
+            local a = math.min(U.clamp(t / 4, 0, 1), outK)
+            local s = (1.9 - 0.9 * inK) * (1 + (1 - outK) * 0.25)
+            local y = b.y
+            local hs = b.size * 0.55
+            L:shape(G.ELLIPSE, 0, y, W * 1.3, b.size * 2.6, {6, 8, 18}, 0.62 * a, 0, 0.5)
+            L:shape(G.ELLIPSE, 0, y, W * 0.7, b.size * 1.4, b.col, 0.16 * a, 0, 0.5)
+            -- light sweep
+            local sw = U.clamp(t / 22, 0, 1)
+            L:rect(-W * 0.6 + sw * W * 1.2, y, 90, b.size * 2.2, {255, 255, 255}, (1 - sw) * 0.35 * a, -14)
+            -- rules + diamonds
+            local lw = 980 * lineK
+            local ty, by = y + hs + 50, y - hs - 22
+            for _, ly in ipairs({ty, by}) do
+                L:rect(0, ly, lw, 2, UI.CREAM, 0.85 * a)
+                L:shape(G.RECT, -lw / 2 - 8, ly, 9, 9, UI.CREAM, a, 45)
+                L:shape(G.RECT, lw / 2 + 8, ly, 9, 9, UI.CREAM, a, 45)
+            end
+            L:shape(G.RECT, 0, by, 16, 16, b.col, a * lineK, 45)
+            L:shape(G.RECT, 0, by, 8, 8, UI.WHITE, a * lineK, 45)
+            L:shape(G.STAR4, -lw / 2 - 30, ty, 26, 26, UI.WHITE, a * lineK, t * 6)
+            L:shape(G.STAR4, lw / 2 + 30, by, 26, 26, UI.WHITE, a * lineK, -t * 6)
+            -- One title glyph layer; no text afterimage.
+            local n = L:label(b.text, 0, y + 6, 1400, b.size * 1.4, b.size, b.col, 'c', U.mix(b.col, {12, 8, 20}, 0.82), a)
+            n:scale(n.sx * s, n.sy * s)
+            L:label(b.sub or '', 0, y + hs + 22, 800, 34, 24, UI.CREAM, 'c', {0, 0, 0, 180}, b.sub and a * lineK or 0)
+        end
+    end
+    -- skill names under the casters
+    if self.smalls then
+        for p, s in pairs(self.smalls) do
+            s.t = s.t + 1
+            if s.t > 70 then self.smalls[p] = nil
+            else
+                local f = self.sim.f[p]
+                local sx = (f.x / C - self.camX) * self.zoom
+                local a = U.clamp(math.min(s.t / 5, (70 - s.t) / 10), 0, 1)
+                L:label(s.text, sx, self.floorY + 360 * self.zoom, 420, 40, 26, s.col, 'c', {10, 6, 20}, a)
+            end
+        end
+    end
+    L:finish()
+end
+
+------------------------------------------------------------------ camera
+function S:camera(snap)
+    local app, sim = self.app, self.sim
+    local a, b = sim.f[1], sim.f[2]
+    local x1, x2 = a.x / C, b.x / C
+    local mid = (x1 + x2) / 2
+    local dist = math.abs(x2 - x1)
+    local W = app.W
+    local zoom = U.clamp((W - 520) / math.max(dist, 300), 0.78, 1.12)
+    if self.cine and self.cine.char.key~='raidenshogun' then
+        local p = sim.f[self.cine.p]
+        mid = p.x / C
+        zoom = 1.25
+    end
+    zoom = zoom + self.zoomPunch
+    self.zoomPunch = self.zoomPunch * 0.85
+    -- keep the view inside the stage
+    local half = W / 2 / zoom
+    local lim = Sim.WALL / C + 180
+    mid = U.clamp(mid, -lim + half, lim - half)
+    if half > lim then mid = 0 end
+    if snap then self.camX, self.zoom = mid, zoom
+    else
+        self.camX = self.camX + (mid - self.camX) * 0.18
+        self.zoom = self.zoom + (zoom - self.zoom) * 0.12
+    end
+    -- highest fighter: lift the camera a little
+    local hy = math.max(a.y, b.y) / C
+    local lift = U.clamp(hy - 220, 0, 260) * 0.45
+    local sx, sy = 0, 0
+    if self.shake > 0 then
+        local s = self.shake
+        sx = ((self.app.frame % 2 == 0) and 1 or -1) * s * 1.4
+        sy = ((self.app.frame % 4 < 2) and 1 or -1) * s * 0.9
+        self.shake = self.shake * 0.82
+        if self.shake < 0.5 then self.shake = 0 end
+    end
+    self.floorY = -app.H / 2 + 150 - lift
+    self.worldG:pos(-self.camX * self.zoom + sx, self.floorY + sy):scale(self.zoom, self.zoom)
+    self.stage:camera(self.camX, self.zoom, self.floorY, sx, sy)
+end
+
+------------------------------------------------------------------ projectiles
+function S:drawProj()
+    local L = self.projL
+    L:begin()
+    local t = self.app.frame
+    for _, pr in ipairs(self.sim.proj) do
+        local x, y = pr.x / C, pr.y / C
+        local ec = K.elementColor[pr.element] or {255, 255, 255}
+        local st = pr.style
+        local w, h = pr.w / C, pr.h / C
+        local live = pr.t > pr.delay
+        if pr.zone then
+            -- telegraph during the delay, strike after
+            if not live then
+                local k = pr.t / math.max(1, pr.delay)
+                L:shape(G.ELLIPSE, x, 6, w * (1.2 - 0.4 * k), 30, ec, 0.4 + 0.4 * k)
+                L:shape(G.RING, x, 6, w * (1.6 - 0.8 * k), 44, ec, 0.8)
+                if st == 'eye' then L:shape(G.ELLIPSE, x, 560, 120, 70, ec, 0.6 * k); L:shape(G.ELLIPSE, x, 560, 40, 40, {255, 255, 255}, k) end
+                if st == 'sakura' then L:shape(G.TRI, x - 40, 60, 30, 120, {255, 170, 210}, 0.9) end
+            else
+                local k = (pr.t - pr.delay) / math.max(1, pr.life - pr.delay)
+                local a = 1 - k
+                if st == 'pillar' then
+                    local hh = h * U.clamp((pr.t - pr.delay) / 5, 0, 1)
+                    L:rect(x, hh / 2, w, hh, {170, 130, 70}, 1)
+                    L:rect(x, hh / 2, w * 0.7, hh, {220, 180, 100}, 1)
+                    L:rect(x, hh - 10, w * 1.1, 24, {255, 210, 120}, 1)
+                else
+                    L:rect(x, h / 2, w * 0.35 * a + 8, h, ec, 0.9 * a)
+                    L:rect(x, h / 2, w * 0.12 * a + 4, h, {255, 255, 255}, a)
+                    L:shape(G.ELLIPSE, x, 10, w * 1.4, 60, ec, 0.7 * a, 0, 0.4)
+                end
+            end
+        else
+            if st == 'arrow' then
+                L:rect(x - pr.face * 30, y, w, 6, {255, 255, 255}, 1)
+                L:rect(x - pr.face * 80, y, w * 1.4, 18, ec, 0.45)
+                L:shape(G.TRI, x + pr.face * (w / 2), y, 22, 34, ec, 1, -90 * pr.face)
+            elseif st == 'ushi' then
+                L:shape(G.ELLIPSE, x, y, w, h * 0.8, {150, 80, 40}, 1)
+                L:shape(G.ELLIPSE, x + pr.face * 40, y + 30, 70, 60, {180, 100, 50}, 1)
+                L:shape(G.TRI, x + pr.face * 40 - 22, y + 70, 16, 34, {255, 240, 220}, 1, 20)
+                L:shape(G.TRI, x + pr.face * 40 + 22, y + 70, 16, 34, {255, 240, 220}, 1, -20)
+                L:shape(G.RING, x, y, w * 1.2, h, ec, 0.6)
+            elseif st == 'torrent' then
+                L:shape(G.ELLIPSE, x, y, w, h, ec, 0.8, 0, 0.3)
+                L:shape(G.ELLIPSE, x, y, w * 0.8, h * 0.4, {220, 245, 255}, 0.9)
+                L:shape(G.ELLIPSE, x - pr.face * w * 0.6, y, w * 0.8, h * 0.6, ec, 0.4, 0, 0.5)
+            elseif st == 'shards' then
+                for i = 0, 4 do
+                    L:shape(G.TRI, x + (i - 2) * 30, y + ((i * 37) % 60) - 30, 26, 50, {255, 220, 120}, 1, -90 * pr.face + (i - 2) * 12)
+                end
+                L:shape(G.ELLIPSE, x, y, w, h * 0.6, ec, 0.4, 0, 0.5)
+            elseif st == 'bubble' then
+                L:shape(G.ELLIPSE, x, y + math.sin(t * 0.2) * 10, w, h, ec, 0.5, 0, 0.3)
+                L:shape(G.RING, x, y + math.sin(t * 0.2) * 10, w, h, {220, 245, 255}, 0.9)
+                L:shape(G.ELLIPSE, x - 18, y + 22 + math.sin(t * 0.2) * 10, 22, 16, {255, 255, 255}, 0.9)
+            else
+                L:shape(G.ELLIPSE, x, y, w * 1.5, h * 1.5, ec, 0.4, 0, 0.5)
+                L:shape(G.ELLIPSE, x, y, w * 0.8, h * 0.8, ec, 0.95)
+                L:shape(G.ELLIPSE, x, y, w * 0.4, h * 0.4, {255, 255, 255}, 1)
+                L:shape(G.STAR4, x, y, w, h, {255, 255, 255}, 0.8, t * 8)
+                L:shape(G.ELLIPSE, x - pr.face * w * 0.7, y, w, h * 0.5, ec, 0.35, 0, 0.5)
+            end
+        end
+    end
+    L:finish()
+end
+
+------------------------------------------------------------------ pause
+function S:openPause()
+    local app = self.app
+    self.paused = true
+    self.pauseT = 0
+    app.input:clearUI()
+    if self.touch then self.touch.L:clear() end
+    app.audio:play(app.audio.ID.open)
+    self.pauseL = self.pauseL or G.layer(app.layers.ui)
+    local items = {
+        {id = 'resume', label = '继续战斗'},
+        {id = 'moves', label = '出招表'},
+        {id = 'restart', label = '重新开始'},
+    }
+    if self.mode == 'training' then
+        local dummies = {'stand', 'block', 'crouch', 'cblock', 'jump', 'cpu'}
+        local dn = {stand = '站立', block = '站立防御', crouch = '蹲下', cblock = '蹲下防御', jump = '跳跃', cpu = 'CPU 对打'}
+        self.dummy = self.dummy or 'stand'
+        table.insert(items, 2, {id = 'dummy', label = '陪练', value = function() return dn[self.dummy] end,
+            left = function() local i = 1 for k, v in ipairs(dummies) do if v == self.dummy then i = k end end self.dummy = dummies[(i - 2) % #dummies + 1]; self:trainingAI() end,
+            right = function() local i = 1 for k, v in ipairs(dummies) do if v == self.dummy then i = k end end self.dummy = dummies[i % #dummies + 1]; self:trainingAI() end})
+        table.insert(items, 3, {id = 'energy', label = '元素能量', value = function() return self.sim.opts.infinite and '无限' or '正常' end,
+            left = function() self.sim.opts.infinite = not self.sim.opts.infinite end, right = function() self.sim.opts.infinite = not self.sim.opts.infinite end})
+    end
+    if self.online then
+        items = {{id = 'resume', label = '继续战斗'}, {id = 'moves', label = '出招表'}, {id = 'leave', label = '离开对战'}}
+    else
+        items[#items + 1] = {id = 'select', label = '重新选择角色'}
+        items[#items + 1] = {id = 'quit', label = '返回主菜单'}
+    end
+    local ec = UI.ECOL[self.sim.f[self.side or 1].element] or UI.GOLD
+    self.pauseMenu = UI.menu(app, app.layers.ui, items, {x = -app.W / 2 + 380, y = app.H / 2 - 290, w = 520, h = 70, gap = 8, size = 32,
+        numbers = true, accent = ec,
+        onPick = function(id) self:pausePick(id) end, onBack = function() self:closePause() end})
+end
+
+function S:trainingAI()
+    if self.dummy == 'cpu' then self.ai[2] = AI.new(self.sim, 2, 2, 51) else self.ai[2] = nil end
+end
+
+function S:closePause()
+    self.paused = false
+    if self.pauseMenu then self.pauseMenu:free(); self.pauseMenu = nil end
+    if self.pauseL then self.pauseL:clear() end
+    self.app.input:clearUI()
+    self.showMoves = nil
+    self:touchControls()
+end
+
+function S:pausePick(id)
+    local app = self.app
+    if id == 'resume' then self:closePause()
+    elseif id == 'moves' then self.showMoves = not self.showMoves
+    elseif id == 'leave' then
+        Online.leaveMatch(self.online)
+        self.online.onFrame = nil
+        app:travel('online')
+    elseif id == 'restart' then app:travel('fight', self.args)
+    elseif id == 'select' then app:travel('select', {mode = self.mode == 'demo' and 'versus' or self.mode, cpu = self.args.cpu and self.args.cpu[2] and true or false})
+    elseif id == 'quit' then app:travel('menu')
+    end
+end
+
+function S:drawPause()
+    local app = self.app
+    local W, H = app.W, app.H
+    local L = self.pauseL
+    local f = self.sim.f[self.side or 1]
+    local ec = UI.ECOL[f.element] or K.elementColor[f.element]
+    self.pauseT = (self.pauseT or 0) + 1
+    local k = U.ease.outCubic(U.clamp(self.pauseT / 12, 0, 1))
+    L:begin()
+    L:rect(0, 0, W + 40, H + 40, {4, 6, 14}, 0.55 * k)
+    -- left slab with the menu
+    UI.leftPanel(L, W, H, k, ec, k)
+    UI.screenTitle(L, W, H, '暂停', UI.track('PAUSE') .. (self.online and '　·　联机对局不会暂停' or ''), k)
+    -- move list: right slanted panel with hairline rows
+    local ma = self.showMoves and k or 0
+    local px = W / 2 - 420
+    UI.slab(L, px + 40, 0, 900, H * 1.9, UI.NAVY, 0.92 * ma, -UI.SLANT)
+    UI.slab(L, px + 40 - 450 / math.cos(math.rad(UI.SLANT)), 0, 3, H * 2, UI.GOLD, 0.7 * ma, -UI.SLANT)
+    local rows = {
+        {'移动', 'W A S D　·　W / 空格 跳跃　·　双击前冲刺'},
+        {'防御', '按住后方向（蹲防：后下）'},
+        {'轻攻击', 'J　连按三段　·　↓J 下段'},
+        {'重攻击', 'K　挑空　·　↓K 扫腿'},
+        {'元素战技', 'E / I / E 按钮 / ↓↘→ + 攻击　「' .. f.char.skill .. '」'},
+        {'元素爆发', 'Q / O 键 / Q 按钮　能量满时　「' .. f.char.burst .. '」'},
+        {'冲刺 / 投技', 'U 冲刺（后 + U 后撤）　·　L 或 →K 投'},
+        {'基本连段', 'J → J → J → K → E → Q'},
+    }
+    L:label(f.char.name, px + 120, H / 2 - 110, 560, 60, 44, UI.WHITE, 'l', nil, ma)
+    L:label(UI.track('COMMAND LIST'), px + 120, H / 2 - 156, 560, 24, 14, UI.GOLD, 'l', nil, ma)
+    UI.badge(L, f.element, px - 210, H / 2 - 112, 52, ma)
+    for i, r in ipairs(rows) do
+        local y = H / 2 - 220 - (i - 1) * 58
+        L:label(r[1], px - 150, y, 180, 50, 20, ec, 'l', nil, ma)
+        L:label(r[2], px + 170, y, 560, 50, 19, UI.WHITE, 'l', nil, ma)
+        L:rect(px + 40, y - 27, 700, 1, UI.WHITE, 0.14 * ma)
+    end
+    L:finish()
+    if self.pauseMenu then self.pauseMenu:draw(k) end
+end
+
+------------------------------------------------------------------ main
+function S:tick()
+    local app = self.app
+    if self.state == 'load' then
+        self:loadTick()
+        return
+    end
+    local menu = app.input:menu()
+    if self.paused then
+        if self.showMoves then
+            for _, a in ipairs(menu) do if a == 'back' or a == 'ok' or a == 'pause' then self.showMoves = nil end end
+        elseif self.pauseMenu then
+            for _, a in ipairs(menu) do if a == 'pause' then self:closePause() return end end
+            self.pauseMenu:input(menu)
+        end
+        -- an online match cannot pause: the menu floats over the running fight
+        if self.online and self.state == 'run' and self.online.match then self:netTick(true) end
+        return
+    end
+    for _, a in ipairs(menu) do
+        if a == 'pause' then self:openPause() return end
+        if a == 'debug' then app.debug = not app.debug end
+    end
+    if self.online then
+        if not self:netTick(false) then return end
+    else
+        local in1, in2 = self:inputs()
+        self.sim:step(in1, in2)
+        self:events()
+    end
+    local sim = self.sim
+    -- stormy stage: lightning now and then
+    if not self.online and self.stage.L.lightning and sim.tick % 420 == 200 then
+        if self.stage:thunder() then app.audio:play(app.audio.ID.ehit.electro) end
+    end
+    if self.endT > 0 then
+        self.endT = self.endT - 1
+        if self.endT == 0 then self:finish() end
+    end
+end
+
+-- one online tick: local input in, frames out (with rollbacks), events once; false = left
+function S:netTick(idle)
+    local o = self.online
+    local m = o.match
+    if not m then return false end
+    local app = self.app
+    local mask = 0
+    if not idle then mask = (app.input:pad(1).now or 0) | (app.input:pad(2).now or 0) end
+    self.netEvents = {}
+    Online.matchStep(o, mask)
+    local st = m.session.state
+    if st ~= self.sim then self:rebind(st) end
+    for _,record in ipairs(self.netEvents) do
+        self:rebind(record.state)
+        app.audio.eventTime=record.frame/60
+        self:events(record.state.events)
+        if self.stage.L.lightning and record.state.tick%420==200 then
+            if self.stage:thunder() then app.audio:play(app.audio.ID.ehit.electro) end
+        end
+        app.audio.eventTime=nil
+    end
+    self:rebind(st)
+    -- the other side vanished or the states differ: end the match here
+    if not self.netEnd then
+        local why
+        if m.session.desync then why = '同步异常，对局中止'
+        elseif Online.peerGone(o) or Online.hostLost(o) then why = '对手已断开连接' end
+        if why then
+            self.netEnd = why
+            self:banner('对局结束', why, UI.CREAM, 150, 90)
+            if self.endT <= 0 then self.endT = 160 end
+        end
+    end
+    return true
+end
+
+function S:finish()
+    local app = self.app
+    local sim = self.sim
+    if self.online then
+        if self.netEnd and not self.winner then self.winner = self.side end
+        Online.leaveMatch(self.online)
+        self.online.onFrame = nil
+    end
+    local res = {winner = self.winner, chars = self.args.chars, mode = self.mode, args = self.args, side = self.side,
+                 stats = {sim.f[1].stats, sim.f[2].stats}, wins = {sim.f[1].wins, sim.f[2].wins}}
+    app:travel('result', res, K.elementColor[self.chars[self.winner or 1].element])
+end
+
+local burstEyeData
+function S:drawBurstBackdrop()
+    local L=self.burstBg;if not L then return end
+    L:begin()
+    if self.burstEye then self.burstEye.node:on(false) end
+    local p
+    for _,f in ipairs(self.sim.f) do if f.key=='raidenshogun' and f.state=='burst' and f.cinematicConfirmed then p=f end end
+    if p then
+        local W,H=self.app.W,self.app.H
+        local fade=p.t<85 and 1 or math.max(0,(100-p.t)/15)
+        local pulse=(p.t<8 or (p.t>=35 and p.t<44) or (p.t>=70 and p.t<85)) and 1 or 0
+        L:rect(0,0,W+40,H+40,{10,5,28},0.94*fade)
+        L:shape(G.ELLIPSE,0,70,W*0.8,H*0.7,{88,35,150},(0.55+0.15*pulse)*fade,0,0.4)
+        burstEyeData=burstEyeData or require('gf_raiden_eye_r31')
+        local index=p.t<6 and 0 or pulse==1 and 2 or p.t>=85 and 3 or 1
+        local img=burstEyeData[self.tier or 'lo'][tostring(index)]
+        local bmp=self.burstEye;bmp:draw(img,'eye'..index)
+        local scale=W*0.86/img.w;bmp.node:pos(0,90):scale(scale,scale):rot(0):on(true)
+        if bmp.lastFade~=fade or bmp.lastIndex~=index then
+            for i=1,bmp.used do local c=img.pal[img.bytes[(i-1)*5+5]+1];bmp.kids[i]:color(c[1],c[2],c[3],(c[4] or 255)*fade) end
+            bmp.lastFade=fade;bmp.lastIndex=index
+        end
+        for i=1,7 do
+            local x=-W/2+i*W/8
+            L:rect(x,0,5,H,{165,95,250},(0.2+0.1*pulse)*fade,-22+(i%3)*12)
+        end
+    end
+    if not p then
+        for _,f in ipairs(self.sim.f) do if f.key=='nahida' and f.state=='burst' then p=f end end
+        if p then
+            local W,H=self.app.W,self.app.H
+            local fade=p.t<74 and 1 or math.max(0,(90-p.t)/16)
+            local bloom=math.min(1,(p.t+8)/22)
+            local pulse=(p.t<8 or (p.t>=28 and p.t<36) or (p.t>=54 and p.t<64)) and 1 or 0
+            L:rect(0,0,W+40,H+40,{4,25,21},0.95*fade)
+            L:shape(G.ELLIPSE,0,40,W*0.86,H*0.92,{24,93,66},0.75*fade,0,0.4)
+            L:shape(G.ELLIPSE,0,-180,W*0.85,200,{111,190,71},(0.25+0.12*pulse)*fade)
+            for i=1,3 do
+                L:shape(G.RING,0,80,350+i*220*bloom,350+i*220*bloom,{132,211,102},(0.22+i*0.1)*fade,0,0.1)
+            end
+            for i=1,16 do
+                local x=-W/2+(i*103)%W;local y=-H/2+(i*167+p.t*2)%H
+                L:shape(G.STAR4,x,y,6+(i%3)*3,6+(i%3)*3,{225,250,172},0.55*fade,p.t+i*24)
+            end
+        end
+    end
+    L:finish()
+end
+
+function S:draw()
+    local app = self.app
+    if self.state == 'load' then
+        self:curtainDraw(1)
+        return
+    end
+    if self.curtainA and self.curtainA > 0 then
+        self.curtainA = self.curtainA - 0.08
+        self:curtainDraw(math.max(0, self.curtainA))
+    end
+    self:drawBurstBackdrop()
+    local urgent = self.sim.phase ~= 'intro'
+    for _, v in ipairs(self.views) do v:draw(urgent and 520 or 300) end
+    self:arcs()
+    self:camera(false)
+    self:drawProj()
+    self.hud:draw()
+    if self.touch and not self.paused then self.touch:draw() end
+    self.fx:update()
+    self:cineDraw()
+    self:drawBanners()
+    if self.paused then self:drawPause() end
+end
+
+function S:exit()
+    local app = self.app
+    if self.views then for _, v in ipairs(self.views) do v:free() end end
+    if self.hud then self.hud:free() end
+    if self.burstBg then self.burstBg:free() end
+    if self.burstEye then self.burstEye:free() end
+    if self.touch then self.touch:free() end
+    if self.projL then self.projL:free() end
+    if self.annL then self.annL:free() end
+    if self.cut then self.cut.L:free(); self.cut.bmp:free() end
+    if self.pauseMenu then self.pauseMenu:free() end
+    if self.pauseL then self.pauseL:free() end
+    if self.fx then
+        for _, n in ipairs(self.fx.world.img) do G.release(n) end
+        for _, n in ipairs(self.fx.screen.img) do G.release(n) end
+        for _, n in ipairs(self.fx.text.txt) do G.release(n) end
+    end
+    self.stage:free()
+    self.curtain:free()
+    for _, g in pairs(self.lay) do G.release(g) end
+    G.release(self.worldG)
+end
+
+return S
+end
+__loaders['gf_scene_gallery'] = function()
+local G = require('gf_gfx')
+local UI = require('gf_ui')
+
+local S = {}
+S.__index = S
+
+local ELS = {'pyro', 'hydro', 'anemo', 'electro', 'dendro', 'cryo', 'geo'}
+
+function S.new(app)
+    local self = setmetatable({app = app, t = 0}, S)
+    self.L = G.layer(app.layers.ui)
+    self.menu = UI.menu(app, app.layers.ui, {{id = 'a', label = '街机模式', sub = '说明文字'}, {id = 'b', label = '对战模式'},
+        {id = 'c', label = '画质', value = function() return '高' end}},
+        {x = 380, y = -150, w = 520, h = 80, gap = 10, size = 36, numbers = true})
+    return self
+end
+
+function S:tick() self.t = self.t + 1 / 60; self.menu:input(self.app.input:menu()) end
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    local L = self.L
+    L:begin()
+    L:rect(0, 0, W + 40, H + 40, UI.NAVY, 1)
+    for i, el in ipairs(ELS) do
+        local x = -W / 2 + 120 + (i - 1) * 200
+        L:shape(G.ELLIPSE, x, 250, 170, 170, UI.NAVY2, 1)
+        UI.element(L, el, x, 250, 150, 1)
+        UI.badge(L, el, x, 80, 64, 1)
+        UI.element(L, el, x + 60, 80, 24, 1)
+        L:label(el, x, 160, 180, 30, 18, UI.GREY, 'c', nil, 1)
+    end
+    UI.prompt(L, -W / 2 + 120, -60, 'J', '确认')
+    UI.chevron(L, -W / 2 + 320, -60, 30, UI.WHITE, 1)
+    UI.slab(L, -W / 2 + 500, -60, 200, 50, UI.CREAM, 1)
+    UI.constellation(L, -W / 2 + 300, -280, 120, self.t * 10, UI.WHITE, 1)
+    L:finish()
+    self.menu:draw(1)
+end
+
+function S:exit() self.L:free(); self.menu:free() end
+
+return S
+end
+__loaders['gf_scene_howto'] = function()
+-- Moves and systems: three pages (controls, combos, bursts), left / right.
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local K = require('gf_kits')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+local PAGES = {
+    {title = '操作', lines = {
+        {'移动', 'A / D 左右，W 或 空格 跳跃，S 蹲下'},
+        {'防御', '按住后方向（蹲防：后下）'},
+        {'轻攻击', 'J　连按三段；蹲下时为下段攻击'},
+        {'重攻击', 'K　挑空，可接空中连段；蹲下时为扫腿'},
+        {'元素战技', 'E / I 键 / E 按钮 / ↓↘→ + 攻击；有冷却'},
+        {'元素爆发', 'Q / O 键或点击 Q 按钮；能量满时释放'},
+        {'冲刺 / 投技', 'U 冲刺（按住后方向为后撤步）　L 或 →+K 近身投'},
+        {'手柄', '普攻＝轻　交互＝重　技能1＝战技　技能2＝爆发　冲刺＝冲刺'},
+    }},
+    {title = '连段', lines = {
+        {'取消', '攻击命中或被防后，可立刻接下一招'},
+        {'基本连段', 'J → J → J → K → E → Q'},
+        {'下段起手', '↓J → ↓J → ↓K（击倒）'},
+        {'空中连段', 'K 挑空 → 跳 → J → K（下砸）'},
+        {'伤害递减', '连段越长，后续伤害越低'},
+        {'倒地', '被击倒后短暂无敌，起身后再战'},
+    }},
+    {title = '元素爆发', lines = {
+        {'能量', '命中、被击中与施放战技都会积累能量'},
+        {'释放', '满能量按 Q / O 或 Q 按钮；首击命中后进入多段爆发演出'},
+        {'连段收尾', '重攻击或战技命中后可直接取消接爆发'},
+        {'防御', '爆发可以被防住，但会削减较多体力'},
+    }},
+}
+
+function S.new(app)
+    local self = setmetatable({app = app, page = 1, t = 0, pt = 0}, S)
+    local key = Paint.available.liyue and 'liyue' or next(Paint.available)
+    if key then self.bd = app:backdrop(key) end
+    self.L = G.layer(app.layers.ui)
+    return self
+end
+
+function S:tick()
+    local app = self.app
+    self.t = self.t + 1 / 60
+    self.pt = self.pt + 1 / 60
+    if self.bd then self.bd:step(300) end
+    for _, a in ipairs(app.input:menu()) do
+        if a == 'left' then self.page = (self.page - 2) % #PAGES + 1; self.pt = 0; app.audio:play(app.audio.ID.move)
+        elseif a == 'right' or a == 'ok' then self.page = self.page % #PAGES + 1; self.pt = 0; app.audio:play(app.audio.ID.move)
+        elseif a == 'back' then app:travel('menu', {sel = 4}) end
+    end
+end
+
+local EN = {'CONTROLS', 'COMBOS', 'BURSTS'}
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    if self.bd then self.bd:draw(0.68, {10, 14, 32}) end
+    local L = self.L
+    local k = U.ease.outCubic(U.clamp(self.t / 0.4, 0, 1))
+    local pk = U.ease.outCubic(U.clamp(self.pt / 0.3, 0, 1))
+    local acc = {250, 190, 70}
+    L:begin()
+    UI.leftPanel(L, W, H, k, acc, 0.5)
+    UI.screenTitle(L, W, H, '出招与系统', UI.track('HOW TO PLAY'), k)
+    -- tabs across the top right
+    for i, pg in ipairs(PAGES) do
+        local tx = -W / 2 + 820 + (i - 1) * 230
+        local on = i == self.page
+        UI.slab(L, tx, H / 2 - 100, 210, 56, on and UI.CREAM or UI.NAVY, on and 0.96 or 0.7, 6)
+        L:label(pg.title, tx, H / 2 - 92, 210, 40, 24, on and UI.TEXT or UI.WHITE, 'c', nil, on and 1 or 0.7)
+        L:label(EN[i], tx, H / 2 - 118, 210, 20, 11, on and {110, 116, 136} or UI.GOLD, 'c', nil, on and 1 or 0.6)
+        UI.tap(L, 'tab' .. i, tx, H / 2 - 100, 210, 60, i < self.page and 'left' or 'right', i ~= self.page)
+    end
+    -- rows: gold label, white text, hairline
+    local pg = PAGES[self.page]
+    L:label(EN[self.page], W / 2 - 520, -H / 2 + 120, 1400, 220, 170, UI.WHITE, 'c', nil, 0.05 * pk)
+    for i = 1, 8 do
+        local ln = pg.lines[i]
+        local y = H / 2 - 230 - (i - 1) * 74
+        local a = ln and U.ease.outCubic(U.clamp((self.pt - i * 0.04) / 0.25, 0, 1)) or 0
+        local x = -W / 2 + 140 + (1 - a) * 60
+        L:shape(G.RECT, x - 30, y, 10, 10, acc, a, 45)
+        L:label(ln and ln[1] or '', x + 120, y, 240, 60, 26, acc, 'l', nil, a)
+        L:label(ln and ln[2] or '', x + 300 + 420, y, 840, 60, 22, UI.WHITE, 'l', nil, a)
+        L:rect(x + 600, y - 37, 1200, 1, UI.WHITE, 0.12 * a)
+    end
+    UI.prompt(L, W / 2 - 460, -H / 2 + 40, 'A', '上一页', 1, 'left')
+    UI.prompt(L, W / 2 - 300, -H / 2 + 40, 'D', '下一页', 1, 'right')
+    UI.prompt(L, W / 2 - 140, -H / 2 + 40, 'K', '返回', 1, 'back')
+    L:finish()
+end
+
+function S:exit() self.L:free() end
+
+return S
+end
+__loaders['gf_scene_intro'] = function()
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+local TITLE_STAGE = 'mondstadt'
+
+function S.new(app)
+    local self = setmetatable({app = app, t = 0}, S)
+    self.L = G.layer(app.layers.top)
+    local key = Paint.available[TITLE_STAGE] and TITLE_STAGE or next(Paint.available)
+    if key then
+        self.bd = app:backdrop(key)
+        self.bd.root:on(false)
+    end
+    return self
+end
+
+function S:tick()
+    local app = self.app
+    self.t = self.t + 1 / 60
+    if self.bd then self.bd:step(220) end
+    for _, a in ipairs(app.input:menu()) do
+        if a == 'ok' or a == 'back' or a == 'pause' then self.t = math.max(self.t, 3.0) end
+    end
+    if self.t >= 3.2 and not self.left then
+        self.left = true
+        app:travel('title', nil, {236, 229, 216})
+    end
+end
+
+function S:draw()
+    local app = self.app
+    local L = self.L
+    local t = self.t
+    L:begin()
+    L:rect(0, 0, app.W + 60, app.H + 60, {0, 0, 0}, 1)
+    local open = U.ease.outCubic(U.clamp((t - 0.5) / 1.0, 0, 1))
+    local fade = 1 - U.clamp((t - 2.5) / 0.6, 0, 1)
+    L:shape(G.ELLIPSE, 0, 0, 900 * open, 220 * open, {255, 230, 170}, 0.18 * fade, 0, 0.5)
+    L:rect(0, 0, 1100 * open, 2, {255, 244, 220}, 0.9 * fade)
+    L:shape(G.STAR4, 0, 0, 90 * open + 10, 90 * open + 10, {255, 255, 255}, fade, t * 40)
+    L:shape(G.STAR4, 0, 0, 34 * open, 34 * open, {255, 230, 170}, fade, -t * 60)
+    local ta = U.clamp((t - 1.1) / 0.5, 0, 1) * fade
+    L:label('千星奇域 · 同人格斗企划', 0, -54 - 10 * (1 - ta), 800, 40, 24, UI.CREAM, 'c', {0, 0, 0, 160}, ta)
+    L:label('GENSHIN FIGHTER PROJECT', 0, -90, 800, 30, 15, UI.DIM, 'c', nil, ta)
+    L:finish()
+end
+
+function S:exit() self.L:free() end
+
+return S
+end
+__loaders['gf_scene_menu'] = function()
+-- Main menu, fighting-game style in Genshin colours: a slanted night-navy slab on the left
+-- holds the mode list (big type, numbered, the selected mode sweeps in on a cream slab);
+-- a giant ghost word of the selected mode drifts behind; the right side shows a rotating
+-- character large with a constellation ring, element badge and name. Streaks keep moving.
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local K = require('gf_kits')
+local Art = require('gf_art')
+local Show = require('gf_show')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+local MODES = {
+    arcade = {en = 'ARCADE', col = {255, 138, 74}},
+    versus = {en = 'VERSUS', col = {190, 132, 255}},
+    training = {en = 'TRAINING', col = {98, 214, 172}},
+    howto = {en = 'MOVES', col = {250, 190, 70}},
+    options = {en = 'OPTIONS', col = {120, 196, 245}},
+    vcpu = {en = 'VS CPU', col = {190, 132, 255}},
+    online = {en = 'ONLINE', col = {72, 186, 245}},
+    back = {en = 'BACK', col = {211, 188, 142}},
+}
+
+function S.new(app, args)
+    local self = setmetatable({app = app, t = 0, showT = 0, showI = math.floor(app.t * 13) % #Art.roster + 1, sub = nil,
+                               ghostT = 0}, S)
+    local key = Paint.available.mondstadt and 'mondstadt' or next(Paint.available)
+    if key then self.bd = app:backdrop(key) end
+    self.tier = app.quality == 'lo' and 'lo' or 'hi'
+    self.back = G.layer(app.layers.back)
+    self.show = Show.new(app.layers.world)
+    self.L = G.layer(app.layers.ui)
+    self.info = G.layer(app.layers.ui)
+    self:mainMenu(args and args.sel)
+    self:showChar()
+    return self
+end
+
+local function menuOpts(self, sel, onPick, onBack)
+    local app = self.app
+    return {x = -app.W / 2 + 380, y = app.H / 2 - 290, w = 560, h = 88, gap = 10, size = 40, sel = sel, numbers = true,
+            accent = UI.GOLD, onPick = onPick, onBack = onBack}
+end
+
+function S:mainMenu(sel)
+    local app = self.app
+    if self.menu then self.menu:free() end
+    app.input:clearUI()
+    self.items = {
+        {id = 'arcade', label = '街机模式', sub = '挑战已完成的角色'},
+        {id = 'versus', label = '对战模式', sub = '对战电脑 · 联机对决'},
+        {id = 'training', label = '训练模式', sub = '练习连段与技能'},
+        {id = 'howto', label = '出招与系统', sub = '操作、连段、元素战技与爆发'},
+        {id = 'options', label = '设置', sub = '震动、难度、回合'},
+    }
+    self.sub = nil
+    self.menu = UI.menu(app, app.layers.ui, self.items, menuOpts(self, sel, function(id) self:pick(id) end))
+    self.ghostT = 0
+end
+
+function S:versusMenu()
+    local app = self.app
+    self.menu:free()
+    app.input:clearUI()
+    self.items = {
+        {id = 'vcpu', label = '对战电脑', sub = '自选角色与对手'},
+        {id = 'online', label = '联机对决', sub = '与同一关卡里的另一位玩家对战（回滚联机）'},
+        {id = 'back', label = '返回'},
+    }
+    self.sub = 'versus'
+    self.menu = UI.menu(app, app.layers.ui, self.items, menuOpts(self, 1,
+        function(id)
+            if id == 'back' then self:mainMenu(2)
+            elseif id == 'vcpu' then app:travel('select', {mode = 'versus', cpu = true})
+            elseif id == 'online' then app:travel('online')
+            end
+        end,
+        function() self:mainMenu(2) end))
+    self.ghostT = 0
+end
+
+function S:accent()
+    local it = self.items and self.menu and self.items[self.menu.sel]
+    local m = it and MODES[it.id]
+    return m and m.col or UI.GOLD
+end
+
+function S:pick(id)
+    local app = self.app
+    if id == 'arcade' then app:travel('select', {mode = 'arcade', cpu = true})
+    elseif id == 'versus' then self:versusMenu()
+    elseif id == 'training' then app:travel('select', {mode = 'training', cpu = false})
+    elseif id == 'howto' then app:travel('howto')
+    elseif id == 'options' then app:travel('options')
+    end
+end
+
+function S:showChar()
+    local app = self.app
+    local c = Art.roster[self.showI]
+    self.show:set(c.key, self.tier, 'idle', app.W / 2 - 600, -app.H / 2 + 40, 1.75, -1, 0)
+    local n = self.show.bmp.node
+    local x0 = n.x
+    n:pos(x0 + 160, n.y)
+    n:tween({anchoredPositionX = x0}, 0.5, 'OutCubic')
+    self.showT = 0
+    self.infoT = 0
+end
+
+function S:tick()
+    local app = self.app
+    self.t = self.t + 1 / 60
+    self.showT = self.showT + 1 / 60
+    if self.bd then self.bd:step(300) end
+    if self.showT > 6 then
+        self.showI = self.showI % #Art.roster + 1
+        self:showChar()
+    end
+    local acts = app.input:menu()
+    for _, a in ipairs(acts) do
+        if a == 'back' and not self.sub then app:travel('title') return end
+    end
+    local before = self.menu.sel
+    self.menu:input(acts)
+    if self.menu.sel ~= before then self.ghostT = 0 end
+    self.menu.o.accent = self:accent()
+end
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    local t = self.t
+    if self.bd then self.bd:draw(0.42, {10, 14, 32}) end
+    local acc = self:accent()
+    local it = self.items[self.menu.sel]
+    local mode = it and MODES[it.id]
+    -- background graphics: slab, hairlines, hatch, streaks, ghost word, constellation
+    local B = self.back
+    B:begin()
+    local sx = -W / 2 + 300
+    UI.slab(B, sx, 0, 980, H * 1.9, UI.NAVY, 0.86, -UI.SLANT)
+    UI.stripes(B, sx - 120, 0, 700, H * 1.9, 18, UI.WHITE, 0.025, -UI.SLANT)
+    local ex = sx + 490 / math.cos(math.rad(UI.SLANT))
+    UI.slab(B, ex, 0, 3, H * 2, UI.GOLD, 0.75, -UI.SLANT)
+    UI.slab(B, ex + 30, 0, 12, H * 2, acc, 0.55, -UI.SLANT)
+    UI.slab(B, ex + 64, 0, 3, H * 2, acc, 0.25, -UI.SLANT)
+    for i = 1, 9 do
+        local sp = 380 + (i % 4) * 170
+        local yy = -H / 2 + i * H / 9.5
+        local xx = ((t * sp + i * 431) % (W * 0.7 + 600)) - 200
+        B:rect(xx, yy, 220 + (i % 3) * 160, i % 3 == 0 and 4 or 2, i % 2 == 0 and UI.WHITE or acc, 0.1, -UI.SLANT)
+    end
+    -- ghost word of the selected mode: slides in from the right, then drifts
+    self.ghostT = self.ghostT + 1 / 60
+    local gk = U.ease.outCubic(U.clamp(self.ghostT / 0.5, 0, 1))
+    B:label(mode and mode.en or '', W / 2 - 520 + (1 - gk) * 260 - (t * 6) % 40, H / 2 - 250, 1600, 300, 220, UI.WHITE, 'c', nil, 0.07 * gk)
+    UI.constellation(B, W / 2 - 600, -H / 2 + 330, 290, t * 6, UI.WHITE, 0.9)
+    B:shape(G.ELLIPSE, W / 2 - 600, -H / 2 + 260, 700, 700, acc, 0.16, 0, 0.5)
+    B:finish()
+    -- logo, prompts
+    local L = self.L
+    L:begin()
+    L:shape(G.STAR4, -W / 2 + 104, H / 2 - 96, 40, 40, UI.WHITE, 1, t * 20)
+    L:label('原神格斗', -W / 2 + 338, H / 2 - 90, 420, 70, 54, UI.WHITE, 'l', nil, 1)
+    L:label(UI.track('GENSHIN FIGHTER'), -W / 2 + 338, H / 2 - 138, 420, 26, 15, UI.GOLD, 'l', nil, 1)
+    L:rect(-W / 2 + 330, H / 2 - 162, 400, 2, UI.GOLD, 0.6)
+    L:label(self.sub == 'versus' and '对战模式' or '', -W / 2 + 338, H / 2 - 196, 420, 28, 20, acc, 'l', nil, 1)
+    UI.prompt(L, -W / 2 + 120, -H / 2 + 50, 'J', '确认', 1, 'ok')
+    UI.prompt(L, -W / 2 + 290, -H / 2 + 50, 'K', '返回', 1, 'back')
+    L:finish()
+    self.menu:draw(1)
+    -- showcase: name block bottom-right
+    local I = self.info
+    self.infoT = (self.infoT or 0) + 1
+    local a = U.ease.outCubic(U.clamp(self.infoT / 22, 0, 1))
+    local c = Art.roster[self.showI]
+    local ec = UI.ECOL[c.element] or K.elementColor[c.element]
+    I:begin()
+    local rx = W / 2 - 90
+    local ny = -H / 2 + 220
+    I:shape(G.ELLIPSE, rx - 260, ny - 40, 900, 380, UI.NAVY, 0.55 * a, 0, 0.5)
+    I:label(K.en[c.key] and UI.track(K.en[c.key]:upper()) or '', rx - 300 + (1 - a) * 60, ny + 70, 600, 26, 16, UI.GOLD, 'r', nil, a)
+    I:label(c.name, rx - 360 + (1 - a) * 120, ny + 6, 720, 110, 88, UI.WHITE, 'r', nil, a)
+    I:rect(rx - 220, ny - 58, 440 * a, 2, ec, 0.9 * a)
+    UI.badge(I, c.element, rx - 60 - (utf8.len(c.name) or 3) * 88 - 50, ny + 6, 64, a)
+    I:label((K.title[c.key] or '') .. '　·　' .. (K.weaponName[c.weapon] or ''), rx - 300, ny - 88, 600, 30, 20, UI.GREY, 'r', nil, a)
+    I:label('E  ' .. c.skill .. '　　Q  ' .. c.burst, rx - 300, ny - 124, 600, 26, 17, UI.CREAM, 'r', nil, a * 0.85)
+    I:finish()
+end
+
+function S:exit()
+    self.menu:free()
+    self.back:free()
+    self.L:free()
+    self.info:free()
+    self.show:free()
+end
+
+return S
+end
+__loaders['gf_scene_online'] = function()
+local G=require('gf_gfx')
+local UI=require('gf_ui')
+local O=require('gf_online')
+local S={}; S.__index=S
+function S.new(app)
+    local self=setmetatable({app=app,t=0,L=G.layer(app.layers.ui),B=G.layer(app.layers.back)},S)
+    self.net=app:netOn()
+    if self.net then
+        O.leaveMatch(self.net)
+        self.net.me.selecting=false
+        self.net.host.rounds,self.net.host.time=app.settings.rounds,app.settings.time
+    end
+    return self
+end
+function S:tick()
+    self.t=self.t+1/60
+    local o=self.net
+    for _,a in ipairs(self.app.input:menu()) do
+        if a=='diagnostic' or a=='debug' then self.diagOpen=not self.diagOpen
+        elseif a=='back' then
+            if o and o.io.stop then o.io.stop() end
+            self.app.net=nil
+            self.app:travel('menu',{sel=2}); return
+        end
+    end
+    if o and O.opponent(o) and not self.left and not self.app.trans then
+        self.left=true
+        self.app.audio:play(self.app.audio.ID.ok)
+        self.app:travel('select',{mode='online',online=true})
+    end
+end
+function S:draw()
+    local app=self.app; local W,H=app.W,app.H
+    local B=self.B; B:begin()
+    B:rect(0,0,W+40,H+40,UI.NAVY,1)
+    UI.leftPanel(B,W,H,1,UI.GOLD,1)
+    UI.constellation(B,W/4,0,180,self.t*12,UI.GOLD,.7)
+    B:finish()
+    local L=self.L; L:begin()
+    UI.screenTitle(L,W,H,'联机对决',UI.track('ONLINE VERSUS'),1)
+    local o=self.net
+    local status=not o and '暂时无法连接' or not o.slot and '正在连接…' or '等待另一位玩家进入'
+    L:label(status,-W/2+400,65,640,60,26,UI.WHITE,'c')
+    L:label('双方连接后自动进入选人',-W/2+400,8,640,40,20,UI.GREY,'c')
+    L:label('请让另一位玩家也选择联机对决',-W/2+400,-45,640,40,20,UI.GOLD,'c')
+    local d=o and o.io.diag
+    if d and self.diagOpen then
+        L:label(('握手发送 %d · 席位回包 %d'):format(d.hello,d.seat),-W/2+400,-105,700,44,20,UI.WHITE,'c')
+        L:label(('消息发送 %d · 接收 %d · 有效 %d'):format(d.sent,d.received,d.accepted),-W/2+400,-150,700,44,20,UI.GREY,'c')
+        local hint=d.error and ('发送失败：'..d.error) or
+            (d.hello>=3 and d.seat==0 and '未收到席位：核对节点图挂载、运行及实际引用的 GFV2 信号名') or
+            (d.seat>0 and d.received==0 and '已有席位：等待另一端进入联机；若双方都在此页，检查转发和实体变量') or
+            (d.rejected>0 and ('消息被拒绝：'..(d.rejectReason or '未知'))) or ''
+        L:label(hint,-W/2+430,-205,760,70,18,UI.GOLD,'c')
+    end
+    UI.prompt(L,-W/2+140,-H/2+34,'F9',self.diagOpen and '收起诊断' or '诊断',1,'diagnostic')
+    UI.prompt(L,W/2-160,-H/2+34,'K','返回',1,'back')
+    L:finish()
+end
+function S:exit() self.L:free(); self.B:free() end
+return S
+end
+__loaders['gf_scene_options'] = function()
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+local function cycle(list, cur, d)
+    local i = 1
+    for k, v in ipairs(list) do if v == cur then i = k end end
+    return list[(i - 1 + d) % #list + 1]
+end
+
+function S.new(app)
+    local self = setmetatable({app = app, t = 0}, S)
+    local key = Paint.available.mondstadt and 'mondstadt' or next(Paint.available)
+    if key then self.bd = app:backdrop(key) end
+    local st = app.settings
+    local CN = {'简单', '普通', '困难', '噩梦'}
+    local TN = {[60] = '60 秒', [99] = '99 秒', [999] = '不限时'}
+    local items = {
+        {id = 'shake', label = '屏幕震动', value = function() return st.shake and '开' or '关' end,
+         left = function() st.shake = not st.shake end, right = function() st.shake = not st.shake end},
+        {id = 'sfx', label = '音效', value = function() return st.sfx and '开' or '关' end,
+         left = function() st.sfx = not st.sfx; app.audio.on = st.sfx end, right = function() st.sfx = not st.sfx; app.audio.on = st.sfx end},
+        {id = 'cpu', label = '电脑难度', value = function() return CN[st.cpu] end,
+         left = function() st.cpu = (st.cpu - 2) % 4 + 1 end, right = function() st.cpu = st.cpu % 4 + 1 end},
+        {id = 'rounds', label = '获胜局数', value = function() return st.rounds .. ' 局' end,
+         left = function() st.rounds = (st.rounds - 2) % 3 + 1 end, right = function() st.rounds = st.rounds % 3 + 1 end},
+        {id = 'time', label = '回合时间', value = function() return TN[st.time] end,
+         left = function() st.time = cycle({60, 99, 999}, st.time, -1) end, right = function() st.time = cycle({60, 99, 999}, st.time, 1) end},
+        {id = 'touch', label = '触屏按键', value = function() return ({auto = '自动', on = '开', off = '关'})[st.touch] end,
+         left = function() st.touch = cycle({'auto', 'on', 'off'}, st.touch, -1) end, right = function() st.touch = cycle({'auto', 'on', 'off'}, st.touch, 1) end},
+        {id = 'back', label = '返回'},
+    }
+    self.items = items
+    self.L = G.layer(app.layers.ui)            -- under the menu
+    self.menu = UI.menu(app, app.layers.ui, items, {x = -app.W / 2 + 380, y = app.H / 2 - 260, w = 560, h = 64, gap = 6, size = 30,
+        accent = {120, 196, 245},
+        onPick = function(id) if id == 'back' then app:travel('menu', {sel = 5}) end end,
+        onBack = function() app:travel('menu', {sel = 5}) end})
+    return self
+end
+
+function S:tick()
+    self.t = self.t + 1 / 60
+    if self.bd then self.bd:step(300) end
+    self.menu:input(self.app.input:menu())
+end
+
+local INFO = {
+    shake = {'SCREEN SHAKE', '屏幕震动', '重击、元素爆发与击倒时的镜头震动。'},
+    sfx = {'SOUND', '音效', '游戏内音效开关。'},
+    cpu = {'CPU LEVEL', '电脑难度', '对战电脑时对手的反应速度、防御与连段长度。'},
+    rounds = {'ROUNDS', '获胜局数', '先赢下这么多回合的一方获胜。'},
+    time = {'TIME', '回合时间', '时间到时，剩余体力比例高的一方赢下回合。'},
+    touch = {'TOUCH', '触屏按键', '自动：只在手机上显示屏幕按键。'},
+    back = {'BACK', '返回', '回到主菜单。'},
+}
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    self.t = self.t
+    if self.bd then self.bd:draw(0.5, {10, 14, 32}) end
+    local L = self.L
+    local k = U.ease.outCubic(U.clamp(self.t / 0.4, 0, 1))
+    local it = self.items[self.menu.sel]
+    local inf = INFO[it.id] or INFO.back
+    if self.lastSel ~= self.menu.sel then self.lastSel, self.infoT = self.menu.sel, 0 end
+    self.infoT = (self.infoT or 0) + 1
+    local ik = U.ease.outCubic(U.clamp(self.infoT / 12, 0, 1))
+    L:begin()
+    UI.leftPanel(L, W, H, k, {120, 196, 245}, 1)
+    UI.screenTitle(L, W, H, '设置', UI.track('OPTIONS'), k)
+    local rx = W / 2 - 420
+    L:label(inf[1], rx + 140 + (1 - ik) * 80, H / 2 - 220, 1200, 200, 150, UI.WHITE, 'c', nil, 0.06 * ik)
+    L:label(UI.track(inf[1]), rx, 120, 640, 26, 15, UI.GOLD, 'l', nil, ik)
+    L:label(inf[2], rx + (1 - ik) * 40, 64, 640, 80, 60, UI.WHITE, 'l', nil, ik)
+    L:rect(rx - 120, 10, 400 * ik, 2, {120, 196, 245}, ik)
+    L:label(it.value and it.value() or '', rx, -40, 640, 60, 40, UI.CREAM, 'l', nil, it.value and ik or 0)
+    L:label(inf[3], rx, -120, 640, 90, 20, UI.GREY, 'l', nil, ik)
+    UI.prompt(L, -W / 2 + 120, -H / 2 + 50, 'J', '确认', 1, 'ok')
+    UI.prompt(L, -W / 2 + 290, -H / 2 + 50, 'K', '返回', 1, 'back')
+    UI.prompt(L, -W / 2 + 460, -H / 2 + 50, 'A', '调整', 1, 'left')
+    L:finish()
+    self.menu:draw(1)
+end
+
+function S:exit()
+    self.menu:free()
+    self.L:free()
+end
+
+return S
+end
+__loaders['gf_scene_result'] = function()
+-- Results, fighting-game style: the winner large in a victory pose on the left over an
+-- element slab; on the right a slanted panel with VICTORY, the winner's name huge, the score,
+-- hairline stat rows counting up, and the next step (rematch / next arcade fight / menu).
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local K = require('gf_kits')
+local Art = require('gf_art')
+local Show = require('gf_show')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+function S.new(app, res)
+    local self = setmetatable({app = app, res = res, t = 0}, S)
+    local fa = res.args or {}
+    local st = fa.stage and Paint.available[fa.stage] and fa.stage or (Paint.available.mondstadt and 'mondstadt' or next(Paint.available))
+    if st then self.bd = app:backdrop(st) end
+    self.win = res.winner
+    local wkey = res.chars[self.win or 1]
+    self.show = Show.new(app.layers.world)
+    self.showKey=wkey
+    self.showBuilt=false
+    self.back = G.layer(app.layers.back)
+    self.L = G.layer(app.layers.ui)
+    self.arcade = fa.arcade
+    local items
+    local humanWon = self.win == 1 or (fa.cpu and not fa.cpu[1] and not fa.cpu[2] and self.win ~= nil)
+    if self.arcade then
+        if self.win == 1 then
+            self.arcade.score = self.arcade.score + 1000 + (res.stats[1].maxCombo or 0) * 50
+            if self.arcade.step >= #self.arcade.ladder then
+                self.cleared = true
+                items = {{id = 'menu', label = '返回主菜单', sub = '角色挑战完成'}}
+            else
+                items = {{id = 'next', label = '下一战', sub = ('第 %d / %d 战'):format(self.arcade.step + 1, #self.arcade.ladder)},
+                         {id = 'menu', label = '返回主菜单'}}
+            end
+        else
+            items = {{id = 'retry', label = '再次挑战', sub = '从这一战重新开始'}, {id = 'menu', label = '返回主菜单'}}
+        end
+    elseif res.mode == 'online' then
+        local won = self.win == res.side
+        items = {{id = 'lobby', label = '返回联机大厅', sub = won and '胜利！对手可以在大厅里再次准备' or '在大厅里准备，再战一局'},
+                 {id = 'menu', label = '返回主菜单'}}
+    else
+        items = {{id = 'again', label = '再战一局'}, {id = 'select', label = '重新选择角色'}, {id = 'menu', label = '返回主菜单'}}
+    end
+    self.menu = UI.menu(app, app.layers.ui, items, {x = app.W / 2 - 340, y = -170, w = 460, h = 64, gap = 8, size = 28,
+        accent = UI.ECOL[(Art.byKey[wkey] or {}).element] or UI.GOLD,
+        onPick = function(id) self:pick(id) end})
+    app.audio:play(self.win == 1 and app.audio.ID.okBig or app.audio.ID.close)
+    return self
+end
+
+function S:pick(id)
+    local app = self.app
+    local fa = self.res.args or {}
+    if id == 'menu' then
+        if app.net then
+            if app.net.io.stop then app.net.io.stop() end
+            app.net=nil
+        end
+        app:travel('menu')
+    elseif id == 'lobby' then app:travel('online')
+    elseif id == 'again' then app:travel('vs', fa)
+    elseif id == 'select' then app:travel('select', {mode = fa.mode == 'arcade' and 'arcade' or fa.mode, cpu = fa.cpu and fa.cpu[2] and true or false})
+    elseif id == 'next' then
+        self.arcade.step = self.arcade.step + 1
+        app:travel('vs', {arcade = self.arcade})
+    elseif id == 'retry' then app:travel('vs', {arcade = self.arcade})
+    end
+end
+
+function S:tick()
+    self.t = self.t + 1 / 60
+    if not self.showBuilt then
+        local app=self.app
+        self.show:set(self.showKey,app.quality=='lo' and 'lo' or 'hi',self.win and 'special' or 'hurt',-app.W/2+430,-app.H/2+60,1.7,1,0)
+        self.showBuilt=true
+    elseif self.bd then self.bd:step(300) end
+    self.menu:input(self.app.input:menu())
+end
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    if self.bd then self.bd:draw(0.5, {10, 14, 32}) end
+    local t = self.t
+    local k = U.ease.outCubic(U.clamp(t / 0.5, 0, 1))
+    local res = self.res
+    local wch = self.win and Art.byKey[res.chars[self.win]]
+    local ec = wch and (UI.ECOL[wch.element] or K.elementColor[wch.element]) or UI.GOLD
+    -- background: winner slab on the left, navy panel on the right, streaks, constellation
+    local B = self.back
+    B:begin()
+    UI.slab(B, -W / 2 + 330 - (1 - k) * 600, 0, 760, H * 1.9, U.mix(ec, UI.NAVY, 0.7), 0.7, UI.SLANT)
+    UI.stripes(B, -W / 2 + 330 - (1 - k) * 600, 0, 620, H * 1.9, 16, UI.WHITE, 0.03, UI.SLANT)
+    UI.slab(B, W / 2 - 300 + (1 - k) * 700, 0, 900, H * 1.9, UI.NAVY, 0.84, UI.SLANT)
+    local ex = W / 2 - 300 - 450 / math.cos(math.rad(UI.SLANT)) + (1 - k) * 700
+    UI.slab(B, ex, 0, 3, H * 2, UI.GOLD, 0.8, UI.SLANT)
+    UI.slab(B, ex - 28, 0, 12, H * 2, ec, 0.6, UI.SLANT)
+    UI.constellation(B, -W / 2 + 430, -H / 2 + 330, 300, t * 6, UI.WHITE, 0.8)
+    B:shape(G.ELLIPSE, -W / 2 + 430, -H / 2 + 300, 760, 760, ec, 0.22, 0, 0.5)
+    for i = 1, 7 do
+        local yy = -H / 2 + i * H / 7.5
+        local xx = ((t * (420 + (i % 3) * 200) + i * 300) % (W + 600)) - W / 2 - 300
+        B:rect(xx, yy, 240 + (i % 3) * 120, 2, i % 2 == 0 and UI.WHITE or ec, 0.1, UI.SLANT)
+    end
+    B:label(self.win and 'VICTORY' or 'DRAW', -W / 2 + 520, H / 2 - 120, 1400, 260, 210, UI.WHITE, 'l', nil, 0.07 * k)
+    B:finish()
+    -- right panel: title block
+    local L = self.L
+    L:begin()
+    local px = W / 2 - 340
+    local ty = H / 2 - 130
+    local head = self.cleared and 'CHALLENGE CLEAR' or (self.win == nil and 'DRAW GAME' or 'VICTORY')
+    local nm = self.cleared and '挑战完成' or (self.win == nil and '平局' or wch.name)
+    L:label(UI.track(head), px, ty + 70, 520, 28, 18, UI.GOLD, 'l', nil, k)
+    local n = L:label(nm, px + (1 - k) * 80, ty + 4, 520, 110, 92, UI.WHITE, 'l', nil, k)
+    if wch then UI.badge(L, wch.element, px - 260 + (utf8.len(nm) or 3) * 92 + 56, ty + 4, 60, k) end
+    L:rect(px, ty - 54, 520 * k, 3, ec, k)
+    L:label(self.arcade and ('街机得分　%d'):format(self.arcade.score) or ('比分　%d : %d'):format(res.wins[1], res.wins[2]),
+            px, ty - 84, 520, 30, 22, UI.CREAM, 'l', nil, k)
+    -- stats: hairline rows, numbers count up
+    local st = res.stats[self.win or 1]
+    local rows = {{'最大连击', st.maxCombo}, {'造成伤害', st.damage}, {'元素爆发', st.bursts}, {'成功防御', st.blocks}}
+    for i, r in ipairs(rows) do
+        local y = ty - 140 - (i - 1) * 40
+        local a = U.ease.outCubic(U.clamp((t - 0.25 - i * 0.06) / 0.3, 0, 1))
+        local v = r[2] or 0
+        local shown = math.floor(v * U.clamp((t - 0.35 - i * 0.06) / 0.6, 0, 1) + 0.5)
+        L:label(r[1], px + (1 - a) * 40, y, 520, 36, 20, UI.GREY, 'l', nil, a)
+        L:label(tostring(shown), px + (1 - a) * 40, y, 520, 36, 24, UI.WHITE, 'r', nil, a)
+        L:rect(px, y - 19, 520, 1, UI.WHITE, 0.14 * a)
+    end
+    UI.prompt(L, W / 2 - 300, -H / 2 + 40, 'J', '确认', 1, 'ok')
+    L:finish()
+    self.menu:draw(k)
+end
+
+function S:exit()
+    self.show:free()
+    self.back:free()
+    self.L:free()
+    self.menu:free()
+end
+
+return S
+end
+__loaders['gf_scene_select'] = function()
+-- Character select, fighting-game layout: both sides' fighters stand large on the left and
+-- right over slanted element-coloured slabs with a giant ghost name; names, element badges and
+-- skills sit at the top; the roster is an 8 x 2 strip of portrait cards on a dark band at the
+-- bottom with tilted 1P / 2P / CPU tags. Then a stage picker whose backdrop is the stage itself.
+-- Modes: arcade (pick yourself, the ladder picks the rest), versus vs CPU (pick both),
+-- versus 2P (both players pick at once), training.
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local K = require('gf_kits')
+local Art = require('gf_art')
+local Show = require('gf_show')
+local Stage = require('gf_stage')
+local Paint = require('gf_paint')
+local O = require('gf_online')
+
+local S = {}
+S.__index = S
+
+local COLS = math.min(8,#Art.roster)
+local CARD_W, CARD_H = 104, 128
+local GAP = 8
+local PCOL = {{255, 196, 92}, {98, 200, 255}}     -- 1P gold, 2P / CPU cyan
+
+function S.new(app, args)
+    local self = setmetatable({app = app, args = args or {}, t = 0, phase = 'chars'}, S)
+    local n = #Art.roster
+    self.cur = {1, math.min(n, 8)}
+    self.done = {false, false}
+    self.who = 1                            -- in "pick both" modes: whose pick it is
+    self.mode = self.args.mode or 'versus'
+    self.twoP = (self.mode == 'versus' and self.args.cpu == false)
+    self.stageI = 1
+    if self.mode == 'online' then
+        self.net=app:netOn(); O.leaveMatch(self.net)
+        self.net.me.selecting=true; self.net.me.ready=false
+        self.cur[1]=self.net.me.char
+        self.stageI=self.net.host.stage
+    end
+    self.tier = app.quality == 'lo' and 'lo' or 'hi'
+    local key = Paint.available.inazuma and 'inazuma' or next(Paint.available)
+    if key then self.bd = app:backdrop(key) end
+    self.shows = {Show.new(app.layers.world), Show.new(app.layers.world)}
+    self.Lback = G.layer(app.layers.back)          -- slabs and card backs: behind the fighters
+    self.cardsG = G.group(app.layers.world)
+    self.cards = {}
+    self.built = 0
+    self.L = G.layer(app.layers.ui)
+    self:bindAreas()
+    self.shown = {nil, nil}
+    return self
+end
+
+function S:cardPos(i)
+    local app = self.app
+    local row = (i - 1) // COLS
+    local col = (i - 1) % COLS
+    local totalW = COLS * CARD_W + (COLS - 1) * GAP
+    local x = -totalW / 2 + CARD_W / 2 + col * (CARD_W + GAP)
+    local y = -app.H / 2 + 272 - row * (CARD_H + GAP)
+    return x, y
+end
+
+-- one small bitmap per card, built two per frame (keeps every frame under the budget)
+function S:buildCards()
+    local n = #Art.roster
+    local k = 0
+    while self.built < n and k < 1 do
+        self.built = self.built + 1
+        local i = self.built
+        local c = Art.roster[i]
+        local x, y = self:cardPos(i)
+        local b = G.bitmap(self.cardsG)
+        b:drawMany({{img = Art.face(c.key), ox = 0, oy = -40, s = 2.9}})
+        b.node:pos(x, y):on(true)
+        self.cards[i] = b
+        k = k + 1
+    end
+end
+
+function S:bindAreas()
+    local app = self.app
+    for i in ipairs(Art.roster) do
+        local x, y = self:cardPos(i)
+        local idx = i
+        app.input:area(x, y, CARD_W, CARD_H, {down = function()
+            local p = self:activePlayer()
+            if self.phase == 'chars' and p then
+                if self.cur[p] == idx then self:confirm(p) else self.cur[p] = idx; app.audio:play(app.audio.ID.move) end
+            end
+        end})
+    end
+end
+
+function S:activePlayer()
+    if self.mode=='online' then return not self.done[1] and 1 or nil end
+    if self.twoP then
+        if not self.done[1] then return 1 end
+        if not self.done[2] then return 2 end
+        return nil
+    end
+    if not self.done[1] then return 1 end
+    if self.mode == 'versus' and not self.done[2] then return 2 end
+    return nil
+end
+
+local function move(i, dx, dy, n)
+    local row, col = (i - 1) // COLS, (i - 1) % COLS
+    local rows = math.ceil(n / COLS)
+    col = (col + dx) % COLS
+    row = (row + dy) % rows
+    local j = row * COLS + col + 1
+    if j > n then j = n end
+    return j
+end
+
+function S:confirm(p)
+    local app = self.app
+    self.done[p] = true
+    app.audio:play(app.audio.ID.okBig)
+    local c = Art.roster[self.cur[p]]
+    app.audio:play(app.audio.ID.ecast[c.element])
+    self.flash = self.flash or {0, 0}
+    self.flash[p] = 16
+    if not self:activePlayer() then self:afterChars() end
+end
+
+function S:afterChars()
+    local mode = self.mode
+    if mode=='online' then
+        self.net.me.char=self.cur[1]
+        if O.isHost(self.net) then self.phase='stage'
+        else self.phase='wait'; self.net.me.ready=true end
+        return
+    end
+    if mode == 'arcade' then
+        self:launch()
+    elseif mode == 'training' then
+        self.cur[2] = (self.cur[1] % #Art.roster) + 1
+        self.done[2] = true
+        self.phase = 'stage'
+    else
+        self.phase = 'stage'
+    end
+end
+
+function S:launch()
+    local app = self.app
+    if self.mode=='online' then
+        self.net.host.stage=self.stageI; self.net.me.ready=true; self.phase='wait'
+        return
+    end
+    local mine = Art.roster[self.cur[1]].key
+    if self.mode == 'arcade' then
+        -- ladder: 6 random opponents, the last one at boss level
+        local pool = {}
+        for _, c in ipairs(Art.roster) do if c.key ~= mine then pool[#pool + 1] = c.key end end
+        local seed = math.floor(app.t * 1000) % 9973 + 1
+        for i = #pool, 2, -1 do
+            seed = (seed * 1103515245 + 12345) & 0x7fffffff
+            local j = seed % i + 1
+            pool[i], pool[j] = pool[j], pool[i]
+        end
+        local ladder = {}
+        for i = 1, math.min(6,#pool) do ladder[i] = pool[i] end
+        local arcade = {ladder = ladder, step = 1, player = mine, score = 0}
+        app:travel('vs', {arcade = arcade})
+        return
+    end
+    local st = Stage.order[self.stageI] or Stage.order[1]
+    local args = {chars = {mine, Art.roster[self.cur[2]].key}, stage = st, mode = self.mode}
+    if self.mode == 'training' then
+        args.mode = 'training'
+        args.cpu = {false, false}
+    elseif self.args.cpu then
+        args.cpu = {false, app.settings.cpu}
+    else
+        args.cpu = {false, false}
+    end
+    app:travel('vs', args)
+end
+
+function S:tick()
+    local app = self.app
+    self.t = self.t + 1 / 60
+    if self.phase=='go' then return end
+    self.frameN = (self.frameN or 0) + 1
+    -- the backdrop builds slowly while the card bitmaps are still being drawn (frame budget)
+    if self.bd then self.bd:step(self.built < #Art.roster and 40 or 300) end
+    -- stage picker: the backdrop becomes the highlighted stage
+    if self.phase == 'stage' then
+        local key = Stage.order[self.stageI]
+        if key and Paint.available[key] and self.bdKey ~= key then
+            self.bdKey = key
+            self.bd = app:backdrop(key)
+        end
+    end
+    -- the first frame creates every layer node; cards and fighters start on the next ones
+    if self.frameN >= 2 then self:buildCards() end
+    local acts = app.input:menu()
+    local n = #Art.roster
+    if self.net then
+        self.net.me.char=self.cur[1]
+        if O.isHost(self.net) then self.net.host.stage=self.stageI end
+        local opp=O.opponent(self.net); local peer=opp and self.net.peers[opp]
+        if not peer then
+            self.net.me.ready=false; self.net.me.selecting=false
+            app:travel('online'); return
+        end
+        self.cur[2]=math.max(1,math.min(n,peer.lobby.char))
+        self.done[2]=peer.lobby.ready
+        if not O.isHost(self.net) then self.stageI=O.parseSetup(peer.setup).stage end
+        local function opts(chars,setup,seed)
+            return {chars={Art.roster[chars[1]],Art.roster[chars[2]]},rounds=setup.rounds,time=setup.time,seed=seed}
+        end
+        local onFrame=function(st,f,re) if self.net.onFrame then self.net.onFrame(st,f,re) end end
+        local m
+        if O.isHost(self.net) and O.bothReady(self.net) then m=O.hostStart(self.net,onFrame,opts)
+        elseif not O.isHost(self.net) then m=O.checkJoin(self.net,onFrame,opts) end
+        if m then
+            self.phase='go'
+            app:travel('vs',{chars={Art.roster[m.roster.chars[1]].key,Art.roster[m.roster.chars[2]].key},
+                stage=Stage.order[m.setup.stage],mode='online',online=true,rounds=m.setup.rounds,time=m.setup.time})
+            return
+        end
+    end
+    if self.phase == 'chars' then
+        -- 2P: player 2 uses its own pad edges
+        if self.twoP and not self.done[2] then
+            local p2 = app.input:pad(2)
+            local pr = p2.pressed or 0
+            if pr & 4 ~= 0 then self.cur[2] = move(self.cur[2], -1, 0, n); app.audio:play(app.audio.ID.move) end
+            if pr & 8 ~= 0 then self.cur[2] = move(self.cur[2], 1, 0, n); app.audio:play(app.audio.ID.move) end
+            if pr & 1 ~= 0 then self.cur[2] = move(self.cur[2], 0, -1, n); app.audio:play(app.audio.ID.move) end
+            if pr & 2 ~= 0 then self.cur[2] = move(self.cur[2], 0, 1, n); app.audio:play(app.audio.ID.move) end
+            if pr & 16 ~= 0 then self:confirm(2) end
+        end
+        local p = self.twoP and (not self.done[1] and 1 or nil) or self:activePlayer()
+        for _, a in ipairs(acts) do
+            if p then
+                if a == 'left' then self.cur[p] = move(self.cur[p], -1, 0, n); app.audio:play(app.audio.ID.move)
+                elseif a == 'right' then self.cur[p] = move(self.cur[p], 1, 0, n); app.audio:play(app.audio.ID.move)
+                elseif a == 'up' then self.cur[p] = move(self.cur[p], 0, -1, n); app.audio:play(app.audio.ID.move)
+                elseif a == 'down' then self.cur[p] = move(self.cur[p], 0, 1, n); app.audio:play(app.audio.ID.move)
+                elseif a == 'ok' then self:confirm(p)
+                elseif a == 'alt' then self.cur[p] = (math.floor(self.t * 977) % n) + 1; self:confirm(p) end
+            end
+            if a == 'back' then
+                if self.net then
+                    self.net.me.ready=false; self.net.me.selecting=false
+                    if self.net.io.stop then self.net.io.stop() end
+                    app.net=nil; app:travel('menu')
+                elseif self.done[2] and not self.twoP then self.done[2] = false
+                elseif self.done[1] then self.done[1] = false
+                else
+                    if self.net then
+                        if self.net.io.stop then self.net.io.stop() end
+                        app.net=nil
+                    end
+                    app:travel('menu')
+                end
+                app.audio:play(app.audio.ID.back)
+            end
+        end
+    elseif self.phase == 'stage' then
+        for _, a in ipairs(acts) do
+            if a == 'left' then self.stageI = (self.stageI - 2) % #Stage.order + 1; app.audio:play(app.audio.ID.move)
+            elseif a == 'right' then self.stageI = self.stageI % #Stage.order + 1; app.audio:play(app.audio.ID.move)
+            elseif a == 'ok' then app.audio:play(app.audio.ID.okBig); self:launch(); if not self.net then self.phase = 'go' end
+            elseif a == 'back' then self.phase = 'chars'; if self.mode == 'training' then self.done[2] = false end; self.done[1] = false; app.audio:play(app.audio.ID.back) end
+        end
+    elseif self.phase=='wait' then
+        for _,a in ipairs(acts) do
+            if a=='back' then
+                self.net.me.ready=false; self.done[1]=false; self.phase='chars'
+                app.audio:play(app.audio.ID.back)
+            end
+        end
+    end
+end
+
+-- at most one fighter bitmap is (re)built per frame (a hi-tier pose is ~1200 rects)
+function S:previews()
+    local app = self.app
+    local built = false
+    for p = 1, 2 do
+        local show = self.shows[p]
+        local focused = self:activePlayer() or 1
+        local visible = p == focused
+        if visible then
+            local key = Art.roster[self.cur[p]].key
+            local pose = self.done[p] and 'special' or 'idle'
+            local want = key .. pose
+            if self.shown[p] ~= want and not built then
+                built = true
+                self.shown[p] = want
+                self.swapT = self.swapT or {0, 0}
+                self.swapT[p] = 0
+                local side = p == 1 and -1 or 1
+                show:set(key, self.tier, pose, -(app.W / 2 - 330), -app.H / 2 + 372, 1.2, 1, 0)
+                local n = show.bmp.node
+                local x0 = n.x
+                n:pos(x0 + side * 120, n.y)
+                n:tween({anchoredPositionX = x0}, 0.3, 'OutCubic')
+            end
+        else
+            show:hide()
+            self.shown[p] = nil
+        end
+    end
+end
+
+-- The currently selected fighter stays on the left; its information fills the right panel.
+local function nameBlock(L, c, W, H, a, done, player)
+    local ec = UI.ECOL[c.element] or K.elementColor[c.element]
+    local bx, y = W / 4, H / 2 - 220
+    local width = math.min(760, W / 2 - 180)
+    UI.slab(L, bx, H / 2 - 290, width + 70, 410, UI.NAVY, 0.88 * a, -UI.SLANT)
+    L:label(UI.track((K.en[c.key] or ''):upper()), bx, y + 70, width, 26, 16, UI.GOLD, 'l', nil, a)
+    L:label(c.name, bx, y + 8, width, 100, 78, UI.WHITE, 'l', nil, a)
+    L:rect(bx, y - 48, width, 2, ec, a)
+    L:label((K.title[c.key] or '') .. ' · ' .. (K.elementName[c.element] or '') .. '元素 · ' .. (K.weaponName[c.weapon] or ''),
+            bx, y - 76, width, 28, 19, UI.GREY, 'l', nil, a)
+    L:label('E  ' .. c.skill, bx, y - 118, width, 30, 22, UI.CREAM, 'l', nil, a)
+    L:label('Q  ' .. c.burst, bx, y - 156, width, 30, 22, UI.CREAM, 'l', nil, a)
+    L:label(player == 2 and '选择电脑对手' or '选择你的角色', bx, y - 202, width, 28, 18, UI.GOLD, 'l', nil, a)
+    local da = done and a or 0
+    UI.slab(L, -(W / 2 - 330), -H / 2 + 560, 330, 50, UI.CREAM, 0.95 * da, 8)
+    L:label('已确定 READY', -(W / 2 - 330), -H / 2 + 560, 330, 50, 24, UI.TEXT, 'c', nil, da)
+end
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    local t = self.t
+    if self.bd then self.bd:draw(self.phase == 'stage' and 0.25 or 0.5, {10, 14, 32}) end
+    if (self.frameN or 0) >= 3 then self:previews() end
+    local sideOn = {true, self.mode ~= 'arcade' and not (self.mode == 'training' and not self.done[1])}
+    -- backdrop graphics: per-side slabs, ghost names, the roster band
+    local B = self.Lback
+    B:begin()
+    local focused = self:activePlayer() or 1
+    for _, p in ipairs({focused}) do
+        local side = -1
+        local c = Art.roster[self.cur[p]]
+        local ec = UI.ECOL[c.element] or K.elementColor[c.element]
+        local a = 1
+        self.swapT = self.swapT or {0, 0}
+        self.swapT[p] = (self.swapT[p] or 0) + 1
+        local k = U.ease.outCubic(U.clamp(self.swapT[p] / 14, 0, 1))
+        local sx = side * (W / 2 - 150)
+        UI.slab(B, sx, 0, 520, H * 1.9, U.mix(ec, UI.NAVY, 0.78), 0.72 * a, side * UI.SLANT)
+        UI.stripes(B, sx, 0, 420, H * 1.9, 12, UI.WHITE, 0.03 * a, side * UI.SLANT)
+        UI.slab(B, sx - side * 270, 0, 3, H * 2, UI.GOLD, 0.7 * a, side * UI.SLANT)
+        UI.slab(B, sx - side * 298, 0, 10, H * 2, ec, 0.45 * a, side * UI.SLANT)
+        B:shape(G.ELLIPSE, side * (W / 2 - 330), -H / 2 + 560, 560, 620, ec, 0.24 * a, 0, 0.5)
+        B:shape(G.ELLIPSE, side * (W / 2 - 330), -H / 2 + 372, 380, 40, {0, 0, 0}, 0.5 * a, 0, 0.5)
+        local gname = (K.en[c.key] or ''):upper()
+        local g = B:label(gname, side * (W / 2 - 300) + side * (1 - k) * 120, -40, 1400, 260, 190, UI.WHITE, 'c', nil, 0.07 * a * k)
+        g:rot(90)
+    end
+    -- band behind the roster
+    local gy = -H / 2 + 272 - (CARD_H + GAP) / 2
+    B:rect(0, gy, W + 60, 2 * CARD_H + GAP + 56, UI.NAVY, 0.82)
+    B:rect(0, gy + CARD_H + GAP / 2 + 28, W + 60, 2, UI.GOLD, 0.7)
+    B:rect(0, gy - CARD_H - GAP / 2 - 28, W + 60, 2, UI.GOLD, 0.4)
+    -- card backs
+    for i, c in ipairs(Art.roster) do
+        local x, y = self:cardPos(i)
+        local ec = UI.ECOL[c.element] or K.elementColor[c.element]
+        local hot = (i == self.cur[1]) or (sideOn[2] and i == self.cur[2])
+        B:rect(x, y, CARD_W, CARD_H, hot and U.mix(ec, UI.NAVY, 0.45) or UI.NAVY2, 1)
+        B:rect(x, y + 14, CARD_W, CARD_H - 28, U.mix(ec, UI.NAVY2, 0.7), 1)
+        B:shape(G.ELLIPSE, x, y + 24, CARD_W * 1.1, CARD_H * 0.8, ec, hot and 0.45 or 0.18, 0, 0.5)
+    end
+    B:finish()
+    local L = self.L
+    L:begin()
+    -- card fronts: name band, element mark, dim when not hot
+    for i, c in ipairs(Art.roster) do
+        local x, y = self:cardPos(i)
+        local ec = UI.ECOL[c.element] or K.elementColor[c.element]
+        local hot = (i == self.cur[1]) or (sideOn[2] and i == self.cur[2])
+        L:rect(x, y - CARD_H / 2 + 14, CARD_W, 28, hot and UI.CREAM or UI.NAVY, hot and 1 or 0.92)
+        L:rect(x, y - CARD_H / 2 + 29, CARD_W, 3, ec, 1)
+        L:label(c.name, x, y - CARD_H / 2 + 14, CARD_W, 28, 15, hot and UI.TEXT or UI.WHITE, 'c', nil, 1)
+        UI.element(L, c.element, x + CARD_W / 2 - 15, y + CARD_H / 2 - 15, 18, 0.95)
+        L:rect(x, y + 14, CARD_W, CARD_H - 28, UI.NAVY, hot and 0 or 0.28)
+    end
+    for i, b in pairs(self.cards) do
+        local hot = (i == self.cur[1]) or (sideOn[2] and i == self.cur[2])
+        b.node:scale(hot and 1.04 or 1, hot and 1.04 or 1)
+    end
+    -- cursors: thick frame + tilted tag
+    for p = 1, 2 do
+        local x, y = self:cardPos(self.cur[p])
+        local col = PCOL[p]
+        local pulse = 0.75 + 0.25 * math.sin(t * 9 + p)
+        local a = sideOn[p] and (self.done[p] and 1 or pulse) or 0
+        local off = (p == 2 and self.cur[1] == self.cur[2]) and 5 or 0
+        local fw, fh = CARD_W + 8 + off * 2, CARD_H + 8 + off * 2
+        L:rect(x, y + fh / 2, fw + 5, 5, col, a)
+        L:rect(x, y - fh / 2, fw + 5, 5, col, a)
+        L:rect(x - fw / 2, y, 5, fh, col, a)
+        L:rect(x + fw / 2, y, 5, fh, col, a)
+        local tx = x + (p == 1 and -24 or 24)
+        local ty = y + fh / 2 - 12
+        UI.slab(L, tx, ty, 58, 26, col, a, 8)
+        local tag = self.net and (p==1 and '你' or '对手') or (p == 1 and '1P' or (self.twoP and '2P' or 'CPU'))
+        L:label(tag, tx, ty, 58, 26, 16, UI.TEXT, 'c', nil, a)
+    end
+    -- header (top centre)
+    local titles = {online='ONLINE VERSUS',arcade = 'ARCADE', versus = self.twoP and 'LOCAL VERSUS' or 'VERSUS CPU', training = 'TRAINING'}
+    L:label('选择角色', 0, H / 2 - 56, 400, 56, 40, UI.WHITE, 'c', nil, 1)
+    L:label(UI.track(titles[self.mode] or ''), 0, H / 2 - 96, 400, 24, 14, UI.GOLD, 'c', nil, 1)
+    L:shape(G.RECT, -150, H / 2 - 96, 7, 7, UI.GOLD, 1, 45)
+    L:shape(G.RECT, 150, H / 2 - 96, 7, 7, UI.GOLD, 1, 45)
+    -- Only the active pick is described, in the right-hand frame.
+    local infoPlayer = self:activePlayer() or 1
+    local c = Art.roster[self.cur[infoPlayer]]
+    local k = U.ease.outCubic(U.clamp((self.swapT[infoPlayer] or 0) / 12, 0, 1))
+    nameBlock(L, c, W, H, (self.phase == 'chars' or self.phase=='wait') and k or 0, self.done[infoPlayer], infoPlayer)
+    -- stage picker
+    local sa = (self.phase == 'stage') and 1 or 0
+    L:rect(0, 40, W + 40, 230, UI.NAVY, 0.78 * sa)
+    L:rect(0, 155, W + 40, 2, UI.GOLD, 0.7 * sa)
+    L:rect(0, -75, W + 40, 2, UI.GOLD, 0.4 * sa)
+    local st = Stage.order[self.stageI]
+    local sname = st and (Paint.available[st] and require('gf_bg_' .. st).name or st) or ''
+    local ssub = st and (Paint.available[st] and require('gf_bg_' .. st).sub or '') or ''
+    L:label(UI.track('STAGE SELECT') .. ('    %d / %d'):format(self.stageI, #Stage.order), 0, 120, 600, 26, 15, UI.GOLD, 'c', nil, sa)
+    L:label(sname, 0, 52, 1000, 90, 64, UI.WHITE, 'c', nil, sa)
+    L:label(ssub, 0, -20, 800, 30, 20, UI.GREY, 'c', nil, sa)
+    UI.chevron(L, -520 - math.sin(t * 6) * 6, 40, 44, UI.WHITE, sa, -1)
+    UI.chevron(L, 520 + math.sin(t * 6) * 6, 40, 44, UI.WHITE, sa, 1)
+    UI.tap(L, 'stageL', -520, 40, 160, 160, 'left', sa > 0)
+    UI.tap(L, 'stageR', 520, 40, 160, 160, 'right', sa > 0)
+    UI.tap(L, 'stageOk', 0, 40, 700, 160, 'ok', sa > 0)
+    if self.net then
+        local peer=self.net.peers[O.opponent(self.net)]
+        local name=Art.roster[self.cur[2]].name
+        L:label('对手：'..name..(self.done[2] and ' · 已准备' or ' · 选人中'),0,H/2-132,800,34,20,UI.CREAM,'c')
+        if self.phase=='wait' then
+            UI.slab(L,0,-H/2+350,800,52,UI.NAVY,.95,0)
+            L:label('已准备 · 等待对手确认角色和场景',0,-H/2+350,800,52,24,UI.WHITE,'c')
+        end
+    end
+    -- prompts
+    UI.prompt(L, W / 2 - 460, -H / 2 + 30, 'J', '确认', 1, 'ok')
+    UI.prompt(L, W / 2 - 300, -H / 2 + 30, 'K', '返回', 1, 'back')
+    UI.prompt(L, W / 2 - 140, -H / 2 + 30, 'L', '随机', 1, 'alt')
+    L:finish()
+end
+
+function S:exit()
+    for _, b in pairs(self.cards) do b:free() end
+    G.release(self.cardsG)
+    self.Lback:free()
+    self.L:free()
+    for _, s in ipairs(self.shows) do s:free() end
+end
+
+return S
+end
+__loaders['gf_scene_stageview'] = function()
+local G = require('gf_gfx')
+local Stage = require('gf_stage')
+
+local S = {}
+S.__index = S
+
+function S.new(app, args)
+    local self = setmetatable({app = app, args = args}, S)
+    self.stage = Stage.new(app, app.layers.back, args.stage or 'mondstadt')
+    while not self.stage:buildStep(5000) do end
+    self.cx = args.cx or 0
+    self.zoom = args.zoom or 1
+    return self
+end
+
+function S:tick() end
+
+function S:draw()
+    local app = self.app
+    self.stage:camera(self.cx, self.zoom, -app.H / 2 + 150, 0, 0)
+end
+
+function S:exit() self.stage:free() end
+
+return S
+end
+__loaders['gf_scene_test'] = function()
+local G = require('gf_gfx')
+local Art = require('gf_art')
+
+local S = {}
+S.__index = S
+
+function S.new(app, args)
+    local self = setmetatable({app = app}, S)
+    local L = app.layers
+    self.bg = G.layer(L.back)
+    self.bg:begin()
+    self.bg:rect(0, 0, app.W, app.H, {24, 26, 40})
+    self.bg:rect(0, -330, app.W, 240, {44, 40, 58})
+    self.bg:finish()
+    local keys = args.keys or {'raidenshogun', 'furina'}
+    self.bmps = {}
+    for i, key in ipairs(keys) do
+        local tier = (i % 2 == 1) and 'hi' or 'lo'
+        local img = Art.pose(key, tier, args.pose or 'idle')
+        local b = G.bitmap(L.world)
+        b:draw(img)
+        b.node:pos(-500 + (i - 1) * 330, -210):scale(img.u * (i % 2 == 1 and 1 or -1), img.u):on(true)
+        self.bmps[#self.bmps + 1] = b
+    end
+    local faces = G.bitmap(L.ui)
+    local list = {}
+    for i, c in ipairs(Art.roster) do
+        local f = Art.face(c.key)
+        list[#list + 1] = {img = f, ox = 120 + ((i - 1) % 4) * 120, oy = 260 - ((i - 1) // 4) * 130, s = 3.2}
+    end
+    faces:drawMany(list)
+    faces.node:on(true)
+    self.ui = G.layer(L.ui)
+    self.ui:begin()
+    self.ui:label('原神格斗 v2 · 管线测试', 0, 400, 900, 60, 40, {255, 236, 190}, 'c', {60, 30, 10})
+    self.ui:finish()
+    return self
+end
+
+function S:tick() end
+function S:draw() end
+
+return S
+end
+__loaders['gf_scene_title'] = function()
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local K = require('gf_kits')
+local Art = require('gf_art')
+local Show = require('gf_show')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+local PAIRS = {{'raidenshogun','nahida'}}
+
+function S.new(app)
+    local self = setmetatable({app = app, t = 0}, S)
+    local key = Paint.available.mondstadt and 'mondstadt' or next(Paint.available)
+    if key then self.bd = app:backdrop(key) end
+    local pair = PAIRS[(math.floor(app.t * 7) % #PAIRS) + 1]
+    self.pair = pair
+    self.left = Show.new(app.layers.world)
+    self.right = Show.new(app.layers.world)
+    self.L = G.layer(app.layers.ui)
+    self.tier = app.quality == 'lo' and 'lo' or 'hi'
+    self.back = G.layer(app.layers.back)
+    self.built = 0
+    local data = require('gf_logo')[app.quality == 'lo' and 'lo' or 'hi']
+    self.logoData = data
+    self.logoPal = U.palette(data.pal)
+    self.logoG = G.group(app.layers.ui)
+    self.logoG:pos(0, 205):rot(4):on(false)
+    self.logoTiles = {}
+    self.over = G.layer(app.layers.ui)       -- light sweep above the logo
+    app.audio:play(app.audio.ID.open)
+    return self
+end
+
+function S:buildLogo()
+    local d = self.logoData
+    local cur = self.logoCur
+    if not cur then
+        local i = #self.logoTiles + 1
+        local tile = d.tiles[i]
+        if not tile then return true end
+        local b = G.bitmap(self.logoG)
+        b.node:scale(d.u, d.u)
+        cur = {b = b, i = i, img = {bytes = U.decodeAll(tile.d), n = tile.n, pal = self.logoPal,
+                                    ax = d.w / 2 - tile.x, ay = d.h / 2}}
+        self.logoCur = cur
+        return false
+    end
+    local b, img = cur.b, cur.img
+    if #b.kids < img.n then
+        b:ensure(math.min(img.n, #b.kids + 300))
+        return false
+    end
+    if not cur.started then cur.started = true; b:start(img, 'logo' .. cur.i) end
+    if not b:step(450) then return false end
+    b.node:on(true)
+    self.logoTiles[cur.i] = b
+    self.logoCur = nil
+    if cur.i == #d.tiles then
+        self.logoT = 0
+        self.logoG:scale(1.5, 1.5):on(true)
+        self.logoG:tween({localScaleX = 0.88, localScaleY = 0.88}, 0.35, 'OutBack')
+        self.app.audio:play(self.app.audio.ID.eboom.electro)
+    end
+    return false
+end
+
+function S:buildFighters()
+    if self.built >= 2 then return end
+    self.built = self.built + 1
+    local app = self.app
+    local i = self.built
+    local side = i == 1 and -1 or 1
+    local sh = i == 1 and self.left or self.right
+    sh:set(self.pair[i], self.tier, 'idle', side * (app.W / 2 - 360), -app.H / 2 + 30, 1.45, -side, 0)
+    local n = sh.bmp.node
+    local x0 = n.x
+    n:pos(x0 + side * 420, n.y)
+    n:tween({anchoredPositionX = x0}, 0.8, 'OutCubic')
+end
+
+function S:tick()
+    local app = self.app
+    self.t = self.t + 1 / 60
+    self.frameN = (self.frameN or 0) + 1
+    if self.frameN >= 2 then
+        if self.built < 2 then self:buildFighters() else self:buildLogo() end
+    end
+    if self.logoT then self.logoT = self.logoT + 1 / 60 end
+    if self.bd then self.bd:step(300) end
+    local go = false
+    for _, a in ipairs(app.input:menu()) do if a == 'ok' or a == 'pause' or a == 'back' then go = true end end
+    local p = app.input:pad(1)
+    if p.pressed ~= 0 then go = true end
+    if go and self.t > 0.6 and not self.leaving then
+        self.leaving = true
+        app.audio:play(app.audio.ID.okBig)
+        app:travel('menu', nil, {255, 214, 120})
+    end
+    if not self.area then
+        self.area = app.input:area(0, 0, app.W, app.H, {click = function()
+            if not self.leaving and self.t > 0.6 then self.leaving = true; app:travel('menu', nil, {255, 214, 120}) end
+        end})
+    end
+end
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    if self.bd then self.bd:draw(0.3, {10, 14, 34}) end
+    local t = self.t
+    local k = U.ease.outCubic(U.clamp(t / 0.9, 0, 1))
+    local c1, c2 = Art.byKey[self.pair[1]], Art.byKey[self.pair[2]]
+    local e1 = UI.ECOL[c1.element] or K.elementColor[c1.element]
+    local e2 = UI.ECOL[c2.element] or K.elementColor[c2.element]
+    local B = self.back
+    B:begin()
+    B:shape(G.ELLIPSE, -W / 2 + 360, -H / 2 + 300, 760, 900, e1, 0.3 * k, 0, 0.5)
+    B:shape(G.ELLIPSE, W / 2 - 360, -H / 2 + 300, 760, 900, e2, 0.3 * k, 0, 0.5)
+    for i = 1, 3 do
+        B:rect(-W / 2 + 200 + i * 120, 0, 60 + i * 20, H * 2, e1, 0.06 * k, -UI.SLANT - i * 4)
+        B:rect(W / 2 - 200 - i * 120, 0, 60 + i * 20, H * 2, e2, 0.06 * k, UI.SLANT + i * 4)
+    end
+    B:label('七国之巅', 0, 60 - t * 4 % 20, 1800, 360, 300, UI.WHITE, 'c', nil, 0.05 * k)
+    for i = 1, 8 do
+        local yy = -H / 2 + i * H / 8.5
+        local xx = ((t * (500 + (i % 3) * 260) + i * 197) % (W + 700)) - W / 2 - 350
+        B:rect(xx, yy, 220 + (i % 3) * 150, 2, UI.WHITE, 0.09, -UI.SLANT)
+    end
+    B:finish()
+    local L = self.L
+    L:begin()
+    local y = 205
+    local lt = self.logoT or -1
+    local lk = U.clamp(lt / 0.3, 0, 1)
+    L:shape(G.ELLIPSE, 0, y - 10, 1500, 520, UI.NAVY, 0.55 * lk, 0, 0.5)
+    L:shape(G.ELLIPSE, 0, y, 1300, 420, UI.WHITE, lt >= 0 and math.max(0, 0.5 - lt) or 0, 0, 0.5)
+    local rk = U.clamp(lt / 0.6, 0, 1)
+    L:shape(G.RING, 0, y, 400 + rk * 1400, 160 + rk * 520, UI.WHITE, lt >= 0 and (1 - rk) * 0.6 or 0, 4)
+    local pk = U.ease.outCubic(U.clamp((lt - 0.25) / 0.4, 0, 1))
+    L:label('七国之巅　·　元素激斗', 0, y - 250, 700, 34, 22, UI.GREY, 'c', {0, 0, 0, 120}, pk)
+    local blink = 0.55 + 0.45 * math.sin(t * 3.4)
+    local by = -H / 2 + 120
+    L:rect(0, by, 640 * pk, 46, UI.NAVY, 0.7 * pk)
+    L:rect(0, by + 23, 640 * pk, 2, UI.GOLD, 0.6 * pk)
+    L:rect(0, by - 23, 640 * pk, 2, UI.GOLD, 0.3 * pk)
+    L:label('按任意键开始　PRESS ANY BUTTON', 0, by, 640, 46, 22, UI.WHITE, 'c', nil, blink * pk)
+    UI.chevron(L, -350 - math.sin(t * 6) * 6, by, 22, UI.WHITE, blink * pk, -1)
+    UI.chevron(L, 350 + math.sin(t * 6) * 6, by, 22, UI.WHITE, blink * pk, 1)
+    L:label('非官方同人作品　·　千星奇域', -W / 2 + 220, -H / 2 + 28, 420, 30, 15, UI.DIM, 'l', nil, k)
+    L:label('v2.0', W / 2 - 80, -H / 2 + 28, 120, 30, 15, UI.DIM, 'r', nil, k)
+    L:finish()
+    local O = self.over
+    O:begin()
+    local sw = lt >= 0 and ((lt - 0.4) % 4.0) / 0.7 or 2
+    O:rect(-700 + sw * 1400, y, 70, 330, UI.WHITE, (sw >= 0 and sw <= 1) and 0.22 or 0, 4 - 20)
+    O:rect(-640 + sw * 1400, y, 18, 330, UI.WHITE, (sw >= 0 and sw <= 1) and 0.3 or 0, 4 - 20)
+    O:finish()
+end
+
+function S:exit()
+    self.back:free()
+    self.over:free()
+    for _, b in ipairs(self.logoTiles) do b:free() end
+    if self.logoCur then self.logoCur.b:free() end
+    G.release(self.logoG)
+    self.left:free()
+    self.right:free()
+    self.L:free()
+end
+
+return S
+end
+__loaders['gf_scene_vs'] = function()
+-- VS screen: the screen splits on a diagonal in both element colours, big portraits slide in,
+-- names and titles land, a giant VS strikes, the stage title appears in Genshin's area-title
+-- style. While it plays both fighters' art is decoded, so the fight starts without a wait.
+-- args: fight args, or {arcade = state} (the ladder picks the opponent and stage).
+local G = require('gf_gfx')
+local U = require('gf_util')
+local UI = require('gf_ui')
+local K = require('gf_kits')
+local Art = require('gf_art')
+local Stage = require('gf_stage')
+local Paint = require('gf_paint')
+
+local S = {}
+S.__index = S
+
+local CN = {'一', '二', '三', '四', '五', '六', '七'}
+
+function S.new(app, args)
+    local self = setmetatable({app = app, t = 0}, S)
+    app:dropBackdrop()
+    if args.arcade then
+        local ar = args.arcade
+        local opp = ar.ladder[ar.step]
+        local st = Stage.order[(ar.step - 1) % #Stage.order + 1]
+        local boss = ar.step == #ar.ladder
+        args = {chars = {ar.player, opp}, stage = st, mode = 'arcade', arcade = ar,
+                cpu = {false, boss and 4 or math.min(4, 1 + (ar.step + 1) // 2)}}
+        self.label = boss and '最终决战' or ('第' .. CN[ar.step] .. '战')
+    end
+    self.args = args
+    self.chars = {Art.byKey[args.chars[1]], Art.byKey[args.chars[2]]}
+    self.tier = app.quality == 'lo' and 'lo' or 'hi'
+    self.jobs = {Art.prepare(args.chars[1], self.tier), Art.prepare(args.chars[2], self.tier)}
+    self.back = G.layer(app.layers.back)
+    self.ports = {G.bitmap(app.layers.world), G.bitmap(app.layers.world)}
+    self.L = G.layer(app.layers.ui)
+    self.portDone = 0
+    app.audio:play(app.audio.ID.shock)
+    return self
+end
+
+function S:layoutPortrait(i, animate)
+    local app, p, img = self.app, self.ports[i], self.portImages[i]
+    if not img then return end
+    local side = i == 1 and -1 or 1
+    local scale = math.min((app.H - 280) / img.h, (app.W / 2 - 150) / img.w)
+    local face = -side
+    local x = side * app.W / 4 - (img.w / 2 - img.ax) * scale * face
+    local y = -app.H / 2 + 225 - (img.ay - img.h) * scale
+    p.node:pos(animate and (x + side * app.W) or x, y):scale(scale * face, scale):on(true)
+    if animate then p.node:tween({anchoredPositionX = x}, 0.45, 'OutCubic') end
+end
+
+function S:buildPortrait(i)
+    local img = Art.pose(self.chars[i].key, self.tier, 'idle')
+    self.portImages = self.portImages or {}
+    self.portImages[i] = img
+    self.ports[i]:drawMany({{img = img, ox = 0, oy = 0, s = 1}})
+    self:layoutPortrait(i, true)
+end
+
+function S:resize()
+    for i = 1, 2 do self:layoutPortrait(i, false) end
+end
+
+function S:tick()
+    local app = self.app
+    if self.portDone < 2 then
+        self.portDone = self.portDone + 1
+        self:buildPortrait(self.portDone)
+        return
+    end
+    self.t = self.t + 1 / 60
+    local ready = true
+    for _, j in ipairs(self.jobs) do if not j:step(5000) then ready = false end end
+    if self.t > 0.9 and not self.vsPlayed then
+        self.vsPlayed = true
+        app.audio:play(app.audio.ID.eboom.electro)
+    end
+    for _, a in ipairs(app.input:menu()) do if a == 'ok' and self.t > 1.2 then self.t = math.max(self.t, 2.9) end end
+    if ready and self.t >= 3.2 and not self.left then
+        self.left = true
+        app:travel('fight', self.args, K.elementColor[self.chars[1].element])
+    end
+end
+
+function S:draw()
+    local app = self.app
+    local W, H = app.W, app.H
+    local t = self.t
+    local B = self.back
+    local c1, c2 = self.chars[1], self.chars[2]
+    local e1 = UI.ECOL[c1.element] or K.elementColor[c1.element]
+    local e2 = UI.ECOL[c2.element] or K.elementColor[c2.element]
+    B:begin()
+    B:rect(0, 0, W + 60, H + 60, UI.NAVY)
+    local k = U.ease.outCubic(U.clamp(t / 0.35, 0, 1))
+    -- two halves meet on a diagonal: element-tinted slabs, hatch, a gold seam
+    local d = (1 - k) * W
+    UI.slab(B, -W * 0.52 - d, 0, W * 1.1, H * 2.2, U.mix(e1, UI.NAVY, 0.55), 1, -UI.SLANT)
+    UI.slab(B, W * 0.52 + d, 0, W * 1.1, H * 2.2, U.mix(e2, UI.NAVY, 0.55), 1, -UI.SLANT)
+    UI.stripes(B, -W * 0.3 - d, 0, W * 0.6, H * 2.2, 26, UI.WHITE, 0.035, -UI.SLANT)
+    UI.stripes(B, W * 0.3 + d, 0, W * 0.6, H * 2.2, 26, UI.WHITE, 0.035, -UI.SLANT)
+    B:shape(G.ELLIPSE, -W / 2 + 320, -60, 1100, 1100, e1, 0.35, 0, 0.5)
+    B:shape(G.ELLIPSE, W / 2 - 320, 60, 1100, 1100, e2, 0.35, 0, 0.5)
+    -- streaks racing along the diagonal
+    for i = 1, 12 do
+        local side = i % 2 == 0 and -1 or 1
+        local yy = -H / 2 + i * H / 12
+        local off = ((t * (900 + (i % 3) * 300) + i * 173) % (W * 1.6)) - W * 0.8
+        B:rect(side * off, yy, 260 + (i % 3) * 140, i % 4 == 0 and 4 or 2, UI.WHITE, 0.14, -UI.SLANT)
+    end
+    -- seam: white core, gold hairlines, element bars either side
+    B:rect(0, 0, 10 * k, H * 2.4, UI.WHITE, 0.95, -UI.SLANT)
+    B:rect(-16, 0, 3, H * 2.4, UI.GOLD, 0.9 * k, -UI.SLANT)
+    B:rect(16, 0, 3, H * 2.4, UI.GOLD, 0.9 * k, -UI.SLANT)
+    B:rect(-38, 0, 14, H * 2.4, e1, 0.8 * k, -UI.SLANT)
+    B:rect(38, 0, 14, H * 2.4, e2, 0.8 * k, -UI.SLANT)
+    -- giant ghost names behind the portraits
+    B:label((K.en[c1.key] or ''):upper(), -W / 2 + 420 - (1 - k) * 300, H / 2 - 170, 1500, 260, 200, UI.WHITE, 'c', nil, 0.08 * k)
+    B:label((K.en[c2.key] or ''):upper(), W / 2 - 420 + (1 - k) * 300, H / 2 - 170, 1500, 260, 200, UI.WHITE, 'c', nil, 0.08 * k)
+    B:finish()
+    local L = self.L
+    L:begin()
+    -- Both full-body fighters share the same baseline and bottom name layout.
+    local na = U.clamp((t - 0.3) / 0.2, 0, 1)
+    for i, c in ipairs({c1, c2}) do
+        local side = i == 1 and -1 or 1
+        local ec = i == 1 and e1 or e2
+        local x, y = side * W / 4, -H / 2 + 126
+        local width = W / 2 - 110
+        UI.slab(L, x, y, width, 154, UI.NAVY, 0.82 * na, -UI.SLANT)
+        L:label(UI.track((K.en[c.key] or ''):upper()), x, y + 62, width - 80, 26, 16, UI.GOLD, 'c', nil, na)
+        L:label(c.name, x, y + 3, width - 80, 94, 76, UI.WHITE, 'c', nil, na)
+        L:rect(x, y - 42, width - 80, 2, ec, na)
+        L:label((K.title[c.key] or '') .. ' · ' .. (K.elementName[c.element] or '') .. ' · ' .. (K.weaponName[c.weapon] or ''),
+                x, y - 61, width - 80, 26, 18, UI.CREAM, 'c', nil, na)
+    end
+    -- VS: slams in big, shards burst, white flash
+    local vk = U.clamp((t - 0.8) / 0.22, 0, 1)
+    local vs = U.ease.outBack(vk)
+    local after = U.clamp((t - 1.02) / 0.5, 0, 1)
+    L:shape(G.ELLIPSE, 0, 0, 900, 900, UI.WHITE, (vk > 0 and (1 - after) * 0.5 or 0), 0, 0.5)
+    for j = 0, 7 do
+        local a = math.rad(j * 45 + 20)
+        local r = 120 + after * 520
+        L:shape(G.TRI, math.cos(a) * r, math.sin(a) * r, 26, 70, j % 2 == 0 and UI.WHITE or UI.GOLD, (vk > 0 and (1 - after)) and (1 - after) * 0.9 or 0, j * 45 - 70)
+    end
+    -- Keep the middle clear: the VS mark is centered without a wide bar over the fighters.
+    local v = L:label('VS', 0, 50, 480, 170, 140, UI.WHITE, 'c', {40, 30, 70}, vk)
+    v:scale(v.sx * (2.2 - 1.2 * vs), v.sy * (2.2 - 1.2 * vs))
+    -- stage strip at the bottom centre, ladder label at the top centre
+    local sk = U.ease.outCubic(U.clamp((t - 1.4) / 0.4, 0, 1))
+    local st = self.args.stage
+    local sdata = st and Paint.available[st] and require('gf_bg_' .. st)
+    L:rect(0, -H / 2 + 24, 760 * sk, 38, UI.NAVY, 0.85 * sk)
+    L:rect(0, -H / 2 + 44, 760 * sk, 2, UI.GOLD, 0.8 * sk)
+    L:label(UI.track('STAGE'), -300, -H / 2 + 24, 120, 30, 14, UI.GOLD, 'l', nil, sk)
+    L:label(sdata and sdata.name or '训练场', 30, -H / 2 + 24, 560, 36, 24, UI.WHITE, 'c', nil, sk)
+    L:rect(0, H / 2 - 40, 360 * sk, 46, UI.GOLD_HI, (self.label and 0.95 or 0) * sk, 0)
+    L:label(self.label or '', 0, H / 2 - 40, 360, 46, 26, UI.TEXT, 'c', nil, self.label and sk or 0)
+    L:finish()
+end
+
+function S:exit()
+    self.back:free()
+    for _, p in ipairs(self.ports) do p:free() end
+    self.L:free()
+end
+
+return S
+end
+__loaders['gf_show'] = function()
+local G = require('gf_gfx')
+local Art = require('gf_art')
+local K = require('gf_kits')
+
+local S = {}
+S.__index = S
+
+function S.new(parent)
+    local self = setmetatable({}, S)
+    self.root = G.group(parent)
+    self.glow = G.image(self.root, G.ELLIPSE)
+    self.glow:on(false)
+    self.shadow = G.image(self.root, G.ELLIPSE)
+    self.shadow:on(false)
+    self.bmp = G.bitmap(self.root)
+    return self
+end
+
+function S:set(key, tier, pose, x, y, s, face, glowA)
+    s, face = s or 1, face or 1
+    local img = Art.pose(key, tier, pose or 'idle')
+    self.bmp:draw(img, key .. tier .. (pose or 'idle'))
+    self.bmp.node:pos(x, y):scale(img.u * s * face, img.u * s):on(true)
+    local ec = K.elementColor[Art.byKey[key].element] or {255, 255, 255}
+    self.glow:pos(x, y + 170 * s):size(420 * s, 520 * s):color(ec[1], ec[2], ec[3], glowA or 70):soft(0.5):on(true)
+    self.shadow:pos(x, y + 4):size(240 * s, 34 * s):color(0, 0, 0, 120):soft(0.4):on(true)
+    self.key, self.x, self.y, self.s = key, x, y, s
+end
+
+function S:hide()
+    self.bmp.node:on(false)
+    self.glow:on(false)
+    self.shadow:on(false)
+end
+
+function S:free()
+    self.bmp:free()
+    G.release(self.glow)
+    G.release(self.shadow)
+    G.release(self.root)
+end
+
+return S
+end
+__loaders['gf_sim'] = function()
+
+
+-- Deterministic fight simulation (60 ticks/s). Pure Lua, no client API: the same inputs give
+-- the same match on every machine (integer positions), which keeps rollback netcode possible.
+--
+-- Units: positions/velocities in centi-units (1/100 of a design unit); y = 0 is the floor,
+-- y up. Inputs per tick: bit masks (gf_input.B) for both players, in absolute directions.
+-- The view reads fighters and the per-tick `events` list; it never writes into the sim.
+local K = require('gf_kits')
+
+local S = {}
+S.__index = S
+
+local C = 100
+local GRAV = 115
+local WALL = 1100 * C
+local B = {U = 1, D = 2, L = 4, R = 8, LP = 16, HP = 32, SK = 64, BU = 128, DA = 256, TH = 512}
+S.B = B
+local HIST = 30
+
+local floor, abs, max, min = math.floor, math.abs, math.max, math.min
+local function idiv(a, b) return floor(a / b) end
+
+------------------------------------------------------------------ rng (deterministic)
+local function rnd(s)
+    s.seed = (s.seed * 1103515245 + 12345) & 0x7fffffff
+    return s.seed
+end
+function S:rand(n) return rnd(self) % n end
+
+------------------------------------------------------------------ setup
+local function buildKit(char)
+    local w = K.weapons[char.weapon] or K.weapons.sword
+    local body = K.body[char.key] or K.body.default
+    local kit = {weapon = w, body = body, skill = K.skills[char.key], burst = K.bursts[char.key]}
+    return kit
+end
+
+local function newFighter(id, char, x, face)
+    local kit = buildKit(char)
+    local scale = (char.h or 335) / 335
+    return {
+        id = id, char = char, key = char.key, element = char.element, weapon = char.weapon, kit = kit,
+        size = scale, x = x, y = 0, vx = 0, vy = 0, face = face,
+        hp = kit.body.health, maxhp = kit.body.health, energy = 0, skillCd = 0,
+        state = 'intro', t = 0, move = nil, moveId = nil, hitstop = 0, stun = 0,
+        juggle = 0, combo = 0, comboDmg = 0, invul = 0, coat = 0, vuln = 0, shield = 0, shieldT = 0,
+        frozen = 0, dots = {}, hist = {}, histN = 0, lastFwd = -100, lastFwdRel = -100,
+        wins = 0, airMove = nil, hitId = 0, armorUsed = false, pose = 'idle', bufferedMove = nil,
+        stats = {hits = 0, maxCombo = 0, damage = 0, bursts = 0, reactions = 0, blocks = 0},
+    }
+end
+
+-- opts: {chars = {charA, charB}, rounds = 2 (wins needed), time = 99, seed, training = bool}
+function S.new(opts)
+    local self = setmetatable({}, S)
+    self.opts = opts
+    self.seed = (opts.seed or 12345) & 0x7fffffff
+    self.f = {newFighter(1, opts.chars[1], -260 * C, 1), newFighter(2, opts.chars[2], 260 * C, -1)}
+    self.f[1].foe, self.f[2].foe = self.f[2], self.f[1]
+    self.proj = {}
+    self.events = {}
+    self.round = 1
+    self.winsNeeded = opts.rounds or 2
+    self.tick = 0
+    self.freeze = 0          -- super freeze (bursts)
+    self.freezeBy = nil
+    self.timeLimit = opts.time or 99
+    self:startRound(true)
+    return self
+end
+
+function S:emit(e) self.events[#self.events + 1] = e end
+
+function S:startRound(first)
+    self.phase = 'intro'
+    self.phaseT = 0
+    self.timer = self.timeLimit * 60
+    self.proj = {}
+    self.freeze = 0
+    for i, p in ipairs(self.f) do
+        p.x = (i == 1 and -260 or 260) * C
+        p.y, p.vx, p.vy = 0, 0, 0
+        p.face = i == 1 and 1 or -1
+        p.hp = p.maxhp
+        p.ko = false  -- A previous round's K.O. must not disable this round's get-up.
+        if first then p.energy = 0 end
+        p.skillCd, p.stun, p.hitstop, p.invul, p.coat, p.vuln, p.shield, p.frozen = 0, 0, 0, 0, 0, 0, 0, 0
+        p.dots = {}
+        p.combo, p.comboDmg, p.juggle = 0, 0, 0
+        p.move, p.airMove = nil, nil
+        self:setState(p, 'intro')
+    end
+    self:emit({type = 'roundIntro', round = self.round, first = first})
+end
+
+------------------------------------------------------------------ helpers
+function S:setState(p, st, move, moveId)
+    if st~='burst' then p.cinematicConfirmed=false end
+    p.state, p.t = st, 0
+    p.move, p.moveId = move, moveId
+    p.connected = false
+    p.hitCount = 0
+    p.armorUsed = false
+    if move then
+        p.hitId = p.hitId + 1
+    end
+end
+
+local function fwdBit(p) return p.face > 0 and B.R or B.L end
+local function backBit(p) return p.face > 0 and B.L or B.R end
+
+local function holding(p, bit) return p.inNow & bit ~= 0 end
+local function pressed(p, bit) return p.inPressed & bit ~= 0 end
+
+local function grounded(p) return p.y <= 0 and p.vy <= 0 end
+
+------------------------------------------------------------------ boxes
+-- hurtbox (centi): x0, x1, y0, y1
+local function motion236(p)
+    local f = fwdBit(p)
+    local stage = 0
+    for i = HIST - 1, 0, -1 do
+        local idx = (p.histN - i) % HIST
+        local m = p.hist[idx] or 0
+        if i <= 14 then
+            if stage == 0 and m & B.D ~= 0 and m & f == 0 then stage = 1
+            elseif stage == 1 and m & B.D ~= 0 and m & f ~= 0 then stage = 2
+            elseif stage >= 1 and m & f ~= 0 and m & B.D == 0 then if stage == 2 then return true end end
+        end
+    end
+    return false
+end
+
+function S:hurtbox(p)
+    local s = p.size
+    local w = floor(100 * C * s)
+    local h = floor(290 * C * s)
+    local st = p.state
+    if st == 'crouch' or (p.move and p.move.pose == 'crouch') or st == 'cblock' then h = floor(190 * C * s) end
+    if st == 'down' or st == 'getup' then return nil end
+    local y0 = p.y
+    if st == 'air' or st == 'airhit' or st == 'jumpsq' then
+        y0 = p.y + floor(30 * C * s)
+        h = floor(240 * C * s)
+    end
+    return p.x - w // 2, p.x + w // 2, y0, y0 + h
+end
+
+-- hitbox of a move box {x, y, w, h} (design units) for fighter p
+local function boxOf(p, b, reach)
+    reach = reach or 1
+    local x0 = p.x + p.face * floor(b.x * C * reach)
+    local x1 = p.x + p.face * floor((b.x + b.w) * C * reach)
+    if x0 > x1 then x0, x1 = x1, x0 end
+    local y0 = p.y + floor(b.y * C * p.size)
+    return x0, x1, y0, y0 + floor(b.h * C * p.size)
+end
+S.boxOf = boxOf
+
+local function overlap(ax0, ax1, ay0, ay1, bx0, bx1, by0, by1)
+    return ax0 < bx1 and bx0 < ax1 and ay0 < by1 and by0 < ay1
+end
+
+------------------------------------------------------------------ actions
+local function moveTable(p, id)
+    if id == 'skill' or id == 'burst' or id == 'throw' then return nil end
+    return p.kit.weapon[id]
+end
+
+function S:startMove(p, id)
+    local m = moveTable(p, id)
+    if not m then return false end
+    if p.state == 'air' or (p.y > 0) then
+        p.airMove = m
+        p.airMoveId = id
+        p.airT = 0
+        p.connected = false
+        p.hitCount = 0
+        p.hitId = p.hitId + 1
+        self:emit({type = 'swing', p = p.id, move = id, weapon = p.weapon, heavy = id == 'airHeavy'})
+        return true
+    end
+    self:setState(p, 'attack', m, id)
+    self:emit({type = 'swing', p = p.id, move = id, weapon = p.weapon, heavy = id:find('eavy') ~= nil})
+    return true
+end
+
+function S:startSkill(p)
+    local sk = p.kit.skill
+    if not sk or p.skillCd > 0 then return false end
+    p.skillCd = sk.cd
+    p.coat = 100
+    p.energy = min(100, p.energy + 8)
+    self:setState(p, 'skill', sk, 'skill')
+    p.airSkill = p.y > 0
+    if p.key=='nahida' then p.castX=p.x;p.castY=p.y+190*C;p.castFace=p.face;p.captureHitT=nil;p.captureHitX=nil;p.captureHitY=nil end
+    if sk.style == 'rush' and sk.armor then p.armor = true end
+    self:emit({type = 'skill', p = p.id, style = sk.style, fx = sk.fx, element = p.element})
+    return true
+end
+
+function S:startBurst(p)
+    local bu = p.kit.burst
+    if not bu or p.energy < 100 then return false end
+    p.energy = 0
+    p.coat = 160
+    self:setState(p, 'burst', bu, 'burst')
+    p.cinematicConfirmed=false
+    p.invul = p.key=='raidenshogun' and 24 or 70
+    self.freeze = p.key=='raidenshogun' and 0 or 56
+    self.freezeBy = p.id
+    p.stats.bursts = p.stats.bursts + 1
+    self:emit({type = p.key=='raidenshogun' and 'burstAttempt' or 'burst', p = p.id, fx = bu.fx, element = p.element, style = bu.style})
+    return true
+end
+
+function S:throwRange(p)
+    return math.max(K.throw.range*C,math.floor(70*C*p.size)+math.floor(70*C*p.foe.size)+18*C)
+end
+function S:tryThrow(p)
+    local d = p.foe
+    local th = K.throw
+    local dist = abs(d.x - p.x)
+    local can = dist <= self:throwRange(p) and grounded(d) and d.state ~= 'down' and d.state ~= 'getup'
+        and d.invul == 0 and (d.state ~= 'hit' and d.state ~= 'airhit') and d.state ~= 'thrown'
+        and d.state ~= 'attack' and d.state ~= 'skill' and d.state ~= 'burst'
+    if can then
+        self:setState(p, 'throw', th, 'throw')
+        self:setState(d, 'thrown')
+        p.stats.throws=(p.stats.throws or 0)+1
+        d.face=-p.face
+        d.vx, d.vy = 0, 0
+        self:emit({type = 'throw', p = p.id})
+    else
+        self:setState(p, 'attack', {pose = 'slash', startup = 4, active = 2, recovery = 22, damage = 0, box = {x = 0, y = 0, w = 0, h = 0}, whiff = true}, 'throwWhiff')
+    end
+end
+
+------------------------------------------------------------------ hit resolution
+-- holding away from the attacker
+local function backBitTo(d, a)
+    if a.x > d.x then return B.L elseif a.x < d.x then return B.R end
+    return d.face > 0 and B.L or B.R
+end
+
+local function backDir(d, a)
+    if a.x > d.x then return -1 end
+    return 1
+end
+local HITSTOP = {light = 7, heavy = 11, skill = 11, burst = 14, throw = 14}
+
+function S:hit(a, d, m, kind, opts)
+    opts = opts or {}
+    if (d.invul > 0 and not opts.ignoreInvul) or d.state == 'down' or d.state == 'getup' or d.state == 'ko' or d.state == 'thrown' then return false end
+    local level = m.level or 'mid'
+    local dirBack = backBitTo(d, a)
+    -- blocking
+    local canBlock = grounded(d) and (d.state == 'idle' or d.state == 'walk' or d.state == 'back' or d.state == 'crouch'
+        or d.state == 'block' or d.state == 'cblock' or d.state == 'land') and kind ~= 'throw' and not opts.unblockable
+    if canBlock and d.inNow & dirBack ~= 0 then
+        local crouching = d.inNow & B.D ~= 0
+        local ok = (level == 'mid') or (level == 'low' and crouching) or (level == 'high' and not crouching)
+        if ok then
+            self:setState(d, crouching and 'cblock' or 'block')
+            d.stun = m.blockstun or 12
+            d.vx = -d.face * floor((m.push or 8) * C * 0.9)
+            if kind == 'skill' or kind == 'burst' then
+                local chip = floor((m.damage or 0) * (kind == 'burst' and 0.22 or 0.1))
+                d.hp = max(1, d.hp - chip)
+            end
+            d.energy = min(100, d.energy + 3)
+            d.stats.blocks = d.stats.blocks + 1
+            local hs = 6
+            a.hitstop, d.hitstop = hs, hs
+            a.connected = true
+            self:emit({type = 'block', p = d.id, by = a.id, x = d.x, y = d.y + floor(170 * C * d.size), heavy = (m.damage or 0) >= 60})
+            return 'block'
+        end
+    end
+    -- armor (claymore heavy, some skills)
+    if d.armor and (d.state == 'attack' or d.state == 'skill') and not d.armorUsed and kind ~= 'throw' and kind ~= 'burst' then
+        d.armorUsed = true
+        local dmg = floor((m.damage or 0) * 0.5)
+        d.hp = max(1, d.hp - dmg)
+        a.hitstop, d.hitstop = 8, 8
+        a.connected = true
+        self:emit({type = 'armor', p = d.id, x = d.x, y = d.y + floor(170 * C * d.size), dmg = dmg})
+        return 'armor'
+    end
+    -- damage with combo scaling and reactions
+    local inCombo = (d.state == 'hit' or d.state == 'airhit' or d.frozen > 0)
+    if not inCombo then d.combo, d.comboDmg, d.juggle = 0, 0, 0 end
+    d.combo = d.combo + 1
+    local scale = 100
+    if d.combo > 2 then scale = max(30, 100 - (d.combo - 2) * 9) end
+    local dmg = (m.damage or 0) * scale // 100
+    if d.vuln > 0 then dmg = dmg * 120 // 100 end
+    local reaction
+    local aura = d.coat > 0 and d.element or nil
+    if aura and kind ~= 'light' and aura ~= a.element then
+        local r = K.reaction[a.element] and K.reaction[a.element][aura]
+        if r then reaction = r end
+    end
+    local launch = m.launch
+    local knock = m.knockdown
+    local push = m.push or 8
+    if reaction then
+        d.coat = 0
+        a.stats.reactions = a.stats.reactions + 1
+        if reaction == 'vaporize' or reaction == 'melt' then dmg = dmg * 3 // 2
+        elseif reaction == 'aggravate' then dmg = dmg * 5 // 4
+        elseif reaction == 'overload' then dmg = dmg + 60; launch = max(launch or 0, 26); knock = true; push = push + 10
+        elseif reaction == 'frozen' then d.frozen = 70
+        elseif reaction == 'electro' then d.dots[#d.dots + 1] = {by = a.id, every = 10, left = 3, dmg = 18, t = 0}
+        elseif reaction == 'superconduct' then d.vuln = 240
+        elseif reaction == 'swirl' then dmg = dmg + 45; push = push * 2
+        elseif reaction == 'crystal' then a.shield = 120; a.shieldT = 360
+        elseif reaction == 'bloom' then d.dots[#d.dots + 1] = {by = a.id, every = 24, left = 1, dmg = 75, t = 0}
+        elseif reaction == 'burning' then d.dots[#d.dots + 1] = {by = a.id, every = 12, left = 6, dmg = 12, t = 0}
+        end
+        self:emit({type = 'reaction', p = d.id, by = a.id, r = reaction, x = d.x, y = d.y + floor(200 * C * d.size)})
+    end
+    if d.shield > 0 then
+        local absorb = min(d.shield, dmg)
+        d.shield = d.shield - absorb
+        dmg = dmg - absorb
+        if absorb > 0 then self:emit({type = 'shieldHit', p = d.id, x = d.x, y = d.y + floor(150 * C * d.size)}) end
+    end
+    d.hp = d.hp - dmg
+    d.comboDmg = d.comboDmg + dmg
+    a.stats.damage = a.stats.damage + dmg
+    a.stats.hits = a.stats.hits + 1
+    if d.combo > a.stats.maxCombo then a.stats.maxCombo = d.combo end
+    a.energy = min(100, a.energy + (m.energy or 4))
+    d.energy = min(100, d.energy + 2)
+    a.connected = true
+    a.hitCount = (a.hitCount or 0) + 1
+    if d.frozen > 0 and reaction ~= 'frozen' then d.frozen = 0 end
+    -- reaction state
+    local hs = HITSTOP[kind] or 9
+    if (m.damage or 0) >= 90 then hs = hs + 2 end
+    local stun = max(8, (m.hitstun or 16) - max(0, d.combo - 3))
+    local airborne = d.y > 0 or d.state == 'airhit'
+    d.move, d.airMove = nil, nil
+    d.armor = false
+    if d.hp <= 0 then
+        d.hp = 0
+        self:setState(d, 'airhit')
+        d.ko = true
+        d.vy = 26 * C
+        d.vx = -d.face * 9 * C
+        d.face = -backDir(d, a)
+        hs = 18
+        self:emit({type = 'ko', p = d.id, by = a.id, x = d.x, y = d.y + floor(170 * C * d.size)})
+    elseif d.frozen > 0 then
+        self:setState(d, 'hit')
+        d.stun = d.frozen
+        d.vx = 0
+    elseif launch or airborne or knock then
+        self:setState(d, 'airhit')
+        d.juggle = d.juggle + 1
+        local vy = launch or (airborne and 10) or (knock and 12) or 10
+        if d.juggle > 5 then vy = max(6, vy - (d.juggle - 5) * 4) end
+        if m.spike and airborne then vy = -m.spike end
+        d.vy = vy * C
+        d.vx = a.face * floor(push * C * 0.55)
+        if d.juggle > 8 then d.invul = 60 end
+    else
+        self:setState(d, 'hit')
+        d.stun = stun
+        d.vx = a.face * floor(push * C)
+    end
+    a.hitstop, d.hitstop = hs, hs
+    self:emit({type = 'hit', p = d.id, by = a.id, kind = kind, move = a.moveId or kind, dmg = dmg, combo = d.combo,
+               x = opts.x or d.x, y = opts.y or (d.y + floor(170 * C * d.size)), element = a.element,
+               heavy = (m.damage or 0) >= 60, shake = m.shake or ((m.damage or 0) >= 60 and 6 or 2), reaction = reaction,
+               weapon = a.weapon, fx = m.fx})
+    return 'hit'
+end
+
+
+------------------------------------------------------------------ projectiles / zones
+function S:spawnProj(p, spec, dmgMove, kind)
+    local pr = {owner = p.id, x = p.x + p.face * floor((spec.x or 90) * C), y = p.y + floor((spec.y or 120) * C * p.size),
+                vx = p.face * floor((spec.speed or 14) * C), vy = floor((spec.vy or 0) * C), w = floor((spec.w or 80) * C),
+                h = floor((spec.h or 80) * C), life = spec.life or 60, t = 0, move = dmgMove, kind = kind or 'skill',
+                style = spec.style or spec.fx, face = p.face, element = p.element, hits = spec.hits or 1, delay = spec.delay or 0,
+                zone = spec.zone}
+    self.proj[#self.proj + 1] = pr
+    self:emit({type = 'proj', p = p.id, pr = pr})
+    return pr
+end
+
+function S:updateProj()
+    local list = self.proj
+    for i = #list, 1, -1 do
+        local pr = list[i]
+        pr.t = pr.t + 1
+        local alive = pr.t <= pr.life
+        if pr.t > pr.delay then
+            if not pr.zone then
+                pr.x = pr.x + pr.vx
+                pr.y = pr.y + pr.vy
+                if pr.vy < 0 and pr.y <= 0 then pr.y = 0; pr.vy = 0 end
+            end
+            local owner = self.f[pr.owner]
+            local d = owner.foe
+            local hb = {self:hurtbox(d)}
+            if hb[1] and alive and pr.hits > 0 then
+                local x0, x1, y0, y1 = pr.x - pr.w // 2, pr.x + pr.w // 2, pr.y - (pr.zone and 0 or pr.h // 2), pr.y + (pr.zone and pr.h or pr.h // 2)
+                if overlap(x0, x1, y0, y1, hb[1], hb[2], hb[3], hb[4]) then
+                    local r = self:hit(owner, d, pr.move, pr.kind, {x = d.x, y = d.y + floor(170 * C * d.size)})
+                    if r then
+                        pr.hits = pr.hits - 1
+                        if pr.hits <= 0 then alive = false end
+                    end
+                end
+            end
+            -- projectile clash
+            if alive and not pr.zone then
+                for j = #list, 1, -1 do
+                    local o = list[j]
+                    if o ~= pr and o.owner ~= pr.owner and not o.zone and o.dead ~= true then
+                        if abs(o.x - pr.x) < (o.w + pr.w) // 2 and abs(o.y - pr.y) < (o.h + pr.h) // 2 then
+                            o.dead, alive = true, false
+                            self:emit({type = 'clash', x = (o.x + pr.x) // 2, y = (o.y + pr.y) // 2})
+                        end
+                    end
+                end
+            end
+            if pr.x < -WALL - 300 * C or pr.x > WALL + 300 * C then alive = false end
+        end
+        if not alive or pr.dead then
+            table.remove(list, i)
+            self:emit({type = 'projEnd', pr = pr})
+        end
+    end
+end
+
+------------------------------------------------------------------ per-fighter logic
+local function canAct(p)
+    local st = p.state
+    return st == 'idle' or st == 'walk' or st == 'back' or st == 'crouch' or st == 'land'
+end
+
+function S:faceFoe(p)
+    if p.foe.x > p.x then p.face = 1 elseif p.foe.x < p.x then p.face = -1 end
+end
+
+function S:neutral(p)
+    local nowIn, pr = p.inNow, p.inPressed
+    local f, bk = fwdBit(p), backBit(p)
+    -- burst > skill > throw > attacks > dash > jump > move
+    if pr & B.BU ~= 0 and self:startBurst(p) then return end
+    if (pr & B.SK ~= 0 or ((pr & (B.LP | B.HP)) ~= 0 and motion236(p))) and self:startSkill(p) then return end
+    if pr & B.TH ~= 0 then self:tryThrow(p) return end
+    if pr & B.HP ~= 0 then
+        if nowIn & f ~= 0 and abs(p.foe.x - p.x) <= self:throwRange(p) and grounded(p.foe) and p.foe.state ~= 'airhit' then
+            self:tryThrow(p) return
+        end
+        self:startMove(p, nowIn & B.D ~= 0 and 'crouchHeavy' or 'heavy') return
+    end
+    if pr & B.LP ~= 0 then self:startMove(p, nowIn & B.D ~= 0 and 'crouchLight' or 'light1') return end
+    -- dashes: button, or double tap
+    local dashF = (pr & B.DA ~= 0 and nowIn & bk == 0) or (pr & f ~= 0 and self.tick - p.lastFwd <= 12)
+    local dashB = (pr & B.DA ~= 0 and nowIn & bk ~= 0) or (pr & bk ~= 0 and self.tick - (p.lastBack or -100) <= 12)
+    if pr & f ~= 0 then p.lastFwd = self.tick end
+    if pr & bk ~= 0 then p.lastBack = self.tick end
+    if dashF then
+        self:setState(p, 'dash'); p.vx = p.face * floor(p.kit.body.dash * C)
+        self:emit({type = 'dash', p = p.id}) p.lastFwd = -100 return
+    end
+    if dashB then
+        self:setState(p, 'backdash'); p.vx = -p.face * floor(p.kit.body.dash * C * 0.85); p.vy = 6 * C; p.invul = 8
+        self:emit({type = 'dash', p = p.id, back = true}) p.lastBack = -100 return
+    end
+    if nowIn & B.U ~= 0 then
+        self:setState(p, 'jumpsq')
+        p.jumpDir = (nowIn & f ~= 0 and 1) or (nowIn & bk ~= 0 and -1) or 0
+        return
+    end
+    if nowIn & B.D ~= 0 then
+        if p.state ~= 'crouch' then self:setState(p, 'crouch') end
+        p.vx = 0
+        return
+    end
+    if nowIn & f ~= 0 then
+        if p.state ~= 'walk' then self:setState(p, 'walk') end
+        p.vx = p.face * floor(p.kit.body.walk * C)
+    elseif nowIn & bk ~= 0 then
+        if p.state ~= 'back' then self:setState(p, 'back') end
+        p.vx = -p.face * floor(p.kit.body.back * C)
+    else
+        if p.state ~= 'idle' then self:setState(p, 'idle') end
+        p.vx = 0
+    end
+end
+
+-- cancel window: on hit/block, during active and the first 8 recovery frames (or hitstop)
+function S:tryCancel(p, m)
+    if not p.connected or not m.cancel then return false end
+    local pr = p.inPressed
+    if pr == 0 then return false end
+    local want
+    if pr & B.BU ~= 0 then want = 'burst'
+    elseif pr & B.SK ~= 0 or ((pr & (B.LP | B.HP)) ~= 0 and motion236(p)) then want = 'skill'
+    elseif pr & B.HP ~= 0 then want = (p.inNow & B.D ~= 0) and 'crouchHeavy' or (p.y > 0 and 'airHeavy' or 'heavy')
+    elseif pr & B.LP ~= 0 then
+        local id = p.moveId or p.airMoveId
+        if id == 'light1' then want = 'light2' elseif id == 'light2' then want = 'light3'
+        elseif id == 'crouchLight' then want = 'crouchLight' else want = 'light1' end
+    end
+    if not want then return false end
+    local allowed = false
+    for _, c in ipairs(m.cancel) do if c == want then allowed = true break end end
+    if not allowed then return false end
+    if want == 'burst' then return self:startBurst(p) end
+    if want == 'skill' then return self:startSkill(p) end
+    if p.y > 0 then
+        if want ~= 'airHeavy' then return false end
+    end
+    return self:startMove(p, want)
+end
+
+function S:attackUpdate(p)
+    local m = p.move
+    local t = p.t
+    local su, ac = m.startup, m.active
+    if m.lunge and t < su then p.vx = p.face * floor(m.lunge * C / su) elseif t < su + ac then p.vx = p.vx * 6 // 10 else p.vx = 0 end
+    if t >= su and t < su + ac and not m.whiff then
+        if m.projectile then
+            if t == su then self:spawnProj(p, m.projectile, m, 'heavy') end
+        elseif not p.connected then
+            local x0, x1, y0, y1 = boxOf(p, m.box, p.kit.weapon.reach)
+            local d = p.foe
+            local hx0, hx1, hy0, hy1 = self:hurtbox(d)
+            if hx0 and overlap(x0, x1, y0, y1, hx0, hx1, hy0, hy1) then
+                local kind = (p.moveId and p.moveId:find('eavy')) and 'heavy' or 'light'
+                self:hit(p, d, m, kind)
+            end
+        end
+    end
+    if t >= su then
+        if self:tryCancel(p, m) then return end
+    end
+    if t >= su + ac + m.recovery then self:setState(p, 'idle') end
+end
+
+function S:airAttackUpdate(p)
+    local m = p.airMove
+    local t = p.airT
+    p.airT = t + 1
+    local su, ac = m.startup, m.active
+    if t >= su and t < su + ac then
+        if m.projectile then
+            if t == su then self:spawnProj(p, m.projectile, m, 'heavy') end
+        elseif not p.connected then
+            local x0, x1, y0, y1 = boxOf(p, m.box, p.kit.weapon.reach)
+            local hx0, hx1, hy0, hy1 = self:hurtbox(p.foe)
+            if hx0 and overlap(x0, x1, y0, y1, hx0, hx1, hy0, hy1) then
+                self:hit(p, p.foe, m, p.airMoveId == 'airHeavy' and 'heavy' or 'light')
+            end
+        end
+    end
+    if t >= su and self:tryCancel(p, m) then return end
+    if t >= su + ac + m.recovery then p.airMove = nil end
+end
+
+function S:skillUpdate(p)
+    local sk = p.move
+    local t = p.t
+    local d = p.foe
+    local st = sk.style
+    if sk.invuln and t < sk.invuln then p.invul = max(p.invul, 1) end
+    if t == sk.startup then
+        self:emit({type = 'skillActive', p = p.id, fx = sk.fx, style = st, element = p.element})
+        if st == 'projectile' then
+            self:spawnProj(p, {x = 100, y = sk.y or 130, speed = sk.speed, w = sk.w, h = sk.h, life = sk.life, style = sk.fx}, sk, 'skill')
+        elseif st == 'zone' then
+            local pr = self:spawnProj(p, {x = 0, y = 0, speed = 0, w = sk.w, h = sk.h, life = sk.delay + 8, style = sk.fx, delay = sk.delay, zone = true}, sk, 'skill')
+            pr.x = d.x
+            pr.y = 0
+        elseif st == 'pillar' then
+            local pr = self:spawnProj(p, {x = sk.dist, y = 0, speed = 0, w = sk.w, h = sk.h, life = 30, style = sk.fx, delay = 2, zone = true}, sk, 'skill')
+            pr.y = 0
+            if sk.shield then p.shield = max(p.shield, sk.shield); p.shieldT = 420 end
+        elseif st == 'rush' then
+            p.vx = p.face * floor(sk.speed * C)
+            p.rushHits = sk.hits or 1
+        elseif st == 'rising' then
+            p.vy = 20 * C
+            p.vx = p.face * 3 * C
+        end
+    end
+    if st=='capture' and t>=8 and t<=13 and not p.connected then
+        local steps={0,0.10,0.26,0.48,0.74,1};local k=steps[t-7]
+        local cx=(p.castX or p.x)+(p.castFace or p.face)*math.floor((110+540*k)*C)
+        local cy=p.castY or 190*C
+        local hx0,hx1,hy0,hy1=self:hurtbox(d)
+        if hx0 and overlap(cx-sk.w*C/2,cx+sk.w*C/2,cy-sk.h*C/2,cy+sk.h*C/2,hx0,hx1,hy0,hy1) then
+            local result=self:hit(p,d,{damage=sk.damage,hitstun=sk.hitstun,blockstun=16,push=9,level='mid',energy=8,shake=8},'skill')
+            if result then p.captureHitT=t;p.captureHitX=d.x;p.captureHitY=cy end
+        end
+    end
+    if st == 'rush' and t >= sk.startup and t < sk.startup + sk.dur then
+        p.vx = p.face * floor(sk.speed * C) * (sk.startup + sk.dur - t) // sk.dur
+        if p.rushHits > 0 and (not p.lastRushHit or t - p.lastRushHit >= 5) then
+            local x0, x1, y0, y1 = boxOf(p, {x = -20, y = 40, w = sk.w, h = sk.h})
+            local hx0, hx1, hy0, hy1 = self:hurtbox(d)
+            if hx0 and overlap(x0, x1, y0, y1, hx0, hx1, hy0, hy1) then
+                local per = {damage = sk.damage // (sk.hits or 1), hitstun = sk.hitstun, blockstun = 14, push = 6,
+                             launch = (p.rushHits == 1) and sk.launch or nil, level = 'mid', energy = 4, shake = 5}
+                if self:hit(p, d, per, 'skill') then p.rushHits = p.rushHits - 1; p.lastRushHit = t end
+            end
+        end
+    elseif st == 'rush' and t >= sk.startup + sk.dur then
+        p.vx = p.vx * 7 // 10
+    end
+    if st == 'rising' and t >= sk.startup and t < sk.startup + 10 and not p.connected then
+        local x0, x1, y0, y1 = boxOf(p, {x = -sk.w / 3, y = 0, w = sk.w, h = sk.h})
+        local hx0, hx1, hy0, hy1 = self:hurtbox(d)
+        if hx0 and overlap(x0, x1, y0, y1, hx0, hx1, hy0, hy1) then
+            self:hit(p, d, {damage = sk.damage, hitstun = sk.hitstun, blockstun = 16, push = 4, launch = sk.launch, level = 'mid', energy = 8, shake = 7}, 'skill')
+        end
+    end
+    local total = sk.startup + (sk.dur or 0) + sk.recovery
+    if st == 'rising' then
+        if t > sk.startup and p.y <= 0 and p.vy <= 0 then self:setState(p, 'land'); p.landT = 8 return end
+        if t >= total + 30 then self:setState(p, p.y > 0 and 'air' or 'idle') end
+        return
+    end
+    if t >= total then
+        p.armor = false
+        self:setState(p, p.y > 0 and 'air' or 'idle')
+    end
+end
+
+function S:burstUpdate(p)
+    if p.key=='nahida' then
+        local t,d,bu=p.t,p.foe,p.move
+        local per={damage=bu.damage//bu.hits,hitstun=75,blockstun=18,push=3,level='mid',energy=0,shake=9,launch=13}
+        if t==1 then self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style}) end
+        if (t==2 or t==28 or t==54) and not d.ko then
+            if math.abs(d.x-p.x)<=bu.range*C then
+                per.launch=t==54 and 26 or 13;per.knockdown=t==54
+                local result=self:hit(p,d,per,'burst',{unblockable=p.cinematicConfirmed==true,ignoreInvul=p.cinematicConfirmed==true})
+                if result=='hit' then p.cinematicConfirmed=true;p.invul=100 end
+                if t>2 then self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style}) end
+            end
+        end
+        if p.cinematicConfirmed and not d.ko and t<54 then
+            p.x=math.max(-WALL+400*C,math.min(WALL-400*C,p.x))
+            d.x=p.x+p.face*330*C;d.y=math.max(d.y,110*C);d.vx=0
+        end
+        if t>=90 then p.cinematicConfirmed=false;self:setState(p,p.y>0 and 'air' or 'idle') end
+        return
+    end
+    if p.key=='raidenshogun' then
+        local t,d,bu=p.t,p.foe,p.move
+        local per={damage=bu.damage//bu.hits,hitstun=80,blockstun=18,push=3,level='mid',energy=0,shake=12,launch=22}
+        if t==2 then
+            if math.abs(d.x-p.x)<=bu.range*C and d.y<420*C then
+                local result=self:hit(p,d,per,'burst',{unblockable=false})
+                if result=='hit' then
+                    p.cinematicConfirmed=true;p.invul=160
+                    -- Reserve space for the victim even at the stage wall.
+                    p.x=math.max(-WALL+400*C,math.min(WALL-400*C,p.x))
+                    d.x=p.x+p.face*330*C
+                    d.y=math.max(d.y,130*C);d.vx=0
+                    self.freeze=56;self.freezeBy=p.id
+                    self:emit({type='burst',p=p.id,fx=bu.fx,element=p.element,style=bu.style})
+                    self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style})
+                end
+            end
+        end
+        if p.cinematicConfirmed then
+            -- Hold the caught opponent in the cinematic until the final launch.
+            if t<70 then d.x=p.x+p.face*330*C;d.y=math.max(d.y,130*C);d.vx=0 end
+            if t==35 or t==70 then
+                per.launch=t==70 and 28 or 18;per.knockdown=t==70
+                self:hit(p,d,per,'burst',{unblockable=true,ignoreInvul=true})
+                self:emit({type='burstActive',p=p.id,fx=bu.fx,element=p.element,style=bu.style})
+            end
+            if t>=100 then p.cinematicConfirmed=false;self:setState(p,p.y>0 and 'air' or 'idle') end
+        elseif t>=32 then self:setState(p,p.y>0 and 'air' or 'idle') end
+        return
+    end
+    local bu = p.move
+    local t = p.t
+    local d = p.foe
+    -- the cinematic freeze runs first (self.freeze); t counts after it
+    if t == 1 then self:emit({type = 'burstActive', p = p.id, fx = bu.fx, style = bu.style, element = p.element}) end
+    local per = {damage = bu.damage // bu.hits, hitstun = 30, blockstun = 18, push = 5, level = 'mid', energy = 0, shake = 10}
+    local window = 6 * bu.hits
+    if bu.style == 'rush' and t < 22 then
+        p.vx = p.face * 30 * C
+    else
+        p.vx = p.vx * 7 // 10
+    end
+    if t >= 2 and t < 2 + window and (t - 2) % 6 == 0 then
+        local inRange
+        if bu.style == 'rain' then inRange = true
+        elseif bu.style == 'beam' then
+            inRange = (d.x - p.x) * p.face > -40 * C and abs(d.x - p.x) <= bu.range * C and d.y < 420 * C
+        elseif bu.style == 'rush' then
+            inRange = abs(d.x - p.x) <= 260 * C
+        else
+            inRange = abs(d.x - p.x) <= bu.range * C
+        end
+        if inRange then
+            local last = (t - 2) // 6 == bu.hits - 1
+            per.launch = last and 24 or 9
+            per.knockdown = last
+            if bu.pull and not last then per.push = -6 end
+            self:hit(p, d, per, 'burst', {unblockable = false})
+        end
+    end
+    if t >= 2 + window + 26 then
+        self:setState(p, p.y > 0 and 'air' or 'idle')
+    end
+end
+
+function S:physics(p)
+    -- velocity, gravity, floor, walls
+    p.x = p.x + p.vx
+    local air = p.y > 0 or p.vy > 0
+    if air then
+        p.vy = p.vy - GRAV
+        p.y = p.y + p.vy
+        if p.y <= 0 then
+            p.y = 0
+            p.vy = 0
+            self:landed(p)
+        end
+    end
+    if p.x < -WALL then p.x = -WALL; p.atWall = -1 elseif p.x > WALL then p.x = WALL; p.atWall = 1 else p.atWall = nil end
+end
+
+function S:landed(p)
+    local st = p.state
+    if st == 'airhit' then
+        if p.ko then
+            self:setState(p, 'down'); p.vx = 0
+            self:emit({type = 'land', p = p.id, hard = true, x = p.x})
+            return
+        end
+        self:setState(p, 'down')
+        p.vx = p.vx // 3
+        self:emit({type = 'land', p = p.id, hard = true, x = p.x})
+    elseif st == 'air' or st == 'skill' then
+        p.airMove = nil
+        if st == 'skill' and p.move and p.move.style ~= 'rising' then return end
+        self:setState(p, 'land'); p.landT = 4; p.vx = 0
+        self:emit({type = 'land', p = p.id, x = p.x})
+    elseif st == 'backdash' then
+        p.vx = 0
+    end
+end
+
+function S:fighterTick(p)
+    p.t = p.t + 1
+    if p.invul > 0 then p.invul = p.invul - 1 end
+    if p.coat > 0 then p.coat = p.coat - 1 end
+    if p.vuln > 0 then p.vuln = p.vuln - 1 end
+    if p.skillCd > 0 then p.skillCd = p.skillCd - 1 end
+    if p.shieldT > 0 then p.shieldT = p.shieldT - 1 if p.shieldT == 0 then p.shield = 0 end end
+    -- damage over time from reactions
+    for i = #p.dots, 1, -1 do
+        local d = p.dots[i]
+        d.t = d.t + 1
+        if d.t % d.every == 0 then
+            d.left = d.left - 1
+            if p.hp > 0 then
+                p.hp = max(p.state == 'ko' and 0 or 1, p.hp - d.dmg)
+                self:emit({type = 'dot', p = p.id, dmg = d.dmg, x = p.x, y = p.y + floor(200 * C * p.size)})
+            end
+            if d.left <= 0 then table.remove(p.dots, i) end
+        end
+    end
+    local st = p.state
+    if p.frozen > 0 then p.frozen = p.frozen - 1 end
+    if st == 'intro' or st == 'win' or st == 'lose' or st == 'thrown' then
+        p.vx = 0
+    elseif st == 'idle' or st == 'walk' or st == 'back' or st == 'crouch' then
+        self:faceFoe(p)
+        if self.phase == 'fight' then self:neutral(p) else p.vx = 0 end
+    elseif st == 'land' then
+        if p.t >= (p.landT or 4) then self:setState(p, 'idle') end
+    elseif st == 'jumpsq' then
+        if p.t >= 4 then
+            self:setState(p, 'air')
+            p.vy = 24 * C
+            p.vx = (p.jumpDir or 0) * p.face * floor(5.6 * C)
+            self:emit({type = 'jump', p = p.id})
+        end
+    elseif st == 'air' then
+        if p.airMove then self:airAttackUpdate(p)
+        elseif self.phase == 'fight' then
+            local pr = p.inPressed
+            if pr & B.BU ~= 0 and self:startBurst(p) then return end
+            if pr & B.SK ~= 0 and self:startSkill(p) then return end
+            if pr & B.HP ~= 0 then self:startMove(p, 'airHeavy')
+            elseif pr & B.LP ~= 0 then self:startMove(p, 'airLight') end
+        end
+    elseif st == 'dash' then
+        if p.t >= 14 then self:setState(p, 'idle') end
+        p.vx = p.vx * 92 // 100
+        if p.t >= 5 and self.phase == 'fight' and p.inPressed ~= 0 then
+            -- dash cancel into attacks
+            if p.inPressed & (B.LP | B.HP | B.SK | B.BU | B.TH) ~= 0 then self:setState(p, 'idle'); self:neutral(p) end
+        end
+    elseif st == 'backdash' then
+        p.vx = p.vx * 90 // 100
+        if p.t >= 18 then self:setState(p, 'idle') end
+    elseif st == 'attack' then
+        self:attackUpdate(p)
+    elseif st == 'skill' then
+        self:skillUpdate(p)
+    elseif st == 'burst' then
+        self:burstUpdate(p)
+    elseif st == 'throw' then
+        local d = p.foe
+        p.vx = 0
+        local assist=p.key=='nahida'
+        local impact=assist and 34 or 30
+        if p.t == impact then
+            local dmg = K.throw.damage
+            d.hp = max(0, d.hp - dmg)
+            p.energy = min(100, p.energy + K.throw.energy)
+            p.stats.damage = p.stats.damage + dmg
+            self:setState(d, 'airhit')
+            d.vy = (assist and 24 or -12) * C
+            d.y=math.max(d.y,(assist and 20 or 40)*C)
+            d.vx = p.face * (assist and 15 or 9) * C
+            d.combo, d.comboDmg = 1, dmg
+            if d.hp <= 0 then d.ko = true; self:emit({type = 'ko', p = d.id, by = p.id, x = d.x, y = d.y + 170 * C}) end
+            p.hitstop, d.hitstop = 12, 12
+            self:emit({type = 'hit', p = d.id, by = p.id, kind = 'throw', dmg = dmg, combo = 1, x = d.x, y = d.y + floor(170 * C * d.size),
+                       element = p.element, heavy = true, shake = 9, weapon = p.weapon})
+        elseif p.t < impact then
+            if assist then
+                d.t=p.t;d.face=-p.face;d.y=0
+            else
+            d.x = p.x + p.face * 120 * C
+            d.t=p.t;d.face=-p.face
+            local lift=p.t<12 and 0 or p.t<24 and (p.t-12)/12 or (30-p.t)/6
+            d.y=math.max(0,lift)*160*C
+            end
+        end
+        if p.t >= (assist and 76 or 50) then self:setState(p, 'idle') end
+    elseif st == 'hit' or st == 'block' or st == 'cblock' then
+        p.vx = p.vx * 85 // 100
+        if p.atWall and p.foe and (st == 'hit' or st == 'block' or st == 'cblock') then
+            -- pushback transfers to the attacker at the wall
+            local a = p.foe
+            if a.state == 'attack' or a.state == 'skill' then a.x = a.x - a.face * abs(p.vx) // 2 end
+        end
+        p.stun = p.stun - 1
+        if p.stun <= 0 and p.frozen <= 0 then
+            p.combo, p.comboDmg, p.juggle = 0, 0, 0
+            self:setState(p, (p.inNow & B.D ~= 0) and 'crouch' or 'idle')
+        end
+    elseif st == 'airhit' then
+        -- physics only
+    elseif st == 'down' then
+        p.vx = p.vx * 8 // 10
+        if p.ko then
+            if p.t == 1 then self:emit({type = 'downed', p = p.id}) end
+        elseif p.t >= 38 then
+            self:setState(p, 'getup')
+            p.invul = 18
+        end
+    elseif st == 'getup' then
+        if p.t >= 16 then
+            p.combo, p.comboDmg, p.juggle = 0, 0, 0
+            self:setState(p, 'idle')
+            p.invul = 4
+        end
+    end
+end
+
+-- keep fighters apart (push boxes) and inside the camera span
+function S:separate()
+    local a, b = self.f[1], self.f[2]
+    if a.state == 'thrown' or b.state == 'thrown' then return end
+    local wa, wb = floor(70 * C * a.size), floor(70 * C * b.size)
+    local need = wa + wb
+    local dx = b.x - a.x
+    local vertical = abs(a.y - b.y) < floor(220 * C)
+    if vertical and abs(dx) < need then
+        local push = (need - abs(dx)) // 2 + 1
+        if dx == 0 then dx = a.face end
+        if dx > 0 then a.x = a.x - push; b.x = b.x + push else a.x = a.x + push; b.x = b.x - push end
+        for _, p in ipairs(self.f) do
+            if p.x < -WALL then local o = -WALL - p.x; p.x = -WALL; p.foe.x = p.foe.x + o end
+            if p.x > WALL then local o = p.x - WALL; p.x = WALL; p.foe.x = p.foe.x - o end
+        end
+    end
+    -- max distance (camera span)
+    local span = 1250 * C
+    if abs(b.x - a.x) > span then
+        local mid = (a.x + b.x) // 2
+        if a.x < b.x then a.x, b.x = mid - span // 2, mid + span // 2 else a.x, b.x = mid + span // 2, mid - span // 2 end
+    end
+end
+
+------------------------------------------------------------------ round flow
+function S:roundOver(winner, reason)
+    self.phase = 'ko'
+    self.phaseT = 0
+    self.koReason = reason
+    self.roundWinner = winner
+    if winner then self.f[winner].wins = self.f[winner].wins + 1 end
+    self:emit({type = 'roundEnd', winner = winner, reason = reason,
+               perfect = winner and self.f[winner].hp == self.f[winner].maxhp})
+end
+
+function S:flow()
+    self.phaseT = self.phaseT + 1
+    local a, b = self.f[1], self.f[2]
+    if self.phase == 'intro' then
+        if self.phaseT == 1 then self:emit({type = 'announce', what = 'round', round = self.round}) end
+        if self.phaseT >= 110 then
+            self.phase = 'fight'
+            self.phaseT = 0
+            for _, p in ipairs(self.f) do self:setState(p, 'idle') end
+            self:emit({type = 'announce', what = 'fight'})
+        end
+    elseif self.phase == 'fight' then
+        if not self.opts.training and self.timeLimit < 999 then
+            self.timer = self.timer - 1
+            if self.timer % 60 == 0 then self:emit({type = 'second', left = self.timer // 60}) end
+        else
+            self.timer = self.timeLimit * 60
+        end
+        if self.opts.training then
+            for _, p in ipairs(self.f) do
+                if p.hp <= 0 then p.hp = p.maxhp; p.ko = false end
+                if p.state == 'idle' and p.combo == 0 and p.hp < p.maxhp and p.t > 60 then p.hp = min(p.maxhp, p.hp + 20) end
+                if self.opts.infinite then p.energy = 100 end
+            end
+            return
+        end
+        local ka, kb = a.hp <= 0, b.hp <= 0
+        if ka or kb then
+            local w
+            if not (ka and kb) then w = ka and 2 or 1 end   -- double K.O.: nobody wins the round
+            self:roundOver(w, (ka and kb) and 'double' or 'ko')
+        elseif self.timer <= 0 then
+            local w
+            if a.hp * b.maxhp > b.hp * a.maxhp then w = 1 elseif b.hp * a.maxhp > a.hp * b.maxhp then w = 2 end
+            self:roundOver(w, 'time')
+        end
+    elseif self.phase == 'ko' then
+        -- wait for the loser to land, then victory pose
+        if self.phaseT == 150 then
+            local w = self.roundWinner
+            for _, p in ipairs(self.f) do
+                if w and p.id == w and p.state ~= 'airhit' and p.state ~= 'down' then self:setState(p, 'win'); p.vx = 0 end
+            end
+            self:emit({type = 'victoryPose', p = w})
+        end
+        if self.phaseT >= 260 then
+            local w = self.roundWinner
+            if (w and self.f[w].wins >= self.winsNeeded) or self.round >= 9 then
+                -- round cap (draws): the side with more round wins takes the match
+                if not (w and self.f[w].wins >= self.winsNeeded) then
+                    local wa, wb = self.f[1].wins, self.f[2].wins
+                    w = wa > wb and 1 or (wb > wa and 2 or nil)
+                end
+                self.phase = 'over'
+                self.phaseT = 0
+                self.matchWinner = w
+                self:emit({type = 'matchEnd', winner = w})
+            else
+                self.round = self.round + 1
+                self:startRound(false)
+            end
+        end
+    end
+end
+
+------------------------------------------------------------------ main tick
+-- in1, in2: input masks (absolute directions) for this tick
+function S:step(in1, in2)
+    self.events = {}
+    self.tick = self.tick + 1
+    local ins = {in1 or 0, in2 or 0}
+    for i, p in ipairs(self.f) do
+        local m = ins[i]
+        if self.phase ~= 'fight' and self.phase ~= 'intro' then m = 0 end
+        p.inPressed = m & ~(p.inPrev or 0)
+        p.inNow = m
+        p.inPrev = m
+        p.histN = p.histN + 1
+        -- store directions relative to facing is done at parse time; keep raw
+        p.hist[p.histN % HIST] = m
+    end
+    -- super freeze: only the caster's cinematic runs
+    if self.freeze > 0 then
+        self.freeze = self.freeze - 1
+        self:emit({type = 'freeze', left = self.freeze, by = self.freezeBy})
+        return
+    end
+    -- KO slow motion: two of three ticks skip physics
+    if self.phase == 'ko' and self.phaseT < 90 and self.phaseT % 3 ~= 0 then
+        self.phaseT = self.phaseT + 1
+        return
+    end
+    for _, p in ipairs(self.f) do
+        if p.hitstop > 0 then
+            p.hitstop = p.hitstop - 1
+            -- buffer: allow cancels to register during hitstop
+            if p.inPressed ~= 0 and p.state == 'attack' and p.move then self:tryCancel(p, p.move) end
+        else
+            self:fighterTick(p)
+        end
+    end
+    for _, p in ipairs(self.f) do
+        if p.hitstop <= 0 then self:physics(p) end
+    end
+    self:updateProj()
+    self:separate()
+    self:flow()
+end
+
+-- compact state hash (tests / desync detection)
+------------------------------------------------------------------ snapshots (rollback)
+-- Copy of the whole match state. Move / kit / char tables are shared: the sim never writes
+-- into them. Mutable sub-tables (history, dots, stats, projectiles) are copied.
+local function copyList(src)
+    local out = {}
+    for i = 1, #src do
+        local e = src[i]
+        local c = {}
+        for k, v in pairs(e) do c[k] = v end
+        out[i] = c
+    end
+    return out
+end
+
+local function copyFighter(p)
+    local c = {}
+    for k, v in pairs(p) do c[k] = v end
+    local h = {}
+    for k = 0, HIST - 1 do h[k] = p.hist[k] end
+    c.hist = h
+    c.dots = copyList(p.dots)
+    local st = {}
+    for k, v in pairs(p.stats) do st[k] = v end
+    c.stats = st
+    return c
+end
+
+function S.copy(src)
+    local self = setmetatable({}, S)
+    for k, v in pairs(src) do self[k] = v end
+    local a, b = copyFighter(src.f[1]), copyFighter(src.f[2])
+    a.foe, b.foe = b, a
+    self.f = {a, b}
+    self.proj = copyList(src.proj)
+    self.events = {}
+    return self
+end
+S.snapshot = S.copy
+
+function S:hash()
+    local h = self.tick
+    for _, p in ipairs(self.f) do
+        h = (h * 31 + p.x) & 0x7fffffff
+        h = (h * 31 + p.y) & 0x7fffffff
+        h = (h * 31 + p.hp) & 0x7fffffff
+        h = (h * 31 + p.energy) & 0x7fffffff
+        h = (h * 31 + #p.state) & 0x7fffffff
+        h = (h * 31 + p.vx + p.vy * 7) & 0x7fffffff
+        h = (h * 31 + p.t + p.stun * 3 + p.combo * 5 + p.wins * 11) & 0x7fffffff
+    end
+    h = (h * 31 + #self.proj + self.seed) & 0x7fffffff
+    return h
+end
+
+S.C = C
+S.WALL = WALL
+return S
+end
+__loaders['gf_stage'] = function()
+-- Stages: vector backgrounds from client primitives (rect / ellipse / triangle / star / ring),
+-- grouped in parallax layers. Built once per match (spread over frames), animated by looping
+-- native tweens (zero Lua per frame), moved by the camera with one write per layer.
+--
+-- World space: floor at y = 0, fighters within x = -1100..1100, sky up to ~y = 1100.
+local G = require('gf_gfx')
+local U = require('gf_util')
+local Paint = require('gf_paint')
+
+local St = {}
+St.__index = St
+
+local RECT, ELLIPSE, TRI, STAR4, STAR5, RING = G.RECT, G.ELLIPSE, G.TRI, G.STAR4, G.STAR5, G.RING
+
+-- animated foreground in front of the fighters (parallax 1.3): dark out-of-focus plants or
+-- rocks along the bottom edge that sway, and large soft motes drifting across the screen
+local FORE = {
+    mondstadt = {kind = 'grass', col = {22, 44, 30}, motes = {shape = ELLIPSE, col = {255, 252, 236}, n = 7, size = 30, soft = 0.5, move = 'float'}},
+    liyue = {kind = 'rocks', col = {44, 30, 18}, motes = {shape = ELLIPSE, col = {255, 196, 70}, n = 8, size = 34, move = 'fall', leaf = true}},
+    inazuma = {kind = 'grass', col = {34, 20, 46}, motes = {shape = ELLIPSE, col = {255, 176, 214}, n = 9, size = 30, move = 'fall', leaf = true}},
+    sumeru = {kind = 'rocks', col = {66, 42, 20}, motes = {shape = RECT, col = {255, 222, 168}, n = 8, size = 220, move = 'drift', streak = true}},
+    fontaine = {kind = 'grass', col = {16, 36, 56}, motes = {shape = RING, col = {214, 242, 255}, n = 8, size = 44, move = 'float'}},
+    natlan = {kind = 'rocks', col = {48, 22, 12}, motes = {shape = ELLIPSE, col = {255, 140, 50}, n = 12, size = 16, soft = 0.3, move = 'float', glow = true}},
+    snezhnaya = {kind = 'rocks', col = {28, 34, 52}, motes = {shape = ELLIPSE, col = {255, 255, 255}, n = 14, size = 34, soft = 0.5, move = 'fall'}},
+}
+
+
+local function hsh(n) return U.hash(n) end
+
+-- shape list helpers ----------------------------------------------------------
+local function add(list, shape, x, y, w, h, col, rot, soft, anim)
+    list[#list + 1] = {shape, x, y, w, h, col, rot or 0, soft or 0, anim}
+end
+
+-- vertical gradient of `n` bands between colours (top -> bottom)
+local function gradient(list, x, y0, y1, w, cols, n)
+    local h = (y1 - y0) / n
+    for i = 0, n - 1 do
+        local t = i / (n - 1)
+        local seg = t * (#cols - 1)
+        local a = math.floor(seg) + 1
+        local b = math.min(#cols, a + 1)
+        local c = U.mix(cols[a], cols[b], seg - (a - 1))
+        add(list, RECT, x, y1 - h * (i + 0.5), w, h + 1.5, c)
+    end
+end
+
+local function mountains(list, seed, y, h, col, n, w, span)
+    for i = 0, n - 1 do
+        local x = -span / 2 + (i + hsh(seed + i)) * span / n
+        local hh = h * (0.6 + hsh(seed * 3 + i) * 0.7)
+        add(list, TRI, x, y + hh / 2, w * (0.8 + hsh(seed + i * 7) * 0.6), hh, col)
+    end
+end
+
+-- stage definitions ----------------------------------------------------------
+St.list = {}
+
+St.list.mondstadt = {
+    name = '蒙德 · 风起地', sub = '风与蒲公英的牧歌之城', bgm = nil,
+    ambient = {255, 196, 140}, floorY = 0,
+    build = function(L)
+        local sky, far, mid, near, floor = L.sky, L.far, L.mid, L.near, L.floor
+        gradient(sky, 0, -200, 1500, 5200, {{70, 60, 140}, {190, 110, 150}, {255, 170, 110}, {255, 214, 150}}, 22)
+        add(sky, ELLIPSE, 300, 420, 260, 260, {255, 236, 190}, 0, 0.5)               -- sun glow
+        add(sky, ELLIPSE, 300, 420, 140, 140, {255, 246, 220})
+        for i = 1, 7 do                                                               -- clouds
+            local x, y = -1600 + i * 480, 700 + hsh(i) * 300
+            add(sky, ELLIPSE, x, y, 360, 70, {255, 210, 200}, 0, 0.6, {dx = 160, dur = 26 + i * 3})
+            add(sky, ELLIPSE, x + 80, y + 20, 220, 60, {255, 228, 214}, 0, 0.6, {dx = 160, dur = 26 + i * 3})
+        end
+        mountains(far, 3, 120, 380, {120, 110, 160}, 9, 900, 5600)
+        -- Mondstadt city on the far hill: walls, towers, cathedral spire
+        add(far, ELLIPSE, -900, 120, 1700, 380, {106, 128, 120})
+        for i = 0, 8 do
+            local x = -1500 + i * 140
+            local hh = 120 + hsh(40 + i) * 160
+            add(far, RECT, x, 250 + hh / 2, 90, hh, {150, 140, 170})
+            add(far, TRI, x, 250 + hh + 40, 110, 80, {120, 90, 140})
+        end
+        add(far, RECT, -980, 560, 70, 480, {170, 160, 186})
+        add(far, TRI, -980, 860, 100, 160, {130, 96, 150})
+        -- windmills (mid) with turning blades
+        for i = 0, 2 do
+            local x = -700 + i * 900
+            add(mid, RECT, x, 260, 50, 300, {150, 110, 90})
+            add(mid, TRI, x, 430, 90, 60, {120, 70, 60})
+            for b = 0, 1 do
+                add(mid, RECT, x, 410, 20, 280, {240, 230, 210}, b * 90, 0, {spin = 360, dur = 9 + i * 2})
+            end
+            add(mid, ELLIPSE, x, 410, 30, 30, {120, 80, 60})
+        end
+        -- rolling hills
+        add(mid, ELLIPSE, -1400, 60, 2200, 360, {92, 150, 90})
+        add(mid, ELLIPSE, 1100, 40, 2400, 330, {80, 140, 84})
+        -- Windrise tree
+        add(near, RECT, 1500, 320, 90, 640, {90, 64, 50})
+        for i = 1, 9 do
+            add(near, ELLIPSE, 1500 + (hsh(i * 5) - 0.5) * 520, 640 + hsh(i * 9) * 260, 300, 200, {70 + i * 4, 130 + i * 3, 80})
+        end
+        -- floor: stone plaza
+        add(floor, RECT, 0, -260, 6000, 520, {120, 112, 104})
+        for i = -14, 14 do add(floor, RECT, i * 200, -40, 196, 74, {140 + (i % 2) * 10, 130, 118}) end
+        for i = -10, 10 do add(floor, RECT, i * 260 + 130, -130, 256, 90, {128, 120, 110}) end
+        add(floor, RECT, 0, 6, 6000, 12, {170, 160, 140})
+        -- dandelion seeds drifting
+        L.particles = {kind = 'float', n = 14, col = {255, 250, 235}, shape = STAR4, size = 14, rise = 220, drift = 260, dur = 7}
+    end,
+}
+
+St.list.liyue = {
+    name = '璃月港 · 海灯节', sub = '万家灯火，契约之城的夜', ambient = {255, 190, 120},
+    build = function(L)
+        local sky, far, mid, near, floor = L.sky, L.far, L.mid, L.near, L.floor
+        gradient(sky, 0, -200, 1500, 5200, {{8, 12, 40}, {24, 30, 80}, {60, 50, 110}, {150, 90, 110}}, 22)
+        for i = 1, 40 do                                                                -- stars
+            add(sky, STAR4, -2400 + hsh(i) * 4800, 500 + hsh(i * 3) * 900, 8 + hsh(i * 7) * 10, nil, {255, 250, 220}, 0, 0,
+                i % 3 == 0 and {blink = true, dur = 1.4 + hsh(i) * 2} or nil)
+        end
+        add(sky, ELLIPSE, -500, 950, 200, 200, {255, 244, 210}, 0, 0.45)              -- moon glow
+        add(sky, ELLIPSE, -500, 950, 110, 110, {255, 250, 230})
+        -- stone forest pillars
+        for i = 0, 10 do
+            local x = -2600 + i * 520 + hsh(i) * 200
+            local h = 500 + hsh(i * 5) * 400
+            add(far, RECT, x, h / 2, 140 + hsh(i * 3) * 80, h, {44, 50, 92})
+            add(far, ELLIPSE, x, h, 220, 80, {36, 60, 70})
+        end
+        -- harbor pavilions with red roofs and warm windows
+        for i = 0, 7 do
+            local x = -1800 + i * 520
+            local h = 200 + hsh(i + 50) * 160
+            add(mid, RECT, x, h / 2, 300, h, {60, 30, 34})
+            add(mid, TRI, x, h + 50, 420, 110, {150, 40, 40})
+            add(mid, RECT, x, h + 8, 380, 16, {200, 160, 80})
+            for wnd = 0, 2 do add(mid, RECT, x - 90 + wnd * 90, h * 0.55, 46, 50, {255, 200, 110}, 0, 0, {blink = true, dur = 2 + hsh(i * 9 + wnd) * 3, lo = 0.6}) end
+        end
+        -- hanging lanterns
+        for i = 0, 11 do
+            local x = -1650 + i * 300
+            add(near, RECT, x, 520, 4, 160, {80, 40, 30})
+            add(near, ELLIPSE, x, 430, 90, 90, {255, 150, 60}, 0, 0.6, {blink = true, dur = 1.6 + hsh(i) * 1.2, lo = 0.7})
+            add(near, ELLIPSE, x, 430, 46, 62, {255, 90, 50})
+        end
+        -- water and dock
+        add(floor, RECT, 0, -300, 6000, 600, {30, 30, 52})
+        for i = -16, 16 do add(floor, RECT, i * 180, -36, 176, 70, {96 + (i % 2) * 8, 62, 48}) end
+        for i = -12, 12 do add(floor, RECT, i * 240, -120, 236, 80, {84, 54, 44}) end
+        add(floor, RECT, 0, 6, 6000, 12, {200, 150, 90})
+        L.particles = {kind = 'float', n = 12, col = {255, 170, 90}, shape = ELLIPSE, size = 26, rise = 900, drift = 120, dur = 14, soft = 0.5}
+    end,
+}
+
+St.list.inazuma = {
+    name = '稻妻 · 鸣神大社', sub = '永恒之下，雷光与樱的神社', ambient = {220, 160, 255},
+    build = function(L)
+        local sky, far, mid, near, floor = L.sky, L.far, L.mid, L.near, L.floor
+        gradient(sky, 0, -200, 1500, 5200, {{30, 16, 60}, {70, 40, 110}, {130, 80, 150}, {200, 140, 170}}, 22)
+        for i = 1, 6 do add(sky, ELLIPSE, -2000 + i * 700, 900 + hsh(i) * 250, 700, 140, {60, 40, 90}, 0, 0.6, {dx = 120, dur = 20 + i * 2}) end
+        -- distant thunder flash band
+        add(sky, RECT, 0, 1000, 6000, 600, {230, 200, 255}, 0, 0.5, {flash = true, dur = 5.5})
+        -- mountain with the giant sakura
+        add(far, TRI, -200, 360, 2600, 720, {60, 40, 80})
+        add(far, TRI, 1500, 280, 1800, 560, {70, 46, 90})
+        for i = 1, 12 do
+            add(far, ELLIPSE, -200 + (hsh(i * 3) - 0.5) * 700, 760 + hsh(i * 11) * 260, 300, 200, {240, 140, 200})
+        end
+        add(far, RECT, -200, 600, 70, 300, {70, 40, 50})
+        -- torii gates
+        for i = 0, 2 do
+            local x = -900 + i * 900
+            local s = 1 - i * 0.12
+            add(mid, RECT, x - 170 * s, 230 * s, 34 * s, 460 * s, {200, 40, 50})
+            add(mid, RECT, x + 170 * s, 230 * s, 34 * s, 460 * s, {200, 40, 50})
+            add(mid, RECT, x, 470 * s, 480 * s, 34 * s, {40, 20, 30})
+            add(mid, RECT, x, 420 * s, 400 * s, 22 * s, {200, 40, 50})
+        end
+        -- sakura branches in front
+        for i = 1, 10 do
+            add(near, ELLIPSE, -1700 + hsh(i * 13) * 400, 900 + hsh(i * 2) * 200, 280, 170, {255, 170, 210}, 0, 0.3)
+            add(near, ELLIPSE, 1700 - hsh(i * 17) * 400, 950 + hsh(i * 4) * 200, 280, 170, {250, 150, 200}, 0, 0.3)
+        end
+        add(floor, RECT, 0, -260, 6000, 520, {70, 50, 60})
+        for i = -15, 15 do add(floor, RECT, i * 190, -36, 186, 70, {120 + (i % 2) * 10, 80, 70}) end
+        for i = -12, 12 do add(floor, RECT, i * 250 + 120, -120, 246, 80, {104, 70, 64}) end
+        add(floor, RECT, 0, 6, 6000, 12, {230, 160, 200})
+        L.particles = {kind = 'fall', n = 18, col = {255, 180, 215}, shape = ELLIPSE, size = 18, drift = 300, dur = 6}
+        L.lightning = true
+    end,
+}
+
+St.list.snezhnaya = {
+    name = '至冬 · 冰之宫', sub = '冰封的北国，女皇的宫殿', ambient = {180, 220, 255},
+    build = function(L)
+        local sky, far, mid, near, floor = L.sky, L.far, L.mid, L.near, L.floor
+        gradient(sky, 0, -200, 1500, 5200, {{20, 30, 70}, {60, 90, 150}, {150, 190, 230}, {220, 236, 250}}, 22)
+        for i = 1, 3 do add(sky, ELLIPSE, -1200 + i * 800, 1050, 900, 120, {120, 255, 210}, -6, 0.6, {blink = true, dur = 4 + i, lo = 0.3}) end  -- aurora
+        mountains(far, 9, 100, 560, {140, 170, 210}, 10, 1000, 6000)
+        mountains(far, 19, 60, 360, {200, 220, 240}, 8, 800, 6000)
+        -- palace spires
+        for i = 0, 6 do
+            local x = -900 + i * 300
+            local h = 360 + (i == 3 and 340 or hsh(i * 7) * 200)
+            add(mid, RECT, x, h / 2, 120, h, {170, 200, 230})
+            add(mid, TRI, x, h + 90, 150, 180, {120, 160, 210})
+            add(mid, RECT, x, h * 0.6, 40, 70, {255, 240, 190}, 0, 0, {blink = true, dur = 3 + hsh(i), lo = 0.6})
+        end
+        add(near, TRI, -1700, 300, 500, 700, {220, 240, 255})
+        add(near, TRI, 1750, 260, 520, 620, {210, 232, 250})
+        add(floor, RECT, 0, -260, 6000, 520, {170, 196, 220})
+        for i = -15, 15 do add(floor, RECT, i * 190, -36, 186, 70, {196 + (i % 2) * 10, 220, 240}) end
+        for i = -12, 12 do add(floor, RECT, i * 250 + 120, -120, 246, 80, {184, 210, 232}) end
+        add(floor, RECT, 0, 6, 6000, 12, {240, 250, 255})
+        L.particles = {kind = 'fall', n = 22, col = {255, 255, 255}, shape = ELLIPSE, size = 12, drift = 120, dur = 7}
+    end,
+}
+
+St.list.training = {
+    name = '训练场 · 千星奇域', sub = '练习连段与技能', ambient = {200, 220, 255},
+    build = function(L)
+        local sky, far, floor = L.sky, L.far, L.floor
+        gradient(sky, 0, -200, 1500, 5200, {{16, 20, 44}, {30, 40, 80}, {50, 70, 120}}, 14)
+        for i = -12, 12 do add(far, RECT, i * 200, 500, 3, 1100, {80, 110, 170}) end
+        for j = 0, 5 do add(far, RECT, 0, 80 + j * 180, 5000, 3, {80, 110, 170}) end
+        add(floor, RECT, 0, -260, 6000, 520, {36, 44, 74})
+        for i = -15, 15 do add(floor, RECT, i * 200, -60, 4, 120, {90, 120, 190}) end
+        add(floor, RECT, 0, 6, 6000, 10, {120, 170, 255})
+    end,
+}
+
+St.order = {}
+for _, k in ipairs({'mondstadt', 'liyue', 'inazuma', 'sumeru', 'fontaine', 'natlan', 'snezhnaya'}) do
+    if Paint.available[k] then St.order[#St.order + 1] = k end
+end
+if #St.order == 0 then St.order = {'mondstadt', 'liyue', 'inazuma', 'snezhnaya'} end
+
+-- build -------------------------------------------------------------------------
+-- parent: back layer group. Parallax factors per layer.
+local FACTORS = {sky = 0.05, far = 0.25, mid = 0.55, near = 0.8, floor = 1.0}
+local ORDER = {'sky', 'far', 'mid', 'near', 'floor'}
+
+function St.new(app, parent, key)
+    if Paint.available[key] then return St.newPainted(app, parent, key) end
+    local def = St.list[key] or St.list.training
+    local self = setmetatable({app = app, key = key, def = def, groups = {}, lists = {}, built = false, i = 0, anims = {}}, St)
+    local L = {sky = {}, far = {}, mid = {}, near = {}, floor = {}}
+    def.build(L)
+    self.L = L
+    for _, name in ipairs(ORDER) do
+        self.groups[name] = G.group(parent)
+    end
+    -- flat job list
+    local jobs = {}
+    for _, name in ipairs(ORDER) do
+        for _, s in ipairs(L[name]) do jobs[#jobs + 1] = {name, s} end
+    end
+    self.jobs = jobs
+    self.nodes = {}
+    return self
+end
+
+-- build up to n shapes this frame; returns true when complete
+function St:buildStep(n)
+    if self.painted then return self:paintedBuild(n) end
+    local jobs = self.jobs
+    local stop = math.min(#jobs, self.i + n)
+    for k = self.i + 1, stop do
+        local name, s = jobs[k][1], jobs[k][2]
+        local node = G.image(self.groups[name], s[1])
+        local col = s[6]
+        node:pos(s[2], s[3]):size(s[4], s[5] or s[4]):rot(s[7]):color(col[1], col[2], col[3], col[4] or 255):soft(s[8]):on(true)
+        self.nodes[#self.nodes + 1] = node
+        local an = s[9]
+        if an then self.anims[#self.anims + 1] = {node = node, a = an, s = s} end
+    end
+    self.i = stop
+    if stop >= #jobs then
+        if not self.built then
+            self.built = true
+            self:startAnims()
+            self:buildParticles()
+        end
+        return true
+    end
+    return false
+end
+
+function St:startAnims()
+    for _, an in ipairs(self.anims) do
+        local n, a, s = an.node, an.a, an.s
+        local col = s[6]
+        if a.spin then
+            local t = n:tween({localRotationZ = (s[7] or 0) + a.spin}, a.dur, 'Linear')
+            if t then pcall(function() t:SetLoops(-1) end) end
+        elseif a.dx then
+            G.pingpong(n, {anchoredPositionX = s[2] + a.dx}, {anchoredPositionX = s[2]}, a.dur, 'InOutSine')
+        elseif a.blink then
+            G.pingpong(n, {imageColor = G.col(col[1], col[2], col[3], 255 * (a.lo or 0.15))},
+                       {imageColor = G.col(col[1], col[2], col[3], col[4] or 255)}, a.dur, 'InOutSine')
+        elseif a.flash then
+            n:color(col[1], col[2], col[3], 0)
+            self.flashNode = n
+            self.flashCol = col
+        end
+    end
+end
+
+-- lightning flash for stormy stages (called by the fight scene at random moments)
+function St:thunder()
+    local n, col = self.flashNode, self.flashCol
+    if not n then return false end
+    n:color(col[1], col[2], col[3], 150)
+    n:tween({imageColor = G.col(col[1], col[2], col[3], 0)}, 0.45, 'OutQuad')
+    return true
+end
+
+-- ambient particles: float up or fall down, looping tweens on a few nodes
+function St:buildParticles()
+    local p = self.L.particles
+    if not p then return end
+    self.parts = {}
+    local grp = self.groups.near
+    for i = 1, p.n do
+        local x = -1500 + U.hash(i * 31) * 3000
+        local y = p.kind == 'fall' and (1100 + U.hash(i * 7) * 200) or (-20 + U.hash(i * 7) * 200)
+        if p.kind == 'drift' then y = 20 + U.hash(i * 7) * 500; x = -1800 + U.hash(i * 31) * 600 end
+        local node = G.image(grp, p.shape)
+        local c = p.col
+        local sz = p.size * (0.6 + U.hash(i * 13) * 0.8)
+        node:pos(x, y):size(sz, sz * (p.shape == ELLIPSE and 0.7 or 1)):rot(U.hash(i) * 90):color(c[1], c[2], c[3], 200):soft(p.soft or 0):on(true)
+        local dur = p.dur * (0.7 + U.hash(i * 3) * 0.6)
+        local ty = p.kind == 'fall' and -40 or (y + (p.rise or 600))
+        local tx = x + (U.hash(i * 5) - 0.5) * p.drift * 2
+        if p.kind == 'drift' then ty = y + (U.hash(i * 9) - 0.5) * 120; tx = x + 3600 end
+        local t = node:tween({anchoredPositionY = ty, anchoredPositionX = tx, localRotationZ = 360}, dur, 'Linear')
+        if t then pcall(function() t:SetLoops(-1) end) end
+        self.parts[#self.parts + 1] = node
+        self.nodes[#self.nodes + 1] = node
+    end
+end
+
+function St:buildForeground()
+    local spec = FORE[self.key]
+    if not spec then return end
+    local grp = self.groups.fore
+    local lo = self.app.quality == 'lo'
+    local c = spec.col
+    -- plant / rock clusters spaced along the stage, below the floor line
+    local clusters = lo and 5 or 8
+    for i = 1, clusters do
+        local cx = -1700 + (i - 1) * (3400 / (clusters - 1)) + (U.hash(i * 17) - 0.5) * 160
+        local base = G.image(grp, ELLIPSE)
+        base:pos(cx, -175):size(420 + U.hash(i) * 200, 130):color(c[1], c[2], c[3], 235):soft(0.5):on(true)
+        self.nodes[#self.nodes + 1] = base
+        if spec.kind == 'rocks' then
+            for j = 1, 2 do
+                local r = G.image(grp, ELLIPSE)
+                local w = 160 + U.hash(i * 7 + j) * 160
+                r:pos(cx + (j - 1.5) * 170, -150 + U.hash(i * 3 + j) * 20):size(w, w * 0.5):rot((U.hash(i + j) - 0.5) * 30)
+                 :color(c[1], c[2], c[3], 245):soft(0.25):on(true)
+                self.nodes[#self.nodes + 1] = r
+            end
+        end
+        local blades = lo and 3 or (spec.kind == 'grass' and 7 or 3)
+        for j = 1, blades do
+            -- low, soft-edged blades: they stay below the fighters' feet
+            local b = G.image(grp, ELLIPSE)
+            local h = 70 + U.hash(i * 11 + j) * 90
+            local bx = cx + (j - (blades + 1) / 2) * 30 + (U.hash(j * 5 + i) - 0.5) * 30
+            local a0 = (U.hash(i * 19 + j) - 0.5) * 36
+            b:pos(bx, -175 + h / 2):size(16 + U.hash(j + i) * 12, h):rot(a0):color(c[1], c[2], c[3], 235):soft(0.2):on(true)
+            self.sway=self.sway or {}
+            self.sway[#self.sway+1]={node=b,base=a0,x=bx,h=h,phase=U.hash(i*19+j)*6.283185,period=3.2+U.hash(i*5+j)*2.8}
+            self.nodes[#self.nodes + 1] = b
+        end
+    end
+    -- large soft motes crossing in front
+    local m = spec.motes
+    local n = lo and math.ceil(m.n / 2) or m.n
+    for i = 1, n do
+        local node = G.image(grp, m.shape)
+        local sz = m.size * (0.6 + U.hash(i * 23) * 0.8)
+        local x = -1500 + U.hash(i * 41) * 3000
+        local y, tx, ty
+        local dur = 6 + U.hash(i * 3) * 6
+        if m.move == 'fall' then
+            y = 900 + U.hash(i * 9) * 300; ty = -200; tx = x + (U.hash(i * 5) - 0.5) * 700
+        elseif m.move == 'drift' then
+            x = -2000 + U.hash(i * 41) * 500; y = 20 + U.hash(i * 9) * 420; tx = x + 4000; ty = y + (U.hash(i) - 0.5) * 100; dur = 3 + U.hash(i * 3) * 2
+        else
+            y = -200 + U.hash(i * 9) * 200; ty = y + 900 + U.hash(i) * 300; tx = x + (U.hash(i * 5) - 0.5) * 500
+        end
+        local w, h = sz, sz
+        if m.leaf then h = sz * 0.55 end
+        if m.streak then w, h = sz, 3 + U.hash(i) * 3 end
+        node:pos(x, y):size(w, h):rot(U.hash(i * 7) * 180):color(m.col[1], m.col[2], m.col[3], m.glow and 230 or 150)
+            :soft(m.soft or (m.leaf and 0.15 or 0)):on(true)
+        local t = node:tween({anchoredPositionY = ty, anchoredPositionX = tx, localRotationZ = 540}, dur, 'Linear')
+        if t then pcall(function() t:SetLoops(-1) end) end
+        self.nodes[#self.nodes + 1] = node
+    end
+end
+
+-- camera: cx (world x at screen centre), zoom, floorY (screen y of the floor), shake offsets
+function St:updateSway()
+    for _,blade in ipairs(self.sway or {}) do
+        local angle=blade.base+5*math.sin((self.app.t or 0)*6.283185/blade.period+blade.phase)
+        local rad=math.rad(angle)
+        blade.node:rot(angle):pos(blade.x-math.sin(rad)*blade.h/2,-175+math.cos(rad)*blade.h/2)
+    end
+end
+
+function St:camera(cx, zoom, floorY, sx, sy)
+    self:updateSway()
+    if self.painted then return self:paintedCamera(cx, zoom, floorY, sx, sy) end
+    for _, name in ipairs(ORDER) do
+        local f = FACTORS[name]
+        local z = 1 + (zoom - 1) * f
+        local g = self.groups[name]
+        g:pos(-cx * f * z + (sx or 0) * f, floorY * (name == 'sky' and 0.6 or 1) + (sy or 0) * f):scale(z, z)
+    end
+end
+
+function St:free()
+    if self.back then self.back:free() end
+    if self.ground then self.ground:free() end
+    for _, n in ipairs(self.nodes) do G.release(n) end
+    for _, g in pairs(self.groups) do G.release(g) end
+    self.nodes = {}
+end
+
+------------------------------------------------------------------ painted stages
+-- backdrop: the whole painting at half-speed parallax; ground: the bottom strip of the same
+-- painting, moving 1:1 with the fighters (no foot sliding); its top fades into the backdrop.
+local AMBIENT = {
+    mondstadt = {particles = {kind = 'float', n = 16, col = {255, 252, 230}, shape = STAR4, size = 16, rise = 500, drift = 300, dur = 9}, rays = {255, 244, 200}},
+    liyue = {particles = {kind = 'fall', n = 16, col = {255, 200, 70}, shape = ELLIPSE, size = 20, drift = 380, dur = 8}, rays = {255, 226, 160}},
+    inazuma = {particles = {kind = 'float', n = 18, col = {200, 140, 255}, shape = STAR4, size = 14, rise = 700, drift = 200, dur = 7}, lightning = {220, 190, 255}},
+    sumeru = {particles = {kind = 'drift', n = 18, col = {255, 214, 150}, shape = ELLIPSE, size = 12, drift = 900, dur = 6}, rays = {255, 210, 140}},
+    fontaine = {particles = {kind = 'float', n = 16, col = {200, 240, 255}, shape = RING, size = 18, rise = 600, drift = 120, dur = 9}, rays = {230, 245, 255}},
+    natlan = {particles = {kind = 'float', n = 20, col = {255, 150, 60}, shape = STAR4, size = 12, rise = 800, drift = 260, dur = 6}, rays = {255, 190, 120}},
+    snezhnaya = {particles = {kind = 'fall', n = 26, col = {255, 255, 255}, shape = ELLIPSE, size = 12, drift = 160, dur = 7}},
+}
+local BACK_S, GROUND_S = 1.6, 1.75
+local BACK_Y, GROUND_Y = 360, -142       -- painting footline (75 % of the image height) on the floor
+
+function St.newPainted(app, parent, key)
+    local data = require('gf_bg_' .. key)
+    local self = setmetatable({app = app, key = key, painted = true, def = {name = data.name, sub = data.sub},
+                               groups = {}, nodes = {}, anims = {}, built = false}, St)
+    self.L = {particles = (AMBIENT[key] or {}).particles, lightning = (AMBIENT[key] or {}).lightning}
+    local limit = app.quality == 'lo' and 700 or nil
+    self.groups.back = G.group(parent)
+    self.back = Paint.new(self.groups.back, key, 'full', limit)
+    self.groups.ground = G.group(parent)
+    self.ground = data.ground and Paint.new(self.groups.ground, key, 'ground', limit and 300 or nil)
+    self.groups.near = G.group(parent)
+    self.groups.fore = G.group(app.layers.front)
+    self.parent = parent
+    return self
+end
+
+function St:paintedBuild(n)
+    if not self.back:step(n) then return false end
+    if self.ground and not self.ground:step(n) then return false end
+    if not self.built then
+        self.built = true
+        local amb = AMBIENT[self.key] or {}
+        -- light rays from the top (sunny regions), lightning flash plane (storm)
+        if amb.rays then
+            for i = 1, 4 do
+                local n = G.image(self.groups.back, TRI)
+                local c = amb.rays
+                n:pos(-500 + i * 260, 280):size(180 + i * 30, 1300):rot(180 + 14 - i * 6):color(c[1], c[2], c[3], 28):soft(0.4):on(true)
+                G.pingpong(n, {imageColor = G.col(c[1], c[2], c[3], 10)}, {imageColor = G.col(c[1], c[2], c[3], 34)}, 3 + i * 0.7, 'InOutSine')
+                self.nodes[#self.nodes + 1] = n
+            end
+        end
+        if amb.lightning then
+            local n = G.image(self.groups.back, RECT)
+            local c = amb.lightning
+            n:pos(0, 200):size(3000, 1800):color(c[1], c[2], c[3], 0):on(true)
+            self.flashNode, self.flashCol = n, c
+            self.nodes[#self.nodes + 1] = n
+        end
+        self:buildParticles()
+        self:buildForeground()
+        -- depth haze between the painting and the fighters (readability)
+        local hz = G.image(self.parent, RECT)
+        hz:color(12, 14, 30, 46):on(true)
+        self.haze = hz
+        self.nodes[#self.nodes + 1] = hz
+    end
+    return true
+end
+
+function St:paintedCamera(cx, zoom, floorY, sx, sy)
+    sx, sy = sx or 0, sy or 0
+    local f = 0.3
+    local zf = 1 + (zoom - 1) * f
+    -- painting scale: cover the visible width plus the parallax travel
+    local W = self.app.W
+    local need = (W / zf + 2 * f * 520) / self.back.w
+    local S = math.max(1.12, need + 0.02)
+    local by = BACK_Y / BACK_S * S
+    self.groups.back:pos(-cx * f * zf + sx * f, floorY + by * zf + sy * f):scale(S * zf, S * zf)
+    if self.ground then
+        self.groups.ground:pos(-cx * zoom + sx, floorY + GROUND_Y * zoom + sy):scale(GROUND_S * zoom, GROUND_S * zoom)
+    end
+    local fz = 1 + (zoom - 1) * 0.8
+    self.groups.near:pos(-cx * 0.8 * fz + sx * 0.8, floorY + sy * 0.8):scale(fz, fz)
+    local gz = 1.08 + (zoom - 1) * 1.3
+    self.groups.fore:pos(-cx * 1.3 * gz + sx * 1.3, floorY + sy * 1.3):scale(gz, gz)
+    if self.haze then
+        self.haze:pos(0, 0):size(W + 60, self.app.H + 60)
+    end
+end
+
+return St
+end
+__loaders['gf_touch'] = function()
+-- Touch controls for phones, laid out like Genshin's mobile combat buttons: a floating stick
+-- on the left half, an arc of round buttons on the right (轻 big, 重 / 技 / 爆 / 冲 / 跳 around
+-- it) and a pause button. Each control is its own pooled preset button, so the stick and a
+-- button can be held at the same time (each button only hears its own pointer).
+local G = require('gf_gfx')
+local K = require('gf_kits')
+local U = require('gf_util')
+
+local T = {}
+T.__index = T
+
+local B = {U = 1, D = 2, L = 4, R = 8, LP = 16, HP = 32, SK = 64, BU = 128, DA = 256}
+local WHITE, SLATE, CREAM = {255, 255, 255}, {30, 34, 50}, {236, 229, 216}
+
+function T.new(app, parent, fighter, onPause)
+    local self = setmetatable({app = app, f = fighter, held = {}, stick = {on = false, ox = 0, oy = 0, x = 0, y = 0}, onPause = onPause}, T)
+    self.L = G.layer(parent)
+    self:layout()
+    return self
+end
+
+function T:layout()
+    local app = self.app
+    local W, H = app.W, app.H
+    -- 轻 is the big thumb button; the rest sit on an arc around it (angles in degrees)
+    local rx, ry = W / 2 - 200, -H / 2 + 210
+    local function at(deg, R) local r = math.rad(deg) return rx + math.cos(r) * R, ry + math.sin(r) * R end
+    local hx, hy = at(205, 175)
+    local sx, sy = at(158, 175)
+    local bx, by = at(112, 178)
+    local dx, dy = at(68, 172)
+    local jx, jy = at(24, 142)
+    self.buttons = {
+        {id = 'LP', bit = B.LP, label = '轻', x = rx, y = ry, r = 80},
+        {id = 'HP', bit = B.HP, label = '重', x = hx, y = hy, r = 54},
+        {id = 'SK', bit = B.SK, label = 'E', x = sx, y = sy, r = 54},
+        {id = 'BU', bit = B.BU, label = 'Q', x = bx, y = by, r = 58},
+        {id = 'DA', bit = B.DA, label = '冲', x = dx, y = dy, r = 44},
+        {id = 'UP', bit = B.U, label = '跳', x = jx, y = jy, r = 44},
+    }
+    local inp = app.input
+    local pad = inp:pad(1)
+    for _, b in ipairs(self.buttons) do
+        local btn = b
+        inp:area(b.x, b.y, b.r * 2.2, b.r * 2.2, {
+            down = function() pad.touch = pad.touch | btn.bit; self.held[btn.id] = 6 end,
+            up = function() pad.touch = pad.touch & ~btn.bit end,
+            click = function() if btn.id == 'SK' or btn.id == 'BU' then pad.pulse = (pad.pulse or 0) | btn.bit end end,
+        })
+    end
+    -- stick: the whole lower-left quarter
+    self.stickArea = {x = -W / 4 - 40, y = -H / 4 + 40, w = W / 2 - 80, h = H / 2 + 80}
+    local st = self.stick
+    local function dirs(x, y)
+        local dx, dy = x - st.ox, y - st.oy
+        st.x, st.y = dx, dy
+        local m = 0
+        if dx > 28 then m = m | B.R elseif dx < -28 then m = m | B.L end
+        if dy > 46 then m = m | B.U elseif dy < -36 then m = m | B.D end
+        pad.touch = (pad.touch & ~15) | m
+    end
+    inp:area(self.stickArea.x, self.stickArea.y, self.stickArea.w, self.stickArea.h, {
+        down = function(x, y) st.on = true; st.ox, st.oy = x, y; dirs(x, y) end,
+        drag = function(x, y) dirs(x, y) end,
+        up = function() st.on = false; st.x, st.y = 0, 0; pad.touch = pad.touch & ~15 end,
+    })
+    inp:area(0, H / 2 - 222, 90, 70, {click = function() if self.onPause then self.onPause() end end})
+end
+
+function T:draw()
+    local app = self.app
+    local L = self.L
+    local f = self.f
+    local ec = K.elementColor[f.element]
+    L:begin()
+    for _, b in ipairs(self.buttons) do
+        local held = (app.input:pad(1).touch & b.bit) ~= 0
+        local ready, fillK, txt = true, 0, nil
+        if b.id == 'BU' then
+            ready = f.energy >= 100
+            fillK = U.clamp(f.energy / 100, 0, 1)
+        elseif b.id == 'SK' then
+            ready = f.skillCd <= 0
+            fillK = ready and 1 or 0
+            if not ready then txt = ('%.1f'):format(f.skillCd / 60) end
+        end
+        local elem = b.id == 'BU' or b.id == 'SK'
+        local s = held and 0.9 or 1
+        local d = b.r * 2 * s
+        L:shape(G.ELLIPSE, b.x, b.y - 4, d + 8, d + 8, {0, 0, 0}, 0.28)
+        L:shape(G.ELLIPSE, b.x, b.y, d, d, held and ec or SLATE, held and 0.55 or 0.5)
+        -- element fill grows with energy; full = bright and pulsing
+        local pulse = (b.id == 'BU' and ready) and (0.5 + 0.5 * math.sin(app.t * 8)) or 0
+        local fd = d * 0.86 * math.sqrt(fillK)
+        L:shape(G.ELLIPSE, b.x, b.y, fd, fd, ec, elem and (ready and (0.75 + 0.2 * pulse) or 0.45) or 0)
+        L:shape(G.ELLIPSE, b.x, b.y, d * 1.25, d * 1.25, ec, (b.id == 'BU' and ready) and 0.35 * pulse or 0, 0, 0.5)
+        L:shape(G.RING, b.x, b.y, d, d, WHITE, ready and 0.75 or 0.35)
+        L:label(txt or b.label, b.x, b.y, d, d, txt and b.r * 0.62 or b.r * 0.78, WHITE, 'c', {0, 0, 0, 170}, ready and 1 or 0.75)
+    end
+    -- stick
+    local st = self.stick
+    local bx, by = st.on and st.ox or (-app.W / 2 + 230), st.on and st.oy or (-app.H / 2 + 200)
+    local kx = U.clamp(st.x, -70, 70)
+    local ky = U.clamp(st.y, -70, 70)
+    L:shape(G.ELLIPSE, bx, by, 200, 200, WHITE, st.on and 0.18 or 0.1)
+    L:shape(G.RING, bx, by, 196, 196, WHITE, st.on and 0.6 or 0.35)
+    L:shape(G.ELLIPSE, bx + kx, by + ky, 86, 86, WHITE, st.on and 0.7 or 0.4)
+    -- pause: small slate disc under the round capsule
+    local py = app.H / 2 - 222
+    L:shape(G.ELLIPSE, 0, py, 54, 54, SLATE, 0.55)
+    L:shape(G.RING, 0, py, 54, 54, WHITE, 0.5)
+    L:rect(-7, py, 6, 20, WHITE, 0.85)
+    L:rect(7, py, 6, 20, WHITE, 0.85)
+    L:finish()
+end
+
+function T:free() self.L:free() end
+
+return T
+end
+__loaders['gf_transport'] = function()
+-- V1-style seat allocation and transparent two-way string forwarding.
+-- Dedicated V2 names keep the V1 three-character Team/Join protocol independent.
+local T = {}
+function T.new(game, script, now)
+    local t = {slot=nil, nonce=nil, active=false, packets={}, dirty={}, helloAt=-99, epoch=1}
+    t.diag={hello=0, seat=0, sent=0, received=0, accepted=0, rejected=0, error=nil}
+    local function int(v) return tonumber(v) and math.tointeger(tonumber(v)) end
+    local function emit(name, ints, payload)
+        local ok,err=pcall(function()
+        local s=game.ServerSignal(name)
+        for _,v in ipairs(ints or {}) do s:AddInt(v) end
+        if payload then s:AddString(payload); s:AddInt(t.epoch) end
+        s:SendSignal()
+        end)
+        if not ok then t.diag.error=tostring(err);return false end
+        t.diag.error=nil
+        if name=='GFV2Hello' then t.diag.hello=t.diag.hello+1 else t.diag.sent=t.diag.sent+1 end
+        return true
+    end
+    script:RegisterServerSignalHandler('GFV2Seat', function(_, p)
+        t.diag.seat=t.diag.seat+1
+        local slot=int(p and p[1])
+        if t.active and (slot==1 or slot==2) then
+            if t.slot and t.slot~=slot then t.packets={} end
+            t.slot=slot
+        end
+    end)
+    script:RegisterServerSignalHandler('GFV2FramesOut', function(_,p)
+        if not t.active then return end
+        t.diag.received=t.diag.received+1
+        local function reject(reason) t.diag.rejected=t.diag.rejected+1;t.diag.rejectReason=reason end
+        if not p then reject('参数为空');return end
+        local slot, payload=int(p[1]),p[4]
+        if (slot~=1 and slot~=2) or slot==t.slot or int(p[5])~=t.epoch then reject('席位或协议版本');return end
+        if type(payload)~='string' or #payload>512 or payload:sub(1,5)~='GFV2:' then reject('消息格式');return end
+        local packet={}
+        for v in payload:sub(6):gmatch('[^,]+') do
+            local n=tonumber(v)
+            if not n or n%1~=0 or n < -2147483648 or n > 2147483647 then reject('整数范围');return end
+            packet[#packet+1]=n
+            if #packet>24 then reject('参数过多');return end
+        end
+        if #packet~=24 or packet[1]~=-7201 or packet[3]~=int(p[2]) then reject('长度或序号');return end
+        t.diag.accepted=t.diag.accepted+1
+        t.packets[slot]=packet; t.dirty[slot]=true
+    end)
+    function t.start()
+        t.active=true; t.slot=nil; t.helloAt=-99; t.packets={};t.dirty={}
+        t.diag={hello=0,seat=0,sent=0,received=0,accepted=0,rejected=0,error=nil}
+        t.nonce=((math.floor(now()*1000)+1)*1103515245)&0x7fffffff
+        if t.nonce==0 then t.nonce=1 end
+    end
+    function t.stop() t.active=false; t.packets={} end
+    function t.pump()
+        if t.active and now()-t.helloAt>=1 then
+            t.helloAt=now(); emit('GFV2Hello')
+        end
+    end
+    function t.player(name)
+        if name=='GF_SLOT' then return t.slot end
+        if name=='GF_NONCE' then return t.nonce end
+    end
+    function t.level(name)
+        if name=='GF_SLOTS' then
+            return {8,(t.slot==1 or t.packets[1]~=nil) and 1 or 0,
+                      (t.slot==2 or t.packets[2]~=nil) and 1 or 0,0,0,0,0,0,0}
+        end
+        local k=tonumber(name:match('^GF_IN_(%d+)$'))
+        return k and t.packets[k]
+    end
+    function t.send(packet)
+        if not t.active or not t.slot then return end
+        local words={}
+        for i=1,24 do words[i]=tostring(packet[i]) end
+        emit('GFV2Frames',{t.slot,packet[3],0},'GFV2:'..table.concat(words,','))
+    end
+    t.now=now
+    return t
+end
+return T
+end
+__loaders['gf_ui'] = function()
+local G = require('gf_gfx')
+local U = require('gf_util')
+
+local UI = {}
+
+UI.CREAM = {236, 229, 216}
+UI.CREAM2 = {248, 244, 236}
+UI.TEXT = {37, 42, 60}           -- dark navy text on cream
+UI.SLATE = {40, 45, 62}
+UI.SLATE2 = {58, 64, 84}
+UI.NAVY = {11, 15, 31}
+UI.NAVY2 = {22, 28, 52}
+UI.WHITE = {255, 255, 255}
+UI.GREY = {214, 208, 196}
+UI.DIM = {150, 156, 176}
+UI.GOLD = {211, 188, 142}        -- Genshin's ornament gold (hairlines, small caps)
+UI.GOLD_HI = {255, 222, 150}     -- warm highlight (stars, rewards)
+UI.GOLD_EDGE = {255, 228, 160}
+UI.SHADOW = {0, 0, 0, 150}
+UI.SLANT = 12                    -- the layout's diagonal, degrees
+UI.GOLD2 = {255, 236, 180}
+UI.INK = {10, 12, 24}
+
+function UI.rrect(L, x, y, w, h, r, col, am)
+    r = math.min(r, w / 2, h / 2)
+    L:rect(x, y, w - 2 * r, h, col, am)
+    L:rect(x - w / 2 + r / 2, y, r, h - 2 * r, col, am)
+    L:rect(x + w / 2 - r / 2, y, r, h - 2 * r, col, am)
+    for _, cx in ipairs({x - w / 2 + r, x + w / 2 - r}) do
+        for _, cy in ipairs({y - h / 2 + r, y + h / 2 - r}) do
+            L:shape(G.ELLIPSE, cx, cy, r * 2, r * 2, col, am)
+        end
+    end
+end
+
+function UI.capsule(L, x, y, w, h, col, am)
+    L:rect(x, y, math.max(0, w - h), h, col, am)
+    L:shape(G.ELLIPSE, x - w / 2 + h / 2, y, h, h, col, am)
+    L:shape(G.ELLIPSE, x + w / 2 - h / 2, y, h, h, col, am)
+end
+
+function UI.slate(L, x, y, w, h, am)
+    UI.rrect(L, x, y, w, h, 8, UI.SLATE, 0.72 * (am or 1))
+end
+
+function UI.card(L, x, y, w, h, on, am)
+    am = am or 1
+    L:shape(G.ELLIPSE, x, y, w * 1.08, h * 1.6, UI.GOLD, (on and 0.28 or 0) * am, 0, 0.5)
+    UI.rrect(L, x, y - 3, w + 4, h + 4, 7, {0, 0, 0}, 0.25 * am)
+    UI.rrect(L, x, y, w + 4, h + 4, 7, on and UI.GOLD_EDGE or UI.CREAM, (on and 1 or 0) * am)
+    UI.rrect(L, x, y, w, h, 6, on and UI.CREAM2 or UI.CREAM, am)
+end
+
+function UI.slab(L, x, y, w, h, col, am, rot)
+    return L:rect(x, y, w, h, col, am, rot or UI.SLANT)
+end
+
+function UI.stripes(L, x, y, w, h, n, col, am, rot)
+    rot = rot or UI.SLANT
+    for i = 1, n do
+        L:rect(x - w / 2 + (i - 0.5) * w / n, y, 2, h, col, am, rot)
+    end
+end
+
+function UI.chevron(L, x, y, s, col, am, dir)
+    dir = dir or 1
+    L:rect(x, y + s * 0.25, s * 0.62, s * 0.16, col, am, -dir * 40)
+    L:rect(x, y - s * 0.25, s * 0.62, s * 0.16, col, am, dir * 40)
+end
+
+function UI.constellation(L, x, y, r, t, col, am)
+    col = col or UI.WHITE
+    L:shape(G.RING, x, y, r * 2, r * 2, col, 0.22 * am, t * 4)
+    L:shape(G.RING, x, y, r * 1.36, r * 1.36, col, 0.12 * am, -t * 6)
+    for k = 0, 5 do
+        local a = math.rad(t * 5 + k * 60 + (k % 2) * 17)
+        local rr = (k % 2 == 0) and r or r * 0.68
+        local s = (k % 3 == 0) and 22 or 12
+        L:shape(G.STAR4, x + math.cos(a) * rr, y + math.sin(a) * rr, s, s, col, (0.35 + 0.25 * math.sin(t * 2 + k)) * am, t * 20)
+    end
+end
+
+local ECOL = {pyro = {255, 138, 74}, hydro = {72, 186, 245}, anemo = {98, 214, 172}, electro = {190, 132, 255},
+              dendro = {150, 210, 60}, cryo = {160, 226, 240}, geo = {250, 190, 70}}
+UI.ECOL = ECOL
+function UI.element(L, el, x, y, s, am, col, core)
+    col = col or ECOL[el] or UI.WHITE
+    core = core or UI.WHITE
+    am = am or 1
+    if el == 'pyro' then
+        L:shape(G.TRI, x, y + s * 0.16, s * 0.5, s * 0.72, col, am)
+        L:shape(G.ELLIPSE, x, y - s * 0.14, s * 0.56, s * 0.56, col, am)
+        L:shape(G.TRI, x, y + s * 0.02, s * 0.24, s * 0.4, core, 0.85 * am)
+        L:shape(G.ELLIPSE, x, y - s * 0.17, s * 0.26, s * 0.26, core, 0.85 * am)
+    elseif el == 'hydro' then
+        L:shape(G.TRI, x, y + s * 0.2, s * 0.44, s * 0.56, col, am)
+        L:shape(G.ELLIPSE, x, y - s * 0.12, s * 0.58, s * 0.58, col, am)
+        L:shape(G.ELLIPSE, x - s * 0.1, y - s * 0.06, s * 0.16, s * 0.24, core, 0.85 * am, 20)
+    elseif el == 'anemo' then
+        local bg = UI.NAVY
+        L:shape(G.ELLIPSE, x, y, s * 0.8, s * 0.8, col, am)
+        L:shape(G.ELLIPSE, x + s * 0.1, y + s * 0.07, s * 0.6, s * 0.6, bg, am)
+        L:shape(G.ELLIPSE, x - s * 0.02, y - s * 0.02, s * 0.36, s * 0.36, col, am)
+        L:shape(G.ELLIPSE, x + s * 0.04, y + s * 0.03, s * 0.18, s * 0.18, bg, am)
+        L:shape(G.TRI, x + s * 0.34, y - s * 0.24, s * 0.16, s * 0.3, col, am, 135)
+    elseif el == 'electro' then
+        L:shape(G.TRI, x, y + s * 0.02, s * 0.9, s * 0.8, col, am)
+        L:shape(G.TRI, x, y - s * 0.1, s * 0.46, s * 0.4, UI.NAVY, am, 180)
+        L:shape(G.RECT, x, y - s * 0.03, s * 0.16, s * 0.16, core, 0.9 * am, 45)
+    elseif el == 'dendro' then
+        for k = 0, 2 do
+            local ang = k * 120 + 90
+            local r = math.rad(ang)
+            L:shape(G.ELLIPSE, x + math.cos(r) * s * 0.2, y + math.sin(r) * s * 0.2, s * 0.3, s * 0.56, col, am, ang - 90)
+        end
+        L:shape(G.ELLIPSE, x, y, s * 0.2, s * 0.2, core, 0.9 * am)
+    elseif el == 'cryo' then
+        for k = 0, 2 do L:rect(x, y, s * 0.9, s * 0.1, col, am, k * 60) end
+        for k = 0, 5 do
+            local a = math.rad(k * 60)
+            L:shape(G.RECT, x + math.cos(a) * s * 0.4, y + math.sin(a) * s * 0.4, s * 0.16, s * 0.16, col, am, 45 + k * 60)
+        end
+        L:shape(G.RECT, x, y, s * 0.24, s * 0.24, core, 0.9 * am, 45)
+    else -- geo
+        L:shape(G.RECT, x, y, s * 0.66, s * 0.66, col, am, 45)
+        L:shape(G.RECT, x, y, s * 0.36, s * 0.36, core, 0.85 * am, 45)
+        L:shape(G.RECT, x, y, s * 0.16, s * 0.16, col, am, 45)
+    end
+end
+
+function UI.badge(L, el, x, y, s, am)
+    am = am or 1
+    local col = ECOL[el] or UI.WHITE
+    L:shape(G.ELLIPSE, x, y, s * 1.5, s * 1.5, col, 0.25 * am, 0, 0.5)
+    L:shape(G.ELLIPSE, x, y, s, s, UI.NAVY, 0.85 * am)
+    L:shape(G.RING, x, y, s, s, col, 0.9 * am)
+    UI.element(L, el, x, y, s * 0.62, am)
+end
+
+function UI.header(L, title, en, x, y, am, col)
+    am = am or 1
+    col = col or UI.GOLD
+    UI.slab(L, x - 40, y - 2, 10, 74, col, am, UI.SLANT)
+    L:label(title, x + 230, y + 10, 460, 64, 50, UI.WHITE, 'l', nil, am)
+    L:label(en or '', x + 230, y - 34, 460, 26, 15, col, 'l', nil, am)
+end
+
+function UI.leftPanel(L, W, H, k, acc, am)
+    am = am or 1
+    local sx = -W / 2 + 300 - (1 - k) * 500
+    UI.slab(L, sx, 0, 980, H * 1.9, UI.NAVY, 0.88 * am, -UI.SLANT)
+    UI.stripes(L, sx - 120, 0, 700, H * 1.9, 18, UI.WHITE, 0.025 * am, -UI.SLANT)
+    local ex = sx + 490 / math.cos(math.rad(UI.SLANT))
+    UI.slab(L, ex, 0, 3, H * 2, UI.GOLD, 0.75 * am, -UI.SLANT)
+    UI.slab(L, ex + 30, 0, 12, H * 2, acc or UI.GOLD, 0.55 * am, -UI.SLANT)
+    return ex
+end
+
+function UI.screenTitle(L, W, H, title, en, am)
+    L:label(title, -W / 2 + 338, H / 2 - 92, 420, 70, 54, UI.WHITE, 'l', nil, am)
+    L:label(en, -W / 2 + 388, H / 2 - 140, 520, 26, 15, UI.GOLD, 'l', nil, am)
+    L:rect(-W / 2 + 330, H / 2 - 164, 400, 2, UI.GOLD, 0.6 * am)
+end
+
+function UI.track(s)
+    return (s:gsub('(.)', '%1 '):sub(1, -2))
+end
+
+function UI.tap(L, id, x, y, w, h, action, on)
+    local inp = UI.app and UI.app.input
+    if not inp then return end
+    L.taps = L.taps or {}
+    local pa = L.taps[id]
+    if not on then
+        if pa and pa.gen == inp.gen and pa.on then inp:moveArea(pa.b, 0, -5000, 1, 1); pa.on = false end
+        return
+    end
+    if pa and pa.gen == inp.gen and pa.b then
+        if pa.x ~= x or pa.y ~= y or not pa.on then inp:moveArea(pa.b, x, y, w, h) end
+    else
+        pa = {b = inp:area(x, y, w, h, {click = function() inp.menuQ[#inp.menuQ + 1] = action end}), gen = inp.gen}
+        L.taps[id] = pa
+    end
+    pa.x, pa.y, pa.on = x, y, true
+end
+
+function UI.prompt(L, x, y, key, label, am, action)
+    am = am or 1
+    if action then UI.tap(L, 'prompt' .. key, x + 50, y, 180, 54, action, am > 0.5) end
+    L:rect(x, y - 3, 34, 34, {0, 0, 0}, 0.35 * am)
+    L:rect(x, y, 32, 32, UI.CREAM, am)
+    L:label(key, x, y, 32, 32, 17, UI.TEXT, 'c', nil, am)
+    L:label(label, x + 24 + 60, y, 120, 30, 18, UI.WHITE, 'l', {0, 0, 0, 90}, am)
+end
+
+function UI.title(L, s, x, y, size, col, am, _)
+    return L:label(s, x, y, size * ((utf8.len(s) or #s) + 2), size * 1.5, size, col or UI.WHITE, 'c', {0, 0, 0, 120}, am)
+end
+
+function UI.areaTitle(L, s, sub, x, y, am)
+    am = am or 1
+    local w = 120 + (utf8.len(s) or 4) * 40
+    L:label(s, x, y, w + 200, 70, 46, UI.WHITE, 'c', {0, 0, 0, 140}, am)
+    for _, side in ipairs({-1, 1}) do
+        local lx = x + side * (w / 2 + 70)
+        L:rect(lx, y, 120, 2, UI.WHITE, 0.8 * am)
+        L:shape(G.RECT, lx + side * 64, y, 8, 8, UI.WHITE, am, 45)
+    end
+    if sub then L:label(sub, x, y - 46, 600, 30, 20, UI.GREY, 'c', {0, 0, 0, 120}, am) end
+end
+
+local Menu = {}
+Menu.__index = Menu
+
+function UI.menu(app, parent, items, o)
+    local self = setmetatable({app = app, items = items, o = o, sel = o.sel or 1, hl = o.sel or 1,
+                               L = G.layer(parent), areas = {}, t = 0, blink = 0}, Menu)
+    self:bind()
+    return self
+end
+
+function Menu:rowY(i) return self.o.y - (i - 1) * (self.o.h + (self.o.gap or 10)) end
+
+function Menu:bind()
+    local app = self.app
+    for i in ipairs(self.items) do
+        local idx = i
+        self.areas[i] = app.input:area(self.o.x, self:rowY(i), self.o.w, self.o.h, {
+            down = function() if self.sel ~= idx then self.sel = idx; app.audio:play(app.audio.ID.move) end end,
+            click = function() self.sel = idx; self:pick() end,
+        })
+    end
+end
+
+function Menu:pick()
+    local it = self.items[self.sel]
+    if not it or it.disabled then self.app.audio:play(self.app.audio.ID.fail) return end
+    self.blink = 12
+    self.app.audio:play(self.app.audio.ID.ok)
+    if self.o.onPick then self.o.onPick(it.id, it) end
+end
+
+function Menu:input(actions)
+    local app = self.app
+    for _, a in ipairs(actions) do
+        if a == 'up' then self.sel = (self.sel - 2) % #self.items + 1; app.audio:play(app.audio.ID.move)
+        elseif a == 'down' then self.sel = self.sel % #self.items + 1; app.audio:play(app.audio.ID.move)
+        elseif a == 'left' or a == 'right' then
+            local it = self.items[self.sel]
+            local fn = it and it[a]
+            if fn then fn(); app.audio:play(app.audio.ID.tick) end
+        elseif a == 'ok' then self:pick()
+        elseif a == 'back' then if self.o.onBack then app.audio:play(app.audio.ID.back); self.o.onBack() end
+        end
+    end
+end
+
+function Menu:draw(am)
+    am = am or 1
+    local o = self.o
+    local L = self.L
+    self.t = self.t + 1
+    if self.blink > 0 then self.blink = self.blink - 1 end
+    if self.lastSel ~= self.sel then self.lastSel, self.selT = self.sel, 0 end
+    self.selT = (self.selT or 0) + 1
+    local sweep = U.ease.outCubic(U.clamp(self.selT / 9, 0, 1))
+    local acc = o.accent or UI.GOLD
+    local size = o.size or 28
+    L:begin()
+    for i, it in ipairs(self.items) do
+        local y = self:rowY(i)
+        local on = i == self.sel
+        local enter = U.ease.outCubic(U.clamp((self.t - (i - 1) * 3) / 14, 0, 1))
+        local a = am
+        -- Keep labels readable immediately; retain only the position/sweep animation.
+        local x0 = o.x - o.w / 2 - (1 - enter) * 160
+        local k = on and sweep or 0
+        local flash = (on and self.blink > 0 and self.blink % 4 < 2) and 1 or 0
+        local sw = o.w * (0.25 + 0.75 * k)
+        L:rect(x0 + sw / 2 + 8, y - 6, sw, o.h, {0, 0, 0}, (on and 0.35 or 0) * a, 2)
+        L:rect(x0 + sw / 2, y, sw, o.h, flash > 0 and UI.WHITE or UI.CREAM, (on and 0.96 or 0) * a, 2)
+        L:rect(x0 + 6, y, 10, o.h + 6, acc, (on and 1 or 0) * a, 2)
+        UI.chevron(L, x0 + sw - 30 + math.sin(self.t * 0.25) * 3, y, 22, UI.TEXT, ((on and not it.value) and k or 0) * a)
+        local tx = x0 + 34 + (on and 18 * k or 0)
+        L:label(o.numbers and ('%02d'):format(i) or '', tx + 30, y + 1, 60, o.h, 18, on and acc or UI.GOLD, 'l', nil, (o.numbers and (on and 1 or 0.7) or 0) * a)
+        if o.numbers then tx = tx + 46 end
+        local col = it.disabled and UI.DIM or (on and UI.TEXT or UI.WHITE)
+        local la = (it.disabled and 0.5 or (on and 1 or 0.78)) * a
+        local ly = y + ((on and it.sub) and size * 0.3 or 0)
+        L:label(it.label, tx + (o.w - 120) / 2, ly, o.w - 120, o.h, size, col, 'l', nil, la)
+        L:label(it.sub or '', tx + (o.w - 120) / 2, y - size * 0.62, o.w - 120, 22, 15, {92, 100, 124}, 'l', nil, (on and it.sub) and a or 0)
+        local v = it.value and it.value() or ''
+        local vx = x0 + o.w - 120
+        L:label(v, vx, y, 200, o.h, size * 0.8, col, 'c', nil, it.value and la or 0)
+        UI.chevron(L, vx - 96, y, 16, col, (it.value and on) and a or 0, -1)
+        UI.chevron(L, vx + 96, y, 16, col, (it.value and on) and a or 0, 1)
+    end
+    L:finish()
+end
+
+function Menu:free() self.L:free() end
+
+return UI
+end
+__loaders['gf_util'] = function()
+local U = {}
+
+local floor, sqrt, sin, cos, pi = math.floor, math.sqrt, math.sin, math.cos, math.pi
+U.floor = floor
+
+function U.clamp(v, a, b) if v < a then return a elseif v > b then return b end return v end
+function U.lerp(a, b, t) return a + (b - a) * t end
+function U.round(v) return floor(v + 0.5) end
+function U.sign(v) if v > 0 then return 1 elseif v < 0 then return -1 end return 0 end
+function U.approach(v, target, step)
+    if v < target then return math.min(v + step, target) end
+    return math.max(v - step, target)
+end
+
+U.ease = {
+    linear = function(t) return t end,
+    inQuad = function(t) return t * t end,
+    outQuad = function(t) return t * (2 - t) end,
+    inOutQuad = function(t) if t < 0.5 then return 2 * t * t end return -1 + (4 - 2 * t) * t end,
+    outCubic = function(t) t = t - 1 return t * t * t + 1 end,
+    inCubic = function(t) return t * t * t end,
+    inOutCubic = function(t) if t < 0.5 then return 4 * t * t * t end t = 2 * t - 2 return 0.5 * t * t * t + 1 end,
+    outBack = function(t) local s = 1.70158 t = t - 1 return t * t * ((s + 1) * t + s) + 1 end,
+    outExpo = function(t) if t >= 1 then return 1 end return 1 - 2 ^ (-10 * t) end,
+    outElastic = function(t)
+        if t <= 0 then return 0 elseif t >= 1 then return 1 end
+        return 2 ^ (-10 * t) * sin((t * 10 - 0.75) * (2 * pi / 3)) + 1
+    end,
+    outSine = function(t) return sin(t * pi / 2) end,
+    inOutSine = function(t) return -(cos(pi * t) - 1) / 2 end,
+}
+
+function U.hex(s)
+    local r, g, b, a = s:match('#?(%x%x)(%x%x)(%x%x)(%x?%x?)')
+    return {tonumber(r, 16), tonumber(g, 16), tonumber(b, 16), a ~= '' and tonumber(a, 16) or 255}
+end
+
+function U.mix(c1, c2, t)
+    return {c1[1] + (c2[1] - c1[1]) * t, c1[2] + (c2[2] - c1[2]) * t, c1[3] + (c2[3] - c1[3]) * t,
+            (c1[4] or 255) + ((c2[4] or 255) - (c1[4] or 255)) * t}
+end
+
+function U.hash(n)
+    n = (n * 1103515245 + 12345) & 0x7fffffff
+    n = (n ~ (n >> 13)) * 1274126177 & 0x7fffffff
+    return (n & 0xffff) / 65535
+end
+
+
+local B64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+local DEC = {}
+for i = 1, 64 do DEC[B64:byte(i)] = i - 1 end
+U.B64DEC = DEC
+
+function U.decoder(s)
+    return {s = s, i = 1, n = #s, bytes = {}, k = 0, step = U.decodeStep}
+end
+
+function U.decodeStep(job, budget)
+    local s, i, n, out, k = job.s, job.i, job.n, job.bytes, job.k
+    local stop = math.min(n, i + budget - 1)
+    stop = stop - ((stop - i + 1) % 4)
+    if stop < i and i <= n then stop = math.min(n, i + 3) end
+    local byte = string.byte
+    while i + 3 <= stop do
+        local a, b, c, d = byte(s, i, i + 3)
+        local v = (DEC[a] << 18) | (DEC[b] << 12) | (DEC[c] << 6) | DEC[d]
+        out[k + 1] = (v >> 16) & 255
+        out[k + 2] = (v >> 8) & 255
+        out[k + 3] = v & 255
+        k = k + 3
+        i = i + 4
+    end
+    job.i, job.k = i, k
+    return i > n
+end
+
+function U.decodeAll(s)
+    local job = U.decoder(s)
+    job:step(#s + 4)
+    return job.bytes
+end
+
+function U.palette(s)
+    local b = U.decodeAll(s)
+    local pal = {}
+    for i = 1, #b - 2, 3 do pal[#pal + 1] = {b[i], b[i + 1], b[i + 2], 255} end
+    return pal
+end
+
+return U
+end
+
+__loaders['gf_animation_data'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_animation_data']() end
+__loaders['gf_animation_effects'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_animation_effects']() end
+__loaders['gf_inbetween_data'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_inbetween_data']() end
+__loaders['gf_art_nahida'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_art_nahida']() end
+__loaders['gf_art_raidenshogun'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_art_raidenshogun']() end
+__loaders['gf_bg_fontaine'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_fontaine']() end
+__loaders['gf_bg_inazuma'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_inazuma']() end
+__loaders['gf_bg_liyue'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_liyue']() end
+__loaders['gf_bg_mondstadt'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_mondstadt']() end
+__loaders['gf_bg_natlan'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_natlan']() end
+__loaders['gf_bg_snezhnaya'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_snezhnaya']() end
+__loaders['gf_bg_sumeru'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_bg_sumeru']() end
+__loaders['gf_aranara_data'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_aranara_data']() end
+__loaders['gf_viewfinder_data'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_viewfinder_data']() end
+__loaders['gf_logo'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_logo']() end
+__loaders['gf_raiden_eye_r31'] = function() return __externalRequire('default_import_file/gf_art_sd.lua')['gf_raiden_eye_r31']() end
+
+local POOLS = {img = 256, txt = 96, btn = 24}
+GF_POOLS = POOLS
+
+local root, host
+local started, failed = false, false
+local boot = {stage = 'collect', i = 1}
+local imgs, txts, btns = {}, {}, {}
+local G, App, app
+local errors = 0
+local stageName = 'load'
+
+local function safe(f, ...)
+    local ok, a, b = pcall(f, ...)
+    if not ok then
+        errors = errors + 1
+        if errors <= 30 then printerr('GF error', tostring(a)) end
+        return nil
+    end
+    return a, b
+end
+
+local function showError(message)
+    failed = true
+    message = '[' .. stageName .. '] ' .. tostring(message)
+    printerr('GF fatal ' .. message)
+    local t = host
+    if not t then return end
+    pcall(function()
+        t:SetVisible(true)
+        t:SetActive(true)
+        t:SetAnchorMin(0.5, 0.5); t:SetAnchorMax(0.5, 0.5); t:SetPivot(0.5, 0.5)
+        t:SetSizeDelta(1400, 320); t:SetAnchoredPosition(0, 0)
+        t.fontSize = 22; t.fontColor = Color(255, 255, 255, 255); t.bgColor = Color(150, 20, 30, 235)
+        t.text = '原神格斗 出错了（请截图反馈）\n' .. message
+        t:SetAsLastSibling()
+    end)
+end
+
+local clock = 0
+
+local function start()
+    if started then return end
+    host = script.object
+    if not host then printerr('GF no host') return end
+    started = true
+    root = host.parent or host
+    local ok, err = pcall(script.EnableUpdate, script, true)
+    if not ok then showError('无法启用逐帧更新：' .. tostring(err)); return end
+    pcall(function() host.text = 'GF LUA 已初始化 / 等待逐帧更新' end)
+end
+
+function OnInit() start() end
+function OnEnable() start() end
+function OnStart() start() end
+
+function GF_APP() return app end
+
+local function collect()
+    local kids = root:GetChildren()
+    boot.kids = kids
+    boot.i = 1
+    boot.stage = 'names'
+end
+
+local function names(budget)
+    local kids = boot.kids
+    local stop = math.min(#kids, boot.i + budget - 1)
+    for k = boot.i, stop do
+        local c = kids[k]
+        local name = c.name
+        if type(name) == 'string' then
+            local n = tonumber(name:match('^GF_IMG_(%d+)$'))
+            if n then imgs[n] = c
+            else
+                n = tonumber(name:match('^GF_TXT_(%d+)$'))
+                if n then txts[n] = c
+                else
+                    n = tonumber(name:match('^GF_BTN_(%d+)$'))
+                    if n then btns[n] = c end
+                end
+            end
+        end
+    end
+    boot.i = stop + 1
+    return stop >= #kids
+end
+
+local function dense(t)
+    local out = {}
+    local i = 1
+    while t[i] do out[i] = t[i]; i = i + 1 end
+    return out
+end
+
+local BOOT_STEPS = {
+    collect = function() collect() end,
+    names = function()
+        if names(3000) then boot.stage = 'pools' end
+    end,
+    pools = function()
+        G = require('gf_gfx')
+        imgs, txts, btns = dense(imgs), dense(txts), dense(btns)
+        if #imgs < 256 or #txts < 96 then
+            error(('控件池缺失：图片 %d / %d，文字 %d / %d（检查 GIA 是否完整导入）'):format(#imgs, POOLS.img, #txts, POOLS.txt))
+        end
+        G.init({game = game, Enum = Enum, Color = Color, safe = safe},
+               {root = root, imgs = imgs, txts = txts, btns = btns})
+        -- Actual image template resource index supplied for this editor project.
+        local okIndex,templateIndex=pcall(script.GetParam,script,'GF_IMAGE_TEMPLATE_INDEX')
+        templateIndex=okIndex and tonumber(templateIndex) or nil
+        G.configureSecondPool(templateIndex or GF_DYNAMIC_IMAGE_TEMPLATE_INDEX or 1073742224)
+        -- Imported fixed-size containers must follow the actual canvas on wide phones.
+        safe(function()
+            root:SetAnchorMin(0, 0); root:SetAnchorMax(1, 1)
+            root:SetPivot(0.5, 0.5); root:SetSizeDelta(0, 0)
+            root:SetAnchoredPosition(0, 0)
+        end)
+        safe(host.SetVisible, host, false)
+        pcall(function() root.disableKeyEventPassthrough = true end)
+        G.parkAll()
+        boot.stage = 'park'
+    end,
+    park = function()
+        if G.flush(1800) <= 0 then boot.stage = 'app' end
+    end,
+    app = function()
+        App = require('gf_app')
+        app = App.new({game = game, Enum = Enum, Color = Color, safe = safe, host = host, root = root,
+                       script = script, pools = POOLS, firstScene = GF_FIRST_SCENE, firstArgs = GF_FIRST_ARGS, settings = GF_SETTINGS,
+                       netio = GF_NETIO or require('gf_transport').new(game, script, function() return clock end)})
+        boot.stage = 'run'
+    end,
+}
+
+function OnUpdate(dt)
+    if failed or not started then return end
+    clock = clock + (dt or 0)
+    if boot.stage ~= 'run' then
+        stageName = 'boot:' .. boot.stage
+        pcall(function() host.text = 'GF 启动阶段：' .. boot.stage end)
+        local ok, err = pcall(BOOT_STEPS[boot.stage])
+        if not ok then showError(err) end
+        return
+    end
+    stageName = 'run'
+    local ok, err = pcall(app.update, app, dt)
+    if not ok then
+        app.fatal = (app.fatal or 0) + 1
+        printerr('GF update error ' .. tostring(err))
+        if app.fatal > 20 then showError(err) end
+    end
+end
+
+function GF_SECOND_POOL_STATUS() return G and G.secondPoolStatus() end
+
+
+function GF_PERF_STATUS() return app and app.perf end

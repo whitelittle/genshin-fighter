@@ -1,0 +1,31 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+import {sample,colorProcess,fit} from 'file:///C:/Users/Cheng/Documents/ChatGPT/嘟嘟可大冒险/outputs/static-material-tool/engine.mjs';
+const require=createRequire('C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/package.json');
+const {createCanvas,loadImage}=require('@napi-rs/canvas');
+const [source,out]=process.argv.slice(2);
+if(!source||!out)throw Error('Expected source image and new output directory');
+fs.mkdirSync(out,{recursive:true});
+const sourceCopy=path.join(out,'source.png');
+if(fs.existsSync(sourceCopy))throw Error('Output already exists; preserve prior candidate');
+fs.copyFileSync(source,sourceCopy);
+const img=await loadImage(sourceCopy),canvas=createCanvas(img.width,img.height),ctx=canvas.getContext('2d');
+ctx.drawImage(img,0,0);
+const raw=ctx.getImageData(0,0,img.width,img.height).data;
+const profiles=[{w:224,h:126,colors:40},{w:224,h:126,colors:32},{w:208,h:117,colors:40},{w:208,h:117,colors:32},{w:192,h:108,colors:40},{w:192,h:108,colors:32}];
+const results=[];
+for(const p of profiles){
+ const data=colorProcess(sample(raw,img.width,img.height,p.w,p.h,'nearest',220),new Uint8Array(p.w*p.h),{...p,tolerance:3}).data;
+ const result=fit(data,p.w,p.h),key=`${p.w}x${p.h}-${p.colors}colors`;
+ const preview=createCanvas(1600,900),pc=preview.getContext('2d');
+ pc.imageSmoothingEnabled=false;
+ const grid=createCanvas(p.w,p.h),gc=grid.getContext('2d'),pixels=gc.createImageData(p.w,p.h);
+ pixels.data.set(data);gc.putImageData(pixels,0,0);pc.drawImage(grid,0,0,1600,900);
+ fs.writeFileSync(path.join(out,key+'.png'),preview.toBuffer('image/png'));
+ fs.writeFileSync(path.join(out,key+'.json'),JSON.stringify({w:p.w,h:p.h,scale:1600/p.w,anchor:[p.w/2,p.h/2],rows:result.rows}));
+ results.push({...p,tolerance:3,sampling:'nearest',rectangles:result.rows.length,actualColors:result.colors,method:result.method,exact:result.exact,approxControls:result.rows.length*2,meets9000:result.rows.length<=9000});
+}
+const selected=results.find(r=>r.meets9000)||null;
+fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({source:'source.png',sourceSize:[img.width,img.height],candidate:1,reference:'210009 scene fitting profiles',results,selected,deviceVerified:false,gameIntegrated:false},null,2));
+console.log(JSON.stringify({out,results,selected},null,2));

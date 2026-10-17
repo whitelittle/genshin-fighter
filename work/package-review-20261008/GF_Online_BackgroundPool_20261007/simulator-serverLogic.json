@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "seats",
+      "signalName": "GFV2Hello",
+      "actions": [
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "Player1",
+          "signalName": "GFV2Seat",
+          "params": [
+            1
+          ]
+        },
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "Player2",
+          "signalName": "GFV2Seat",
+          "params": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frames",
+      "signalName": "GFV2Frames",
+      "actions": [
+        {
+          "kind": "sendClientScriptSignal",
+          "target": "AllPlayers",
+          "signalName": "GFV2FramesOut",
+          "params": [
+            {
+              "fromSignalParam": 0
+            },
+            {
+              "fromSignalParam": 1
+            },
+            {
+              "fromSignalParam": 2
+            },
+            {
+              "fromSignalParam": 3
+            },
+            {
+              "fromSignalParam": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

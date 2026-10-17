@@ -1,0 +1,64 @@
+--- V18/gf_art
++++ r33/gf_art
+@@ -1,4 +1,6 @@
+ __loaders['gf_art'] = function()
++
++
+ local U = require('gf_util')
+ local R = require('gf_roster')
+ 
+@@ -39,7 +41,37 @@
+             u = src.u or 1, w = src.w, h = src.h, src = src.d}
+ end
+ 
++local animations
++function A.animation(key,tier,pose)
++    tier='lo'
++    if key ~= 'raidenshogun' and key ~= 'nahida' then return nil end
++    animations = animations or require('gf_animation_data')
++    local char=animations[key=='raidenshogun' and 'raiden' or 'nahida']
++    local bank=char and char[tier]
++    local aliases={idle='basic_0',walk1='basic_2',walk2='basic_4',jump='move_1',crouch='guard_1',crouchGuard='guard_7',guard='guard_6',slash='light_2',special='skill_2',qRelease=key=='raidenshogun' and 'qburst_3' or 'skill_6',hurt='hurt_0',down='hurt_3'}
++    local img=bank and bank[aliases[pose] or pose]
++    if not img and bank then local extra=require('gf_inbetween_data');local c=extra.poses[key=='raidenshogun' and 'raiden' or 'nahida'];img=c and c[tier] and c[tier][pose] end
++    if img and img.d then
++        local raw=U.decodeAll(img.d);local values={}
++        for i=1,img.n*5 do values[i]=raw[i*2-1]+raw[i*2]*256 end
++        img.bytes=values;img.d=nil
++    end
++    if img then img.pal=bank.pal; if not img.baked and key=='raidenshogun' and (aliases[pose] or pose):match('^qburst_') then img.originalU=img.originalU or img.u;img.u=img.originalU*0.77 end end
++    if img and not img.baked then
++        local u=img.u;local bytes={}
++        for i=1,#img.bytes,5 do
++            for k=0,3 do bytes[i+k]=img.bytes[i+k]*u end
++            bytes[i+4]=img.bytes[i+4]
++        end
++        img.bytes=bytes;img.ax=img.ax*u;img.ay=img.ay*u;img.w=img.w*u;img.h=img.h*u
++        img.seam=0.08*u;img.u=1;img.baked=true
++    end
++    return img
++end
+ function A.pose(key, tier, pose)
++    tier='lo'
++    local animated=A.animation(key,tier,pose)
++    if animated then return animated end
+     local k = key .. ':' .. tier .. ':' .. pose
+     local img = cache[k]
+     if not img then
+@@ -52,6 +84,8 @@
+ end
+ 
+ function A.silhouette(key, pose)
++    local animated=A.animation(key,'lo',pose)
++    if animated then return animated end
+     local k = key .. ':sil:' .. pose
+     local img = cache[k]
+     if not img then
+@@ -81,6 +115,7 @@
+ function A.portrait(key) return picture(key, 'portrait') end
+ 
+ function A.prepare(key, tier)
++    if A.animation(key,tier,'basic_0') then return {step=function() return true end} end
+     local list = {}
+     for _, p in ipairs(A.POSES) do list[#list + 1] = p end
+     local job = {i = 1, cur = nil}

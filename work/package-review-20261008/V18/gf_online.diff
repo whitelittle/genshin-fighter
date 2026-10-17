@@ -1,0 +1,11 @@
+--- V18/gf_online
++++ r33/gf_online
+@@ -202,7 +202,7 @@
+     o.matchCounter = o.matchCounter + 1
+     local id = ((o.slot or 1) << 20) | ((math.floor(o.io.now() * 10) & 0xfff) << 8) | (o.matchCounter & 0xff)
+     if id == 0 then id = 1 end
+-    local seed = (math.floor(o.io.now() * 1000) * 2654435761 + (o.nonce or 7)) & 0x7fffffff
++    local seed = math.floor((math.floor(o.io.now() * 1000) * 2654435761 + (o.nonce or 7)) % 2147483648)
+     local rw = O.rosterWord(o.slot, opp, o.me.char, math.max(1, o.peers[opp].lobby.char))
+     local sw = O.setupWord(o.host.stage, o.host.rounds, o.host.time)
+     return startSession(o, id, rw, sw, seed, true, onFrame, makeSimOpts)

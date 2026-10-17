@@ -1,0 +1,1431 @@
+{
+ "source": "haminpants/mililua@c6f1dbb0beea365f7f25546b497532708fdfff01",
+ "classes": {
+  "TweenTarget": {
+   "base": null,
+   "fields": {
+    "anchoredPositionX": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "anchoredPositionY": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "sizeDeltaX": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "sizeDeltaY": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "anchorMinX": {
+     "type": "NormalizedPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "anchorMinY": {
+     "type": "NormalizedPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "anchorMaxX": {
+     "type": "NormalizedPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "anchorMaxY": {
+     "type": "NormalizedPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "pivotX": {
+     "type": "DecimalPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "pivotY": {
+     "type": "DecimalPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "localScaleX": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "localScaleY": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "localScaleZ": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "localRotationX": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "localRotationY": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "localRotationZ": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "imageColor": {
+     "type": "ColorValue?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "softEdgeWidthX": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "softEdgeWidthY": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "horizontalSoftRange": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "verticalSoftRange": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillAmount": {
+     "type": "NormalizedPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fontSize": {
+     "type": "integer?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fontColor": {
+     "type": "ColorValue?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "bgColor": {
+     "type": "ColorValue?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "outlineColor": {
+     "type": "ColorValue?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "minimumFontSize": {
+     "type": "integer?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "scrollProgress": {
+     "type": "NormalizedPercentage?",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "Vector3": {
+   "base": null,
+   "fields": {
+    "x": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "y": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "z": {
+     "type": "number?",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ClientUIAnimationControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "animationId": {
+     "type": "integer",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "playSoundEffect": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "layer": {
+     "type": "EnumItem.UIAnimationLayer",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": [
+    "PlayAnimation",
+    "StopAnimation"
+   ]
+  },
+  "ClientUIBaseControl": {
+   "base": null,
+   "fields": {
+    "alive": {
+     "type": "boolean",
+     "access": "Read",
+     "pending": false
+    },
+    "id": {
+     "type": "number",
+     "access": "Read",
+     "pending": false
+    },
+    "prefabIndex": {
+     "type": "number",
+     "access": "Read",
+     "pending": false
+    },
+    "active": {
+     "type": "boolean",
+     "access": "Read",
+     "pending": false
+    },
+    "activeInHierarchy": {
+     "type": "boolean",
+     "access": "Read",
+     "pending": false
+    },
+    "visible": {
+     "type": "boolean",
+     "access": "Read",
+     "pending": false
+    },
+    "name": {
+     "type": "string",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "parent": {
+     "type": "ClientControlType?",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "anchoredPositionX": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": true
+    },
+    "anchoredPositionY": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": true
+    },
+    "sizeDeltaX": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "sizeDeltaY": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "anchorMinX": {
+     "type": "NormalizedPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "anchorMinY": {
+     "type": "NormalizedPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "anchorMaxX": {
+     "type": "NormalizedPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "anchorMaxY": {
+     "type": "NormalizedPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "pivotX": {
+     "type": "DecimalPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "pivotY": {
+     "type": "DecimalPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "localScaleX": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "localScaleY": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "localScaleZ": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "localRotationX": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "localRotationY": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "localRotationZ": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "canControllerFocus": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": [
+    "AddKeyEventListener",
+    "AddNavigationEventListener",
+    "FindChild",
+    "GetControllerNavigation",
+    "GetAnchorMax",
+    "GetAnchorMin",
+    "GetAnchoredPosition",
+    "GetChild",
+    "GetChildren",
+    "GetLocalRotation",
+    "GetLocalScale",
+    "GetPivot",
+    "GetScript",
+    "GetScriptByPath",
+    "GetScripts",
+    "GetSiblingIndex",
+    "GetSizeDelta",
+    "RemoveAllKeyEventListeners",
+    "RemoveAllNavigationEventListeners",
+    "RemoveKeyEventListener",
+    "RemoveKeyEventListeners",
+    "RemoveNavigationEventListener",
+    "RemoveNavigationEventListeners",
+    "SetActive",
+    "SetAnchorMax",
+    "SetAnchorMin",
+    "SetAnchoredPosition",
+    "SetAsFirstSibling",
+    "SetAsLastSibling",
+    "SetControllerNavigation",
+    "SetLocalRotation",
+    "SetLocalScale",
+    "SetPivot",
+    "SetSiblingIndex",
+    "SetSizeDelta",
+    "SetVisible"
+   ]
+  },
+  "ClientUIContainerControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "isolateNavigation": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "disableKeyEventPassthrough": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "disableCursorEventPassthrough": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "showCursor": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ClientUICursorEventAreaControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "raycastTarget": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": [
+    "AddCursorEventListener",
+    "RemoveCursorEventListener",
+    "RemoveCursorEventListeners",
+    "RemoveAllCursorEventListeners",
+    "SimulateCursorClick"
+   ]
+  },
+  "ClientUIFullscreenAnimationControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "animationId": {
+     "type": "integer",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "playSoundEffect": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ClientUIGridScrollerControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "itemCount": {
+     "type": "integer",
+     "access": "Read",
+     "pending": false
+    },
+    "itemPrefabIndex": {
+     "type": "integer",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "raycastTarget": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "showScrollBar": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "interactable": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "scrollDirection": {
+     "type": "EnumItem.ScrollDirection",
+     "access": "Read",
+     "pending": false
+    },
+    "layoutConstraint": {
+     "type": "EnumItem.ScrollLayoutConstraint",
+     "access": "Read",
+     "pending": false
+    },
+    "layoutConstraintFixedCount": {
+     "type": "number",
+     "access": "Read",
+     "pending": false
+    },
+    "scrollProgress": {
+     "type": "NormalizedPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    }
+   },
+   "methods": [
+    "RefreshItems",
+    "GetItemIndex",
+    "GetItemSize",
+    "GetItemSpacing",
+    "GetPadding",
+    "ScrollToItemAt",
+    "GetContentLength"
+   ]
+  },
+  "ClientUIImageControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "imageSource": {
+     "type": "EnumItem.ImageSource",
+     "access": "Read",
+     "pending": false
+    },
+    "imageId": {
+     "type": "integer",
+     "access": "Read",
+     "pending": false
+    },
+    "imageColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "imageType": {
+     "type": "EnumItem.ImageType",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "enableMask": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "enableSoftEdge": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "softEdgeMode": {
+     "type": "EnumItem.ImageMaskSoftEdgeMode",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "softEdgeWidthX": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "softEdgeWidthY": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "horizontalSoftRange": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "verticalSoftRange": {
+     "type": "number",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "reverseMaskArea": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillType": {
+     "type": "EnumItem.ImageFillType",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillHorizontalType": {
+     "type": "EnumItem.ImageFillHorizontalType",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillVerticalType": {
+     "type": "EnumItem.ImageFillVerticalType",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillRadial90Type": {
+     "type": "EnumItem.ImageFillRadial90Type",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillRadialType": {
+     "type": "EnumItem.ImageFillRadialType",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fillAmount": {
+     "type": "NormalizedPercentage",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    }
+   },
+   "methods": [
+    "SetImage",
+    "SetSoftEdgeWidth",
+    "SetFillUnused",
+    "SetFillHorizontal",
+    "SetFillVertical",
+    "SetFillRadial90",
+    "SetFillRadial180",
+    "SetFillRadial360"
+   ]
+  },
+  "ClientUIKeyHintControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "keyboardKeyCode": {
+     "type": "EnumItem.KeyboardKeyCode",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "controllerKeyCode": {
+     "type": "EnumItem.ControllerKeyCode",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ClientUIPresetButtonControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "interactable": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "clickAudioId": {
+     "type": "integer",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "raycastTarget": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": [
+    "AddCursorEventListener",
+    "RemoveCursorEventListener",
+    "RemoveCursorEventListeners",
+    "RemoveAllCursorEventListeners",
+    "SimulateCursorClick"
+   ]
+  },
+  "ClientUIReferenceControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "referencedPrefabIndex": {
+     "type": "integer",
+     "access": "Read",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ClientUITextBoxControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "text": {
+     "type": "string",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fontSize": {
+     "type": "integer",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "fontColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "bgColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "enableOutline": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "outlineColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "horizontalAlignment": {
+     "type": "EnumItem.TextHorizontalAlignment",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "verticalAlignment": {
+     "type": "EnumItem.TextVerticalAlignment",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "adaptiveFontSize": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "minimumFontSize": {
+     "type": "integer",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ClientUITextWindowControl": {
+   "base": "ClientUIBaseControl",
+   "fields": {
+    "interactable": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "showScrollBar": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "text": {
+     "type": "string",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "fontSize": {
+     "type": "integer",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "fontColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "bgColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "enableOutline": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "outlineColor": {
+     "type": "ColorValue",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    },
+    "horizontalAlignment": {
+     "type": "EnumItem.TextHorizontalAlignment",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "verticalAlignment": {
+     "type": "EnumItem.TextVerticalAlignment",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "adaptiveFontSize": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    },
+    "minimumFontSize": {
+     "type": "integer",
+     "access": "Read/Write/Tweenable",
+     "pending": false
+    }
+   },
+   "methods": []
+  },
+  "ColorValue": {
+   "base": null,
+   "fields": {},
+   "methods": []
+  },
+  "Color": {
+   "base": null,
+   "fields": {},
+   "methods": []
+  },
+  "CursorEventData": {
+   "base": null,
+   "fields": {
+    "dragging": {
+     "type": "boolean",
+     "access": "Read",
+     "pending": false
+    },
+    "touchId": {
+     "type": "number",
+     "access": "Read",
+     "pending": false
+    }
+   },
+   "methods": [
+    "GetUIPos",
+    "GetPressUIPos",
+    "GetUIPosDelta"
+   ]
+  },
+  "math": {
+   "base": null,
+   "fields": {},
+   "methods": [
+    "isinf",
+    "isnan"
+   ]
+  },
+  "Script": {
+   "base": null,
+   "fields": {
+    "alive": {
+     "type": "boolean",
+     "access": "Read",
+     "pending": false
+    },
+    "id": {
+     "type": "number",
+     "access": "Read",
+     "pending": false
+    },
+    "prefabIndex": {
+     "type": "number?",
+     "access": "Read",
+     "pending": false
+    },
+    "object": {
+     "type": "ClientControlType?",
+     "access": "Read",
+     "pending": false
+    },
+    "path": {
+     "type": "string",
+     "access": "Read",
+     "pending": false
+    },
+    "enabled": {
+     "type": "boolean",
+     "access": "Read/Write",
+     "pending": false
+    }
+   },
+   "methods": [
+    "EnableUpdate",
+    "GetParam",
+    "Invoke",
+    "RegisterCustomVariableChangedHandler",
+    "RegisterServerSignalHandler",
+    "UnregisterCustomVariableChangedHandler",
+    "UnregisterServerSignalHandler"
+   ]
+  },
+  "ServerSignal": {
+   "base": null,
+   "fields": {},
+   "methods": [
+    "AddBool",
+    "AddBoolList",
+    "AddConfigId",
+    "AddConfigIdList",
+    "AddEntity",
+    "AddEntityList",
+    "AddFloat",
+    "AddFloatList",
+    "AddGuid",
+    "AddGuidList",
+    "AddInt",
+    "AddIntList",
+    "AddParam",
+    "AddPrefabId",
+    "AddPrefabIdList",
+    "AddString",
+    "AddStringList",
+    "AddVector3",
+    "AddVector3List",
+    "SendSignal"
+   ]
+  },
+  "Tween": {
+   "base": null,
+   "fields": {},
+   "methods": [
+    "Complete",
+    "Kill",
+    "Pause",
+    "Play",
+    "Restart",
+    "Resume",
+    "SetEase",
+    "SetLoops",
+    "SetOnComplete",
+    "SetOnStepComplete",
+    "SetRelative"
+   ]
+  },
+  "TweenSequence": {
+   "base": null,
+   "fields": {},
+   "methods": [
+    "Append",
+    "AppendCallback",
+    "AppendInterval",
+    "Complete",
+    "Insert",
+    "InsertCallback",
+    "Join",
+    "Kill",
+    "Pause",
+    "Play",
+    "Restart",
+    "Resume",
+    "SetLoops",
+    "SetOnComplete",
+    "SetOnStepComplete"
+   ]
+  }
+ },
+ "enums": {
+  "ControllerKeyCode": [
+   "CraftspersonKey1",
+   "CraftspersonKey2",
+   "CraftspersonKey3",
+   "CraftspersonKey4",
+   "CraftspersonKey5",
+   "CraftspersonKey6",
+   "CraftspersonKey7",
+   "CraftspersonKey8",
+   "CraftspersonKey9",
+   "CraftspersonKey10",
+   "CraftspersonKey11",
+   "CraftspersonKey12",
+   "CraftspersonKey13",
+   "CraftspersonKey14",
+   "CharacterSkill1Key",
+   "CharacterSkill2Key",
+   "CharacterSkill3Key",
+   "CharacterSkill4Key",
+   "InteractKey",
+   "JumpKey",
+   "MenuConfirmKey",
+   "MenuBackKey",
+   "NormalAttackKey",
+   "SprintKey",
+   "None"
+  ],
+  "ControllerNavigationDir": [
+   "Up",
+   "Down",
+   "Left",
+   "Right"
+  ],
+  "ControllerNavigationEventType": [
+   "Confirm",
+   "Cancel",
+   "Focus",
+   "LostFocus",
+   "RightStickUp",
+   "RightStickDown",
+   "RightStickLeft",
+   "RightStickRight",
+   "LeftStickUp",
+   "LeftStickDown",
+   "LeftStickLeft",
+   "LeftStickRight"
+  ],
+  "ControllerNavigationMode": [
+   "None",
+   "NearestControl",
+   "Specified"
+  ],
+  "CursorEventType": [
+   "CursorClick",
+   "CursorUp",
+   "CursorDown",
+   "CursorBeginDrag",
+   "CursorDrag",
+   "CursorEndDrag",
+   "CursorEnter",
+   "CursorExit"
+  ],
+  "CustomVariableEntityType": [
+   "Level",
+   "PlayerSelf",
+   "AvatarSelf"
+  ],
+  "Device": [
+   "KeyboardAndMouse",
+   "Controller",
+   "Mobile",
+   "MobileController"
+  ],
+  "EaseType": [
+   "Linear",
+   "InBack",
+   "InBounce",
+   "InCirc",
+   "InCubic",
+   "InElastic",
+   "InExpo",
+   "InQuad",
+   "InQuart",
+   "InQuint",
+   "InSine",
+   "OutBack",
+   "OutBounce",
+   "OutCirc",
+   "OutCubic",
+   "OutElastic",
+   "OutExpo",
+   "OutQuad",
+   "OutQuart",
+   "OutQuint",
+   "OutSine",
+   "InOutBack",
+   "InOutBounce",
+   "InOutCirc",
+   "InOutCubic",
+   "InOutElastic",
+   "InOutExpo",
+   "InOutQuad",
+   "InOutQuart",
+   "InOutQuint",
+   "InOutSine"
+  ],
+  "ImageFillType": [
+   "Unused",
+   "Horizontal",
+   "Vertical",
+   "Radial90",
+   "Radial180",
+   "Radial360"
+  ],
+  "ImageFillHorizontalType": [
+   "Left",
+   "Right"
+  ],
+  "ImageFillRadial90Type": [
+   "BottomLeft",
+   "TopLeft",
+   "TopRight",
+   "BottomRight"
+  ],
+  "ImageFillRadialType": [
+   "Bottom",
+   "Top",
+   "Left",
+   "Right"
+  ],
+  "ImageFillVerticalType": [
+   "Bottom",
+   "Top"
+  ],
+  "ImageMaskSoftEdgeMode": [
+   "Pixel",
+   "Percentage"
+  ],
+  "ImageSource": [
+   "StaticReference",
+   "Currency",
+   "Equipment",
+   "Faction",
+   "Item",
+   "Prefab",
+   "Skill",
+   "UnitStatus"
+  ],
+  "ImageType": [
+   "Basic",
+   "Stretch"
+  ],
+  "KeyEventType": [
+   "KeyboardCharacterSkill1KeyUp",
+   "KeyboardCharacterSkill2KeyUp",
+   "KeyboardCharacterSkill3KeyUp",
+   "KeyboardCharacterSkill4KeyUp",
+   "KeyboardCraftspersonKey1Up",
+   "KeyboardCraftspersonKey2Up",
+   "KeyboardCraftspersonKey3Up",
+   "KeyboardCraftspersonKey4Up",
+   "KeyboardCraftspersonKey5Up",
+   "KeyboardCraftspersonKey6Up",
+   "KeyboardCraftspersonKey7Up",
+   "KeyboardCraftspersonKey8Up",
+   "KeyboardCraftspersonKey9Up",
+   "KeyboardCraftspersonKey10Up",
+   "KeyboardCraftspersonKey11Up",
+   "KeyboardCraftspersonKey12Up",
+   "KeyboardCraftspersonKey13Up",
+   "KeyboardCraftspersonKey14Up",
+   "KeyboardCraftspersonKey15Up",
+   "KeyboardCraftspersonKey16Up",
+   "KeyboardCraftspersonKey17Up",
+   "KeyboardCraftspersonKey18Up",
+   "KeyboardCraftspersonKey19Up",
+   "KeyboardCraftspersonKey20Up",
+   "KeyboardCraftspersonKey21Up",
+   "KeyboardCraftspersonKey22Up",
+   "KeyboardCraftspersonKey23Up",
+   "KeyboardCraftspersonKey24Up",
+   "KeyboardCraftspersonKey25Up",
+   "KeyboardCraftspersonKey26Up",
+   "KeyboardCraftspersonKey27Up",
+   "KeyboardCraftspersonKey28Up",
+   "KeyboardCraftspersonKey29Up",
+   "KeyboardCraftspersonKey30Up",
+   "KeyboardCraftspersonKey31Up",
+   "KeyboardCraftspersonKey32Up",
+   "KeyboardCraftspersonKey33Up",
+   "KeyboardCraftspersonKey34Up",
+   "KeyboardCraftspersonKey35Up",
+   "KeyboardCraftspersonKey36Up",
+   "KeyboardCraftspersonKey37Up",
+   "KeyboardCraftspersonKey38Up",
+   "KeyboardCraftspersonKey39Up",
+   "KeyboardCraftspersonKey40Up",
+   "KeyboardCraftspersonKey41Up",
+   "KeyboardCraftspersonKey42Up",
+   "KeyboardCraftspersonKey43Up",
+   "KeyboardDropKeyUp",
+   "KeyboardInteractKeyUp",
+   "KeyboardJumpKeyUp",
+   "KeyboardMoveForwardKeyUp",
+   "KeyboardMoveLeftKeyUp",
+   "KeyboardMoveBackwardKeyUp",
+   "KeyboardMoveRightKeyUp",
+   "KeyboardNormalAttackKeyUp",
+   "KeyboardOpenShortcutWheelKeyUp",
+   "KeyboardSprintKeyUp",
+   "KeyboardSwitchToWalkOrRunKeyUp",
+   "KeyboardCharacterSkill1KeyDown",
+   "KeyboardCharacterSkill2KeyDown",
+   "KeyboardCharacterSkill3KeyDown",
+   "KeyboardCharacterSkill4KeyDown",
+   "KeyboardCraftspersonKey1Down",
+   "KeyboardCraftspersonKey2Down",
+   "KeyboardCraftspersonKey3Down",
+   "KeyboardCraftspersonKey4Down",
+   "KeyboardCraftspersonKey5Down",
+   "KeyboardCraftspersonKey6Down",
+   "KeyboardCraftspersonKey7Down",
+   "KeyboardCraftspersonKey8Down",
+   "KeyboardCraftspersonKey9Down",
+   "KeyboardCraftspersonKey10Down",
+   "KeyboardCraftspersonKey11Down",
+   "KeyboardCraftspersonKey12Down",
+   "KeyboardCraftspersonKey13Down",
+   "KeyboardCraftspersonKey14Down",
+   "KeyboardCraftspersonKey15Down",
+   "KeyboardCraftspersonKey16Down",
+   "KeyboardCraftspersonKey17Down",
+   "KeyboardCraftspersonKey18Down",
+   "KeyboardCraftspersonKey19Down",
+   "KeyboardCraftspersonKey20Down",
+   "KeyboardCraftspersonKey21Down",
+   "KeyboardCraftspersonKey22Down",
+   "KeyboardCraftspersonKey23Down",
+   "KeyboardCraftspersonKey24Down",
+   "KeyboardCraftspersonKey25Down",
+   "KeyboardCraftspersonKey26Down",
+   "KeyboardCraftspersonKey27Down",
+   "KeyboardCraftspersonKey28Down",
+   "KeyboardCraftspersonKey29Down",
+   "KeyboardCraftspersonKey30Down",
+   "KeyboardCraftspersonKey31Down",
+   "KeyboardCraftspersonKey32Down",
+   "KeyboardCraftspersonKey33Down",
+   "KeyboardCraftspersonKey34Down",
+   "KeyboardCraftspersonKey35Down",
+   "KeyboardCraftspersonKey36Down",
+   "KeyboardCraftspersonKey37Down",
+   "KeyboardCraftspersonKey38Down",
+   "KeyboardCraftspersonKey39Down",
+   "KeyboardCraftspersonKey40Down",
+   "KeyboardCraftspersonKey41Down",
+   "KeyboardCraftspersonKey42Down",
+   "KeyboardCraftspersonKey43Down",
+   "KeyboardDropKeyDown",
+   "KeyboardInteractKeyDown",
+   "KeyboardJumpKeyDown",
+   "KeyboardMoveForwardKeyDown",
+   "KeyboardMoveLeftKeyDown",
+   "KeyboardMoveBackwardKeyDown",
+   "KeyboardMoveRightKeyDown",
+   "KeyboardNormalAttackKeyDown",
+   "KeyboardOpenShortcutWheelKeyDown",
+   "KeyboardSprintKeyDown",
+   "KeyboardSwitchToWalkOrRunKeyDown",
+   "ControllerCharacterSkill1KeyUp",
+   "ControllerCharacterSkill2KeyUp",
+   "ControllerCharacterSkill3KeyUp",
+   "ControllerCharacterSkill4KeyUp",
+   "ControllerCraftspersonKey1Up",
+   "ControllerCraftspersonKey2Up",
+   "ControllerCraftspersonKey3Up",
+   "ControllerCraftspersonKey4Up",
+   "ControllerCraftspersonKey5Up",
+   "ControllerCraftspersonKey6Up",
+   "ControllerCraftspersonKey7Up",
+   "ControllerCraftspersonKey8Up",
+   "ControllerCraftspersonKey9Up",
+   "ControllerCraftspersonKey10Up",
+   "ControllerCraftspersonKey11Up",
+   "ControllerCraftspersonKey12Up",
+   "ControllerCraftspersonKey13Up",
+   "ControllerCraftspersonKey14Up",
+   "ControllerInteractKeyUp",
+   "ControllerJumpKeyUp",
+   "ControllerMenuBackKeyUp",
+   "ControllerMenuConfirmKeyUp",
+   "ControllerNormalAttackKeyUp",
+   "ControllerSprintKeyUp",
+   "ControllerCharacterSkill1KeyDown",
+   "ControllerCharacterSkill2KeyDown",
+   "ControllerCharacterSkill3KeyDown",
+   "ControllerCharacterSkill4KeyDown",
+   "ControllerCraftspersonKey1Down",
+   "ControllerCraftspersonKey2Down",
+   "ControllerCraftspersonKey3Down",
+   "ControllerCraftspersonKey4Down",
+   "ControllerCraftspersonKey5Down",
+   "ControllerCraftspersonKey6Down",
+   "ControllerCraftspersonKey7Down",
+   "ControllerCraftspersonKey8Down",
+   "ControllerCraftspersonKey9Down",
+   "ControllerCraftspersonKey10Down",
+   "ControllerCraftspersonKey11Down",
+   "ControllerCraftspersonKey12Down",
+   "ControllerCraftspersonKey13Down",
+   "ControllerCraftspersonKey14Down",
+   "ControllerInteractKeyDown",
+   "ControllerJumpKeyDown",
+   "ControllerMenuBackKeyDown",
+   "ControllerMenuConfirmKeyDown",
+   "ControllerNormalAttackKeyDown",
+   "ControllerSprintKeyDown"
+  ],
+  "KeyboardKeyCode": [
+   "CharacterSkill1Key",
+   "CharacterSkill2Key",
+   "CharacterSkill3Key",
+   "CharacterSkill4Key",
+   "CraftspersonKey1",
+   "CraftspersonKey2",
+   "CraftspersonKey3",
+   "CraftspersonKey4",
+   "CraftspersonKey5",
+   "CraftspersonKey6",
+   "CraftspersonKey7",
+   "CraftspersonKey8",
+   "CraftspersonKey9",
+   "CraftspersonKey10",
+   "CraftspersonKey11",
+   "CraftspersonKey12",
+   "CraftspersonKey13",
+   "CraftspersonKey14",
+   "CraftspersonKey15",
+   "CraftspersonKey16",
+   "CraftspersonKey17",
+   "CraftspersonKey18",
+   "CraftspersonKey19",
+   "CraftspersonKey20",
+   "CraftspersonKey21",
+   "CraftspersonKey22",
+   "CraftspersonKey23",
+   "CraftspersonKey24",
+   "CraftspersonKey25",
+   "CraftspersonKey26",
+   "CraftspersonKey27",
+   "CraftspersonKey28",
+   "CraftspersonKey29",
+   "CraftspersonKey30",
+   "CraftspersonKey31",
+   "CraftspersonKey32",
+   "CraftspersonKey33",
+   "CraftspersonKey34",
+   "CraftspersonKey35",
+   "CraftspersonKey36",
+   "CraftspersonKey37",
+   "CraftspersonKey38",
+   "CraftspersonKey39",
+   "CraftspersonKey40",
+   "CraftspersonKey41",
+   "CraftspersonKey42",
+   "CraftspersonKey43",
+   "DropKey",
+   "InteractKey",
+   "JumpKey",
+   "MoveForwardKey",
+   "MoveLeftKey",
+   "MoveBackwardKey",
+   "MoveRightKey",
+   "NormalAttackKey",
+   "OpenShortcutWheelKey",
+   "SprintKey",
+   "SwitchToWalkOrRunKey",
+   "None"
+  ],
+  "LanguageType": [
+   "LanguageChs",
+   "LanguageCht",
+   "LanguageDeu",
+   "LanguageEng",
+   "LanguageFra",
+   "LanguageInd",
+   "LanguageIta",
+   "LanguageJpn",
+   "LanguageKor",
+   "LanguageNone",
+   "LanguagePor",
+   "LanguageRus",
+   "LanguageSpa",
+   "LanguageTha",
+   "LanguageTur",
+   "LanguageVie"
+  ],
+  "ParamType": [
+   "Bool",
+   "BoolList",
+   "ConfigId",
+   "ConfigIdList",
+   "Entity",
+   "EntityList",
+   "Float",
+   "FloatList",
+   "Guid",
+   "GuidList",
+   "Int",
+   "IntList",
+   "PrefabId",
+   "PrefabIdList",
+   "String",
+   "StringList",
+   "Vector3",
+   "Vector3List"
+  ],
+  "ScrollAlignType": [
+   "Top",
+   "Center",
+   "Bottom"
+  ],
+  "ScrollDirection": [
+   "Horizontal",
+   "Vertical"
+  ],
+  "ScrollLayoutConstraint": [
+   "AutoWrap",
+   "Fixed"
+  ],
+  "StageMode": [
+   "Beyond",
+   "Classic"
+  ],
+  "TextHorizontalAlignment": [
+   "Left",
+   "Middle",
+   "Right"
+  ],
+  "TextVerticalAlignment": [
+   "Top",
+   "Middle",
+   "Bottom"
+  ],
+  "UIAnimationLayer": [
+   "AboveAllControls",
+   "BelowAllControls"
+  ]
+ },
+ "game": {
+  "Color.FromRGB": [
+   "r",
+   "g",
+   "b"
+  ],
+  "Color.FromRGBA": [
+   "r",
+   "g",
+   "b",
+   "a"
+  ],
+  "Color.ToRGBA": [
+   "color"
+  ],
+  "DestroyClientUIControl": [
+   "control"
+  ],
+  "FindClientUIRoot": [
+   "name"
+  ],
+  "GetClientUIControl": [
+   "id"
+  ],
+  "GetClientUIRoots": [],
+  "GetControllerFocus": [],
+  "GetControllerLeftStickAxis": [],
+  "GetControllerRightStickAxis": [],
+  "GetCursorUIPos": [],
+  "GetDevice": [],
+  "GetGlobalCustomVariableValue": [
+   "entity",
+   "varName"
+  ],
+  "GetLanguageType": [],
+  "GetStageMode": [],
+  "GetText": [
+   "textMappingId"
+  ],
+  "GetUICanvasSize": [],
+  "InstantiateClientUIControl": [
+   "templateIndex",
+   "parent"
+  ],
+  "IsAudioAlive": [
+   "audioInstanceId"
+  ],
+  "IsLevelTimePaused": [],
+  "IsTestPlay": [],
+  "PauseLevelTime": [
+   "pause"
+  ],
+  "PlayAudio2D": [
+   "id"
+  ],
+  "PrintClientUITree": [],
+  "ServerSignal": [
+   "signalName"
+  ],
+  "SetControllerFocus": [
+   "control"
+  ],
+  "StopAudio": [
+   "audioInstanceId"
+  ],
+  "Tween": [
+   "object",
+   "targetValues",
+   "duration"
+  ],
+  "TweenSequence": []
+ }
+}

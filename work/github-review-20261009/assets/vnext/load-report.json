@@ -1,0 +1,322 @@
+[
+  {
+    "role": "keqing",
+    "pose": "walk1",
+    "grid": [
+      85,
+      96
+    ],
+    "rows": 1155,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "walk2",
+    "grid": [
+      103,
+      94
+    ],
+    "rows": 1021,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "crouch",
+    "grid": [
+      112,
+      70
+    ],
+    "rows": 980,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "crouchGuard",
+    "grid": [
+      82,
+      76
+    ],
+    "rows": 1033,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "guard",
+    "grid": [
+      73,
+      103
+    ],
+    "rows": 926,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "hurt",
+    "grid": [
+      103,
+      82
+    ],
+    "rows": 987,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "airHurt",
+    "grid": [
+      95,
+      59
+    ],
+    "rows": 930,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "down",
+    "grid": [
+      125,
+      29
+    ],
+    "rows": 649,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "walk1",
+    "grid": [
+      114,
+      110
+    ],
+    "rows": 1707,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "walk2",
+    "grid": [
+      115,
+      108
+    ],
+    "rows": 1718,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "crouch",
+    "grid": [
+      118,
+      91
+    ],
+    "rows": 1548,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "crouchGuard",
+    "grid": [
+      87,
+      115
+    ],
+    "rows": 1331,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "guard",
+    "grid": [
+      89,
+      116
+    ],
+    "rows": 1413,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "hurt",
+    "grid": [
+      114,
+      94
+    ],
+    "rows": 1795,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "airHurt",
+    "grid": [
+      111,
+      85
+    ],
+    "rows": 1266,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "down",
+    "grid": [
+      115,
+      32
+    ],
+    "rows": 842,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "low",
+    "grid": [
+      139,
+      54
+    ],
+    "rows": 984,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "jump",
+    "grid": [
+      87,
+      74
+    ],
+    "rows": 975,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "teleport",
+    "grid": [
+      119,
+      70
+    ],
+    "rows": 931,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "qRelease",
+    "grid": [
+      110,
+      74
+    ],
+    "rows": 798,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "getup",
+    "grid": [
+      77,
+      57
+    ],
+    "rows": 967,
+    "exact": true
+  },
+  {
+    "role": "keqing",
+    "pose": "eThrow",
+    "grid": [
+      89,
+      85
+    ],
+    "rows": 905,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "low",
+    "grid": [
+      156,
+      69
+    ],
+    "rows": 1306,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "jump",
+    "grid": [
+      73,
+      130
+    ],
+    "rows": 1127,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "getup",
+    "grid": [
+      125,
+      65
+    ],
+    "rows": 1279,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "e1",
+    "grid": [
+      123,
+      106
+    ],
+    "rows": 1411,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "e2",
+    "grid": [
+      122,
+      118
+    ],
+    "rows": 1488,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "e3Windup",
+    "grid": [
+      130,
+      110
+    ],
+    "rows": 1771,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "idle2",
+    "grid": [
+      149,
+      122
+    ],
+    "rows": 2078,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "qCharge",
+    "grid": [
+      110,
+      129
+    ],
+    "rows": 1920,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "qRelease",
+    "grid": [
+      198,
+      106
+    ],
+    "rows": 2335,
+    "exact": true
+  },
+  {
+    "role": "diluc",
+    "pose": "e3",
+    "grid": [
+      167,
+      104
+    ],
+    "rows": 2128,
+    "exact": true
+  }
+]

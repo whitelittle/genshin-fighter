@@ -1,0 +1,25 @@
+import {readFileSync,writeFileSync} from 'node:fs';import assert from 'node:assert/strict';
+import {createStudio} from 'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/index.js';
+import {renderPaintPng} from 'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/host-png.js';
+const out='outputs/demo-solo-light',save=JSON.parse(readFileSync(out+'/fighter.save.json'));
+function fixture(setup=''){const d=structuredClone(save);d.assets.scripts[0].source+=`\nlocal start=OnStart\nfunction OnStart()start();aiEnabled=false;${setup};draw()end`;const s=createStudio(d);s.playStart();check(s);return s;}
+function check(s){const r=s.playGet({view:true});assert.equal(r.logs.filter(l=>['error','lua-error'].includes(l.level)).length,0,JSON.stringify(r.logs.slice(-8)));return r;}
+const node=(s,n)=>check(s).scene.nodes.find(x=>x.name===n);
+function step(s,n){for(let i=0;i<n;i++)s.playStep(1/30,{observe:false});check(s);}
+const key=(s,k)=>s.playKey(k,{observe:false});
+function quarter(s,left=false){key(s,'KeyboardMoveBackwardKeyDown');key(s,left?'KeyboardMoveLeftKeyDown':'KeyboardMoveRightKeyDown');key(s,'KeyboardMoveBackwardKeyUp');key(s,left?'KeyboardMoveLeftKeyUp':'KeyboardMoveRightKeyUp');}
+function superInput(s,left=false){quarter(s,left);quarter(s,left);key(s,'KeyboardCraftspersonKey20Down');key(s,'KeyboardCraftspersonKey20Up');}
+function shot(s,name){const r=s.playGet({view:true,paint:true});writeFileSync(out+'/'+name+'.png',renderPaintPng(r.paint,r.canvasWidth,r.canvasHeight).data);}
+const supers=fixture('f[1].x=-40;f[2].x=40;f[1].meter=100');superInput(supers);step(supers,1);assert.ok(node(supers,'Stats').text.includes('天街巡游'));assert.ok(node(supers,'Energy1').text.startsWith('能量 0/'));shot(supers,'超必杀前摇');step(supers,12);assert.ok(node(supers,'Stats').text.includes('100 / 62'));assert.equal(node(supers,'State2').text,'倒地');shot(supers,'超必杀命中');
+const noEnergy=fixture('f[1].x=-40;f[2].x=40');superInput(noEnergy);step(noEnergy,20);assert.ok(node(noEnergy,'Stats').text.includes('100 / 100'));assert.ok(!node(noEnergy,'Stats').text.includes('天街巡游'));
+const swapped=createStudio(save);swapped.playStart();swapped.playClick('RoleDiluc',{observe:false});step(swapped,1);assert.equal(node(swapped,'Name1').text,'迪卢克 / 玩家1');assert.equal(node(swapped,'Name2').text,'刻晴 / 电脑');shot(swapped,'迪卢克可选');step(swapped,240);assert.ok(!node(swapped,'Stats').text.includes('生命 100 / 100'),'Keqing AI never attacked');
+for(let i=1;i<=3;i++){swapped.playClick('SelectStage'+i,{observe:false});step(swapped,1);assert.equal(node(swapped,'StageTitle').text,['风起地 · 大树前','蒙德 · 城门大桥','风龙废墟 · 外围'][i-1]);shot(swapped,'场景'+i);}
+const dilucSuper=fixture('roleChoice={2,1};restart();aiEnabled=false;f[1].x=-40;f[2].x=40;f[1].meter=100');superInput(dilucSuper);step(dilucSuper,1);assert.ok(node(dilucSuper,'Stats').text.includes('黎明'));step(dilucSuper,18);assert.ok(node(dilucSuper,'Stats').text.includes('100 / 56'));
+const left=fixture('f[1].x=40;f[2].x=-40;f[1].face=-1;f[2].face=1;f[1].meter=100');superInput(left,true);step(left,12);assert.ok(node(left,'Stats').text.includes('100 / 62'));
+const chip=fixture('f[1].x=-40;f[2].x=40;f[1].meter=100;f[2].block=true');superInput(chip);step(chip,12);assert.ok(node(chip,'Stats').text.includes('100 / 95'));assert.equal(node(chip,'State2').text,'');
+// Pointer drag and release outside the original button: capture delivers CursorUp to pressed control.
+const touch=fixture('f[1].x=-40;f[2].x=40');const r=check(touch),stick=node(touch,'Stick5');
+const cx=stick.matrix.tx+r.canvasWidth/2,cy=stick.matrix.ty+r.canvasHeight/2;
+touch.playPointer('down',cx,cy,{observe:false});touch.playPointer('move',cx,cy-48,{observe:false});touch.playPointer('move',cx+48,cy-48,{observe:false});touch.playPointer('move',cx+48,cy,{observe:false});touch.playClick('Light',{observe:false});step(touch,1);assert.ok(node(touch,'Stats').text.includes('雷霆突进斩'),'touch quarter circle did not issue special');touch.playPointer('up',cx+300,cy,{observe:false});step(touch,40);const px=node(touch,'Keqing').matrix.tx;step(touch,10);assert.equal(node(touch,'Keqing').matrix.tx,px,'touch release left movement held');shot(touch,'摇杆搓招');
+const poses=fixture('f[1].x=-40;f[2].x=40');const idle=check(poses).scene.nodes.filter(n=>/^P\d+$/.test(n.name)).map(n=>[n.matrix,n.imageColor]);key(poses,'KeyboardCraftspersonKey19Down');step(poses,1);const windup=check(poses).scene.nodes.filter(n=>/^P\d+$/.test(n.name)).map(n=>[n.matrix,n.imageColor]);assert.notDeepEqual(idle,windup);shot(poses,'轻攻击前摇');step(poses,4);shot(poses,'轻攻击挥斩');
+const tests={doubleQuarterSuper:true,energyRequired:true,keqingSuperDamage:true,dilucSuperDamage:true,superConsumes100:true,superBlockable:true,leftFacingSuper:true,roleSelection:true,threeStages:true,touchDrag236:true,touchReleaseOutside:true,actualPoseSwitching:true};writeFileSync(out+'/feature-verification.json',JSON.stringify({tests,simulatorVerified:true,deviceVerified:false},null,2));console.log(JSON.stringify(tests));

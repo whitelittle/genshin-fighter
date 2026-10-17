@@ -1,0 +1,46 @@
+{
+  "v18_sha256": "b6623a610eb1596bf71ba6d7dba8c30e24492ee560138da6fea8b8b39c4be464",
+  "v18_bytes": 3029620,
+  "modules": {
+    "gf_net": {
+      "identical": true,
+      "diff_lines": 0
+    },
+    "gf_online": {
+      "identical": false,
+      "diff_lines": 11
+    },
+    "gf_transport": {
+      "identical": true,
+      "diff_lines": 0
+    },
+    "gf_app": {
+      "identical": false,
+      "diff_lines": 107
+    },
+    "gf_gfx": {
+      "identical": false,
+      "diff_lines": 184
+    },
+    "gf_art": {
+      "identical": false,
+      "diff_lines": 64
+    },
+    "gf_fview": {
+      "identical": false,
+      "diff_lines": 310
+    },
+    "gf_scene_fight": {
+      "identical": false,
+      "diff_lines": 217
+    },
+    "gf_sim": {
+      "identical": false,
+      "diff_lines": 193
+    },
+    "gf_stage": {
+      "identical": false,
+      "diff_lines": 29
+    }
+  }
+}

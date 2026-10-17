@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "TEXT CHECK intro native=20 lineHeight>=40",
+    "TEXT CHECK title native=20 lineHeight>=40",
+    "TEXT CHECK menu native=20 lineHeight>=40",
+    "TEXT CHECK select native=20 lineHeight>=40",
+    "TEXT CHECK vs native=20 lineHeight>=40",
+    "TEXT CHECK fight native=20 lineHeight>=40",
+    "GF_PERF scene=fight dt_avg_ms=16.7 dt_max_ms=16.7 slow=0 ui_calls=0 pool=14000 free=8493 created=13744 destroyed=0",
+    "TEXT DAMAGE AND PERF PASS",
+    "TEXT CHECK result native=20 lineHeight>=40",
+    "TEXT CHECK online native=20 lineHeight>=40",
+    "GFTEST PASS complete intro/title/menu/select/stage/VS/human fight/result/rematch/reselect/GFV2 lobby/menu"
+  ],
+  "method": "Actual bundled Lua full menu-driven lifecycle, human/CPU control, result and rematch, archived GFV2 lobby"
+}

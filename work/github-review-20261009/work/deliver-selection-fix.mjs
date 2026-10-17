@@ -1,0 +1,16 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import assert from 'node:assert/strict';
+import{exportGia,importGia,validateServerGiaCompatibility}from'file:///C:/Users/Cheng/Documents/deepseek-harness/default-workspace/miliastra-beyond-simulator/studio/gia/codec.js';
+const out='outputs/midphase-final';const old=JSON.parse(fs.readFileSync(out+'/delivery.json'));
+const save=JSON.parse(fs.readFileSync(out+'/fighter.save.json'));
+const v=JSON.parse(fs.readFileSync(out+'/selection-input-verification.json'));assert(v.checks.length===3);
+assert.equal(v.sourceSha256,crypto.createHash('sha256').update(save.assets.scripts[0].source).digest('hex'),'fresh verification required');
+const stamp=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Hong_Kong',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date()).replace(/[-: ]/g,'').replace(/^(\d{8})(\d{6})$/,'$1_$2');
+const suffix=process.argv.includes('--bindings')?'实机信号绑定修复':'选人点击与席位提示修订';
+const label='gpt_'+stamp+'_A_'+suffix,lua='gpt_'+stamp+'_'+suffix+'.lua';
+save.assets.scripts[0].path='lua/'+lua;save.assets.scripts[0].filename=lua;
+save.assets.server.root.name=label;save.assets.server.meta.name=label;save.assets.server.meta.giaFileName=label+'.gia';
+const a=exportGia(save.assets.server,{scripts:save.assets.scripts});assert(validateServerGiaCompatibility(a.buffer).valid);
+const imported=importGia(a.buffer,label+'.gia');assert(imported.scripts.some(s=>s.path==='lua/'+lua&&s.source.includes('PIXEL_TEMPLATE_INDEX=1073742822')));
+fs.writeFileSync(out+'/'+label+'.gia',a.buffer);fs.writeFileSync(out+'/'+lua,save.assets.scripts[0].source);
+const b=old.files.find(f=>f.kind==='client');const d={...old,stamp,lua,scriptPath:'lua/'+lua,pixelTemplateIndex:1073742822,files:[{kind:'server',filename:label+'.gia',bytes:a.buffer.length,sha256:crypto.createHash('sha256').update(a.buffer).digest('hex')},b],previousStamp:old.stamp,officialVerified:false,...(process.argv.includes('--bindings')?{signalBindings:JSON.parse(fs.readFileSync('work/network-signal-bindings.json')),requiredNodeGraph:'existing imported 165104; do not reimport',onlyUpdateA:true}:{})};
+fs.writeFileSync(out+'/delivery.json',JSON.stringify(d,null,2));console.log(JSON.stringify(d.files));

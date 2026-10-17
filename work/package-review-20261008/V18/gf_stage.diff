@@ -1,0 +1,29 @@
+--- V18/gf_stage
++++ r33/gf_stage
+@@ -370,7 +370,8 @@
+             local bx = cx + (j - (blades + 1) / 2) * 30 + (U.hash(j * 5 + i) - 0.5) * 30
+             local a0 = (U.hash(i * 19 + j) - 0.5) * 36
+             b:pos(bx, -175 + h / 2):size(16 + U.hash(j + i) * 12, h):rot(a0):color(c[1], c[2], c[3], 235):soft(0.2):on(true)
+-            G.pingpong(b, {localRotationZ = a0 - 5}, {localRotationZ = a0 + 6}, 1.6 + U.hash(i * 5 + j) * 1.4, 'InOutSine')
++            self.sway=self.sway or {}
++            self.sway[#self.sway+1]={node=b,base=a0,x=bx,h=h,phase=U.hash(i*19+j)*6.283185,period=3.2+U.hash(i*5+j)*2.8}
+             self.nodes[#self.nodes + 1] = b
+         end
+     end
+@@ -402,7 +403,16 @@
+ end
+ 
+ -- camera: cx (world x at screen centre), zoom, floorY (screen y of the floor), shake offsets
++function St:updateSway()
++    for _,blade in ipairs(self.sway or {}) do
++        local angle=blade.base+5*math.sin((self.app.t or 0)*6.283185/blade.period+blade.phase)
++        local rad=math.rad(angle)
++        blade.node:rot(angle):pos(blade.x-math.sin(rad)*blade.h/2,-175+math.cos(rad)*blade.h/2)
++    end
++end
++
+ function St:camera(cx, zoom, floorY, sx, sy)
++    self:updateSway()
+     if self.painted then return self:paintedCamera(cx, zoom, floorY, sx, sy) end
+     for _, name in ipairs(ORDER) do
+         local f = FACTORS[name]

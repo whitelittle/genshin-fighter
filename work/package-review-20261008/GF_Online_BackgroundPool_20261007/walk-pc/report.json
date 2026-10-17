@@ -1,0 +1,163 @@
+{
+ "shots": [
+  {
+   "name": "intro",
+   "scene": "intro",
+   "stats": {
+    "controls": 1922,
+    "active": 18,
+    "visibleImages": 15,
+    "visibleTexts": 2,
+    "glyphs": 36
+   },
+   "calls": 7
+  },
+  {
+   "name": "title",
+   "scene": "title",
+   "stats": {
+    "controls": 8122,
+    "active": 7179,
+    "visibleImages": 7172,
+    "visibleTexts": 5,
+    "glyphs": 56
+   },
+   "calls": 21
+  },
+  {
+   "name": "menu",
+   "scene": "menu",
+   "stats": {
+    "controls": 8122,
+    "active": 2391,
+    "visibleImages": 2351,
+    "visibleTexts": 32,
+    "glyphs": 182
+   },
+   "calls": 42
+  },
+  {
+   "name": "menu-versus",
+   "scene": "menu",
+   "stats": {
+    "controls": 8122,
+    "active": 2363,
+    "visibleImages": 2333,
+    "visibleTexts": 24,
+    "glyphs": 145
+   },
+   "calls": 37
+  },
+  {
+   "name": "select",
+   "scene": "select",
+   "stats": {
+    "controls": 9622,
+    "active": 8030,
+    "visibleImages": 7973,
+    "visibleTexts": 37,
+    "glyphs": 236
+   },
+   "calls": 17
+  },
+  {
+   "name": "select-p2",
+   "scene": "select",
+   "stats": {
+    "controls": 9622,
+    "active": 8143,
+    "visibleImages": 8086,
+    "visibleTexts": 37,
+    "glyphs": 207
+   },
+   "calls": 20
+  },
+  {
+   "name": "select-stage",
+   "scene": "select",
+   "stats": {
+    "controls": 9622,
+    "active": 8137,
+    "visibleImages": 8077,
+    "visibleTexts": 37,
+    "glyphs": 205
+   },
+   "calls": 5
+  },
+  {
+   "name": "vs",
+   "scene": "vs",
+   "stats": {
+    "controls": 9622,
+    "active": 2354,
+    "visibleImages": 2341,
+    "visibleTexts": 12,
+    "glyphs": 87
+   },
+   "calls": 13
+  },
+  {
+   "name": "fight-1",
+   "scene": "fight",
+   "stats": {
+    "controls": 11944,
+    "active": 4080,
+    "visibleImages": 4054,
+    "visibleTexts": 23,
+    "glyphs": 60
+   },
+   "calls": 107
+  },
+  {
+   "name": "fight-2",
+   "scene": "fight",
+   "stats": {
+    "controls": 12304,
+    "active": 4660,
+    "visibleImages": 4633,
+    "visibleTexts": 24,
+    "glyphs": 65
+   },
+   "calls": 255
+  },
+  {
+   "name": "after-fight",
+   "scene": "result",
+   "stats": {
+    "controls": 14284,
+    "active": 2440,
+    "visibleImages": 2409,
+    "visibleTexts": 26,
+    "glyphs": 70
+   },
+   "calls": 40
+  },
+  {
+   "name": "result",
+   "scene": "result",
+   "stats": {
+    "controls": 14430,
+    "active": 2440,
+    "visibleImages": 2409,
+    "visibleTexts": 26,
+    "glyphs": 70
+   },
+   "calls": 39
+  },
+  {
+   "name": "menu-again",
+   "scene": "menu",
+   "stats": {
+    "controls": 14598,
+    "active": 2380,
+    "visibleImages": 2340,
+    "visibleTexts": 32,
+    "glyphs": 172
+   },
+   "calls": 48
+  }
+ ],
+ "maxInstr": 814884,
+ "heavy": [],
+ "frames": 2920
+}

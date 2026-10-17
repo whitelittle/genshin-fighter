@@ -1,0 +1,578 @@
+[
+  {
+    "role": "keqing",
+    "pose": "walk1",
+    "path": "assets/vnext/keqing-walk1-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 1,
+    "bbox": [
+      23,
+      15,
+      387,
+      438
+    ],
+    "anchor": [
+      252,
+      438
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "walk2",
+    "path": "assets/vnext/keqing-walk2-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 2,
+    "bbox": [
+      435,
+      22,
+      468,
+      431
+    ],
+    "anchor": [
+      245,
+      431
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "crouch",
+    "path": "assets/vnext/keqing-crouch-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 6,
+    "bbox": [
+      878,
+      132,
+      510,
+      321
+    ],
+    "anchor": [
+      272,
+      321
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "crouchGuard",
+    "path": "assets/vnext/keqing-crouchGuard-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 5,
+    "bbox": [
+      1379,
+      106,
+      374,
+      347
+    ],
+    "anchor": [
+      211,
+      347
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "guard",
+    "path": "assets/vnext/keqing-guard-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 13,
+    "bbox": [
+      21,
+      400,
+      333,
+      470
+    ],
+    "anchor": [
+      199,
+      470
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "hurt",
+    "path": "assets/vnext/keqing-hurt-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 15,
+    "bbox": [
+      387,
+      490,
+      472,
+      376
+    ],
+    "anchor": [
+      283,
+      376
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "airHurt",
+    "path": "assets/vnext/keqing-airHurt-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 17,
+    "bbox": [
+      862,
+      501,
+      434,
+      268
+    ],
+    "anchor": [
+      248,
+      269
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "down",
+    "path": "assets/vnext/keqing-down-source.png",
+    "source": "assets/fighters/keqing/source/keqing-status-v2.png",
+    "component": 21,
+    "bbox": [
+      1194,
+      736,
+      571,
+      134
+    ],
+    "anchor": [
+      306,
+      134
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "diluc",
+    "pose": "walk1",
+    "path": "assets/vnext/diluc-walk1-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 2,
+    "bbox": [
+      34,
+      30,
+      422,
+      407
+    ],
+    "anchor": [
+      201,
+      408
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "walk2",
+    "path": "assets/vnext/diluc-walk2-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 3,
+    "bbox": [
+      480,
+      42,
+      424,
+      399
+    ],
+    "anchor": [
+      205,
+      398
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "crouch",
+    "path": "assets/vnext/diluc-crouch-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 5,
+    "bbox": [
+      920,
+      104,
+      436,
+      337
+    ],
+    "anchor": [
+      220,
+      336
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "crouchGuard",
+    "path": "assets/vnext/diluc-crouchGuard-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 1,
+    "bbox": [
+      1403,
+      12,
+      320,
+      426
+    ],
+    "anchor": [
+      157,
+      428
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "guard",
+    "path": "assets/vnext/diluc-guard-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 11,
+    "bbox": [
+      45,
+      442,
+      327,
+      427
+    ],
+    "anchor": [
+      165,
+      428
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "hurt",
+    "path": "assets/vnext/diluc-hurt-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 14,
+    "bbox": [
+      450,
+      520,
+      420,
+      346
+    ],
+    "anchor": [
+      230,
+      348
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "airHurt",
+    "path": "assets/vnext/diluc-airHurt-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 12,
+    "bbox": [
+      910,
+      465,
+      411,
+      315
+    ],
+    "anchor": [
+      200,
+      315
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "down",
+    "path": "assets/vnext/diluc-down-source.png",
+    "source": "assets/fighters/diluc/source/diluc-status-v2.png",
+    "component": 18,
+    "bbox": [
+      1333,
+      754,
+      426,
+      117
+    ],
+    "anchor": [
+      217,
+      118
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "keqing",
+    "pose": "low",
+    "path": "assets/vnext/keqing-low-source.png",
+    "source": "assets/fighters/keqing/source/keqing-skills-v3.png",
+    "component": 5,
+    "bbox": [
+      36,
+      161,
+      895,
+      347
+    ],
+    "anchor": [
+      454,
+      347
+    ],
+    "bodyHeight": 620
+  },
+  {
+    "role": "keqing",
+    "pose": "jump",
+    "path": "assets/vnext/keqing-jump-source.png",
+    "source": "assets/fighters/keqing/source/keqing-skills-v3.png",
+    "component": 1,
+    "bbox": [
+      916,
+      11,
+      560,
+      481
+    ],
+    "anchor": [
+      324,
+      482
+    ],
+    "bodyHeight": 620
+  },
+  {
+    "role": "keqing",
+    "pose": "teleport",
+    "path": "assets/vnext/keqing-teleport-source.png",
+    "source": "assets/fighters/keqing/source/keqing-skills-v3.png",
+    "component": 13,
+    "bbox": [
+      44,
+      549,
+      771,
+      449
+    ],
+    "anchor": [
+      406,
+      449
+    ],
+    "bodyHeight": 620
+  },
+  {
+    "role": "keqing",
+    "pose": "qRelease",
+    "path": "assets/vnext/keqing-qRelease-source.png",
+    "source": "assets/fighters/keqing/source/keqing-skills-v3.png",
+    "component": 12,
+    "bbox": [
+      815,
+      529,
+      708,
+      478
+    ],
+    "anchor": [
+      335,
+      478
+    ],
+    "bodyHeight": 620
+  },
+  {
+    "role": "keqing",
+    "pose": "getup",
+    "path": "assets/vnext/keqing-getup-source.png",
+    "source": "assets/fighters/keqing/source/keqing-skills-v2-candidate.png",
+    "component": 6,
+    "bbox": [
+      903,
+      175,
+      352,
+      260
+    ],
+    "anchor": [
+      197,
+      260
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "keqing",
+    "pose": "eThrow",
+    "path": "assets/vnext/keqing-eThrow-source.png",
+    "source": "assets/fighters/keqing/source/keqing-skills-v2-candidate.png",
+    "component": 2,
+    "bbox": [
+      1262,
+      43,
+      406,
+      388
+    ],
+    "anchor": [
+      208,
+      388
+    ],
+    "bodyHeight": 438
+  },
+  {
+    "role": "diluc",
+    "pose": "low",
+    "path": "assets/vnext/diluc-low-source.png",
+    "source": "assets/fighters/diluc/source/diluc-skills-v2-candidate.png",
+    "component": 2,
+    "bbox": [
+      21,
+      257,
+      577,
+      253
+    ],
+    "anchor": [
+      264,
+      254
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "jump",
+    "path": "assets/vnext/diluc-jump-source.png",
+    "source": "assets/fighters/diluc/source/diluc-skills-v2-candidate.png",
+    "component": 1,
+    "bbox": [
+      623,
+      9,
+      277,
+      494
+    ],
+    "anchor": [
+      142,
+      494
+    ],
+    "bodyHeight": 390
+  },
+  {
+    "role": "diluc",
+    "pose": "getup",
+    "path": "assets/vnext/diluc-getup-source.png",
+    "source": "assets/fighters/diluc/source/diluc-skills-v2-candidate.png",
+    "component": 3,
+    "bbox": [
+      1058,
+      270,
+      462,
+      241
+    ],
+    "anchor": [
+      202,
+      241
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "e1",
+    "path": "assets/vnext/diluc-e1-source.png",
+    "source": "assets/fighters/diluc/source/diluc-skills-v2-candidate.png",
+    "component": 9,
+    "bbox": [
+      26,
+      571,
+      454,
+      390
+    ],
+    "anchor": [
+      234,
+      391
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "e2",
+    "path": "assets/vnext/diluc-e2-source.png",
+    "source": "assets/fighters/diluc/source/diluc-skills-v2-candidate.png",
+    "component": 7,
+    "bbox": [
+      585,
+      525,
+      450,
+      435
+    ],
+    "anchor": [
+      195,
+      435
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "e3Windup",
+    "path": "assets/vnext/diluc-e3Windup-source.png",
+    "source": "assets/fighters/diluc/source/diluc-skills-v2-candidate.png",
+    "component": 8,
+    "bbox": [
+      1024,
+      558,
+      478,
+      404
+    ],
+    "anchor": [
+      236,
+      404
+    ],
+    "bodyHeight": 380
+  },
+  {
+    "role": "diluc",
+    "pose": "idle2",
+    "path": "assets/vnext/diluc-idle2-source.png",
+    "source": "assets/fighters/diluc/source/diluc-burst-v2.png",
+    "component": 2,
+    "bbox": [
+      118,
+      42,
+      665,
+      543
+    ],
+    "anchor": [
+      247,
+      543
+    ],
+    "bodyHeight": 460
+  },
+  {
+    "role": "diluc",
+    "pose": "qCharge",
+    "path": "assets/vnext/diluc-qCharge-source.png",
+    "source": "assets/fighters/diluc/source/diluc-burst-v2.png",
+    "component": 1,
+    "bbox": [
+      908,
+      7,
+      490,
+      578
+    ],
+    "anchor": [
+      252,
+      578
+    ],
+    "bodyHeight": 460
+  },
+  {
+    "role": "diluc",
+    "pose": "qRelease",
+    "path": "assets/vnext/diluc-qRelease-source.png",
+    "source": "assets/fighters/diluc/source/diluc-burst-v2.png",
+    "component": 9,
+    "bbox": [
+      108,
+      597,
+      770,
+      411
+    ],
+    "anchor": [
+      282,
+      411
+    ],
+    "bodyHeight": 400
+  },
+  {
+    "role": "diluc",
+    "pose": "e3",
+    "path": "assets/vnext/diluc-e3-source.png",
+    "source": "assets/fighters/diluc/source/diluc-burst-v2.png",
+    "component": 8,
+    "bbox": [
+      874,
+      591,
+      648,
+      403
+    ],
+    "anchor": [
+      266,
+      403
+    ],
+    "bodyHeight": 400
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "identity": {
+    "gf_net": {
+      "early_online": "76245363e18ece03e2f6ccf87aa9959e1e83a0125f41221ba51c03d9cfac7c44",
+      "r31": "612513b171722b6f8392be282b1dce65ce5a560ca8ce8d2d2cef3963b10c7f09",
+      "r33": "76245363e18ece03e2f6ccf87aa9959e1e83a0125f41221ba51c03d9cfac7c44"
+    },
+    "gf_online": {
+      "early_online": "adf8bb2397b8930b67bca323a442b283b63f6c78ca08b29d569715d26811c71e",
+      "r31": "3d00a32f39d838ee2e9900baef39ef6cd61557b1aee77a85cdd0bdb6b6d944f7",
+      "r33": "3d00a32f39d838ee2e9900baef39ef6cd61557b1aee77a85cdd0bdb6b6d944f7"
+    },
+    "gf_fview": {
+      "early_online": "49c7d253629a62bf775df0b6a8fd537180715e8118b14d03c0ec8fc4e20ef1f8",
+      "r31": "135cc090fbcf0ec9db17c4dd1fc396cfff27203155ca6280fe7ac249e7823621",
+      "r33": "135cc090fbcf0ec9db17c4dd1fc396cfff27203155ca6280fe7ac249e7823621"
+    },
+    "gf_gfx": {
+      "early_online": "334b8481d5508023d7a72087476056f9dc7e907eff1215533249c07725aeec53",
+      "r31": "c4ac47c803b70bb5b6969a92b8e020a76f468b63f468cc7253767fb7271a3fbb",
+      "r33": "7bf9b9e2ccd2fe2cb1db95fd8a7fe00cfaf0ba8c4bb6a0182584ec067d031d09"
+    },
+    "gf_sim": {
+      "early_online": "62f216dedb608a467268dbd7e4acd1e3d2159c60faf02ba7414b4745201eabd4",
+      "r31": "182445bab2970589da28ce371ab7c22f24bf690f5d4f8c64fd0d0991a16124f2",
+      "r33": "d64c4ade54a950d1e2ff908480223a6f1349b82c855e364e771ca4facf5542e8"
+    },
+    "gf_transport": {
+      "early_online": "3103a74b5da3ff08c6c62a94e9315a0edee7f9918e7f5a14cee43bf8a40f1b4e",
+      "r31": "a4b1f7f3add5b3a33bcbca69034016262cde8a4f860613836a74cc643a9f604e",
+      "r33": "a4b1f7f3add5b3a33bcbca69034016262cde8a4f860613836a74cc643a9f604e"
+    }
+  },
+  "art": {
+    "gf_animation_data": {
+      "entries": 152,
+      "min": 718,
+      "max": 920,
+      "mean": 841.3,
+      "over1600": 0
+    },
+    "gf_inbetween_data": {
+      "entries": 152,
+      "min": 627,
+      "max": 909,
+      "mean": 833.1,
+      "over1600": 0
+    },
+    "gf_animation_effects": {
+      "entries": 24,
+      "min": 370,
+      "max": 844,
+      "mean": 780.6,
+      "over1600": 0
+    },
+    "gf_aranara_data": {
+      "entries": 12,
+      "min": 293,
+      "max": 342,
+      "mean": 320.3,
+      "over1600": 0
+    },
+    "gf_viewfinder_data": {
+      "entries": 8,
+      "min": 691,
+      "max": 827,
+      "mean": 798.5,
+      "over1600": 0
+    },
+    "raidenshogun_lo": {
+      "entries": 12,
+      "min": 388,
+      "max": 716,
+      "mean": 632.9
+    },
+    "raidenshogun_sil": {
+      "entries": 12,
+      "min": 30,
+      "max": 125,
+      "mean": 87
+    },
+    "nahida_lo": {
+      "entries": 12,
+      "min": 391,
+      "max": 732,
+      "mean": 631.9
+    },
+    "nahida_sil": {
+      "entries": 12,
+      "min": 22,
+      "max": 105,
+      "mean": 76.6
+    }
+  }
+}

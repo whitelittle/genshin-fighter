@@ -1,0 +1,11 @@
+{
+  "release": "dual-inbetweens-r28",
+  "checks": [
+    "DYNAMIC WARNING immediate creation total=14064",
+    "DYNAMIC PREEND total=17385 free=11878 destroyed=0",
+    "DYNAMIC ROUND reclaimed=1824 total=15561",
+    "DYNAMIC MATCH reclaimed=3385 total=14000",
+    "DYNAMIC PASS immediate warning; zero fight destroys; round and match cleanup; baseline intact; reused nodes; burst after cleanup"
+  ],
+  "method": "Actual bundled Lua Worker; CPU rendering"
+}

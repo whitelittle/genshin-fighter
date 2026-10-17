@@ -1,0 +1,510 @@
+{
+  "version": 2,
+  "title": "GFV2 两席位握手与透明转发",
+  "signals": {
+    "GFV2Hello": [],
+    "GFV2Seat": [
+      {
+        "name": "Slot",
+        "type": "int"
+      }
+    ],
+    "GFV2Frames": [
+      {
+        "name": "Slot",
+        "type": "int"
+      },
+      {
+        "name": "Sequence",
+        "type": "int"
+      },
+      {
+        "name": "Ack",
+        "type": "int"
+      },
+      {
+        "name": "Payload",
+        "type": "string"
+      },
+      {
+        "name": "Epoch",
+        "type": "int"
+      }
+    ],
+    "GFV2FramesOut": [
+      {
+        "name": "Slot",
+        "type": "int"
+      },
+      {
+        "name": "Sequence",
+        "type": "int"
+      },
+      {
+        "name": "Ack",
+        "type": "int"
+      },
+      {
+        "name": "Payload",
+        "type": "string"
+      },
+      {
+        "name": "Epoch",
+        "type": "int"
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "GFV2_P1",
+      "type": "entity",
+      "initial": null
+    },
+    {
+      "name": "GFV2_P2",
+      "type": "entity",
+      "initial": null
+    }
+  ],
+  "nodes": [
+    {
+      "id": "self",
+      "operation": "getSelfEntity",
+      "nativeType": 73
+    },
+    {
+      "id": "hello",
+      "operation": "listen",
+      "signal": "GFV2Hello"
+    },
+    {
+      "id": "players",
+      "operation": "getPlayers",
+      "nativeType": 248
+    },
+    {
+      "id": "length",
+      "operation": "listLength",
+      "nativeType": 142,
+      "nativeSpecialization": 144
+    },
+    {
+      "id": "one",
+      "operation": "greaterOrEqual",
+      "nativeType": 233,
+      "right": 1
+    },
+    {
+      "id": "two",
+      "operation": "greaterOrEqual",
+      "nativeType": 233,
+      "right": 2
+    },
+    {
+      "id": "hasOne",
+      "operation": "branch",
+      "nativeType": 2
+    },
+    {
+      "id": "hasTwo",
+      "operation": "branch",
+      "nativeType": 2
+    },
+    {
+      "id": "player1",
+      "operation": "listItem",
+      "nativeType": 128,
+      "nativeSpecialization": 130,
+      "index": 0
+    },
+    {
+      "id": "setP1",
+      "operation": "setCustomVariable",
+      "nativeType": 22,
+      "nativeSpecialization": 24,
+      "name": "GFV2_P1",
+      "valueType": "entity"
+    },
+    {
+      "id": "seat1",
+      "operation": "sendClientScriptSignal",
+      "signal": "GFV2Seat",
+      "Slot": 1
+    },
+    {
+      "id": "player2",
+      "operation": "listItem",
+      "nativeType": 128,
+      "nativeSpecialization": 130,
+      "index": 1
+    },
+    {
+      "id": "setP2",
+      "operation": "setCustomVariable",
+      "nativeType": 22,
+      "nativeSpecialization": 24,
+      "name": "GFV2_P2",
+      "valueType": "entity"
+    },
+    {
+      "id": "seat2",
+      "operation": "sendClientScriptSignal",
+      "signal": "GFV2Seat",
+      "Slot": 2
+    },
+    {
+      "id": "frames",
+      "operation": "listen",
+      "signal": "GFV2Frames"
+    },
+    {
+      "id": "epoch",
+      "operation": "integerEqual",
+      "nativeType": 14,
+      "nativeSpecialization": 370,
+      "right": 1
+    },
+    {
+      "id": "validEpoch",
+      "operation": "branch",
+      "nativeType": 2
+    },
+    {
+      "id": "framesHasTwo",
+      "operation": "branch",
+      "nativeType": 2
+    },
+    {
+      "id": "slot1",
+      "operation": "integerEqual",
+      "nativeType": 14,
+      "nativeSpecialization": 370,
+      "right": 1
+    },
+    {
+      "id": "route",
+      "operation": "branch",
+      "nativeType": 2
+    },
+    {
+      "id": "slot2",
+      "operation": "integerEqual",
+      "nativeType": 14,
+      "nativeSpecialization": 370,
+      "right": 2
+    },
+    {
+      "id": "validSlot2",
+      "operation": "branch",
+      "nativeType": 2
+    },
+    {
+      "id": "getP1",
+      "operation": "getCustomVariable",
+      "nativeType": 50,
+      "nativeSpecialization": 52,
+      "name": "GFV2_P1",
+      "valueType": "entity"
+    },
+    {
+      "id": "outP1",
+      "operation": "sendClientScriptSignal",
+      "signal": "GFV2FramesOut"
+    },
+    {
+      "id": "getP2",
+      "operation": "getCustomVariable",
+      "nativeType": 50,
+      "nativeSpecialization": 52,
+      "name": "GFV2_P2",
+      "valueType": "entity"
+    },
+    {
+      "id": "outP2",
+      "operation": "sendClientScriptSignal",
+      "signal": "GFV2FramesOut"
+    }
+  ],
+  "edges": [
+    {
+      "fromNode": "players",
+      "fromPort": "value",
+      "toNode": "player1",
+      "toPort": "list"
+    },
+    {
+      "fromNode": "player1",
+      "fromPort": "value",
+      "toNode": "setP1",
+      "toPort": "value"
+    },
+    {
+      "fromNode": "self",
+      "fromPort": "value",
+      "toNode": "setP1",
+      "toPort": "entity"
+    },
+    {
+      "fromNode": "player1",
+      "fromPort": "value",
+      "toNode": "seat1",
+      "toPort": "target"
+    },
+    {
+      "fromNode": "setP1",
+      "fromPort": "exec",
+      "toNode": "seat1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "players",
+      "fromPort": "value",
+      "toNode": "player2",
+      "toPort": "list"
+    },
+    {
+      "fromNode": "player2",
+      "fromPort": "value",
+      "toNode": "setP2",
+      "toPort": "value"
+    },
+    {
+      "fromNode": "self",
+      "fromPort": "value",
+      "toNode": "setP2",
+      "toPort": "entity"
+    },
+    {
+      "fromNode": "player2",
+      "fromPort": "value",
+      "toNode": "seat2",
+      "toPort": "target"
+    },
+    {
+      "fromNode": "setP2",
+      "fromPort": "exec",
+      "toNode": "seat2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hello",
+      "fromPort": "exec",
+      "toNode": "hasOne",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "players",
+      "fromPort": "value",
+      "toNode": "length",
+      "toPort": "list"
+    },
+    {
+      "fromNode": "length",
+      "fromPort": "value",
+      "toNode": "one",
+      "toPort": "left"
+    },
+    {
+      "fromNode": "length",
+      "fromPort": "value",
+      "toNode": "two",
+      "toPort": "left"
+    },
+    {
+      "fromNode": "one",
+      "fromPort": "value",
+      "toNode": "hasOne",
+      "toPort": "condition"
+    },
+    {
+      "fromNode": "two",
+      "fromPort": "value",
+      "toNode": "hasTwo",
+      "toPort": "condition"
+    },
+    {
+      "fromNode": "hasOne",
+      "fromPort": "true",
+      "toNode": "setP1",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "seat1",
+      "fromPort": "exec",
+      "toNode": "hasTwo",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "hasTwo",
+      "fromPort": "true",
+      "toNode": "setP2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "self",
+      "fromPort": "value",
+      "toNode": "getP1",
+      "toPort": "entity"
+    },
+    {
+      "fromNode": "getP1",
+      "fromPort": "value",
+      "toNode": "outP1",
+      "toPort": "target"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Slot",
+      "toNode": "outP1",
+      "toPort": "Slot"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Sequence",
+      "toNode": "outP1",
+      "toPort": "Sequence"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Ack",
+      "toNode": "outP1",
+      "toPort": "Ack"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Payload",
+      "toNode": "outP1",
+      "toPort": "Payload"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Epoch",
+      "toNode": "outP1",
+      "toPort": "Epoch"
+    },
+    {
+      "fromNode": "self",
+      "fromPort": "value",
+      "toNode": "getP2",
+      "toPort": "entity"
+    },
+    {
+      "fromNode": "getP2",
+      "fromPort": "value",
+      "toNode": "outP2",
+      "toPort": "target"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Slot",
+      "toNode": "outP2",
+      "toPort": "Slot"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Sequence",
+      "toNode": "outP2",
+      "toPort": "Sequence"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Ack",
+      "toNode": "outP2",
+      "toPort": "Ack"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Payload",
+      "toNode": "outP2",
+      "toPort": "Payload"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Epoch",
+      "toNode": "outP2",
+      "toPort": "Epoch"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "exec",
+      "toNode": "validEpoch",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Epoch",
+      "toNode": "epoch",
+      "toPort": "left"
+    },
+    {
+      "fromNode": "epoch",
+      "fromPort": "value",
+      "toNode": "validEpoch",
+      "toPort": "condition"
+    },
+    {
+      "fromNode": "validEpoch",
+      "fromPort": "true",
+      "toNode": "framesHasTwo",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "two",
+      "fromPort": "value",
+      "toNode": "framesHasTwo",
+      "toPort": "condition"
+    },
+    {
+      "fromNode": "framesHasTwo",
+      "fromPort": "true",
+      "toNode": "route",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Slot",
+      "toNode": "slot1",
+      "toPort": "left"
+    },
+    {
+      "fromNode": "slot1",
+      "fromPort": "value",
+      "toNode": "route",
+      "toPort": "condition"
+    },
+    {
+      "fromNode": "route",
+      "fromPort": "true",
+      "toNode": "outP2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "route",
+      "fromPort": "false",
+      "toNode": "validSlot2",
+      "toPort": "exec"
+    },
+    {
+      "fromNode": "frames",
+      "fromPort": "Slot",
+      "toNode": "slot2",
+      "toPort": "left"
+    },
+    {
+      "fromNode": "slot2",
+      "fromPort": "value",
+      "toNode": "validSlot2",
+      "toPort": "condition"
+    },
+    {
+      "fromNode": "validSlot2",
+      "fromPort": "true",
+      "toNode": "outP1",
+      "toPort": "exec"
+    }
+  ],
+  "matchAuthority": "clients: gf_online + gf_net",
+  "identityValidation": false,
+  "officialImportVerified": false,
+  "format": "node graph specification, not native GIA"
+}

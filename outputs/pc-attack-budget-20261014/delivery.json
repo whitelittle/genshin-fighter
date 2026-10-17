@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-14",
+  "version": "V9",
+  "runtimeIntegratedCandidate": true,
+  "nativeDeviceVerified": false,
+  "externalPublished": false,
+  "files": [
+    {
+      "file": "attack-PC.png",
+      "sha256": "8b27d300a7cc7195488ea328003b622d5bf03341bc6ae925ade8d20c10cbe261",
+      "bytes": 130218
+    },
+    {
+      "file": "budget-and-feedback.json",
+      "sha256": "5758c33ccad300073f35109b44c757951cd02d75e9ee342b8451c96cfe829837",
+      "bytes": 619
+    },
+    {
+      "file": "comparison.json",
+      "sha256": "c0395446493c1001bcfbca788a0f230e949830bfd9fd7b1a841020736c01e6e7",
+      "bytes": 8684
+    },
+    {
+      "file": "flash-only-logic-and-pixels.json",
+      "sha256": "5c558b5eb17ee13a565f498de3729d65b0d1d1a5cba7d423a5b161ba6ffd1390",
+      "bytes": 648
+    },
+    {
+      "file": "frozen-PC.png",
+      "sha256": "de0a64f0c95b6b55ace376292eb8ae873739469bb8caa75aea8a930aa66e4a5d",
+      "bytes": 126583
+    },
+    {
+      "file": "logic-and-pixels.json",
+      "sha256": "1c8db50710ba23311a4806d9c347c208a9c932f23b1f8298ece1c0dc754f7fb9",
+      "bytes": 648
+    },
+    {
+      "file": "mock-flow.json",
+      "sha256": "84bace6cfa15eedb8714693ba41ac7ebf15523937b7fb109773479abda1c6b30",
+      "bytes": 1724
+    },
+    {
+      "file": "安装与验证说明.md",
+      "sha256": "a27dcd809e4c2c4d3e4d3d316b4461aead1db6d14e8d45ed2d6a6d5f33e1268d",
+      "bytes": 4995
+    },
+    {
+      "file": "flash-only/build.json",
+      "sha256": "844f8f4d082ba3d7597dd75b8d2526e4595d06dab3da9ccc6f5adde8c974f990",
+      "bytes": 937
+    },
+    {
+      "file": "flash-only/genshin_fighter.lua",
+      "sha256": "028aefccb72dd4fb769342c079254a8f11eaacedb795c165dee86f3f9af5eeec",
+      "bytes": 4867581
+    },
+    {
+      "file": "gia/gpt_20261014_PC连续攻击_A_仅闪白优化_仅脚本.gia",
+      "sha256": "bb438e21d5e9169ea16e66ca319ed629737c3b60b027f25f7617ff51abf96cdc",
+      "bytes": 4867779
+    },
+    {
+      "file": "gia/gpt_20261014_PC连续攻击_B_闪白与共享绘制预算_仅脚本.gia",
+      "sha256": "2c57f22c3ad5591b0592ed606903380b16e88b63f396b511402f608b137b9a8f",
+      "bytes": 4865390
+    },
+    {
+      "file": "history/gf_fview.lua",
+      "sha256": "dba0be3ed1e42544d03e4e14ae1781340671f031b53abab32dbd126ee5be747c",
+      "bytes": 36087
+    },
+    {
+      "file": "history/gf_gfx.lua",
+      "sha256": "9e79ebac8771673b3fda92e172206bfa45d51724540bdd81e9549e0cac9f3e2a",
+      "bytes": 29916
+    },
+    {
+      "file": "history/gf_scene_fight.lua",
+      "sha256": "e742a5ea682c0c91685db468a689d1e27960ef2e497f21a19ad2644ad6ff8b5c",
+      "bytes": 17128
+    },
+    {
+      "file": "shared-budget/build.json",
+      "sha256": "c68316a18db549a6373f3c95354bb5bb7e957675d5eff26c6552091677f297e5",
+      "bytes": 883
+    },
+    {
+      "file": "shared-budget/genshin_fighter.lua",
+      "sha256": "f386e964e1aeb124dba48341f3ee27da1776cb10a936cc2ba1ab337023f61c84",
+      "bytes": 4865192
+    }
+  ]
+}

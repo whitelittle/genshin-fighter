@@ -1,0 +1,76 @@
+{
+  "A": {
+    "prepare_steps": 304,
+    "max_prepare_step_instructions": 37400,
+    "prepared_poses": 304,
+    "compressed_body_poses_before_prepare": 0,
+    "pixel_data_identical": true,
+    "pose_count": 304,
+    "simulation_trace_identical": true,
+    "simulation_ticks": 2400,
+    "hits": 29,
+    "network": [
+      {
+        "latency": 0.02,
+        "jitter": 0.01,
+        "loss": 0,
+        "confirmed_frames": 2978,
+        "rollback_replay_equal": true,
+        "stalls": 0
+      },
+      {
+        "latency": 0.06,
+        "jitter": 0.04,
+        "loss": 0.05,
+        "confirmed_frames": 2850,
+        "rollback_replay_equal": true,
+        "stalls": 0
+      },
+      {
+        "latency": 0.1,
+        "jitter": 0.08,
+        "loss": 0.1,
+        "confirmed_frames": 2427,
+        "rollback_replay_equal": true,
+        "stalls": 9
+      }
+    ]
+  },
+  "B": {
+    "prepared_poses": 304,
+    "prepare_steps": 304,
+    "max_prepare_step_instructions": 37400,
+    "compressed_body_poses_before_prepare": 0,
+    "pixel_data_identical": true,
+    "pose_count": 304,
+    "simulation_trace_identical": true,
+    "simulation_ticks": 2400,
+    "hits": 29,
+    "network": [
+      {
+        "latency": 0.02,
+        "jitter": 0.01,
+        "loss": 0,
+        "confirmed_frames": 2978,
+        "rollback_replay_equal": true,
+        "stalls": 0
+      },
+      {
+        "latency": 0.06,
+        "jitter": 0.04,
+        "loss": 0.05,
+        "confirmed_frames": 2850,
+        "rollback_replay_equal": true,
+        "stalls": 0
+      },
+      {
+        "latency": 0.1,
+        "jitter": 0.08,
+        "loss": 0.1,
+        "confirmed_frames": 2427,
+        "rollback_replay_equal": true,
+        "stalls": 9
+      }
+    ]
+  }
+}

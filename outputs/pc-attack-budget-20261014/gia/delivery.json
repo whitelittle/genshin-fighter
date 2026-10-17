@@ -1,0 +1,26 @@
+{
+  "scope": "script-only candidate, unchanged envelope and script identity",
+  "protocolVersion": 6,
+  "nativeImportVerified": false,
+  "externalDelivery": false,
+  "files": [
+    {
+      "variant": "flash-only",
+      "filename": "gpt_20261014_PC连续攻击_A_仅闪白优化_仅脚本.gia",
+      "bytes": 4867779,
+      "sha256": "bb438e21d5e9169ea16e66ca319ed629737c3b60b027f25f7617ff51abf96cdc",
+      "sourceSha256": "028aefccb72dd4fb769342c079254a8f11eaacedb795c165dee86f3f9af5eeec",
+      "sourceFieldReplacements": 1,
+      "reverseByteIdentical": true
+    },
+    {
+      "variant": "shared-budget",
+      "filename": "gpt_20261014_PC连续攻击_B_闪白与共享绘制预算_仅脚本.gia",
+      "bytes": 4865390,
+      "sha256": "2c57f22c3ad5591b0592ed606903380b16e88b63f396b511402f608b137b9a8f",
+      "sourceSha256": "f386e964e1aeb124dba48341f3ee27da1776cb10a936cc2ba1ab337023f61c84",
+      "sourceFieldReplacements": 1,
+      "reverseByteIdentical": true
+    }
+  ]
+}

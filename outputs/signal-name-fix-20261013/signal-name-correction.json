@@ -1,0 +1,1287 @@
+{
+  "sourceFilename": "111.gia",
+  "sourceSha256": "cd35f062a999e0ba46d51ca062939d811a6c32e341efc29cd967cb78c94b30e1",
+  "filename": "gpt_20261013_GF3信号名与常量修正版.gia",
+  "sha256": "e562544f61858966c91f13709abd3799813b4f7fe43c845c0c4fc9d59e475083",
+  "nodes": 517,
+  "replacements": 220,
+  "bindings": {
+    "信号_17": "GF3Hello",
+    "信号_16": "GF3Seat",
+    "信号_15": "GF3Progress",
+    "信号_14": "GF3Reveal",
+    "信号_13": "GF3Team",
+    "信号_12": "GF3Reset",
+    "信号_18": "GF3BattleHello",
+    "信号_22": "GF3BattleSeat",
+    "信号_21": "GF3BattleFrames",
+    "信号_20": "GF3BattleFramesOut",
+    "信号_19": "GF3Quit",
+    "信号_11": "GF3Close"
+  },
+  "constantFixes": [
+    {
+      "node": 4,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 5,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 8,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 11,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 17,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 19,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 19,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 21,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 21,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 23,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 25,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 25,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 27,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 27,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 29,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 31,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 31,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 33,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 33,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 35,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 35,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 37,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 37,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 44,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 46,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 46,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 48,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 48,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 50,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 52,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 52,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 54,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 54,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 56,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 58,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 58,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 60,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 60,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 62,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 62,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 64,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 64,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 89,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 104,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 106,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 106,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 108,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 108,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 109,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 111,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 111,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 113,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 113,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 114,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 116,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 116,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 118,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 118,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 120,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 120,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 122,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 122,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 126,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 128,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 128,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 130,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 130,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 131,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 133,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 133,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 135,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 135,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 136,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 138,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 138,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 140,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 140,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 142,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 142,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 144,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 144,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 157,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 159,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 159,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 161,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 161,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 162,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 164,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 164,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 166,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 166,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 167,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 169,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 169,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 171,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 171,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 173,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 173,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 175,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 175,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 179,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 181,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 181,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 183,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 183,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 184,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 186,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 186,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 188,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 188,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 189,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 191,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 191,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 193,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 193,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 195,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 195,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 197,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 197,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 232,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 234,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 234,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 236,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 236,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 237,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 239,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 239,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 241,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 241,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 242,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 244,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 244,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 246,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 246,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 248,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 248,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 250,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 250,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 254,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 256,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 256,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 258,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 258,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 259,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 261,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 261,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 263,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 263,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 264,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 266,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 266,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 268,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 268,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 270,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 270,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 272,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 272,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 285,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 287,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 287,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 289,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 289,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 290,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 292,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 292,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 294,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 294,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 295,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 297,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 297,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 299,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 299,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 301,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 301,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 303,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 303,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 307,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 309,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 309,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 311,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 311,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 312,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 314,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 314,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 316,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 316,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 317,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 319,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 319,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 321,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 321,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 323,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 323,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 325,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 325,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 361,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 362,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 364,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 366,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 369,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 373,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 375,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 377,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 381,
+      "input": 0,
+      "type": 3
+    },
+    {
+      "node": 385,
+      "input": 0,
+      "type": 3
+    },
+    {
+      "node": 389,
+      "input": 0,
+      "type": 3
+    },
+    {
+      "node": 393,
+      "input": 0,
+      "type": 3
+    },
+    {
+      "node": 401,
+      "input": 0,
+      "type": 3
+    },
+    {
+      "node": 420,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 422,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 424,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 426,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 426,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 428,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 428,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 429,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 431,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 431,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 433,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 433,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 434,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 436,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 436,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 438,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 438,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 440,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 440,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 442,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 442,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 446,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 448,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 448,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 450,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 450,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 451,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 453,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 453,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 455,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 455,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 456,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 458,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 458,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 460,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 460,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 462,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 462,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 464,
+      "input": 2,
+      "type": 3
+    },
+    {
+      "node": 464,
+      "input": 3,
+      "type": 3
+    },
+    {
+      "node": 474,
+      "input": 0,
+      "type": 3
+    },
+    {
+      "node": 480,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 482,
+      "input": 1,
+      "type": 3
+    },
+    {
+      "node": 496,
+      "input": 0,
+      "type": 3
+    }
+  ],
+  "graphAndFunctionIdsPreserved": true,
+  "opaqueExportIdentityPreserved": true,
+  "nativeImportVerified": false
+}

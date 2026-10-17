@@ -1,0 +1,29 @@
+{
+  "scope": "PC mock only",
+  "publishedBodyGeometryExactCallbacks": 180,
+  "sharedRegisteredBitmapBudget": 3200,
+  "measuredBudgetPeak": 3196,
+  "maxConsecutiveCallbacksPoseBehind": [
+    2,
+    2
+  ],
+  "feedbackLogicClock": [
+    {
+      "callbackHz": 60,
+      "deadlineTick": 65,
+      "firstSampleExpiredTick": 65
+    },
+    {
+      "callbackHz": 30,
+      "deadlineTick": 65,
+      "firstSampleExpiredTick": 66
+    },
+    {
+      "callbackHz": 15,
+      "deadlineTick": 65,
+      "firstSampleExpiredTick": 68
+    }
+  ],
+  "completeFrozenOverlay": true,
+  "nativeFPSVerified": false
+}

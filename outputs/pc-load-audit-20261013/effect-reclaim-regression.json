@@ -1,0 +1,30 @@
+{
+  "mockOnly": true,
+  "realDeviceRegressionPending": true,
+  "cases": [
+    {
+      "before": {
+        "key": "nahida",
+        "recovered": false,
+        "error": "genshin_fighter.lua:1528: attempt to index a nil value (local 'shown')"
+      },
+      "after": {
+        "key": "nahida",
+        "recovered": true,
+        "error": null
+      }
+    },
+    {
+      "before": {
+        "key": "raidenshogun",
+        "recovered": false,
+        "error": "genshin_fighter.lua:1528: attempt to index a nil value (local 'shown')"
+      },
+      "after": {
+        "key": "raidenshogun",
+        "recovered": true,
+        "error": null
+      }
+    }
+  ]
+}

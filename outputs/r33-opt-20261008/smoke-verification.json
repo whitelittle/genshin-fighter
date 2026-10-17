@@ -1,0 +1,32 @@
+{
+  "A": {
+    "device": "KeyboardAndMouse",
+    "load_and_boot_updates": 745,
+    "max_host_instructions": 1390772,
+    "pool_manager_growth": 64,
+    "scene": "fight",
+    "touch_present": false,
+    "stats": {
+      "controls": 14250,
+      "active": 3557,
+      "visibleImages": 3542,
+      "visibleTexts": 12,
+      "glyphs": 37
+    }
+  },
+  "B": {
+    "device": "Mobile",
+    "load_and_boot_updates": 745,
+    "max_host_instructions": 1390872,
+    "pool_manager_growth": 2,
+    "scene": "fight",
+    "touch_present": true,
+    "stats": {
+      "controls": 14188,
+      "active": 3516,
+      "visibleImages": 3495,
+      "visibleTexts": 12,
+      "glyphs": 31
+    }
+  }
+}

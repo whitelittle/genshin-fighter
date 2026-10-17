@@ -1,0 +1,470 @@
+--- stable-range/gf_ai
++++ mobile-fix/gf_ai
+@@ -8,16 +8,24 @@
+ local C = 100
+ 
+ local LEVELS = {
+-    {react = 26, block = 0.25, comboLen = 2, aggro = 0.35, antiAir = 0.15, punish = 0.2, burstUse = 0.4, jump = 0.006},
+-    {react = 16, block = 0.55, comboLen = 3, aggro = 0.5, antiAir = 0.45, punish = 0.5, burstUse = 0.7, jump = 0.008},
+-    {react = 10, block = 0.78, comboLen = 4, aggro = 0.6, antiAir = 0.7, punish = 0.8, burstUse = 0.9, jump = 0.01},
+-    {react = 6, block = 0.9, comboLen = 5, aggro = 0.7, antiAir = 0.85, punish = 0.95, burstUse = 1.0, jump = 0.01},
++    {react=30,block=.12,comboLen=1,aggro=.28,antiAir=.10,punish=.12,burstUse=.20,jump=.002,think=18,attackGap=36,throwChance=.08},
++    {react=22,block=.30,comboLen=2,aggro=.42,antiAir=.28,punish=.28,burstUse=.45,jump=.005,think=12,attackGap=24,throwChance=.12},
++    {react=12,block=.60,comboLen=3,aggro=.58,antiAir=.55,punish=.62,burstUse=.75,jump=.008,think=8,attackGap=14,throwChance=.20},
++    {react=6,block=.82,comboLen=4,aggro=.72,antiAir=.78,punish=.88,burstUse=.95,jump=.01,think=5,attackGap=8,throwChance=.28},
+ }
+ 
+ function AI.new(sim, id, level, seed)
+-    local self = setmetatable({sim = sim, id = id, lv = LEVELS[level] or LEVELS[2], seed = seed or (id * 7919 + 13),
++    local self = setmetatable({sim = sim, id = id, level=LEVELS[level] and level or 2, seed = seed or (id * 7919 + 13),
+                                plan = nil, planT = 0, hold = 0, press = 0, seen = {}, chain = 0, blockFor = 0}, AI)
+-    return self
++    self:profile(sim.f[id].key);return self
++end
++
++function AI:profile(key)
++    local lv={};for k,v in pairs(LEVELS[self.level])do lv[k]=v end
++    -- The long polearm needs more openings on beginner/normal; change policy,
++    -- never player damage, hit boxes, or shared fighter rules.
++    if key=='arlecchino' and self.level<=2 then lv.react=lv.react+4;lv.attackGap=lv.attackGap+8;lv.think=lv.think+2;lv.block=lv.block*.8;lv.comboLen=math.max(1,lv.comboLen-1) end
++    self.lv=lv;self.profileKey=key;self.thinkAt=0;self.nextAttack=0;self.comboHit=nil;self.blockDecision=nil;self.blockFor=0;self.throwReadyAt=0;self.moveHold=0;self.chain=0;self.seen={};self.lastOut=0
+ end
+ 
+ function AI:rand()
+@@ -31,7 +39,7 @@
+ function AI:observe(foe)
+     local s = self.seen
+     s[#s + 1] = {state = foe.state, t = foe.t, x = foe.x, y = foe.y, vy = foe.vy, move = foe.move, moveId = foe.moveId,
+-                 airMove = foe.airMove}
++                 airMove = foe.airMove,hitId=foe.hitId}
+     if #s > 40 then table.remove(s, 1) end
+ end
+ 
+@@ -53,16 +61,17 @@
+     if p.y>0 or foe.y>0 or foe.invul>0 or not allowed or dist*C>sim:throwRange(p) then return 0 end
+     -- One shared policy for every fighter: evaluate at most once per 18 frames.
+     self.throwThinkAt=sim.tick+18
+-    local chance=(foe.state=='block' or foe.state=='cblock') and 0.32 or 0.22
++    local chance=self.lv.throwChance*((foe.state=='block' or foe.state=='cblock') and 1.4 or 1)
+     if self:rand()>=chance then return 0 end
+     local out=self:edge(B.TH)
+     if out~=0 then self.throwReadyAt=sim.tick+480;self.throwAttempts=(self.throwAttempts or 0)+1 end
+     return out
+ end
+ 
+-function AI:tick()
++function AI:decide()
+     local sim = self.sim
+     local p = sim.f[self.id]
++    if p.key~=self.profileKey then self:profile(p.key) end
+     local foe = p.foe
+     self:observe(foe)
+     if sim.phase ~= 'fight' then return 0 end
+@@ -79,7 +88,8 @@
+     end
+ 
+     if (p.state == 'attack' or p.airMove) and p.connected then
+-        if self.chain < lv.comboLen and p.t >= 2 then
++        if self.chain < lv.comboLen and p.t >= 2 and p.hitstop==0 and self.comboHit~=p.hitId then
++            self.comboHit=p.hitId
+             self.chain = self.chain + 1
+             local id = p.moveId or p.airMoveId
+             if id == 'light1' then out = B.LP
+@@ -105,7 +115,10 @@
+     if throw~=0 then return throw end
+ 
+     if attacking(o) and dist < 380 and p.y <= 0 then
+-        if self.blockFor > 0 or self:rand() < lv.block then
++        local token=(o.hitId or 0)..':'..o.state..':'..(o.moveId or '')
++        local decision=self.blockDecision~=token
++        if decision then self.blockDecision=token;self.blockRoll=self:rand()<lv.block end
++        if self.blockFor > 0 or (decision and self.blockRoll) then
+             self.blockFor = 10
+             local low = o.move and o.move.level == 'low'
+             local high = o.airMove ~= nil or (o.move and o.move.level == 'high')
+@@ -113,6 +126,10 @@
+         end
+     end
+     if self.blockFor > 0 then self.blockFor = self.blockFor - 1; if self.blockFor > 0 then return away end end
++
++    if sim.tick<(self.thinkAt or 0) then return self.moveHold or 0 end
++    self.thinkAt=sim.tick+lv.think;self.moveHold=0
++    if sim.tick<(self.nextAttack or 0) then return 0 end
+ 
+     if p.energy >= 100 and p.kit.burst and self:rand() < lv.burstUse * 0.08 then
+         local bu = p.kit.burst
+@@ -136,21 +153,22 @@
+         if p.kit.weapon.ranged and r < 0.025 then return self:edge(B.HP) end
+         if r < 0.02 then return self:edge(toward | B.DA) end
+         if r < 0.02 + lv.jump then return toward | B.U end
+-        return toward
++        self.moveHold=toward;return toward
+     elseif dist > 230 then
+         local sk = p.kit.skill
+         if sk and sk.style == 'rush' and p.skillCd == 0 and r < 0.02 * lv.aggro then return self:edge(B.SK) end
+         if r < 0.05 * lv.aggro then return self:edge(toward | B.DA) end
+         if r < 0.05 * lv.aggro + lv.jump then return toward | B.U end
+-        if r < 0.75 then return toward end
+-        if r < 0.85 then return away end
++        if r < 0.75 then self.moveHold=toward;return toward end
++        if r < 0.85 then self.moveHold=away;return away end
+         return 0
+     else
+-        if r < 0.06 * lv.aggro then return self:edge(B.LP) end
+-        if r < 0.09 * lv.aggro then return self:edge(B.D | B.LP) end
+-        if r < 0.11 * lv.aggro then return self:edge(B.HP) end
+-        if r < 0.13 then return self:edge(B.D | B.HP) end
+-        if r < 0.2 then return away end
++        local gentle=p.key=='arlecchino' and self.level<=2
++        if r < lv.aggro*(gentle and .60 or .48) then return self:edge(B.LP) end
++        if r < lv.aggro*(gentle and .85 or .68) then return self:edge(B.D | B.LP) end
++        if r < lv.aggro*(gentle and .97 or .88) then return self:edge(B.HP) end
++        if r < lv.aggro then return self:edge(B.D | B.HP) end
++        if r < lv.aggro+.10 then self.moveHold=away;return away end
+         return 0
+     end
+ end
+@@ -161,7 +179,12 @@
+         return 0
+     end
+     self.lastOut = mask
++    if mask & (B.LP|B.HP|B.SK|B.BU|B.TH)~=0 then self.nextAttack=self.sim.tick+self.lv.attackGap end
+     return mask
++end
++
++function AI:tick()
++    local out=self:decide();self.lastOut=out;return out
+ end
+ 
+ return AI
+
+--- stable-range/gf_app_loading
++++ mobile-fix/gf_app_loading
+@@ -46,13 +46,14 @@
+ end
+ 
+ function App:requestScenePool(name, args)
+-    local battlePool=GF_BATTLE_IMAGE_POOL or 16000
++    local battlePool=self:isMobile() and (GF_MOBILE_BATTLE_IMAGE_POOL or 12000) or (GF_BATTLE_IMAGE_POOL or 16000)
+     -- Spread the extra 2000 over selection, VS and battle, never one burst.
+     local extra=math.max(0,battlePool-14000)
+     local tranche=math.ceil(extra/3/32)*32
+     local needs = {intro=1800, title=8000, menu=3200, options=3200, howto=6400,
+                    select=math.min(battlePool,14000+tranche), online=12000,
+                    vs=math.min(battlePool,14000+tranche*2),fight=battlePool,result=6400,test=256}
++    if self:isMobile() then needs.select=7000;needs.online=7000;needs.vs=9000;needs.gf_scene_team_vs=7000 end
+     local start = G.secondPoolStatus().total
+     local ready=G.requestImages(needs[name] or 9500)
+     if ready and G.retiredPending()==0 and #G.trash==0 then return false end
+
+--- stable-range/gf_app
++++ mobile-fix/gf_app
+@@ -40,6 +40,8 @@
+     self.settings.quality='lo'
+     self.quality = self:detectQuality()
+     self.debug = false
++    self:initExit()
++    G.mobileLightEffects=self:isMobile()
+     local first = env.firstScene or 'intro'
+     self:go(first, env.firstArgs)
+     if GF_ASSET_PRELOAD_AT_START then
+@@ -110,6 +112,7 @@
+ end
+ 
+ function App:update(dt)
++    if self.closed or self:advanceExit(dt) then return end
+     self.callbackDt=dt
+     self:sampleFrameRate(dt)
+     self:netPump() -- receive before any pool maintenance or drawing
+@@ -138,7 +141,7 @@
+     G.flushRetired(64)
+     self.acc = self.acc + dt
+     local steps = 0
+-    while self.acc >= STEP and steps < 4 do
++    while self.acc >= STEP and steps < 8 do
+         self.acc = self.acc - STEP
+         steps = steps + 1
+         self.frame = self.frame + 1
+@@ -154,9 +157,9 @@
+         end
+     end
+     -- Keep a bounded backlog instead of discarding every pending movement tick.
+-    if self.acc > STEP * 4 then
+-        self.droppedTime=(self.droppedTime or 0)+self.acc-STEP*4
+-        self.acc=STEP*4
++    if self.acc > STEP * 8 then
++        self.droppedTime=(self.droppedTime or 0)+self.acc-STEP*8
++        self.acc=STEP*8
+     end
+     local sc = self.scene
+     if sc and sc.draw then sc:draw(self.acc / STEP, dt) end
+@@ -186,6 +189,7 @@
+ 
+ -- Cover the previous scene while the second image pool grows in frame batches.
+ require('gf_app_network')(App)
++require('gf_app_exit')(App)
+ require('gf_app_transition')(App)
+ require('gf_app_metrics')(App)
+ require('gf_app_loading')(App)
+
+--- stable-range/gf_fview
++++ mobile-fix/gf_fview
+@@ -24,6 +24,8 @@
+     self.aura = G.bitmap(self.content)       -- element glow behind the body
+     self.slots = {G.bitmap(self.content), G.bitmap(self.content)}
+     self.flash = G.bitmap(self.content)      -- white / ice overlay
++    self.lightFlash=GF_MOBILE_LIGHT_FLASH~=false and app.isMobile and app:isMobile()
++    if self.lightFlash then self.hitHalo=G.image(self.content,G.RING);self.hitHalo:on(false) end
+     for _, s in ipairs(self.slots) do s.node:on(false) end
+     self.aura.node:on(false)
+     self.flash.node:on(false)
+@@ -64,12 +66,14 @@
+             for _,L in ipairs(self.characterLayers or {})do L.node:on(false) end
+         end
+         if self.captureBmp then self.captureBmp.node:on(false) end
++        if self.captureL then self.captureL.node:on(false) end
+         for _,b in ipairs(self.assistants)do b.node:on(false) end
+         G.deferRelease=true
+         self.animFx.job=nil;self.animFxBack.job=nil
+         self.animFx:trim(0);self.animFxBack:trim(0)
+         if old and old.freeView and self.characterChannels then old.freeView(self) end
+         if self.captureBmp then self.captureBmp:free();self.captureBmp=nil end
++        if self.captureL then self.captureL:free();self.captureL=nil end
+         for _,b in ipairs(self.assistants)do b:free() end
+         G.deferRelease=false
+         self.assistants={};self.characterChannels=nil;self.characterLayers=nil
+@@ -118,7 +122,7 @@
+     end
+     -- Hit flashes formerly allocated hundreds of controls in the combat callback.
+     -- Reserve their geometry under the loading curtain, using the same bounded slice.
+-    if provider or self.key=='raidenshogun' or self.key=='nahida' then
++    if not self.lightFlash and (provider or self.key=='raidenshogun' or self.key=='nahida') then
+         self.flash.pinned=true
+         self.initialFlashCapacity=self.bodyCapacity
+         if #self.flash.kids<self.initialFlashCapacity then self.flash:ensure(math.min(self.initialFlashCapacity,#self.flash.kids+budget));return false end
+@@ -128,6 +132,7 @@
+ end
+ 
+ function V:warmFlash(budget)
++    if self.lightFlash then self.flashWarmed=true;return true end
+     if self.flashWarmed then return true end
+     if not self.front then return false end
+     if not self.flash.job then self.flash:start(self.poseImg,self.front.key..':flash',{255,255,255,255}) end
+@@ -504,7 +509,7 @@
+ function V:drawCapture()
+     if not self.captureBmp then return end
+     local bmp,f=self.captureBmp,self.f
+-    if f.state~='skill' or f.t<4 then bmp.node:on(false);return end
++    if f.state~='skill' or f.t<4 then bmp.node:on(false);if self.captureL then self.captureL:clear() end;return end
+     local t=f.t;local steps={0,0.10,0.26,0.48,0.74,1};local k=t<8 and 0 or steps[math.min(6,t-7)]
+     local face=f.castFace or f.face
+     local x=(f.castX or f.x)/C+face*(110+540*k);local y=(f.castY or 190*C)/C
+@@ -515,7 +520,22 @@
+         index=age<1 and 4 or age<3 and 5 or age<5 and 6 or 7
+         alpha=math.max(0,1-age/8)
+     elseif t>=14 then index=7;alpha=math.max(0,1-age/4) end
+-    if alpha<=0 then bmp.node:on(false);return end
++    if alpha<=0 then bmp.node:on(false);if self.captureL then self.captureL:clear() end;return end
++    if self.lightFlash then
++        -- The mobile viewfinder uses twelve primitives with the same cast/hit
++        -- trajectory. Keep the 691–827 rectangle artwork on desktop.
++        bmp.node:on(false);self.captureL=self.captureL or G.layer(self.layers.fx)
++        local L=self.captureL;L:begin();local r=index>=4 and 110+index*4 or 150
++        alpha=math.ceil(alpha*4)/4
++        local col={162,216,107}
++        for _,sx in ipairs({-1,1})do for _,sy in ipairs({-1,1})do
++            L:rect(x+sx*(r-20),y+sy*r,44,4,col,alpha)
++            L:rect(x+sx*r,y+sy*(r-20),4,44,col,alpha)
++        end end
++        L:rect(x,y,32,3,col,alpha);L:rect(x,y,3,32,col,alpha)
++        L:shape(G.RING,x,y,r*1.4,r*1.4,col,.28*alpha)
++        L:finish();return
++    end
+     captureData=captureData or require('gf_viewfinder_data')
+     local img=captureData[tostring(index)];bmp:draw(img,tostring(index));local scale=380/img.w
+     bmp.node:pos(x,y):scale(face*scale,scale):on(true)
+@@ -641,7 +661,13 @@
+         if self.glow then self.glow:on(false) end
+     end
+     local frozen = f.frozen > 0
+-    if (self.flashT > 0 or frozen) and img then
++    if self.lightFlash then
++        self.flash.node:on(false)
++        local on=(self.flashT>0 or frozen) and img~=nil
++        local tint=frozen and {170,235,255} or self.flashTint or {255,255,255}
++        self.hitHalo:pos(0,150*f.size):size(180*f.size,240*f.size):color(tint[1],tint[2],tint[3],frozen and 95 or 130):on(on)
++        if self.flashT>0 then self.flashT=math.max(0,self.flashT-math.max(1,elapsed)) end
++    elseif (self.flashT > 0 or frozen) and img then
+         -- The published body may still be an aligned idle buffer while hit pose draws.
+         -- Its exact image carries the correct crop/foot offset; no legacy alias lookup.
+         local animated=provider or self.key=='raidenshogun' or self.key=='nahida'
+@@ -677,10 +703,12 @@
+     if self.animFx then self.animFx:free() end
+     if self.aimLayer then self.aimLayer:free() end
+     if self.captureBmp then self.captureBmp:free() end
++    if self.captureL then self.captureL:free() end
+     for _,bmp in ipairs(self.assistants) do bmp:free() end
+     for _, s in ipairs(self.slots) do s:free() end
+     self.aura:free()
+     self.flash:free()
++    if self.hitHalo then G.release(self.hitHalo) end
+     self.animFxBack:free()
+     for _, g in ipairs(self.ghosts) do g.bmp:free() end
+     G.release(self.shadow)
+
+--- stable-range/gf_scene_menu
++++ mobile-fix/gf_scene_menu
+@@ -66,7 +66,7 @@
+         {id = 'training', label = '训练模式', sub = '练习连段与技能'},
+         {id = 'howto', label = '出招与系统', sub = '操作、连段、元素战技与爆发'},
+         {id = 'options', label = '设置', sub = '震动、难度、回合'},
+-        {id = 'quit', label = '退出游戏', sub = '返回开始界面'},
++        {id = 'quit', label = '退出游戏', sub = '服务端结算并关闭游戏界面'},
+     }
+     self.sub = nil
+     self.menu = UI.menu(app, app.layers.ui, self.items, menuOpts(self, sel, function(id) self:pick(id) end))
+@@ -153,12 +153,7 @@
+     elseif id == 'solo' or id == 'net' then self:modeMenu(id)
+     elseif id == 'tutorial' then self:tutorialMenu()
+     elseif id == 'quit' then
+-        if app.net then
+-            if app.net.io.stop then app.net.io.stop() end
+-            app.net=nil
+-        end
+-        if app.teamSelectionIO then app.teamSelectionIO.reset();app.teamSelectionIO.stop() end
+-        app:travel('title')
++        app:quitGame()
+     end
+ end
+ 
+
+--- stable-range/gf_scene_team_select
++++ mobile-fix/gf_scene_team_select
+@@ -47,11 +47,10 @@
+     return false
+ end
+ function T:confirm()
+-    if self.teamIO and not self.teamIO.slot then self.notice='等待联机席位';return end
+     local team=self.teams[1];local idx=self.cur[1]
+     if #team==3 then
+         self.ready[1]=not self.ready[1];self.startAt=nil
+-        self.notice=self.ready[1] and '已准备 · 等待对方' or '已取消准备'
++        self.notice=self.ready[1] and (self.teamIO and not self.teamIO.slot and '阵容已保存 · 等待服务器席位' or '已准备 · 等待对方') or '已取消准备'
+         if self.teamIO then self.teamIO.publish(team,self.ready[1]) end
+         return
+     end
+@@ -102,10 +101,14 @@
+     end
+     if self.teamIO then
+         self.teamIO.pump()
+-        if self.netEpoch~=self.teamIO.epoch then
++        if self.teamIO.slot and not self.netSeatAssigned then
++            self.netSeatAssigned=true;self.netEpoch=self.teamIO.epoch
++        elseif self.netEpoch~=self.teamIO.epoch then
+             self.netEpoch=self.teamIO.epoch;self.teams[1]={};self.ready[1]=false;self.startAt=nil;self.focused=false
+         end
+         self.ready[2]=self.teamIO.remoteReady
++        if self.teamIO.error then self.notice='联机信号失败：'..self.teamIO.error
++        elseif not self.teamIO.slot and self.t>3 then self.notice='阵容可先选择 · GF3席位未返回，请核对独立节点挂载与信号名' end
+     end
+     if self.ready[1] and self.ready[2] and (not self.teamIO or self.teamIO.reveal) then
+         self.startAt=self.startAt or self.t+1
+@@ -180,7 +183,8 @@
+         end
+         local count=self.teamIO and self.teamIO.remoteCount or #self.teams[2]
+         local status=self.ready[2] and '对方已准备' or ('对方已选 '..count..'/3')
+-        if self.teamIO and not self.teamIO.slot then status='等待另一位玩家与服务器席位' end
++        if self.teamIO and not self.teamIO.slot then status=self.t>3 and 'GF3席位未返回 · 请检查独立节点挂载' or '正在取得服务器席位' end
++        if self.teamIO and self.teamIO.error then status='GF3信号发送失败 · 请检查信号名' end
+         L:label(status,left+w/2,y-65,w,30,19,UI.CREAM,'c')
+         local prompt=self.ready[1] and '己方已准备 · 再点按钮可取消' or (#self.teams[1]==3 and '顺序已固定 · 核对阵容后准备' or ('选择第'..(#self.teams[1]+1)..'位'))
+         L:label(prompt,left+w/2,y+61,w+100,28,18,UI.GOLD,'c')
+
+--- stable-range/gf_team_selection
++++ mobile-fix/gf_team_selection
+@@ -14,28 +14,30 @@
+  end
+  script:RegisterServerSignalHandler('GF3Seat',function(_,p)
+   if not t.active or not valid(p,2) or (p[1]~=1 and p[1]~=2) or p[2]<t.epoch then return end
+-  if p[2]>t.epoch then
++  if p[2]>t.epoch and t.hasSeat then
+    t.team={};t.ready=false;t.revision=0;t.remoteRevision=-1;t.remoteCount=0;t.remoteReady=false;t.reveal=nil
+   end
+-  t.slot=p[1];t.epoch=p[2]
++  t.slot=p[1];t.epoch=p[2];t.hasSeat=true;t.seatAt=now()
+  end)
+  script:RegisterServerSignalHandler('GF3Progress',function(_,p)
+-  if not t.active or not valid(p,5) or p[1]~=t.epoch or p[2]==t.slot or (p[2]~=1 and p[2]~=2) then return end
++  if not t.active or not t.slot or not valid(p,5) or p[1]~=t.epoch or p[2]==t.slot or (p[2]~=1 and p[2]~=2) then return end
+   if p[3]<0 or p[3]>3 or (p[4]~=0 and p[4]~=1) or p[5]<t.remoteRevision then return end
+   t.remoteRevision=p[5];t.remoteCount=p[3];t.remoteReady=p[4]==1
+  end)
+  script:RegisterServerSignalHandler('GF3Reveal',function(_,p)
+-  if not t.active or not valid(p,9) or p[1]~=t.epoch or not t.ready then return end
++  if not t.active or not t.slot or not valid(p,9) or p[1]~=t.epoch or not t.ready then return end
+   local teams={{p[4],p[5],p[6]},{p[7],p[8],p[9]}}
+   for q=1,2 do local seen={};for _,v in ipairs(teams[q]) do if v<1 or v>6 or seen[v] then return end;seen[v]=true end end
+   if p[t.slot+1]~=t.revision then return end
+   for n=1,3 do if teams[t.slot][n]~=t.team[n] then return end end
+   t.reveal=teams
+  end)
+- function t.start() t.active=true;t.slot=nil;t.last=-99;t.reveal=nil end
++ function t.start()
++  t.active=true;t.slot=nil;t.hasSeat=false;t.last=-99;t.reveal=nil;t.team={};t.ready=false;t.revision=0
++  t.remoteCount=0;t.remoteReady=false;t.remoteRevision=-1;t.startedAt=now();t.seatAt=nil
++ end
+  function t.publish(team,ready)
+-  if not t.slot then return false end
+-  if t.ready and not ready then
++  if t.slot and t.ready and not ready then
+    -- Cancel may race with the server's reveal; a new epoch prevents split rosters.
+    t.ready=false;t.reveal=nil;emit('GF3Reset',{t.slot,t.epoch,t.epoch+1});return true
+   end
+
+--- stable-range/gf_character_assets
++++ mobile-fix/gf_character_assets
+@@ -20,6 +20,7 @@
+   return img
+  end
+  function P.prepare()
++  if GF_RAW_ASSET_TABLES then return {total=0,completed=0,step=function()return true end} end
+   local names={}
+   for id,img in pairs(data.frames) do if not img.bytes then names[#names+1]=id end end
+   table.sort(names)
+
+--- stable-range/gf_character_cinematic_view
++++ mobile-fix/gf_character_cinematic_view
+@@ -37,7 +37,7 @@
+  for _,f in ipairs(scene.sim.f) do if profiles[f.key] then
+   local b=scene.characterCuts[f.key]
+   if not b then b=G.bitmap(scene.app.layers.top);b.pinned=true;b.node:on(false);scene.characterCuts[f.key]=b end
+-  local P=Registry.provider(f.key);local img=P.image(P.data.portrait)
++  local img=portrait(f.key)
+   if #b.kids<img.n then b:ensure(math.min(img.n,#b.kids+budget));return false end
+   if b.key~=f.key..'Portrait' then
+    if not b.job then b:start(portrait(f.key),f.key..'Portrait') end
+@@ -109,7 +109,7 @@
+  local img=portrait(f.key)
+  assert(b.key==f.key..'Portrait','portrait must be warmed before battle')
+  b.node:pos((-500+math.min(40,(t-12)*3))*s,200*s):scale(s,s):rot(0):on(fade>0)
+- b:opacity(img,fade)
++ b:opacity(img,scene.app:isMobile() and 1 or fade)
+  L:label(profiles[f.key].burst,165*s,85*s,420*s,70*s,46*s,{225,246,255},'l',nil,fade)
+  L:label(profiles[f.key].name,115*s,40*s,220*s,40*s,22*s,{225,246,255},'l',nil,fade)
+  L:finish();return true
+
+--- stable-range/gf_character_effect_channel
++++ mobile-fix/gf_character_effect_channel
+@@ -1,8 +1,12 @@
+ __loaders['gf_character_effect_channel']=function()
++local G=require('gf_gfx')
+ return function(P)
+ local function publish(ch,id,x,y,face,scale,alpha,rotation,budget)
+   if not id then for _,b in ipairs(ch.slots) do b.node:on(false) end;return end
+   local img=P.image(id);local front=ch.front;local back=ch.slots[1]==front and ch.slots[2] or ch.slots[1]
++  -- Mobile fades use four stable opacity levels instead of recolouring hundreds
++  -- of effect rectangles on every simulation tick. Geometry/timing stays intact.
++  if G.mobileLightEffects then alpha=math.ceil(math.max(0,math.min(1,alpha or 1))*4)/4 end
+   if not front or front.key~=id then
+    if not back.job then back:start(img,id) end
+    back:step(budget)

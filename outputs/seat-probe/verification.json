@@ -1,0 +1,14 @@
+{
+  "deviceVerified": false,
+  "waitingProbePersists": true,
+  "players": [
+    {
+      "player": 1,
+      "text": "DEBUG / Lua 已启动 · 更新次数 120\n战斗运行 | 席位 1\nHello 调用 1 | Join 调用 0\n输入发送 39 | 收到 39 | 批次字节 11\n网络帧 119 | 远端确认 117 | 对方确认 117\n回滚 0 | 重算帧 0\n最近：收到输入批次\n席位回调次数：2 | Slot=1"
+    },
+    {
+      "player": 2,
+      "text": "DEBUG / Lua 已启动 · 更新次数 120\n战斗运行 | 席位 2\nHello 调用 1 | Join 调用 1\n输入发送 39 | 收到 40 | 批次字节 11\n网络帧 119 | 远端确认 120 | 对方确认 117\n回滚 0 | 重算帧 0\n最近：收到输入批次\n席位回调次数：1 | Slot=2"
+    }
+  ]
+}

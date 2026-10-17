@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "roster": [
+    {
+      "id": 1,
+      "key": "keqing",
+      "name": "刻晴",
+      "frames": {
+        "path": "assets/vnext/keqing-frames.json",
+        "bytes": 485661,
+        "sha256": "24720171b01fa3e57cc05fa3c53ab8b0a55a22abb6bb3935dab3d6357a7e94d9"
+      }
+    },
+    {
+      "id": 2,
+      "key": "diluc",
+      "name": "迪卢克",
+      "frames": {
+        "path": "assets/vnext/diluc-frames.json",
+        "bytes": 959815,
+        "sha256": "842abbe42e91cb249c30db634b6f569a81efed1b3978e34666a1eb2e9c4f6cc2"
+      }
+    },
+    {
+      "id": 3,
+      "key": "kaeya",
+      "name": "凯亚",
+      "frames": {
+        "path": "assets/test-v1/kaeya-frames.json",
+        "bytes": 402498,
+        "sha256": "6771abc1d2ec95e5d59c248f62c4f6dceba2616502d3ad6d247e6558a632db1b"
+      }
+    },
+    {
+      "id": 4,
+      "key": "jean",
+      "name": "琴",
+      "frames": {
+        "path": "assets/test-v1/jean-frames.json",
+        "bytes": 471159,
+        "sha256": "92a38062fbaede58a00faf2175c939640e755f2a747188ea564bd61ec4520772"
+      }
+    },
+    {
+      "id": 5,
+      "key": "klee",
+      "name": "可莉",
+      "frames": {
+        "path": "assets/test-v1/klee-frames.json",
+        "bytes": 416007,
+        "sha256": "03ad1e0c7ceeb1c777f2c80a1f27d9501de28b43d8b2e35e59be643fbc8458c8"
+      }
+    },
+    {
+      "id": 6,
+      "key": "lisa",
+      "name": "丽莎",
+      "frames": {
+        "path": "assets/test-v1/lisa-frames.json",
+        "bytes": 538874,
+        "sha256": "4e04074260d2f3a4061e8dbc514138155b4403de2d46314f55f5e6b5e370627d"
+      }
+    },
+    {
+      "id": 7,
+      "key": "ganyu",
+      "name": "甘雨",
+      "frames": {
+        "path": "assets/test-v1/ganyu-frames.json",
+        "bytes": 421267,
+        "sha256": "82c2b1e5d79564a62b59d0525da7fe9400293d9cbcc5d336ac1355ac5545fcd0"
+      }
+    },
+    {
+      "id": 8,
+      "key": "yanfei",
+      "name": "烟绯",
+      "frames": {
+        "path": "assets/test-v1/yanfei-frames.json",
+        "bytes": 561271,
+        "sha256": "e9225bee636d8c0ee6e0af5faf01fa9d77a3e1e8625bfe7adcb7a89d9fc4f6fb"
+      }
+    },
+    {
+      "id": 9,
+      "key": "xiao",
+      "name": "魈",
+      "frames": {
+        "path": "assets/test-v1/xiao-frames.json",
+        "bytes": 422248,
+        "sha256": "37c30c4d0fc40af513b7247ec0fafb9ec15c971f66df9599ff575d1f67362353"
+      }
+    },
+    {
+      "id": 10,
+      "key": "hutao",
+      "name": "胡桃",
+      "frames": {
+        "path": "assets/test-v1/hutao-frames.json",
+        "bytes": 524387,
+        "sha256": "e3374f63c284908de518e8d71274153f4643c1e6de227ea6ef57ea3c14868ee3"
+      }
+    },
+    {
+      "id": 11,
+      "key": "lawachurl",
+      "name": "岩盔丘丘王",
+      "frames": {
+        "path": "assets/roster-v2/lawachurl-frames.json",
+        "bytes": 1838952,
+        "sha256": "a7be984030c094765ae14653a9bb2254e6e527259362cb75b6a05275e59db835"
+      }
+    },
+    {
+      "id": 12,
+      "key": "yaemiko",
+      "name": "八重神子",
+      "frames": {
+        "path": "assets/roster-v2/yaemiko-frames.json",
+        "bytes": 1253830,
+        "sha256": "e9d7d8f4deba0dfc58809a33e090250af4d29a043985364fde521de715e06b0f"
+      }
+    },
+    {
+      "id": 13,
+      "key": "kirara",
+      "name": "绮良良",
+      "frames": {
+        "path": "assets/roster-v2/kirara-frames.json",
+        "bytes": 1237482,
+        "sha256": "48454793661722196a0533f5916047323fa306fe1070abb47512a13b6b270a16"
+      }
+    },
+    {
+      "id": 14,
+      "key": "kamisatoayaka",
+      "name": "神里绫华",
+      "frames": {
+        "path": "assets/roster-v2/kamisatoayaka-frames.json",
+        "bytes": 1184977,
+        "sha256": "7972d853490486a7d8d396c426d04636425a1d892d2b64b1d898173a6d4d0a74"
+      }
+    },
+    {
+      "id": 15,
+      "key": "kamisatoayato",
+      "name": "神里绫人",
+      "frames": {
+        "path": "assets/roster-v2/kamisatoayato-frames.json",
+        "bytes": 1235407,
+        "sha256": "d37763f14867f212f8724967ff87ea26f3012c187f92e02e04cb6a1a33ed96d3"
+      }
+    },
+    {
+      "id": 16,
+      "key": "aratakiitto",
+      "name": "荒泷一斗",
+      "frames": {
+        "path": "assets/roster-v2/aratakiitto-frames.json",
+        "bytes": 1317466,
+        "sha256": "7d0e0bbd9794db9bd56122800596eb5d7a09a9b07410ca550a1805037f25e5fe"
+      }
+    },
+    {
+      "id": 17,
+      "key": "sangonomiyakokomi",
+      "name": "珊瑚宫心海",
+      "frames": {
+        "path": "assets/roster-v2/sangonomiyakokomi-frames.json",
+        "bytes": 1470922,
+        "sha256": "19c49d2275e13817a20b4edca2bb106fb213c2712db2e900b1cf9bc4ef369761"
+      }
+    },
+    {
+      "id": 18,
+      "key": "tighnari",
+      "name": "提纳里",
+      "frames": {
+        "path": "assets/roster-v2/tighnari-frames.json",
+        "bytes": 952692,
+        "sha256": "71709da45aea9ef21f48cd20e862d3cd15af7ea83668335a1a0228616b0ce9ef"
+      }
+    },
+    {
+      "id": 19,
+      "key": "cyno",
+      "name": "赛诺",
+      "frames": {
+        "path": "assets/roster-v2/cyno-frames.json",
+        "bytes": 1263736,
+        "sha256": "a57ee3b6a7491fa53b79b0a61a406c2ad565f32bb8cdf5bfcf125441299dcf8f"
+      }
+    },
+    {
+      "id": 20,
+      "key": "wanderer",
+      "name": "散兵",
+      "frames": {
+        "path": "assets/roster-v2/wanderer-frames.json",
+        "bytes": 1339921,
+        "sha256": "e214bdc3fa8241c6df351531620925cd4a753641894009bf93261d9d9ea99d3c"
+      }
+    },
+    {
+      "id": 21,
+      "key": "nilou",
+      "name": "妮露",
+      "frames": {
+        "path": "assets/roster-v2/nilou-frames.json",
+        "bytes": 1359835,
+        "sha256": "7fbaf60a1d3f597beb72e037f2a100e0258a8a8b9715b0667ee244155125b760"
+      }
+    },
+    {
+      "id": 22,
+      "key": "faruzan",
+      "name": "珐露珊",
+      "frames": {
+        "path": "assets/roster-v2/faruzan-frames.json",
+        "bytes": 1181844,
+        "sha256": "d3b4c92a7313274a1765f2e5ecc0bd98b18d5d6bffe1f15ed4f773386cdc472a"
+      }
+    },
+    {
+      "id": 23,
+      "key": "layla",
+      "name": "莱依拉",
+      "frames": {
+        "path": "assets/roster-v2/layla-frames.json",
+        "bytes": 1318275,
+        "sha256": "10e6c6d7265ef59c23f56750e742b9b86867ab96523171700b343e60460a80ef"
+      }
+    },
+    {
+      "id": 24,
+      "key": "neuvillette",
+      "name": "那维莱特",
+      "frames": {
+        "path": "assets/roster-v2/neuvillette-frames.json",
+        "bytes": 1227323,
+        "sha256": "330cf1de47cee42c81650ad8bcc45815b4df0795c6e1bef597852a7950beca16"
+      }
+    },
+    {
+      "id": 25,
+      "key": "wriothesley",
+      "name": "莱欧斯利",
+      "frames": {
+        "path": "assets/roster-v2/wriothesley-frames.json",
+        "bytes": 1129576,
+        "sha256": "0b985f7a2988dbef93a28d14fc29b6c349df2a3c8f048cc2f40b09bc68f951a9"
+      }
+    },
+    {
+      "id": 26,
+      "key": "clorinde",
+      "name": "克洛琳德",
+      "frames": {
+        "path": "assets/roster-v2/clorinde-frames.json",
+        "bytes": 948892,
+        "sha256": "8cbc87ca08c4cc5e27e2cd64789e6f22bb99a949062cca44c9e09e48ad8b0e38"
+      }
+    },
+    {
+      "id": 27,
+      "key": "navia",
+      "name": "娜维娅",
+      "frames": {
+        "path": "assets/roster-v2/navia-frames.json",
+        "bytes": 1307597,
+        "sha256": "42878495944b6dda6a60827f3c76eee356b47eccbd0a74b5a30c941fb2eed8dd"
+      }
+    },
+    {
+      "id": 28,
+      "key": "mualani",
+      "name": "玛拉妮",
+      "frames": {
+        "path": "assets/roster-v2/mualani-frames.json",
+        "bytes": 1276864,
+        "sha256": "98da34c22ab2531453ade4f0beec12e1baf503bad330aaed500a86ea18fbe0e2"
+      }
+    },
+    {
+      "id": 29,
+      "key": "kinich",
+      "name": "基尼奇",
+      "frames": {
+        "path": "assets/roster-v2/kinich-frames.json",
+        "bytes": 1016259,
+        "sha256": "a1d582bbddb39f9f01a8fc6e2f0f0f40e3523918415710b22af8b8e7c3062789"
+      }
+    },
+    {
+      "id": 30,
+      "key": "kachina",
+      "name": "卡齐娜",
+      "frames": {
+        "path": "assets/roster-v2/kachina-frames.json",
+        "bytes": 1049016,
+        "sha256": "021ed94e35b844b05bbe03e25928b0bd2fb7c48553fe1777778c518cae9efacd"
+      }
+    },
+    {
+      "id": 31,
+      "key": "ineffa",
+      "name": "伊涅芙",
+      "frames": {
+        "path": "assets/roster-v2/ineffa-frames.json",
+        "bytes": 1234484,
+        "sha256": "04de9c49998bdccd3d5465b8d2a00a4c0b1611c1e61fe80f9833454566d325ed"
+      }
+    },
+    {
+      "id": 32,
+      "key": "skirk",
+      "name": "丝柯克",
+      "frames": {
+        "path": "assets/roster-v2/skirk-frames.json",
+        "bytes": 1339559,
+        "sha256": "eb36ea8b9c281e07a8cee579f089f5f627aab4befeea05156a3eb6cab354073c"
+      }
+    },
+    {
+      "id": 33,
+      "key": "flins",
+      "name": "菲林斯",
+      "frames": {
+        "path": "assets/roster-v2/flins-frames.json",
+        "bytes": 1151151,
+        "sha256": "9de0dc543afe362402666529c97989533e026446ed3a5667a581e1a8517f2fac"
+      }
+    },
+    {
+      "id": 34,
+      "key": "varka",
+      "name": "法尔加",
+      "frames": {
+        "path": "assets/roster-v2/varka-frames.json",
+        "bytes": 1354771,
+        "sha256": "64b8b630792852f60198ebb4dc7e1df11774c94fa010971dd6a4f636f234f6f8"
+      }
+    },
+    {
+      "id": 35,
+      "key": "nicole",
+      "name": "尼可",
+      "frames": {
+        "path": "assets/roster-v2/nicole-frames.json",
+        "bytes": 1635075,
+        "sha256": "b385d5e809e8f01cfc13f3fc48a00bc65fb2e9662ebb38e8f469f7c9c7225363"
+      }
+    },
+    {
+      "id": 36,
+      "key": "venti",
+      "name": "温迪",
+      "frames": {
+        "path": "assets/roster-v2/venti-frames.json",
+        "bytes": 977697,
+        "sha256": "e820b0f71c9b9cc5094f939fb0706ef4bcabfa9da8b9e063bbe2b3783ce9d67a"
+      }
+    },
+    {
+      "id": 37,
+      "key": "zhongli",
+      "name": "钟离",
+      "frames": {
+        "path": "assets/roster-v2/zhongli-frames.json",
+        "bytes": 1232719,
+        "sha256": "fa5b1684df46438c31b7998382e8ee54c4dcbe1b7538d855f0fb5e910e8ea1ab"
+      }
+    },
+    {
+      "id": 38,
+      "key": "furina",
+      "name": "芙宁娜",
+      "frames": {
+        "path": "assets/roster-v2/furina-frames.json",
+        "bytes": 1115553,
+        "sha256": "3f5c1a72af0e2e9a2747eeb50f2206864b403c773536fe475cb64ba4cbc14ac4"
+      }
+    },
+    {
+      "id": 39,
+      "key": "nahida",
+      "name": "纳西妲",
+      "frames": {
+        "path": "assets/roster-v2/nahida-frames.json",
+        "bytes": 1052414,
+        "sha256": "5907fce205cf2f3b60acbe33d373a0d5e0646ae39c24f851be2e496e2e5fd1cf"
+      }
+    },
+    {
+      "id": 40,
+      "key": "mavuika",
+      "name": "玛薇卡",
+      "frames": {
+        "path": "assets/roster-v2/mavuika-frames.json",
+        "bytes": 1302551,
+        "sha256": "e774eab0ac8f88530c496ea8c7d41cea751ec654203a87b4ab70e8146d890e6e"
+      }
+    },
+    {
+      "id": 41,
+      "key": "raidenshogun",
+      "name": "雷电将军",
+      "frames": {
+        "path": "assets/roster-v2/raidenshogun-frames.json",
+        "bytes": 1172482,
+        "sha256": "5b07bddf776b240108673ed0d43bcfe5e009b6c19252d86214d7b503a46bb837"
+      }
+    },
+    {
+      "id": 42,
+      "key": "columbina",
+      "name": "少女",
+      "frames": {
+        "path": "assets/roster-v2/columbina-frames.json",
+        "bytes": 1500159,
+        "sha256": "5a407b65cd78191040c4129f05b07590ba4285eea535990666c91f0a0f26bc6a"
+      }
+    },
+    {
+      "id": 43,
+      "key": "tartaglia",
+      "name": "达达利亚",
+      "frames": {
+        "path": "assets/roster-v2/tartaglia-frames.json",
+        "bytes": 892198,
+        "sha256": "fa7eac1b81ece4ecd2486bf5fb4bc366789e9e6f1a09a8735a8d6cc8ad8b595f"
+      }
+    },
+    {
+      "id": 44,
+      "key": "sandrone",
+      "name": "桑多涅",
+      "frames": {
+        "path": "assets/roster-v2/sandrone-frames.json",
+        "bytes": 1271061,
+        "sha256": "0550a6e3dcbf8ab1bea1e398ed590f790991865b98ee3304f243b505703dcf13"
+      }
+    },
+    {
+      "id": 45,
+      "key": "arlecchino",
+      "name": "仆人",
+      "frames": {
+        "path": "assets/roster-v2/arlecchino-frames.json",
+        "bytes": 1182973,
+        "sha256": "fa122dae4dad5e9e85779a9f2df19e8bae13edde407df4d27d4b2facffcf0350"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "assets/roster-v2/heads.json",
+      "bytes": 805532,
+      "sha256": "4cc54924d58f6b64362e9c5b2fb495abda41b9e5a66fd337b421e79294091aa2"
+    },
+    {
+      "path": "assets/roster-v2/thumbs.json",
+      "bytes": 363248,
+      "sha256": "ca82f906a0d73245bada7277c420811974b2474b98edbd9f2aa02e669b6ce18f"
+    },
+    {
+      "path": "assets/roster-v2/generation-manifest.json",
+      "bytes": 29501,
+      "sha256": "c529c5df37d9422a5b0bc5d8f0a83ecb5fda9423444246611f42725b18c6d0ea"
+    },
+    {
+      "path": "assets/roster-v2/official-source-records.json",
+      "bytes": 17838,
+      "sha256": "f5ad5b8c6796be0d6e29e62d3764758993ef985c85c24d465ee2807cd54a8fcc"
+    },
+    {
+      "path": "work/build-roster-v2.mjs",
+      "bytes": 21153,
+      "sha256": "b673e7c9b04a0b7b0dde38ba42011b5f7a1b431a2f683a4efc59927ec66b9cad"
+    },
+    {
+      "path": "work/v2-menu.lua",
+      "bytes": 15203,
+      "sha256": "116aa49521b1fe1fe8ec854f984b209c2eba318917f8301fe7dfaad96da6ac1f"
+    },
+    {
+      "path": "work/v2-loading.lua",
+      "bytes": 7603,
+      "sha256": "1942f2e41a1f89cf3016a193871b72d3ac8242454641a0e0ed05dcd41e7c613c"
+    },
+    {
+      "path": "work/v2-unpack.lua",
+      "bytes": 2561,
+      "sha256": "9255a01336ca419fb3886c83d9c999226e7552804815f49f50f85957f7a9e6b3"
+    },
+    {
+      "path": "work/v2-pack.mjs",
+      "bytes": 3059,
+      "sha256": "5e4948a308a2b2ab01514b4b1110c5c79173f822de9b5567514ad33ce4aa5720"
+    }
+  ],
+  "build": {
+    "staticControls": 1063,
+    "deferredImages": 18952,
+    "mascotPool": 199,
+    "giaBytes": 5432717,
+    "deviceVerified": false
+  },
+  "source": {
+    "path": "outputs/roster-v2/fighter_duel_loading_v2.lua",
+    "bytes": 4540342,
+    "sha256": "111baa0ac2b33c402ec734af512042d70dbd4234389d00d337719c18a03db793"
+  },
+  "evidence": {
+    "gameplay": "simulator sampled three rounds/rematch/exit passed before final wording-only adjustment",
+    "layout": "final source mobile 19.5:9 and 4:3 passed",
+    "officialImport": false,
+    "devicePerformance": false
+  }
+}

@@ -1,0 +1,939 @@
+{
+  "input": "original PNG, no fitted rectangle reconstruction",
+  "maxTextBytes": 1000,
+  "singleRowFragments": true,
+  "guardPixels": 1,
+  "edgeFill": 1.025,
+  "trainingSceneSharedAcrossRounds": true,
+  "oldActorFxAndRulesPreserved": true,
+  "sceneRgbQuantizationMaxError": 4,
+  "allFrames": [
+    {
+      "family": "home",
+      "key": "home-keqing",
+      "source": "outputs/group1-full-test/home-halfbody-v2.png",
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "grid": [
+        256,
+        256
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "08571c074bda3411b6bb54e98e4957f8e3ee3f64203b9ee3845c471e5aee95c1",
+      "chunks": 1246,
+      "unmergedRowChunks": 1246,
+      "glyphs": 41934,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "home",
+      "key": "home-diluc",
+      "source": "outputs/group1-full-test/home-halfbody-v2.png",
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "grid": [
+        256,
+        256
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "bbda16efaa09d497850a5961820fe888192bd25367aace1fe1d64a6619bfcab0",
+      "chunks": 1239,
+      "unmergedRowChunks": 1239,
+      "glyphs": 40369,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "keqing-portrait",
+      "source": "assets/roster-v2/keqing-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "2897955fc325c05ff49f07869075190ed660c2aa9868003740aff586e4bb3389",
+      "chunks": 201,
+      "unmergedRowChunks": 201,
+      "glyphs": 6090,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "keqing-thumb",
+      "source": "assets/roster-v2/keqing-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "3c9813a332af0a7e649c8069bfc2892e02e0e4b5bf52e4bf7130efd85caa3e66",
+      "chunks": 89,
+      "unmergedRowChunks": 89,
+      "glyphs": 2637,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "diluc-portrait",
+      "source": "assets/roster-v2/diluc-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "951fe1ec7f64daaaff6d66267d94d79887d7c09230fb45a59c34a25bded9ae25",
+      "chunks": 203,
+      "unmergedRowChunks": 203,
+      "glyphs": 6492,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "diluc-thumb",
+      "source": "assets/roster-v2/diluc-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "8874a5f1d226132272fae532446db1399361633c1ed17adc4150e3d27c0a9c72",
+      "chunks": 100,
+      "unmergedRowChunks": 100,
+      "glyphs": 2794,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "kaeya-portrait",
+      "source": "assets/roster-v2/kaeya-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "2b7da330557e61eed7007121603fd7356467d6164437f1148e56c2cdc6219e31",
+      "chunks": 186,
+      "unmergedRowChunks": 186,
+      "glyphs": 6189,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "kaeya-thumb",
+      "source": "assets/roster-v2/kaeya-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "df80c3792b7b299d255b1a5da46f41a4b0006acb5561442033b6b72e3996c104",
+      "chunks": 99,
+      "unmergedRowChunks": 99,
+      "glyphs": 2686,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "jean-portrait",
+      "source": "assets/roster-v2/jean-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "defd30d5bab064376012bdfc46bb92fb8a6955c2abbe019931161904939d56dc",
+      "chunks": 163,
+      "unmergedRowChunks": 163,
+      "glyphs": 4837,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "jean-thumb",
+      "source": "assets/roster-v2/jean-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "10347f1bc51651c6b4768ab1b62d57affc51485f23faa9d845e916d2faa7ae6d",
+      "chunks": 74,
+      "unmergedRowChunks": 74,
+      "glyphs": 2082,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "klee-portrait",
+      "source": "assets/roster-v2/klee-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "c84ccd44d5ca13a5dde026945ab682b57b9cbff4fcd8e12b2ed424d342bc73a0",
+      "chunks": 198,
+      "unmergedRowChunks": 198,
+      "glyphs": 6534,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "klee-thumb",
+      "source": "assets/roster-v2/klee-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "0574a60a66c10ccb7bb2c5042b4c079b8c00df89e32a8a40ca6c7d4995756bb2",
+      "chunks": 107,
+      "unmergedRowChunks": 107,
+      "glyphs": 2862,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "lisa-portrait",
+      "source": "assets/roster-v2/lisa-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "5a4d3de76c7caf7f6132bfab0e337a8c2246a530808b48fa0d9e9e01f3d36e14",
+      "chunks": 216,
+      "unmergedRowChunks": 216,
+      "glyphs": 7234,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "lisa-thumb",
+      "source": "assets/roster-v2/lisa-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "d3471650aa4c8e29cdafa3bf766c03dd4207191b0fdb4bf88aaa78dd13701f6d",
+      "chunks": 115,
+      "unmergedRowChunks": 115,
+      "glyphs": 3151,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "ganyu-portrait",
+      "source": "assets/roster-v2/ganyu-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "fbcd50d276049e260eb33e3209d280c83c417e80648d45864de60b28307fc6bb",
+      "chunks": 194,
+      "unmergedRowChunks": 194,
+      "glyphs": 5473,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "ganyu-thumb",
+      "source": "assets/roster-v2/ganyu-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "873a0e6e0e2ada3979dcd2c3f94ddbc0020985cb8584e5975010e899c16b522e",
+      "chunks": 99,
+      "unmergedRowChunks": 99,
+      "glyphs": 2370,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "yanfei-portrait",
+      "source": "assets/roster-v2/yanfei-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "549225f32f1f2b495adce86cc3dc31ce763ca0eab33814fb7ae7d2185a060d04",
+      "chunks": 222,
+      "unmergedRowChunks": 222,
+      "glyphs": 7129,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "yanfei-thumb",
+      "source": "assets/roster-v2/yanfei-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "005bab0de90b51727db804c5c72abaf34da097faca717b734bb2fcb25b2fe080",
+      "chunks": 119,
+      "unmergedRowChunks": 119,
+      "glyphs": 3104,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "xiao-portrait",
+      "source": "assets/roster-v2/xiao-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "13ed2c6af8232c02b3a1621824f58589a8e1d105e5c3223f5e8a5ec2ccaaea56",
+      "chunks": 175,
+      "unmergedRowChunks": 175,
+      "glyphs": 5533,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "xiao-thumb",
+      "source": "assets/roster-v2/xiao-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "11e90a992e786f5bc88c5698f3987d266a4e8fd4d5629a1077341d3a8af14f00",
+      "chunks": 97,
+      "unmergedRowChunks": 97,
+      "glyphs": 2418,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "hutao-portrait",
+      "source": "assets/roster-v2/hutao-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "b70308cea41af348cd7e70c457d3fd939c8fb96d4d4c21b5dd914450c2198d0e",
+      "chunks": 208,
+      "unmergedRowChunks": 208,
+      "glyphs": 7045,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "hutao-thumb",
+      "source": "assets/roster-v2/hutao-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "977d68d70e0fa2ff5c60c500a1cd0129c0e958be83f69a8feb2a8cabc5567d3c",
+      "chunks": 110,
+      "unmergedRowChunks": 110,
+      "glyphs": 3059,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "lawachurl-portrait",
+      "source": "assets/roster-v2/lawachurl-reference.webp",
+      "sourceSize": [
+        527,
+        755
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "9a7877f9e05a92d8bfbe5a52c2e93b57246db502a11a7e47047ac539abc4d22b",
+      "chunks": 223,
+      "unmergedRowChunks": 223,
+      "glyphs": 6706,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "lawachurl-thumb",
+      "source": "assets/roster-v2/lawachurl-reference.webp",
+      "sourceSize": [
+        527,
+        755
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "b6a35df58099d868ff15f458215061fe5fca7d4881719609ee5a70a1b469cb2a",
+      "chunks": 102,
+      "unmergedRowChunks": 102,
+      "glyphs": 2921,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "yaemiko-portrait",
+      "source": "assets/roster-v2/yaemiko-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "c36d6841d33049e7f08631c575ff63fecba6dae0a2e1bd838a50aa26cb8305fe",
+      "chunks": 202,
+      "unmergedRowChunks": 202,
+      "glyphs": 6086,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "yaemiko-thumb",
+      "source": "assets/roster-v2/yaemiko-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "e5694124d4dd2b86dd85efe700afb848b303f49109f72c2f9cf545bb09de7daa",
+      "chunks": 109,
+      "unmergedRowChunks": 109,
+      "glyphs": 2647,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "kirara-portrait",
+      "source": "assets/roster-v2/kirara-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "99933d9994bb5d84ee6339d6de4a0b8f4eb8c1e1b85399e76b19f5ef1a7de3d8",
+      "chunks": 204,
+      "unmergedRowChunks": 204,
+      "glyphs": 5733,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "kirara-thumb",
+      "source": "assets/roster-v2/kirara-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "967192062bdad2a6682e98b248cd55dd7bd279411aaa255554c135d62eca2e90",
+      "chunks": 86,
+      "unmergedRowChunks": 86,
+      "glyphs": 2466,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "kamisatoayaka-portrait",
+      "source": "assets/roster-v2/kamisatoayaka-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "e0082832347faa520993d1baa3e7d16cedb42a51d3fcf3dd2216cae8bcda88a1",
+      "chunks": 172,
+      "unmergedRowChunks": 172,
+      "glyphs": 4580,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "kamisatoayaka-thumb",
+      "source": "assets/roster-v2/kamisatoayaka-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "f429e85a1455aef742867526fd0804d7b4fb6743b550deadfd70e0f2309bcb7c",
+      "chunks": 71,
+      "unmergedRowChunks": 71,
+      "glyphs": 1966,
+      "maxChunkUtf8Bytes": 996,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "kamisatoayato-portrait",
+      "source": "assets/roster-v2/kamisatoayato-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "0ecc04dd7af6986bbd47e0fec2e725fc4be6fefe8daf33aaad3d4f2be0a5a6db",
+      "chunks": 186,
+      "unmergedRowChunks": 186,
+      "glyphs": 5344,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "kamisatoayato-thumb",
+      "source": "assets/roster-v2/kamisatoayato-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "a98d8347251cd6022f7adcbba8006cbf43d1002971204d8ee48efd44d92ed735",
+      "chunks": 82,
+      "unmergedRowChunks": 82,
+      "glyphs": 2305,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "aratakiitto-portrait",
+      "source": "assets/roster-v2/aratakiitto-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "0919e14c99847eaf554ce46e1ce70844ccbddf9db592276aa6a1718080b45a52",
+      "chunks": 210,
+      "unmergedRowChunks": 210,
+      "glyphs": 6511,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "aratakiitto-thumb",
+      "source": "assets/roster-v2/aratakiitto-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "1f004179e061c061aabc63c33d05dbc6afe5339d705cf69d5badae11d721f7ee",
+      "chunks": 101,
+      "unmergedRowChunks": 101,
+      "glyphs": 2824,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "sangonomiyakokomi-portrait",
+      "source": "assets/roster-v2/sangonomiyakokomi-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "3be5bb8b4d239b5032de6b80f3caf489b0c1331b318e19dabd304b926ca2f423",
+      "chunks": 186,
+      "unmergedRowChunks": 186,
+      "glyphs": 4925,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "sangonomiyakokomi-thumb",
+      "source": "assets/roster-v2/sangonomiyakokomi-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "75afc959e5f9cf0c3e335e7c258687074777c5750d8826507b785732720534ed",
+      "chunks": 71,
+      "unmergedRowChunks": 71,
+      "glyphs": 2100,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "neuvillette-portrait",
+      "source": "assets/roster-v2/neuvillette-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "3faaf27925db1481872a6bdb24980318a08fbf318f090c8e967cd14883f340c2",
+      "chunks": 196,
+      "unmergedRowChunks": 196,
+      "glyphs": 5637,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "neuvillette-thumb",
+      "source": "assets/roster-v2/neuvillette-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "b24fc9b42dc32890407c87932de2df481bd171c3f6c211fdfb7282f7741c7c54",
+      "chunks": 85,
+      "unmergedRowChunks": 85,
+      "glyphs": 2433,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "portrait",
+      "key": "nahida-portrait",
+      "source": "assets/roster-v2/nahida-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        96,
+        96
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "619071748dc8345e1ecd037484612b238b6f2e5c52eb8460fda56b198d90e66f",
+      "chunks": 219,
+      "unmergedRowChunks": 219,
+      "glyphs": 6383,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "thumb",
+      "key": "nahida-thumb",
+      "source": "assets/roster-v2/nahida-official-head.png",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "grid": [
+        64,
+        64
+      ],
+      "rgbQuantStep": 1,
+      "sourceGridSha256": "6efe6579596e1aa83598803abc81038a3b71e8e5b6d6c20fb340f26cbeb41094",
+      "chunks": 109,
+      "unmergedRowChunks": 109,
+      "glyphs": 2766,
+      "maxChunkUtf8Bytes": 999,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    },
+    {
+      "family": "stage",
+      "key": "training-room",
+      "source": "assets/training-room-20261005/training-room-paimon-source.png",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "grid": [
+        1280,
+        720
+      ],
+      "rgbQuantStep": 8,
+      "sourceGridSha256": "cf014e1d9026c838f1d9248eb8543bc8d540a094fd936a845f2327cce4b6da2b",
+      "chunks": 13001,
+      "unmergedRowChunks": 13001,
+      "glyphs": 933881,
+      "maxChunkUtf8Bytes": 1000,
+      "sourceGridCoverage": true,
+      "sampledDirectlyFromPng": true
+    }
+  ],
+  "pools": [
+    {
+      "parent": "HomeBust2",
+      "count": 1239
+    },
+    {
+      "parent": "HomeBust1",
+      "count": 1246
+    },
+    {
+      "parent": "Portrait2",
+      "count": 223
+    },
+    {
+      "parent": "Portrait1",
+      "count": 223
+    },
+    {
+      "parent": "GridFace10",
+      "count": 119
+    },
+    {
+      "parent": "GridFace9",
+      "count": 119
+    },
+    {
+      "parent": "GridFace8",
+      "count": 119
+    },
+    {
+      "parent": "GridFace7",
+      "count": 119
+    },
+    {
+      "parent": "GridFace6",
+      "count": 119
+    },
+    {
+      "parent": "GridFace5",
+      "count": 119
+    },
+    {
+      "parent": "GridFace4",
+      "count": 119
+    },
+    {
+      "parent": "GridFace3",
+      "count": 119
+    },
+    {
+      "parent": "GridFace2",
+      "count": 119
+    },
+    {
+      "parent": "GridFace1",
+      "count": 119
+    },
+    {
+      "parent": "CountryStage",
+      "count": 13001
+    }
+  ],
+  "totalTextControls": 17122,
+  "aBytes": 25797806,
+  "nativeSeamsVerified": false,
+  "nativePerformanceVerified": false
+}

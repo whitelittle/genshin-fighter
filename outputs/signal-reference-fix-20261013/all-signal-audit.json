@@ -1,0 +1,404 @@
+{
+  "filename": "gpt_20261013_GF3全部引用修正版.gia",
+  "signals": [
+    "GF3Hello",
+    "GF3Seat",
+    "GF3Progress",
+    "GF3Reveal",
+    "GF3Team",
+    "GF3Reset",
+    "GF3BattleHello",
+    "GF3BattleSeat",
+    "GF3BattleFrames",
+    "GF3BattleFramesOut",
+    "GF3Quit",
+    "GF3Close"
+  ],
+  "definitions": [
+    {
+      "id": 1073741977,
+      "kind": "监听信号",
+      "names": [
+        "GF3Hello"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073741978,
+      "kind": "发送信号",
+      "names": [
+        "GF3Hello"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741979,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Hello"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741980,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Hello"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741981,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Seat"
+      ],
+      "referencedNodes": 4
+    },
+    {
+      "id": 1073741982,
+      "kind": "发送信号",
+      "names": [
+        "GF3Seat"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741983,
+      "kind": "监听信号",
+      "names": [
+        "GF3Seat"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741984,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Seat"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741985,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Progress"
+      ],
+      "referencedNodes": 96
+    },
+    {
+      "id": 1073741986,
+      "kind": "发送信号",
+      "names": [
+        "GF3Progress"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741987,
+      "kind": "监听信号",
+      "names": [
+        "GF3Progress"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741988,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Progress"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741989,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Reveal"
+      ],
+      "referencedNodes": 10
+    },
+    {
+      "id": 1073741990,
+      "kind": "发送信号",
+      "names": [
+        "GF3Reveal"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741991,
+      "kind": "监听信号",
+      "names": [
+        "GF3Reveal"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741992,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Reveal"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741993,
+      "kind": "监听信号",
+      "names": [
+        "GF3Team"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073741994,
+      "kind": "发送信号",
+      "names": [
+        "GF3Team"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741995,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Team"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741996,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Team"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741997,
+      "kind": "监听信号",
+      "names": [
+        "GF3Reset"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073741998,
+      "kind": "发送信号",
+      "names": [
+        "GF3Reset"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073741999,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Reset"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742000,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Reset"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742001,
+      "kind": "监听信号",
+      "names": [
+        "GF3BattleHello"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073742002,
+      "kind": "发送信号",
+      "names": [
+        "GF3BattleHello"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742003,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3BattleHello"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742004,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3BattleHello"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742005,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3BattleSeat"
+      ],
+      "referencedNodes": 2
+    },
+    {
+      "id": 1073742006,
+      "kind": "发送信号",
+      "names": [
+        "GF3BattleSeat"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742007,
+      "kind": "监听信号",
+      "names": [
+        "GF3BattleSeat"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742008,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3BattleSeat"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742009,
+      "kind": "监听信号",
+      "names": [
+        "GF3BattleFrames"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073742010,
+      "kind": "发送信号",
+      "names": [
+        "GF3BattleFrames"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742011,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3BattleFrames"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742012,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3BattleFrames"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742013,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3BattleFramesOut"
+      ],
+      "referencedNodes": 2
+    },
+    {
+      "id": 1073742014,
+      "kind": "发送信号",
+      "names": [
+        "GF3BattleFramesOut"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742015,
+      "kind": "监听信号",
+      "names": [
+        "GF3BattleFramesOut"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742016,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3BattleFramesOut"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742017,
+      "kind": "监听信号",
+      "names": [
+        "GF3Quit"
+      ],
+      "referencedNodes": 1
+    },
+    {
+      "id": 1073742018,
+      "kind": "发送信号",
+      "names": [
+        "GF3Quit"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742019,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Quit"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742020,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Quit"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742021,
+      "kind": "发送客户端脚本信号",
+      "names": [
+        "GF3Close"
+      ],
+      "referencedNodes": 4
+    },
+    {
+      "id": 1073742022,
+      "kind": "发送信号",
+      "names": [
+        "GF3Close"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742023,
+      "kind": "监听信号",
+      "names": [
+        "GF3Close"
+      ],
+      "referencedNodes": 0
+    },
+    {
+      "id": 1073742024,
+      "kind": "向服务器节点图发送信号",
+      "names": [
+        "GF3Close"
+      ],
+      "referencedNodes": 0
+    }
+  ],
+  "numericNameOccurrences": {}
+}

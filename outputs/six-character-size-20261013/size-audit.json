@@ -1,0 +1,3618 @@
+{
+  "scope": "fixed physical transforms; anatomical source units retained, bbox height not normalized; mock only",
+  "checks": [
+    {
+      "key": "raidenshogun",
+      "action": "idle",
+      "endpoint": 1,
+      "pose": "basic_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "idle",
+      "endpoint": 2,
+      "pose": "basic_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "walk",
+      "endpoint": 1,
+      "pose": "basic_2",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "walk",
+      "endpoint": 2,
+      "pose": "basic_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "back",
+      "endpoint": 1,
+      "pose": "basic_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "back",
+      "endpoint": 2,
+      "pose": "basic_2",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "jump",
+      "endpoint": 1,
+      "pose": "move_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "jump",
+      "endpoint": 2,
+      "pose": "move_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "dash",
+      "endpoint": 1,
+      "pose": "move_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "dash",
+      "endpoint": 2,
+      "pose": "move_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "backdash",
+      "endpoint": 1,
+      "pose": "move_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "backdash",
+      "endpoint": 2,
+      "pose": "move_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "crouch",
+      "endpoint": 1,
+      "pose": "guard_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "crouch",
+      "endpoint": 2,
+      "pose": "guard_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "block",
+      "endpoint": 1,
+      "pose": "guard_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "block",
+      "endpoint": 2,
+      "pose": "guard_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "cblock",
+      "endpoint": 1,
+      "pose": "guard_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "cblock",
+      "endpoint": 2,
+      "pose": "guard_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "light1",
+      "endpoint": 1,
+      "pose": "light_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "light1",
+      "endpoint": 2,
+      "pose": "light_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "light2",
+      "endpoint": 1,
+      "pose": "light_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "light2",
+      "endpoint": 2,
+      "pose": "light_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "light3",
+      "endpoint": 1,
+      "pose": "heavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "light3",
+      "endpoint": 2,
+      "pose": "heavy_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "heavy",
+      "endpoint": 1,
+      "pose": "heavy_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "heavy",
+      "endpoint": 2,
+      "pose": "heavy_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "crouchLight",
+      "endpoint": 1,
+      "pose": "air_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "crouchLight",
+      "endpoint": 2,
+      "pose": "air_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "crouchHeavy",
+      "endpoint": 1,
+      "pose": "air_2",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "crouchHeavy",
+      "endpoint": 2,
+      "pose": "air_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "airLight",
+      "endpoint": 1,
+      "pose": "air_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "airLight",
+      "endpoint": 2,
+      "pose": "air_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "airHeavy",
+      "endpoint": 1,
+      "pose": "air_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "airHeavy",
+      "endpoint": 2,
+      "pose": "air_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "skill",
+      "endpoint": 1,
+      "pose": "skill_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "skill",
+      "endpoint": 2,
+      "pose": "skill_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "burst",
+      "endpoint": 1,
+      "pose": "qburst_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "burst",
+      "endpoint": 2,
+      "pose": "qburst_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "throw",
+      "endpoint": 1,
+      "pose": "throw_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "throw",
+      "endpoint": 2,
+      "pose": "throw_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "thrown",
+      "endpoint": 1,
+      "pose": "victim_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "thrown",
+      "endpoint": 2,
+      "pose": "victim_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "hurt",
+      "endpoint": 1,
+      "pose": "hurt_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "hurt",
+      "endpoint": 2,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "getup",
+      "endpoint": 1,
+      "pose": "hurt_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "getup",
+      "endpoint": 2,
+      "pose": "hurt_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "win",
+      "endpoint": 1,
+      "pose": "hurt_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "win",
+      "endpoint": 2,
+      "pose": "hurt_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "lose",
+      "endpoint": 1,
+      "pose": "hurt_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "raidenshogun",
+      "action": "lose",
+      "endpoint": 2,
+      "pose": "hurt_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "idle",
+      "endpoint": 1,
+      "pose": "basic_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "idle",
+      "endpoint": 2,
+      "pose": "basic_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "walk",
+      "endpoint": 1,
+      "pose": "basic_2",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "walk",
+      "endpoint": 2,
+      "pose": "basic_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "back",
+      "endpoint": 1,
+      "pose": "basic_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "back",
+      "endpoint": 2,
+      "pose": "basic_2",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "jump",
+      "endpoint": 1,
+      "pose": "move_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "jump",
+      "endpoint": 2,
+      "pose": "move_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "dash",
+      "endpoint": 1,
+      "pose": "move_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "dash",
+      "endpoint": 2,
+      "pose": "move_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "backdash",
+      "endpoint": 1,
+      "pose": "move_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "backdash",
+      "endpoint": 2,
+      "pose": "move_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "crouch",
+      "endpoint": 1,
+      "pose": "guard_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "crouch",
+      "endpoint": 2,
+      "pose": "guard_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "block",
+      "endpoint": 1,
+      "pose": "guard_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "block",
+      "endpoint": 2,
+      "pose": "guard_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "cblock",
+      "endpoint": 1,
+      "pose": "guard_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "cblock",
+      "endpoint": 2,
+      "pose": "guard_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "light1",
+      "endpoint": 1,
+      "pose": "light_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "light1",
+      "endpoint": 2,
+      "pose": "light_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "light2",
+      "endpoint": 1,
+      "pose": "light_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "light2",
+      "endpoint": 2,
+      "pose": "light_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "light3",
+      "endpoint": 1,
+      "pose": "heavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "light3",
+      "endpoint": 2,
+      "pose": "heavy_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "heavy",
+      "endpoint": 1,
+      "pose": "heavy_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "heavy",
+      "endpoint": 2,
+      "pose": "heavy_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "crouchLight",
+      "endpoint": 1,
+      "pose": "air_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "crouchLight",
+      "endpoint": 2,
+      "pose": "air_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "crouchHeavy",
+      "endpoint": 1,
+      "pose": "air_2",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "crouchHeavy",
+      "endpoint": 2,
+      "pose": "air_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "airLight",
+      "endpoint": 1,
+      "pose": "air_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "airLight",
+      "endpoint": 2,
+      "pose": "air_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "airHeavy",
+      "endpoint": 1,
+      "pose": "air_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "airHeavy",
+      "endpoint": 2,
+      "pose": "air_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "skill",
+      "endpoint": 1,
+      "pose": "skill_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "skill",
+      "endpoint": 2,
+      "pose": "skill_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "burst",
+      "endpoint": 1,
+      "pose": "skill_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "burst",
+      "endpoint": 2,
+      "pose": "skill_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "throw",
+      "endpoint": 1,
+      "pose": "throw_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "throw",
+      "endpoint": 2,
+      "pose": "throw_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "thrown",
+      "endpoint": 1,
+      "pose": "victim_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "thrown",
+      "endpoint": 2,
+      "pose": "victim_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "hurt",
+      "endpoint": 1,
+      "pose": "hurt_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "hurt",
+      "endpoint": 2,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "getup",
+      "endpoint": 1,
+      "pose": "hurt_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "getup",
+      "endpoint": 2,
+      "pose": "hurt_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "win",
+      "endpoint": 1,
+      "pose": "hurt_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "win",
+      "endpoint": 2,
+      "pose": "hurt_6",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "lose",
+      "endpoint": 1,
+      "pose": "hurt_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "nahida",
+      "action": "lose",
+      "endpoint": 2,
+      "pose": "hurt_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "back",
+      "endpoint": 1,
+      "pose": "back_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "back",
+      "endpoint": 2,
+      "pose": "back_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "airHeavy",
+      "endpoint": 1,
+      "pose": "airHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "airHeavy",
+      "endpoint": 2,
+      "pose": "airHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "cblock",
+      "endpoint": 1,
+      "pose": "cblock_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "cblock",
+      "endpoint": 2,
+      "pose": "cblock_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "win",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "win",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "lose",
+      "endpoint": 1,
+      "pose": "lose_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "lose",
+      "endpoint": 2,
+      "pose": "lose_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "dash",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "dash",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "walk",
+      "endpoint": 1,
+      "pose": "walk_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "walk",
+      "endpoint": 2,
+      "pose": "walk_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "getup",
+      "endpoint": 1,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "getup",
+      "endpoint": 2,
+      "pose": "getup_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "backdash",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "backdash",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "burst",
+      "endpoint": 1,
+      "pose": "burst_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "burst",
+      "endpoint": 2,
+      "pose": "burst_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "thrown",
+      "endpoint": 1,
+      "pose": "thrown_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "thrown",
+      "endpoint": 2,
+      "pose": "thrown_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "skill",
+      "endpoint": 1,
+      "pose": "skill_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "skill",
+      "endpoint": 2,
+      "pose": "skill_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "heavy",
+      "endpoint": 1,
+      "pose": "heavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "heavy",
+      "endpoint": 2,
+      "pose": "heavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "crouchLight",
+      "endpoint": 1,
+      "pose": "crouchLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "crouchLight",
+      "endpoint": 2,
+      "pose": "crouchLight_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "crouchHeavy",
+      "endpoint": 1,
+      "pose": "crouchHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "crouchHeavy",
+      "endpoint": 2,
+      "pose": "crouchHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "light3",
+      "endpoint": 1,
+      "pose": "light3_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "light3",
+      "endpoint": 2,
+      "pose": "light3_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "light2",
+      "endpoint": 1,
+      "pose": "light2_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "light2",
+      "endpoint": 2,
+      "pose": "light2_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "jump",
+      "endpoint": 1,
+      "pose": "jump_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "jump",
+      "endpoint": 2,
+      "pose": "jump_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "block",
+      "endpoint": 1,
+      "pose": "block_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "block",
+      "endpoint": 2,
+      "pose": "block_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "crouch",
+      "endpoint": 1,
+      "pose": "crouch_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "crouch",
+      "endpoint": 2,
+      "pose": "crouch_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "light1",
+      "endpoint": 1,
+      "pose": "light1_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "light1",
+      "endpoint": 2,
+      "pose": "light1_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "airLight",
+      "endpoint": 1,
+      "pose": "airLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "airLight",
+      "endpoint": 2,
+      "pose": "airLight_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "throw",
+      "endpoint": 1,
+      "pose": "throw_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "throw",
+      "endpoint": 2,
+      "pose": "throw_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "idle",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "idle",
+      "endpoint": 2,
+      "pose": "idle_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "hurt",
+      "endpoint": 1,
+      "pose": "hurt_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "furina",
+      "action": "hurt",
+      "endpoint": 2,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "airLight",
+      "endpoint": 1,
+      "pose": "airLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "airLight",
+      "endpoint": 2,
+      "pose": "airLight_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "jump",
+      "endpoint": 1,
+      "pose": "jump_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "jump",
+      "endpoint": 2,
+      "pose": "jump_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "burst",
+      "endpoint": 1,
+      "pose": "burst_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "burst",
+      "endpoint": 2,
+      "pose": "burst_7",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "hurt",
+      "endpoint": 1,
+      "pose": "hurt_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "hurt",
+      "endpoint": 2,
+      "pose": "thrown_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "crouchHeavy",
+      "endpoint": 1,
+      "pose": "crouchHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "crouchHeavy",
+      "endpoint": 2,
+      "pose": "crouchHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "dash",
+      "endpoint": 1,
+      "pose": "dash_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "dash",
+      "endpoint": 2,
+      "pose": "dash_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "light1",
+      "endpoint": 1,
+      "pose": "light1_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "light1",
+      "endpoint": 2,
+      "pose": "light1_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "back",
+      "endpoint": 1,
+      "pose": "back_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "back",
+      "endpoint": 2,
+      "pose": "back_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "cblock",
+      "endpoint": 1,
+      "pose": "cblock_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "cblock",
+      "endpoint": 2,
+      "pose": "cblock_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "getup",
+      "endpoint": 1,
+      "pose": "getup_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "getup",
+      "endpoint": 2,
+      "pose": "getup_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "thrown",
+      "endpoint": 1,
+      "pose": "thrown_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "thrown",
+      "endpoint": 2,
+      "pose": "thrown_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "crouch",
+      "endpoint": 1,
+      "pose": "crouch_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "crouch",
+      "endpoint": 2,
+      "pose": "crouch_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "walk",
+      "endpoint": 1,
+      "pose": "walk_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "walk",
+      "endpoint": 2,
+      "pose": "walk_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "win",
+      "endpoint": 1,
+      "pose": "win_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "win",
+      "endpoint": 2,
+      "pose": "win_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "throw",
+      "endpoint": 1,
+      "pose": "throw_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "throw",
+      "endpoint": 2,
+      "pose": "throw_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "idle",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "idle",
+      "endpoint": 2,
+      "pose": "idle_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "skill",
+      "endpoint": 1,
+      "pose": "skill_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "skill",
+      "endpoint": 2,
+      "pose": "skill_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "lose",
+      "endpoint": 1,
+      "pose": "lose_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "lose",
+      "endpoint": 2,
+      "pose": "lose_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "light3",
+      "endpoint": 1,
+      "pose": "light3_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "light3",
+      "endpoint": 2,
+      "pose": "light3_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "block",
+      "endpoint": 1,
+      "pose": "block_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "block",
+      "endpoint": 2,
+      "pose": "block_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "light2",
+      "endpoint": 1,
+      "pose": "light2_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "light2",
+      "endpoint": 2,
+      "pose": "light2_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "heavy",
+      "endpoint": 1,
+      "pose": "heavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "heavy",
+      "endpoint": 2,
+      "pose": "heavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "airHeavy",
+      "endpoint": 1,
+      "pose": "airHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "airHeavy",
+      "endpoint": 2,
+      "pose": "airHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "crouchLight",
+      "endpoint": 1,
+      "pose": "crouchLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "crouchLight",
+      "endpoint": 2,
+      "pose": "crouchLight_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "backdash",
+      "endpoint": 1,
+      "pose": "backdash_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "kamisatoayaka",
+      "action": "backdash",
+      "endpoint": 2,
+      "pose": "backdash_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "light2",
+      "endpoint": 1,
+      "pose": "light2_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "light2",
+      "endpoint": 2,
+      "pose": "light2_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "airLight",
+      "endpoint": 1,
+      "pose": "airLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "airLight",
+      "endpoint": 2,
+      "pose": "airLight_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "cblock",
+      "endpoint": 1,
+      "pose": "cblock_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "cblock",
+      "endpoint": 2,
+      "pose": "cblock_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "win",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "win",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "crouchLight",
+      "endpoint": 1,
+      "pose": "crouchLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "crouchLight",
+      "endpoint": 2,
+      "pose": "crouchLight_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "walk",
+      "endpoint": 1,
+      "pose": "walk_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "walk",
+      "endpoint": 2,
+      "pose": "walk_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "crouchHeavy",
+      "endpoint": 1,
+      "pose": "crouchHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "crouchHeavy",
+      "endpoint": 2,
+      "pose": "crouchHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "hurt",
+      "endpoint": 1,
+      "pose": "hurt_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "hurt",
+      "endpoint": 2,
+      "pose": "thrown_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "backdash",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "backdash",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "skill",
+      "endpoint": 1,
+      "pose": "skill_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "skill",
+      "endpoint": 2,
+      "pose": "skill_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "throw",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "throw",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "thrown",
+      "endpoint": 1,
+      "pose": "thrown_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "thrown",
+      "endpoint": 2,
+      "pose": "thrown_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "block",
+      "endpoint": 1,
+      "pose": "block_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "block",
+      "endpoint": 2,
+      "pose": "block_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "lose",
+      "endpoint": 1,
+      "pose": "lose_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "lose",
+      "endpoint": 2,
+      "pose": "lose_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "light1",
+      "endpoint": 1,
+      "pose": "light1_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "light1",
+      "endpoint": 2,
+      "pose": "light1_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "light3",
+      "endpoint": 1,
+      "pose": "light3_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "light3",
+      "endpoint": 2,
+      "pose": "light3_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "jump",
+      "endpoint": 1,
+      "pose": "jump_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "jump",
+      "endpoint": 2,
+      "pose": "jump_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "back",
+      "endpoint": 1,
+      "pose": "back_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "back",
+      "endpoint": 2,
+      "pose": "back_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "idle",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "idle",
+      "endpoint": 2,
+      "pose": "idle_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "crouch",
+      "endpoint": 1,
+      "pose": "crouch_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "crouch",
+      "endpoint": 2,
+      "pose": "crouch_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "getup",
+      "endpoint": 1,
+      "pose": "thrown_4",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "getup",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "burst",
+      "endpoint": 1,
+      "pose": "burst_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "burst",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "heavy",
+      "endpoint": 1,
+      "pose": "heavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "heavy",
+      "endpoint": 2,
+      "pose": "heavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "dash",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "dash",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "airHeavy",
+      "endpoint": 1,
+      "pose": "airHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "clorinde",
+      "action": "airHeavy",
+      "endpoint": 2,
+      "pose": "airHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "idle",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "idle",
+      "endpoint": 2,
+      "pose": "idle_1",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "crouch",
+      "endpoint": 1,
+      "pose": "crouch_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "crouch",
+      "endpoint": 2,
+      "pose": "crouch_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "crouchHeavy",
+      "endpoint": 1,
+      "pose": "crouchHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "crouchHeavy",
+      "endpoint": 2,
+      "pose": "crouchHeavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "crouchLight",
+      "endpoint": 1,
+      "pose": "crouchLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "crouchLight",
+      "endpoint": 2,
+      "pose": "crouchLight_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "light3",
+      "endpoint": 1,
+      "pose": "light3_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "light3",
+      "endpoint": 2,
+      "pose": "light3_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "airLight",
+      "endpoint": 1,
+      "pose": "airLight_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "airLight",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "walk",
+      "endpoint": 1,
+      "pose": "walk_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "walk",
+      "endpoint": 2,
+      "pose": "walk_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "burst",
+      "endpoint": 1,
+      "pose": "burst_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "burst",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "backdash",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "backdash",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "airHeavy",
+      "endpoint": 1,
+      "pose": "airHeavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "airHeavy",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "win",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "win",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "jump",
+      "endpoint": 1,
+      "pose": "jump_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "jump",
+      "endpoint": 2,
+      "pose": "jump_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "getup",
+      "endpoint": 1,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "getup",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "back",
+      "endpoint": 1,
+      "pose": "back_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "back",
+      "endpoint": 2,
+      "pose": "back_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "hurt",
+      "endpoint": 1,
+      "pose": "hurt_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "hurt",
+      "endpoint": 2,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "throw",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "throw",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "light1",
+      "endpoint": 1,
+      "pose": "light1_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "light1",
+      "endpoint": 2,
+      "pose": "light1_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "light2",
+      "endpoint": 1,
+      "pose": "light2_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "light2",
+      "endpoint": 2,
+      "pose": "light2_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "skill",
+      "endpoint": 1,
+      "pose": "skill_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "skill",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "lose",
+      "endpoint": 1,
+      "pose": "lose_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "lose",
+      "endpoint": 2,
+      "pose": "lose_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "thrown",
+      "endpoint": 1,
+      "pose": "thrown_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "thrown",
+      "endpoint": 2,
+      "pose": "hurt_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "cblock",
+      "endpoint": 1,
+      "pose": "cblock_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "cblock",
+      "endpoint": 2,
+      "pose": "cblock_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "dash",
+      "endpoint": 1,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "dash",
+      "endpoint": 2,
+      "pose": "idle_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "heavy",
+      "endpoint": 1,
+      "pose": "heavy_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "heavy",
+      "endpoint": 2,
+      "pose": "heavy_5",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "block",
+      "endpoint": 1,
+      "pose": "block_0",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    },
+    {
+      "key": "arlecchino",
+      "action": "block",
+      "endpoint": 2,
+      "pose": "block_3",
+      "rootScale": [
+        1,
+        1
+      ],
+      "cameraZoom": 1,
+      "sourceUnitRetained": true
+    }
+  ],
+  "imports": [
+    {
+      "key": "clorinde",
+      "pixelStates": 156,
+      "exact": true
+    },
+    {
+      "key": "arlecchino",
+      "pixelStates": 159,
+      "exact": true
+    }
+  ],
+  "sourceSha256": "3b59074ee569303ebdcc21f1cf06cc07e3c7ad3e7285abaac4e0a5cc1cab0a48"
+}

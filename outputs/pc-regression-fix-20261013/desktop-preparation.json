@@ -1,0 +1,35 @@
+{
+  "mockOnly": true,
+  "cases": [
+    {
+      "device": "KeyboardAndMouse",
+      "key": "clorinde",
+      "preparedFrames": [
+        129,
+        129
+      ],
+      "stepsOn200msCallback": 4,
+      "LZ4Blocks": 0
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "key": "nahida",
+      "preparedFrames": [
+        148,
+        148
+      ],
+      "stepsOn200msCallback": 4,
+      "LZ4Blocks": 0
+    },
+    {
+      "device": "Mobile",
+      "key": "clorinde",
+      "preparedFrames": [
+        0,
+        0
+      ],
+      "stepsOn200msCallback": 8,
+      "LZ4Blocks": 0
+    }
+  ]
+}

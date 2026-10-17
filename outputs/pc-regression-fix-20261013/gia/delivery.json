@@ -1,0 +1,59 @@
+{
+  "name": "gpt_20261013_PC回归与特效崩溃修复",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 5,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_PC回归与特效崩溃修复_A.gia",
+      "bytes": 5135034,
+      "sha256": "a09c1df4b369063fa6c09471e15ef8a3755e3349a6dc55a7a25c8eda118a006a"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_PC回归与特效崩溃修复_仅脚本.gia",
+      "bytes": 4853260,
+      "sha256": "6c081a8d4d686aa8e6a7ea17f2aec0bca6751d89d2ae1ea8980a157a1e44f62f"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_PC回归与特效崩溃修复_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_PC回归与特效崩溃修复.lua",
+      "bytes": 4853062,
+      "sha256": "ddf5783f924380c52995cf3fbd3ae9741d1d0b13432c43007099c172cac6a999"
+    }
+  ],
+  "sourceSha256": "ddf5783f924380c52995cf3fbd3ae9741d1d0b13432c43007099c172cac6a999",
+  "templateSha256": "28fdcfe46d4a9a519f596b5f3cb1690f5c7c9ecbe99881b8c11a6a81c39e93bb",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "single-character GFV2 preserved; independent GF3 team preparation and GF3Battle frames required",
+  "nativeDeviceTested": false,
+  "externalDelivery": true,
+  "copySha256Verified": true,
+  "compressed": false,
+  "importsRequired": [
+    "gpt_20261013_PC回归与特效崩溃修复_仅脚本.gia"
+  ],
+  "serverNodeUnchanged": true
+}

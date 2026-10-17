@@ -1,0 +1,888 @@
+{
+  "checks": [
+    {
+      "pose": "airHeavy_0",
+      "originalRects": 694,
+      "outlinedRects": 858,
+      "addedPixels": 495,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airHeavy_1",
+      "originalRects": 905,
+      "outlinedRects": 1114,
+      "addedPixels": 637,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airHeavy_2",
+      "originalRects": 829,
+      "outlinedRects": 1027,
+      "addedPixels": 566,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airHeavy_3",
+      "originalRects": 929,
+      "outlinedRects": 1165,
+      "addedPixels": 673,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airHeavy_4",
+      "originalRects": 971,
+      "outlinedRects": 1147,
+      "addedPixels": 542,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airHeavy_5",
+      "originalRects": 976,
+      "outlinedRects": 1167,
+      "addedPixels": 597,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airLight_0",
+      "originalRects": 717,
+      "outlinedRects": 851,
+      "addedPixels": 401,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airLight_1",
+      "originalRects": 735,
+      "outlinedRects": 885,
+      "addedPixels": 446,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airLight_2",
+      "originalRects": 679,
+      "outlinedRects": 833,
+      "addedPixels": 467,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airLight_3",
+      "originalRects": 748,
+      "outlinedRects": 922,
+      "addedPixels": 515,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airLight_4",
+      "originalRects": 630,
+      "outlinedRects": 750,
+      "addedPixels": 348,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "airLight_5",
+      "originalRects": 567,
+      "outlinedRects": 689,
+      "addedPixels": 359,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "back_0",
+      "originalRects": 615,
+      "outlinedRects": 790,
+      "addedPixels": 497,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "back_1",
+      "originalRects": 557,
+      "outlinedRects": 694,
+      "addedPixels": 407,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "back_2",
+      "originalRects": 567,
+      "outlinedRects": 679,
+      "addedPixels": 333,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "back_3",
+      "originalRects": 610,
+      "outlinedRects": 760,
+      "addedPixels": 427,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "back_4",
+      "originalRects": 571,
+      "outlinedRects": 702,
+      "addedPixels": 390,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "back_5",
+      "originalRects": 516,
+      "outlinedRects": 615,
+      "addedPixels": 315,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "backdash_0",
+      "originalRects": 604,
+      "outlinedRects": 739,
+      "addedPixels": 406,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "backdash_1",
+      "originalRects": 593,
+      "outlinedRects": 753,
+      "addedPixels": 445,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "backdash_2",
+      "originalRects": 614,
+      "outlinedRects": 775,
+      "addedPixels": 475,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "backdash_3",
+      "originalRects": 674,
+      "outlinedRects": 832,
+      "addedPixels": 457,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "block_0",
+      "originalRects": 734,
+      "outlinedRects": 875,
+      "addedPixels": 466,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "block_1",
+      "originalRects": 736,
+      "outlinedRects": 886,
+      "addedPixels": 478,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "block_2",
+      "originalRects": 771,
+      "outlinedRects": 928,
+      "addedPixels": 472,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "block_3",
+      "originalRects": 719,
+      "outlinedRects": 862,
+      "addedPixels": 458,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "burst_0",
+      "originalRects": 959,
+      "outlinedRects": 1130,
+      "addedPixels": 514,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "burst_1",
+      "originalRects": 967,
+      "outlinedRects": 1142,
+      "addedPixels": 509,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "burst_2",
+      "originalRects": 734,
+      "outlinedRects": 924,
+      "addedPixels": 592,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "burst_3",
+      "originalRects": 473,
+      "outlinedRects": 630,
+      "addedPixels": 485,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "burst_5",
+      "originalRects": 1038,
+      "outlinedRects": 1198,
+      "addedPixels": 503,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "burst_7",
+      "originalRects": 962,
+      "outlinedRects": 1144,
+      "addedPixels": 522,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "cblock_0",
+      "originalRects": 774,
+      "outlinedRects": 961,
+      "addedPixels": 524,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "cblock_1",
+      "originalRects": 723,
+      "outlinedRects": 898,
+      "addedPixels": 516,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "cblock_2",
+      "originalRects": 793,
+      "outlinedRects": 960,
+      "addedPixels": 489,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "cblock_3",
+      "originalRects": 778,
+      "outlinedRects": 947,
+      "addedPixels": 490,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchHeavy_0",
+      "originalRects": 843,
+      "outlinedRects": 978,
+      "addedPixels": 433,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchHeavy_1",
+      "originalRects": 808,
+      "outlinedRects": 958,
+      "addedPixels": 503,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchHeavy_2",
+      "originalRects": 653,
+      "outlinedRects": 775,
+      "addedPixels": 385,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchHeavy_3",
+      "originalRects": 734,
+      "outlinedRects": 888,
+      "addedPixels": 484,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchHeavy_4",
+      "originalRects": 809,
+      "outlinedRects": 941,
+      "addedPixels": 425,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchHeavy_5",
+      "originalRects": 810,
+      "outlinedRects": 947,
+      "addedPixels": 421,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchLight_0",
+      "originalRects": 728,
+      "outlinedRects": 869,
+      "addedPixels": 471,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchLight_1",
+      "originalRects": 722,
+      "outlinedRects": 865,
+      "addedPixels": 494,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchLight_2",
+      "originalRects": 647,
+      "outlinedRects": 779,
+      "addedPixels": 449,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchLight_3",
+      "originalRects": 677,
+      "outlinedRects": 813,
+      "addedPixels": 454,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchLight_4",
+      "originalRects": 731,
+      "outlinedRects": 872,
+      "addedPixels": 467,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouchLight_5",
+      "originalRects": 642,
+      "outlinedRects": 772,
+      "addedPixels": 445,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouch_0",
+      "originalRects": 602,
+      "outlinedRects": 730,
+      "addedPixels": 402,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouch_1",
+      "originalRects": 575,
+      "outlinedRects": 698,
+      "addedPixels": 360,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouch_2",
+      "originalRects": 562,
+      "outlinedRects": 680,
+      "addedPixels": 333,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "crouch_3",
+      "originalRects": 533,
+      "outlinedRects": 650,
+      "addedPixels": 322,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "dash_0",
+      "originalRects": 775,
+      "outlinedRects": 947,
+      "addedPixels": 486,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "dash_1",
+      "originalRects": 871,
+      "outlinedRects": 1103,
+      "addedPixels": 729,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "dash_2",
+      "originalRects": 787,
+      "outlinedRects": 973,
+      "addedPixels": 588,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "dash_3",
+      "originalRects": 742,
+      "outlinedRects": 913,
+      "addedPixels": 475,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "getup_0",
+      "originalRects": 314,
+      "outlinedRects": 361,
+      "addedPixels": 196,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "getup_1",
+      "originalRects": 503,
+      "outlinedRects": 577,
+      "addedPixels": 249,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "getup_2",
+      "originalRects": 634,
+      "outlinedRects": 735,
+      "addedPixels": 316,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "getup_3",
+      "originalRects": 754,
+      "outlinedRects": 895,
+      "addedPixels": 467,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "heavy_0",
+      "originalRects": 771,
+      "outlinedRects": 938,
+      "addedPixels": 508,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "heavy_1",
+      "originalRects": 793,
+      "outlinedRects": 940,
+      "addedPixels": 455,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "heavy_2",
+      "originalRects": 832,
+      "outlinedRects": 1054,
+      "addedPixels": 612,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "heavy_3",
+      "originalRects": 610,
+      "outlinedRects": 762,
+      "addedPixels": 469,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "heavy_4",
+      "originalRects": 721,
+      "outlinedRects": 886,
+      "addedPixels": 519,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "heavy_5",
+      "originalRects": 699,
+      "outlinedRects": 849,
+      "addedPixels": 483,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "hurt_0",
+      "originalRects": 614,
+      "outlinedRects": 785,
+      "addedPixels": 519,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "hurt_1",
+      "originalRects": 495,
+      "outlinedRects": 676,
+      "addedPixels": 498,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "hurt_2",
+      "originalRects": 510,
+      "outlinedRects": 621,
+      "addedPixels": 325,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "idle_0",
+      "originalRects": 566,
+      "outlinedRects": 683,
+      "addedPixels": 394,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "idle_1",
+      "originalRects": 570,
+      "outlinedRects": 718,
+      "addedPixels": 444,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "jump_0",
+      "originalRects": 716,
+      "outlinedRects": 880,
+      "addedPixels": 504,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "jump_1",
+      "originalRects": 768,
+      "outlinedRects": 943,
+      "addedPixels": 534,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "jump_2",
+      "originalRects": 697,
+      "outlinedRects": 852,
+      "addedPixels": 506,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "jump_3",
+      "originalRects": 792,
+      "outlinedRects": 937,
+      "addedPixels": 459,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "jump_4",
+      "originalRects": 671,
+      "outlinedRects": 805,
+      "addedPixels": 409,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "jump_5",
+      "originalRects": 649,
+      "outlinedRects": 788,
+      "addedPixels": 434,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light1_0",
+      "originalRects": 822,
+      "outlinedRects": 989,
+      "addedPixels": 479,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light1_1",
+      "originalRects": 808,
+      "outlinedRects": 964,
+      "addedPixels": 462,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light1_2",
+      "originalRects": 748,
+      "outlinedRects": 915,
+      "addedPixels": 552,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light1_3",
+      "originalRects": 862,
+      "outlinedRects": 1045,
+      "addedPixels": 568,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light1_4",
+      "originalRects": 933,
+      "outlinedRects": 1126,
+      "addedPixels": 591,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light1_5",
+      "originalRects": 906,
+      "outlinedRects": 1089,
+      "addedPixels": 567,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light2_0",
+      "originalRects": 673,
+      "outlinedRects": 830,
+      "addedPixels": 491,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light2_1",
+      "originalRects": 737,
+      "outlinedRects": 886,
+      "addedPixels": 442,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light2_2",
+      "originalRects": 817,
+      "outlinedRects": 1020,
+      "addedPixels": 558,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light2_3",
+      "originalRects": 785,
+      "outlinedRects": 964,
+      "addedPixels": 552,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light2_4",
+      "originalRects": 992,
+      "outlinedRects": 1177,
+      "addedPixels": 552,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light2_5",
+      "originalRects": 707,
+      "outlinedRects": 850,
+      "addedPixels": 483,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light3_0",
+      "originalRects": 772,
+      "outlinedRects": 923,
+      "addedPixels": 479,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light3_1",
+      "originalRects": 822,
+      "outlinedRects": 1007,
+      "addedPixels": 544,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light3_2",
+      "originalRects": 934,
+      "outlinedRects": 1176,
+      "addedPixels": 682,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light3_3",
+      "originalRects": 864,
+      "outlinedRects": 1042,
+      "addedPixels": 530,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light3_4",
+      "originalRects": 783,
+      "outlinedRects": 957,
+      "addedPixels": 508,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "light3_5",
+      "originalRects": 800,
+      "outlinedRects": 951,
+      "addedPixels": 475,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "lose_0",
+      "originalRects": 653,
+      "outlinedRects": 806,
+      "addedPixels": 456,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "lose_1",
+      "originalRects": 766,
+      "outlinedRects": 933,
+      "addedPixels": 486,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "lose_2",
+      "originalRects": 584,
+      "outlinedRects": 683,
+      "addedPixels": 338,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "lose_3",
+      "originalRects": 415,
+      "outlinedRects": 473,
+      "addedPixels": 214,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "skill_0",
+      "originalRects": 800,
+      "outlinedRects": 950,
+      "addedPixels": 471,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "skill_1",
+      "originalRects": 977,
+      "outlinedRects": 1159,
+      "addedPixels": 539,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "skill_2",
+      "originalRects": 843,
+      "outlinedRects": 1022,
+      "addedPixels": 522,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "skill_3",
+      "originalRects": 870,
+      "outlinedRects": 1054,
+      "addedPixels": 535,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "skill_4",
+      "originalRects": 893,
+      "outlinedRects": 1076,
+      "addedPixels": 537,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "skill_5",
+      "originalRects": 783,
+      "outlinedRects": 947,
+      "addedPixels": 530,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "throw_0",
+      "originalRects": 816,
+      "outlinedRects": 980,
+      "addedPixels": 507,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "throw_1",
+      "originalRects": 769,
+      "outlinedRects": 927,
+      "addedPixels": 457,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "throw_2",
+      "originalRects": 734,
+      "outlinedRects": 927,
+      "addedPixels": 560,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "throw_3",
+      "originalRects": 751,
+      "outlinedRects": 901,
+      "addedPixels": 467,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "throw_4",
+      "originalRects": 742,
+      "outlinedRects": 868,
+      "addedPixels": 406,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "throw_5",
+      "originalRects": 886,
+      "outlinedRects": 1041,
+      "addedPixels": 489,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "thrown_0",
+      "originalRects": 715,
+      "outlinedRects": 860,
+      "addedPixels": 465,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "thrown_1",
+      "originalRects": 781,
+      "outlinedRects": 990,
+      "addedPixels": 628,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "thrown_3",
+      "originalRects": 725,
+      "outlinedRects": 902,
+      "addedPixels": 566,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "thrown_4",
+      "originalRects": 512,
+      "outlinedRects": 624,
+      "addedPixels": 326,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "thrown_5",
+      "originalRects": 439,
+      "outlinedRects": 490,
+      "addedPixels": 199,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "walk_0",
+      "originalRects": 615,
+      "outlinedRects": 800,
+      "addedPixels": 502,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "walk_1",
+      "originalRects": 561,
+      "outlinedRects": 697,
+      "addedPixels": 399,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "walk_2",
+      "originalRects": 690,
+      "outlinedRects": 877,
+      "addedPixels": 501,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "walk_3",
+      "originalRects": 630,
+      "outlinedRects": 806,
+      "addedPixels": 490,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "walk_4",
+      "originalRects": 521,
+      "outlinedRects": 669,
+      "addedPixels": 438,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "walk_5",
+      "originalRects": 541,
+      "outlinedRects": 726,
+      "addedPixels": 494,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "win_0",
+      "originalRects": 501,
+      "outlinedRects": 602,
+      "addedPixels": 337,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "win_1",
+      "originalRects": 515,
+      "outlinedRects": 617,
+      "addedPixels": 335,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "win_2",
+      "originalRects": 603,
+      "outlinedRects": 713,
+      "addedPixels": 356,
+      "interiorRgbaIdentical": true
+    },
+    {
+      "pose": "win_3",
+      "originalRects": 500,
+      "outlinedRects": 596,
+      "addedPixels": 335,
+      "interiorRgbaIdentical": true
+    }
+  ],
+  "bodyPeak": 1198,
+  "nativeTested": false
+}

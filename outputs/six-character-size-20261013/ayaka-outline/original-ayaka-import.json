@@ -1,0 +1,2599 @@
+{
+  "version": {
+    "page": "index.html",
+    "bank": "actions.json",
+    "script": "app.js",
+    "bankSha256": "590234499aaf2082f3ac86d887b08cb2364f9f2e1f5a8b397911c2e9f8769495",
+    "scriptSha256": "12ad18337418af179030d78aff9bd2e58af5032aa8bdf4035cdba861751fedad"
+  },
+  "bodyGroups": 25,
+  "displayStates": 130,
+  "uniqueBodyFrames": 126,
+  "bodyPeak": 1038,
+  "auxiliaryStates": 31,
+  "sources": [
+    {
+      "group": "idle",
+      "pose": "idle_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-1-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-1-0.rects.json",
+      "imageSha256": "fbd395650f7423cf193e9e0b240f69c6bded9f80b7bfa1fa6640dfd9b1ce56f2",
+      "rectsSha256": "d722056857493c1291719f774aea25eb3d9282f351922e86b994c14948913cf4",
+      "anchor": [
+        31.5,
+        81.66666666666667
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "idle",
+      "pose": "idle_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-1-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-1-1.rects.json",
+      "imageSha256": "23613ba32c1d0d8fe84cffa14aed8dec4218489c204c9ad263a6cbea4fa8e498",
+      "rectsSha256": "db9b792c5407c4e58a3038d2d2a2a5e3f69e11290695ade97c2e5862bb441556",
+      "anchor": [
+        30.5,
+        79.72222222222221
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "heavy",
+      "pose": "heavy_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-0.rects.json",
+      "imageSha256": "7bbb5c1d749dd3d00af439335a544ea52703d12f9e7bd2ce14e57024f1d3d7ff",
+      "rectsSha256": "600f7489d589fa3da447cc050cbe88ada79520f5cba033d370f8e150bad0ccd7",
+      "anchor": [
+        30.166666666666664,
+        70.83294117647058
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "heavy",
+      "pose": "heavy_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-1.rects.json",
+      "imageSha256": "8ac4e77fb8af32e32e61faabbc42bdd75c8d702fe9654f9ce5969c281313be3a",
+      "rectsSha256": "699ab5752dc32df6b8e2717ef1060d471c52a4ca4382d22fc72a8b2aff760001",
+      "anchor": [
+        40.03383458646616,
+        63.826086956521735
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "heavy",
+      "pose": "heavy_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-2.rects.json",
+      "imageSha256": "7d637753f8f450497e03eb4a7f6d327d3d49cf8983e9c348637426c808adf700",
+      "rectsSha256": "00c65f0c1db2131c968f16bb96d2fbc084f67c2229526b84d004025a7e567c4c",
+      "anchor": [
+        37.09853249475891,
+        78.8347280334728
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "heavy",
+      "pose": "heavy_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-3.rects.json",
+      "imageSha256": "2eba5efb30c3283b11b67b85600e0d5175ba90699459d6349081311becca1492",
+      "rectsSha256": "33855c67ed11423df2d9c3ddb028e1c8330a08470677e00d16f883fa64460b0c",
+      "anchor": [
+        40.35073068893528,
+        62.86652542372882
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "heavy",
+      "pose": "heavy_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-4.rects.json",
+      "imageSha256": "348f2cec8fd2e9701e1a85fda254098a93aec9b4b0227e19bd34c528f1773e20",
+      "rectsSha256": "c542589fea200311a0ae793023afa85bb79f39cd1524543cf12e966f81521798",
+      "anchor": [
+        39.58474576271187,
+        70.84731182795699
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "heavy",
+      "pose": "heavy_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-19-5.rects.json",
+      "imageSha256": "99fd870793b1b618b303993abde2ece8628be079a4d9e97b5ab325ecc2e34a66",
+      "rectsSha256": "ae674319646cfd5fd973b5f529b500938a583f5677eae8d6c718b80898c29a55",
+      "anchor": [
+        31.47181628392484,
+        62.843283582089555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light1",
+      "pose": "light1_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-0.rects.json",
+      "imageSha256": "f10156b484f303bcec9344571c6854f49208da28d0a5f581eadc865037a128b1",
+      "rectsSha256": "b197b1c3b60b9a99dddcd23b507765cb89d7337e6c938a8cbcddc06769b942b3",
+      "anchor": [
+        32.94568245125348,
+        71.84140969162996
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light1",
+      "pose": "light1_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-1.rects.json",
+      "imageSha256": "da2753124becae2c862d41e1de5208682e138f71e327b2b0be6db52bb00444d8",
+      "rectsSha256": "e7e55d4cba839ecf9f9d7e0eee56a816ef2369ce80eaa0de6695253ea13a3bdf",
+      "anchor": [
+        32.44736842105263,
+        71.84140969162996
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light1",
+      "pose": "light1_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-2.rects.json",
+      "imageSha256": "2dc904ea6570eff3c2c966c59047a6555e5f5eebbe90deb66fc7dca3ce3acf72",
+      "rectsSha256": "5ecc6f114d3b46ce330acddfac5c0a06bb9bd4a0b3e3ad981b94266ff9f8fc35",
+      "anchor": [
+        30.87549019607843,
+        67.8495575221239
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light1",
+      "pose": "light1_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-3.rects.json",
+      "imageSha256": "7a6d565badf14196ebf570239729d988181189aac15783154ca26b4160e93fba",
+      "rectsSha256": "a8021d6b26e6c7390dca6decee5e34e985598645688237830ef28ea278edf4dd",
+      "anchor": [
+        37.659036144578316,
+        72.83371298405467
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light1",
+      "pose": "light1_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-4.rects.json",
+      "imageSha256": "88428f8ffb47598aa9da31d9bfb53d4a75df47fef31f194b3c15d5d9cfd894f7",
+      "rectsSha256": "a01ece51c0b4052e96d55d8c91e66329feab15997037609accbc13e793f40e26",
+      "anchor": [
+        37.843298969072166,
+        76.82579185520362
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light1",
+      "pose": "light1_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-9-5.rects.json",
+      "imageSha256": "a539958640d0085d0fed7ff4a5e6775cf47e52f2e93041dc2d92275ff80d6676",
+      "rectsSha256": "10761e7533c4fbf38d4d4106c1024548aaa561fdf8db129fbe4118b24443d64c",
+      "anchor": [
+        35.11266094420601,
+        74.83370288248337
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light2",
+      "pose": "light2_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-0.rects.json",
+      "imageSha256": "bf4e2db7ee6a422eed06df46662cdca19cf52bf4e89cbf7f1ce6f4fc6dceab2c",
+      "rectsSha256": "a82e6230048537be8b55d6df3cecdd37d26f13e1304788b54c751438a4afeba8",
+      "anchor": [
+        33.37181663837012,
+        60.857142857142854
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light2",
+      "pose": "light2_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-1.rects.json",
+      "imageSha256": "3d38cd215c624a54409634cff90592ffd82ca527ff3df0e54aedd83c76e090e0",
+      "rectsSha256": "f63cdfcded5e41f6a6844b367ce50b93703e8a061c994c51421f439326d38e36",
+      "anchor": [
+        35.633663366336634,
+        63.84905660377358
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light2",
+      "pose": "light2_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-2.rects.json",
+      "imageSha256": "b508f298d7bdf2775290e56cb2d2f9fc01c31b0fa81042e55f389162aad9b958",
+      "rectsSha256": "3ab70731679397f1da58eb1a04bee71f893f3db8a6054728016b0fd05f788eeb",
+      "anchor": [
+        38.12668161434977,
+        76.84156378600824
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light2",
+      "pose": "light2_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-3.rects.json",
+      "imageSha256": "b5990bb829cbaf37df71e4b0d3747e55653564e8333e6ef10ce6ff2d266ea1cb",
+      "rectsSha256": "6128c387b507075866a9598ead4be2c42cf7dbd319b93f3bf0b9cb8ac67ff10c",
+      "anchor": [
+        35.894988066825775,
+        72.84728033472804
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light2",
+      "pose": "light2_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-4.rects.json",
+      "imageSha256": "8e9201c53997e93ea197ffecc4f861552c2e6e3cd2f1d8dba63966bd49927c65",
+      "rectsSha256": "0255c980c197c7f342f192ff745b1e925969eb1d7af2ed077063c5ee1997d6dd",
+      "anchor": [
+        38.61139896373057,
+        76.82009345794393
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light2",
+      "pose": "light2_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-17-5.rects.json",
+      "imageSha256": "f958f81029e9c411d655239fe94c701469fa439c34443ffc81f83d611f0ff146",
+      "rectsSha256": "c45838ce46c05b19e5f6e1d9c9ebde9f4ef642eda420ae23b774090fb7bf3f2f",
+      "anchor": [
+        34.6015037593985,
+        67.85344827586206
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light3",
+      "pose": "light3_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-0.rects.json",
+      "imageSha256": "2fae1081325e1fe130382c1b161b3d6f1be3bffd8eed6af9ede5af3c9696c5db",
+      "rectsSha256": "1bf032bdffb8cc92826bc111b7c905f8799081ac0c6a4de86975673fc2b2ad78",
+      "anchor": [
+        29.180428134556575,
+        80.841796875
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light3",
+      "pose": "light3_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-1.rects.json",
+      "imageSha256": "5720e0c2945597e0a71652b7093b8b06512e262498434eee52acfc5b66103c7e",
+      "rectsSha256": "eb308c8802d6ef8fe85de0891a620aab7ecc253e265ad1fe271474493c5aff0a",
+      "anchor": [
+        32.22083333333333,
+        80.84302325581396
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light3",
+      "pose": "light3_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-2.rects.json",
+      "imageSha256": "5a41f5b8d06dd3232fce1e877583c73551c545296bede1831f9681e47d44e26b",
+      "rectsSha256": "4e9eaa712e8851d25870f7d1962ad436328f9a905540e03d4938492583e274cb",
+      "anchor": [
+        35.63713080168776,
+        71.82775119617226
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light3",
+      "pose": "light3_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-3.rects.json",
+      "imageSha256": "73a7d13fab3c2b3214d771e76f112f486130a27663a012c2807cd64c0887ad6c",
+      "rectsSha256": "5f8981d9261166aa03ef06ba5e3a8cab1fa4a83da0db80140cbb8b76edb7bc93",
+      "anchor": [
+        34.11992263056093,
+        62.83720930232558
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light3",
+      "pose": "light3_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-4.rects.json",
+      "imageSha256": "21ea8a72ae2afb6459b45eec6a648c52e1041fa9d908e8630cd19fec60e8252e",
+      "rectsSha256": "5d94ef679c3fbbb37fed18198be79c4e7766f72d1b40601f5c4e5c913bfc9174",
+      "anchor": [
+        37.644444444444446,
+        63.84541062801932
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "light3",
+      "pose": "light3_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-18-5.rects.json",
+      "imageSha256": "344f9ba89e86df774f55e699e776182129d59dcec19b58b1ff4b6af3734079f3",
+      "rectsSha256": "a7212b9c51c9a88bac321d17aa7e39ffc84f150ea3c701cbe2f5db5b9f940cb4",
+      "anchor": [
+        32.37758112094395,
+        80.83367556468173
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchLight",
+      "pose": "crouchLight_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-0.rects.json",
+      "imageSha256": "fd3663b181f2788052ae000a12d42c1e3dfcad0c1f66a6e3d747e69c5bcb061f",
+      "rectsSha256": "9d77f9c2988b5e379d3e312b6a2db59c320ce2faf799cb4382f9c49aed34ff6e",
+      "anchor": [
+        33.66028708133971,
+        54.8578811369509
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchLight",
+      "pose": "crouchLight_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-1.rects.json",
+      "imageSha256": "86bd5c46514e483020210d655ce4bd36cbe882ba65ac800b18332bb2e08f97f9",
+      "rectsSha256": "5c338c82ce2ec57a9e49741991a35d7fd65400c60eca6e0db41c6f6595326daf",
+      "anchor": [
+        34.99211356466877,
+        54.858247422680414
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchLight",
+      "pose": "crouchLight_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-2.rects.json",
+      "imageSha256": "605657feeeaef3b193494ee4848d71c006e32bcc4f61dda58f1374f900ba8253",
+      "rectsSha256": "2ed52ef8766452ed21ad4c549831deb71835fb69d3e168ab4fe649825b337a02",
+      "anchor": [
+        32.31050228310502,
+        50.86855670103093
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchLight",
+      "pose": "crouchLight_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-3.rects.json",
+      "imageSha256": "0b4201d587156e968d7d3083d255245250b096b3cc2d81e7d5a1392486c7d921",
+      "rectsSha256": "0121717a718d2cd04a91a104f8d00898dba88f4fe75111bb2b210a76cf4a3252",
+      "anchor": [
+        32.84018264840182,
+        51.86700767263427
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchLight",
+      "pose": "crouchLight_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-4.rects.json",
+      "imageSha256": "20c2e65bcf4a8197b25fb29ebf76a5b71d362af46e72997754c4184ccaa745af",
+      "rectsSha256": "29e522a6042aede8110abdc63d54036c56171dfc9eaeca98f3a48c5beaa88ac8",
+      "anchor": [
+        34.60386473429952,
+        54.85969387755102
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchLight",
+      "pose": "crouchLight_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-20-5.rects.json",
+      "imageSha256": "b38d7d71fe4d51391af8008ba0eb993ee32cf2361ba2baa6605442c98bd0f1bd",
+      "rectsSha256": "65c37640189b1e70e4d6c1adfa813a89ae4a15c0551dc910f3c34b8b955e4220",
+      "anchor": [
+        33.149096385542165,
+        50.869565217391305
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchHeavy",
+      "pose": "crouchHeavy_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-0.rects.json",
+      "imageSha256": "bec55ebcead05a35fb0c4f6f0239a1b5918c1e0a977073418e9360cc52620afb",
+      "rectsSha256": "4a0f596cba834ac9e99c55222d1616e2c1b18ebe0fb5fa2819c828ac129bdcb8",
+      "anchor": [
+        36.498,
+        59.84575835475578
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchHeavy",
+      "pose": "crouchHeavy_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-1.rects.json",
+      "imageSha256": "43b58f45eb89526e783daa59098d4027bef83bc5586490d5c9da16617f0a81ae",
+      "rectsSha256": "14dd1193daea0e3ed4a881094f107db6089f88a7053c467b3c2de4ce99a0cc77",
+      "anchor": [
+        53.095238095238095,
+        58.841823056300264
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchHeavy",
+      "pose": "crouchHeavy_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-2.rects.json",
+      "imageSha256": "1559706d1441ee80cdc86b69f2d479dc05d329a9bbee1f89c20e762efe3ac390",
+      "rectsSha256": "c5968df94064cedccab5619fdf7b9fa9b9055a7e55684428751e59e9fabc02e2",
+      "anchor": [
+        32.540748898678416,
+        48.86158192090396
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchHeavy",
+      "pose": "crouchHeavy_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-3.rects.json",
+      "imageSha256": "8c854805c1e6d54233efd85b0ad4a59275feeb45f4dfa5fcb89bfc511e90ec0a",
+      "rectsSha256": "a913a20621349111ccc3294226a16f86362c2f3771b360ce44b1d580673cc7df",
+      "anchor": [
+        50.02141680395387,
+        53.856763925729446
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchHeavy",
+      "pose": "crouchHeavy_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-4.rects.json",
+      "imageSha256": "034f80605902f33d570b7c36e8ee046d78fce31595a3f084d2516750f0b27e03",
+      "rectsSha256": "f3030c396a5911b043f145bc54a858695cef9072c34b77d9eaf9ca76e4bf0767",
+      "anchor": [
+        37.88235294117647,
+        60.8490099009901
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouchHeavy",
+      "pose": "crouchHeavy_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-21-5.rects.json",
+      "imageSha256": "067bf4b50e923f7b4e7797b58f0b26aa33257122f0c7286656b5ba84016a3457",
+      "rectsSha256": "97bd2a5a20ba55ac22290b007772e157dc570f8480d90d41d4e60208af92fe2d",
+      "anchor": [
+        33.97952586206897,
+        59.849999999999994
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airLight",
+      "pose": "airLight_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-0.rects.json",
+      "imageSha256": "cd68388b43fb792f946d82c1ecd488396c6b5951b1087f0f19439d3d48914929",
+      "rectsSha256": "6a9733c341c208c285ed5f442039471debe159deafc50d54f1f2c20b5c7e7a1e",
+      "anchor": [
+        31.154425612052734,
+        34.627539503386004
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airLight",
+      "pose": "airLight_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-1.rects.json",
+      "imageSha256": "23636ca1f61223a357656d0507249743ffa08d1c37a6a7e149db1acf1ece4a0e",
+      "rectsSha256": "a202c8f45e185c0e7d4fb213cd289efb2653771dd3498d25ed948de8ab50bfa0",
+      "anchor": [
+        26.43152454780362,
+        37.2625
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airLight",
+      "pose": "airLight_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-2.rects.json",
+      "imageSha256": "dbc56906be51a8695783f4fda14acec970a08b831601377225c63abeec1ab60c",
+      "rectsSha256": "fb588f83b8a6ff6742132957cb10d4f74c31fcfad23f28ab6e58968e1e1038e9",
+      "anchor": [
+        35.16858237547893,
+        30.191780821917806
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airLight",
+      "pose": "airLight_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-3.rects.json",
+      "imageSha256": "2d48bfd8dc8c2ed90c56edc27f057508d1d2e60ce7070856cc22add5664569e4",
+      "rectsSha256": "b2ce671f6e8bf020023cc84e8629be46008b2be16da745f6141fcea40d4dbc03",
+      "anchor": [
+        33.876977152899826,
+        36.59130434782609
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airLight",
+      "pose": "airLight_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-4.rects.json",
+      "imageSha256": "a336893e10ee67203d80d214363c421c1498dbec2a5753af683fd24a89647d22",
+      "rectsSha256": "0db2db5fdb867e225bf791c85dd937650f8aa51b1d97f3847f90118639e774c1",
+      "anchor": [
+        24.113157894736844,
+        32.495535714285715
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airLight",
+      "pose": "airLight_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-22-5.rects.json",
+      "imageSha256": "a05c3ef6256de33b769a816d35884796c02fa64d3bd2cec8c6c706ad91f954eb",
+      "rectsSha256": "04025ddb950b60dad427733894b6fd8ffe38f04b9c0bb4ff3676af3a2dfb58a0",
+      "anchor": [
+        29.197125256673512,
+        30.809628008752735
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airHeavy",
+      "pose": "airHeavy_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-0.rects.json",
+      "imageSha256": "d4b64fe7c3033ee460e168a78bba4437b9dbec1f1d73fe91b58e686dd76a10cd",
+      "rectsSha256": "5423e916846117748799b66aaef05da47a4bd4786f1416df84dc6f8be4d4019d",
+      "anchor": [
+        31.571936056838364,
+        30.73170731707317
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airHeavy",
+      "pose": "airHeavy_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-1.rects.json",
+      "imageSha256": "e0f3377d1e3ea6be09efbed28c1b513da6632b69c0d6d816852874f0961ad93c",
+      "rectsSha256": "29c2ee72dafd77b7f25182cb2bc65d735b538654483afb2e1433f92bb5349dc1",
+      "anchor": [
+        41.34513274336283,
+        42.6205533596838
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airHeavy",
+      "pose": "airHeavy_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-2.rects.json",
+      "imageSha256": "6b961988415f18dac6e69deebc4fc95f05ca15de61447097c8e4fe4621b962ea",
+      "rectsSha256": "67ecb02c7e9867a50452978c7d45b674d3f6d53911e0da97d6e7b5a68c5f9b39",
+      "anchor": [
+        38.192,
+        28.83644859813084
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airHeavy",
+      "pose": "airHeavy_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-3.rects.json",
+      "imageSha256": "4a4ee6ad37e6609dd02da53af91ce1336cfee483d05465082d155eaaa7774b90",
+      "rectsSha256": "3cad9c9d5651f6798d69267b1a1ea0fb84381df480d90fce599e23c4a0115854",
+      "anchor": [
+        37.091503267973856,
+        44.37772925764192
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airHeavy",
+      "pose": "airHeavy_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-4.rects.json",
+      "imageSha256": "ddd3bf5a89b9cd3724f7606b12dba1ab154c1f9fd55c22a11d5e4f5ff2f08ed4",
+      "rectsSha256": "175bb5ae88416b623e116165aa2b31739c5267352edfa01216670ef54615b058",
+      "anchor": [
+        37.010080645161295,
+        44.358851674641144
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "airHeavy",
+      "pose": "airHeavy_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-23-5.rects.json",
+      "imageSha256": "b68648537f7d7e1fa6eeb2bb7f5a3a41be4f5dde01af03eff6cfe66e26e6cc60",
+      "rectsSha256": "0e4ff55fc7a84280b7c4ff86ff9a557563e02fd7a461571f5ea852f841c01f6a",
+      "anchor": [
+        34.93197278911565,
+        44.90931372549019
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "block",
+      "pose": "block_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-0.rects.json",
+      "imageSha256": "f3f9f0b83ce6f696bb15a7b06dc02bae5be2d8e1d414b2964cf32434b316928b",
+      "rectsSha256": "1cf074381345b5afecc4d50878cdaf59c78bed7bc70237b2218c93c88044d0ad",
+      "anchor": [
+        29.405286343612335,
+        80.78048780487805
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "block",
+      "pose": "block_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-1.rects.json",
+      "imageSha256": "687481ba0b79615d1add8d3de7dd2acc1b254a4b4c8c390b1df36183bfb7cc4e",
+      "rectsSha256": "5845447f10f4682ed3617c1cd3e1f68731cd17256e196ff4a1ba020e746212d0",
+      "anchor": [
+        27.70419426048565,
+        80.78048780487805
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "block",
+      "pose": "block_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-2.rects.json",
+      "imageSha256": "2ab8c4769e10c42dfcb3b3ff5e1f4e04f2c7ec043b76537e375ba21ccb7f2332",
+      "rectsSha256": "c1e85784774cc7c60e427914b23a171713c7e58216fe9d038cc357957b12767f",
+      "anchor": [
+        28.48051948051948,
+        80.77747252747253
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "block",
+      "pose": "block_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-0-3.rects.json",
+      "imageSha256": "6b9a34a1ffa3f4a6149c80874ce3468a32ac26a0a1d006438b607308d050130a",
+      "rectsSha256": "e49d8b3a4a8f496e50620e1a6c84d9e3f2086356e2e1073468fe613636ebd1c4",
+      "anchor": [
+        24.550588235294118,
+        80.7807848443843
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "cblock",
+      "pose": "cblock_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-0.rects.json",
+      "imageSha256": "54de9494783bcb7e8b8962af6fe3a82cead75aac9d527a6da838543f2a5a33e5",
+      "rectsSha256": "17f4fe14ec884c85e6c25799b9fec2abbfb68e5f41ec7680526127994efb7382",
+      "anchor": [
+        35.5,
+        63.88426763110307
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "cblock",
+      "pose": "cblock_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-1.rects.json",
+      "imageSha256": "a818beaf572cb45574777aca036494b9c2c626f434d862b3a04cb866da8c440d",
+      "rectsSha256": "e1f53797e178229a3883070ef24ebaea0d949217f7881433b0573428b793c196",
+      "anchor": [
+        43.5,
+        60.888482632541134
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "cblock",
+      "pose": "cblock_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-2.rects.json",
+      "imageSha256": "0a90e5c6df5aac84961290dff437b3400610cf3fe4492255dee17fe9d4500706",
+      "rectsSha256": "11f6aabf12705ca9f9dbbda4f7171466dc542f6e2668f575208a514637a05fb6",
+      "anchor": [
+        42.0,
+        52.87844036697248
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "cblock",
+      "pose": "cblock_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-8-3.rects.json",
+      "imageSha256": "e772de6247ffa7ab69669dc6c9beb2c63e0615c6035fb159e84e865f4eed446b",
+      "rectsSha256": "f96e15a09608ea4f606a0c7fa16e7f3d045aca613f4529befcaa5b18b99aea65",
+      "anchor": [
+        34.5,
+        51.88181818181818
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "throw",
+      "pose": "throw_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-0.rects.json",
+      "imageSha256": "0b95c04e99ded2989aa06bd6d384304354277de705a52278cfa0b126e92eb6f6",
+      "rectsSha256": "465122ec1ed0dde58e4a8b8ff0d9f5aa798768dd553caa4b1fab7bfa9b27371e",
+      "anchor": [
+        31.499999999999996,
+        64.8529411764706
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "throw",
+      "pose": "throw_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-1.rects.json",
+      "imageSha256": "9b5d2531afbee62acf94b245bf01a201572879f97a0fb9a31a3e43bd58f24917",
+      "rectsSha256": "0cdbf409a3969955cc36772b11c74cdc936e3c512a818bc14a1ef1e5da61b332",
+      "anchor": [
+        29.0,
+        74.8523622047244
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "throw",
+      "pose": "throw_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-2.rects.json",
+      "imageSha256": "c1fdd599b99f88e03fbce161fa49e6e4bcfcfc98d64310d0c2c564e56c16074a",
+      "rectsSha256": "d81906aedb7bb6b8bf36c052d353f05bd62d8a0fb820376ad7e23209944eb7bf",
+      "anchor": [
+        28.500000000000004,
+        74.8574144486692
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "throw",
+      "pose": "throw_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-3.rects.json",
+      "imageSha256": "93a74a705e77f22dfc79b9375b4aadd2d3c8404b45e2a0f51f616fbfaff3d584",
+      "rectsSha256": "278b6bf2f59d4bae2de70e45f62b3d83463a5effe4f06f892b528bbceee005e5",
+      "anchor": [
+        31.5,
+        59.85781990521327
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "throw",
+      "pose": "throw_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-4.rects.json",
+      "imageSha256": "71e81494a599632e4d57554ff45c0048eafc78a9def1ecd1812d748e705253a1",
+      "rectsSha256": "bb606cbae9e9698aa31895a11adcf133d161aa4d5c1f35824a3b822f8cbe55ce",
+      "anchor": [
+        31.5,
+        55.8560411311054
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "throw",
+      "pose": "throw_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-15-5.rects.json",
+      "imageSha256": "ee6d6aebbb04160506967568a96cd1c68bd2574e202b53b9c41de2096bf6e33f",
+      "rectsSha256": "0faef624d67593d9439bfac5649d16c4f4b58c7a7972fb14f3c0bce59ba48e66",
+      "anchor": [
+        30.0,
+        71.8477801268499
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "thrown",
+      "pose": "thrown_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-0.rects.json",
+      "imageSha256": "528d217e72c66bdb188e5d0a710e4700619ea772b6149c06f07e19e22e94fb92",
+      "rectsSha256": "657a355d61cd2829ad25a401e8bb3bdf3be4e5143a481ab89d91e9c62500cecd",
+      "anchor": [
+        26.500000000000004,
+        72.8579766536965
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "thrown",
+      "pose": "thrown_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-1.rects.json",
+      "imageSha256": "0352463974dac62ba7640927934be6e0f10692d4c08f2f286e3dfadc89129ab0",
+      "rectsSha256": "e95f8d0f9f498d76e6af1f56cfe34d3685028d757b61bbbf1d349fd558237ec9",
+      "anchor": [
+        30.0,
+        38.5
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "thrown",
+      "pose": "thrown_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-2.rects.json",
+      "imageSha256": "0352463974dac62ba7640927934be6e0f10692d4c08f2f286e3dfadc89129ab0",
+      "rectsSha256": "e95f8d0f9f498d76e6af1f56cfe34d3685028d757b61bbbf1d349fd558237ec9",
+      "anchor": [
+        30.0,
+        38.5
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "thrown",
+      "pose": "thrown_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-3.rects.json",
+      "imageSha256": "0a150eba5a737b779b842db70b7d0040416884679a26a450c39671ff931d1bcf",
+      "rectsSha256": "65919809af9bb56389475adec715d6a46c25e2a32badcba584a47b1ebd9dbb8f",
+      "anchor": [
+        39.5,
+        23.5
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "thrown",
+      "pose": "thrown_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-4.rects.json",
+      "imageSha256": "6d8d3f17f9be014821b76bb86cdf51e8bd62954d7fc2630e0092eeee69c532bb",
+      "rectsSha256": "02669b4041dc258cf628149716da69b7eefbd64c7e4c4f9c5664b0a635c9a22b",
+      "anchor": [
+        31.898118066561015,
+        39.9
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "thrown",
+      "pose": "thrown_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-16-5.rects.json",
+      "imageSha256": "58dba26d8fff97775eeab4d6d477c94c71acdcb048eeb445796b641d250a5f18",
+      "rectsSha256": "24bc2b5b30c0bab4ad2e686c08fa370f86e8088079843b885cc7c76e3225d60c",
+      "anchor": [
+        30.88281826811518,
+        22.368421052631582
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "walk",
+      "pose": "walk_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-0.rects.json",
+      "imageSha256": "418468316036607f2429b2e39db044c46a93c086bf8f610f178c3591a29818c1",
+      "rectsSha256": "55fe3bdc8d8afbcc148ff756ac571ff2edce6cf1cee2d514d7cce64b5eb50809",
+      "anchor": [
+        36.0,
+        70.0
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "walk",
+      "pose": "walk_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-1.rects.json",
+      "imageSha256": "ba436d02f2044030b81f5791211a74a8ca844c74990cc95dfe5f582da7676869",
+      "rectsSha256": "10c1a77c791fac73f202452513c9f1071f278d11738958a46838b9e6be8dc9b7",
+      "anchor": [
+        35.5,
+        69.02777777777777
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "walk",
+      "pose": "walk_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-2.rects.json",
+      "imageSha256": "ef2d9499128dc547455462bb08109d0dbef4f1d1a15c6837f75c1d4d4c480c61",
+      "rectsSha256": "580a2814ec6e5503dcfa50cd205fce0b394e5f9ed1d8bb6ef82d68c64ffceb91",
+      "anchor": [
+        38.5,
+        74.86111111111111
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "walk",
+      "pose": "walk_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-3.rects.json",
+      "imageSha256": "0df72c749e0c06591363b6280606b53aad67c861a1bdf184db3e88692c5e164c",
+      "rectsSha256": "a89e94c8f36ee8bb2a41024685d0f4634de52f9f0275b06f72c75fae4a80fdee",
+      "anchor": [
+        38.0,
+        73.88888888888889
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "walk",
+      "pose": "walk_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-4.rects.json",
+      "imageSha256": "289bd74d344afacb9c2bfb7c15f2d2ecbeeb20e13bc7d878177b20b3c9d57be7",
+      "rectsSha256": "8476ca8c6f7b348e1aeed39026b7167ff1a3fdba833c7a954273d6797a447aad",
+      "anchor": [
+        35.5,
+        69.02777777777777
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "walk",
+      "pose": "walk_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-2-5.rects.json",
+      "imageSha256": "3e85c2fef9488580a8ebf53d8c722d9e25eec057215787841de423c9de63e491",
+      "rectsSha256": "cff76006306d1466684e362eddbab65688fdcedd695d107761788923bc807490",
+      "anchor": [
+        36.5,
+        70.97222222222221
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "back",
+      "pose": "back_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-0.rects.json",
+      "imageSha256": "6b095f59c5420083013096b13eeeffc28b256c1bcf8a164278a0300c81dcea52",
+      "rectsSha256": "ab6972d9cc85d3051311252c8b19d8267fc4651d247d31970966f661fa0e2e19",
+      "anchor": [
+        21.775953792369663,
+        76.6764705882353
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "back",
+      "pose": "back_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-1.rects.json",
+      "imageSha256": "028558c6f1fbebe92ba37c037ffe17fd1f48cafc5a262306b94b58c7a6c5edcf",
+      "rectsSha256": "a4e8eb54f9d5907022a4f66e9babc5f4ad547ceb5031a810f1a412f1b2cd8948",
+      "anchor": [
+        20.0,
+        76.6764705882353
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "back",
+      "pose": "back_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-2.rects.json",
+      "imageSha256": "b80ea53966c5c611f4dbba0d29effae7881d8cf73ed8c2769d892e307698ee7a",
+      "rectsSha256": "1a3a76b278c08331bdfcc6fa4463a371ce93ff02c06cf9e3c3e02d4bcc77850b",
+      "anchor": [
+        17.99670148433205,
+        76.6764705882353
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "back",
+      "pose": "back_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-3.rects.json",
+      "imageSha256": "81544de35c8df1d39fe155b2c4ede13fc81abc948b44b9ab5075734b925fa521",
+      "rectsSha256": "de5eb67fcc3aa9f1fa85500eab3ce25413160c3d2733f883d67b7219c33b883e",
+      "anchor": [
+        21.719830200121287,
+        76.6764705882353
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "back",
+      "pose": "back_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-4.rects.json",
+      "imageSha256": "c97872c66fcd4281da15ce66fe3326cca881af52040039bfcc6b9334a0014e67",
+      "rectsSha256": "6353a29e5352b4c63315103e512aa3a2274dabe241cf0cd0eb434a802a41cc40",
+      "anchor": [
+        18.789815627743636,
+        76.6764705882353
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "back",
+      "pose": "back_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-3-5.rects.json",
+      "imageSha256": "8115afd9def75a48b9a283f2b74dcb9ac7ed58db48b8482bc1614a682a3cccd8",
+      "rectsSha256": "bab18083eb449bc8b28b9ff6acdf03cd26ce4faa0be62be59c71b901b7950e47",
+      "anchor": [
+        16.393997189319414,
+        76.67647058823529
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "jump",
+      "pose": "jump_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-0.rects.json",
+      "imageSha256": "9a9ce060ab91d57195cd67b8e35f998a528944a27680650f79cc0a5a32b8fb9c",
+      "rectsSha256": "89408d8dc7ce553aab0bd9dcad64c5ff502efc48511eb5e4d2df9b3390c94f21",
+      "anchor": [
+        25.217391304347828,
+        69.88235294117646
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "jump",
+      "pose": "jump_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-1.rects.json",
+      "imageSha256": "8c1898922a57bf44bb9498bb7fb8cf6303fed623cc2b88ba473703886f8bcbec",
+      "rectsSha256": "cab132c43ab2e4fd693ddb35fa74b2278d23c20de1f950a021d206ec4077a001",
+      "anchor": [
+        31.051796157059314,
+        64.76666666666667
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "jump",
+      "pose": "jump_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-2.rects.json",
+      "imageSha256": "d1a049c962cdf3576f5a20f6e81979c191efce1188a96d6e26ae78ea56ed9022",
+      "rectsSha256": "bcab009b130c692fc2c666ac4ce5c87d4a19ae23a53f8f8e14d1b57fa49d2fba",
+      "anchor": [
+        28.011888586956523,
+        67.8125
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "jump",
+      "pose": "jump_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-3.rects.json",
+      "imageSha256": "9426cbfd8857668e5254fab27f5307560467c6d43bad2928309193a4b906ee0e",
+      "rectsSha256": "d292cf82aa24f879036ef6c75f7c462f0056be29fa31a28e5fbb20c982e4d352",
+      "anchor": [
+        32.07620443304634,
+        57.735849056603776
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "jump",
+      "pose": "jump_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-4.rects.json",
+      "imageSha256": "6d794dbd3bcd0e193353c0fc7119c46cf328f9d84f5edff216fd251e67245ed0",
+      "rectsSha256": "b19708ad000f6705151159cf7eb9eb53d7724f260b39cbbbfa4ec45287100692",
+      "anchor": [
+        31.730639730639734,
+        65.93939393939394
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "jump",
+      "pose": "jump_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-4-5.rects.json",
+      "imageSha256": "5c2dcc49380a381324f15d5a3d16666488360537283e9ab1a2f8fc5651356530",
+      "rectsSha256": "3330dc25b7018f9626d6e32bdc8a2491ccab317672e45a52d5bb39831f7add2a",
+      "anchor": [
+        30.81320708312838,
+        56.92982456140351
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouch",
+      "pose": "crouch_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-0.rects.json",
+      "imageSha256": "58cbfa0aa6caf62d7cbbb93a76529f9b3a97b6f4a990c7de3807e1a8a27be6ae",
+      "rectsSha256": "780ea74acc72c69771d52059a115a76130acd4640380c6a27d9a1de7d9eeedc1",
+      "anchor": [
+        19.04019380373959,
+        76.67647058823529
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouch",
+      "pose": "crouch_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-1.rects.json",
+      "imageSha256": "c6324626a222048f00da7a373957ce8c374520bd8ff8e6b9b904e68c2d0a2aa0",
+      "rectsSha256": "2cba1d1121aced20353337cc0ad514fd6dbfad09588a3d8ba0a34eba3561fe59",
+      "anchor": [
+        17.97737223113269,
+        67.6271186440678
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouch",
+      "pose": "crouch_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-2.rects.json",
+      "imageSha256": "b9e99d7082e44f6599291ee2bf727a54388d998bd8269f1619baa36780cc5894",
+      "rectsSha256": "93db5463e921e28c6eec2f3251a2470362717b4732a3ed0b38a41c6c5d3eb15b",
+      "anchor": [
+        18.54545708382197,
+        56.48936170212767
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "crouch",
+      "pose": "crouch_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-7-3.rects.json",
+      "imageSha256": "31920b4f33e2de0a4d2f1c6516be5494a56867b22de060e94cc1db5d4988d609",
+      "rectsSha256": "a542c4d66cbaa0782bc22d51aaed92407c99ea13f51b871d48a68046d9388cc5",
+      "anchor": [
+        17.54382969034608,
+        56.541666666666664
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "hurt",
+      "pose": "hurt_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-0.rects.json",
+      "imageSha256": "c4f58a4287841d1b15e229bcf6faacb33d490f1d389497914f1e79e43b50a77d",
+      "rectsSha256": "c86bc6238712518541def35b4d1801be0e0b64119498b2ed00096a935c97fa89",
+      "anchor": [
+        23.36436202873634,
+        66.97058823529412
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "hurt",
+      "pose": "hurt_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-1.rects.json",
+      "imageSha256": "17fdd06978e1438ddccd0eff578f4082bc3a25a0d5ec6b594eaf9efab9352912",
+      "rectsSha256": "481d0a00bea31a842b8d59a82bfbb8fada1bbc8feb2070d53800e4e7c670d0ae",
+      "anchor": [
+        32.75982783357246,
+        52.03636363636364
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "hurt",
+      "pose": "hurt_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-2.rects.json",
+      "imageSha256": "e5308b1dd40a735adecb295b6c11836bb877b51f879e9df0abfe3ae7a11a9a2d",
+      "rectsSha256": "e619fa9ac85a4b4056d210b063ebedc880bdeddbcfa39631e2024ea300f1be75",
+      "anchor": [
+        31.898118066561015,
+        39.9
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "hurt",
+      "pose": "thrown_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-10-3.rects.json",
+      "imageSha256": "58dba26d8fff97775eeab4d6d477c94c71acdcb048eeb445796b641d250a5f18",
+      "rectsSha256": "24bc2b5b30c0bab4ad2e686c08fa370f86e8088079843b885cc7c76e3225d60c",
+      "anchor": [
+        30.88281826811518,
+        22.368421052631582
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "getup",
+      "pose": "getup_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-0.rects.json",
+      "imageSha256": "4518301b38b5e1c5dbbe3134f7cdcfdadcf707c3aa8bcb8543641a8b2892c096",
+      "rectsSha256": "f603725d5d81ffad8969cb00a2bd1f6cb79ee891530e244a688cae26ed78852c",
+      "anchor": [
+        33.86352329262777,
+        18.333333333333332
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "getup",
+      "pose": "getup_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-1.rects.json",
+      "imageSha256": "25e7db6965210152c0634e2f5f62e8c8d6f74dba6de844dd8e96c5c00ac7f905",
+      "rectsSha256": "09b271b492a21f8e47a84084dd9971c400f7ea9de7ca67cea607a43b81c8dee8",
+      "anchor": [
+        34.79756468797565,
+        36.05128205128206
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "getup",
+      "pose": "getup_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-2.rects.json",
+      "imageSha256": "85efeb7028eab178fc748343b52f47920af408a01a97e6723e14733a546ae9e0",
+      "rectsSha256": "52386acd6230fb708f02448db7d9fa06434e3b3f31f645d05a3f5a362e47ab32",
+      "anchor": [
+        28.915032679738562,
+        49.9607843137255
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "getup",
+      "pose": "getup_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-11-3.rects.json",
+      "imageSha256": "30a062ae40b6dcf595e7c24727db06c06015bb5dc372db5252cdc8f074291959",
+      "rectsSha256": "933ff1bd211c173c03533e20f018d1c3e0bb2ecee85eb4d00431e6f165e3bdc8",
+      "anchor": [
+        25.746761658031087,
+        81.52941176470587
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "win",
+      "pose": "win_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-0.rects.json",
+      "imageSha256": "88a0a2ea82899b9d7b7b8d411080a8aa42a6bfc4266b599f0400f9cc21c4a572",
+      "rectsSha256": "e01d88259129e680ad0f32e366f5108031150d82f44da61d4d313e800b3c9a4e",
+      "anchor": [
+        19.799999999999997,
+        83.4375
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "win",
+      "pose": "win_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-1.rects.json",
+      "imageSha256": "6d538407e3c57194e315147ab36a6f075859d21bc4ba374455de324abb572697",
+      "rectsSha256": "93da7a74187a410533ca9d7f0479a3a3377f4c7462ad5985753fbfad14d66fdc",
+      "anchor": [
+        19.799999999999997,
+        82.5
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "win",
+      "pose": "win_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-2.rects.json",
+      "imageSha256": "a5101eb440c2d22f0863c329f3c9030ebf809ffebab4b759af5182aeec42d58d",
+      "rectsSha256": "e141de4a8a8a175ebb83c82f893701b4f7e66cb0a812f9e10308152261a6bc58",
+      "anchor": [
+        22.2,
+        92.8125
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "win",
+      "pose": "win_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-14-3.rects.json",
+      "imageSha256": "4cd4d1ad2944fd953f28175dcfe149f4155ea03eda8597779d11d055f0808913",
+      "rectsSha256": "ef4ce8bd7445da60ec79a1cc28097c84085addc18f12d545a0f85f56497a29b6",
+      "anchor": [
+        20.4,
+        84.375
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "dash",
+      "pose": "dash_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-0.rects.json",
+      "imageSha256": "08ce4186047125076bb7fa697995079b432a292b9103ba3ee38132a694317cc9",
+      "rectsSha256": "4008e33d2511de3622fd80914c075fa613d2264b4483b5d99077eb12d3815416",
+      "anchor": [
+        32.99898685987965,
+        68.91176470588235
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "dash",
+      "pose": "dash_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-1.rects.json",
+      "imageSha256": "3249dc7638100bcec177908ed81268a835f727ef5216dc3b5ce34bedc783dbbd",
+      "rectsSha256": "b71d19bf30ed304d63c54575f72cc510da1860f0afb72ad671b1702d6c2eb7f7",
+      "anchor": [
+        43.1928508384819,
+        68.84848484848484
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "dash",
+      "pose": "dash_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-2.rects.json",
+      "imageSha256": "03c36e03008a66a7216780a758e5a51843868ce8aa0662d39fdc2a11722eb626",
+      "rectsSha256": "e9270d1a84878efeefcce72f933b994bf73874432dff15bbd13954ecb55955ec",
+      "anchor": [
+        43.30032786885246,
+        56.0983606557377
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "dash",
+      "pose": "dash_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-5-3.rects.json",
+      "imageSha256": "f8a87ae342085ca09bff9f0fcd3c0c2975444fa49d198aa0369613d9143a2cd1",
+      "rectsSha256": "6a538dcb784fd8d9c56de8b807ebd908c1c60c11ee8bbcaae9de3b96065654de",
+      "anchor": [
+        32.88506191950464,
+        66.9705882352941
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "backdash",
+      "pose": "backdash_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-0.rects.json",
+      "imageSha256": "564f68c3c69d4dd41f30921950ee290bb0df5e4cdce78061ebd59208bd7b5fd6",
+      "rectsSha256": "4d2c9e0daee42d40392a0470b2a70cdd430e6ec5a1b45fc368df8935862241cd",
+      "anchor": [
+        19.734702926396693,
+        74.73529411764707
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "backdash",
+      "pose": "backdash_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-1.rects.json",
+      "imageSha256": "db9f743bbaf2864b30178fbc1ff7d117bb68b4d945fb9566154b93797ed648bf",
+      "rectsSha256": "8bdb76bfe2a97a57ce6da37ba8a6996b115391c3dba0dd82bc88b6664b416dc6",
+      "anchor": [
+        21.644747263824886,
+        69.75
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "backdash",
+      "pose": "backdash_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-2.rects.json",
+      "imageSha256": "6eceaa3655e7c364adefe2d9ad23c48eb0dc40009b4c739aaecadb0eeb576b07",
+      "rectsSha256": "1bfc14b98c23560a14be5ae2eb3e815a8c2abf62aab1aa56e4e6530d9ba5d090",
+      "anchor": [
+        24.10917094644167,
+        64.6896551724138
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "backdash",
+      "pose": "backdash_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-6-3.rects.json",
+      "imageSha256": "907867224cc2354c0c45500627e954af0a8c49d4781b84a763e879aa77fbb629",
+      "rectsSha256": "891c0da4fbf1054642c67a4d34841c7a7171d762ca3e56cae13dd6e5ea703add",
+      "anchor": [
+        22.568951612903223,
+        74.51612903225805
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "lose",
+      "pose": "lose_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-0.rects.json",
+      "imageSha256": "c3f009f5e02fd67f577ed0ce8e72207fa441070f81bc3e94358cbb139fb07149",
+      "rectsSha256": "fe9e06784eecde165f8cccfd46a5b973850af76c760a6ee71dc43859e933eac7",
+      "anchor": [
+        22.87746314406656,
+        71.82352941176472
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "lose",
+      "pose": "lose_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-1.rects.json",
+      "imageSha256": "f9bb3d5d8778c4fb77fc57fc93a04ff2bf981163e6a153f8dafa84189b3f4dc7",
+      "rectsSha256": "55bab649684e7fb88525c6e7afd7c59e4f9b602903a141dfc8486d41508d1ee8",
+      "anchor": [
+        27.702254641909814,
+        69.51724137931035
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "lose",
+      "pose": "lose_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-2.rects.json",
+      "imageSha256": "a237abe1448ab583ee20f1de271a11422d62b2b975ca4341b8697afd3d6c2a87",
+      "rectsSha256": "377635bdde7c66eb60503ff5c2121498dc0070ec430bcd0b73812487b41e8d58",
+      "anchor": [
+        33.84939091915837,
+        44.81395348837209
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "lose",
+      "pose": "lose_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-13-3.rects.json",
+      "imageSha256": "a7875b723be4f13a89f9484e833e5a872bdf47f4d8f4143208a30a3a2526b7c3",
+      "rectsSha256": "02e0ef8cd16f760c527bb0dc4805eab9259f84274b1399ce52a26968e2b61596",
+      "anchor": [
+        31.34010152284264,
+        29.000000000000004
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "skill",
+      "pose": "skill_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-0.rects.json",
+      "imageSha256": "7a202ce41f996762d8bcae4c963a9b0113b0893e305cab6acba3d28252f5f1fa",
+      "rectsSha256": "efa54bed77df0259bb64493a09b86b3966370f3821b538840f170802c9960e3a",
+      "anchor": [
+        32.51580459770115,
+        76.84630738522955
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "skill",
+      "pose": "skill_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-1.rects.json",
+      "imageSha256": "fa2b762bfea1f299e3ae62108498aac8be2eff440a52db368f14554c3a4008b4",
+      "rectsSha256": "d922f45187366935121d20448fa6d2b7112f8f7b209d48f36f1fb0a9a4484899",
+      "anchor": [
+        37.93364928909953,
+        74.83660130718954
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "skill",
+      "pose": "skill_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-2.rects.json",
+      "imageSha256": "e9a5c2947635db29528e052baaafdafe716c648677818e48dc46605110f6745d",
+      "rectsSha256": "8c8f6e0cb158bf2465552c45a578c32dee9a7a99890b991c8c3fb2731dc1142b",
+      "anchor": [
+        43.685534591194966,
+        66.85497835497836
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "skill",
+      "pose": "skill_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-3.rects.json",
+      "imageSha256": "a97f240b43ec19519595b45304b3427b8ea288ab6e925cf99445576ea8d0c9da",
+      "rectsSha256": "cc0803b53ee2fd5487fb72c4080f03d5eb8b8b15083643332ff86797c0bff0b6",
+      "anchor": [
+        47.26651982378854,
+        74.84879032258064
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "skill",
+      "pose": "skill_4",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-4.rects.json",
+      "imageSha256": "783a70e730920fd878b6b4b781b0e167cb44fd453ff99b427c9fa597ffa7e0f4",
+      "rectsSha256": "9b1272e0282b64c80dc629d1de1b36c4b1ada68faed19e1c3fd962525aac6200",
+      "anchor": [
+        47.01700680272109,
+        75.84394250513347
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "skill",
+      "pose": "skill_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-12-5.rects.json",
+      "imageSha256": "03ce3259f3979c068fab81ca75a34db5b92c9e42ba8d46183624d4b9f7e0bf33",
+      "rectsSha256": "a70c0fc662b15a53e247db5042eb42aa9a31d736a3deb87b00ef2aff9eef6283",
+      "anchor": [
+        32.50663129973474,
+        76.8484251968504
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-0.rects.json",
+      "imageSha256": "8279f749d98edb992138e90b781b9878e67a2c81800965038c919299f725beb5",
+      "rectsSha256": "0ecd5a8a5559528551d0019a5b3f0665f5162d9e32897019f7c3593ac5642c69",
+      "anchor": [
+        34.08333333333333,
+        78.83333333333333
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-1.rects.json",
+      "imageSha256": "f714a2e32e3674d70a83f7d8f6dbb2e8cdd23b41472749c3dffe22041cf71fb2",
+      "rectsSha256": "94f59640a2d06ef5d57af57728fa65d00eb4a073591a9650d676daec3aaa4303",
+      "anchor": [
+        35.56948228882834,
+        78.83438155136268
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-2.rects.json",
+      "imageSha256": "d30bc44d9ae1161c68c2e44b4e69c25dae3d8eccffdc78037199205750abe07f",
+      "rectsSha256": "43d735851fe9af1be76797e269f7a46c6760430ffc6cc66635ddf19d9d118b50",
+      "anchor": [
+        38.06896551724138,
+        66.85894736842106
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-3.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-3.rects.json",
+      "imageSha256": "4ef5e15a6ddf37ebaf92a5d9a90362626cc87da0a1a6ea2c1084d3b4972512fb",
+      "rectsSha256": "487fd52011168fa4f5b389b493b86de3419c681398df2cf72633e581622380a7",
+      "anchor": [
+        27.76958525345622,
+        50.89285714285714
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_3",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-4.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-4.rects.json",
+      "imageSha256": "4ef5e15a6ddf37ebaf92a5d9a90362626cc87da0a1a6ea2c1084d3b4972512fb",
+      "rectsSha256": "487fd52011168fa4f5b389b493b86de3419c681398df2cf72633e581622380a7",
+      "anchor": [
+        27.76958525345622,
+        50.89285714285714
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-5.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-5.rects.json",
+      "imageSha256": "37ff36e2199dccb44d5ea93fa4ab2fc7c4ccf376cc038520f7675080012ba739",
+      "rectsSha256": "59e33c9c16ba7ec66ed8ce22830c7055e92796ba5cfd145e034b45dae5fba3d7",
+      "anchor": [
+        35.07775119617225,
+        77.83474576271186
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_5",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-6.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-6.rects.json",
+      "imageSha256": "37ff36e2199dccb44d5ea93fa4ab2fc7c4ccf376cc038520f7675080012ba739",
+      "rectsSha256": "59e33c9c16ba7ec66ed8ce22830c7055e92796ba5cfd145e034b45dae5fba3d7",
+      "anchor": [
+        35.07775119617225,
+        77.83474576271186
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "burst",
+      "pose": "burst_7",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-7.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/calibrated-24-7.rects.json",
+      "imageSha256": "c41615fdf3248ddb31bdf21e82cd7938ba902b49a0fde0a2f486558a8dedc286",
+      "rectsSha256": "c7cd7ba41dcf6f348a44158cbc4e39fd2c58b144592db9e86fbb220a7d440ff8",
+      "anchor": [
+        34.1566757493188,
+        78.83368421052631
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_heavy_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-19-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-19-0-rects.json",
+      "imageSha256": "f91f72be45bda0e6c4ffd12cfcd93ddd1efb9aa1b0e58c80a0bdbf3e260dfb1a",
+      "rectsSha256": "8f9ce2d7cdd0192ad004a58b853f7a885e35f4feb523e96ffc443c9c2ffc09e4",
+      "anchor": [
+        27.351111111111113,
+        27.351111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_heavy_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-19-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-19-1-rects.json",
+      "imageSha256": "f99a7328945add8f95d35a9f762f12b0e1b546878369520f7f6d517cf65c6592",
+      "rectsSha256": "25cfc4e0cf808e5d62a66d99d218e169e98dbc408c9f4c2816d44954c68d0e0d",
+      "anchor": [
+        27.351111111111113,
+        27.351111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_heavy_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-19-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-19-2-rects.json",
+      "imageSha256": "db8f6ae7f4e6e655ca237d830778168752909ee63ad5ca6384ebebe045eb2aaa",
+      "rectsSha256": "8f6d1b7087cfd8725c2e86e7298c9d0d33877777dd0d462b012c3879f0ae21a5",
+      "anchor": [
+        27.351111111111113,
+        27.351111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light1_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-9-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-9-0-rects.json",
+      "imageSha256": "088f10b89bd0b84704ed40992d0b94decec03d64bf669693a9175898d234ce94",
+      "rectsSha256": "14f37a6b5f1d10b7b50b7076b3a754d427ffe317b66f3b15764a1ec2a60f5940",
+      "anchor": [
+        21.720000000000002,
+        21.720000000000002
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light1_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-9-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-9-1-rects.json",
+      "imageSha256": "8c2308d31bef78a4eaf8ea4a3ba7463db1d18eec1f35de392fa3403bbe02f8fe",
+      "rectsSha256": "5da862d6e4f1719bebcdef79ccf87c4de2dfca3102863d77ff24d5bedb1e5068",
+      "anchor": [
+        21.720000000000002,
+        21.720000000000002
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light1_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-9-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-9-2-rects.json",
+      "imageSha256": "d0c3f2983d39dc48fdfaeed16763368b79cbfbff06512c0b909bf4adeaf7b3fa",
+      "rectsSha256": "dcedb8a22c564d2fa7ff5982f3ad050b67b6bb2190df9c33302904e14e3ace43",
+      "anchor": [
+        21.720000000000002,
+        21.720000000000002
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light2_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-17-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-17-0-rects.json",
+      "imageSha256": "3af2b223b118edf35742ebd9662205ebbcf0f604a819c16fd10d59abe269f5fc",
+      "rectsSha256": "c07980500357df917341ba59542df0d55606f225bf9cb9b8ac42d5297a583a47",
+      "anchor": [
+        23.328888888888887,
+        23.328888888888887
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light2_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-17-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-17-1-rects.json",
+      "imageSha256": "14b4dd1c1cb9dceab516fdd4ef447349e3bc0da141fb3d600e4e2a14eba6e071",
+      "rectsSha256": "751d5ae78b8b7901415e9c14bb5a73de40406fd6ae9df2cc59f14c46d1c33071",
+      "anchor": [
+        23.328888888888887,
+        23.328888888888887
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light2_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-17-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-17-2-rects.json",
+      "imageSha256": "bdd9793060b2ff50705ab71694b597cbf8466ad0a038146d6e001338d96a452b",
+      "rectsSha256": "52adecec57eaf185b8858c0897a0540d166a44a43a9939cf63f7758737b6e1ef",
+      "anchor": [
+        23.328888888888887,
+        23.328888888888887
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light3_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-18-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-18-0-rects.json",
+      "imageSha256": "1d675b624017cba797ae18515c235ed27364c1840395252da677a96c1a559494",
+      "rectsSha256": "1213e04fda20724dcaffca2274e18047b38036ff62aa0bb7e33ac754722dda19",
+      "anchor": [
+        24.93777777777778,
+        24.93777777777778
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light3_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-18-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-18-1-rects.json",
+      "imageSha256": "aa9e63de6b23e90ebcccd68804d77e32f8688f3d738502a103eb286c06bcbb0f",
+      "rectsSha256": "bcc41b92537dacccabacec347c0d024b77443a1366e9007be6acfe4f9159f941",
+      "anchor": [
+        24.93777777777778,
+        24.93777777777778
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light3_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-18-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-18-2-rects.json",
+      "imageSha256": "efa323e5baf9aad58a55854b528b07ee3c5d9d615c818b5581fd251c42b7ecda",
+      "rectsSha256": "4d4327a9a6aeb63a73f23d58b19eee0ba4cf3bf3041be2220d52c4a157672fdf",
+      "anchor": [
+        24.93777777777778,
+        24.93777777777778
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchLight_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-20-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-20-0-rects.json",
+      "imageSha256": "12b7521caec8d753a165a3e60f549ca590605fd96d48e720996929986616268c",
+      "rectsSha256": "fca571477967b4389e71dd256089fa717c55de80768a969a1582c17f37a500f7",
+      "anchor": [
+        28.155555555555555,
+        28.155555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchLight_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-20-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-20-1-rects.json",
+      "imageSha256": "50b651b498ea26ecbd0c1771b902ee9199170370b3cce8a9127edc64039c9285",
+      "rectsSha256": "84194ad867c158976a521dc9b9c12737a5ccd6a2089b2777990878e01f770fe1",
+      "anchor": [
+        28.155555555555555,
+        28.155555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchLight_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-20-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-20-2-rects.json",
+      "imageSha256": "e97bbfc024027e89c98dc1d7da5b82f66eb26ede68b158be7766e34556eb3f95",
+      "rectsSha256": "521d38999e94351441455a8f810a66fb740dbc80325349320109c3beddd99e28",
+      "anchor": [
+        28.155555555555555,
+        28.155555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchHeavy_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-21-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-21-0-rects.json",
+      "imageSha256": "86b1c2eefa7dea49966686fe5478a3ea8c750a1466ac98350b9785cffc395534",
+      "rectsSha256": "3081042928261095b2c67138b695d1c779f27ba34a672be2a1d52cd9aa9077a2",
+      "anchor": [
+        30.166666666666664,
+        47.06
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchHeavy_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-21-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-21-1-rects.json",
+      "imageSha256": "2fa31c077e3a7371b3a71adda5c042ee287873263e69eeaed45c4f34f5dbc3d1",
+      "rectsSha256": "768b1cc08bebb271e3f82b1d8dc822394d8653f2c340f24a51a75c99526ab2dd",
+      "anchor": [
+        30.166666666666664,
+        47.06
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchHeavy_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-21-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-21-2-rects.json",
+      "imageSha256": "9b15e751d78b7ceed71e51dabe47fe3c8508a7fcbb9c2175c7308d1e2cd9e79a",
+      "rectsSha256": "3ad5d0e40ef04a353c22593617b4d552af9bd5149e486fc87f04af7506e7a103",
+      "anchor": [
+        30.166666666666664,
+        47.06
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airLight_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-22-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-22-0-rects.json",
+      "imageSha256": "1e45c09ecaca6cabb56a9aa74cfd4332d7d9aa726dcd6fc22e913d2508c60dda",
+      "rectsSha256": "9767f7b47e87ee07ca68b98dac84d8ef338166b4377d583d084ab27b470773aa",
+      "anchor": [
+        20.915555555555557,
+        20.915555555555557
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airLight_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-22-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-22-1-rects.json",
+      "imageSha256": "05cc1d69b90097f00b3b2d0a9b6c49cee8e2b9cc8b2a3933c71a1a57d20719bf",
+      "rectsSha256": "0909de56bcc22122ba562b12b741ca8a967d213bc2e1111a152e527b145de2f0",
+      "anchor": [
+        20.915555555555557,
+        20.915555555555557
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airLight_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-22-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-22-2-rects.json",
+      "imageSha256": "08f5a32fdb91ffe06ccda8c63826179f2c18ca002226e87b8b14739b2e719f09",
+      "rectsSha256": "00c6ca97c5f0d756e5541d49d74d8abc164511c3088b2ad9f804798a5bbd2c5d",
+      "anchor": [
+        20.915555555555557,
+        20.915555555555557
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airHeavy_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-23-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-23-0-rects.json",
+      "imageSha256": "857fc403eb2be7b42d969a3f6bea58b454f870c4748d732245dce4260dc785fd",
+      "rectsSha256": "8637abf68a748a25e462abd8e757c6eaf2006ebccc41099f97ed4ed4b0202f71",
+      "anchor": [
+        26.144444444444446,
+        26.144444444444446
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airHeavy_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-23-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-23-1-rects.json",
+      "imageSha256": "dca2b5a4c20061ad07b06cd329555aab4de00b1c6b1a4a1e345a559c379a82bd",
+      "rectsSha256": "280e468a356478acbe585690f31330d71bc9c9184d4e0160ce1992d3df0c2f73",
+      "anchor": [
+        26.144444444444446,
+        26.144444444444446
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airHeavy_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-23-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-23-2-rects.json",
+      "imageSha256": "74b6075eaf8b5ab619614f5533acde333a892a4dc6120504518b0a6be5504f7d",
+      "rectsSha256": "41345750ba446c43ba1cd9b6ac83feb9a7410374a7d8c4c85494a63b7bb4b87f",
+      "anchor": [
+        26.144444444444446,
+        26.144444444444446
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-12-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-12-0-rects.json",
+      "imageSha256": "192ae547cb5b88a47e7c8cc63fda31560acd473117d4d9d58450e54a60395c04",
+      "rectsSha256": "2d7bccf9fed83ae9535cf5cb3de2997362f70dfcdd44654f238253eba81c32b1",
+      "anchor": [
+        37.54666666666667,
+        64.58026666666666
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-12-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-12-1-rects.json",
+      "imageSha256": "a57e5a17bdedfed63baf5d29f212ffab3bb752850c3d0e0bc904c2a43a983077",
+      "rectsSha256": "d3d5d6a5716d83e3ff33b7acb4d8031aa86ff3f8bce83164dd329153c45452e6",
+      "anchor": [
+        37.54666666666667,
+        64.58026666666666
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-12-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-12-2-rects.json",
+      "imageSha256": "fc252e57841b987c826f91a73c20e95988c4ab90de34cd5568739515c0dab28d",
+      "rectsSha256": "e54d086d7e40a4a5698ab12350fd35839b5542e4bd763a022de8aede4367d1c3",
+      "anchor": [
+        37.54666666666667,
+        64.58026666666666
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_0",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-24-0.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-24-0-rects.json",
+      "imageSha256": "38b1cca4163b645cad5b245d8caa42fa4d9ea79507ec5533218c8b70c1ef06f4",
+      "rectsSha256": "c963461c4c1e00ed28d5d1e2c6d443955f57f3ec93ce789ab1a579b958772dd8",
+      "anchor": [
+        37.54666666666667,
+        37.54666666666667
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_1",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-24-1.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-24-1-rects.json",
+      "imageSha256": "e2124d565cb0b77934777b25c07dd453a03840bfa8b1893ec4d3b4cafade3f16",
+      "rectsSha256": "e844b7e36869aa3e65233889b73617e4cba57829bf0fa0690d40ff308d8e82dc",
+      "anchor": [
+        37.54666666666667,
+        37.54666666666667
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_2",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-24-2.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/effect-fit-24-2-rects.json",
+      "imageSha256": "be10214ee32fb5d94b4e847e7be9c151cdbffb912eabc663d029937fbdfa8b53",
+      "rectsSha256": "64b7efc709f6cbc47517dd92d15631af03cf7b778740e4574dde5d6e72f2c404",
+      "anchor": [
+        37.54666666666667,
+        37.54666666666667
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "portrait",
+      "pose": "ultimatePortrait",
+      "file": "outputs/v4-one-character-20261010/ayaka-armed-v2/ultimate-portrait-fit.png",
+      "rectsFile": "outputs/v4-one-character-20261010/ayaka-armed-v2/ultimate-portrait-fit-rects.json",
+      "imageSha256": "990d252231935a138e3af96255d835425189e51efd0a15d71016ae8ed3545d4c",
+      "rectsSha256": "af506c669d2506df18aed6fe0e90e87c057beae3d5c532dd08a539bb41016d40",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 5.43859649122807,
+      "scaleX": 5.43859649122807,
+      "scaleY": 5.43859649122807,
+      "facingCorrection": 1
+    }
+  ],
+  "nativeDeviceTested": false,
+  "adaptations": [
+    "damage and cancellation use existing combat system",
+    "Q confirmation at release 52; miss/block short recovery",
+    "movement follows existing game physics",
+    "radial gradient uses native UI ellipses"
+  ]
+}

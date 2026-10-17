@@ -1,0 +1,353 @@
+{
+  "scope": "offline calls, not native FPS",
+  "rows": [
+    {
+      "pair": "双克洛琳德",
+      "baseline": {
+        "pair": [
+          "clorinde",
+          "clorinde"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 923,
+        "callsP95": 2972,
+        "callsPeak": 6377,
+        "instructionsMean": 77449,
+        "instructionsPeak": 286265,
+        "writesMean": {
+          "bitmap": 770,
+          "col": 118,
+          "par": 0,
+          "size": 1,
+          "vis": 11
+        },
+        "writesPeak": {
+          "bitmap": 5231,
+          "col": 996,
+          "par": 13,
+          "size": 27,
+          "vis": 321
+        },
+        "residentImages": 16000,
+        "simulationHash": 1146919082,
+        "sampledStates": {
+          "attack": 223,
+          "idle": 80,
+          "hit": 42,
+          "airhit": 15
+        },
+        "errors": []
+      },
+      "flashOnly": {
+        "pair": [
+          "clorinde",
+          "clorinde"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 817,
+        "callsP95": 2692,
+        "callsPeak": 4376,
+        "instructionsMean": 74553,
+        "instructionsPeak": 214576,
+        "writesMean": {
+          "bitmap": 729,
+          "col": 56,
+          "par": 0,
+          "size": 1,
+          "vis": 9
+        },
+        "writesPeak": {
+          "bitmap": 4350,
+          "col": 486,
+          "par": 12,
+          "size": 28,
+          "vis": 170
+        },
+        "residentImages": 16000,
+        "simulationHash": 1146919082,
+        "sampledStates": {
+          "attack": 223,
+          "idle": 80,
+          "hit": 42,
+          "airhit": 15
+        },
+        "errors": []
+      },
+      "sharedBudget": {
+        "pair": [
+          "clorinde",
+          "clorinde"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 791,
+        "callsP95": 2853,
+        "callsPeak": 3311,
+        "instructionsMean": 80909,
+        "instructionsPeak": 214499,
+        "writesMean": {
+          "bitmap": 726,
+          "col": 33,
+          "par": 0,
+          "size": 1,
+          "vis": 9
+        },
+        "writesPeak": {
+          "bitmap": 3200,
+          "col": 486,
+          "par": 12,
+          "size": 28,
+          "vis": 170
+        },
+        "residentImages": 16000,
+        "simulationHash": 1146919082,
+        "sampledStates": {
+          "attack": 223,
+          "idle": 80,
+          "hit": 42,
+          "airhit": 15
+        },
+        "errors": []
+      },
+      "peakReductionPercent": 48.1,
+      "averageInstructionIncreasePercent": 4.5
+    },
+    {
+      "pair": "芙宁娜＋仆人",
+      "baseline": {
+        "pair": [
+          "furina",
+          "arlecchino"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 1226,
+        "callsP95": 3281,
+        "callsPeak": 7879,
+        "instructionsMean": 88320,
+        "instructionsPeak": 336968,
+        "writesMean": {
+          "bitmap": 1042,
+          "col": 92,
+          "par": 0,
+          "size": 1,
+          "vis": 39
+        },
+        "writesPeak": {
+          "bitmap": 6655,
+          "col": 1043,
+          "par": 20,
+          "size": 41,
+          "vis": 900
+        },
+        "residentImages": 16000,
+        "simulationHash": 1859935648,
+        "sampledStates": {
+          "attack": 226,
+          "idle": 76,
+          "hit": 45,
+          "airhit": 13
+        },
+        "errors": []
+      },
+      "flashOnly": {
+        "pair": [
+          "furina",
+          "arlecchino"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 1101,
+        "callsP95": 3150,
+        "callsPeak": 4089,
+        "instructionsMean": 85023,
+        "instructionsPeak": 212603,
+        "writesMean": {
+          "bitmap": 988,
+          "col": 30,
+          "par": 0,
+          "size": 1,
+          "vis": 34
+        },
+        "writesPeak": {
+          "bitmap": 3517,
+          "col": 372,
+          "par": 19,
+          "size": 41,
+          "vis": 749
+        },
+        "residentImages": 16000,
+        "simulationHash": 1859935648,
+        "sampledStates": {
+          "attack": 226,
+          "idle": 76,
+          "hit": 45,
+          "airhit": 13
+        },
+        "errors": []
+      },
+      "sharedBudget": {
+        "pair": [
+          "furina",
+          "arlecchino"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 1083,
+        "callsP95": 3054,
+        "callsPeak": 3436,
+        "instructionsMean": 93277,
+        "instructionsPeak": 219917,
+        "writesMean": {
+          "bitmap": 982,
+          "col": 16,
+          "par": 0,
+          "size": 1,
+          "vis": 34
+        },
+        "writesPeak": {
+          "bitmap": 3192,
+          "col": 372,
+          "par": 19,
+          "size": 41,
+          "vis": 703
+        },
+        "residentImages": 16000,
+        "simulationHash": 1859935648,
+        "sampledStates": {
+          "attack": 226,
+          "idle": 76,
+          "hit": 45,
+          "airhit": 13
+        },
+        "errors": []
+      },
+      "peakReductionPercent": 56.4,
+      "averageInstructionIncreasePercent": 5.6
+    },
+    {
+      "pair": "雷电＋纳西妲",
+      "baseline": {
+        "pair": [
+          "raidenshogun",
+          "nahida"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 1429,
+        "callsP95": 4346,
+        "callsPeak": 7170,
+        "instructionsMean": 97309,
+        "instructionsPeak": 456670,
+        "writesMean": {
+          "bitmap": 1257,
+          "col": 99,
+          "par": 13,
+          "size": 14,
+          "vis": 11
+        },
+        "writesPeak": {
+          "bitmap": 4731,
+          "col": 901,
+          "par": 960,
+          "size": 961,
+          "vis": 151
+        },
+        "residentImages": 16000,
+        "simulationHash": 1306260718,
+        "sampledStates": {
+          "attack": 229,
+          "idle": 60,
+          "hit": 71
+        },
+        "errors": []
+      },
+      "flashOnly": {
+        "pair": [
+          "raidenshogun",
+          "nahida"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 1279,
+        "callsP95": 3059,
+        "callsPeak": 7170,
+        "instructionsMean": 93316,
+        "instructionsPeak": 458570,
+        "writesMean": {
+          "bitmap": 1203,
+          "col": 4,
+          "par": 13,
+          "size": 14,
+          "vis": 10
+        },
+        "writesPeak": {
+          "bitmap": 4731,
+          "col": 24,
+          "par": 960,
+          "size": 961,
+          "vis": 100
+        },
+        "residentImages": 16000,
+        "simulationHash": 1306260718,
+        "sampledStates": {
+          "attack": 229,
+          "idle": 60,
+          "hit": 71
+        },
+        "errors": []
+      },
+      "sharedBudget": {
+        "pair": [
+          "raidenshogun",
+          "nahida"
+        ],
+        "scenario": "attack-natural",
+        "callbacks": 180,
+        "callbackHz": 60,
+        "callsMean": 1252,
+        "callsP95": 3142,
+        "callsPeak": 3380,
+        "instructionsMean": 102482,
+        "instructionsPeak": 307121,
+        "writesMean": {
+          "bitmap": 1183,
+          "col": 4,
+          "par": 10,
+          "size": 11,
+          "vis": 10
+        },
+        "writesPeak": {
+          "bitmap": 3099,
+          "col": 24,
+          "par": 216,
+          "size": 217,
+          "vis": 100
+        },
+        "residentImages": 16000,
+        "simulationHash": 1306260718,
+        "sampledStates": {
+          "attack": 229,
+          "idle": 60,
+          "hit": 71
+        },
+        "errors": []
+      },
+      "peakReductionPercent": 52.9,
+      "averageInstructionIncreasePercent": 5.3
+    }
+  ],
+  "baselineSha256": "50c026607d7cbf60ecbb02822bc879934fbe2525a779eefb74766a01a426ee5e",
+  "ASha256": "028aefccb72dd4fb769342c079254a8f11eaacedb795c165dee86f3f9af5eeec",
+  "BSha256": "f386e964e1aeb124dba48341f3ee27da1776cb10a936cc2ba1ab337023f61c84"
+}

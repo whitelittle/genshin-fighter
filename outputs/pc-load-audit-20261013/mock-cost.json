@@ -1,0 +1,339 @@
+{
+  "mockOnly": true,
+  "nativeFPSMeasured": false,
+  "rows": [
+    {
+      "pair": [
+        "clorinde",
+        "clorinde"
+      ],
+      "scenario": "idle",
+      "callbackHz": 60,
+      "callsMean": 6,
+      "callsPeak": 65,
+      "instructionsPeak": 43365,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        969,
+        969
+      ],
+      "frontRectangles": [
+        727,
+        727
+      ],
+      "writeMeans": {
+        "bitmap": 0,
+        "size": 0,
+        "col": 4,
+        "par": 0,
+        "pos": 0,
+        "vis": 0
+      },
+      "writePeaks": {
+        "bitmap": 0,
+        "size": 10,
+        "col": 20,
+        "par": 0,
+        "pos": 12,
+        "vis": 10
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "clorinde",
+        "clorinde"
+      ],
+      "scenario": "static-body",
+      "callbackHz": 60,
+      "callsMean": 5,
+      "callsPeak": 65,
+      "instructionsPeak": 42565,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        969,
+        969
+      ],
+      "frontRectangles": [
+        727,
+        727
+      ],
+      "writeMeans": {
+        "bitmap": 0,
+        "size": 0,
+        "col": 4,
+        "par": 0,
+        "pos": 0,
+        "vis": 0
+      },
+      "writePeaks": {
+        "bitmap": 0,
+        "size": 10,
+        "col": 20,
+        "par": 0,
+        "pos": 12,
+        "vis": 10
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "clorinde",
+        "clorinde"
+      ],
+      "scenario": "walk",
+      "callbackHz": 60,
+      "callsMean": 318,
+      "callsPeak": 716,
+      "instructionsPeak": 204849,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        969,
+        969
+      ],
+      "frontRectangles": [
+        802,
+        727
+      ],
+      "writeMeans": {
+        "bitmap": 294,
+        "size": 0,
+        "col": 4,
+        "par": 0,
+        "pos": 304,
+        "vis": 5
+      },
+      "writePeaks": {
+        "bitmap": 680,
+        "size": 10,
+        "col": 20,
+        "par": 0,
+        "pos": 688,
+        "vis": 100
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "clorinde",
+        "clorinde"
+      ],
+      "scenario": "hits",
+      "callbackHz": 60,
+      "callsMean": 1355,
+      "callsPeak": 5845,
+      "instructionsPeak": 242045,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        969,
+        969
+      ],
+      "frontRectangles": [
+        727,
+        727
+      ],
+      "writeMeans": {
+        "bitmap": 117,
+        "size": 0,
+        "col": 1233,
+        "par": 0,
+        "pos": 117,
+        "vis": 1
+      },
+      "writePeaks": {
+        "bitmap": 4338,
+        "size": 10,
+        "col": 1500,
+        "par": 2,
+        "pos": 4338,
+        "vis": 44
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "scenario": "idle",
+      "callbackHz": 60,
+      "callsMean": 24,
+      "callsPeak": 861,
+      "instructionsPeak": 187748,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        912,
+        920
+      ],
+      "frontRectangles": [
+        805,
+        852
+      ],
+      "writeMeans": {
+        "bitmap": 18,
+        "size": 0,
+        "col": 4,
+        "par": 0,
+        "pos": 18,
+        "vis": 0
+      },
+      "writePeaks": {
+        "bitmap": 795,
+        "size": 10,
+        "col": 21,
+        "par": 0,
+        "pos": 807,
+        "vis": 39
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "scenario": "static-body",
+      "callbackHz": 60,
+      "callsMean": 5,
+      "callsPeak": 66,
+      "instructionsPeak": 43366,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        912,
+        920
+      ],
+      "frontRectangles": [
+        805,
+        852
+      ],
+      "writeMeans": {
+        "bitmap": 0,
+        "size": 0,
+        "col": 4,
+        "par": 0,
+        "pos": 0,
+        "vis": 0
+      },
+      "writePeaks": {
+        "bitmap": 0,
+        "size": 10,
+        "col": 21,
+        "par": 0,
+        "pos": 12,
+        "vis": 10
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "scenario": "walk",
+      "callbackHz": 60,
+      "callsMean": 343,
+      "callsPeak": 951,
+      "instructionsPeak": 158001,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        912,
+        920
+      ],
+      "frontRectangles": [
+        896,
+        852
+      ],
+      "writeMeans": {
+        "bitmap": 323,
+        "size": 1,
+        "col": 4,
+        "par": 0,
+        "pos": 333,
+        "vis": 2
+      },
+      "writePeaks": {
+        "bitmap": 937,
+        "size": 11,
+        "col": 21,
+        "par": 0,
+        "pos": 945,
+        "vis": 54
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "scenario": "hits",
+      "callbackHz": 60,
+      "callsMean": 1465,
+      "callsPeak": 3817,
+      "instructionsPeak": 225907,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        912,
+        920
+      ],
+      "frontRectangles": [
+        805,
+        852
+      ],
+      "writeMeans": {
+        "bitmap": 69,
+        "size": 0,
+        "col": 1391,
+        "par": 0,
+        "pos": 71,
+        "vis": 1
+      },
+      "writePeaks": {
+        "bitmap": 2133,
+        "size": 10,
+        "col": 1678,
+        "par": 2,
+        "pos": 2135,
+        "vis": 39
+      },
+      "errors": []
+    },
+    {
+      "pair": [
+        "clorinde",
+        "clorinde"
+      ],
+      "scenario": "idle",
+      "callbackHz": 15,
+      "callsMean": 8,
+      "callsPeak": 65,
+      "instructionsPeak": 45665,
+      "residentImages": 16000,
+      "bodyPeaks": [
+        969,
+        969
+      ],
+      "frontRectangles": [
+        727,
+        727
+      ],
+      "writeMeans": {
+        "bitmap": 0,
+        "size": 0,
+        "col": 4,
+        "par": 0,
+        "pos": 0,
+        "vis": 1
+      },
+      "writePeaks": {
+        "bitmap": 0,
+        "size": 10,
+        "col": 20,
+        "par": 0,
+        "pos": 12,
+        "vis": 10
+      },
+      "errors": []
+    }
+  ]
+}

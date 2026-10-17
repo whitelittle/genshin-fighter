@@ -1,0 +1,21 @@
+{
+  "A": {
+    "file": "GF_r33_opt_A.lua",
+    "modules_changed": [
+      "gf_art",
+      "gf_scene_fight"
+    ],
+    "bytes": 4301058,
+    "sha256": "aad7cc46cb04c130ac752491a0580e4dca11696967ea073b2ed17355f8e00b45"
+  },
+  "B": {
+    "file": "GF_r33_opt_B.lua",
+    "modules_changed": [
+      "gf_art",
+      "gf_scene_fight",
+      "gf_gfx"
+    ],
+    "bytes": 4301204,
+    "sha256": "d1d9d9f5afddd4119e08dcccc1a5655f56a78ca784e8424f0011019e3212a83b"
+  }
+}

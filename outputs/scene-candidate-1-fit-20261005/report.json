@@ -1,0 +1,104 @@
+{
+  "source": "source.png",
+  "sourceSize": [
+    1672,
+    941
+  ],
+  "candidate": 1,
+  "reference": "210009 scene fitting profiles",
+  "results": [
+    {
+      "w": 224,
+      "h": 126,
+      "colors": 40,
+      "tolerance": 3,
+      "sampling": "nearest",
+      "rectangles": 8129,
+      "actualColors": 40,
+      "method": "纵向无重叠",
+      "exact": true,
+      "approxControls": 16258,
+      "meets9000": true
+    },
+    {
+      "w": 224,
+      "h": 126,
+      "colors": 32,
+      "tolerance": 3,
+      "sampling": "nearest",
+      "rectangles": 7307,
+      "actualColors": 32,
+      "method": "纵向无重叠",
+      "exact": true,
+      "approxControls": 14614,
+      "meets9000": true
+    },
+    {
+      "w": 208,
+      "h": 117,
+      "colors": 40,
+      "tolerance": 3,
+      "sampling": "nearest",
+      "rectangles": 6550,
+      "actualColors": 40,
+      "method": "纵向无重叠",
+      "exact": true,
+      "approxControls": 13100,
+      "meets9000": true
+    },
+    {
+      "w": 208,
+      "h": 117,
+      "colors": 32,
+      "tolerance": 3,
+      "sampling": "nearest",
+      "rectangles": 6391,
+      "actualColors": 32,
+      "method": "纵向无重叠",
+      "exact": true,
+      "approxControls": 12782,
+      "meets9000": true
+    },
+    {
+      "w": 192,
+      "h": 108,
+      "colors": 40,
+      "tolerance": 3,
+      "sampling": "nearest",
+      "rectangles": 5935,
+      "actualColors": 40,
+      "method": "纵向无重叠",
+      "exact": true,
+      "approxControls": 11870,
+      "meets9000": true
+    },
+    {
+      "w": 192,
+      "h": 108,
+      "colors": 32,
+      "tolerance": 3,
+      "sampling": "nearest",
+      "rectangles": 5793,
+      "actualColors": 32,
+      "method": "纵向无重叠",
+      "exact": true,
+      "approxControls": 11586,
+      "meets9000": true
+    }
+  ],
+  "selected": {
+    "w": 224,
+    "h": 126,
+    "colors": 40,
+    "tolerance": 3,
+    "sampling": "nearest",
+    "rectangles": 8129,
+    "actualColors": 40,
+    "method": "纵向无重叠",
+    "exact": true,
+    "approxControls": 16258,
+    "meets9000": true
+  },
+  "deviceVerified": false,
+  "gameIntegrated": false
+}

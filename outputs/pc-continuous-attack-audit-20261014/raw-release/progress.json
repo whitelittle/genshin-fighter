@@ -1,0 +1,984 @@
+[
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "idle",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 7,
+    "callsP95": 8,
+    "callsPeak": 66,
+    "instructionsMean": 41378,
+    "instructionsPeak": 44266,
+    "writesMean": {
+      "bitmap": 0,
+      "col": 4,
+      "par": 0,
+      "size": 0,
+      "vis": 0
+    },
+    "writesPeak": {
+      "bitmap": 0,
+      "col": 20,
+      "par": 0,
+      "size": 10,
+      "vis": 10
+    },
+    "residentImages": 16000,
+    "simulationHash": 569237095,
+    "sampledStates": {
+      "idle": 360
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "attack-natural",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 923,
+    "callsP95": 2972,
+    "callsPeak": 6377,
+    "instructionsMean": 77449,
+    "instructionsPeak": 286265,
+    "writesMean": {
+      "bitmap": 770,
+      "col": 118,
+      "par": 0,
+      "size": 1,
+      "vis": 11
+    },
+    "writesPeak": {
+      "bitmap": 5231,
+      "col": 996,
+      "par": 13,
+      "size": 27,
+      "vis": 321
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "attack-feedback",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 2042,
+    "callsP95": 6998,
+    "callsPeak": 9644,
+    "instructionsMean": 110790,
+    "instructionsPeak": 374844,
+    "writesMean": {
+      "bitmap": 1262,
+      "col": 736,
+      "par": 0,
+      "size": 1,
+      "vis": 16
+    },
+    "writesPeak": {
+      "bitmap": 7870,
+      "col": 1772,
+      "par": 13,
+      "size": 27,
+      "vis": 321
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "no-flash",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 783,
+    "callsP95": 2692,
+    "callsPeak": 4376,
+    "instructionsMean": 73050,
+    "instructionsPeak": 217376,
+    "writesMean": {
+      "bitmap": 696,
+      "col": 56,
+      "par": 0,
+      "size": 1,
+      "vis": 9
+    },
+    "writesPeak": {
+      "bitmap": 4350,
+      "col": 486,
+      "par": 12,
+      "size": 27,
+      "vis": 170
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "no-body",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 739,
+    "callsP95": 1557,
+    "callsPeak": 3070,
+    "instructionsMean": 59239,
+    "instructionsPeak": 135470,
+    "writesMean": {
+      "bitmap": 18,
+      "col": 706,
+      "par": 0,
+      "size": 1,
+      "vis": 1
+    },
+    "writesPeak": {
+      "bitmap": 1590,
+      "col": 1790,
+      "par": 13,
+      "size": 27,
+      "vis": 15
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "no-extras",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1972,
+    "callsP95": 6998,
+    "callsPeak": 9644,
+    "instructionsMean": 107553,
+    "instructionsPeak": 376144,
+    "writesMean": {
+      "bitmap": 1244,
+      "col": 684,
+      "par": 0,
+      "size": 1,
+      "vis": 16
+    },
+    "writesPeak": {
+      "bitmap": 7870,
+      "col": 1760,
+      "par": 13,
+      "size": 27,
+      "vis": 321
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "idle",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 7,
+    "callsP95": 10,
+    "callsPeak": 67,
+    "instructionsMean": 41823,
+    "instructionsPeak": 44867,
+    "writesMean": {
+      "bitmap": 0,
+      "col": 4,
+      "par": 0,
+      "size": 0,
+      "vis": 0
+    },
+    "writesPeak": {
+      "bitmap": 0,
+      "col": 21,
+      "par": 0,
+      "size": 10,
+      "vis": 10
+    },
+    "residentImages": 16000,
+    "simulationHash": 66450871,
+    "sampledStates": {
+      "idle": 360
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "attack-natural",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1226,
+    "callsP95": 3281,
+    "callsPeak": 7879,
+    "instructionsMean": 88320,
+    "instructionsPeak": 336968,
+    "writesMean": {
+      "bitmap": 1042,
+      "col": 92,
+      "par": 0,
+      "size": 1,
+      "vis": 39
+    },
+    "writesPeak": {
+      "bitmap": 6655,
+      "col": 1043,
+      "par": 20,
+      "size": 41,
+      "vis": 900
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "attack-feedback",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 2597,
+    "callsP95": 8541,
+    "callsPeak": 12617,
+    "instructionsMean": 128736,
+    "instructionsPeak": 493505,
+    "writesMean": {
+      "bitmap": 1637,
+      "col": 836,
+      "par": 0,
+      "size": 1,
+      "vis": 55
+    },
+    "writesPeak": {
+      "bitmap": 9542,
+      "col": 2441,
+      "par": 20,
+      "size": 41,
+      "vis": 942
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "no-flash",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1065,
+    "callsP95": 3150,
+    "callsPeak": 3653,
+    "instructionsMean": 83163,
+    "instructionsPeak": 190666,
+    "writesMean": {
+      "bitmap": 954,
+      "col": 30,
+      "par": 0,
+      "size": 1,
+      "vis": 33
+    },
+    "writesPeak": {
+      "bitmap": 3477,
+      "col": 372,
+      "par": 19,
+      "size": 41,
+      "vis": 749
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "no-body",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 688,
+    "callsP95": 1599,
+    "callsPeak": 2340,
+    "instructionsMean": 58501,
+    "instructionsPeak": 104440,
+    "writesMean": {
+      "bitmap": 28,
+      "col": 640,
+      "par": 0,
+      "size": 1,
+      "vis": 3
+    },
+    "writesPeak": {
+      "bitmap": 910,
+      "col": 1793,
+      "par": 20,
+      "size": 41,
+      "vis": 121
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "no-extras",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 2540,
+    "callsP95": 8393,
+    "callsPeak": 12426,
+    "instructionsMean": 126102,
+    "instructionsPeak": 482614,
+    "writesMean": {
+      "bitmap": 1610,
+      "col": 810,
+      "par": 0,
+      "size": 1,
+      "vis": 53
+    },
+    "writesPeak": {
+      "bitmap": 9414,
+      "col": 2295,
+      "par": 20,
+      "size": 41,
+      "vis": 942
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "idle",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 25,
+    "callsP95": 10,
+    "callsPeak": 862,
+    "instructionsMean": 42343,
+    "instructionsPeak": 101349,
+    "writesMean": {
+      "bitmap": 18,
+      "col": 4,
+      "par": 0,
+      "size": 0,
+      "vis": 0
+    },
+    "writesPeak": {
+      "bitmap": 795,
+      "col": 21,
+      "par": 0,
+      "size": 10,
+      "vis": 39
+    },
+    "residentImages": 16000,
+    "simulationHash": 441075017,
+    "sampledStates": {
+      "idle": 360
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "attack-natural",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1429,
+    "callsP95": 4346,
+    "callsPeak": 7170,
+    "instructionsMean": 97309,
+    "instructionsPeak": 456670,
+    "writesMean": {
+      "bitmap": 1257,
+      "col": 99,
+      "par": 13,
+      "size": 14,
+      "vis": 11
+    },
+    "writesPeak": {
+      "bitmap": 4731,
+      "col": 901,
+      "par": 960,
+      "size": 961,
+      "vis": 151
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "attack-feedback",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 2596,
+    "callsP95": 7860,
+    "callsPeak": 9274,
+    "instructionsMean": 132436,
+    "instructionsPeak": 456574,
+    "writesMean": {
+      "bitmap": 1775,
+      "col": 741,
+      "par": 14,
+      "size": 14,
+      "vis": 14
+    },
+    "writesPeak": {
+      "bitmap": 7545,
+      "col": 1725,
+      "par": 960,
+      "size": 961,
+      "vis": 158
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "no-flash",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1227,
+    "callsP95": 3049,
+    "callsPeak": 7170,
+    "instructionsMean": 90946,
+    "instructionsPeak": 456670,
+    "writesMean": {
+      "bitmap": 1151,
+      "col": 4,
+      "par": 13,
+      "size": 14,
+      "vis": 10
+    },
+    "writesPeak": {
+      "bitmap": 4731,
+      "col": 23,
+      "par": 960,
+      "size": 961,
+      "vis": 100
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "no-body",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 823,
+    "callsP95": 1699,
+    "callsPeak": 4823,
+    "instructionsMean": 62518,
+    "instructionsPeak": 366223,
+    "writesMean": {
+      "bitmap": 33,
+      "col": 736,
+      "par": 14,
+      "size": 14,
+      "vis": 1
+    },
+    "writesPeak": {
+      "bitmap": 2400,
+      "col": 1679,
+      "par": 960,
+      "size": 961,
+      "vis": 25
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "no-extras",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 2530,
+    "callsP95": 7860,
+    "callsPeak": 9274,
+    "instructionsMean": 128711,
+    "instructionsPeak": 377474,
+    "writesMean": {
+      "bitmap": 1743,
+      "col": 741,
+      "par": 1,
+      "size": 1,
+      "vis": 14
+    },
+    "writesPeak": {
+      "bitmap": 7545,
+      "col": 1725,
+      "par": 20,
+      "size": 42,
+      "vis": 158
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "natural-no-flash",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 783,
+    "callsP95": 2692,
+    "callsPeak": 4376,
+    "instructionsMean": 73050,
+    "instructionsPeak": 217376,
+    "writesMean": {
+      "bitmap": 696,
+      "col": 56,
+      "par": 0,
+      "size": 1,
+      "vis": 9
+    },
+    "writesPeak": {
+      "bitmap": 4350,
+      "col": 486,
+      "par": 12,
+      "size": 27,
+      "vis": 170
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "natural-no-body",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 149,
+    "callsP95": 762,
+    "callsPeak": 1616,
+    "instructionsMean": 45633,
+    "instructionsPeak": 101916,
+    "writesMean": {
+      "bitmap": 18,
+      "col": 117,
+      "par": 0,
+      "size": 1,
+      "vis": 1
+    },
+    "writesPeak": {
+      "bitmap": 1590,
+      "col": 902,
+      "par": 13,
+      "size": 27,
+      "vis": 15
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "clorinde",
+      "clorinde"
+    ],
+    "scenario": "natural-no-extras",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 852,
+    "callsP95": 2680,
+    "callsPeak": 6212,
+    "instructionsMean": 74179,
+    "instructionsPeak": 279100,
+    "writesMean": {
+      "bitmap": 752,
+      "col": 66,
+      "par": 0,
+      "size": 1,
+      "vis": 11
+    },
+    "writesPeak": {
+      "bitmap": 5231,
+      "col": 894,
+      "par": 13,
+      "size": 27,
+      "vis": 321
+    },
+    "residentImages": 16000,
+    "simulationHash": 1146919082,
+    "sampledStates": {
+      "attack": 223,
+      "idle": 80,
+      "hit": 42,
+      "airhit": 15
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "natural-no-flash",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1065,
+    "callsP95": 3150,
+    "callsPeak": 3653,
+    "instructionsMean": 83163,
+    "instructionsPeak": 190666,
+    "writesMean": {
+      "bitmap": 954,
+      "col": 30,
+      "par": 0,
+      "size": 1,
+      "vis": 33
+    },
+    "writesPeak": {
+      "bitmap": 3477,
+      "col": 372,
+      "par": 19,
+      "size": 41,
+      "vis": 749
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "natural-no-body",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 133,
+    "callsP95": 708,
+    "callsPeak": 1326,
+    "instructionsMean": 45695,
+    "instructionsPeak": 94107,
+    "writesMean": {
+      "bitmap": 28,
+      "col": 86,
+      "par": 0,
+      "size": 1,
+      "vis": 2
+    },
+    "writesPeak": {
+      "bitmap": 910,
+      "col": 696,
+      "par": 20,
+      "size": 41,
+      "vis": 121
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "furina",
+      "arlecchino"
+    ],
+    "scenario": "natural-no-extras",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1169,
+    "callsP95": 3145,
+    "callsPeak": 7688,
+    "instructionsMean": 85605,
+    "instructionsPeak": 321976,
+    "writesMean": {
+      "bitmap": 1015,
+      "col": 66,
+      "par": 0,
+      "size": 1,
+      "vis": 37
+    },
+    "writesPeak": {
+      "bitmap": 6527,
+      "col": 1043,
+      "par": 20,
+      "size": 41,
+      "vis": 900
+    },
+    "residentImages": 16000,
+    "simulationHash": 1859935648,
+    "sampledStates": {
+      "attack": 226,
+      "idle": 76,
+      "hit": 45,
+      "airhit": 13
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "natural-no-flash",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1227,
+    "callsP95": 3049,
+    "callsPeak": 7170,
+    "instructionsMean": 90946,
+    "instructionsPeak": 456670,
+    "writesMean": {
+      "bitmap": 1151,
+      "col": 4,
+      "par": 13,
+      "size": 14,
+      "vis": 10
+    },
+    "writesPeak": {
+      "bitmap": 4731,
+      "col": 23,
+      "par": 960,
+      "size": 961,
+      "vis": 100
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "natural-no-body",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 183,
+    "callsP95": 888,
+    "callsPeak": 4819,
+    "instructionsMean": 47751,
+    "instructionsPeak": 364519,
+    "writesMean": {
+      "bitmap": 33,
+      "col": 98,
+      "par": 13,
+      "size": 14,
+      "vis": 1
+    },
+    "writesPeak": {
+      "bitmap": 2400,
+      "col": 869,
+      "par": 960,
+      "size": 961,
+      "vis": 25
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  },
+  {
+    "pair": [
+      "raidenshogun",
+      "nahida"
+    ],
+    "scenario": "natural-no-extras",
+    "callbacks": 180,
+    "callbackHz": 60,
+    "callsMean": 1363,
+    "callsP95": 3692,
+    "callsPeak": 5619,
+    "instructionsMean": 93638,
+    "instructionsPeak": 249407,
+    "writesMean": {
+      "bitmap": 1224,
+      "col": 99,
+      "par": 0,
+      "size": 1,
+      "vis": 11
+    },
+    "writesPeak": {
+      "bitmap": 4495,
+      "col": 901,
+      "par": 20,
+      "size": 42,
+      "vis": 149
+    },
+    "residentImages": 16000,
+    "simulationHash": 1306260718,
+    "sampledStates": {
+      "attack": 229,
+      "idle": 60,
+      "hit": 71
+    },
+    "errors": []
+  }
+]

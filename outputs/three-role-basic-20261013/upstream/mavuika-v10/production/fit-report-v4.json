@@ -1,0 +1,214 @@
+{
+  "sourceSHA256": "d2678197fbdbad31a6577e3f5c42eb495326e5cda5d687d8eeee50935a9c4bf9",
+  "palette": [
+    [
+      252,
+      199,
+      114
+    ],
+    [
+      42,
+      29,
+      27
+    ],
+    [
+      209,
+      62,
+      31
+    ],
+    [
+      233,
+      93,
+      46
+    ],
+    [
+      197,
+      153,
+      112
+    ],
+    [
+      158,
+      105,
+      65
+    ],
+    [
+      240,
+      134,
+      67
+    ],
+    [
+      172,
+      50,
+      28
+    ],
+    [
+      116,
+      76,
+      49
+    ],
+    [
+      92,
+      61,
+      45
+    ],
+    [
+      137,
+      89,
+      55
+    ],
+    [
+      91,
+      36,
+      25
+    ],
+    [
+      239,
+      204,
+      186
+    ],
+    [
+      56,
+      38,
+      34
+    ],
+    [
+      68,
+      50,
+      45
+    ],
+    [
+      179,
+      122,
+      74
+    ],
+    [
+      255,
+      244,
+      143
+    ],
+    [
+      127,
+      42,
+      27
+    ],
+    [
+      248,
+      167,
+      88
+    ],
+    [
+      28,
+      21,
+      19
+    ],
+    [
+      43,
+      25,
+      27
+    ]
+  ],
+  "pipeline": "premultiplied BOX / weighted OKLab / shared palette / one-pixel coordinated inner outline / painter",
+  "records": [
+    {
+      "pose": "ride",
+      "mode": "initial",
+      "rectangles": 1163,
+      "size": [
+        83,
+        54
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "brake",
+      "mode": "initial",
+      "rectangles": 900,
+      "size": [
+        78,
+        55
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "windup",
+      "mode": "initial",
+      "rectangles": 546,
+      "size": [
+        83,
+        53
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "slash",
+      "mode": "initial",
+      "rectangles": 489,
+      "size": [
+        78,
+        53
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "idle",
+      "mode": "initial",
+      "rectangles": 346,
+      "size": [
+        38,
+        50
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "ride",
+      "mode": "optimized",
+      "rectangles": 1059,
+      "size": [
+        83,
+        54
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "brake",
+      "mode": "optimized",
+      "rectangles": 810,
+      "size": [
+        78,
+        55
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "windup",
+      "mode": "optimized",
+      "rectangles": 397,
+      "size": [
+        83,
+        53
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "slash",
+      "mode": "optimized",
+      "rectangles": 349,
+      "size": [
+        78,
+        53
+      ],
+      "support": "manual provisional, not accepted"
+    },
+    {
+      "pose": "idle",
+      "mode": "optimized",
+      "rectangles": 272,
+      "size": [
+        38,
+        50
+      ],
+      "support": "manual provisional, not accepted"
+    }
+  ],
+  "scope": "offline SD encoding only; no browser, formal game or device acceptance"
+}

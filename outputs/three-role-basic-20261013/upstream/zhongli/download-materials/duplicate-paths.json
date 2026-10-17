@@ -1,0 +1,622 @@
+[
+  {
+    "path": "actions/raiden/assets/raiden-eye-r31.png",
+    "source": "actions/nahida/assets/raiden-eye-r31.png",
+    "sha256": "3f87c170c55d4826f16ea205076f3fd4b0c53b0ac103a7a015a9fd19f5aeaed0"
+  },
+  {
+    "path": "batches/20261011-refinement/walk-padding-initial-rects.json",
+    "source": "batches/20261011-refinement/history-v1/walk-padding-initial-rects.json",
+    "sha256": "ca6bc9358dac5817ad8b9e6252d0bdc9389c02d0ea59145c463bdb60d26f1021"
+  },
+  {
+    "path": "batches/20261011-refinement/walk-padding-initial.png",
+    "source": "batches/20261011-refinement/history-v1/walk-padding-initial.png",
+    "sha256": "ac32969999ea65ab0dee9b7ea25e29e26d1de841a6fe2352ea8017da0ad7b463"
+  },
+  {
+    "path": "batches/20261011-refinement/walk-padding-optimized-rects.json",
+    "source": "batches/20261011-refinement/history-v1/walk-padding-optimized-rects.json",
+    "sha256": "ec518a655f12d879646779820c42d8ab72b503fa11d3b3cef07429cdcf1b1311"
+  },
+  {
+    "path": "batches/20261011-refinement/walk-padding-optimized.png",
+    "source": "batches/20261011-refinement/history-v1/walk-padding-optimized.png",
+    "sha256": "98cb85ba6c4f79f772936596b689210603d906b1096618cbd39a5e8c3cd560bd"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-3b32a7d7-0adf-44be-8cf7-a29e27a1c0e7.png",
+    "source": "batches/20261011-resume/idle-second-candidate.png",
+    "sha256": "df0f98477ac55d7f5e58a9cf3cf3c786cb2f765870a134702ac0c4b9570c886f"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-70291e72-e88c-4892-84d1-29ee14b47fd2.png",
+    "source": "batches/20261011-refinement/light1-recovery-v2.png",
+    "sha256": "2037cc74f4cc913019f66742be9d3044ca6c37fc94fea0e92bef9f74a5e64975"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-8d594f19-b979-44fc-8cde-32157c0223be.png",
+    "source": "batches/20261011-resume/mother-clean-candidate.png",
+    "sha256": "08560777397e1be424d72cdb50c91d2fa11f27e7d887f25f225c16886067a49e"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-95983635-0088-4215-9885-a9e8bbb84608.png",
+    "source": "batches/20261011-resume/walk-margin-rejected.png",
+    "sha256": "f495ca22985e7a87f25219e86bef2d935e63730305e731dd31d8773bbf0127fe"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-a0f41ba1-f32a-4705-9ab2-8177bd605488.png",
+    "source": "batches/20261011-refinement/light1-recovery-v1.png",
+    "sha256": "81c2d7c6c8dc19e2c9779f542bd0341398722afa2eb7782eb6865218fec10ab1"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-b64dc0e1-eaa2-45b9-9f50-a3217150ed89.png",
+    "source": "batches/20261011-resume/walk-first-candidate.png",
+    "sha256": "18dc67fabae26436e31612e1d4e37495fcc77a6359135e072ca06544c0affb06"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-c5f381f8-85ed-4882-91e6-6136a109d540.png",
+    "source": "batches/20261011-resume/light1-existing-repair.png",
+    "sha256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf"
+  },
+  {
+    "path": "download-materials/generated-originals/exec-ce90052c-6b0f-4231-98a4-7ac5c4ecec40.png",
+    "source": "batches/20261011-refinement/walk-padding-v3.png",
+    "sha256": "7bf41f44bbd9a232ef00efa4c0a72fe83448d6fd9537dde11f040c5bdb04040c"
+  },
+  {
+    "path": "download-materials/standards/game/tools/artlib.py",
+    "source": "download-materials/scripts/artlib.py",
+    "sha256": "5199ef7e5929e2137ed19c9eb2cc09ac76c999f2a0f4138e3854618caf181071"
+  },
+  {
+    "path": "full-actions/README.md",
+    "source": "download-materials/README.md",
+    "sha256": "4c2ffeebbcec0faf7d53dc54dfb9048bf7a73be31995218610c8a2639dbdd3fc"
+  },
+  {
+    "path": "full-actions/checks/crouchheavy-spacing-rejected.png",
+    "source": "download-materials/generated-originals/exec-a357400f-3042-438c-83d0-af20c224f311.png",
+    "sha256": "4e25d393b8a78b9c3afc21666ff02569a0c735598ae0401fe248f3937b83bec9"
+  },
+  {
+    "path": "full-actions/checks/light3-spacing-rejected.png",
+    "source": "download-materials/generated-originals/exec-3f77fcdb-1a95-4c59-8417-5e791bc4820d.png",
+    "sha256": "5eb10bcd236ceb491e662819fb38565f3286a2c2a9f1ee79fef9a368b6e1fbce"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_0.png",
+    "source": "foe-fit-basic_0.png",
+    "sha256": "b8940851eedecf8774f5b328035db5baa000afd44def2ad0f26fe98b3d85fc4f"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_1.png",
+    "source": "foe-fit-basic_1.png",
+    "sha256": "465cdef394efc2462ac5ee181fc7703f065de8db0e73d9a00e6bb7c016a2af52"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_2.png",
+    "source": "foe-fit-basic_2.png",
+    "sha256": "c749030a981284f6536d69b81c7594f12a6a15f69094abafd8f7657b6333a271"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_3.png",
+    "source": "foe-fit-basic_3.png",
+    "sha256": "c329cad7a3cd38c811dc877f926f7ad97099bd482e8863f679f9efa2cdd5b967"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_4.png",
+    "source": "foe-fit-basic_4.png",
+    "sha256": "1cbb004412894d590316b6f86e9ab37b3597dbb5a79737848aef1d2bd1f6f22a"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_5.png",
+    "source": "foe-fit-basic_5.png",
+    "sha256": "1940c4243c569198579766f23c9a32e774bab7044eaabe5b1941a6e6ba4448a9"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_6.png",
+    "source": "foe-fit-basic_6.png",
+    "sha256": "6000e523aa301516e4b9ee520bab3322626a0e225da8cd4048baa1510a77cda4"
+  },
+  {
+    "path": "full-actions/foe-fit-basic_7.png",
+    "source": "foe-fit-basic_7.png",
+    "sha256": "cda38c7985335e92652187dad06d4d05ede1992ae7e0c5a6aa8f8b612c1a625b"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_0.png",
+    "source": "foe-fit-hurt_0.png",
+    "sha256": "a8240cc43eddf700e2327d391e6f93f4e6ab82982696e30415454f6c4d81ca75"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_1.png",
+    "source": "foe-fit-hurt_1.png",
+    "sha256": "301e7cc95294fbaa778b5758a5058474095d79b3816c4bdcf48607da44470b1c"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_2.png",
+    "source": "foe-fit-hurt_2.png",
+    "sha256": "14cc7ffa47333888b3967fd199d9a76816057ba966569943a02de4e3b4e4f4a2"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_3.png",
+    "source": "foe-fit-hurt_3.png",
+    "sha256": "618b831eed01a27e0dbfa938961190c7d1cef3be78fb48f6d9fc2fc1b18cf094"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_4.png",
+    "source": "foe-fit-hurt_4.png",
+    "sha256": "bd5d4c994d738194667712c9cbd588e69b3bb275282f2a496357f0090a58a1aa"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_5.png",
+    "source": "foe-fit-hurt_5.png",
+    "sha256": "db3944981780deed2cb72a55805bfb6da60cf93aed001a565b65462b809c77c0"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_6.png",
+    "source": "foe-fit-hurt_6.png",
+    "sha256": "7c06c8442c42a32dd1618a96f1a7e9bf8cdde444a2e38a496eb5f8d0fa5bfe23"
+  },
+  {
+    "path": "full-actions/foe-fit-hurt_7.png",
+    "source": "foe-fit-hurt_7.png",
+    "sha256": "0d2b17f7879ac27b908c54094a8991f0f313f3619b54d1a153aee4ca2f62c258"
+  },
+  {
+    "path": "full-actions/foe-fit-throw_0.png",
+    "source": "foe-fit-throw_0.png",
+    "sha256": "08ade7b21dc01d602923724569b3de2e3a815ae2feea347a1f1faac075e5add0"
+  },
+  {
+    "path": "full-actions/foe-fit-throw_1.png",
+    "source": "foe-fit-throw_1.png",
+    "sha256": "4acd50b224bcc16e65528a3c80167dd6b2a1d1d8ed87e3dcbbc641b2f2ed65f3"
+  },
+  {
+    "path": "full-actions/foe-fit-throw_2.png",
+    "source": "foe-fit-throw_2.png",
+    "sha256": "9a3d9cb8520c66f358a559bde714fea7ecfb65f23ba9df593f6ebc839fc1afa0"
+  },
+  {
+    "path": "full-actions/foe-fit-throw_3.png",
+    "source": "foe-fit-throw_3.png",
+    "sha256": "3a788f7206e0c05a800552ea93e8f64594ad59f7c0234d54b251b4ba6af8b074"
+  },
+  {
+    "path": "full-actions/foe-fit-victim_0.png",
+    "source": "foe-fit-victim_0.png",
+    "sha256": "4fa1d0df3c1020d32e1625ca95bbc647aaeb49446f63b7b11316b056bf4915f9"
+  },
+  {
+    "path": "full-actions/foe-fit-victim_1.png",
+    "source": "foe-fit-victim_1.png",
+    "sha256": "2ab5ea009c12f45943c70252b47d9bf73eebdc993add66c5b4cf5c703e908a23"
+  },
+  {
+    "path": "full-actions/foe-fit-victim_2.png",
+    "source": "foe-fit-victim_2.png",
+    "sha256": "0cdd83d2bb7010d6a9ad4e3936e717ec4eb219d6a9d4918dac93b4a6d9191d61"
+  },
+  {
+    "path": "full-actions/foe-fit-victim_3.png",
+    "source": "foe-fit-victim_3.png",
+    "sha256": "c4d63f0ad91be261bdebbbe222b865e73465a9518952d9885c32fdf91065bba6"
+  },
+  {
+    "path": "full-actions/foe-fit-victim_4.png",
+    "source": "foe-fit-victim_4.png",
+    "sha256": "6248b4307d412f43c22f0b39d2b6ce3aa1818e4e128fc17e2cbdfa59893958b1"
+  },
+  {
+    "path": "full-actions/foe-fit-victim_5.png",
+    "source": "foe-fit-victim_5.png",
+    "sha256": "f3565d844e8f934f0eb6e8122a4023024435998740c03781a10a5d685ecbca06"
+  },
+  {
+    "path": "full-actions/frames/light1-0.png",
+    "source": "batches/20261011-resume/light1-0-source.png",
+    "sha256": "776b049e208c97dcfdab28146a0500f01da0e297c8a036dcb5d84b814d22e29e"
+  },
+  {
+    "path": "full-actions/frames/light1-1.png",
+    "source": "batches/20261011-resume/light1-1-source.png",
+    "sha256": "b07d5ed1d724e4a580a8a643cd7ebc84ef47b7b29637e1412595ebd081cd319c"
+  },
+  {
+    "path": "full-actions/frames/light1-2.png",
+    "source": "batches/20261011-resume/light1-2-source.png",
+    "sha256": "43d0d065938767bd43bf157bb830ebab10a27e8257fae9adc0a524fbdcdc1fc5"
+  },
+  {
+    "path": "full-actions/frames/light1-3.png",
+    "source": "batches/20261011-resume/light1-3-source.png",
+    "sha256": "6abb7b39069511b2c266871091904cbcdf1805fd051e3611cfdb99fce79205b3"
+  },
+  {
+    "path": "full-actions/frames/light1-4.png",
+    "source": "batches/20261011-resume/light1-4-source.png",
+    "sha256": "f5de57abbbf81aae41689310d9e3062419a5edda71549e01879700105ce22006"
+  },
+  {
+    "path": "full-actions/sources/airheavy.png",
+    "source": "download-materials/generated-originals/exec-4619ae7c-2646-4a72-ad5d-af4a4b50526c.png",
+    "sha256": "4578226e8ff303a9d2e5403dbc2cfdb30602e1656d514dec605bc7a7aa953643"
+  },
+  {
+    "path": "full-actions/sources/airlight.png",
+    "source": "download-materials/generated-originals/exec-a2915e1d-f30b-42b2-8494-716b7f9e85e4.png",
+    "sha256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5"
+  },
+  {
+    "path": "full-actions/sources/backdash.png",
+    "source": "download-materials/generated-originals/exec-c4f64570-a9c2-4a56-8979-06183c2c5439.png",
+    "sha256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917"
+  },
+  {
+    "path": "full-actions/sources/backwalk.png",
+    "source": "download-materials/generated-originals/exec-0bdbeec9-4b35-4e0b-8b80-039ca4576c67.png",
+    "sha256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718"
+  },
+  {
+    "path": "full-actions/sources/crouch.png",
+    "source": "download-materials/generated-originals/exec-93dfb177-7623-4751-89b6-183018d79d82.png",
+    "sha256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402"
+  },
+  {
+    "path": "full-actions/sources/crouchguard.png",
+    "source": "download-materials/generated-originals/exec-71fb7d20-4ac0-4068-ab85-7bbcda10a78e.png",
+    "sha256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6"
+  },
+  {
+    "path": "full-actions/sources/crouchheavy-3-single-repair.png",
+    "source": "download-materials/generated-originals/exec-41e34d89-e8d4-40c2-8f01-a4a58faf0977.png",
+    "sha256": "a523824c6574ab316d7fe65508472ab617fa089ee7343fd97cc4aec123a1015a"
+  },
+  {
+    "path": "full-actions/sources/crouchheavy-3-tip-repair.png",
+    "source": "download-materials/generated-originals/exec-41e34d89-e8d4-40c2-8f01-a4a58faf0977.png",
+    "sha256": "a523824c6574ab316d7fe65508472ab617fa089ee7343fd97cc4aec123a1015a"
+  },
+  {
+    "path": "full-actions/sources/crouchheavy.png",
+    "source": "download-materials/generated-originals/exec-33bd9cee-902f-465d-be5e-79ce951064d6.png",
+    "sha256": "203cbf86f1cb8ddbe10b731a54ee6337c49d4ebf3ecf67d6197137850c0feac2"
+  },
+  {
+    "path": "full-actions/sources/crouchlight.png",
+    "source": "download-materials/generated-originals/exec-28c459d9-6295-4fb3-b0f2-5ace0e0a363f.png",
+    "sha256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e"
+  },
+  {
+    "path": "full-actions/sources/defeat.png",
+    "source": "download-materials/generated-originals/exec-570a1365-a2c2-4a16-90b8-7ae7a26e3a8a.png",
+    "sha256": "2049436047ba7a3d48715f7c1220fbcbe5d06819d6426e171c5c7a5edd19753d"
+  },
+  {
+    "path": "full-actions/sources/forwarddash.png",
+    "source": "download-materials/generated-originals/exec-4ba6134d-40eb-40ca-ba07-0cb1d55e2608.png",
+    "sha256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62"
+  },
+  {
+    "path": "full-actions/sources/heavy.png",
+    "source": "download-materials/generated-originals/exec-11cde060-af1c-44b1-a576-ef6fd61a5aca.png",
+    "sha256": "ef64045e933cadf35eb210cc6811c5b8c7a9425d5df3904595f81cc890add9b8"
+  },
+  {
+    "path": "full-actions/sources/hit_knockdown.png",
+    "source": "download-materials/generated-originals/exec-95d6d590-a776-4c83-acd0-41fd50d65e23.png",
+    "sha256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6"
+  },
+  {
+    "path": "full-actions/sources/idle.png",
+    "source": "download-materials/generated-originals/exec-0df7a00f-aa3d-4e9c-956e-20941dfb8cd9.png",
+    "sha256": "4772af2deaf80665d6545163fbe7d4611cf096dac3976c4175cfc08d120d2ebf"
+  },
+  {
+    "path": "full-actions/sources/jump.png",
+    "source": "download-materials/generated-originals/exec-22a47c51-96ec-4687-9726-275af861da6b.png",
+    "sha256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be"
+  },
+  {
+    "path": "full-actions/sources/light1-5-single-repair.png",
+    "source": "batches/20261011-refinement/light1-recovery-v2.png",
+    "sha256": "2037cc74f4cc913019f66742be9d3044ca6c37fc94fea0e92bef9f74a5e64975"
+  },
+  {
+    "path": "full-actions/sources/light1.png",
+    "source": "batches/20261011-resume/light1-existing-repair.png",
+    "sha256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf"
+  },
+  {
+    "path": "full-actions/sources/light2.png",
+    "source": "download-materials/generated-originals/exec-5dd206c6-9963-409f-a8df-267e21854e36.png",
+    "sha256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b"
+  },
+  {
+    "path": "full-actions/sources/light3.png",
+    "source": "download-materials/generated-originals/exec-8ededcdb-a9dc-4781-baa7-aaa17958b106.png",
+    "sha256": "41d95d9eeb5264b3b4b3fe7f36d97ec36fe51a41a7bb6f465b8e83449842b4be"
+  },
+  {
+    "path": "full-actions/sources/meteorFx.png",
+    "source": "download-materials/generated-originals/exec-e6df37a0-3974-4bb2-962b-8f4c00d11fcd.png",
+    "sha256": "e6daf9b8b496214be1534a570c54cbac7923a9782cd33653eba733bc6f9ae3fa"
+  },
+  {
+    "path": "full-actions/sources/skillQ.png",
+    "source": "download-materials/generated-originals/exec-0c85fa7d-c49f-42aa-93e7-14725fd082b3.png",
+    "sha256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b"
+  },
+  {
+    "path": "full-actions/sources/standguard.png",
+    "source": "download-materials/generated-originals/exec-d07baadc-6a43-4474-8900-d21a2646f5d6.png",
+    "sha256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b"
+  },
+  {
+    "path": "full-actions/sources/throw.png",
+    "source": "download-materials/generated-originals/exec-0ae2b457-0e6e-46ee-af2d-7a67a815990c.png",
+    "sha256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d"
+  },
+  {
+    "path": "full-actions/sources/victim.png",
+    "source": "download-materials/generated-originals/exec-80eb0906-b213-4c5b-ae5a-535c224be990.png",
+    "sha256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc"
+  },
+  {
+    "path": "full-actions/sources/victory.png",
+    "source": "download-materials/generated-originals/exec-8f93bad9-04d5-4505-8f70-544596b0b902.png",
+    "sha256": "8f5222d8afc8d5fad307f1ed6ed83a609deb07fb99f9a5617e5d07b1b9372909"
+  },
+  {
+    "path": "full-actions/sources/wakeup.png",
+    "source": "download-materials/generated-originals/exec-f84243cb-0f72-4f4b-ab5f-f021f727f3e9.png",
+    "sha256": "edac1af23d05da3c177ccbf784c8aacb57f1add75db08924153102be83486b85"
+  },
+  {
+    "path": "full-actions/ultimate-portrait.png",
+    "source": "download-materials/standards/assets/roster-v2/zhongli-official-head.png",
+    "sha256": "e7050612488291042494663c3058e2c405ecb021d4c46babf8b015b1e820e51d"
+  },
+  {
+    "path": "history/idle-early.png",
+    "source": "download-materials/generated-originals/exec-b5d188e8-d37f-454a-a0be-d5b9ca3d25e2.png",
+    "sha256": "14e9d59d79c3bf7061e2c061b977bb455f4b99916f1ec3e7db535d41ee0ea342"
+  },
+  {
+    "path": "history/idle-new-unselected.png",
+    "source": "download-materials/generated-originals/exec-16744872-9a56-4434-9dc8-1460a7fa8841.png",
+    "sha256": "9c7780404a09ea0c31d6415ae07f79b27042ed28f8869e8c0b714bca82b7bd0d"
+  },
+  {
+    "path": "history/pillarFx-new-unselected.png",
+    "source": "download-materials/generated-originals/exec-851c0d83-cb7f-401f-9dfb-497cc224a9fb.png",
+    "sha256": "20d9fbf213fddf969f1cb3e7feb654561228952c965b8c73624efaeeaf73ab94"
+  },
+  {
+    "path": "history/repairs/airlight.png",
+    "source": "download-materials/generated-originals/exec-a2915e1d-f30b-42b2-8494-716b7f9e85e4.png",
+    "sha256": "32b1a12c2c62548dc706d8abc2647d0df69e340c9420e99d3501bd39612afee5"
+  },
+  {
+    "path": "history/repairs/crouchlight.png",
+    "source": "download-materials/generated-originals/exec-28c459d9-6295-4fb3-b0f2-5ace0e0a363f.png",
+    "sha256": "0bc359925e9ddc5783b079461651b3b40a971b8ea95768efdce11c9c08f68f2e"
+  },
+  {
+    "path": "history/repairs/heavy.png",
+    "source": "download-materials/generated-originals/exec-042d334c-1793-4f0f-b242-7818038d870b.png",
+    "sha256": "b3b9e789134f6b429b7653dfec9a38c313cafd25081d7aab1bfbe19e5c3db2ab"
+  },
+  {
+    "path": "history/repairs/hit_knockdown.png",
+    "source": "download-materials/generated-originals/exec-95d6d590-a776-4c83-acd0-41fd50d65e23.png",
+    "sha256": "a3624e2031d22d6f3e27cbf2e35e898527d97108f734b6e36d4fe9fed3677bb6"
+  },
+  {
+    "path": "history/repairs/light1.png",
+    "source": "batches/20261011-resume/light1-existing-repair.png",
+    "sha256": "8538583633f72deaf251ec4e0bf85a0782dc24f5d17f55375a302a4bd4101fcf"
+  },
+  {
+    "path": "history/repairs/throw.png",
+    "source": "download-materials/generated-originals/exec-0ae2b457-0e6e-46ee-af2d-7a67a815990c.png",
+    "sha256": "d87dad8c99abe59581182ca55f107c3994356e5887f597eb5a5066ad8ec50e1d"
+  },
+  {
+    "path": "history/repairs/victim.png",
+    "source": "download-materials/generated-originals/exec-80eb0906-b213-4c5b-ae5a-535c224be990.png",
+    "sha256": "f42a3bee40cbf9aac94a1b5dde1a627a87bb0c160fa788cb9f0d16845acb3efc"
+  },
+  {
+    "path": "history/skillE-new-unselected.png",
+    "source": "download-materials/generated-originals/exec-fa41c7fc-bd74-4879-870b-16ef41ffec41.png",
+    "sha256": "190bcf01f450a2cf02bb085e91c8141160c0dc8303fb127e9c0d3e741a01c2bb"
+  },
+  {
+    "path": "history/skillQ-before-alpha-clean.png",
+    "source": "download-materials/generated-originals/exec-5df44237-5a9e-4cf1-a2bb-9ef8883edc65.png",
+    "sha256": "0f2bda6d95c78b925262707ca93af7e47d2e53d899fc295c2e64dd6b7afe7b29"
+  },
+  {
+    "path": "history/walk-new-unselected.png",
+    "source": "download-materials/generated-originals/exec-b1df9371-6531-4ace-bb2f-fef64f0be304.png",
+    "sha256": "47481ef1fcd7f8f3e1c26bd88867c440fd2295afd711624c89c71bc95568a7be"
+  },
+  {
+    "path": "history/walk-v1.png",
+    "source": "download-materials/generated-originals/exec-d3cc0a87-d410-4862-b0c4-557d06070e9b.png",
+    "sha256": "7b1369d181767f2c8a00c38a0de3147b9d1a78051c592c0e7fbe6390f3b90c5d"
+  },
+  {
+    "path": "review/idle-second.png",
+    "source": "reuse/idle/source-cell-1.png",
+    "sha256": "dd1ee63c0f771182bff493b2aa26b96c63eb59797f8863cb2b291e8b42f4099c"
+  },
+  {
+    "path": "review/legacy/skillE.png",
+    "source": "full-actions/sources/skillE.png",
+    "sha256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893"
+  },
+  {
+    "path": "review/legacy/walk.png",
+    "source": "full-actions/sources/walk.png",
+    "sha256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74"
+  },
+  {
+    "path": "review/mother.png",
+    "source": "reuse/idle/source-cell-0.png",
+    "sha256": "29c50fc523e352945b378c7e3cf6772b5c7e84801092de427cea84313431392a"
+  },
+  {
+    "path": "sources/airheavy.png",
+    "source": "download-materials/generated-originals/exec-cb43737e-e278-48e4-a04e-5d20870e104c.png",
+    "sha256": "7f56548e03556e61c9ff8769f30f6e39fb81cade362d203251ff6833b7461675"
+  },
+  {
+    "path": "sources/airlight.png",
+    "source": "download-materials/generated-originals/exec-9cdc34b9-cec1-4fe5-a089-35e80667f6cb.png",
+    "sha256": "377b18a743d620d192f9f4bdd742a36b550aeeaad25a02ddd8485f2565610544"
+  },
+  {
+    "path": "sources/backdash.png",
+    "source": "download-materials/generated-originals/exec-c4f64570-a9c2-4a56-8979-06183c2c5439.png",
+    "sha256": "6fd8babc679adf0c3ebdf4cc79056fe5d86d4961787c304ff9093e3881ecd917"
+  },
+  {
+    "path": "sources/backwalk.png",
+    "source": "download-materials/generated-originals/exec-0bdbeec9-4b35-4e0b-8b80-039ca4576c67.png",
+    "sha256": "cd68560f8e8be070f1a2917d8a95720375ec2b10e8b39c99326083b9987a0718"
+  },
+  {
+    "path": "sources/crouch.png",
+    "source": "download-materials/generated-originals/exec-93dfb177-7623-4751-89b6-183018d79d82.png",
+    "sha256": "977ca0dfe009ebcd25273008ca3d62d252676ea926cc665db94d1addc12f9402"
+  },
+  {
+    "path": "sources/crouchguard.png",
+    "source": "download-materials/generated-originals/exec-71fb7d20-4ac0-4068-ab85-7bbcda10a78e.png",
+    "sha256": "e33222f301b583b67751458db387a4dfa0b2abcf6e5199a5b4b63338530c85a6"
+  },
+  {
+    "path": "sources/crouchheavy.png",
+    "source": "download-materials/generated-originals/exec-ae81d854-b786-4f84-8822-664b6d1a499d.png",
+    "sha256": "3813ef1ecb6477ad69f63e0e92e02595e086082eb6f851ec947998b54ca522cd"
+  },
+  {
+    "path": "sources/crouchlight.png",
+    "source": "download-materials/generated-originals/exec-a87485ad-d5a1-45a8-a01c-4e07bb6b542c.png",
+    "sha256": "8a6c0ad52f735656f44fb37b086ef82e3ec99715754f5d26675cb014febc8d6d"
+  },
+  {
+    "path": "sources/defeat.png",
+    "source": "download-materials/generated-originals/exec-b0e0b3af-8b8e-442b-8649-2224dd390d79.png",
+    "sha256": "f1d0b1a0f3447c8f5c5d892cabbfc399688ad08f289dc643552ae411922f9d9b"
+  },
+  {
+    "path": "sources/forwarddash.png",
+    "source": "download-materials/generated-originals/exec-4ba6134d-40eb-40ca-ba07-0cb1d55e2608.png",
+    "sha256": "827e67288fa2ac7fad7cd42de0af7111cac68830a12809561d076d880f19ec62"
+  },
+  {
+    "path": "sources/heavy.png",
+    "source": "download-materials/generated-originals/exec-4014a650-f0b2-43ff-b8d5-ed61843e5344.png",
+    "sha256": "d5c653fd8a8d92919c82cf93abfd5549817066815fa0f57239dc018d77821cf6"
+  },
+  {
+    "path": "sources/hit_knockdown.png",
+    "source": "download-materials/generated-originals/exec-f24428f7-380c-4e4d-8f3c-69042550d1ba.png",
+    "sha256": "96fba9a970bad7bf1536941aff58cb7eb8d732a589b1010dca1bef524da65125"
+  },
+  {
+    "path": "sources/idle.png",
+    "source": "review/legacy/idle.png",
+    "sha256": "6546d026a69e3965fe67d2a0e307658cbc235e043b10ee5158adc8d8b9908145"
+  },
+  {
+    "path": "sources/jump.png",
+    "source": "download-materials/generated-originals/exec-22a47c51-96ec-4687-9726-275af861da6b.png",
+    "sha256": "3716698d35d5d7b65c5a5be62d1b20c470f1ed6bc49e4a89adf221e971bf34be"
+  },
+  {
+    "path": "sources/light1.png",
+    "source": "download-materials/generated-originals/exec-a1fb925c-351e-48ba-91a9-9c172cc8bd32.png",
+    "sha256": "44c6e6984bfc066ff4d87080cf7fd511151103db1bd337e6c69c7ab7566976bc"
+  },
+  {
+    "path": "sources/light2.png",
+    "source": "download-materials/generated-originals/exec-5dd206c6-9963-409f-a8df-267e21854e36.png",
+    "sha256": "17dadc3c74fec7dacdd1528a1ea6b44c17447763c9206842c79ca9dff05dea4b"
+  },
+  {
+    "path": "sources/light3.png",
+    "source": "download-materials/generated-originals/exec-fca2e953-ae6b-431b-afde-d795f305e4a0.png",
+    "sha256": "04d2549f785aa8f5d17209049067a53f6498054cd9f5b4da5d45bc4eaae9325f"
+  },
+  {
+    "path": "sources/meteorFx.png",
+    "source": "download-materials/generated-originals/exec-e6df37a0-3974-4bb2-962b-8f4c00d11fcd.png",
+    "sha256": "e6daf9b8b496214be1534a570c54cbac7923a9782cd33653eba733bc6f9ae3fa"
+  },
+  {
+    "path": "sources/mother.png",
+    "source": "download-materials/generated-originals/exec-2ad0318a-784d-4bc5-bf14-0c07f43c712c.png",
+    "sha256": "687ab384b6d10c6ff065ea1c423865a3d996b5302483e00a0b7d430a92435ff1"
+  },
+  {
+    "path": "sources/pillarFx.png",
+    "source": "full-actions/sources/pillarFx.png",
+    "sha256": "9ac682cc2f5a3fdff92c9ee93a7ad39f64eff49108bdcb6ca3a054d6f5c9eaca"
+  },
+  {
+    "path": "sources/skillE.png",
+    "source": "full-actions/sources/skillE.png",
+    "sha256": "7f59fee887f79b6cc8deb240522621eee126cae45813c1b55505d94760966893"
+  },
+  {
+    "path": "sources/skillQ.png",
+    "source": "download-materials/generated-originals/exec-0c85fa7d-c49f-42aa-93e7-14725fd082b3.png",
+    "sha256": "63c71604bcb26bf2264b7b2cf662ed6783ea4f7101b1106d99371c39e3b6bf1b"
+  },
+  {
+    "path": "sources/standguard.png",
+    "source": "download-materials/generated-originals/exec-d07baadc-6a43-4474-8900-d21a2646f5d6.png",
+    "sha256": "0ffa8a4398a8489cf3f3c90589cb538141357cd9ba995db86c9cfd0d1a40150b"
+  },
+  {
+    "path": "sources/throw.png",
+    "source": "download-materials/generated-originals/exec-8845fe88-f2c7-4965-bb1a-7ad7f8f57b35.png",
+    "sha256": "68af3e7d68188978cc8eee2ccb7d7873cf223b25747903bdc386905a9040f15b"
+  },
+  {
+    "path": "sources/victim.png",
+    "source": "download-materials/generated-originals/exec-4ce73e0d-b90d-463b-9e33-15929c75565f.png",
+    "sha256": "ed68f34841de26342705a9f90bc62b4653ab79424c6ec6fa2d27ab3934531373"
+  },
+  {
+    "path": "sources/victory.png",
+    "source": "download-materials/generated-originals/exec-a7575f03-c997-40a2-afa4-4cd0d314e3ba.png",
+    "sha256": "f766661412e271be8f7a0598afcfd1fb98871caacedb9cfb056a7001bbf0d288"
+  },
+  {
+    "path": "sources/wakeup.png",
+    "source": "download-materials/generated-originals/exec-520d833f-45f6-4e49-8e5e-8e2e8ed2cad4.png",
+    "sha256": "0c9d6c8c40066d34ac94ed17e928edbb7284fa44eecdad3f49fafa23149c0eff"
+  },
+  {
+    "path": "sources/walk.png",
+    "source": "full-actions/sources/walk.png",
+    "sha256": "942a3b3796186fb03f645f8d38778581c058fd3d0fc3ac9e50dae4e50a274c74"
+  },
+  {
+    "path": "生产台账.json",
+    "source": "full-actions/production-ledger.json",
+    "sha256": "eff3734b37cd390f43d4588927f83cd397263ac333b5b81f6d3c66a0cabcf9c3"
+  },
+  {
+    "path": "生产流程与交接.md",
+    "source": "download-materials/README.md",
+    "sha256": "4c2ffeebbcec0faf7d53dc54dfb9048bf7a73be31995218610c8a2639dbdd3fc"
+  }
+]

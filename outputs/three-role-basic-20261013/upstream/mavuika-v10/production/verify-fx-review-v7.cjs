@@ -1,0 +1,13 @@
+'use strict';const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../dist');let callback,draws=0;
+const ctx=new Proxy({drawImage(image,x,y,w,h,dx,dy,dw,dh){assert(x>=0&&y>=0&&w>0&&h>0);assert(x+w<=image.width&&y+h<=image.height,image.src);assert([dx,dy,dw,dh].every(Number.isFinite));draws++;}}, {get(t,k){return k in t?t[k]:()=>{};},set(t,k,v){t[k]=v;return true;}});
+const nodes={};for(const id of ['fxstage','fxoutcome','fxmirror','fxmaterial','fxlayers','fxlight','fxmono','fxanchors','fxseek','fxplay','fxreadout','fxspeed','fxrestart','fxstep'])nodes[id]={value:'',checked:false,style:{},textContent:''};nodes.fxstage.getContext=()=>ctx;nodes.fxoutcome.value='hit';nodes.fxmaterial.value='optimized';nodes.fxlayers.value='all';nodes.fxspeed.value='1';
+class FakeImage{set src(value){this._src=value;const b=fs.readFileSync(path.join(root,value));this.width=b.readUInt32BE(16);this.height=b.readUInt32BE(20);queueMicrotask(()=>this.onload());}get src(){return this._src;}}
+const sandbox={document:{getElementById:id=>nodes[id]},Image:FakeImage,fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url)))}),requestAnimationFrame:f=>{callback=f;},Light1Model:require('../dist/light1-model.js'),Light1FX:require('../dist/light1-fx-model-v7.js'),console};vm.createContext(sandbox);vm.runInContext(fs.readFileSync(path.join(root,'fx-review-v7.js'),'utf8'),sandbox);
+(async()=>{await new Promise(resolve=>setImmediate(resolve));assert(callback,nodes.fxreadout.textContent);let now=0,branches=0;
+for(const outcome of ['hit','block','miss','invulnerable','behind'])for(const material of ['source','initial','optimized'])for(const layer of ['all','actors','fx'])for(const mirror of [false,true]){
+ nodes.fxoutcome.value=outcome;nodes.fxmaterial.value=material;nodes.fxlayers.value=layer;nodes.fxmirror.checked=mirror;nodes.fxanchors.checked=true;nodes.fxmono.checked=branches%2===0;nodes.fxlight.checked=branches%3===0;nodes.fxoutcome.onchange();nodes.fxplay.onclick();
+ for(let i=0;i<50;i++){now+=20;callback(now);}assert(nodes.fxreadout.textContent.includes(outcome==='hit'?'1 次命中':'0 次命中'));if(outcome==='block')assert(nodes.fxreadout.textContent.includes('1 次防御'));branches++;
+}
+const result={branches,draws,scope:'DOM/canvas substitutes; source crop bounds and layer/mirror/mono/light controls checked; no browser/GPU/device QA'};fs.writeFileSync(__dirname+'/fx-render-verification-v7.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));
+})().catch(e=>{console.error(e);process.exitCode=1;});

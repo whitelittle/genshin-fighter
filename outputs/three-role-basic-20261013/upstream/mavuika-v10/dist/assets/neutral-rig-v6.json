@@ -1,0 +1,667 @@
+{
+  "groups": {
+    "idle": {
+      "source": "mavuika-idle-source-v5.png",
+      "originalSource": "mavuika-idle-source-v5.png",
+      "originalSHA256": "b49e690120eb8e9f4e9bec958eaf5501870c075c9fb438f1e4335074c7f67abb",
+      "sourceSHA256": "b49e690120eb8e9f4e9bec958eaf5501870c075c9fb438f1e4335074c7f67abb",
+      "displayScale": 0.24,
+      "columns": 2,
+      "rows": 1,
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            887,
+            887
+          ],
+          "sourceAnchor": [
+            535,
+            887
+          ],
+          "footBaselineAdjustment": 7.45,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            33.1,
+            54.22
+          ],
+          "atlasRect": [
+            0,
+            0,
+            55,
+            55
+          ],
+          "initialRectangles": 373,
+          "optimizedRectangles": 412
+        },
+        {
+          "sourceRect": [
+            887,
+            0,
+            887,
+            887
+          ],
+          "sourceAnchor": [
+            535,
+            849
+          ],
+          "footBaselineAdjustment": -1.67,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            33.1,
+            51.94
+          ],
+          "atlasRect": [
+            128,
+            0,
+            55,
+            55
+          ],
+          "initialRectangles": 353,
+          "optimizedRectangles": 398
+        }
+      ],
+      "alphaZeroFraction": 0.7126958484637803,
+      "initial": "mavuika-idle-initial-v6.png",
+      "optimized": "mavuika-idle-optimized-v6.png"
+    },
+    "walk": {
+      "source": "mavuika-walk-source-v6.png",
+      "originalSource": "mavuika-walk-source-v6.png",
+      "originalSHA256": "fc26a77679e7d37bd7601c19ab00df3153ad2d4687dd0820fadc8b0e9fa2591d",
+      "sourceSHA256": "fc26a77679e7d37bd7601c19ab00df3153ad2d4687dd0820fadc8b0e9fa2591d",
+      "displayScale": 0.408,
+      "columns": 3,
+      "rows": 2,
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            512
+          ],
+          "footBaselineAdjustment": 7.31,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            53.224
+          ],
+          "atlasRect": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "initialRectangles": 423,
+          "optimizedRectangles": 483
+        },
+        {
+          "sourceRect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            509
+          ],
+          "footBaselineAdjustment": 6.09,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            52.918
+          ],
+          "atlasRect": [
+            128,
+            0,
+            54,
+            54
+          ],
+          "initialRectangles": 396,
+          "optimizedRectangles": 447
+        },
+        {
+          "sourceRect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            506
+          ],
+          "footBaselineAdjustment": 4.86,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            52.611999999999995
+          ],
+          "atlasRect": [
+            256,
+            0,
+            54,
+            54
+          ],
+          "initialRectangles": 392,
+          "optimizedRectangles": 440
+        },
+        {
+          "sourceRect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            485
+          ],
+          "footBaselineAdjustment": -3.7,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            50.47
+          ],
+          "atlasRect": [
+            0,
+            80,
+            54,
+            54
+          ],
+          "initialRectangles": 444,
+          "optimizedRectangles": 506
+        },
+        {
+          "sourceRect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            491
+          ],
+          "footBaselineAdjustment": -1.26,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            51.081999999999994
+          ],
+          "atlasRect": [
+            128,
+            80,
+            54,
+            54
+          ],
+          "initialRectangles": 387,
+          "optimizedRectangles": 436
+        },
+        {
+          "sourceRect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            492
+          ],
+          "footBaselineAdjustment": -0.85,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            51.184
+          ],
+          "atlasRect": [
+            256,
+            80,
+            54,
+            54
+          ],
+          "initialRectangles": 425,
+          "optimizedRectangles": 478
+        }
+      ],
+      "alphaZeroFraction": 0.6052570343017578,
+      "initial": "mavuika-walk-initial-v6.png",
+      "optimized": "mavuika-walk-optimized-v6.png"
+    },
+    "backwalk": {
+      "source": "mavuika-backwalk-source-v6.png",
+      "originalSource": "mavuika-backwalk-source-v6.png",
+      "originalSHA256": "988f93c128cef052b5c875873aafacb4d3ddd91210a47789edeeeb9c6e34f126",
+      "sourceSHA256": "988f93c128cef052b5c875873aafacb4d3ddd91210a47789edeeeb9c6e34f126",
+      "displayScale": 0.408,
+      "columns": 3,
+      "rows": 2,
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            511
+          ],
+          "footBaselineAdjustment": 6.9,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            53.122
+          ],
+          "atlasRect": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "initialRectangles": 406,
+          "optimizedRectangles": 460
+        },
+        {
+          "sourceRect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            512
+          ],
+          "footBaselineAdjustment": 7.31,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            53.224
+          ],
+          "atlasRect": [
+            128,
+            0,
+            54,
+            54
+          ],
+          "initialRectangles": 423,
+          "optimizedRectangles": 471
+        },
+        {
+          "sourceRect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            512
+          ],
+          "footBaselineAdjustment": 7.31,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            53.224
+          ],
+          "atlasRect": [
+            256,
+            0,
+            54,
+            54
+          ],
+          "initialRectangles": 386,
+          "optimizedRectangles": 437
+        },
+        {
+          "sourceRect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            492
+          ],
+          "footBaselineAdjustment": -0.85,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            51.184
+          ],
+          "atlasRect": [
+            0,
+            80,
+            54,
+            54
+          ],
+          "initialRectangles": 426,
+          "optimizedRectangles": 484
+        },
+        {
+          "sourceRect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            490
+          ],
+          "footBaselineAdjustment": -1.66,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            50.98
+          ],
+          "atlasRect": [
+            128,
+            80,
+            54,
+            54
+          ],
+          "initialRectangles": 427,
+          "optimizedRectangles": 486
+        },
+        {
+          "sourceRect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "sourceAnchor": [
+            300,
+            493
+          ],
+          "footBaselineAdjustment": -0.44,
+          "contactKind": "lower boot-region sole edge, manual X pelvis column, provisional",
+          "anchor": [
+            31.599999999999998,
+            51.285999999999994
+          ],
+          "atlasRect": [
+            256,
+            80,
+            54,
+            54
+          ],
+          "initialRectangles": 421,
+          "optimizedRectangles": 463
+        }
+      ],
+      "alphaZeroFraction": 0.6202239990234375,
+      "initial": "mavuika-backwalk-initial-v6.png",
+      "optimized": "mavuika-backwalk-optimized-v6.png"
+    },
+    "light1": {
+      "source": "mavuika-light1-extracted-v6.png",
+      "originalSource": "mavuika-light1-source-v6.png",
+      "originalSHA256": "71dc5a21f92f9f011ae7f04e17adbfe2eb8ab9fd18753df8c80c7e05d6bfbfe4",
+      "sourceSHA256": "b6bd75d35804b292681639b6d9bca976746e9fa49a2ae948f68c601799d5f017",
+      "displayScale": 0.4,
+      "columns": 2,
+      "rows": 2,
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            900,
+            640
+          ],
+          "sourceAnchor": [
+            430,
+            552
+          ],
+          "originalROI": [
+            90,
+            0,
+            900,
+            640
+          ],
+          "componentID": 1,
+          "contactKind": "manual boot support midpoint, provisional",
+          "anchor": [
+            44.0,
+            56.2
+          ],
+          "atlasRect": [
+            0,
+            0,
+            92,
+            66
+          ],
+          "initialRectangles": 658,
+          "optimizedRectangles": 730
+        },
+        {
+          "sourceRect": [
+            900,
+            0,
+            900,
+            640
+          ],
+          "sourceAnchor": [
+            370,
+            567
+          ],
+          "originalROI": [
+            830,
+            0,
+            900,
+            640
+          ],
+          "componentID": 2,
+          "contactKind": "manual boot support midpoint, provisional",
+          "anchor": [
+            38.0,
+            57.7
+          ],
+          "atlasRect": [
+            128,
+            0,
+            92,
+            66
+          ],
+          "initialRectangles": 616,
+          "optimizedRectangles": 702
+        },
+        {
+          "sourceRect": [
+            0,
+            640,
+            900,
+            640
+          ],
+          "sourceAnchor": [
+            300,
+            447
+          ],
+          "originalROI": [
+            40,
+            550,
+            900,
+            640
+          ],
+          "componentID": 4,
+          "contactKind": "manual boot support midpoint, provisional",
+          "anchor": [
+            31.0,
+            45.7
+          ],
+          "atlasRect": [
+            0,
+            80,
+            92,
+            66
+          ],
+          "initialRectangles": 540,
+          "optimizedRectangles": 605
+        },
+        {
+          "sourceRect": [
+            900,
+            640,
+            900,
+            640
+          ],
+          "sourceAnchor": [
+            300,
+            463
+          ],
+          "originalROI": [
+            870,
+            540,
+            900,
+            640
+          ],
+          "componentID": 3,
+          "contactKind": "manual boot support midpoint, provisional",
+          "anchor": [
+            31.0,
+            47.300000000000004
+          ],
+          "atlasRect": [
+            128,
+            80,
+            92,
+            66
+          ],
+          "initialRectangles": 531,
+          "optimizedRectangles": 601
+        }
+      ],
+      "alphaZeroFraction": 0.6155440012613932,
+      "initial": "mavuika-light1-initial-v6.png",
+      "optimized": "mavuika-light1-optimized-v6.png"
+    }
+  },
+  "palette": [
+    [
+      56,
+      44,
+      42
+    ],
+    [
+      246,
+      137,
+      68
+    ],
+    [
+      82,
+      57,
+      46
+    ],
+    [
+      180,
+      40,
+      18
+    ],
+    [
+      230,
+      75,
+      36
+    ],
+    [
+      39,
+      29,
+      28
+    ],
+    [
+      251,
+      182,
+      98
+    ],
+    [
+      114,
+      78,
+      53
+    ],
+    [
+      253,
+      205,
+      115
+    ],
+    [
+      237,
+      109,
+      54
+    ],
+    [
+      181,
+      148,
+      137
+    ],
+    [
+      146,
+      98,
+      63
+    ],
+    [
+      222,
+      180,
+      166
+    ],
+    [
+      247,
+      161,
+      83
+    ],
+    [
+      207,
+      56,
+      27
+    ],
+    [
+      176,
+      117,
+      68
+    ],
+    [
+      85,
+      30,
+      22
+    ],
+    [
+      247,
+      214,
+      200
+    ],
+    [
+      131,
+      36,
+      20
+    ],
+    [
+      203,
+      140,
+      75
+    ],
+    [
+      68,
+      38,
+      35
+    ]
+  ],
+  "status": "18 display poses / 4 groups; full 25 pending",
+  "anchorPolicy": "boot support Y and annotated pelvis X; no per-pose hair-bounds recentering; common body scale per group",
+  "issues": [
+    "Retreat passing poses and cycle transitions need further visual acceptance.",
+    "Light1 grip, body displacement and sword reach are candidates.",
+    "Extracted light1 source is isolated by connected alpha components; original RGBA preserved.",
+    "Formal combat integration, simulator, device and user acceptance pending."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "version": "V9",
+  "candidate": true,
+  "newGroups": 2,
+  "newBodySources": 10,
+  "actions": 12,
+  "displayStates": 61,
+  "audit": [
+    {
+      "action": "jump",
+      "frame": 0,
+      "rectangles": 421,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.43,
+      "anchor": [
+        282.0,
+        466.0
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "jump",
+      "frame": 1,
+      "rectangles": 438,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.43,
+      "anchor": [
+        331.09302325581393,
+        579.9186046511628
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "jump",
+      "frame": 2,
+      "rectangles": 436,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.43,
+      "anchor": [
+        298.09302325581393,
+        572.4186046511628
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "jump",
+      "frame": 3,
+      "rectangles": 428,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.43,
+      "anchor": [
+        304.09302325581393,
+        565.9186046511628
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "jump",
+      "frame": 4,
+      "rectangles": 429,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.43,
+      "anchor": [
+        313.59302325581393,
+        567.4186046511628
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "jump",
+      "frame": 5,
+      "rectangles": 443,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.43,
+      "anchor": [
+        273.0,
+        427.0
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "forwarddash",
+      "frame": 0,
+      "rectangles": 514,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.4,
+      "anchor": [
+        239.0,
+        514.0
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "forwarddash",
+      "frame": 1,
+      "rectangles": 555,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.4,
+      "anchor": [
+        677.0,
+        497.0
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "forwarddash",
+      "frame": 2,
+      "rectangles": 541,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.4,
+      "anchor": [
+        559.0,
+        456.0
+      ],
+      "sourceCanvasContact": false
+    },
+    {
+      "action": "forwarddash",
+      "frame": 3,
+      "rectangles": 498,
+      "sourceRGBAUnchanged": true,
+      "pixelReconstruction": true,
+      "unit": 0.4,
+      "anchor": [
+        258.0,
+        533.0
+      ],
+      "sourceCanvasContact": false
+    }
+  ],
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false
+}

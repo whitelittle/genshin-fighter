@@ -1,0 +1,15 @@
+{
+  "action": "mavuika-light1",
+  "source": "mavuika-light1-source-v6.png",
+  "coordinates": "original sheet pixels; world y upward; actor support coordinates from V06 annotations",
+  "poses": [
+    {"index":0,"support":[520,552],"hand":[480,150],"bladeRoot":[440,120],"tip":[125,15]},
+    {"index":1,"support":[1200,567],"hand":[1280,170],"bladeRoot":[1240,130],"tip":[920,15]},
+    {"index":2,"support":[340,997],"hand":[500,731],"bladeRoot":[540,732],"tip":[894,735]},
+    {"index":3,"support":[1170,1003],"hand":[1270,795],"bladeRoot":[1300,811],"tip":[1520,986]}
+  ],
+  "bodyScale":0.4,
+  "status":"manual provisional landmark annotations; body/weapon grip acceptance pending",
+  "layers":["background","actors","blade-edge","hit-or-block-contact","short-residue","UI"],
+  "rules":["contact position comes from actual overlap event","miss has no contact effect","effects never call damage","contact animation uses deterministic wallTick so short emphasis can finish during hitstop","blade phase uses action tick and freezes with actor","interrupted/ended state clears transient effects"]
+}

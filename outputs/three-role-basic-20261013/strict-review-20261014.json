@@ -1,0 +1,443 @@
+{
+  "scope": "independent source and preview, not game simulation",
+  "newUniqueBodyDrawings": 20,
+  "actions": [
+    "neuvillette.forwarddash repair",
+    "neuvillette.backdash new",
+    "mavuika.jump new",
+    "zhongli.crouch repair"
+  ],
+  "audit": [
+    {
+      "role": "neuvillette",
+      "action": "forwarddash",
+      "pose": 0,
+      "unit": 0.45,
+      "rootSheet": [
+        390,
+        508
+      ],
+      "sourceROI": [
+        69,
+        12,
+        674,
+        513
+      ],
+      "retainedOpaquePixels": 134729,
+      "rectangles": 675,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "forwarddash",
+      "pose": 1,
+      "unit": 0.45,
+      "rootSheet": [
+        1180,
+        500
+      ],
+      "sourceROI": [
+        814,
+        29,
+        1459,
+        506
+      ],
+      "retainedOpaquePixels": 128185,
+      "rectangles": 619,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "forwarddash",
+      "pose": 2,
+      "unit": 0.45,
+      "rootSheet": [
+        490,
+        1020
+      ],
+      "sourceROI": [
+        102,
+        561,
+        743,
+        992
+      ],
+      "retainedOpaquePixels": 121211,
+      "rectangles": 547,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "forwarddash",
+      "pose": 3,
+      "unit": 0.45,
+      "rootSheet": [
+        1190,
+        1002
+      ],
+      "sourceROI": [
+        842,
+        497,
+        1430,
+        1007
+      ],
+      "retainedOpaquePixels": 125636,
+      "rectangles": 664,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "backdash",
+      "pose": 0,
+      "unit": 0.5,
+      "rootSheet": [
+        445,
+        495
+      ],
+      "sourceROI": [
+        204,
+        21,
+        631,
+        498
+      ],
+      "retainedOpaquePixels": 89282,
+      "rectangles": 603,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "backdash",
+      "pose": 1,
+      "unit": 0.5,
+      "rootSheet": [
+        1125,
+        535
+      ],
+      "sourceROI": [
+        899,
+        19,
+        1375,
+        495
+      ],
+      "retainedOpaquePixels": 98659,
+      "rectangles": 667,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "backdash",
+      "pose": 2,
+      "unit": 0.5,
+      "rootSheet": [
+        460,
+        1040
+      ],
+      "sourceROI": [
+        189,
+        507,
+        634,
+        957
+      ],
+      "retainedOpaquePixels": 84001,
+      "rectangles": 572,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "backdash",
+      "pose": 3,
+      "unit": 0.5,
+      "rootSheet": [
+        1210,
+        999
+      ],
+      "sourceROI": [
+        938,
+        504,
+        1400,
+        1004
+      ],
+      "retainedOpaquePixels": 97510,
+      "rectangles": 656,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "pose": 0,
+      "unit": 0.4,
+      "rootSheet": [
+        282,
+        480
+      ],
+      "sourceROI": [
+        60,
+        39,
+        429,
+        484
+      ],
+      "retainedOpaquePixels": 77811,
+      "rectangles": 355,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "pose": 1,
+      "unit": 0.4,
+      "rootSheet": [
+        617,
+        478
+      ],
+      "sourceROI": [
+        565,
+        19,
+        1014,
+        482
+      ],
+      "retainedOpaquePixels": 72015,
+      "rectangles": 358,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "pose": 2,
+      "unit": 0.4,
+      "rootSheet": [
+        1345,
+        523
+      ],
+      "sourceROI": [
+        1084,
+        3,
+        1497,
+        384
+      ],
+      "retainedOpaquePixels": 66358,
+      "rectangles": 308,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "pose": 3,
+      "unit": 0.4,
+      "rootSheet": [
+        353,
+        1000
+      ],
+      "sourceROI": [
+        48,
+        497,
+        500,
+        893
+      ],
+      "retainedOpaquePixels": 71806,
+      "rectangles": 362,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "pose": 4,
+      "unit": 0.4,
+      "rootSheet": [
+        804,
+        1013
+      ],
+      "sourceROI": [
+        557,
+        487,
+        997,
+        982
+      ],
+      "retainedOpaquePixels": 62315,
+      "rectangles": 322,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "pose": 5,
+      "unit": 0.4,
+      "rootSheet": [
+        1320,
+        992
+      ],
+      "sourceROI": [
+        1063,
+        563,
+        1458,
+        997
+      ],
+      "retainedOpaquePixels": 76182,
+      "rectangles": 375,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "crouch",
+      "pose": 0,
+      "unit": 0.57,
+      "rootSheet": [
+        294,
+        592
+      ],
+      "sourceROI": [
+        40,
+        3,
+        415,
+        596
+      ],
+      "retainedOpaquePixels": 90254,
+      "rectangles": 761,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "crouch",
+      "pose": 1,
+      "unit": 0.57,
+      "rootSheet": [
+        795,
+        592
+      ],
+      "sourceROI": [
+        503,
+        44,
+        897,
+        595
+      ],
+      "retainedOpaquePixels": 88403,
+      "rectangles": 783,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "crouch",
+      "pose": 2,
+      "unit": 0.57,
+      "rootSheet": [
+        345,
+        1075
+      ],
+      "sourceROI": [
+        23,
+        601,
+        447,
+        1089
+      ],
+      "retainedOpaquePixels": 82962,
+      "rectangles": 739,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "crouch",
+      "pose": 3,
+      "unit": 0.57,
+      "rootSheet": [
+        826,
+        1060
+      ],
+      "sourceROI": [
+        508,
+        649,
+        958,
+        1091
+      ],
+      "retainedOpaquePixels": 80483,
+      "rectangles": 709,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "crouch",
+      "pose": 4,
+      "unit": 0.57,
+      "rootSheet": [
+        350,
+        1485
+      ],
+      "sourceROI": [
+        17,
+        1105,
+        486,
+        1524
+      ],
+      "retainedOpaquePixels": 79395,
+      "rectangles": 707,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "crouch",
+      "pose": 5,
+      "unit": 0.57,
+      "rootSheet": [
+        866,
+        1485
+      ],
+      "sourceROI": [
+        519,
+        1107,
+        984,
+        1528
+      ],
+      "retainedOpaquePixels": 79585,
+      "rectangles": 680,
+      "pixelReconstructionExact": true,
+      "opaqueCanvasContact": false,
+      "artAccepted": false
+    }
+  ],
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false,
+  "adoptedPreviewBodies": 14,
+  "rejectedZhongliBodies": 6,
+  "activePreviewActions": 45,
+  "artReview": {
+    "neuvillette": "candidate; backdash hair inertia and cane continuity unresolved",
+    "mavuika": "candidate; landing and anatomy still require review",
+    "zhongli": "redraw rejected, previous actions restored exactly"
+  }
+}

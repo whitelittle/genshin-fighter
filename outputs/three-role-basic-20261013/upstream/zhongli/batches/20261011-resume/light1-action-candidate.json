@@ -1,0 +1,435 @@
+{
+  "actionId": "zhongli_light1_candidate",
+  "state": "art-only design candidate; not runtime integrated",
+  "tickRate": 60,
+  "durations": [
+    3,
+    3,
+    2,
+    2,
+    5,
+    6
+  ],
+  "phases": [
+    "持枪准备",
+    "转身蓄势",
+    "前刺接触",
+    "伸展随挥",
+    "撤枪",
+    "回收（未归母姿）"
+  ],
+  "frames": [
+    {
+      "id": "light1-0",
+      "source": "light1-0-source.png",
+      "optimized": {
+        "file": "light1-0-optimized.png",
+        "root": [
+          58.15279757662152,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 850
+      },
+      "root": [
+        347,
+        447
+      ],
+      "scale": 0.6703492516037063,
+      "landmarks": {
+        "skull": [
+          239,
+          17
+        ],
+        "chin": [
+          259,
+          78
+        ],
+        "neck": [
+          241,
+          90
+        ],
+        "pelvis": [
+          231,
+          233
+        ],
+        "root": [
+          347,
+          447
+        ],
+        "leftHip": [
+          200,
+          235
+        ],
+        "leftKnee": [
+          138,
+          336
+        ],
+        "leftAnkle": [
+          78,
+          423
+        ],
+        "rightHip": [
+          247,
+          236
+        ],
+        "rightKnee": [
+          304,
+          343
+        ],
+        "rightAnkle": [
+          338,
+          412
+        ]
+      }
+    },
+    {
+      "id": "light1-1",
+      "source": "light1-1-source.png",
+      "optimized": {
+        "file": "light1-1-optimized.png",
+        "root": [
+          64.85629009265858,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 787
+      },
+      "root": [
+        387,
+        447
+      ],
+      "scale": 0.6703492516037063,
+      "landmarks": {
+        "skull": [
+          231,
+          15
+        ],
+        "chin": [
+          252,
+          76
+        ],
+        "neck": [
+          236,
+          83
+        ],
+        "pelvis": [
+          256,
+          232
+        ],
+        "root": [
+          387,
+          447
+        ],
+        "leftHip": [
+          230,
+          232
+        ],
+        "leftKnee": [
+          148,
+          342
+        ],
+        "leftAnkle": [
+          62,
+          414
+        ],
+        "rightHip": [
+          277,
+          232
+        ],
+        "rightKnee": [
+          344,
+          342
+        ],
+        "rightAnkle": [
+          381,
+          412
+        ]
+      }
+    },
+    {
+      "id": "light1-2",
+      "source": "light1-2-source.png",
+      "optimized": {
+        "file": "light1-2-optimized.png",
+        "root": [
+          88.81080163043478,
+          73.68953804347827
+        ],
+        "displayScale": 4,
+        "rectangles": 1069
+      },
+      "root": [
+        417,
+        346
+      ],
+      "scale": 0.8519021739130435,
+      "landmarks": {
+        "skull": [
+          253,
+          11
+        ],
+        "chin": [
+          271,
+          59
+        ],
+        "neck": [
+          258,
+          75
+        ],
+        "pelvis": [
+          254,
+          179
+        ],
+        "root": [
+          417,
+          346
+        ],
+        "leftHip": [
+          228,
+          186
+        ],
+        "leftKnee": [
+          155,
+          259
+        ],
+        "leftAnkle": [
+          44,
+          322
+        ],
+        "rightHip": [
+          283,
+          183
+        ],
+        "rightKnee": [
+          348,
+          241
+        ],
+        "rightAnkle": [
+          396,
+          314
+        ]
+      }
+    },
+    {
+      "id": "light1-3",
+      "source": "light1-3-source.png",
+      "optimized": {
+        "file": "light1-3-optimized.png",
+        "root": [
+          85.5911125319693,
+          68.75351662404091
+        ],
+        "displayScale": 4,
+        "rectangles": 987
+      },
+      "root": [
+        427,
+        343
+      ],
+      "scale": 0.8017902813299232,
+      "landmarks": {
+        "skull": [
+          276,
+          9
+        ],
+        "chin": [
+          297,
+          60
+        ],
+        "neck": [
+          278,
+          73
+        ],
+        "pelvis": [
+          273,
+          178
+        ],
+        "root": [
+          427,
+          343
+        ],
+        "leftHip": [
+          246,
+          186
+        ],
+        "leftKnee": [
+          147,
+          259
+        ],
+        "leftAnkle": [
+          46,
+          318
+        ],
+        "rightHip": [
+          299,
+          184
+        ],
+        "rightKnee": [
+          382,
+          232
+        ],
+        "rightAnkle": [
+          422,
+          313
+        ]
+      }
+    },
+    {
+      "id": "light1-4",
+      "source": "light1-4-source.png",
+      "optimized": {
+        "file": "light1-4-optimized.png",
+        "root": [
+          77.87934782608696,
+          63.93913043478261
+        ],
+        "displayScale": 4,
+        "rectangles": 890
+      },
+      "root": [
+        419,
+        344
+      ],
+      "scale": 0.7434782608695653,
+      "landmarks": {
+        "skull": [
+          266,
+          8
+        ],
+        "chin": [
+          287,
+          63
+        ],
+        "neck": [
+          269,
+          75
+        ],
+        "pelvis": [
+          267,
+          184
+        ],
+        "root": [
+          419,
+          344
+        ],
+        "leftHip": [
+          241,
+          186
+        ],
+        "leftKnee": [
+          147,
+          261
+        ],
+        "leftAnkle": [
+          39,
+          324
+        ],
+        "rightHip": [
+          291,
+          184
+        ],
+        "rightKnee": [
+          380,
+          251
+        ],
+        "rightAnkle": [
+          415,
+          316
+        ]
+      }
+    },
+    {
+      "id": "light1-5",
+      "source": "light1-5-source.png",
+      "optimized": {
+        "file": "light1-5-optimized.png",
+        "root": [
+          66.61875,
+          66.95951086956522
+        ],
+        "displayScale": 4,
+        "rectangles": 777
+      },
+      "root": [
+        391,
+        393
+      ],
+      "scale": 0.6815217391304348,
+      "landmarks": {
+        "skull": [
+          220,
+          5
+        ],
+        "chin": [
+          240,
+          65
+        ],
+        "neck": [
+          222,
+          78
+        ],
+        "pelvis": [
+          238,
+          203
+        ],
+        "root": [
+          391,
+          393
+        ],
+        "leftHip": [
+          213,
+          203
+        ],
+        "leftKnee": [
+          142,
+          296
+        ],
+        "leftAnkle": [
+          52,
+          365
+        ],
+        "rightHip": [
+          260,
+          205
+        ],
+        "rightKnee": [
+          325,
+          285
+        ],
+        "rightAnkle": [
+          334,
+          363
+        ]
+      }
+    }
+  ],
+  "combatDesign": {
+    "startup": 6,
+    "active": 4,
+    "recovery": 11,
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit-candidate",
+        "hitId": "zhongli_light1_candidate_1",
+        "damageSegments": 1
+      }
+    ],
+    "box": [
+      40,
+      160,
+      250,
+      55
+    ],
+    "status": "design-only; box not calibrated to spear or simulated"
+  },
+  "issues": [
+    "六姿均为已有返修图复用。",
+    "第2姿背身蓄势到第3姿正面前刺，肩胯转向与握点衔接需复核。",
+    "后三姿躯干投影较基准短，不能仅按筛查值重画。",
+    "两脚支撑点及腿链为初步人工标记，尚未播放验收。",
+    "第6姿仍为宽站持枪，不能声明已回到空手母姿。",
+    "本页没有运行正式游戏命中或取消逻辑。"
+  ]
+}

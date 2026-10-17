@@ -1,0 +1,13 @@
+{
+  "source": "V3/client/genshin_fighter.lua",
+  "sourceSHA256": "2ff912f492e617bfebe615ecd0584af42738375f943b5464e2817769e292bd87",
+  "loader": "gf_fview:image / gf_art",
+  "poses": [
+    "idle_0",
+    "guard_2",
+    "guard_6",
+    "hurt_0"
+  ],
+  "previewScale": 0.55,
+  "scope": "loaded original records; independent preview scales whole opponent uniformly to current Mavuika display size, no formal fighter data modified"
+}

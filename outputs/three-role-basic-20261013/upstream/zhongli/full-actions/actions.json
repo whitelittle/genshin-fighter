@@ -1,0 +1,6593 @@
+{
+  "待机": {
+    "actionId": "zhongli_idle",
+    "frames": [
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/idle-1-optimized.png",
+        "anchor": [
+          22.830978260869564,
+          82.97527173913043
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-1.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/idle-1-initial.png",
+        "anchor": [
+          22.830978260869564,
+          82.97527173913043
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-1.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/idle-1.png",
+        "anchor": [
+          268.0,
+          974.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          738,
+          7,
+          1323,
+          982
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      24,
+      24
+    ],
+    "phases": [
+      "吸气",
+      "呼气"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "前走": {
+    "actionId": "zhongli_walk",
+    "frames": [
+      {
+        "file": "fitted/walk-0-optimized.png",
+        "anchor": [
+          25.983016304347828,
+          83.82717391304348
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-0.png"
+      },
+      {
+        "file": "fitted/walk-1-optimized.png",
+        "anchor": [
+          47.19538043478261,
+          84.33831521739131
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-1.png"
+      },
+      {
+        "file": "fitted/walk-2-optimized.png",
+        "anchor": [
+          61.762907608695656,
+          83.99755434782608
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-2.png"
+      },
+      {
+        "file": "fitted/walk-3-optimized.png",
+        "anchor": [
+          59.20720108695652,
+          83.14565217391305
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-3.png"
+      },
+      {
+        "file": "fitted/walk-4-optimized.png",
+        "anchor": [
+          40.03940217391305,
+          83.31603260869565
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-4.png"
+      },
+      {
+        "file": "fitted/walk-5-optimized.png",
+        "anchor": [
+          61.59252717391304,
+          83.31603260869565
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/walk-0-initial.png",
+        "anchor": [
+          25.983016304347828,
+          83.82717391304348
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-0.png"
+      },
+      {
+        "file": "fitted/walk-1-initial.png",
+        "anchor": [
+          47.19538043478261,
+          84.33831521739131
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-1.png"
+      },
+      {
+        "file": "fitted/walk-2-initial.png",
+        "anchor": [
+          61.762907608695656,
+          83.99755434782608
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-2.png"
+      },
+      {
+        "file": "fitted/walk-3-initial.png",
+        "anchor": [
+          59.20720108695652,
+          83.14565217391305
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-3.png"
+      },
+      {
+        "file": "fitted/walk-4-initial.png",
+        "anchor": [
+          40.03940217391305,
+          83.31603260869565
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-4.png"
+      },
+      {
+        "file": "fitted/walk-5-initial.png",
+        "anchor": [
+          61.59252717391304,
+          83.31603260869565
+        ],
+        "scale": 4,
+        "source": "sources/walk.png",
+        "sourceFrame": "frames/walk-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/walk-0.png",
+        "anchor": [
+          152.5,
+          492.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/walk.png",
+        "roi": [
+          100,
+          12,
+          518,
+          506
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/walk-1.png",
+        "anchor": [
+          277.0,
+          495.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/walk.png",
+        "roi": [
+          557,
+          10,
+          899,
+          506
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/walk-2.png",
+        "anchor": [
+          362.5,
+          493.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/walk.png",
+        "roi": [
+          991,
+          11,
+          1423,
+          506
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/walk-3.png",
+        "anchor": [
+          347.5,
+          488.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/walk.png",
+        "roi": [
+          104,
+          517,
+          522,
+          1006
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/walk-4.png",
+        "anchor": [
+          235.0,
+          489.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/walk.png",
+        "roi": [
+          572,
+          517,
+          898,
+          1007
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/walk-5.png",
+        "anchor": [
+          361.5,
+          489.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/walk.png",
+        "roi": [
+          1005,
+          516,
+          1437,
+          1006
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "phases": [
+      "右脚接地",
+      "右承重",
+      "左过腿",
+      "左脚接地",
+      "左承重",
+      "右过腿"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "后退": {
+    "actionId": "zhongli_backwalk",
+    "frames": [
+      {
+        "file": "fitted/backwalk-0-optimized.png",
+        "anchor": [
+          24.37750836120401,
+          77.06438127090301
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-0.png"
+      },
+      {
+        "file": "fitted/backwalk-1-optimized.png",
+        "anchor": [
+          26.893896321070233,
+          76.90710702341137
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-1.png"
+      },
+      {
+        "file": "fitted/backwalk-2-optimized.png",
+        "anchor": [
+          43.95815217391304,
+          76.27801003344482
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-2.png"
+      },
+      {
+        "file": "fitted/backwalk-3-optimized.png",
+        "anchor": [
+          50.40639632107023,
+          74.86254180602006
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-3.png"
+      },
+      {
+        "file": "fitted/backwalk-4-optimized.png",
+        "anchor": [
+          48.519105351170566,
+          74.07617056856186
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-4.png"
+      },
+      {
+        "file": "fitted/backwalk-5-optimized.png",
+        "anchor": [
+          42.69995819397993,
+          76.12073578595317
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/backwalk-0-initial.png",
+        "anchor": [
+          24.37750836120401,
+          77.06438127090301
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-0.png"
+      },
+      {
+        "file": "fitted/backwalk-1-initial.png",
+        "anchor": [
+          26.893896321070233,
+          76.90710702341137
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-1.png"
+      },
+      {
+        "file": "fitted/backwalk-2-initial.png",
+        "anchor": [
+          43.95815217391304,
+          76.27801003344482
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-2.png"
+      },
+      {
+        "file": "fitted/backwalk-3-initial.png",
+        "anchor": [
+          50.40639632107023,
+          74.86254180602006
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-3.png"
+      },
+      {
+        "file": "fitted/backwalk-4-initial.png",
+        "anchor": [
+          48.519105351170566,
+          74.07617056856186
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-4.png"
+      },
+      {
+        "file": "fitted/backwalk-5-initial.png",
+        "anchor": [
+          42.69995819397993,
+          76.12073578595317
+        ],
+        "scale": 4,
+        "source": "sources/backwalk.png",
+        "sourceFrame": "frames/backwalk-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/backwalk-0.png",
+        "anchor": [
+          155.0,
+          490.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backwalk.png",
+        "roi": [
+          97,
+          9,
+          490,
+          500
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backwalk-1.png",
+        "anchor": [
+          171.0,
+          489.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backwalk.png",
+        "roi": [
+          612,
+          9,
+          955,
+          499
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backwalk-2.png",
+        "anchor": [
+          279.5,
+          485.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backwalk.png",
+        "roi": [
+          1094,
+          9,
+          1423,
+          496
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backwalk-3.png",
+        "anchor": [
+          320.5,
+          476.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backwalk.png",
+        "roi": [
+          108,
+          512,
+          459,
+          989
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backwalk-4.png",
+        "anchor": [
+          308.5,
+          471.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backwalk.png",
+        "roi": [
+          600,
+          516,
+          938,
+          989
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backwalk-5.png",
+        "anchor": [
+          271.5,
+          484.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backwalk.png",
+        "roi": [
+          1117,
+          514,
+          1426,
+          999
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "phases": [
+      "右脚后触",
+      "后移承重",
+      "左脚后过",
+      "左脚后触",
+      "后移承重",
+      "右脚后过"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "跳跃": {
+    "actionId": "zhongli_jump",
+    "frames": [
+      {
+        "file": "fitted/jump-0-optimized.png",
+        "anchor": [
+          42.982336956521735,
+          56.07065217391304
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-0.png"
+      },
+      {
+        "file": "fitted/jump-1-optimized.png",
+        "anchor": [
+          40.77513586956522,
+          37.22038043478261
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-1.png"
+      },
+      {
+        "file": "fitted/jump-2-optimized.png",
+        "anchor": [
+          45.38934782608696,
+          37.25984197324415
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-2.png"
+      },
+      {
+        "file": "fitted/jump-3-optimized.png",
+        "anchor": [
+          41.312799331103676,
+          36.67635451505017
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-3.png"
+      },
+      {
+        "file": "fitted/jump-4-optimized.png",
+        "anchor": [
+          42.590849184782606,
+          43.04768172554348
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-4.png"
+      },
+      {
+        "file": "fitted/jump-5-optimized.png",
+        "anchor": [
+          6.866077222582739,
+          48.06254055807917
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/jump-0-initial.png",
+        "anchor": [
+          42.982336956521735,
+          56.07065217391304
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-0.png"
+      },
+      {
+        "file": "fitted/jump-1-initial.png",
+        "anchor": [
+          40.77513586956522,
+          37.22038043478261
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-1.png"
+      },
+      {
+        "file": "fitted/jump-2-initial.png",
+        "anchor": [
+          45.38934782608696,
+          37.25984197324415
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-2.png"
+      },
+      {
+        "file": "fitted/jump-3-initial.png",
+        "anchor": [
+          41.312799331103676,
+          36.67635451505017
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-3.png"
+      },
+      {
+        "file": "fitted/jump-4-initial.png",
+        "anchor": [
+          42.590849184782606,
+          43.04768172554348
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-4.png"
+      },
+      {
+        "file": "fitted/jump-5-initial.png",
+        "anchor": [
+          6.866077222582739,
+          48.06254055807917
+        ],
+        "scale": 4,
+        "source": "sources/jump.png",
+        "sourceFrame": "frames/jump-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/jump-0.png",
+        "anchor": [
+          277.5,
+          362.0
+        ],
+        "scale": 0.6195652173913043,
+        "source": "sources/jump.png",
+        "roi": [
+          55,
+          162,
+          484,
+          525
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/jump-1.png",
+        "anchor": [
+          263.25,
+          240.3
+        ],
+        "scale": 0.6195652173913043,
+        "source": "sources/jump.png",
+        "roi": [
+          572,
+          1,
+          977,
+          535
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/jump-2.png",
+        "anchor": [
+          288.6,
+          236.91000000000003
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/jump.png",
+        "roi": [
+          1078,
+          28,
+          1468,
+          475
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/jump-3.png",
+        "anchor": [
+          262.68,
+          233.20000000000002
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/jump.png",
+        "roi": [
+          58,
+          536,
+          456,
+          960
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/jump-4.png",
+        "anchor": [
+          266.64,
+          269.5
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/jump.png",
+        "roi": [
+          571,
+          520,
+          975,
+          1010
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/jump-5.png",
+        "anchor": [
+          45.0,
+          315.0
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/jump.png",
+        "roi": [
+          1085,
+          688,
+          1477,
+          1005
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      6,
+      7,
+      9,
+      8,
+      7,
+      7
+    ],
+    "phases": [
+      "蓄力",
+      "起跳",
+      "上升",
+      "顶点",
+      "下降",
+      "落地"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "前冲": {
+    "actionId": "zhongli_forwarddash",
+    "frames": [
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/forwarddash-1-optimized.png",
+        "anchor": [
+          18.04028132992327,
+          54.42151534526854
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-1.png"
+      },
+      {
+        "file": "fitted/forwarddash-2-optimized.png",
+        "anchor": [
+          46.51385869565218,
+          29.118270603504218
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-2.png"
+      },
+      {
+        "file": "fitted/forwarddash-3-optimized.png",
+        "anchor": [
+          56.48111413043478,
+          28.995652173913044
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-3.png"
+      },
+      {
+        "file": "fitted/forwarddash-4-optimized.png",
+        "anchor": [
+          5.19005016722408,
+          57.09055183946488
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-4.png"
+      },
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/forwarddash-1-initial.png",
+        "anchor": [
+          18.04028132992327,
+          54.42151534526854
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-1.png"
+      },
+      {
+        "file": "fitted/forwarddash-2-initial.png",
+        "anchor": [
+          46.51385869565218,
+          29.118270603504218
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-2.png"
+      },
+      {
+        "file": "fitted/forwarddash-3-initial.png",
+        "anchor": [
+          56.48111413043478,
+          28.995652173913044
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-3.png"
+      },
+      {
+        "file": "fitted/forwarddash-4-initial.png",
+        "anchor": [
+          5.19005016722408,
+          57.09055183946488
+        ],
+        "scale": 4,
+        "source": "sources/forwarddash.png",
+        "sourceFrame": "frames/forwarddash-4.png"
+      },
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/forwarddash-1.png",
+        "anchor": [
+          120.0,
+          362.0
+        ],
+        "scale": 0.6013427109974424,
+        "source": "sources/forwarddash.png",
+        "roi": [
+          501,
+          147,
+          952,
+          510
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/forwarddash-2.png",
+        "anchor": [
+          304.85,
+          190.84
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/forwarddash.png",
+        "roi": [
+          1050,
+          146,
+          1519,
+          513
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/forwarddash-3.png",
+        "anchor": [
+          364.65000000000003,
+          187.20000000000002
+        ],
+        "scale": 0.6195652173913043,
+        "source": "sources/forwarddash.png",
+        "roi": [
+          68,
+          600,
+          629,
+          960
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/forwarddash-4.png",
+        "anchor": [
+          33.0,
+          363.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/forwarddash.png",
+        "roi": [
+          648,
+          633,
+          1151,
+          997
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ],
+    "phases": [
+      "待机",
+      "启动",
+      "推进",
+      "跨步",
+      "制动",
+      "待机"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "后撤": {
+    "actionId": "zhongli_backdash",
+    "frames": [
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/backdash-1-optimized.png",
+        "anchor": [
+          28.990103828682674,
+          64.08338741077223
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-1.png"
+      },
+      {
+        "file": "fitted/backdash-2-optimized.png",
+        "anchor": [
+          40.77963963210703,
+          32.46769565217391
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-2.png"
+      },
+      {
+        "file": "fitted/backdash-3-optimized.png",
+        "anchor": [
+          42.65241847826087,
+          30.042717391304347
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-3.png"
+      },
+      {
+        "file": "fitted/backdash-4-optimized.png",
+        "anchor": [
+          31.720828005115088,
+          55.473865089514064
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-4.png"
+      },
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/backdash-1-initial.png",
+        "anchor": [
+          28.990103828682674,
+          64.08338741077223
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-1.png"
+      },
+      {
+        "file": "fitted/backdash-2-initial.png",
+        "anchor": [
+          40.77963963210703,
+          32.46769565217391
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-2.png"
+      },
+      {
+        "file": "fitted/backdash-3-initial.png",
+        "anchor": [
+          42.65241847826087,
+          30.042717391304347
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-3.png"
+      },
+      {
+        "file": "fitted/backdash-4-initial.png",
+        "anchor": [
+          31.720828005115088,
+          55.473865089514064
+        ],
+        "scale": 4,
+        "source": "sources/backdash.png",
+        "sourceFrame": "frames/backdash-4.png"
+      },
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backdash-1.png",
+        "anchor": [
+          190.0,
+          420.0
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/backdash.png",
+        "roi": [
+          589,
+          73,
+          975,
+          494
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/backdash-2.png",
+        "anchor": [
+          259.29,
+          206.44
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/backdash.png",
+        "roi": [
+          1094,
+          97,
+          1481,
+          494
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/backdash-3.png",
+        "anchor": [
+          275.37,
+          193.96
+        ],
+        "scale": 0.6195652173913043,
+        "source": "sources/backdash.png",
+        "roi": [
+          69,
+          529,
+          480,
+          902
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/backdash-4.png",
+        "anchor": [
+          211.0,
+          369.0
+        ],
+        "scale": 0.6013427109974424,
+        "source": "sources/backdash.png",
+        "roi": [
+          561,
+          619,
+          1019,
+          989
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ],
+    "phases": [
+      "待机",
+      "退重心",
+      "蹬地",
+      "后跃",
+      "落地",
+      "待机"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "蹲下": {
+    "actionId": "zhongli_crouch",
+    "frames": [
+      {
+        "file": "fitted/crouch-0-optimized.png",
+        "anchor": [
+          21.127173913043478,
+          87.23478260869565
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-0.png"
+      },
+      {
+        "file": "fitted/crouch-1-optimized.png",
+        "anchor": [
+          24.77069397993311,
+          76.27801003344482
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-1.png"
+      },
+      {
+        "file": "fitted/crouch-2-optimized.png",
+        "anchor": [
+          24.336429266709928,
+          67.89787475665153
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-2.png"
+      },
+      {
+        "file": "fitted/crouch-3-optimized.png",
+        "anchor": [
+          13.873835403726707,
+          53.888897515527944
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-3.png"
+      },
+      {
+        "file": "fitted/crouch-4-optimized.png",
+        "anchor": [
+          10.222826086956522,
+          42.35170807453416
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-4.png"
+      },
+      {
+        "file": "fitted/crouch-5-optimized.png",
+        "anchor": [
+          9.691770186335402,
+          41.82065217391304
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/crouch-0-initial.png",
+        "anchor": [
+          21.127173913043478,
+          87.23478260869565
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-0.png"
+      },
+      {
+        "file": "fitted/crouch-1-initial.png",
+        "anchor": [
+          24.77069397993311,
+          76.27801003344482
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-1.png"
+      },
+      {
+        "file": "fitted/crouch-2-initial.png",
+        "anchor": [
+          24.336429266709928,
+          67.89787475665153
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-2.png"
+      },
+      {
+        "file": "fitted/crouch-3-initial.png",
+        "anchor": [
+          13.873835403726707,
+          53.888897515527944
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-3.png"
+      },
+      {
+        "file": "fitted/crouch-4-initial.png",
+        "anchor": [
+          10.222826086956522,
+          42.35170807453416
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-4.png"
+      },
+      {
+        "file": "fitted/crouch-5-initial.png",
+        "anchor": [
+          9.691770186335402,
+          41.82065217391304
+        ],
+        "scale": 4,
+        "source": "sources/crouch.png",
+        "sourceFrame": "frames/crouch-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/crouch-0.png",
+        "anchor": [
+          124.0,
+          512.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/crouch.png",
+        "roi": [
+          124,
+          13,
+          397,
+          526
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouch-1.png",
+        "anchor": [
+          157.5,
+          485.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/crouch.png",
+        "roi": [
+          605,
+          40,
+          922,
+          526
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouch-2.png",
+        "anchor": [
+          159.5,
+          445.0
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/crouch.png",
+        "roi": [
+          1090,
+          80,
+          1407,
+          526
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouch-3.png",
+        "anchor": [
+          95.0,
+          369.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/crouch.png",
+        "roi": [
+          98,
+          617,
+          440,
+          987
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouch-4.png",
+        "anchor": [
+          77.0,
+          319.0
+        ],
+        "scale": 0.531055900621118,
+        "source": "sources/crouch.png",
+        "roi": [
+          610,
+          662,
+          946,
+          982
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouch-5.png",
+        "anchor": [
+          73.0,
+          315.0
+        ],
+        "scale": 0.531055900621118,
+        "source": "sources/crouch.png",
+        "roi": [
+          1121,
+          668,
+          1463,
+          984
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "phases": [
+      "站立",
+      "屈膝",
+      "降重心",
+      "蹲入",
+      "蹲稳",
+      "保持"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "站立格挡": {
+    "actionId": "zhongli_standguard",
+    "frames": [
+      {
+        "file": "fitted/standguard-0-optimized.png",
+        "anchor": [
+          24.194021739130434,
+          86.2125
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-0.png"
+      },
+      {
+        "file": "fitted/standguard-1-optimized.png",
+        "anchor": [
+          21.893885869565217,
+          85.70135869565217
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-1.png"
+      },
+      {
+        "file": "fitted/standguard-2-optimized.png",
+        "anchor": [
+          19.950999298737727,
+          80.95818723702665
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-2.png"
+      },
+      {
+        "file": "fitted/standguard-3-optimized.png",
+        "anchor": [
+          27.370792426367462,
+          77.49561711079944
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-3.png"
+      },
+      {
+        "file": "fitted/standguard-4-optimized.png",
+        "anchor": [
+          19.472049689440993,
+          79.1863354037267
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-4.png"
+      },
+      {
+        "file": "fitted/standguard-5-optimized.png",
+        "anchor": [
+          26.23858695652174,
+          84.67907608695653
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/standguard-0-initial.png",
+        "anchor": [
+          24.194021739130434,
+          86.2125
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-0.png"
+      },
+      {
+        "file": "fitted/standguard-1-initial.png",
+        "anchor": [
+          21.893885869565217,
+          85.70135869565217
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-1.png"
+      },
+      {
+        "file": "fitted/standguard-2-initial.png",
+        "anchor": [
+          19.950999298737727,
+          80.95818723702665
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-2.png"
+      },
+      {
+        "file": "fitted/standguard-3-initial.png",
+        "anchor": [
+          27.370792426367462,
+          77.49561711079944
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-3.png"
+      },
+      {
+        "file": "fitted/standguard-4-initial.png",
+        "anchor": [
+          19.472049689440993,
+          79.1863354037267
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-4.png"
+      },
+      {
+        "file": "fitted/standguard-5-initial.png",
+        "anchor": [
+          26.23858695652174,
+          84.67907608695653
+        ],
+        "scale": 4,
+        "source": "sources/standguard.png",
+        "sourceFrame": "frames/standguard-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/standguard-0.png",
+        "anchor": [
+          142.0,
+          506.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/standguard.png",
+        "roi": [
+          118,
+          7,
+          435,
+          514
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/standguard-1.png",
+        "anchor": [
+          128.5,
+          503.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/standguard.png",
+        "roi": [
+          590,
+          11,
+          948,
+          515
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/standguard-2.png",
+        "anchor": [
+          121.0,
+          491.0
+        ],
+        "scale": 0.6595371669004207,
+        "source": "sources/standguard.png",
+        "roi": [
+          1077,
+          23,
+          1448,
+          515
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/standguard-3.png",
+        "anchor": [
+          166.0,
+          470.0
+        ],
+        "scale": 0.6595371669004207,
+        "source": "sources/standguard.png",
+        "roi": [
+          92,
+          541,
+          503,
+          1012
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/standguard-4.png",
+        "anchor": [
+          120.0,
+          488.0
+        ],
+        "scale": 0.6490683229813664,
+        "source": "sources/standguard.png",
+        "roi": [
+          584,
+          523,
+          948,
+          1013
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/standguard-5.png",
+        "anchor": [
+          154.0,
+          497.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/standguard.png",
+        "roi": [
+          1086,
+          515,
+          1421,
+          1013
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      10,
+      5,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "架手",
+      "防御",
+      "受力",
+      "保持",
+      "恢复"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "蹲防": {
+    "actionId": "zhongli_crouchguard",
+    "frames": [
+      {
+        "file": "fitted/crouchguard-0-optimized.png",
+        "anchor": [
+          11.413155151876115,
+          52.79459499702203
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-0.png"
+      },
+      {
+        "file": "fitted/crouchguard-1-optimized.png",
+        "anchor": [
+          11.34313579511614,
+          56.85571768910065
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-1.png"
+      },
+      {
+        "file": "fitted/crouchguard-2-optimized.png",
+        "anchor": [
+          8.314565217391303,
+          51.25043478260869
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-2.png"
+      },
+      {
+        "file": "fitted/crouchguard-3-optimized.png",
+        "anchor": [
+          10.895380434782608,
+          46.94429347826087
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-3.png"
+      },
+      {
+        "file": "fitted/crouchguard-4-optimized.png",
+        "anchor": [
+          10.222826086956522,
+          48.42391304347826
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-4.png"
+      },
+      {
+        "file": "fitted/crouchguard-5-optimized.png",
+        "anchor": [
+          12.916678907168038,
+          53.87705640423032
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/crouchguard-0-initial.png",
+        "anchor": [
+          11.413155151876115,
+          52.79459499702203
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-0.png"
+      },
+      {
+        "file": "fitted/crouchguard-1-initial.png",
+        "anchor": [
+          11.34313579511614,
+          56.85571768910065
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-1.png"
+      },
+      {
+        "file": "fitted/crouchguard-2-initial.png",
+        "anchor": [
+          8.314565217391303,
+          51.25043478260869
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-2.png"
+      },
+      {
+        "file": "fitted/crouchguard-3-initial.png",
+        "anchor": [
+          10.895380434782608,
+          46.94429347826087
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-3.png"
+      },
+      {
+        "file": "fitted/crouchguard-4-initial.png",
+        "anchor": [
+          10.222826086956522,
+          48.42391304347826
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-4.png"
+      },
+      {
+        "file": "fitted/crouchguard-5-initial.png",
+        "anchor": [
+          12.916678907168038,
+          53.87705640423032
+        ],
+        "scale": 4,
+        "source": "sources/crouchguard.png",
+        "sourceFrame": "frames/crouchguard-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/crouchguard-0.png",
+        "anchor": [
+          81.5,
+          377.0
+        ],
+        "scale": 0.5601548540798094,
+        "source": "sources/crouchguard.png",
+        "roi": [
+          16,
+          125,
+          491,
+          504
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchguard-1.png",
+        "anchor": [
+          81.0,
+          406.0
+        ],
+        "scale": 0.5601548540798094,
+        "source": "sources/crouchguard.png",
+        "roi": [
+          542,
+          97,
+          976,
+          505
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchguard-2.png",
+        "anchor": [
+          61.0,
+          376.0
+        ],
+        "scale": 0.5452173913043478,
+        "source": "sources/crouchguard.png",
+        "roi": [
+          1072,
+          131,
+          1471,
+          509
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchguard-3.png",
+        "anchor": [
+          81.0,
+          349.0
+        ],
+        "scale": 0.5380434782608695,
+        "source": "sources/crouchguard.png",
+        "roi": [
+          27,
+          606,
+          510,
+          956
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchguard-4.png",
+        "anchor": [
+          76.0,
+          360.0
+        ],
+        "scale": 0.5380434782608695,
+        "source": "sources/crouchguard.png",
+        "roi": [
+          540,
+          603,
+          971,
+          964
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchguard-5.png",
+        "anchor": [
+          93.5,
+          390.0
+        ],
+        "scale": 0.5525851938895417,
+        "source": "sources/crouchguard.png",
+        "roi": [
+          1064,
+          581,
+          1490,
+          973
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      10,
+      5,
+      5,
+      5
+    ],
+    "phases": [
+      "低姿",
+      "架手",
+      "防御",
+      "受力",
+      "保持",
+      "恢复"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "轻攻一": {
+    "actionId": "zhongli_light1",
+    "frames": [
+      {
+        "file": "fitted/light1-0-optimized.png",
+        "anchor": [
+          11.563524590163933,
+          76.08464005702066
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-0.png"
+      },
+      {
+        "file": "fitted/light1-1-optimized.png",
+        "anchor": [
+          7.625222736992159,
+          75.41429080541695
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-1.png"
+      },
+      {
+        "file": "fitted/light1-2-optimized.png",
+        "anchor": [
+          7.986582880434782,
+          74.5414402173913
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-2.png"
+      },
+      {
+        "file": "fitted/light1-3-optimized.png",
+        "anchor": [
+          6.414322250639386,
+          70.75799232736573
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-3.png"
+      },
+      {
+        "file": "fitted/light1-4-optimized.png",
+        "anchor": [
+          5.111413043478261,
+          65.61195652173913
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-4.png"
+      },
+      {
+        "file": "fitted/light1-5-optimized.png",
+        "anchor": [
+          15.121263586956522,
+          83.57160326086957
+        ],
+        "scale": 4,
+        "source": "sources/light1-5-single-repair.png",
+        "sourceFrame": "frames/light1-5.png"
+      },
+      {
+        "file": "fitted/light1-0-optimized.png",
+        "anchor": [
+          11.563524590163933,
+          76.08464005702066
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-0.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/light1-0-initial.png",
+        "anchor": [
+          11.563524590163933,
+          76.08464005702066
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-0.png"
+      },
+      {
+        "file": "fitted/light1-1-initial.png",
+        "anchor": [
+          7.625222736992159,
+          75.41429080541695
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-1.png"
+      },
+      {
+        "file": "fitted/light1-2-initial.png",
+        "anchor": [
+          7.986582880434782,
+          74.5414402173913
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-2.png"
+      },
+      {
+        "file": "fitted/light1-3-initial.png",
+        "anchor": [
+          6.414322250639386,
+          70.75799232736573
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-3.png"
+      },
+      {
+        "file": "fitted/light1-4-initial.png",
+        "anchor": [
+          5.111413043478261,
+          65.61195652173913
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-4.png"
+      },
+      {
+        "file": "fitted/light1-5-initial.png",
+        "anchor": [
+          15.121263586956522,
+          83.57160326086957
+        ],
+        "scale": 4,
+        "source": "sources/light1-5-single-repair.png",
+        "sourceFrame": "frames/light1-5.png"
+      },
+      {
+        "file": "fitted/light1-0-initial.png",
+        "anchor": [
+          11.563524590163933,
+          76.08464005702066
+        ],
+        "scale": 4,
+        "source": "sources/light1.png",
+        "sourceFrame": "frames/light1-0.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/light1-0.png",
+        "anchor": [
+          69.0,
+          454.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/light1.png",
+        "roi": [
+          96,
+          14,
+          629,
+          470
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light1-1.png",
+        "anchor": [
+          45.5,
+          450.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/light1.png",
+        "roi": [
+          694,
+          18,
+          1220,
+          470
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light1-2.png",
+        "anchor": [
+          37.5,
+          350.0
+        ],
+        "scale": 0.8519021739130435,
+        "source": "sources/light1.png",
+        "roi": [
+          22,
+          504,
+          631,
+          855
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light1-3.png",
+        "anchor": [
+          32.0,
+          353.0
+        ],
+        "scale": 0.8017902813299232,
+        "source": "sources/light1.png",
+        "roi": [
+          673,
+          502,
+          1236,
+          856
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light1-4.png",
+        "anchor": [
+          27.5,
+          353.0
+        ],
+        "scale": 0.7434782608695653,
+        "source": "sources/light1.png",
+        "roi": [
+          74,
+          884,
+          669,
+          1238
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light1-5.png",
+        "anchor": [
+          177.5,
+          981.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/light1-5-single-repair.png",
+        "roi": [
+          136,
+          92,
+          1352,
+          1075
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light1-0.png",
+        "anchor": [
+          69.0,
+          454.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/light1.png",
+        "roi": [
+          96,
+          14,
+          629,
+          470
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      2,
+      5,
+      6,
+      8
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复",
+      "持枪归位"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "zhongli_light1_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 6,
+      "active": 4,
+      "recovery": 19,
+      "box": [
+        40,
+        160,
+        250,
+        55
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "轻攻二": {
+    "actionId": "zhongli_light2",
+    "frames": [
+      {
+        "file": "fitted/light2-0-optimized.png",
+        "anchor": [
+          23.24868513323983,
+          66.44836956521739
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-0.png"
+      },
+      {
+        "file": "fitted/light2-1-optimized.png",
+        "anchor": [
+          12.613648316970547,
+          66.7781381486676
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-1.png"
+      },
+      {
+        "file": "fitted/light2-2-optimized.png",
+        "anchor": [
+          10.308016304347825,
+          67.81141304347827
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-2.png"
+      },
+      {
+        "file": "fitted/light2-3-optimized.png",
+        "anchor": [
+          11.500679347826088,
+          66.27798913043479
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-3.png"
+      },
+      {
+        "file": "fitted/light2-4-optimized.png",
+        "anchor": [
+          65.42608695652174,
+          63.72228260869565
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-4.png"
+      },
+      {
+        "file": "fitted/light2-5-optimized.png",
+        "anchor": [
+          20.104891304347827,
+          82.63451086956522
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/light2-0-initial.png",
+        "anchor": [
+          23.24868513323983,
+          66.44836956521739
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-0.png"
+      },
+      {
+        "file": "fitted/light2-1-initial.png",
+        "anchor": [
+          12.613648316970547,
+          66.7781381486676
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-1.png"
+      },
+      {
+        "file": "fitted/light2-2-initial.png",
+        "anchor": [
+          10.308016304347825,
+          67.81141304347827
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-2.png"
+      },
+      {
+        "file": "fitted/light2-3-initial.png",
+        "anchor": [
+          11.500679347826088,
+          66.27798913043479
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-3.png"
+      },
+      {
+        "file": "fitted/light2-4-initial.png",
+        "anchor": [
+          65.42608695652174,
+          63.72228260869565
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-4.png"
+      },
+      {
+        "file": "fitted/light2-5-initial.png",
+        "anchor": [
+          20.104891304347827,
+          82.63451086956522
+        ],
+        "scale": 4,
+        "source": "sources/light2.png",
+        "sourceFrame": "frames/light2-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/light2-0.png",
+        "anchor": [
+          141.0,
+          403.0
+        ],
+        "scale": 0.6595371669004207,
+        "source": "sources/light2.png",
+        "roi": [
+          16,
+          69,
+          497,
+          473
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light2-1.png",
+        "anchor": [
+          76.5,
+          405.0
+        ],
+        "scale": 0.6595371669004207,
+        "source": "sources/light2.png",
+        "roi": [
+          531,
+          67,
+          1049,
+          473
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light2-2.png",
+        "anchor": [
+          60.5,
+          398.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light2.png",
+        "roi": [
+          1015,
+          74,
+          1534,
+          474
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light2-3.png",
+        "anchor": [
+          67.5,
+          389.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light2.png",
+        "roi": [
+          17,
+          563,
+          644,
+          953
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light2-4.png",
+        "anchor": [
+          384.0,
+          374.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light2.png",
+        "roi": [
+          611,
+          581,
+          1051,
+          957
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light2-5.png",
+        "anchor": [
+          118.0,
+          485.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light2.png",
+        "roi": [
+          1082,
+          490,
+          1525,
+          976
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      2,
+      6,
+      7
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "kind": "hit",
+        "hitId": "zhongli_light2_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 8,
+      "active": 5,
+      "recovery": 13,
+      "box": [
+        35,
+        130,
+        245,
+        90
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "轻攻三": {
+    "actionId": "zhongli_light3",
+    "frames": [
+      {
+        "file": "fitted/light3-0-optimized.png",
+        "anchor": [
+          63.19565217391305,
+          66.54130434782608
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-0.png"
+      },
+      {
+        "file": "fitted/light3-1-optimized.png",
+        "anchor": [
+          72.41168478260869,
+          82.84748641304347
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-1.png"
+      },
+      {
+        "file": "fitted/light3-2-optimized.png",
+        "anchor": [
+          73.17839673913043,
+          55.714402173913044
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-2.png"
+      },
+      {
+        "file": "fitted/light3-3-optimized.png",
+        "anchor": [
+          7.326358695652174,
+          53.32907608695652
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-3.png"
+      },
+      {
+        "file": "fitted/light3-4-optimized.png",
+        "anchor": [
+          74.54144021739131,
+          48.728804347826085
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-4.png"
+      },
+      {
+        "file": "fitted/light3-5-optimized.png",
+        "anchor": [
+          17.03804347826087,
+          67.30027173913044
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/light3-0-initial.png",
+        "anchor": [
+          63.19565217391305,
+          66.54130434782608
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-0.png"
+      },
+      {
+        "file": "fitted/light3-1-initial.png",
+        "anchor": [
+          72.41168478260869,
+          82.84748641304347
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-1.png"
+      },
+      {
+        "file": "fitted/light3-2-initial.png",
+        "anchor": [
+          73.17839673913043,
+          55.714402173913044
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-2.png"
+      },
+      {
+        "file": "fitted/light3-3-initial.png",
+        "anchor": [
+          7.326358695652174,
+          53.32907608695652
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-3.png"
+      },
+      {
+        "file": "fitted/light3-4-initial.png",
+        "anchor": [
+          74.54144021739131,
+          48.728804347826085
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-4.png"
+      },
+      {
+        "file": "fitted/light3-5-initial.png",
+        "anchor": [
+          17.03804347826087,
+          67.30027173913044
+        ],
+        "scale": 4,
+        "source": "sources/light3.png",
+        "sourceFrame": "frames/light3-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/light3-0.png",
+        "anchor": [
+          340.0,
+          358.0
+        ],
+        "scale": 0.7434782608695653,
+        "source": "sources/light3.png",
+        "roi": [
+          134,
+          43,
+          711,
+          402
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light3-1.png",
+        "anchor": [
+          340.0,
+          389.0
+        ],
+        "scale": 0.8519021739130435,
+        "source": "sources/light3.png",
+        "roi": [
+          884,
+          10,
+          1248,
+          400
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light3-2.png",
+        "anchor": [
+          429.5,
+          327.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light3.png",
+        "roi": [
+          103,
+          434,
+          723,
+          762
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light3-3.png",
+        "anchor": [
+          43.0,
+          313.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light3.png",
+        "roi": [
+          728,
+          442,
+          1342,
+          757
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light3-4.png",
+        "anchor": [
+          437.5,
+          286.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light3.png",
+        "roi": [
+          92,
+          821,
+          728,
+          1109
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/light3-5.png",
+        "anchor": [
+          100.0,
+          395.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/light3.png",
+        "roi": [
+          816,
+          748,
+          1306,
+          1145
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      3,
+      3,
+      7,
+      9
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 10,
+        "kind": "hit",
+        "hitId": "zhongli_light3_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 10,
+      "active": 6,
+      "recovery": 16,
+      "box": [
+        25,
+        60,
+        235,
+        180
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "站重": {
+    "actionId": "zhongli_heavy",
+    "frames": [
+      {
+        "file": "fitted/heavy-0-optimized.png",
+        "anchor": [
+          27.00529891304348,
+          77.69347826086957
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-0.png"
+      },
+      {
+        "file": "fitted/heavy-1-optimized.png",
+        "anchor": [
+          9.370923913043478,
+          68.6633152173913
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-1.png"
+      },
+      {
+        "file": "fitted/heavy-2-optimized.png",
+        "anchor": [
+          7.077341137123746,
+          64.08925585284281
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-2.png"
+      },
+      {
+        "file": "fitted/heavy-3-optimized.png",
+        "anchor": [
+          72.675,
+          61.52282608695653
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-3.png"
+      },
+      {
+        "file": "fitted/heavy-4-optimized.png",
+        "anchor": [
+          4.089130434782609,
+          62.638043478260876
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-4.png"
+      },
+      {
+        "file": "fitted/heavy-5-optimized.png",
+        "anchor": [
+          17.46399456521739,
+          73.26358695652173
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/heavy-0-initial.png",
+        "anchor": [
+          27.00529891304348,
+          77.69347826086957
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-0.png"
+      },
+      {
+        "file": "fitted/heavy-1-initial.png",
+        "anchor": [
+          9.370923913043478,
+          68.6633152173913
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-1.png"
+      },
+      {
+        "file": "fitted/heavy-2-initial.png",
+        "anchor": [
+          7.077341137123746,
+          64.08925585284281
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-2.png"
+      },
+      {
+        "file": "fitted/heavy-3-initial.png",
+        "anchor": [
+          72.675,
+          61.52282608695653
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-3.png"
+      },
+      {
+        "file": "fitted/heavy-4-initial.png",
+        "anchor": [
+          4.089130434782609,
+          62.638043478260876
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-4.png"
+      },
+      {
+        "file": "fitted/heavy-5-initial.png",
+        "anchor": [
+          17.46399456521739,
+          73.26358695652173
+        ],
+        "scale": 4,
+        "source": "sources/heavy.png",
+        "sourceFrame": "frames/heavy-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/heavy-0.png",
+        "anchor": [
+          158.5,
+          456.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/heavy.png",
+        "roi": [
+          67,
+          10,
+          590,
+          468
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/heavy-1.png",
+        "anchor": [
+          55.0,
+          403.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/heavy.png",
+        "roi": [
+          631,
+          54,
+          1237,
+          459
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/heavy-2.png",
+        "anchor": [
+          36.0,
+          326.0
+        ],
+        "scale": 0.7863712374581939,
+        "source": "sources/heavy.png",
+        "roi": [
+          12,
+          504,
+          754,
+          832
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/heavy-3.png",
+        "anchor": [
+          391.0,
+          331.0
+        ],
+        "scale": 0.7434782608695653,
+        "source": "sources/heavy.png",
+        "roi": [
+          662,
+          500,
+          1248,
+          832
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/heavy-4.png",
+        "anchor": [
+          22.0,
+          337.0
+        ],
+        "scale": 0.7434782608695653,
+        "source": "sources/heavy.png",
+        "roi": [
+          63,
+          877,
+          646,
+          1215
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/heavy-5.png",
+        "anchor": [
+          102.5,
+          430.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/heavy.png",
+        "roi": [
+          735,
+          801,
+          1204,
+          1233
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      6,
+      7,
+      3,
+      3,
+      10,
+      12
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 13,
+        "kind": "hit",
+        "hitId": "zhongli_heavy_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 13,
+      "active": 6,
+      "recovery": 22,
+      "box": [
+        50,
+        135,
+        300,
+        85
+      ],
+      "lunge": 18,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "蹲轻": {
+    "actionId": "zhongli_crouchlight",
+    "frames": [
+      {
+        "file": "fitted/crouchlight-0-optimized.png",
+        "anchor": [
+          19.22501622323167,
+          63.32048994159637
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-0.png"
+      },
+      {
+        "file": "fitted/crouchlight-1-optimized.png",
+        "anchor": [
+          15.993776297335202,
+          62.491146563814866
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-1.png"
+      },
+      {
+        "file": "fitted/crouchlight-2-optimized.png",
+        "anchor": [
+          8.044191019244476,
+          55.638987883107625
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-2.png"
+      },
+      {
+        "file": "fitted/crouchlight-3-optimized.png",
+        "anchor": [
+          19.209019985974756,
+          45.672948807854134
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-3.png"
+      },
+      {
+        "file": "fitted/crouchlight-4-optimized.png",
+        "anchor": [
+          8.194487577639752,
+          53.87267080745341
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-4.png"
+      },
+      {
+        "file": "fitted/crouchlight-5-optimized.png",
+        "anchor": [
+          21.004712975543477,
+          61.17722486413043
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/crouchlight-0-initial.png",
+        "anchor": [
+          19.22501622323167,
+          63.32048994159637
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-0.png"
+      },
+      {
+        "file": "fitted/crouchlight-1-initial.png",
+        "anchor": [
+          15.993776297335202,
+          62.491146563814866
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-1.png"
+      },
+      {
+        "file": "fitted/crouchlight-2-initial.png",
+        "anchor": [
+          8.044191019244476,
+          55.638987883107625
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-2.png"
+      },
+      {
+        "file": "fitted/crouchlight-3-initial.png",
+        "anchor": [
+          19.209019985974756,
+          45.672948807854134
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-3.png"
+      },
+      {
+        "file": "fitted/crouchlight-4-initial.png",
+        "anchor": [
+          8.194487577639752,
+          53.87267080745341
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-4.png"
+      },
+      {
+        "file": "fitted/crouchlight-5-initial.png",
+        "anchor": [
+          21.004712975543477,
+          61.17722486413043
+        ],
+        "scale": 4,
+        "source": "sources/crouchlight.png",
+        "sourceFrame": "frames/crouchlight-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/crouchlight-0.png",
+        "anchor": [
+          126.0,
+          415.0
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/crouchlight.png",
+        "roi": [
+          28,
+          48,
+          598,
+          464
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchlight-1.png",
+        "anchor": [
+          97.0,
+          379.0
+        ],
+        "scale": 0.6595371669004207,
+        "source": "sources/crouchlight.png",
+        "roi": [
+          646,
+          78,
+          1240,
+          458
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchlight-2.png",
+        "anchor": [
+          48.0,
+          332.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/crouchlight.png",
+        "roi": [
+          19,
+          490,
+          650,
+          824
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchlight-3.png",
+        "anchor": [
+          116.5,
+          277.0
+        ],
+        "scale": 0.6595371669004207,
+        "source": "sources/crouchlight.png",
+        "roi": [
+          649,
+          546,
+          1252,
+          824
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchlight-4.png",
+        "anchor": [
+          50.5,
+          332.0
+        ],
+        "scale": 0.6490683229813664,
+        "source": "sources/crouchlight.png",
+        "roi": [
+          29,
+          875,
+          634,
+          1208
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchlight-5.png",
+        "anchor": [
+          131.5,
+          383.0
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/crouchlight.png",
+        "roi": [
+          667,
+          853,
+          1238,
+          1237
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      2,
+      2,
+      5,
+      6
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "zhongli_crouchlight_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 6,
+      "active": 4,
+      "recovery": 11,
+      "box": [
+        30,
+        30,
+        200,
+        60
+      ],
+      "lunge": 0,
+      "level": "low",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "蹲重": {
+    "actionId": "zhongli_crouchheavy",
+    "frames": [
+      {
+        "file": "fitted/crouchheavy-0-optimized.png",
+        "anchor": [
+          31.051834239130436,
+          42.80808423913044
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-0.png"
+      },
+      {
+        "file": "fitted/crouchheavy-1-optimized.png",
+        "anchor": [
+          25.216304347826085,
+          46.88869565217391
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-1.png"
+      },
+      {
+        "file": "fitted/crouchheavy-2-optimized.png",
+        "anchor": [
+          18.401086956521738,
+          48.777484472049686
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-2.png"
+      },
+      {
+        "file": "fitted/crouchheavy-3-optimized.png",
+        "anchor": [
+          16.07539402173913,
+          40.99353260869565
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy-3-single-repair.png",
+        "sourceFrame": "frames/crouchheavy-3.png"
+      },
+      {
+        "file": "fitted/crouchheavy-4-optimized.png",
+        "anchor": [
+          103.32356366459626,
+          45.85667701863353
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-4.png"
+      },
+      {
+        "file": "fitted/crouchheavy-5-optimized.png",
+        "anchor": [
+          36.218012422360246,
+          47.60916149068323
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/crouchheavy-0-initial.png",
+        "anchor": [
+          31.051834239130436,
+          42.80808423913044
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-0.png"
+      },
+      {
+        "file": "fitted/crouchheavy-1-initial.png",
+        "anchor": [
+          25.216304347826085,
+          46.88869565217391
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-1.png"
+      },
+      {
+        "file": "fitted/crouchheavy-2-initial.png",
+        "anchor": [
+          18.401086956521738,
+          48.777484472049686
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-2.png"
+      },
+      {
+        "file": "fitted/crouchheavy-3-initial.png",
+        "anchor": [
+          16.07539402173913,
+          40.99353260869565
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy-3-single-repair.png",
+        "sourceFrame": "frames/crouchheavy-3.png"
+      },
+      {
+        "file": "fitted/crouchheavy-4-initial.png",
+        "anchor": [
+          103.32356366459626,
+          45.85667701863353
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-4.png"
+      },
+      {
+        "file": "fitted/crouchheavy-5-initial.png",
+        "anchor": [
+          36.218012422360246,
+          47.60916149068323
+        ],
+        "scale": 4,
+        "source": "sources/crouchheavy.png",
+        "sourceFrame": "frames/crouchheavy-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/crouchheavy-0.png",
+        "anchor": [
+          243.0,
+          335.0
+        ],
+        "scale": 0.5111413043478261,
+        "source": "sources/crouchheavy.png",
+        "roi": [
+          87,
+          13,
+          677,
+          349
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchheavy-1.png",
+        "anchor": [
+          185.0,
+          344.0
+        ],
+        "scale": 0.5452173913043478,
+        "source": "sources/crouchheavy.png",
+        "roi": [
+          844,
+          5,
+          1523,
+          350
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchheavy-2.png",
+        "anchor": [
+          126.0,
+          334.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/crouchheavy.png",
+        "roi": [
+          55,
+          350,
+          794,
+          686
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchheavy-3.png",
+        "anchor": [
+          314.5,
+          802.0
+        ],
+        "scale": 0.20445652173913043,
+        "source": "sources/crouchheavy-3-single-repair.png",
+        "roi": [
+          14,
+          48,
+          1805,
+          852
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchheavy-4.png",
+        "anchor": [
+          707.5,
+          314.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/crouchheavy.png",
+        "roi": [
+          48,
+          692,
+          881,
+          1007
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/crouchheavy-5.png",
+        "anchor": [
+          248.0,
+          326.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/crouchheavy.png",
+        "roi": [
+          836,
+          685,
+          1529,
+          1012
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      3,
+      3,
+      10,
+      12
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 12,
+        "kind": "hit",
+        "hitId": "zhongli_crouchheavy_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 12,
+      "active": 6,
+      "recovery": 22,
+      "box": [
+        20,
+        0,
+        270,
+        65
+      ],
+      "lunge": 0,
+      "level": "low",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "空轻": {
+    "actionId": "zhongli_airlight",
+    "frames": [
+      {
+        "file": "fitted/airlight-0-optimized.png",
+        "anchor": [
+          48.81559188179348,
+          40.060699728260865
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-0.png"
+      },
+      {
+        "file": "fitted/airlight-1-optimized.png",
+        "anchor": [
+          56.2207515285326,
+          39.58150475543478
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-1.png"
+      },
+      {
+        "file": "fitted/airlight-2-optimized.png",
+        "anchor": [
+          63.81428804347826,
+          37.82445652173913
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-2.png"
+      },
+      {
+        "file": "fitted/airlight-3-optimized.png",
+        "anchor": [
+          60.48846195652174,
+          36.29103260869565
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-3.png"
+      },
+      {
+        "file": "fitted/airlight-4-optimized.png",
+        "anchor": [
+          54.36946161684782,
+          38.81479279891304
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-4.png"
+      },
+      {
+        "file": "fitted/airlight-5-optimized.png",
+        "anchor": [
+          53.97971637228261,
+          38.62311480978261
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/airlight-0-initial.png",
+        "anchor": [
+          48.81559188179348,
+          40.060699728260865
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-0.png"
+      },
+      {
+        "file": "fitted/airlight-1-initial.png",
+        "anchor": [
+          56.2207515285326,
+          39.58150475543478
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-1.png"
+      },
+      {
+        "file": "fitted/airlight-2-initial.png",
+        "anchor": [
+          63.81428804347826,
+          37.82445652173913
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-2.png"
+      },
+      {
+        "file": "fitted/airlight-3-initial.png",
+        "anchor": [
+          60.48846195652174,
+          36.29103260869565
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-3.png"
+      },
+      {
+        "file": "fitted/airlight-4-initial.png",
+        "anchor": [
+          54.36946161684782,
+          38.81479279891304
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-4.png"
+      },
+      {
+        "file": "fitted/airlight-5-initial.png",
+        "anchor": [
+          53.97971637228261,
+          38.62311480978261
+        ],
+        "scale": 4,
+        "source": "sources/airlight.png",
+        "sourceFrame": "frames/airlight-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/airlight-0.png",
+        "anchor": [
+          305.61,
+          250.79999999999998
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/airlight.png",
+        "roi": [
+          69,
+          25,
+          570,
+          443
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airlight-1.png",
+        "anchor": [
+          351.96999999999997,
+          247.79999999999998
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/airlight.png",
+        "roi": [
+          656,
+          37,
+          1233,
+          450
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airlight-2.png",
+        "anchor": [
+          374.53999999999996,
+          222.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/airlight.png",
+        "roi": [
+          32,
+          465,
+          646,
+          835
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airlight-3.png",
+        "anchor": [
+          355.02,
+          213.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/airlight.png",
+        "roi": [
+          662,
+          463,
+          1244,
+          818
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airlight-4.png",
+        "anchor": [
+          340.38,
+          243.0
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/airlight.png",
+        "roi": [
+          48,
+          827,
+          606,
+          1232
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airlight-5.png",
+        "anchor": [
+          337.94,
+          241.79999999999998
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/airlight.png",
+        "roi": [
+          679,
+          829,
+          1233,
+          1232
+        ],
+        "rootKind": "pelvis guide"
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      3,
+      3,
+      5,
+      5
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "hit",
+        "hitId": "zhongli_airlight_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 6,
+      "active": 6,
+      "recovery": 10,
+      "box": [
+        25,
+        -15,
+        240,
+        70
+      ],
+      "lunge": 0,
+      "level": "high",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "空重": {
+    "actionId": "zhongli_airheavy",
+    "frames": [
+      {
+        "file": "fitted/airheavy-0-optimized.png",
+        "anchor": [
+          46.013559782608695,
+          39.25874999999999
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-0.png"
+      },
+      {
+        "file": "fitted/airheavy-1-optimized.png",
+        "anchor": [
+          45.41986372485399,
+          38.93828682673588
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-1.png"
+      },
+      {
+        "file": "fitted/airheavy-2-optimized.png",
+        "anchor": [
+          63.13872961956521,
+          38.262121263586955
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-2.png"
+      },
+      {
+        "file": "fitted/airheavy-3-optimized.png",
+        "anchor": [
+          49.21583026755853,
+          41.86955016722408
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-3.png"
+      },
+      {
+        "file": "fitted/airheavy-4-optimized.png",
+        "anchor": [
+          45.762087792642134,
+          45.24465551839465
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-4.png"
+      },
+      {
+        "file": "fitted/airheavy-5-optimized.png",
+        "anchor": [
+          47.29708444816054,
+          48.25488461538461
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/airheavy-0-initial.png",
+        "anchor": [
+          46.013559782608695,
+          39.25874999999999
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-0.png"
+      },
+      {
+        "file": "fitted/airheavy-1-initial.png",
+        "anchor": [
+          45.41986372485399,
+          38.93828682673588
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-1.png"
+      },
+      {
+        "file": "fitted/airheavy-2-initial.png",
+        "anchor": [
+          63.13872961956521,
+          38.262121263586955
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-2.png"
+      },
+      {
+        "file": "fitted/airheavy-3-initial.png",
+        "anchor": [
+          49.21583026755853,
+          41.86955016722408
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-3.png"
+      },
+      {
+        "file": "fitted/airheavy-4-initial.png",
+        "anchor": [
+          45.762087792642134,
+          45.24465551839465
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-4.png"
+      },
+      {
+        "file": "fitted/airheavy-5-initial.png",
+        "anchor": [
+          47.29708444816054,
+          48.25488461538461
+        ],
+        "scale": 4,
+        "source": "sources/airheavy.png",
+        "sourceFrame": "frames/airheavy-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/airheavy-0.png",
+        "anchor": [
+          297.07,
+          253.45999999999998
+        ],
+        "scale": 0.6195652173913043,
+        "source": "sources/airheavy.png",
+        "roi": [
+          19,
+          34,
+          506,
+          471
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airheavy-1.png",
+        "anchor": [
+          297.68,
+          255.2
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/airheavy.png",
+        "roi": [
+          523,
+          60,
+          1011,
+          500
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airheavy-2.png",
+        "anchor": [
+          395.28,
+          239.54
+        ],
+        "scale": 0.6389266304347826,
+        "source": "sources/airheavy.png",
+        "roi": [
+          14,
+          551,
+          662,
+          964
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airheavy-3.png",
+        "anchor": [
+          312.93,
+          266.21999999999997
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/airheavy.png",
+        "roi": [
+          510,
+          540,
+          1023,
+          999
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airheavy-4.png",
+        "anchor": [
+          290.96999999999997,
+          287.68
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/airheavy.png",
+        "roi": [
+          33,
+          997,
+          510,
+          1493
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/airheavy-5.png",
+        "anchor": [
+          300.73,
+          306.82
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/airheavy.png",
+        "roi": [
+          526,
+          1000,
+          1019,
+          1529
+        ],
+        "rootKind": "pelvis guide"
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      3,
+      3,
+      7,
+      8
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 10,
+        "kind": "hit",
+        "hitId": "zhongli_airheavy_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 10,
+      "active": 6,
+      "recovery": 15,
+      "box": [
+        15,
+        -170,
+        200,
+        185
+      ],
+      "lunge": 0,
+      "level": "high",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    }
+  },
+  "E · 地心": {
+    "actionId": "zhongli_skillE",
+    "frames": [
+      {
+        "file": "fitted/skillE-0-optimized.png",
+        "anchor": [
+          31.074145962732917,
+          78.53726708074534
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-0.png"
+      },
+      {
+        "file": "fitted/skillE-1-optimized.png",
+        "anchor": [
+          75.49163879598662,
+          68.72884615384615
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-1.png"
+      },
+      {
+        "file": "fitted/skillE-2-optimized.png",
+        "anchor": [
+          26.408967391304348,
+          85.01983695652174
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-2.png"
+      },
+      {
+        "file": "fitted/skillE-3-optimized.png",
+        "anchor": [
+          24.619972826086958,
+          85.19021739130434
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-3.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/skillE-0-initial.png",
+        "anchor": [
+          31.074145962732917,
+          78.53726708074534
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-0.png"
+      },
+      {
+        "file": "fitted/skillE-1-initial.png",
+        "anchor": [
+          75.49163879598662,
+          68.72884615384615
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-1.png"
+      },
+      {
+        "file": "fitted/skillE-2-initial.png",
+        "anchor": [
+          26.408967391304348,
+          85.01983695652174
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-2.png"
+      },
+      {
+        "file": "fitted/skillE-3-initial.png",
+        "anchor": [
+          24.619972826086958,
+          85.19021739130434
+        ],
+        "scale": 4,
+        "source": "sources/skillE.png",
+        "sourceFrame": "frames/skillE-3.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/skillE-0.png",
+        "anchor": [
+          191.5,
+          484.0
+        ],
+        "scale": 0.6490683229813664,
+        "source": "sources/skillE.png",
+        "roi": [
+          201,
+          16,
+          689,
+          501
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillE-1.png",
+        "anchor": [
+          480.0,
+          437.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/skillE.png",
+        "roi": [
+          831,
+          63,
+          1345,
+          501
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillE-2.png",
+        "anchor": [
+          155.0,
+          499.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillE.png",
+        "roi": [
+          201,
+          502,
+          694,
+          1002
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillE-3.png",
+        "anchor": [
+          144.5,
+          500.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillE.png",
+        "roi": [
+          941,
+          501,
+          1283,
+          1002
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      7,
+      7,
+      12,
+      68
+    ],
+    "phases": [
+      "合掌蓄势",
+      "下压生成",
+      "保持",
+      "恢复／岩脊存续与消散"
+    ],
+    "events": [
+      {
+        "tick": 14,
+        "kind": "pillar-create",
+        "damageSegments": 0
+      },
+      {
+        "tick": 19,
+        "kind": "pillar-create-hit",
+        "hitId": "zhongli_skillE_1",
+        "damageSegments": 1
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 19,
+      "active": 7,
+      "recovery": 10,
+      "box": [
+        165,
+        0,
+        95,
+        290
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only",
+      "pillarLimit": 1,
+      "passiveDamage": false,
+      "casterHitBeforeRelease": "cancel",
+      "casterHitAfterRelease": "pillar persists"
+    },
+    "bodyActionDurations": [
+      7,
+      7,
+      12,
+      10
+    ],
+    "bodyActionTicks": 36,
+    "neutralDisplayTailTicks": 58,
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "frames/pillarFx-0.png",
+          "anchor": [
+            384.0,
+            511
+          ],
+          "scale": 0.64,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "frames/pillarFx-1.png",
+          "anchor": [
+            384.0,
+            511
+          ],
+          "scale": 0.64,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "frames/pillarFx-2.png",
+          "anchor": [
+            384.0,
+            511
+          ],
+          "scale": 0.64,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "frames/pillarFx-3.png",
+          "anchor": [
+            384.0,
+            511
+          ],
+          "scale": 0.64,
+          "source": "sources/pillarFx.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "fitted/pillarFx-0.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "fitted/pillarFx-1.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "fitted/pillarFx-2.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "fitted/pillarFx-3.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "fitted/pillarFx-0.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "fitted/pillarFx-1.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "fitted/pillarFx-2.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        },
+        {
+          "file": "fitted/pillarFx-3.png",
+          "anchor": [
+            61.44,
+            81.76
+          ],
+          "scale": 4,
+          "source": "sources/pillarFx.png"
+        }
+      ],
+      "startTick": 14,
+      "duration": 80,
+      "worldOffset": [
+        205,
+        0
+      ],
+      "followActor": false,
+      "independent": true
+    }
+  },
+  "Q · 天星": {
+    "actionId": "zhongli_skillQ",
+    "frames": [
+      {
+        "file": "fitted/skillQ-0-optimized.png",
+        "anchor": [
+          24.70516304347826,
+          84.1679347826087
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-0.png"
+      },
+      {
+        "file": "fitted/skillQ-1-optimized.png",
+        "anchor": [
+          24.790353260869566,
+          83.65679347826087
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-1.png"
+      },
+      {
+        "file": "fitted/skillQ-2-optimized.png",
+        "anchor": [
+          24.364402173913042,
+          83.82717391304348
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-2.png"
+      },
+      {
+        "file": "fitted/skillQ-3-optimized.png",
+        "anchor": [
+          23.256929347826087,
+          81.78260869565217
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-3.png"
+      },
+      {
+        "file": "fitted/skillQ-4-optimized.png",
+        "anchor": [
+          22.31983695652174,
+          81.61222826086957
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-4.png"
+      },
+      {
+        "file": "fitted/skillQ-5-optimized.png",
+        "anchor": [
+          24.44959239130435,
+          81.61222826086957
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/skillQ-0-initial.png",
+        "anchor": [
+          24.70516304347826,
+          84.1679347826087
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-0.png"
+      },
+      {
+        "file": "fitted/skillQ-1-initial.png",
+        "anchor": [
+          24.790353260869566,
+          83.65679347826087
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-1.png"
+      },
+      {
+        "file": "fitted/skillQ-2-initial.png",
+        "anchor": [
+          24.364402173913042,
+          83.82717391304348
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-2.png"
+      },
+      {
+        "file": "fitted/skillQ-3-initial.png",
+        "anchor": [
+          23.256929347826087,
+          81.78260869565217
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-3.png"
+      },
+      {
+        "file": "fitted/skillQ-4-initial.png",
+        "anchor": [
+          22.31983695652174,
+          81.61222826086957
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-4.png"
+      },
+      {
+        "file": "fitted/skillQ-5-initial.png",
+        "anchor": [
+          24.44959239130435,
+          81.61222826086957
+        ],
+        "scale": 4,
+        "source": "sources/skillQ.png",
+        "sourceFrame": "frames/skillQ-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/skillQ-0.png",
+        "anchor": [
+          145.0,
+          494.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillQ.png",
+        "roi": [
+          49,
+          15,
+          369,
+          511
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillQ-1.png",
+        "anchor": [
+          145.5,
+          491.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillQ.png",
+        "roi": [
+          493,
+          18,
+          881,
+          510
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillQ-2.png",
+        "anchor": [
+          143.0,
+          492.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillQ.png",
+        "roi": [
+          1001,
+          17,
+          1431,
+          510
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillQ-3.png",
+        "anchor": [
+          136.5,
+          480.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillQ.png",
+        "roi": [
+          15,
+          520,
+          478,
+          1001
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillQ-4.png",
+        "anchor": [
+          131.0,
+          479.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillQ.png",
+        "roi": [
+          532,
+          521,
+          871,
+          1001
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/skillQ-5.png",
+        "anchor": [
+          143.5,
+          479.0
+        ],
+        "scale": 0.6815217391304348,
+        "source": "sources/skillQ.png",
+        "roi": [
+          1019,
+          521,
+          1359,
+          1002
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      3,
+      4,
+      12,
+      12
+    ],
+    "phases": [
+      "准备",
+      "出手",
+      "有效",
+      "随挥",
+      "回收",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 16,
+        "kind": "q-confirm",
+        "hitId": "zhongli_skillQ_1",
+        "damageSegments": 0
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 16,
+      "active": 7,
+      "recovery": 24,
+      "box": [
+        50,
+        20,
+        220,
+        180
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    },
+    "branches": {
+      "hit": {
+        "durations": [
+          8,
+          8,
+          10,
+          44,
+          12,
+          12
+        ],
+        "damageSegments": 1,
+        "petrifyTicks": 30,
+        "cutin": [
+          19,
+          38
+        ],
+        "meteorTick": 44,
+        "damageTick": 52
+      },
+      "whiff": {
+        "durations": [
+          8,
+          8,
+          3,
+          4,
+          12,
+          12
+        ],
+        "damageSegments": 0,
+        "cinematic": false
+      },
+      "block": {
+        "durations": [
+          8,
+          8,
+          3,
+          4,
+          12,
+          12
+        ],
+        "damageSegments": 0,
+        "cinematic": false
+      }
+    },
+    "cinematic": {
+      "hitTicks": [
+        52
+      ],
+      "portrait": "ultimate-portrait.png",
+      "portraitFit": "ultimate-portrait-fit.png"
+    },
+    "effects": {
+      "sourceFrames": [
+        {
+          "file": "frames/meteorFx-0.png",
+          "anchor": [
+            362.0,
+            470.6
+          ],
+          "scale": 0.7,
+          "source": "sources/meteorFx.png"
+        },
+        {
+          "file": "frames/meteorFx-1.png",
+          "anchor": [
+            362.0,
+            470.6
+          ],
+          "scale": 0.7,
+          "source": "sources/meteorFx.png"
+        },
+        {
+          "file": "frames/meteorFx-2.png",
+          "anchor": [
+            362.0,
+            470.6
+          ],
+          "scale": 0.7,
+          "source": "sources/meteorFx.png"
+        }
+      ],
+      "frames": [
+        {
+          "file": "fitted/meteorFx-0.png",
+          "anchor": [
+            63.349999999999994,
+            82.355
+          ],
+          "scale": 4,
+          "source": "sources/meteorFx.png"
+        },
+        {
+          "file": "fitted/meteorFx-1.png",
+          "anchor": [
+            63.349999999999994,
+            82.355
+          ],
+          "scale": 4,
+          "source": "sources/meteorFx.png"
+        },
+        {
+          "file": "fitted/meteorFx-2.png",
+          "anchor": [
+            63.349999999999994,
+            82.355
+          ],
+          "scale": 4,
+          "source": "sources/meteorFx.png"
+        }
+      ],
+      "fitFrames": [
+        {
+          "file": "fitted/meteorFx-0.png",
+          "anchor": [
+            63.349999999999994,
+            82.355
+          ],
+          "scale": 4,
+          "source": "sources/meteorFx.png"
+        },
+        {
+          "file": "fitted/meteorFx-1.png",
+          "anchor": [
+            63.349999999999994,
+            82.355
+          ],
+          "scale": 4,
+          "source": "sources/meteorFx.png"
+        },
+        {
+          "file": "fitted/meteorFx-2.png",
+          "anchor": [
+            63.349999999999994,
+            82.355
+          ],
+          "scale": 4,
+          "source": "sources/meteorFx.png"
+        }
+      ],
+      "startTick": 44,
+      "duration": 35,
+      "worldOffset": [
+        205,
+        0
+      ],
+      "followActor": false,
+      "independent": true
+    }
+  },
+  "投技": {
+    "actionId": "zhongli_throw",
+    "frames": [
+      {
+        "file": "fitted/throw-0-optimized.png",
+        "anchor": [
+          9.803857804704204,
+          69.21356022808267
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-0.png"
+      },
+      {
+        "file": "fitted/throw-1-optimized.png",
+        "anchor": [
+          7.038667141838916,
+          69.3811475409836
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-1.png"
+      },
+      {
+        "file": "fitted/throw-2-optimized.png",
+        "anchor": [
+          54.71725766215253,
+          69.88390947968638
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-2.png"
+      },
+      {
+        "file": "fitted/throw-3-optimized.png",
+        "anchor": [
+          54.5496703492516,
+          70.38667141838916
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-3.png"
+      },
+      {
+        "file": "fitted/throw-4-optimized.png",
+        "anchor": [
+          9.049714896650034,
+          67.70527441197433
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-4.png"
+      },
+      {
+        "file": "fitted/throw-5-optimized.png",
+        "anchor": [
+          7.709016393442623,
+          67.87286172487526
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/throw-0-initial.png",
+        "anchor": [
+          9.803857804704204,
+          69.21356022808267
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-0.png"
+      },
+      {
+        "file": "fitted/throw-1-initial.png",
+        "anchor": [
+          7.038667141838916,
+          69.3811475409836
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-1.png"
+      },
+      {
+        "file": "fitted/throw-2-initial.png",
+        "anchor": [
+          54.71725766215253,
+          69.88390947968638
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-2.png"
+      },
+      {
+        "file": "fitted/throw-3-initial.png",
+        "anchor": [
+          54.5496703492516,
+          70.38667141838916
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-3.png"
+      },
+      {
+        "file": "fitted/throw-4-initial.png",
+        "anchor": [
+          9.049714896650034,
+          67.70527441197433
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-4.png"
+      },
+      {
+        "file": "fitted/throw-5-initial.png",
+        "anchor": [
+          7.709016393442623,
+          67.87286172487526
+        ],
+        "scale": 4,
+        "source": "sources/throw.png",
+        "sourceFrame": "frames/throw-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/throw-0.png",
+        "anchor": [
+          58.5,
+          413.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/throw.png",
+        "roi": [
+          198,
+          8,
+          535,
+          423
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/throw-1.png",
+        "anchor": [
+          42.0,
+          414.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/throw.png",
+        "roi": [
+          686,
+          8,
+          1015,
+          423
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/throw-2.png",
+        "anchor": [
+          326.5,
+          417.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/throw.png",
+        "roi": [
+          203,
+          420,
+          561,
+          839
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/throw-3.png",
+        "anchor": [
+          325.5,
+          420.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/throw.png",
+        "roi": [
+          679,
+          417,
+          1045,
+          838
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/throw-4.png",
+        "anchor": [
+          54.0,
+          404.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/throw.png",
+        "roi": [
+          217,
+          837,
+          585,
+          1243
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/throw-5.png",
+        "anchor": [
+          46.0,
+          405.0
+        ],
+        "scale": 0.6703492516037063,
+        "source": "sources/throw.png",
+        "roi": [
+          712,
+          836,
+          1048,
+          1243
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      5,
+      7,
+      6,
+      5,
+      8,
+      8
+    ],
+    "phases": [
+      "抓取",
+      "锁腕",
+      "牵引",
+      "掌推释放",
+      "随挥",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 5,
+        "kind": "grab"
+      },
+      {
+        "tick": 5,
+        "kind": "pair-lock"
+      },
+      {
+        "tick": 18,
+        "kind": "release",
+        "hitId": "zhongli_throw_release",
+        "damageSegments": 1
+      },
+      {
+        "tick": 31,
+        "kind": "victim-land"
+      },
+      {
+        "tick": 38,
+        "kind": "victim-down"
+      }
+    ],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true,
+    "combatDesign": {
+      "startup": 12,
+      "active": 11,
+      "recovery": 16,
+      "box": [
+        25,
+        80,
+        100,
+        180
+      ],
+      "lunge": 0,
+      "level": "mid",
+      "damage": null,
+      "hitstun": null,
+      "pushback": null,
+      "cancel": "命中/防御确认后候选取消，数值待正式战斗调参",
+      "invulnerability": 0,
+      "hurtbox": [
+        -42,
+        0,
+        84,
+        280
+      ],
+      "movement": "地面支撑或浮空承接；展示位移独立",
+      "status": "design-only"
+    },
+    "pairing": {
+      "victim": "被投",
+      "lockTicks": [
+        5,
+        18
+      ],
+      "releaseTick": 18,
+      "landingTick": 31,
+      "wakeup": "起身",
+      "noFX": true,
+      "escape": "起手可逃脱；倒地/空中/无敌不可再抓",
+      "status": "paired presentation, not combat simulation"
+    }
+  },
+  "被投": {
+    "actionId": "zhongli_victim",
+    "frames": [
+      {
+        "file": "fitted/victim-0-optimized.png",
+        "anchor": [
+          14.95839993606138,
+          65.69669117647058
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-0.png"
+      },
+      {
+        "file": "fitted/victim-1-optimized.png",
+        "anchor": [
+          39.36550940947437,
+          33.4515282284231
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-1.png"
+      },
+      {
+        "file": "fitted/victim-2-optimized.png",
+        "anchor": [
+          32.128881987577635,
+          31.308135093167703
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-2.png"
+      },
+      {
+        "file": "fitted/victim-3-optimized.png",
+        "anchor": [
+          35.63385093167702,
+          27.75935403726708
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-3.png"
+      },
+      {
+        "file": "fitted/victim-4-optimized.png",
+        "anchor": [
+          41.03734472049689,
+          49.50768633540372
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-4.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-5-optimized.png",
+        "anchor": [
+          58.63520962732919,
+          24.242701863354036
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/victim-0-initial.png",
+        "anchor": [
+          14.95839993606138,
+          65.69669117647058
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-0.png"
+      },
+      {
+        "file": "fitted/victim-1-initial.png",
+        "anchor": [
+          39.36550940947437,
+          33.4515282284231
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-1.png"
+      },
+      {
+        "file": "fitted/victim-2-initial.png",
+        "anchor": [
+          32.128881987577635,
+          31.308135093167703
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-2.png"
+      },
+      {
+        "file": "fitted/victim-3-initial.png",
+        "anchor": [
+          35.63385093167702,
+          27.75935403726708
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-3.png"
+      },
+      {
+        "file": "fitted/victim-4-initial.png",
+        "anchor": [
+          41.03734472049689,
+          49.50768633540372
+        ],
+        "scale": 4,
+        "source": "sources/victim.png",
+        "sourceFrame": "frames/victim-4.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-5-initial.png",
+        "anchor": [
+          58.63520962732919,
+          24.242701863354036
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/victim-0.png",
+        "anchor": [
+          99.5,
+          437.0
+        ],
+        "scale": 0.6013427109974424,
+        "source": "sources/victim.png",
+        "roi": [
+          124,
+          10,
+          544,
+          448
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/victim-1.png",
+        "anchor": [
+          258.0,
+          219.24
+        ],
+        "scale": 0.6103179753406879,
+        "source": "sources/victim.png",
+        "roi": [
+          668,
+          41,
+          1184,
+          447
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/victim-2.png",
+        "anchor": [
+          220.0,
+          214.38000000000002
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/victim.png",
+        "roi": [
+          141,
+          486,
+          581,
+          883
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/victim-3.png",
+        "anchor": [
+          244.0,
+          190.08
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/victim.png",
+        "roi": [
+          690,
+          490,
+          1178,
+          842
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/victim-4.png",
+        "anchor": [
+          281.0,
+          339.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/victim.png",
+        "roi": [
+          85,
+          897,
+          606,
+          1238
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/hit_knockdown-5.png",
+        "anchor": [
+          401.5,
+          166.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          632,
+          1054,
+          1235,
+          1221
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      5,
+      7,
+      6,
+      5,
+      8,
+      8
+    ],
+    "phases": [
+      "抓取",
+      "锁腕",
+      "牵引",
+      "释放",
+      "落地",
+      "倒地"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "受击与倒地": {
+    "actionId": "zhongli_hit_knockdown",
+    "frames": [
+      {
+        "file": "fitted/hit_knockdown-0-optimized.png",
+        "anchor": [
+          13.840133779264214,
+          79.42349498327759
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-0.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-1-optimized.png",
+        "anchor": [
+          16.83759590792839,
+          60.73561381074168
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-1.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-2-optimized.png",
+        "anchor": [
+          32.833312020460355,
+          34.051031010230176
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-2.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-3-optimized.png",
+        "anchor": [
+          38.88178881987577,
+          23.366459627329192
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-3.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-4-optimized.png",
+        "anchor": [
+          57.247826086956515,
+          23.074378881987574
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-4.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-5-optimized.png",
+        "anchor": [
+          58.63520962732919,
+          24.242701863354036
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/hit_knockdown-0-initial.png",
+        "anchor": [
+          13.840133779264214,
+          79.42349498327759
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-0.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-1-initial.png",
+        "anchor": [
+          16.83759590792839,
+          60.73561381074168
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-1.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-2-initial.png",
+        "anchor": [
+          32.833312020460355,
+          34.051031010230176
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-2.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-3-initial.png",
+        "anchor": [
+          38.88178881987577,
+          23.366459627329192
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-3.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-4-initial.png",
+        "anchor": [
+          57.247826086956515,
+          23.074378881987574
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-4.png"
+      },
+      {
+        "file": "fitted/hit_knockdown-5-initial.png",
+        "anchor": [
+          58.63520962732919,
+          24.242701863354036
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/hit_knockdown-0.png",
+        "anchor": [
+          88.0,
+          505.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          159,
+          20,
+          453,
+          527
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/hit_knockdown-1.png",
+        "anchor": [
+          112.0,
+          404.0
+        ],
+        "scale": 0.6013427109974424,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          693,
+          102,
+          1029,
+          507
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/hit_knockdown-2.png",
+        "anchor": [
+          218.4,
+          226.5
+        ],
+        "scale": 0.6013427109974424,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          115,
+          533,
+          535,
+          986
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/hit_knockdown-3.png",
+        "anchor": [
+          266.24,
+          160.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          682,
+          582,
+          1194,
+          902
+        ],
+        "rootKind": "pelvis guide"
+      },
+      {
+        "file": "frames/hit_knockdown-4.png",
+        "anchor": [
+          392.0,
+          158.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          18,
+          1054,
+          614,
+          1213
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/hit_knockdown-5.png",
+        "anchor": [
+          401.5,
+          166.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          632,
+          1054,
+          1235,
+          1221
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      7,
+      8,
+      9,
+      14
+    ],
+    "phases": [
+      "站受击",
+      "后仰",
+      "空受击",
+      "下落",
+      "落地",
+      "倒地"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "起身": {
+    "actionId": "zhongli_wakeup",
+    "frames": [
+      {
+        "file": "fitted/hit_knockdown-5-optimized.png",
+        "anchor": [
+          58.63520962732919,
+          24.242701863354036
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-5.png"
+      },
+      {
+        "file": "fitted/wakeup-1-optimized.png",
+        "anchor": [
+          32.78606366459627,
+          31.982841614906828
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-1.png"
+      },
+      {
+        "file": "fitted/wakeup-2-optimized.png",
+        "anchor": [
+          22.647491638795987,
+          47.182274247491634
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-2.png"
+      },
+      {
+        "file": "fitted/wakeup-3-optimized.png",
+        "anchor": [
+          41.40244565217391,
+          41.1833850931677
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-3.png"
+      },
+      {
+        "file": "fitted/wakeup-4-optimized.png",
+        "anchor": [
+          52.01614450127877,
+          57.72890025575447
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-4.png"
+      },
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/hit_knockdown-5-initial.png",
+        "anchor": [
+          58.63520962732919,
+          24.242701863354036
+        ],
+        "scale": 4,
+        "source": "sources/hit_knockdown.png",
+        "sourceFrame": "frames/hit_knockdown-5.png"
+      },
+      {
+        "file": "fitted/wakeup-1-initial.png",
+        "anchor": [
+          32.78606366459627,
+          31.982841614906828
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-1.png"
+      },
+      {
+        "file": "fitted/wakeup-2-initial.png",
+        "anchor": [
+          22.647491638795987,
+          47.182274247491634
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-2.png"
+      },
+      {
+        "file": "fitted/wakeup-3-initial.png",
+        "anchor": [
+          41.40244565217391,
+          41.1833850931677
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-3.png"
+      },
+      {
+        "file": "fitted/wakeup-4-initial.png",
+        "anchor": [
+          52.01614450127877,
+          57.72890025575447
+        ],
+        "scale": 4,
+        "source": "sources/wakeup.png",
+        "sourceFrame": "frames/wakeup-4.png"
+      },
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/hit_knockdown-5.png",
+        "anchor": [
+          401.5,
+          166.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/hit_knockdown.png",
+        "roi": [
+          632,
+          1054,
+          1235,
+          1221
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/wakeup-1.png",
+        "anchor": [
+          224.5,
+          219.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/wakeup.png",
+        "roi": [
+          847,
+          21,
+          1525,
+          241
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/wakeup-2.png",
+        "anchor": [
+          144.0,
+          300.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/wakeup.png",
+        "roi": [
+          15,
+          285,
+          745,
+          587
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/wakeup-3.png",
+        "anchor": [
+          283.5,
+          282.0
+        ],
+        "scale": 0.5841614906832298,
+        "source": "sources/wakeup.png",
+        "roi": [
+          885,
+          315,
+          1506,
+          598
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/wakeup-4.png",
+        "anchor": [
+          346.0,
+          384.0
+        ],
+        "scale": 0.6013427109974424,
+        "source": "sources/wakeup.png",
+        "roi": [
+          87,
+          607,
+          512,
+          992
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      10,
+      7,
+      7,
+      8,
+      8,
+      6
+    ],
+    "phases": [
+      "倒地",
+      "撑肘",
+      "坐起",
+      "跪撑",
+      "起身",
+      "待机"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "胜利": {
+    "actionId": "zhongli_victory",
+    "frames": [
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/victory-1-optimized.png",
+        "anchor": [
+          19.187458193979932,
+          82.88352842809364
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-1.png"
+      },
+      {
+        "file": "fitted/victory-2-optimized.png",
+        "anchor": [
+          19.187458193979932,
+          82.56897993311037
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-2.png"
+      },
+      {
+        "file": "fitted/victory-3-optimized.png",
+        "anchor": [
+          19.89519230769231,
+          82.726254180602
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-3.png"
+      },
+      {
+        "file": "fitted/victory-4-optimized.png",
+        "anchor": [
+          18.794272575250837,
+          73.28979933110368
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-4.png"
+      },
+      {
+        "file": "fitted/idle-0-optimized.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      },
+      {
+        "file": "fitted/victory-1-initial.png",
+        "anchor": [
+          19.187458193979932,
+          82.88352842809364
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-1.png"
+      },
+      {
+        "file": "fitted/victory-2-initial.png",
+        "anchor": [
+          19.187458193979932,
+          82.56897993311037
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-2.png"
+      },
+      {
+        "file": "fitted/victory-3-initial.png",
+        "anchor": [
+          19.89519230769231,
+          82.726254180602
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-3.png"
+      },
+      {
+        "file": "fitted/victory-4-initial.png",
+        "anchor": [
+          18.794272575250837,
+          73.28979933110368
+        ],
+        "scale": 4,
+        "source": "sources/victory.png",
+        "sourceFrame": "frames/victory-4.png"
+      },
+      {
+        "file": "fitted/idle-0-initial.png",
+        "anchor": [
+          23.12914402173913,
+          82.80489130434783
+        ],
+        "scale": 4,
+        "source": "sources/idle.png",
+        "sourceFrame": "frames/idle-0.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/victory-1.png",
+        "anchor": [
+          122.0,
+          527.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/victory.png",
+        "roi": [
+          603,
+          8,
+          915,
+          536
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/victory-2.png",
+        "anchor": [
+          122.0,
+          525.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/victory.png",
+        "roi": [
+          98,
+          542,
+          419,
+          1069
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/victory-3.png",
+        "anchor": [
+          126.5,
+          526.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/victory.png",
+        "roi": [
+          603,
+          541,
+          927,
+          1069
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/victory-4.png",
+        "anchor": [
+          119.5,
+          466.0
+        ],
+        "scale": 0.6290969899665552,
+        "source": "sources/victory.png",
+        "roi": [
+          107,
+          1066,
+          401,
+          1533
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/idle-0.png",
+        "anchor": [
+          271.5,
+          972.0
+        ],
+        "scale": 0.3407608695652174,
+        "source": "sources/idle.png",
+        "roi": [
+          101,
+          8,
+          686,
+          981
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      12,
+      10,
+      12,
+      14,
+      10,
+      12
+    ],
+    "phases": [
+      "待机",
+      "整衣",
+      "抬头",
+      "收手",
+      "归位",
+      "待机"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  },
+  "败北": {
+    "actionId": "zhongli_defeat",
+    "frames": [
+      {
+        "file": "fitted/defeat-0-optimized.png",
+        "anchor": [
+          13.491753033367038,
+          78.33537664307381
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-0.png"
+      },
+      {
+        "file": "fitted/defeat-1-optimized.png",
+        "anchor": [
+          14.739888776541962,
+          76.79006572295248
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-1.png"
+      },
+      {
+        "file": "fitted/defeat-2-optimized.png",
+        "anchor": [
+          28.56711956521739,
+          49.75108695652174
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-2.png"
+      },
+      {
+        "file": "fitted/defeat-3-optimized.png",
+        "anchor": [
+          23.441997751124436,
+          49.35157421289355
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-3.png"
+      },
+      {
+        "file": "fitted/defeat-4-optimized.png",
+        "anchor": [
+          27.815596562184023,
+          45.646107178968656
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-4.png"
+      },
+      {
+        "file": "fitted/defeat-5-optimized.png",
+        "anchor": [
+          21.914449025487254,
+          42.65386056971514
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-5.png"
+      }
+    ],
+    "initialFrames": [
+      {
+        "file": "fitted/defeat-0-initial.png",
+        "anchor": [
+          13.491753033367038,
+          78.33537664307381
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-0.png"
+      },
+      {
+        "file": "fitted/defeat-1-initial.png",
+        "anchor": [
+          14.739888776541962,
+          76.79006572295248
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-1.png"
+      },
+      {
+        "file": "fitted/defeat-2-initial.png",
+        "anchor": [
+          28.56711956521739,
+          49.75108695652174
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-2.png"
+      },
+      {
+        "file": "fitted/defeat-3-initial.png",
+        "anchor": [
+          23.441997751124436,
+          49.35157421289355
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-3.png"
+      },
+      {
+        "file": "fitted/defeat-4-initial.png",
+        "anchor": [
+          27.815596562184023,
+          45.646107178968656
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-4.png"
+      },
+      {
+        "file": "fitted/defeat-5-initial.png",
+        "anchor": [
+          21.914449025487254,
+          42.65386056971514
+        ],
+        "scale": 4,
+        "source": "sources/defeat.png",
+        "sourceFrame": "frames/defeat-5.png"
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/defeat-0.png",
+        "anchor": [
+          113.5,
+          659.0
+        ],
+        "scale": 0.47548028311425683,
+        "source": "sources/defeat.png",
+        "roi": [
+          74,
+          14,
+          428,
+          674
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/defeat-1.png",
+        "anchor": [
+          124.0,
+          646.0
+        ],
+        "scale": 0.47548028311425683,
+        "source": "sources/defeat.png",
+        "roi": [
+          546,
+          15,
+          848,
+          662
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/defeat-2.png",
+        "anchor": [
+          251.5,
+          438.0
+        ],
+        "scale": 0.4543478260869565,
+        "source": "sources/defeat.png",
+        "roi": [
+          48,
+          674,
+          482,
+          1113
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/defeat-3.png",
+        "anchor": [
+          199.5,
+          420.0
+        ],
+        "scale": 0.4700149925037481,
+        "source": "sources/defeat.png",
+        "roi": [
+          521,
+          678,
+          979,
+          1100
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/defeat-4.png",
+        "anchor": [
+          234.0,
+          384.0
+        ],
+        "scale": 0.47548028311425683,
+        "source": "sources/defeat.png",
+        "roi": [
+          36,
+          1119,
+          524,
+          1504
+        ],
+        "rootKind": "actual support pixels"
+      },
+      {
+        "file": "frames/defeat-5.png",
+        "anchor": [
+          186.5,
+          363.0
+        ],
+        "scale": 0.4700149925037481,
+        "source": "sources/defeat.png",
+        "roi": [
+          552,
+          1124,
+          980,
+          1488
+        ],
+        "rootKind": "actual support pixels"
+      }
+    ],
+    "durations": [
+      10,
+      10,
+      12,
+      12,
+      12,
+      24
+    ],
+    "phases": [
+      "低头",
+      "失衡",
+      "单膝",
+      "双膝",
+      "支撑",
+      "败北"
+    ],
+    "events": [],
+    "status": "全动作素材候选；正式战斗、模拟器、真机及用户验收未完成",
+    "previewOnly": true
+  }
+}

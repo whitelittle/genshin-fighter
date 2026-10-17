@@ -1,0 +1,105 @@
+{
+  "scope": "25 groups; no character completion claimed",
+  "groups": [
+    {
+      "id": "light1",
+      "status": "full current production pending"
+    },
+    {
+      "id": "light2",
+      "status": "full current production pending"
+    },
+    {
+      "id": "light3",
+      "status": "full current production pending"
+    },
+    {
+      "id": "heavy",
+      "status": "prior independent key-pose candidate; full action pending"
+    },
+    {
+      "id": "crouchlight",
+      "status": "full current production pending"
+    },
+    {
+      "id": "crouchheavy",
+      "status": "full current production pending"
+    },
+    {
+      "id": "airlight",
+      "status": "full current production pending"
+    },
+    {
+      "id": "airheavy",
+      "status": "full current production pending"
+    },
+    {
+      "id": "e",
+      "status": "full current production pending"
+    },
+    {
+      "id": "q",
+      "status": "prior independent key-pose candidate; full action pending"
+    },
+    {
+      "id": "throw",
+      "status": "full current production pending"
+    },
+    {
+      "id": "thrown",
+      "status": "full current production pending"
+    },
+    {
+      "id": "idle",
+      "status": "source + initial/optimized encoding candidates; gait/anchor acceptance pending"
+    },
+    {
+      "id": "walk",
+      "status": "source + initial/optimized encoding candidates; gait/anchor acceptance pending"
+    },
+    {
+      "id": "backwalk",
+      "status": "source + initial/optimized encoding candidates; gait/anchor acceptance pending"
+    },
+    {
+      "id": "jump",
+      "status": "full current production pending"
+    },
+    {
+      "id": "dash",
+      "status": "prior independent key-pose candidate; full action pending"
+    },
+    {
+      "id": "backdash",
+      "status": "full current production pending"
+    },
+    {
+      "id": "crouch",
+      "status": "full current production pending"
+    },
+    {
+      "id": "guard",
+      "status": "full current production pending"
+    },
+    {
+      "id": "crouchguard",
+      "status": "full current production pending"
+    },
+    {
+      "id": "hit-down",
+      "status": "full current production pending"
+    },
+    {
+      "id": "rise",
+      "status": "full current production pending"
+    },
+    {
+      "id": "win",
+      "status": "full current production pending"
+    },
+    {
+      "id": "lose",
+      "status": "full current production pending"
+    }
+  ]
+}

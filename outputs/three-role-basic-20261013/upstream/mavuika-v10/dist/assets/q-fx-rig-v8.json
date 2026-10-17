@@ -1,0 +1,1040 @@
+{
+  "source": "mavuika-q-fx-source-v8.png",
+  "sourceSHA256": "c126cce1e48f4755f90335bcb5a5a15753d42b37e99ce3a3c5562c712167bf3b",
+  "sourceAlphaZeroFraction": 0.5917523701985677,
+  "fit": "mavuika-q-fx-fit-v8.png",
+  "paletteRGBA": [
+    [
+      225,
+      29,
+      3,
+      236
+    ],
+    [
+      252,
+      11,
+      0,
+      23
+    ],
+    [
+      243,
+      97,
+      21,
+      236
+    ],
+    [
+      161,
+      18,
+      7,
+      241
+    ],
+    [
+      251,
+      150,
+      43,
+      238
+    ],
+    [
+      252,
+      32,
+      4,
+      95
+    ],
+    [
+      97,
+      25,
+      20,
+      245
+    ],
+    [
+      244,
+      29,
+      3,
+      158
+    ],
+    [
+      253,
+      93,
+      8,
+      38
+    ],
+    [
+      252,
+      246,
+      233,
+      249
+    ],
+    [
+      250,
+      171,
+      86,
+      237
+    ],
+    [
+      252,
+      218,
+      156,
+      243
+    ],
+    [
+      254,
+      94,
+      17,
+      94
+    ],
+    [
+      253,
+      97,
+      19,
+      159
+    ],
+    [
+      254,
+      153,
+      13,
+      34
+    ],
+    [
+      254,
+      153,
+      36,
+      94
+    ],
+    [
+      252,
+      232,
+      10,
+      25
+    ],
+    [
+      252,
+      202,
+      102,
+      246
+    ],
+    [
+      254,
+      148,
+      40,
+      159
+    ],
+    [
+      254,
+      166,
+      82,
+      163
+    ],
+    [
+      253,
+      161,
+      77,
+      93
+    ],
+    [
+      254,
+      234,
+      91,
+      35
+    ],
+    [
+      252,
+      158,
+      77,
+      40
+    ],
+    [
+      166,
+      19,
+      9,
+      167
+    ],
+    [
+      255,
+      223,
+      86,
+      92
+    ],
+    [
+      255,
+      210,
+      43,
+      86
+    ],
+    [
+      59,
+      29,
+      26,
+      250
+    ],
+    [
+      104,
+      43,
+      38,
+      168
+    ],
+    [
+      163,
+      10,
+      6,
+      27
+    ],
+    [
+      242,
+      97,
+      91,
+      32
+    ],
+    [
+      255,
+      206,
+      92,
+      155
+    ],
+    [
+      165,
+      38,
+      25,
+      102
+    ],
+    [
+      254,
+      216,
+      149,
+      167
+    ],
+    [
+      255,
+      151,
+      150,
+      24
+    ],
+    [
+      255,
+      244,
+      146,
+      33
+    ],
+    [
+      253,
+      243,
+      231,
+      26
+    ],
+    [
+      173,
+      73,
+      30,
+      247
+    ],
+    [
+      255,
+      251,
+      152,
+      93
+    ],
+    [
+      160,
+      160,
+      0,
+      19
+    ],
+    [
+      250,
+      185,
+      134,
+      228
+    ],
+    [
+      163,
+      95,
+      90,
+      99
+    ],
+    [
+      217,
+      105,
+      84,
+      87
+    ],
+    [
+      219,
+      117,
+      69,
+      247
+    ],
+    [
+      175,
+      87,
+      17,
+      32
+    ],
+    [
+      252,
+      196,
+      59,
+      249
+    ],
+    [
+      115,
+      73,
+      70,
+      152
+    ],
+    [
+      154,
+      69,
+      59,
+      95
+    ]
+  ],
+  "frames": [
+    {
+      "id": "sun-open",
+      "index": 0,
+      "sourceRect": [
+        55,
+        25,
+        310,
+        305
+      ],
+      "sourceAnchor": [
+        150,
+        165
+      ],
+      "sourceScale": 0.42,
+      "rect": [
+        0,
+        0,
+        65,
+        64
+      ],
+      "anchor": [
+        31.5,
+        34.65
+      ],
+      "scale": 2,
+      "rectangles": 1086,
+      "alphaLevels": [
+        0,
+        19,
+        23,
+        25,
+        27,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        155,
+        158,
+        159,
+        163,
+        167,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "sun-full",
+      "index": 1,
+      "sourceRect": [
+        403,
+        0,
+        365,
+        345
+      ],
+      "sourceAnchor": [
+        185,
+        180
+      ],
+      "sourceScale": 0.42,
+      "rect": [
+        192,
+        0,
+        77,
+        72
+      ],
+      "anchor": [
+        38.85,
+        37.8
+      ],
+      "scale": 2,
+      "rectangles": 1696,
+      "alphaLevels": [
+        0,
+        19,
+        23,
+        25,
+        27,
+        32,
+        34,
+        35,
+        38,
+        40,
+        86,
+        93,
+        94,
+        95,
+        102,
+        155,
+        158,
+        159,
+        163,
+        167,
+        168,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "sun-fade",
+      "index": 2,
+      "sourceRect": [
+        790,
+        15,
+        350,
+        325
+      ],
+      "sourceAnchor": [
+        175,
+        160
+      ],
+      "sourceScale": 0.42,
+      "rect": [
+        384,
+        0,
+        74,
+        68
+      ],
+      "anchor": [
+        36.75,
+        33.6
+      ],
+      "scale": 2,
+      "rectangles": 1045,
+      "alphaLevels": [
+        0,
+        23,
+        25,
+        26,
+        27,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        102,
+        155,
+        158,
+        159,
+        163,
+        167,
+        168,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "charge",
+      "index": 3,
+      "sourceRect": [
+        1230,
+        0,
+        300,
+        340
+      ],
+      "sourceAnchor": [
+        125,
+        183
+      ],
+      "sourceScale": 0.14,
+      "rect": [
+        576,
+        0,
+        21,
+        24
+      ],
+      "anchor": [
+        8.75,
+        12.81
+      ],
+      "scale": 2,
+      "rectangles": 112,
+      "alphaLevels": [
+        0,
+        23,
+        25,
+        26,
+        33,
+        34,
+        35,
+        38,
+        86,
+        93,
+        94,
+        95,
+        158,
+        159,
+        163,
+        167,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "wheel-trail",
+      "index": 4,
+      "sourceRect": [
+        0,
+        375,
+        449,
+        248
+      ],
+      "sourceAnchor": [
+        433,
+        180
+      ],
+      "sourceScale": 0.34,
+      "rect": [
+        0,
+        128,
+        76,
+        42
+      ],
+      "anchor": [
+        73.61,
+        30.6
+      ],
+      "scale": 2,
+      "rectangles": 907,
+      "alphaLevels": [
+        0,
+        23,
+        24,
+        25,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        102,
+        155,
+        158,
+        159,
+        163,
+        167,
+        168,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "blade-prepare",
+      "index": 5,
+      "sourceRect": [
+        459,
+        365,
+        340,
+        315
+      ],
+      "sourceAnchor": [
+        30,
+        20
+      ],
+      "sourceScale": 0.6,
+      "rect": [
+        192,
+        128,
+        102,
+        94
+      ],
+      "anchor": [
+        9.0,
+        6.0
+      ],
+      "scale": 2,
+      "rectangles": 1594,
+      "alphaLevels": [
+        0,
+        19,
+        23,
+        24,
+        25,
+        27,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        155,
+        158,
+        159,
+        163,
+        167,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "slash",
+      "index": 6,
+      "sourceRect": [
+        779,
+        345,
+        415,
+        346
+      ],
+      "sourceAnchor": [
+        10,
+        10
+      ],
+      "sourceScale": 0.7,
+      "rect": [
+        384,
+        128,
+        145,
+        121
+      ],
+      "anchor": [
+        3.5,
+        3.5
+      ],
+      "scale": 2,
+      "rectangles": 3016,
+      "alphaLevels": [
+        0,
+        19,
+        23,
+        24,
+        25,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        102,
+        155,
+        158,
+        159,
+        163,
+        167,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "slash-residue",
+      "index": 7,
+      "sourceRect": [
+        1189,
+        355,
+        347,
+        329
+      ],
+      "sourceAnchor": [
+        10,
+        10
+      ],
+      "sourceScale": 0.7,
+      "rect": [
+        576,
+        128,
+        121,
+        115
+      ],
+      "anchor": [
+        3.5,
+        3.5
+      ],
+      "scale": 2,
+      "rectangles": 911,
+      "alphaLevels": [
+        0,
+        19,
+        23,
+        24,
+        25,
+        27,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        155,
+        158,
+        159,
+        163,
+        167,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "brake-sparks",
+      "index": 8,
+      "sourceRect": [
+        0,
+        741,
+        449,
+        234
+      ],
+      "sourceAnchor": [
+        402,
+        183
+      ],
+      "sourceScale": 0.34,
+      "rect": [
+        0,
+        256,
+        76,
+        40
+      ],
+      "anchor": [
+        68.34,
+        31.110000000000003
+      ],
+      "scale": 2,
+      "rectangles": 707,
+      "alphaLevels": [
+        0,
+        23,
+        24,
+        25,
+        27,
+        32,
+        33,
+        34,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        102,
+        155,
+        158,
+        159,
+        163,
+        167,
+        168,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "skid-residue",
+      "index": 9,
+      "sourceRect": [
+        449,
+        768,
+        365,
+        210
+      ],
+      "sourceAnchor": [
+        335,
+        163
+      ],
+      "sourceScale": 0.34,
+      "rect": [
+        192,
+        256,
+        62,
+        36
+      ],
+      "anchor": [
+        56.95,
+        27.71
+      ],
+      "scale": 2,
+      "rectangles": 554,
+      "alphaLevels": [
+        0,
+        23,
+        24,
+        25,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        87,
+        94,
+        95,
+        99,
+        102,
+        152,
+        158,
+        159,
+        163,
+        167,
+        168,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "impact",
+      "index": 10,
+      "sourceRect": [
+        824,
+        701,
+        315,
+        300
+      ],
+      "sourceAnchor": [
+        175,
+        160
+      ],
+      "sourceScale": 0.38,
+      "rect": [
+        384,
+        256,
+        60,
+        57
+      ],
+      "anchor": [
+        33.25,
+        30.4
+      ],
+      "scale": 2,
+      "rectangles": 660,
+      "alphaLevels": [
+        0,
+        23,
+        24,
+        25,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        155,
+        158,
+        159,
+        163,
+        167,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "impact-fade",
+      "index": 11,
+      "sourceRect": [
+        1181,
+        695,
+        350,
+        312
+      ],
+      "sourceAnchor": [
+        175,
+        170
+      ],
+      "sourceScale": 0.38,
+      "rect": [
+        576,
+        256,
+        66,
+        59
+      ],
+      "anchor": [
+        33.25,
+        32.3
+      ],
+      "scale": 2,
+      "rectangles": 477,
+      "alphaLevels": [
+        0,
+        23,
+        25,
+        33,
+        34,
+        35,
+        38,
+        40,
+        86,
+        92,
+        93,
+        94,
+        95,
+        155,
+        158,
+        159,
+        163,
+        167,
+        168,
+        228,
+        236,
+        237,
+        238,
+        241,
+        243,
+        245,
+        246,
+        247,
+        249,
+        250
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    }
+  ],
+  "pipeline": "premultiplied BOX / independent 48-slot RGBA palette / OKLab+alpha nearest mapping / non-overlapping merged runs; body alpha128 threshold not used",
+  "rectanglesMax": 3016,
+  "status": "12 independent FX stages; model/visual/device validation separate"
+}

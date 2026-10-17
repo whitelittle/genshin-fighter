@@ -1,0 +1,10 @@
+{
+  "branches": 24,
+  "snapChecks": 900,
+  "fxVisibleEncodedPeak": 595,
+  "pairVisibleEncodedPeak": 2874,
+  "sourceAlphaZeroFraction": 0.8121318817138672,
+  "contactOnlyFromGeometry": true,
+  "fxNeverMutatesSimulation": true,
+  "scope": "independent paired visual candidate; encoded visible counts exclude buffers/UI/background and do not prove platform performance"
+}

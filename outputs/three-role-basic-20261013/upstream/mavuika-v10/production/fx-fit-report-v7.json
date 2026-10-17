@@ -1,0 +1,851 @@
+{
+  "source": "mavuika-light1-fx-source-v7.png",
+  "sourceSHA256": "dfd50507286a257898983f7acfdd1eab4ec76c0cc5254be57644a8a76d8c59c3",
+  "sourceAlphaZeroFraction": 0.8121318817138672,
+  "fit": "mavuika-light1-fx-fit-v7.png",
+  "paletteRGBA": [
+    [
+      254,
+      9,
+      1,
+      21
+    ],
+    [
+      252,
+      254,
+      253,
+      26
+    ],
+    [
+      244,
+      97,
+      22,
+      232
+    ],
+    [
+      212,
+      36,
+      6,
+      234
+    ],
+    [
+      251,
+      149,
+      42,
+      238
+    ],
+    [
+      253,
+      24,
+      5,
+      95
+    ],
+    [
+      241,
+      242,
+      232,
+      251
+    ],
+    [
+      239,
+      28,
+      6,
+      156
+    ],
+    [
+      255,
+      243,
+      11,
+      21
+    ],
+    [
+      253,
+      98,
+      27,
+      156
+    ],
+    [
+      254,
+      97,
+      28,
+      98
+    ],
+    [
+      255,
+      156,
+      41,
+      94
+    ],
+    [
+      255,
+      240,
+      94,
+      36
+    ],
+    [
+      172,
+      11,
+      2,
+      232
+    ],
+    [
+      255,
+      94,
+      16,
+      40
+    ],
+    [
+      252,
+      228,
+      159,
+      249
+    ],
+    [
+      252,
+      207,
+      105,
+      249
+    ],
+    [
+      235,
+      255,
+      255,
+      90
+    ],
+    [
+      255,
+      160,
+      26,
+      38
+    ],
+    [
+      251,
+      171,
+      82,
+      234
+    ],
+    [
+      255,
+      149,
+      38,
+      160
+    ],
+    [
+      175,
+      202,
+      253,
+      229
+    ],
+    [
+      173,
+      217,
+      255,
+      163
+    ],
+    [
+      149,
+      179,
+      254,
+      222
+    ],
+    [
+      255,
+      255,
+      154,
+      26
+    ],
+    [
+      255,
+      223,
+      50,
+      85
+    ],
+    [
+      255,
+      162,
+      75,
+      38
+    ],
+    [
+      178,
+      9,
+      1,
+      176
+    ],
+    [
+      165,
+      232,
+      255,
+      100
+    ],
+    [
+      220,
+      248,
+      255,
+      147
+    ],
+    [
+      138,
+      182,
+      255,
+      159
+    ],
+    [
+      114,
+      150,
+      254,
+      226
+    ],
+    [
+      255,
+      236,
+      83,
+      90
+    ],
+    [
+      255,
+      163,
+      72,
+      94
+    ],
+    [
+      255,
+      210,
+      98,
+      153
+    ],
+    [
+      115,
+      160,
+      255,
+      166
+    ],
+    [
+      160,
+      249,
+      255,
+      47
+    ],
+    [
+      255,
+      170,
+      72,
+      171
+    ],
+    [
+      252,
+      194,
+      50,
+      251
+    ],
+    [
+      255,
+      85,
+      85,
+      27
+    ],
+    [
+      119,
+      179,
+      255,
+      109
+    ],
+    [
+      255,
+      149,
+      149,
+      20
+    ],
+    [
+      255,
+      195,
+      53,
+      142
+    ],
+    [
+      124,
+      194,
+      255,
+      105
+    ],
+    [
+      185,
+      5,
+      5,
+      109
+    ]
+  ],
+  "frames": [
+    {
+      "id": "prepare",
+      "index": 0,
+      "sourceRect": [
+        50,
+        120,
+        260,
+        160
+      ],
+      "sourceAnchor": [
+        110,
+        75
+      ],
+      "sourceScale": 0.12,
+      "rect": [
+        0,
+        0,
+        16,
+        10
+      ],
+      "anchor": [
+        6.6,
+        4.5
+      ],
+      "scale": 2,
+      "rectangles": 33,
+      "alphaLevels": [
+        0,
+        21,
+        26,
+        36,
+        38,
+        40,
+        90,
+        94,
+        98,
+        153,
+        171,
+        234,
+        249
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "release",
+      "index": 1,
+      "sourceRect": [
+        320,
+        120,
+        370,
+        160
+      ],
+      "sourceAnchor": [
+        27,
+        80
+      ],
+      "sourceScale": 0.32,
+      "rect": [
+        128,
+        0,
+        59,
+        26
+      ],
+      "anchor": [
+        4.32,
+        12.8
+      ],
+      "scale": 2,
+      "rectangles": 189,
+      "alphaLevels": [
+        0,
+        20,
+        21,
+        26,
+        36,
+        38,
+        40,
+        85,
+        94,
+        95,
+        98,
+        109,
+        156,
+        160,
+        171,
+        176,
+        232,
+        234,
+        238,
+        249,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "slash",
+      "index": 2,
+      "sourceRect": [
+        690,
+        110,
+        490,
+        180
+      ],
+      "sourceAnchor": [
+        18,
+        85
+      ],
+      "sourceScale": 0.3,
+      "rect": [
+        256,
+        0,
+        74,
+        27
+      ],
+      "anchor": [
+        2.6999999999999997,
+        12.75
+      ],
+      "scale": 2,
+      "rectangles": 363,
+      "alphaLevels": [
+        0,
+        20,
+        21,
+        26,
+        27,
+        36,
+        38,
+        40,
+        85,
+        94,
+        95,
+        98,
+        109,
+        142,
+        156,
+        160,
+        176,
+        232,
+        234,
+        238,
+        249,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "residue",
+      "index": 3,
+      "sourceRect": [
+        1180,
+        115,
+        355,
+        190
+      ],
+      "sourceAnchor": [
+        24,
+        85
+      ],
+      "sourceScale": 0.3,
+      "rect": [
+        384,
+        0,
+        53,
+        28
+      ],
+      "anchor": [
+        3.5999999999999996,
+        12.75
+      ],
+      "scale": 2,
+      "rectangles": 248,
+      "alphaLevels": [
+        0,
+        20,
+        21,
+        26,
+        27,
+        36,
+        38,
+        40,
+        85,
+        94,
+        95,
+        98,
+        109,
+        142,
+        156,
+        160,
+        171,
+        176,
+        232,
+        234,
+        238,
+        249,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "hit-start",
+      "index": 4,
+      "sourceRect": [
+        50,
+        350,
+        275,
+        300
+      ],
+      "sourceAnchor": [
+        110,
+        137
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        0,
+        64,
+        23,
+        26
+      ],
+      "anchor": [
+        9.350000000000001,
+        11.645000000000001
+      ],
+      "scale": 2,
+      "rectangles": 86,
+      "alphaLevels": [
+        0,
+        21,
+        26,
+        36,
+        38,
+        40,
+        85,
+        90,
+        94,
+        95,
+        98,
+        109,
+        142,
+        153,
+        156,
+        160,
+        171,
+        234,
+        238,
+        249,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "hit-peak",
+      "index": 5,
+      "sourceRect": [
+        380,
+        330,
+        375,
+        310
+      ],
+      "sourceAnchor": [
+        130,
+        157
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        128,
+        64,
+        32,
+        26
+      ],
+      "anchor": [
+        11.05,
+        13.345
+      ],
+      "scale": 2,
+      "rectangles": 232,
+      "alphaLevels": [
+        0,
+        20,
+        21,
+        26,
+        36,
+        38,
+        40,
+        85,
+        90,
+        94,
+        95,
+        98,
+        109,
+        142,
+        156,
+        160,
+        171,
+        176,
+        232,
+        234,
+        238,
+        249,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "hit-fragments",
+      "index": 6,
+      "sourceRect": [
+        780,
+        330,
+        365,
+        320
+      ],
+      "sourceAnchor": [
+        130,
+        157
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        256,
+        64,
+        31,
+        27
+      ],
+      "anchor": [
+        11.05,
+        13.345
+      ],
+      "scale": 2,
+      "rectangles": 145,
+      "alphaLevels": [
+        0,
+        21,
+        26,
+        36,
+        38,
+        40,
+        85,
+        90,
+        94,
+        95,
+        98,
+        109,
+        142,
+        156,
+        160,
+        232,
+        234,
+        238,
+        249,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "hit-fade",
+      "index": 7,
+      "sourceRect": [
+        1180,
+        340,
+        355,
+        300
+      ],
+      "sourceAnchor": [
+        130,
+        147
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        384,
+        64,
+        30,
+        26
+      ],
+      "anchor": [
+        11.05,
+        12.495000000000001
+      ],
+      "scale": 2,
+      "rectangles": 53,
+      "alphaLevels": [
+        0,
+        21,
+        26,
+        36,
+        38,
+        40,
+        85,
+        90,
+        94,
+        95,
+        98,
+        142,
+        153,
+        160,
+        171,
+        234,
+        238,
+        249
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "block-start",
+      "index": 8,
+      "sourceRect": [
+        60,
+        655,
+        255,
+        330
+      ],
+      "sourceAnchor": [
+        100,
+        135
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        0,
+        128,
+        22,
+        28
+      ],
+      "anchor": [
+        8.5,
+        11.475000000000001
+      ],
+      "scale": 2,
+      "rectangles": 66,
+      "alphaLevels": [
+        0,
+        26,
+        47,
+        90,
+        100,
+        105,
+        109,
+        147,
+        159,
+        163,
+        166,
+        222,
+        229,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "block-peak",
+      "index": 9,
+      "sourceRect": [
+        370,
+        655,
+        350,
+        330
+      ],
+      "sourceAnchor": [
+        100,
+        135
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        128,
+        128,
+        30,
+        28
+      ],
+      "anchor": [
+        8.5,
+        11.475000000000001
+      ],
+      "scale": 2,
+      "rectangles": 158,
+      "alphaLevels": [
+        0,
+        26,
+        47,
+        90,
+        100,
+        105,
+        109,
+        147,
+        159,
+        163,
+        166,
+        222,
+        226,
+        229,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "block-fragments",
+      "index": 10,
+      "sourceRect": [
+        780,
+        655,
+        365,
+        330
+      ],
+      "sourceAnchor": [
+        130,
+        135
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        256,
+        128,
+        31,
+        28
+      ],
+      "anchor": [
+        11.05,
+        11.475000000000001
+      ],
+      "scale": 2,
+      "rectangles": 82,
+      "alphaLevels": [
+        0,
+        26,
+        47,
+        90,
+        100,
+        147,
+        159,
+        163,
+        166,
+        222,
+        229,
+        251
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    },
+    {
+      "id": "block-fade",
+      "index": 11,
+      "sourceRect": [
+        1180,
+        655,
+        355,
+        330
+      ],
+      "sourceAnchor": [
+        130,
+        135
+      ],
+      "sourceScale": 0.17,
+      "rect": [
+        384,
+        128,
+        30,
+        28
+      ],
+      "anchor": [
+        11.05,
+        11.475000000000001
+      ],
+      "scale": 2,
+      "rectangles": 23,
+      "alphaLevels": [
+        0,
+        26,
+        90,
+        109,
+        147,
+        229
+      ],
+      "status": "independent FX candidate; grip and visual acceptance pending"
+    }
+  ],
+  "pipeline": "premultiplied BOX / independent 48-slot RGBA palette / OKLab+alpha nearest mapping / non-overlapping merged runs; body alpha128 threshold not used",
+  "rectanglesMax": 363,
+  "status": "12 independent FX stages; model/visual/device validation separate"
+}

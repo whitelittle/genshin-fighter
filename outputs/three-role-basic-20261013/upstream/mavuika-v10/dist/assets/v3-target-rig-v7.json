@@ -1,0 +1,68 @@
+{
+  "file": "v3-target-atlas-v7.png",
+  "character": "raidenshogun",
+  "poses": {
+    "idle_0": {
+      "rect": [
+        0,
+        0,
+        297,
+        375
+      ],
+      "anchor": [
+        148.61538461538,
+        361.84615384615
+      ],
+      "offsetX": 0.0,
+      "scale": 0.55,
+      "rectangles": 805
+    },
+    "guard_2": {
+      "rect": [
+        512,
+        0,
+        406,
+        413
+      ],
+      "anchor": [
+        203,
+        399
+      ],
+      "offsetX": 0,
+      "scale": 0.55,
+      "rectangles": 898
+    },
+    "guard_6": {
+      "rect": [
+        1024,
+        0,
+        412,
+        405
+      ],
+      "anchor": [
+        206.18181818182,
+        389.45454545455
+      ],
+      "offsetX": 0,
+      "scale": 0.55,
+      "rectangles": 797
+    },
+    "hurt_0": {
+      "rect": [
+        1536,
+        0,
+        270,
+        336
+      ],
+      "anchor": [
+        132,
+        324
+      ],
+      "offsetX": 0,
+      "scale": 0.55,
+      "rectangles": 837
+    }
+  },
+  "previewScale": 0.55,
+  "provenance": "V3 gf_fview:image / gf_art loaded lo records; whole opponent uniformly scaled 0.55 for the ~200-unit Mavuika preview; formal fighter sizes unchanged; CPU only"
+}

@@ -1,0 +1,1005 @@
+{
+  "palette": [
+    [
+      63,
+      44,
+      38
+    ],
+    [
+      228,
+      159,
+      73
+    ],
+    [
+      229,
+      188,
+      136
+    ],
+    [
+      149,
+      102,
+      62
+    ],
+    [
+      79,
+      52,
+      40
+    ],
+    [
+      40,
+      31,
+      30
+    ],
+    [
+      172,
+      124,
+      72
+    ],
+    [
+      178,
+      167,
+      167
+    ],
+    [
+      48,
+      39,
+      39
+    ],
+    [
+      208,
+      170,
+      126
+    ],
+    [
+      243,
+      206,
+      148
+    ],
+    [
+      145,
+      130,
+      125
+    ],
+    [
+      135,
+      82,
+      49
+    ],
+    [
+      116,
+      69,
+      44
+    ],
+    [
+      110,
+      94,
+      82
+    ],
+    [
+      96,
+      62,
+      44
+    ],
+    [
+      246,
+      229,
+      202
+    ],
+    [
+      197,
+      142,
+      80
+    ],
+    [
+      199,
+      103,
+      44
+    ],
+    [
+      29,
+      23,
+      23
+    ],
+    [
+      40,
+      29,
+      27
+    ]
+  ],
+  "poses": [
+    {
+      "id": "light1-0",
+      "source": "../../20261011-resume/light1-0-source.png",
+      "roi": [
+        96,
+        14,
+        629,
+        470
+      ],
+      "sheet": "light1-existing-repair.png",
+      "landmarks": {
+        "skull": [
+          239,
+          17
+        ],
+        "chin": [
+          259,
+          78
+        ],
+        "neck": [
+          241,
+          90
+        ],
+        "pelvis": [
+          231,
+          233
+        ],
+        "root": [
+          347,
+          447
+        ],
+        "leftHip": [
+          200,
+          235
+        ],
+        "leftKnee": [
+          138,
+          336
+        ],
+        "leftAnkle": [
+          78,
+          423
+        ],
+        "rightHip": [
+          247,
+          236
+        ],
+        "rightKnee": [
+          304,
+          343
+        ],
+        "rightAnkle": [
+          338,
+          412
+        ]
+      },
+      "scale": 0.6703492516037063,
+      "sourceSize": [
+        533,
+        456
+      ],
+      "sourceSHA256": "776b049e208c97dcfdab28146a0500f01da0e297c8a036dcb5d84b814d22e29e",
+      "opaqueMargins": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "accepted": false,
+      "registration": "manual provisional skull/chin/neck/pelvis/hip/knee/ankle/support; not accepted",
+      "rootKind": "support",
+      "headStageLength": 43.03308051855921,
+      "torsoStageLength": 96.09404497633015,
+      "torsoDeviation": 0.022513548209851297,
+      "torsoReviewFlag": false,
+      "initial": {
+        "file": "../../20261011-resume/light1-0-initial.png",
+        "root": [
+          58.15279757662152,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 1057
+      },
+      "optimized": {
+        "file": "../../20261011-resume/light1-0-optimized.png",
+        "root": [
+          58.15279757662152,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 850
+      },
+      "legSegmentsStage": {
+        "left": [
+          79.44416424835585,
+          70.8448482425813
+        ],
+        "right": [
+          81.26999824602429,
+          51.564630909824864
+        ]
+      }
+    },
+    {
+      "id": "light1-1",
+      "source": "../../20261011-resume/light1-1-source.png",
+      "roi": [
+        694,
+        18,
+        1220,
+        470
+      ],
+      "sheet": "light1-existing-repair.png",
+      "landmarks": {
+        "skull": [
+          231,
+          15
+        ],
+        "chin": [
+          252,
+          76
+        ],
+        "neck": [
+          236,
+          83
+        ],
+        "pelvis": [
+          256,
+          232
+        ],
+        "root": [
+          387,
+          447
+        ],
+        "leftHip": [
+          230,
+          232
+        ],
+        "leftKnee": [
+          148,
+          342
+        ],
+        "leftAnkle": [
+          62,
+          414
+        ],
+        "rightHip": [
+          277,
+          232
+        ],
+        "rightKnee": [
+          344,
+          342
+        ],
+        "rightAnkle": [
+          381,
+          412
+        ]
+      },
+      "scale": 0.6703492516037063,
+      "sourceSize": [
+        526,
+        452
+      ],
+      "sourceSHA256": "b07d5ed1d724e4a580a8a643cd7ebc84ef47b7b29637e1412595ebd081cd319c",
+      "opaqueMargins": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "accepted": false,
+      "registration": "manual provisional skull/chin/neck/pelvis/hip/knee/ankle/support; not accepted",
+      "rootKind": "support",
+      "headStageLength": 43.24661965750562,
+      "torsoStageLength": 100.77781928757337,
+      "torsoDeviation": 0.07235246061262424,
+      "torsoReviewFlag": false,
+      "initial": {
+        "file": "../../20261011-resume/light1-1-initial.png",
+        "root": [
+          64.85629009265858,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 998
+      },
+      "optimized": {
+        "file": "../../20261011-resume/light1-1-optimized.png",
+        "root": [
+          64.85629009265858,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 787
+      },
+      "legSegmentsStage": {
+        "left": [
+          91.9723081933971,
+          75.18677369458452
+        ],
+        "right": [
+          86.3398385924794,
+          53.07625400118865
+        ]
+      }
+    },
+    {
+      "id": "light1-2",
+      "source": "../../20261011-resume/light1-2-source.png",
+      "roi": [
+        22,
+        504,
+        631,
+        855
+      ],
+      "sheet": "light1-existing-repair.png",
+      "landmarks": {
+        "skull": [
+          253,
+          11
+        ],
+        "chin": [
+          271,
+          59
+        ],
+        "neck": [
+          258,
+          75
+        ],
+        "pelvis": [
+          254,
+          179
+        ],
+        "root": [
+          417,
+          346
+        ],
+        "leftHip": [
+          228,
+          186
+        ],
+        "leftKnee": [
+          155,
+          259
+        ],
+        "leftAnkle": [
+          44,
+          322
+        ],
+        "rightHip": [
+          283,
+          183
+        ],
+        "rightKnee": [
+          348,
+          241
+        ],
+        "rightAnkle": [
+          396,
+          314
+        ]
+      },
+      "scale": 0.8519021739130435,
+      "sourceSize": [
+        609,
+        351
+      ],
+      "sourceSHA256": "43d0d065938767bd43bf157bb830ebab10a27e8257fae9adc0a524fbdcdc1fc5",
+      "opaqueMargins": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "accepted": false,
+      "registration": "manual provisional skull/chin/neck/pelvis/hip/knee/ankle/support; not accepted",
+      "rootKind": "support",
+      "headStageLength": 43.67193218734314,
+      "torsoStageLength": 88.6633328065062,
+      "torsoDeviation": -0.05655486719886993,
+      "torsoReviewFlag": false,
+      "initial": {
+        "file": "../../20261011-resume/light1-2-initial.png",
+        "root": [
+          88.81080163043478,
+          73.68953804347827
+        ],
+        "displayScale": 4,
+        "rectangles": 1314
+      },
+      "optimized": {
+        "file": "../../20261011-resume/light1-2-optimized.png",
+        "root": [
+          88.81080163043478,
+          73.68953804347827
+        ],
+        "displayScale": 4,
+        "rectangles": 1069
+      },
+      "legSegmentsStage": {
+        "left": [
+          87.94832739589529,
+          108.73022047122163
+        ],
+        "right": [
+          74.21334432109869,
+          74.42817287247037
+        ]
+      }
+    },
+    {
+      "id": "light1-3",
+      "source": "../../20261011-resume/light1-3-source.png",
+      "roi": [
+        673,
+        502,
+        1236,
+        856
+      ],
+      "sheet": "light1-existing-repair.png",
+      "landmarks": {
+        "skull": [
+          276,
+          9
+        ],
+        "chin": [
+          297,
+          60
+        ],
+        "neck": [
+          278,
+          73
+        ],
+        "pelvis": [
+          273,
+          178
+        ],
+        "root": [
+          427,
+          343
+        ],
+        "leftHip": [
+          246,
+          186
+        ],
+        "leftKnee": [
+          147,
+          259
+        ],
+        "leftAnkle": [
+          46,
+          318
+        ],
+        "rightHip": [
+          299,
+          184
+        ],
+        "rightKnee": [
+          382,
+          232
+        ],
+        "rightAnkle": [
+          422,
+          313
+        ]
+      },
+      "scale": 0.8017902813299232,
+      "sourceSize": [
+        563,
+        354
+      ],
+      "sourceSHA256": "6abb7b39069511b2c266871091904cbcdf1805fd051e3611cfdb99fce79205b3",
+      "opaqueMargins": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "accepted": false,
+      "registration": "manual provisional skull/chin/neck/pelvis/hip/knee/ankle/support; not accepted",
+      "rootKind": "support",
+      "headStageLength": 44.22220491139296,
+      "torsoStageLength": 84.28337671420176,
+      "torsoDeviation": -0.10316092323541959,
+      "torsoReviewFlag": true,
+      "initial": {
+        "file": "../../20261011-resume/light1-3-initial.png",
+        "root": [
+          85.5911125319693,
+          68.75351662404091
+        ],
+        "displayScale": 4,
+        "rectangles": 1193
+      },
+      "optimized": {
+        "file": "../../20261011-resume/light1-3-optimized.png",
+        "root": [
+          85.5911125319693,
+          68.75351662404091
+        ],
+        "displayScale": 4,
+        "rectangles": 987
+      },
+      "legSegmentsStage": {
+        "left": [
+          98.6234638598104,
+          93.78547466919852
+        ],
+        "right": [
+          76.87575921300832,
+          72.43233348701251
+        ]
+      }
+    },
+    {
+      "id": "light1-4",
+      "source": "../../20261011-resume/light1-4-source.png",
+      "roi": [
+        74,
+        884,
+        669,
+        1238
+      ],
+      "sheet": "light1-existing-repair.png",
+      "landmarks": {
+        "skull": [
+          266,
+          8
+        ],
+        "chin": [
+          287,
+          63
+        ],
+        "neck": [
+          269,
+          75
+        ],
+        "pelvis": [
+          267,
+          184
+        ],
+        "root": [
+          419,
+          344
+        ],
+        "leftHip": [
+          241,
+          186
+        ],
+        "leftKnee": [
+          147,
+          261
+        ],
+        "leftAnkle": [
+          39,
+          324
+        ],
+        "rightHip": [
+          291,
+          184
+        ],
+        "rightKnee": [
+          380,
+          251
+        ],
+        "rightAnkle": [
+          415,
+          316
+        ]
+      },
+      "scale": 0.7434782608695653,
+      "sourceSize": [
+        595,
+        354
+      ],
+      "sourceSHA256": "f5de57abbbf81aae41689310d9e3062419a5edda71549e01879700105ce22006",
+      "opaqueMargins": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "accepted": false,
+      "registration": "manual provisional skull/chin/neck/pelvis/hip/knee/ankle/support; not accepted",
+      "rootKind": "support",
+      "headStageLength": 43.77060540957373,
+      "torsoStageLength": 81.05277108972433,
+      "torsoDeviation": -0.13753701824489495,
+      "torsoReviewFlag": true,
+      "initial": {
+        "file": "../../20261011-resume/light1-4-initial.png",
+        "root": [
+          77.87934782608696,
+          63.93913043478261
+        ],
+        "displayScale": 4,
+        "rectangles": 1075
+      },
+      "optimized": {
+        "file": "../../20261011-resume/light1-4-optimized.png",
+        "root": [
+          77.87934782608696,
+          63.93913043478261
+        ],
+        "displayScale": 4,
+        "rectangles": 890
+      },
+      "legSegmentsStage": {
+        "left": [
+          89.4061589966857,
+          92.95857086853587
+        ],
+        "right": [
+          82.82361173980347,
+          54.886624854345904
+        ]
+      }
+    },
+    {
+      "id": "light1-recovery",
+      "source": "../light1-recovery-v1.png",
+      "sourceSHA256": "81c2d7c6c8dc19e2c9779f542bd0341398722afa2eb7782eb6865218fec10ab1",
+      "sourceSize": [
+        1405,
+        1119
+      ],
+      "landmarks": {
+        "skull": [
+          715,
+          35
+        ],
+        "chin": [
+          755,
+          194
+        ],
+        "neck": [
+          671,
+          206
+        ],
+        "pelvis": [
+          641,
+          510
+        ],
+        "root": [
+          291,
+          1089
+        ],
+        "leftHip": [
+          615,
+          520
+        ],
+        "leftKnee": [
+          425,
+          798
+        ],
+        "leftAnkle": [
+          289,
+          1015
+        ],
+        "rightHip": [
+          682,
+          525
+        ],
+        "rightKnee": [
+          800,
+          801
+        ],
+        "rightAnkle": [
+          816,
+          1005
+        ]
+      },
+      "scale": 0.2571780147662018,
+      "accepted": false,
+      "registration": "人工初步标点，透视与腿链尚未验收",
+      "opaqueMargins": [
+        81,
+        4,
+        22,
+        29
+      ],
+      "transparentFraction": 0.6940214159185089,
+      "torsoDeviation": -0.16404193330530403,
+      "torsoReviewFlag": true,
+      "initial": {
+        "file": "light1-recovery-initial.png",
+        "root": [
+          18.70970057424118,
+          70.01671452009843
+        ],
+        "displayScale": 4,
+        "rectangles": 919
+      },
+      "optimized": {
+        "file": "light1-recovery-optimized.png",
+        "root": [
+          18.70970057424118,
+          70.01671452009843
+        ],
+        "displayScale": 4,
+        "rectangles": 750
+      }
+    },
+    {
+      "id": "light1-ready-return",
+      "source": "../../20261011-resume/light1-0-source.png",
+      "roi": [
+        96,
+        14,
+        629,
+        470
+      ],
+      "sheet": "light1-existing-repair.png",
+      "landmarks": {
+        "skull": [
+          239,
+          17
+        ],
+        "chin": [
+          259,
+          78
+        ],
+        "neck": [
+          241,
+          90
+        ],
+        "pelvis": [
+          231,
+          233
+        ],
+        "root": [
+          347,
+          447
+        ],
+        "leftHip": [
+          200,
+          235
+        ],
+        "leftKnee": [
+          138,
+          336
+        ],
+        "leftAnkle": [
+          78,
+          423
+        ],
+        "rightHip": [
+          247,
+          236
+        ],
+        "rightKnee": [
+          304,
+          343
+        ],
+        "rightAnkle": [
+          338,
+          412
+        ]
+      },
+      "scale": 0.6703492516037063,
+      "sourceSize": [
+        533,
+        456
+      ],
+      "sourceSHA256": "776b049e208c97dcfdab28146a0500f01da0e297c8a036dcb5d84b814d22e29e",
+      "opaqueMargins": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "accepted": false,
+      "registration": "manual provisional skull/chin/neck/pelvis/hip/knee/ankle/support; not accepted",
+      "rootKind": "support",
+      "headStageLength": 43.03308051855921,
+      "torsoStageLength": 96.09404497633015,
+      "torsoDeviation": 0.022513548209851297,
+      "torsoReviewFlag": false,
+      "initial": {
+        "file": "../../20261011-resume/light1-0-initial.png",
+        "root": [
+          58.15279757662152,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 1057
+      },
+      "optimized": {
+        "file": "../../20261011-resume/light1-0-optimized.png",
+        "root": [
+          58.15279757662152,
+          74.91152886671418
+        ],
+        "displayScale": 4,
+        "rectangles": 850
+      },
+      "legSegmentsStage": {
+        "left": [
+          79.44416424835585,
+          70.8448482425813
+        ],
+        "right": [
+          81.26999824602429,
+          51.564630909824864
+        ]
+      }
+    }
+  ],
+  "newSources": [
+    {
+      "id": "walk-padding",
+      "source": "../walk-padding-v3.png",
+      "sourceSHA256": "7bf41f44bbd9a232ef00efa4c0a72fe83448d6fd9537dde11f040c5bdb04040c",
+      "sourceSize": [
+        1435,
+        1096
+      ],
+      "landmarks": {
+        "skull": [
+          881,
+          85
+        ],
+        "chin": [
+          916,
+          220
+        ],
+        "neck": [
+          881,
+          232
+        ],
+        "pelvis": [
+          865,
+          557
+        ],
+        "root": [
+          642,
+          1065
+        ],
+        "leftHip": [
+          835,
+          575
+        ],
+        "leftKnee": [
+          696,
+          861
+        ],
+        "leftAnkle": [
+          582,
+          1018
+        ],
+        "rightHip": [
+          895,
+          565
+        ],
+        "rightKnee": [
+          1010,
+          834
+        ],
+        "rightAnkle": [
+          1102,
+          999
+        ]
+      },
+      "scale": 0.30289855072463767,
+      "accepted": false,
+      "registration": "人工初步标点，透视与腿链尚未验收",
+      "opaqueMargins": [
+        333,
+        43,
+        220,
+        30
+      ],
+      "transparentFraction": 0.7808985477758844,
+      "torsoDeviation": 0.048766505222164636,
+      "torsoReviewFlag": false,
+      "initial": {
+        "file": "walk-padding-initial.png",
+        "root": [
+          48.61521739130435,
+          80.64673913043478
+        ],
+        "displayScale": 4,
+        "rectangles": 860
+      },
+      "optimized": {
+        "file": "walk-padding-optimized.png",
+        "root": [
+          48.61521739130435,
+          80.64673913043478
+        ],
+        "displayScale": 4,
+        "rectangles": 714
+      }
+    },
+    {
+      "id": "light1-recovery",
+      "source": "../light1-recovery-v1.png",
+      "sourceSHA256": "81c2d7c6c8dc19e2c9779f542bd0341398722afa2eb7782eb6865218fec10ab1",
+      "sourceSize": [
+        1405,
+        1119
+      ],
+      "landmarks": {
+        "skull": [
+          715,
+          35
+        ],
+        "chin": [
+          755,
+          194
+        ],
+        "neck": [
+          671,
+          206
+        ],
+        "pelvis": [
+          641,
+          510
+        ],
+        "root": [
+          291,
+          1089
+        ],
+        "leftHip": [
+          615,
+          520
+        ],
+        "leftKnee": [
+          425,
+          798
+        ],
+        "leftAnkle": [
+          289,
+          1015
+        ],
+        "rightHip": [
+          682,
+          525
+        ],
+        "rightKnee": [
+          800,
+          801
+        ],
+        "rightAnkle": [
+          816,
+          1005
+        ]
+      },
+      "scale": 0.2571780147662018,
+      "accepted": false,
+      "registration": "人工初步标点，透视与腿链尚未验收",
+      "opaqueMargins": [
+        81,
+        4,
+        22,
+        29
+      ],
+      "transparentFraction": 0.6940214159185089,
+      "torsoDeviation": -0.16404193330530403,
+      "torsoReviewFlag": true,
+      "initial": {
+        "file": "light1-recovery-initial.png",
+        "root": [
+          18.70970057424118,
+          70.01671452009843
+        ],
+        "displayScale": 4,
+        "rectangles": 919
+      },
+      "optimized": {
+        "file": "light1-recovery-optimized.png",
+        "root": [
+          18.70970057424118,
+          70.01671452009843
+        ],
+        "displayScale": 4,
+        "rectangles": 750
+      }
+    }
+  ],
+  "state": "候选，不接正式战斗",
+  "sourceCommit": "1c21eb57ffb1b8d88b41cbb743c46a34864849df",
+  "notes": [
+    "行走右边距1→220像素，完整两鞋；没有满足提示词所要求的四边10%留白，最小边距30像素。",
+    "恢复源图无邻姿金色残片；顶部边距仅4像素，足底高差与躯干投影待复核。",
+    "原第6姿提取图顶部存在邻姿残片，本候选撤出该帧，改用新回收候选；原图保留。",
+    "末姿精确复用持枪准备姿，完成候选序列的闭合；并未解决空手母姿到持枪的转换。",
+    "背身蓄势到前刺的转向、腿链、握点和枪长尚未验收。",
+    "同一既有21色板，premultiplied BOX、棕黑内侧一格保护亮部、painter精确还原。"
+  ],
+  "browserQA": "未执行",
+  "simulator": "未执行",
+  "device": "未执行"
+}

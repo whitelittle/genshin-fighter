@@ -1,0 +1,26 @@
+{
+  "provenance": "从本轮对话恢复的指令摘要；不是原始工具请求逐字日志",
+  "prompts": [
+    {
+      "id": "mother",
+      "file": "mother-clean-candidate.png",
+      "instruction": "保留钟离原图的身份、轮廓、服装和姿势，仅去除人物外部棕灰晕染；真透明背景，无阴影、闪光、粗描边；全身保留边距。"
+    },
+    {
+      "id": "idle",
+      "file": "idle-second-candidate.png",
+      "instruction": "以去晕染母版为身份参考，微呼吸第二姿；脚位、脚底线、头颈腿长、服装不变，仅胸肩和手肘微动；无缩放、裁切、晕染和阴影。"
+    },
+    {
+      "id": "walk",
+      "file": "walk-first-candidate.png",
+      "instruction": "参考原行走图与母版，仅修复缺失右鞋尖并扩展右侧透明画布；保留走路姿势、身体和腿长，去外部晕染，不缩小人物。"
+    },
+    {
+      "id": "margin",
+      "file": "walk-margin-rejected.png",
+      "instruction": "右侧扩展约15%透明边距，角色姿势、比例、颜色不变，不重新居中，不裁切；单姿。",
+      "result": "返修失败：左侧头发和衣尾被裁切，拒绝采用"
+    }
+  ]
+}

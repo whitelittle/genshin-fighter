@@ -1,0 +1,556 @@
+{
+  "groups": {
+    "idle": {
+      "source": "mavuika-idle-source-v5.png",
+      "sourceSHA256": "b49e690120eb8e9f4e9bec958eaf5501870c075c9fb438f1e4335074c7f67abb",
+      "columns": 2,
+      "rows": 1,
+      "cellSize": [
+        887,
+        887
+      ],
+      "displayScale": 0.24,
+      "sourceAnchor": [
+        443.5,
+        855.9549999999999
+      ],
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            887,
+            887
+          ],
+          "sourceBBox": [
+            161,
+            0,
+            887,
+            887
+          ],
+          "footBaselineDeltaPx": 7.45,
+          "anchor": [
+            26.61,
+            51.357299999999995
+          ],
+          "atlasRect": [
+            0,
+            0,
+            53,
+            53
+          ],
+          "initialRectangles": 391,
+          "optimizedRectangles": 298
+        },
+        {
+          "sourceRect": [
+            887,
+            0,
+            887,
+            887
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            671,
+            887
+          ],
+          "footBaselineDeltaPx": 7.45,
+          "anchor": [
+            26.61,
+            51.357299999999995
+          ],
+          "atlasRect": [
+            64,
+            0,
+            53,
+            53
+          ],
+          "initialRectangles": 367,
+          "optimizedRectangles": 285
+        }
+      ],
+      "alphaZeroFraction": 0.7126958484637803,
+      "initial": "mavuika-idle-initial-v5.png",
+      "optimized": "mavuika-idle-optimized-v5.png"
+    },
+    "walk": {
+      "source": "mavuika-walk-source-v5.png",
+      "sourceSHA256": "9cd3dd526df4db1119d5048b089e6201c4b7f68da54a2351a5a4532eba3d7533",
+      "columns": 3,
+      "rows": 2,
+      "cellSize": [
+        512,
+        512
+      ],
+      "displayScale": 0.408,
+      "sourceAnchor": [
+        256.0,
+        494.08
+      ],
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            28,
+            10,
+            435,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            0,
+            0,
+            52,
+            52
+          ],
+          "initialRectangles": 423,
+          "optimizedRectangles": 313
+        },
+        {
+          "sourceRect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            39,
+            10,
+            394,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            64,
+            0,
+            52,
+            52
+          ],
+          "initialRectangles": 383,
+          "optimizedRectangles": 288
+        },
+        {
+          "sourceRect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            34,
+            8,
+            417,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            128,
+            0,
+            52,
+            52
+          ],
+          "initialRectangles": 399,
+          "optimizedRectangles": 321
+        },
+        {
+          "sourceRect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            56,
+            0,
+            465,
+            480
+          ],
+          "footBaselineDeltaPx": -5.74,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            0,
+            64,
+            52,
+            52
+          ],
+          "initialRectangles": 425,
+          "optimizedRectangles": 323
+        },
+        {
+          "sourceRect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            66,
+            0,
+            413,
+            486
+          ],
+          "footBaselineDeltaPx": -3.3,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            64,
+            64,
+            52,
+            52
+          ],
+          "initialRectangles": 369,
+          "optimizedRectangles": 299
+        },
+        {
+          "sourceRect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            56,
+            0,
+            409,
+            487
+          ],
+          "footBaselineDeltaPx": -2.89,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            128,
+            64,
+            52,
+            52
+          ],
+          "initialRectangles": 397,
+          "optimizedRectangles": 308
+        }
+      ],
+      "alphaZeroFraction": 0.6315504709879557,
+      "initial": "mavuika-walk-initial-v5.png",
+      "optimized": "mavuika-walk-optimized-v5.png"
+    },
+    "backwalk": {
+      "source": "mavuika-backwalk-source-v5.png",
+      "sourceSHA256": "dcc7023c84c03dc56f42cefd0616107ce9ab32a90fb8aca8acc233042bb4f496",
+      "columns": 3,
+      "rows": 2,
+      "cellSize": [
+        512,
+        512
+      ],
+      "displayScale": 0.408,
+      "sourceAnchor": [
+        256.0,
+        494.08
+      ],
+      "poses": [
+        {
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            0,
+            0,
+            52,
+            52
+          ],
+          "initialRectangles": 409,
+          "optimizedRectangles": 328
+        },
+        {
+          "sourceRect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            64,
+            0,
+            52,
+            52
+          ],
+          "initialRectangles": 385,
+          "optimizedRectangles": 304
+        },
+        {
+          "sourceRect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            128,
+            0,
+            52,
+            52
+          ],
+          "initialRectangles": 375,
+          "optimizedRectangles": 295
+        },
+        {
+          "sourceRect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            0,
+            64,
+            52,
+            52
+          ],
+          "initialRectangles": 410,
+          "optimizedRectangles": 334
+        },
+        {
+          "sourceRect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            64,
+            64,
+            52,
+            52
+          ],
+          "initialRectangles": 375,
+          "optimizedRectangles": 295
+        },
+        {
+          "sourceRect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "sourceBBox": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "footBaselineDeltaPx": 7.31,
+          "anchor": [
+            26.112,
+            50.396159999999995
+          ],
+          "atlasRect": [
+            128,
+            64,
+            52,
+            52
+          ],
+          "initialRectangles": 372,
+          "optimizedRectangles": 303
+        }
+      ],
+      "alphaZeroFraction": 0.5923150380452474,
+      "initial": "mavuika-backwalk-initial-v5.png",
+      "optimized": "mavuika-backwalk-optimized-v5.png"
+    }
+  },
+  "palette": [
+    [
+      245,
+      158,
+      80
+    ],
+    [
+      186,
+      48,
+      23
+    ],
+    [
+      63,
+      42,
+      38
+    ],
+    [
+      234,
+      110,
+      52
+    ],
+    [
+      123,
+      84,
+      55
+    ],
+    [
+      150,
+      102,
+      63
+    ],
+    [
+      238,
+      198,
+      181
+    ],
+    [
+      149,
+      40,
+      20
+    ],
+    [
+      254,
+      213,
+      120
+    ],
+    [
+      176,
+      122,
+      77
+    ],
+    [
+      207,
+      63,
+      30
+    ],
+    [
+      236,
+      135,
+      65
+    ],
+    [
+      35,
+      26,
+      25
+    ],
+    [
+      250,
+      185,
+      101
+    ],
+    [
+      49,
+      34,
+      32
+    ],
+    [
+      101,
+      67,
+      46
+    ],
+    [
+      104,
+      35,
+      22
+    ],
+    [
+      195,
+      151,
+      131
+    ],
+    [
+      77,
+      53,
+      44
+    ],
+    [
+      226,
+      82,
+      38
+    ],
+    [
+      43,
+      25,
+      27
+    ]
+  ],
+  "status": "14 candidate display poses; not 25-group character completion",
+  "anchorPolicy": "fixed cell-center X and fixed per-sheet floor Y; no per-pose bounding-box recentering",
+  "issues": [
+    "Source support-contact and pelvis drift remain visible; fixed anchors are provisional.",
+    "Forward/backward cycle half-stride parity needs revision, not accepted as finished six-pose gait.",
+    "No formal combat, simulator, device or user acceptance."
+  ]
+}

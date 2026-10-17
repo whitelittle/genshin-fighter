@@ -1,0 +1,176 @@
+{
+  "pipeline": "premultiplied BOX / weighted OKLab shared 20+outline palette / painter exact reconstruction",
+  "records": [
+    {
+      "group": "idle",
+      "pose": 0,
+      "mode": "initial",
+      "rectangles": 391
+    },
+    {
+      "group": "idle",
+      "pose": 1,
+      "mode": "initial",
+      "rectangles": 367
+    },
+    {
+      "group": "idle",
+      "pose": 0,
+      "mode": "optimized",
+      "rectangles": 298
+    },
+    {
+      "group": "idle",
+      "pose": 1,
+      "mode": "optimized",
+      "rectangles": 285
+    },
+    {
+      "group": "walk",
+      "pose": 0,
+      "mode": "initial",
+      "rectangles": 423
+    },
+    {
+      "group": "walk",
+      "pose": 1,
+      "mode": "initial",
+      "rectangles": 383
+    },
+    {
+      "group": "walk",
+      "pose": 2,
+      "mode": "initial",
+      "rectangles": 399
+    },
+    {
+      "group": "walk",
+      "pose": 3,
+      "mode": "initial",
+      "rectangles": 425
+    },
+    {
+      "group": "walk",
+      "pose": 4,
+      "mode": "initial",
+      "rectangles": 369
+    },
+    {
+      "group": "walk",
+      "pose": 5,
+      "mode": "initial",
+      "rectangles": 397
+    },
+    {
+      "group": "walk",
+      "pose": 0,
+      "mode": "optimized",
+      "rectangles": 313
+    },
+    {
+      "group": "walk",
+      "pose": 1,
+      "mode": "optimized",
+      "rectangles": 288
+    },
+    {
+      "group": "walk",
+      "pose": 2,
+      "mode": "optimized",
+      "rectangles": 321
+    },
+    {
+      "group": "walk",
+      "pose": 3,
+      "mode": "optimized",
+      "rectangles": 323
+    },
+    {
+      "group": "walk",
+      "pose": 4,
+      "mode": "optimized",
+      "rectangles": 299
+    },
+    {
+      "group": "walk",
+      "pose": 5,
+      "mode": "optimized",
+      "rectangles": 308
+    },
+    {
+      "group": "backwalk",
+      "pose": 0,
+      "mode": "initial",
+      "rectangles": 409
+    },
+    {
+      "group": "backwalk",
+      "pose": 1,
+      "mode": "initial",
+      "rectangles": 385
+    },
+    {
+      "group": "backwalk",
+      "pose": 2,
+      "mode": "initial",
+      "rectangles": 375
+    },
+    {
+      "group": "backwalk",
+      "pose": 3,
+      "mode": "initial",
+      "rectangles": 410
+    },
+    {
+      "group": "backwalk",
+      "pose": 4,
+      "mode": "initial",
+      "rectangles": 375
+    },
+    {
+      "group": "backwalk",
+      "pose": 5,
+      "mode": "initial",
+      "rectangles": 372
+    },
+    {
+      "group": "backwalk",
+      "pose": 0,
+      "mode": "optimized",
+      "rectangles": 328
+    },
+    {
+      "group": "backwalk",
+      "pose": 1,
+      "mode": "optimized",
+      "rectangles": 304
+    },
+    {
+      "group": "backwalk",
+      "pose": 2,
+      "mode": "optimized",
+      "rectangles": 295
+    },
+    {
+      "group": "backwalk",
+      "pose": 3,
+      "mode": "optimized",
+      "rectangles": 334
+    },
+    {
+      "group": "backwalk",
+      "pose": 4,
+      "mode": "optimized",
+      "rectangles": 295
+    },
+    {
+      "group": "backwalk",
+      "pose": 5,
+      "mode": "optimized",
+      "rectangles": 303
+    }
+  ],
+  "optimizedMax": 334,
+  "optimizedMean": 306.71,
+  "scope": "offline encoding verification only"
+}

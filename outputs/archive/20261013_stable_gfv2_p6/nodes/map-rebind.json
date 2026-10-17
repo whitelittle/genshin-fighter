@@ -1,0 +1,1201 @@
+{
+  "sourceMapFilename": "111.gil",
+  "sourceMapSha256": "757f5c8b0f76499e3065a2da29bb07ce72cc20ce8cfe943de46a89627a3d0527",
+  "sameMapOnly": true,
+  "mapUnmodified": true,
+  "files": [
+    {
+      "filename": "gpt_20261013_GF3绑定地图已有命名信号.gia",
+      "bytes": 97618,
+      "sha256": "3e61b7d4fbf99d0a7457ae847caef6cc8d0238cfc5dafb6e7082078809d43f3f",
+      "nodes": 517,
+      "embeddedSignalDefinitions": 0,
+      "requiredExistingSignals": [
+        {
+          "id": 1073741841,
+          "signal": "GF3Hello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741845,
+          "signal": "GF3Seat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741849,
+          "signal": "GF3Progress",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741853,
+          "signal": "GF3Reveal",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741857,
+          "signal": "GF3Team",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741861,
+          "signal": "GF3Reset",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741865,
+          "signal": "GF3BattleHello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741869,
+          "signal": "GF3BattleSeat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741873,
+          "signal": "GF3BattleFrames",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741877,
+          "signal": "GF3BattleFramesOut",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741921,
+          "signal": "GF3Quit",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741925,
+          "signal": "GF3Close",
+          "kind": "发送客户端脚本信号"
+        }
+      ]
+    },
+    {
+      "filename": "gpt_20261013_GFV2恢复原节点_引用已有信号.gia",
+      "bytes": 3920,
+      "sha256": "1b9ae338dcc7ccffe02e79ccb30e939c602313fa331a7cc315915fe0c1f6e37f",
+      "nodes": 26,
+      "embeddedSignalDefinitions": 0,
+      "requiredExistingSignals": [
+        {
+          "id": 1073741825,
+          "signal": "GFV2Hello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741829,
+          "signal": "GFV2Seat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741833,
+          "signal": "GFV2Frames",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741837,
+          "signal": "GFV2FramesOut",
+          "kind": "发送客户端脚本信号"
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "filename": "校验专用_GF3地图信号声明.gia",
+      "bytes": 119135,
+      "sha256": "5889f748996c6238676e5c005441dec9db2f04e7ef24107effb26ee63e686b02",
+      "nodes": 517,
+      "embeddedSignalDefinitions": 48,
+      "requiredExistingSignals": [
+        {
+          "id": 1073741841,
+          "signal": "GF3Hello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741845,
+          "signal": "GF3Seat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741849,
+          "signal": "GF3Progress",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741853,
+          "signal": "GF3Reveal",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741857,
+          "signal": "GF3Team",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741861,
+          "signal": "GF3Reset",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741865,
+          "signal": "GF3BattleHello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741869,
+          "signal": "GF3BattleSeat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741873,
+          "signal": "GF3BattleFrames",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741877,
+          "signal": "GF3BattleFramesOut",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741921,
+          "signal": "GF3Quit",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741925,
+          "signal": "GF3Close",
+          "kind": "发送客户端脚本信号"
+        }
+      ]
+    },
+    {
+      "filename": "校验专用_GFV2地图信号声明.gia",
+      "bytes": 10808,
+      "sha256": "320775fec9c6fe63dfb8046593007b613d8829eaf023ec514591eb7c885c910c",
+      "nodes": 26,
+      "embeddedSignalDefinitions": 16,
+      "requiredExistingSignals": [
+        {
+          "id": 1073741825,
+          "signal": "GFV2Hello",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741829,
+          "signal": "GFV2Seat",
+          "kind": "发送客户端脚本信号"
+        },
+        {
+          "id": 1073741833,
+          "signal": "GFV2Frames",
+          "kind": "监听信号"
+        },
+        {
+          "id": 1073741837,
+          "signal": "GFV2FramesOut",
+          "kind": "发送客户端脚本信号"
+        }
+      ]
+    }
+  ],
+  "mutations": [
+    {
+      "node": 6,
+      "signal": "GF3Hello",
+      "kind": "监听信号",
+      "oldId": 1073742121,
+      "newId": 1073741841,
+      "version": 2
+    },
+    {
+      "node": 8,
+      "signal": "GF3Seat",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742125,
+      "newId": 1073741845,
+      "version": 1
+    },
+    {
+      "node": 11,
+      "signal": "GF3Seat",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742125,
+      "newId": 1073741845,
+      "version": 1
+    },
+    {
+      "node": 19,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 21,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 25,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 27,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 31,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 33,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 35,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 37,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 46,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 48,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 52,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 54,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 58,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 60,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 62,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 64,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 72,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 74,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 97,
+      "signal": "GF3Team",
+      "kind": "监听信号",
+      "oldId": 1073742137,
+      "newId": 1073741857,
+      "version": 1
+    },
+    {
+      "node": 106,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 108,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 111,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 113,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 116,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 118,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 120,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 122,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 128,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 130,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 133,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 135,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 138,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 140,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 142,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 144,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 152,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 154,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 159,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 161,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 164,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 166,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 169,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 171,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 173,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 175,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 181,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 183,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 186,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 188,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 191,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 193,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 195,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 197,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 205,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 207,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 234,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 236,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 239,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 241,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 244,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 246,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 248,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 250,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 256,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 258,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 261,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 263,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 266,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 268,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 270,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 272,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 280,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 282,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 287,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 289,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 292,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 294,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 297,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 299,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 301,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 303,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 309,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 311,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 314,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 316,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 319,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 321,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 323,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 325,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 333,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 335,
+      "signal": "GF3Reveal",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742133,
+      "newId": 1073741853,
+      "version": 1
+    },
+    {
+      "node": 407,
+      "signal": "GF3Reset",
+      "kind": "监听信号",
+      "oldId": 1073742141,
+      "newId": 1073741861,
+      "version": 1
+    },
+    {
+      "node": 420,
+      "signal": "GF3Seat",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742125,
+      "newId": 1073741845,
+      "version": 1
+    },
+    {
+      "node": 422,
+      "signal": "GF3Seat",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742125,
+      "newId": 1073741845,
+      "version": 1
+    },
+    {
+      "node": 426,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 428,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 431,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 433,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 436,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 438,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 440,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 442,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 448,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 450,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 453,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 455,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 458,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 460,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 462,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 464,
+      "signal": "GF3Progress",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742129,
+      "newId": 1073741849,
+      "version": 1
+    },
+    {
+      "node": 478,
+      "signal": "GF3BattleHello",
+      "kind": "监听信号",
+      "oldId": 1073742145,
+      "newId": 1073741865,
+      "version": 2
+    },
+    {
+      "node": 480,
+      "signal": "GF3BattleSeat",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742149,
+      "newId": 1073741869,
+      "version": 2
+    },
+    {
+      "node": 482,
+      "signal": "GF3BattleSeat",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742149,
+      "newId": 1073741869,
+      "version": 2
+    },
+    {
+      "node": 487,
+      "signal": "GF3BattleFrames",
+      "kind": "监听信号",
+      "oldId": 1073742153,
+      "newId": 1073741873,
+      "version": 5
+    },
+    {
+      "node": 489,
+      "signal": "GF3BattleFramesOut",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742157,
+      "newId": 1073741877,
+      "version": 3
+    },
+    {
+      "node": 491,
+      "signal": "GF3BattleFramesOut",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742157,
+      "newId": 1073741877,
+      "version": 3
+    },
+    {
+      "node": 502,
+      "signal": "GF3Quit",
+      "kind": "监听信号",
+      "oldId": 1073742161,
+      "newId": 1073741921,
+      "version": 2
+    },
+    {
+      "node": 508,
+      "signal": "GF3Close",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742165,
+      "newId": 1073741925,
+      "version": 2
+    },
+    {
+      "node": 510,
+      "signal": "GF3Close",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742165,
+      "newId": 1073741925,
+      "version": 2
+    },
+    {
+      "node": 512,
+      "signal": "GF3Close",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742165,
+      "newId": 1073741925,
+      "version": 2
+    },
+    {
+      "node": 514,
+      "signal": "GF3Close",
+      "kind": "发送客户端脚本信号",
+      "oldId": 1073742165,
+      "newId": 1073741925,
+      "version": 2
+    }
+  ],
+  "nativeImportVerified": false
+}

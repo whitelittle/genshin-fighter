@@ -1,0 +1,25 @@
+{
+  "character": "arlecchino",
+  "assetProductionStatus": "complete candidate delivery",
+  "actionsWithNewPoses": 25,
+  "mainDisplayStates": 138,
+  "uniqueBodySpritesIncludingVariants": 120,
+  "effects": 8,
+  "pendingNewGroups": [],
+  "candidateDelivery": "完整动作候选交付.md",
+  "verification": "verification.json",
+  "renderer": "player-v2.js",
+  "sourceTool": "built-in image_gen plus code-native small FX recipes",
+  "artUserAccepted": false,
+  "battleRuntimeIntegrated": false,
+  "simulator": "not run",
+  "device": "not observed",
+  "performanceAccepted": false,
+  "followupOutsideAssetDelivery": [
+    "final user art review",
+    "combat boxes/balance/cancel/throw escape/wall limits",
+    "deterministic battle integration",
+    "platform pool/device validation"
+  ],
+  "doNotStartAnotherCharacter": true
+}

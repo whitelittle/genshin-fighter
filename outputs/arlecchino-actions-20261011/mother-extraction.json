@@ -1,0 +1,21 @@
+{
+  "source": "source/master-cutout-v6.png",
+  "file": "frames/mother-extracted-v6.png",
+  "sourceOffset": [
+    32,
+    32
+  ],
+  "method": "alpha250 opaque support plus 2-source-pixel antialias margin; original RGBA unchanged inside support",
+  "sourceHash": "f5a52441f3cd05d4563ac8502fc812c7f9698c876e63c55eb4fb405213d65614",
+  "extractedHash": "32978cabbbc6563163f056e0c6fa0c323d5d813d993fd33f64dd65c95f6d7072",
+  "retainedPixels": 504951,
+  "removedFringePixels": 27938,
+  "corePreserved": true,
+  "scaleCandidate": 0.23,
+  "anchorCandidate": [
+    620,
+    1557
+  ],
+  "artAccepted": false,
+  "runtimeIntegrated": false
+}

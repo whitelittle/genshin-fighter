@@ -1,0 +1,84 @@
+{
+  "mockOnly": true,
+  "clientSha256": "2148153c59a59fa1039514e1cda0be76b44c6ede1c85704d32e494b9cd549a64",
+  "local": [
+    {
+      "device": "KeyboardAndMouse",
+      "canvas": [
+        1600,
+        900
+      ],
+      "titleMenuSelectFightPauseResultRematchReselect": true,
+      "characters": [
+        6,
+        6
+      ],
+      "updates": 2724,
+      "maxMockInstructions": 731997,
+      "stats": {
+        "controls": 16186,
+        "active": 3013,
+        "visibleImages": 2980,
+        "visibleTexts": 23,
+        "glyphs": 145
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        900,
+        1600
+      ],
+      "titleMenuSelectFightPauseResultRematchReselect": true,
+      "characters": [
+        6,
+        6
+      ],
+      "updates": 2536,
+      "maxMockInstructions": 752695,
+      "stats": {
+        "controls": 12186,
+        "active": 3013,
+        "visibleImages": 2980,
+        "visibleTexts": 23,
+        "glyphs": 145
+      }
+    },
+    {
+      "device": "Mobile",
+      "canvas": [
+        1600,
+        900
+      ],
+      "titleMenuSelectFightPauseResultRematchReselect": true,
+      "characters": [
+        6,
+        6
+      ],
+      "updates": 2536,
+      "maxMockInstructions": 682107,
+      "stats": {
+        "controls": 12186,
+        "active": 3013,
+        "visibleImages": 2980,
+        "visibleTexts": 23,
+        "glyphs": 145
+      }
+    }
+  ],
+  "network": {
+    "characters": [
+      6,
+      6
+    ],
+    "commonConfirmedHashes": 4,
+    "rollbacks": [
+      71,
+      71
+    ],
+    "latency": 0.06,
+    "jitter": 0.04,
+    "packetLoss": 0.03,
+    "disconnectToResult": true
+  }
+}

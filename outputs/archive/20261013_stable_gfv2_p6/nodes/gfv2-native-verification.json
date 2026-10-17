@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Hello uses both players and seats 1/2",
+    "Both directions preserve all five fields and the exact string",
+    "Invalid slot and epoch reject",
+    "One-player seat and absent second-player guard"
+  ],
+  "nodes": 26,
+  "sha256": "1b9ae338dcc7ccffe02e79ccb30e939c602313fa331a7cc315915fe0c1f6e37f",
+  "nativeImportVerified": false
+}

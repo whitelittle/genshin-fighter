@@ -1,0 +1,32 @@
+{
+  "actions": 25,
+  "mainDisplayStates": 138,
+  "uniqueBodySpritesIncludingVariants": 120,
+  "effects": 8,
+  "portrait": "separate source/fit",
+  "opaqueOwnership": {
+    "uniqueObjects": 120,
+    "sourceSheets": 28,
+    "opaqueOwnershipOverlap": [],
+    "status": "passed"
+  },
+  "sourceRGBA": "retained bytes equal original ROI",
+  "rectangles": "all actual body/FX/portrait targets reconstructed exactly",
+  "lua": "Lua5.3 data module loaded, not combat simulation",
+  "browser": {
+    "mainStates": 276,
+    "QBranchStates": 32,
+    "pairedStates": 48,
+    "groundChainTransitions": 8,
+    "consoleErrors": 0
+  },
+  "peakBodyRects": 1385,
+  "peakFXRects": 641,
+  "opponentArtworkAndUnits": "original baseline hashes and units verified",
+  "candidate": true,
+  "artUserAccepted": false,
+  "battleRuntimeIntegrated": false,
+  "simulator": "not run",
+  "device": "not observed",
+  "performanceAccepted": false
+}

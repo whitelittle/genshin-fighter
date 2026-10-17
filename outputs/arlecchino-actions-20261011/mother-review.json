@@ -1,0 +1,128 @@
+{
+  "character": "arlecchino",
+  "sourceGeneration": "built-in image_gen",
+  "userFeedback": "母版过于修长；恢复正常成年比例，不能机械压缩图片",
+  "currentProportionCandidate": "source/master-compact-v5.png",
+  "cutoutCandidate": "source/master-cutout-v6.png",
+  "proportionReview": "shorter leg chains and wider torso visually improved; user acceptance pending",
+  "transparency": "FAIL: soft external gray/red halo remains; no fitted animation production from these mothers yet",
+  "runtimeIntegrated": false,
+  "simulator": "not run",
+  "device": "not observed",
+  "files": [
+    {
+      "file": "source/master-alpha-v2.png",
+      "sha256": "3fa08261d6db626f4eab6efb12d5b2b311db55c51f5f046e071df5257e7f1cf0",
+      "size": [
+        1024,
+        1536
+      ],
+      "clearPixels": 1106550,
+      "corePixels": 396520,
+      "softPixels": 69794,
+      "alphaMax": 254,
+      "coreBounds": [
+        113,
+        31,
+        880,
+        1514
+      ],
+      "status": "candidate; visible external halo, not production-ready"
+    },
+    {
+      "file": "source/master-compact-v5.png",
+      "sha256": "b8de0eb78427f44bc98046a63829c14972ee649b19b5afec4a0213b99d435ee6",
+      "size": [
+        1024,
+        1536
+      ],
+      "clearPixels": 1042310,
+      "corePixels": 450858,
+      "softPixels": 79696,
+      "alphaMax": 254,
+      "coreBounds": [
+        67,
+        10,
+        957,
+        1529
+      ],
+      "status": "candidate; visible external halo, not production-ready"
+    },
+    {
+      "file": "source/master-cutout-v6.png",
+      "sha256": "f5a52441f3cd05d4563ac8502fc812c7f9698c876e63c55eb4fb405213d65614",
+      "size": [
+        1024,
+        1536
+      ],
+      "clearPixels": 1039975,
+      "corePixels": 475401,
+      "softPixels": 57488,
+      "alphaMax": 254,
+      "coreBounds": [
+        62,
+        11,
+        965,
+        1531
+      ],
+      "status": "candidate; visible external halo, not production-ready"
+    },
+    {
+      "file": "source/master-normal-v4.png",
+      "sha256": "fd3eef1fa7f4371cfd7fa4f215bff53fd5c9cc7235ffd4180cdd2b3e57fa9d10",
+      "size": [
+        1024,
+        1536
+      ],
+      "clearPixels": 1034344,
+      "corePixels": 441268,
+      "softPixels": 97252,
+      "alphaMax": 254,
+      "coreBounds": [
+        81,
+        36,
+        844,
+        1515
+      ],
+      "status": "candidate; visible external halo, not production-ready"
+    },
+    {
+      "file": "source/master-proportion-v3.png",
+      "sha256": "9893f761f17b733e8ce8ee32c58cc0975416598830ac3f46bb6230026ec91dad",
+      "size": [
+        1024,
+        1536
+      ],
+      "clearPixels": 1071860,
+      "corePixels": 431766,
+      "softPixels": 69238,
+      "alphaMax": 254,
+      "coreBounds": [
+        151,
+        41,
+        897,
+        1504
+      ],
+      "status": "candidate; visible external halo, not production-ready"
+    },
+    {
+      "file": "source/master-v1.png",
+      "sha256": "1799605c155f733bb3d87bc7651ae4bfc77131ffa18eb71fbeb0d3b4b6641bb5",
+      "size": [
+        1024,
+        1536
+      ],
+      "clearPixels": 1086599,
+      "corePixels": 375958,
+      "softPixels": 110307,
+      "alphaMax": 254,
+      "coreBounds": [
+        115,
+        33,
+        872,
+        1512
+      ],
+      "status": "candidate; visible external halo, not production-ready"
+    }
+  ]
+}

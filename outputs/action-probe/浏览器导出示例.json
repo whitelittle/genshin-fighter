@@ -1,0 +1,23 @@
+{
+  "version": "20261003-action-probe-1",
+  "role": "keqing",
+  "action": "A",
+  "design": {
+    "name": "云来剑法 · 横切",
+    "startup": 6,
+    "active": 3,
+    "recovery": 12,
+    "reach": 90,
+    "damage": 7,
+    "fx": "slash",
+    "notes": "采用低重心进步横切；手臂带剑走前方弧线，禁止整个人像木板一样抡动。",
+    "height": "mid",
+    "hitCount": 1,
+    "blockstun": 10,
+    "hitstun": 16,
+    "cancel": "命中后可接特殊技；空挥不可取消",
+    "effectExtent": 127
+  },
+  "reference": "https://www.youtube.com/watch?v=lf_b7_5oAZk",
+  "productionCombatChanged": false
+}

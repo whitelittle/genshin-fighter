@@ -1,0 +1,1070 @@
+{
+  "character": "arlecchino",
+  "status": "design candidate, not battle implementation",
+  "source": "assets/roster-v2/arlecchino-talents.json",
+  "source_sha256": "62c6dc0ba977afb6de674009577b8fbd9e72f2ee3ae1cf1cab548b993611b44e",
+  "identity_note": "威严精确、低幅准备与突然切入的对比",
+  "symbols": "红黑眼、黑手礼服、红镰/赤月翼",
+  "stance": "长步稳进，黑手与衣摆独立读形；防御前臂斜架",
+  "groups": [
+    {
+      "actionId": "arlecchino.light1",
+      "status": "design_candidate_not_implemented",
+      "input": "light1输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "枪尾短击"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.light1.0"
+      ],
+      "visualPoses": [
+        "枪尾短击：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.light2",
+      "status": "design_candidate_not_implemented",
+      "input": "light2输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "斜向镰扫"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.light2.0"
+      ],
+      "visualPoses": [
+        "镰扫：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.light3",
+      "status": "design_candidate_not_implemented",
+      "input": "light3输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "前踏钩斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.light3.0"
+      ],
+      "visualPoses": [
+        "前踏钩斩：准备→出手→有效→恢复，具体身体四姿待标定"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.heavy",
+      "status": "专属方向已研究；逐姿待标定",
+      "input": "heavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "长柄镰从后上方蓄势大弧钩斩"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.heavy.0"
+      ],
+      "visualPoses": [
+        "低身蓄势突进钩切；蹲重贴地镰扫，空重镰钩下压"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouchlight",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "枪尾低点"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.crouchlight.0"
+      ],
+      "visualPoses": [
+        "枪尾低点"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouchheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "低",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "镰刃贴地钩扫"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.crouchheavy.0"
+      ],
+      "visualPoses": [
+        "镰刃贴地钩扫"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.airlight",
+      "status": "design_candidate_not_implemented",
+      "input": "airlight输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "空中镰短切"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.airlight.0"
+      ],
+      "visualPoses": [
+        "空中镰短切"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.airheavy",
+      "status": "design_candidate_not_implemented",
+      "input": "airheavy输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "空中攻击属性待调",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "镰刃向下钩落"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.airheavy.0"
+      ],
+      "visualPoses": [
+        "镰刃向下钩落"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.E",
+      "status": "design_candidate_not_implemented",
+      "input": "E输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "收拢双臂，前脚低步疾进，单臂斜划布下血偿标记，再挺身收手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.E.0"
+      ],
+      "visualPoses": [
+        "收拢双臂，前脚低步疾进，单臂斜划布下血偿标记，再挺身收手"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "mechanic_rule": "E火引导+定向切斩，两阶段候选只有切斩造成一次伤害并标记；火引导不再叠伤。标记固定有效时长，受击中断是否移除明确设为保留至短时结束。",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.Q",
+      "status": "design_candidate_not_implemented",
+      "input": "Q输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "赤月羽翼展开终击；首段命中确认才进入完整演出；落空和防御不锁对手"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "由研究稿声明的分段编号，具体tick待标定，尚未实现"
+      ],
+      "visualPoses": [
+        "短切确认",
+        "确认收势",
+        "头像切入",
+        "赤月蓄势",
+        "释放",
+        "持续冲击一",
+        "持续冲击二",
+        "持续冲击三",
+        "收束",
+        "恢复待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "hit": "确认后完整演出与对手反应",
+        "block": "24tick短收势，不进入领域",
+        "whiff": "24tick短收势，不进入领域",
+        "interrupt": "按逻辑有效阶段取消尚未释放事件；待接入"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "lock": "仅前置有效命中成立；退出解锁双方；贴墙/体型差异待验证",
+      "mechanic_rule": "Q短镰斩确认后赤月翼展开、终结火斩一段；标记在确认后消耗，空挥不白拿无条件重置。",
+      "cinematic": {
+        "total": 162,
+        "confirmationTick": 6,
+        "cutin": [
+          12,
+          42
+        ],
+        "charge": [
+          42,
+          52
+        ],
+        "releaseTick": 52,
+        "hitTicks": [
+          70,
+          94,
+          118
+        ],
+        "fade": [
+          132,
+          142
+        ],
+        "recover": [
+          142,
+          162
+        ],
+        "shortTotal": 24,
+        "fullRequires": "confirmed hit",
+        "damageDistribution": "待正式逻辑标定，总伤害不因显示保持帧增加"
+      },
+      "background": "柔和赤月色域，禁用装饰折线/横线；攻击特效独立",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.throw",
+      "status": "design_candidate_not_implemented",
+      "input": "throw输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "待调60Hz tick",
+      "recovery": "待调60Hz tick",
+      "damage": "待调",
+      "hitstun": "待调",
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "中（候选）",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "前臂探出抓取"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [
+        "arlecchino.throw.0"
+      ],
+      "visualPoses": [
+        "空手接近",
+        "前臂/肩接触",
+        "下沉压重",
+        "转髋前送",
+        "释放",
+        "收势/落地"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "grab": {
+        "distance": "待调",
+        "eligible": "地面可抓状态；不可抓/无敌/已有锁位排除",
+        "escape": "窗口tick待调",
+        "pairAnchor": "腕/腰/肩等实际接触点逐帧标定",
+        "victim": "必须有配对victim动作；墙边与不同体型待验证"
+      },
+      "pair_rule": "黑手控肩/喉部位置→侧身转压→按摔；须校正高矮体型，抓取成立前不锁定。",
+      "contact": "沿用对手现有PNG与尺度；成人/低位由本角色下沉姿势适配；禁止喉部抓握",
+      "clock": {
+        "total": 50,
+        "grabTick": 8,
+        "releaseTick": 32,
+        "status": "candidate timing only"
+      },
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.victim",
+      "status": "design_candidate_not_implemented",
+      "input": "victim输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "空手接近",
+        "前臂/肩接触",
+        "下沉压重",
+        "转髋前送",
+        "释放",
+        "收势/落地"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "pair_rule": "黑手控肩/喉部位置→侧身转压→按摔；须校正高矮体型，抓取成立前不锁定。",
+      "contact": "沿用对手现有PNG与尺度；成人/低位由本角色下沉姿势适配；禁止喉部抓握",
+      "clock": {
+        "total": 50,
+        "grabTick": 8,
+        "releaseTick": 32,
+        "status": "candidate timing only"
+      },
+      "fallDirection": "头左脚右；世界整体镜像；落地/起身共享边界姿势",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.idle",
+      "status": "design_candidate_not_implemented",
+      "input": "idle输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "双脚保持基准，呼气肩臂微降",
+        "吸气肩臂微升；不是走路补帧"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.walk",
+      "status": "design_candidate_not_implemented",
+      "input": "walk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "接触：前脚跟落下后脚尖支撑",
+        "下降：膝弯重心落",
+        "经过：后脚经过支撑脚",
+        "上升：脚踝推送",
+        "另一脚接触",
+        "另一脚经过并回到循环"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.backwalk",
+      "status": "design_candidate_not_implemented",
+      "input": "backwalk输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前掌先承重、后脚探落",
+        "膝弯稳身",
+        "收前脚靠近支撑位",
+        "前掌推出后撤",
+        "另一脚探落",
+        "收脚恢复；不是正走随意倒放"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.jump",
+      "status": "design_candidate_not_implemented",
+      "input": "jump输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝起跳",
+        "蹬地上升",
+        "空中顶点收腿",
+        "下降准备",
+        "屈膝落地回稳"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.forwarddash",
+      "status": "design_candidate_not_implemented",
+      "input": "forwarddash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "前倾蓄脚",
+        "后脚推地",
+        "身体前移",
+        "前脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.backdash",
+      "status": "design_candidate_not_implemented",
+      "input": "backdash输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "后倾收臂",
+        "前脚蹬地",
+        "短后撤",
+        "后脚落地刹停"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouch",
+      "status": "design_candidate_not_implemented",
+      "input": "crouch输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "屈膝下沉",
+        "低姿稳住，头颈不缩入胸腔"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.standguard",
+      "status": "design_candidate_not_implemented",
+      "input": "standguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "抬臂进入角色专属防姿",
+        "防姿保持",
+        "后脚受力吸收冲击",
+        "回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouchguard",
+      "status": "design_candidate_not_implemented",
+      "input": "crouchguard输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "下沉抬臂",
+        "低姿防护",
+        "后膝吸收冲击",
+        "回蹲下"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.hit_knockdown",
+      "status": "design_candidate_not_implemented",
+      "input": "hit_knockdown输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "躯干被击向后",
+        "空受击失衡",
+        "击倒倒下",
+        "落地停留"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "fallDirection": "头左脚右；世界整体镜像；落地/起身共享边界姿势",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.wakeup",
+      "status": "design_candidate_not_implemented",
+      "input": "wakeup输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "手肘支撑起身",
+        "单膝支撑",
+        "双脚承重回待机"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "fallDirection": "头左脚右；世界整体镜像；落地/起身共享边界姿势",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.victory",
+      "status": "design_candidate_not_implemented",
+      "input": "victory输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "收招平复",
+        "角色符号明确的庆祝或谢幕",
+        "呼吸保持"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.defeat",
+      "status": "design_candidate_not_implemented",
+      "input": "defeat输入；仅合法角色状态触发",
+      "condition": "待机/允许取消状态；被控不可触发",
+      "startup": "待调60Hz tick",
+      "active": "无攻击有效段",
+      "recovery": "待调60Hz tick",
+      "damage": 0,
+      "hitstun": 0,
+      "knockback": "待拟合角色体型与墙边设定",
+      "attackLevel": "无",
+      "attackBox": {
+        "status": "待标定",
+        "space": "面向相对坐标，逻辑Y向上",
+        "bind": "无"
+      },
+      "hurtBox": "身体区域独立盒；不得用图片alpha自动生成",
+      "movement": "明确位移曲线待标定；高速攻击连续扫掠",
+      "cancel": "仅确认命中后允许的取消候选；落空/防御不得走命中分支",
+      "invulnerable": false,
+      "hitIds": [],
+      "visualPoses": [
+        "支撑失力",
+        "跪落或倒下",
+        "结束停留不抽搐"
+      ],
+      "anchor": "站立脚底世界锚点；空中pivot独立；禁止逐帧裁切中心",
+      "branches": {
+        "whiff": "收招可反击",
+        "block": "短分支；Q不完整演出",
+        "hit": "独立命中ID防重复；Q命中确认后演出",
+        "interrupt": "未释放事件取消；已释放层是否继续须下方角色规则定义"
+      },
+      "assistantEvents": "角色独立层，未实现",
+      "budget": "待测单人平均/峰值与双人并发；不得算已通过",
+      "runtimeIntegrated": false
+    }
+  ],
+  "research_reference": "arlecchino-research.md",
+  "orientation": "克制准备与镰刃突袭",
+  "original_basis": "本地枪击，重击突进挥斩；E火与突进切斩并施血偿勒令；Q血火翼。",
+  "adaptation": "标记可改为可读的下一次确认机制，第一轮不复制生命之契自耗/治疗/养成。镰刃为专属视觉状态，不把整套换成红色剑招。",
+  "normal_direction": "轻1枪尾短击，轻2镰扫，轻3前踏钩斩；重攻低身蓄势突进钩切；蹲重贴地镰扫，空重镰钩下压。",
+  "E_rule": "E火引导+定向切斩，两阶段候选只有切斩造成一次伤害并标记；火引导不再叠伤。标记固定有效时长，受击中断是否移除明确设为保留至短时结束。",
+  "Q_rule": "Q短镰斩确认后赤月翼展开、终结火斩一段；标记在确认后消耗，空挥不白拿无条件重置。",
+  "throw_rule": "黑手控肩/喉部位置→侧身转压→按摔；须校正高矮体型，抓取成立前不锁定。",
+  "counterplay": "中距离弧形压制；镰内圈、突进末端收势、看标记防御应对。",
+  "representative_sample": "镰柄握点、刃朝向与黑手数量，禁止多手/武器伸长。",
+  "video_observation": "尚未逐帧观看，时间点待补",
+  "E_layer_contact_spec": {
+    "status": "design_candidate_unmeasured",
+    "layers": "身体/镰柄刃/火引导/标记独立",
+    "contact": "右掌握柄左掌支撑；镰刃不变长；只有两手",
+    "active_event": "切斩一次并标记；引导火不叠伤",
+    "interrupt": "有限定向突袭；标记限时，受击仍保留至到期",
+    "ticks": null,
+    "pixel_anchors": null,
+    "hitboxes": null
+  },
+  "latestDecision": "2026-10-11: single-character production, normal adult proportions; Q unified hit-confirmed cinematic; forearm/shoulder throw"
+}

@@ -1,0 +1,5789 @@
+{
+  "idle": {
+    "label": "待机",
+    "sourceFrames": [
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-blink-0.png",
+        "source": "source/idle-inhale-v2.png",
+        "sourceOrigin": [
+          84,
+          35
+        ],
+        "roi": [
+          84,
+          35,
+          956,
+          1490
+        ],
+        "anchor": [
+          531,
+          1449
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "d03f4b38fd1b927ff38f7da4353d8807560c3fd8dd7981d4da2d88e0ab9da88c",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      },
+      {
+        "file": "fit/idle-blink-0.png",
+        "anchor": [
+          30,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-blink-0.json",
+        "rectangles": 636
+      }
+    ],
+    "durations": [
+      48,
+      12
+    ],
+    "phases": [
+      "呼吸保持",
+      "眨眼吸气"
+    ],
+    "status": "新待机候选；脚底与循环接缝仍待播放核对",
+    "events": []
+  },
+  "walk": {
+    "label": "前走",
+    "sourceFrames": [
+      {
+        "file": "frames/walk-passing-v2-0.png",
+        "source": "source/walk-passing-v2.png",
+        "sourceOrigin": [
+          59,
+          7
+        ],
+        "roi": [
+          59,
+          7,
+          449,
+          512
+        ],
+        "anchor": [
+          244,
+          499
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "aea9a67d2cef3ce39715984b06b8d40f11adf3483809e6635707484d197fc57e",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/walk-passing-v2-1.png",
+        "source": "source/walk-passing-v2.png",
+        "sourceOrigin": [
+          543,
+          8
+        ],
+        "roi": [
+          543,
+          8,
+          901,
+          508
+        ],
+        "anchor": [
+          260,
+          494
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "3a2899bb4a30c247d7b3296fc870deec9d4eeee803e593ff7a25685f17a83e1f",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/walk-passing-v2-2.png",
+        "source": "source/walk-passing-v2.png",
+        "sourceOrigin": [
+          58,
+          518
+        ],
+        "roi": [
+          58,
+          518,
+          407,
+          1018
+        ],
+        "anchor": [
+          248,
+          494
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "fb1bb1ac8f04e585dab4376c31700464f304c9548b3b229fb780cee6f7479f75",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/walk-passing-v2-3.png",
+        "source": "source/walk-passing-v2.png",
+        "sourceOrigin": [
+          538,
+          518
+        ],
+        "roi": [
+          538,
+          518,
+          983,
+          1014
+        ],
+        "anchor": [
+          278,
+          490
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "ec767cade3194d126d76bf17b23e05ab2aa8d9885f630e617e2571ecaf6faeb7",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/walk-passing-v2-4.png",
+        "source": "source/walk-passing-v2.png",
+        "sourceOrigin": [
+          61,
+          1021
+        ],
+        "roi": [
+          61,
+          1021,
+          433,
+          1525
+        ],
+        "anchor": [
+          244,
+          498
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "cfac20b82383f21363a049b536fa8522a520fd776e3528ffda3ad20425259967",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/walk-passing-v2-5.png",
+        "source": "source/walk-passing-v2.png",
+        "sourceOrigin": [
+          557,
+          1020
+        ],
+        "roi": [
+          557,
+          1020,
+          889,
+          1525
+        ],
+        "anchor": [
+          250,
+          499
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "f227a6ea7eb99a9cf9111b79194d90a726d2a2fcd930d1945da9bde56fdeb7b1",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/walk-passing-v2-0.png",
+        "anchor": [
+          35,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/walk-passing-v2-0.json",
+        "rectangles": 669
+      },
+      {
+        "file": "fit/walk-passing-v2-1.png",
+        "anchor": [
+          37,
+          68
+        ],
+        "scale": 4.5,
+        "rectData": "fit/walk-passing-v2-1.json",
+        "rectangles": 619
+      },
+      {
+        "file": "fit/walk-passing-v2-2.png",
+        "anchor": [
+          36,
+          68
+        ],
+        "scale": 4.5,
+        "rectData": "fit/walk-passing-v2-2.json",
+        "rectangles": 614
+      },
+      {
+        "file": "fit/walk-passing-v2-3.png",
+        "anchor": [
+          40,
+          68
+        ],
+        "scale": 4.5,
+        "rectData": "fit/walk-passing-v2-3.json",
+        "rectangles": 719
+      },
+      {
+        "file": "fit/walk-passing-v2-4.png",
+        "anchor": [
+          35,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/walk-passing-v2-4.json",
+        "rectangles": 658
+      },
+      {
+        "file": "fit/walk-passing-v2-5.png",
+        "anchor": [
+          36,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/walk-passing-v2-5.json",
+        "rectangles": 578
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "phases": [
+      "左接触",
+      "左承重",
+      "右经过",
+      "右接触",
+      "右承重",
+      "左经过"
+    ],
+    "status": "经过姿源图已重画；左右支撑身份、脚底与循环仍待精校",
+    "events": [],
+    "motion": {
+      "kind": "walk",
+      "direction": 1,
+      "distance": 80
+    }
+  },
+  "backwalk": {
+    "label": "后退",
+    "sourceFrames": [
+      {
+        "file": "frames/backwalk-0.png",
+        "source": "source/backwalk-v1.png",
+        "sourceOrigin": [
+          68,
+          7
+        ],
+        "roi": [
+          68,
+          7,
+          461,
+          501
+        ],
+        "anchor": [
+          269,
+          488
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "549ad2fecc08b0e8e10a5ce767a792d0baf9a6992eeaac99b43f246264b603f2",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backwalk-1.png",
+        "source": "source/backwalk-v1.png",
+        "sourceOrigin": [
+          547,
+          7
+        ],
+        "roi": [
+          547,
+          7,
+          865,
+          501
+        ],
+        "anchor": [
+          264,
+          488
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "fa43a83816331fd4393018a5451c03af8130431f63668aad0f6be679e0a0ce92",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backwalk-2.png",
+        "source": "source/backwalk-v1.png",
+        "sourceOrigin": [
+          97,
+          508
+        ],
+        "roi": [
+          97,
+          508,
+          429,
+          1007
+        ],
+        "anchor": [
+          240,
+          493
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "67546fbb51883b739d0817ff44e9c9e0ada8c1a1168cc47500009aa384c06828",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backwalk-3.png",
+        "source": "source/backwalk-v1.png",
+        "sourceOrigin": [
+          559,
+          508
+        ],
+        "roi": [
+          559,
+          508,
+          965,
+          1003
+        ],
+        "anchor": [
+          264,
+          489
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "a5f7f804e4109a9153495947c674f15fe12a96d06b7cd6d3d0ae3ff2b227f517",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backwalk-4.png",
+        "source": "source/backwalk-v1.png",
+        "sourceOrigin": [
+          77,
+          1014
+        ],
+        "roi": [
+          77,
+          1014,
+          435,
+          1512
+        ],
+        "anchor": [
+          261,
+          492
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "9511ee0d9484a350a5cdcf42a1afaed28fe0155538fc501ae71b8d4383c59e78",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backwalk-5.png",
+        "source": "source/backwalk-v1.png",
+        "sourceOrigin": [
+          547,
+          1012
+        ],
+        "roi": [
+          547,
+          1012,
+          861,
+          1512
+        ],
+        "anchor": [
+          265,
+          494
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "256f12bbb1fc35427683248e860de0ca17c11764c261537daeb2184d46b0c038",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/backwalk-0.png",
+        "anchor": [
+          44,
+          78
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backwalk-0.json",
+        "rectangles": 844
+      },
+      {
+        "file": "fit/backwalk-1.png",
+        "anchor": [
+          44,
+          78
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backwalk-1.json",
+        "rectangles": 718
+      },
+      {
+        "file": "fit/backwalk-2.png",
+        "anchor": [
+          40,
+          79
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backwalk-2.json",
+        "rectangles": 752
+      },
+      {
+        "file": "fit/backwalk-3.png",
+        "anchor": [
+          44,
+          79
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backwalk-3.json",
+        "rectangles": 850
+      },
+      {
+        "file": "fit/backwalk-4.png",
+        "anchor": [
+          43,
+          79
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backwalk-4.json",
+        "rectangles": 759
+      },
+      {
+        "file": "fit/backwalk-5.png",
+        "anchor": [
+          44,
+          79
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backwalk-5.json",
+        "rectangles": 711
+      }
+    ],
+    "durations": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "phases": [
+      "后脚探落",
+      "后脚承重",
+      "前脚收近",
+      "交替蹬退",
+      "交替承重",
+      "收脚恢复"
+    ],
+    "status": "新后退候选；保持右朝向，支撑与循环待精校",
+    "events": [],
+    "motion": {
+      "kind": "walk",
+      "direction": -1,
+      "distance": 70
+    }
+  },
+  "light1": {
+    "label": "轻1 · 枪尾短击",
+    "sourceFrames": [
+      {
+        "file": "frames/light1-pole-v2-0.png",
+        "source": "source/light1-pole-v2.png",
+        "sourceOrigin": [
+          102,
+          12
+        ],
+        "roi": [
+          102,
+          12,
+          745,
+          514
+        ],
+        "anchor": [
+          376,
+          500
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "ed0503dbcab570ec4fc0979e56c7e6ba757e3d307819b2107df49f7eb0f023ca",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light1-pole-v2-1.png",
+        "source": "source/light1-pole-v2.png",
+        "sourceOrigin": [
+          825,
+          59
+        ],
+        "roi": [
+          825,
+          59,
+          1507,
+          516
+        ],
+        "anchor": [
+          415,
+          454
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "a1058d81515d67e2586560cd98ba953e3226eb8eae3b4a751e32deecfcdd759f",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light1-pole-v2-2.png",
+        "source": "source/light1-pole-v2.png",
+        "sourceOrigin": [
+          75,
+          551
+        ],
+        "roi": [
+          75,
+          551,
+          823,
+          994
+        ],
+        "anchor": [
+          388,
+          441
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "9c14dd060b7a1d9ed8be9148d3d3593fba95f8cf385fe7cbba3eaeac072391bb",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light1-pole-v2-3.png",
+        "source": "source/light1-pole-v2.png",
+        "sourceOrigin": [
+          853,
+          517
+        ],
+        "roi": [
+          853,
+          517,
+          1471,
+          1006
+        ],
+        "anchor": [
+          387,
+          491
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "2dbc4e544b2bc893a099bfe35aa1979ee2d03fd6d99039369a780f0fef2a1b0c",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/light1-pole-v2-0.png",
+        "anchor": [
+          61,
+          80
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light1-pole-v2-0.json",
+        "rectangles": 1367
+      },
+      {
+        "file": "fit/light1-pole-v2-1.png",
+        "anchor": [
+          67,
+          73
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light1-pole-v2-1.json",
+        "rectangles": 1376
+      },
+      {
+        "file": "fit/light1-pole-v2-2.png",
+        "anchor": [
+          63,
+          71
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light1-pole-v2-2.json",
+        "rectangles": 1372
+      },
+      {
+        "file": "fit/light1-pole-v2-3.png",
+        "anchor": [
+          63,
+          79
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light1-pole-v2-3.json",
+        "rectangles": 1385
+      }
+    ],
+    "durations": [
+      4,
+      3,
+      3,
+      12
+    ],
+    "phases": [
+      "持柄准备",
+      "前踏送柄",
+      "枪尾有效",
+      "撤肘收势"
+    ],
+    "status": "杆轴弯曲源图已修；身体与持武器合成候选，握点/连接仍待复核",
+    "events": [
+      {
+        "tick": 7,
+        "kind": "pole-butt-hit",
+        "hitId": "light1-1",
+        "status": "design only"
+      }
+    ],
+    "weaponLayer": "held actual weapon composite; independent slash/impact not baked"
+  },
+  "light2": {
+    "label": "轻2 · 镰扫",
+    "sourceFrames": [
+      {
+        "file": "frames/light2-sweep-v2-0.png",
+        "source": "source/light2-sweep-v2.png",
+        "sourceOrigin": [
+          42,
+          39
+        ],
+        "roi": [
+          42,
+          39,
+          519,
+          510
+        ],
+        "anchor": [
+          192,
+          465
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "1adef17e7704a35213fdc9a4852ffd238f13d3a99c60c5387a3d41b2d37fba26",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light2-sweep-v2-1.png",
+        "source": "source/light2-sweep-v2.png",
+        "sourceOrigin": [
+          540,
+          87
+        ],
+        "roi": [
+          540,
+          87,
+          1016,
+          518
+        ],
+        "anchor": [
+          208,
+          425
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "bdf53a5112d2a898d1fdd7981f5898c48e22cbe92888a831a69f542dcfe6b7ab",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light2-sweep-v2-2.png",
+        "source": "source/light2-sweep-v2.png",
+        "sourceOrigin": [
+          18,
+          560
+        ],
+        "roi": [
+          18,
+          560,
+          565,
+          988
+        ],
+        "anchor": [
+          256,
+          422
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "7be8322d9785a8faddbdff9c9208f4a349da5b8d95dd7a89d712c4ed81da9bf2",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light2-sweep-v2-3.png",
+        "source": "source/light2-sweep-v2.png",
+        "sourceOrigin": [
+          508,
+          561
+        ],
+        "roi": [
+          508,
+          561,
+          1021,
+          1004
+        ],
+        "anchor": [
+          238,
+          437
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "db6155ef22dd360e11aaff23f132fe18575366d737eedde3de7febff87065f29",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light2-sweep-v2-4.png",
+        "source": "source/light2-sweep-v2.png",
+        "sourceOrigin": [
+          33,
+          1018
+        ],
+        "roi": [
+          33,
+          1018,
+          533,
+          1473
+        ],
+        "anchor": [
+          237,
+          449
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "b43de3164d06e7ad72295fe7aa68c7e353673035c1b7d7e4f6d89dbe556d52f5",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light2-sweep-v2-5.png",
+        "source": "source/light2-sweep-v2.png",
+        "sourceOrigin": [
+          549,
+          1019
+        ],
+        "roi": [
+          549,
+          1019,
+          1009,
+          1490
+        ],
+        "anchor": [
+          192,
+          465
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "dbf520604a3d8344536fdaca9ec909fa397d3b60218004780f58ee3e7f629d6d",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/light2-sweep-v2-0.png",
+        "anchor": [
+          34,
+          80
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light2-sweep-v2-0.json",
+        "rectangles": 991
+      },
+      {
+        "file": "fit/light2-sweep-v2-1.png",
+        "anchor": [
+          37,
+          73
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light2-sweep-v2-1.json",
+        "rectangles": 1113
+      },
+      {
+        "file": "fit/light2-sweep-v2-2.png",
+        "anchor": [
+          45,
+          73
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light2-sweep-v2-2.json",
+        "rectangles": 1135
+      },
+      {
+        "file": "fit/light2-sweep-v2-3.png",
+        "anchor": [
+          42,
+          75
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light2-sweep-v2-3.json",
+        "rectangles": 1021
+      },
+      {
+        "file": "fit/light2-sweep-v2-4.png",
+        "anchor": [
+          42,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light2-sweep-v2-4.json",
+        "rectangles": 1138
+      },
+      {
+        "file": "fit/light2-sweep-v2-5.png",
+        "anchor": [
+          34,
+          80
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light2-sweep-v2-5.json",
+        "rectangles": 973
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      4,
+      4,
+      12
+    ],
+    "phases": [
+      "低位持镰",
+      "屈膝蓄势",
+      "镰刃有效",
+      "横扫随势",
+      "屈肘制动",
+      "低位恢复"
+    ],
+    "status": "镰刃在前横扫候选；武器一致性、握点、尺度与连接待复核",
+    "events": [
+      {
+        "tick": 8,
+        "kind": "scythe-sweep-hit",
+        "hitId": "light2-1",
+        "status": "design only"
+      }
+    ],
+    "weaponLayer": "held weapon composite, no baked attack FX"
+  },
+  "crouch": {
+    "label": "蹲下",
+    "sourceFrames": [
+      {
+        "file": "frames/crouch-v1-0.png",
+        "source": "source/crouch-v1.png",
+        "sourceOrigin": [
+          31,
+          17
+        ],
+        "roi": [
+          31,
+          17,
+          537,
+          811
+        ],
+        "anchor": [
+          352,
+          788
+        ],
+        "scale": 0.39,
+        "fullCanvasContact": false,
+        "sourceHash": "ff4eed4d2732fcbece4ebcaf3c7d96f35022980fc9dcbc1414c6bd6e0d9ae206",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouch-v1-1.png",
+        "source": "source/crouch-v1.png",
+        "sourceOrigin": [
+          517,
+          83
+        ],
+        "roi": [
+          517,
+          83,
+          989,
+          808
+        ],
+        "anchor": [
+          316,
+          719
+        ],
+        "scale": 0.39,
+        "fullCanvasContact": false,
+        "sourceHash": "f4ba7ffc0eafde99c8d00882f0837cd9617f3d033573c4fc536e08923aab7a2a",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouch-v1-2.png",
+        "source": "source/crouch-v1.png",
+        "sourceOrigin": [
+          27,
+          870
+        ],
+        "roi": [
+          27,
+          870,
+          544,
+          1467
+        ],
+        "anchor": [
+          338,
+          591
+        ],
+        "scale": 0.39,
+        "fullCanvasContact": false,
+        "sourceHash": "f529ccf7f9745d3b2eef61ac018932c645dbb0b9e250e78d0318edc01ef36824",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouch-v1-3.png",
+        "source": "source/crouch-v1.png",
+        "sourceOrigin": [
+          528,
+          902
+        ],
+        "roi": [
+          528,
+          902,
+          1007,
+          1460
+        ],
+        "anchor": [
+          311,
+          552
+        ],
+        "scale": 0.39,
+        "fullCanvasContact": false,
+        "sourceHash": "15b67e6427ebd9bb90768848daad74f4718ee04d3b9e4e001775dca690f78864",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/crouch-v1-0.png",
+        "anchor": [
+          33,
+          71
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v1-0.json",
+        "rectangles": 714
+      },
+      {
+        "file": "fit/crouch-v1-1.png",
+        "anchor": [
+          30,
+          65
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v1-1.json",
+        "rectangles": 656
+      },
+      {
+        "file": "fit/crouch-v1-2.png",
+        "anchor": [
+          32,
+          54
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v1-2.json",
+        "rectangles": 570
+      },
+      {
+        "file": "fit/crouch-v1-3.png",
+        "anchor": [
+          29,
+          50
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v1-3.json",
+        "rectangles": 513
+      }
+    ],
+    "durations": [
+      3,
+      3,
+      8,
+      18
+    ],
+    "phases": [
+      "屈膝",
+      "下沉",
+      "低位稳身",
+      "保持"
+    ],
+    "events": [],
+    "status": "新基础动作候选；体型、支撑与衔接待复核"
+  },
+  "standguard": {
+    "label": "站防",
+    "sourceFrames": [
+      {
+        "file": "frames/standguard-v1-0.png",
+        "source": "source/standguard-v1.png",
+        "sourceOrigin": [
+          43,
+          13
+        ],
+        "roi": [
+          43,
+          13,
+          514,
+          749
+        ],
+        "anchor": [
+          267,
+          730
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "a1d53d51e20fb58f46b7ae62e312b36fff3c126ff1d167701f6a0c31c9ee89ab",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/standguard-v1-1.png",
+        "source": "source/standguard-v1.png",
+        "sourceOrigin": [
+          527,
+          12
+        ],
+        "roi": [
+          527,
+          12,
+          1030,
+          748
+        ],
+        "anchor": [
+          298,
+          730
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "3c72bd430c703488d04d80c689309c9c1a217ebead5234cf6d456adcd1b4f12f",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/standguard-v1-2.png",
+        "source": "source/standguard-v1.png",
+        "sourceOrigin": [
+          11,
+          763
+        ],
+        "roi": [
+          11,
+          763,
+          538,
+          1505
+        ],
+        "anchor": [
+          299,
+          736
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "5c487c3e39ddf39e8c2f80f847f900bb244cf08019d2fffa1cfd16580f576149",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/standguard-v1-3.png",
+        "source": "source/standguard-v1.png",
+        "sourceOrigin": [
+          540,
+          762
+        ],
+        "roi": [
+          540,
+          762,
+          1034,
+          1504
+        ],
+        "anchor": [
+          277,
+          736
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "c76c5f7c91a37f1d5ea590b330fabe90b0e65d3e0ede56c0ac28605e0c5593ec",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/standguard-v1-0.png",
+        "anchor": [
+          29,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v1-0.json",
+        "rectangles": 651
+      },
+      {
+        "file": "fit/standguard-v1-1.png",
+        "anchor": [
+          32,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v1-1.json",
+        "rectangles": 691
+      },
+      {
+        "file": "fit/standguard-v1-2.png",
+        "anchor": [
+          32,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v1-2.json",
+        "rectangles": 711
+      },
+      {
+        "file": "fit/standguard-v1-3.png",
+        "anchor": [
+          30,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v1-3.json",
+        "rectangles": 704
+      }
+    ],
+    "durations": [
+      4,
+      10,
+      8,
+      6
+    ],
+    "phases": [
+      "抬臂",
+      "前臂防护",
+      "承压",
+      "复位"
+    ],
+    "events": [],
+    "status": "新基础动作候选；体型、支撑与衔接待复核"
+  },
+  "crouchguard": {
+    "label": "蹲防",
+    "sourceFrames": [
+      {
+        "file": "frames/crouchguard-v1-0.png",
+        "source": "source/crouchguard-v1.png",
+        "sourceOrigin": [
+          66,
+          11
+        ],
+        "roi": [
+          66,
+          11,
+          636,
+          526
+        ],
+        "anchor": [
+          369,
+          509
+        ],
+        "scale": 0.45,
+        "fullCanvasContact": false,
+        "sourceHash": "63d670a91e4c592052daeed2f825adb04016df60508bb8646b4cf4ec699fc77c",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchguard-v1-1.png",
+        "source": "source/crouchguard-v1.png",
+        "sourceOrigin": [
+          807,
+          63
+        ],
+        "roi": [
+          807,
+          63,
+          1355,
+          531
+        ],
+        "anchor": [
+          333,
+          462
+        ],
+        "scale": 0.45,
+        "fullCanvasContact": false,
+        "sourceHash": "3b98be4fca3a3027f2ed09abfbb2f452cb48e9d826a15be23010f963b9d161cb",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchguard-v1-2.png",
+        "source": "source/crouchguard-v1.png",
+        "sourceOrigin": [
+          90,
+          538
+        ],
+        "roi": [
+          90,
+          538,
+          637,
+          1008
+        ],
+        "anchor": [
+          375,
+          464
+        ],
+        "scale": 0.45,
+        "fullCanvasContact": false,
+        "sourceHash": "df8024f0f81fbfb0b92cf63eb7af458c4410cc71bd3c5c68c0452965732a5989",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchguard-v1-3.png",
+        "source": "source/crouchguard-v1.png",
+        "sourceOrigin": [
+          786,
+          555
+        ],
+        "roi": [
+          786,
+          555,
+          1394,
+          1008
+        ],
+        "anchor": [
+          389,
+          447
+        ],
+        "scale": 0.45,
+        "fullCanvasContact": false,
+        "sourceHash": "b2e5e6b608e030a5c90d7b5d23e3b8e063aa210f6a28fbc0acd10b17948993cc",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/crouchguard-v1-0.png",
+        "anchor": [
+          39,
+          53
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchguard-v1-0.json",
+        "rectangles": 674
+      },
+      {
+        "file": "fit/crouchguard-v1-1.png",
+        "anchor": [
+          36,
+          49
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchguard-v1-1.json",
+        "rectangles": 597
+      },
+      {
+        "file": "fit/crouchguard-v1-2.png",
+        "anchor": [
+          40,
+          49
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchguard-v1-2.json",
+        "rectangles": 619
+      },
+      {
+        "file": "fit/crouchguard-v1-3.png",
+        "anchor": [
+          41,
+          47
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchguard-v1-3.json",
+        "rectangles": 628
+      }
+    ],
+    "durations": [
+      4,
+      10,
+      8,
+      6
+    ],
+    "phases": [
+      "下沉抬臂",
+      "低位防护",
+      "低位承压",
+      "回蹲"
+    ],
+    "events": [],
+    "status": "新基础动作候选；体型、支撑与衔接待复核"
+  },
+  "jump": {
+    "label": "跳跃",
+    "sourceFrames": [
+      {
+        "file": "frames/jump-v1-0.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          54,
+          76
+        ],
+        "roi": [
+          54,
+          76,
+          452,
+          484
+        ],
+        "anchor": [
+          281,
+          402
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "56cf27acf71d5de6707839b9868a8e20d920736ee5f83c9b86792a8a1f0272d3",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-1.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          538,
+          21
+        ],
+        "roi": [
+          538,
+          21,
+          906,
+          483
+        ],
+        "anchor": [
+          249,
+          456
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "936b3adaa793fc0b61f2170cfb96998bbbbfd90cc309be4ac454ba31533ea9b4",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-2.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          43,
+          507
+        ],
+        "roi": [
+          43,
+          507,
+          484,
+          969
+        ],
+        "anchor": [
+          281,
+          560.5
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "34e3bcf7f036cc6c88d1aec5e46f5907873a811dbb26bdc798ded04bdbc9bc56",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-3.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          555,
+          492
+        ],
+        "roi": [
+          555,
+          492,
+          987,
+          901
+        ],
+        "anchor": [
+          251,
+          566.5
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "f2f6ee9750c9def602c7bfa6718d1295104c415b3cab843c6edcbaa1bf1ea64f",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-4.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          75,
+          996
+        ],
+        "roi": [
+          75,
+          996,
+          499,
+          1492
+        ],
+        "anchor": [
+          262,
+          576.5
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "76810e2e24ec29050f834fcf4cf289f08096f73fcc8800c7c83d420f73c1e074",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-5.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          524,
+          1077
+        ],
+        "roi": [
+          524,
+          1077,
+          989,
+          1500
+        ],
+        "anchor": [
+          269,
+          417
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "803f2c16a5c57659b0aab1102c9ee23b8f024f585f4925b0435a23f77658b0c8",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/jump-v1-0.png",
+        "anchor": [
+          37,
+          53
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-0.json",
+        "rectangles": 585
+      },
+      {
+        "file": "fit/jump-v1-1.png",
+        "anchor": [
+          33,
+          59
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-1.json",
+        "rectangles": 599
+      },
+      {
+        "file": "fit/jump-v1-2.png",
+        "anchor": [
+          37,
+          72
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-2.json",
+        "rectangles": 633
+      },
+      {
+        "file": "fit/jump-v1-3.png",
+        "anchor": [
+          34,
+          73
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-3.json",
+        "rectangles": 545
+      },
+      {
+        "file": "fit/jump-v1-4.png",
+        "anchor": [
+          35,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-4.json",
+        "rectangles": 630
+      },
+      {
+        "file": "fit/jump-v1-5.png",
+        "anchor": [
+          36,
+          54
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-5.json",
+        "rectangles": 650
+      }
+    ],
+    "durations": [
+      6,
+      4,
+      7,
+      10,
+      7,
+      8
+    ],
+    "phases": [
+      "预蹲",
+      "蹬地",
+      "上升",
+      "顶点",
+      "下降",
+      "落地"
+    ],
+    "events": [],
+    "status": "新基础动作候选；体型、支撑与衔接待复核",
+    "motion": {
+      "kind": "jump",
+      "height": 120,
+      "takeoffTick": 6,
+      "landingTick": 34,
+      "anchorPolicy": "air poses virtual support below hip; landing actual foot support"
+    }
+  },
+  "light3": {
+    "label": "轻3 · 钩斩",
+    "sourceFrames": [
+      {
+        "file": "frames/light3-hook-v2-0.png",
+        "source": "source/light3-hook-v2.png",
+        "sourceOrigin": [
+          98,
+          12
+        ],
+        "roi": [
+          98,
+          12,
+          749,
+          344
+        ],
+        "anchor": [
+          210,
+          326
+        ],
+        "scale": 0.78,
+        "fullCanvasContact": false,
+        "sourceHash": "21dfa4e418e0efdd79879b387c295c7ef384fb83f1072b79fa9cf85ab00c0b07",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light3-hook-v2-1.png",
+        "source": "source/light3-hook-v2.png",
+        "sourceOrigin": [
+          847,
+          22
+        ],
+        "roi": [
+          847,
+          22,
+          1469,
+          342
+        ],
+        "anchor": [
+          238,
+          314
+        ],
+        "scale": 0.78,
+        "fullCanvasContact": false,
+        "sourceHash": "4315dcac1f4d5af1612a033afb64661e21c133c6721786b4ffe7343ffeddb860",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light3-hook-v2-2.png",
+        "source": "source/light3-hook-v2.png",
+        "sourceOrigin": [
+          122,
+          352
+        ],
+        "roi": [
+          122,
+          352,
+          767,
+          696
+        ],
+        "anchor": [
+          235,
+          338
+        ],
+        "scale": 0.78,
+        "fullCanvasContact": false,
+        "sourceHash": "742fd62b250ed7da1779cf6c819c2ce49f3e9b16ee4558f1d352e1cdec32a386",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light3-hook-v2-3.png",
+        "source": "source/light3-hook-v2.png",
+        "sourceOrigin": [
+          826,
+          312
+        ],
+        "roi": [
+          826,
+          312,
+          1499,
+          709
+        ],
+        "anchor": [
+          265,
+          391
+        ],
+        "scale": 0.78,
+        "fullCanvasContact": false,
+        "sourceHash": "2b20653d5d02688064f1466813789b2135a94e6236f8283300ba642b29302d42",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light3-hook-v2-4.png",
+        "source": "source/light3-hook-v2.png",
+        "sourceOrigin": [
+          141,
+          704
+        ],
+        "roi": [
+          141,
+          704,
+          758,
+          1012
+        ],
+        "anchor": [
+          232,
+          302
+        ],
+        "scale": 0.78,
+        "fullCanvasContact": false,
+        "sourceHash": "f2934ef0bae7c43f876c1d24f387058fc0822fa99863191ffb52ffec064aca01",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/light3-hook-v2-5.png",
+        "source": "source/light3-hook-v2.png",
+        "sourceOrigin": [
+          858,
+          713
+        ],
+        "roi": [
+          858,
+          713,
+          1493,
+          1014
+        ],
+        "anchor": [
+          237,
+          295
+        ],
+        "scale": 0.78,
+        "fullCanvasContact": false,
+        "sourceHash": "868abaf9c3b67cbac924aa09de360edea8735aee6c88164343ecea2d09880726",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/light3-hook-v2-0.png",
+        "anchor": [
+          39,
+          59
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light3-hook-v2-0.json",
+        "rectangles": 1020
+      },
+      {
+        "file": "fit/light3-hook-v2-1.png",
+        "anchor": [
+          44,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light3-hook-v2-1.json",
+        "rectangles": 1027
+      },
+      {
+        "file": "fit/light3-hook-v2-2.png",
+        "anchor": [
+          43,
+          61
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light3-hook-v2-2.json",
+        "rectangles": 1013
+      },
+      {
+        "file": "fit/light3-hook-v2-3.png",
+        "anchor": [
+          48,
+          70
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light3-hook-v2-3.json",
+        "rectangles": 1021
+      },
+      {
+        "file": "fit/light3-hook-v2-4.png",
+        "anchor": [
+          43,
+          55
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light3-hook-v2-4.json",
+        "rectangles": 993
+      },
+      {
+        "file": "fit/light3-hook-v2-5.png",
+        "anchor": [
+          44,
+          54
+        ],
+        "scale": 4.5,
+        "rectData": "fit/light3-hook-v2-5.json",
+        "rectangles": 943
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      4,
+      4,
+      14
+    ],
+    "phases": [
+      "低位持镰",
+      "屈膝蓄势",
+      "前踏挑起",
+      "上钩有效",
+      "制动",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 11,
+        "kind": "weapon-hit",
+        "hitId": "light3-1",
+        "status": "design only"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending"
+  },
+  "heavy": {
+    "label": "站重",
+    "sourceFrames": [
+      {
+        "file": "frames/heavy-hook-v2-0.png",
+        "source": "source/heavy-hook-v2.png",
+        "sourceOrigin": [
+          43,
+          38
+        ],
+        "roi": [
+          43,
+          38,
+          645,
+          422
+        ],
+        "anchor": [
+          264,
+          378
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "7fdd6e1ce661eec7357d209e23f83d84aaef3c7c0f95ee8dd20a9f1434a94d1b",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/heavy-hook-v2-1.png",
+        "source": "source/heavy-hook-v2.png",
+        "sourceOrigin": [
+          658,
+          16
+        ],
+        "roi": [
+          658,
+          16,
+          1216,
+          422
+        ],
+        "anchor": [
+          272,
+          400
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "307fb2afe51118f035a9539ec07e0e4245ce745bb4429c0aed1400fe8d148574",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/heavy-hook-v2-2.png",
+        "source": "source/heavy-hook-v2.png",
+        "sourceOrigin": [
+          77,
+          429
+        ],
+        "roi": [
+          77,
+          429,
+          668,
+          867
+        ],
+        "anchor": [
+          238,
+          432
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "98ad04069790ba034a40b81a27068e6358f5618b01cab67b8f4382da8824891d",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/heavy-effective-single-v4-0.png",
+        "source": "source/heavy-effective-single-v4.png",
+        "sourceOrigin": [
+          148,
+          113
+        ],
+        "roi": [
+          148,
+          113,
+          1545,
+          911
+        ],
+        "anchor": [
+          662,
+          792
+        ],
+        "scale": 0.3,
+        "fullCanvasContact": false,
+        "sourceHash": "0788a0c10a8dfcbb85d971645036e2014422b60bb38c19a83cf147aa3b1613f2",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/heavy-hook-v2-4.png",
+        "source": "source/heavy-hook-v2.png",
+        "sourceOrigin": [
+          22,
+          886
+        ],
+        "roi": [
+          22,
+          886,
+          659,
+          1259
+        ],
+        "anchor": [
+          278,
+          364
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "addf81e08a0b3ff269ee814f1de8f7df678474db8833a8bb06bbf761e32b4d35",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/heavy-hook-v2-5.png",
+        "source": "source/heavy-hook-v2.png",
+        "sourceOrigin": [
+          675,
+          894
+        ],
+        "roi": [
+          675,
+          894,
+          1225,
+          1258
+        ],
+        "anchor": [
+          255,
+          353
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "016dca3abddc9a6ee4cc40ab8c5623a6ad6b87502d645bc2b209342e95bc7c67",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/heavy-hook-v2-0.png",
+        "anchor": [
+          44,
+          61
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-hook-v2-0.json",
+        "rectangles": 937
+      },
+      {
+        "file": "fit/heavy-hook-v2-1.png",
+        "anchor": [
+          45,
+          65
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-hook-v2-1.json",
+        "rectangles": 1002
+      },
+      {
+        "file": "fit/heavy-hook-v2-2.png",
+        "anchor": [
+          40,
+          70
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-hook-v2-2.json",
+        "rectangles": 994
+      },
+      {
+        "file": "fit/heavy-effective-single-v4-0.png",
+        "anchor": [
+          47,
+          55
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-effective-single-v4-0.json",
+        "rectangles": 1057
+      },
+      {
+        "file": "fit/heavy-hook-v2-4.png",
+        "anchor": [
+          46,
+          59
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-hook-v2-4.json",
+        "rectangles": 1008
+      },
+      {
+        "file": "fit/heavy-hook-v2-5.png",
+        "anchor": [
+          42,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/heavy-hook-v2-5.json",
+        "rectangles": 911
+      }
+    ],
+    "durations": [
+      5,
+      9,
+      4,
+      5,
+      5,
+      18
+    ],
+    "phases": [
+      "持镰",
+      "重蓄势",
+      "蹬地",
+      "重钩有效",
+      "制动",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 18,
+        "kind": "weapon-hit",
+        "hitId": "heavy-1",
+        "status": "design only"
+      }
+    ],
+    "status": "有效姿改用独立完整源图；镰尖不再低于靴底，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending"
+  },
+  "crouchlight": {
+    "label": "蹲轻",
+    "sourceFrames": [
+      {
+        "file": "frames/crouchlight-v1-0.png",
+        "source": "source/crouchlight-v1.png",
+        "sourceOrigin": [
+          59,
+          54
+        ],
+        "roi": [
+          59,
+          54,
+          739,
+          488
+        ],
+        "anchor": [
+          391,
+          428
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "4ff45519e91d59f3c2c7970353c567a7ff43832b4db8e6f02d916c047f99c590",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchlight-v1-1.png",
+        "source": "source/crouchlight-v1.png",
+        "sourceOrigin": [
+          851,
+          97
+        ],
+        "roi": [
+          851,
+          97,
+          1513,
+          490
+        ],
+        "anchor": [
+          379,
+          387
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "64174c228812bdefb445579af579fec0e385beb773b12c20c6aedd7179106d59",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchlight-v1-2.png",
+        "source": "source/crouchlight-v1.png",
+        "sourceOrigin": [
+          47,
+          553
+        ],
+        "roi": [
+          47,
+          553,
+          840,
+          984
+        ],
+        "anchor": [
+          408,
+          425
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "6cb79ae1aad5196492b38e3daa098e56556d4598c30221d25a4fb8d406537f2b",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchlight-v1-3.png",
+        "source": "source/crouchlight-v1.png",
+        "sourceOrigin": [
+          876,
+          567
+        ],
+        "roi": [
+          876,
+          567,
+          1511,
+          999
+        ],
+        "anchor": [
+          384,
+          426
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "275391656ea5688ad815e1951b5a227b3862cc564c3edc4fae23830e56700818",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/crouchlight-v1-0.png",
+        "anchor": [
+          59,
+          64
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchlight-v1-0.json",
+        "rectangles": 1171
+      },
+      {
+        "file": "fit/crouchlight-v1-1.png",
+        "anchor": [
+          57,
+          58
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchlight-v1-1.json",
+        "rectangles": 1115
+      },
+      {
+        "file": "fit/crouchlight-v1-2.png",
+        "anchor": [
+          61,
+          64
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchlight-v1-2.json",
+        "rectangles": 1207
+      },
+      {
+        "file": "fit/crouchlight-v1-3.png",
+        "anchor": [
+          58,
+          64
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchlight-v1-3.json",
+        "rectangles": 1148
+      }
+    ],
+    "durations": [
+      4,
+      3,
+      3,
+      12
+    ],
+    "phases": [
+      "低位持柄",
+      "短送枪尾",
+      "低位有效",
+      "低位恢复"
+    ],
+    "events": [
+      {
+        "tick": 7,
+        "kind": "weapon-hit",
+        "hitId": "crouchlight-1",
+        "status": "design only"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending"
+  },
+  "crouchheavy": {
+    "label": "蹲重",
+    "sourceFrames": [
+      {
+        "file": "frames/crouchheavy-v1-0.png",
+        "source": "source/crouchheavy-v1.png",
+        "sourceOrigin": [
+          107,
+          20
+        ],
+        "roi": [
+          107,
+          20,
+          769,
+          359
+        ],
+        "anchor": [
+          268,
+          330
+        ],
+        "scale": 0.63,
+        "fullCanvasContact": false,
+        "sourceHash": "25f73dfe26431a209f2947ba3640ef376563d7a61f408eaaf8868d7f39ea133a",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchheavy-v1-1.png",
+        "source": "source/crouchheavy-v1.png",
+        "sourceOrigin": [
+          830,
+          12
+        ],
+        "roi": [
+          830,
+          12,
+          1494,
+          375
+        ],
+        "anchor": [
+          290,
+          357
+        ],
+        "scale": 0.63,
+        "fullCanvasContact": false,
+        "sourceHash": "d8723405a95c7b02f49f073a32de33ab43c37e810b6e0d1bbca7904776f86d62",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchheavy-v1-2.png",
+        "source": "source/crouchheavy-v1.png",
+        "sourceOrigin": [
+          73,
+          379
+        ],
+        "roi": [
+          73,
+          379,
+          808,
+          703
+        ],
+        "anchor": [
+          297,
+          318
+        ],
+        "scale": 0.63,
+        "fullCanvasContact": false,
+        "sourceHash": "386c542d37bdea4a7d71d8d6073943180b9cb55f8187735fd3ee7f7d481c8db8",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchheavy-v1-3.png",
+        "source": "source/crouchheavy-v1.png",
+        "sourceOrigin": [
+          857,
+          408
+        ],
+        "roi": [
+          857,
+          408,
+          1532,
+          699
+        ],
+        "anchor": [
+          303,
+          285
+        ],
+        "scale": 0.63,
+        "fullCanvasContact": false,
+        "sourceHash": "f018c4d0c5c40a2e34c110b6fdac9a790645ee42187359b6a027e55ab2c0ec77",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchheavy-v1-4.png",
+        "source": "source/crouchheavy-v1.png",
+        "sourceOrigin": [
+          61,
+          700
+        ],
+        "roi": [
+          61,
+          700,
+          740,
+          1013
+        ],
+        "anchor": [
+          309,
+          307
+        ],
+        "scale": 0.63,
+        "fullCanvasContact": false,
+        "sourceHash": "9b441e68dfc0ea92a68ac748724f763289b44542558a20c94459dbd433f8c191",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/crouchheavy-v1-5.png",
+        "source": "source/crouchheavy-v1.png",
+        "sourceOrigin": [
+          858,
+          711
+        ],
+        "roi": [
+          858,
+          711,
+          1508,
+          1016
+        ],
+        "anchor": [
+          262,
+          296
+        ],
+        "scale": 0.63,
+        "fullCanvasContact": false,
+        "sourceHash": "29a14a41bc8af702334a8ca06513fc5eef345fbb2c35b8a893a2e474a7a3829e",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/crouchheavy-v1-0.png",
+        "anchor": [
+          40,
+          49
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchheavy-v1-0.json",
+        "rectangles": 879
+      },
+      {
+        "file": "fit/crouchheavy-v1-1.png",
+        "anchor": [
+          43,
+          52
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchheavy-v1-1.json",
+        "rectangles": 971
+      },
+      {
+        "file": "fit/crouchheavy-v1-2.png",
+        "anchor": [
+          44,
+          47
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchheavy-v1-2.json",
+        "rectangles": 909
+      },
+      {
+        "file": "fit/crouchheavy-v1-3.png",
+        "anchor": [
+          45,
+          42
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchheavy-v1-3.json",
+        "rectangles": 843
+      },
+      {
+        "file": "fit/crouchheavy-v1-4.png",
+        "anchor": [
+          46,
+          45
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchheavy-v1-4.json",
+        "rectangles": 906
+      },
+      {
+        "file": "fit/crouchheavy-v1-5.png",
+        "anchor": [
+          39,
+          44
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouchheavy-v1-5.json",
+        "rectangles": 803
+      }
+    ],
+    "durations": [
+      4,
+      6,
+      4,
+      4,
+      5,
+      15
+    ],
+    "phases": [
+      "低位持镰",
+      "低蓄势",
+      "低扫有效",
+      "低扫随势",
+      "制动",
+      "低位恢复"
+    ],
+    "events": [
+      {
+        "tick": 10,
+        "kind": "weapon-hit",
+        "hitId": "crouchheavy-1",
+        "status": "design only"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending"
+  },
+  "airlight": {
+    "label": "空轻",
+    "sourceFrames": [
+      {
+        "file": "frames/airlight-v1-0.png",
+        "source": "source/airlight-v1.png",
+        "sourceOrigin": [
+          58,
+          26
+        ],
+        "roi": [
+          58,
+          26,
+          794,
+          502
+        ],
+        "anchor": [
+          317,
+          674
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "1d35bbdd16fc40b48b77ea6b636b75933a3ade35f9d92003f14bdafb773fa552",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airlight-v1-1.png",
+        "source": "source/airlight-v1.png",
+        "sourceOrigin": [
+          826,
+          33
+        ],
+        "roi": [
+          826,
+          33,
+          1506,
+          507
+        ],
+        "anchor": [
+          309,
+          647
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "c3f50a3138526e436deda6ca1d1933ac92e9fc68d1a3338be2af099498fe013f",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airlight-v1-2.png",
+        "source": "source/airlight-v1.png",
+        "sourceOrigin": [
+          35,
+          520
+        ],
+        "roi": [
+          35,
+          520,
+          907,
+          973
+        ],
+        "anchor": [
+          379,
+          595
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "cec7cf7ae5db7d0cfe7a34e01908daea2e12bcf79cbe0e905bfb2f9663a2b0f9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airlight-v1-3.png",
+        "source": "source/airlight-v1.png",
+        "sourceOrigin": [
+          924,
+          500
+        ],
+        "roi": [
+          924,
+          500,
+          1528,
+          1002
+        ],
+        "anchor": [
+          256,
+          670
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "687a742f22e07da534682b4c27c113bbbf378861e7d1bb49ac2a19e52e52227b",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-4.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          75,
+          996
+        ],
+        "roi": [
+          75,
+          996,
+          499,
+          1492
+        ],
+        "anchor": [
+          262,
+          576.5
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "76810e2e24ec29050f834fcf4cf289f08096f73fcc8800c7c83d420f73c1e074",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/jump-v1-5.png",
+        "source": "source/jump-v1.png",
+        "sourceOrigin": [
+          524,
+          1077
+        ],
+        "roi": [
+          524,
+          1077,
+          989,
+          1500
+        ],
+        "anchor": [
+          269,
+          417
+        ],
+        "scale": 0.56,
+        "fullCanvasContact": false,
+        "sourceHash": "803f2c16a5c57659b0aab1102c9ee23b8f024f585f4925b0435a23f77658b0c8",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/airlight-v1-0.png",
+        "anchor": [
+          38,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airlight-v1-0.json",
+        "rectangles": 839
+      },
+      {
+        "file": "fit/airlight-v1-1.png",
+        "anchor": [
+          37,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airlight-v1-1.json",
+        "rectangles": 863
+      },
+      {
+        "file": "fit/airlight-v1-2.png",
+        "anchor": [
+          45,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airlight-v1-2.json",
+        "rectangles": 938
+      },
+      {
+        "file": "fit/airlight-v1-3.png",
+        "anchor": [
+          31,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airlight-v1-3.json",
+        "rectangles": 819
+      },
+      {
+        "file": "fit/jump-v1-4.png",
+        "anchor": [
+          35,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-4.json",
+        "rectangles": 630
+      },
+      {
+        "file": "fit/jump-v1-5.png",
+        "anchor": [
+          36,
+          54
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-v1-5.json",
+        "rectangles": 650
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      3,
+      3,
+      10,
+      4,
+      8,
+      4
+    ],
+    "phases": [
+      "空中持镰",
+      "短切准备",
+      "短切有效",
+      "空中收势",
+      "下降衔接",
+      "落地缓冲",
+      "恢复待机"
+    ],
+    "events": [
+      {
+        "tick": 7,
+        "kind": "weapon-hit",
+        "hitId": "airlight-1",
+        "status": "design only"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending",
+    "motion": {
+      "kind": "air",
+      "height": 120,
+      "landingTick": 24,
+      "rootPolicy": "inherit current airborne jump root when switching; standalone entry uses demo height"
+    }
+  },
+  "airheavy": {
+    "label": "空重",
+    "sourceFrames": [
+      {
+        "file": "frames/airheavy-v1-0.png",
+        "source": "source/airheavy-v1.png",
+        "sourceOrigin": [
+          114,
+          19
+        ],
+        "roi": [
+          114,
+          19,
+          782,
+          385
+        ],
+        "anchor": [
+          246,
+          441
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "755d6328b4de730b1b7e697b6580939784b0c47cc959668edc59ad9c157a4868",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airheavy-v1-1.png",
+        "source": "source/airheavy-v1.png",
+        "sourceOrigin": [
+          891,
+          7
+        ],
+        "roi": [
+          891,
+          7,
+          1406,
+          402
+        ],
+        "anchor": [
+          209,
+          438
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "077ce8507a537621511a8458f22e1d7cb45942a3c56c355c9077d2fc41893ebe",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airheavy-v1-2.png",
+        "source": "source/airheavy-v1.png",
+        "sourceOrigin": [
+          76,
+          365
+        ],
+        "roi": [
+          76,
+          365,
+          740,
+          735
+        ],
+        "anchor": [
+          274,
+          410
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "57ce2506ae225b123df2234be4c10c8b5f39ca64faa7ea3c46502fb9261ac4b3",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airheavy-v1-3.png",
+        "source": "source/airheavy-v1.png",
+        "sourceOrigin": [
+          842,
+          413
+        ],
+        "roi": [
+          842,
+          413,
+          1499,
+          738
+        ],
+        "anchor": [
+          278,
+          387
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "446089cae060539943206651e134e835040e7efb8a0ba0325cd3e2119c49f2ed",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airheavy-v1-4.png",
+        "source": "source/airheavy-v1.png",
+        "sourceOrigin": [
+          68,
+          651
+        ],
+        "roi": [
+          68,
+          651,
+          772,
+          996
+        ],
+        "anchor": [
+          282,
+          429
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "5d6be8c4cd82fe3ceb95d61e756b87c9ce71ac64eef1be4f4f725df8dc00cdad",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/airheavy-v1-5.png",
+        "source": "source/airheavy-v1.png",
+        "sourceOrigin": [
+          812,
+          700
+        ],
+        "roi": [
+          812,
+          700,
+          1475,
+          1012
+        ],
+        "anchor": [
+          288,
+          306
+        ],
+        "scale": 0.75,
+        "fullCanvasContact": false,
+        "sourceHash": "56498740f2ff5ad8213ec74ea3b5eca3ccfdb6287c2d2690924e2c8fcee5308e",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/airheavy-v1-0.png",
+        "anchor": [
+          43,
+          76
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airheavy-v1-0.json",
+        "rectangles": 948
+      },
+      {
+        "file": "fit/airheavy-v1-1.png",
+        "anchor": [
+          37,
+          75
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airheavy-v1-1.json",
+        "rectangles": 955
+      },
+      {
+        "file": "fit/airheavy-v1-2.png",
+        "anchor": [
+          48,
+          71
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airheavy-v1-2.json",
+        "rectangles": 986
+      },
+      {
+        "file": "fit/airheavy-v1-3.png",
+        "anchor": [
+          49,
+          67
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airheavy-v1-3.json",
+        "rectangles": 976
+      },
+      {
+        "file": "fit/airheavy-v1-4.png",
+        "anchor": [
+          49,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airheavy-v1-4.json",
+        "rectangles": 1083
+      },
+      {
+        "file": "fit/airheavy-v1-5.png",
+        "anchor": [
+          50,
+          53
+        ],
+        "scale": 4.5,
+        "rectData": "fit/airheavy-v1-5.json",
+        "rectangles": 1040
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      4,
+      4,
+      8,
+      4
+    ],
+    "phases": [
+      "空中持镰",
+      "举镰",
+      "下钩准备",
+      "下钩有效",
+      "下降准备",
+      "落地缓冲",
+      "恢复待机"
+    ],
+    "events": [
+      {
+        "tick": 11,
+        "kind": "weapon-hit",
+        "hitId": "airheavy-1",
+        "status": "design only"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending",
+    "motion": {
+      "kind": "air",
+      "height": 120,
+      "landingTick": 19,
+      "rootPolicy": "inherit current airborne jump root when switching; standalone entry uses demo height"
+    }
+  },
+  "forwarddash": {
+    "label": "前冲",
+    "sourceFrames": [
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/forwarddash-v1-0.png",
+        "source": "source/forwarddash-v1.png",
+        "sourceOrigin": [
+          74,
+          43
+        ],
+        "roi": [
+          74,
+          43,
+          644,
+          500
+        ],
+        "anchor": [
+          391,
+          451
+        ],
+        "scale": 0.55,
+        "fullCanvasContact": false,
+        "sourceHash": "4715617a43e233b085fc03e83a67c80f31ca1599d7e9224c48b6c721c0eea58c",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/forwarddash-v1-1.png",
+        "source": "source/forwarddash-v1.png",
+        "sourceOrigin": [
+          820,
+          27
+        ],
+        "roi": [
+          820,
+          27,
+          1394,
+          500
+        ],
+        "anchor": [
+          375,
+          467
+        ],
+        "scale": 0.55,
+        "fullCanvasContact": false,
+        "sourceHash": "9306562e61c1b2b4755184b806262968b504af78cdf0d108a5a5ea6ecd611dc1",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/forwarddash-v1-2.png",
+        "source": "source/forwarddash-v1.png",
+        "sourceOrigin": [
+          114,
+          561
+        ],
+        "roi": [
+          114,
+          561,
+          873,
+          965
+        ],
+        "anchor": [
+          475,
+          398
+        ],
+        "scale": 0.55,
+        "fullCanvasContact": false,
+        "sourceHash": "0553178bba60dd563fdb2b6a4fe4259105e18c3f3e349c2b899af98b55565f97",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/forwarddash-v1-3.png",
+        "source": "source/forwarddash-v1.png",
+        "sourceOrigin": [
+          941,
+          478
+        ],
+        "roi": [
+          941,
+          478,
+          1487,
+          991
+        ],
+        "anchor": [
+          279,
+          507
+        ],
+        "scale": 0.55,
+        "fullCanvasContact": false,
+        "sourceHash": "00b6734a38d210be59fda075d1b8fbeaec84df754205352bc926f482049c8155",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      },
+      {
+        "file": "fit/forwarddash-v1-0.png",
+        "anchor": [
+          50,
+          58
+        ],
+        "scale": 4.5,
+        "rectData": "fit/forwarddash-v1-0.json",
+        "rectangles": 800
+      },
+      {
+        "file": "fit/forwarddash-v1-1.png",
+        "anchor": [
+          48,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/forwarddash-v1-1.json",
+        "rectangles": 731
+      },
+      {
+        "file": "fit/forwarddash-v1-2.png",
+        "anchor": [
+          61,
+          51
+        ],
+        "scale": 4.5,
+        "rectData": "fit/forwarddash-v1-2.json",
+        "rectangles": 766
+      },
+      {
+        "file": "fit/forwarddash-v1-3.png",
+        "anchor": [
+          37,
+          64
+        ],
+        "scale": 4.5,
+        "rectData": "fit/forwarddash-v1-3.json",
+        "rectangles": 744
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      4,
+      6,
+      6,
+      4
+    ],
+    "phases": [
+      "待机起势",
+      "压低蓄脚",
+      "蹬地",
+      "滑入",
+      "落地制动",
+      "恢复待机"
+    ],
+    "events": [],
+    "status": "新空手动作候选；尺度/支撑/衔接待复核",
+    "weaponLayer": "none",
+    "motion": {
+      "kind": "dash",
+      "distance": 140,
+      "beginTick": 4,
+      "endTick": 24,
+      "height": 0
+    }
+  },
+  "backdash": {
+    "label": "后撤",
+    "sourceFrames": [
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backdash-v1-0.png",
+        "source": "source/backdash-v1.png",
+        "sourceOrigin": [
+          118,
+          16
+        ],
+        "roi": [
+          118,
+          16,
+          636,
+          506
+        ],
+        "anchor": [
+          334,
+          484
+        ],
+        "scale": 0.52,
+        "fullCanvasContact": false,
+        "sourceHash": "82ca417c0ae74288ab28238ab5001274fe914ba423b702c923cbd70f298313a2",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backdash-v1-1.png",
+        "source": "source/backdash-v1.png",
+        "sourceOrigin": [
+          845,
+          17
+        ],
+        "roi": [
+          845,
+          17,
+          1388,
+          516
+        ],
+        "anchor": [
+          375,
+          493
+        ],
+        "scale": 0.52,
+        "fullCanvasContact": false,
+        "sourceHash": "900cc748cb77902721620c4bccf8a033fa543892e27d0535ec2042463b7e3ca6",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backdash-v1-2.png",
+        "source": "source/backdash-v1.png",
+        "sourceOrigin": [
+          114,
+          510
+        ],
+        "roi": [
+          114,
+          510,
+          604,
+          952
+        ],
+        "anchor": [
+          336,
+          573.5384615384614
+        ],
+        "scale": 0.52,
+        "fullCanvasContact": false,
+        "sourceHash": "106c202fafe1faf983cc877a884127e1b029c9502908405169f7c58e60b1d989",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/backdash-v1-3.png",
+        "source": "source/backdash-v1.png",
+        "sourceOrigin": [
+          874,
+          522
+        ],
+        "roi": [
+          874,
+          522,
+          1393,
+          1004
+        ],
+        "anchor": [
+          346,
+          476
+        ],
+        "scale": 0.52,
+        "fullCanvasContact": false,
+        "sourceHash": "c7dbfcd6de6a26f1c82d4703861432e59af480928a40453f80e143909a6a4638",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      },
+      {
+        "file": "fit/backdash-v1-0.png",
+        "anchor": [
+          41,
+          58
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backdash-v1-0.json",
+        "rectangles": 671
+      },
+      {
+        "file": "fit/backdash-v1-1.png",
+        "anchor": [
+          46,
+          59
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backdash-v1-1.json",
+        "rectangles": 696
+      },
+      {
+        "file": "fit/backdash-v1-2.png",
+        "anchor": [
+          41,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backdash-v1-2.json",
+        "rectangles": 596
+      },
+      {
+        "file": "fit/backdash-v1-3.png",
+        "anchor": [
+          42,
+          58
+        ],
+        "scale": 4.5,
+        "rectData": "fit/backdash-v1-3.json",
+        "rectangles": 664
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      4,
+      6,
+      6,
+      4
+    ],
+    "phases": [
+      "待机起势",
+      "前脚蓄力",
+      "蹬退",
+      "短离地",
+      "后脚制动",
+      "恢复待机"
+    ],
+    "events": [],
+    "status": "新空手动作候选；尺度/支撑/衔接待复核",
+    "weaponLayer": "none",
+    "motion": {
+      "kind": "dash",
+      "distance": -95,
+      "beginTick": 4,
+      "endTick": 24,
+      "height": 22
+    }
+  },
+  "victory": {
+    "label": "胜利",
+    "sourceFrames": [
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victory-v1-0.png",
+        "source": "source/victory-v1.png",
+        "sourceOrigin": [
+          50,
+          17
+        ],
+        "roi": [
+          50,
+          17,
+          493,
+          740
+        ],
+        "anchor": [
+          257,
+          717
+        ],
+        "scale": 0.42,
+        "fullCanvasContact": false,
+        "sourceHash": "c2fb3335d58b7207cd682b930770a9139ce0063129f58732ffe894d9333bf04e",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victory-v1-1.png",
+        "source": "source/victory-v1.png",
+        "sourceOrigin": [
+          545,
+          20
+        ],
+        "roi": [
+          545,
+          20,
+          987,
+          740
+        ],
+        "anchor": [
+          269,
+          714
+        ],
+        "scale": 0.42,
+        "fullCanvasContact": false,
+        "sourceHash": "01f3ce447b1d69b656231b12eb427d00ec7725faff2d19bbdc57f72c02963356",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victory-v1-2.png",
+        "source": "source/victory-v1.png",
+        "sourceOrigin": [
+          55,
+          776
+        ],
+        "roi": [
+          55,
+          776,
+          519,
+          1501
+        ],
+        "anchor": [
+          269,
+          719
+        ],
+        "scale": 0.42,
+        "fullCanvasContact": false,
+        "sourceHash": "b9029d5358b83c28208deb2ba39122595f6707296dc7e11d890aa30c6bd7e32c",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victory-v1-3.png",
+        "source": "source/victory-v1.png",
+        "sourceOrigin": [
+          543,
+          774
+        ],
+        "roi": [
+          543,
+          774,
+          996,
+          1501
+        ],
+        "anchor": [
+          275,
+          721
+        ],
+        "scale": 0.42,
+        "fullCanvasContact": false,
+        "sourceHash": "19b10a1f03db0d87145fa24fd9579ecc4cecaa85c7b3cc0b7b551fafcf0cc0f2",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      },
+      {
+        "file": "fit/victory-v1-0.png",
+        "anchor": [
+          26,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victory-v1-0.json",
+        "rectangles": 562
+      },
+      {
+        "file": "fit/victory-v1-1.png",
+        "anchor": [
+          28,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victory-v1-1.json",
+        "rectangles": 565
+      },
+      {
+        "file": "fit/victory-v1-2.png",
+        "anchor": [
+          28,
+          70
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victory-v1-2.json",
+        "rectangles": 597
+      },
+      {
+        "file": "fit/victory-v1-3.png",
+        "anchor": [
+          28,
+          70
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victory-v1-3.json",
+        "rectangles": 591
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      12,
+      18,
+      18,
+      16,
+      4
+    ],
+    "phases": [
+      "待机起势",
+      "平复",
+      "致意",
+      "收手",
+      "静立",
+      "恢复待机"
+    ],
+    "events": [],
+    "status": "新空手动作候选；尺度/支撑/衔接待复核",
+    "weaponLayer": "none"
+  },
+  "defeat": {
+    "label": "败北",
+    "sourceFrames": [
+      {
+        "file": "frames/defeat-v1-0.png",
+        "source": "source/defeat-v1.png",
+        "sourceOrigin": [
+          175,
+          4
+        ],
+        "roi": [
+          175,
+          4,
+          564,
+          542
+        ],
+        "anchor": [
+          273,
+          532
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "6b23bc3eda2e4d12b254c2bc3842a25131951b3f11dea79c1915de3210ec8909",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/defeat-v1-1.png",
+        "source": "source/defeat-v1.png",
+        "sourceOrigin": [
+          796,
+          130
+        ],
+        "roi": [
+          796,
+          130,
+          1271,
+          519
+        ],
+        "anchor": [
+          339,
+          383
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "b56fde6616e75ee192e851cd8119656fde7569ab1705a7c6cfa14e3b8c62281f",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/defeat-v1-2.png",
+        "source": "source/defeat-v1.png",
+        "sourceOrigin": [
+          180,
+          566
+        ],
+        "roi": [
+          180,
+          566,
+          685,
+          998
+        ],
+        "anchor": [
+          335,
+          426
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "562de69cea7827c4b08c98350167784b4a5583ed41444ac76f2d24978dac5974",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/defeat-v1-3.png",
+        "source": "source/defeat-v1.png",
+        "sourceOrigin": [
+          829,
+          588
+        ],
+        "roi": [
+          829,
+          588,
+          1321,
+          998
+        ],
+        "anchor": [
+          341,
+          404
+        ],
+        "scale": 0.6,
+        "fullCanvasContact": false,
+        "sourceHash": "5443119ac6d9960f81cc92c3f176d0f8df45d05b093ffcab64dfcdfa2e3e0ae2",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/defeat-v1-0.png",
+        "anchor": [
+          39,
+          73
+        ],
+        "scale": 4.5,
+        "rectData": "fit/defeat-v1-0.json",
+        "rectangles": 732
+      },
+      {
+        "file": "fit/defeat-v1-1.png",
+        "anchor": [
+          48,
+          54
+        ],
+        "scale": 4.5,
+        "rectData": "fit/defeat-v1-1.json",
+        "rectangles": 718
+      },
+      {
+        "file": "fit/defeat-v1-2.png",
+        "anchor": [
+          47,
+          59
+        ],
+        "scale": 4.5,
+        "rectData": "fit/defeat-v1-2.json",
+        "rectangles": 812
+      },
+      {
+        "file": "fit/defeat-v1-3.png",
+        "anchor": [
+          48,
+          56
+        ],
+        "scale": 4.5,
+        "rectData": "fit/defeat-v1-3.json",
+        "rectangles": 798
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      12,
+      20
+    ],
+    "phases": [
+      "失力",
+      "跪下",
+      "低头",
+      "停留"
+    ],
+    "events": [],
+    "status": "新空手动作候选；尺度/支撑/衔接待复核",
+    "weaponLayer": "none"
+  },
+  "E": {
+    "label": "E · 万相化灰",
+    "sourceFrames": [
+      {
+        "file": "frames/E-body-v1-0.png",
+        "source": "source/E-v1.png",
+        "sourceOrigin": [
+          155,
+          6
+        ],
+        "roi": [
+          155,
+          6,
+          534,
+          429
+        ],
+        "anchor": [
+          265,
+          417
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "6a9309351c719c1c105304687226cbfe52a9c5bf826c8b4bf7ddc93245c1ab63",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/E-body-v1-1.png",
+        "source": "source/E-v1.png",
+        "sourceOrigin": [
+          744,
+          10
+        ],
+        "roi": [
+          744,
+          10,
+          1195,
+          428
+        ],
+        "anchor": [
+          291,
+          412
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "b3aeb765a62ad641cbda99c3af2c25b7ba0f48a2119146a3ed912ce190876db7",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/E-body-v1-2.png",
+        "source": "source/E-v1.png",
+        "sourceOrigin": [
+          44,
+          438
+        ],
+        "roi": [
+          44,
+          438,
+          702,
+          800
+        ],
+        "anchor": [
+          321,
+          352
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "2a18983dfc61636281c7a2bb0e4572382e10ddfccc3ebcfd39edf0da1007c0cd",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/E-body-v1-3.png",
+        "source": "source/E-v1.png",
+        "sourceOrigin": [
+          748,
+          427
+        ],
+        "roi": [
+          748,
+          427,
+          1345,
+          803
+        ],
+        "anchor": [
+          352,
+          370
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "539df58599af93e662253cc287d38b414f7fe9331cd9f322a4377a767fb93663",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/E-body-v1-4.png",
+        "source": "source/E-v1.png",
+        "sourceOrigin": [
+          93,
+          803
+        ],
+        "roi": [
+          93,
+          803,
+          695,
+          1157
+        ],
+        "anchor": [
+          267,
+          348
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "b98ae289b4492e03b6d1adebcc20b41135a496dd233b610e176a3ecb30ed940a",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/E-body-v1-5.png",
+        "source": "source/E-v1.png",
+        "sourceOrigin": [
+          819,
+          777
+        ],
+        "roi": [
+          819,
+          777,
+          1138,
+          1160
+        ],
+        "anchor": [
+          181,
+          377
+        ],
+        "scale": 0.7,
+        "fullCanvasContact": false,
+        "sourceHash": "4510f0a155161cb877bbc0607d76cc607aeddd1bbe509cc5de5256fd970d48f9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/E-body-v1-0.png",
+        "anchor": [
+          44,
+          67
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-body-v1-0.json",
+        "rectangles": 755
+      },
+      {
+        "file": "fit/E-body-v1-1.png",
+        "anchor": [
+          48,
+          67
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-body-v1-1.json",
+        "rectangles": 874
+      },
+      {
+        "file": "fit/E-body-v1-2.png",
+        "anchor": [
+          52,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-body-v1-2.json",
+        "rectangles": 1131
+      },
+      {
+        "file": "fit/E-body-v1-3.png",
+        "anchor": [
+          57,
+          60
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-body-v1-3.json",
+        "rectangles": 1116
+      },
+      {
+        "file": "fit/E-body-v1-4.png",
+        "anchor": [
+          44,
+          57
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-body-v1-4.json",
+        "rectangles": 980
+      },
+      {
+        "file": "fit/E-body-v1-5.png",
+        "anchor": [
+          31,
+          61
+        ],
+        "scale": 4.5,
+        "rectData": "fit/E-body-v1-5.json",
+        "rectangles": 650
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      6,
+      6,
+      4,
+      8,
+      12,
+      4
+    ],
+    "phases": [
+      "引导抬手",
+      "指向",
+      "持镰",
+      "切斩有效",
+      "制动",
+      "收势",
+      "恢复待机"
+    ],
+    "events": [
+      {
+        "tick": 18,
+        "kind": "weapon-hit",
+        "hitId": "E-1",
+        "status": "design only"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending",
+    "motion": {
+      "kind": "dash",
+      "distance": 85,
+      "beginTick": 10,
+      "endTick": 20,
+      "height": 0
+    }
+  },
+  "Q": {
+    "label": "Q · 厄月将升",
+    "sourceFrames": [
+      {
+        "file": "frames/Q-body-v1-0.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          31,
+          72
+        ],
+        "roi": [
+          31,
+          72,
+          681,
+          513
+        ],
+        "anchor": [
+          234,
+          434
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "948296741f996ba7aadc1692f597cf7f3a30b09ee854fbaf6b04b48b568bc868",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-1.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          686,
+          28
+        ],
+        "roi": [
+          686,
+          28,
+          996,
+          539
+        ],
+        "anchor": [
+          149,
+          505
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "5908740697a1b0b46875bc70b1eccf4cbbd377042589b857293eeaba8455fb79",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-1.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          686,
+          28
+        ],
+        "roi": [
+          686,
+          28,
+          996,
+          539
+        ],
+        "anchor": [
+          149,
+          505
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "5908740697a1b0b46875bc70b1eccf4cbbd377042589b857293eeaba8455fb79",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-2.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          25,
+          565
+        ],
+        "roi": [
+          25,
+          565,
+          497,
+          1006
+        ],
+        "anchor": [
+          250,
+          435
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "8c87c60ea20167f580b55f04107dfe5c4a42ce1e5c568a64e92913d62de586cd",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-3.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          524,
+          570
+        ],
+        "roi": [
+          524,
+          570,
+          1019,
+          1014
+        ],
+        "anchor": [
+          291,
+          438
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "9c91e29ef53c8d519c886155fd3a380bffcd8c757cb88eb96ac514d9af44e2a6",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-3.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          524,
+          570
+        ],
+        "roi": [
+          524,
+          570,
+          1019,
+          1014
+        ],
+        "anchor": [
+          291,
+          438
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "9c91e29ef53c8d519c886155fd3a380bffcd8c757cb88eb96ac514d9af44e2a6",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-4.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          22,
+          1020
+        ],
+        "roi": [
+          22,
+          1020,
+          652,
+          1510
+        ],
+        "anchor": [
+          256,
+          484
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "5e068064611a6eef28547e07c4c84b2a06e9dde4c04afca13ddb2a87554299b5",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-4.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          22,
+          1020
+        ],
+        "roi": [
+          22,
+          1020,
+          652,
+          1510
+        ],
+        "anchor": [
+          256,
+          484
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "5e068064611a6eef28547e07c4c84b2a06e9dde4c04afca13ddb2a87554299b5",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/Q-body-v1-5.png",
+        "source": "source/Q-body-v1.png",
+        "sourceOrigin": [
+          653,
+          1008
+        ],
+        "roi": [
+          653,
+          1008,
+          1013,
+          1514
+        ],
+        "anchor": [
+          180,
+          500
+        ],
+        "scale": 0.65,
+        "fullCanvasContact": false,
+        "sourceHash": "f883751ebfe30be81c108a521bec91e7425edd3987e0f45c634e34e8af19acf1",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/Q-body-v1-0.png",
+        "anchor": [
+          36,
+          65
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-0.json",
+        "rectangles": 1118
+      },
+      {
+        "file": "fit/Q-body-v1-1.png",
+        "anchor": [
+          24,
+          75
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-1.json",
+        "rectangles": 705
+      },
+      {
+        "file": "fit/Q-body-v1-1.png",
+        "anchor": [
+          24,
+          75
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-1.json",
+        "rectangles": 705
+      },
+      {
+        "file": "fit/Q-body-v1-2.png",
+        "anchor": [
+          39,
+          65
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-2.json",
+        "rectangles": 860
+      },
+      {
+        "file": "fit/Q-body-v1-3.png",
+        "anchor": [
+          45,
+          66
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-3.json",
+        "rectangles": 983
+      },
+      {
+        "file": "fit/Q-body-v1-3.png",
+        "anchor": [
+          45,
+          66
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-3.json",
+        "rectangles": 983
+      },
+      {
+        "file": "fit/Q-body-v1-4.png",
+        "anchor": [
+          39,
+          72
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-4.json",
+        "rectangles": 1234
+      },
+      {
+        "file": "fit/Q-body-v1-4.png",
+        "anchor": [
+          39,
+          72
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-4.json",
+        "rectangles": 1234
+      },
+      {
+        "file": "fit/Q-body-v1-5.png",
+        "anchor": [
+          29,
+          75
+        ],
+        "scale": 4.5,
+        "rectData": "fit/Q-body-v1-5.json",
+        "rectangles": 754
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      30,
+      10,
+      18,
+      24,
+      24,
+      14,
+      10,
+      20
+    ],
+    "phases": [
+      "短切确认",
+      "确认收势",
+      "头像切入",
+      "蓄势",
+      "释放",
+      "持续冲击一",
+      "持续冲击二",
+      "持续冲击三",
+      "收束",
+      "恢复待机"
+    ],
+    "events": [
+      {
+        "tick": 6,
+        "kind": "confirm",
+        "damage": 0
+      },
+      {
+        "tick": 70,
+        "kind": "bloodfire-hit",
+        "hitId": "Q-1",
+        "requiresConfirmedHit": true
+      },
+      {
+        "tick": 94,
+        "kind": "bloodfire-hit",
+        "hitId": "Q-2",
+        "requiresConfirmedHit": true
+      },
+      {
+        "tick": 118,
+        "kind": "bloodfire-hit",
+        "hitId": "Q-3",
+        "requiresConfirmedHit": true
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "held weapon composite; independent effects pending",
+    "cinematic": {
+      "confirmationTick": 6,
+      "cutin": [
+        12,
+        42
+      ],
+      "charge": [
+        42,
+        52
+      ],
+      "releaseTick": 52,
+      "hitTicks": [
+        70,
+        94,
+        118
+      ],
+      "fade": [
+        132,
+        142
+      ],
+      "recover": [
+        142,
+        162
+      ],
+      "fullRequires": "confirmed hit"
+    },
+    "shortBranch": {
+      "indices": [
+        0,
+        1,
+        9
+      ],
+      "durations": [
+        6,
+        6,
+        12
+      ],
+      "events": [
+        {
+          "tick": 6,
+          "kind": "confirm",
+          "damage": 0
+        }
+      ]
+    }
+  },
+  "hit_knockdown": {
+    "label": "受击与倒地",
+    "sourceFrames": [
+      {
+        "file": "frames/hit-knockdown-v1-0.png",
+        "source": "source/hit-knockdown-v1.png",
+        "sourceOrigin": [
+          51,
+          10
+        ],
+        "roi": [
+          51,
+          10,
+          495,
+          648
+        ],
+        "anchor": [
+          284,
+          632
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "d00413b5b2a27bbc0ce412b8e3c28dfed795b09ef0e37a55b9f6327f1a29f90b",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/hit-knockdown-v1-1.png",
+        "source": "source/hit-knockdown-v1.png",
+        "sourceOrigin": [
+          806,
+          84
+        ],
+        "roi": [
+          806,
+          84,
+          1265,
+          638
+        ],
+        "anchor": [
+          274,
+          547
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "90af346392bd665bf903ba837325b7caf637373aa4cf2e6f332443768b3b8a89",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/hit-knockdown-v1-2.png",
+        "source": "source/hit-knockdown-v1.png",
+        "sourceOrigin": [
+          28,
+          724
+        ],
+        "roi": [
+          28,
+          724,
+          749,
+          979
+        ],
+        "anchor": [
+          342,
+          249
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "558ed49b4e79e366b50da7a46c530805949a4daf7402289caf89ebca20aabfe9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/hit-knockdown-v1-3.png",
+        "source": "source/hit-knockdown-v1.png",
+        "sourceOrigin": [
+          794,
+          791
+        ],
+        "roi": [
+          794,
+          791,
+          1521,
+          985
+        ],
+        "anchor": [
+          356,
+          188
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "670ab5e4986ccdbb88e9c51f5259a534e2e90ddc2385aa17264ad7f55dfdd084",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/hit-knockdown-v1-0.png",
+        "anchor": [
+          34,
+          73
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit-knockdown-v1-0.json",
+        "rectangles": 743
+      },
+      {
+        "file": "fit/hit-knockdown-v1-1.png",
+        "anchor": [
+          33,
+          63
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit-knockdown-v1-1.json",
+        "rectangles": 797
+      },
+      {
+        "file": "fit/hit-knockdown-v1-2.png",
+        "anchor": [
+          40,
+          30
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit-knockdown-v1-2.json",
+        "rectangles": 549
+      },
+      {
+        "file": "fit/hit-knockdown-v1-3.png",
+        "anchor": [
+          42,
+          23
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit-knockdown-v1-3.json",
+        "rectangles": 519
+      }
+    ],
+    "durations": [
+      4,
+      6,
+      8,
+      18
+    ],
+    "phases": [
+      "站受击",
+      "失衡",
+      "侧倒",
+      "落地"
+    ],
+    "events": [],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "none",
+    "directionPolicy": "head-left, boots-right; shared landing/support; whole-world mirror only"
+  },
+  "wakeup": {
+    "label": "起身",
+    "sourceFrames": [
+      {
+        "file": "frames/hit-knockdown-v1-3.png",
+        "source": "source/hit-knockdown-v1.png",
+        "sourceOrigin": [
+          794,
+          791
+        ],
+        "roi": [
+          794,
+          791,
+          1521,
+          985
+        ],
+        "anchor": [
+          356,
+          188
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "670ab5e4986ccdbb88e9c51f5259a534e2e90ddc2385aa17264ad7f55dfdd084",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/wakeup-v1-0.png",
+        "source": "source/wakeup-v1.png",
+        "sourceOrigin": [
+          107,
+          316
+        ],
+        "roi": [
+          107,
+          316,
+          896,
+          683
+        ],
+        "anchor": [
+          403,
+          361
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "696a3c174455ca567861a642f484ed4c4cdd09b074fe731ae61be9e9052f5f28",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/wakeup-v1-1.png",
+        "source": "source/wakeup-v1.png",
+        "sourceOrigin": [
+          925,
+          181
+        ],
+        "roi": [
+          925,
+          181,
+          1520,
+          696
+        ],
+        "anchor": [
+          345,
+          509
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "2823198034a36221437af0a68e14ff20dcf8d97716a6045e3be1c01fd22e1897",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/wakeup-v1-2.png",
+        "source": "source/wakeup-v1.png",
+        "sourceOrigin": [
+          1627,
+          9
+        ],
+        "roi": [
+          1627,
+          9,
+          2012,
+          712
+        ],
+        "anchor": [
+          223,
+          697
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "9bbccb887167292f229a445a76ad0d396833043aa7034fa9f4e5648847617c05",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/hit-knockdown-v1-3.png",
+        "anchor": [
+          42,
+          23
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit-knockdown-v1-3.json",
+        "rectangles": 519
+      },
+      {
+        "file": "fit/wakeup-v1-0.png",
+        "anchor": [
+          44,
+          39
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-v1-0.json",
+        "rectangles": 674
+      },
+      {
+        "file": "fit/wakeup-v1-1.png",
+        "anchor": [
+          38,
+          55
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-v1-1.json",
+        "rectangles": 746
+      },
+      {
+        "file": "fit/wakeup-v1-2.png",
+        "anchor": [
+          25,
+          74
+        ],
+        "scale": 4.5,
+        "rectData": "fit/wakeup-v1-2.json",
+        "rectangles": 723
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      6,
+      8,
+      10,
+      8,
+      4
+    ],
+    "phases": [
+      "落地共用",
+      "侧撑",
+      "单膝",
+      "站稳",
+      "恢复待机"
+    ],
+    "events": [],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "none",
+    "directionPolicy": "head-left, boots-right; shared landing/support; whole-world mirror only"
+  },
+  "victim": {
+    "label": "被投",
+    "sourceFrames": [
+      {
+        "file": "frames/victim-v1-0.png",
+        "source": "source/victim-v1.png",
+        "sourceOrigin": [
+          7,
+          17
+        ],
+        "roi": [
+          7,
+          17,
+          509,
+          778
+        ],
+        "anchor": [
+          273,
+          755
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "eea83350bf337b8637637ca0c7584dae848a03c903a39e1d280057efeffba72a",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victim-v1-0.png",
+        "source": "source/victim-v1.png",
+        "sourceOrigin": [
+          7,
+          17
+        ],
+        "roi": [
+          7,
+          17,
+          509,
+          778
+        ],
+        "anchor": [
+          273,
+          755
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "eea83350bf337b8637637ca0c7584dae848a03c903a39e1d280057efeffba72a",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victim-v1-1.png",
+        "source": "source/victim-v1.png",
+        "sourceOrigin": [
+          492,
+          82
+        ],
+        "roi": [
+          492,
+          82,
+          1019,
+          768
+        ],
+        "anchor": [
+          298,
+          680
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "f29705b130a23a6bc26e74977956a9f9aed717f4ce99678b028f863afc065bf5",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victim-v1-2.png",
+        "source": "source/victim-v1.png",
+        "sourceOrigin": [
+          32,
+          836
+        ],
+        "roi": [
+          32,
+          836,
+          726,
+          1376
+        ],
+        "anchor": [
+          318,
+          544
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "d51d66f4ed738e4922757933609b663b54465a7d4d7d5c0c3e421c3679e9b076",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/victim-v1-3.png",
+        "source": "source/victim-v1.png",
+        "sourceOrigin": [
+          378,
+          1178
+        ],
+        "roi": [
+          378,
+          1178,
+          1017,
+          1524
+        ],
+        "anchor": [
+          402,
+          342
+        ],
+        "scale": 0.44,
+        "fullCanvasContact": false,
+        "sourceHash": "1a3da34f274428490fc479eb0df6873d3d3f584834b5b9a19968909064f2410b",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/hit-knockdown-v1-3.png",
+        "source": "source/hit-knockdown-v1.png",
+        "sourceOrigin": [
+          794,
+          791
+        ],
+        "roi": [
+          794,
+          791,
+          1521,
+          985
+        ],
+        "anchor": [
+          356,
+          188
+        ],
+        "scale": 0.5,
+        "fullCanvasContact": false,
+        "sourceHash": "670ab5e4986ccdbb88e9c51f5259a534e2e90ddc2385aa17264ad7f55dfdd084",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/victim-v1-0.png",
+        "anchor": [
+          29,
+          76
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victim-v1-0.json",
+        "rectangles": 700
+      },
+      {
+        "file": "fit/victim-v1-0.png",
+        "anchor": [
+          29,
+          76
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victim-v1-0.json",
+        "rectangles": 700
+      },
+      {
+        "file": "fit/victim-v1-1.png",
+        "anchor": [
+          32,
+          69
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victim-v1-1.json",
+        "rectangles": 808
+      },
+      {
+        "file": "fit/victim-v1-2.png",
+        "anchor": [
+          34,
+          56
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victim-v1-2.json",
+        "rectangles": 739
+      },
+      {
+        "file": "fit/victim-v1-3.png",
+        "anchor": [
+          42,
+          36
+        ],
+        "scale": 4.5,
+        "rectData": "fit/victim-v1-3.json",
+        "rectangles": 545
+      },
+      {
+        "file": "fit/hit-knockdown-v1-3.png",
+        "anchor": [
+          42,
+          23
+        ],
+        "scale": 4.5,
+        "rectData": "fit/hit-knockdown-v1-3.json",
+        "rectangles": 519
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      24,
+      6,
+      4,
+      8
+    ],
+    "phases": [
+      "准备接触",
+      "接触",
+      "受控牵引",
+      "释放离地",
+      "侧落",
+      "落地共用"
+    ],
+    "events": [],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "none",
+    "variants": {
+      "nahida": {
+        "sourceFrames": [
+          {
+            "file": "frames/throw-low-push-v2-0.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              22,
+              93
+            ],
+            "roi": [
+              22,
+              93,
+              605,
+              714
+            ],
+            "anchor": [
+              328,
+              615
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "11b3e8aba9324b7b8b1bb7d7357d36d0ec1ecc1cffee9fde4e5904a60b8e1d09",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/throw-low-push-v2-0.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              22,
+              93
+            ],
+            "roi": [
+              22,
+              93,
+              605,
+              714
+            ],
+            "anchor": [
+              328,
+              615
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "11b3e8aba9324b7b8b1bb7d7357d36d0ec1ecc1cffee9fde4e5904a60b8e1d09",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/throw-low-push-v2-2.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              20,
+              843
+            ],
+            "roi": [
+              20,
+              843,
+              603,
+              1452
+            ],
+            "anchor": [
+              340,
+              603
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "376b4c2bd8597b3ae5fc57c7996faf050f896bf268e2dfa61d802ce213f65be8",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/victim-v1-2.png",
+            "source": "source/victim-v1.png",
+            "sourceOrigin": [
+              32,
+              836
+            ],
+            "roi": [
+              32,
+              836,
+              726,
+              1376
+            ],
+            "anchor": [
+              318,
+              544
+            ],
+            "scale": 0.44,
+            "fullCanvasContact": false,
+            "sourceHash": "d51d66f4ed738e4922757933609b663b54465a7d4d7d5c0c3e421c3679e9b076",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/victim-v1-3.png",
+            "source": "source/victim-v1.png",
+            "sourceOrigin": [
+              378,
+              1178
+            ],
+            "roi": [
+              378,
+              1178,
+              1017,
+              1524
+            ],
+            "anchor": [
+              402,
+              342
+            ],
+            "scale": 0.44,
+            "fullCanvasContact": false,
+            "sourceHash": "1a3da34f274428490fc479eb0df6873d3d3f584834b5b9a19968909064f2410b",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/hit-knockdown-v1-3.png",
+            "source": "source/hit-knockdown-v1.png",
+            "sourceOrigin": [
+              794,
+              791
+            ],
+            "roi": [
+              794,
+              791,
+              1521,
+              985
+            ],
+            "anchor": [
+              356,
+              188
+            ],
+            "scale": 0.5,
+            "fullCanvasContact": false,
+            "sourceHash": "670ab5e4986ccdbb88e9c51f5259a534e2e90ddc2385aa17264ad7f55dfdd084",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          }
+        ],
+        "frames": [
+          {
+            "file": "fit/throw-low-push-v2-0.png",
+            "anchor": [
+              36,
+              65
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-0.json",
+            "rectangles": 739
+          },
+          {
+            "file": "fit/throw-low-push-v2-0.png",
+            "anchor": [
+              36,
+              65
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-0.json",
+            "rectangles": 739
+          },
+          {
+            "file": "fit/throw-low-push-v2-2.png",
+            "anchor": [
+              37,
+              64
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-2.json",
+            "rectangles": 726
+          },
+          {
+            "file": "fit/victim-v1-2.png",
+            "anchor": [
+              34,
+              56
+            ],
+            "scale": 4.5,
+            "rectData": "fit/victim-v1-2.json",
+            "rectangles": 739
+          },
+          {
+            "file": "fit/victim-v1-3.png",
+            "anchor": [
+              42,
+              36
+            ],
+            "scale": 4.5,
+            "rectData": "fit/victim-v1-3.json",
+            "rectangles": 545
+          },
+          {
+            "file": "fit/hit-knockdown-v1-3.png",
+            "anchor": [
+              42,
+              23
+            ],
+            "scale": 4.5,
+            "rectData": "fit/hit-knockdown-v1-3.json",
+            "rectangles": 519
+          }
+        ]
+      }
+    },
+    "variantNote": "low contact reuses own crouched forearm poses; same flight/landing chain; opponent artwork unchanged",
+    "directionPolicy": "head-left, boots-right; shared landing/support; whole-world mirror only"
+  },
+  "throw": {
+    "label": "投技",
+    "sourceFrames": [
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/throw-adult-v1-0.png",
+        "source": "source/throw-adult-v1.png",
+        "sourceOrigin": [
+          27,
+          19
+        ],
+        "roi": [
+          27,
+          19,
+          640,
+          640
+        ],
+        "anchor": [
+          318,
+          615
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "987577eb9c2bf354ec5e7ee189d9d033c554f52f85c331c7085f0bebfb402964",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/throw-adult-v1-1.png",
+        "source": "source/throw-adult-v1.png",
+        "sourceOrigin": [
+          592,
+          33
+        ],
+        "roi": [
+          592,
+          33,
+          1155,
+          642
+        ],
+        "anchor": [
+          308,
+          603
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "9da32449f501c59afc692616f1ed1b4a220ebe8442540cf51b8cd956f84cb6cd",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/throw-adult-v1-2.png",
+        "source": "source/throw-adult-v1.png",
+        "sourceOrigin": [
+          52,
+          667
+        ],
+        "roi": [
+          52,
+          667,
+          688,
+          1291
+        ],
+        "anchor": [
+          398,
+          618
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "27768bce67a0a8a7c9554eeaab710aef02e3572371f4787a2227968dfcac67d8",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/throw-adult-v1-3.png",
+        "source": "source/throw-adult-v1.png",
+        "sourceOrigin": [
+          662,
+          665
+        ],
+        "roi": [
+          662,
+          665,
+          1172,
+          1291
+        ],
+        "anchor": [
+          303,
+          620
+        ],
+        "scale": 0.46,
+        "fullCanvasContact": false,
+        "sourceHash": "bb867624b52954d35363283f4a4ec4d4d5b2be71baf806e2ee4851711f409063",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      },
+      {
+        "file": "frames/idle-open-0.png",
+        "source": "source/idle-inhale-v1.png",
+        "sourceOrigin": [
+          88,
+          32
+        ],
+        "roi": [
+          88,
+          32,
+          972,
+          1488
+        ],
+        "anchor": [
+          527,
+          1450
+        ],
+        "scale": 0.23,
+        "fullCanvasContact": false,
+        "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+        "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+        "calibration": "manual declared uniform source unit; visual candidate"
+      }
+    ],
+    "frames": [
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      },
+      {
+        "file": "fit/throw-adult-v1-0.png",
+        "anchor": [
+          35,
+          65
+        ],
+        "scale": 4.5,
+        "rectData": "fit/throw-adult-v1-0.json",
+        "rectangles": 682
+      },
+      {
+        "file": "fit/throw-adult-v1-1.png",
+        "anchor": [
+          34,
+          64
+        ],
+        "scale": 4.5,
+        "rectData": "fit/throw-adult-v1-1.json",
+        "rectangles": 686
+      },
+      {
+        "file": "fit/throw-adult-v1-2.png",
+        "anchor": [
+          43,
+          66
+        ],
+        "scale": 4.5,
+        "rectData": "fit/throw-adult-v1-2.json",
+        "rectangles": 734
+      },
+      {
+        "file": "fit/throw-adult-v1-3.png",
+        "anchor": [
+          33,
+          66
+        ],
+        "scale": 4.5,
+        "rectData": "fit/throw-adult-v1-3.json",
+        "rectangles": 649
+      },
+      {
+        "file": "fit/idle-open-0.png",
+        "anchor": [
+          29,
+          77
+        ],
+        "scale": 4.5,
+        "rectData": "fit/idle-open-0.json",
+        "rectangles": 673
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      8,
+      16,
+      6,
+      12
+    ],
+    "phases": [
+      "接近",
+      "伸手",
+      "控制",
+      "前送",
+      "释放",
+      "恢复"
+    ],
+    "events": [
+      {
+        "tick": 8,
+        "kind": "grab"
+      },
+      {
+        "tick": 32,
+        "kind": "release"
+      }
+    ],
+    "status": "新攻击合成候选；使用靴底支撑而非刀尖，握点/尺度/连接待复核",
+    "weaponLayer": "none",
+    "variants": {
+      "nahida": {
+        "sourceFrames": [
+          {
+            "file": "frames/idle-open-0.png",
+            "source": "source/idle-inhale-v1.png",
+            "sourceOrigin": [
+              88,
+              32
+            ],
+            "roi": [
+              88,
+              32,
+              972,
+              1488
+            ],
+            "anchor": [
+              527,
+              1450
+            ],
+            "scale": 0.23,
+            "fullCanvasContact": false,
+            "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/throw-low-push-v2-0.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              22,
+              93
+            ],
+            "roi": [
+              22,
+              93,
+              605,
+              714
+            ],
+            "anchor": [
+              328,
+              615
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "11b3e8aba9324b7b8b1bb7d7357d36d0ec1ecc1cffee9fde4e5904a60b8e1d09",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/throw-low-push-v2-0.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              22,
+              93
+            ],
+            "roi": [
+              22,
+              93,
+              605,
+              714
+            ],
+            "anchor": [
+              328,
+              615
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "11b3e8aba9324b7b8b1bb7d7357d36d0ec1ecc1cffee9fde4e5904a60b8e1d09",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/throw-low-push-v2-2.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              20,
+              843
+            ],
+            "roi": [
+              20,
+              843,
+              603,
+              1452
+            ],
+            "anchor": [
+              340,
+              603
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "376b4c2bd8597b3ae5fc57c7996faf050f896bf268e2dfa61d802ce213f65be8",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/throw-low-push-v2-3.png",
+            "source": "source/throw-low-push-v2.png",
+            "sourceOrigin": [
+              560,
+              800
+            ],
+            "roi": [
+              560,
+              800,
+              1006,
+              1449
+            ],
+            "anchor": [
+              260,
+              643
+            ],
+            "scale": 0.46,
+            "fullCanvasContact": false,
+            "sourceHash": "aec480ddf75709b2c016d7cd238eb42e50700255c570993b90df8dff0f1ae4ea",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          },
+          {
+            "file": "frames/idle-open-0.png",
+            "source": "source/idle-inhale-v1.png",
+            "sourceOrigin": [
+              88,
+              32
+            ],
+            "roi": [
+              88,
+              32,
+              972,
+              1488
+            ],
+            "anchor": [
+              527,
+              1450
+            ],
+            "scale": 0.23,
+            "fullCanvasContact": false,
+            "sourceHash": "c239b00c419bbae8c4c7f5a75cbfa7d86a39ebd7219044189d80af8f583a82d9",
+            "extraction": "alpha250 core plus two source-pixel original RGBA fringe",
+            "calibration": "manual declared uniform source unit; visual candidate"
+          }
+        ],
+        "frames": [
+          {
+            "file": "fit/idle-open-0.png",
+            "anchor": [
+              29,
+              77
+            ],
+            "scale": 4.5,
+            "rectData": "fit/idle-open-0.json",
+            "rectangles": 673
+          },
+          {
+            "file": "fit/throw-low-push-v2-0.png",
+            "anchor": [
+              36,
+              65
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-0.json",
+            "rectangles": 739
+          },
+          {
+            "file": "fit/throw-low-push-v2-0.png",
+            "anchor": [
+              36,
+              65
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-0.json",
+            "rectangles": 739
+          },
+          {
+            "file": "fit/throw-low-push-v2-2.png",
+            "anchor": [
+              37,
+              64
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-2.json",
+            "rectangles": 726
+          },
+          {
+            "file": "fit/throw-low-push-v2-3.png",
+            "anchor": [
+              29,
+              68
+            ],
+            "scale": 4.5,
+            "rectData": "fit/throw-low-push-v2-3.json",
+            "rectangles": 669
+          },
+          {
+            "file": "fit/idle-open-0.png",
+            "anchor": [
+              29,
+              77
+            ],
+            "scale": 4.5,
+            "rectData": "fit/idle-open-0.json",
+            "rectangles": 673
+          }
+        ]
+      }
+    },
+    "motion": {
+      "kind": "dash",
+      "distance": 60,
+      "beginTick": 4,
+      "endTick": 8,
+      "height": 0
+    }
+  }
+}

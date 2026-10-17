@@ -1,0 +1,5731 @@
+{
+  "candidate": true,
+  "visualAccepted": false,
+  "nativeDeviceTested": false,
+  "bodyGroups": 25,
+  "displayStates": 138,
+  "uniqueBodyFrames": 128,
+  "auxiliaryStates": 50,
+  "bodyPeak": 1197,
+  "codec": "existing base64 / uint16 rectangle layout; no additional compression",
+  "rules": "delivered attack timings, salon E, confirmed Q 12/56/78/100/158, paired throw 30/50/72; existing damage and combat systems adapted",
+  "pending": [
+    "visual approval",
+    "device budget",
+    "Q miss and block branches are runtime adaptations because delivery only specifies confirmed branch"
+  ],
+  "version": {
+    "page": "size-review.html",
+    "bank": "actions-size-candidate.json",
+    "script": "size-review-app.js",
+    "bankSha256": "7d8178d2b3a0336dd15c20e9d545ee8a55cff03f8650df926de6423f3790cd99",
+    "scriptSha256": "9098293801e7fc30d43866461a77458035513d2feeb68b20fb5a98162302c804"
+  },
+  "bankSha256": "7d8178d2b3a0336dd15c20e9d545ee8a55cff03f8650df926de6423f3790cd99",
+  "sources": [
+    {
+      "group": "idle",
+      "frame": 0,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "idle",
+      "frame": 1,
+      "pose": "idle_1",
+      "file": "outputs/furina-design-20261010/unified-size-0-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-1.rects.json",
+      "imageSha256": "eb3c402a3f24e8284f75407ef1c3e239fc45a45e2c1752747248bb732b8261a2",
+      "rectsSha256": "5b1d1744bad823b7e4e64ee365d2cdd092f71918f20c71f36db2fdb82a2f4a6e",
+      "anchor": [
+        26,
+        81
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            410,
+            128
+          ],
+          [
+            426,
+            249
+          ]
+        ],
+        "torsoPoints": [
+          [
+            412,
+            258
+          ],
+          [
+            397,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.11051494779095,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "heavy",
+      "frame": 0,
+      "pose": "heavy_0",
+      "file": "outputs/furina-design-20261010/unified-size-1-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-1-0.rects.json",
+      "imageSha256": "cb2c9ca00948d62226ab39f495313bf0a7b0ced81bf251718b1495602da22aed",
+      "rectsSha256": "be51534ea55eeca214235faf8fd8d239b9753102f8dd124e5c2f47a9239b5019",
+      "anchor": [
+        26,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 84.83333333333333,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "heavy",
+      "frame": 1,
+      "pose": "heavy_1",
+      "file": "outputs/furina-design-20261010/unified-size-1-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-1-1.rects.json",
+      "imageSha256": "3f1d057b4ae555e825aeb4fa8ce6b98138286e519e1356acb3ef1c6ed3986e0b",
+      "rectsSha256": "f4f27e4ec76d078c08945040c5ff69c2ca27543465d3788a6387ae29b8b6b32c",
+      "anchor": [
+        28,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 85.33333333333333,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "heavy",
+      "frame": 2,
+      "pose": "heavy_2",
+      "file": "outputs/furina-design-20261010/unified-size-1-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-1-2.rects.json",
+      "imageSha256": "b1738cdbaba772b0a8bc49b1a2ad0182c7687039560cbd18868bff6740a3b60a",
+      "rectsSha256": "2e820895cce1adac914c62f3021fcc893568c960eefb6f8cb9d0f6478e1c2173",
+      "anchor": [
+        34,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.83333333333333,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "heavy",
+      "frame": 3,
+      "pose": "heavy_3",
+      "file": "outputs/furina-design-20261010/unified-size-1-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-1-3.rects.json",
+      "imageSha256": "244af473afa79e8e4254eda0fd97bcba1fa8e69d7808f10169b726229b62c868",
+      "rectsSha256": "58f26ae609d09abb0e655673629d26c6fa571b8f4c918538c354949a1a86233a",
+      "anchor": [
+        35,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.66666666666667,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "heavy",
+      "frame": 4,
+      "pose": "heavy_4",
+      "file": "outputs/furina-design-20261010/unified-size-1-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-1-4.rects.json",
+      "imageSha256": "a706985a3ab0c4fbc52430fb6b5ac111b850533661c1250f2a668289583a6510",
+      "rectsSha256": "c059255fba6eb0f03b5ba1053a6799f984e9ac660ef11023af121c070cc288ed",
+      "anchor": [
+        31,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 82.16666666666667,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "heavy",
+      "frame": 5,
+      "pose": "heavy_5",
+      "file": "outputs/furina-design-20261010/unified-size-1-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-1-5.rects.json",
+      "imageSha256": "641ca60de5d88d78bd39f2c4937b5cb86973524241e7373561dba58f0267c4fb",
+      "rectsSha256": "6b11818fc6624707d61a4f4dfb02cfc63159d1a5b55c27f6edf2aaeb124345a5",
+      "anchor": [
+        28,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 83.33333333333334,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light1",
+      "frame": 0,
+      "pose": "light1_0",
+      "file": "outputs/furina-design-20261010/unified-size-2-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-2-0.rects.json",
+      "imageSha256": "fad1760def731a5cc900fa280fef79d9ddfe453f203b517da2f65f683210143b",
+      "rectsSha256": "ccab024262cae8101dc44c6a99d315f69d952c3cc10a976f890a4c3948ff61ea",
+      "anchor": [
+        25,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 84.90416666666667,
+        "contactSheetHeadLengthPx": 41,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light1",
+      "frame": 1,
+      "pose": "light1_1",
+      "file": "outputs/furina-design-20261010/unified-size-2-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-2-1.rects.json",
+      "imageSha256": "c1968836c8599d45fde40e59e309aa8bb6a7c691bd0c82444c0721bf1abef67b",
+      "rectsSha256": "8c80e82b2bf62e4f489a3003fad8f267ed02c5db75125a7c49895e7178ea48cf",
+      "anchor": [
+        27,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 84.73333333333333,
+        "contactSheetHeadLengthPx": 41,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light1",
+      "frame": 2,
+      "pose": "light1_2",
+      "file": "outputs/furina-design-20261010/unified-size-2-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-2-2.rects.json",
+      "imageSha256": "eeeb6abbba96c8fda49cf7046f19bc578ab12c138b05b5ac14005bbd96016f66",
+      "rectsSha256": "14ddef69ef4cfc074c4bdc80a04d9b867359c476e9deba52c2e068dca14dac2e",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 82.81428571428572,
+        "contactSheetHeadLengthPx": 33,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light1",
+      "frame": 3,
+      "pose": "light1_3",
+      "file": "outputs/furina-design-20261010/unified-size-2-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-2-3.rects.json",
+      "imageSha256": "6bb3d4fb5ebac63d1c54acf0a0d00046fb868e8400d9e0222b85cbf0c603b73a",
+      "rectsSha256": "37ee36e9c660389a7f18b94d42e4ef92e8c45650af8bd363c95e4a0961628a5e",
+      "anchor": [
+        32,
+        73
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 85.48571428571428,
+        "contactSheetHeadLengthPx": 33,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light1",
+      "frame": 4,
+      "pose": "light1_4",
+      "file": "outputs/furina-design-20261010/unified-size-2-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-2-4.rects.json",
+      "imageSha256": "5a61c8f8300b844ad45b456ba0f3fff87cef63f33525bdfcde8bbb4ce6750c1f",
+      "rectsSha256": "d69575aaf0b5e43edfe721e0f6cb92ecc11b485d4d0f274ddc1617625f6aa268",
+      "anchor": [
+        29,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 84.5625,
+        "contactSheetHeadLengthPx": 41,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light1",
+      "frame": 5,
+      "pose": "light1_5",
+      "file": "outputs/furina-design-20261010/unified-size-2-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-2-5.rects.json",
+      "imageSha256": "29225a4243c4b707dcc2108a76cceb376dbba865ea6eb932d179f2dd2244a3df",
+      "rectsSha256": "dc2e2a0557aa73443cbaa7ca133ce86c275d01cfb3b36bc23b24092c8f52f538",
+      "anchor": [
+        24,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.83333333333333,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light2",
+      "frame": 0,
+      "pose": "light2_0",
+      "file": "outputs/furina-design-20261010/unified-size-3-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-3-0.rects.json",
+      "imageSha256": "fd3c6a70a8c991a86568e489fbaeb4546766f199dbc93ca6c0c057bb964cc7df",
+      "rectsSha256": "d0e8e0b7b7245e3e03231922c0a92ee53ef71424a6a9e93095e23e5d31a1f39e",
+      "anchor": [
+        31,
+        76
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 87.52857142857142,
+        "contactSheetHeadLengthPx": 33,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light2",
+      "frame": 1,
+      "pose": "light2_1",
+      "file": "outputs/furina-design-20261010/unified-size-3-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-3-1.rects.json",
+      "imageSha256": "28d809fe72494ea2aeca565781bc5cbf595416c5baf4b64d6cecaa660ea69d48",
+      "rectsSha256": "8cee69419c760c51d4bb81c6387e73314766ba6541cd004a8ba6080ccd2f5934",
+      "anchor": [
+        35,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 78.375,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light2",
+      "frame": 2,
+      "pose": "light2_2",
+      "file": "outputs/furina-design-20261010/unified-size-3-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-3-2.rects.json",
+      "imageSha256": "2ee436f6afb2bfecc6f170a8bacb82bf1128091b266739df69ad8d0b961fdf06",
+      "rectsSha256": "d6a587337a88b1839c161807eb647144aa5d0182740e9c10043b3a9d1f3f2a73",
+      "anchor": [
+        34,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.48333333333333,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light2",
+      "frame": 3,
+      "pose": "light2_3",
+      "file": "outputs/furina-design-20261010/unified-size-3-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-3-3.rects.json",
+      "imageSha256": "b0f43d5c7dfe4da3e09aee8826e59b10b4961e93fe669c76073c869748da6cdd",
+      "rectsSha256": "5f08b7a10f88642464790b6f54d59c7b9cdba13cc2ddc3dd0e3c4845952c619a",
+      "anchor": [
+        32,
+        75
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 87.25714285714285,
+        "contactSheetHeadLengthPx": 36,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light2",
+      "frame": 4,
+      "pose": "light2_4",
+      "file": "outputs/furina-design-20261010/unified-size-3-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-3-4.rects.json",
+      "imageSha256": "3afc2f903f71ec7a813c5c4147161564dab41e4b7a46dfd34906f03220ac01c0",
+      "rectsSha256": "5f4f254e83484e130e060a761ed5b7f304c04507abe7721fde2c7bac5395f737",
+      "anchor": [
+        44,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 83.80952380952381,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light2",
+      "frame": 5,
+      "pose": "light2_5",
+      "file": "outputs/furina-design-20261010/unified-size-3-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-3-5.rects.json",
+      "imageSha256": "6ecfffa1b3a7a685d6773155d6427462c927b4125a72ab0c7b599df10cf93b79",
+      "rectsSha256": "eb4df958382312c116a00d283554149030f310b3bf0dfaf398feb5e37b02ddce",
+      "anchor": [
+        32,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 80.66666666666667,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light3",
+      "frame": 0,
+      "pose": "light3_0",
+      "file": "outputs/furina-design-20261010/latest-light3-preparation.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-light3-preparation.rects.json",
+      "imageSha256": "4d6a302249d563548c0e61cb3fe9d7bef072900832abc1780985d51cf9fd7899",
+      "rectsSha256": "a42dc15ebfa408d367694b099a2bc3e0e86f909cf2a65d2e4e637b0b1c62fba5",
+      "anchor": [
+        35,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 76.27083333333334,
+        "contactSheetHeadLengthPx": 35,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light3",
+      "frame": 1,
+      "pose": "light3_1",
+      "file": "outputs/furina-design-20261010/unified-size-4-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-4-1.rects.json",
+      "imageSha256": "d8b27ba1489898f9a529bd65b2db5ae4456d1aae7772f97bec947f7d73252b9c",
+      "rectsSha256": "5e36ed0a4fffdd3114e0bb4beb464de9b424466322042ae5032727511506d0bf",
+      "anchor": [
+        39,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 83.36250000000001,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light3",
+      "frame": 2,
+      "pose": "light3_2",
+      "file": "outputs/furina-design-20261010/unified-size-4-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-4-2.rects.json",
+      "imageSha256": "a81c9a5d6d101ae5279a0e1982fc8b12f2c0570222f3d0815b3a2c06c6b08f45",
+      "rectsSha256": "f00f8a9744eaf1bf798d638cf487b792a1401ae9364e1e390c7e9ba68dfd7594",
+      "anchor": [
+        40,
+        74
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 82.34285714285714,
+        "contactSheetHeadLengthPx": 33,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light3",
+      "frame": 3,
+      "pose": "light3_3",
+      "file": "outputs/furina-design-20261010/unified-size-4-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-4-3.rects.json",
+      "imageSha256": "002997826ebb61fbae02ebc6511a986bda9dffa9c049e0e5e8071cdc302bbc31",
+      "rectsSha256": "f4026a17b6e1581cce2d0bd0c58fc8d0d6eff54e869ea538dfe8318971d549dc",
+      "anchor": [
+        40,
+        68
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 91.27619047619048,
+        "contactSheetHeadLengthPx": 32,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light3",
+      "frame": 4,
+      "pose": "light3_4",
+      "file": "outputs/furina-design-20261010/latest-light3-consistency-4.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-light3-consistency-4.rects.json",
+      "imageSha256": "1dff11440b4d8a2c10ea14589936df42f7472e7bc1bc043731d1164bb11ccb37",
+      "rectsSha256": "729b9eebea0f1e793b0ce9636f8399976b03418a7d5d5b8e4e88852735224379",
+      "anchor": [
+        19,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 76.15833333333333,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "light3",
+      "frame": 5,
+      "pose": "light3_5",
+      "file": "outputs/furina-design-20261010/latest-light3-consistency-5.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-light3-consistency-5.rects.json",
+      "imageSha256": "2c6f34884fd5250ac2c96ba424590d92aa07cd3b20ed589254851e11fe367f00",
+      "rectsSha256": "3a0c2d13b026e4a942372bf9f12293a749bb3a963cd0cf5259e107ad1bc7de75",
+      "anchor": [
+        28,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 78.8125,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "crouchLight",
+      "frame": 0,
+      "pose": "crouchLight_0",
+      "file": "outputs/furina-design-20261010/unified-size-5-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-5-0.rects.json",
+      "imageSha256": "582f6c93c46e1ccaf4fbdbdfc28a067c2bc8989331dac90ab089d5e9d128abf6",
+      "rectsSha256": "baf5aae3f043c963c4fa966379f5b600c01df605324b73b232b04c2fef7972c1",
+      "anchor": [
+        27,
+        65
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            260,
+            56
+          ],
+          [
+            271,
+            122
+          ]
+        ],
+        "torsoPoints": [
+          [
+            251,
+            130
+          ],
+          [
+            221,
+            254
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 84.83005090415891,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchLight",
+      "frame": 1,
+      "pose": "crouchLight_1",
+      "file": "outputs/furina-design-20261010/unified-size-5-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-5-1.rects.json",
+      "imageSha256": "32e3468a3a933a7baec832af2c7145dd6c21acc3bd2ec7f22323f80bcac72dda",
+      "rectsSha256": "511c3c9dc7c435f533c83f8b024317325a2db09c7e1c7d1103849ec48f341312",
+      "anchor": [
+        27,
+        63
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            296,
+            55
+          ],
+          [
+            309,
+            122
+          ]
+        ],
+        "torsoPoints": [
+          [
+            281,
+            128
+          ],
+          [
+            228,
+            250
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 86.7102485022891,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchLight",
+      "frame": 2,
+      "pose": "crouchLight_2",
+      "file": "outputs/furina-design-20261010/unified-size-5-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-5-2.rects.json",
+      "imageSha256": "863dd813a9d7f448cbdcd05b63a539321e602c8022a31c3463e014f0289be74e",
+      "rectsSha256": "f4b8429699661679cb02ce6132e5127e1cfffa2e01ebc613a7e2f16220239baf",
+      "anchor": [
+        28,
+        53
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            285,
+            55
+          ],
+          [
+            298,
+            122
+          ]
+        ],
+        "torsoPoints": [
+          [
+            267,
+            130
+          ],
+          [
+            233,
+            218
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 61.498524403754026,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchLight",
+      "frame": 3,
+      "pose": "crouchLight_3",
+      "file": "outputs/furina-design-20261010/unified-size-5-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-5-3.rects.json",
+      "imageSha256": "1bd11adbc0ccd42a56362a6a1d34b45b7479d56202413eec62450e18ddbd38f1",
+      "rectsSha256": "a1e40d6c6769bcae2db3e1a3965381d8341bf879a31c79666231ded95540449b",
+      "anchor": [
+        29,
+        53
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            321,
+            60
+          ],
+          [
+            333,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            298,
+            137
+          ],
+          [
+            253,
+            218
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 58.046673607263294,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchLight",
+      "frame": 4,
+      "pose": "crouchLight_4",
+      "file": "outputs/furina-design-20261010/unified-size-5-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-5-4.rects.json",
+      "imageSha256": "b2a16cfe5acca1a844676e169dbe1875fd22fff596deea19ba4603b470ee0d07",
+      "rectsSha256": "db0ba695dcbeb9f4ed2f26537d9cee28968da592a33cab78b62b5b73e73d37e9",
+      "anchor": [
+        26,
+        60
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            255,
+            55
+          ],
+          [
+            268,
+            122
+          ]
+        ],
+        "torsoPoints": [
+          [
+            243,
+            130
+          ],
+          [
+            222,
+            241
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 73.64259136936273,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchLight",
+      "frame": 5,
+      "pose": "crouchLight_5",
+      "file": "outputs/furina-design-20261010/unified-size-5-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-5-5.rects.json",
+      "imageSha256": "51c38bcb9c7c3742fb8908f256c6d29a16c583dbe52f1fb725748a75060a6005",
+      "rectsSha256": "a9b934186e91fecdf66a60ec0427d28b197717c33fac7b455bb0ace5a4d7fa1c",
+      "anchor": [
+        28,
+        59
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            275,
+            55
+          ],
+          [
+            288,
+            122
+          ]
+        ],
+        "torsoPoints": [
+          [
+            261,
+            130
+          ],
+          [
+            237,
+            240
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 73.39404221807382,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchHeavy",
+      "frame": 0,
+      "pose": "crouchHeavy_0",
+      "file": "outputs/furina-design-20261010/unified-size-6-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-6-0.rects.json",
+      "imageSha256": "0f94446852ce8ae29c835db09d40d2ca36abf650407351d5619093f14051e485",
+      "rectsSha256": "3789614258a5eee468230cf60d2316960e86c395902c4de9c094b768128b2bcf",
+      "anchor": [
+        18,
+        50
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            252,
+            80
+          ],
+          [
+            258,
+            181
+          ]
+        ],
+        "torsoPoints": [
+          [
+            237,
+            194
+          ],
+          [
+            241,
+            373
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 78.73077403104664,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchHeavy",
+      "frame": 1,
+      "pose": "crouchHeavy_1",
+      "file": "outputs/furina-design-20261010/unified-size-6-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-6-1.rects.json",
+      "imageSha256": "4204f8f77739b428c9aea39e6c4032199a6c2bfdef4de02842584afdf8220a26",
+      "rectsSha256": "3354a264d09717ce2960bfc3c698703b844c5ea186c49fe2675b1cecef22e8f7",
+      "anchor": [
+        14,
+        48
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            220,
+            70
+          ],
+          [
+            228,
+            174
+          ]
+        ],
+        "torsoPoints": [
+          [
+            208,
+            180
+          ],
+          [
+            210,
+            340
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 68.25098064438478,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchHeavy",
+      "frame": 2,
+      "pose": "crouchHeavy_2",
+      "file": "outputs/furina-design-20261010/unified-size-6-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-6-2.rects.json",
+      "imageSha256": "dc7ab3117307edc4f3f6dbfadc7167a1511719f13f1b2442780b10b7e091bb04",
+      "rectsSha256": "2311a98cf3f78f608a67efa6000cbaf1b2e6c126d46b3d37f26c9df37d54c383",
+      "anchor": [
+        17,
+        50
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            280,
+            80
+          ],
+          [
+            294,
+            179
+          ]
+        ],
+        "torsoPoints": [
+          [
+            270,
+            187
+          ],
+          [
+            235,
+            348
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 73.31410050144287,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchHeavy",
+      "frame": 3,
+      "pose": "crouchHeavy_3",
+      "file": "outputs/furina-design-20261010/unified-size-6-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-6-3.rects.json",
+      "imageSha256": "5ea553a83b55dd95e134463aa0d093e358d561a5881e8c3fc529b7484421d142",
+      "rectsSha256": "0f97bec00479fda291e7a6b8efa8180917a9b568b2eee7c334d4458ee741d822",
+      "anchor": [
+        17,
+        56
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            225,
+            58
+          ],
+          [
+            237,
+            145
+          ]
+        ],
+        "torsoPoints": [
+          [
+            221,
+            154
+          ],
+          [
+            206,
+            332
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 90.49287069989828,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchHeavy",
+      "frame": 4,
+      "pose": "crouchHeavy_4",
+      "file": "outputs/furina-design-20261010/unified-size-6-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-6-4.rects.json",
+      "imageSha256": "d7508d452ac40df859d7e7b6544c991469999ad13545444ec9b373010ea3eaef",
+      "rectsSha256": "12e284b1b8a737545c19dfbe443d9e0dd18d174226a74f0805ea7a17900e5e04",
+      "anchor": [
+        21,
+        54
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            270,
+            74
+          ],
+          [
+            286,
+            165
+          ]
+        ],
+        "torsoPoints": [
+          [
+            270,
+            178
+          ],
+          [
+            251,
+            332
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 74.7167512075156,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "crouchHeavy",
+      "frame": 5,
+      "pose": "crouchHeavy_5",
+      "file": "outputs/furina-design-20261010/unified-size-6-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-6-5.rects.json",
+      "imageSha256": "c9d9c5943eeee7eea0e496bd2acefa91d1641f5ce94dd4a6591b5bb5e96af099",
+      "rectsSha256": "0a930c81c1d0004b60afdc26478b33c43b07d9aad10cf0afb735aa262d60afdc",
+      "anchor": [
+        20,
+        55
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            282,
+            74
+          ],
+          [
+            293,
+            165
+          ]
+        ],
+        "torsoPoints": [
+          [
+            272,
+            178
+          ],
+          [
+            241,
+            327
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 73.8696641078614,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airLight",
+      "frame": 0,
+      "pose": "airLight_0",
+      "file": "outputs/furina-design-20261010/latest-air-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-0-0.rects.json",
+      "imageSha256": "6ebf50ff015784fb58c247f6635a0913212f57c6197f41377583bde532c88d36",
+      "rectsSha256": "c3ce8cc1644cac9b3d54753b63bda01b303dc35afb542bb976f07d4781296d03",
+      "anchor": [
+        22,
+        58
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            265,
+            68
+          ],
+          [
+            277,
+            146
+          ]
+        ],
+        "torsoPoints": [
+          [
+            248,
+            155
+          ],
+          [
+            225,
+            280
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 71.65313086543287,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airLight",
+      "frame": 1,
+      "pose": "airLight_1",
+      "file": "outputs/furina-design-20261010/latest-air-0-1.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-0-1.rects.json",
+      "imageSha256": "8ac3bb2d3f015030fc11ee39d97ede24227150a4df16445afcd892967c8b52b3",
+      "rectsSha256": "75e0c34094e5199e71d7e714c80f5d27b0f846d508e42165b947b5ea5dea48a1",
+      "anchor": [
+        22,
+        60
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            246,
+            64
+          ],
+          [
+            262,
+            142
+          ]
+        ],
+        "torsoPoints": [
+          [
+            233,
+            155
+          ],
+          [
+            229,
+            282
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 70.99762645933546,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airLight",
+      "frame": 2,
+      "pose": "airLight_2",
+      "file": "outputs/furina-design-20261010/latest-air-0-2.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-0-2.rects.json",
+      "imageSha256": "ee31a76d42a04970e00b228c3931baf8ddc9743819cdbdb11997c4e9e515bc4b",
+      "rectsSha256": "700f974726e9a125de7064410b4d8bf5de54934468054be2aa8a79624d102c3a",
+      "anchor": [
+        22,
+        50
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            270,
+            65
+          ],
+          [
+            284,
+            147
+          ]
+        ],
+        "torsoPoints": [
+          [
+            264,
+            157
+          ],
+          [
+            239,
+            292
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 73.42975247673257,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airLight",
+      "frame": 3,
+      "pose": "airLight_3",
+      "file": "outputs/furina-design-20261010/latest-air-0-3.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-0-3.rects.json",
+      "imageSha256": "b70d59f51b2765d0d4bbd69d91242eeeb4b920855e9010f071574f7bf7abab62",
+      "rectsSha256": "7e7ee2eaeda52b217b0f8bd610b9b70d12ce4f0125e0470ac33bb82195d3f936",
+      "anchor": [
+        28,
+        58
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            255,
+            65
+          ],
+          [
+            264,
+            134
+          ]
+        ],
+        "torsoPoints": [
+          [
+            252,
+            148
+          ],
+          [
+            241,
+            283
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 86.60196299909767,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airLight",
+      "frame": 4,
+      "pose": "airLight_4",
+      "file": "outputs/furina-design-20261010/latest-air-0-4.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-0-4.rects.json",
+      "imageSha256": "c92309ad706cf1fc3f90bf11b3766a8d46d3c1840ee5e988f3ac5d62e3662ef9",
+      "rectsSha256": "816ef8417cc10d7fdcd5d8a703f98606517daedb7100a3d4202ae262168948dd",
+      "anchor": [
+        21,
+        67
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            217,
+            66
+          ],
+          [
+            228,
+            140
+          ]
+        ],
+        "torsoPoints": [
+          [
+            210,
+            150
+          ],
+          [
+            201,
+            279
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 76.90169111491964,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airLight",
+      "frame": 5,
+      "pose": "airLight_5",
+      "file": "outputs/furina-design-20261010/latest-air-0-5.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-0-5.rects.json",
+      "imageSha256": "443ed7e1e2e86528ff895e204a017cf8f68fb2831013dce76d97213939168232",
+      "rectsSha256": "e21b60e74383f2ed18d06004c7358e0fc41351a8bcce3464dfc73422642d278e",
+      "anchor": [
+        23,
+        51
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            253,
+            64
+          ],
+          [
+            268,
+            145
+          ]
+        ],
+        "torsoPoints": [
+          [
+            239,
+            156
+          ],
+          [
+            238,
+            290
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 72.373470363842,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airHeavy",
+      "frame": 0,
+      "pose": "airHeavy_0",
+      "file": "outputs/furina-design-20261010/latest-air-1-0.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-1-0.rects.json",
+      "imageSha256": "a88f23a29fd3924b0d806b55a0c246c47f7ff270d08115717280e8ca242850ef",
+      "rectsSha256": "f65a485aa88c4f0c5209b0584b854118558b2795770fba94914d9fe054933969",
+      "anchor": [
+        27,
+        60
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            315,
+            66
+          ],
+          [
+            331,
+            148
+          ]
+        ],
+        "torsoPoints": [
+          [
+            307,
+            160
+          ],
+          [
+            280,
+            306
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 79.06727556252669,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airHeavy",
+      "frame": 1,
+      "pose": "airHeavy_1",
+      "file": "outputs/furina-design-20261010/latest-air-1-1.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-1-1.rects.json",
+      "imageSha256": "e0e8c7a98126437ca532971224bccd96bb1fbeb506cd720c954dcb00c1be9988",
+      "rectsSha256": "f5271cf8c302dbcb0add21074722648132190705a37ac39a5ec920261698901c",
+      "anchor": [
+        26,
+        59
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            302,
+            64
+          ],
+          [
+            313,
+            148
+          ]
+        ],
+        "torsoPoints": [
+          [
+            294,
+            162
+          ],
+          [
+            275,
+            310
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 78.3626854853962,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airHeavy",
+      "frame": 2,
+      "pose": "airHeavy_2",
+      "file": "outputs/furina-design-20261010/latest-air-1-2.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-1-2.rects.json",
+      "imageSha256": "6ae881ee22ec547a37c06c9ce27856152fcc4612e6606d09c5dba16393e88497",
+      "rectsSha256": "85a18b10dde36c0a0f8990e67fade0f5d6ebad44388deb62741b839115f182a3",
+      "anchor": [
+        19,
+        59
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            259,
+            65
+          ],
+          [
+            273,
+            150
+          ]
+        ],
+        "torsoPoints": [
+          [
+            252,
+            162
+          ],
+          [
+            218,
+            305
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 75.91286001026853,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airHeavy",
+      "frame": 3,
+      "pose": "airHeavy_3",
+      "file": "outputs/furina-design-20261010/latest-air-1-3.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-1-3.rects.json",
+      "imageSha256": "5363bbf069ae631b9c12ff8a8ac9b644deeee74b1e0ae3fb67608e95407ed2a1",
+      "rectsSha256": "523ef746e6f643775dd39537835ebcd7332207392974e638303c1818db285ea4",
+      "anchor": [
+        27,
+        66
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            273,
+            70
+          ],
+          [
+            285,
+            145
+          ]
+        ],
+        "torsoPoints": [
+          [
+            258,
+            157
+          ],
+          [
+            251,
+            295
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 80.93870490822579,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airHeavy",
+      "frame": 4,
+      "pose": "airHeavy_4",
+      "file": "outputs/furina-design-20261010/latest-air-1-4.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-1-4.rects.json",
+      "imageSha256": "73039bb374526062e4ca7e6f10b3ef134454ae7819770924c7adc5f0bf6b632a",
+      "rectsSha256": "b6d60aedfebed6e2db809a14d63e6dbff15c6792959a64debec0bf628faa9f7b",
+      "anchor": [
+        22,
+        62
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            250,
+            70
+          ],
+          [
+            262,
+            150
+          ]
+        ],
+        "torsoPoints": [
+          [
+            243,
+            158
+          ],
+          [
+            231,
+            299
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 77.82767403130562,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "airHeavy",
+      "frame": 5,
+      "pose": "airHeavy_5",
+      "file": "outputs/furina-design-20261010/latest-air-1-5.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-air-1-5.rects.json",
+      "imageSha256": "e79eaf51caf7b2244b62152ce9d15f05b7e4e9b1010d64c93a6a55ec9d24af03",
+      "rectsSha256": "47eb177758ebf4cb57c8bf57805e6b4761a641dddabfc9ef2005a6da106a49b1",
+      "anchor": [
+        19,
+        63
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            210,
+            64
+          ],
+          [
+            221,
+            137
+          ]
+        ],
+        "torsoPoints": [
+          [
+            204,
+            149
+          ],
+          [
+            185,
+            290
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 85.74284574305211,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "block",
+      "frame": 0,
+      "pose": "block_0",
+      "file": "outputs/furina-design-20261010/unified-size-9-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-9-0.rects.json",
+      "imageSha256": "bf886157beff94569665c86db886e01e613680b0dffba3b04b3346627e3d36ec",
+      "rectsSha256": "1c1b5c6380dd826b6d5f9a7f235a68b117931a8e4c1cf474d579f9f24fdce61e",
+      "anchor": [
+        24,
+        75
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            218,
+            59
+          ],
+          [
+            223,
+            128
+          ]
+        ],
+        "torsoPoints": [
+          [
+            210,
+            139
+          ],
+          [
+            208,
+            290
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 97.11764112751762,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "block",
+      "frame": 1,
+      "pose": "block_1",
+      "file": "outputs/furina-design-20261010/unified-size-9-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-9-1.rects.json",
+      "imageSha256": "07654c81c3d5d6e7de2bd3e2aa32429867ca29307780bf462bc6c5123a4450f2",
+      "rectsSha256": "30e10bcc01f6c8c3ae17ab6e3e5b38053014ce329155517aee027ca5c2d4d78b",
+      "anchor": [
+        20,
+        76
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            179,
+            60
+          ],
+          [
+            186,
+            128
+          ]
+        ],
+        "torsoPoints": [
+          [
+            174,
+            138
+          ],
+          [
+            182,
+            289
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 98.41405951952403,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "block",
+      "frame": 2,
+      "pose": "block_2",
+      "file": "outputs/furina-design-20261010/unified-size-9-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-9-2.rects.json",
+      "imageSha256": "f498fedb701242eb957f964f177b8c49ada414eca7ca120a2204c9b61185e6e0",
+      "rectsSha256": "8673257226e25b6b6004910b5d133561c5c897791f8f417065bce17d3121dd9b",
+      "anchor": [
+        22,
+        75
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            188,
+            59
+          ],
+          [
+            195,
+            128
+          ]
+        ],
+        "torsoPoints": [
+          [
+            184,
+            139
+          ],
+          [
+            197,
+            291
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 97.8640266023329,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "block",
+      "frame": 3,
+      "pose": "block_3",
+      "file": "outputs/furina-design-20261010/unified-size-9-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-9-3.rects.json",
+      "imageSha256": "16547773f595e2c7f1f5477f39775f0cc64bc17fdb55d5b43c421cba4076f69e",
+      "rectsSha256": "167c06fac66e493a4520fb9f23ed09afe3d372df7507d442f7229ed2c82ac340",
+      "anchor": [
+        18,
+        64
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            135,
+            57
+          ],
+          [
+            146,
+            132
+          ]
+        ],
+        "torsoPoints": [
+          [
+            130,
+            144
+          ],
+          [
+            186,
+            282
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 87.41126278135096,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "block",
+      "frame": 4,
+      "pose": "block_4",
+      "file": "outputs/furina-design-20261010/unified-size-9-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-9-4.rects.json",
+      "imageSha256": "e2f444e7a241c57fc85a3570b90c20b1e69258ca6b8025b9317f86a9a74427e9",
+      "rectsSha256": "5c7d9889423d28cab5312d5ceb77eae4d8af40bfc73c773e684688029cd54af6",
+      "anchor": [
+        26,
+        69
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            210,
+            62
+          ],
+          [
+            220,
+            132
+          ]
+        ],
+        "torsoPoints": [
+          [
+            206,
+            144
+          ],
+          [
+            226,
+            283
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.35861475550809,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "block",
+      "frame": 5,
+      "pose": "block_5",
+      "file": "outputs/furina-design-20261010/unified-size-9-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-9-5.rects.json",
+      "imageSha256": "9a72b4209e0c6c54b7700de0d6efdde2a45e4345bdb4b6dbc36394dab99287f3",
+      "rectsSha256": "6f93096c6be6ef46c369f5c31e07d64d91e5dbf81501836670bc9cdce06570fe",
+      "anchor": [
+        26,
+        66
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            229,
+            61
+          ],
+          [
+            239,
+            132
+          ]
+        ],
+        "torsoPoints": [
+          [
+            222,
+            143
+          ],
+          [
+            235,
+            278
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 84.1557361555789,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "cblock",
+      "frame": 0,
+      "pose": "cblock_0",
+      "file": "outputs/furina-design-20261010/unified-size-10-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-10-0.rects.json",
+      "imageSha256": "9b3e34caf883bf74b7e79bda90738a0424f701943cbdab3ab7cff00a736bbf04",
+      "rectsSha256": "0f9f17f0f887b760b7e51b50fd130659ab4c5aecd2ec7a789f13bb4d70f41199",
+      "anchor": [
+        12,
+        43
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            262,
+            81
+          ],
+          [
+            278,
+            199
+          ]
+        ],
+        "torsoPoints": [
+          [
+            245,
+            209
+          ],
+          [
+            215,
+            365
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 59.352850061267965,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "cblock",
+      "frame": 1,
+      "pose": "cblock_1",
+      "file": "outputs/furina-design-20261010/unified-size-10-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-10-1.rects.json",
+      "imageSha256": "a8074cfd5fa215abacf41beb0847eb7e24bba20e5d21023817c0444dc9e13589",
+      "rectsSha256": "3a609d2cf6946f55edcd699a53221e40789bff5399506eb01b61b0c353768865",
+      "anchor": [
+        17,
+        53
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            270,
+            126
+          ],
+          [
+            283,
+            217
+          ]
+        ],
+        "torsoPoints": [
+          [
+            263,
+            228
+          ],
+          [
+            211,
+            348
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 63.29799062140199,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "cblock",
+      "frame": 2,
+      "pose": "cblock_2",
+      "file": "outputs/furina-design-20261010/unified-size-10-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-10-2.rects.json",
+      "imageSha256": "ab938c232241631faeba78f8a0efd613afe173ce475a3f821fce5e19ffe46a3e",
+      "rectsSha256": "50e8ac3eedb24044a225cb6d31703a41ba9c4afa7cb71a4220ad62c92af84c8c",
+      "anchor": [
+        20,
+        54
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            280,
+            126
+          ],
+          [
+            293,
+            211
+          ]
+        ],
+        "torsoPoints": [
+          [
+            274,
+            218
+          ],
+          [
+            226,
+            319
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 57.85908470898377,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "cblock",
+      "frame": 3,
+      "pose": "cblock_3",
+      "file": "outputs/furina-design-20261010/unified-size-10-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-10-3.rects.json",
+      "imageSha256": "c094426a92712e6d92aade8e003f3abcf94b054e9b385bd56af7d5906ecaf554",
+      "rectsSha256": "8e3b6c35e3fa1520127f69c65e22745eb4bf1adea96a00d0ff8d1e0439346eb3",
+      "anchor": [
+        19,
+        51
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            294,
+            120
+          ],
+          [
+            302,
+            210
+          ]
+        ],
+        "torsoPoints": [
+          [
+            290,
+            220
+          ],
+          [
+            229,
+            311
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 53.9441988287443,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "cblock",
+      "frame": 4,
+      "pose": "cblock_4",
+      "file": "outputs/furina-design-20261010/unified-size-10-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-10-4.rects.json",
+      "imageSha256": "e61d59369801a324a7674b4e403bd8bfb3a1bca3546dce29eb0b5f19978156e7",
+      "rectsSha256": "47a5b07c49320713d6d37f3a224668cc5fe80f0d89d1651232514e81721ac59d",
+      "anchor": [
+        18,
+        51
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            303,
+            134
+          ],
+          [
+            319,
+            228
+          ]
+        ],
+        "torsoPoints": [
+          [
+            295,
+            238
+          ],
+          [
+            235,
+            343
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 56.42709054615438,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "cblock",
+      "frame": 5,
+      "pose": "cblock_5",
+      "file": "outputs/furina-design-20261010/unified-size-10-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-10-5.rects.json",
+      "imageSha256": "6cd52fa342ba5f215b40ce4d6eed308c69feb8b309f200db3f4dcb17d961958e",
+      "rectsSha256": "f95cfd6662b2d8b9d07859e1ca057485b797c5909464422f5bf68b2ee8a1555a",
+      "anchor": [
+        17,
+        48
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            276,
+            73
+          ],
+          [
+            287,
+            171
+          ]
+        ],
+        "torsoPoints": [
+          [
+            267,
+            183
+          ],
+          [
+            233,
+            320
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 63.68304107926855,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "skill",
+      "frame": 0,
+      "pose": "skill_0",
+      "file": "outputs/furina-design-20261010/unified-size-11-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-11-0.rects.json",
+      "imageSha256": "d98f1c600cd81af15232a322a20923c4e9721410595db8fe9cb95d8f22bcee9d",
+      "rectsSha256": "b547c20422bb9d39ee0a4c0485bb09815af5e96fbf3e00937ce4289eec0038ad",
+      "anchor": [
+        23,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.7375,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "skill",
+      "frame": 1,
+      "pose": "skill_1",
+      "file": "outputs/furina-design-20261010/unified-size-11-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-11-1.rects.json",
+      "imageSha256": "123060baabd608822d2a381553b53ef553af89df010bff0b7b149cba7c5c7206",
+      "rectsSha256": "60df0005458e35e6b4df8a1d0df6b67393a21766c53b07905827d652a071092c",
+      "anchor": [
+        24,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.7375,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "skill",
+      "frame": 2,
+      "pose": "skill_2",
+      "file": "outputs/furina-design-20261010/unified-size-11-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-11-2.rects.json",
+      "imageSha256": "a66a69828156be6cfafa46932351cd308fbe173d66fc88474d6c804ebd82d59e",
+      "rectsSha256": "f0e985430822d2834d6c0187acc47df818e790b711382296c8021a7ba923b15e",
+      "anchor": [
+        26,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.7375,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "skill",
+      "frame": 3,
+      "pose": "skill_3",
+      "file": "outputs/furina-design-20261010/unified-size-11-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-11-3.rects.json",
+      "imageSha256": "371720145687da29475774b5f808dbcc2784d505efd064632fc2cfb26653e98c",
+      "rectsSha256": "b173e63d9d45f1db0414fff962ecb99dc38fdc821046be2170ebbb93ef1d6115",
+      "anchor": [
+        26,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.9,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "skill",
+      "frame": 4,
+      "pose": "skill_4",
+      "file": "outputs/furina-design-20261010/unified-size-11-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-11-4.rects.json",
+      "imageSha256": "02101bf1102e07170db8176e36dafc2237d6fe419665d8fb9285392c345ba149",
+      "rectsSha256": "fa6ab54ff660ddc1eccffad9dbe4c157d7c0ad869270ef10f6d28ff00bee2f04",
+      "anchor": [
+        26,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 82.22500000000001,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "skill",
+      "frame": 5,
+      "pose": "skill_5",
+      "file": "outputs/furina-design-20261010/unified-size-11-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-11-5.rects.json",
+      "imageSha256": "3978bf56b8fdd59dd909e5ac1a87a16734cef0fabe0f34fdbb73c72798d743b3",
+      "rectsSha256": "9b3c482ad073202b3595b63a1f4cc5ce98956dbacb78e809ea9d874bc90b780c",
+      "anchor": [
+        25,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 81.9,
+        "contactSheetHeadLengthPx": 39,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 0,
+      "pose": "burst_0",
+      "file": "outputs/furina-design-20261010/unified-size-12-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-0.rects.json",
+      "imageSha256": "ed837a5a0a7258c73a31107e586fe0dee9026528f37304cc6758257370fc06aa",
+      "rectsSha256": "886c8ccbe229675c44065d26d99a8c435984a267fda7d63d3e56c814b67e54c0",
+      "anchor": [
+        29,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.48333333333333,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 1,
+      "pose": "burst_0",
+      "file": "outputs/furina-design-20261010/unified-size-12-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-1.rects.json",
+      "imageSha256": "ed837a5a0a7258c73a31107e586fe0dee9026528f37304cc6758257370fc06aa",
+      "rectsSha256": "886c8ccbe229675c44065d26d99a8c435984a267fda7d63d3e56c814b67e54c0",
+      "anchor": [
+        29,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.48333333333333,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 2,
+      "pose": "burst_2",
+      "file": "outputs/furina-design-20261010/unified-size-12-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-2.rects.json",
+      "imageSha256": "383df4cca7172ec4cddb200af6c3794f642f0e3339b780382cfecd6f31c5b800",
+      "rectsSha256": "c6b72deb1a72f8dada4a9327ceebfdd3665b68633ddfefaab3b55079188465ca",
+      "anchor": [
+        30,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.64166666666667,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 3,
+      "pose": "burst_3",
+      "file": "outputs/furina-design-20261010/unified-size-12-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-3.rects.json",
+      "imageSha256": "1fe573ec855618fc8315673b6c14b897c28334fa9360599e90e3fd079f9410fc",
+      "rectsSha256": "e0d763b37fbfea95704651ca3c94c45fa86bbbe9eaaa928730b25445d57c099f",
+      "anchor": [
+        29,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.325,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 4,
+      "pose": "burst_4",
+      "file": "outputs/furina-design-20261010/unified-size-12-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-4.rects.json",
+      "imageSha256": "7fd640ce124ef757c9f5c86ddef6f257a514d15fb987a08861cf29418204e0d8",
+      "rectsSha256": "e4908a1d1fa679e2e62f80ba2499184d78233367fb9cd1a83383ded7393ead7d",
+      "anchor": [
+        29,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 80.59166666666667,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 5,
+      "pose": "burst_5",
+      "file": "outputs/furina-design-20261010/unified-size-12-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-5.rects.json",
+      "imageSha256": "030514e3642ffd4584f691c8917d75d4ff5bf4198238ede749511200b528c1d7",
+      "rectsSha256": "150abfbff208a767eb49b764f1f6403f0acc35cb8e77ed7a0c8874a537b95ebb",
+      "anchor": [
+        34,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 80.59166666666667,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 6,
+      "pose": "burst_6",
+      "file": "outputs/furina-design-20261010/unified-size-12-6.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-6.rects.json",
+      "imageSha256": "58dbef732d48a18d41e227dd149aa0d292516ae4eba80dc183c4c06b7f7404dd",
+      "rectsSha256": "d5479db0d077a1964830d708c916034c6a0fd8c4c8861c4c07b36e350c9b8324",
+      "anchor": [
+        27,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.64166666666667,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "burst",
+      "frame": 7,
+      "pose": "burst_0",
+      "file": "outputs/furina-design-20261010/unified-size-12-7.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-12-7.rects.json",
+      "imageSha256": "ed837a5a0a7258c73a31107e586fe0dee9026528f37304cc6758257370fc06aa",
+      "rectsSha256": "886c8ccbe229675c44065d26d99a8c435984a267fda7d63d3e56c814b67e54c0",
+      "anchor": [
+        29,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.48333333333333,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "throw",
+      "frame": 0,
+      "pose": "throw_0",
+      "file": "outputs/furina-design-20261010/unified-size-13-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-13-0.rects.json",
+      "imageSha256": "e58222a05975eafe4e4484d440d11e16f79717e4f41b9eabfe5b1dd4093c12e1",
+      "rectsSha256": "40865ac6b24bda5c0c6133e286c9c2668831d1b31389dad2a8c42cf086238b4f",
+      "anchor": [
+        30,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 78.53333333333333,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "throw",
+      "frame": 1,
+      "pose": "throw_1",
+      "file": "outputs/furina-design-20261010/unified-size-13-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-13-1.rects.json",
+      "imageSha256": "d4117e16acfa8520fe29e7e0f5d45fe76717e981eaf581a64728ef6172001a8b",
+      "rectsSha256": "5da2a5595ca85516179b95c430b57dde6540123435da25b3aa2e55bb48c44f46",
+      "anchor": [
+        31,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.16666666666667,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "throw",
+      "frame": 2,
+      "pose": "throw_2",
+      "file": "outputs/furina-design-20261010/unified-size-13-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-13-2.rects.json",
+      "imageSha256": "b26c37a75c865512b4642dde90c0991923548eb2af1272aefa24c749efc9bb99",
+      "rectsSha256": "2bb9536256e9693375e92deeb0d7d70768d1aa73ab34a8d24e4c2ff4092379ab",
+      "anchor": [
+        40,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.00833333333334,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "throw",
+      "frame": 3,
+      "pose": "throw_3",
+      "file": "outputs/furina-design-20261010/unified-size-13-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-13-3.rects.json",
+      "imageSha256": "ae2adac1fbb7b99dceae7eb24521866557d1a3a8a17ba33443f71ad93a63e12c",
+      "rectsSha256": "cb4b7ff293d43f2eb1b6742fcfc20a93befcb4262a3cfce6ccaa268d0ad8b109",
+      "anchor": [
+        31,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.16666666666667,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "throw",
+      "frame": 4,
+      "pose": "throw_4",
+      "file": "outputs/furina-design-20261010/unified-size-13-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-13-4.rects.json",
+      "imageSha256": "4cf02d1c9fa769a4d703fa74fa13137d1177b505366eba870a84975a8825434d",
+      "rectsSha256": "74d2f1f9d82ddd78a61c832a42c41e8c89bf2adf5813f198d44a6cc7573e4456",
+      "anchor": [
+        37,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.00833333333334,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "throw",
+      "frame": 5,
+      "pose": "throw_5",
+      "file": "outputs/furina-design-20261010/unified-size-13-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-13-5.rects.json",
+      "imageSha256": "be3f5a8ef2a373ac9fcafa9c7f8c7a97762ec0516c18f098764bfa99fc27f862",
+      "rectsSha256": "90b28c872be56ff16a2dc18825631cecad15ce34c7193c5a680ab9f42dc10caa",
+      "anchor": [
+        26,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 79.80000000000001,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "thrown",
+      "frame": 0,
+      "pose": "thrown_0",
+      "file": "outputs/furina-design-20261010/unified-size-14-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-14-0.rects.json",
+      "imageSha256": "d10312f8a4b0e7dec9de86225a7a7db43beba80beb31c96e5756ae08bc80f0f9",
+      "rectsSha256": "0ab3d227a551917ef1dde4c5a6d9bd90f83879736aa9537fd5e75ce8a20a3526",
+      "anchor": [
+        21,
+        70
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": -1,
+      "anatomy": {
+        "headPoints": [
+          [
+            155,
+            46
+          ],
+          [
+            167,
+            123
+          ]
+        ],
+        "torsoPoints": [
+          [
+            150,
+            136
+          ],
+          [
+            209,
+            279
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.31594959861053,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "thrown",
+      "frame": 1,
+      "pose": "thrown_1",
+      "file": "outputs/furina-design-20261010/unified-size-14-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-14-1.rects.json",
+      "imageSha256": "d788b52dc2241de3824b3f0ab6bfd75e700885de77ddc0b407d49a1f44eaf4f2",
+      "rectsSha256": "17cfaaa7f23f2f6d2d6c80029b5d708c106a289abe587d04761d32eeaabd68be",
+      "anchor": [
+        22,
+        74
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": -1,
+      "anatomy": {
+        "headPoints": [
+          [
+            115,
+            45
+          ],
+          [
+            128,
+            118
+          ]
+        ],
+        "torsoPoints": [
+          [
+            114,
+            131
+          ],
+          [
+            208,
+            248
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 90.05326560588847,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "thrown",
+      "frame": 2,
+      "pose": "thrown_1",
+      "file": "outputs/furina-design-20261010/unified-size-14-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-14-2.rects.json",
+      "imageSha256": "d788b52dc2241de3824b3f0ab6bfd75e700885de77ddc0b407d49a1f44eaf4f2",
+      "rectsSha256": "25bdf9ef2505d5ba0c23f7d1bd77ac70fdf916b27933e41164c77689ef9beef1",
+      "anchor": [
+        22,
+        74
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": -1,
+      "anatomy": {
+        "headPoints": [
+          [
+            115,
+            45
+          ],
+          [
+            128,
+            118
+          ]
+        ],
+        "torsoPoints": [
+          [
+            114,
+            131
+          ],
+          [
+            208,
+            248
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 90.05326560588847,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "thrown",
+      "frame": 3,
+      "pose": "thrown_3",
+      "file": "outputs/furina-design-20261010/unified-size-14-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-14-3.rects.json",
+      "imageSha256": "dc095f188c0214a77be9cf9d8385e9d42561d5cc70e0a5bc66b2affe04be6439",
+      "rectsSha256": "4b4b5e3fd9a7676ea00e1e1643f4fd50d34d56830a2dd821f8d2596797646a7a",
+      "anchor": [
+        24,
+        66
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": -1,
+      "anatomy": {
+        "headPoints": [
+          [
+            405,
+            83
+          ],
+          [
+            415,
+            164
+          ]
+        ],
+        "torsoPoints": [
+          [
+            388,
+            172
+          ],
+          [
+            250,
+            204
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 77.22390582546099,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "thrown",
+      "frame": 4,
+      "pose": "thrown_4",
+      "file": "outputs/furina-design-20261010/unified-size-14-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-14-4.rects.json",
+      "imageSha256": "410fdcf3762a295ccedc4239b87b8bb440b7dff4dd42f894e06828fd6a9baff3",
+      "rectsSha256": "09b8927ee82c486d880deaca03849592db373bbcbe0b4a3d64306a732685ce5a",
+      "anchor": [
+        27,
+        41
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": -1,
+      "anatomy": {
+        "headPoints": [
+          [
+            353,
+            63
+          ],
+          [
+            355,
+            131
+          ]
+        ],
+        "torsoPoints": [
+          [
+            335,
+            139
+          ],
+          [
+            227,
+            189
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 77.83334909225225,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "thrown",
+      "frame": 5,
+      "pose": "thrown_5",
+      "file": "outputs/furina-design-20261010/unified-size-14-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-14-5.rects.json",
+      "imageSha256": "c5a956f31013f76d40e2e59df3f611cc40317b519a843f8ba1f58b30c5390b63",
+      "rectsSha256": "b129a5943dd345155d31d6e59d3fb1d8565ae28553076b1627b81a07452357cb",
+      "anchor": [
+        25,
+        18
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            67,
+            30
+          ],
+          [
+            130,
+            83
+          ]
+        ],
+        "torsoPoints": [
+          [
+            145,
+            82
+          ],
+          [
+            254,
+            67
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 59.459189745535134,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "walk",
+      "frame": 0,
+      "pose": "walk_0",
+      "file": "outputs/furina-design-20261010/unified-size-15-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-15-0.rects.json",
+      "imageSha256": "aec1d963cffc41c64056e19db710320e6e15b26b51e8f4eb86d1adc9d0712088",
+      "rectsSha256": "95f558a4f91977fd984b944308b4360443ea02ae82ec118b0fb205a4b242279f",
+      "anchor": [
+        50,
+        72
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            353,
+            60
+          ],
+          [
+            367,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            352,
+            140
+          ],
+          [
+            339,
+            281
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.24943082284493,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "walk",
+      "frame": 1,
+      "pose": "walk_1",
+      "file": "outputs/furina-design-20261010/unified-size-15-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-15-1.rects.json",
+      "imageSha256": "4353adf4c139e6f6153f5850f27dae20ca5e814899347ef1d768a254dcf1d45f",
+      "rectsSha256": "a626f6721cd6d92c4d4feb357cfb8cc232487fc1d4335968ad541084b9c8cdf5",
+      "anchor": [
+        41,
+        72
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            283,
+            64
+          ],
+          [
+            300,
+            133
+          ]
+        ],
+        "torsoPoints": [
+          [
+            279,
+            145
+          ],
+          [
+            278,
+            282
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 85.77404304478408,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "walk",
+      "frame": 2,
+      "pose": "walk_2",
+      "file": "outputs/furina-design-20261010/unified-size-15-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-15-2.rects.json",
+      "imageSha256": "cf950640c94a32b4cbaca3e461453448c2b4846ad1225bbab341f721e6538b14",
+      "rectsSha256": "1178a378ab5912bcc5366bf8d5d0eaf95bb574b31638c23cce5916e37261e1ec",
+      "anchor": [
+        38,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            267,
+            61
+          ],
+          [
+            286,
+            131
+          ]
+        ],
+        "torsoPoints": [
+          [
+            261,
+            142
+          ],
+          [
+            265,
+            282
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 85.90936515359314,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "walk",
+      "frame": 3,
+      "pose": "walk_3",
+      "file": "outputs/furina-design-20261010/unified-size-15-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-15-3.rects.json",
+      "imageSha256": "58bbfcd73c0e044af015d94ef2c3788c2503baf0fcc02e8e061c877e483f69fb",
+      "rectsSha256": "f1134cfb68fbe5b06077e198ba8c53ca9eb51cea52a4eb4c30316082b707eee6",
+      "anchor": [
+        47,
+        68
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            322,
+            49
+          ],
+          [
+            334,
+            121
+          ]
+        ],
+        "torsoPoints": [
+          [
+            315,
+            133
+          ],
+          [
+            320,
+            279
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.04195956324912,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "walk",
+      "frame": 4,
+      "pose": "walk_4",
+      "file": "outputs/furina-design-20261010/unified-size-15-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-15-4.rects.json",
+      "imageSha256": "1082306db0946d5db52e1f198157e587651d12a59f247a5db40cc6cb7d928753",
+      "rectsSha256": "d79eea8e39c7d06757f1b36d0bcd4805c7f6562c9e840bcd0570833dc2745a60",
+      "anchor": [
+        41,
+        68
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            293,
+            56
+          ],
+          [
+            309,
+            128
+          ]
+        ],
+        "torsoPoints": [
+          [
+            288,
+            140
+          ],
+          [
+            291,
+            278
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 83.26292589069251,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "walk",
+      "frame": 5,
+      "pose": "walk_5",
+      "file": "outputs/furina-design-20261010/unified-size-15-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-15-5.rects.json",
+      "imageSha256": "8c375383d080e37c1ad5d87a5f38dc682310fb9851af6b4bac9e0ce933a03d9d",
+      "rectsSha256": "ee6f86d862c61e03ab62f059ed9853598ee0e01db7393a6cb3ddd8bf5872ee92",
+      "anchor": [
+        35,
+        69
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            233,
+            50
+          ],
+          [
+            250,
+            120
+          ]
+        ],
+        "torsoPoints": [
+          [
+            222,
+            131
+          ],
+          [
+            242,
+            273
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.56892968532188,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "back",
+      "frame": 0,
+      "pose": "back_0",
+      "file": "outputs/furina-design-20261010/unified-size-16-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-16-0.rects.json",
+      "imageSha256": "a7b3c53c211b330bd21556fba4cd2d3436e3b228708daafac35e8aa05d671831",
+      "rectsSha256": "331c6abba78ff3a4fd54a34726ca37f9bf44e0f7cf8f492cc0e745a49b24ee59",
+      "anchor": [
+        33,
+        73
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            210,
+            61
+          ],
+          [
+            226,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            209,
+            141
+          ],
+          [
+            226,
+            290
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 94.19809313849663,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "back",
+      "frame": 1,
+      "pose": "back_1",
+      "file": "outputs/furina-design-20261010/unified-size-16-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-16-1.rects.json",
+      "imageSha256": "74467449f75c9ff74e5c4f93c10d45b9f3cf68c2ec335e46076bfb29d285f206",
+      "rectsSha256": "c3f6bf16704fb8143166ccf149c02932cb3df8a81f37e402106d6df297433db5",
+      "anchor": [
+        34,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            167,
+            60
+          ],
+          [
+            182,
+            131
+          ]
+        ],
+        "torsoPoints": [
+          [
+            165,
+            142
+          ],
+          [
+            198,
+            288
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 91.7701583220004,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "back",
+      "frame": 2,
+      "pose": "back_2",
+      "file": "outputs/furina-design-20261010/unified-size-16-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-16-2.rects.json",
+      "imageSha256": "ae274f646aa992090924d441373064387f5f2307ae685f189bda0fd1cb72df94",
+      "rectsSha256": "15943402f732abd008f5dc44437d3176be82dc78aa861dac6c60993b97504040",
+      "anchor": [
+        26,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            150,
+            59
+          ],
+          [
+            166,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            150,
+            141
+          ],
+          [
+            184,
+            286
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 91.04267480149093,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "back",
+      "frame": 3,
+      "pose": "back_3",
+      "file": "outputs/furina-design-20261010/unified-size-16-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-16-3.rects.json",
+      "imageSha256": "a6098bcb84fde478b44b1a7a833460eddf5f9a5ddd98d2d788c83227562d47ca",
+      "rectsSha256": "3efcbfa65af26f183da7e51e620506a7b51b4e1d8f1a03ca5fb3341afe97aa6a",
+      "anchor": [
+        32,
+        72
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            195,
+            61
+          ],
+          [
+            210,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            192,
+            143
+          ],
+          [
+            221,
+            284
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 90.70038526673339,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "back",
+      "frame": 4,
+      "pose": "back_4",
+      "file": "outputs/furina-design-20261010/unified-size-16-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-16-4.rects.json",
+      "imageSha256": "ac859ba2756588b070d641ebe40f0be8b2eafb0333056d63e7421d9e5caa870a",
+      "rectsSha256": "1572e3f3085856f07a59b61095260d021b8e04b10a6d0bdb71cee074fa0cc401",
+      "anchor": [
+        31,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            185,
+            59
+          ],
+          [
+            201,
+            128
+          ]
+        ],
+        "torsoPoints": [
+          [
+            183,
+            141
+          ],
+          [
+            207,
+            278
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 87.36384722520185,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "back",
+      "frame": 5,
+      "pose": "back_5",
+      "file": "outputs/furina-design-20261010/unified-size-16-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-16-5.rects.json",
+      "imageSha256": "452e3c23310acdd2200149e0f277aadd37ecfb524b21ec23bde12f095203a802",
+      "rectsSha256": "f792f63061f5eb28ebea33dc2261f0327a219de89f830c12a112312727a6b18b",
+      "anchor": [
+        20,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            147,
+            57
+          ],
+          [
+            162,
+            126
+          ]
+        ],
+        "torsoPoints": [
+          [
+            145,
+            138
+          ],
+          [
+            171,
+            279
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 90.3385603032184,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "jump",
+      "frame": 0,
+      "pose": "jump_0",
+      "file": "outputs/furina-design-20261010/unified-size-17-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-17-0.rects.json",
+      "imageSha256": "74683e77c8e8f04d6ee26d060533cacdfa91895b87fcbc9d69cb95f9581a393a",
+      "rectsSha256": "dcce785a99989357ea92adc1460e881a92f4686dda773ff085961bd5d2992302",
+      "anchor": [
+        37,
+        65
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            288,
+            60
+          ],
+          [
+            295,
+            127
+          ]
+        ],
+        "torsoPoints": [
+          [
+            274,
+            140
+          ],
+          [
+            251,
+            267
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 85.2410159644891,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "jump",
+      "frame": 1,
+      "pose": "jump_1",
+      "file": "outputs/furina-design-20261010/unified-size-17-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-17-1.rects.json",
+      "imageSha256": "122a3de8ef919dad38a15f1a42baa03ab7547fece2427e45a0ecc5ef1be48a2d",
+      "rectsSha256": "b0b7c059c7da2db2c168713f3f6de95110159297805eb489701514ced1b6f48e",
+      "anchor": [
+        33,
+        76
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            242,
+            58
+          ],
+          [
+            249,
+            128
+          ]
+        ],
+        "torsoPoints": [
+          [
+            234,
+            139
+          ],
+          [
+            226,
+            265
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 79.84631281071202,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "jump",
+      "frame": 2,
+      "pose": "jump_2",
+      "file": "outputs/furina-design-20261010/unified-size-17-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-17-2.rects.json",
+      "imageSha256": "fd681e525459bb5a05a0d0d10f48e8f503866d27768b67388ee3e07406d52d1d",
+      "rectsSha256": "faa41e69a637db7ff78f546a4fca78d57329cda445759dc6690ddad5e975b3c0",
+      "anchor": [
+        33,
+        75
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            232,
+            60
+          ],
+          [
+            244,
+            129
+          ]
+        ],
+        "torsoPoints": [
+          [
+            230,
+            141
+          ],
+          [
+            224,
+            263
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 77.59510764042624,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "jump",
+      "frame": 3,
+      "pose": "jump_3",
+      "file": "outputs/furina-design-20261010/unified-size-17-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-17-3.rects.json",
+      "imageSha256": "e0eae11159f97e660b3b1d7f0b8088950f9c9bb2818c269ad0046e2e72fb4a64",
+      "rectsSha256": "b94f8a835ff7c95edd0198e6c7bb72f925588f81997a9464dbad1ee75232f5ab",
+      "anchor": [
+        34,
+        75
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            242,
+            61
+          ],
+          [
+            254,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            238,
+            143
+          ],
+          [
+            231,
+            264
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 76.9946991315082,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "jump",
+      "frame": 4,
+      "pose": "jump_4",
+      "file": "outputs/furina-design-20261010/unified-size-17-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-17-4.rects.json",
+      "imageSha256": "90c0d95a89d05995c5c71a03f0cdbd3055b2630953b901bef5947fcadfc5cd8b",
+      "rectsSha256": "072408bcc0c1488deaa29c183989a6f7394fa60c7f0ab727ea6d49c4b54ba842",
+      "anchor": [
+        32,
+        76
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            233,
+            61
+          ],
+          [
+            245,
+            130
+          ]
+        ],
+        "torsoPoints": [
+          [
+            230,
+            142
+          ],
+          [
+            219,
+            264
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 77.81582536725016,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "jump",
+      "frame": 5,
+      "pose": "jump_5",
+      "file": "outputs/furina-design-20261010/unified-size-17-5.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-17-5.rects.json",
+      "imageSha256": "624017e27c9a2402102caac0b82f9ad2bd48e724a400d0729262f10426e364ee",
+      "rectsSha256": "dbc332c32395673f21474e06b538b76a084deb47e3e4c78897c25824f5b0226d",
+      "anchor": [
+        41,
+        63
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            297,
+            53
+          ],
+          [
+            305,
+            122
+          ]
+        ],
+        "torsoPoints": [
+          [
+            291,
+            134
+          ],
+          [
+            268,
+            260
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 82.0368342243329,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "crouch",
+      "frame": 0,
+      "pose": "crouch_0",
+      "file": "outputs/furina-design-20261010/unified-size-18-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-18-0.rects.json",
+      "imageSha256": "64d20a4c7e11fba664b8366779f1fccd155769b0c6c5b33ac51bcfc69049c441",
+      "rectsSha256": "c8210cbcdfec7b75efd698911e62d2e19cb43f8549bf25ea911ce6730d3175fb",
+      "anchor": [
+        22,
+        74
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            279,
+            105
+          ],
+          [
+            295,
+            224
+          ]
+        ],
+        "torsoPoints": [
+          [
+            279,
+            236
+          ],
+          [
+            257,
+            475
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.9328224046658,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "crouch",
+      "frame": 1,
+      "pose": "crouch_1",
+      "file": "outputs/furina-design-20261010/unified-size-18-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-18-1.rects.json",
+      "imageSha256": "3de209adf89b51cfe6f8c525be746b894da8db9b9aac45a02ecebea4cbfe3e84",
+      "rectsSha256": "88876af1aeb2f22971e738d2faa555ed8a2b633e61ce67ecee1d1f2b43767dc6",
+      "anchor": [
+        15,
+        63
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            262,
+            107
+          ],
+          [
+            281,
+            225
+          ]
+        ],
+        "torsoPoints": [
+          [
+            262,
+            235
+          ],
+          [
+            259,
+            463
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 84.8792923899935,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "crouch",
+      "frame": 2,
+      "pose": "crouch_2",
+      "file": "outputs/furina-design-20261010/unified-size-18-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-18-2.rects.json",
+      "imageSha256": "94bd274818503c0774737d61b7256fdfc8071ed4e1a2d107a89a4360964492fd",
+      "rectsSha256": "1c205451b2e0f540c461c34b085f2c501163633bf3e90e800f691f61ca1b21fb",
+      "anchor": [
+        16,
+        53
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            278,
+            105
+          ],
+          [
+            292,
+            225
+          ]
+        ],
+        "torsoPoints": [
+          [
+            280,
+            236
+          ],
+          [
+            216,
+            421
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 72.08931912368725,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "crouch",
+      "frame": 3,
+      "pose": "crouch_3",
+      "file": "outputs/furina-design-20261010/unified-size-18-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-18-3.rects.json",
+      "imageSha256": "cb6791acd7b742a93f3899e299f223267701442fd6c6c755610f4707b105d8fb",
+      "rectsSha256": "c7e663a479cd519155f0be31ce9eaccaa300a4d15a38b8aeec3ed62804fb1e0a",
+      "anchor": [
+        15,
+        53
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            252,
+            101
+          ],
+          [
+            267,
+            218
+          ]
+        ],
+        "torsoPoints": [
+          [
+            258,
+            229
+          ],
+          [
+            190,
+            410
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 72.92763454876754,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "hurt",
+      "frame": 0,
+      "pose": "hurt_0",
+      "file": "outputs/furina-design-20261010/unified-size-19-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-19-0.rects.json",
+      "imageSha256": "b8734d795d4b176d7e01d2bf1530120c9bcd99b4639fbb5598fc2c3417af69f0",
+      "rectsSha256": "1a07c5b7b5d2064c2baa52cc6007b67371deef7568d0b6b0191b7569a2cdd914",
+      "anchor": [
+        16,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            192,
+            80
+          ],
+          [
+            217,
+            189
+          ]
+        ],
+        "torsoPoints": [
+          [
+            198,
+            200
+          ],
+          [
+            250,
+            408
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 85.29783856803824,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "hurt",
+      "frame": 1,
+      "pose": "hurt_1",
+      "file": "outputs/furina-design-20261010/unified-size-19-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-19-1.rects.json",
+      "imageSha256": "870dbee881e8d44d2791cb78bbfa4b0ae7734302e169798e38ae99f8becacff8",
+      "rectsSha256": "172413b8ee73930dbea743816bb2fba794c17985dc385afa87348c3dabd13305",
+      "anchor": [
+        23,
+        55
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            169,
+            80
+          ],
+          [
+            193,
+            184
+          ]
+        ],
+        "torsoPoints": [
+          [
+            166,
+            195
+          ],
+          [
+            318,
+            344
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.72428607018611,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "hurt",
+      "frame": 2,
+      "pose": "hurt_2",
+      "file": "outputs/furina-design-20261010/unified-size-19-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-19-2.rects.json",
+      "imageSha256": "063ba166b2eb7c0250a91ce2352e05a9e494877dbf0d9fd51516465f8b5ad4a0",
+      "rectsSha256": "5705556711f2aba86ed9ebe0a8c69f2a43e0dbc5004d6b1ca3c711b63bd256c6",
+      "anchor": [
+        14,
+        40
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            159,
+            74
+          ],
+          [
+            185,
+            182
+          ]
+        ],
+        "torsoPoints": [
+          [
+            157,
+            193
+          ],
+          [
+            230,
+            324
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 60.062939386918245,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "hurt",
+      "frame": 3,
+      "pose": "hurt_3",
+      "file": "outputs/furina-design-20261010/unified-size-20-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-20-0.rects.json",
+      "imageSha256": "ce759348868b079d5158509ba8e3dc859a950afc0bec51b6b670872bee48885e",
+      "rectsSha256": "c5c2008c74e3ee57a77a1df8012be69ed94201822ea6462df703a437d22d1a46",
+      "anchor": [
+        44,
+        43
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 113.90476190476191,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "getup",
+      "frame": 0,
+      "pose": "hurt_3",
+      "file": "outputs/furina-design-20261010/unified-size-20-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-20-0.rects.json",
+      "imageSha256": "ce759348868b079d5158509ba8e3dc859a950afc0bec51b6b670872bee48885e",
+      "rectsSha256": "c5c2008c74e3ee57a77a1df8012be69ed94201822ea6462df703a437d22d1a46",
+      "anchor": [
+        44,
+        43
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 113.90476190476191,
+        "contactSheetHeadLengthPx": 40,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "getup",
+      "frame": 1,
+      "pose": "getup_1",
+      "file": "outputs/furina-design-20261010/unified-size-20-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-20-1.rects.json",
+      "imageSha256": "e7dd28e7f6164a72351c7438f0fba1c61089705a2fb7108650a9eb027e6eec79",
+      "rectsSha256": "da929483a4c28670273b40aba22a95d3405541e7bde2af7e99c78bdaa1208be8",
+      "anchor": [
+        39,
+        56
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 104.15833333333333,
+        "contactSheetHeadLengthPx": 58,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "getup",
+      "frame": 2,
+      "pose": "getup_2",
+      "file": "outputs/furina-design-20261010/unified-size-20-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-20-2.rects.json",
+      "imageSha256": "a51ca7fb144f81187bf0f20034953957d50af0f072a3f1e041e9622bb0d7f1c2",
+      "rectsSha256": "5a82fe7695fac3d906f572c5c04c71253ffd913c82015461b89c7fdb45ffe475",
+      "anchor": [
+        15,
+        77
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 99.925,
+        "contactSheetHeadLengthPx": 42,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "getup",
+      "frame": 3,
+      "pose": "getup_3",
+      "file": "outputs/furina-design-20261010/unified-size-20-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-20-3.rects.json",
+      "imageSha256": "2d125307fde0358698eb081fbaa0002700132e7c5d8baaacf289bcfcb0840218",
+      "rectsSha256": "fbd6b81375f6b02f021c68792d8a2db3ec178692037987e4709b1ade56e883a6",
+      "anchor": [
+        26,
+        84
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headLengthSourcePx": 91.67500000000001,
+        "contactSheetHeadLengthPx": 38,
+        "targetHeadLengthWorld": 59.23076923076924,
+        "review": "manual estimate; montage verified"
+      }
+    },
+    {
+      "group": "win",
+      "frame": 0,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "win",
+      "frame": 1,
+      "pose": "win_1",
+      "file": "outputs/furina-design-20261010/latest-victory-1.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-victory-1.rects.json",
+      "imageSha256": "a74ba6d70d9f98d53fd81ef52bd7ac98c75282fa0ac272a8299b157d146ad4e9",
+      "rectsSha256": "e49b0ede1914db5b8039f3fef0e1ee832956976f2b73fda6a0c3f49d797ef754",
+      "anchor": [
+        17,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {}
+    },
+    {
+      "group": "win",
+      "frame": 2,
+      "pose": "win_2",
+      "file": "outputs/furina-design-20261010/latest-victory-2.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-victory-2.rects.json",
+      "imageSha256": "4f289139432db56a596206a847cda853c137d68fdafe94bdcf7547226ea5b570",
+      "rectsSha256": "c21ba92cea02cb26795219bbe7b0ac81814402466e0456a442f038a94194fe30",
+      "anchor": [
+        21,
+        70
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {}
+    },
+    {
+      "group": "win",
+      "frame": 3,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "dash",
+      "frame": 0,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "dash",
+      "frame": 1,
+      "pose": "dash_1",
+      "file": "outputs/furina-design-20261010/unified-size-22-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-22-1.rects.json",
+      "imageSha256": "4b92705936a32ec1d27461280b176190b724ac1cef19aed4f838ec23baa765d4",
+      "rectsSha256": "10ef646f55a8c91bd41c0d516cba3d7a86f65be8eb16affaf0306111bbbc53e5",
+      "anchor": [
+        25,
+        63
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            369,
+            80
+          ],
+          [
+            377,
+            175
+          ]
+        ],
+        "torsoPoints": [
+          [
+            350,
+            187
+          ],
+          [
+            298,
+            360
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 84.30238918280511,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "dash",
+      "frame": 2,
+      "pose": "dash_2",
+      "file": "outputs/furina-design-20261010/unified-size-22-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-22-2.rects.json",
+      "imageSha256": "6bf8dafd04a6cfe16fa653a03ccbb596a9f3db924e7e193811c4291f4e05d73d",
+      "rectsSha256": "99b9f34e1533654fecc2c88762973a9881eec2b670efd49947aee438a982c68b",
+      "anchor": [
+        31,
+        64
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            424,
+            80
+          ],
+          [
+            439,
+            170
+          ]
+        ],
+        "torsoPoints": [
+          [
+            404,
+            184
+          ],
+          [
+            337,
+            344
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 84.58263104584391,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "dash",
+      "frame": 3,
+      "pose": "dash_3",
+      "file": "outputs/furina-design-20261010/unified-size-22-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-22-3.rects.json",
+      "imageSha256": "9a3060626c457aff8b5455b954f82eb14a2abbce9a56069e427c1782cdabc9e8",
+      "rectsSha256": "673a6b0490a59cdb28d3daa4c8d710fe2dc8ac10c08eed471c1da68c005c324d",
+      "anchor": [
+        35,
+        65
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            423,
+            80
+          ],
+          [
+            431,
+            166
+          ]
+        ],
+        "torsoPoints": [
+          [
+            413,
+            179
+          ],
+          [
+            358,
+            341
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 88.1259806547028,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "dash",
+      "frame": 4,
+      "pose": "dash_4",
+      "file": "outputs/furina-design-20261010/unified-size-22-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-22-4.rects.json",
+      "imageSha256": "984a60f9a94127720d5968e578eeb79712f1b74b2604f416caffc0673d7d5d5c",
+      "rectsSha256": "a668116b11e8e63f8e4d76297c3a36b379255026b5f7fcb638c478d6aae530eb",
+      "anchor": [
+        25,
+        74
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            276,
+            80
+          ],
+          [
+            277,
+            160
+          ]
+        ],
+        "torsoPoints": [
+          [
+            262,
+            173
+          ],
+          [
+            254,
+            342
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 94.08454051937598,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "dash",
+      "frame": 5,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "backdash",
+      "frame": 0,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "backdash",
+      "frame": 1,
+      "pose": "backdash_1",
+      "file": "outputs/furina-design-20261010/unified-size-23-1.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-23-1.rects.json",
+      "imageSha256": "8eccf702ef550b5ae36d9c635c37e81015a16b4c485cb92d3fb70e204c82f421",
+      "rectsSha256": "95967f36818cf40ffa496117e937f8dd42a4e154df868156ac6ff41de32b2537",
+      "anchor": [
+        29,
+        72
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            297,
+            64
+          ],
+          [
+            309,
+            144
+          ]
+        ],
+        "torsoPoints": [
+          [
+            283,
+            157
+          ],
+          [
+            284,
+            329
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 94.59835310477541,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "backdash",
+      "frame": 2,
+      "pose": "backdash_2",
+      "file": "outputs/furina-design-20261010/unified-size-23-2.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-23-2.rects.json",
+      "imageSha256": "60fc55b4ce6973660a8696e176f2e98d2d8927f6bf4af144bbfbca564390c4de",
+      "rectsSha256": "ce3ed3e3a875004e2ed511f4c0d95bee968c72638b8427f5ce7a6a91cb5d9d17",
+      "anchor": [
+        40,
+        78
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            384,
+            78
+          ],
+          [
+            399,
+            149
+          ]
+        ],
+        "torsoPoints": [
+          [
+            365,
+            157
+          ],
+          [
+            339,
+            319
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 100.59271608302264,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "backdash",
+      "frame": 3,
+      "pose": "backdash_3",
+      "file": "outputs/furina-design-20261010/unified-size-23-3.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-23-3.rects.json",
+      "imageSha256": "c6692395ab5fd8535e7a1669d1b84cdc1e6beb00271412e3b64ec6f9378abfee",
+      "rectsSha256": "767a818bda5672ae26302f7ba5b9d8c0d6ddff52f27c76b80a1606fc4a7f1f22",
+      "anchor": [
+        29,
+        71
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            270,
+            61
+          ],
+          [
+            280,
+            140
+          ]
+        ],
+        "torsoPoints": [
+          [
+            260,
+            150
+          ],
+          [
+            281,
+            302
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 85.73139786047062,
+        "sourceNeedsReview": true,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "backdash",
+      "frame": 4,
+      "pose": "backdash_4",
+      "file": "outputs/furina-design-20261010/unified-size-23-4.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-23-4.rects.json",
+      "imageSha256": "3a5f7a6682e755a36dc25c056bd3826cdad9cd01f09ef97e138dcb65e4dcab03",
+      "rectsSha256": "f7b4f228421553630553516220472a1d838a28b64e73b5791b0d51ba26d43713",
+      "anchor": [
+        28,
+        79
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            249,
+            67
+          ],
+          [
+            259,
+            138
+          ]
+        ],
+        "torsoPoints": [
+          [
+            234,
+            151
+          ],
+          [
+            250,
+            305
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 96.07220682927574,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "backdash",
+      "frame": 5,
+      "pose": "idle_0",
+      "file": "outputs/furina-design-20261010/unified-size-0-0.png",
+      "rectsFile": "outputs/furina-design-20261010/unified-size-0-0.rects.json",
+      "imageSha256": "015d8cd6dc9651b3522c7621ec02dd0f653416c1301de7f07878eae7690fe799",
+      "rectsSha256": "9f63cd6e56673d0d4e9b24972e1c709dea9b0d0bc632a8947ec096bf84ecc1ab",
+      "anchor": [
+        30,
+        82
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            450,
+            128
+          ],
+          [
+            465,
+            248
+          ]
+        ],
+        "torsoPoints": [
+          [
+            449,
+            258
+          ],
+          [
+            434,
+            502
+          ]
+        ],
+        "headWorld": 44.49072001569435,
+        "torsoWorld": 89.93534911536804,
+        "sourceNeedsReview": false,
+        "userRejected": false
+      }
+    },
+    {
+      "group": "lose",
+      "frame": 0,
+      "pose": "lose_0",
+      "file": "outputs/furina-design-20261010/latest-defeat-0.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-defeat-0.rects.json",
+      "imageSha256": "bc63fa92430f10917f2d6530f0279859f27606c4292d86ceb2f95e2425aad87d",
+      "rectsSha256": "df6b548e01e04ea7bbbe479c5dc8d33e5e288c1d9096f366de65ed54303ae8fc",
+      "anchor": [
+        25,
+        80
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            281,
+            89
+          ],
+          [
+            282,
+            161
+          ]
+        ],
+        "torsoPoints": [
+          [
+            262,
+            166
+          ],
+          [
+            243,
+            329
+          ]
+        ],
+        "headWorld": 39.88823173820873,
+        "torsoWorld": 90.90516943676373,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "lose",
+      "frame": 1,
+      "pose": "lose_1",
+      "file": "outputs/furina-design-20261010/latest-defeat-1.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-defeat-1.rects.json",
+      "imageSha256": "73f76a2c8fb6a60fe093e7bb98adbfc348ec8b17758103195888c9dad1114060",
+      "rectsSha256": "2945cbacee1f9b9f7822505bc2433880104f2ab4af7cdb3f75823c06e1fee0c5",
+      "anchor": [
+        32,
+        52
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            398,
+            89
+          ],
+          [
+            387,
+            164
+          ]
+        ],
+        "torsoPoints": [
+          [
+            360,
+            169
+          ],
+          [
+            318,
+            312
+          ]
+        ],
+        "headWorld": 39.88823173820873,
+        "torsoWorld": 78.42699622941406,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "lose",
+      "frame": 2,
+      "pose": "lose_2",
+      "file": "outputs/furina-design-20261010/latest-defeat-2.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-defeat-2.rects.json",
+      "imageSha256": "56a8db9f51381463ea2bc10acd7a5ef6db448f8c5d1d2b018095230a9d23a804",
+      "rectsSha256": "8a93bf3751cc44b8c79b1d3d3fe941edae7d50b72b4d5d9ff41429b7781170a7",
+      "anchor": [
+        43,
+        48
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            400,
+            90
+          ],
+          [
+            400,
+            155
+          ]
+        ],
+        "torsoPoints": [
+          [
+            357,
+            160
+          ],
+          [
+            350,
+            291
+          ]
+        ],
+        "headWorld": 39.88823173820873,
+        "torsoWorld": 80.50481619900445,
+        "sourceNeedsReview": false,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "lose",
+      "frame": 3,
+      "pose": "lose_3",
+      "file": "outputs/furina-design-20261010/latest-defeat-3.png",
+      "rectsFile": "outputs/furina-design-20261010/latest-defeat-3.rects.json",
+      "imageSha256": "54aae45ae11897a8cb6a90503f11c90fd31de76fae0e9e6a94aaccd7fcfe16a9",
+      "rectsSha256": "800746098e3a02bf1642f26afcb24e98268e5d655ab8c142d4f7069ddce7da6d",
+      "anchor": [
+        43,
+        25
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1,
+      "anatomy": {
+        "headPoints": [
+          [
+            630,
+            92
+          ],
+          [
+            580,
+            143
+          ]
+        ],
+        "torsoPoints": [
+          [
+            550,
+            129
+          ],
+          [
+            385,
+            115
+          ]
+        ],
+        "headWorld": 39.88823173820873,
+        "torsoWorld": 92.4823308668045,
+        "sourceNeedsReview": true,
+        "userRejected": true
+      }
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_heavy_0",
+      "file": "outputs/furina-design-20261010/water-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-0-rects.json",
+      "imageSha256": "63e31d9c1168b4b3866b89773cf529b4b7eae2642f64181454729893567ce6c0",
+      "rectsSha256": "e70d40ed1b0da5c538f5fc5ce08319ebd84d20f84b5eaf501cfa6bcc06357eeb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_heavy_1",
+      "file": "outputs/furina-design-20261010/water-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-1-rects.json",
+      "imageSha256": "5665d0dd05c7f61cc49847a612c81ac32a985547f41684b9dab954114e43fb78",
+      "rectsSha256": "2ff6b2d0a4a16431304ba027a9b4b6ae9d2000da28235b0ef60e1c4746104c36",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_heavy_2",
+      "file": "outputs/furina-design-20261010/water-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-2-rects.json",
+      "imageSha256": "17b25c83e0e26aa33547a0490f72de85176e76f44dd302d82b040b3e99806f11",
+      "rectsSha256": "ea50e5e3a73bb7533ee01ed0eca849b42454bc2ae2d6c6c195ba9359f2d0afcb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light1_0",
+      "file": "outputs/furina-design-20261010/sword-light1-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light1-effect-0-rects.json",
+      "imageSha256": "45e1ec16cb0c04d528e604fa336649c88820e42dfaf0a52b628e19f66d6d5cbd",
+      "rectsSha256": "8b379bdc19af16106d49ceba998eabeaa88d11d66b6cc6557adb1050e117fac8",
+      "anchor": [
+        5.796266666666666,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light1_1",
+      "file": "outputs/furina-design-20261010/sword-light1-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light1-effect-1-rects.json",
+      "imageSha256": "21e1847ba9f5480ef7b51dc044670a4ff00aef99a5bf722d08d97d3068cac0bd",
+      "rectsSha256": "a9afb05918d296ead54251877fa374e9b6ac01d471ec452b6cf24a0e4eceb336",
+      "anchor": [
+        5.796266666666666,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light1_2",
+      "file": "outputs/furina-design-20261010/sword-light1-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light1-effect-2-rects.json",
+      "imageSha256": "f4767f1224926a6b78c8e298b8ce9e129473378690ecc6e36509e3f448a62e96",
+      "rectsSha256": "cd0e0ff35666b6dad87aa008ec712acc846756335fa75ba3d0076e049de70ee6",
+      "anchor": [
+        5.796266666666666,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light2_0",
+      "file": "outputs/furina-design-20261010/sword-light2-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light2-effect-0-rects.json",
+      "imageSha256": "c68d96d858266e3ea66886a76529fd37fa409481f46a4781f1eaa378e687ca03",
+      "rectsSha256": "9b1c3a7daa23e71934d3d9641fd465012b29db282a311fbc5ddb17cf473fdfb8",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light2_1",
+      "file": "outputs/furina-design-20261010/sword-light2-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light2-effect-1-rects.json",
+      "imageSha256": "a95b835625300b2a877213bba7e04820bb020a94b0c40ef4af7000b27e675260",
+      "rectsSha256": "87f26270dd36ba45d0fbeb9b14a20b1a24f043f1a9f76e2df7a651144dfa4d90",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light2_2",
+      "file": "outputs/furina-design-20261010/sword-light2-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light2-effect-2-rects.json",
+      "imageSha256": "4df9e499d48a824a72fa402e03380ec54efc511e058864ab5f4e36c7979a1242",
+      "rectsSha256": "b0592db55e90687460c212e303375c22996040ebd1af84abb44a8c817729a870",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light3_0",
+      "file": "outputs/furina-design-20261010/sword-light3-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light3-effect-0-rects.json",
+      "imageSha256": "7a8d530bd1305bcaebd21785b10727e5d9ade6384e61851d89c8e41477a60e23",
+      "rectsSha256": "f22d0f024b1411747938c5bc73c79ee3c2e1ac946b15848e469925736b521a53",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light3_1",
+      "file": "outputs/furina-design-20261010/sword-light3-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light3-effect-1-rects.json",
+      "imageSha256": "f856f029ceecc37860ec9419cffa591be35c7281177003e0a4ce2afd6b26545f",
+      "rectsSha256": "4ad5dae48aaef2f45e148ab9391f2b7a81e10e4b74aa97e69881d0f86c3364d1",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_light3_2",
+      "file": "outputs/furina-design-20261010/sword-light3-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light3-effect-2-rects.json",
+      "imageSha256": "776acbbecc8a8ccf02f6f998b7ddd78ac5575f9eed714216aa3654e94a3cd0a1",
+      "rectsSha256": "1eb08b318db1b16f05b16fdcc23ab8491eda9994124083f4fc2d3cb72e714879",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchLight_0",
+      "file": "outputs/furina-design-20261010/sword-light1-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light1-effect-0-rects.json",
+      "imageSha256": "45e1ec16cb0c04d528e604fa336649c88820e42dfaf0a52b628e19f66d6d5cbd",
+      "rectsSha256": "8b379bdc19af16106d49ceba998eabeaa88d11d66b6cc6557adb1050e117fac8",
+      "anchor": [
+        5.796266666666666,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchLight_1",
+      "file": "outputs/furina-design-20261010/sword-light1-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light1-effect-1-rects.json",
+      "imageSha256": "21e1847ba9f5480ef7b51dc044670a4ff00aef99a5bf722d08d97d3068cac0bd",
+      "rectsSha256": "a9afb05918d296ead54251877fa374e9b6ac01d471ec452b6cf24a0e4eceb336",
+      "anchor": [
+        5.796266666666666,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchLight_2",
+      "file": "outputs/furina-design-20261010/sword-light1-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light1-effect-2-rects.json",
+      "imageSha256": "f4767f1224926a6b78c8e298b8ce9e129473378690ecc6e36509e3f448a62e96",
+      "rectsSha256": "cd0e0ff35666b6dad87aa008ec712acc846756335fa75ba3d0076e049de70ee6",
+      "anchor": [
+        5.796266666666666,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchHeavy_0",
+      "file": "outputs/furina-design-20261010/water-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-0-rects.json",
+      "imageSha256": "63e31d9c1168b4b3866b89773cf529b4b7eae2642f64181454729893567ce6c0",
+      "rectsSha256": "e70d40ed1b0da5c538f5fc5ce08319ebd84d20f84b5eaf501cfa6bcc06357eeb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchHeavy_1",
+      "file": "outputs/furina-design-20261010/water-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-1-rects.json",
+      "imageSha256": "5665d0dd05c7f61cc49847a612c81ac32a985547f41684b9dab954114e43fb78",
+      "rectsSha256": "2ff6b2d0a4a16431304ba027a9b4b6ae9d2000da28235b0ef60e1c4746104c36",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_crouchHeavy_2",
+      "file": "outputs/furina-design-20261010/water-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-2-rects.json",
+      "imageSha256": "17b25c83e0e26aa33547a0490f72de85176e76f44dd302d82b040b3e99806f11",
+      "rectsSha256": "ea50e5e3a73bb7533ee01ed0eca849b42454bc2ae2d6c6c195ba9359f2d0afcb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airLight_0",
+      "file": "outputs/furina-design-20261010/sword-light3-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light3-effect-0-rects.json",
+      "imageSha256": "7a8d530bd1305bcaebd21785b10727e5d9ade6384e61851d89c8e41477a60e23",
+      "rectsSha256": "f22d0f024b1411747938c5bc73c79ee3c2e1ac946b15848e469925736b521a53",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airLight_1",
+      "file": "outputs/furina-design-20261010/sword-light3-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light3-effect-1-rects.json",
+      "imageSha256": "f856f029ceecc37860ec9419cffa591be35c7281177003e0a4ce2afd6b26545f",
+      "rectsSha256": "4ad5dae48aaef2f45e148ab9391f2b7a81e10e4b74aa97e69881d0f86c3364d1",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airLight_2",
+      "file": "outputs/furina-design-20261010/sword-light3-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/sword-light3-effect-2-rects.json",
+      "imageSha256": "776acbbecc8a8ccf02f6f998b7ddd78ac5575f9eed714216aa3654e94a3cd0a1",
+      "rectsSha256": "1eb08b318db1b16f05b16fdcc23ab8491eda9994124083f4fc2d3cb72e714879",
+      "anchor": [
+        24.151111111111113,
+        24.151111111111113
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airHeavy_0",
+      "file": "outputs/furina-design-20261010/water-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-0-rects.json",
+      "imageSha256": "63e31d9c1168b4b3866b89773cf529b4b7eae2642f64181454729893567ce6c0",
+      "rectsSha256": "e70d40ed1b0da5c538f5fc5ce08319ebd84d20f84b5eaf501cfa6bcc06357eeb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airHeavy_1",
+      "file": "outputs/furina-design-20261010/water-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-1-rects.json",
+      "imageSha256": "5665d0dd05c7f61cc49847a612c81ac32a985547f41684b9dab954114e43fb78",
+      "rectsSha256": "2ff6b2d0a4a16431304ba027a9b4b6ae9d2000da28235b0ef60e1c4746104c36",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_airHeavy_2",
+      "file": "outputs/furina-design-20261010/water-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-2-rects.json",
+      "imageSha256": "17b25c83e0e26aa33547a0490f72de85176e76f44dd302d82b040b3e99806f11",
+      "rectsSha256": "ea50e5e3a73bb7533ee01ed0eca849b42454bc2ae2d6c6c195ba9359f2d0afcb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_0",
+      "file": "outputs/furina-design-20261010/combo-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-0-rects.json",
+      "imageSha256": "8d8139dd6a2e5ee4e8423eca9ecafb9ec43d392433427727aa85bbb0f469ed4b",
+      "rectsSha256": "9acf02f2a76bfb77d098554576b62d0aefd8391ffa5a0cb27a4acf3649fb31ca",
+      "anchor": [
+        17.91111111111111,
+        26.288888888888888
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_1",
+      "file": "outputs/furina-design-20261010/combo-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-1-rects.json",
+      "imageSha256": "63496b6f7e4b595c9f18fc26faac6b13f5b15e3c2f83d858cfa62645ca520df3",
+      "rectsSha256": "8ba90276753021be7a08bc369969d49b5b74653bd579af1747d8527dc20978f9",
+      "anchor": [
+        31.488888888888894,
+        30.40555555555556
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_2",
+      "file": "outputs/furina-design-20261010/combo-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-2-rects.json",
+      "imageSha256": "53dcbcab490e0409acbe6e7fb03dff319d2062b68fe6f97a2dbb69d54e62a1c3",
+      "rectsSha256": "41de4105dca4a84446300cea72353e6cfe307d000cfc015f481864ace450aba3",
+      "anchor": [
+        38.56666666666667,
+        27.66111111111111
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_skill_3",
+      "file": "outputs/furina-design-20261010/combo-effect-3-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-3-rects.json",
+      "imageSha256": "60ba17b1af13b22bd311fa11de8c401f93738f3f33d46f232afb521459d86a23",
+      "rectsSha256": "52947758e3f93661213d563868abbde53931411ca6203d4a42007b834ba9f2cb",
+      "anchor": [
+        32.138888888888886,
+        22.461111111111112
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_0",
+      "file": "outputs/furina-design-20261010/combo-effect-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-0-rects.json",
+      "imageSha256": "8d8139dd6a2e5ee4e8423eca9ecafb9ec43d392433427727aa85bbb0f469ed4b",
+      "rectsSha256": "9acf02f2a76bfb77d098554576b62d0aefd8391ffa5a0cb27a4acf3649fb31ca",
+      "anchor": [
+        17.91111111111111,
+        26.288888888888888
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_1",
+      "file": "outputs/furina-design-20261010/combo-effect-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-1-rects.json",
+      "imageSha256": "63496b6f7e4b595c9f18fc26faac6b13f5b15e3c2f83d858cfa62645ca520df3",
+      "rectsSha256": "8ba90276753021be7a08bc369969d49b5b74653bd579af1747d8527dc20978f9",
+      "anchor": [
+        31.488888888888894,
+        30.40555555555556
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_2",
+      "file": "outputs/furina-design-20261010/combo-effect-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-2-rects.json",
+      "imageSha256": "53dcbcab490e0409acbe6e7fb03dff319d2062b68fe6f97a2dbb69d54e62a1c3",
+      "rectsSha256": "41de4105dca4a84446300cea72353e6cfe307d000cfc015f481864ace450aba3",
+      "anchor": [
+        38.56666666666667,
+        27.66111111111111
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_3",
+      "file": "outputs/furina-design-20261010/combo-effect-3-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/combo-effect-3-rects.json",
+      "imageSha256": "60ba17b1af13b22bd311fa11de8c401f93738f3f33d46f232afb521459d86a23",
+      "rectsSha256": "52947758e3f93661213d563868abbde53931411ca6203d4a42007b834ba9f2cb",
+      "anchor": [
+        32.138888888888886,
+        22.461111111111112
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_4",
+      "file": "outputs/furina-design-20261010/water-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-0-rects.json",
+      "imageSha256": "63e31d9c1168b4b3866b89773cf529b4b7eae2642f64181454729893567ce6c0",
+      "rectsSha256": "e70d40ed1b0da5c538f5fc5ce08319ebd84d20f84b5eaf501cfa6bcc06357eeb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_5",
+      "file": "outputs/furina-design-20261010/water-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-1-rects.json",
+      "imageSha256": "5665d0dd05c7f61cc49847a612c81ac32a985547f41684b9dab954114e43fb78",
+      "rectsSha256": "2ff6b2d0a4a16431304ba027a9b4b6ae9d2000da28235b0ef60e1c4746104c36",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "fx_burst_6",
+      "file": "outputs/furina-design-20261010/water-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/water-2-rects.json",
+      "imageSha256": "17b25c83e0e26aa33547a0490f72de85176e76f44dd302d82b040b3e99806f11",
+      "rectsSha256": "ea50e5e3a73bb7533ee01ed0eca849b42454bc2ae2d6c6c195ba9359f2d0afcb",
+      "anchor": [
+        2.4444444444444446,
+        35.39555555555555
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_usher_0",
+      "file": "outputs/furina-design-20261010/helper-usher-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-usher-0-rects.json",
+      "imageSha256": "0890899ca31f76f5b8899cda25c53691e377fc9aa63e058395c6850dd16c49de",
+      "rectsSha256": "12bf65669f187593c1bc04bc29804bc2432d138ce86b4cbcef0979cd9673660d",
+      "anchor": [
+        7.201453790238836,
+        21.07822776047075
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_usher_1",
+      "file": "outputs/furina-design-20261010/helper-usher-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-usher-1-rects.json",
+      "imageSha256": "3d627f677245eaf6f6d6e8acffd25b346f8232baded6a5af77fbf39a00287c3c",
+      "rectsSha256": "46677375b8e071ad6926809ccd1059bdd92dad09f6f62644c13ab1d5daa349e8",
+      "anchor": [
+        6.889061959155416,
+        20.58497750086535
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_usher_2",
+      "file": "outputs/furina-design-20261010/helper-usher-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-usher-2-rects.json",
+      "imageSha256": "d941112f729f96bb0f76e00cb6bfdfcfa6609b070dbaa475cb186765383f60ec",
+      "rectsSha256": "9970bfa4aafc8f06dc101db54b7b714036f34d2cde947aad78b719451422283f",
+      "anchor": [
+        8.796296296296296,
+        20.68362755278643
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_usher_3",
+      "file": "outputs/furina-design-20261010/helper-usher-3-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-usher-3-rects.json",
+      "imageSha256": "d2727c20d5dc16f23871c631bfe9717ed9f5e5799f763d5e5257c7129813b490",
+      "rectsSha256": "00a4460d86769e60bd4fcdff36f291e894bb226a4434acadbe4c15d1ba7ca219",
+      "anchor": [
+        6.872620283835237,
+        21.01246105919003
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_chevalmarin_0",
+      "file": "outputs/furina-design-20261010/helper-chevalmarin-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-chevalmarin-0-rects.json",
+      "imageSha256": "f227b0262fa53efd239fe59aa095cd6fc8101fd1f2a1292a794ed072242583ee",
+      "rectsSha256": "954d87611c8d6a9e4f89604d9f8bcfc25c84455ef6d80f8549cf5f5903019140",
+      "anchor": [
+        7.442731749090131,
+        18.85249411260972
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_chevalmarin_1",
+      "file": "outputs/furina-design-20261010/helper-chevalmarin-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-chevalmarin-1-rects.json",
+      "imageSha256": "6b42438f1c6b312ab214c939d2755662038cdd58136182bf552b888297b0abda",
+      "rectsSha256": "c670a5fb084d30772c456a41005f7c0530c8bb6cb8dd286fc84d04ebe59599fb",
+      "anchor": [
+        7.7702847356026545,
+        18.743309783772208
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_chevalmarin_2",
+      "file": "outputs/furina-design-20261010/helper-chevalmarin-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-chevalmarin-2-rects.json",
+      "imageSha256": "a0267bb12dc30f91c1b23f7b86d04e78f4657666ff257e80145bfaa2de19e57f",
+      "rectsSha256": "3bbe351d7e4643f79fa1aca2ba979ce050bce647a4caba09b28ff52dc54e7a8a",
+      "anchor": [
+        8.116035110254764,
+        18.961678441447226
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_chevalmarin_3",
+      "file": "outputs/furina-design-20261010/helper-chevalmarin-3-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-chevalmarin-3-rects.json",
+      "imageSha256": "4433beb0b875949e68cfe646457b862d671ad20b465b736387741400b6e7febf",
+      "rectsSha256": "1b01f9973338c75c5d1ff6aa9f36878da84b042b9da6b703d1d9b73684d654be",
+      "anchor": [
+        7.369942196531792,
+        18.998073217726397
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_crabaletta_0",
+      "file": "outputs/furina-design-20261010/helper-crabaletta-0-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-crabaletta-0-rects.json",
+      "imageSha256": "42a05af1b1b39bfcf696db6da05be6fc6abce4adfa456c441448eeef09cac274",
+      "rectsSha256": "8265866f8575beda60b51838e567d8a173472c4d32ce3b97e46124b26a603668",
+      "anchor": [
+        9.64985994397759,
+        14.403983815748521
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_crabaletta_1",
+      "file": "outputs/furina-design-20261010/helper-crabaletta-1-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-crabaletta-1-rects.json",
+      "imageSha256": "d71867deaa74dd456324e6b931127312f00c7fa0e14ce1d615c48368f891b17b",
+      "rectsSha256": "68f1aaf7c91620551211ed138326029444d9fe9f5acff1e4c21b468cc014942b",
+      "anchor": [
+        8.719265483971366,
+        14.444444444444445
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_crabaletta_2",
+      "file": "outputs/furina-design-20261010/helper-crabaletta-2-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-crabaletta-2-rects.json",
+      "imageSha256": "e86cf77bb3012d42b1f4e35128bca72207e0b667b4b77f0eb11113519a4e1e2e",
+      "rectsSha256": "3918ca0516b43163180987683c0ea5d2e9a28d6b68ce450bb58309d27680a95e",
+      "anchor": [
+        11.349206349206348,
+        14.444444444444445
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "helper_crabaletta_3",
+      "file": "outputs/furina-design-20261010/helper-crabaletta-3-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/helper-crabaletta-3-rects.json",
+      "imageSha256": "0eba69538844a4bb018b03163632161dc340955fc8cbd25043e20925dfad00f5",
+      "rectsSha256": "c8b7980a3a0b2e16307d0380ea0ba2b0ebbed072c63704bf32ce443e0e0d6a1d",
+      "anchor": [
+        9.467787114845938,
+        14.606286959228136
+      ],
+      "scale": 4.5,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "airTrail_3",
+      "file": "outputs/furina-design-20261010/../../runtime/derived-furina/air-trail-2.png",
+      "rectsFile": "outputs/furina-design-20261010/../../runtime/derived-furina/air-trail-2.rects.json",
+      "imageSha256": "01f610b4d6fdb660b7450c9a53f102232c7878ad33c8c75fe6844f682bd96a58",
+      "rectsSha256": "570bfd063b793cfe5a134d254a821fffeeb182da72e567942b62792d29cdc686",
+      "anchor": [
+        98,
+        236
+      ],
+      "scale": 1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "airTrail_4",
+      "file": "outputs/furina-design-20261010/../../runtime/derived-furina/air-trail-3.png",
+      "rectsFile": "outputs/furina-design-20261010/../../runtime/derived-furina/air-trail-3.rects.json",
+      "imageSha256": "2199a097131e19f0c4c52cfb3b99fb98a3ad2cdff794989ffcd3bab649307e26",
+      "rectsSha256": "4f95736edd6c9fd1c58789d364752e0c09270da434fb30971e9fb9119983bad1",
+      "anchor": [
+        -148,
+        182
+      ],
+      "scale": 1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "facingCorrection": 1
+    },
+    {
+      "group": "auxiliary",
+      "pose": "ultimatePortrait",
+      "file": "outputs/furina-design-20261010/ultimate-portrait-fit.png",
+      "rectsFile": "outputs/furina-design-20261010/ultimate-portrait-rects.json",
+      "imageSha256": "10fb11b34480bb7998aa99800ad2173be00aae20ead91611f75057b5936bc04d",
+      "rectsSha256": "2ca892de0f61c3ce003bde1450b83674799682ae27c15a1b838331c1942eeeae",
+      "anchor": [
+        0,
+        0
+      ],
+      "scale": 5.43859649122807,
+      "scaleX": 5.43859649122807,
+      "scaleY": 5.43859649122807,
+      "facingCorrection": 1
+    }
+  ]
+}

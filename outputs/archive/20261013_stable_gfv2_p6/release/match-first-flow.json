@@ -1,0 +1,15 @@
+{
+  "mockOnly": true,
+  "singleClientWaitsBeforeSelection": true,
+  "differentModesDoNotMatch": true,
+  "sameGFV2ConnectionForSelectionAndFight": true,
+  "privateDraftAndMutualReadyAcknowledgment": true,
+  "cancelResetsBothAndPreventsStaleRoster": true,
+  "resultReturnsToMatchFirst": true,
+  "disconnectDuringDraftReturnsToMatching": true,
+  "commonConfirmedHashes": 4,
+  "rollbacks": [
+    24,
+    24
+  ]
+}

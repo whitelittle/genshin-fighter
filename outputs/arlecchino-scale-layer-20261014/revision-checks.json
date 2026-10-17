@@ -1,0 +1,85 @@
+{
+  "scope": "PC and mobile landscape mock; visual candidate, not native acceptance",
+  "checks": [
+    {
+      "device": "KeyboardAndMouse",
+      "tutorialDuplicateTrainingRemoved": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "trainingSameCharacter2PSelectionPassed": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "burstWingsParentBehindBody": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "attackChannelReturnsForeground": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "sixNewWalkPixelsExact": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "howtoPage": 1,
+      "directTabPassed": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "howtoPage": 2,
+      "directTabPassed": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "howtoPage": 3,
+      "directTabPassed": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "howtoPage": 4,
+      "directTabPassed": true
+    },
+    {
+      "device": "Mobile",
+      "tutorialDuplicateTrainingRemoved": true
+    },
+    {
+      "device": "Mobile",
+      "trainingSameCharacter2PSelectionPassed": true
+    },
+    {
+      "device": "Mobile",
+      "burstWingsParentBehindBody": true
+    },
+    {
+      "device": "Mobile",
+      "attackChannelReturnsForeground": true
+    },
+    {
+      "device": "Mobile",
+      "sixNewWalkPixelsExact": true
+    },
+    {
+      "device": "Mobile",
+      "howtoPage": 1,
+      "directTabPassed": true
+    },
+    {
+      "device": "Mobile",
+      "howtoPage": 2,
+      "directTabPassed": true
+    },
+    {
+      "device": "Mobile",
+      "howtoPage": 3,
+      "directTabPassed": true
+    },
+    {
+      "device": "Mobile",
+      "howtoPage": 4,
+      "directTabPassed": true
+    }
+  ]
+}

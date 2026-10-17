@@ -1,0 +1,30 @@
+{
+  "mockOnly": true,
+  "incrementalCodecVectors": true,
+  "badOffsetRejected": true,
+  "allFourCharactersPrepared": true,
+  "randomDistinctTitlePair": true,
+  "menuRestrictedToTitlePair": true,
+  "cases": [
+    {
+      "profile": "compact",
+      "sourceSha256": "2adbaa6dc1cfc6afda16468d78c10f2edbfb3ccecec953791ec9666e2c40dbd6",
+      "mockInitialPreparationSeconds": 10.733333333333446,
+      "initialLz4Blocks": 0,
+      "postStartupLz4Blocks": 0,
+      "pool": 16000,
+      "preparationCompleteBeforeIntro": true,
+      "bothBurstsNoNewDecompression": true
+    },
+    {
+      "profile": "compressed",
+      "sourceSha256": "288f273c3f0a91ddaa1482f3f9c16e8dc65f82f51f7af2948050f920e507a835",
+      "mockInitialPreparationSeconds": 13.466666666666915,
+      "initialLz4Blocks": 633,
+      "postStartupLz4Blocks": 633,
+      "pool": 16000,
+      "preparationCompleteBeforeIntro": true,
+      "bothBurstsNoNewDecompression": true
+    }
+  ]
+}

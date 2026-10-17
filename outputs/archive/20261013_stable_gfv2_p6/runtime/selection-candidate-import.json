@@ -1,0 +1,72 @@
+{
+  "clorinde": {
+    "idle": {
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectSha256": "8fed14f9a7ba017383dc754907d45be68e571868b29dff4225584cb12c72865a",
+      "scale": 4.5,
+      "anchor": [
+        42,
+        82
+      ],
+      "displayCrop": [
+        0,
+        0,
+        66,
+        86
+      ]
+    },
+    "face": {
+      "file": "outputs/clorinde-actions-20261011/fit/portrait.png",
+      "sha256": "71fa54e1fcd84d8e5152c2562d31270299541540a271f8e53833f56774257432",
+      "rectSha256": "6b42ea585bd2a994d3440ae9adbcaaa1d84b274a125d2b78ddd7ba13fc9cd3d6",
+      "scale": 1.0,
+      "anchor": [
+        24,
+        24
+      ],
+      "displayCrop": [
+        8,
+        0,
+        32,
+        32
+      ]
+    },
+    "scope": "selection idle/portrait only; not battle integration"
+  },
+  "arlecchino": {
+    "idle": {
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectSha256": "a96444fe96c2cd2f98dca80616f5b4a10f0184c980359a30038d34ff6232b8e2",
+      "scale": 4.5,
+      "anchor": [
+        29,
+        77
+      ],
+      "displayCrop": [
+        0,
+        0,
+        50,
+        80
+      ]
+    },
+    "face": {
+      "file": "outputs/arlecchino-actions-20261011/fit/portrait.png",
+      "sha256": "69fa18c080775e2a08cffb8a6495a2d1195455b49b5be4f1a78c7f75516bd8dc",
+      "rectSha256": "e844d03a49fd4609c2a06e78771113fdc2da6777e6f40301d7d532b847772dbb",
+      "scale": 1.0,
+      "anchor": [
+        24,
+        24
+      ],
+      "displayCrop": [
+        8,
+        0,
+        32,
+        32
+      ]
+    },
+    "scope": "selection idle/portrait only; not battle integration"
+  }
+}

@@ -1,0 +1,1922 @@
+{
+  "key": "arlecchino",
+  "groups": 25,
+  "bodyPeak": 1385,
+  "sources": [
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-blink-0.png",
+      "sha256": "c09818bb61602f20e7bbfe772f9566ad484a31acd07e877b67c6e7993b8485ff",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-blink-0.json",
+      "anchor": [
+        30,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-0.png",
+      "sha256": "3f00690904bece7cb1485fbeca808fbd73ee8b482a81b06f12d677b9c2920e8a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-0.json",
+      "anchor": [
+        35,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-1.png",
+      "sha256": "6756d942e89f5151ba7fbd62372ca5561b853e7d11ebc6c61942809db4de3561",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-1.json",
+      "anchor": [
+        37,
+        68
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-2.png",
+      "sha256": "a4564e6c383825623c68b4c4c6674f59b5c30067c235b23c52501fda02c527f2",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-2.json",
+      "anchor": [
+        36,
+        68
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-3.png",
+      "sha256": "5c9b914201afbc9ef377051332eb184e3439046c7131092a8b47a0398ab49706",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-3.json",
+      "anchor": [
+        40,
+        68
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-4.png",
+      "sha256": "3b5d4ce09000a35ded87b9db972c6582937ce4e00fc79db66729a024fe20b548",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-4.json",
+      "anchor": [
+        35,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-5.png",
+      "sha256": "d962180edbb59c2d408cdba5d013146bb930a8bdc2337c5448e8ed65b177e946",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/walk-passing-v2-5.json",
+      "anchor": [
+        36,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backwalk-0.png",
+      "sha256": "112060ecdd440285e979524ee05de1cbca1ad062b2f4028be4a0205da68f97b6",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backwalk-0.json",
+      "anchor": [
+        44,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backwalk-1.png",
+      "sha256": "54af188a351d55c042a6fe5aa826beb82d2f88b085531e13667d82988d45bd92",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backwalk-1.json",
+      "anchor": [
+        44,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backwalk-2.png",
+      "sha256": "d9092391e5a6e8a1a5b193cf980e69f80c9e91bed5f6db235cbbfb0b93748720",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backwalk-2.json",
+      "anchor": [
+        40,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backwalk-3.png",
+      "sha256": "90018ab49e79cd62eae2885a7b24b3853e1bf1b318db864cf73e65a4b9b97212",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backwalk-3.json",
+      "anchor": [
+        44,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backwalk-4.png",
+      "sha256": "1173a5cc180ee615cadcfef9dc5f3b98dacef00652f69a8cd36b90d513e31d5a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backwalk-4.json",
+      "anchor": [
+        43,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backwalk-5.png",
+      "sha256": "6642fcb018c6fb10538ac7d33f858bd8cc4b9e800005548b3ec9b53ffa7798d4",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backwalk-5.json",
+      "anchor": [
+        44,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-0.png",
+      "sha256": "2cd3d3d3db94f9e3113edb760658a3dc91264d5d81075bebb74daa05cb1662ad",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-0.json",
+      "anchor": [
+        61,
+        80
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-1.png",
+      "sha256": "9dcbba8b6e2aca404d31c88f694ca0889db6d5eba8265af5887d6d9a9a5b4d39",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-1.json",
+      "anchor": [
+        67,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-2.png",
+      "sha256": "a097731ccc67692ff83f2606d6ce624bf1f3f4fc274cb7b10b44d9d94561a4f1",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-2.json",
+      "anchor": [
+        63,
+        71
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-3.png",
+      "sha256": "f4ae9518cb8ccee8c3335cd43d0bb64efb2f1d5b5ca6dd41a015f3717bd566d8",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light1-pole-v2-3.json",
+      "anchor": [
+        63,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-0.png",
+      "sha256": "2d55870a0f48f95893d631c1224f246740225eb126e4f7774a2d612eab7c2004",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-0.json",
+      "anchor": [
+        34,
+        80
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-1.png",
+      "sha256": "369694c7fb62562264ca4e02bbde81f40c8dfd27111b86992f877217a688f829",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-1.json",
+      "anchor": [
+        37,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-2.png",
+      "sha256": "a0c5600b4660d2c5ab6d1a62b3c50f22d42e6761ecc374ca60c0b216e215f8a4",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-2.json",
+      "anchor": [
+        45,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-3.png",
+      "sha256": "c60b68e9ffb8a4b9e8b22559c081682709da7ccf8c9bc30d25d208f0acf2c25f",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-3.json",
+      "anchor": [
+        42,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-4.png",
+      "sha256": "bedd11690c8d7d0326cf9581d171d20d3a549c7491f3e5247da3e965f1baef62",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-4.json",
+      "anchor": [
+        42,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-5.png",
+      "sha256": "77f8f71f8972f38489bd27e8b7bebd2178cdfeb592eae48a911a5c8808053dda",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light2-sweep-v2-5.json",
+      "anchor": [
+        34,
+        80
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouch-v1-0.png",
+      "sha256": "593fc9b2f7b711e0d323dd51e26441b02dc250c788738e7bdf5e73aabab46b6f",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouch-v1-0.json",
+      "anchor": [
+        33,
+        71
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouch-v1-1.png",
+      "sha256": "d48e39f378de8aee81653629e3c675338dd46fb5792f23221c1e746c78702bb2",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouch-v1-1.json",
+      "anchor": [
+        30,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouch-v1-2.png",
+      "sha256": "bb7fd80a3e93ee379a778e2f2e67b75d469f27f33addd9261095465b426c9320",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouch-v1-2.json",
+      "anchor": [
+        32,
+        54
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouch-v1-3.png",
+      "sha256": "41e760ccd869297c51adb44bfae7452a7abcf3730ef35a5724a67e7d75b634ba",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouch-v1-3.json",
+      "anchor": [
+        29,
+        50
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/standguard-v1-0.png",
+      "sha256": "445e9b4e5dce8df8fb5b2ae3862154fc9d40944f3f0a82d1e63dde0c61d9b896",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/standguard-v1-0.json",
+      "anchor": [
+        29,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/standguard-v1-1.png",
+      "sha256": "e3054a15f4115227403a3d76a4a74dd9d6f2ccd76c108ea34e7168a339f6a7a5",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/standguard-v1-1.json",
+      "anchor": [
+        32,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/standguard-v1-2.png",
+      "sha256": "dd9730a29cd833b064b1bf74ba80efaf11b87bb6cd438aea348cd23659df9024",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/standguard-v1-2.json",
+      "anchor": [
+        32,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/standguard-v1-3.png",
+      "sha256": "161034954b49cbcb00050bec138261de16520c6fd0cd1231e5fdc1b969ee7ba2",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/standguard-v1-3.json",
+      "anchor": [
+        30,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-0.png",
+      "sha256": "360c60f32dbc0273673ac53a7a80dffcbc38c4b3a0c63341f738fca1de2dd531",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-0.json",
+      "anchor": [
+        39,
+        53
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-1.png",
+      "sha256": "278147aeac2fbab0e73fc06febb6137041773d7735a56e7bd4581e6c2c1fdb9a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-1.json",
+      "anchor": [
+        36,
+        49
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-2.png",
+      "sha256": "96de7bbfcba1b3bae8e9a386ac133185a76aa8340e200653f05f6121138ae57c",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-2.json",
+      "anchor": [
+        40,
+        49
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-3.png",
+      "sha256": "81131dfcaad20a684f99cbbad3966a52f616ba1152eb7f690ad27afd1e7e9456",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchguard-v1-3.json",
+      "anchor": [
+        41,
+        47
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-0.png",
+      "sha256": "adfdf8d973a911c715de69cb3b0f6250b426e52c8960db42d3213fcbe681fc5b",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-0.json",
+      "anchor": [
+        37,
+        53
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-1.png",
+      "sha256": "25a278da9f5c21eceec619a43e32a3e6382260a8590a39b7fb3c46c83f8166cf",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-1.json",
+      "anchor": [
+        33,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-2.png",
+      "sha256": "641506207d41f51dd75d4ca1ac75f7373635f2ddd11874c1e2128b17c7d00035",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-2.json",
+      "anchor": [
+        37,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-3.png",
+      "sha256": "21f6efbdfd75b296710d992c074ad5f889a8066fb5a366634bcaad6b10cc06d6",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-3.json",
+      "anchor": [
+        34,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-4.png",
+      "sha256": "f0e074ea5dac0ce177432c25e4658d36f005edf329bc6fcc38227d0870cc6c8e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-4.json",
+      "anchor": [
+        35,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-5.png",
+      "sha256": "56c6c447fac63c8007bfc62fbc5286436fad85999c601c6bf98a9910d5e3443a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-5.json",
+      "anchor": [
+        36,
+        54
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-0.png",
+      "sha256": "4d6fc5283185bf2a7712bb76f01ada4e17cc73335afc474640da0c5ec6fe7973",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-0.json",
+      "anchor": [
+        39,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-1.png",
+      "sha256": "ae27fe3cc011e0b206520f298c623ee4cb7c3093a69639e79e6fde9f31b38f45",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-1.json",
+      "anchor": [
+        44,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-2.png",
+      "sha256": "675f4fdb270ad662c3bfd09e8b31a0e00493d8567e3ca981801950d10ee66015",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-2.json",
+      "anchor": [
+        43,
+        61
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-3.png",
+      "sha256": "a606a1da66f538be7e2401ae6c33803ad93116ad8d945766058eb0df38905ee3",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-3.json",
+      "anchor": [
+        48,
+        70
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-4.png",
+      "sha256": "e881bb797feb0ea263b7c2838cc33faeab6b6edeefdb835f723d0230d273b644",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-4.json",
+      "anchor": [
+        43,
+        55
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-5.png",
+      "sha256": "ecf02f35045d16a5ba2b514e4964c65605525ca18843da0a206be7fecd6f9b71",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/light3-hook-v2-5.json",
+      "anchor": [
+        44,
+        54
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-0.png",
+      "sha256": "8c9616eb43e9a2a4a64932c49567e4fb5fa3158a6c0d34a4322871d361ce95a0",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-0.json",
+      "anchor": [
+        44,
+        61
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-1.png",
+      "sha256": "a8fbdf2622a259b765c6c144e36e381f8ae740cc5065fb3db9aa6c3daa9ecfb0",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-1.json",
+      "anchor": [
+        45,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-2.png",
+      "sha256": "8c76d25361db7f6529df1ad867ef7ef6fbc3837495db4ca3d822abae75d03d1b",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-2.json",
+      "anchor": [
+        40,
+        70
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/heavy-effective-single-v4-0.png",
+      "sha256": "946be5187a875d17c196833afe23aa2046bfa6a4e2bb94bf5a0138c8439d637e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/heavy-effective-single-v4-0.json",
+      "anchor": [
+        47,
+        55
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-4.png",
+      "sha256": "5ffcd001d7e15cd7c17f276447eb606b2d949bd8b172c91e272fda73b8707a02",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-4.json",
+      "anchor": [
+        46,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-5.png",
+      "sha256": "c3fd3e20631d8a906de2c3146bf8c9c279e2e95bd2e65b6ef8b1379eb7375489",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/heavy-hook-v2-5.json",
+      "anchor": [
+        42,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-0.png",
+      "sha256": "095aabe247842a2e22bddbfd6ce06d2988f58a5ae14770d536eb4d8477a1f626",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-0.json",
+      "anchor": [
+        59,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-1.png",
+      "sha256": "d7c3a98b73500753ee88fa3aadf38abab53aabd9faa677cb930fc16700576d48",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-1.json",
+      "anchor": [
+        57,
+        58
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-2.png",
+      "sha256": "6b0bd8942f1867ed390000c7bc2f4bc0e42e5a162953467fb1ba3d5c5435b0f7",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-2.json",
+      "anchor": [
+        61,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-3.png",
+      "sha256": "d1d387ddb6750a254b99a8eae9ddde061364de13b284f694f7b15bcf03b829e1",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchlight-v1-3.json",
+      "anchor": [
+        58,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-0.png",
+      "sha256": "2d6d923e224b224505629bf23fc6f1610f3ead10acca516658dd1f17e9ee6e8c",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-0.json",
+      "anchor": [
+        40,
+        49
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-1.png",
+      "sha256": "dd3d455a6e020e50b035a0b8e50ecfe8c78c7a5fc162547dc19120dc0dac4992",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-1.json",
+      "anchor": [
+        43,
+        52
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-2.png",
+      "sha256": "f9ff714d8bb32a8bcd28109a9cd5d25cb0cc8e108952098a0ae6cf59b3ed77a3",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-2.json",
+      "anchor": [
+        44,
+        47
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-3.png",
+      "sha256": "90a5101285ee735ac30139f9212ca8184ab1e33937c0e3d7438632341fe5d990",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-3.json",
+      "anchor": [
+        45,
+        42
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-4.png",
+      "sha256": "cdbe4b57a4dbd676dfd2697913125a26cf9545863a7774f29c3b29f531bcbc26",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-4.json",
+      "anchor": [
+        46,
+        45
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-5.png",
+      "sha256": "b27f5733b54b7ac6fd6b614662758228df42ebddb0c3a30ff207722753661baa",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/crouchheavy-v1-5.json",
+      "anchor": [
+        39,
+        44
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airlight-v1-0.png",
+      "sha256": "f0b049e44a3798c93cbbf63e6170148a542a2af34347cdc30bff4376f4383c70",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airlight-v1-0.json",
+      "anchor": [
+        38,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airlight-v1-1.png",
+      "sha256": "3c17ed45a3be2dcbb1c25be58705caf04cda1a1e21caf5770eb1d752812b635c",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airlight-v1-1.json",
+      "anchor": [
+        37,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airlight-v1-2.png",
+      "sha256": "d2b3317b54491905df03f98c2e1167c68eea58d32455fc9fef7373fccd12e02f",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airlight-v1-2.json",
+      "anchor": [
+        45,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airlight-v1-3.png",
+      "sha256": "ae84d748e1b19e17e47b642eff0816922f51bc23fa2e3067f8d3700121463e5a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airlight-v1-3.json",
+      "anchor": [
+        31,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-4.png",
+      "sha256": "f0e074ea5dac0ce177432c25e4658d36f005edf329bc6fcc38227d0870cc6c8e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-4.json",
+      "anchor": [
+        35,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/jump-v1-5.png",
+      "sha256": "56c6c447fac63c8007bfc62fbc5286436fad85999c601c6bf98a9910d5e3443a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/jump-v1-5.json",
+      "anchor": [
+        36,
+        54
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-0.png",
+      "sha256": "754979984f0593a1d0ed41f180fc3cb22880dc217f2ca2790138c53803e50291",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-0.json",
+      "anchor": [
+        43,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-1.png",
+      "sha256": "33dde1e45f58f9c5be63d5071b3a3f17542fa5b9b37db362fba1c2db56adad20",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-1.json",
+      "anchor": [
+        37,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-2.png",
+      "sha256": "e63f6f029e79c9c5cd3c489e459145359871335940ba1067cbfffb6ab1505d70",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-2.json",
+      "anchor": [
+        48,
+        71
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-3.png",
+      "sha256": "f05885a9ceca5d161f9b2df2ed91d21d552cbf1740ac6a8d3915c78c56d9c45b",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-3.json",
+      "anchor": [
+        49,
+        67
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-4.png",
+      "sha256": "4da1835d4a2bccb19976d046bc93ea2d5f2755d6ce38aeab847870ba8bde3b14",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-4.json",
+      "anchor": [
+        49,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-5.png",
+      "sha256": "a676ae53ad61955fc658ccd655f343640a4ff7cc2f8a57b2c680987706e3cb56",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/airheavy-v1-5.json",
+      "anchor": [
+        50,
+        53
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-0.png",
+      "sha256": "0bece8cd5f237010d27eb279ba66ae31c4b17e4f40a4bb0ebccb255d81aac561",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-0.json",
+      "anchor": [
+        50,
+        58
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-1.png",
+      "sha256": "1f2c94518155a70616ac999ae2da82ebb0691700fed314bef0cae4dd0681354b",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-1.json",
+      "anchor": [
+        48,
+        60
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-2.png",
+      "sha256": "0fac8c7d2855c381645548da5831f6ee3fea019417bf59fe6e227a73c0a81cf4",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-2.json",
+      "anchor": [
+        61,
+        51
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-3.png",
+      "sha256": "f0e789ccb2fede5d3dd1fcee4a2f3231b521f8a06e059cf008659333035a9230",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/forwarddash-v1-3.json",
+      "anchor": [
+        37,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backdash-v1-0.png",
+      "sha256": "dcf21738c12c0ae4186503b1f11ed73a7825e7b69c018320922194c8e8610bd2",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backdash-v1-0.json",
+      "anchor": [
+        41,
+        58
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backdash-v1-1.png",
+      "sha256": "30effefc991bb1e424e55d685563b9c4ddd307f61d98be5113defe7d9df0c6e5",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backdash-v1-1.json",
+      "anchor": [
+        46,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backdash-v1-2.png",
+      "sha256": "bc2725ead18da2a839b4aa9dc519a07cb325fd5d91a173e6a1941a76f9b77d3e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backdash-v1-2.json",
+      "anchor": [
+        41,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/backdash-v1-3.png",
+      "sha256": "34d09eef9921acc4d7853589ca8fb1101459f5d55e267990aeb40087011ba179",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/backdash-v1-3.json",
+      "anchor": [
+        42,
+        58
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victory-v1-0.png",
+      "sha256": "424faa68b71d1e1d7bb499c2ea58e210ab695745ce44bb5a5aa11b5c1fd9e64e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victory-v1-0.json",
+      "anchor": [
+        26,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victory-v1-1.png",
+      "sha256": "9be0b4f34feda4d2022419f375856c1173dce52368a4f5441dfd5d6812e5d719",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victory-v1-1.json",
+      "anchor": [
+        28,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victory-v1-2.png",
+      "sha256": "4aec27436b09fa01a10491d11a25549d56b040358f6ba20e678d024ef2c4d5ca",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victory-v1-2.json",
+      "anchor": [
+        28,
+        70
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victory-v1-3.png",
+      "sha256": "303f5a91f5b14c5bc514091ff57f9e824455588fcea5955e2cfe687f785362ce",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victory-v1-3.json",
+      "anchor": [
+        28,
+        70
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/defeat-v1-0.png",
+      "sha256": "ee52debc0e5ba4006e217f8a798a86c8eaac9bf0f7db1598edf112406ae9fd7f",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/defeat-v1-0.json",
+      "anchor": [
+        39,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/defeat-v1-1.png",
+      "sha256": "bbcd13207717bcdd5f0600032ed5e782ec71fa02827646644c3915f886ad2d9e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/defeat-v1-1.json",
+      "anchor": [
+        48,
+        54
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/defeat-v1-2.png",
+      "sha256": "2b4e0d335e8e53e74748ed38a83d1e2839691c6fd5be3102daa6bad3286d592e",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/defeat-v1-2.json",
+      "anchor": [
+        47,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/defeat-v1-3.png",
+      "sha256": "70748d2a6de5964855795b334547c20f934a7634616e775b93a5536c8de19a11",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/defeat-v1-3.json",
+      "anchor": [
+        48,
+        56
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/E-body-v1-0.png",
+      "sha256": "91dc9549eac5790cb3e767cb91f65e2783ad477e0bfcca3816c9e2a32f9e6bee",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/E-body-v1-0.json",
+      "anchor": [
+        44,
+        67
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/E-body-v1-1.png",
+      "sha256": "a52a5146a5ad2297c0eec953e54c74c4614c323fecf301f9d73756ea879262b4",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/E-body-v1-1.json",
+      "anchor": [
+        48,
+        67
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/E-body-v1-2.png",
+      "sha256": "c828801e8169cb95cbf9269fffd74b36a5ba22ef44bb08a7e072fd713b7063c6",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/E-body-v1-2.json",
+      "anchor": [
+        52,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/E-body-v1-3.png",
+      "sha256": "11934a6beb8623e2744800670a6a06a6ca8b1aab7877d573a016ca605abb1066",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/E-body-v1-3.json",
+      "anchor": [
+        57,
+        60
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/E-body-v1-4.png",
+      "sha256": "7021b1c9895a08e431f1ab17ddef4d8edc7f705e8c2d050b34f99e395f85375a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/E-body-v1-4.json",
+      "anchor": [
+        44,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_5",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/E-body-v1-5.png",
+      "sha256": "1cf4e83746b17166510eab0ddf65aa942aa7432d229bab2279e7bc58dafedfde",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/E-body-v1-5.json",
+      "anchor": [
+        31,
+        61
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-0.png",
+      "sha256": "873629889ea4a34b50912f7ac97f626b1668e2b653b82a5df2203c4a19becb00",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-0.json",
+      "anchor": [
+        36,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-1.png",
+      "sha256": "53d6405883f309a6d9424f75188763f4da0b1e1106dbd3c733dffe265124cdfc",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-1.json",
+      "anchor": [
+        24,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-1.png",
+      "sha256": "53d6405883f309a6d9424f75188763f4da0b1e1106dbd3c733dffe265124cdfc",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-1.json",
+      "anchor": [
+        24,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-2.png",
+      "sha256": "114bcc8cfc3b744863036e1b851feb2549d966cec932fc451220acee49ab8f3f",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-2.json",
+      "anchor": [
+        39,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-3.png",
+      "sha256": "f50793fab9e16696151668c7eaa06132aac0d030338421af309ccac58fb46431",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-3.json",
+      "anchor": [
+        45,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-3.png",
+      "sha256": "f50793fab9e16696151668c7eaa06132aac0d030338421af309ccac58fb46431",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-3.json",
+      "anchor": [
+        45,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_6",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-4.png",
+      "sha256": "2a982a784361e664c2db19b7a010f0b231c68c9b5d40782b2a4b9cf082c7cca4",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-4.json",
+      "anchor": [
+        39,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_6",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-4.png",
+      "sha256": "2a982a784361e664c2db19b7a010f0b231c68c9b5d40782b2a4b9cf082c7cca4",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-4.json",
+      "anchor": [
+        39,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_8",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-5.png",
+      "sha256": "872a434a6351dff687bf9c4dba4f07da9a9cf80141db3e4b584febb693bab50a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/Q-body-v1-5.json",
+      "anchor": [
+        29,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-0.png",
+      "sha256": "64ed3845578f0041c3ee80a5546a12549e3d67db5a292d647a4a40d08f5297e8",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-0.json",
+      "anchor": [
+        34,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-1.png",
+      "sha256": "db3cab54bc58f81705ae7b33c76ec008959fe0dd24e4cda8bca4b8912c48c9ec",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-1.json",
+      "anchor": [
+        33,
+        63
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-2.png",
+      "sha256": "70184a10d4bbaeac118ba35624c71bd078c420503642f7e9d4fabb0bc02d677c",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-2.json",
+      "anchor": [
+        40,
+        30
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.png",
+      "sha256": "4e794cc923ba416fde01e91d16977abbcd31fe332414ad4ee074d2c976aa5d88",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.json",
+      "anchor": [
+        42,
+        23
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.png",
+      "sha256": "4e794cc923ba416fde01e91d16977abbcd31fe332414ad4ee074d2c976aa5d88",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.json",
+      "anchor": [
+        42,
+        23
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "getup_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/wakeup-v1-0.png",
+      "sha256": "30db4c0b0e6f5540f8871da806ea42ec98e8d2ba6b027cc7461823dd5b07e801",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/wakeup-v1-0.json",
+      "anchor": [
+        44,
+        39
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "getup_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/wakeup-v1-1.png",
+      "sha256": "44f2b9f8203751990631185cf7cd24da9fc7d123a9fe87e127df409895e5fd31",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/wakeup-v1-1.json",
+      "anchor": [
+        38,
+        55
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "getup_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/wakeup-v1-2.png",
+      "sha256": "b513e1ae0eb7cb523da6d1c028026c137b02b82dfb73fdb99bb0fb792847f61f",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/wakeup-v1-2.json",
+      "anchor": [
+        25,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-0.png",
+      "sha256": "3695534368b00545361d7908ee35bd2f53d7302f3f86a5dd353f024b764d1745",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-0.json",
+      "anchor": [
+        29,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-0.png",
+      "sha256": "3695534368b00545361d7908ee35bd2f53d7302f3f86a5dd353f024b764d1745",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-0.json",
+      "anchor": [
+        29,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-1.png",
+      "sha256": "f141c2ccc1a56ff8c31ae7fef94216ae292aeb63d6379a1b80c0f896ef52e05a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-1.json",
+      "anchor": [
+        32,
+        69
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-2.png",
+      "sha256": "b6737bb527c6e163725a6a3b39f0642658f6bc84a7f3a1a4c621cc228cac0b4b",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-2.json",
+      "anchor": [
+        34,
+        56
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-3.png",
+      "sha256": "8dfd5364ec281068eede020d2a4a61ff68f8af891817323d888b77fe62a00bce",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-3.json",
+      "anchor": [
+        42,
+        36
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.png",
+      "sha256": "4e794cc923ba416fde01e91d16977abbcd31fe332414ad4ee074d2c976aa5d88",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.json",
+      "anchor": [
+        42,
+        23
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_nahida_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.png",
+      "sha256": "d1a5e30be09f9977c0542b10a18ad5c8962574c7d6aef44c2cca61abf84964a8",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.json",
+      "anchor": [
+        36,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_nahida_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.png",
+      "sha256": "d1a5e30be09f9977c0542b10a18ad5c8962574c7d6aef44c2cca61abf84964a8",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.json",
+      "anchor": [
+        36,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_nahida_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-2.png",
+      "sha256": "8d7e4ec533a5eec1cbb85989e37077ca42dbe8c810d5c0e0fbe7e82704585705",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-2.json",
+      "anchor": [
+        37,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-2.png",
+      "sha256": "b6737bb527c6e163725a6a3b39f0642658f6bc84a7f3a1a4c621cc228cac0b4b",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-2.json",
+      "anchor": [
+        34,
+        56
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/victim-v1-3.png",
+      "sha256": "8dfd5364ec281068eede020d2a4a61ff68f8af891817323d888b77fe62a00bce",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/victim-v1-3.json",
+      "anchor": [
+        42,
+        36
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.png",
+      "sha256": "4e794cc923ba416fde01e91d16977abbcd31fe332414ad4ee074d2c976aa5d88",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/hit-knockdown-v1-3.json",
+      "anchor": [
+        42,
+        23
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_1",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-0.png",
+      "sha256": "09bb64aa702a518f3f9dfe0e309443a5707d6ed83e9c22edee96a1a7ef692d24",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-0.json",
+      "anchor": [
+        35,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-1.png",
+      "sha256": "c8350d202171140bca8abf89e9ad7654cd4f6d5a9ffe14dbc3263b4992b3f6f7",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-1.json",
+      "anchor": [
+        34,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_3",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-2.png",
+      "sha256": "cc99572fed231fd75b84ddeca3108bd497da017744bd2956aa2242ae9fe2e3ed",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-2.json",
+      "anchor": [
+        43,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-3.png",
+      "sha256": "d61e2ce9bd4992f33be470ee4eed59ddf321fd0d278ee6b8c82c23976445121d",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-adult-v1-3.json",
+      "anchor": [
+        33,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_nahida_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.png",
+      "sha256": "d1a5e30be09f9977c0542b10a18ad5c8962574c7d6aef44c2cca61abf84964a8",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.json",
+      "anchor": [
+        36,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_nahida_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.png",
+      "sha256": "d1a5e30be09f9977c0542b10a18ad5c8962574c7d6aef44c2cca61abf84964a8",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-0.json",
+      "anchor": [
+        36,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_nahida_2",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-2.png",
+      "sha256": "8d7e4ec533a5eec1cbb85989e37077ca42dbe8c810d5c0e0fbe7e82704585705",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-2.json",
+      "anchor": [
+        37,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_nahida_4",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-3.png",
+      "sha256": "dffb75333818d1df88f37bf39e3634227d09015f126cd04f6a6cc88bbe8e0e51",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/throw-low-push-v2-3.json",
+      "anchor": [
+        29,
+        68
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/arlecchino-actions-20261011/fit/idle-open-0.png",
+      "sha256": "b035d3829a460cf3e3f2196de61599c21209ded3771eebf03cafe77ac9be5c0a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/idle-open-0.json",
+      "anchor": [
+        29,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_horizontal",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-horizontal.png",
+      "sha256": "4d3a4e5812d7ac5aa2540bbfca160f7f25159aca79052ba99d862838386db1f9",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-horizontal.json",
+      "anchor": [
+        40,
+        17
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_up",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-up.png",
+      "sha256": "b89a31bb4ed1485416db0faceb268b5efa12e0b387d171fbb8286b090d862eea",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-up.json",
+      "anchor": [
+        33,
+        23
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_down",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-down.png",
+      "sha256": "bde2ed219b5acfbfc82401650fa4eb426af3a7941d784e9d396e9adb9af7b879",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-down.json",
+      "anchor": [
+        33,
+        23
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_wings",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-wings.png",
+      "sha256": "476e07be28ebfd3aed545401f5c3597ea7676f56d8adf694217fea8e63da64f3",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-wings.json",
+      "anchor": [
+        54,
+        28
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_guide",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-guide.png",
+      "sha256": "464f3b5f3769b59562e699d2cc4d90099161925a18a1f3e3597e038613832945",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-guide.json",
+      "anchor": [
+        11,
+        11
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_impact",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-impact.png",
+      "sha256": "7be79288c3f5a8f3bc3a4322517390c02c5b918350a0ae79b0870b3c2177d567",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-impact.json",
+      "anchor": [
+        11,
+        11
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_mark",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-mark.png",
+      "sha256": "65e8e2396179c0305f62cb32c4ee7b7d7bf11caf4737391294fd19bbff1d87fd",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-mark.json",
+      "anchor": [
+        10,
+        10
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_release",
+      "kind": "effect",
+      "file": "outputs/arlecchino-actions-20261011/fit/fx-release.png",
+      "sha256": "ef6dd99b7c4f1c5996dcb2166d25e623edcf41251d077d2634bdf797e266650a",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/fx-release.json",
+      "anchor": [
+        21,
+        21
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "ultimatePortrait",
+      "kind": "portrait",
+      "file": "outputs/arlecchino-actions-20261011/fit/portrait.png",
+      "sha256": "69fa18c080775e2a08cffb8a6495a2d1195455b49b5be4f1a78c7f75516bd8dc",
+      "rectsFile": "outputs/arlecchino-actions-20261011/fit/portrait.json",
+      "anchor": [
+        24,
+        24
+      ],
+      "scale": 4.5
+    }
+  ],
+  "nativeTested": false,
+  "runtimeAdaptations": [
+    "existing weapon boxes pending fine tuning",
+    "independent delivered body clock",
+    "Q confirm 6/full162/miss24",
+    "throw release32/finish50"
+  ]
+}

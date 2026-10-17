@@ -1,0 +1,21 @@
+{
+  "logic": {
+    "checks-d.lua": true,
+    "checks-e.lua": true,
+    "furinaDeliveredTimeline": true,
+    "ayakaDeliveredTimeline": true,
+    "baselineFullStateTicks": 3600,
+    "furinaSnapshotTicks": 240,
+    "legacyRulesEnabled": true,
+    "rosterProtocolIsolation": true
+  },
+  "pixelsAndViews": {
+    "exactPixelStates": 188,
+    "ayakaExactPixelStates": 161,
+    "viewBudgetAndFlash": true
+  },
+  "scope": "Lua 5.3 offline and mock UI; no native device acceptance",
+  "sourceReassembled": false,
+  "clientSha256": "2148153c59a59fa1039514e1cda0be76b44c6ede1c85704d32e494b9cd549a64",
+  "frozenBaselineByteIdentical": true
+}

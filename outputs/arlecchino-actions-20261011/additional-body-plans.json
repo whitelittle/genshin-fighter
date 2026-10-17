@@ -1,0 +1,516 @@
+[
+  {
+    "key": "light3",
+    "label": "轻3 · 钩斩",
+    "source": "source/light3-hook-v2.png",
+    "group": "light3-hook-v2",
+    "n": 6,
+    "unit": 0.78,
+    "hips": [
+      308,
+      1085,
+      357,
+      1091,
+      373,
+      1095
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      4,
+      4,
+      14
+    ],
+    "phases": [
+      "低位持镰",
+      "屈膝蓄势",
+      "前踏挑起",
+      "上钩有效",
+      "制动",
+      "恢复"
+    ],
+    "hitTick": 11
+  },
+  {
+    "key": "heavy",
+    "label": "站重",
+    "source": "source/heavy-hook-v2.png",
+    "group": "heavy-hook-v2",
+    "n": 6,
+    "unit": 0.7,
+    "hips": [
+      307,
+      930,
+      315,
+      950,
+      300,
+      930
+    ],
+    "durations": [
+      5,
+      9,
+      4,
+      5,
+      5,
+      18
+    ],
+    "phases": [
+      "持镰",
+      "重蓄势",
+      "蹬地",
+      "重钩有效",
+      "制动",
+      "恢复"
+    ],
+    "hitTick": 18
+  },
+  {
+    "key": "crouchlight",
+    "label": "蹲轻",
+    "source": "source/crouchlight-v1.png",
+    "group": "crouchlight-v1",
+    "n": 4,
+    "unit": 0.65,
+    "hips": [
+      450,
+      1230,
+      455,
+      1260
+    ],
+    "durations": [
+      4,
+      3,
+      3,
+      12
+    ],
+    "phases": [
+      "低位持柄",
+      "短送枪尾",
+      "低位有效",
+      "低位恢复"
+    ],
+    "hitTick": 7
+  },
+  {
+    "key": "crouchheavy",
+    "label": "蹲重",
+    "source": "source/crouchheavy-v1.png",
+    "group": "crouchheavy-v1",
+    "n": 6,
+    "unit": 0.63,
+    "hips": [
+      375,
+      1120,
+      370,
+      1160,
+      370,
+      1120
+    ],
+    "durations": [
+      4,
+      6,
+      4,
+      4,
+      5,
+      15
+    ],
+    "phases": [
+      "低位持镰",
+      "低蓄势",
+      "低扫有效",
+      "低扫随势",
+      "制动",
+      "低位恢复"
+    ],
+    "hitTick": 10
+  },
+  {
+    "key": "airlight",
+    "label": "空轻",
+    "source": "source/airlight-v1.png",
+    "group": "airlight-v1",
+    "n": 4,
+    "unit": 0.5,
+    "hips": [
+      375,
+      1135,
+      414,
+      1180
+    ],
+    "durations": [
+      4,
+      3,
+      3,
+      10
+    ],
+    "phases": [
+      "空中持镰",
+      "短切准备",
+      "短切有效",
+      "空中收势"
+    ],
+    "hitTick": 7,
+    "motion": {
+      "kind": "air",
+      "height": 120,
+      "landingTick": 24,
+      "rootPolicy": "inherit current airborne jump root when switching; standalone entry uses demo height"
+    },
+    "appendJumpDescent": true,
+    "appendLanding": true,
+    "appendIdle": true
+  },
+  {
+    "key": "airheavy",
+    "label": "空重",
+    "source": "source/airheavy-v1.png",
+    "group": "airheavy-v1",
+    "n": 6,
+    "unit": 0.75,
+    "hips": [
+      360,
+      1100,
+      350,
+      1120,
+      350,
+      1100
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      4,
+      4,
+      8
+    ],
+    "phases": [
+      "空中持镰",
+      "举镰",
+      "下钩准备",
+      "下钩有效",
+      "下降准备",
+      "落地缓冲"
+    ],
+    "hitTick": 11,
+    "motion": {
+      "kind": "air",
+      "height": 120,
+      "landingTick": 19,
+      "rootPolicy": "inherit current airborne jump root when switching; standalone entry uses demo height"
+    },
+    "appendIdle": true
+  },
+  {
+    "key": "forwarddash",
+    "label": "前冲",
+    "source": "source/forwarddash-v1.png",
+    "group": "forwarddash-v1",
+    "n": 4,
+    "unit": 0.55,
+    "hips": [
+      465,
+      1195,
+      589,
+      1220
+    ],
+    "durations": [
+      4,
+      4,
+      6,
+      6
+    ],
+    "phases": [
+      "压低蓄脚",
+      "蹬地",
+      "滑入",
+      "落地制动"
+    ],
+    "motion": {
+      "kind": "dash",
+      "distance": 140,
+      "beginTick": 4,
+      "endTick": 24,
+      "height": 0
+    },
+    "appendIdlePrefix": true,
+    "appendIdle": true,
+    "weaponLayer": "none",
+    "status": "新空手动作候选；尺度/支撑/衔接待复核"
+  },
+  {
+    "key": "backdash",
+    "label": "后撤",
+    "source": "source/backdash-v1.png",
+    "group": "backdash-v1",
+    "n": 4,
+    "unit": 0.52,
+    "hips": [
+      452,
+      1220,
+      450,
+      1220
+    ],
+    "durations": [
+      4,
+      4,
+      6,
+      6
+    ],
+    "phases": [
+      "前脚蓄力",
+      "蹬退",
+      "短离地",
+      "后脚制动"
+    ],
+    "motion": {
+      "kind": "dash",
+      "distance": -95,
+      "beginTick": 4,
+      "endTick": 24,
+      "height": 22
+    },
+    "appendIdlePrefix": true,
+    "appendIdle": true,
+    "weaponLayer": "none",
+    "status": "新空手动作候选；尺度/支撑/衔接待复核"
+  },
+  {
+    "key": "victory",
+    "label": "胜利",
+    "source": "source/victory-v1.png",
+    "group": "victory-v1",
+    "n": 4,
+    "unit": 0.42,
+    "hips": [
+      307,
+      814,
+      324,
+      818
+    ],
+    "durations": [
+      12,
+      18,
+      18,
+      16
+    ],
+    "phases": [
+      "平复",
+      "致意",
+      "收手",
+      "静立"
+    ],
+    "appendIdlePrefix": true,
+    "appendIdle": true,
+    "weaponLayer": "none",
+    "status": "新空手动作候选；尺度/支撑/衔接待复核"
+  },
+  {
+    "key": "defeat",
+    "label": "败北",
+    "source": "source/defeat-v1.png",
+    "group": "defeat-v1",
+    "n": 4,
+    "unit": 0.6,
+    "hips": [
+      448,
+      1135,
+      515,
+      1170
+    ],
+    "durations": [
+      8,
+      8,
+      12,
+      20
+    ],
+    "phases": [
+      "失力",
+      "跪下",
+      "低头",
+      "停留"
+    ],
+    "weaponLayer": "none",
+    "status": "新空手动作候选；尺度/支撑/衔接待复核"
+  },
+  {
+    "key": "E",
+    "label": "E · 万相化灰",
+    "source": "source/E-v1.png",
+    "group": "E-body-v1",
+    "n": 6,
+    "unit": 0.7,
+    "hips": [
+      420,
+      1035,
+      365,
+      1100,
+      360,
+      1000
+    ],
+    "durations": [
+      4,
+      6,
+      6,
+      4,
+      8,
+      12
+    ],
+    "phases": [
+      "引导抬手",
+      "指向",
+      "持镰",
+      "切斩有效",
+      "制动",
+      "收势"
+    ],
+    "hitTick": 18,
+    "appendIdle": true,
+    "motion": {
+      "kind": "dash",
+      "distance": 85,
+      "beginTick": 10,
+      "endTick": 20,
+      "height": 0
+    }
+  },
+  {
+    "key": "Q",
+    "label": "Q · 厄月将升",
+    "source": "source/Q-body-v1.png",
+    "group": "Q-body-v1",
+    "n": 6,
+    "unit": 0.65,
+    "hips": [
+      265,
+      835,
+      275,
+      815,
+      278,
+      833
+    ],
+    "durations": [
+      6,
+      6,
+      10,
+      18,
+      24,
+      10
+    ],
+    "phases": [
+      "短切确认",
+      "确认收势",
+      "蓄势",
+      "释放",
+      "截击",
+      "收束"
+    ],
+    "hitTick": 6
+  },
+  {
+    "key": "hit_knockdown",
+    "label": "受击与倒地",
+    "source": "source/hit-knockdown-v1.png",
+    "group": "hit-knockdown-v1",
+    "n": 4,
+    "unit": 0.5,
+    "hips": [
+      335,
+      1080,
+      370,
+      1150
+    ],
+    "durations": [
+      4,
+      6,
+      8,
+      18
+    ],
+    "phases": [
+      "站受击",
+      "失衡",
+      "侧倒",
+      "落地"
+    ],
+    "weaponLayer": "none"
+  },
+  {
+    "key": "wakeup",
+    "label": "起身",
+    "source": "source/wakeup-v1.png",
+    "group": "wakeup-v1",
+    "n": 3,
+    "unit": 0.46,
+    "hips": [
+      510,
+      1270,
+      1850
+    ],
+    "durations": [
+      8,
+      10,
+      8
+    ],
+    "phases": [
+      "侧撑",
+      "单膝",
+      "站稳"
+    ],
+    "weaponLayer": "none"
+  },
+  {
+    "key": "victim",
+    "label": "被投",
+    "source": "source/victim-v1.png",
+    "group": "victim-v1",
+    "n": 4,
+    "unit": 0.44,
+    "hips": [
+      280,
+      790,
+      350,
+      780
+    ],
+    "durations": [
+      4,
+      4,
+      8,
+      16
+    ],
+    "phases": [
+      "接触",
+      "牵引",
+      "离地",
+      "侧落"
+    ],
+    "weaponLayer": "none"
+  },
+  {
+    "key": "throw",
+    "label": "投技",
+    "source": "source/throw-adult-v1.png",
+    "group": "throw-adult-v1",
+    "n": 4,
+    "unit": 0.46,
+    "hips": [
+      345,
+      900,
+      450,
+      965
+    ],
+    "durations": [
+      4,
+      8,
+      16,
+      6
+    ],
+    "phases": [
+      "接近",
+      "控制",
+      "前送",
+      "释放"
+    ],
+    "weaponLayer": "none",
+    "appendIdlePrefix": true
+  }
+]

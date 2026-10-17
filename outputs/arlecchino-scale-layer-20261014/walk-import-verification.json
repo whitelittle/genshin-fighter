@@ -1,0 +1,61 @@
+{
+  "newBodyStates": 6,
+  "audit": [
+    {
+      "pose": "walk_0",
+      "source": "outputs/arlecchino-scale-layer-20261014/source/walk-v9-20261014.png",
+      "sourceUnit": 0.65,
+      "sourceROIPixelsUnchanged": true,
+      "sourceCanvasContact": false,
+      "rectangles": 915,
+      "quantizedReconstructionExact": true
+    },
+    {
+      "pose": "walk_1",
+      "source": "outputs/arlecchino-scale-layer-20261014/source/walk-v9-20261014.png",
+      "sourceUnit": 0.65,
+      "sourceROIPixelsUnchanged": true,
+      "sourceCanvasContact": false,
+      "rectangles": 864,
+      "quantizedReconstructionExact": true
+    },
+    {
+      "pose": "walk_2",
+      "source": "outputs/arlecchino-scale-layer-20261014/source/walk-v9-20261014.png",
+      "sourceUnit": 0.65,
+      "sourceROIPixelsUnchanged": true,
+      "sourceCanvasContact": false,
+      "rectangles": 817,
+      "quantizedReconstructionExact": true
+    },
+    {
+      "pose": "walk_3",
+      "source": "outputs/arlecchino-scale-layer-20261014/source/walk-v9-20261014.png",
+      "sourceUnit": 0.65,
+      "sourceROIPixelsUnchanged": true,
+      "sourceCanvasContact": false,
+      "rectangles": 906,
+      "quantizedReconstructionExact": true
+    },
+    {
+      "pose": "walk_4",
+      "source": "outputs/arlecchino-scale-layer-20261014/source/walk-v9-20261014.png",
+      "sourceUnit": 0.65,
+      "sourceROIPixelsUnchanged": true,
+      "sourceCanvasContact": false,
+      "rectangles": 883,
+      "quantizedReconstructionExact": true
+    },
+    {
+      "pose": "walk_5",
+      "source": "outputs/arlecchino-scale-layer-20261014/source/walk-v9-20261014.png",
+      "sourceUnit": 0.65,
+      "sourceROIPixelsUnchanged": true,
+      "sourceCanvasContact": false,
+      "rectangles": 759,
+      "quantizedReconstructionExact": true
+    }
+  ],
+  "runtimeSourceUpdated": true,
+  "artAccepted": false
+}

@@ -1,0 +1,745 @@
+{
+  "actions": 25,
+  "displayPoses": 138,
+  "audit": [
+    {
+      "file": "frames/idle-open-0.png",
+      "opaqueCorePixels": 441339,
+      "canvasContact": false,
+      "rectangles": 673
+    },
+    {
+      "file": "frames/idle-blink-0.png",
+      "opaqueCorePixels": 430719,
+      "canvasContact": false,
+      "rectangles": 636
+    },
+    {
+      "file": "frames/walk-passing-v2-0.png",
+      "opaqueCorePixels": 55107,
+      "canvasContact": false,
+      "rectangles": 669
+    },
+    {
+      "file": "frames/walk-passing-v2-1.png",
+      "opaqueCorePixels": 53357,
+      "canvasContact": false,
+      "rectangles": 619
+    },
+    {
+      "file": "frames/walk-passing-v2-2.png",
+      "opaqueCorePixels": 50580,
+      "canvasContact": false,
+      "rectangles": 614
+    },
+    {
+      "file": "frames/walk-passing-v2-3.png",
+      "opaqueCorePixels": 58799,
+      "canvasContact": false,
+      "rectangles": 719
+    },
+    {
+      "file": "frames/walk-passing-v2-4.png",
+      "opaqueCorePixels": 54841,
+      "canvasContact": false,
+      "rectangles": 658
+    },
+    {
+      "file": "frames/walk-passing-v2-5.png",
+      "opaqueCorePixels": 49375,
+      "canvasContact": false,
+      "rectangles": 578
+    },
+    {
+      "file": "frames/backwalk-0.png",
+      "opaqueCorePixels": 56227,
+      "canvasContact": false,
+      "rectangles": 844
+    },
+    {
+      "file": "frames/backwalk-1.png",
+      "opaqueCorePixels": 47872,
+      "canvasContact": false,
+      "rectangles": 718
+    },
+    {
+      "file": "frames/backwalk-2.png",
+      "opaqueCorePixels": 52591,
+      "canvasContact": false,
+      "rectangles": 752
+    },
+    {
+      "file": "frames/backwalk-3.png",
+      "opaqueCorePixels": 57596,
+      "canvasContact": false,
+      "rectangles": 850
+    },
+    {
+      "file": "frames/backwalk-4.png",
+      "opaqueCorePixels": 52021,
+      "canvasContact": false,
+      "rectangles": 759
+    },
+    {
+      "file": "frames/backwalk-5.png",
+      "opaqueCorePixels": 49494,
+      "canvasContact": false,
+      "rectangles": 711
+    },
+    {
+      "file": "frames/light1-pole-v2-0.png",
+      "opaqueCorePixels": 91153,
+      "canvasContact": false,
+      "rectangles": 1367
+    },
+    {
+      "file": "frames/light1-pole-v2-1.png",
+      "opaqueCorePixels": 91135,
+      "canvasContact": false,
+      "rectangles": 1376
+    },
+    {
+      "file": "frames/light1-pole-v2-2.png",
+      "opaqueCorePixels": 99184,
+      "canvasContact": false,
+      "rectangles": 1372
+    },
+    {
+      "file": "frames/light1-pole-v2-3.png",
+      "opaqueCorePixels": 95991,
+      "canvasContact": false,
+      "rectangles": 1385
+    },
+    {
+      "file": "frames/light2-sweep-v2-0.png",
+      "opaqueCorePixels": 54394,
+      "canvasContact": false,
+      "rectangles": 991
+    },
+    {
+      "file": "frames/light2-sweep-v2-1.png",
+      "opaqueCorePixels": 60872,
+      "canvasContact": false,
+      "rectangles": 1113
+    },
+    {
+      "file": "frames/light2-sweep-v2-2.png",
+      "opaqueCorePixels": 60154,
+      "canvasContact": false,
+      "rectangles": 1135
+    },
+    {
+      "file": "frames/light2-sweep-v2-3.png",
+      "opaqueCorePixels": 54889,
+      "canvasContact": false,
+      "rectangles": 1021
+    },
+    {
+      "file": "frames/light2-sweep-v2-4.png",
+      "opaqueCorePixels": 64457,
+      "canvasContact": false,
+      "rectangles": 1138
+    },
+    {
+      "file": "frames/light2-sweep-v2-5.png",
+      "opaqueCorePixels": 55435,
+      "canvasContact": false,
+      "rectangles": 973
+    },
+    {
+      "file": "frames/crouch-v1-0.png",
+      "opaqueCorePixels": 150358,
+      "canvasContact": false,
+      "rectangles": 714
+    },
+    {
+      "file": "frames/crouch-v1-1.png",
+      "opaqueCorePixels": 139766,
+      "canvasContact": false,
+      "rectangles": 656
+    },
+    {
+      "file": "frames/crouch-v1-2.png",
+      "opaqueCorePixels": 119134,
+      "canvasContact": false,
+      "rectangles": 570
+    },
+    {
+      "file": "frames/crouch-v1-3.png",
+      "opaqueCorePixels": 109739,
+      "canvasContact": false,
+      "rectangles": 513
+    },
+    {
+      "file": "frames/standguard-v1-0.png",
+      "opaqueCorePixels": 113758,
+      "canvasContact": false,
+      "rectangles": 651
+    },
+    {
+      "file": "frames/standguard-v1-1.png",
+      "opaqueCorePixels": 117944,
+      "canvasContact": false,
+      "rectangles": 691
+    },
+    {
+      "file": "frames/standguard-v1-2.png",
+      "opaqueCorePixels": 124815,
+      "canvasContact": false,
+      "rectangles": 711
+    },
+    {
+      "file": "frames/standguard-v1-3.png",
+      "opaqueCorePixels": 120831,
+      "canvasContact": false,
+      "rectangles": 704
+    },
+    {
+      "file": "frames/crouchguard-v1-0.png",
+      "opaqueCorePixels": 99998,
+      "canvasContact": false,
+      "rectangles": 674
+    },
+    {
+      "file": "frames/crouchguard-v1-1.png",
+      "opaqueCorePixels": 96204,
+      "canvasContact": false,
+      "rectangles": 597
+    },
+    {
+      "file": "frames/crouchguard-v1-2.png",
+      "opaqueCorePixels": 98873,
+      "canvasContact": false,
+      "rectangles": 619
+    },
+    {
+      "file": "frames/crouchguard-v1-3.png",
+      "opaqueCorePixels": 96576,
+      "canvasContact": false,
+      "rectangles": 628
+    },
+    {
+      "file": "frames/jump-v1-0.png",
+      "opaqueCorePixels": 58045,
+      "canvasContact": false,
+      "rectangles": 585
+    },
+    {
+      "file": "frames/jump-v1-1.png",
+      "opaqueCorePixels": 57923,
+      "canvasContact": false,
+      "rectangles": 599
+    },
+    {
+      "file": "frames/jump-v1-2.png",
+      "opaqueCorePixels": 63465,
+      "canvasContact": false,
+      "rectangles": 633
+    },
+    {
+      "file": "frames/jump-v1-3.png",
+      "opaqueCorePixels": 56992,
+      "canvasContact": false,
+      "rectangles": 545
+    },
+    {
+      "file": "frames/jump-v1-4.png",
+      "opaqueCorePixels": 61759,
+      "canvasContact": false,
+      "rectangles": 630
+    },
+    {
+      "file": "frames/jump-v1-5.png",
+      "opaqueCorePixels": 63860,
+      "canvasContact": false,
+      "rectangles": 650
+    },
+    {
+      "file": "frames/light3-hook-v2-0.png",
+      "opaqueCorePixels": 50575,
+      "canvasContact": false,
+      "rectangles": 1020
+    },
+    {
+      "file": "frames/light3-hook-v2-1.png",
+      "opaqueCorePixels": 50063,
+      "canvasContact": false,
+      "rectangles": 1027
+    },
+    {
+      "file": "frames/light3-hook-v2-2.png",
+      "opaqueCorePixels": 52591,
+      "canvasContact": false,
+      "rectangles": 1013
+    },
+    {
+      "file": "frames/light3-hook-v2-3.png",
+      "opaqueCorePixels": 46332,
+      "canvasContact": false,
+      "rectangles": 1021
+    },
+    {
+      "file": "frames/light3-hook-v2-4.png",
+      "opaqueCorePixels": 49504,
+      "canvasContact": false,
+      "rectangles": 993
+    },
+    {
+      "file": "frames/light3-hook-v2-5.png",
+      "opaqueCorePixels": 46719,
+      "canvasContact": false,
+      "rectangles": 943
+    },
+    {
+      "file": "frames/heavy-hook-v2-0.png",
+      "opaqueCorePixels": 58107,
+      "canvasContact": false,
+      "rectangles": 937
+    },
+    {
+      "file": "frames/heavy-hook-v2-1.png",
+      "opaqueCorePixels": 63684,
+      "canvasContact": false,
+      "rectangles": 1002
+    },
+    {
+      "file": "frames/heavy-hook-v2-2.png",
+      "opaqueCorePixels": 61041,
+      "canvasContact": false,
+      "rectangles": 994
+    },
+    {
+      "file": "frames/heavy-hook-v2-3.png",
+      "opaqueCorePixels": 69327,
+      "canvasContact": false,
+      "rectangles": 1044
+    },
+    {
+      "file": "frames/heavy-hook-v2-4.png",
+      "opaqueCorePixels": 63523,
+      "canvasContact": false,
+      "rectangles": 1008
+    },
+    {
+      "file": "frames/heavy-hook-v2-5.png",
+      "opaqueCorePixels": 52373,
+      "canvasContact": false,
+      "rectangles": 911
+    },
+    {
+      "file": "frames/crouchlight-v1-0.png",
+      "opaqueCorePixels": 96618,
+      "canvasContact": false,
+      "rectangles": 1171
+    },
+    {
+      "file": "frames/crouchlight-v1-1.png",
+      "opaqueCorePixels": 90902,
+      "canvasContact": false,
+      "rectangles": 1115
+    },
+    {
+      "file": "frames/crouchlight-v1-2.png",
+      "opaqueCorePixels": 100741,
+      "canvasContact": false,
+      "rectangles": 1207
+    },
+    {
+      "file": "frames/crouchlight-v1-3.png",
+      "opaqueCorePixels": 91905,
+      "canvasContact": false,
+      "rectangles": 1148
+    },
+    {
+      "file": "frames/crouchheavy-v1-0.png",
+      "opaqueCorePixels": 75484,
+      "canvasContact": false,
+      "rectangles": 879
+    },
+    {
+      "file": "frames/crouchheavy-v1-1.png",
+      "opaqueCorePixels": 84230,
+      "canvasContact": false,
+      "rectangles": 971
+    },
+    {
+      "file": "frames/crouchheavy-v1-2.png",
+      "opaqueCorePixels": 79277,
+      "canvasContact": false,
+      "rectangles": 909
+    },
+    {
+      "file": "frames/crouchheavy-v1-3.png",
+      "opaqueCorePixels": 70849,
+      "canvasContact": false,
+      "rectangles": 843
+    },
+    {
+      "file": "frames/crouchheavy-v1-4.png",
+      "opaqueCorePixels": 82513,
+      "canvasContact": false,
+      "rectangles": 906
+    },
+    {
+      "file": "frames/crouchheavy-v1-5.png",
+      "opaqueCorePixels": 69517,
+      "canvasContact": false,
+      "rectangles": 803
+    },
+    {
+      "file": "frames/airlight-v1-0.png",
+      "opaqueCorePixels": 108997,
+      "canvasContact": false,
+      "rectangles": 839
+    },
+    {
+      "file": "frames/airlight-v1-1.png",
+      "opaqueCorePixels": 113913,
+      "canvasContact": false,
+      "rectangles": 863
+    },
+    {
+      "file": "frames/airlight-v1-2.png",
+      "opaqueCorePixels": 126238,
+      "canvasContact": false,
+      "rectangles": 938
+    },
+    {
+      "file": "frames/airlight-v1-3.png",
+      "opaqueCorePixels": 103184,
+      "canvasContact": false,
+      "rectangles": 819
+    },
+    {
+      "file": "frames/airheavy-v1-0.png",
+      "opaqueCorePixels": 57118,
+      "canvasContact": false,
+      "rectangles": 948
+    },
+    {
+      "file": "frames/airheavy-v1-1.png",
+      "opaqueCorePixels": 53631,
+      "canvasContact": false,
+      "rectangles": 955
+    },
+    {
+      "file": "frames/airheavy-v1-2.png",
+      "opaqueCorePixels": 59101,
+      "canvasContact": false,
+      "rectangles": 986
+    },
+    {
+      "file": "frames/airheavy-v1-3.png",
+      "opaqueCorePixels": 59757,
+      "canvasContact": false,
+      "rectangles": 976
+    },
+    {
+      "file": "frames/airheavy-v1-4.png",
+      "opaqueCorePixels": 65819,
+      "canvasContact": false,
+      "rectangles": 1083
+    },
+    {
+      "file": "frames/airheavy-v1-5.png",
+      "opaqueCorePixels": 59033,
+      "canvasContact": false,
+      "rectangles": 1040
+    },
+    {
+      "file": "frames/forwarddash-v1-0.png",
+      "opaqueCorePixels": 87573,
+      "canvasContact": false,
+      "rectangles": 800
+    },
+    {
+      "file": "frames/forwarddash-v1-1.png",
+      "opaqueCorePixels": 81799,
+      "canvasContact": false,
+      "rectangles": 731
+    },
+    {
+      "file": "frames/forwarddash-v1-2.png",
+      "opaqueCorePixels": 98389,
+      "canvasContact": false,
+      "rectangles": 766
+    },
+    {
+      "file": "frames/forwarddash-v1-3.png",
+      "opaqueCorePixels": 82516,
+      "canvasContact": false,
+      "rectangles": 744
+    },
+    {
+      "file": "frames/backdash-v1-0.png",
+      "opaqueCorePixels": 78908,
+      "canvasContact": false,
+      "rectangles": 671
+    },
+    {
+      "file": "frames/backdash-v1-1.png",
+      "opaqueCorePixels": 85452,
+      "canvasContact": false,
+      "rectangles": 696
+    },
+    {
+      "file": "frames/backdash-v1-2.png",
+      "opaqueCorePixels": 74720,
+      "canvasContact": false,
+      "rectangles": 596
+    },
+    {
+      "file": "frames/backdash-v1-3.png",
+      "opaqueCorePixels": 82606,
+      "canvasContact": false,
+      "rectangles": 664
+    },
+    {
+      "file": "frames/victory-v1-0.png",
+      "opaqueCorePixels": 103407,
+      "canvasContact": false,
+      "rectangles": 562
+    },
+    {
+      "file": "frames/victory-v1-1.png",
+      "opaqueCorePixels": 101621,
+      "canvasContact": false,
+      "rectangles": 565
+    },
+    {
+      "file": "frames/victory-v1-2.png",
+      "opaqueCorePixels": 111113,
+      "canvasContact": false,
+      "rectangles": 597
+    },
+    {
+      "file": "frames/victory-v1-3.png",
+      "opaqueCorePixels": 107608,
+      "canvasContact": false,
+      "rectangles": 591
+    },
+    {
+      "file": "frames/defeat-v1-0.png",
+      "opaqueCorePixels": 68003,
+      "canvasContact": false,
+      "rectangles": 732
+    },
+    {
+      "file": "frames/defeat-v1-1.png",
+      "opaqueCorePixels": 69106,
+      "canvasContact": false,
+      "rectangles": 718
+    },
+    {
+      "file": "frames/defeat-v1-2.png",
+      "opaqueCorePixels": 86800,
+      "canvasContact": false,
+      "rectangles": 812
+    },
+    {
+      "file": "frames/defeat-v1-3.png",
+      "opaqueCorePixels": 82453,
+      "canvasContact": false,
+      "rectangles": 798
+    },
+    {
+      "file": "frames/E-body-v1-0.png",
+      "opaqueCorePixels": 47790,
+      "canvasContact": false,
+      "rectangles": 755
+    },
+    {
+      "file": "frames/E-body-v1-1.png",
+      "opaqueCorePixels": 56712,
+      "canvasContact": false,
+      "rectangles": 874
+    },
+    {
+      "file": "frames/E-body-v1-2.png",
+      "opaqueCorePixels": 78497,
+      "canvasContact": false,
+      "rectangles": 1131
+    },
+    {
+      "file": "frames/E-body-v1-3.png",
+      "opaqueCorePixels": 72682,
+      "canvasContact": false,
+      "rectangles": 1116
+    },
+    {
+      "file": "frames/E-body-v1-4.png",
+      "opaqueCorePixels": 65675,
+      "canvasContact": false,
+      "rectangles": 980
+    },
+    {
+      "file": "frames/E-body-v1-5.png",
+      "opaqueCorePixels": 40766,
+      "canvasContact": false,
+      "rectangles": 650
+    },
+    {
+      "file": "frames/Q-body-v1-0.png",
+      "opaqueCorePixels": 88550,
+      "canvasContact": false,
+      "rectangles": 1118
+    },
+    {
+      "file": "frames/Q-body-v1-1.png",
+      "opaqueCorePixels": 55080,
+      "canvasContact": false,
+      "rectangles": 705
+    },
+    {
+      "file": "frames/Q-body-v1-2.png",
+      "opaqueCorePixels": 72689,
+      "canvasContact": false,
+      "rectangles": 860
+    },
+    {
+      "file": "frames/Q-body-v1-3.png",
+      "opaqueCorePixels": 76757,
+      "canvasContact": false,
+      "rectangles": 983
+    },
+    {
+      "file": "frames/Q-body-v1-4.png",
+      "opaqueCorePixels": 96596,
+      "canvasContact": false,
+      "rectangles": 1234
+    },
+    {
+      "file": "frames/Q-body-v1-5.png",
+      "opaqueCorePixels": 57721,
+      "canvasContact": false,
+      "rectangles": 754
+    },
+    {
+      "file": "frames/hit-knockdown-v1-0.png",
+      "opaqueCorePixels": 96472,
+      "canvasContact": false,
+      "rectangles": 743
+    },
+    {
+      "file": "frames/hit-knockdown-v1-1.png",
+      "opaqueCorePixels": 107503,
+      "canvasContact": false,
+      "rectangles": 797
+    },
+    {
+      "file": "frames/hit-knockdown-v1-2.png",
+      "opaqueCorePixels": 83659,
+      "canvasContact": false,
+      "rectangles": 549
+    },
+    {
+      "file": "frames/hit-knockdown-v1-3.png",
+      "opaqueCorePixels": 83092,
+      "canvasContact": false,
+      "rectangles": 519
+    },
+    {
+      "file": "frames/wakeup-v1-0.png",
+      "opaqueCorePixels": 124865,
+      "canvasContact": false,
+      "rectangles": 674
+    },
+    {
+      "file": "frames/wakeup-v1-1.png",
+      "opaqueCorePixels": 119088,
+      "canvasContact": false,
+      "rectangles": 746
+    },
+    {
+      "file": "frames/wakeup-v1-2.png",
+      "opaqueCorePixels": 114389,
+      "canvasContact": false,
+      "rectangles": 723
+    },
+    {
+      "file": "frames/victim-v1-0.png",
+      "opaqueCorePixels": 126496,
+      "canvasContact": false,
+      "rectangles": 700
+    },
+    {
+      "file": "frames/victim-v1-1.png",
+      "opaqueCorePixels": 134139,
+      "canvasContact": false,
+      "rectangles": 808
+    },
+    {
+      "file": "frames/victim-v1-2.png",
+      "opaqueCorePixels": 125372,
+      "canvasContact": false,
+      "rectangles": 739
+    },
+    {
+      "file": "frames/victim-v1-3.png",
+      "opaqueCorePixels": 90822,
+      "canvasContact": false,
+      "rectangles": 545
+    },
+    {
+      "file": "frames/throw-adult-v1-0.png",
+      "opaqueCorePixels": 98307,
+      "canvasContact": false,
+      "rectangles": 682
+    },
+    {
+      "file": "frames/throw-adult-v1-1.png",
+      "opaqueCorePixels": 101946,
+      "canvasContact": false,
+      "rectangles": 686
+    },
+    {
+      "file": "frames/throw-adult-v1-2.png",
+      "opaqueCorePixels": 108828,
+      "canvasContact": false,
+      "rectangles": 734
+    },
+    {
+      "file": "frames/throw-adult-v1-3.png",
+      "opaqueCorePixels": 98072,
+      "canvasContact": false,
+      "rectangles": 649
+    },
+    {
+      "file": "frames/heavy-effective-single-v4-0.png",
+      "opaqueCorePixels": 411503,
+      "canvasContact": false,
+      "rectangles": 1057
+    },
+    {
+      "file": "frames/throw-low-push-v2-0.png",
+      "opaqueCorePixels": 121735,
+      "canvasContact": false,
+      "rectangles": 739
+    },
+    {
+      "file": "frames/throw-low-push-v2-1.png",
+      "opaqueCorePixels": 107698,
+      "canvasContact": false,
+      "rectangles": 680
+    },
+    {
+      "file": "frames/throw-low-push-v2-2.png",
+      "opaqueCorePixels": 121951,
+      "canvasContact": false,
+      "rectangles": 726
+    },
+    {
+      "file": "frames/throw-low-push-v2-3.png",
+      "opaqueCorePixels": 109849,
+      "canvasContact": false,
+      "rectangles": 669
+    }
+  ],
+  "pixelRoundtrip": "canonical_fit asserts exact quantized outlined target",
+  "sourceProportions": "not deformed; no independent XY scale",
+  "artAccepted": false,
+  "browser": "not yet checked for current four-group version",
+  "runtimeIntegrated": false,
+  "simulator": "not run",
+  "device": "not observed"
+}

@@ -1,0 +1,48 @@
+{
+  "normalBytes": 7211693,
+  "variants": [
+    {
+      "profile": "compact",
+      "folder": "outputs/four-character-compact-20261012_043633",
+      "bytes": 5711176,
+      "sha256": "5b89001d652f49928140d3bea17d825b0ff246de0e88b8519f473c1fdea2ab4b",
+      "lua": "gpt_20261012_043633_原神格斗_紧凑编码对照.lua",
+      "scriptGia": "gpt_20261012_043633_原神格斗_紧凑编码对照_仅脚本.gia"
+    },
+    {
+      "profile": "compressed",
+      "folder": "outputs/four-character-lz4-20261012_043633",
+      "bytes": 5317901,
+      "sha256": "79448bd5efe76e5d767488daa35c5ae42ea9b266d55e014e08502db22e47032c",
+      "lua": "gpt_20261012_043633_原神格斗_LZ4压缩对照.lua",
+      "scriptGia": "gpt_20261012_043633_原神格斗_LZ4压缩对照_仅脚本.gia"
+    }
+  ],
+  "startupMock": {
+    "mockOnly": true,
+    "incrementalCodecVectors": true,
+    "badOffsetRejected": true,
+    "allFourCharactersPrepared": true,
+    "cases": [
+      {
+        "profile": "compact",
+        "mockInitialPreparationSeconds": 10.733333333333446,
+        "initialLz4Blocks": 0,
+        "postStartupLz4Blocks": 0,
+        "pool": 16000,
+        "preparationCompleteBeforeIntro": true,
+        "bothBurstsNoNewDecompression": true
+      },
+      {
+        "profile": "compressed",
+        "mockInitialPreparationSeconds": 11.90000000000017,
+        "initialLz4Blocks": 329,
+        "postStartupLz4Blocks": 329,
+        "pool": 16000,
+        "preparationCompleteBeforeIntro": true,
+        "bothBurstsNoNewDecompression": true
+      }
+    ]
+  },
+  "nativeDeviceTested": false
+}

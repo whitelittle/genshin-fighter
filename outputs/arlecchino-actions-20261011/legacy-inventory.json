@@ -1,0 +1,514 @@
+{
+  "character": "arlecchino",
+  "date": "2026-10-11",
+  "actions": [
+    {
+      "actionId": "arlecchino.light1",
+      "group": "light1",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/light1-candidates/arlecchino-light1-body-v1.png",
+          "sha256": "f3d77977a9987f1b265a6e61b2befd9f2faa9ccb2c76ede2a4afe75644871966",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.light2",
+      "group": "light2",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/action-candidates-20261009/arlecchino-light2-body-v1.png",
+          "sha256": "cbdb1dd92987921e66cfe89cdb33bfce97afc70e759eadf2d5644058be8d9b94",
+          "size": [
+            2172,
+            724
+          ],
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "new_candidate",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.light3",
+      "group": "light3",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/arlecchino-light3-body-full-v1.png",
+          "sha256": "4323a1f70f000dedaae64eb7f84294dce3724a8a8041c89e22fb8aefd20d11d8",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.heavy",
+      "group": "heavy",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/arlecchino-heavy-body-full-v1.png",
+          "sha256": "be16eae5f263e5c73452f0d1f0a0a752396eba0bd35bcc909891c31ec21114cc",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouchlight",
+      "group": "crouchlight",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/arlecchino-crouchlight-body-full-v1.png",
+          "sha256": "5ed3b62e4846ff3cf60df66a6543a034827184fae98b7e9d892bd4fc0d7be149",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouchheavy",
+      "group": "crouchheavy",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/arlecchino-crouchheavy-body-full-v1.png",
+          "sha256": "4b08198e3dd8a7067724172c752437fd3b420ca4ef638620f04ffbb1ca9ffed3",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.airlight",
+      "group": "airlight",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/full-delivery-20261009/arlecchino-airlight-body-full-v1.png",
+          "sha256": "59d9ac65da84956449b22716863c523814613897b57f164b20b18c6b7e8aa4b0",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "needs_correction",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.airheavy",
+      "group": "airheavy",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.E",
+      "group": "E",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/skill-candidates/arlecchino-E-body-v1.png",
+          "sha256": "e6d41a7d0c289c548dd8c5652a0c221c87685d33db0a9c8667f32d7c03151c46",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.Q",
+      "group": "Q",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.throw",
+      "group": "throw",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.victim",
+      "group": "victim",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.idle",
+      "group": "idle",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-idle-review/source-cell-0.png",
+          "sha256": "7c3ad5e6ed037fa4756575babd4e4a6a9de1cad5cd4eda13b77c55a61ddd9dde",
+          "size": [
+            768,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-idle-review/source-cell-1.png",
+          "sha256": "d31243f301c838860480e529536b476b3bcf12cb8d564ef600426f1c44917523",
+          "size": [
+            768,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.walk",
+      "group": "walk",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-walk-review/source-cell-0.png",
+          "sha256": "e6d78bd1f2e59f294da5a5cbd2e620be00fc5993ab564afce0f51ad041bfc731",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-walk-review/source-cell-1.png",
+          "sha256": "820860461ca98a2f09aade70298f64b9943c2b0bb8785ce983136393bc234d3c",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-walk-review/source-cell-2.png",
+          "sha256": "5bf21a64189cd3f606152e4e0849c06a7c7d7dff99d51e227f72c8801780daa1",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-walk-review/source-cell-3.png",
+          "sha256": "91632b961e8f9a669e797d6a20ef5d1d0538b9303a35848700b311306c7d1bc8",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-walk-review/source-cell-4.png",
+          "sha256": "a7fc0f7aaeb9ea4489748ef72bd905e76a25cb6b2b37c45b8de5594a7157777c",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/evidence/arlecchino-walk-review/source-cell-5.png",
+          "sha256": "a3a9e26b220d7f98cc904ac8c2ca8dfecb7e33e2d8fd3ce2f30d68136c384083",
+          "size": [
+            512,
+            512
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "existing_candidate_requires_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.backwalk",
+      "group": "backwalk",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/arlecchino-backwalk-body-v1.png",
+          "sha256": "b26b6238f8bd299d7428ddc9f4bbb55e2463bc16b59420dafc36db3e48ffa49e",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.jump",
+      "group": "jump",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/arlecchino-jump-body-v1.png",
+          "sha256": "bae10f21a41637bc7ebaaabdc6a6bce28cd2558ed692cf500650970bb453442e",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.forwarddash",
+      "group": "forwarddash",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.backdash",
+      "group": "backdash",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouch",
+      "group": "crouch",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.standguard",
+      "group": "standguard",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/arlecchino-standguard-body-v2.png",
+          "sha256": "32de9f38633e7e4ba4554a0495bf7c430b69cd4d79c2dbba30c5ac37ae86f948",
+          "size": [
+            1024,
+            1536
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.crouchguard",
+      "group": "crouchguard",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.hit_knockdown",
+      "group": "hit_knockdown",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/arlecchino-hit_knockdown-body-v1.png",
+          "sha256": "468c63bedf3a49ce93a3e64e235d894a4f8102617003690441080f55b96a8e89",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.wakeup",
+      "group": "wakeup",
+      "legacySources": [
+        {
+          "path": "work/v4-handoff-20261009-partial/V4/assets/codex-batch-20261009/arlecchino-wakeup-body-v1.png",
+          "sha256": "bf40b626001b183968aaf107ed3322e68557083a4f1ddefb411e98f73418b814",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaExtrema": [
+            0,
+            254
+          ]
+        }
+      ],
+      "status": "历史候选待复核",
+      "legacyStatus": "codex_source_candidate_requires_visual_review",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.victory",
+      "group": "victory",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    },
+    {
+      "actionId": "arlecchino.defeat",
+      "group": "defeat",
+      "legacySources": [],
+      "status": "缺源图，待制作",
+      "legacyStatus": "missing",
+      "visualAccepted": false,
+      "runtimeIntegrated": false
+    }
+  ],
+  "sourceCoveredGroups": 15,
+  "missingGroups": [
+    "airheavy",
+    "Q",
+    "throw",
+    "victim",
+    "forwarddash",
+    "backdash",
+    "crouch",
+    "crouchguard",
+    "victory",
+    "defeat"
+  ],
+  "verification": "source file and PNG only",
+  "simulation": "not run",
+  "device": "not observed"
+}

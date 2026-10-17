@@ -1,0 +1,26 @@
+{
+  "mockOnly": true,
+  "incrementalCodecVectors": true,
+  "badOffsetRejected": true,
+  "allFourCharactersPrepared": true,
+  "cases": [
+    {
+      "profile": "compact",
+      "mockInitialPreparationSeconds": 10.733333333333446,
+      "initialLz4Blocks": 0,
+      "postStartupLz4Blocks": 0,
+      "pool": 16000,
+      "preparationCompleteBeforeIntro": true,
+      "bothBurstsNoNewDecompression": true
+    },
+    {
+      "profile": "compressed",
+      "mockInitialPreparationSeconds": 11.90000000000017,
+      "initialLz4Blocks": 329,
+      "postStartupLz4Blocks": 329,
+      "pool": 16000,
+      "preparationCompleteBeforeIntro": true,
+      "bothBurstsNoNewDecompression": true
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "release": "structure-20261011-four-character-candidate",
+  "minified": false,
+  "bytes": 10424263,
+  "sha256": "d781527091f2571271335b731a1884b068850a4dbf3e2a496b244ca874817841",
+  "modules": {
+    "gf_signal_names": "source/network/gf_signal_names.lua",
+    "gf_team_lobby": "source/network/gf_team_lobby.lua",
+    "gf_ai": "source/battle/gf_ai.lua",
+    "gf_app_network": "source/app/gf_app_network.lua",
+    "gf_app_exit": "source/app/gf_app_exit.lua",
+    "gf_app_transition": "source/app/gf_app_transition.lua",
+    "gf_app_metrics": "source/app/gf_app_metrics.lua",
+    "gf_app_loading": "source/app/gf_app_loading.lua",
+    "gf_app_recovery": "source/app/gf_app_recovery.lua",
+    "gf_app": "source/app/gf_app.lua",
+    "gf_art": "source/characters/gf_art.lua",
+    "gf_audio": "source/render/gf_audio.lua",
+    "gf_backdrop": "source/render/gf_backdrop.lua",
+    "gf_bglist": "source/render/gf_bglist.lua",
+    "gf_fview": "source/render/gf_fview.lua",
+    "gf_fx": "source/render/gf_fx.lua",
+    "gf_gfx": "source/render/gf_gfx.lua",
+    "gf_hud": "source/render/gf_hud.lua",
+    "gf_input": "source/input/gf_input.lua",
+    "gf_kits": "source/characters/gf_kits.lua",
+    "gf_net": "source/network/gf_net.lua",
+    "gf_online": "source/network/gf_online.lua",
+    "gf_paint": "source/render/gf_paint.lua",
+    "gf_roster": "source/characters/gf_roster.lua",
+    "gf_battle_loading": "source/battle/gf_battle_loading.lua",
+    "gf_battle_input": "source/battle/gf_battle_input.lua",
+    "gf_battle_events": "source/battle/gf_battle_events.lua",
+    "gf_battle_pause": "source/battle/gf_battle_pause.lua",
+    "gf_battle_network": "source/battle/gf_battle_network.lua",
+    "gf_battle_backdrop": "source/battle/gf_battle_backdrop.lua",
+    "gf_scene_fight": "source/battle/gf_scene_fight.lua",
+    "gf_scene_gallery": "source/menu/gf_scene_gallery.lua",
+    "gf_scene_howto": "source/menu/gf_scene_howto.lua",
+    "gf_scene_intro": "source/menu/gf_scene_intro.lua",
+    "gf_scene_menu": "source/menu/gf_scene_menu.lua",
+    "gf_scene_online": "source/menu/gf_scene_online.lua",
+    "gf_scene_options": "source/menu/gf_scene_options.lua",
+    "gf_scene_result": "source/menu/gf_scene_result.lua",
+    "gf_scene_select": "source/menu/gf_scene_select.lua",
+    "gf_scene_team_select": "source/menu/gf_scene_team_select.lua",
+    "gf_scene_team_vs": "source/menu/gf_scene_team_select.lua",
+    "gf_scene_stageview": "source/menu/gf_scene_stageview.lua",
+    "gf_scene_test": "source/menu/gf_scene_test.lua",
+    "gf_scene_title": "source/menu/gf_scene_title.lua",
+    "gf_scene_vs": "source/menu/gf_scene_vs.lua",
+    "gf_show": "source/render/gf_show.lua",
+    "gf_sim_physics": "source/battle/gf_sim_physics.lua",
+    "gf_sim_flow": "source/battle/gf_sim_flow.lua",
+    "gf_sim_snapshot": "source/battle/gf_sim_snapshot.lua",
+    "gf_sim": "source/battle/gf_sim.lua",
+    "gf_stage": "source/render/gf_stage.lua",
+    "gf_touch": "source/input/gf_touch.lua",
+    "gf_transport": "source/network/gf_transport.lua",
+    "gf_team_selection": "source/network/gf_team_selection.lua",
+    "gf_team_server": "source/network/gf_team_server.lua",
+    "gf_ui": "source/render/gf_ui.lua",
+    "gf_util": "source/core/gf_util.lua",
+    "gf_animation_data": "source/assets/gf_animation_data.lua",
+    "gf_animation_effects": "source/assets/gf_animation_effects.lua",
+    "gf_inbetween_data": "source/assets/gf_inbetween_data.lua",
+    "gf_art_nahida": "source/assets/gf_art_nahida.lua",
+    "gf_art_raidenshogun": "source/assets/gf_art_raidenshogun.lua",
+    "gf_bg_fontaine": "source/assets/gf_bg_fontaine.lua",
+    "gf_bg_inazuma": "source/assets/gf_bg_inazuma.lua",
+    "gf_bg_liyue": "source/assets/gf_bg_liyue.lua",
+    "gf_bg_mondstadt": "source/assets/gf_bg_mondstadt.lua",
+    "gf_bg_natlan": "source/assets/gf_bg_natlan.lua",
+    "gf_bg_snezhnaya": "source/assets/gf_bg_snezhnaya.lua",
+    "gf_bg_sumeru": "source/assets/gf_bg_sumeru.lua",
+    "gf_aranara_data": "source/assets/gf_aranara_data.lua",
+    "gf_viewfinder_data": "source/assets/gf_viewfinder_data.lua",
+    "gf_logo": "source/assets/gf_logo.lua",
+    "gf_raiden_eye_r31": "source/assets/gf_raiden_eye_r31.lua",
+    "gf_character_registry": "source/characters/gf_character_registry.lua",
+    "gf_character_assets": "source/characters/gf_character_assets.lua",
+    "gf_character_furina": "source/characters/gf_character_furina.lua",
+    "gf_furina_data": "source/assets/gf_furina_data.lua",
+    "gf_art_furina": "source/assets/gf_art_furina.lua",
+    "gf_sim_combat": "source/battle/gf_sim_combat.lua",
+    "gf_sim_projectiles": "source/battle/gf_sim_projectiles.lua",
+    "gf_sim_actions": "source/battle/gf_sim_actions.lua",
+    "gf_sim_fighter": "source/battle/gf_sim_fighter.lua",
+    "gf_weapon_rules": "source/characters/gf_weapon_rules.lua",
+    "gf_character_rules": "source/characters/gf_character_rules.lua",
+    "gf_element_rules": "source/characters/gf_element_rules.lua",
+    "gf_mode_arcade": "source/modes/gf_mode_arcade.lua",
+    "gf_furina_rules_data": "source/characters/gf_furina_rules_data.lua",
+    "gf_character_furina_rules": "source/characters/gf_character_furina_rules.lua",
+    "gf_sim_furina": "source/battle/gf_sim_furina.lua",
+    "gf_character_furina_view": "source/characters/gf_character_furina_view.lua",
+    "gf_character_cinematic_view": "source/characters/gf_character_cinematic_view.lua",
+    "gf_ayaka_data": "source/assets/gf_ayaka_data.lua",
+    "gf_art_kamisatoayaka": "source/assets/gf_art_kamisatoayaka.lua",
+    "gf_ayaka_rules_data": "source/characters/gf_ayaka_rules_data.lua",
+    "gf_character_ayaka": "source/characters/gf_character_ayaka.lua",
+    "gf_character_ayaka_rules": "source/characters/gf_character_ayaka_rules.lua",
+    "gf_character_ayaka_view": "source/characters/gf_character_ayaka_view.lua",
+    "gf_character_effect_channel": "source/characters/gf_character_effect_channel.lua",
+    "gf_sim_ayaka": "source/battle/gf_sim_ayaka.lua",
+    "gf_selection_art": "source/characters/gf_selection_art.lua",
+    "gf_selection_candidates": "source/assets/gf_selection_candidates.lua",
+    "gf_clorinde_data": "source/assets/gf_clorinde_data.lua",
+    "gf_art_clorinde": "source/assets/gf_art_clorinde.lua",
+    "gf_clorinde_rules_data": "source/characters/gf_clorinde_rules_data.lua",
+    "gf_character_clorinde": "source/characters/gf_character_clorinde.lua",
+    "gf_character_clorinde_rules": "source/characters/gf_character_clorinde_rules.lua",
+    "gf_character_clorinde_view": "source/characters/gf_character_clorinde_view.lua",
+    "gf_sim_clorinde": "source/battle/gf_sim_clorinde.lua",
+    "gf_arlecchino_data": "source/assets/gf_arlecchino_data.lua",
+    "gf_art_arlecchino": "source/assets/gf_art_arlecchino.lua",
+    "gf_arlecchino_rules_data": "source/characters/gf_arlecchino_rules_data.lua",
+    "gf_character_arlecchino": "source/characters/gf_character_arlecchino.lua",
+    "gf_character_arlecchino_rules": "source/characters/gf_character_arlecchino_rules.lua",
+    "gf_character_arlecchino_view": "source/characters/gf_character_arlecchino_view.lua",
+    "gf_sim_arlecchino": "source/battle/gf_sim_arlecchino.lua",
+    "gf_sim_team": "source/battle/gf_sim_team.lua",
+    "gf_sim_feedback": "source/battle/gf_sim_feedback.lua"
+  },
+  "chunks": [
+    {
+      "path": "source/prefix.lua",
+      "bytes": 850,
+      "sha256": "0a233013c432672d831a569637a800ad3bb6ece8dc59812466f79d6b96b6539c"
+    },
+    {
+      "path": "source/network/gf_signal_names.lua",
+      "bytes": 245,
+      "sha256": "3cf492e9dcdfd816483bf7c8a7785ddc7ac4927acc721f59318f80ab35ebe4ff"
+    },
+    {
+      "path": "source/network/gf_team_lobby.lua",
+      "bytes": 3658,
+      "sha256": "b7aac39c3adf07d0bd95ff9c199f32ca0eabe3937458f291d4fba1f0d5017f55"
+    },
+    {
+      "path": "source/battle/gf_ai.lua",
+      "bytes": 8616,
+      "sha256": "c2f43110e457683088ba676750cf94d78562391ffe15d6fa46eb27e4af0f95a8"
+    },
+    {
+      "path": "source/app/gf_app_network.lua",
+      "bytes": 1182,
+      "sha256": "1ec7281fc016f5fea7639a7fc729c4129697fbce07281ccb64ace43ad969ab67"
+    },
+    {
+      "path": "source/app/gf_app_exit.lua",
+      "bytes": 1976,
+      "sha256": "d46d6e4e6df8976351197b92330609ba53563960b80501fcf3ead6fec00adfd6"
+    },
+    {
+      "path": "source/app/gf_app_transition.lua",
+      "bytes": 1315,
+      "sha256": "543827c16516615e89dff2bfb91d6de59e1d6791987ae8129286d45022395b0c"
+    },
+    {
+      "path": "source/app/gf_app_metrics.lua",
+      "bytes": 4433,
+      "sha256": "590f89d65f7d59e76af00d6028d445bbcae4817ede8c81de698b5facd361bf81"
+    },
+    {
+      "path": "source/app/gf_app_loading.lua",
+      "bytes": 3536,
+      "sha256": "222f7d5fae9e0271166e5eea4b0ad0179772d147ab4cb13bbc8a2c19639c7e24"
+    },
+    {
+      "path": "source/app/gf_app_recovery.lua",
+      "bytes": 4237,
+      "sha256": "2beabfe018aa8dada392812044e204a4284fea3819e8dd03c72e05bad98bb900"
+    },
+    {
+      "path": "source/app/gf_app.lua",
+      "bytes": 7778,
+      "sha256": "ce984747b84b63cac3036a9552f76a3309bf550934e91c729e28a5754d69af81"
+    },
+    {
+      "path": "source/characters/gf_art.lua",
+      "bytes": 7823,
+      "sha256": "390a4d2fb49e7ce8524002cdfc0e7c22bd98eaba189373f51300ef7d97865d8c"
+    },
+    {
+      "path": "source/render/gf_audio.lua",
+      "bytes": 2264,
+      "sha256": "c7d30774066b29bbe2021a1198c18dc0e8cfd17559064e89e386ab7adc2a7ba8"
+    },
+    {
+      "path": "source/render/gf_backdrop.lua",
+      "bytes": 3130,
+      "sha256": "c5193cb0bec40681bf12112ccc3f1cac704e61196976d82e2636cc0c869bbd97"
+    },
+    {
+      "path": "source/render/gf_bglist.lua",
+      "bytes": 176,
+      "sha256": "d20d71a8bde725a0399ee97fe23c77316aecda61f007d6fdbd3faaf394160392"
+    },
+    {
+      "path": "source/render/gf_fview.lua",
+      "bytes": 37251,
+      "sha256": "9146b24fd05e39e8c9992c29fe0b7f2dd159ae1480cc680e715a67181a46f749"
+    },
+    {
+      "path": "source/render/gf_fx.lua",
+      "bytes": 11479,
+      "sha256": "373aaf93f7f31a270094acd0b5d7ae1e2298252324add9e4770a183324bcef20"
+    },
+    {
+      "path": "source/render/gf_gfx.lua",
+      "bytes": 33201,
+      "sha256": "5f866354d8b9c98ad11bca80e3b30c930df59e4170a69750b505d9bf1b72983c"
+    },
+    {
+      "path": "source/render/gf_hud.lua",
+      "bytes": 14316,
+      "sha256": "64c2b59affc4feb868e74c7d8d65d02f4eb813f6df13104c48487e1422be209c"
+    },
+    {
+      "path": "source/input/gf_input.lua",
+      "bytes": 9913,
+      "sha256": "6a90712c511d5e4ec1d6bb75e80c4577584d0119efd50577fd90c232f7be4811"
+    },
+    {
+      "path": "source/characters/gf_kits.lua",
+      "bytes": 1225,
+      "sha256": "4213c55b2afbccd9f89f5aff5374e2dc716fba678ac0908624f24b050898a299"
+    },
+    {
+      "path": "source/network/gf_net.lua",
+      "bytes": 7402,
+      "sha256": "c6fb3e6659dd81a4ec293f544ed81aca5b129567460cf8bf3558d160bc7a718a"
+    },
+    {
+      "path": "source/network/gf_online.lua",
+      "bytes": 10828,
+      "sha256": "d1055ac5d73ba7012b3f6d472b285ed26bb8bf1855bc6b3fdb0a064feb13a513"
+    },
+    {
+      "path": "source/render/gf_paint.lua",
+      "bytes": 2250,
+      "sha256": "06d5a540b4a17ffd0b1aa955c0e8bc029576ea8a37359977a490802761ef34bb"
+    },
+    {
+      "path": "source/characters/gf_roster.lua",
+      "bytes": 92,
+      "sha256": "c9a57c6c065d3e78e4c8194fa5a5d8ddd35e2d376a52175973131a2556ae317c"
+    },
+    {
+      "path": "source/battle/gf_battle_loading.lua",
+      "bytes": 2986,
+      "sha256": "7a71249aef05530ce7bf02f3a67b3cbed4b745d5097972142e1b3313a4c779f7"
+    },
+    {
+      "path": "source/battle/gf_battle_input.lua",
+      "bytes": 1216,
+      "sha256": "c32e67cd877ae036ac7b10cfe87079bbe2e84042fd82a1653b515214c3da8289"
+    },
+    {
+      "path": "source/battle/gf_battle_events.lua",
+      "bytes": 16784,
+      "sha256": "a635eaf4f36975ca5c1ef9fc276b87cfca90c41f0f865c256a4cef43b1abc979"
+    },
+    {
+      "path": "source/battle/gf_battle_pause.lua",
+      "bytes": 6438,
+      "sha256": "a511d484f8225ffeb6a65ebffdc07a022201aa7121c83bd06d3e7b65b0abcd50"
+    },
+    {
+      "path": "source/battle/gf_battle_network.lua",
+      "bytes": 1765,
+      "sha256": "3c65ff58652052a6d30f01b3d56bfece366e9afd314b35972b4a827d3e2c1545"
+    },
+    {
+      "path": "source/battle/gf_battle_backdrop.lua",
+      "bytes": 2980,
+      "sha256": "683dbe00671f1e986a32e2f6bdc5ace0056ee7801d936c78baa944ab01579ace"
+    },
+    {
+      "path": "source/battle/gf_scene_fight.lua",
+      "bytes": 17337,
+      "sha256": "3edaf52b6ead2d2f581a722acc2da4a1a08afdc7f62b382ff2fdbab4da40d693"
+    },
+    {
+      "path": "source/menu/gf_scene_gallery.lua",
+      "bytes": 1997,
+      "sha256": "0010f632cf70c7182b9773c16bb71a23f06faf19eeff193e4af00c88c220d912"
+    },
+    {
+      "path": "source/menu/gf_scene_howto.lua",
+      "bytes": 6674,
+      "sha256": "087d9710b5896e0d513cf3df1f50bd2202d84d08932690afa163ceccc48bee0d"
+    },
+    {
+      "path": "source/menu/gf_scene_intro.lua",
+      "bytes": 1814,
+      "sha256": "a27be373a5c2295a14252b89ab13647dc2a5be871118a9c121fe1c2ce639779a"
+    },
+    {
+      "path": "source/menu/gf_scene_menu.lua",
+      "bytes": 11399,
+      "sha256": "6d64a5d7061daa059bfb39d80346c7faa9387cbf8ad8c2a926d6566dbaba6596"
+    },
+    {
+      "path": "source/menu/gf_scene_online.lua",
+      "bytes": 3447,
+      "sha256": "9f8209cc9f2a6bb3174f8f5c825be7208311c0faf165dec433a1feb527d0df6a"
+    },
+    {
+      "path": "source/menu/gf_scene_options.lua",
+      "bytes": 4832,
+      "sha256": "c1570d339d0bf72b5dc52ea45e005c8840a48c530b51d828543dcf066bab5a50"
+    },
+    {
+      "path": "source/menu/gf_scene_result.lua",
+      "bytes": 7870,
+      "sha256": "c6ea1f058995807bbce0306e5f9964d215cc78fbc81b9d506f0eb063241bb48e"
+    },
+    {
+      "path": "source/menu/gf_scene_select.lua",
+      "bytes": 21269,
+      "sha256": "cbd79363db6e3135520b034b23a7bacc0401e7e90b4321e9b07b1ddc1379c966"
+    },
+    {
+      "path": "source/menu/gf_scene_team_select.lua",
+      "bytes": 17420,
+      "sha256": "acd35b7a11fc989027ede5495c6b0ad3905bb42a2ce4df092265a138cc0c4a82"
+    },
+    {
+      "path": "source/menu/gf_scene_stageview.lua",
+      "bytes": 615,
+      "sha256": "266b9a8ef8de15331b3df0bf87be04133eaf103f28e954e70367977079addd51"
+    },
+    {
+      "path": "source/menu/gf_scene_test.lua",
+      "bytes": 1360,
+      "sha256": "f8738d98611a20c5e47a689e3bb48e92cd58e879853745a43882da922f7bd944"
+    },
+    {
+      "path": "source/menu/gf_scene_title.lua",
+      "bytes": 7561,
+      "sha256": "6e8a04d4bdb0eaca13d1f459bc8be5d6c5770ecec5b2f14dd5a5daf28d5ba4b9"
+    },
+    {
+      "path": "source/menu/gf_scene_vs.lua",
+      "bytes": 7882,
+      "sha256": "8432b8c2a21a1915c52f6ec3a232ae7e9c216a26b7df8179b26853417ef68c81"
+    },
+    {
+      "path": "source/render/gf_show.lua",
+      "bytes": 1279,
+      "sha256": "3ece7e74b82719f7ec937b471817ea1e5b3c776a46e06701bf48652f2cf22b92"
+    },
+    {
+      "path": "source/battle/gf_sim_physics.lua",
+      "bytes": 1302,
+      "sha256": "53ddd778702726eb65dfa801a02c3d520045227dfd12249d5017907631e377cc"
+    },
+    {
+      "path": "source/battle/gf_sim_flow.lua",
+      "bytes": 3389,
+      "sha256": "11317bc6bc244a4f395bbbd0606bd7aef6cfd0b75ec19bf1faf51b3bfec32bd1"
+    },
+    {
+      "path": "source/battle/gf_sim_snapshot.lua",
+      "bytes": 1862,
+      "sha256": "86e1ee93e82d579e1d11c99cd43d3e62fd289043ac631c01c55a65a55c8af6d6"
+    },
+    {
+      "path": "source/battle/gf_sim.lua",
+      "bytes": 10867,
+      "sha256": "0d22124a046fd348bb91e9f4b90d7594998daf026e2cf023617357851624c401"
+    },
+    {
+      "path": "source/render/gf_stage.lua",
+      "bytes": 26947,
+      "sha256": "27dd52b073846ada9bdefe4b48577509dd650d4d9fa427b5109a6cecc9d6b7a9"
+    },
+    {
+      "path": "source/input/gf_touch.lua",
+      "bytes": 5535,
+      "sha256": "796c43f2f8f82fdeee6807aa5940817335d6f5daae7011c1183a5ce450fd8461"
+    },
+    {
+      "path": "source/network/gf_transport.lua",
+      "bytes": 3888,
+      "sha256": "9d66f00ce687cf828a9fe1bcfca79057661ea6ba6b5fff4ffc787d1cd83bfc45"
+    },
+    {
+      "path": "source/network/gf_team_selection.lua",
+      "bytes": 2972,
+      "sha256": "7330540ef45926213d3688b78f9717e60c9a7b05bd0af6f9ffdf863131d3b94f"
+    },
+    {
+      "path": "source/network/gf_team_server.lua",
+      "bytes": 2468,
+      "sha256": "41be669f2a65776387a62b1de64cb3cdc97bc2bd910e63497a2a978e9fce73c7"
+    },
+    {
+      "path": "source/render/gf_ui.lua",
+      "bytes": 13263,
+      "sha256": "1b3f0d141064a7c0b7452cf0cd6b98b95d834ba6d159e557097129694294f9e9"
+    },
+    {
+      "path": "source/core/gf_util.lua",
+      "bytes": 7760,
+      "sha256": "35be052cbd9c820f95d1f39fadea641918743981e4e5836f6427bfeeab1bab86"
+    },
+    {
+      "path": "source/assets/gf_animation_data.lua",
+      "bytes": 1589857,
+      "sha256": "7451cb153109c937814fbcaf52c347b4ec1415f7da5f53bfd0051bcca03eb9fc"
+    },
+    {
+      "path": "source/assets/gf_animation_effects.lua",
+      "bytes": 250936,
+      "sha256": "4ec8dd7457d0d15d5301632d1deb3a660d0b995216fa1ed2e8a43075ebc94eeb"
+    },
+    {
+      "path": "source/assets/gf_inbetween_data.lua",
+      "bytes": 1585402,
+      "sha256": "679420b7fce332577ac11eaafcc7cf5cc70af3a219705ff798a78a0aea3d3cb3"
+    },
+    {
+      "path": "source/assets/gf_art_nahida.lua",
+      "bytes": 72777,
+      "sha256": "de297acef055cf4029b81641188682538d2cebc5990086dc19e14e684dfd1463"
+    },
+    {
+      "path": "source/assets/gf_art_raidenshogun.lua",
+      "bytes": 69239,
+      "sha256": "bc4dc834992cfdc6f99cedbde41c052e8b2ea01b370705bf8f53ddc19e0d1ead"
+    },
+    {
+      "path": "source/assets/gf_bg_fontaine.lua",
+      "bytes": 134,
+      "sha256": "1ee679d0f11e0cab4d04d27ea00a4e575ddc9491d927bfc711fb23bd7b975c76"
+    },
+    {
+      "path": "source/assets/gf_bg_inazuma.lua",
+      "bytes": 138,
+      "sha256": "ad1628f48dc15f1b32b2a1a19c314145798a212349327ab8a78481391f031710"
+    },
+    {
+      "path": "source/assets/gf_bg_liyue.lua",
+      "bytes": 131,
+      "sha256": "08e7d6e000c78e71d97c43bb32984eb91ac36917c750a168be28bae23c4b0153"
+    },
+    {
+      "path": "source/assets/gf_bg_mondstadt.lua",
+      "bytes": 148,
+      "sha256": "2d01951121c6b58662f00771f35fb342b0f72b06c6f53efc1c9e6d5e77ff1563"
+    },
+    {
+      "path": "source/assets/gf_bg_natlan.lua",
+      "bytes": 133,
+      "sha256": "4992a47bc87e06b92e20ffdadae39b1305430195ec7296c1faae22602c784e77"
+    },
+    {
+      "path": "source/assets/gf_bg_snezhnaya.lua",
+      "bytes": 142,
+      "sha256": "13da8bd24d1105c9dff4b824df256bddb9401e917a996dc9ea61507530510f1e"
+    },
+    {
+      "path": "source/assets/gf_bg_sumeru.lua",
+      "bytes": 133,
+      "sha256": "d20dacc011d9f723f18664c8741778b200021f59d22003a5e4a404f88e9c986d"
+    },
+    {
+      "path": "source/assets/gf_aranara_data.lua",
+      "bytes": 51781,
+      "sha256": "a25a5a93be9049712688c07d4d9e7d9fd5550f1e02b050449b86da126db6f34e"
+    },
+    {
+      "path": "source/assets/gf_viewfinder_data.lua",
+      "bytes": 85631,
+      "sha256": "69b2e8ce5b593307401386e6e63c1434714d52831f8dbb72dbd47c193eb75400"
+    },
+    {
+      "path": "source/assets/gf_logo.lua",
+      "bytes": 20043,
+      "sha256": "5f9c736d55c14395cd41d5cb407fd4db7b46517c10fd6906f5b8cde6720be2e0"
+    },
+    {
+      "path": "source/assets/gf_raiden_eye_r31.lua",
+      "bytes": 40651,
+      "sha256": "823b2526cff6d9a8429959e9656fef1025aa2bc14c1746beddce9a01ef7136cc"
+    },
+    {
+      "path": "source/characters/gf_character_registry.lua",
+      "bytes": 1586,
+      "sha256": "b1f86d29fd40d5bd97750f2eb6a2dfab3e196243c5eeca6355323f3c7761382f"
+    },
+    {
+      "path": "source/characters/gf_character_assets.lua",
+      "bytes": 1853,
+      "sha256": "002b8f512c8045336009ed139b302428bfdfa9ebe04582ae931e353ee6bd81d6"
+    },
+    {
+      "path": "source/characters/gf_character_furina.lua",
+      "bytes": 5212,
+      "sha256": "753ab17cda0ae35d004ec05d1ea71d5d5e5663b5fc126592b25a98feb6d2d769"
+    },
+    {
+      "path": "source/assets/gf_furina_data.lua",
+      "bytes": 1624944,
+      "sha256": "f9bf9cb0968d94c4278813055bd7678d7930c3648d733ae323ccdb7b09a2e5c2"
+    },
+    {
+      "path": "source/assets/gf_art_furina.lua",
+      "bytes": 12859,
+      "sha256": "b859b5760b271af0d90c9715cdeeb9aa7674812ca0a6b23ebbb4d2938e03b0f4"
+    },
+    {
+      "path": "source/battle/gf_sim_combat.lua",
+      "bytes": 10038,
+      "sha256": "a6744209aabdc3740d289342e852abca4c0c6e7768604aa2bfb6ddaa98e8bce7"
+    },
+    {
+      "path": "source/battle/gf_sim_projectiles.lua",
+      "bytes": 3277,
+      "sha256": "519d88c5e359b3d76faec56f8ed9927add985e082927c964bd8a408fb381b4d6"
+    },
+    {
+      "path": "source/battle/gf_sim_actions.lua",
+      "bytes": 14163,
+      "sha256": "af01c9a30d810801643c6f40eda5ead721df4a5594ef3d181d1fce3642318483"
+    },
+    {
+      "path": "source/battle/gf_sim_fighter.lua",
+      "bytes": 5774,
+      "sha256": "7faeb86e14adbabf7da3cc03a53f4cb4ccbe1bab92364cf77a93f72dc4ee40a0"
+    },
+    {
+      "path": "source/characters/gf_weapon_rules.lua",
+      "bytes": 11393,
+      "sha256": "18f14d21806f153bf688fbde16f951b2ceac98580bd6ab16f248ea5b62b16296"
+    },
+    {
+      "path": "source/characters/gf_character_rules.lua",
+      "bytes": 5118,
+      "sha256": "007ed60b66f23a0723f250aec0aa2dc9cc4e8d919987cfd4e35df98116aa5cfb"
+    },
+    {
+      "path": "source/characters/gf_element_rules.lua",
+      "bytes": 1436,
+      "sha256": "c0dffa47055962fa8abc5100b832fa2a2b42909ce0ae229e807565481449a63d"
+    },
+    {
+      "path": "source/modes/gf_mode_arcade.lua",
+      "bytes": 940,
+      "sha256": "8b5875cf8b1373239aba6ed73efc642e7a32c99044b377776b998a0b2481aa0f"
+    },
+    {
+      "path": "source/characters/gf_furina_rules_data.lua",
+      "bytes": 5505,
+      "sha256": "0c7ae68419fed42888ee7fa5f708bf19a1fab1636e3a9c4715b0ccfe71f82e62"
+    },
+    {
+      "path": "source/characters/gf_character_furina_rules.lua",
+      "bytes": 1003,
+      "sha256": "2de7805d3579766af301206a1f77aba6672117b9a6b21b00007760250076348e"
+    },
+    {
+      "path": "source/battle/gf_sim_furina.lua",
+      "bytes": 4852,
+      "sha256": "f07031901140c1f3feaf7bc36573c21c12863af3b47bb3ec1c4213b287212524"
+    },
+    {
+      "path": "source/characters/gf_character_furina_view.lua",
+      "bytes": 5164,
+      "sha256": "56b6decef2e588602e1671426ff11f5c3435410a669b93fbaf30001a2df91fbd"
+    },
+    {
+      "path": "source/characters/gf_character_cinematic_view.lua",
+      "bytes": 6010,
+      "sha256": "2fdd2de95b245b532018917832a138dcaefa9a149237e666eb87e5506d8f026a"
+    },
+    {
+      "path": "source/assets/gf_ayaka_data.lua",
+      "bytes": 1621194,
+      "sha256": "2de13462b31a78aeb726cb1382feebae87e060c61d468f7a096b70178349fd51"
+    },
+    {
+      "path": "source/assets/gf_art_kamisatoayaka.lua",
+      "bytes": 8443,
+      "sha256": "8e31d3b139acf8b477e48c07de6bfee74000b1cf7f8aca6dad801cc4bf073408"
+    },
+    {
+      "path": "source/characters/gf_ayaka_rules_data.lua",
+      "bytes": 6772,
+      "sha256": "adad562e688d7671b985a0ad5b0dcffb3eeb7bf2599cd40604dfe43e250a975a"
+    },
+    {
+      "path": "source/characters/gf_character_ayaka.lua",
+      "bytes": 3546,
+      "sha256": "ea881eb433565efc1991716a1569b74c4f0a4401c1315adc98006a2ff8fbaacb"
+    },
+    {
+      "path": "source/characters/gf_character_ayaka_rules.lua",
+      "bytes": 1029,
+      "sha256": "18af952c878161af377121d784fa818a55f2dfad045f88ede62586bfb1521f59"
+    },
+    {
+      "path": "source/characters/gf_character_ayaka_view.lua",
+      "bytes": 1743,
+      "sha256": "b3d44b8924efc6602be7b27853b44b8841a29bcd05ec55f2a584b8562293868c"
+    },
+    {
+      "path": "source/characters/gf_character_effect_channel.lua",
+      "bytes": 1100,
+      "sha256": "8acb07e9e8c98b41a39620961b660e10173489ad36e7102f50efdc43311b8799"
+    },
+    {
+      "path": "source/battle/gf_sim_ayaka.lua",
+      "bytes": 4342,
+      "sha256": "ac4a7e91b495272f712bd2f0cf9c1bf6371bd050256ab12e874c11b0b4465bc7"
+    },
+    {
+      "path": "source/characters/gf_selection_art.lua",
+      "bytes": 771,
+      "sha256": "4d3680543986c6cc142e524ed37fec9fe69f56a1ffa4ca8178e7df28075d3afa"
+    },
+    {
+      "path": "source/assets/gf_selection_candidates.lua",
+      "bytes": 45953,
+      "sha256": "fae129332ceaebc882861cac433e0ed81e9164de40644fe4d239e320bee8cdda"
+    },
+    {
+      "path": "source/assets/gf_clorinde_data.lua",
+      "bytes": 1335839,
+      "sha256": "ce3367502bcbd5198ed127c1bd1855efc3ef0f888cdbb99df853126cea468714"
+    },
+    {
+      "path": "source/assets/gf_art_clorinde.lua",
+      "bytes": 11203,
+      "sha256": "1a2b13812ccaba187218882de92c577249ba4b8cd2f54deedbf22154c0bcc1ec"
+    },
+    {
+      "path": "source/characters/gf_clorinde_rules_data.lua",
+      "bytes": 3589,
+      "sha256": "9be3bd26d38b5680604e54c753158a5491f095f2caa526680d3fb9d11954ff35"
+    },
+    {
+      "path": "source/characters/gf_character_clorinde.lua",
+      "bytes": 3479,
+      "sha256": "a268484cbac697d0bd0842f45cada92d64c5d057912db9f4608c75fde4199bd3"
+    },
+    {
+      "path": "source/characters/gf_character_clorinde_rules.lua",
+      "bytes": 941,
+      "sha256": "1211411c48222b2b78d6f54b6a3259b3d15399bfd7e0632a3f2bca25f5fc3b0c"
+    },
+    {
+      "path": "source/characters/gf_character_clorinde_view.lua",
+      "bytes": 4011,
+      "sha256": "9b7689f78a87df32fb87017982edeaa6168d0e7890dcca940f2425b07de7c130"
+    },
+    {
+      "path": "source/battle/gf_sim_clorinde.lua",
+      "bytes": 6825,
+      "sha256": "803269246a00a1c7fa9c51b7bad9c0742f89d5b3e644b849dcd4d292646ae563"
+    },
+    {
+      "path": "source/assets/gf_arlecchino_data.lua",
+      "bytes": 1432273,
+      "sha256": "51368f68cfac4f5c492025785158d99d28dc7b4fa569b94b3f3d3862bce3fae1"
+    },
+    {
+      "path": "source/assets/gf_art_arlecchino.lua",
+      "bytes": 12013,
+      "sha256": "ece3dfe4c5578b304800573aee8c5a29db647d4d46aa30b19a0765e6777d2d00"
+    },
+    {
+      "path": "source/characters/gf_arlecchino_rules_data.lua",
+      "bytes": 3427,
+      "sha256": "bf1e14f6b84e9bbd1c9465cb2e6afad9f105ba231112a4132721b1c5a1aaf4e7"
+    },
+    {
+      "path": "source/characters/gf_character_arlecchino.lua",
+      "bytes": 3855,
+      "sha256": "ad41eb9ecd56ac069ae95b01045b70f16c834d0806e397b5bbf39987e98ef4a0"
+    },
+    {
+      "path": "source/characters/gf_character_arlecchino_rules.lua",
+      "bytes": 958,
+      "sha256": "79bfa27c5ed05dddeafb01e46a85fd45dc382f2af4ffb60753d788e074c9376b"
+    },
+    {
+      "path": "source/characters/gf_character_arlecchino_view.lua",
+      "bytes": 3272,
+      "sha256": "6352eb6b6346802ca500b869011868cb7d307132c3ef0e25d71daf9e6c831cbc"
+    },
+    {
+      "path": "source/battle/gf_sim_arlecchino.lua",
+      "bytes": 4639,
+      "sha256": "3040fdcfab8a306e93a98ee9bff75449b8534f23003cbbc21389df7713cd4c4c"
+    },
+    {
+      "path": "source/battle/gf_sim_team.lua",
+      "bytes": 2016,
+      "sha256": "083c1fc36c5d8326cd104ea0c060c480bf28e7e04fb907a5cf51b45b5fc57926"
+    },
+    {
+      "path": "source/battle/gf_sim_feedback.lua",
+      "bytes": 1770,
+      "sha256": "64839c80ede3e76e67a954d7bd01f1684b1e3175b80ae50bc674c90c48a2578c"
+    },
+    {
+      "path": "source/bootstrap.lua",
+      "bytes": 6503,
+      "sha256": "88605c066ebb684119ce736433a728cf9d77a71c55961663c3066d6feb9fbc8e"
+    }
+  ]
+}

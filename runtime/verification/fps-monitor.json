@@ -1,0 +1,14 @@
+{
+  "mockOnly": true,
+  "fixedStepRates": [
+    60,
+    30,
+    15
+  ],
+  "equalLogicTicks": 180,
+  "equalDamageAndHash": true,
+  "rawCallbackIntervalMeasured": true,
+  "halfSecondClampCounted": true,
+  "productionTextPool": 96,
+  "pauseCommandList": true
+}

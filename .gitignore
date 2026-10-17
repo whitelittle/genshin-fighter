@@ -10,12 +10,16 @@ credentials.json
 node_modules/
 work/video-deps/
 
-# Historical build dumps (multi-GB). Keep the current 1.1 package only.
-outputs/*
-!outputs/release-1.1-20261005_112301/
-outputs/release-1.1-20261005_112301/simulator.save.json
-outputs/release-1.1-20261005_112301/fighter.save.json
-outputs/prefix-rename-backup/
+# Local take-away archive; retained source art, prompts and candidates belong in Git.
+/_takeaway_20261018/
+**/__pycache__/
+*.pyc
+**/node_modules/
+work/optimization-test-deps/
+work/github-review-20261009/.git/
+work/smooth-baseline-20261013/repository/.git/
+work/comment-monitor/data/
+*.log
 
 # Reference videos and local captures
 *.mp4
@@ -29,3 +33,5 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+work/comment-monitor/data/
+work/comment-monitor/__pycache__/

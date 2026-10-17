@@ -1,0 +1,1019 @@
+{
+  "moduleCount": 91,
+  "domains": {
+    "battle": {
+      "files": 18,
+      "bytes": 110208
+    },
+    "app": {
+      "files": 5,
+      "bytes": 12496
+    },
+    "characters": {
+      "files": 18,
+      "bytes": 60462
+    },
+    "render": {
+      "files": 11,
+      "bytes": 123823
+    },
+    "input": {
+      "files": 2,
+      "bytes": 15026
+    },
+    "network": {
+      "files": 3,
+      "bytes": 21270
+    },
+    "menu": {
+      "files": 12,
+      "bytes": 65917
+    },
+    "core": {
+      "files": 1,
+      "bytes": 3251
+    },
+    "assets": {
+      "files": 20,
+      "bytes": 6774026
+    },
+    "modes": {
+      "files": 1,
+      "bytes": 940
+    }
+  },
+  "modules": {
+    "gf_ai": {
+      "path": "source/battle/gf_ai.lua",
+      "lines": 168,
+      "bytes": 6772,
+      "requires": [
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_app_network": {
+      "path": "source/app/gf_app_network.lua",
+      "lines": 25,
+      "bytes": 603,
+      "requires": [
+        "gf_gfx",
+        "gf_online"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_app_transition": {
+      "path": "source/app/gf_app_transition.lua",
+      "lines": 38,
+      "bytes": 1305,
+      "requires": [
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_app_metrics": {
+      "path": "source/app/gf_app_metrics.lua",
+      "lines": 57,
+      "bytes": 3071,
+      "requires": [
+        "gf_gfx",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_app_loading": {
+      "path": "source/app/gf_app_loading.lua",
+      "lines": 52,
+      "bytes": 1889,
+      "requires": [
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_app": {
+      "path": "source/app/gf_app.lua",
+      "lines": 156,
+      "bytes": 5628,
+      "requires": [
+        "gf_app_loading",
+        "gf_app_metrics",
+        "gf_app_network",
+        "gf_app_transition",
+        "gf_audio",
+        "gf_backdrop",
+        "gf_gfx",
+        "gf_input",
+        "gf_ui"
+      ],
+      "dynamicRequire": true
+    },
+    "gf_art": {
+      "path": "source/characters/gf_art.lua",
+      "lines": 205,
+      "bytes": 7413,
+      "requires": [
+        "gf_animation_data",
+        "gf_character_registry",
+        "gf_inbetween_data",
+        "gf_roster",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_audio": {
+      "path": "source/render/gf_audio.lua",
+      "lines": 57,
+      "bytes": 2264,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_backdrop": {
+      "path": "source/render/gf_backdrop.lua",
+      "lines": 82,
+      "bytes": 3148,
+      "requires": [
+        "gf_gfx",
+        "gf_paint",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_bglist": {
+      "path": "source/render/gf_bglist.lua",
+      "lines": 4,
+      "bytes": 176,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_fview": {
+      "path": "source/render/gf_fview.lua",
+      "lines": 579,
+      "bytes": 26869,
+      "requires": [
+        "gf_animation_data",
+        "gf_animation_effects",
+        "gf_aranara_data",
+        "gf_art",
+        "gf_character_registry",
+        "gf_gfx",
+        "gf_inbetween_data",
+        "gf_kits",
+        "gf_util",
+        "gf_viewfinder_data"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_fx": {
+      "path": "source/render/gf_fx.lua",
+      "lines": 257,
+      "bytes": 11479,
+      "requires": [
+        "gf_gfx",
+        "gf_kits",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_gfx": {
+      "path": "source/render/gf_gfx.lua",
+      "lines": 746,
+      "bytes": 24200,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_hud": {
+      "path": "source/render/gf_hud.lua",
+      "lines": 271,
+      "bytes": 12529,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_input": {
+      "path": "source/input/gf_input.lua",
+      "lines": 241,
+      "bytes": 9542,
+      "requires": [
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_kits": {
+      "path": "source/characters/gf_kits.lua",
+      "lines": 23,
+      "bytes": 1114,
+      "requires": [
+        "gf_character_ayaka_rules",
+        "gf_character_furina_rules",
+        "gf_character_rules",
+        "gf_element_rules",
+        "gf_weapon_rules"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_net": {
+      "path": "source/network/gf_net.lua",
+      "lines": 236,
+      "bytes": 7402,
+      "requires": [
+        "gf_sim"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_online": {
+      "path": "source/network/gf_online.lua",
+      "lines": 288,
+      "bytes": 10220,
+      "requires": [
+        "gf_net"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_paint": {
+      "path": "source/render/gf_paint.lua",
+      "lines": 70,
+      "bytes": 2250,
+      "requires": [
+        "gf_bglist",
+        "gf_gfx",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_roster": {
+      "path": "source/characters/gf_roster.lua",
+      "lines": 3,
+      "bytes": 92,
+      "requires": [
+        "gf_character_registry"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_battle_loading": {
+      "path": "source/battle/gf_battle_loading.lua",
+      "lines": 75,
+      "bytes": 2638,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_character_cinematic_view",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_sim",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_battle_input": {
+      "path": "source/battle/gf_battle_input.lua",
+      "lines": 38,
+      "bytes": 1178,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_sim",
+        "gf_stage",
+        "gf_touch",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_battle_events": {
+      "path": "source/battle/gf_battle_events.lua",
+      "lines": 361,
+      "bytes": 15921,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_character_cinematic_view",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_sim",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_battle_pause": {
+      "path": "source/battle/gf_battle_pause.lua",
+      "lines": 124,
+      "bytes": 5757,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_sim",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_battle_network": {
+      "path": "source/battle/gf_battle_network.lua",
+      "lines": 55,
+      "bytes": 1710,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_sim",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_battle_backdrop": {
+      "path": "source/battle/gf_battle_backdrop.lua",
+      "lines": 70,
+      "bytes": 2918,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_character_cinematic_view",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_raiden_eye_r31",
+        "gf_sim",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_fight": {
+      "path": "source/battle/gf_scene_fight.lua",
+      "lines": 363,
+      "bytes": 15593,
+      "requires": [
+        "gf_ai",
+        "gf_art",
+        "gf_battle_backdrop",
+        "gf_battle_events",
+        "gf_battle_input",
+        "gf_battle_loading",
+        "gf_battle_network",
+        "gf_battle_pause",
+        "gf_character_cinematic_view",
+        "gf_fview",
+        "gf_fx",
+        "gf_gfx",
+        "gf_hud",
+        "gf_kits",
+        "gf_online",
+        "gf_sim",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_gallery": {
+      "path": "source/menu/gf_scene_gallery.lua",
+      "lines": 46,
+      "bytes": 1552,
+      "requires": [
+        "gf_gfx",
+        "gf_ui"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_howto": {
+      "path": "source/menu/gf_scene_howto.lua",
+      "lines": 103,
+      "bytes": 4642,
+      "requires": [
+        "gf_gfx",
+        "gf_kits",
+        "gf_paint",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_intro": {
+      "path": "source/menu/gf_scene_intro.lua",
+      "lines": 57,
+      "bytes": 1842,
+      "requires": [
+        "gf_gfx",
+        "gf_paint",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_menu": {
+      "path": "source/menu/gf_scene_menu.lua",
+      "lines": 204,
+      "bytes": 8351,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits",
+        "gf_paint",
+        "gf_show",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_online": {
+      "path": "source/menu/gf_scene_online.lua",
+      "lines": 63,
+      "bytes": 2830,
+      "requires": [
+        "gf_gfx",
+        "gf_online",
+        "gf_ui"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_options": {
+      "path": "source/menu/gf_scene_options.lua",
+      "lines": 98,
+      "bytes": 4832,
+      "requires": [
+        "gf_gfx",
+        "gf_paint",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_result": {
+      "path": "source/menu/gf_scene_result.lua",
+      "lines": 151,
+      "bytes": 7089,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits",
+        "gf_mode_arcade",
+        "gf_paint",
+        "gf_show",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_select": {
+      "path": "source/menu/gf_scene_select.lua",
+      "lines": 415,
+      "bytes": 18223,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits",
+        "gf_mode_arcade",
+        "gf_online",
+        "gf_paint",
+        "gf_show",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_stageview": {
+      "path": "source/menu/gf_scene_stageview.lua",
+      "lines": 27,
+      "bytes": 615,
+      "requires": [
+        "gf_gfx",
+        "gf_stage"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_test": {
+      "path": "source/menu/gf_scene_test.lua",
+      "lines": 45,
+      "bytes": 1375,
+      "requires": [
+        "gf_art",
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_title": {
+      "path": "source/menu/gf_scene_title.lua",
+      "lines": 176,
+      "bytes": 6839,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits",
+        "gf_logo",
+        "gf_paint",
+        "gf_show",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_scene_vs": {
+      "path": "source/menu/gf_scene_vs.lua",
+      "lines": 170,
+      "bytes": 7727,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits",
+        "gf_mode_arcade",
+        "gf_paint",
+        "gf_stage",
+        "gf_ui",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_show": {
+      "path": "source/render/gf_show.lua",
+      "lines": 45,
+      "bytes": 1279,
+      "requires": [
+        "gf_art",
+        "gf_gfx",
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_sim_physics": {
+      "path": "source/battle/gf_sim_physics.lua",
+      "lines": 43,
+      "bytes": 1259,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_sim_flow": {
+      "path": "source/battle/gf_sim_flow.lua",
+      "lines": 81,
+      "bytes": 3308,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_sim_snapshot": {
+      "path": "source/battle/gf_sim_snapshot.lua",
+      "lines": 57,
+      "bytes": 1451,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_sim": {
+      "path": "source/battle/gf_sim.lua",
+      "lines": 273,
+      "bytes": 10447,
+      "requires": [
+        "gf_kits",
+        "gf_sim_actions",
+        "gf_sim_ayaka",
+        "gf_sim_combat",
+        "gf_sim_fighter",
+        "gf_sim_flow",
+        "gf_sim_furina",
+        "gf_sim_physics",
+        "gf_sim_projectiles",
+        "gf_sim_snapshot"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_stage": {
+      "path": "source/render/gf_stage.lua",
+      "lines": 534,
+      "bytes": 26947,
+      "requires": [
+        "gf_gfx",
+        "gf_paint",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_touch": {
+      "path": "source/input/gf_touch.lua",
+      "lines": 121,
+      "bytes": 5484,
+      "requires": [
+        "gf_gfx",
+        "gf_kits",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_transport": {
+      "path": "source/network/gf_transport.lua",
+      "lines": 82,
+      "bytes": 3648,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_ui": {
+      "path": "source/render/gf_ui.lua",
+      "lines": 305,
+      "bytes": 12682,
+      "requires": [
+        "gf_gfx",
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_util": {
+      "path": "source/core/gf_util.lua",
+      "lines": 95,
+      "bytes": 3251,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_animation_data": {
+      "path": "source/assets/gf_animation_data.lua",
+      "lines": 1,
+      "bytes": 1589857,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_animation_effects": {
+      "path": "source/assets/gf_animation_effects.lua",
+      "lines": 1,
+      "bytes": 250936,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_inbetween_data": {
+      "path": "source/assets/gf_inbetween_data.lua",
+      "lines": 1,
+      "bytes": 1585402,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_art_nahida": {
+      "path": "source/assets/gf_art_nahida.lua",
+      "lines": 1,
+      "bytes": 72777,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_art_raidenshogun": {
+      "path": "source/assets/gf_art_raidenshogun.lua",
+      "lines": 1,
+      "bytes": 69239,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_fontaine": {
+      "path": "source/assets/gf_bg_fontaine.lua",
+      "lines": 1,
+      "bytes": 134,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_inazuma": {
+      "path": "source/assets/gf_bg_inazuma.lua",
+      "lines": 1,
+      "bytes": 138,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_liyue": {
+      "path": "source/assets/gf_bg_liyue.lua",
+      "lines": 1,
+      "bytes": 131,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_mondstadt": {
+      "path": "source/assets/gf_bg_mondstadt.lua",
+      "lines": 1,
+      "bytes": 148,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_natlan": {
+      "path": "source/assets/gf_bg_natlan.lua",
+      "lines": 1,
+      "bytes": 133,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_snezhnaya": {
+      "path": "source/assets/gf_bg_snezhnaya.lua",
+      "lines": 1,
+      "bytes": 142,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_bg_sumeru": {
+      "path": "source/assets/gf_bg_sumeru.lua",
+      "lines": 1,
+      "bytes": 133,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_aranara_data": {
+      "path": "source/assets/gf_aranara_data.lua",
+      "lines": 1,
+      "bytes": 51781,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_viewfinder_data": {
+      "path": "source/assets/gf_viewfinder_data.lua",
+      "lines": 1,
+      "bytes": 85631,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_logo": {
+      "path": "source/assets/gf_logo.lua",
+      "lines": 1,
+      "bytes": 20043,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_raiden_eye_r31": {
+      "path": "source/assets/gf_raiden_eye_r31.lua",
+      "lines": 2,
+      "bytes": 40651,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_character_registry": {
+      "path": "source/characters/gf_character_registry.lua",
+      "lines": 20,
+      "bytes": 1181,
+      "requires": [],
+      "dynamicRequire": true
+    },
+    "gf_character_assets": {
+      "path": "source/characters/gf_character_assets.lua",
+      "lines": 46,
+      "bytes": 1754,
+      "requires": [
+        "gf_util"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_character_furina": {
+      "path": "source/characters/gf_character_furina.lua",
+      "lines": 56,
+      "bytes": 2675,
+      "requires": [
+        "gf_character_assets",
+        "gf_character_furina_view",
+        "gf_furina_data"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_furina_data": {
+      "path": "source/assets/gf_furina_data.lua",
+      "lines": 1,
+      "bytes": 1624943,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_art_furina": {
+      "path": "source/assets/gf_art_furina.lua",
+      "lines": 7,
+      "bytes": 12852,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_sim_combat": {
+      "path": "source/battle/gf_sim_combat.lua",
+      "lines": 234,
+      "bytes": 9731,
+      "requires": [
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_sim_projectiles": {
+      "path": "source/battle/gf_sim_projectiles.lua",
+      "lines": 79,
+      "bytes": 3198,
+      "requires": [
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_sim_actions": {
+      "path": "source/battle/gf_sim_actions.lua",
+      "lines": 303,
+      "bytes": 13753,
+      "requires": [
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_sim_fighter": {
+      "path": "source/battle/gf_sim_fighter.lua",
+      "lines": 143,
+      "bytes": 5631,
+      "requires": [
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_weapon_rules": {
+      "path": "source/characters/gf_weapon_rules.lua",
+      "lines": 101,
+      "bytes": 11292,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_character_rules": {
+      "path": "source/characters/gf_character_rules.lua",
+      "lines": 55,
+      "bytes": 5063,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_element_rules": {
+      "path": "source/characters/gf_element_rules.lua",
+      "lines": 33,
+      "bytes": 1403,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_mode_arcade": {
+      "path": "source/modes/gf_mode_arcade.lua",
+      "lines": 27,
+      "bytes": 940,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_furina_rules_data": {
+      "path": "source/characters/gf_furina_rules_data.lua",
+      "lines": 1,
+      "bytes": 5504,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_character_furina_rules": {
+      "path": "source/characters/gf_character_furina_rules.lua",
+      "lines": 18,
+      "bytes": 1003,
+      "requires": [
+        "gf_furina_rules_data"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_sim_furina": {
+      "path": "source/battle/gf_sim_furina.lua",
+      "lines": 100,
+      "bytes": 4722,
+      "requires": [
+        "gf_furina_rules_data",
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_character_furina_view": {
+      "path": "source/characters/gf_character_furina_view.lua",
+      "lines": 103,
+      "bytes": 5061,
+      "requires": [
+        "gf_character_effect_channel",
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_character_cinematic_view": {
+      "path": "source/characters/gf_character_cinematic_view.lua",
+      "lines": 71,
+      "bytes": 3507,
+      "requires": [
+        "gf_character_registry",
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_ayaka_data": {
+      "path": "source/assets/gf_ayaka_data.lua",
+      "lines": 1,
+      "bytes": 1360517,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_art_kamisatoayaka": {
+      "path": "source/assets/gf_art_kamisatoayaka.lua",
+      "lines": 5,
+      "bytes": 8438,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_ayaka_rules_data": {
+      "path": "source/characters/gf_ayaka_rules_data.lua",
+      "lines": 1,
+      "bytes": 6771,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_character_ayaka": {
+      "path": "source/characters/gf_character_ayaka.lua",
+      "lines": 61,
+      "bytes": 2953,
+      "requires": [
+        "gf_ayaka_data",
+        "gf_character_assets",
+        "gf_character_ayaka_view"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_character_ayaka_rules": {
+      "path": "source/characters/gf_character_ayaka_rules.lua",
+      "lines": 18,
+      "bytes": 1011,
+      "requires": [
+        "gf_ayaka_rules_data"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_character_ayaka_view": {
+      "path": "source/characters/gf_character_ayaka_view.lua",
+      "lines": 39,
+      "bytes": 1704,
+      "requires": [
+        "gf_character_effect_channel",
+        "gf_gfx"
+      ],
+      "dynamicRequire": false
+    },
+    "gf_character_effect_channel": {
+      "path": "source/characters/gf_character_effect_channel.lua",
+      "lines": 25,
+      "bytes": 961,
+      "requires": [],
+      "dynamicRequire": false
+    },
+    "gf_sim_ayaka": {
+      "path": "source/battle/gf_sim_ayaka.lua",
+      "lines": 91,
+      "bytes": 4221,
+      "requires": [
+        "gf_ayaka_rules_data",
+        "gf_kits"
+      ],
+      "dynamicRequire": false
+    }
+  },
+  "furinaStorage": {
+    "uniqueBodyFrames": 128,
+    "encodedFramesIncludingAuxiliary": 178,
+    "displayStates": 138,
+    "rectangles": 111071,
+    "rawUint16BytesWithPadding": 1110891,
+    "base64Characters": 1481188,
+    "uniquePalettesInSource": 5,
+    "framesEligibleForUint8": 177,
+    "luaDataFileBytes": 1624943
+  },
+  "scope": "static estimates; no load-time, memory or device-frame-rate claim",
+  "ayakaStorage": {
+    "uniqueBodyFrames": 126,
+    "encodedFramesIncludingAuxiliary": 157,
+    "displayStates": 130,
+    "rectangles": 96092,
+    "rawUint16BytesWithPadding": 961086,
+    "base64Characters": 1281448,
+    "uniquePalettesInSource": 3,
+    "framesEligibleForUint8": 157,
+    "luaDataFileBytes": 1360517
+  }
+}

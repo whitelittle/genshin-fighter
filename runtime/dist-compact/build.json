@@ -1,0 +1,42 @@
+{
+  "profile": "compact-assets-v1",
+  "minified": false,
+  "bytes": 5711176,
+  "sha256": "5b89001d652f49928140d3bea17d825b0ff246de0e88b8519f473c1fdea2ab4b",
+  "modules": {
+    "gf_furina_data": {
+      "frames": 178,
+      "r8": 177,
+      "r16": 1,
+      "rectangles": 111071,
+      "oldDecodedBytes": 1110710,
+      "newDecodedBytes": 557405,
+      "paletteReferences": 178,
+      "payloadReferences": 178,
+      "compressedFrames": 0,
+      "oldModuleBytes": 1624944,
+      "newModuleBytes": 806332,
+      "uniquePalettes": 5,
+      "uniquePayloads": 159
+    },
+    "gf_ayaka_data": {
+      "frames": 157,
+      "r8": 157,
+      "r16": 0,
+      "rectangles": 96092,
+      "oldDecodedBytes": 960920,
+      "newDecodedBytes": 480460,
+      "paletteReferences": 157,
+      "payloadReferences": 157,
+      "compressedFrames": 0,
+      "oldModuleBytes": 1360518,
+      "newModuleBytes": 678550,
+      "uniquePalettes": 3,
+      "uniquePayloads": 157
+    }
+  },
+  "ordinaryBytes": 7211693,
+  "nativeDeviceTested": false,
+  "preparationAtInitialLoading": true,
+  "legacyNumericTablesRetained": true
+}

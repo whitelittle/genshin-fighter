@@ -1,0 +1,82 @@
+{
+  "mockOnly": true,
+  "nativeDeviceTested": false,
+  "exactDecodedRectanglesPalettesAndAllMetadata": true,
+  "independentMutableFrames": true,
+  "frames": 639,
+  "rectangles": 461672,
+  "preparation": {
+    "raidenshogun": {
+      "ordinary": {
+        "prepareSteps": 156,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 5076000,
+        "peakStepInstructions": 36000,
+        "mockSetupMs": 9.94,
+        "mockPrepareMs": 24.56
+      },
+      "compact": {
+        "prepareSteps": 156,
+        "setupInstructions": 17000,
+        "prepareInstructions": 11793000,
+        "peakStepInstructions": 83000,
+        "mockSetupMs": 0.24,
+        "mockPrepareMs": 59.26
+      }
+    },
+    "nahida": {
+      "ordinary": {
+        "prepareSteps": 148,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 4926000,
+        "peakStepInstructions": 36000,
+        "mockSetupMs": 11.19,
+        "mockPrepareMs": 24.58
+      },
+      "compact": {
+        "prepareSteps": 148,
+        "setupInstructions": 17000,
+        "prepareInstructions": 11448000,
+        "peakStepInstructions": 84000,
+        "mockSetupMs": 0.25,
+        "mockPrepareMs": 58.88
+      }
+    },
+    "furina": {
+      "ordinary": {
+        "prepareSteps": 280,
+        "setupInstructions": 37000,
+        "prepareInstructions": 21596000,
+        "peakStepInstructions": 162000,
+        "mockSetupMs": 0.77,
+        "mockPrepareMs": 98.43
+      },
+      "compact": {
+        "prepareSteps": 178,
+        "setupInstructions": 18000,
+        "prepareInstructions": 10850000,
+        "peakStepInstructions": 116000,
+        "mockSetupMs": 0.39,
+        "mockPrepareMs": 47.57
+      }
+    },
+    "kamisatoayaka": {
+      "ordinary": {
+        "prepareSteps": 238,
+        "setupInstructions": 23000,
+        "prepareInstructions": 18684000,
+        "peakStepInstructions": 132000,
+        "mockSetupMs": 0.58,
+        "mockPrepareMs": 83.11
+      },
+      "compact": {
+        "prepareSteps": 157,
+        "setupInstructions": 9000,
+        "prepareInstructions": 9354000,
+        "peakStepInstructions": 101000,
+        "mockSetupMs": 0.24,
+        "mockPrepareMs": 41.78
+      }
+    }
+  }
+}

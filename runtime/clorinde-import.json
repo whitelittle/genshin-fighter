@@ -1,0 +1,1886 @@
+{
+  "key": "clorinde",
+  "groups": 25,
+  "bodyPeak": 969,
+  "sources": [
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-1.png",
+      "sha256": "9188cf9c59b11ce274dc51df28f0688bbf2acbffce66584d59d8c13d2cf84122",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-1.json",
+      "anchor": [
+        43,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light1-0.png",
+      "sha256": "6971a62561a8422fb0dec6c65400884b17c3fe04b60dfa7db52ee174333ffdcb",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light1-0.json",
+      "anchor": [
+        54,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light1-1.png",
+      "sha256": "02796f4734117c4517b0e8b9ffaa9e1b58b41034938208db3a1b9eaaccade204",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light1-1.json",
+      "anchor": [
+        44,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light1-2.png",
+      "sha256": "4c3d86a4e4bd9d4576e8b3fe12d7422c663055e8af6e10d00b07ca5fdea8a7a5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light1-2.json",
+      "anchor": [
+        42,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light1_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light1-3.png",
+      "sha256": "4bef6daec9a1387a6fa7e78708c6fa8378a42f86aa7c2606ceedd114276d8e86",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light1-3.json",
+      "anchor": [
+        36,
+        64
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/walk-0.png",
+      "sha256": "022f44400d9942fe03064300da4bb029012e6a55a9a21f6288b20696296cf8d1",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/walk-0.json",
+      "anchor": [
+        41,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/walk-1.png",
+      "sha256": "a6e629ec193421ddedc93fc3d0ad84c2719ed33c4ec0e11d97cccae4777aff2c",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/walk-1.json",
+      "anchor": [
+        39,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/walk-2.png",
+      "sha256": "5ad541e8a93afe61ae1e75d46b78362563fec1756eff3ce1e169105b4aa375ed",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/walk-2.json",
+      "anchor": [
+        43,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/walk-3.png",
+      "sha256": "d6dc1ba6d1f2c78836f2602e7a952efebbf14a1697bc2332c2d53b9c99c4bf43",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/walk-3.json",
+      "anchor": [
+        37,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/walk-4.png",
+      "sha256": "c6d51c3c5e500e0a70b73be4b8fc7e9ac4982b7fd4aa2cd2945d8ff7d3b7205f",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/walk-4.json",
+      "anchor": [
+        36,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "walk_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/walk-5.png",
+      "sha256": "64dc229b1b899ab33cd8dfdbf77e9bad290fcb5829ab096af38c6b97bbd57e10",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/walk-5.json",
+      "anchor": [
+        47,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backwalk-0.png",
+      "sha256": "aa1a01801c01d4b2ddf08fa0a6eceef1e150f85ea63cdc9da50ff2c8366133fd",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backwalk-0.json",
+      "anchor": [
+        41,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backwalk-1.png",
+      "sha256": "b258ccb51da131d160eafda7b7f2647064e47290731723b316a080f1eff0c86a",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backwalk-1.json",
+      "anchor": [
+        41,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backwalk-2.png",
+      "sha256": "1137523b36c98a8901fd640add22dd3add8fb69d81968304693faa3f1c1cf7c8",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backwalk-2.json",
+      "anchor": [
+        35,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backwalk-3.png",
+      "sha256": "b9ffa535274d189de91ecd68c4e6465b6425923b8ae54938482316f8639cd451",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backwalk-3.json",
+      "anchor": [
+        48,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backwalk-4.png",
+      "sha256": "ccb1575c15c92a801be3bb8c8cdcd47cba7e84be60c926bfac2ce441e8550a27",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backwalk-4.json",
+      "anchor": [
+        38,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "back_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backwalk-5.png",
+      "sha256": "1ad6305c9ffbe547bad5d5c7287a9813b9f119e1a2534260b45a63ac4fa3ccee",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backwalk-5.json",
+      "anchor": [
+        40,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/jump-0.png",
+      "sha256": "f6286016cd667c661174742637b71d68721481ca27f3a71d73529349917035b9",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/jump-0.json",
+      "anchor": [
+        44,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/jump-1.png",
+      "sha256": "715f50e7dfc96227cb5c421753cc96b24379b2ec5ececffd0897a07b38e83238",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/jump-1.json",
+      "anchor": [
+        40,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/jump-2.png",
+      "sha256": "05299d888c808f6f4cd5d3ce2cb81840631051b684c1ceedf7c92f6340133a54",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/jump-2.json",
+      "anchor": [
+        44,
+        84
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/jump-3.png",
+      "sha256": "c2ccf77d51c3dac5d1e7adb6794d8427f0c97de69793f44fbcaec1d7bcd143f5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/jump-3.json",
+      "anchor": [
+        42,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/jump-4.png",
+      "sha256": "22045c8459158344dea07ffd028d256c000c4142dd0a5bb57e8fd120a0aa3743",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/jump-4.json",
+      "anchor": [
+        52,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "jump_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/jump-5.png",
+      "sha256": "54df17d85431b147f2492ef57ba2879ed973957e10ecb9d6c8f29f369258d027",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/jump-5.json",
+      "anchor": [
+        45,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/forwarddash-0.png",
+      "sha256": "d74861b066911ccd01a3b4e946635f31bb1058fd50b3dd1098235ab3d19cdc84",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/forwarddash-0.json",
+      "anchor": [
+        58,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/forwarddash-1.png",
+      "sha256": "7dbb7bdcf44530467ae8e7a3cb976fdb8503d34d62a3f5a3b2e6dfdd4a9ba107",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/forwarddash-1.json",
+      "anchor": [
+        59,
+        67
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/forwarddash-2.png",
+      "sha256": "ac7fee18c64c16daaa10570479b3ab147e97229cf0457e443191d8b685d4001e",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/forwarddash-2.json",
+      "anchor": [
+        46,
+        49
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "dash_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/forwarddash-3.png",
+      "sha256": "5029503b021500f802226bfa656088e617274939adcfa2803c5340fd4dc6e4bf",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/forwarddash-3.json",
+      "anchor": [
+        44,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backdash-0.png",
+      "sha256": "25959964f54177ec0fd696e21a7a1d47cb0c3afd2bab3bd65969f4df84b63c4f",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backdash-0.json",
+      "anchor": [
+        55,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backdash-1.png",
+      "sha256": "9cdfed3dc91a26daa58943028ed9a727f4922f618b90b36259f09be19722f2f8",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backdash-1.json",
+      "anchor": [
+        55,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backdash-2.png",
+      "sha256": "2f2182136e05aabdf301ae43142bf2d664c1084a9720491e0b698a637f663415",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backdash-2.json",
+      "anchor": [
+        49,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "backdash_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/backdash-3.png",
+      "sha256": "f1eac122d947707629570cb4092e6e8fbfbc44c61f47f40f5e39c150451a1326",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/backdash-3.json",
+      "anchor": [
+        53,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouch-0.png",
+      "sha256": "a0b10a10b8581e1d1fd46e6494cbb6c6061595f4eeda7198904c88a68f0d3cde",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouch-0.json",
+      "anchor": [
+        39,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouch-1.png",
+      "sha256": "4ad92056c68ec43776dd9cebb537c8ddd174e5136a0a5920a2f179472baa1f25",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouch-1.json",
+      "anchor": [
+        51,
+        70
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouch-2.png",
+      "sha256": "a1d0e49c9031f38b8ce7fd5a8fff480e1eb0fd07a46bbc9df2d6ace57615f09c",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouch-2.json",
+      "anchor": [
+        50,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouch_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouch-3.png",
+      "sha256": "94bc7fa43875120d935de0c3f1ef6515240ed501f659a96deeefa79486c247e9",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouch-3.json",
+      "anchor": [
+        52,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/standguard-0.png",
+      "sha256": "85ca1758663f5f03572e481a1bbd06fbb7bb84065ea6310b27b0e21eefe8df33",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/standguard-0.json",
+      "anchor": [
+        38,
+        88
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/standguard-1.png",
+      "sha256": "c64cebad83ba47e6abdbf84e01bdf054a5a8bd3e78f51a89b9ff6cf4e7159a35",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/standguard-1.json",
+      "anchor": [
+        39,
+        86
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/standguard-2.png",
+      "sha256": "360890b86160511d03e186e574234b016513694665d8cbb7e909f235a1338d27",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/standguard-2.json",
+      "anchor": [
+        45,
+        75
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "block_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/standguard-3.png",
+      "sha256": "5f684b58308ee943f3673097389c3c26f9de3f93d9007aa1fb50e459de013ef5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/standguard-3.json",
+      "anchor": [
+        38,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchguard-0.png",
+      "sha256": "e16f23247f3522c5fda1c1fbb4b7f04234a83b553b4bb897fc6e4f37dc699c36",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchguard-0.json",
+      "anchor": [
+        51,
+        63
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchguard-1.png",
+      "sha256": "65eece54331972c5fe4b1c00bd47a1584e9b7a47566ac2b56f8547ab6b232570",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchguard-1.json",
+      "anchor": [
+        41,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchguard-2.png",
+      "sha256": "4ff0fb6f29df9abeacb45cc28ff0a735952ce8c8d51b9bec6e8734e857c2ab2b",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchguard-2.json",
+      "anchor": [
+        42,
+        58
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "cblock_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchguard-3.png",
+      "sha256": "93d975c8e27e0c93ff4e7ef9d268d6cc9ca0f1d487add24c8b49a556cb8fe4a0",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchguard-3.json",
+      "anchor": [
+        48,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light2-0.png",
+      "sha256": "d26bf01f54df155270e445534362648d01bd87783f6210654c70db54a5dbbfef",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light2-0.json",
+      "anchor": [
+        47,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light2-1.png",
+      "sha256": "11b27fa6281bc2a3336732dea09b6b1514a7643a0d861cad222d36e9e66c7f85",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light2-1.json",
+      "anchor": [
+        43,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light2-2.png",
+      "sha256": "c612f865c7bcc64c4d126b1fa15ceb707ffb3bd69327df7e27171b28953f1497",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light2-2.json",
+      "anchor": [
+        46,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light2-3.png",
+      "sha256": "bedb9214c26952da11131cf035c22d14ed73f5cff968f495752fb40827bdd5d4",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light2-3.json",
+      "anchor": [
+        47,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light2-4.png",
+      "sha256": "782a866d1d62cb4eb569017d0b2d22070c9be88f532cb3a69072ae3397249a97",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light2-4.json",
+      "anchor": [
+        46,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light2_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light2-5.png",
+      "sha256": "da0ec9880dba1d92d10111d07df167360074c52eff31e76459e2656f696431c2",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light2-5.json",
+      "anchor": [
+        46,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light3-0.png",
+      "sha256": "7e8816583170adfd6f6547ee62ba957f2182c622858afa9c45141a33600ad0ff",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light3-0.json",
+      "anchor": [
+        50,
+        86
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light3-1.png",
+      "sha256": "1c55bb7d3a2c8e18a61f86e8d5ad414f016404a2bf37959015ecfff09090c7d3",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light3-1.json",
+      "anchor": [
+        47,
+        88
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light3-2.png",
+      "sha256": "e188e5ceb9a8bec614b375455f8a6d2864437ff369b966dfba39c030b6b5cacd",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light3-2.json",
+      "anchor": [
+        43,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light3-3.png",
+      "sha256": "59cfa448266a821cd12c2a7ab48df526da90865bed686b9625dc9c542f310479",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light3-3.json",
+      "anchor": [
+        42,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light3-4.png",
+      "sha256": "edb4f3213f0d96bbde91aa4bff7447717600ca8a26bd25e60e80b2db807c83bd",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light3-4.json",
+      "anchor": [
+        43,
+        67
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "light3_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/light3-5.png",
+      "sha256": "778acacaef684d8057aefbd43ec02647e05e389ce8ddebbf966b5ff722445e8b",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/light3-5.json",
+      "anchor": [
+        48,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/heavy-0.png",
+      "sha256": "db6efb8cf23f5b4b1ed14d12984bfea616ca4c4b36b6f33b7fd97d2811545c4c",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/heavy-0.json",
+      "anchor": [
+        44,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/heavy-1.png",
+      "sha256": "266f71ee4ab6f9edbd58fbc25872a458895656a5217b087281c4e313e2d17414",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/heavy-1.json",
+      "anchor": [
+        43,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/heavy-2.png",
+      "sha256": "584aaee416496966c7177883d6307585c246c02127872003f37362a007933b8f",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/heavy-2.json",
+      "anchor": [
+        48,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/heavy-3.png",
+      "sha256": "506d8839ac97437cba87548ce46f93486010d6abe1bf13447cc797ef0ecad71d",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/heavy-3.json",
+      "anchor": [
+        50,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/heavy-4.png",
+      "sha256": "c11a61714e5d303446be20b874e1dc8707778fdb488701f00d5220e385c57c86",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/heavy-4.json",
+      "anchor": [
+        46,
+        83
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "heavy_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/heavy-5.png",
+      "sha256": "1aeb3d8b278c693bf268a938718d94f6c713fb46ae8dc1c3fa69d51ad543003d",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/heavy-5.json",
+      "anchor": [
+        46,
+        83
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchlight-0.png",
+      "sha256": "c03944c3524d4c2c063e25f58091362e53be4bfebee07254a808a37bb8098403",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchlight-0.json",
+      "anchor": [
+        51,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchlight-1.png",
+      "sha256": "7abab7f43c779fa93f13eb4ed8c5585763876d9d5b44ebc6fc18b20735241b1f",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchlight-1.json",
+      "anchor": [
+        33,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchlight-2.png",
+      "sha256": "0b880b657ee48ae3d2ff38695f63a8d9723825ea45aae03b2ff5d52d0b7c0a93",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchlight-2.json",
+      "anchor": [
+        34,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchlight-3.png",
+      "sha256": "74b71186a82b9cc61c1157408e4588536fc83760b761cb83f3c0ed4a98354b30",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchlight-3.json",
+      "anchor": [
+        35,
+        63
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchlight-4.png",
+      "sha256": "19bcdb51993ca3ddc9a2ea2f9bf18cbf3ab93de0bc1ad624dafe375cf0fd46ea",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchlight-4.json",
+      "anchor": [
+        51,
+        66
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchLight_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchlight-5.png",
+      "sha256": "731c78c0d165027c9f82ac6e4ac24d2e0f1d3c4ce3ce041e8cdeaeb30936f1aa",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchlight-5.json",
+      "anchor": [
+        48,
+        67
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchheavy-0.png",
+      "sha256": "480bbc751c12ad368a62f3d3d90ad95b1661d3a5396a9f4ca5a7f34e6baa539d",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchheavy-0.json",
+      "anchor": [
+        44,
+        57
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchheavy-1.png",
+      "sha256": "a98ea700a28bd9a75482e44d7830bca6dc1332c2381f82b204e1fd93cae72b97",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchheavy-1.json",
+      "anchor": [
+        44,
+        62
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchheavy-2.png",
+      "sha256": "f31c6d72c41c2aa5b974f3ae85c668cb7ee496cfde6850625d11198989e7f0e2",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchheavy-2.json",
+      "anchor": [
+        35,
+        61
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchheavy-3.png",
+      "sha256": "1f3912ea3c2a7270395d6ce18f0e5b7df90d899e14f093d56ceeb0d7319865ea",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchheavy-3.json",
+      "anchor": [
+        36,
+        55
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchheavy-4.png",
+      "sha256": "e22246435ec9b9175f54fb45f09b96983c986284e2d5d2c4b47e2c0cd98e13a6",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchheavy-4.json",
+      "anchor": [
+        49,
+        60
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "crouchHeavy_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/crouchheavy-5.png",
+      "sha256": "540818f14ce652163ca75c44586d0172ab1f6a15fe75d97a06196c8aace636b3",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/crouchheavy-5.json",
+      "anchor": [
+        47,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airlight-0.png",
+      "sha256": "9aed5ef65d6c8935b1706f487e8ba11a5fc26c6618a5a154e104d3fbf25703a6",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airlight-0.json",
+      "anchor": [
+        45,
+        84
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airlight-1.png",
+      "sha256": "440016601c8d40e6ea2eff783753b768075268a3e6f5fb9e252cc5564136b303",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airlight-1.json",
+      "anchor": [
+        42,
+        86
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airlight-2.png",
+      "sha256": "57f841a879b366e33fd246e474b9c2e0a8e30a90aafe0985d3052d1f42c67cd7",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airlight-2.json",
+      "anchor": [
+        42,
+        84
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airlight-3.png",
+      "sha256": "53750de5a4af15c1a0dfac4aeddc12503da5af9b896076cbf5e861bb5ad596a6",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airlight-3.json",
+      "anchor": [
+        46,
+        85
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airlight-4.png",
+      "sha256": "30e4c5e6db09a83f2ad1bfed89e6d6c8f048f7526fe6d8974833ea5e758eba40",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airlight-4.json",
+      "anchor": [
+        47,
+        86
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airLight_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airlight-5.png",
+      "sha256": "721688591b600bb551d71b2dd80bd67a3b097a7e8c1ef5beadb7a3f42038d02d",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airlight-5.json",
+      "anchor": [
+        45,
+        88
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airheavy-0.png",
+      "sha256": "3f1d51d4d4015fa96e3ace7935582ef20525fa8d8f69e020232face29447bfee",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airheavy-0.json",
+      "anchor": [
+        42,
+        84
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airheavy-1.png",
+      "sha256": "d31214d5c04063d5d9259e6a3716d21fbb4b2bd7d53b975d6d2cb01191bf4694",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airheavy-1.json",
+      "anchor": [
+        39,
+        86
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airheavy-2.png",
+      "sha256": "b72137b6b21712a8045de78b5a7d691584479f1a228e27d90d26589c682264aa",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airheavy-2.json",
+      "anchor": [
+        38,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airheavy-3.png",
+      "sha256": "f9e4df19a16c7c19ccbf550459ac19c7e3fb07c74d9a77b8e9a3d0c4b2697904",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airheavy-3.json",
+      "anchor": [
+        39,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airheavy-4.png",
+      "sha256": "73e184182c47fa6fababfdd18b8568bb34a6eb5ed18bfef129e5dbd47f2636fc",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airheavy-4.json",
+      "anchor": [
+        37,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "airHeavy_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/airheavy-5.png",
+      "sha256": "5b041de6bc5e5115a8cc8985b3d4e0023e5233823d03519ce5197b46f70df0b0",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/airheavy-5.json",
+      "anchor": [
+        56,
+        74
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/E-0.png",
+      "sha256": "5e8be025eb9e799c12707bd0c62e149fb688adc1ddfad13ba12c4a04250d1298",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/E-0.json",
+      "anchor": [
+        51,
+        88
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/E-1.png",
+      "sha256": "d276d938a46063fa256a7d332d483601c493c62e10b3b20174824368e8c73276",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/E-1.json",
+      "anchor": [
+        48,
+        87
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/E-2.png",
+      "sha256": "51dbb069603086c01e46f57b0b9da773f3ef19a55fa19b07e695ed7c15e13f69",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/E-2.json",
+      "anchor": [
+        51,
+        88
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/E-3.png",
+      "sha256": "6f46f241868669aeba5409b06bd65f60de0f8db9ebbafba782ba8462785aa00a",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/E-3.json",
+      "anchor": [
+        50,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/E-4.png",
+      "sha256": "e8466c764d2aa288a6658471780836c6ebfedfc69dade5739428eea59312539f",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/E-4.json",
+      "anchor": [
+        45,
+        68
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "skill_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/E-5.png",
+      "sha256": "5358a629e7cd16de1619fb207569deaa9ff673499773585a7b56ef98070e6e52",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/E-5.json",
+      "anchor": [
+        41,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-0.png",
+      "sha256": "4a97d47ef36ed913b4f38a9c8f9786c2971e56f9e71ea7814affd2c0e735735c",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-0.json",
+      "anchor": [
+        43,
+        85
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-1.png",
+      "sha256": "86f1d788be1fdcf085d4ee6ee70e5a9c777396e989b60fd2f5ff77c68fe3decd",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-1.json",
+      "anchor": [
+        51,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-1.png",
+      "sha256": "86f1d788be1fdcf085d4ee6ee70e5a9c777396e989b60fd2f5ff77c68fe3decd",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-1.json",
+      "anchor": [
+        51,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-2.png",
+      "sha256": "84554497b789fcb12a73bcd4700ce9753522dcedfc6cd7f33d4d58b1b3670229",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-2.json",
+      "anchor": [
+        41,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-3.png",
+      "sha256": "65de5a92257df5e8c652c27507f90f5d977433a389e1f7e6b07105487ec3dba8",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-3.json",
+      "anchor": [
+        37,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-3.png",
+      "sha256": "65de5a92257df5e8c652c27507f90f5d977433a389e1f7e6b07105487ec3dba8",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-3.json",
+      "anchor": [
+        37,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_6",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-4.png",
+      "sha256": "ceabbc183db1d99e468adede76d9b69900bf8a783a0158f7978c45cad5ba3eae",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-4.json",
+      "anchor": [
+        35,
+        80
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-2.png",
+      "sha256": "84554497b789fcb12a73bcd4700ce9753522dcedfc6cd7f33d4d58b1b3670229",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-2.json",
+      "anchor": [
+        41,
+        73
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "burst_8",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/Q-5.png",
+      "sha256": "fa5dc98b6f579864312901accaa4c818956d351b1eab836e4c0effff9549326e",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/Q-5.json",
+      "anchor": [
+        44,
+        85
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.png",
+      "sha256": "38de882537811a244f846f5c7d3ca798e195a6420aea13880a246ecbf3945808",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.json",
+      "anchor": [
+        43,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.png",
+      "sha256": "38de882537811a244f846f5c7d3ca798e195a6420aea13880a246ecbf3945808",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.json",
+      "anchor": [
+        43,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-2.png",
+      "sha256": "7f1779028245af9ae8e0b7f8b4f0b1aba56ebed2f1106cad071c92809763bc2b",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-2.json",
+      "anchor": [
+        45,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-3.png",
+      "sha256": "f448b6e0f172db7c9e58de46de2c22be8777a1558e2ae29dfab6ec7e53f20f30",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-3.json",
+      "anchor": [
+        41,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.png",
+      "sha256": "38de882537811a244f846f5c7d3ca798e195a6420aea13880a246ecbf3945808",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.json",
+      "anchor": [
+        43,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.png",
+      "sha256": "38de882537811a244f846f5c7d3ca798e195a6420aea13880a246ecbf3945808",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-1.json",
+      "anchor": [
+        43,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-2.png",
+      "sha256": "7f1779028245af9ae8e0b7f8b4f0b1aba56ebed2f1106cad071c92809763bc2b",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-2.json",
+      "anchor": [
+        45,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-3.png",
+      "sha256": "f448b6e0f172db7c9e58de46de2c22be8777a1558e2ae29dfab6ec7e53f20f30",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-3.json",
+      "anchor": [
+        41,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_nahida_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-low-v3-1.png",
+      "sha256": "d389bf3802428a28113bbc8a306c3333849a10a603dfab8b974216270df466a6",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-low-v3-1.json",
+      "anchor": [
+        51,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_nahida_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-low-v3-1.png",
+      "sha256": "d389bf3802428a28113bbc8a306c3333849a10a603dfab8b974216270df466a6",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-low-v3-1.json",
+      "anchor": [
+        51,
+        77
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_nahida_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-low-v3-2.png",
+      "sha256": "63bd3c5d63931c8d43dfad6e731d2d4c9b2c1db73e8e542c16f23cbea8b7d94c",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-low-v3-2.json",
+      "anchor": [
+        50,
+        78
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "throw_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-3.png",
+      "sha256": "f448b6e0f172db7c9e58de46de2c22be8777a1558e2ae29dfab6ec7e53f20f30",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/throw-clinch-adult-v3-3.json",
+      "anchor": [
+        41,
+        76
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-0.png",
+      "sha256": "053d8f01a2d0ecd4e7e37162e22ffcc0554a073863017a0fcd90b7a534d74fca",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-0.json",
+      "anchor": [
+        41,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-1.png",
+      "sha256": "d710f0f4f4a8b5a028411f594fe96eaee9127d54c1fd79d95527065a9d157ff0",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-1.json",
+      "anchor": [
+        46,
+        80
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-2.png",
+      "sha256": "3b9ecee3768515032f26b7547c66396646bada1f20c1ee70c8750f897819a126",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-2.json",
+      "anchor": [
+        54,
+        50
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-3.png",
+      "sha256": "76ec0ac2d113847bb9a62c9e36c1e277e17a6f87ea857ebd5766646c21297f55",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victim-direction-v2-3.json",
+      "anchor": [
+        52,
+        43
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-3.png",
+      "sha256": "608de23b19002c566f3a7654d9314415883508a727548099eb82ed1372885015",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-3.json",
+      "anchor": [
+        44,
+        32
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-0.png",
+      "sha256": "8df1b82799c3f9a9be439b719430bc5998a70e46a4254bd7029efb274d1ffe6b",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-0.json",
+      "anchor": [
+        46,
+        32
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-0.png",
+      "sha256": "4d3574b2a6b41cc6ece89e8872bad90a6159f9d0c07402dfb003144f983f2dfe",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-0.json",
+      "anchor": [
+        38,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-1.png",
+      "sha256": "e4c538c710bcce534ae2f013f75bffffb9a020d1cc29e06a5194e14375aed197",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-1.json",
+      "anchor": [
+        42,
+        72
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "hurt_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-2.png",
+      "sha256": "23f895a712eefae428411bc8a1b50d721014e774dc75d77969e2739d118575c6",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-2.json",
+      "anchor": [
+        44,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-3.png",
+      "sha256": "608de23b19002c566f3a7654d9314415883508a727548099eb82ed1372885015",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-3.json",
+      "anchor": [
+        44,
+        32
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-3.png",
+      "sha256": "608de23b19002c566f3a7654d9314415883508a727548099eb82ed1372885015",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/knockdown-direction-v2-3.json",
+      "anchor": [
+        44,
+        32
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "thrown_5",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-0.png",
+      "sha256": "8df1b82799c3f9a9be439b719430bc5998a70e46a4254bd7029efb274d1ffe6b",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-0.json",
+      "anchor": [
+        46,
+        32
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "getup_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-1.png",
+      "sha256": "ba7284996601c7b4fd70c26fabbe8d99d9cc340f0ef7e9f2a00031c5270b1913",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-1.json",
+      "anchor": [
+        37,
+        48
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "getup_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-2.png",
+      "sha256": "145e6f780d04911d88328806c104665775a82fa44e70819ab2b35618c8c12f84",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/wakeup-direction-v2-2.json",
+      "anchor": [
+        41,
+        79
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victory-0.png",
+      "sha256": "5e5d37851327e107cd01bed4507c1d14952d5604ebb5dad912d6c593598da218",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victory-0.json",
+      "anchor": [
+        40,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victory-1.png",
+      "sha256": "ff70c3752d0fcd1f235d51dbe46fc779eaa3411977f81b5b316f02081225107c",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victory-1.json",
+      "anchor": [
+        41,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victory-2.png",
+      "sha256": "6dbd08d59fa8c2620f8ad9948e41d95cbf86eab624c9a3ad9572ea0a4c354f94",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victory-2.json",
+      "anchor": [
+        39,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "win_4",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/victory-3.png",
+      "sha256": "2a68e34418314ff641b2fe6494185a60e2c36f44895ef1a4dadadd61e62dd4de",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/victory-3.json",
+      "anchor": [
+        38,
+        81
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "idle_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/idle-0.png",
+      "sha256": "74858111bf53da0b0fbd2414ac6e152565f43b536580d0d77acc659658731ac5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/idle-0.json",
+      "anchor": [
+        42,
+        82
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_0",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/defeat-0.png",
+      "sha256": "b0b9f69642ab78c5f7a4638400ac2b572aab5bb56632255494c2543f80af1d46",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/defeat-0.json",
+      "anchor": [
+        39,
+        84
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_1",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/defeat-1.png",
+      "sha256": "88eb8bd6f84f731f70dd559f51e30a6488499f02dc132c89a3f8bc26a28a8cc3",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/defeat-1.json",
+      "anchor": [
+        42,
+        65
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_2",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/defeat-2.png",
+      "sha256": "09b3df5d30360f60822079682eccff2820afc351b7dd520c3ca82cd4eb8c4297",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/defeat-2.json",
+      "anchor": [
+        43,
+        58
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "lose_3",
+      "kind": "body",
+      "file": "outputs/clorinde-actions-20261011/fit/defeat-3.png",
+      "sha256": "e3104099df4d4faa0298dc091f4205c6bacbb9cd82ed883c18d1ee061abd02bb",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/defeat-3.json",
+      "anchor": [
+        52,
+        59
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_gun",
+      "kind": "effect",
+      "file": "outputs/clorinde-actions-20261011/fit/fx-gun.png",
+      "sha256": "3e9fe1f0409046d81eed719c652523231789952d15095c1de03609ece30fdd75",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/fx-gun.json",
+      "anchor": [
+        2,
+        14
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_bullet",
+      "kind": "effect",
+      "file": "outputs/clorinde-actions-20261011/fit/fx-bullet.png",
+      "sha256": "cc8a7a723e7832d3102dcb347b6676104c97fafd224868704030336cfabb1ff1",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/fx-bullet.json",
+      "anchor": [
+        2,
+        8
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_impact",
+      "kind": "effect",
+      "file": "outputs/clorinde-actions-20261011/fit/fx-impact.png",
+      "sha256": "130affa5cc1ed6423685e5b4c412d0284176ef40cb5c50c05b139a71f7a985b5",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/fx-impact.json",
+      "anchor": [
+        2,
+        18
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_sword",
+      "kind": "effect",
+      "file": "outputs/clorinde-actions-20261011/fit/fx-sword.png",
+      "sha256": "a9cf99859a2d0a0350de480ecf77cf8767e72c6a33da5d3a3ef2b202449da11e",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/fx-sword.json",
+      "anchor": [
+        2,
+        9
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_diagonal",
+      "kind": "effect",
+      "file": "outputs/clorinde-actions-20261011/fit/fx-diagonal.png",
+      "sha256": "9bf68128d0bad6a31d6e40ca72c6570faa453898294c0e009ac05ec50505d978",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/fx-diagonal.json",
+      "anchor": [
+        2,
+        15
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "fx_down",
+      "kind": "effect",
+      "file": "outputs/clorinde-actions-20261011/fit/fx-down.png",
+      "sha256": "18c6f681ee0d68ef837307b34c6a9f31d42432cb8e0d52b6c32056e7249fb53d",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/fx-down.json",
+      "anchor": [
+        2,
+        14
+      ],
+      "scale": 4.5
+    },
+    {
+      "pose": "ultimatePortrait",
+      "kind": "portrait",
+      "file": "outputs/clorinde-actions-20261011/fit/portrait.png",
+      "sha256": "71fa54e1fcd84d8e5152c2562d31270299541540a271f8e53833f56774257432",
+      "rectsFile": "outputs/clorinde-actions-20261011/fit/portrait.json",
+      "anchor": [
+        24,
+        24
+      ],
+      "scale": 4.5
+    }
+  ],
+  "nativeTested": false,
+  "runtimeAdaptations": [
+    "existing weapon boxes pending fine tuning",
+    "independent delivered body clock",
+    "Q confirm 6/full162/miss24",
+    "throw release32/finish50"
+  ]
+}

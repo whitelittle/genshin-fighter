@@ -1,0 +1,67 @@
+{
+  "mockOnly": true,
+  "canonicalPage": "size-review.html",
+  "mobileLandscape": true,
+  "checks": [
+    {
+      "state": "skill",
+      "tick": 18,
+      "image": "verification/furina-mobile-skill-18.png",
+      "stats": {
+        "controls": 14186,
+        "active": 3307,
+        "visibleImages": 3284,
+        "visibleTexts": 14,
+        "glyphs": 39
+      }
+    },
+    {
+      "state": "burst",
+      "tick": 24,
+      "image": "verification/furina-mobile-burst-24.png",
+      "stats": {
+        "controls": 14186,
+        "active": 3866,
+        "visibleImages": 3841,
+        "visibleTexts": 16,
+        "glyphs": 46
+      }
+    },
+    {
+      "state": "burst",
+      "tick": 78,
+      "image": "verification/furina-mobile-burst-78.png",
+      "stats": {
+        "controls": 14186,
+        "active": 3109,
+        "visibleImages": 3086,
+        "visibleTexts": 14,
+        "glyphs": 39
+      }
+    },
+    {
+      "state": "throw",
+      "tick": 30,
+      "image": "verification/furina-mobile-throw-30.png",
+      "stats": {
+        "controls": 14186,
+        "active": 2726,
+        "visibleImages": 2703,
+        "visibleTexts": 14,
+        "glyphs": 39
+      }
+    },
+    {
+      "state": "idle",
+      "tick": 0,
+      "image": "verification/furina-mobile-idle-0.png",
+      "stats": {
+        "controls": 14186,
+        "active": 2420,
+        "visibleImages": 2397,
+        "visibleTexts": 14,
+        "glyphs": 39
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "mockOnly": true,
+  "canonicalPage": "ayaka-armed-v2/index.html",
+  "mobileLandscape": true,
+  "checks": [
+    {
+      "state": "skill",
+      "tick": 14,
+      "image": "verification/ayaka-mobile-skill-14.png",
+      "stats": {
+        "controls": 14186,
+        "active": 2662,
+        "visibleImages": 2639,
+        "visibleTexts": 14,
+        "glyphs": 38
+      }
+    },
+    {
+      "state": "burst",
+      "tick": 24,
+      "image": "verification/ayaka-mobile-burst-24.png",
+      "stats": {
+        "controls": 14186,
+        "active": 2888,
+        "visibleImages": 2863,
+        "visibleTexts": 16,
+        "glyphs": 48
+      }
+    },
+    {
+      "state": "burst",
+      "tick": 94,
+      "image": "verification/ayaka-mobile-burst-94.png",
+      "stats": {
+        "controls": 14186,
+        "active": 3146,
+        "visibleImages": 3123,
+        "visibleTexts": 14,
+        "glyphs": 38
+      }
+    },
+    {
+      "state": "throw",
+      "tick": 28,
+      "image": "verification/ayaka-mobile-throw-28.png",
+      "stats": {
+        "controls": 14186,
+        "active": 1915,
+        "visibleImages": 1892,
+        "visibleTexts": 14,
+        "glyphs": 38
+      }
+    },
+    {
+      "state": "idle",
+      "tick": 0,
+      "image": "verification/ayaka-mobile-idle-0.png",
+      "stats": {
+        "controls": 14186,
+        "active": 2155,
+        "visibleImages": 2132,
+        "visibleTexts": 14,
+        "glyphs": 38
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "mockOnly": true,
+  "checks": [
+    {
+      "key": "furina",
+      "state": "skill",
+      "tick": 18,
+      "changedPixels": 0
+    },
+    {
+      "key": "furina",
+      "state": "burst",
+      "tick": 24,
+      "changedPixels": 0
+    },
+    {
+      "key": "furina",
+      "state": "burst",
+      "tick": 94,
+      "changedPixels": 0
+    },
+    {
+      "key": "furina",
+      "state": "frozen",
+      "tick": 0,
+      "changedPixels": 0
+    },
+    {
+      "key": "kamisatoayaka",
+      "state": "skill",
+      "tick": 18,
+      "changedPixels": 0
+    },
+    {
+      "key": "kamisatoayaka",
+      "state": "burst",
+      "tick": 24,
+      "changedPixels": 0
+    },
+    {
+      "key": "kamisatoayaka",
+      "state": "burst",
+      "tick": 94,
+      "changedPixels": 0
+    },
+    {
+      "key": "kamisatoayaka",
+      "state": "frozen",
+      "tick": 0,
+      "changedPixels": 0
+    }
+  ]
+}

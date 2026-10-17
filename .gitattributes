@@ -1,0 +1,10 @@
+# Preserve exact bytes for generated candidate identity and editable source bundles.
+outputs/** -text
+runtime/** -text
+work/v4-handoff-20261009-partial/** -text
+*.png binary
+*.jpg binary
+*.gif binary
+*.gia binary
+*.zip binary
+*.part binary

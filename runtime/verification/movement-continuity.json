@@ -1,0 +1,1096 @@
+[
+  {
+    "key": "raidenshogun",
+    "poses": [
+      "idle_1",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7"
+    ],
+    "colorRuns": {
+      "idle_1": 777,
+      "basic_2": 793,
+      "basic_3": 807,
+      "basic_4": 810,
+      "basic_5": 790,
+      "basic_6": 833,
+      "basic_7": 814
+    },
+    "transitions": [
+      {
+        "from": "idle_1",
+        "to": "basic_2",
+        "sourceRects": 821,
+        "targetRects": 842,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 842,
+        "targetRects": 863,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 863,
+        "targetRects": 865,
+        "exactGeometryColorMatches": 21,
+        "sameIndex": 4
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 865,
+        "targetRects": 838,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 838,
+        "targetRects": 896,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 896,
+        "targetRects": 870,
+        "exactGeometryColorMatches": 34,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 870,
+        "targetRects": 842,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 842,
+        "targetRects": 863,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 863,
+        "targetRects": 865,
+        "exactGeometryColorMatches": 21,
+        "sameIndex": 4
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 865,
+        "targetRects": 838,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 838,
+        "targetRects": 896,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 896,
+        "targetRects": 870,
+        "exactGeometryColorMatches": 34,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 870,
+        "targetRects": 842,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 842,
+        "targetRects": 863,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 863,
+        "targetRects": 865,
+        "exactGeometryColorMatches": 21,
+        "sameIndex": 4
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 865,
+        "targetRects": 838,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 838,
+        "targetRects": 896,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 896,
+        "targetRects": 870,
+        "exactGeometryColorMatches": 34,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 870,
+        "targetRects": 842,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 842,
+        "targetRects": 863,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 863,
+        "targetRects": 865,
+        "exactGeometryColorMatches": 21,
+        "sameIndex": 4
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 865,
+        "targetRects": 838,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 838,
+        "targetRects": 896,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 896,
+        "targetRects": 870,
+        "exactGeometryColorMatches": 34,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 870,
+        "targetRects": 842,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 842,
+        "targetRects": 863,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 863,
+        "targetRects": 865,
+        "exactGeometryColorMatches": 21,
+        "sameIndex": 4
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 865,
+        "targetRects": 838,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 838,
+        "targetRects": 896,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 896,
+        "targetRects": 870,
+        "exactGeometryColorMatches": 34,
+        "sameIndex": 0
+      }
+    ]
+  },
+  {
+    "key": "nahida",
+    "poses": [
+      "basic_0",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7",
+      "basic_2",
+      "basic_3",
+      "basic_4",
+      "basic_5",
+      "basic_6",
+      "basic_7"
+    ],
+    "colorRuns": {
+      "basic_0": 803,
+      "basic_2": 784,
+      "basic_3": 830,
+      "basic_4": 841,
+      "basic_5": 817,
+      "basic_6": 842,
+      "basic_7": 808
+    },
+    "transitions": [
+      {
+        "from": "basic_0",
+        "to": "basic_2",
+        "sourceRects": 852,
+        "targetRects": 844,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 844,
+        "targetRects": 890,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 890,
+        "targetRects": 913,
+        "exactGeometryColorMatches": 22,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 913,
+        "targetRects": 878,
+        "exactGeometryColorMatches": 27,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 878,
+        "targetRects": 920,
+        "exactGeometryColorMatches": 41,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 920,
+        "targetRects": 872,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 872,
+        "targetRects": 844,
+        "exactGeometryColorMatches": 13,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 844,
+        "targetRects": 890,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 890,
+        "targetRects": 913,
+        "exactGeometryColorMatches": 22,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 913,
+        "targetRects": 878,
+        "exactGeometryColorMatches": 27,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 878,
+        "targetRects": 920,
+        "exactGeometryColorMatches": 41,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 920,
+        "targetRects": 872,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 872,
+        "targetRects": 844,
+        "exactGeometryColorMatches": 13,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 844,
+        "targetRects": 890,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 890,
+        "targetRects": 913,
+        "exactGeometryColorMatches": 22,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 913,
+        "targetRects": 878,
+        "exactGeometryColorMatches": 27,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 878,
+        "targetRects": 920,
+        "exactGeometryColorMatches": 41,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 920,
+        "targetRects": 872,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 872,
+        "targetRects": 844,
+        "exactGeometryColorMatches": 13,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 844,
+        "targetRects": 890,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 890,
+        "targetRects": 913,
+        "exactGeometryColorMatches": 22,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 913,
+        "targetRects": 878,
+        "exactGeometryColorMatches": 27,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 878,
+        "targetRects": 920,
+        "exactGeometryColorMatches": 41,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 920,
+        "targetRects": 872,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_7",
+        "to": "basic_2",
+        "sourceRects": 872,
+        "targetRects": 844,
+        "exactGeometryColorMatches": 13,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_2",
+        "to": "basic_3",
+        "sourceRects": 844,
+        "targetRects": 890,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_3",
+        "to": "basic_4",
+        "sourceRects": 890,
+        "targetRects": 913,
+        "exactGeometryColorMatches": 22,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_4",
+        "to": "basic_5",
+        "sourceRects": 913,
+        "targetRects": 878,
+        "exactGeometryColorMatches": 27,
+        "sameIndex": 1
+      },
+      {
+        "from": "basic_5",
+        "to": "basic_6",
+        "sourceRects": 878,
+        "targetRects": 920,
+        "exactGeometryColorMatches": 41,
+        "sameIndex": 0
+      },
+      {
+        "from": "basic_6",
+        "to": "basic_7",
+        "sourceRects": 920,
+        "targetRects": 872,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      }
+    ]
+  },
+  {
+    "key": "furina",
+    "poses": [
+      "idle_1",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5"
+    ],
+    "colorRuns": {
+      "idle_1": 19,
+      "walk_0": 19,
+      "walk_1": 19,
+      "walk_2": 19,
+      "walk_3": 19,
+      "walk_4": 19,
+      "walk_5": 19
+    },
+    "transitions": [
+      {
+        "from": "idle_1",
+        "to": "walk_0",
+        "sourceRects": 763,
+        "targetRects": 732,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 732,
+        "targetRects": 642,
+        "exactGeometryColorMatches": 8,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 642,
+        "targetRects": 677,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 677,
+        "targetRects": 743,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 743,
+        "targetRects": 612,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 612,
+        "targetRects": 718,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 718,
+        "targetRects": 732,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 732,
+        "targetRects": 642,
+        "exactGeometryColorMatches": 8,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 642,
+        "targetRects": 677,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 677,
+        "targetRects": 743,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 743,
+        "targetRects": 612,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 612,
+        "targetRects": 718,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 718,
+        "targetRects": 732,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 732,
+        "targetRects": 642,
+        "exactGeometryColorMatches": 8,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 642,
+        "targetRects": 677,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 677,
+        "targetRects": 743,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 743,
+        "targetRects": 612,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 612,
+        "targetRects": 718,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 718,
+        "targetRects": 732,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 732,
+        "targetRects": 642,
+        "exactGeometryColorMatches": 8,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 642,
+        "targetRects": 677,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 677,
+        "targetRects": 743,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 743,
+        "targetRects": 612,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 612,
+        "targetRects": 718,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 718,
+        "targetRects": 732,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 732,
+        "targetRects": 642,
+        "exactGeometryColorMatches": 8,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 642,
+        "targetRects": 677,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 677,
+        "targetRects": 743,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 743,
+        "targetRects": 612,
+        "exactGeometryColorMatches": 3,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 612,
+        "targetRects": 718,
+        "exactGeometryColorMatches": 2,
+        "sameIndex": 0
+      }
+    ]
+  },
+  {
+    "key": "kamisatoayaka",
+    "poses": [
+      "idle_0",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5",
+      "walk_0",
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4",
+      "walk_5"
+    ],
+    "colorRuns": {
+      "idle_0": 20,
+      "walk_0": 20,
+      "walk_1": 20,
+      "walk_2": 20,
+      "walk_3": 20,
+      "walk_4": 20,
+      "walk_5": 20
+    },
+    "transitions": [
+      {
+        "from": "idle_0",
+        "to": "walk_0",
+        "sourceRects": 566,
+        "targetRects": 615,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 615,
+        "targetRects": 561,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 561,
+        "targetRects": 690,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 690,
+        "targetRects": 630,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 630,
+        "targetRects": 521,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 521,
+        "targetRects": 541,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 541,
+        "targetRects": 615,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 615,
+        "targetRects": 561,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 561,
+        "targetRects": 690,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 690,
+        "targetRects": 630,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 630,
+        "targetRects": 521,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 521,
+        "targetRects": 541,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 541,
+        "targetRects": 615,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 615,
+        "targetRects": 561,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 561,
+        "targetRects": 690,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 690,
+        "targetRects": 630,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 630,
+        "targetRects": 521,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 521,
+        "targetRects": 541,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_5",
+        "to": "walk_0",
+        "sourceRects": 541,
+        "targetRects": 615,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_0",
+        "to": "walk_1",
+        "sourceRects": 615,
+        "targetRects": 561,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_1",
+        "to": "walk_2",
+        "sourceRects": 561,
+        "targetRects": 690,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_2",
+        "to": "walk_3",
+        "sourceRects": 690,
+        "targetRects": 630,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_3",
+        "to": "walk_4",
+        "sourceRects": 630,
+        "targetRects": 521,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      },
+      {
+        "from": "walk_4",
+        "to": "walk_5",
+        "sourceRects": 521,
+        "targetRects": 541,
+        "exactGeometryColorMatches": 0,
+        "sameIndex": 0
+      }
+    ]
+  }
+]

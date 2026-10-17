@@ -1,0 +1,329 @@
+{
+  "baseline": "V3 accepted E",
+  "modules": [
+    {
+      "module": "prefix",
+      "source": "source/prefix.lua",
+      "target": "source/prefix.lua",
+      "sha256": "a3c4b3606873e08778d38f660198c3c0f315072acc9580d811e728e10029ca97"
+    },
+    {
+      "module": "gf_ai",
+      "source": "source/modules/gf_ai.lua",
+      "target": "source/battle/gf_ai.lua",
+      "sha256": "3b93f82a374dfe134a59d6dcafaa7d36faad3bba6570477c1e89eb9ea3aeb5c5"
+    },
+    {
+      "module": "gf_app",
+      "source": "source/modules/gf_app.lua",
+      "target": "source/app/gf_app.lua",
+      "sha256": "230f687232745f46ca11ff247f06097a6c9e38d804533e3dae7bfc67212fa483"
+    },
+    {
+      "module": "gf_art",
+      "source": "source/modules/gf_art.lua",
+      "target": "source/characters/gf_art.lua",
+      "sha256": "8231ec3c602e4349f5fa8f5883f50947280683e9f25eee8c19cbd2387e08dfa3"
+    },
+    {
+      "module": "gf_audio",
+      "source": "source/modules/gf_audio.lua",
+      "target": "source/render/gf_audio.lua",
+      "sha256": "df1a40315cbcbdcf79e6d9840fea634fa079cc89dcf6023a316972460d52888d"
+    },
+    {
+      "module": "gf_backdrop",
+      "source": "source/modules/gf_backdrop.lua",
+      "target": "source/render/gf_backdrop.lua",
+      "sha256": "e678fa46daa89221b9bb1a6d36a5130576cb77d849a52d180e757e0d7485d2f0"
+    },
+    {
+      "module": "gf_bglist",
+      "source": "source/modules/gf_bglist.lua",
+      "target": "source/render/gf_bglist.lua",
+      "sha256": "10147c25e077d47d97226dc59d4a38139ab252a3929211e3153aa80272a7b853"
+    },
+    {
+      "module": "gf_fview",
+      "source": "source/modules/gf_fview.lua",
+      "target": "source/render/gf_fview.lua",
+      "sha256": "8a55d7616ed8a160d91bae7fe12980a8e449171dc5e087a4faa4a3b7e82426c7"
+    },
+    {
+      "module": "gf_fx",
+      "source": "source/modules/gf_fx.lua",
+      "target": "source/render/gf_fx.lua",
+      "sha256": "25a9ab53e2b3e3bd011ee391941b5fce06c64ddfd4bd12b9dcf1d02cd43d7248"
+    },
+    {
+      "module": "gf_gfx",
+      "source": "source/modules/gf_gfx.lua",
+      "target": "source/render/gf_gfx.lua",
+      "sha256": "f14bd3e8035b10c99c69edcc7a11dc02a769603d35a88e4b56d1e66f169a5bed"
+    },
+    {
+      "module": "gf_hud",
+      "source": "source/modules/gf_hud.lua",
+      "target": "source/render/gf_hud.lua",
+      "sha256": "6264ad53aae298b036c0b2196e7119cd2b88d8564ccad9a7f2318b67d46280bb"
+    },
+    {
+      "module": "gf_input",
+      "source": "source/modules/gf_input.lua",
+      "target": "source/input/gf_input.lua",
+      "sha256": "d9a142e655259a2e9614b46909258c3aabc755e01971a0f121f2156d0e1bb783"
+    },
+    {
+      "module": "gf_kits",
+      "source": "source/modules/gf_kits.lua",
+      "target": "source/characters/gf_kits.lua",
+      "sha256": "fcdb9eb08247013084b6e3aa9224a0f0f54eaa408e475fd3158eb4139ca1d796"
+    },
+    {
+      "module": "gf_net",
+      "source": "source/modules/gf_net.lua",
+      "target": "source/network/gf_net.lua",
+      "sha256": "761bf019775531d05d4d3acfbec2953e9304c8502f4733dc8d273f624a629558"
+    },
+    {
+      "module": "gf_online",
+      "source": "source/modules/gf_online.lua",
+      "target": "source/network/gf_online.lua",
+      "sha256": "1e00fe571064c3ba12f93c7cc76a06963400e4eebb10f8220f8c75dbef0b5056"
+    },
+    {
+      "module": "gf_paint",
+      "source": "source/modules/gf_paint.lua",
+      "target": "source/render/gf_paint.lua",
+      "sha256": "32df6ad43f651d9b9219ac193476eaecde34a2a8b32c8b81cde08ac575e13627"
+    },
+    {
+      "module": "gf_roster",
+      "source": "source/modules/gf_roster.lua",
+      "target": "source/characters/gf_roster.lua",
+      "sha256": "9662aedc3c60379b416b1bdb8a25b2accdf247d64e1d9a8cf5ec477b078ba495"
+    },
+    {
+      "module": "gf_scene_fight",
+      "source": "source/modules/gf_scene_fight.lua",
+      "target": "source/battle/gf_scene_fight.lua",
+      "sha256": "2aae3f94e905cf22cdfd5d65d87e32d63aac1b7dc521a2d4e9d31287435ca34c"
+    },
+    {
+      "module": "gf_scene_gallery",
+      "source": "source/modules/gf_scene_gallery.lua",
+      "target": "source/menu/gf_scene_gallery.lua",
+      "sha256": "14aed3d9a14a5aef4a8d9bd4fc10c53175099a2e627872f28d4db66148c1af12"
+    },
+    {
+      "module": "gf_scene_howto",
+      "source": "source/modules/gf_scene_howto.lua",
+      "target": "source/menu/gf_scene_howto.lua",
+      "sha256": "50e039a0dfa80d5a848b484ce704356d3d5ef38a304db18cbbaf22b8e09e4f3f"
+    },
+    {
+      "module": "gf_scene_intro",
+      "source": "source/modules/gf_scene_intro.lua",
+      "target": "source/menu/gf_scene_intro.lua",
+      "sha256": "bead156b92b9d47bbf40a3f4edec9eee2e063d356e0b29d6e96f9892f53390e2"
+    },
+    {
+      "module": "gf_scene_menu",
+      "source": "source/modules/gf_scene_menu.lua",
+      "target": "source/menu/gf_scene_menu.lua",
+      "sha256": "13dc6db36b53170779782c081c4cabd4112ecdc4df8117a83a79dcc7b85a714a"
+    },
+    {
+      "module": "gf_scene_online",
+      "source": "source/modules/gf_scene_online.lua",
+      "target": "source/menu/gf_scene_online.lua",
+      "sha256": "53f5bc206ee27b6c02e37b660acac35b47f635c8b26ec2dfd1b0c84cf06ac112"
+    },
+    {
+      "module": "gf_scene_options",
+      "source": "source/modules/gf_scene_options.lua",
+      "target": "source/menu/gf_scene_options.lua",
+      "sha256": "8ca79112ac83fca06679ac47bbb3e987402b14aee459492288800ad5aaac7540"
+    },
+    {
+      "module": "gf_scene_result",
+      "source": "source/modules/gf_scene_result.lua",
+      "target": "source/menu/gf_scene_result.lua",
+      "sha256": "7dc5ad5fd08aefb74327ccb1b70613dd19533f30174fe12e1a561a09007f9275"
+    },
+    {
+      "module": "gf_scene_select",
+      "source": "source/modules/gf_scene_select.lua",
+      "target": "source/menu/gf_scene_select.lua",
+      "sha256": "6b37ed7fa873e064d99dcff969a5e5503bf2cde2678abd86d8c6e986965bc419"
+    },
+    {
+      "module": "gf_scene_stageview",
+      "source": "source/modules/gf_scene_stageview.lua",
+      "target": "source/menu/gf_scene_stageview.lua",
+      "sha256": "0a34fd1bd31aea695213b585f15a9df395844fb7d565a7733eb8ea8bb105e299"
+    },
+    {
+      "module": "gf_scene_test",
+      "source": "source/modules/gf_scene_test.lua",
+      "target": "source/menu/gf_scene_test.lua",
+      "sha256": "a7b7f0b4ad01840e9a896099ae65e2db7e87b5ed29e16d30f8db0413370a3776"
+    },
+    {
+      "module": "gf_scene_title",
+      "source": "source/modules/gf_scene_title.lua",
+      "target": "source/menu/gf_scene_title.lua",
+      "sha256": "d829e6ca65c7a6258471c9d484961d3f4c82eb2cb91fdfbf2e39c954ba541d58"
+    },
+    {
+      "module": "gf_scene_vs",
+      "source": "source/modules/gf_scene_vs.lua",
+      "target": "source/menu/gf_scene_vs.lua",
+      "sha256": "d382749464e16b8b3a189d957035b52f5d15c850af6078407075f0f42ff6a0e4"
+    },
+    {
+      "module": "gf_show",
+      "source": "source/modules/gf_show.lua",
+      "target": "source/render/gf_show.lua",
+      "sha256": "06d3a605febd50fd10e16adc7c206602373f7afae3dc147dd19416a2bdc314d1"
+    },
+    {
+      "module": "gf_sim",
+      "source": "source/modules/gf_sim.lua",
+      "target": "source/battle/gf_sim.lua",
+      "sha256": "2da08c4f22db10a11e0859a982842a1bd30b9f09969d1db8953faa5fd4b55c49"
+    },
+    {
+      "module": "gf_stage",
+      "source": "source/modules/gf_stage.lua",
+      "target": "source/render/gf_stage.lua",
+      "sha256": "0886e91bfc7260e0fcdd99d0415a008afec332b64cca5b12b1126cbea37e7452"
+    },
+    {
+      "module": "gf_touch",
+      "source": "source/modules/gf_touch.lua",
+      "target": "source/input/gf_touch.lua",
+      "sha256": "6104c91f2deef3e11b05e5c3f6d10a81db3edb9bae85f1aa7b0e81f64c364332"
+    },
+    {
+      "module": "gf_transport",
+      "source": "source/modules/gf_transport.lua",
+      "target": "source/network/gf_transport.lua",
+      "sha256": "a4b1f7f3add5b3a33bcbca69034016262cde8a4f860613836a74cc643a9f604e"
+    },
+    {
+      "module": "gf_ui",
+      "source": "source/modules/gf_ui.lua",
+      "target": "source/render/gf_ui.lua",
+      "sha256": "e448c96dcf89afb0662f4d7902cf9f02e8c7e0d5e08de3ea49435508d505e8da"
+    },
+    {
+      "module": "gf_util",
+      "source": "source/modules/gf_util.lua",
+      "target": "source/core/gf_util.lua",
+      "sha256": "4d2493b691b8b77716eb3e3018d3aa77d707148670488f3ccc509ea458000aca"
+    },
+    {
+      "module": "gf_animation_data",
+      "source": "source/modules/gf_animation_data.lua",
+      "target": "source/assets/gf_animation_data.lua",
+      "sha256": "e2303c8e59bbea70c51036ad10d2d02e9a9e17a1e393b94fd51b29be5f8586ae"
+    },
+    {
+      "module": "gf_animation_effects",
+      "source": "source/modules/gf_animation_effects.lua",
+      "target": "source/assets/gf_animation_effects.lua",
+      "sha256": "a937982b82c302ffd59dfefef909c1c68d3e15ac908a2d674c7bdfb42620b604"
+    },
+    {
+      "module": "gf_inbetween_data",
+      "source": "source/modules/gf_inbetween_data.lua",
+      "target": "source/assets/gf_inbetween_data.lua",
+      "sha256": "5ae5bdaaf5ce65f99150cdd2cf842828b8d2d6ee77bd2e43b75dddc60a827c28"
+    },
+    {
+      "module": "gf_art_nahida",
+      "source": "source/modules/gf_art_nahida.lua",
+      "target": "source/assets/gf_art_nahida.lua",
+      "sha256": "8e77149a01e541592d5a10529173491103cc39eaa8a6b12421484276b96e9358"
+    },
+    {
+      "module": "gf_art_raidenshogun",
+      "source": "source/modules/gf_art_raidenshogun.lua",
+      "target": "source/assets/gf_art_raidenshogun.lua",
+      "sha256": "781bb3e6de880ddd5505f936bf9ffc184011f6b5002804c65bfbd5a2fa65d4ec"
+    },
+    {
+      "module": "gf_bg_fontaine",
+      "source": "source/modules/gf_bg_fontaine.lua",
+      "target": "source/assets/gf_bg_fontaine.lua",
+      "sha256": "d7abe28c99e48401a9b0c3bc1c270fa605e20d7f0872c19f8e0c570d380479ae"
+    },
+    {
+      "module": "gf_bg_inazuma",
+      "source": "source/modules/gf_bg_inazuma.lua",
+      "target": "source/assets/gf_bg_inazuma.lua",
+      "sha256": "6fb4fe57f1e7345f1cf59673114ee998bea412fcd359560b1f26c4c875437e9b"
+    },
+    {
+      "module": "gf_bg_liyue",
+      "source": "source/modules/gf_bg_liyue.lua",
+      "target": "source/assets/gf_bg_liyue.lua",
+      "sha256": "d5cae82d402117be674bdd2aa4183db8bef3caf39a43dc6a96484aa45fcd3884"
+    },
+    {
+      "module": "gf_bg_mondstadt",
+      "source": "source/modules/gf_bg_mondstadt.lua",
+      "target": "source/assets/gf_bg_mondstadt.lua",
+      "sha256": "b8ec4a423885efcbd07c6854a70764ffd9e00fd28a52dcd472f854d948a1d1a5"
+    },
+    {
+      "module": "gf_bg_natlan",
+      "source": "source/modules/gf_bg_natlan.lua",
+      "target": "source/assets/gf_bg_natlan.lua",
+      "sha256": "526935d99d67bfd01da9432093d2feff3582375d2a96fb3e44f2d54d830fa0a8"
+    },
+    {
+      "module": "gf_bg_snezhnaya",
+      "source": "source/modules/gf_bg_snezhnaya.lua",
+      "target": "source/assets/gf_bg_snezhnaya.lua",
+      "sha256": "b0ac6d1fbde9c20e8c390e754f9ed9a3a24ed2cc5bcd7a349f48e3468df54664"
+    },
+    {
+      "module": "gf_bg_sumeru",
+      "source": "source/modules/gf_bg_sumeru.lua",
+      "target": "source/assets/gf_bg_sumeru.lua",
+      "sha256": "da8fa8c928b604610504765125ba8288f67672e09fd772f888600b4beb24b334"
+    },
+    {
+      "module": "gf_aranara_data",
+      "source": "source/modules/gf_aranara_data.lua",
+      "target": "source/assets/gf_aranara_data.lua",
+      "sha256": "b856bd7079d15947513423fa4047f60ed19e223c7ffcd609e3d6e997e7b1bce0"
+    },
+    {
+      "module": "gf_viewfinder_data",
+      "source": "source/modules/gf_viewfinder_data.lua",
+      "target": "source/assets/gf_viewfinder_data.lua",
+      "sha256": "6267be8e3594d6d6055d1342776465894070cb860718e32f5c131d40ddd9347c"
+    },
+    {
+      "module": "gf_logo",
+      "source": "source/modules/gf_logo.lua",
+      "target": "source/assets/gf_logo.lua",
+      "sha256": "ea6ea7da49a5782723c2ebdfe4ab860409a90c35f85a1dffe639d97529058124"
+    },
+    {
+      "module": "gf_raiden_eye_r31",
+      "source": "source/modules/gf_raiden_eye_r31.lua",
+      "target": "source/assets/gf_raiden_eye_r31.lua",
+      "sha256": "19b6351b3c9f0981bdbcc03fac7e79ce7621b517292d11c04238cb29c4ac0cd1"
+    },
+    {
+      "module": "bootstrap",
+      "source": "source/bootstrap.lua",
+      "target": "source/bootstrap.lua",
+      "sha256": "9398cb33d454db03376ff0f328a78659c40f17e102fc7a7d8d70568d335eae28"
+    }
+  ]
+}

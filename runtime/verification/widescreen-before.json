@@ -1,0 +1,321 @@
+{
+  "mockOnly": true,
+  "safeInsetIsReproductionHypothesis": true,
+  "sourceSha256": "d3e8ab63c00ae73843397eacc8ac6f52e105318eefa0b3d123e741061a88ed5e",
+  "results": [
+    {
+      "label": "before-full",
+      "physicalScreen": [
+        2832,
+        1280
+      ],
+      "uiCanvas": [
+        2832,
+        1280
+      ],
+      "pages": [
+        {
+          "page": "01-loading",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 416
+        },
+        {
+          "page": "02-intro",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 1800
+        },
+        {
+          "page": "03-title",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-menu",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-options",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-howto",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-2",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-3",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "06-select",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 14672
+        },
+        {
+          "page": "07-stage-select",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 14704
+        },
+        {
+          "page": "08-vs",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 15344
+        },
+        {
+          "page": "09-fight-loading",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "10-fight",
+          "backingBounds": [
+            0.0,
+            0.0,
+            2832.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        }
+      ],
+      "note": "baseline comparison stops before known 96-text training pause exhaustion"
+    },
+    {
+      "label": "before-safe-inset",
+      "physicalScreen": [
+        2832,
+        1280
+      ],
+      "uiCanvas": [
+        2648,
+        1280
+      ],
+      "pages": [
+        {
+          "page": "01-loading",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 416
+        },
+        {
+          "page": "02-intro",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 1800
+        },
+        {
+          "page": "03-title",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 8000
+        },
+        {
+          "page": "04-menu",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 8000
+        },
+        {
+          "page": "04-options",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 8000
+        },
+        {
+          "page": "04-howto",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-2",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-3",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 8000
+        },
+        {
+          "page": "06-select",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 14672
+        },
+        {
+          "page": "07-stage-select",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 14704
+        },
+        {
+          "page": "08-vs",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 15344
+        },
+        {
+          "page": "09-fight-loading",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 16000
+        },
+        {
+          "page": "10-fight",
+          "backingBounds": [
+            92.0,
+            0.0,
+            2740.0,
+            1280.0
+          ],
+          "coversPhysicalScreen": false,
+          "pool": 16000
+        }
+      ],
+      "note": "baseline comparison stops before known 96-text training pause exhaustion"
+    }
+  ]
+}

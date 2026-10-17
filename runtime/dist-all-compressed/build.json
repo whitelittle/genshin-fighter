@@ -1,0 +1,72 @@
+{
+  "profile": "lz4-assets-v1",
+  "minified": false,
+  "bytes": 3203913,
+  "sha256": "288f273c3f0a91ddaa1482f3f9c16e8dc65f82f51f7af2948050f920e507a835",
+  "modules": {
+    "gf_animation_data": {
+      "frames": 152,
+      "r8": 152,
+      "r16": 0,
+      "rectangles": 127874,
+      "oldDecodedBytes": 1278740,
+      "newDecodedBytes": 639370,
+      "paletteReferences": 2,
+      "payloadReferences": 152,
+      "compressedFrames": 152,
+      "oldModuleBytes": 1589857,
+      "newModuleBytes": 527298,
+      "uniquePalettes": 2,
+      "uniquePayloads": 152
+    },
+    "gf_inbetween_data": {
+      "frames": 152,
+      "r8": 152,
+      "r16": 0,
+      "rectangles": 126635,
+      "oldDecodedBytes": 1266350,
+      "newDecodedBytes": 633175,
+      "paletteReferences": 0,
+      "payloadReferences": 152,
+      "compressedFrames": 152,
+      "oldModuleBytes": 1585402,
+      "newModuleBytes": 533574,
+      "uniquePalettes": 0,
+      "uniquePayloads": 152
+    },
+    "gf_furina_data": {
+      "frames": 178,
+      "r8": 177,
+      "r16": 1,
+      "rectangles": 111071,
+      "oldDecodedBytes": 1110710,
+      "newDecodedBytes": 557405,
+      "paletteReferences": 178,
+      "payloadReferences": 178,
+      "compressedFrames": 175,
+      "oldModuleBytes": 1624944,
+      "newModuleBytes": 594686,
+      "uniquePalettes": 5,
+      "uniquePayloads": 159
+    },
+    "gf_ayaka_data": {
+      "frames": 157,
+      "r8": 157,
+      "r16": 0,
+      "rectangles": 96092,
+      "oldDecodedBytes": 960920,
+      "newDecodedBytes": 480460,
+      "paletteReferences": 157,
+      "payloadReferences": 157,
+      "compressedFrames": 154,
+      "oldModuleBytes": 1360518,
+      "newModuleBytes": 496924,
+      "uniquePalettes": 3,
+      "uniquePayloads": 157
+    }
+  },
+  "ordinaryBytes": 7212092,
+  "nativeDeviceTested": false,
+  "preparationAtInitialLoading": true,
+  "legacyNumericTablesRetained": false
+}

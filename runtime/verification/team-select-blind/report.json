@@ -1,0 +1,35 @@
+[
+  {
+    "device": "KeyboardAndMouse",
+    "canvas": [
+      1600,
+      900
+    ],
+    "browseDoesNotConfirm": true,
+    "fixedOrderReadyCancelHiddenCpuRevealReturn": true,
+    "maxMockInstructions": 715105,
+    "heavy": []
+  },
+  {
+    "device": "Mobile",
+    "canvas": [
+      1950,
+      900
+    ],
+    "browseDoesNotConfirm": true,
+    "fixedOrderReadyCancelHiddenCpuRevealReturn": true,
+    "maxMockInstructions": 715105,
+    "heavy": []
+  },
+  {
+    "device": "Mobile",
+    "canvas": [
+      2832,
+      1280
+    ],
+    "browseDoesNotConfirm": true,
+    "fixedOrderReadyCancelHiddenCpuRevealReturn": true,
+    "maxMockInstructions": 715105,
+    "heavy": []
+  }
+]

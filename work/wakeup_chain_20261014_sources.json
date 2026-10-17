@@ -1,0 +1,26 @@
+[
+  {
+    "role": "mavuika",
+    "key": "wakeup",
+    "n": 4,
+    "refs": [
+      "three-role-basic-20261013/mavuika/frames/idle-0-source.png",
+      "three-role-redesign-20261014/mavuika/frames/hit-knockdown-raw-20261014-5.png"
+    ],
+    "prompt": "Use case: stylized-concept. Create FOUR Mavuika unarmed wake-up BODY key poses, TWO columns TWO rows, following supplied lying pose (reference2) into supplied adult mother (reference1). Keep exact same skull size, long torso, adult thigh/calf/arm lengths, costume/boots and orange-red hair; same right-facing side three-quarter camera. Lying previous pose has head LEFT and boots RIGHT, do NOT flip direction. New1 raises head/shoulders by supporting on near elbow, hips remain grounded to left of boots, knees starting fold; New2 plants gloved palm, draws knees under hips, partial seated/low kneel, head lifts naturally toward right; New3 one knee on ground and other boot planted forward/right, uses grounded palm and planted front boot to bear weight, trunk rising with clear hip/knee/ankle support; New4 stands up toward reference stance, both boots planted, chest upright, hands settling. These are 4 DISTINCT successive get-up poses, not four standing copies. Prior lying pose will be reused separately as initial state; don't add it as fifth sprite. All poses face right, no somersault, no reversal, no teleporting head. No sword/fire/vehicle or FX in this unarmed variant. True transparent alpha, no haze/floor/shadows/text/grid. Four COMPLETE isolated sprites with at least40px clear alpha margins around all hair/boots. Exact fixed adult proportions, do not shrink low poses or enlarge heads.",
+    "generatedPath": "%USERPROFILE%\\.codex\\generated_images\\01a137a6-0e57-7a70-b9c7-ab9ea5ec29a9\\exec-021444d9-2278-45fb-bcaa-8804cca4bcde.png"
+  },
+  {
+    "role": "neuvillette",
+    "key": "wakeup",
+    "n": 4,
+    "refs": [
+      "three-role-basic-20261013/neuvillette/source/mother-v2.png",
+      "three-role-redesign-20261014/neuvillette/frames/hit-knockdown-raw-20261014-5.png"
+    ],
+    "prompt": "Use case: stylized-concept. Neuvillette wake-up while retaining same cane, FOUR BODY key poses TWO columns TWO rows. Reference1 fixes normal adult identity, skull/torso/limb length and cane design; reference2 is preceding lying pose head-LEFT boots-RIGHT which will be reused as initial state. Keep same facing orientation into right-facing side three-quarter standing. New1 free elbow supports upper body while SAME original cane hand keeps grip, cane low along ground beside body, hips still grounded; New2 free palm plants, knees draw under hips, seated/low kneel, cane rotates up with gripping hand clear of knees; New3 one knee grounded, opposite boot planted ahead/right, free palm or forearm bears clear load, cane hand raises cane to upright WITHOUT swapping hands or teleporting its jewel/tip, cane placed beside planted boot not through calf; New4 stands nearly at mother stance, both boots planted, same gloved cane hand holding rigid cane beside body, free arm settles near chest. Exact SAME small adult head, long torso and thigh/calf/arm bones all four; no chibi or low-pose shrinking, no somersault, no reversed head/boots direction. Coat folds/extends naturally with getting up, hair modestly follows. Distinct support/recovery stages, not copies. NO water/glow/blue haze/shadows/floor/text/panels. True transparent alpha, complete cane tips, hair and boots wholly inside each generously spaced cell with40px clear margins. Use large canvas and enough spacing to isolate all four.",
+    "generatedPath": "%USERPROFILE%\\.codex\\generated_images\\01a137a6-0e57-7a70-b9c7-ab9ea5ec29a9\\exec-e69f12f2-d6ca-4870-a2d6-72ed4ed548b4.png",
+    "firstPath": "%USERPROFILE%\\.codex\\generated_images\\01a137a6-0e57-7a70-b9c7-ab9ea5ec29a9\\exec-1b384bdd-2571-4fb9-a120-5fb9036a6bd8.png",
+    "correctionPrompt": "Precise-object-edit of supplied Neuvillette FOUR pose wake-up sheet. Top-left pose is WRONG: it repeats lying flat rather than elbow support. Redraw ONLY TOP LEFT figure as the FIRST ACTIVE getting-up phase: SAME head-left boots-right, hips and thighs still on ground, but upper trunk raises about30degrees supported on FREE elbow/forearm on ground under shoulder. Head lifts clear of ground, white hair hangs behind raised shoulder. Same cane-holding hand grips rigid cane low along thigh, same jewel and shaft. Clear visible elbow bearing body weight; no unsupported sit-up, no swapping hands, no reversed feet. Preserve top-right seated kneel, bottom-left one-knee rise and bottom-right standing exactly. All 4 keep SAME adult bone dimensions and source drawing unit. Real transparent background, no haze/shadows/floor/text. Repack if needed to avoid top-left cane touching adjacent pose; complete hair/boots/cane with generous transparent gap."
+  }
+]

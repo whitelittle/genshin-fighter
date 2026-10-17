@@ -8,7 +8,7 @@
       "height": 226,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Jean, blonde ponytail, white/navy gold knight uniform, slender fencing sword. A precise forward sword cut, E forward wind thrust, Q sword raised then planted for dandelion-themed cast. No actual wind effects. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/jean-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/jean-idle.png"
     },
     {
       "key": "jean",
@@ -16,7 +16,7 @@
       "height": 226,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Jean, blonde ponytail, white/navy gold knight uniform, slender fencing sword. A precise forward sword cut, E forward wind thrust, Q sword raised then planted for dandelion-themed cast. No actual wind effects. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/jean-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/jean-idle.png"
     },
     {
       "key": "jean",
@@ -24,7 +24,7 @@
       "height": 226,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Jean, blonde ponytail, white/navy gold knight uniform, slender fencing sword. A precise forward sword cut, E forward wind thrust, Q sword raised then planted for dandelion-themed cast. No actual wind effects. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/jean-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/jean-idle.png"
     },
     {
       "key": "lisa",
@@ -32,7 +32,7 @@
       "height": 218,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Lisa, long brown hair, purple gold witch hat and dress, gloves and boots. A forward one-hand electric cast, E deliberate extended palm release, Q two-hand lightning-rose invocation gesture. No actual electricity/rose. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/lisa-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/lisa-idle.png"
     },
     {
       "key": "lisa",
@@ -40,7 +40,7 @@
       "height": 218,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Lisa, long brown hair, purple gold witch hat and dress, gloves and boots. A forward one-hand electric cast, E deliberate extended palm release, Q two-hand lightning-rose invocation gesture. No actual electricity/rose. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/lisa-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/lisa-idle.png"
     },
     {
       "key": "lisa",
@@ -48,7 +48,7 @@
       "height": 218,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Lisa, long brown hair, purple gold witch hat and dress, gloves and boots. A forward one-hand electric cast, E deliberate extended palm release, Q two-hand lightning-rose invocation gesture. No actual electricity/rose. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/lisa-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/lisa-idle.png"
     },
     {
       "key": "ganyu",
@@ -56,7 +56,7 @@
       "height": 214,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Ganyu, pale blue hair, dark horns, blue white black outfit. A bow draw and release, E backward evasion with low lotus placement gesture, Q held orb invocation and upward cast. Bow consistent, no ice effects. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/ganyu-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/ganyu-idle.png"
     },
     {
       "key": "ganyu",
@@ -64,7 +64,7 @@
       "height": 214,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Ganyu, pale blue hair, dark horns, blue white black outfit. A bow draw and release, E backward evasion with low lotus placement gesture, Q held orb invocation and upward cast. Bow consistent, no ice effects. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/ganyu-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/ganyu-idle.png"
     },
     {
       "key": "ganyu",
@@ -72,7 +72,7 @@
       "height": 214,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Ganyu, pale blue hair, dark horns, blue white black outfit. A bow draw and release, E backward evasion with low lotus placement gesture, Q held orb invocation and upward cast. Bow consistent, no ice effects. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/ganyu-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/ganyu-idle.png"
     },
     {
       "key": "xiao",
@@ -80,7 +80,7 @@
       "height": 209,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Xiao, dark teal hair, white purple teal outfit, jade beads. A forward spear sweep, E quick forward spear lunge, Q puts on demon mask then low spear ready. Mask is a held/worn prop, state animations later; no effects. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/xiao-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/xiao-idle.png"
     },
     {
       "key": "xiao",
@@ -88,7 +88,7 @@
       "height": 209,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Xiao, dark teal hair, white purple teal outfit, jade beads. A forward spear sweep, E quick forward spear lunge, Q puts on demon mask then low spear ready. Mask is a held/worn prop, state animations later; no effects. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/xiao-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/xiao-idle.png"
     },
     {
       "key": "xiao",
@@ -96,7 +96,7 @@
       "height": 209,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Xiao, dark teal hair, white purple teal outfit, jade beads. A forward spear sweep, E quick forward spear lunge, Q puts on demon mask then low spear ready. Mask is a held/worn prop, state animations later; no effects. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/xiao-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/xiao-idle.png"
     },
     {
       "key": "hutao",
@@ -104,7 +104,7 @@
       "height": 212,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Hu Tao, long brown hair, black red coat and red flower hat, spear. A compact forward polearm thrust, E low preparation and deliberate forward sweep, Q ghost-command wide arm gesture while spear stable. No ghosts/flames. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/hutao-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/hutao-idle.png"
     },
     {
       "key": "hutao",
@@ -112,7 +112,7 @@
       "height": 212,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Hu Tao, long brown hair, black red coat and red flower hat, spear. A compact forward polearm thrust, E low preparation and deliberate forward sweep, Q ghost-command wide arm gesture while spear stable. No ghosts/flames. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/hutao-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/hutao-idle.png"
     },
     {
       "key": "hutao",
@@ -120,7 +120,7 @@
       "height": 212,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Hu Tao, long brown hair, black red coat and red flower hat, spear. A compact forward polearm thrust, E low preparation and deliberate forward sweep, Q ghost-command wide arm gesture while spear stable. No ghosts/flames. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/test-v1/hutao-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/test-v1/hutao-idle.png"
     },
     {
       "key": "yaemiko",
@@ -128,7 +128,7 @@
       "height": 224,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Yae Miko, long pink hair, fox ears, red white shrine maiden outfit and heels. A graceful forward gohei flick, E short low hand shrine placement gesture, Q overhead ritual downward cast. No actual sakura shrines/lightning. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/yaemiko-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/yaemiko-idle.png"
     },
     {
       "key": "yaemiko",
@@ -136,7 +136,7 @@
       "height": 224,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Yae Miko, long pink hair, fox ears, red white shrine maiden outfit and heels. A graceful forward gohei flick, E short low hand shrine placement gesture, Q overhead ritual downward cast. No actual sakura shrines/lightning. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/yaemiko-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/yaemiko-idle.png"
     },
     {
       "key": "yaemiko",
@@ -144,7 +144,7 @@
       "height": 224,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Yae Miko, long pink hair, fox ears, red white shrine maiden outfit and heels. A graceful forward gohei flick, E short low hand shrine placement gesture, Q overhead ritual downward cast. No actual sakura shrines/lightning. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/yaemiko-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/yaemiko-idle.png"
     },
     {
       "key": "kirara",
@@ -152,7 +152,7 @@
       "height": 206,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kirara, short ash blonde bob, cat ears, two tails, green navy gold courier outfit and paw boots. A forward claw swipe, E crouch spring with courier parcel prop held close, Q throws one small courier parcel. Preserve humanoid proportions; transformation state later. No effects. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kirara-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kirara-idle.png"
     },
     {
       "key": "kirara",
@@ -160,7 +160,7 @@
       "height": 206,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kirara, short ash blonde bob, cat ears, two tails, green navy gold courier outfit and paw boots. A forward claw swipe, E crouch spring with courier parcel prop held close, Q throws one small courier parcel. Preserve humanoid proportions; transformation state later. No effects. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kirara-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kirara-idle.png"
     },
     {
       "key": "kirara",
@@ -168,7 +168,7 @@
       "height": 206,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kirara, short ash blonde bob, cat ears, two tails, green navy gold courier outfit and paw boots. A forward claw swipe, E crouch spring with courier parcel prop held close, Q throws one small courier parcel. Preserve humanoid proportions; transformation state later. No effects. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kirara-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kirara-idle.png"
     },
     {
       "key": "kamisatoayato",
@@ -176,7 +176,7 @@
       "height": 229,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kamisato Ayato, lavender hair, white blue long formal coat and gold details, slim sword. A forward clean sword slice, E rapid short stepping sword cut, Q elegant sword lift and downward cast. No water or domain scenery. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kamisatoayato-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kamisatoayato-idle.png"
     },
     {
       "key": "kamisatoayato",
@@ -184,7 +184,7 @@
       "height": 229,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kamisato Ayato, lavender hair, white blue long formal coat and gold details, slim sword. A forward clean sword slice, E rapid short stepping sword cut, Q elegant sword lift and downward cast. No water or domain scenery. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kamisatoayato-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kamisatoayato-idle.png"
     },
     {
       "key": "kamisatoayato",
@@ -192,7 +192,7 @@
       "height": 229,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kamisato Ayato, lavender hair, white blue long formal coat and gold details, slim sword. A forward clean sword slice, E rapid short stepping sword cut, Q elegant sword lift and downward cast. No water or domain scenery. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kamisatoayato-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/kamisatoayato-idle.png"
     },
     {
       "key": "aratakiitto",
@@ -200,7 +200,7 @@
       "height": 237,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Arataki Itto, silver hair, red horns, chest tattoos, purple black open coat, heavy belt and sandals. A heavy claymore horizontal swing, E strong underhand throw gesture of Ushi without separate bull artwork, Q mask/power stance preparing a large club. Club state later; no effects. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/aratakiitto-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/aratakiitto-idle.png"
     },
     {
       "key": "aratakiitto",
@@ -208,7 +208,7 @@
       "height": 237,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Arataki Itto, silver hair, red horns, chest tattoos, purple black open coat, heavy belt and sandals. A heavy claymore horizontal swing, E strong underhand throw gesture of Ushi without separate bull artwork, Q mask/power stance preparing a large club. Club state later; no effects. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/aratakiitto-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/aratakiitto-idle.png"
     },
     {
       "key": "aratakiitto",
@@ -216,7 +216,7 @@
       "height": 237,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Arataki Itto, silver hair, red horns, chest tattoos, purple black open coat, heavy belt and sandals. A heavy claymore horizontal swing, E strong underhand throw gesture of Ushi without separate bull artwork, Q mask/power stance preparing a large club. Club state later; no effects. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/aratakiitto-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/aratakiitto-idle.png"
     },
     {
       "key": "sangonomiyakokomi",
@@ -224,7 +224,7 @@
       "height": 213,
       "kind": "basic",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kokomi, pale pink long hair, blue white pearl outfit, fish-tail bow and sleeves. A forward water-cast palm, E both hands setting jellyfish position, Q flowing ceremonial two-arm cast. No actual water/jellyfish or effects. 16 distinct full-body poses in a strictly spaced 4x4 sprite sheet, row-major order: relaxed combat idle 1, subtle breathing idle 2, walk contact 1, walk passing, walk contact 2, crouch, standing guard, crouching guard, jump anticipation, rising airborne, falling airborne, landing, recoiling standing hurt, airborne hurt, lying knocked down, getting up. Each is one complete isolated figure with a generous clear gutter. Fixed horizontal fighting-game camera, all facing RIGHT, no front portraits. Identical anatomy and outfit across poses, stable scale. No effects, no scenery, no text, no cast shadows, no ground lines. Transparent background. Crisp readable pixel art compatible with the established fighters; full hat, hair, hands and feet visible. Not chibi, not SD, no enlarged head.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/sangonomiyakokomi-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/sangonomiyakokomi-idle.png"
     },
     {
       "key": "sangonomiyakokomi",
@@ -232,7 +232,7 @@
       "height": 213,
       "kind": "attack",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kokomi, pale pink long hair, blue white pearl outfit, fish-tail bow and sleeves. A forward water-cast palm, E both hands setting jellyfish position, Q flowing ceremonial two-arm cast. No actual water/jellyfish or effects. Row-major: A anticipation, A release, A recovery, low A anticipation, low A release, low A recovery, air A anticipation, air A release, E anticipation, E release, E recovery, Q anticipation, Q release, Q recovery, victory anticipation, settled victory.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/sangonomiyakokomi-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/sangonomiyakokomi-idle.png"
     },
     {
       "key": "sangonomiyakokomi",
@@ -240,7 +240,7 @@
       "height": 213,
       "kind": "connections",
       "prompt": "A 4x4 transparent pixel sprite sheet, EXACTLY 16 separate whole characters with generous gutters and margins. Fixed side combat camera, all facing RIGHT. Normal coordinated anime fighter proportions, 6 to7 heads tall, not chibi or SD. Full consistent outfit, stable head/body ratio, no cropped hat/weapon/feet, no repeated limb, no text, ground, cast shadow, glow or background. Character poses only; skill effects separate. Kokomi, pale pink long hair, blue white pearl outfit, fish-tail bow and sleeves. A forward water-cast palm, E both hands setting jellyfish position, Q flowing ceremonial two-arm cast. No actual water/jellyfish or effects. First8 in row-major form one continuous A: neutral, load, anticipation peak, release start, release peak, follow through, recover, neutral. Last8 form one continuous E with the same 8 distinct phases. Natural whole-body weight shifts, hand/weapon path consistent, don't rotate one idle image.",
-      "ref": "C:/Users/Cheng/Documents/ChatGPT/原神格斗2027/assets/roster-v2/sangonomiyakokomi-idle.png"
+      "ref": "%USERPROFILE%/Documents/ChatGPT/原神格斗2027/assets/roster-v2/sangonomiyakokomi-idle.png"
     }
   ],
   "repairs": {

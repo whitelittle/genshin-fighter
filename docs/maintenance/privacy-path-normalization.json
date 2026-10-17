@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-18",
+  "scope": "metadata JSON strings only; web URLs unchanged; original pixels, entity GUIDs and rule data unchanged",
+  "files": [
+    {
+      "file": "assets/repair-art-v1/review.json",
+      "originalSha256": "0e764f8f0162b7c423c517481174684510450e1f7c802df02380253c0cd5930f",
+      "normalizedSha256": "9a42a8be7f00c9363e77eefd63d00c15ca39e72cb5d47b34fff9206179a5bef1"
+    },
+    {
+      "file": "assets/roster-v2/generation-manifest.json",
+      "originalSha256": "c529c5df37d9422a5b0bc5d8f0a83ecb5fda9423444246611f42725b18c6d0ea",
+      "normalizedSha256": "613b9045f08bd1be909e43c2f31705bda43ccd90f4b0d2607569097c7506a1bf"
+    },
+    {
+      "file": "assets/stages-country-v1/sources.json",
+      "originalSha256": "231846d717f726f977241a3d26b0d06150fdd3e5344f799d9c144104920cd293",
+      "normalizedSha256": "fdb508c560d655652e4356efb30edc5d9c5bba7fcc18ed23e9360762de452c0d"
+    },
+    {
+      "file": "assets/test-v1/source-manifest.json",
+      "originalSha256": "cb70de5b2d280bc9a2c34633a34be33c96e8a37c853863ca03b5ad435404a82e",
+      "normalizedSha256": "4c0fdf4f06fb342c498ec8737b2ef505ec9b169328176dbcec3ce694710f4533"
+    },
+    {
+      "file": "outputs/duel-loading/latest-delivery.json",
+      "originalSha256": "f97f57473337d7f306d28e77e288f3b5d0bf184344782a502510026c927759da",
+      "normalizedSha256": "0d2ddadb0d7f9656a2998c964171edf0727a8e3b3d0f8b09da06336c080e2450"
+    },
+    {
+      "file": "outputs/duel-loading/latest-split-delivery.json",
+      "originalSha256": "0542d460c4f0c6f989cd160b132ba14abb238b9bcee124092c8f12c47027cff8",
+      "normalizedSha256": "f28cbbc70dfed580b163b5e574d720dad7bc91720013e7c8015e8698dfd98305"
+    },
+    {
+      "file": "outputs/group1-full-test/千星目录复制校验.json",
+      "originalSha256": "c114776aca17b812425667d7e2ebda057627e4599c32d3b67b730a76bf59da8e",
+      "normalizedSha256": "f0f00a53b3b6dab04db3d91749272683da5840834b6b0c7aca94ba0fda8a16fe"
+    },
+    {
+      "file": "outputs/motion-group1/klee/prompts-approved-reference-v3.json",
+      "originalSha256": "878b86a87c5ab8a5b0d98f64c3e9cdeb7225ced2c5aa67a045a9d430ce4b3867",
+      "normalizedSha256": "74bdb6dddc5c961d9367e15a7217525bf948eec4c1477415c6bf7dd1e4bd625f"
+    },
+    {
+      "file": "outputs/motion-group1/production-plan-20261004.json",
+      "originalSha256": "ddda2541f2e0246eefdd7aa8036247268ddc370bec76ad65c5ffc1a5b6e59744",
+      "normalizedSha256": "10916599f0b826e1cc95b4eda04e1106438b52155b4fc2a4215f9e888aeaba6e"
+    },
+    {
+      "file": "outputs/roster-v2/delivery.json",
+      "originalSha256": "3e04d3d33f8a583cf14386e295c4a7577c460a321d11e943b3808b0b2f2a82f0",
+      "normalizedSha256": "3b9e9e4ed9368472bcf80eb80679f58b01c90539c83ebff7f5d14bc5a656f4e1"
+    },
+    {
+      "file": "outputs/千星发布记录_20261002_1242.json",
+      "originalSha256": "c422e3c9c4f5f679e03a33557130f2b70c8db75806249a538e82d4ae780e5176",
+      "normalizedSha256": "e3098d6702bcb2b4539b18ed84a089b594ac490aed45bd821e754da41429d2cb"
+    },
+    {
+      "file": "work/country-scene-sources.json",
+      "originalSha256": "106a257a82fa9faa5ff5433cb4e27854f3c9fd13720ccdbc6c5f748ebd863d4a",
+      "normalizedSha256": "fdb508c560d655652e4356efb30edc5d9c5bba7fcc18ed23e9360762de452c0d"
+    },
+    {
+      "file": "work/github-review-20261009/assets/repair-art-v1/review.json",
+      "originalSha256": "0e764f8f0162b7c423c517481174684510450e1f7c802df02380253c0cd5930f",
+      "normalizedSha256": "9a42a8be7f00c9363e77eefd63d00c15ca39e72cb5d47b34fff9206179a5bef1"
+    },
+    {
+      "file": "work/github-review-20261009/assets/roster-v2/generation-manifest.json",
+      "originalSha256": "c529c5df37d9422a5b0bc5d8f0a83ecb5fda9423444246611f42725b18c6d0ea",
+      "normalizedSha256": "613b9045f08bd1be909e43c2f31705bda43ccd90f4b0d2607569097c7506a1bf"
+    },
+    {
+      "file": "work/github-review-20261009/assets/stages-country-v1/sources.json",
+      "originalSha256": "231846d717f726f977241a3d26b0d06150fdd3e5344f799d9c144104920cd293",
+      "normalizedSha256": "fdb508c560d655652e4356efb30edc5d9c5bba7fcc18ed23e9360762de452c0d"
+    },
+    {
+      "file": "work/github-review-20261009/assets/test-v1/source-manifest.json",
+      "originalSha256": "cb70de5b2d280bc9a2c34633a34be33c96e8a37c853863ca03b5ad435404a82e",
+      "normalizedSha256": "4c0fdf4f06fb342c498ec8737b2ef505ec9b169328176dbcec3ce694710f4533"
+    },
+    {
+      "file": "work/github-review-20261009/work/country-scene-sources.json",
+      "originalSha256": "106a257a82fa9faa5ff5433cb4e27854f3c9fd13720ccdbc6c5f748ebd863d4a",
+      "normalizedSha256": "fdb508c560d655652e4356efb30edc5d9c5bba7fcc18ed23e9360762de452c0d"
+    },
+    {
+      "file": "work/github-review-20261009/work/pixel-stage-sources.json",
+      "originalSha256": "44d22bcaa9385257afb766b6cd89ff4c1215bf16cb6375132bb5fe6af0c6dfd4",
+      "normalizedSha256": "f8a43d34e96466913cb362802eaeb617dcb728f1884d0417b86449139c376974"
+    },
+    {
+      "file": "work/github-review-20261009/work/repair-art-sources.json",
+      "originalSha256": "acbe783c419b90bf73dcc4bc268e330a2e876dc456683fc23c7fb740ec6fd514",
+      "normalizedSha256": "551571b34d6200a44e027f607cd5691e3c2e1a46846a0b74eb7396ffb4378349"
+    },
+    {
+      "file": "work/pixel-stage-sources.json",
+      "originalSha256": "44d22bcaa9385257afb766b6cd89ff4c1215bf16cb6375132bb5fe6af0c6dfd4",
+      "normalizedSha256": "f8a43d34e96466913cb362802eaeb617dcb728f1884d0417b86449139c376974"
+    },
+    {
+      "file": "work/repair-art-sources.json",
+      "originalSha256": "acbe783c419b90bf73dcc4bc268e330a2e876dc456683fc23c7fb740ec6fd514",
+      "normalizedSha256": "551571b34d6200a44e027f607cd5691e3c2e1a46846a0b74eb7396ffb4378349"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/assets/repair-art-v1/review.json",
+      "originalSha256": "0e764f8f0162b7c423c517481174684510450e1f7c802df02380253c0cd5930f",
+      "normalizedSha256": "9a42a8be7f00c9363e77eefd63d00c15ca39e72cb5d47b34fff9206179a5bef1"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/assets/roster-v2/generation-manifest.json",
+      "originalSha256": "c529c5df37d9422a5b0bc5d8f0a83ecb5fda9423444246611f42725b18c6d0ea",
+      "normalizedSha256": "613b9045f08bd1be909e43c2f31705bda43ccd90f4b0d2607569097c7506a1bf"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/assets/stages-country-v1/sources.json",
+      "originalSha256": "231846d717f726f977241a3d26b0d06150fdd3e5344f799d9c144104920cd293",
+      "normalizedSha256": "fdb508c560d655652e4356efb30edc5d9c5bba7fcc18ed23e9360762de452c0d"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/assets/test-v1/source-manifest.json",
+      "originalSha256": "cb70de5b2d280bc9a2c34633a34be33c96e8a37c853863ca03b5ad435404a82e",
+      "normalizedSha256": "4c0fdf4f06fb342c498ec8737b2ef505ec9b169328176dbcec3ce694710f4533"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/work/country-scene-sources.json",
+      "originalSha256": "106a257a82fa9faa5ff5433cb4e27854f3c9fd13720ccdbc6c5f748ebd863d4a",
+      "normalizedSha256": "fdb508c560d655652e4356efb30edc5d9c5bba7fcc18ed23e9360762de452c0d"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/work/pixel-stage-sources.json",
+      "originalSha256": "44d22bcaa9385257afb766b6cd89ff4c1215bf16cb6375132bb5fe6af0c6dfd4",
+      "normalizedSha256": "f8a43d34e96466913cb362802eaeb617dcb728f1884d0417b86449139c376974"
+    },
+    {
+      "file": "work/smooth-baseline-20261013/snapshot/work/repair-art-sources.json",
+      "originalSha256": "acbe783c419b90bf73dcc4bc268e330a2e876dc456683fc23c7fb740ec6fd514",
+      "normalizedSha256": "551571b34d6200a44e027f607cd5691e3c2e1a46846a0b74eb7396ffb4378349"
+    }
+  ]
+}

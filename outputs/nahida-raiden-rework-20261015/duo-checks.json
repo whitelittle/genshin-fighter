@@ -1,0 +1,442 @@
+{
+  "rules": {
+    "cases": [
+      {
+        "key": "nahida",
+        "oldDistance": 124.47,
+        "newDistance": 224.69,
+        "mirrorsAndVariants": true
+      },
+      {
+        "key": "raidenshogun",
+        "oldDistance": 115.78,
+        "newDistance": 237.24,
+        "mirrorsAndVariants": true
+      }
+    ],
+    "fullStateReplayTicks": 1200,
+    "skillOutcomes": [
+      {
+        "variant": "seed",
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "seed",
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "variant": "seed",
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "seed",
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "seed",
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "seed",
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "variant": "seed",
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "seed",
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "leaf",
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "leaf",
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "variant": "leaf",
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "leaf",
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "leaf",
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "leaf",
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "variant": "leaf",
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "leaf",
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "thunder",
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "thunder",
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "variant": "thunder",
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "thunder",
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "thunder",
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "thunder",
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "variant": "thunder",
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "thunder",
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "lunge",
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "lunge",
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "variant": "lunge",
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "lunge",
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "variant": "lunge",
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "variant": "lunge",
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "variant": "lunge",
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "variant": "lunge",
+        "face": -1,
+        "outcome": "miss"
+      }
+    ],
+    "directionalOutcomes": [
+      {
+        "key": "nahida",
+        "move": "upLight",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "upHeavy",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "crouchLight",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "crouchHeavy",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "upLight",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "upHeavy",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "crouchLight",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "nahida",
+        "move": "crouchHeavy",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "upLight",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "upHeavy",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "crouchLight",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "crouchHeavy",
+        "face": 1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "upLight",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "upHeavy",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "crouchLight",
+        "face": -1,
+        "groundAirAndGuard": true
+      },
+      {
+        "key": "raidenshogun",
+        "move": "crouchHeavy",
+        "face": -1,
+        "groundAirAndGuard": true
+      }
+    ]
+  },
+  "geometry": [
+    {
+      "key": "nahida",
+      "action": "walk",
+      "before": {
+        "instructionsMean": 66330,
+        "instructionsPeak": 80083,
+        "callsMean": 326.63,
+        "callsTotal": 117633,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 65633,
+        "instructionsPeak": 79083,
+        "callsMean": 326.63,
+        "callsTotal": 117633,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": -1.05
+    },
+    {
+      "key": "nahida",
+      "action": "attack",
+      "before": {
+        "instructionsMean": 75419,
+        "instructionsPeak": 338591,
+        "callsMean": 531.22,
+        "callsTotal": 201055,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 74309,
+        "instructionsPeak": 330491,
+        "callsMean": 531.22,
+        "callsTotal": 201055,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": -1.47
+    },
+    {
+      "key": "raidenshogun",
+      "action": "walk",
+      "before": {
+        "instructionsMean": 65262,
+        "instructionsPeak": 88809,
+        "callsMean": 318.17,
+        "callsTotal": 117339,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 64649,
+        "instructionsPeak": 86309,
+        "callsMean": 318.17,
+        "callsTotal": 117339,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": -0.94
+    },
+    {
+      "key": "raidenshogun",
+      "action": "attack",
+      "before": {
+        "instructionsMean": 74600,
+        "instructionsPeak": 315043,
+        "callsMean": 545.63,
+        "callsTotal": 205475,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 73752,
+        "instructionsPeak": 315143,
+        "callsMean": 545.63,
+        "callsTotal": 205475,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": -1.14
+    }
+  ],
+  "candidateVisuals": [
+    {
+      "key": "nahida",
+      "variant": "seed",
+      "errors": false
+    },
+    {
+      "key": "nahida",
+      "variant": "leaf",
+      "errors": false
+    },
+    {
+      "key": "raidenshogun",
+      "variant": "thunder",
+      "errors": false
+    },
+    {
+      "key": "raidenshogun",
+      "variant": "lunge",
+      "errors": false
+    }
+  ],
+  "mixedWorkload": [
+    {
+      "key": "nahida",
+      "before": {
+        "instructionsMean": 69294,
+        "instructionsPeak": 315054,
+        "callsMean": 364.47,
+        "callsPeak": 3926,
+        "controls": 12122,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 67969,
+        "instructionsPeak": 314542,
+        "callsMean": 357.27,
+        "callsPeak": 3668,
+        "controls": 12122,
+        "errors": []
+      },
+      "scope": "same six input intents; changed rules and pictures, not pixel-equivalent"
+    },
+    {
+      "key": "raidenshogun",
+      "before": {
+        "instructionsMean": 72455,
+        "instructionsPeak": 322861,
+        "callsMean": 463.76,
+        "callsPeak": 3985,
+        "controls": 12122,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 68027,
+        "instructionsPeak": 318719,
+        "callsMean": 382.92,
+        "callsPeak": 3619,
+        "controls": 12122,
+        "errors": []
+      },
+      "scope": "same six input intents; changed rules and pictures, not pixel-equivalent"
+    }
+  ],
+  "scope": "offline Lua53/mock only; no native FPS acceptance"
+}

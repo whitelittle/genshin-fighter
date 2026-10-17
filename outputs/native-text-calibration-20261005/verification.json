@@ -1,0 +1,17 @@
+{
+  "structuralCheck": true,
+  "nativeVisualVerified": false,
+  "cases": [
+    "纯文字 / 换行",
+    "六位颜色 + 加粗",
+    "八位颜色 + 加粗",
+    "透明色与字格"
+  ],
+  "comparisons": [
+    "predefined vs Lua assignment",
+    "textbox vs textwindow"
+  ],
+  "independent": true,
+  "requiresPixelTemplate": false,
+  "requiresNetwork": false
+}

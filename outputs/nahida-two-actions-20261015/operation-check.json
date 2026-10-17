@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "action switch",
+    "seek and pause",
+    "step",
+    "mirror",
+    "movement",
+    "playback",
+    "transparent environment"
+  ],
+  "state": {
+    "action": "idle",
+    "frame": 1,
+    "paused": true,
+    "position": 0,
+    "mirror": 1,
+    "status": "idle 1/4 paused",
+    "images": 994,
+    "errors": []
+  },
+  "screenSize": [
+    1600,
+    900
+  ],
+  "nativeUIBackgroundRemoved": true
+}

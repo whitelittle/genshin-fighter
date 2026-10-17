@@ -1,0 +1,304 @@
+{
+  "checks": [
+    {
+      "selected": "idle",
+      "time": 0,
+      "total": 60,
+      "phase": 0,
+      "frames": 2,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "idle",
+      "time": 48,
+      "total": 60,
+      "phase": 1,
+      "frames": 2,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-inhale-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 0,
+      "total": 64,
+      "phase": 0,
+      "frames": 6,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 4,
+      "total": 64,
+      "phase": 1,
+      "frames": 6,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/heavy-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 14,
+      "total": 64,
+      "phase": 2,
+      "frames": 6,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/heavy-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 22,
+      "total": 64,
+      "phase": 3,
+      "frames": 6,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/heavy-2.png",
+      "effect": "torrent0",
+      "palm": [
+        548.36,
+        373.75
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 40,
+      "total": 64,
+      "phase": 4,
+      "frames": 6,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/heavy-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 56,
+      "total": 64,
+      "phase": 5,
+      "frames": 6,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "idle",
+      "time": 0,
+      "total": 60,
+      "phase": 0,
+      "frames": 2,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "idle",
+      "time": 48,
+      "total": 60,
+      "phase": 1,
+      "frames": 2,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-inhale-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 0,
+      "total": 64,
+      "phase": 0,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 4,
+      "total": 64,
+      "phase": 1,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/heavy-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 14,
+      "total": 64,
+      "phase": 2,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/heavy-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 22,
+      "total": 64,
+      "phase": 3,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/heavy-2.png",
+      "effect": "torrent0",
+      "palm": [
+        548.36,
+        373.75
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 40,
+      "total": 64,
+      "phase": 4,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/heavy-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "heavy",
+      "time": 56,
+      "total": 64,
+      "phase": 5,
+      "frames": 6,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    }
+  ],
+  "extra": {
+    "mirror": true,
+    "fullTorrentTick": 28
+  },
+  "consoleErrors": [],
+  "scope": "independent browser preview, not game simulator"
+}

@@ -1,0 +1,183 @@
+{
+  "stamp": "20261004_191546",
+  "filename": "gpt_20261004_191546_联机节点_常量修复_引用现有信号.gia",
+  "bytes": 23700,
+  "sha256": "6c4356a1f0f845dff817493ce07c2dd11eb9455493530df2af445f7567326233",
+  "graphId": 1073741928,
+  "signalBindings": {
+    "FighterHello": "信号_16",
+    "FighterSeat": "信号_15",
+    "FighterTeam": "信号_14",
+    "FighterTeamOut": "信号_13",
+    "FighterJoin": "信号_12",
+    "FighterJoined": "信号_17",
+    "FighterFrames": "信号_20",
+    "FighterFramesOut": "信号_19",
+    "FighterFlow": "信号_18",
+    "FighterFlowOut": "信号_11"
+  },
+  "requiredExistingResourceIds": [
+    1073741905,
+    1073741909,
+    1073741913,
+    1073741917,
+    1073741921,
+    1073741925,
+    1073741929,
+    1073741933,
+    1073741937,
+    1073741941
+  ],
+  "embeddedSignalDefinitions": 0,
+  "fixes": [
+    {
+      "node": 5,
+      "input": 1,
+      "before": 0,
+      "after": 1,
+      "literalState": 1
+    },
+    {
+      "node": 8,
+      "input": 1,
+      "before": 0,
+      "after": 2,
+      "literalState": 1
+    },
+    {
+      "node": 12,
+      "input": 1,
+      "before": 0,
+      "after": 1,
+      "literalState": 1
+    },
+    {
+      "node": 46,
+      "input": 2,
+      "before": 0,
+      "after": 0,
+      "literalState": 1
+    },
+    {
+      "node": 47,
+      "input": 2,
+      "before": 0,
+      "after": 0,
+      "literalState": 1
+    },
+    {
+      "node": 48,
+      "input": 2,
+      "before": 0,
+      "after": -1,
+      "literalState": 1
+    },
+    {
+      "node": 49,
+      "input": 2,
+      "before": 0,
+      "after": -1,
+      "literalState": 1
+    },
+    {
+      "node": 60,
+      "input": 1,
+      "before": 0,
+      "after": 0,
+      "literalState": 1
+    },
+    {
+      "node": 62,
+      "input": 1,
+      "before": 0,
+      "after": 0,
+      "literalState": 1
+    },
+    {
+      "node": 64,
+      "input": 1,
+      "before": 0,
+      "after": 0,
+      "literalState": 1
+    },
+    {
+      "node": 76,
+      "input": 0,
+      "before": 0,
+      "after": 2,
+      "literalState": 1
+    },
+    {
+      "node": 80,
+      "input": 0,
+      "before": 0,
+      "after": 2,
+      "literalState": 1
+    },
+    {
+      "node": 84,
+      "input": 0,
+      "before": 0,
+      "after": 3,
+      "literalState": 1
+    },
+    {
+      "node": 88,
+      "input": 0,
+      "before": 0,
+      "after": 210,
+      "literalState": 1
+    },
+    {
+      "node": 92,
+      "input": 0,
+      "before": 0,
+      "after": 19,
+      "literalState": 1
+    },
+    {
+      "node": 96,
+      "input": 0,
+      "before": 0,
+      "after": 19,
+      "literalState": 1
+    },
+    {
+      "node": 100,
+      "input": 0,
+      "before": 0,
+      "after": 19,
+      "literalState": 1
+    },
+    {
+      "node": 104,
+      "input": 0,
+      "before": 0,
+      "after": 3,
+      "literalState": 1
+    },
+    {
+      "node": 108,
+      "input": 0,
+      "before": 0,
+      "after": 2,
+      "literalState": 1
+    },
+    {
+      "node": 149,
+      "input": 0,
+      "before": 0,
+      "after": 3,
+      "literalState": 1
+    },
+    {
+      "node": 153,
+      "input": 0,
+      "before": 0,
+      "after": 2,
+      "literalState": 1
+    }
+  ],
+  "sameProjectOnly": true,
+  "officialImportVerified": false
+}

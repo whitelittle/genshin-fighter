@@ -1,0 +1,49 @@
+{
+  "structuralCheck": true,
+  "nativeVisualVerified": false,
+  "requiresB": false,
+  "requiresNetwork": false,
+  "cases": [
+    {
+      "label": "Uppercase",
+      "utf8Bytes": 81,
+      "scale": 1
+    },
+    {
+      "label": "Lowercase",
+      "utf8Bytes": 81,
+      "scale": 1
+    },
+    {
+      "label": "Uppercase scale 0.25",
+      "utf8Bytes": 81,
+      "scale": 0.25
+    },
+    {
+      "label": "Lowercase scale 0.25",
+      "utf8Bytes": 81,
+      "scale": 0.25
+    },
+    {
+      "label": "Uppercase padding 1024",
+      "utf8Bytes": 1156,
+      "scale": 1
+    },
+    {
+      "label": "Uppercase padding 8192",
+      "utf8Bytes": 8631,
+      "scale": 1
+    },
+    {
+      "label": "Uppercase padding 32768",
+      "utf8Bytes": 34231,
+      "scale": 1
+    },
+    {
+      "label": "Uppercase padding 131072",
+      "utf8Bytes": 136631,
+      "scale": 1
+    }
+  ],
+  "limitation": "Padding uses empty color spans to isolate length. Actual portrait layout and glyph-count limits still require separate native verification."
+}

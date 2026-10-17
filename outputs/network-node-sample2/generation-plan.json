@@ -1,0 +1,68 @@
+{
+  "schemaSource": "联机节点图2.gia",
+  "exportGate": {
+    "ready": false,
+    "missing": [
+      "FighterFlow",
+      "FighterFlowOut"
+    ]
+  },
+  "targetLogic": [
+    {
+      "signal": "FighterHello",
+      "retain": "list index 0/1; entity P1/P2; Seat 1/2",
+      "reset": "none on repeated Hello"
+    },
+    {
+      "signal": "FighterTeam",
+      "parameters": 11,
+      "checks": [
+        "Slot 1/2",
+        "Role 0..19",
+        "Ready 0..3",
+        "Ready 1/2 requires three distinct nonzero roles",
+        "Stage 1..210",
+        "Round 1..3",
+        "drop old Epoch",
+        "new Epoch clears both Ready/Revision",
+        "drop old per-slot Revision; equality may rebroadcast"
+      ],
+      "writes": [
+        "P1Role1..3/P1Ready/P1Revision or P2 counterpart",
+        "P1 Stage/Round/Wins1/Wins2"
+      ],
+      "send": "both P1 and P2"
+    },
+    {
+      "signal": "FighterJoin",
+      "parameters": 1,
+      "checks": [
+        "Epoch matches",
+        "both Ready=2",
+        "both players present"
+      ],
+      "send": "both Joined(Epoch); repeat allowed"
+    },
+    {
+      "signal": "FighterFrames",
+      "parameters": 5,
+      "checks": [
+        "Slot 1/2",
+        "Epoch matches",
+        "current round ready"
+      ],
+      "send": "Slot1 to P2; Slot2 to P1; Payload unchanged"
+    },
+    {
+      "signal": "FighterFlow",
+      "parameters": 4,
+      "checks": [
+        "Slot 1/2",
+        "Action 1/2/3",
+        "Action1 current Epoch; exits allow adjacent Epoch per client"
+      ],
+      "send": "both FlowOut; client handles votes and transitions"
+    }
+  ],
+  "status": "Generation specification; not an exported playable graph"
+}

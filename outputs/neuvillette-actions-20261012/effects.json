@@ -1,0 +1,200 @@
+{
+  "torrent0": {
+    "source": {
+      "file": "frames/torrent-0.png",
+      "source": "source/torrent-fx-v1.png",
+      "sourceOrigin": [
+        35,
+        20
+      ],
+      "roi": [
+        67,
+        52,
+        979,
+        280
+      ],
+      "anchor": [
+        40,
+        150
+      ],
+      "scale": 0.17,
+      "extraction": "alpha64 connected support",
+      "sourceHash": "b56783b12674b257feb926193f9d47d7d0878b14d9ea3d9ab9f954efa9bbd683"
+    },
+    "fit": {
+      "file": "fit/torrent-0.png",
+      "anchor": [
+        4,
+        8
+      ],
+      "scale": 4.5,
+      "rectData": "fit/torrent-0.json",
+      "rectangles": 66
+    }
+  },
+  "torrent1": {
+    "source": {
+      "file": "frames/torrent-1.png",
+      "source": "source/torrent-fx-v1.png",
+      "sourceOrigin": [
+        35,
+        271
+      ],
+      "roi": [
+        67,
+        303,
+        1871,
+        540
+      ],
+      "anchor": [
+        40,
+        154
+      ],
+      "scale": 0.17,
+      "extraction": "alpha64 connected support",
+      "sourceHash": "b56783b12674b257feb926193f9d47d7d0878b14d9ea3d9ab9f954efa9bbd683"
+    },
+    "fit": {
+      "file": "fit/torrent-1.png",
+      "anchor": [
+        4,
+        8
+      ],
+      "scale": 4.5,
+      "rectData": "fit/torrent-1.json",
+      "rectangles": 139
+    }
+  },
+  "torrent2": {
+    "source": {
+      "file": "frames/torrent-2.png",
+      "source": "source/torrent-fx-v1.png",
+      "sourceOrigin": [
+        35,
+        526
+      ],
+      "roi": [
+        67,
+        558,
+        1875,
+        791
+      ],
+      "anchor": [
+        40,
+        149
+      ],
+      "scale": 0.17,
+      "extraction": "alpha64 connected support",
+      "sourceHash": "b56783b12674b257feb926193f9d47d7d0878b14d9ea3d9ab9f954efa9bbd683"
+    },
+    "fit": {
+      "file": "fit/torrent-2.png",
+      "anchor": [
+        4,
+        8
+      ],
+      "scale": 4.5,
+      "rectData": "fit/torrent-2.json",
+      "rectangles": 139
+    }
+  },
+  "lightwave": {
+    "source": {
+      "file": "frames/lightwave-0.png",
+      "source": "source/lightwave-v1.png",
+      "sourceOrigin": [
+        279,
+        83
+      ],
+      "roi": [
+        311,
+        115,
+        1692,
+        674
+      ],
+      "anchor": [
+        47,
+        368
+      ],
+      "scale": 0.075,
+      "extraction": "alpha64 connected support",
+      "sourceHash": "e8c979303ec60e46ea4ee47c216c0114eb6c0ca61de565e9bdb994a5431d097b"
+    },
+    "fit": {
+      "file": "fit/lightwave-0.png",
+      "anchor": [
+        3,
+        9
+      ],
+      "scale": 4.5,
+      "rectData": "fit/lightwave-0.json",
+      "rectangles": 60
+    }
+  },
+  "orb": {
+    "source": {
+      "file": "frames/orb-guard-0.png",
+      "source": "source/orb-guard-fx-v1.png",
+      "sourceOrigin": [
+        199,
+        21
+      ],
+      "roi": [
+        231,
+        53,
+        793,
+        582
+      ],
+      "anchor": [
+        311,
+        299
+      ],
+      "scale": 0.1,
+      "extraction": "alpha64 connected support",
+      "sourceHash": "394c4e5728b10fc5fd6bae8ab53b32607d8918e22d84853e0aad0db4289651a8"
+    },
+    "fit": {
+      "file": "fit/orb-guard-0.png",
+      "anchor": [
+        9,
+        9
+      ],
+      "scale": 4.5,
+      "rectData": "fit/orb-guard-0.json",
+      "rectangles": 65
+    }
+  },
+  "guard": {
+    "source": {
+      "file": "frames/orb-guard-1.png",
+      "source": "source/orb-guard-fx-v1.png",
+      "sourceOrigin": [
+        355,
+        651
+      ],
+      "roi": [
+        387,
+        683,
+        702,
+        1506
+      ],
+      "anchor": [
+        75,
+        444
+      ],
+      "scale": 0.1,
+      "extraction": "alpha64 connected support",
+      "sourceHash": "394c4e5728b10fc5fd6bae8ab53b32607d8918e22d84853e0aad0db4289651a8"
+    },
+    "fit": {
+      "file": "fit/orb-guard-1.png",
+      "anchor": [
+        4,
+        12
+      ],
+      "scale": 4.5,
+      "rectData": "fit/orb-guard-1.json",
+      "rectangles": 40
+    }
+  }
+}

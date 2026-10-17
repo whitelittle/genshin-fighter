@@ -1,0 +1,186 @@
+[
+  {
+    "action": "idle",
+    "frame": 0,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 14.603,
+      "wholeCanvasRGBMSE": 0.002538,
+      "silhouetteIoU": 0.97169
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 15.055,
+      "wholeCanvasRGBMSE": 0.002756,
+      "silhouetteIoU": 0.96789
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 14.603,
+      "wholeCanvasRGBMSE": 0.002538,
+      "silhouetteIoU": 0.97169
+    }
+  },
+  {
+    "action": "idle",
+    "frame": 1,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 27.769,
+      "wholeCanvasRGBMSE": 0.010088,
+      "silhouetteIoU": 0.74342
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 31.297,
+      "wholeCanvasRGBMSE": 0.01635,
+      "silhouetteIoU": 0.7314
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 27.769,
+      "wholeCanvasRGBMSE": 0.010088,
+      "silhouetteIoU": 0.74342
+    }
+  },
+  {
+    "action": "idle",
+    "frame": 2,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 28.664,
+      "wholeCanvasRGBMSE": 0.011012,
+      "silhouetteIoU": 0.6802
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 35.516,
+      "wholeCanvasRGBMSE": 0.018813,
+      "silhouetteIoU": 0.73591
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 28.664,
+      "wholeCanvasRGBMSE": 0.011012,
+      "silhouetteIoU": 0.6802
+    }
+  },
+  {
+    "action": "idle",
+    "frame": 3,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 29.184,
+      "wholeCanvasRGBMSE": 0.010282,
+      "silhouetteIoU": 0.80556
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 29.742,
+      "wholeCanvasRGBMSE": 0.016343,
+      "silhouetteIoU": 0.78471
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 29.184,
+      "wholeCanvasRGBMSE": 0.010282,
+      "silhouetteIoU": 0.80556
+    }
+  },
+  {
+    "action": "move",
+    "frame": 0,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 40.57,
+      "wholeCanvasRGBMSE": 0.019323,
+      "silhouetteIoU": 0.71048
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 52.324,
+      "wholeCanvasRGBMSE": 0.037592,
+      "silhouetteIoU": 0.63485
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 40.57,
+      "wholeCanvasRGBMSE": 0.019323,
+      "silhouetteIoU": 0.71048
+    }
+  },
+  {
+    "action": "move",
+    "frame": 1,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 42.274,
+      "wholeCanvasRGBMSE": 0.022459,
+      "silhouetteIoU": 0.63556
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 52.63,
+      "wholeCanvasRGBMSE": 0.041718,
+      "silhouetteIoU": 0.59936
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 42.274,
+      "wholeCanvasRGBMSE": 0.022459,
+      "silhouetteIoU": 0.63556
+    }
+  },
+  {
+    "action": "move",
+    "frame": 2,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 43.152,
+      "wholeCanvasRGBMSE": 0.021767,
+      "silhouetteIoU": 0.608
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 53.205,
+      "wholeCanvasRGBMSE": 0.048211,
+      "silhouetteIoU": 0.6004
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 43.152,
+      "wholeCanvasRGBMSE": 0.021767,
+      "silhouetteIoU": 0.608
+    }
+  },
+  {
+    "action": "move",
+    "frame": 3,
+    "before": {
+      "images": 994,
+      "foregroundRGBMAE": 44.18,
+      "wholeCanvasRGBMSE": 0.022227,
+      "silhouetteIoU": 0.64147
+    },
+    "flowSeed": {
+      "images": 994,
+      "foregroundRGBMAE": 54.659,
+      "wholeCanvasRGBMSE": 0.044855,
+      "silhouetteIoU": 0.6361
+    },
+    "accepted": false,
+    "final": {
+      "images": 994,
+      "foregroundRGBMAE": 44.18,
+      "wholeCanvasRGBMSE": 0.022227,
+      "silhouetteIoU": 0.64147
+    }
+  }
+]

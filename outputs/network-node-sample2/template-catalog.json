@@ -1,0 +1,1717 @@
+{
+  "sourceName": "联机节点图2.gia",
+  "losslessWireRoundtrip": true,
+  "nodeCount": 52,
+  "sourceModified": false,
+  "sourceIdentityValidation": false,
+  "definedSignals": [
+    "FighterHello",
+    "FighterSeat",
+    "FighterJoin",
+    "FighterJoined",
+    "FighterFramesOut",
+    "FighterFrames",
+    "FighterTeamOut",
+    "FighterTeam"
+  ],
+  "missingSignals": [
+    "FighterFlow",
+    "FighterFlowOut"
+  ],
+  "variableNamesSeen": [
+    "P1",
+    "P2",
+    "Started",
+    "Epoch"
+  ],
+  "definitions": [
+    {
+      "definitionId": 1073741825,
+      "kind": "监听信号",
+      "signal": "FighterHello",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 9
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 10
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 11
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741826,
+      "kind": "发送信号",
+      "signal": "FighterHello",
+      "ports": []
+    },
+    {
+      "definitionId": 1073741827,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterHello",
+      "ports": []
+    },
+    {
+      "definitionId": 1073741828,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterHello",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 25
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741829,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterSeat",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 44
+        },
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 48
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741830,
+      "kind": "发送信号",
+      "signal": "FighterSeat",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 45
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741831,
+      "kind": "监听信号",
+      "signal": "FighterSeat",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 34
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 35
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 36
+        },
+        {
+          "name": "Slot",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 46
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741832,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterSeat",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 47
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741833,
+      "kind": "监听信号",
+      "signal": "FighterJoin",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 54
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 55
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 56
+        },
+        {
+          "name": "Epoch",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 5
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741834,
+      "kind": "发送信号",
+      "signal": "FighterJoin",
+      "ports": [
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 4
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741835,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterJoin",
+      "ports": [
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 6
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741836,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterJoin",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 64
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 12
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741837,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterJoined",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 80
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 20
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741838,
+      "kind": "发送信号",
+      "signal": "FighterJoined",
+      "ports": [
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 13
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741839,
+      "kind": "监听信号",
+      "signal": "FighterJoined",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 70
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 71
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 72
+        },
+        {
+          "name": "Epoch",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 14
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741840,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterJoined",
+      "ports": [
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 19
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741845,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterFramesOut",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 112
+        },
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 141
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 142
+        },
+        {
+          "name": "AckFrame",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 143
+        },
+        {
+          "name": "Payload",
+          "kind": 3,
+          "index": 4,
+          "type": 6,
+          "pinId": 144
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 152
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741846,
+      "kind": "发送信号",
+      "signal": "FighterFramesOut",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 129
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 130
+        },
+        {
+          "name": "AckFrame",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 131
+        },
+        {
+          "name": "Payload",
+          "kind": 3,
+          "index": 3,
+          "type": 6,
+          "pinId": 132
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 149
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741847,
+      "kind": "监听信号",
+      "signal": "FighterFramesOut",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 102
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 103
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 104
+        },
+        {
+          "name": "Slot",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 133
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 4,
+          "index": 4,
+          "type": 3,
+          "pinId": 134
+        },
+        {
+          "name": "AckFrame",
+          "kind": 4,
+          "index": 5,
+          "type": 3,
+          "pinId": 135
+        },
+        {
+          "name": "Payload",
+          "kind": 4,
+          "index": 6,
+          "type": 6,
+          "pinId": 136
+        },
+        {
+          "name": "Epoch",
+          "kind": 4,
+          "index": 7,
+          "type": 3,
+          "pinId": 150
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741848,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterFramesOut",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 137
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 138
+        },
+        {
+          "name": "AckFrame",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 139
+        },
+        {
+          "name": "Payload",
+          "kind": 3,
+          "index": 3,
+          "type": 9,
+          "pinId": 140
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 151
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741841,
+      "kind": "监听信号",
+      "signal": "FighterFrames",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 86
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 87
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 88
+        },
+        {
+          "name": "Slot",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 116
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 4,
+          "index": 4,
+          "type": 3,
+          "pinId": 117
+        },
+        {
+          "name": "AckFrame",
+          "kind": 4,
+          "index": 5,
+          "type": 3,
+          "pinId": 118
+        },
+        {
+          "name": "Payload",
+          "kind": 4,
+          "index": 6,
+          "type": 6,
+          "pinId": 126
+        },
+        {
+          "name": "Epoch",
+          "kind": 4,
+          "index": 7,
+          "type": 3,
+          "pinId": 26
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741842,
+      "kind": "发送信号",
+      "signal": "FighterFrames",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 113
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 114
+        },
+        {
+          "name": "AckFrame",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 115
+        },
+        {
+          "name": "Payload",
+          "kind": 3,
+          "index": 3,
+          "type": 6,
+          "pinId": 125
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 21
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741843,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterFrames",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 27
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 28
+        },
+        {
+          "name": "AckFrame",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 145
+        },
+        {
+          "name": "Payload",
+          "kind": 3,
+          "index": 3,
+          "type": 9,
+          "pinId": 146
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 147
+        }
+      ]
+    },
+    {
+      "definitionId": 1073741844,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterFrames",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 96
+        },
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 122
+        },
+        {
+          "name": "FirstFrame",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 123
+        },
+        {
+          "name": "AckFrame",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 124
+        },
+        {
+          "name": "Payload",
+          "kind": 3,
+          "index": 4,
+          "type": 6,
+          "pinId": 128
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 148
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612744,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterTeamOut",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 261
+        },
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 262
+        },
+        {
+          "name": "Role1",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 263
+        },
+        {
+          "name": "Role2",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 264
+        },
+        {
+          "name": "Role3",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 265
+        },
+        {
+          "name": "Ready",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 266
+        },
+        {
+          "name": "Stage",
+          "kind": 3,
+          "index": 6,
+          "type": 3,
+          "pinId": 267
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 7,
+          "type": 3,
+          "pinId": 268
+        },
+        {
+          "name": "Revision",
+          "kind": 3,
+          "index": 8,
+          "type": 3,
+          "pinId": 269
+        },
+        {
+          "name": "Round",
+          "kind": 3,
+          "index": 9,
+          "type": 3,
+          "pinId": 270
+        },
+        {
+          "name": "Wins1",
+          "kind": 3,
+          "index": 10,
+          "type": 3,
+          "pinId": 271
+        },
+        {
+          "name": "Wins2",
+          "kind": 3,
+          "index": 11,
+          "type": 3,
+          "pinId": 272
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612741,
+      "kind": "发送信号",
+      "signal": "FighterTeamOut",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 216
+        },
+        {
+          "name": "Role1",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 217
+        },
+        {
+          "name": "Role2",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 218
+        },
+        {
+          "name": "Role3",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 219
+        },
+        {
+          "name": "Ready",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 220
+        },
+        {
+          "name": "Stage",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 221
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 6,
+          "type": 3,
+          "pinId": 222
+        },
+        {
+          "name": "Revision",
+          "kind": 3,
+          "index": 7,
+          "type": 3,
+          "pinId": 223
+        },
+        {
+          "name": "Round",
+          "kind": 3,
+          "index": 8,
+          "type": 3,
+          "pinId": 224
+        },
+        {
+          "name": "Wins1",
+          "kind": 3,
+          "index": 9,
+          "type": 3,
+          "pinId": 225
+        },
+        {
+          "name": "Wins2",
+          "kind": 3,
+          "index": 10,
+          "type": 3,
+          "pinId": 226
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612742,
+      "kind": "监听信号",
+      "signal": "FighterTeamOut",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 229
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 230
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 231
+        },
+        {
+          "name": "Slot",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 232
+        },
+        {
+          "name": "Role1",
+          "kind": 4,
+          "index": 4,
+          "type": 3,
+          "pinId": 233
+        },
+        {
+          "name": "Role2",
+          "kind": 4,
+          "index": 5,
+          "type": 3,
+          "pinId": 234
+        },
+        {
+          "name": "Role3",
+          "kind": 4,
+          "index": 6,
+          "type": 3,
+          "pinId": 235
+        },
+        {
+          "name": "Ready",
+          "kind": 4,
+          "index": 7,
+          "type": 3,
+          "pinId": 236
+        },
+        {
+          "name": "Stage",
+          "kind": 4,
+          "index": 8,
+          "type": 3,
+          "pinId": 237
+        },
+        {
+          "name": "Epoch",
+          "kind": 4,
+          "index": 9,
+          "type": 3,
+          "pinId": 238
+        },
+        {
+          "name": "Revision",
+          "kind": 4,
+          "index": 10,
+          "type": 3,
+          "pinId": 239
+        },
+        {
+          "name": "Round",
+          "kind": 4,
+          "index": 11,
+          "type": 3,
+          "pinId": 240
+        },
+        {
+          "name": "Wins1",
+          "kind": 4,
+          "index": 12,
+          "type": 3,
+          "pinId": 241
+        },
+        {
+          "name": "Wins2",
+          "kind": 4,
+          "index": 13,
+          "type": 3,
+          "pinId": 242
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612743,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterTeamOut",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 247
+        },
+        {
+          "name": "Role1",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 248
+        },
+        {
+          "name": "Role2",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 249
+        },
+        {
+          "name": "Role3",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 250
+        },
+        {
+          "name": "Ready",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 251
+        },
+        {
+          "name": "Stage",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 252
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 6,
+          "type": 3,
+          "pinId": 253
+        },
+        {
+          "name": "Revision",
+          "kind": 3,
+          "index": 7,
+          "type": 3,
+          "pinId": 254
+        },
+        {
+          "name": "Round",
+          "kind": 3,
+          "index": 8,
+          "type": 3,
+          "pinId": 255
+        },
+        {
+          "name": "Wins1",
+          "kind": 3,
+          "index": 9,
+          "type": 3,
+          "pinId": 256
+        },
+        {
+          "name": "Wins2",
+          "kind": 3,
+          "index": 10,
+          "type": 3,
+          "pinId": 257
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612738,
+      "kind": "监听信号",
+      "signal": "FighterTeam",
+      "ports": [
+        {
+          "name": "事件源实体",
+          "kind": 4,
+          "index": 0,
+          "type": 1,
+          "pinId": 169
+        },
+        {
+          "name": "事件源GUID",
+          "kind": 4,
+          "index": 1,
+          "type": 2,
+          "pinId": 170
+        },
+        {
+          "name": "信号来源实体",
+          "kind": 4,
+          "index": 2,
+          "type": 1,
+          "pinId": 171
+        },
+        {
+          "name": "Slot",
+          "kind": 4,
+          "index": 3,
+          "type": 3,
+          "pinId": 172
+        },
+        {
+          "name": "Role1",
+          "kind": 4,
+          "index": 4,
+          "type": 3,
+          "pinId": 173
+        },
+        {
+          "name": "Role2",
+          "kind": 4,
+          "index": 5,
+          "type": 3,
+          "pinId": 174
+        },
+        {
+          "name": "Role3",
+          "kind": 4,
+          "index": 6,
+          "type": 3,
+          "pinId": 175
+        },
+        {
+          "name": "Ready",
+          "kind": 4,
+          "index": 7,
+          "type": 3,
+          "pinId": 176
+        },
+        {
+          "name": "Stage",
+          "kind": 4,
+          "index": 8,
+          "type": 3,
+          "pinId": 177
+        },
+        {
+          "name": "Epoch",
+          "kind": 4,
+          "index": 9,
+          "type": 3,
+          "pinId": 178
+        },
+        {
+          "name": "Revision",
+          "kind": 4,
+          "index": 10,
+          "type": 3,
+          "pinId": 179
+        },
+        {
+          "name": "Round",
+          "kind": 4,
+          "index": 11,
+          "type": 3,
+          "pinId": 180
+        },
+        {
+          "name": "Wins1",
+          "kind": 4,
+          "index": 12,
+          "type": 3,
+          "pinId": 181
+        },
+        {
+          "name": "Wins2",
+          "kind": 4,
+          "index": 13,
+          "type": 3,
+          "pinId": 182
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612737,
+      "kind": "发送信号",
+      "signal": "FighterTeam",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 156
+        },
+        {
+          "name": "Role1",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 157
+        },
+        {
+          "name": "Role2",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 158
+        },
+        {
+          "name": "Role3",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 159
+        },
+        {
+          "name": "Ready",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 160
+        },
+        {
+          "name": "Stage",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 161
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 6,
+          "type": 3,
+          "pinId": 162
+        },
+        {
+          "name": "Revision",
+          "kind": 3,
+          "index": 7,
+          "type": 3,
+          "pinId": 163
+        },
+        {
+          "name": "Round",
+          "kind": 3,
+          "index": 8,
+          "type": 3,
+          "pinId": 164
+        },
+        {
+          "name": "Wins1",
+          "kind": 3,
+          "index": 9,
+          "type": 3,
+          "pinId": 165
+        },
+        {
+          "name": "Wins2",
+          "kind": 3,
+          "index": 10,
+          "type": 3,
+          "pinId": 166
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612739,
+      "kind": "向服务器节点图发送信号",
+      "signal": "FighterTeam",
+      "ports": [
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 0,
+          "type": 3,
+          "pinId": 187
+        },
+        {
+          "name": "Role1",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 188
+        },
+        {
+          "name": "Role2",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 189
+        },
+        {
+          "name": "Role3",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 190
+        },
+        {
+          "name": "Ready",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 191
+        },
+        {
+          "name": "Stage",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 192
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 6,
+          "type": 3,
+          "pinId": 193
+        },
+        {
+          "name": "Revision",
+          "kind": 3,
+          "index": 7,
+          "type": 3,
+          "pinId": 194
+        },
+        {
+          "name": "Round",
+          "kind": 3,
+          "index": 8,
+          "type": 3,
+          "pinId": 195
+        },
+        {
+          "name": "Wins1",
+          "kind": 3,
+          "index": 9,
+          "type": 3,
+          "pinId": 196
+        },
+        {
+          "name": "Wins2",
+          "kind": 3,
+          "index": 10,
+          "type": 3,
+          "pinId": 197
+        }
+      ]
+    },
+    {
+      "definitionId": 1610612740,
+      "kind": "发送客户端脚本信号",
+      "signal": "FighterTeam",
+      "ports": [
+        {
+          "name": "目标玩家",
+          "kind": 3,
+          "index": 0,
+          "type": 1,
+          "pinId": 201
+        },
+        {
+          "name": "Slot",
+          "kind": 3,
+          "index": 1,
+          "type": 3,
+          "pinId": 202
+        },
+        {
+          "name": "Role1",
+          "kind": 3,
+          "index": 2,
+          "type": 3,
+          "pinId": 203
+        },
+        {
+          "name": "Role2",
+          "kind": 3,
+          "index": 3,
+          "type": 3,
+          "pinId": 204
+        },
+        {
+          "name": "Role3",
+          "kind": 3,
+          "index": 4,
+          "type": 3,
+          "pinId": 205
+        },
+        {
+          "name": "Ready",
+          "kind": 3,
+          "index": 5,
+          "type": 3,
+          "pinId": 206
+        },
+        {
+          "name": "Stage",
+          "kind": 3,
+          "index": 6,
+          "type": 3,
+          "pinId": 207
+        },
+        {
+          "name": "Epoch",
+          "kind": 3,
+          "index": 7,
+          "type": 3,
+          "pinId": 208
+        },
+        {
+          "name": "Revision",
+          "kind": 3,
+          "index": 8,
+          "type": 3,
+          "pinId": 209
+        },
+        {
+          "name": "Round",
+          "kind": 3,
+          "index": 9,
+          "type": 3,
+          "pinId": 210
+        },
+        {
+          "name": "Wins1",
+          "kind": 3,
+          "index": 10,
+          "type": 3,
+          "pinId": 211
+        },
+        {
+          "name": "Wins2",
+          "kind": 3,
+          "index": 11,
+          "type": 3,
+          "pinId": 212
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "baseType": 1073741825,
+      "specializedType": 1073741825
+    },
+    {
+      "id": 2,
+      "baseType": 2,
+      "specializedType": 2
+    },
+    {
+      "id": 3,
+      "baseType": 248,
+      "specializedType": 248
+    },
+    {
+      "id": 4,
+      "baseType": 2,
+      "specializedType": 2
+    },
+    {
+      "id": 5,
+      "baseType": 142,
+      "specializedType": 144
+    },
+    {
+      "id": 6,
+      "baseType": 233,
+      "specializedType": 233
+    },
+    {
+      "id": 7,
+      "baseType": 22,
+      "specializedType": 24
+    },
+    {
+      "id": 8,
+      "baseType": 22,
+      "specializedType": 24
+    },
+    {
+      "id": 9,
+      "baseType": 1073741829,
+      "specializedType": 1073741829
+    },
+    {
+      "id": 10,
+      "baseType": 1073741829,
+      "specializedType": 1073741829
+    },
+    {
+      "id": 11,
+      "baseType": 1073741833,
+      "specializedType": 1073741833
+    },
+    {
+      "id": 12,
+      "baseType": 248,
+      "specializedType": 248
+    },
+    {
+      "id": 13,
+      "baseType": 128,
+      "specializedType": 130
+    },
+    {
+      "id": 14,
+      "baseType": 248,
+      "specializedType": 248
+    },
+    {
+      "id": 15,
+      "baseType": 128,
+      "specializedType": 130
+    },
+    {
+      "id": 16,
+      "baseType": 1,
+      "specializedType": 1
+    },
+    {
+      "id": 17,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 18,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 19,
+      "baseType": 142,
+      "specializedType": 144
+    },
+    {
+      "id": 20,
+      "baseType": 248,
+      "specializedType": 248
+    },
+    {
+      "id": 21,
+      "baseType": 233,
+      "specializedType": 233
+    },
+    {
+      "id": 22,
+      "baseType": 22,
+      "specializedType": 28
+    },
+    {
+      "id": 23,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 24,
+      "baseType": 1073741837,
+      "specializedType": 1073741837
+    },
+    {
+      "id": 25,
+      "baseType": 2,
+      "specializedType": 2
+    },
+    {
+      "id": 26,
+      "baseType": 50,
+      "specializedType": 52
+    },
+    {
+      "id": 27,
+      "baseType": 50,
+      "specializedType": 52
+    },
+    {
+      "id": 28,
+      "baseType": 1073741837,
+      "specializedType": 1073741837
+    },
+    {
+      "id": 30,
+      "baseType": 1,
+      "specializedType": 1
+    },
+    {
+      "id": 31,
+      "baseType": 50,
+      "specializedType": 56
+    },
+    {
+      "id": 32,
+      "baseType": 1073741845,
+      "specializedType": 1073741845
+    },
+    {
+      "id": 33,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 34,
+      "baseType": 2,
+      "specializedType": 2
+    },
+    {
+      "id": 35,
+      "baseType": 1073741845,
+      "specializedType": 1073741845
+    },
+    {
+      "id": 36,
+      "baseType": 1073741841,
+      "specializedType": 1073741841
+    },
+    {
+      "id": 37,
+      "baseType": 14,
+      "specializedType": 370
+    },
+    {
+      "id": 39,
+      "baseType": 2,
+      "specializedType": 2
+    },
+    {
+      "id": 40,
+      "baseType": 50,
+      "specializedType": 52
+    },
+    {
+      "id": 41,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 42,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 43,
+      "baseType": 50,
+      "specializedType": 52
+    },
+    {
+      "id": 44,
+      "baseType": 14,
+      "specializedType": 370
+    },
+    {
+      "id": 45,
+      "baseType": 2,
+      "specializedType": 2
+    },
+    {
+      "id": 46,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 48,
+      "baseType": 22,
+      "specializedType": 22
+    },
+    {
+      "id": 50,
+      "baseType": 1610612744,
+      "specializedType": 1610612744
+    },
+    {
+      "id": 51,
+      "baseType": 1610612738,
+      "specializedType": 1610612738
+    },
+    {
+      "id": 52,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 53,
+      "baseType": 50,
+      "specializedType": 50
+    },
+    {
+      "id": 54,
+      "baseType": 232,
+      "specializedType": 232
+    },
+    {
+      "id": 55,
+      "baseType": 73,
+      "specializedType": 73
+    },
+    {
+      "id": 56,
+      "baseType": 50,
+      "specializedType": 52
+    }
+  ]
+}

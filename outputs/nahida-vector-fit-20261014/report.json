@@ -1,0 +1,42 @@
+{
+  "source": "outputs/motion-production/nahida-normal-v2/basic-v1.png",
+  "sourceSheetSize": [
+    1374,
+    1145
+  ],
+  "sourceCrop": [
+    89,
+    6,
+    201,
+    304
+  ],
+  "sourceSize": [
+    201,
+    304
+  ],
+  "inputIsOriginalLargeCrop": true,
+  "variants": {
+    "14color": {
+      "colors": 14,
+      "colorPaths": 12,
+      "closedContours": 733,
+      "controlPoints": 8788,
+      "discardedTinyContours": 5465,
+      "curveTolerance": 0.85,
+      "minRegionArea": 7
+    },
+    "24color": {
+      "colors": 24,
+      "colorPaths": 21,
+      "closedContours": 2121,
+      "controlPoints": 24828,
+      "discardedTinyContours": 6288,
+      "curveTolerance": 0.55,
+      "minRegionArea": 3
+    }
+  },
+  "status": "vector-contour-study",
+  "nativeGenshinPrimitiveCount": null,
+  "deviceVerified": false,
+  "gameSourceChanged": false
+}

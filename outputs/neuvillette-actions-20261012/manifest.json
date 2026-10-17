@@ -1,0 +1,818 @@
+{
+  "candidate": true,
+  "tool": "built-in image_gen; local extraction/fitting only",
+  "files": [
+    {
+      "path": "action-data.js",
+      "sha256": "29935a77b0aec882d73dbfb8259f6339c1493e43380af62edd8ff13bcd30bda6"
+    },
+    {
+      "path": "actions.json",
+      "sha256": "6e83d43e59236324587de05dd887e3546fde5c4f1d8f475d19ed24835e452672"
+    },
+    {
+      "path": "browser-batch2.json",
+      "sha256": "9e5c752c93545343ea06989a2dd3d3c16190527c1ac2e82094a796953efe6d8c"
+    },
+    {
+      "path": "browser-batch3.json",
+      "sha256": "c7ed07b6c0188b7f2aa7ebe51f1d13218601956ce8ec8fc4dff45de509a3e41e"
+    },
+    {
+      "path": "browser-initial.json",
+      "sha256": "8eb80e610aa811b7ce856f8fe0765632ba553749a5b71661224f051f56bb6292"
+    },
+    {
+      "path": "current-status.json",
+      "sha256": "7702a70cafd1409ad96bcb3b90aaffcdbf802b2c3834f006f27ee98cb0906097"
+    },
+    {
+      "path": "effect-data.js",
+      "sha256": "6eaaca5bbe0a1261212b36f02a8c5b642d6ce272fe28cab37888f7db5d52feba"
+    },
+    {
+      "path": "effects.json",
+      "sha256": "ec94c5e16aa0fae313e72510dfa79898fbf806588578d3e67f56aa569ee82d1d"
+    },
+    {
+      "path": "evidence/browser-batch2-light1.png",
+      "sha256": "d91825c7e2e2c8e76fa8f95d546423bb10e721fc15a413c5b9584d2b0a3599de"
+    },
+    {
+      "path": "evidence/browser-batch3-light3.png",
+      "sha256": "c7a62ecd931074357c604e16e8acd9113bccb5d226c43251e6a7aa80dcb2c638"
+    },
+    {
+      "path": "evidence/browser-heavy-fit.png",
+      "sha256": "cfad4f562857e7b921d5154519dbb4fe48f1b406e431c873f816726a8f02e871"
+    },
+    {
+      "path": "evidence/heavy-fit-preview.gif",
+      "sha256": "34055d2e40a122b9364a2cba43b181201bd649a5de32e00a691dc6f82f0a5e68"
+    },
+    {
+      "path": "evidence/mother-v2-white.jpg",
+      "sha256": "646d83732e1ad7ee84d2af0a4053234def731edb659a07ac07fddd6b5747a0f5"
+    },
+    {
+      "path": "evidence/mother-world-light-dark.jpg",
+      "sha256": "8672d898e2a84c5272a389c853d76e64eea1362bd32084b8a26f6ee05636103d"
+    },
+    {
+      "path": "fit/backwalk-0.json",
+      "sha256": "b545f6a4d6ebce904cbab9ce4374823d2f2584b560a323c75a7ed6612b5f5911"
+    },
+    {
+      "path": "fit/backwalk-0.png",
+      "sha256": "4d8e769156d20c7829a91f2444aeb15d75f1dab1336b483a1cde23c2b083c1e6"
+    },
+    {
+      "path": "fit/backwalk-1.json",
+      "sha256": "cf32806dd630fd10f7e0cd122d4168ca3ff0661a7bb1d3be74e430dea0daa8ab"
+    },
+    {
+      "path": "fit/backwalk-1.png",
+      "sha256": "5a929113318dd5f31427ec48eec6917891345cd3efd5506783c848d97a284a85"
+    },
+    {
+      "path": "fit/backwalk-2.json",
+      "sha256": "ba21dc8e86379c745a5924bdee6c6d4103bea33ec280415d914b38df95c1ea0c"
+    },
+    {
+      "path": "fit/backwalk-2.png",
+      "sha256": "b37ca5b14239a3b7144f514f3a776f149b11e08825d122870f837af4b4cae0a0"
+    },
+    {
+      "path": "fit/backwalk-3.json",
+      "sha256": "d7423c1745a6e3aeae56d47b3a1d9dbf4e4de63daec4abcd9d7bb04583349bbc"
+    },
+    {
+      "path": "fit/backwalk-3.png",
+      "sha256": "436de8229b8518fe8261221e0eb87565d3c52c2eb0ad2285e5485738cc34c935"
+    },
+    {
+      "path": "fit/backwalk-4.json",
+      "sha256": "6709b8906ae8c492789b4bdd54f93d0d9a276db0b331f11adb8087e5819cb3b7"
+    },
+    {
+      "path": "fit/backwalk-4.png",
+      "sha256": "3c9a6b5d4e10d4bb1d18a432e7149414129ff8826864108e1af62b3b223918fd"
+    },
+    {
+      "path": "fit/backwalk-5.json",
+      "sha256": "be081b9875e32f94d98f4dd06d3cb8e10c52e2a1dd285597de9efbc008c97482"
+    },
+    {
+      "path": "fit/backwalk-5.png",
+      "sha256": "ca62cc827b249fe0b0fddb3fe7e785eaa0d6cfae759829cbb1ccf51751ca5fe9"
+    },
+    {
+      "path": "fit/crouch-v2-0.json",
+      "sha256": "fcd911cd35044b36c61e4e1c262470acdf1bfbd0770536282523fb6ec07565b6"
+    },
+    {
+      "path": "fit/crouch-v2-0.png",
+      "sha256": "8e04e4689ad3f1128b8db8564ea987fb7591fe5c8e7f1f495e19d4b279893a51"
+    },
+    {
+      "path": "fit/crouch-v2-1.json",
+      "sha256": "fb458b2f009e250ed356265344bba650c716d3fb023027133435f61f5e18058f"
+    },
+    {
+      "path": "fit/crouch-v2-1.png",
+      "sha256": "28cd290c5e48132a914825357d6b79e37f0166b4c559ff6358e158a0dfbf46b9"
+    },
+    {
+      "path": "fit/crouch-v2-2.json",
+      "sha256": "c46727d980d14d026ef9f1cd0a9ae2196260b9daef48acc3932ae4ffb96fb6c4"
+    },
+    {
+      "path": "fit/crouch-v2-2.png",
+      "sha256": "920874b5536118acebb0e363436033768205dbdccdac22bb9a90c3260b8b6dd5"
+    },
+    {
+      "path": "fit/crouch-v2-3.json",
+      "sha256": "aed00d7ee986939180a3fd182f573744dffd8b50b874dde1e933a251d1bbe71b"
+    },
+    {
+      "path": "fit/crouch-v2-3.png",
+      "sha256": "a271e397a79f757baf81c3579f0243a62b8308d1ff0a5d82ce063ad2d05c03df"
+    },
+    {
+      "path": "fit/crouchguard-v2-0.json",
+      "sha256": "ad8efbdac80fee9c032c8ce8c5659eec85ec14ebbccc3b691aaa317760ece00d"
+    },
+    {
+      "path": "fit/crouchguard-v2-0.png",
+      "sha256": "a99d1ac4c37ac3d7c4f739d80e26ce4e51dd6b964b45841857ec00aaf1bb27a4"
+    },
+    {
+      "path": "fit/crouchguard-v2-1.json",
+      "sha256": "5856aac4584663e5263f5b0b226901851d4c8b2483f232b84e7d5fd43fb2b299"
+    },
+    {
+      "path": "fit/crouchguard-v2-1.png",
+      "sha256": "4ec22364e07e50a0431339d651e17a0cdbf57a5fe4eb8beb9be06fec490770a3"
+    },
+    {
+      "path": "fit/crouchguard-v2-2.json",
+      "sha256": "cc368b8c1be322702b948b2c1e9be1052018ef15eb4892f312c081ff0d295838"
+    },
+    {
+      "path": "fit/crouchguard-v2-2.png",
+      "sha256": "af84200e2902025f1e662daad358d1587ba321c9e43ca1a8fa125162fcc222b5"
+    },
+    {
+      "path": "fit/crouchguard-v2-3.json",
+      "sha256": "a86f1a373599fceda854561174facea58f19d9fea43b97378d8936911287c41a"
+    },
+    {
+      "path": "fit/crouchguard-v2-3.png",
+      "sha256": "421955e4b48ebb23b2d80ef336652dc9904c10632541f7ab046397757d254ef4"
+    },
+    {
+      "path": "fit/heavy-0.json",
+      "sha256": "6014ee3215a9c352a94ff7c2f4d73ede0f47a37b9c0423c21deabb0a8b2e3a3b"
+    },
+    {
+      "path": "fit/heavy-0.png",
+      "sha256": "56627074f9e5661445f78c3e961ecb4823cae9ca9e057552d649610ef95fcf69"
+    },
+    {
+      "path": "fit/heavy-1.json",
+      "sha256": "7d857e87fb06576327bb75760111493e5b80f1fcf4ad85478a211a6824861e59"
+    },
+    {
+      "path": "fit/heavy-1.png",
+      "sha256": "046da104f0599c8de96c200e52c426b96f0511dce4afa8d988f24c59dd2492d6"
+    },
+    {
+      "path": "fit/heavy-2.json",
+      "sha256": "618afb6e41c2044698293dc92ad71bd13a344898fe92eb0912c0c83319b54f43"
+    },
+    {
+      "path": "fit/heavy-2.png",
+      "sha256": "03aa752a6b16dcb6b51e6b2f1bac90c121745c4db27e922e0b7f58c3763809d8"
+    },
+    {
+      "path": "fit/heavy-3.json",
+      "sha256": "76c06f2cd8be0f2f0727c8f423516b4a8e933bc210e52fd8eba96e50aa60190f"
+    },
+    {
+      "path": "fit/heavy-3.png",
+      "sha256": "32ad85f32717e1b131bce487f9672cd236c80fbd26ab82d25971bd0301239f8e"
+    },
+    {
+      "path": "fit/idle-inhale-0.json",
+      "sha256": "82c4905c6bb0e688c2227b8bb1ca1f7247ad25dca534994c73c6820ac3f7d832"
+    },
+    {
+      "path": "fit/idle-inhale-0.png",
+      "sha256": "fa96e7f869200246c3251bf2f7dd11fb9e73204c8f6afc78fb0bd9114d587fe5"
+    },
+    {
+      "path": "fit/idle-open-0.json",
+      "sha256": "fddc6e00b671f1976ec97e257309ae292d9e7b17205f0af97774549fa2705367"
+    },
+    {
+      "path": "fit/idle-open-0.png",
+      "sha256": "fdad794e700f6e2fb026bc599b287d88902d8267a063944a42497fccbe152ead"
+    },
+    {
+      "path": "fit/light1-0.json",
+      "sha256": "26da5666d7e7a4ec0d7a30fff3328fa2ef3afa96528cab3e6ec78145fb420a37"
+    },
+    {
+      "path": "fit/light1-0.png",
+      "sha256": "1fdf58a8d0340c4bdd540d2b3266188b0ed3ab56a4da0f30cbe121f16d859542"
+    },
+    {
+      "path": "fit/light1-1.json",
+      "sha256": "19dc694c8144d77de72f4cb93b110f7d2d6ea5c9c3a2d9c9679edc1514edf7e0"
+    },
+    {
+      "path": "fit/light1-1.png",
+      "sha256": "de2f2bd0da29a949d37cd17f8923dc11f785dcc370332448fde9da7e4449248c"
+    },
+    {
+      "path": "fit/light1-2.json",
+      "sha256": "65b33916b57363b84e5b65f0ac8424fd0875b6576891cf0dacc1dcbcabf9bd91"
+    },
+    {
+      "path": "fit/light1-2.png",
+      "sha256": "553859c32cf751de9d4feff385b8aac97f3a8488d8da003ee051a0b721b78607"
+    },
+    {
+      "path": "fit/light1-3.json",
+      "sha256": "36f3aff1f4d158b8ae1fde9a6353a3b7eaef48bacc742ae6db5ccc4fd2d9ef89"
+    },
+    {
+      "path": "fit/light1-3.png",
+      "sha256": "45db5e693445c2382018ee99087c153e0480865a4f8c2bf2f689b005fae2a6f7"
+    },
+    {
+      "path": "fit/light2-v1-0.json",
+      "sha256": "744a6f81e8ab260553072c6fbeb5b3866d44561e29e995e897ed430725f68a86"
+    },
+    {
+      "path": "fit/light2-v1-0.png",
+      "sha256": "23415f790288a6fe91c8321a3eb6ca67a24f2d8893e17e34e9db8e34d1e91920"
+    },
+    {
+      "path": "fit/light2-v1-1.json",
+      "sha256": "2b4dc3fa0ea1c0b250fd5b6181917730793939358823765e4d0a0ef8625f3190"
+    },
+    {
+      "path": "fit/light2-v1-1.png",
+      "sha256": "0302bd737b8a63dc9e7c811cda2dc6fb9a95548f0b33f0135fe46a904dbcacea"
+    },
+    {
+      "path": "fit/light2-v1-2.json",
+      "sha256": "0f7f626b432136f82952a04409377f654e73afa4b7080bbdaf24852cfd0ffeef"
+    },
+    {
+      "path": "fit/light2-v1-2.png",
+      "sha256": "ed8f629c49b9535d8a4be080577d36381f890e9d4e9b751492258ac3165a52f0"
+    },
+    {
+      "path": "fit/light2-v1-3.json",
+      "sha256": "59f715b03313a3b3f7e2a6918b9116bedf8856f42c128e6697cdbc2d0a9564f0"
+    },
+    {
+      "path": "fit/light2-v1-3.png",
+      "sha256": "083cef74be773cf86fa03c7603cba9e0171e8545e8246ee83fde4d4008c60b04"
+    },
+    {
+      "path": "fit/light3-v2-0.json",
+      "sha256": "d653d24a78f187bab26b1198d7141ce1aafd52404447ab04d8c9c426f9c14458"
+    },
+    {
+      "path": "fit/light3-v2-0.png",
+      "sha256": "c8e5e6ab716ca4fd6dd564d2d80deaf2fb82182a1cda1b818b470d687c2f7f2e"
+    },
+    {
+      "path": "fit/light3-v2-1.json",
+      "sha256": "dcd0a3112efc7452b92807fc3d9fccd9e721fcfbe4f927db67448289c40f40af"
+    },
+    {
+      "path": "fit/light3-v2-1.png",
+      "sha256": "bcf0f79022413c43e72172ab8977b04f9ac81e56e5306c3578bba12b0ea95747"
+    },
+    {
+      "path": "fit/light3-v2-2.json",
+      "sha256": "426a3e6651d717c7569bff3561da1ebab0cc14c01fb6e294bfccdade316c3e6e"
+    },
+    {
+      "path": "fit/light3-v2-2.png",
+      "sha256": "bddd476b1c133c0cf1416f1da4139723287932f59f221e0c87ad0ba251bc4cb2"
+    },
+    {
+      "path": "fit/light3-v2-3.json",
+      "sha256": "2dc74f712f351412aabbebe8f0ef19a6ec4e76ed62ea454c7e67d8a86d9dac32"
+    },
+    {
+      "path": "fit/light3-v2-3.png",
+      "sha256": "aeb126b6a5db5d01f3ea4647ee7517f0f2ed7e59bb124dd70ab2231b9629eb02"
+    },
+    {
+      "path": "fit/lightwave-0.json",
+      "sha256": "1a528e25067a4708b2af4212acffa896a0209abafb12c4b11ebecda2a9dfc1e4"
+    },
+    {
+      "path": "fit/lightwave-0.png",
+      "sha256": "7cb63b6af7975481fee74892aaf3045040ccb74d3cc746c3ee490c63ed4c6eda"
+    },
+    {
+      "path": "fit/orb-guard-0.json",
+      "sha256": "bdc8bbecf75e09c4138935222f4e2eb232017cbc0b644c586005ff9a723e7035"
+    },
+    {
+      "path": "fit/orb-guard-0.png",
+      "sha256": "9facd22d9f212f05c9d649e7dcf77356334f050f0cbbc893e6c9878c64cbbc92"
+    },
+    {
+      "path": "fit/orb-guard-1.json",
+      "sha256": "652d53e3d5ae7322734ada55aa99e39bca59f819e9efac9269efeed3273aec74"
+    },
+    {
+      "path": "fit/orb-guard-1.png",
+      "sha256": "7aa18e057f2bb0fad480b47bf417fa9d009e50c2eb1af9e2907e58e2cf6f25da"
+    },
+    {
+      "path": "fit/standguard-v1-0.json",
+      "sha256": "3c1b4daba0592e0118ea9714269e5cf8dfddceff80a2cfc25a66be5aa47f6d77"
+    },
+    {
+      "path": "fit/standguard-v1-0.png",
+      "sha256": "acd9e03a2bc8d306d873b50ad61925c914f2a491da4744bb08c4b95948da38cd"
+    },
+    {
+      "path": "fit/standguard-v1-1.json",
+      "sha256": "b2ab6ed090c37843092bc1b1edfa72e0bb04dba73670297b411df2206e5f8669"
+    },
+    {
+      "path": "fit/standguard-v1-1.png",
+      "sha256": "fbd7c8f487bbeb1a1376e1d05a0f0633d2f6d98d1adf99ea5180de5330b1168b"
+    },
+    {
+      "path": "fit/standguard-v1-2.json",
+      "sha256": "08fdcfccaea7bab6ee17769cb7d223128f5b8c2bf0f40c0fe17bc76582ab5d77"
+    },
+    {
+      "path": "fit/standguard-v1-2.png",
+      "sha256": "fbfae699dd643b12a6965150d4673824ab1047fa81390f7c8caedd864d2c9112"
+    },
+    {
+      "path": "fit/standguard-v1-3.json",
+      "sha256": "8df67afd4c1ed4544bfd4bdf693f568ff10feda10557b622483790f4dbfc3327"
+    },
+    {
+      "path": "fit/standguard-v1-3.png",
+      "sha256": "41163a95db1ce28cb9d64d027ba3f334f2e01f106b9ec1f0dea5142cc467b95c"
+    },
+    {
+      "path": "fit/torrent-0.json",
+      "sha256": "beff98bf2f49f3fb3c88ea463f52250cc8a422ce2c88c8d59b730b2a0789cd1b"
+    },
+    {
+      "path": "fit/torrent-0.png",
+      "sha256": "d05b60b2308c748d0ac0d772de172336ec5a9d15623a90f21d92de3a073d0471"
+    },
+    {
+      "path": "fit/torrent-1.json",
+      "sha256": "3aab007df46be6ee8b6738b41affd4618c3bd039b0d73ee69f3e1bd273e4aff0"
+    },
+    {
+      "path": "fit/torrent-1.png",
+      "sha256": "7a35f314e73fa75e5164b3fbdaeeccbb1ae08de08d97f24ed3c0823a01d297a5"
+    },
+    {
+      "path": "fit/torrent-2.json",
+      "sha256": "9dd7fc9f9512cadddf93b1d6da5e112c62e2e49e367cab1b15cb5e6a1fbec357"
+    },
+    {
+      "path": "fit/torrent-2.png",
+      "sha256": "95bcb0ece009c93d1a14fe7e59d7c6451e0032fdbe9642f0cbc9d099e38b194d"
+    },
+    {
+      "path": "fit/walk-0.json",
+      "sha256": "46a22e5dfcb630b0dc414de99f9f96eb970428cdad1102abb0308c224bf4317b"
+    },
+    {
+      "path": "fit/walk-0.png",
+      "sha256": "633a5cdb8addd43b2ab1089f211c8b9b0f4aae606e02f0aa2ccd871c1598028a"
+    },
+    {
+      "path": "fit/walk-1.json",
+      "sha256": "1893d04ff137e8184141965223109f6d1f4d115f23cbea3de6d1e47c14695c3f"
+    },
+    {
+      "path": "fit/walk-1.png",
+      "sha256": "f7d17d5c4086b7b9877ed9257ad5c8402c1c481c64b0fe6a83559e9b1030b6bf"
+    },
+    {
+      "path": "fit/walk-2.json",
+      "sha256": "51176215f9bd39be22ca4162905afbeb9c0ea396512be2ba08b4e20802527188"
+    },
+    {
+      "path": "fit/walk-2.png",
+      "sha256": "2692a9457606184312e1e62a15be6a977301a52a18385fb5c80e87870191ff81"
+    },
+    {
+      "path": "fit/walk-3.json",
+      "sha256": "9fe06dfe24926181dcde71524abe744c55776b39863be014de75181e83a54587"
+    },
+    {
+      "path": "fit/walk-3.png",
+      "sha256": "92c4e009a943218b778d9a545c2bafe3536619f179aeed177ff8235968a2d32b"
+    },
+    {
+      "path": "fit/walk-4.json",
+      "sha256": "afefe6a922b6ce843793d463251a2e764c4130e509dcc25e8dbbbdb34f5dbc10"
+    },
+    {
+      "path": "fit/walk-4.png",
+      "sha256": "3a038306e8a122b9008024ebf8b32e2e7c5878899f3ee0f63445217b8d72b8c5"
+    },
+    {
+      "path": "fit/walk-5.json",
+      "sha256": "1f8c73b0a14ae07a09b05b0b7aeeb3af7b9332196815e06b20dfb5a0faae0e06"
+    },
+    {
+      "path": "fit/walk-5.png",
+      "sha256": "b34b000419410e75748064612352ab27ef91ea744e8aa000371dc80086515f0f"
+    },
+    {
+      "path": "frames/backwalk-0.png",
+      "sha256": "c3ce839a62bdf7ac4d11d8e8e38a87602b928e36143581ea743e0aa473772b22"
+    },
+    {
+      "path": "frames/backwalk-1.png",
+      "sha256": "81ede965eb2a46e19277143e47430c7177ab90c6c4337024ac600c7d3006fa3b"
+    },
+    {
+      "path": "frames/backwalk-2.png",
+      "sha256": "1700c9401e5ae654b71905d49566375c071f178c9d8803a9be747290f8cbbae6"
+    },
+    {
+      "path": "frames/backwalk-3.png",
+      "sha256": "37bef4d44e7a78fff33265aa6590b351ed334094d2f0bae24f24515843fd3460"
+    },
+    {
+      "path": "frames/backwalk-4.png",
+      "sha256": "d514de4188109b110be868f9519868664b6551659ecb98ebd635266a6b0da652"
+    },
+    {
+      "path": "frames/backwalk-5.png",
+      "sha256": "474ff3d773a1bc82d1780d2454a060c3a3d813381afd6899077f196f66dcaacb"
+    },
+    {
+      "path": "frames/crouch-v2-0.png",
+      "sha256": "ebcd31e5ca1a640a2eac431b94e7866c692e75dfb4700b1b21f5e2d5314f5ad4"
+    },
+    {
+      "path": "frames/crouch-v2-1.png",
+      "sha256": "167e765cfbb215527bb63fbe624fda675bfbddca80c6df1264f7c17d65dac72f"
+    },
+    {
+      "path": "frames/crouch-v2-2.png",
+      "sha256": "dddc20c3b7ac768f1520efbfb79f229d23fa084d955f5ec5c3f078f2036adbde"
+    },
+    {
+      "path": "frames/crouch-v2-3.png",
+      "sha256": "84d1d66510f59e41bff9509c9a80606b8ec8211b8da38854dbd871fa0aa300b5"
+    },
+    {
+      "path": "frames/crouchguard-v2-0.png",
+      "sha256": "c80a39c8fabaa21eacbbba3c3cde76e9dd6441eb1827fca71f48dce00424291e"
+    },
+    {
+      "path": "frames/crouchguard-v2-1.png",
+      "sha256": "d9accfbddd4c9833ed691eff83083ec26be716c7e9344a6c82c7720b7bbbadb0"
+    },
+    {
+      "path": "frames/crouchguard-v2-2.png",
+      "sha256": "f27fc932bc8ea712992411af5c2e59e36d22d13cfe1e3855785bc65db53235c5"
+    },
+    {
+      "path": "frames/crouchguard-v2-3.png",
+      "sha256": "a1b0bfdc3e7b9ba7d9481a61615b984e4c72c57ded4f0baa64f9ee1c1d286bdb"
+    },
+    {
+      "path": "frames/heavy-0.png",
+      "sha256": "e1b6145fcb1ef30500be4ba47ef4a3934c1627aab45b5ad9b5b7e50bc346b544"
+    },
+    {
+      "path": "frames/heavy-1.png",
+      "sha256": "f173b382aaf3bd65c177b8cd59398739603b166bf70f4addf6cc51c59a25e163"
+    },
+    {
+      "path": "frames/heavy-2.png",
+      "sha256": "00ddab705f7857fa61bd291cef4a8b7a414c48526460dbe2a8e472769098f4c1"
+    },
+    {
+      "path": "frames/heavy-3.png",
+      "sha256": "0c4863ed2fe5bd8d1d1ae70834f1c2feb9be84a79e4b0c803953ecf3391e3e4f"
+    },
+    {
+      "path": "frames/idle-inhale-0.png",
+      "sha256": "06324f0eb7a253b50d621d194d876e2c03ff5ff9bbc843262f85d4b810444609"
+    },
+    {
+      "path": "frames/idle-open-0.png",
+      "sha256": "ef0ee708310350845d51b7d410f9fd5fd5d0a10a3b56ef0b4ea7c85de1d6b010"
+    },
+    {
+      "path": "frames/light1-0.png",
+      "sha256": "ca9b78061814800225e842680b159d51db9fc418855ad99c823f4a354cd477ec"
+    },
+    {
+      "path": "frames/light1-1.png",
+      "sha256": "b24ad8387a4c40e611ec580925a76f616494e434eaddbad09c3dee6dd5b9ec1d"
+    },
+    {
+      "path": "frames/light1-2.png",
+      "sha256": "ae1fc2bb0ed0ebe6977d9777323d051de092c8ffff0c5d94da89e665477180a1"
+    },
+    {
+      "path": "frames/light1-3.png",
+      "sha256": "7b314d3d041847e42867192d1463bd9ffc236d12068a5d9980cefef660382ebd"
+    },
+    {
+      "path": "frames/light2-v1-0.png",
+      "sha256": "74304c5651a181aac416dd6ff4346e1af3c0151bdf27b8beebd764742b1a9ed4"
+    },
+    {
+      "path": "frames/light2-v1-1.png",
+      "sha256": "d224cf3574ea8b973303dd03ddd4af301b1211d0b66260b9a959a0e28b2fc5b9"
+    },
+    {
+      "path": "frames/light2-v1-2.png",
+      "sha256": "04b905ac00e7f6752a0d5c6d01a39f6b07f5a2e058395b650c51777a35fc6e8b"
+    },
+    {
+      "path": "frames/light2-v1-3.png",
+      "sha256": "9bba2db200aae36f18f15b0e649dfaf0ffe2c7275cccc1e105276a54c743cf19"
+    },
+    {
+      "path": "frames/light3-v2-0.png",
+      "sha256": "6e9efeaa31040d92dc5e6d3b27a87cf7e2b7d6d5bef5b905d24eddf9664e3f19"
+    },
+    {
+      "path": "frames/light3-v2-1.png",
+      "sha256": "cdab360788c1e304e0fab18cc7f52aeabd457f494d2c812445607348577e67e7"
+    },
+    {
+      "path": "frames/light3-v2-2.png",
+      "sha256": "0ff7345f4bba1ebd23f417249b772d9b03f68596706df8dae6532e641257107f"
+    },
+    {
+      "path": "frames/light3-v2-3.png",
+      "sha256": "81234722dc9d8c3216ac5640d6b9b6b99ee4707490d02ef46d26752b8fe59704"
+    },
+    {
+      "path": "frames/lightwave-0.png",
+      "sha256": "742d5cb67200bc6c9fd781e6596eeebf684e8abed8cf5d6c218fc896862aa462"
+    },
+    {
+      "path": "frames/orb-guard-0.png",
+      "sha256": "ce50481527535566faaf3449d01c9d43037cd111479e4f047f7e83e9d116b45f"
+    },
+    {
+      "path": "frames/orb-guard-1.png",
+      "sha256": "989a84fc1f371e0228779cd48ce7464ad188a26ec14b1313089535f196c22083"
+    },
+    {
+      "path": "frames/standguard-v1-0.png",
+      "sha256": "2953bf8c036a9ced89b14b0b625386aee2d914106239cdf031f03e453463ffea"
+    },
+    {
+      "path": "frames/standguard-v1-1.png",
+      "sha256": "941446258dd6e6dd3185c5f926683de7a656f8f569dee0c754a7a9c6a25beeee"
+    },
+    {
+      "path": "frames/standguard-v1-2.png",
+      "sha256": "8d3e094e908221e1622faf530906e290d74948e690aa21c6c857fa235da03107"
+    },
+    {
+      "path": "frames/standguard-v1-3.png",
+      "sha256": "ba69f741a381430c9c850b4a2b4b53eacf2f3bc1420a0a40571aa94385f6f402"
+    },
+    {
+      "path": "frames/torrent-0.png",
+      "sha256": "97edf64b67e4107a5bf44087ec79f05040e4635a196c511b518faeeaea906bc9"
+    },
+    {
+      "path": "frames/torrent-1.png",
+      "sha256": "54628b7ebda00f94dbfa0d75e6dab71b0e785389c470aaad2633d41694b0e314"
+    },
+    {
+      "path": "frames/torrent-2.png",
+      "sha256": "6c6be47973158426725d18a16af09b81bf4384a454f615c41940cddba0d0d5d7"
+    },
+    {
+      "path": "frames/walk-0.png",
+      "sha256": "0dad88c8184d5930dd8f06751f250a792652db228aa904188988847f3b518b0a"
+    },
+    {
+      "path": "frames/walk-1.png",
+      "sha256": "e3a26524190773802a85951dcd6ab0ec3244a99216f877f321c6c9e5f57fdab7"
+    },
+    {
+      "path": "frames/walk-2.png",
+      "sha256": "752ae7879ad3facaf2c2f552fb8f203396d900a267a05eec97e17e59d2fef3a6"
+    },
+    {
+      "path": "frames/walk-3.png",
+      "sha256": "6c79f43f612a3b552eda6a349bbd87229f412635d4d1f2c6ea6505f8dfb393cc"
+    },
+    {
+      "path": "frames/walk-4.png",
+      "sha256": "679486c8f308ce5a8212dfa65c1f64fe4f4d254ef1392acc8bdac5c608fe40d2"
+    },
+    {
+      "path": "frames/walk-5.png",
+      "sha256": "d7e85b98c40de82b3f761aaefa60300ddd6bffdcccdadd4db12e15303030029b"
+    },
+    {
+      "path": "palette.json",
+      "sha256": "2e2d71ff1383441a051a7dcd6d6ff86ae2e40ae860e7fe55f78df673854e69de"
+    },
+    {
+      "path": "player.css",
+      "sha256": "7115cb28f32b33224c35756a326ed949bb3c123475a36a0cbc131915acf41cea"
+    },
+    {
+      "path": "player.html",
+      "sha256": "bbb9822ae8c3539ee2db3f0e354241be6dae9824048701ad1459829f77a25b5b"
+    },
+    {
+      "path": "player.js",
+      "sha256": "cd56ac6f55672eb2fc50d62a14b4f0ac39aef24f96486e69fafc99548b8f72bc"
+    },
+    {
+      "path": "prompts/backwalk-v1.txt",
+      "sha256": "3d9f3bf81b877452ffbce202ef822e697992d1409808564318ff944e29eee975"
+    },
+    {
+      "path": "prompts/backwalk-v2.txt",
+      "sha256": "3b215dc971ae3c8c2723daa0cbc128472d42c5618ce693eef7d3c8ffa1f14ead"
+    },
+    {
+      "path": "prompts/crouch-v1.txt",
+      "sha256": "68b4b401724d746776aa2d8b9ce3e0834e3334e51902f9b7c2a6e259d57cc520"
+    },
+    {
+      "path": "prompts/crouch-v2.txt",
+      "sha256": "338728103369280714b29d03a7eab0483a40bdd65bf28ee6e26611be4ceed57a"
+    },
+    {
+      "path": "prompts/crouchguard-v1.txt",
+      "sha256": "cb415e016a34d84cc36ee178e0740ff43be52f48a4b28135a179033fb436a324"
+    },
+    {
+      "path": "prompts/crouchguard-v2.txt",
+      "sha256": "47f416df2efcdb112b89e0f44a2dcb52c74e957efeeb83721739974274b96c68"
+    },
+    {
+      "path": "prompts/heavy-held-cane-v1.txt",
+      "sha256": "fd99ae9982055e8d14c4a38fcf14caa7df84d86624eeb4a18fbeaef04ac296d7"
+    },
+    {
+      "path": "prompts/idle-inhale-v1.txt",
+      "sha256": "41aa1a31d7768b26125aec16f2c742ab9cb7e9714bd12f103865b39bfab28320"
+    },
+    {
+      "path": "prompts/light1-v1.txt",
+      "sha256": "9a56343e12d4062834207e6aa5f4a77439cf0e8152fc9b20657889923175d5f9"
+    },
+    {
+      "path": "prompts/light2-v1.txt",
+      "sha256": "2956350e603b293bd9358aed0394708d21cfc9d21d570882c922fe6f9f795ccd"
+    },
+    {
+      "path": "prompts/light3-v1.txt",
+      "sha256": "052a013d9d506dc51f3558efdea42c699d42f771f9aebbf3fa3bc1f1d1e23e1f"
+    },
+    {
+      "path": "prompts/light3-v2.txt",
+      "sha256": "656c1cfc9b5d6719e9c5d86a6fd666d9fc2f1e49bebcf5d1594ffbeeaa0ba105"
+    },
+    {
+      "path": "prompts/lightwave-v1.txt",
+      "sha256": "5117930a28aa9151896b2fc3c8c0f22505b6af99ae90a2d0a902cd9828ece179"
+    },
+    {
+      "path": "prompts/mother-v1.txt",
+      "sha256": "10a96a322e944b33d597e3c3cec0bf0c02d3beba6a23622f0cb93a2be0124d2d"
+    },
+    {
+      "path": "prompts/mother-v2.txt",
+      "sha256": "65f99f35df5c113e387eb266cd0d0e439c518d9f0abb87835b89f1de6f18c938"
+    },
+    {
+      "path": "prompts/orb-guard-fx-v1.txt",
+      "sha256": "4868b1cd2dd9ca868371fab8ae0c73c5a800c6bcade74450d0994b476adf97c4"
+    },
+    {
+      "path": "prompts/standguard-v1.txt",
+      "sha256": "476a9056760426e8d6878de717437f210120e5eb27657acb8312bab22331987d"
+    },
+    {
+      "path": "prompts/torrent-fx-v1.txt",
+      "sha256": "b7b99d4f78bde006aa2dc2293d9f9edb441638c4f7dc52d8df67ae9c9a43d99f"
+    },
+    {
+      "path": "prompts/walk-v1.txt",
+      "sha256": "76c0fad5276f23f683dd13801d25af22d6125d0dcb9ed0b21a2bdbd2f175309d"
+    },
+    {
+      "path": "source/backwalk-v1.png",
+      "sha256": "c0caa83e9541df2b9ebe11092c0727154c12ed5de7ee2af0c59527f56c54f15f"
+    },
+    {
+      "path": "source/backwalk-v2.png",
+      "sha256": "0179a5ef6984944d58f85da38aec66889def94cb3490bc4f037261efb19524ea"
+    },
+    {
+      "path": "source/crouch-v1.png",
+      "sha256": "71a3581730145a443bea2c0b5b7fd8586a992dc227d0ea8a8ed9ebc8ce3be838"
+    },
+    {
+      "path": "source/crouch-v2.png",
+      "sha256": "fba511c078c6bc08ea166c5620b6f2f7946ec74a93a853ff0eee0cf74f9b1859"
+    },
+    {
+      "path": "source/crouchguard-v1.png",
+      "sha256": "6d9adc06f482fe6426d82eb0e4996b736163baa23d1cff8f72b2e5571cd94a90"
+    },
+    {
+      "path": "source/crouchguard-v2.png",
+      "sha256": "f8c635ee588bc32b7ecf807f9646d5d23caa18f5544dc4da5c6ec5a63e1712db"
+    },
+    {
+      "path": "source/heavy-held-cane-v1.png",
+      "sha256": "3cd065a596b0a61f8e81db6ffd9d240d3fbd9cae024447361d781ae7be6bca17"
+    },
+    {
+      "path": "source/idle-inhale-v1.png",
+      "sha256": "3de1804f95a759bfdc17c379d356161503df16cd89bbfa9cffba00362eef1ce2"
+    },
+    {
+      "path": "source/light1-v1.png",
+      "sha256": "40a55e2c3609cbeb7a0cb3172a8a34fbbe2caf5c15060fdfb1e640a7d2ae97bf"
+    },
+    {
+      "path": "source/light2-v1.png",
+      "sha256": "a10d909b314cf35bce44190cc1d23d839060358dd29851a273a5a0fbb0b5d43c"
+    },
+    {
+      "path": "source/light3-v1.png",
+      "sha256": "ea0f303413a954fa5ac0899293b92bf773dde9d6c1fb2e1e41e0c90f6a048b3d"
+    },
+    {
+      "path": "source/light3-v2.png",
+      "sha256": "cd43b29c7ab3516c0bbf4fc0973c423f91d3915f8501f51506b459e8f67c030f"
+    },
+    {
+      "path": "source/lightwave-v1.png",
+      "sha256": "e8c979303ec60e46ea4ee47c216c0114eb6c0ca61de565e9bdb994a5431d097b"
+    },
+    {
+      "path": "source/mother-v1.png",
+      "sha256": "164e8f8c1d3996d65132ccbf436dac81d7d2f1294670686a2f558e4e793ce26d"
+    },
+    {
+      "path": "source/mother-v2.png",
+      "sha256": "93afebdc24de4d8b605f33f3ba71d4509e7c536115bd41cebcf21f8fd5179201"
+    },
+    {
+      "path": "source/orb-guard-fx-v1.png",
+      "sha256": "394c4e5728b10fc5fd6bae8ab53b32607d8918e22d84853e0aad0db4289651a8"
+    },
+    {
+      "path": "source/standguard-v1.png",
+      "sha256": "2b974decdd7da0d142427db815c7c1e9d36ae62324c72f84ff3d5388b86618fd"
+    },
+    {
+      "path": "source/torrent-fx-v1.png",
+      "sha256": "b56783b12674b257feb926193f9d47d7d0878b14d9ea3d9ab9f954efa9bbd683"
+    },
+    {
+      "path": "source/walk-v1.png",
+      "sha256": "ca1a4ba037d5266005e387b0bbb26a4432426d46586e17a584e5ebe427598d49"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "e31d4d31c7f12daf0c142d014ef3fa67acd23a1f03034f64d70be9827cc54ba7"
+    },
+    {
+      "path": "制作与交付.md",
+      "sha256": "f19ed50ab1c83f3647f1bfe763f15107c6f4e8f7a9cd30e04830a25cd50cff95"
+    },
+    {
+      "path": "动作设计卡.md",
+      "sha256": "36cff8bc8f1bf68f1544b01158ca59e72349a6be38c34211f8c368a598d34443"
+    }
+  ]
+}

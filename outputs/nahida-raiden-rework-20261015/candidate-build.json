@@ -1,0 +1,492 @@
+{
+  "kind": "candidate",
+  "offlineCandidate": true,
+  "sha256": "11ba01d729cc846c0498f13855fb04f7156aff0429d00336be5e1d40cfa8f228",
+  "overrides": [
+    "source/characters/gf_art.lua",
+    "source/render/gf_fview.lua",
+    "source/render/gf_gfx.lua",
+    "source/characters/gf_kits.lua",
+    "source/network/gf_online.lua",
+    "source/battle/gf_battle_pause.lua",
+    "source/battle/gf_sim_combat.lua",
+    "source/battle/gf_sim_actions.lua",
+    "source/battle/gf_sim_fighter.lua",
+    "source/characters/gf_character_rules.lua",
+    "source/characters/gf_duo_rework_rules.lua"
+  ],
+  "inputs": [
+    {
+      "path": "source/prefix.lua",
+      "sha256": "6b9eee63eecbaea4bdb315f911b8bce1febb0d2e8472a64dcac148ceb339eea2"
+    },
+    {
+      "path": "source/network/gf_signal_names.lua",
+      "sha256": "3cf492e9dcdfd816483bf7c8a7785ddc7ac4927acc721f59318f80ab35ebe4ff"
+    },
+    {
+      "path": "source/network/gf_team_lobby.lua",
+      "sha256": "b7aac39c3adf07d0bd95ff9c199f32ca0eabe3937458f291d4fba1f0d5017f55"
+    },
+    {
+      "path": "source/battle/gf_ai.lua",
+      "sha256": "1cdd266962c8b45626e5bc4d865812241ce978335c9cb4df67497c7298c6f9ad"
+    },
+    {
+      "path": "source/app/gf_app_network.lua",
+      "sha256": "1ec7281fc016f5fea7639a7fc729c4129697fbce07281ccb64ace43ad969ab67"
+    },
+    {
+      "path": "source/app/gf_app_exit.lua",
+      "sha256": "1ec7493498a24d1d468240e4887d2c7e3bd7448c4e7b645d2a050e03517d21d3"
+    },
+    {
+      "path": "source/app/gf_app_transition.lua",
+      "sha256": "543827c16516615e89dff2bfb91d6de59e1d6791987ae8129286d45022395b0c"
+    },
+    {
+      "path": "source/app/gf_app_metrics.lua",
+      "sha256": "590f89d65f7d59e76af00d6028d445bbcae4817ede8c81de698b5facd361bf81"
+    },
+    {
+      "path": "source/app/gf_app_loading.lua",
+      "sha256": "10097045760a15197c04d7c5ba4870a3bc079e35589cdcefa57093d84767490b"
+    },
+    {
+      "path": "source/app/gf_app.lua",
+      "sha256": "c42408e3395789a74175912632e1c4214def75551fcf09662856741ee60d0eea"
+    },
+    {
+      "path": "source/characters/gf_art.lua",
+      "sha256": "6c2373cad1f88f6154898a29e107005ff50d231960b1c467108b1b448e6b929a"
+    },
+    {
+      "path": "source/render/gf_audio.lua",
+      "sha256": "c7d30774066b29bbe2021a1198c18dc0e8cfd17559064e89e386ab7adc2a7ba8"
+    },
+    {
+      "path": "source/render/gf_backdrop.lua",
+      "sha256": "c5193cb0bec40681bf12112ccc3f1cac704e61196976d82e2636cc0c869bbd97"
+    },
+    {
+      "path": "source/render/gf_bglist.lua",
+      "sha256": "d20d71a8bde725a0399ee97fe23c77316aecda61f007d6fdbd3faaf394160392"
+    },
+    {
+      "path": "source/render/gf_fview.lua",
+      "sha256": "31103602390b9d2eff43b6ecdc7dc1b5dddbbefaf5ddf2e795625571a3d6123b"
+    },
+    {
+      "path": "source/render/gf_fx.lua",
+      "sha256": "373aaf93f7f31a270094acd0b5d7ae1e2298252324add9e4770a183324bcef20"
+    },
+    {
+      "path": "source/render/gf_gfx.lua",
+      "sha256": "b4b7c3daab1abf8cc20610abeed88aedb1eaa3a113a611ded920bad9e6bbf2cd"
+    },
+    {
+      "path": "source/render/gf_hud.lua",
+      "sha256": "f0f19f159fd3f0b58d0d09752e74f31c38869eeb703a4720922515dd1b73c712"
+    },
+    {
+      "path": "source/input/gf_input.lua",
+      "sha256": "642e0887ae7f95581e2e5a2ca3ee51ef7522a4c4fa6361506cca058951330a35"
+    },
+    {
+      "path": "source/characters/gf_kits.lua",
+      "sha256": "fd0c94c1b073d6ada150b0b3088bb1552a4d3720bff0421807b83c216eb60693"
+    },
+    {
+      "path": "source/network/gf_net.lua",
+      "sha256": "c6fb3e6659dd81a4ec293f544ed81aca5b129567460cf8bf3558d160bc7a718a"
+    },
+    {
+      "path": "source/network/gf_online.lua",
+      "sha256": "76b7c3062c2dc3c5e18205cddb0f5ef78bba6e0f26ea50a36d66b22e815ceab6"
+    },
+    {
+      "path": "source/render/gf_paint.lua",
+      "sha256": "06d5a540b4a17ffd0b1aa955c0e8bc029576ea8a37359977a490802761ef34bb"
+    },
+    {
+      "path": "source/characters/gf_roster.lua",
+      "sha256": "c9a57c6c065d3e78e4c8194fa5a5d8ddd35e2d376a52175973131a2556ae317c"
+    },
+    {
+      "path": "source/battle/gf_battle_loading.lua",
+      "sha256": "0b5bfdb7018b7e90e20414a766cd48df492513dfd40eb55fa8f348b0bf905566"
+    },
+    {
+      "path": "source/battle/gf_battle_input.lua",
+      "sha256": "3868513e3eecdad2cc31b11163d5e173969422aa57a9d958373ea6409381c911"
+    },
+    {
+      "path": "source/battle/gf_battle_events.lua",
+      "sha256": "3f6376943f2ecf19e2c986fae4b5fa5b269c9672f0fff8460ab05fa8a0f32835"
+    },
+    {
+      "path": "source/battle/gf_battle_pause.lua",
+      "sha256": "651ebf09b224123a91b98a87cc1637f0e62c790136ca2507caf25a2e0774d039"
+    },
+    {
+      "path": "source/battle/gf_battle_network.lua",
+      "sha256": "e12dbf1d8a36052ffaa3f82a8ae4b21114a3f1f5ff0efa7e87b5875cede6a482"
+    },
+    {
+      "path": "source/battle/gf_battle_backdrop.lua",
+      "sha256": "43fda92f461935f8bc17b1db5ebb4fcae5c12af49424faf288658bfd4712243c"
+    },
+    {
+      "path": "source/battle/gf_scene_fight.lua",
+      "sha256": "65432b3785c61683024fb0cd5eb9d35a6d5b31ddc7ca24d7b46fe9fe56e67993"
+    },
+    {
+      "path": "source/menu/gf_scene_gallery.lua",
+      "sha256": "0010f632cf70c7182b9773c16bb71a23f06faf19eeff193e4af00c88c220d912"
+    },
+    {
+      "path": "source/menu/gf_scene_howto.lua",
+      "sha256": "278110adbf1d42c303a17d4da9cfad815485883937dd70df39a7681c90e81e50"
+    },
+    {
+      "path": "source/menu/gf_scene_intro.lua",
+      "sha256": "a27be373a5c2295a14252b89ab13647dc2a5be871118a9c121fe1c2ce639779a"
+    },
+    {
+      "path": "source/menu/gf_scene_menu.lua",
+      "sha256": "6d64a5d7061daa059bfb39d80346c7faa9387cbf8ad8c2a926d6566dbaba6596"
+    },
+    {
+      "path": "source/menu/gf_scene_online.lua",
+      "sha256": "9f8209cc9f2a6bb3174f8f5c825be7208311c0faf165dec433a1feb527d0df6a"
+    },
+    {
+      "path": "source/menu/gf_scene_options.lua",
+      "sha256": "c1570d339d0bf72b5dc52ea45e005c8840a48c530b51d828543dcf066bab5a50"
+    },
+    {
+      "path": "source/menu/gf_scene_result.lua",
+      "sha256": "e275e5c1f24a2171e51d5936abcf2080188651875c185efbe504d1dfcfcd8927"
+    },
+    {
+      "path": "source/menu/gf_scene_select.lua",
+      "sha256": "cedc1c360233ec7717dfa1725ec22930acb8858ddf0b3e3bff7f5262af38d741"
+    },
+    {
+      "path": "source/menu/gf_scene_team_select.lua",
+      "sha256": "88fc8d94864d9b420c34e63a6b506d88a1707a77e1a87c8c85be6e100aa253be"
+    },
+    {
+      "path": "source/menu/gf_scene_stageview.lua",
+      "sha256": "266b9a8ef8de15331b3df0bf87be04133eaf103f28e954e70367977079addd51"
+    },
+    {
+      "path": "source/menu/gf_scene_test.lua",
+      "sha256": "f8738d98611a20c5e47a689e3bb48e92cd58e879853745a43882da922f7bd944"
+    },
+    {
+      "path": "source/menu/gf_scene_title.lua",
+      "sha256": "6e8a04d4bdb0eaca13d1f459bc8be5d6c5770ecec5b2f14dd5a5daf28d5ba4b9"
+    },
+    {
+      "path": "source/menu/gf_scene_vs.lua",
+      "sha256": "cdf45c958bee16b43536fce76fb55d3a2e1bcfd3509f6f8df370fb6ab5210f33"
+    },
+    {
+      "path": "source/render/gf_show.lua",
+      "sha256": "3ece7e74b82719f7ec937b471817ea1e5b3c776a46e06701bf48652f2cf22b92"
+    },
+    {
+      "path": "source/battle/gf_sim_physics.lua",
+      "sha256": "e8b5e67e5ffac561d49e052b3eb583955d95d0c830ccb50c761a4d1c3c50df07"
+    },
+    {
+      "path": "source/battle/gf_sim_flow.lua",
+      "sha256": "302b1eb54ea0dbd6f4e5d366a2a717895f2a6a8047014b788ef5a051c00f810e"
+    },
+    {
+      "path": "source/battle/gf_sim_snapshot.lua",
+      "sha256": "5de3a76aa0d7010057c8e5a93e6b48224bfaa51cbf4518eae6752473778428e4"
+    },
+    {
+      "path": "source/battle/gf_sim.lua",
+      "sha256": "d89aac74afb52ba481ed25da4539994491ce2fdacbc95e9ac98a075596f607b8"
+    },
+    {
+      "path": "source/render/gf_stage.lua",
+      "sha256": "27dd52b073846ada9bdefe4b48577509dd650d4d9fa427b5109a6cecc9d6b7a9"
+    },
+    {
+      "path": "source/input/gf_touch.lua",
+      "sha256": "796c43f2f8f82fdeee6807aa5940817335d6f5daae7011c1183a5ce450fd8461"
+    },
+    {
+      "path": "source/network/gf_transport.lua",
+      "sha256": "9d66f00ce687cf828a9fe1bcfca79057661ea6ba6b5fff4ffc787d1cd83bfc45"
+    },
+    {
+      "path": "source/network/gf_team_selection.lua",
+      "sha256": "7330540ef45926213d3688b78f9717e60c9a7b05bd0af6f9ffdf863131d3b94f"
+    },
+    {
+      "path": "source/network/gf_team_server.lua",
+      "sha256": "41be669f2a65776387a62b1de64cb3cdc97bc2bd910e63497a2a978e9fce73c7"
+    },
+    {
+      "path": "source/render/gf_ui.lua",
+      "sha256": "ea37c85a77a7ac77c1c885fcc05a61f545306b63b8e7fb66760a1c81a45a05b7"
+    },
+    {
+      "path": "source/core/gf_util.lua",
+      "sha256": "35be052cbd9c820f95d1f39fadea641918743981e4e5836f6427bfeeab1bab86"
+    },
+    {
+      "path": "source/assets/gf_animation_data.lua",
+      "sha256": "7451cb153109c937814fbcaf52c347b4ec1415f7da5f53bfd0051bcca03eb9fc"
+    },
+    {
+      "path": "source/assets/gf_animation_effects.lua",
+      "sha256": "4ec8dd7457d0d15d5301632d1deb3a660d0b995216fa1ed2e8a43075ebc94eeb"
+    },
+    {
+      "path": "source/assets/gf_inbetween_data.lua",
+      "sha256": "679420b7fce332577ac11eaafcc7cf5cc70af3a219705ff798a78a0aea3d3cb3"
+    },
+    {
+      "path": "source/assets/gf_art_nahida.lua",
+      "sha256": "de297acef055cf4029b81641188682538d2cebc5990086dc19e14e684dfd1463"
+    },
+    {
+      "path": "source/assets/gf_art_raidenshogun.lua",
+      "sha256": "bc4dc834992cfdc6f99cedbde41c052e8b2ea01b370705bf8f53ddc19e0d1ead"
+    },
+    {
+      "path": "source/assets/gf_bg_fontaine.lua",
+      "sha256": "1ee679d0f11e0cab4d04d27ea00a4e575ddc9491d927bfc711fb23bd7b975c76"
+    },
+    {
+      "path": "source/assets/gf_bg_inazuma.lua",
+      "sha256": "ad1628f48dc15f1b32b2a1a19c314145798a212349327ab8a78481391f031710"
+    },
+    {
+      "path": "source/assets/gf_bg_liyue.lua",
+      "sha256": "08e7d6e000c78e71d97c43bb32984eb91ac36917c750a168be28bae23c4b0153"
+    },
+    {
+      "path": "source/assets/gf_bg_mondstadt.lua",
+      "sha256": "2d01951121c6b58662f00771f35fb342b0f72b06c6f53efc1c9e6d5e77ff1563"
+    },
+    {
+      "path": "source/assets/gf_bg_natlan.lua",
+      "sha256": "4992a47bc87e06b92e20ffdadae39b1305430195ec7296c1faae22602c784e77"
+    },
+    {
+      "path": "source/assets/gf_bg_snezhnaya.lua",
+      "sha256": "13da8bd24d1105c9dff4b824df256bddb9401e917a996dc9ea61507530510f1e"
+    },
+    {
+      "path": "source/assets/gf_bg_sumeru.lua",
+      "sha256": "d20dacc011d9f723f18664c8741778b200021f59d22003a5e4a404f88e9c986d"
+    },
+    {
+      "path": "source/assets/gf_aranara_data.lua",
+      "sha256": "a25a5a93be9049712688c07d4d9e7d9fd5550f1e02b050449b86da126db6f34e"
+    },
+    {
+      "path": "source/assets/gf_viewfinder_data.lua",
+      "sha256": "69b2e8ce5b593307401386e6e63c1434714d52831f8dbb72dbd47c193eb75400"
+    },
+    {
+      "path": "source/assets/gf_logo.lua",
+      "sha256": "5f9c736d55c14395cd41d5cb407fd4db7b46517c10fd6906f5b8cde6720be2e0"
+    },
+    {
+      "path": "source/assets/gf_raiden_eye_r31.lua",
+      "sha256": "823b2526cff6d9a8429959e9656fef1025aa2bc14c1746beddce9a01ef7136cc"
+    },
+    {
+      "path": "source/characters/gf_character_registry.lua",
+      "sha256": "015644095f380716cd6a2df1c1934d1daaceb9cd576d0719f2834622370c4780"
+    },
+    {
+      "path": "source/characters/gf_character_assets.lua",
+      "sha256": "002b8f512c8045336009ed139b302428bfdfa9ebe04582ae931e353ee6bd81d6"
+    },
+    {
+      "path": "source/characters/gf_character_furina.lua",
+      "sha256": "05577a0c6db86f29ae3ed957fda2465969ac9acd550ea5876def74149561c685"
+    },
+    {
+      "path": "source/assets/gf_furina_data.lua",
+      "sha256": "25917f3b9ca8e8d87aa237c0c5887dc152229f60ebf6b0ea3c4522e51b612231"
+    },
+    {
+      "path": "source/assets/gf_art_furina.lua",
+      "sha256": "99aa779d1b7bf37952731b929c8478b5acc50eb248444d190feb76ad6f21de8a"
+    },
+    {
+      "path": "source/battle/gf_sim_combat.lua",
+      "sha256": "1156e3e9a6f4ce543cb1e1d200e9c9b16a7b8d05dc263f6a51f0181c1d2fe9f1"
+    },
+    {
+      "path": "source/battle/gf_sim_projectiles.lua",
+      "sha256": "91570b6e70017b006a03c17d5cca43a8759aeeb00b0e3cc6e26aa69f856ae490"
+    },
+    {
+      "path": "source/battle/gf_sim_actions.lua",
+      "sha256": "89041584af93a35f141bda834c1ee034a5cba4ab1ab4d288145b4b416e95ae91"
+    },
+    {
+      "path": "source/battle/gf_sim_fighter.lua",
+      "sha256": "975b90553391f5abe0aadbfe335d9a0e1b0f274ece585fa83410cd7019c4184c"
+    },
+    {
+      "path": "source/characters/gf_weapon_rules.lua",
+      "sha256": "bd600a6c979dadc908e1a0602f0dcccf3d9e2dc1ae966c1e7f7bca1b3342106b"
+    },
+    {
+      "path": "source/characters/gf_character_rules.lua",
+      "sha256": "af70872d0f8ec78ee49b52c5fe82d4456aabcc3b68fe6719af143c7398e5cc8d"
+    },
+    {
+      "path": "source/characters/gf_element_rules.lua",
+      "sha256": "94518989d03e374b5bda15d838cdc6fe3185b355c7b6a5149969946a3d393c3d"
+    },
+    {
+      "path": "source/modes/gf_mode_arcade.lua",
+      "sha256": "8b5875cf8b1373239aba6ed73efc642e7a32c99044b377776b998a0b2481aa0f"
+    },
+    {
+      "path": "source/characters/gf_furina_rules_data.lua",
+      "sha256": "0d79e19fed071a9753b6e89cda6d5233eecfdfcf1a498635700fddbcf054f07c"
+    },
+    {
+      "path": "source/characters/gf_character_furina_rules.lua",
+      "sha256": "2de7805d3579766af301206a1f77aba6672117b9a6b21b00007760250076348e"
+    },
+    {
+      "path": "source/battle/gf_sim_furina.lua",
+      "sha256": "3f7e18621b457910c1252f5e0ed0f5e7059d8213ef4f7db48712f6131b2af6f2"
+    },
+    {
+      "path": "source/characters/gf_character_furina_view.lua",
+      "sha256": "9090a2fded7cf3858c1fca90503811b4cbec14d13baeedf78dfba988e8dd178a"
+    },
+    {
+      "path": "source/characters/gf_character_cinematic_view.lua",
+      "sha256": "ebba970fbe09bf66604c10f4dbb1f6d0e91876591f3272be6d8594b8f3f8e106"
+    },
+    {
+      "path": "source/assets/gf_ayaka_data.lua",
+      "sha256": "6b2712547f2a5afe32f4e1f34e2da8f98c5767d4142940e3faf6a67d95857906"
+    },
+    {
+      "path": "source/assets/gf_art_kamisatoayaka.lua",
+      "sha256": "0f945e47bd32a343e9cafd72bae83f2cbabb3bc5ba1ea20eca0562d0fa9a417b"
+    },
+    {
+      "path": "source/characters/gf_ayaka_rules_data.lua",
+      "sha256": "f338f1dc3c734d5e7c22b7d83bf96e4a39de01fcdaa1e12c74d3b3c40973612d"
+    },
+    {
+      "path": "source/characters/gf_character_ayaka.lua",
+      "sha256": "089c9bb0f7bff4468db7cee355027808215769e7f8e9e3938ffc184b731efc34"
+    },
+    {
+      "path": "source/characters/gf_character_ayaka_rules.lua",
+      "sha256": "f07ecad82ef682b19cbf5a2b0c97965448b0e5fa81df36a9898291cd02f78605"
+    },
+    {
+      "path": "source/characters/gf_character_ayaka_view.lua",
+      "sha256": "76a9f8e2414d69c763e11590de41864622c541c15891141a1b943f30cdfb8738"
+    },
+    {
+      "path": "source/characters/gf_character_effect_channel.lua",
+      "sha256": "eb2ceafc906458503bcfdc93b7c1745797df9f5f8c82913f36b798e43ccdb4b5"
+    },
+    {
+      "path": "source/battle/gf_sim_ayaka.lua",
+      "sha256": "903b9bc83888437ffe1efe496bff09474785b5e047ab879be65ae889063fb11f"
+    },
+    {
+      "path": "source/characters/gf_selection_art.lua",
+      "sha256": "4d3680543986c6cc142e524ed37fec9fe69f56a1ffa4ca8178e7df28075d3afa"
+    },
+    {
+      "path": "source/assets/gf_selection_candidates.lua",
+      "sha256": "4b98b0d54c6ade1f3e2bbbe4bcfc75101167be342905ef205654e3ec5e3c92b3"
+    },
+    {
+      "path": "source/assets/gf_clorinde_data.lua",
+      "sha256": "1f80b6f78778ff01d9b201273613571acf08a98df565dab52d9c14d49794a212"
+    },
+    {
+      "path": "source/assets/gf_art_clorinde.lua",
+      "sha256": "98b53e8bf296e320bf354a1c1fbe94aa593522fa16a4c8d80d01fdd3880685d4"
+    },
+    {
+      "path": "source/characters/gf_clorinde_rules_data.lua",
+      "sha256": "652f707a8fcd8defbaa989f6324d807341de7d58d0fc44b2437b80703dabba92"
+    },
+    {
+      "path": "source/characters/gf_character_clorinde.lua",
+      "sha256": "3631a776928612c11106c8e865570ca1e21bb4ee02fbdafc534f563a9a2c8ec0"
+    },
+    {
+      "path": "source/characters/gf_character_clorinde_rules.lua",
+      "sha256": "90e90dba106fd701b57344e30a03231491360681ca7ec58b3fe7cc916bd12c0a"
+    },
+    {
+      "path": "source/characters/gf_character_clorinde_view.lua",
+      "sha256": "92384229eceb147748528cdc622e8814c0fec93994d30658a648bb2c352f520d"
+    },
+    {
+      "path": "source/battle/gf_sim_clorinde.lua",
+      "sha256": "01a17352fec55bf7d7f74e155f4882d5c22fbe499761bb607c42102df782f705"
+    },
+    {
+      "path": "source/assets/gf_arlecchino_data.lua",
+      "sha256": "70018fa27f7c59946a4e0da1b94ea8a4322d4cb37a9a1b630895901944caf365"
+    },
+    {
+      "path": "source/assets/gf_art_arlecchino.lua",
+      "sha256": "0e4d29a1c750c29561f241956dc7de6b103f2a5bc42dc56dff1812ebd966eb2e"
+    },
+    {
+      "path": "source/characters/gf_arlecchino_rules_data.lua",
+      "sha256": "fc30a37f3f912ec12d77411d22903237b0b68dccab340511a98a24ebc8579ab0"
+    },
+    {
+      "path": "source/characters/gf_character_arlecchino.lua",
+      "sha256": "72a511e937e11f3e23422566471850ceb770e8da7702ecbe1de8a9df9180fea4"
+    },
+    {
+      "path": "source/characters/gf_character_arlecchino_rules.lua",
+      "sha256": "8e5b2b5e371b63feaabf612a15addef180193610d9eadc425fd57a6da60d90e4"
+    },
+    {
+      "path": "source/characters/gf_character_arlecchino_view.lua",
+      "sha256": "b6383c33f6a5fefe46b3a783c18f5c579330a883be6ed7ee2284374993aa4bdb"
+    },
+    {
+      "path": "source/battle/gf_sim_arlecchino.lua",
+      "sha256": "88c9b9ed8f8390d58410ebdb8fe1425f619b55173cc743ba80b9b09cccb092cc"
+    },
+    {
+      "path": "source/battle/gf_sim_team.lua",
+      "sha256": "083c1fc36c5d8326cd104ea0c060c480bf28e7e04fb907a5cf51b45b5fc57926"
+    },
+    {
+      "path": "source/battle/gf_sim_feedback.lua",
+      "sha256": "64839c80ede3e76e67a954d7bd01f1684b1e3175b80ae50bc674c90c48a2578c"
+    },
+    {
+      "path": "source/characters/gf_duo_rework_rules.lua",
+      "sha256": "f88b5d54d949809ef821d8dc01b52293596d73f57321804921dcf342b7f5fbc4"
+    },
+    {
+      "path": "source/bootstrap.lua",
+      "sha256": "b68350ecabcb7291cb26b01860da07680352900fd63cfab814c0ffdeda53456a"
+    }
+  ]
+}

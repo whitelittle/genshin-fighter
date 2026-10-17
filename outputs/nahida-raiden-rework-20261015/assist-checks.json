@@ -1,0 +1,278 @@
+{
+  "rules": {
+    "partners": [
+      {
+        "partner": 1,
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 1,
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "partner": 1,
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 1,
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 1,
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 1,
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "partner": 1,
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 1,
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 2,
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 2,
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "partner": 2,
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 2,
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 2,
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 2,
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "partner": 2,
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 2,
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 3,
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 3,
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "partner": 3,
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 3,
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 3,
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 3,
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "partner": 3,
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 3,
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 4,
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 4,
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "partner": 4,
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 4,
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 4,
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 4,
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "partner": 4,
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 4,
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 5,
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 5,
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "partner": 5,
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 5,
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 5,
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 5,
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "partner": 5,
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 5,
+        "face": -1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 6,
+        "face": 1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 6,
+        "face": 1,
+        "outcome": "block"
+      },
+      {
+        "partner": 6,
+        "face": 1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 6,
+        "face": 1,
+        "outcome": "miss"
+      },
+      {
+        "partner": 6,
+        "face": -1,
+        "outcome": "hit"
+      },
+      {
+        "partner": 6,
+        "face": -1,
+        "outcome": "block"
+      },
+      {
+        "partner": 6,
+        "face": -1,
+        "outcome": "invulnerable"
+      },
+      {
+        "partner": 6,
+        "face": -1,
+        "outcome": "miss"
+      }
+    ],
+    "introReleaseAndReset": true,
+    "mainFighterUnaffected": true,
+    "earlyInterrupt": true,
+    "aerialInput": true,
+    "dedicatedFourthSlot": true,
+    "packet11BitRoundtrip": true,
+    "fullStateReplayTicks": 1200
+  },
+  "visuals": [
+    {
+      "device": "Mobile",
+      "stats": {
+        "controls": 12122,
+        "active": 4388,
+        "visibleImages": 4356,
+        "visibleTexts": 22,
+        "glyphs": 117
+      },
+      "errors": false
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "stats": {
+        "controls": 16186,
+        "active": 4393,
+        "visibleImages": 4366,
+        "visibleTexts": 22,
+        "glyphs": 131
+      },
+      "errors": false
+    }
+  ],
+  "scope": "offline simulation; not native device acceptance"
+}

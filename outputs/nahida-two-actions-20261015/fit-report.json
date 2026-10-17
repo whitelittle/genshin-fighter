@@ -1,0 +1,161 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "cell": 0,
+      "source": "nahida-basic.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 15.055,
+        "wholeCanvasRGBMSE": 0.002756,
+        "silhouetteIoU": 0.96789
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 14.603,
+        "wholeCanvasRGBMSE": 0.002538,
+        "silhouetteIoU": 0.97169
+      },
+      "path": "idle/0"
+    },
+    {
+      "frame": 1,
+      "cell": 2,
+      "source": "nahida-basic.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 48.054,
+        "wholeCanvasRGBMSE": 0.033567,
+        "silhouetteIoU": 0.63647
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 27.769,
+        "wholeCanvasRGBMSE": 0.010088,
+        "silhouetteIoU": 0.74342
+      },
+      "path": "idle/1"
+    },
+    {
+      "frame": 2,
+      "cell": 4,
+      "source": "nahida-basic.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 47.69,
+        "wholeCanvasRGBMSE": 0.035151,
+        "silhouetteIoU": 0.58092
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 28.664,
+        "wholeCanvasRGBMSE": 0.011012,
+        "silhouetteIoU": 0.6802
+      },
+      "path": "idle/2"
+    },
+    {
+      "frame": 3,
+      "cell": 6,
+      "source": "nahida-basic.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 56.46,
+        "wholeCanvasRGBMSE": 0.035092,
+        "silhouetteIoU": 0.67738
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 29.184,
+        "wholeCanvasRGBMSE": 0.010282,
+        "silhouetteIoU": 0.80556
+      },
+      "path": "idle/3"
+    },
+    {
+      "frame": 0,
+      "cell": 4,
+      "source": "nahida-move.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 67.539,
+        "wholeCanvasRGBMSE": 0.050065,
+        "silhouetteIoU": 0.58861
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 40.57,
+        "wholeCanvasRGBMSE": 0.019323,
+        "silhouetteIoU": 0.71048
+      },
+      "path": "move/0"
+    },
+    {
+      "frame": 1,
+      "cell": 5,
+      "source": "nahida-move.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 70.769,
+        "wholeCanvasRGBMSE": 0.063723,
+        "silhouetteIoU": 0.52142
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 42.274,
+        "wholeCanvasRGBMSE": 0.022459,
+        "silhouetteIoU": 0.63556
+      },
+      "path": "move/1"
+    },
+    {
+      "frame": 2,
+      "cell": 6,
+      "source": "nahida-move.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 69.602,
+        "wholeCanvasRGBMSE": 0.060986,
+        "silhouetteIoU": 0.49009
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 43.152,
+        "wholeCanvasRGBMSE": 0.021767,
+        "silhouetteIoU": 0.608
+      },
+      "path": "move/2"
+    },
+    {
+      "frame": 3,
+      "cell": 7,
+      "source": "nahida-move.png",
+      "images": 994,
+      "baseline": {
+        "images": 994,
+        "foregroundRGBMAE": 74.479,
+        "wholeCanvasRGBMSE": 0.061385,
+        "silhouetteIoU": 0.51845
+      },
+      "final": {
+        "images": 994,
+        "foregroundRGBMAE": 44.18,
+        "wholeCanvasRGBMSE": 0.022227,
+        "silhouetteIoU": 0.64147
+      },
+      "path": "move/3"
+    }
+  ],
+  "inputDownscaled": false,
+  "backgroundRemoved": true,
+  "sameShapeIds": true,
+  "pruningDisabledForCorrespondence": true,
+  "deviceVerified": false
+}

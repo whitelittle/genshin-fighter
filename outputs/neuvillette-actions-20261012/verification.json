@@ -1,0 +1,1504 @@
+{
+  "candidate": true,
+  "actions": 10,
+  "uniqueBodyImages": 42,
+  "mainDisplayStates": 49,
+  "uniqueEffectImages": 6,
+  "rectReconstruction": "exact quantized target; asserted during fitting",
+  "bodyPeak": 688,
+  "effectPeak": 139,
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "simulatorVerified": false,
+  "deviceVerified": false,
+  "audit": [
+    {
+      "file": "frames/idle-open-0.png",
+      "rectangles": 523,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            573,
+            335,
+            574,
+            336
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/idle-inhale-0.png",
+      "rectangles": 541,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/heavy-0.png",
+      "rectangles": 595,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/heavy-1.png",
+      "rectangles": 586,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/heavy-2.png",
+      "rectangles": 630,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/heavy-3.png",
+      "rectangles": 533,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/torrent-0.png",
+      "rectangles": 66,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            921,
+            231,
+            954,
+            259
+          ],
+          "area": 676,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            966,
+            141,
+            1003,
+            164
+          ],
+          "area": 569,
+          "distance": 30.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1872,
+            632,
+            1906,
+            657
+          ],
+          "area": 559,
+          "distance": 23.0,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1830,
+            734,
+            1857,
+            758
+          ],
+          "area": 476,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1873,
+            436,
+            1896,
+            460
+          ],
+          "area": 425,
+          "distance": 17.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1844,
+            477,
+            1867,
+            500
+          ],
+          "area": 403,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1696,
+            576,
+            1727,
+            592
+          ],
+          "area": 366,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1741,
+            517,
+            1765,
+            536
+          ],
+          "area": 364,
+          "distance": 3.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1870,
+            684,
+            1891,
+            706
+          ],
+          "area": 357,
+          "distance": 14.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1873,
+            382,
+            1893,
+            402
+          ],
+          "area": 333,
+          "distance": 16.0,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1724,
+            768,
+            1747,
+            787
+          ],
+          "area": 333,
+          "distance": 5.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            954,
+            186,
+            975,
+            206
+          ],
+          "area": 322,
+          "distance": 10.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1662,
+            562,
+            1683,
+            580
+          ],
+          "area": 294,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            843,
+            259,
+            865,
+            276
+          ],
+          "area": 289,
+          "distance": 3.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1838,
+            346,
+            1858,
+            365
+          ],
+          "area": 286,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            910,
+            604,
+            934,
+            619
+          ],
+          "area": 274,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1534,
+            601,
+            1560,
+            616
+          ],
+          "area": 270,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1585,
+            496,
+            1610,
+            510
+          ],
+          "area": 266,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1677,
+            310,
+            1697,
+            327
+          ],
+          "area": 258,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1838,
+            598,
+            1857,
+            615
+          ],
+          "area": 253,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            791,
+            56,
+            811,
+            72
+          ],
+          "area": 252,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            741,
+            72,
+            764,
+            87
+          ],
+          "area": 251,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            811,
+            69,
+            832,
+            86
+          ],
+          "area": 250,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            931,
+            105,
+            950,
+            122
+          ],
+          "area": 244,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1629,
+            581,
+            1651,
+            595
+          ],
+          "area": 239,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            745,
+            247,
+            768,
+            261
+          ],
+          "area": 234,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1853,
+            716,
+            1871,
+            733
+          ],
+          "area": 232,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1613,
+            335,
+            1634,
+            349
+          ],
+          "area": 214,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1584,
+            588,
+            1603,
+            602
+          ],
+          "area": 190,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1646,
+            311,
+            1662,
+            325
+          ],
+          "area": 172,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/torrent-1.png",
+      "rectangles": 139,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            921,
+            231,
+            954,
+            259
+          ],
+          "area": 676,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            966,
+            141,
+            1003,
+            164
+          ],
+          "area": 569,
+          "distance": 30.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1872,
+            632,
+            1906,
+            657
+          ],
+          "area": 559,
+          "distance": 23.0,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1830,
+            734,
+            1857,
+            758
+          ],
+          "area": 476,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1873,
+            436,
+            1896,
+            460
+          ],
+          "area": 425,
+          "distance": 17.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1844,
+            477,
+            1867,
+            500
+          ],
+          "area": 403,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1696,
+            576,
+            1727,
+            592
+          ],
+          "area": 366,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1741,
+            517,
+            1765,
+            536
+          ],
+          "area": 364,
+          "distance": 3.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1870,
+            684,
+            1891,
+            706
+          ],
+          "area": 357,
+          "distance": 14.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1873,
+            382,
+            1893,
+            402
+          ],
+          "area": 333,
+          "distance": 16.0,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1724,
+            768,
+            1747,
+            787
+          ],
+          "area": 333,
+          "distance": 5.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            954,
+            186,
+            975,
+            206
+          ],
+          "area": 322,
+          "distance": 10.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1662,
+            562,
+            1683,
+            580
+          ],
+          "area": 294,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            843,
+            259,
+            865,
+            276
+          ],
+          "area": 289,
+          "distance": 3.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1838,
+            346,
+            1858,
+            365
+          ],
+          "area": 286,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            910,
+            604,
+            934,
+            619
+          ],
+          "area": 274,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1534,
+            601,
+            1560,
+            616
+          ],
+          "area": 270,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1585,
+            496,
+            1610,
+            510
+          ],
+          "area": 266,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1677,
+            310,
+            1697,
+            327
+          ],
+          "area": 258,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1838,
+            598,
+            1857,
+            615
+          ],
+          "area": 253,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            791,
+            56,
+            811,
+            72
+          ],
+          "area": 252,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            741,
+            72,
+            764,
+            87
+          ],
+          "area": 251,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            811,
+            69,
+            832,
+            86
+          ],
+          "area": 250,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            931,
+            105,
+            950,
+            122
+          ],
+          "area": 244,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1629,
+            581,
+            1651,
+            595
+          ],
+          "area": 239,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            745,
+            247,
+            768,
+            261
+          ],
+          "area": 234,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1853,
+            716,
+            1871,
+            733
+          ],
+          "area": 232,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1613,
+            335,
+            1634,
+            349
+          ],
+          "area": 214,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1584,
+            588,
+            1603,
+            602
+          ],
+          "area": 190,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1646,
+            311,
+            1662,
+            325
+          ],
+          "area": 172,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/torrent-2.png",
+      "rectangles": 139,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            921,
+            231,
+            954,
+            259
+          ],
+          "area": 676,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            966,
+            141,
+            1003,
+            164
+          ],
+          "area": 569,
+          "distance": 30.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1872,
+            632,
+            1906,
+            657
+          ],
+          "area": 559,
+          "distance": 23.0,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1830,
+            734,
+            1857,
+            758
+          ],
+          "area": 476,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1873,
+            436,
+            1896,
+            460
+          ],
+          "area": 425,
+          "distance": 17.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1844,
+            477,
+            1867,
+            500
+          ],
+          "area": 403,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1696,
+            576,
+            1727,
+            592
+          ],
+          "area": 366,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1741,
+            517,
+            1765,
+            536
+          ],
+          "area": 364,
+          "distance": 3.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1870,
+            684,
+            1891,
+            706
+          ],
+          "area": 357,
+          "distance": 14.5,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1873,
+            382,
+            1893,
+            402
+          ],
+          "area": 333,
+          "distance": 16.0,
+          "attached": false
+        },
+        {
+          "bbox": [
+            1724,
+            768,
+            1747,
+            787
+          ],
+          "area": 333,
+          "distance": 5.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            954,
+            186,
+            975,
+            206
+          ],
+          "area": 322,
+          "distance": 10.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1662,
+            562,
+            1683,
+            580
+          ],
+          "area": 294,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            843,
+            259,
+            865,
+            276
+          ],
+          "area": 289,
+          "distance": 3.5,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1838,
+            346,
+            1858,
+            365
+          ],
+          "area": 286,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            910,
+            604,
+            934,
+            619
+          ],
+          "area": 274,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1534,
+            601,
+            1560,
+            616
+          ],
+          "area": 270,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1585,
+            496,
+            1610,
+            510
+          ],
+          "area": 266,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1677,
+            310,
+            1697,
+            327
+          ],
+          "area": 258,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1838,
+            598,
+            1857,
+            615
+          ],
+          "area": 253,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            791,
+            56,
+            811,
+            72
+          ],
+          "area": 252,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            741,
+            72,
+            764,
+            87
+          ],
+          "area": 251,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            811,
+            69,
+            832,
+            86
+          ],
+          "area": 250,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            931,
+            105,
+            950,
+            122
+          ],
+          "area": 244,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1629,
+            581,
+            1651,
+            595
+          ],
+          "area": 239,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            745,
+            247,
+            768,
+            261
+          ],
+          "area": 234,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1853,
+            716,
+            1871,
+            733
+          ],
+          "area": 232,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1613,
+            335,
+            1634,
+            349
+          ],
+          "area": 214,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1584,
+            588,
+            1603,
+            602
+          ],
+          "area": 190,
+          "distance": 0.0,
+          "attached": true
+        },
+        {
+          "bbox": [
+            1646,
+            311,
+            1662,
+            325
+          ],
+          "area": 172,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/walk-0.png",
+      "rectangles": 528,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/walk-1.png",
+      "rectangles": 467,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/walk-2.png",
+      "rectangles": 480,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/walk-3.png",
+      "rectangles": 554,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/walk-4.png",
+      "rectangles": 497,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/walk-5.png",
+      "rectangles": 482,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/backwalk-0.png",
+      "rectangles": 561,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/backwalk-1.png",
+      "rectangles": 547,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/backwalk-2.png",
+      "rectangles": 519,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/backwalk-3.png",
+      "rectangles": 592,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/backwalk-4.png",
+      "rectangles": 562,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/backwalk-5.png",
+      "rectangles": 497,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light1-0.png",
+      "rectangles": 564,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light1-1.png",
+      "rectangles": 596,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light1-2.png",
+      "rectangles": 616,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light1-3.png",
+      "rectangles": 559,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/lightwave-0.png",
+      "rectangles": 60,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light2-v1-0.png",
+      "rectangles": 568,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light2-v1-1.png",
+      "rectangles": 616,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light2-v1-2.png",
+      "rectangles": 611,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light2-v1-3.png",
+      "rectangles": 570,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light3-v2-0.png",
+      "rectangles": 620,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light3-v2-1.png",
+      "rectangles": 647,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light3-v2-2.png",
+      "rectangles": 688,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/light3-v2-3.png",
+      "rectangles": 628,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/crouch-v2-0.png",
+      "rectangles": 514,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            991,
+            851,
+            992,
+            852
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/crouch-v2-1.png",
+      "rectangles": 505,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            991,
+            851,
+            992,
+            852
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/crouch-v2-2.png",
+      "rectangles": 429,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            991,
+            851,
+            992,
+            852
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/crouch-v2-3.png",
+      "rectangles": 367,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            991,
+            851,
+            992,
+            852
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/standguard-v1-0.png",
+      "rectangles": 594,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/standguard-v1-1.png",
+      "rectangles": 589,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/standguard-v1-2.png",
+      "rectangles": 578,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/standguard-v1-3.png",
+      "rectangles": 486,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/crouchguard-v2-0.png",
+      "rectangles": 468,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            565,
+            638,
+            566,
+            639
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/crouchguard-v2-1.png",
+      "rectangles": 449,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            565,
+            638,
+            566,
+            639
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/crouchguard-v2-2.png",
+      "rectangles": 452,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            565,
+            638,
+            566,
+            639
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/crouchguard-v2-3.png",
+      "rectangles": 447,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": [
+        {
+          "bbox": [
+            565,
+            638,
+            566,
+            639
+          ],
+          "area": 1,
+          "distance": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "file": "frames/orb-guard-0.png",
+      "rectangles": 65,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    },
+    {
+      "file": "frames/orb-guard-1.png",
+      "rectangles": 40,
+      "originalRetainedRGBA": true,
+      "storageBorderClear": true,
+      "sourceCanvasContact": false,
+      "fragments": []
+    }
+  ],
+  "browserEvidence": "browser-initial.json; 16 pose-material states and mirrored full torrent at tick28; independent preview only",
+  "browserBatch2": "50 current pose-material states; 10 lightwave boundary states; mirror and walk/backwalk movement switches; independent browser only",
+  "browserBatch3": "48 new pose-material states; 32 attack/guard effect boundary states; mirrored FX-off silhouette observed; independent browser only"
+}

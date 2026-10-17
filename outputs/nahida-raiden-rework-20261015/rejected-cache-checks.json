@@ -1,0 +1,118 @@
+{
+  "rules": {
+    "cases": [
+      {
+        "key": "nahida",
+        "oldDistance": 124.47,
+        "newDistance": 224.69,
+        "mirrorsAndVariants": true
+      },
+      {
+        "key": "raidenshogun",
+        "oldDistance": 115.78,
+        "newDistance": 237.24,
+        "mirrorsAndVariants": true
+      }
+    ],
+    "fullStateReplayTicks": 1200
+  },
+  "geometry": [
+    {
+      "key": "nahida",
+      "action": "walk",
+      "before": {
+        "instructionsMean": 66330,
+        "instructionsPeak": 80083,
+        "callsMean": 326.63,
+        "callsTotal": 117633,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 66227,
+        "instructionsPeak": 83971,
+        "callsMean": 326.63,
+        "callsTotal": 117633,
+        "residentControls": 12122,
+        "geometryNumbers": 30845,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": -0.16
+    },
+    {
+      "key": "nahida",
+      "action": "attack",
+      "before": {
+        "instructionsMean": 75419,
+        "instructionsPeak": 338591,
+        "callsMean": 531.22,
+        "callsTotal": 201055,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 79220,
+        "instructionsPeak": 347091,
+        "callsMean": 531.22,
+        "callsTotal": 201055,
+        "residentControls": 12122,
+        "geometryNumbers": 42935,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": 5.04
+    },
+    {
+      "key": "raidenshogun",
+      "action": "walk",
+      "before": {
+        "instructionsMean": 65262,
+        "instructionsPeak": 88809,
+        "callsMean": 318.17,
+        "callsTotal": 117339,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 65323,
+        "instructionsPeak": 88511,
+        "callsMean": 318.17,
+        "callsTotal": 117339,
+        "residentControls": 12122,
+        "geometryNumbers": 38025,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": 0.09
+    },
+    {
+      "key": "raidenshogun",
+      "action": "attack",
+      "before": {
+        "instructionsMean": 74600,
+        "instructionsPeak": 315043,
+        "callsMean": 545.63,
+        "callsTotal": 205475,
+        "residentControls": 12122,
+        "geometryNumbers": 0,
+        "errors": []
+      },
+      "after": {
+        "instructionsMean": 78258,
+        "instructionsPeak": 329943,
+        "callsMean": 545.63,
+        "callsTotal": 205475,
+        "residentControls": 12122,
+        "geometryNumbers": 49965,
+        "errors": []
+      },
+      "exactPixelChecks": 3,
+      "instructionChangePercent": 4.9
+    }
+  ],
+  "scope": "offline Lua53/mock only; no native FPS acceptance"
+}

@@ -1,0 +1,485 @@
+{
+  "file": "gpt_20261013_GF3车轮战_自带变量_结算关闭.gia",
+  "reflectivePinsChecked": 390,
+  "errors": [
+    {
+      "node": 7,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 9,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 2,
+      "actual": 3,
+      "want": 1
+    },
+    {
+      "node": 12,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 2,
+      "actual": 3,
+      "want": 1
+    },
+    {
+      "node": 14,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 15,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 16,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 22,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 28,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 41,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 42,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 43,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 49,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 55,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 70,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 77,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 78,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 79,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 80,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 81,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 82,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 83,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 84,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 85,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 86,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 87,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 88,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 91,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 93,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 99,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 100,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 101,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 102,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 103,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 150,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 203,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 220,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 227,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 228,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 229,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 230,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 231,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 278,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 331,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 408,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 409,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 410,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 411,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 412,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 413,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 414,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 415,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 416,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 417,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 418,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 419,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 479,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 481,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    },
+    {
+      "node": 490,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 2,
+      "actual": 3,
+      "want": 1
+    },
+    {
+      "node": 492,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 2,
+      "actual": 3,
+      "want": 1
+    },
+    {
+      "node": 505,
+      "kind": 4,
+      "index": 0,
+      "type": 337,
+      "reason": "concrete index/type mismatch",
+      "selected": 0,
+      "actual": 1,
+      "want": 3
+    },
+    {
+      "node": 507,
+      "kind": 3,
+      "index": 1,
+      "type": 323,
+      "reason": "reflective pin missing ConcreteBase wrapper"
+    }
+  ],
+  "nativeEditorValidation": false
+}

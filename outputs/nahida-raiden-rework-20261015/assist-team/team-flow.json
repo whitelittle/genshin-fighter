@@ -1,0 +1,62 @@
+[
+  {
+    "device": "KeyboardAndMouse",
+    "stockIndices": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "selectionToFightResultRematch": true,
+    "maxMockInstructions": 831271,
+    "stats": {
+      "controls": 16186,
+      "active": 2298,
+      "visibleImages": 2271,
+      "visibleTexts": 22,
+      "glyphs": 117
+    }
+  },
+  {
+    "device": "Mobile",
+    "stockIndices": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "selectionToFightResultRematch": true,
+    "maxMockInstructions": 964548,
+    "stats": {
+      "controls": 13210,
+      "active": 2292,
+      "visibleImages": 2262,
+      "visibleTexts": 20,
+      "glyphs": 108
+    }
+  }
+]

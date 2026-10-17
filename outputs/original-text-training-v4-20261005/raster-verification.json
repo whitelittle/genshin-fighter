@@ -1,0 +1,24 @@
+{
+  "all41FrameRunEncodingRoundtrips": true,
+  "maxTextBytes": 1000,
+  "actorFramesAndSpecsUnchanged": true,
+  "actorFxJobCountsUnchanged": true,
+  "threeRoundsSameStage": true,
+  "warmStagePaintCached": true,
+  "simulatorOnly": true,
+  "nativeTextSeamsVerified": false,
+  "stagePaintLogs": [
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000096999999996683",
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000095999999984997",
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000092000000009307",
+    "[LOAD PHASE] paint tasks=0 cpu=0.000011000000000649",
+    "[LOAD PHASE] paint tasks=0 cpu=0.000009199999997378",
+    "[LOAD PHASE] paint tasks=0 cpu=0.000010799999998312",
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000095999999984997",
+    "[LOAD PHASE] paint tasks=0 cpu=0.000011900000000509",
+    "[LOAD PHASE] paint tasks=813 cpu=3.7885496999999",
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000059000000049991",
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000060000000132732",
+    "[LOAD PHASE] paint tasks=0 cpu=0.0000097000000067737"
+  ]
+}

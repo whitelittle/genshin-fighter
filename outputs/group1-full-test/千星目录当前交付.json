@@ -1,0 +1,30 @@
+{
+  "stamp": "20261004_043611",
+  "lua": "gpt_20261004_043611_第一批完整测试.lua",
+  "scriptPath": "lua/gpt_20261004_043611_第一批完整测试.lua",
+  "files": [
+    {
+      "kind": "server",
+      "filename": "gpt_20261004_043611_A_第一批完整测试界面.gia",
+      "bytes": 8229714,
+      "sha256": "6bca1b7d273e3cc329a19b73ea584409ec65e863f32416cb6667e0169606564d",
+      "gameVersion": "7.0.50",
+      "graphName": "gpt_20261004_043611_A_第一批完整测试界面",
+      "accessories": 1190,
+      "assetType": "server-control-template",
+      "templateCount": 0
+    },
+    {
+      "kind": "client",
+      "filename": "gpt_20261004_043611_B_通用图元模板.gia",
+      "bytes": 1679,
+      "sha256": "2a65232dc49659dd92be0f885e3baaf7f559bef9e15c97de2b800b4a1ccce352",
+      "gameVersion": "7.0.50",
+      "graphName": "gpt_20261004_043611_B_通用图元模板",
+      "accessories": 1,
+      "assetType": "client-control-template",
+      "templateCount": 1
+    }
+  ],
+  "deviceVerified": false
+}

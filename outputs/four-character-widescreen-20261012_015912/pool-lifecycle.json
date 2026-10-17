@@ -1,0 +1,76 @@
+{
+  "mockOnly": true,
+  "canvas": [
+    2832,
+    1280
+  ],
+  "QBannerCoversWidth": true,
+  "furinaWalkScale": 1.1428571428571428,
+  "surplusAfterSceneExit": {
+    "floor": 16000,
+    "created": 16256,
+    "backgroundGrowth": false,
+    "first": 256,
+    "target": 16000,
+    "retiring": false,
+    "total": 16000,
+    "warning": 2000,
+    "freeFirst": 0,
+    "batch": 32,
+    "retired": 0,
+    "destroyed": 512,
+    "limit": 20000,
+    "trash": 0,
+    "inUse": 909,
+    "freeSecond": 15091,
+    "templateIndex": 1073741845,
+    "warnings": 0,
+    "emergencies": 0,
+    "reserve": 3500
+  },
+  "sixSceneCycles": [
+    {
+      "total": 16000,
+      "inUse": 966,
+      "created": 16256
+    },
+    {
+      "total": 16000,
+      "inUse": 734,
+      "created": 16256
+    },
+    {
+      "total": 16000,
+      "inUse": 909,
+      "created": 16256
+    },
+    {
+      "total": 16000,
+      "inUse": 966,
+      "created": 16256
+    },
+    {
+      "total": 16000,
+      "inUse": 734,
+      "created": 16256
+    },
+    {
+      "total": 16000,
+      "inUse": 909,
+      "created": 16256
+    }
+  ],
+  "failedAllocationAttempts": 1,
+  "failureCoversCanvas": true,
+  "portraitWithinBanner": true,
+  "threeLoadingStages": [
+    14672,
+    15344,
+    16000
+  ],
+  "extraPerStage": [
+    672,
+    672,
+    656
+  ]
+}

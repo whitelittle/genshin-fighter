@@ -1,0 +1,172 @@
+{
+  "evidence": "build metadata; not device telemetry",
+  "staticControls": 1063,
+  "deferredImages": 18952,
+  "mascotPool": 199,
+  "giaBytes": 8103875,
+  "deviceVerified": false,
+  "roles": [
+    {
+      "key": "kaeya",
+      "id": 3,
+      "frames": 48,
+      "pool": 1923,
+      "source": "outputs/motion-group1/kaeya",
+      "dataBytes": 1687874,
+      "compressedBytes": 295113,
+      "maxFrameRects": 1923,
+      "deviceVerified": false
+    },
+    {
+      "key": "jean",
+      "id": 4,
+      "frames": 48,
+      "pool": 1529,
+      "source": "outputs/motion-group1/jean",
+      "dataBytes": 1501246,
+      "compressedBytes": 261396,
+      "maxFrameRects": 1529,
+      "deviceVerified": false
+    },
+    {
+      "key": "klee",
+      "id": 5,
+      "frames": 48,
+      "pool": 1164,
+      "source": "outputs/motion-group1/klee-approved-v3",
+      "dataBytes": 1232590,
+      "compressedBytes": 215666,
+      "maxFrameRects": 1164,
+      "deviceVerified": false
+    },
+    {
+      "key": "lisa",
+      "id": 6,
+      "frames": 48,
+      "pool": 1757,
+      "source": "outputs/motion-group1/lisa",
+      "dataBytes": 1844626,
+      "compressedBytes": 317520,
+      "maxFrameRects": 1757,
+      "deviceVerified": false
+    },
+    {
+      "key": "ganyu",
+      "id": 7,
+      "frames": 48,
+      "pool": 1774,
+      "source": "outputs/motion-group1/ganyu",
+      "dataBytes": 1770258,
+      "compressedBytes": 306669,
+      "maxFrameRects": 1774,
+      "deviceVerified": false
+    },
+    {
+      "key": "yanfei",
+      "id": 8,
+      "frames": 48,
+      "pool": 1746,
+      "source": "outputs/motion-group1/yanfei",
+      "dataBytes": 1764225,
+      "compressedBytes": 308165,
+      "maxFrameRects": 1746,
+      "deviceVerified": false
+    },
+    {
+      "key": "xiao",
+      "id": 9,
+      "frames": 48,
+      "pool": 1472,
+      "source": "outputs/motion-group1/xiao",
+      "dataBytes": 1497427,
+      "compressedBytes": 268282,
+      "maxFrameRects": 1472,
+      "deviceVerified": false
+    },
+    {
+      "key": "hutao",
+      "id": 10,
+      "frames": 48,
+      "pool": 1575,
+      "source": "outputs/motion-group1/hutao",
+      "dataBytes": 1495396,
+      "compressedBytes": 267239,
+      "maxFrameRects": 1575,
+      "deviceVerified": false
+    },
+    {
+      "key": "lawachurl",
+      "id": 11,
+      "frames": 48,
+      "pool": 2333,
+      "source": "outputs/motion-group1/lawachurl",
+      "dataBytes": 1901468,
+      "compressedBytes": 298739,
+      "maxFrameRects": 2333,
+      "deviceVerified": false
+    },
+    {
+      "key": "yaemiko",
+      "id": 12,
+      "frames": 48,
+      "pool": 2260,
+      "source": "outputs/motion-group1/yaemiko",
+      "dataBytes": 2221923,
+      "compressedBytes": 378526,
+      "maxFrameRects": 2260,
+      "deviceVerified": false
+    },
+    {
+      "key": "kirara",
+      "id": 13,
+      "frames": 48,
+      "pool": 2246,
+      "source": "outputs/motion-group1/kirara",
+      "dataBytes": 2105374,
+      "compressedBytes": 368908,
+      "maxFrameRects": 2246,
+      "deviceVerified": false
+    },
+    {
+      "key": "kamisatoayato",
+      "id": 15,
+      "frames": 48,
+      "pool": 3349,
+      "source": "outputs/motion-group1/kamisatoayato",
+      "dataBytes": 2152991,
+      "compressedBytes": 368766,
+      "maxFrameRects": 3349,
+      "deviceVerified": false
+    },
+    {
+      "key": "aratakiitto",
+      "id": 16,
+      "frames": 48,
+      "pool": 2259,
+      "source": "outputs/motion-group1/aratakiitto",
+      "dataBytes": 2197922,
+      "compressedBytes": 387041,
+      "maxFrameRects": 2259,
+      "deviceVerified": false
+    },
+    {
+      "key": "sangonomiyakokomi",
+      "id": 17,
+      "frames": 48,
+      "pool": 2577,
+      "source": "outputs/motion-group1/sangonomiyakokomi",
+      "dataBytes": 2435094,
+      "compressedBytes": 395783,
+      "maxFrameRects": 2577,
+      "deviceVerified": false
+    }
+  ],
+  "renderProfile": "96 body pixels / 32 colors / disjoint rectangles",
+  "spritePoolMeaning": "per actor maximum frame rectangle count; two actors use separate pools",
+  "menuStrategy": "current page avatars only",
+  "battleStrategy": "current two actors only; destroy unused controls and clear decoded rows on page/round/result transitions",
+  "templateCost": "B container plus Pixel image per instantiated rectangle; hidden is not released",
+  "visibleResidentAndOverlap": "dynamic; not measured on physical device",
+  "framePropertyWrites": "different frame rows only; call totals not measured",
+  "deviceFPS": null
+}

@@ -1,0 +1,475 @@
+{
+  "mockOnly": true,
+  "safeInsetIsReproductionHypothesis": true,
+  "sourceSha256": "b454aede7cc2b1f631a6a6339fa4f184e4146bdd3d4d929e9aca8514c7b38087",
+  "results": [
+    {
+      "label": "after-full",
+      "physicalScreen": [
+        2832,
+        1280
+      ],
+      "uiCanvas": [
+        2832,
+        1280
+      ],
+      "pages": [
+        {
+          "page": "01-loading",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 416
+        },
+        {
+          "page": "02-intro",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 1800
+        },
+        {
+          "page": "03-title",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-menu",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-options",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-howto",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-2",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-3",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "06-select",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 14672
+        },
+        {
+          "page": "07-select-transition-loading",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 14704
+        },
+        {
+          "page": "08-vs",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 15344
+        },
+        {
+          "page": "09-fight-loading",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "10-fight",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "11-pause",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "11-command-list",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "12-Q-furina",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "12-Q-kamisatoayaka",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "13-result",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "14-online",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "14-gallery",
+          "backingBounds": [
+            -170.66499999999996,
+            -113.77999999999997,
+            3002.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        }
+      ],
+      "contactSheet": "verification/widescreen/after-full/all-pages.png"
+    },
+    {
+      "label": "after-safe-inset",
+      "physicalScreen": [
+        2832,
+        1280
+      ],
+      "uiCanvas": [
+        2648,
+        1280
+      ],
+      "pages": [
+        {
+          "page": "01-loading",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 416
+        },
+        {
+          "page": "02-intro",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 1800
+        },
+        {
+          "page": "03-title",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-menu",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-options",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "04-howto",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-2",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "05-howto-3",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 8000
+        },
+        {
+          "page": "06-select",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 14672
+        },
+        {
+          "page": "07-select-transition-loading",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 14704
+        },
+        {
+          "page": "08-vs",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 15344
+        },
+        {
+          "page": "09-fight-loading",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "10-fight",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "11-pause",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "11-command-list",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "12-Q-furina",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "12-Q-kamisatoayaka",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "13-result",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "14-online",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        },
+        {
+          "page": "14-gallery",
+          "backingBounds": [
+            -78.66499999999996,
+            -113.77999999999997,
+            2910.665,
+            1393.78
+          ],
+          "coversPhysicalScreen": true,
+          "pool": 16000
+        }
+      ],
+      "contactSheet": "verification/widescreen/after-safe-inset/all-pages.png"
+    }
+  ]
+}

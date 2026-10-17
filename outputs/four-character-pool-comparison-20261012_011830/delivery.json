@@ -1,0 +1,51 @@
+{
+  "name": "gpt_20261012_011830_原神格斗_关闭后台扩池对照版",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka"
+  ],
+  "protocolVersion": 4,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261012_011830_原神格斗_关闭后台扩池对照版_A.gia",
+      "bytes": 7482402,
+      "sha256": "4ef9d9ea88f757f0a36fc88ea902c9cda9a605fb18067a924fea0f7068a61cb3"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261012_011830_原神格斗_关闭后台扩池对照版_仅脚本.gia",
+      "bytes": 7200628,
+      "sha256": "c0141760b33ef040cf00fb80403bc1142258f388aabd585226e06b258af66a53"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261012_011830_原神格斗_关闭后台扩池对照版_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261012_011830_原神格斗_关闭后台扩池对照版.lua",
+      "bytes": 7200430,
+      "sha256": "74aaeadb699039079c03aa2f5fc9c24c98003e162c781687d23add23b1eff3a7"
+    }
+  ],
+  "sourceSha256": "74aaeadb699039079c03aa2f5fc9c24c98003e162c781687d23add23b1eff3a7",
+  "templateSha256": "b21e51f537322ce8cb1bc7f3dc753182abde01ea9f8f554477160eb65d0de28f",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "existing GFV2; not GF10",
+  "nativeDeviceTested": false,
+  "externalDelivery": false
+}

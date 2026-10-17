@@ -1,0 +1,36 @@
+{
+  "simulatorOnly": true,
+  "sampledTeams": [
+    [
+      3,
+      8,
+      5
+    ],
+    [
+      4,
+      11,
+      17
+    ]
+  ],
+  "rounds": [
+    [
+      "琴 / 玩家2",
+      "凯亚 / 玩家1"
+    ],
+    [
+      "岩盔丘丘王 / 玩家2",
+      "烟绯 / 玩家1"
+    ],
+    [
+      "珊瑚宫心海 / 玩家2",
+      "可莉 / 玩家1"
+    ]
+  ],
+  "incompleteTeamCannotStart": true,
+  "oneReadyCannotStart": true,
+  "roundBarrier": true,
+  "threeRounds": true,
+  "onePlayerResultReturnSynchronizesBoth": true,
+  "mapHiddenInSelection": true,
+  "deviceVerified": false
+}

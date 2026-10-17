@@ -1,0 +1,84 @@
+{
+  "mockOnly": true,
+  "nativeDeviceTested": false,
+  "sourceSha256": "79448bd5efe76e5d767488daa35c5ae42ea9b266d55e014e08502db22e47032c",
+  "ordinarySha256": "466b4bee48996dab7c0294478dc5b8ace0b05d0482b7f0a42654bd4a993ed11e",
+  "exactDecodedRectanglesPalettesAndAllMetadata": true,
+  "independentMutableFrames": true,
+  "frames": 639,
+  "rectangles": 461672,
+  "preparation": {
+    "raidenshogun": {
+      "ordinary": {
+        "prepareSteps": 156,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 5076000,
+        "peakStepInstructions": 36000,
+        "mockSetupMs": 10.47,
+        "mockPrepareMs": 24.09
+      },
+      "compact": {
+        "prepareSteps": 156,
+        "setupInstructions": 1317000,
+        "prepareInstructions": 5075000,
+        "peakStepInstructions": 36000,
+        "mockSetupMs": 9.78,
+        "mockPrepareMs": 23.66
+      }
+    },
+    "nahida": {
+      "ordinary": {
+        "prepareSteps": 148,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 4926000,
+        "peakStepInstructions": 37000,
+        "mockSetupMs": 9.49,
+        "mockPrepareMs": 23.62
+      },
+      "compact": {
+        "prepareSteps": 148,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 4926000,
+        "peakStepInstructions": 37000,
+        "mockSetupMs": 9.16,
+        "mockPrepareMs": 23.75
+      }
+    },
+    "furina": {
+      "ordinary": {
+        "prepareSteps": 280,
+        "setupInstructions": 37000,
+        "prepareInstructions": 21597000,
+        "peakStepInstructions": 163000,
+        "mockSetupMs": 0.73,
+        "mockPrepareMs": 100.75
+      },
+      "compact": {
+        "prepareSteps": 225,
+        "setupInstructions": 19000,
+        "prepareInstructions": 25832000,
+        "peakStepInstructions": 196000,
+        "mockSetupMs": 0.37,
+        "mockPrepareMs": 115.92
+      }
+    },
+    "kamisatoayaka": {
+      "ordinary": {
+        "prepareSteps": 238,
+        "setupInstructions": 23000,
+        "prepareInstructions": 18685000,
+        "peakStepInstructions": 132000,
+        "mockSetupMs": 0.54,
+        "mockPrepareMs": 80.8
+      },
+      "compact": {
+        "prepareSteps": 180,
+        "setupInstructions": 11000,
+        "prepareInstructions": 22590000,
+        "peakStepInstructions": 194000,
+        "mockSetupMs": 0.2,
+        "mockPrepareMs": 98.67
+      }
+    }
+  }
+}

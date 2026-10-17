@@ -1,0 +1,57 @@
+{
+  "name": "gpt_20261011_233317_原神格斗_四角色整理版",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka"
+  ],
+  "protocolVersion": 4,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261011_233317_原神格斗_四角色整理版_A.gia",
+      "bytes": 7480353,
+      "sha256": "8ae87c96bbd51d1e430f6f4950eb821a5b768f1e6af2215767e46f9002485dfe"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261011_233317_原神格斗_四角色整理版_仅脚本.gia",
+      "bytes": 7198579,
+      "sha256": "f3edea35458a190f12939940855ef78e0eb53f7cad61d05c6ebcb4278c7cab31"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261011_233317_原神格斗_四角色整理版_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261011_233317_原神格斗_四角色整理版.lua",
+      "bytes": 7198381,
+      "sha256": "aa38eff66d3492e09b331ca80365f091f6b149164d532961a55f804febea37ee"
+    }
+  ],
+  "sourceSha256": "aa38eff66d3492e09b331ca80365f091f6b149164d532961a55f804febea37ee",
+  "templateSha256": "b21e51f537322ce8cb1bc7f3dc753182abde01ea9f8f554477160eb65d0de28f",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "existing GFV2; not GF10",
+  "nativeDeviceTested": false,
+  "externalDelivery": {
+    "copied": true,
+    "target": "%LOCALAPPDATA%Low/miHoYo/原神/BeyondLocal/Beyond_Local_Export",
+    "giaFiles": 3,
+    "sha256Verified": true,
+    "existingFilesOverwritten": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stamp": "20261004_210009",
+  "files": [
+    {
+      "filename": "gpt_20261004_210009_A_完整游戏.gia",
+      "bytes": 5689598,
+      "sha256": "796b120a0f9f6d13f4914ec1a3da8316d114746e00d140f4441c22828caedf34"
+    },
+    {
+      "filename": "gpt_20261004_210009_B_通用图元模板.gia",
+      "bytes": 1679,
+      "sha256": "2bf5d64aeb4bab88e68a6f20b406240c9e53e19a123789aad6c93a5a5503761d"
+    },
+    {
+      "filename": "gpt_20261004_210009_联机节点_含完整信号.gia",
+      "bytes": 42991,
+      "sha256": "68274fb7e0649c5ac3fbcedd378b2b6f6a29be23aba8d9982f208aac0f1d1f4a"
+    },
+    {
+      "filename": "gpt_20261004_210009_完整游戏.lua",
+      "bytes": 4866172,
+      "sha256": "cb78a526e67092c75ca459b57fe2d6b4cf82a0ec60da2313addc8b56a894a07e"
+    }
+  ],
+  "bindings": {
+    "FighterHello": "GF10Hello",
+    "FighterSeat": "GF10Seat",
+    "FighterTeam": "GF10Team",
+    "FighterTeamOut": "GF10TeamOut",
+    "FighterJoin": "GF10Join",
+    "FighterJoined": "GF10Joined",
+    "FighterFrames": "GF10Frames",
+    "FighterFramesOut": "GF10FramesOut",
+    "FighterFlow": "GF10Flow",
+    "FighterFlowOut": "GF10FlowOut"
+  },
+  "pixelTemplateIndex": 1073742822,
+  "embeddedSignalDefinitions": 40,
+  "officialImportVerified": false,
+  "requiresPostImportSignalNameCheck": true
+}

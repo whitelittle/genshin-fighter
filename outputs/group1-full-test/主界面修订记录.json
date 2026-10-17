@@ -1,0 +1,23 @@
+{
+  "title": "原神格斗1.0",
+  "subtitle": false,
+  "background": "full canvas black",
+  "portraits": [
+    {
+      "grid": [
+        112,
+        112
+      ],
+      "rectangles": 2969
+    },
+    {
+      "grid": [
+        112,
+        112
+      ],
+      "rectangles": 2492
+    }
+  ],
+  "pointerFix": "stretch 1x1 parent menus; preserve event IDs",
+  "deviceVerified": false
+}

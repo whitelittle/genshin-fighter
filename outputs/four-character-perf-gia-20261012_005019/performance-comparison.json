@@ -1,0 +1,187 @@
+{
+  "scope": "offline mobile mock; no native FPS measurement",
+  "before": "20261011_233317",
+  "afterSourceSha256": "76686f269aea5b287fd1a48fa0b1d96fe370f5ed78e0d7ce113a658ba851683d",
+  "cases": {
+    "raidenshogun-idle": {
+      "instructionsMeanBefore": 49393,
+      "instructionsMeanAfter": 49393,
+      "instructionReductionPercent": 0.0,
+      "nativeCallsPeakBefore": 25,
+      "nativeCallsPeakAfter": 25,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "raidenshogun-walk": {
+      "instructionsMeanBefore": 61690,
+      "instructionsMeanAfter": 61730,
+      "instructionReductionPercent": -0.1,
+      "nativeCallsPeakBefore": 966,
+      "nativeCallsPeakAfter": 966,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "raidenshogun-normal": {
+      "instructionsMeanBefore": 81419,
+      "instructionsMeanAfter": 79723,
+      "instructionReductionPercent": 2.1,
+      "nativeCallsPeakBefore": 16949,
+      "nativeCallsPeakAfter": 16949,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "raidenshogun-E": {
+      "instructionsMeanBefore": 118679,
+      "instructionsMeanAfter": 115921,
+      "instructionReductionPercent": 2.3,
+      "nativeCallsPeakBefore": 13167,
+      "nativeCallsPeakAfter": 13167,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "raidenshogun-Q": {
+      "instructionsMeanBefore": 227254,
+      "instructionsMeanAfter": 223190,
+      "instructionReductionPercent": 1.8,
+      "nativeCallsPeakBefore": 37748,
+      "nativeCallsPeakAfter": 37748,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "raidenshogun-frozen": {
+      "instructionsMeanBefore": 108371,
+      "instructionsMeanAfter": 55296,
+      "instructionReductionPercent": 49.0,
+      "nativeCallsPeakBefore": 8883,
+      "nativeCallsPeakAfter": 8883,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "furina-idle": {
+      "instructionsMeanBefore": 52784,
+      "instructionsMeanAfter": 52783,
+      "instructionReductionPercent": 0.0,
+      "nativeCallsPeakBefore": 25,
+      "nativeCallsPeakAfter": 25,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "furina-walk": {
+      "instructionsMeanBefore": 62609,
+      "instructionsMeanAfter": 62680,
+      "instructionReductionPercent": -0.1,
+      "nativeCallsPeakBefore": 933,
+      "nativeCallsPeakAfter": 939,
+      "peakCallReductionPercent": -0.6,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "furina-normal": {
+      "instructionsMeanBefore": 68337,
+      "instructionsMeanAfter": 65264,
+      "instructionReductionPercent": 4.5,
+      "nativeCallsPeakBefore": 9139,
+      "nativeCallsPeakAfter": 6589,
+      "peakCallReductionPercent": 27.9,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "furina-E": {
+      "instructionsMeanBefore": 76142,
+      "instructionsMeanAfter": 70750,
+      "instructionReductionPercent": 7.1,
+      "nativeCallsPeakBefore": 10445,
+      "nativeCallsPeakAfter": 7595,
+      "peakCallReductionPercent": 27.3,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "furina-Q": {
+      "instructionsMeanBefore": 102457,
+      "instructionsMeanAfter": 80706,
+      "instructionReductionPercent": 21.2,
+      "nativeCallsPeakBefore": 9461,
+      "nativeCallsPeakAfter": 6911,
+      "peakCallReductionPercent": 27.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "furina-frozen": {
+      "instructionsMeanBefore": 107656,
+      "instructionsMeanAfter": 56797,
+      "instructionReductionPercent": 47.2,
+      "nativeCallsPeakBefore": 8256,
+      "nativeCallsPeakAfter": 5056,
+      "peakCallReductionPercent": 38.8,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "kamisatoayaka-idle": {
+      "instructionsMeanBefore": 52771,
+      "instructionsMeanAfter": 52766,
+      "instructionReductionPercent": 0.0,
+      "nativeCallsPeakBefore": 25,
+      "nativeCallsPeakAfter": 25,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "kamisatoayaka-walk": {
+      "instructionsMeanBefore": 59764,
+      "instructionsMeanAfter": 59748,
+      "instructionReductionPercent": 0.0,
+      "nativeCallsPeakBefore": 987,
+      "nativeCallsPeakAfter": 987,
+      "peakCallReductionPercent": 0.0,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "kamisatoayaka-normal": {
+      "instructionsMeanBefore": 67591,
+      "instructionsMeanAfter": 64183,
+      "instructionReductionPercent": 5.0,
+      "nativeCallsPeakBefore": 11189,
+      "nativeCallsPeakAfter": 7988,
+      "peakCallReductionPercent": 28.6,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "kamisatoayaka-E": {
+      "instructionsMeanBefore": 72588,
+      "instructionsMeanAfter": 67672,
+      "instructionReductionPercent": 6.8,
+      "nativeCallsPeakBefore": 12280,
+      "nativeCallsPeakAfter": 9074,
+      "peakCallReductionPercent": 26.1,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "kamisatoayaka-Q": {
+      "instructionsMeanBefore": 91452,
+      "instructionsMeanAfter": 76463,
+      "instructionReductionPercent": 16.4,
+      "nativeCallsPeakBefore": 6566,
+      "nativeCallsPeakAfter": 5292,
+      "peakCallReductionPercent": 19.4,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    },
+    "kamisatoayaka-frozen": {
+      "instructionsMeanBefore": 99815,
+      "instructionsMeanAfter": 61277,
+      "instructionReductionPercent": 38.6,
+      "nativeCallsPeakBefore": 6254,
+      "nativeCallsPeakAfter": 3424,
+      "peakCallReductionPercent": 45.3,
+      "mockControlsBefore": 14122,
+      "mockControlsAfter": 14122
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "mockOnly": true,
+  "nativeDeviceTested": false,
+  "sourceSha256": "19a6c8bc5b9a32c3b1a79f73d66e75c0f6a95c74f40186d823c4d934c312fc4b",
+  "ordinarySha256": "507422f1760f7ccb7bde3cde92d2ef9e127d4c6feffde461f4234662fe1d3039",
+  "exactDecodedRectanglesPalettesAndAllMetadata": true,
+  "actualLegacyArtFramesEqual": 304,
+  "independentMutableFrames": true,
+  "frames": 897,
+  "rectangles": 676721,
+  "preparation": {
+    "raidenshogun": {
+      "ordinary": {
+        "prepareSteps": 156,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 5076000,
+        "peakStepInstructions": 36000,
+        "mockSetupMs": 9.52,
+        "mockPrepareMs": 26.02
+      },
+      "compact": {
+        "prepareSteps": 187,
+        "setupInstructions": 21000,
+        "prepareInstructions": 30931000,
+        "peakStepInstructions": 210000,
+        "mockSetupMs": 0.3,
+        "mockPrepareMs": 148.33
+      }
+    },
+    "nahida": {
+      "ordinary": {
+        "prepareSteps": 148,
+        "setupInstructions": 1316000,
+        "prepareInstructions": 4926000,
+        "peakStepInstructions": 36000,
+        "mockSetupMs": 9.56,
+        "mockPrepareMs": 23.09
+      },
+      "compact": {
+        "prepareSteps": 211,
+        "setupInstructions": 20000,
+        "prepareInstructions": 30715000,
+        "peakStepInstructions": 211000,
+        "mockSetupMs": 0.27,
+        "mockPrepareMs": 147.03
+      }
+    },
+    "furina": {
+      "ordinary": {
+        "prepareSteps": 280,
+        "setupInstructions": 37000,
+        "prepareInstructions": 21597000,
+        "peakStepInstructions": 163000,
+        "mockSetupMs": 0.85,
+        "mockPrepareMs": 96.31
+      },
+      "compact": {
+        "prepareSteps": 225,
+        "setupInstructions": 20000,
+        "prepareInstructions": 25831000,
+        "peakStepInstructions": 196000,
+        "mockSetupMs": 0.36,
+        "mockPrepareMs": 120.07
+      }
+    },
+    "kamisatoayaka": {
+      "ordinary": {
+        "prepareSteps": 271,
+        "setupInstructions": 26000,
+        "prepareInstructions": 22454000,
+        "peakStepInstructions": 163000,
+        "mockSetupMs": 0.52,
+        "mockPrepareMs": 96.97
+      },
+      "compact": {
+        "prepareSteps": 238,
+        "setupInstructions": 11000,
+        "prepareInstructions": 27598000,
+        "peakStepInstructions": 195000,
+        "mockSetupMs": 0.24,
+        "mockPrepareMs": 123.53
+      }
+    },
+    "clorinde": {
+      "ordinary": {
+        "prepareSteps": 239,
+        "setupInstructions": 21000,
+        "prepareInstructions": 18429000,
+        "peakStepInstructions": 130000,
+        "mockSetupMs": 0.42,
+        "mockPrepareMs": 79.13
+      },
+      "compact": {
+        "prepareSteps": 155,
+        "setupInstructions": 10000,
+        "prepareInstructions": 22167000,
+        "peakStepInstructions": 195000,
+        "mockSetupMs": 0.2,
+        "mockPrepareMs": 101.89
+      }
+    },
+    "arlecchino": {
+      "ordinary": {
+        "prepareSteps": 218,
+        "setupInstructions": 21000,
+        "prepareInstructions": 19603000,
+        "peakStepInstructions": 170000,
+        "mockSetupMs": 0.43,
+        "mockPrepareMs": 89.35
+      },
+      "compact": {
+        "prepareSteps": 177,
+        "setupInstructions": 11000,
+        "prepareInstructions": 23685000,
+        "peakStepInstructions": 237000,
+        "mockSetupMs": 0.2,
+        "mockPrepareMs": 105.74
+      }
+    }
+  }
+}

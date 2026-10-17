@@ -1,0 +1,2337 @@
+{
+  "scope": "Lua53 mock at 60 callbacks/s; visible sampled every 15 callbacks; no native FPS/GPU/template-children evidence",
+  "results": [
+    {
+      "version": "baseline",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "normal",
+      "stage": "training",
+      "startup": {
+        "callbacks": 18,
+        "peakInstructions": 657586,
+        "peakCalls": 12610,
+        "stats": {
+          "controls": 10186,
+          "active": 2395,
+          "visibleImages": 2357,
+          "visibleTexts": 29,
+          "glyphs": 69
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 48960,
+          "instructionsPeak": 53537,
+          "callsMean": 15,
+          "callsPeak": 39,
+          "callsP95": 36,
+          "colorWrites": 1198,
+          "sizeWrites": 451,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2368,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2391,
+            "visibleImages": 2354,
+            "visibleTexts": 28,
+            "glyphs": 64
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 48687,
+          "instructionsPeak": 70698,
+          "callsMean": 30,
+          "callsPeak": 555,
+          "callsP95": 24,
+          "colorWrites": 1006,
+          "sizeWrites": 173,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2289,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2326,
+            "visibleImages": 2289,
+            "visibleTexts": 28,
+            "glyphs": 64
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 54947,
+          "instructionsPeak": 230110,
+          "callsMean": 180,
+          "callsPeak": 3929,
+          "callsP95": 716,
+          "colorWrites": 1210,
+          "sizeWrites": 875,
+          "parentWrites": 485,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2342,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2391,
+            "visibleImages": 2354,
+            "visibleTexts": 28,
+            "glyphs": 64
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            4,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 53846,
+          "instructionsPeak": 134559,
+          "callsMean": 145,
+          "callsPeak": 1778,
+          "callsP95": 663,
+          "colorWrites": 1371,
+          "sizeWrites": 575,
+          "parentWrites": 121,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2460,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2204,
+            "visibleImages": 2167,
+            "visibleTexts": 28,
+            "glyphs": 69
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            3,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 51632,
+          "instructionsPeak": 134650,
+          "callsMean": 93,
+          "callsPeak": 1769,
+          "callsP95": 611,
+          "colorWrites": 2915,
+          "sizeWrites": 933,
+          "parentWrites": 117,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2407,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2206,
+            "visibleImages": 2169,
+            "visibleTexts": 28,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 53555,
+          "instructionsPeak": 85987,
+          "callsMean": 37,
+          "callsPeak": 788,
+          "callsP95": 21,
+          "colorWrites": 756,
+          "sizeWrites": 380,
+          "parentWrites": 267,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2435,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2391,
+            "visibleImages": 2354,
+            "visibleTexts": 28,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 49704,
+          "instructionsPeak": 163205,
+          "callsMean": 50,
+          "callsPeak": 3005,
+          "callsP95": 35,
+          "colorWrites": 1369,
+          "sizeWrites": 414,
+          "parentWrites": 83,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2372,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2407,
+            "visibleImages": 2370,
+            "visibleTexts": 28,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "normal",
+      "stage": "training",
+      "startup": {
+        "callbacks": 807,
+        "peakInstructions": 1407318,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 16122,
+          "active": 2583,
+          "visibleImages": 2560,
+          "visibleTexts": 14,
+          "glyphs": 63
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51533,
+          "instructionsPeak": 52112,
+          "callsMean": 12,
+          "callsPeak": 19,
+          "callsP95": 15,
+          "colorWrites": 1011,
+          "sizeWrites": 112,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2582,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2590,
+            "visibleImages": 2566,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 63896,
+          "instructionsPeak": 87766,
+          "callsMean": 331,
+          "callsPeak": 966,
+          "callsP95": 959,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 54962,
+          "visibleImagesSamplePeak": 2657,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2678,
+            "visibleImages": 2654,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 81557,
+          "instructionsPeak": 923935,
+          "callsMean": 565,
+          "callsPeak": 16954,
+          "callsP95": 1555,
+          "colorWrites": 5144,
+          "sizeWrites": 3156,
+          "parentWrites": 2469,
+          "bitmapWrites": 51830,
+          "visibleImagesSamplePeak": 2879,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            11,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 105233,
+          "instructionsPeak": 464520,
+          "callsMean": 511,
+          "callsPeak": 6920,
+          "callsP95": 1552,
+          "colorWrites": 6536,
+          "sizeWrites": 2856,
+          "parentWrites": 913,
+          "bitmapWrites": 45170,
+          "visibleImagesSamplePeak": 3424,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2639,
+            "visibleImages": 2615,
+            "visibleTexts": 15,
+            "glyphs": 68
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 217206,
+          "instructionsPeak": 1522338,
+          "callsMean": 649,
+          "callsPeak": 25687,
+          "callsP95": 2484,
+          "colorWrites": 30291,
+          "sizeWrites": 10573,
+          "parentWrites": 3576,
+          "bitmapWrites": 74708,
+          "visibleImagesSamplePeak": 5038,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2550,
+            "visibleImages": 2521,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            4
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 57770,
+          "instructionsPeak": 457929,
+          "callsMean": 161,
+          "callsPeak": 9831,
+          "callsP95": 32,
+          "colorWrites": 3219,
+          "sizeWrites": 1738,
+          "parentWrites": 1643,
+          "bitmapWrites": 10704,
+          "visibleImagesSamplePeak": 3406,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 184893,
+          "instructionsPeak": 664070,
+          "callsMean": 295,
+          "callsPeak": 11270,
+          "callsP95": 1318,
+          "colorWrites": 10571,
+          "sizeWrites": 3529,
+          "parentWrites": 1723,
+          "bitmapWrites": 35626,
+          "visibleImagesSamplePeak": 3453,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2523,
+            "visibleImages": 2494,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            5,
+            9
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "pair": [
+        "furina",
+        "kamisatoayaka"
+      ],
+      "variant": "normal",
+      "stage": "training",
+      "startup": {
+        "callbacks": 19,
+        "peakInstructions": 657586,
+        "peakCalls": 12070,
+        "stats": {
+          "controls": 10186,
+          "active": 2263,
+          "visibleImages": 2225,
+          "visibleTexts": 29,
+          "glyphs": 69
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51839,
+          "instructionsPeak": 56837,
+          "callsMean": 15,
+          "callsPeak": 39,
+          "callsP95": 36,
+          "colorWrites": 1198,
+          "sizeWrites": 451,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2236,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2259,
+            "visibleImages": 2222,
+            "visibleTexts": 28,
+            "glyphs": 64
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 51427,
+          "instructionsPeak": 73274,
+          "callsMean": 29,
+          "callsPeak": 574,
+          "callsP95": 24,
+          "colorWrites": 1006,
+          "sizeWrites": 173,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2235,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2272,
+            "visibleImages": 2235,
+            "visibleTexts": 28,
+            "glyphs": 64
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 57849,
+          "instructionsPeak": 256014,
+          "callsMean": 179,
+          "callsPeak": 4233,
+          "callsP95": 626,
+          "colorWrites": 1145,
+          "sizeWrites": 960,
+          "parentWrites": 571,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2343,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2259,
+            "visibleImages": 2222,
+            "visibleTexts": 28,
+            "glyphs": 64
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            4,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 55513,
+          "instructionsPeak": 227863,
+          "callsMean": 118,
+          "callsPeak": 3683,
+          "callsP95": 603,
+          "colorWrites": 1221,
+          "sizeWrites": 747,
+          "parentWrites": 304,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2488,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2264,
+            "visibleImages": 2227,
+            "visibleTexts": 28,
+            "glyphs": 69
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            3,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 53970,
+          "instructionsPeak": 137305,
+          "callsMean": 81,
+          "callsPeak": 1724,
+          "callsP95": 329,
+          "colorWrites": 2987,
+          "sizeWrites": 1072,
+          "parentWrites": 141,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2356,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2114,
+            "visibleImages": 2077,
+            "visibleTexts": 28,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            3
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 58664,
+          "instructionsPeak": 156110,
+          "callsMean": 58,
+          "callsPeak": 2410,
+          "callsP95": 34,
+          "colorWrites": 870,
+          "sizeWrites": 432,
+          "parentWrites": 319,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2319,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2259,
+            "visibleImages": 2222,
+            "visibleTexts": 28,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 52548,
+          "instructionsPeak": 167535,
+          "callsMean": 51,
+          "callsPeak": 3037,
+          "callsP95": 38,
+          "colorWrites": 1382,
+          "sizeWrites": 401,
+          "parentWrites": 81,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2259,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 2273,
+            "visibleImages": 2236,
+            "visibleTexts": 28,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "furina",
+        "kamisatoayaka"
+      ],
+      "variant": "normal",
+      "stage": "training",
+      "startup": {
+        "callbacks": 1037,
+        "peakInstructions": 596057,
+        "peakCalls": 11237,
+        "stats": {
+          "controls": 16122,
+          "active": 2157,
+          "visibleImages": 2134,
+          "visibleTexts": 14,
+          "glyphs": 62
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 55014,
+          "instructionsPeak": 55615,
+          "callsMean": 11,
+          "callsPeak": 19,
+          "callsP95": 17,
+          "colorWrites": 1010,
+          "sizeWrites": 0,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2159,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2164,
+            "visibleImages": 2140,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 64708,
+          "instructionsPeak": 90164,
+          "callsMean": 258,
+          "callsPeak": 933,
+          "callsP95": 878,
+          "colorWrites": 1019,
+          "sizeWrites": 1,
+          "parentWrites": 0,
+          "bitmapWrites": 40666,
+          "visibleImagesSamplePeak": 2140,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2028,
+            "visibleImages": 2004,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 67217,
+          "instructionsPeak": 298875,
+          "callsMean": 353,
+          "callsPeak": 6594,
+          "callsP95": 1717,
+          "colorWrites": 4018,
+          "sizeWrites": 308,
+          "parentWrites": 25,
+          "bitmapWrites": 33657,
+          "visibleImagesSamplePeak": 2629,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2116,
+            "visibleImages": 2092,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            9,
+            6
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 70797,
+          "instructionsPeak": 295561,
+          "callsMean": 406,
+          "callsPeak": 6280,
+          "callsP95": 2049,
+          "colorWrites": 4497,
+          "sizeWrites": 287,
+          "parentWrites": 20,
+          "bitmapWrites": 40533,
+          "visibleImagesSamplePeak": 3085,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2176,
+            "visibleImages": 2152,
+            "visibleTexts": 15,
+            "glyphs": 68
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            8,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 78736,
+          "instructionsPeak": 283656,
+          "callsMean": 434,
+          "callsPeak": 5475,
+          "callsP95": 1882,
+          "colorWrites": 38742,
+          "sizeWrites": 944,
+          "parentWrites": 154,
+          "bitmapWrites": 39415,
+          "visibleImagesSamplePeak": 3515,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2116,
+            "visibleImages": 2092,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            8,
+            7
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 59783,
+          "instructionsPeak": 263259,
+          "callsMean": 136,
+          "callsPeak": 5959,
+          "callsP95": 475,
+          "colorWrites": 2936,
+          "sizeWrites": 249,
+          "parentWrites": 247,
+          "bitmapWrites": 11737,
+          "visibleImagesSamplePeak": 2923,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2176,
+            "visibleImages": 2152,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            3
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 76640,
+          "instructionsPeak": 252570,
+          "callsMean": 420,
+          "callsPeak": 5270,
+          "callsP95": 1795,
+          "colorWrites": 22592,
+          "sizeWrites": 791,
+          "parentWrites": 60,
+          "bitmapWrites": 51018,
+          "visibleImagesSamplePeak": 3547,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2082,
+            "visibleImages": 2053,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            6,
+            8
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "staticBody",
+      "stage": "training",
+      "startup": {
+        "callbacks": 807,
+        "peakInstructions": 1407518,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 16122,
+          "active": 2583,
+          "visibleImages": 2560,
+          "visibleTexts": 14,
+          "glyphs": 63
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51385,
+          "instructionsPeak": 51912,
+          "callsMean": 12,
+          "callsPeak": 18,
+          "callsP95": 13,
+          "colorWrites": 1011,
+          "sizeWrites": 112,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2582,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 51837,
+          "instructionsPeak": 52029,
+          "callsMean": 22,
+          "callsPeak": 29,
+          "callsP95": 23,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2582,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2603,
+            "visibleImages": 2579,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 66389,
+          "instructionsPeak": 797114,
+          "callsMean": 162,
+          "callsPeak": 13333,
+          "callsP95": 55,
+          "colorWrites": 5364,
+          "sizeWrites": 3156,
+          "parentWrites": 2469,
+          "bitmapWrites": 4260,
+          "visibleImagesSamplePeak": 2971,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 90520,
+          "instructionsPeak": 408288,
+          "callsMean": 128,
+          "callsPeak": 5388,
+          "callsP95": 899,
+          "colorWrites": 6756,
+          "sizeWrites": 2856,
+          "parentWrites": 913,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3459,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2612,
+            "visibleImages": 2588,
+            "visibleTexts": 15,
+            "glyphs": 68
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 206219,
+          "instructionsPeak": 1324899,
+          "callsMean": 366,
+          "callsPeak": 20348,
+          "callsP95": 919,
+          "colorWrites": 30924,
+          "sizeWrites": 10519,
+          "parentWrites": 3522,
+          "bitmapWrites": 15906,
+          "visibleImagesSamplePeak": 5056,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2621,
+            "visibleImages": 2592,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 55055,
+          "instructionsPeak": 430867,
+          "callsMean": 92,
+          "callsPeak": 9069,
+          "callsP95": 27,
+          "colorWrites": 1609,
+          "sizeWrites": 1738,
+          "parentWrites": 1643,
+          "bitmapWrites": 4105,
+          "visibleImagesSamplePeak": 3412,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 178397,
+          "instructionsPeak": 541734,
+          "callsMean": 127,
+          "callsPeak": 8234,
+          "callsP95": 162,
+          "colorWrites": 10714,
+          "sizeWrites": 3529,
+          "parentWrites": 1723,
+          "bitmapWrites": 821,
+          "visibleImagesSamplePeak": 3437,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2626,
+            "visibleImages": 2597,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "noDiagnostics",
+      "stage": "training",
+      "startup": {
+        "callbacks": 807,
+        "peakInstructions": 1408218,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 16122,
+          "active": 2583,
+          "visibleImages": 2560,
+          "visibleTexts": 14,
+          "glyphs": 63
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 49334,
+          "instructionsPeak": 49912,
+          "callsMean": 12,
+          "callsPeak": 21,
+          "callsP95": 15,
+          "colorWrites": 1011,
+          "sizeWrites": 112,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2574,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2581,
+            "visibleImages": 2558,
+            "visibleTexts": 14,
+            "glyphs": 38
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 61705,
+          "instructionsPeak": 85566,
+          "callsMean": 331,
+          "callsPeak": 966,
+          "callsP95": 959,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 54962,
+          "visibleImagesSamplePeak": 2649,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2669,
+            "visibleImages": 2646,
+            "visibleTexts": 14,
+            "glyphs": 38
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 79360,
+          "instructionsPeak": 921735,
+          "callsMean": 565,
+          "callsPeak": 16954,
+          "callsP95": 1555,
+          "colorWrites": 5144,
+          "sizeWrites": 3156,
+          "parentWrites": 2469,
+          "bitmapWrites": 51830,
+          "visibleImagesSamplePeak": 2871,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2597,
+            "visibleImages": 2574,
+            "visibleTexts": 14,
+            "glyphs": 38
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            11,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 103039,
+          "instructionsPeak": 462320,
+          "callsMean": 511,
+          "callsPeak": 6920,
+          "callsP95": 1552,
+          "colorWrites": 6536,
+          "sizeWrites": 2856,
+          "parentWrites": 913,
+          "bitmapWrites": 45170,
+          "visibleImagesSamplePeak": 3416,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2630,
+            "visibleImages": 2607,
+            "visibleTexts": 14,
+            "glyphs": 40
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 215013,
+          "instructionsPeak": 1520138,
+          "callsMean": 649,
+          "callsPeak": 25687,
+          "callsP95": 2484,
+          "colorWrites": 30291,
+          "sizeWrites": 10573,
+          "parentWrites": 3576,
+          "bitmapWrites": 74708,
+          "visibleImagesSamplePeak": 5030,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2541,
+            "visibleImages": 2513,
+            "visibleTexts": 19,
+            "glyphs": 53
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            4
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 55572,
+          "instructionsPeak": 455729,
+          "callsMean": 161,
+          "callsPeak": 9831,
+          "callsP95": 32,
+          "colorWrites": 3219,
+          "sizeWrites": 1738,
+          "parentWrites": 1643,
+          "bitmapWrites": 10704,
+          "visibleImagesSamplePeak": 3398,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2597,
+            "visibleImages": 2574,
+            "visibleTexts": 14,
+            "glyphs": 38
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 182700,
+          "instructionsPeak": 661870,
+          "callsMean": 295,
+          "callsPeak": 11270,
+          "callsP95": 1318,
+          "colorWrites": 10571,
+          "sizeWrites": 3529,
+          "parentWrites": 1723,
+          "bitmapWrites": 35626,
+          "visibleImagesSamplePeak": 3445,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2514,
+            "visibleImages": 2486,
+            "visibleTexts": 19,
+            "glyphs": 53
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            5,
+            9
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "pool14000",
+      "stage": "training",
+      "startup": {
+        "callbacks": 745,
+        "peakInstructions": 1402170,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 14122,
+          "active": 2583,
+          "visibleImages": 2560,
+          "visibleTexts": 14,
+          "glyphs": 63
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51537,
+          "instructionsPeak": 52112,
+          "callsMean": 12,
+          "callsPeak": 19,
+          "callsP95": 15,
+          "colorWrites": 1011,
+          "sizeWrites": 112,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2582,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2590,
+            "visibleImages": 2566,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 63891,
+          "instructionsPeak": 87766,
+          "callsMean": 331,
+          "callsPeak": 966,
+          "callsP95": 959,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 54962,
+          "visibleImagesSamplePeak": 2657,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2678,
+            "visibleImages": 2654,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 81668,
+          "instructionsPeak": 936435,
+          "callsMean": 565,
+          "callsPeak": 16954,
+          "callsP95": 1555,
+          "colorWrites": 5144,
+          "sizeWrites": 3156,
+          "parentWrites": 2469,
+          "bitmapWrites": 51830,
+          "visibleImagesSamplePeak": 2879,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            11,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 105238,
+          "instructionsPeak": 464620,
+          "callsMean": 511,
+          "callsPeak": 6920,
+          "callsP95": 1552,
+          "colorWrites": 6536,
+          "sizeWrites": 2856,
+          "parentWrites": 913,
+          "bitmapWrites": 45170,
+          "visibleImagesSamplePeak": 3424,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2639,
+            "visibleImages": 2615,
+            "visibleTexts": 15,
+            "glyphs": 68
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 217238,
+          "instructionsPeak": 1529038,
+          "callsMean": 649,
+          "callsPeak": 25687,
+          "callsP95": 2484,
+          "colorWrites": 30291,
+          "sizeWrites": 10573,
+          "parentWrites": 3576,
+          "bitmapWrites": 74708,
+          "visibleImagesSamplePeak": 5038,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2550,
+            "visibleImages": 2521,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            4
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 57763,
+          "instructionsPeak": 459129,
+          "callsMean": 161,
+          "callsPeak": 9831,
+          "callsP95": 32,
+          "colorWrites": 3219,
+          "sizeWrites": 1738,
+          "parentWrites": 1643,
+          "bitmapWrites": 10704,
+          "visibleImagesSamplePeak": 3406,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 184848,
+          "instructionsPeak": 654170,
+          "callsMean": 295,
+          "callsPeak": 11270,
+          "callsP95": 1318,
+          "colorWrites": 10571,
+          "sizeWrites": 3529,
+          "parentWrites": 1723,
+          "bitmapWrites": 35626,
+          "visibleImagesSamplePeak": 3453,
+          "statsEnd": {
+            "controls": 14122,
+            "active": 2523,
+            "visibleImages": 2494,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            5,
+            9
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "normal",
+      "stage": "mondstadt",
+      "startup": {
+        "callbacks": 23,
+        "peakInstructions": 657586,
+        "peakCalls": 12610,
+        "stats": {
+          "controls": 10186,
+          "active": 3365,
+          "visibleImages": 3327,
+          "visibleTexts": 29,
+          "glyphs": 70
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 48854,
+          "instructionsPeak": 54774,
+          "callsMean": 16,
+          "callsPeak": 74,
+          "callsP95": 36,
+          "colorWrites": 1212,
+          "sizeWrites": 462,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3338,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3361,
+            "visibleImages": 3324,
+            "visibleTexts": 28,
+            "glyphs": 65
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 48473,
+          "instructionsPeak": 69696,
+          "callsMean": 29,
+          "callsPeak": 548,
+          "callsP95": 23,
+          "colorWrites": 1006,
+          "sizeWrites": 173,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3259,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3296,
+            "visibleImages": 3259,
+            "visibleTexts": 28,
+            "glyphs": 65
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 54913,
+          "instructionsPeak": 227408,
+          "callsMean": 179,
+          "callsPeak": 3927,
+          "callsP95": 714,
+          "colorWrites": 1210,
+          "sizeWrites": 860,
+          "parentWrites": 485,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3312,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3361,
+            "visibleImages": 3324,
+            "visibleTexts": 28,
+            "glyphs": 65
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            4,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 53829,
+          "instructionsPeak": 132957,
+          "callsMean": 144,
+          "callsPeak": 1776,
+          "callsP95": 664,
+          "colorWrites": 1371,
+          "sizeWrites": 555,
+          "parentWrites": 120,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3430,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3173,
+            "visibleImages": 3136,
+            "visibleTexts": 28,
+            "glyphs": 70
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            3,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 51448,
+          "instructionsPeak": 132443,
+          "callsMean": 87,
+          "callsPeak": 1762,
+          "callsP95": 606,
+          "colorWrites": 2332,
+          "sizeWrites": 867,
+          "parentWrites": 117,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3378,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3176,
+            "visibleImages": 3139,
+            "visibleTexts": 28,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            4
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 53765,
+          "instructionsPeak": 86705,
+          "callsMean": 37,
+          "callsPeak": 805,
+          "callsP95": 20,
+          "colorWrites": 763,
+          "sizeWrites": 386,
+          "parentWrites": 267,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3406,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3361,
+            "visibleImages": 3324,
+            "visibleTexts": 28,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            1,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 49368,
+          "instructionsPeak": 161205,
+          "callsMean": 43,
+          "callsPeak": 3005,
+          "callsP95": 25,
+          "colorWrites": 492,
+          "sizeWrites": 401,
+          "parentWrites": 83,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 3342,
+          "statsEnd": {
+            "controls": 10186,
+            "active": 3377,
+            "visibleImages": 3340,
+            "visibleTexts": 28,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "normal",
+      "stage": "mondstadt",
+      "startup": {
+        "callbacks": 807,
+        "peakInstructions": 1406118,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 16122,
+          "active": 2543,
+          "visibleImages": 2520,
+          "visibleTexts": 14,
+          "glyphs": 64
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51673,
+          "instructionsPeak": 54578,
+          "callsMean": 12,
+          "callsPeak": 78,
+          "callsP95": 16,
+          "colorWrites": 1025,
+          "sizeWrites": 123,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2542,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2550,
+            "visibleImages": 2526,
+            "visibleTexts": 15,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 63834,
+          "instructionsPeak": 88058,
+          "callsMean": 331,
+          "callsPeak": 966,
+          "callsP95": 959,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 54962,
+          "visibleImagesSamplePeak": 2617,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2638,
+            "visibleImages": 2614,
+            "visibleTexts": 15,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 81800,
+          "instructionsPeak": 934035,
+          "callsMean": 565,
+          "callsPeak": 16954,
+          "callsP95": 1555,
+          "colorWrites": 5144,
+          "sizeWrites": 3156,
+          "parentWrites": 2469,
+          "bitmapWrites": 51830,
+          "visibleImagesSamplePeak": 2839,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2566,
+            "visibleImages": 2542,
+            "visibleTexts": 15,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            11,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 105262,
+          "instructionsPeak": 463920,
+          "callsMean": 511,
+          "callsPeak": 6920,
+          "callsP95": 1552,
+          "colorWrites": 6536,
+          "sizeWrites": 2856,
+          "parentWrites": 913,
+          "bitmapWrites": 45170,
+          "visibleImagesSamplePeak": 3384,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2599,
+            "visibleImages": 2575,
+            "visibleTexts": 15,
+            "glyphs": 69
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 216707,
+          "instructionsPeak": 1506334,
+          "callsMean": 643,
+          "callsPeak": 25683,
+          "callsP95": 2517,
+          "colorWrites": 29520,
+          "sizeWrites": 10579,
+          "parentWrites": 3576,
+          "bitmapWrites": 74708,
+          "visibleImagesSamplePeak": 4993,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2504,
+            "visibleImages": 2476,
+            "visibleTexts": 19,
+            "glyphs": 78
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            4
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 57712,
+          "instructionsPeak": 450461,
+          "callsMean": 161,
+          "callsPeak": 9863,
+          "callsP95": 32,
+          "colorWrites": 3226,
+          "sizeWrites": 1744,
+          "parentWrites": 1643,
+          "bitmapWrites": 10704,
+          "visibleImagesSamplePeak": 3366,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2566,
+            "visibleImages": 2542,
+            "visibleTexts": 15,
+            "glyphs": 67
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 184570,
+          "instructionsPeak": 662170,
+          "callsMean": 287,
+          "callsPeak": 11270,
+          "callsP95": 1308,
+          "colorWrites": 9697,
+          "sizeWrites": 3530,
+          "parentWrites": 1723,
+          "bitmapWrites": 35626,
+          "visibleImagesSamplePeak": 3404,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2475,
+            "visibleImages": 2448,
+            "visibleTexts": 18,
+            "glyphs": 74
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            5,
+            9
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "noAnimatedFx",
+      "stage": "training",
+      "startup": {
+        "callbacks": 807,
+        "peakInstructions": 1407618,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 16122,
+          "active": 2583,
+          "visibleImages": 2560,
+          "visibleTexts": 14,
+          "glyphs": 63
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51511,
+          "instructionsPeak": 52011,
+          "callsMean": 12,
+          "callsPeak": 19,
+          "callsP95": 15,
+          "colorWrites": 1011,
+          "sizeWrites": 112,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2582,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2590,
+            "visibleImages": 2566,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 63906,
+          "instructionsPeak": 87758,
+          "callsMean": 331,
+          "callsPeak": 966,
+          "callsP95": 959,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 54962,
+          "visibleImagesSamplePeak": 2657,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2678,
+            "visibleImages": 2654,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 71176,
+          "instructionsPeak": 598932,
+          "callsMean": 534,
+          "callsPeak": 13251,
+          "callsP95": 1555,
+          "colorWrites": 4774,
+          "sizeWrites": 2046,
+          "parentWrites": 1729,
+          "bitmapWrites": 51830,
+          "visibleImagesSamplePeak": 2657,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            11,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 68013,
+          "instructionsPeak": 275810,
+          "callsMean": 446,
+          "callsPeak": 6129,
+          "callsP95": 1534,
+          "colorWrites": 4945,
+          "sizeWrites": 407,
+          "parentWrites": 55,
+          "bitmapWrites": 45170,
+          "visibleImagesSamplePeak": 3342,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2639,
+            "visibleImages": 2615,
+            "visibleTexts": 15,
+            "glyphs": 68
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 81737,
+          "instructionsPeak": 1319257,
+          "callsMean": 568,
+          "callsPeak": 23306,
+          "callsP95": 2065,
+          "colorWrites": 24917,
+          "sizeWrites": 5169,
+          "parentWrites": 3546,
+          "bitmapWrites": 74708,
+          "visibleImagesSamplePeak": 4257,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2550,
+            "visibleImages": 2521,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            4
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 57813,
+          "instructionsPeak": 464329,
+          "callsMean": 161,
+          "callsPeak": 9831,
+          "callsP95": 32,
+          "colorWrites": 3219,
+          "sizeWrites": 1738,
+          "parentWrites": 1643,
+          "bitmapWrites": 10704,
+          "visibleImagesSamplePeak": 3406,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 65078,
+          "instructionsPeak": 251951,
+          "callsMean": 257,
+          "callsPeak": 5178,
+          "callsP95": 1318,
+          "colorWrites": 9780,
+          "sizeWrites": 1155,
+          "parentWrites": 141,
+          "bitmapWrites": 35626,
+          "visibleImagesSamplePeak": 2661,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2523,
+            "visibleImages": 2494,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            5,
+            9
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "pair": [
+        "raidenshogun",
+        "nahida"
+      ],
+      "variant": "noBurstBackdrop",
+      "stage": "training",
+      "startup": {
+        "callbacks": 807,
+        "peakInstructions": 1406918,
+        "peakCalls": 9624,
+        "stats": {
+          "controls": 16122,
+          "active": 2583,
+          "visibleImages": 2560,
+          "visibleTexts": 14,
+          "glyphs": 63
+        }
+      },
+      "cases": [
+        {
+          "label": "idle",
+          "callbacks": 180,
+          "instructionsMean": 51462,
+          "instructionsPeak": 52119,
+          "callsMean": 12,
+          "callsPeak": 19,
+          "callsP95": 15,
+          "colorWrites": 1011,
+          "sizeWrites": 112,
+          "parentWrites": 0,
+          "bitmapWrites": 0,
+          "visibleImagesSamplePeak": 2582,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2590,
+            "visibleImages": 2566,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "walk",
+          "callbacks": 180,
+          "instructionsMean": 63798,
+          "instructionsPeak": 87853,
+          "callsMean": 331,
+          "callsPeak": 966,
+          "callsP95": 959,
+          "colorWrites": 1006,
+          "sizeWrites": 292,
+          "parentWrites": 0,
+          "bitmapWrites": 54962,
+          "visibleImagesSamplePeak": 2657,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2678,
+            "visibleImages": 2654,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            7,
+            1
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "heavy",
+          "callbacks": 120,
+          "instructionsMean": 81839,
+          "instructionsPeak": 945135,
+          "callsMean": 565,
+          "callsPeak": 16954,
+          "callsP95": 1555,
+          "colorWrites": 5144,
+          "sizeWrites": 3156,
+          "parentWrites": 2469,
+          "bitmapWrites": 51830,
+          "visibleImagesSamplePeak": 2879,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            11,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "E",
+          "callbacks": 120,
+          "instructionsMean": 105139,
+          "instructionsPeak": 464920,
+          "callsMean": 511,
+          "callsPeak": 6920,
+          "callsP95": 1552,
+          "colorWrites": 6536,
+          "sizeWrites": 2856,
+          "parentWrites": 913,
+          "bitmapWrites": 45170,
+          "visibleImagesSamplePeak": 3424,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2639,
+            "visibleImages": 2615,
+            "visibleTexts": 15,
+            "glyphs": 68
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            8
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "Q",
+          "callbacks": 210,
+          "instructionsMean": 203532,
+          "instructionsPeak": 1110202,
+          "callsMean": 500,
+          "callsPeak": 17851,
+          "callsP95": 1819,
+          "colorWrites": 20078,
+          "sizeWrites": 8937,
+          "parentWrites": 1958,
+          "bitmapWrites": 58802,
+          "visibleImagesSamplePeak": 4255,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2550,
+            "visibleImages": 2521,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            10,
+            4
+          ],
+          "heavyCallbacks": 1
+        },
+        {
+          "label": "frozen",
+          "callbacks": 120,
+          "instructionsMean": 57446,
+          "instructionsPeak": 449229,
+          "callsMean": 161,
+          "callsPeak": 9831,
+          "callsP95": 32,
+          "colorWrites": 3219,
+          "sizeWrites": 1738,
+          "parentWrites": 1643,
+          "bitmapWrites": 10704,
+          "visibleImagesSamplePeak": 3406,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2606,
+            "visibleImages": 2582,
+            "visibleTexts": 15,
+            "glyphs": 66
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            2,
+            2
+          ],
+          "heavyCallbacks": 0
+        },
+        {
+          "label": "bothQ",
+          "callbacks": 210,
+          "instructionsMean": 179773,
+          "instructionsPeak": 648545,
+          "callsMean": 278,
+          "callsPeak": 11045,
+          "callsP95": 1286,
+          "colorWrites": 10214,
+          "sizeWrites": 3417,
+          "parentWrites": 1697,
+          "bitmapWrites": 35626,
+          "visibleImagesSamplePeak": 3431,
+          "statsEnd": {
+            "controls": 16122,
+            "active": 2523,
+            "visibleImages": 2494,
+            "visibleTexts": 20,
+            "glyphs": 81
+          },
+          "createdDuring": 0,
+          "displayedPoseCounts": [
+            5,
+            9
+          ],
+          "heavyCallbacks": 0
+        }
+      ]
+    }
+  ]
+}

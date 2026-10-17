@@ -1,0 +1,53 @@
+{
+  "name": "gpt_20261013_六角色统一尺度_三人车轮战",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 5,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_六角色统一尺度_三人车轮战_A.gia",
+      "bytes": 4701578,
+      "sha256": "6ba2f02e2cfefd574d0e4fdb3c3173c3c0872fee2427eef1d4f65c5aa453ad48"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_六角色统一尺度_三人车轮战_仅脚本.gia",
+      "bytes": 4419804,
+      "sha256": "a7a8759249f16c1a7602a58eaef8de5ceff63d79c61d9846c1f345e9eee88bd5"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_六角色统一尺度_三人车轮战_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_六角色统一尺度_三人车轮战.lua",
+      "bytes": 4419606,
+      "sha256": "19a6c8bc5b9a32c3b1a79f73d66e75c0f6a95c74f40186d823c4d934c312fc4b"
+    }
+  ],
+  "sourceSha256": "19a6c8bc5b9a32c3b1a79f73d66e75c0f6a95c74f40186d823c4d934c312fc4b",
+  "templateSha256": "9f374ed3f701b5fc9d4774380127956df32e493948cd002e93234a2a6e0cd591",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "single-character GFV2 preserved; independent GF3 team preparation and GF3Battle frames required",
+  "nativeDeviceTested": false,
+  "externalDelivery": false
+}

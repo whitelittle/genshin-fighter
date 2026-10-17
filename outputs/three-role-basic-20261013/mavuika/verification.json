@@ -1,0 +1,237 @@
+{
+  "version": "V9",
+  "actions": 6,
+  "displayStates": 27,
+  "upstreamNeutralGroups": 4,
+  "newGroups": [
+    "crouch",
+    "standguard"
+  ],
+  "newBodySources": 8,
+  "sourceCommit": "f0ab595f216b627014ce7e0170a12412792d71e2",
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false,
+  "soleChecks": [
+    {
+      "group": "idle",
+      "frame": 0,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 887,
+      "sourceSoleY": 848,
+      "oldFitAnchorY": 54.22,
+      "fitSoleY": 53
+    },
+    {
+      "group": "idle",
+      "frame": 1,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 849,
+      "sourceSoleY": 848,
+      "oldFitAnchorY": 51.94,
+      "fitSoleY": 53
+    },
+    {
+      "group": "walk",
+      "frame": 0,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 512,
+      "sourceSoleY": 505,
+      "oldFitAnchorY": 53.224,
+      "fitSoleY": 53
+    },
+    {
+      "group": "walk",
+      "frame": 1,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 509,
+      "sourceSoleY": 508,
+      "oldFitAnchorY": 52.918,
+      "fitSoleY": 54
+    },
+    {
+      "group": "walk",
+      "frame": 2,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 506,
+      "sourceSoleY": 505,
+      "oldFitAnchorY": 52.611999999999995,
+      "fitSoleY": 53
+    },
+    {
+      "group": "walk",
+      "frame": 3,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 485,
+      "sourceSoleY": 484,
+      "oldFitAnchorY": 50.47,
+      "fitSoleY": 51
+    },
+    {
+      "group": "walk",
+      "frame": 4,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 491,
+      "sourceSoleY": 490,
+      "oldFitAnchorY": 51.081999999999994,
+      "fitSoleY": 52
+    },
+    {
+      "group": "walk",
+      "frame": 5,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 492,
+      "sourceSoleY": 491,
+      "oldFitAnchorY": 51.184,
+      "fitSoleY": 52
+    },
+    {
+      "group": "backwalk",
+      "frame": 0,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 511,
+      "sourceSoleY": 511,
+      "oldFitAnchorY": 53.122,
+      "fitSoleY": 54
+    },
+    {
+      "group": "backwalk",
+      "frame": 1,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 512,
+      "sourceSoleY": 511,
+      "oldFitAnchorY": 53.224,
+      "fitSoleY": 54
+    },
+    {
+      "group": "backwalk",
+      "frame": 2,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 512,
+      "sourceSoleY": 511,
+      "oldFitAnchorY": 53.224,
+      "fitSoleY": 54
+    },
+    {
+      "group": "backwalk",
+      "frame": 3,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 492,
+      "sourceSoleY": 491,
+      "oldFitAnchorY": 51.184,
+      "fitSoleY": 52
+    },
+    {
+      "group": "backwalk",
+      "frame": 4,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 490,
+      "sourceSoleY": 489,
+      "oldFitAnchorY": 50.98,
+      "fitSoleY": 52
+    },
+    {
+      "group": "backwalk",
+      "frame": 5,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 493,
+      "sourceSoleY": 492,
+      "oldFitAnchorY": 51.285999999999994,
+      "fitSoleY": 52
+    },
+    {
+      "group": "light1",
+      "frame": 0,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 552,
+      "sourceSoleY": 552,
+      "oldFitAnchorY": 56.2,
+      "fitSoleY": 57
+    },
+    {
+      "group": "light1",
+      "frame": 1,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 567,
+      "sourceSoleY": 565,
+      "oldFitAnchorY": 57.7,
+      "fitSoleY": 59
+    },
+    {
+      "group": "light1",
+      "frame": 2,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 447,
+      "sourceSoleY": 445,
+      "oldFitAnchorY": 45.7,
+      "fitSoleY": 47
+    },
+    {
+      "group": "light1",
+      "frame": 3,
+      "upstreamPixelsExact": true,
+      "oldSourceAnchorY": 463,
+      "sourceSoleY": 458,
+      "oldFitAnchorY": 47.300000000000004,
+      "fitSoleY": 48
+    }
+  ],
+  "newPoseChecks": [
+    {
+      "group": "crouch",
+      "frame": 0,
+      "sourceCanvasContact": false,
+      "rectangles": 422,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "crouch",
+      "frame": 1,
+      "sourceCanvasContact": false,
+      "rectangles": 431,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "crouch",
+      "frame": 2,
+      "sourceCanvasContact": false,
+      "rectangles": 365,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "crouch",
+      "frame": 3,
+      "sourceCanvasContact": false,
+      "rectangles": 358,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "standguard",
+      "frame": 0,
+      "sourceCanvasContact": false,
+      "rectangles": 442,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "standguard",
+      "frame": 1,
+      "sourceCanvasContact": false,
+      "rectangles": 423,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "standguard",
+      "frame": 2,
+      "sourceCanvasContact": false,
+      "rectangles": 456,
+      "pixelReconstruction": true
+    },
+    {
+      "group": "standguard",
+      "frame": 3,
+      "sourceCanvasContact": false,
+      "rectangles": 460,
+      "pixelReconstruction": true
+    }
+  ]
+}

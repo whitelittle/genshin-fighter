@@ -1,0 +1,35 @@
+[
+  {
+    "latency": 0.02,
+    "jitter": 0.01,
+    "loss": 0,
+    "confirmedFrames": 1778,
+    "rollbacks": [
+      0,
+      220
+    ],
+    "confirmedReplayAndThreeBouts": true
+  },
+  {
+    "latency": 0.06,
+    "jitter": 0.04,
+    "loss": 0.05,
+    "confirmedFrames": 1677,
+    "rollbacks": [
+      219,
+      221
+    ],
+    "confirmedReplayAndThreeBouts": true
+  },
+  {
+    "latency": 0.1,
+    "jitter": 0.08,
+    "loss": 0.1,
+    "confirmedFrames": 1472,
+    "rollbacks": [
+      214,
+      196
+    ],
+    "confirmedReplayAndThreeBouts": true
+  }
+]

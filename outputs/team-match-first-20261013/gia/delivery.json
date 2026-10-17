@@ -1,0 +1,63 @@
+{
+  "name": "gpt_20261013_车轮战先匹配_复用GFV2",
+  "roster": [
+    "raidenshogun",
+    "nahida",
+    "furina",
+    "kamisatoayaka",
+    "clorinde",
+    "arlecchino"
+  ],
+  "protocolVersion": 6,
+  "scene": "intro",
+  "files": [
+    {
+      "kind": "mainUI",
+      "filename": "gpt_20261013_车轮战先匹配_复用GFV2_A.gia",
+      "bytes": 5141438,
+      "sha256": "4c3cced3b68d59417b7f450e4dc8443eab929e5e4f401f49cd752af70e094424"
+    },
+    {
+      "kind": "luaOnly",
+      "filename": "gpt_20261013_车轮战先匹配_复用GFV2_仅脚本.gia",
+      "bytes": 4859664,
+      "sha256": "dc778fecee49b58778863359d2e4034c985262e4515928eab4077b926dd04a99"
+    },
+    {
+      "kind": "imageTemplate",
+      "filename": "gpt_20261013_车轮战先匹配_复用GFV2_B图片模板.gia",
+      "bytes": 878,
+      "sha256": "87a53307c4a292e8252b8569070e12ace6380eacfe6ecee0b1f2e4b132474ef6"
+    },
+    {
+      "kind": "lua",
+      "filename": "gpt_20261013_车轮战先匹配_复用GFV2.lua",
+      "bytes": 4859466,
+      "sha256": "a9fff16592eb73847ef194becb73fafaded68ede956bccf1daa480d80cda4ac9"
+    }
+  ],
+  "sourceSha256": "a9fff16592eb73847ef194becb73fafaded68ede956bccf1daa480d80cda4ac9",
+  "templateSha256": "28fdcfe46d4a9a519f596b5f3cb1690f5c7c9ecbe99881b8c11a6a81c39e93bb",
+  "preservedUIWire": true,
+  "scriptMountedOnceOn": "GF_HOST",
+  "pools": {
+    "img": 256,
+    "txt": 96,
+    "btn": 24
+  },
+  "giaRoundTrip": true,
+  "imageTemplateByteIdentical": true,
+  "serverNodes": "GFV2 matching, draft and battle; existing GF3 retained for exit settlement/close",
+  "nativeDeviceTested": false,
+  "externalDelivery": true,
+  "importsRequired": [
+    "gpt_20261013_车轮战先匹配_复用GFV2_仅脚本.gia"
+  ],
+  "teamNetworkFamily": "GFV2",
+  "matchBeforeDraft": true,
+  "serverNodeUnchanged": true,
+  "copySha256Verified": true,
+  "releaseStatus": "stable",
+  "stableDesignation": "user-requested 2026-10-13; native verification remains separate",
+  "archiveId": "20261013_stable_gfv2_p6"
+}

@@ -1,0 +1,106 @@
+{
+  "upgraded": [
+    {
+      "key": "kaeya",
+      "id": 3,
+      "frames": 48,
+      "pool": 1923,
+      "source": "outputs/motion-group1/kaeya"
+    },
+    {
+      "key": "jean",
+      "id": 4,
+      "frames": 48,
+      "pool": 1529,
+      "source": "outputs/motion-group1/jean"
+    },
+    {
+      "key": "klee",
+      "id": 5,
+      "frames": 48,
+      "pool": 1164,
+      "source": "outputs/motion-group1/klee-approved-v3"
+    },
+    {
+      "key": "lisa",
+      "id": 6,
+      "frames": 48,
+      "pool": 1757,
+      "source": "outputs/motion-group1/lisa"
+    },
+    {
+      "key": "ganyu",
+      "id": 7,
+      "frames": 48,
+      "pool": 1774,
+      "source": "outputs/motion-group1/ganyu"
+    },
+    {
+      "key": "yanfei",
+      "id": 8,
+      "frames": 48,
+      "pool": 1746,
+      "source": "outputs/motion-group1/yanfei"
+    },
+    {
+      "key": "xiao",
+      "id": 9,
+      "frames": 48,
+      "pool": 1472,
+      "source": "outputs/motion-group1/xiao"
+    },
+    {
+      "key": "hutao",
+      "id": 10,
+      "frames": 48,
+      "pool": 1575,
+      "source": "outputs/motion-group1/hutao"
+    },
+    {
+      "key": "lawachurl",
+      "id": 11,
+      "frames": 48,
+      "pool": 2333,
+      "source": "outputs/motion-group1/lawachurl"
+    },
+    {
+      "key": "yaemiko",
+      "id": 12,
+      "frames": 48,
+      "pool": 2260,
+      "source": "outputs/motion-group1/yaemiko"
+    },
+    {
+      "key": "kirara",
+      "id": 13,
+      "frames": 48,
+      "pool": 2246,
+      "source": "outputs/motion-group1/kirara"
+    },
+    {
+      "key": "kamisatoayato",
+      "id": 15,
+      "frames": 48,
+      "pool": 3349,
+      "source": "outputs/motion-group1/kamisatoayato"
+    },
+    {
+      "key": "aratakiitto",
+      "id": 16,
+      "frames": 48,
+      "pool": 2259,
+      "source": "outputs/motion-group1/aratakiitto"
+    },
+    {
+      "key": "sangonomiyakokomi",
+      "id": 17,
+      "frames": 48,
+      "pool": 2577,
+      "source": "outputs/motion-group1/sangonomiyakokomi"
+    }
+  ],
+  "reusedLawachurl": "assets/roster-v2/lawachurl-frames.json",
+  "optimizedLoading": true,
+  "frameTiming": "derived from simulation attack phase; no image callback",
+  "deviceVerified": false
+}

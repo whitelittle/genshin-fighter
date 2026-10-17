@@ -1,0 +1,298 @@
+{
+  "generatedWith": "built-in imagegen",
+  "sampling": "nearest",
+  "budgetPerScene": 5000,
+  "includesCharacter": false,
+  "scenes": [
+    {
+      "key": "mondstadt",
+      "name": "蒙德 · 风起地",
+      "generatedPixelMaster": true,
+      "grid": [
+        160,
+        90
+      ],
+      "colors": 31,
+      "tolerance": 3,
+      "method": "nearest",
+      "userApproved": true,
+      "rectangles": 4974,
+      "approxControls": 9948,
+      "compressedBytes": 13569,
+      "exactReconstruction": true,
+      "candidates": [],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    },
+    {
+      "key": "liyue",
+      "name": "璃月 · 望舒客栈",
+      "generatedPixelMaster": true,
+      "grid": [
+        144,
+        81
+      ],
+      "colors": 31,
+      "tolerance": 3,
+      "method": "nearest",
+      "userApproved": false,
+      "rectangles": 4441,
+      "approxControls": 8882,
+      "compressedBytes": 11726,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 5377,
+          "actualColors": 31
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 28,
+          "tolerance": 3,
+          "rectangles": 5259,
+          "actualColors": 28
+        },
+        {
+          "w": 144,
+          "h": 81,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 4441,
+          "actualColors": 31
+        }
+      ],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    },
+    {
+      "key": "inazuma",
+      "name": "稻妻 · 清籁岛",
+      "generatedPixelMaster": true,
+      "grid": [
+        144,
+        81
+      ],
+      "colors": 24,
+      "tolerance": 4,
+      "method": "nearest",
+      "userApproved": false,
+      "rectangles": 4927,
+      "approxControls": 9854,
+      "compressedBytes": 12559,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 6513,
+          "actualColors": 31
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 28,
+          "tolerance": 3,
+          "rectangles": 6288,
+          "actualColors": 28
+        },
+        {
+          "w": 144,
+          "h": 81,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 5213,
+          "actualColors": 31
+        },
+        {
+          "w": 144,
+          "h": 81,
+          "colors": 24,
+          "tolerance": 4,
+          "rectangles": 4927,
+          "actualColors": 24
+        }
+      ],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    },
+    {
+      "key": "sumeru",
+      "name": "须弥 · 赤王陵",
+      "generatedPixelMaster": true,
+      "grid": [
+        160,
+        90
+      ],
+      "colors": 28,
+      "tolerance": 3,
+      "method": "nearest",
+      "userApproved": false,
+      "rectangles": 4963,
+      "approxControls": 9926,
+      "compressedBytes": 13546,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 5099,
+          "actualColors": 31
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 28,
+          "tolerance": 3,
+          "rectangles": 4963,
+          "actualColors": 28
+        }
+      ],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    },
+    {
+      "key": "fontaine",
+      "name": "枫丹 · 水都远景",
+      "generatedPixelMaster": true,
+      "grid": [
+        144,
+        81
+      ],
+      "colors": 31,
+      "tolerance": 3,
+      "method": "nearest",
+      "userApproved": false,
+      "rectangles": 4535,
+      "approxControls": 9070,
+      "compressedBytes": 11768,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 5349,
+          "actualColors": 31
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 28,
+          "tolerance": 3,
+          "rectangles": 5390,
+          "actualColors": 28
+        },
+        {
+          "w": 144,
+          "h": 81,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 4535,
+          "actualColors": 31
+        }
+      ],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    },
+    {
+      "key": "natlan",
+      "name": "纳塔 · 高山台地",
+      "generatedPixelMaster": true,
+      "grid": [
+        144,
+        81
+      ],
+      "colors": 31,
+      "tolerance": 3,
+      "method": "nearest",
+      "userApproved": false,
+      "rectangles": 4764,
+      "approxControls": 9528,
+      "compressedBytes": 12516,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 5345,
+          "actualColors": 31
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 28,
+          "tolerance": 3,
+          "rectangles": 5247,
+          "actualColors": 28
+        },
+        {
+          "w": 144,
+          "h": 81,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 4764,
+          "actualColors": 31
+        }
+      ],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    },
+    {
+      "key": "snezhnaya",
+      "name": "至冬 · 雪境列车",
+      "generatedPixelMaster": true,
+      "grid": [
+        144,
+        81
+      ],
+      "colors": 31,
+      "tolerance": 3,
+      "method": "nearest",
+      "userApproved": false,
+      "rectangles": 4991,
+      "approxControls": 9982,
+      "compressedBytes": 12253,
+      "exactReconstruction": true,
+      "candidates": [
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 5679,
+          "actualColors": 31
+        },
+        {
+          "w": 160,
+          "h": 90,
+          "colors": 28,
+          "tolerance": 3,
+          "rectangles": 5517,
+          "actualColors": 28
+        },
+        {
+          "w": 144,
+          "h": 81,
+          "colors": 31,
+          "tolerance": 3,
+          "rectangles": 4991,
+          "actualColors": 31
+        }
+      ],
+      "status": "generated_and_fitted_not_yet_runtime",
+      "deviceVerified": false
+    }
+  ]
+}

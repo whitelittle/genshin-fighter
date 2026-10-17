@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "Hello assigns both entities/seats and initial epoch",
+    "Blind partial team/count only",
+    "Repeated/gapped/incomplete roles rejected",
+    "Both ready reveals fixed three-person order",
+    "Locked mutation/stale revision reject; reveal retry",
+    "Independent battle transport preserves raw frame string",
+    "Reset clears both teams and isolates old epoch/battle frames",
+    "No GFV2 listener or state namespace"
+  ],
+  "wireRoundTrip": true,
+  "nodes": 501,
+  "sha256": "5897b3fdf8d8af6643b7510235ad8626cf2cdd954030bac5beb69437dd0d8b37",
+  "nativeImportVerified": false
+}

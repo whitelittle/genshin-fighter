@@ -1,0 +1,34 @@
+{
+  "outputs/smooth-comparison-20261013/working-source.lua": {
+    "valid": false,
+    "error": "[string \"GF_RELEASE_ID='structure-20261011-furina-cand...\"]:10526: 'end' expected (to close 'function' at line 6080) near <eof>"
+  },
+  "runtime/dist/genshin_fighter.lua": {
+    "valid": false,
+    "error": "[string \"GF_RELEASE_ID='structure-20261011-furina-cand...\"]:10526: 'end' expected (to close 'function' at line 6080) near <eof>"
+  },
+  "outputs/all-codec-comparison-20261012_053101/保留的普通可读版.lua": {
+    "valid": true,
+    "error": null
+  },
+  "work/smooth-baseline-20261013/snapshot/game/dist/genshin_fighter.lua": {
+    "valid": true,
+    "error": null
+  },
+  "outputs/all-codec-comparison-20261012_053101/gpt_20261012_053101_原神格斗_全四角色压缩代码精简.lua": {
+    "valid": true,
+    "error": null
+  },
+  "outputs/all-codec-comparison-20261012_053101/gpt_20261012_053101_原神格斗_全四角色压缩对照.lua": {
+    "valid": true,
+    "error": null
+  },
+  "outputs/all-codec-comparison-20261012_053101/gpt_20261012_053101_原神格斗_全四角色紧凑对照.lua": {
+    "valid": true,
+    "error": null
+  },
+  "outputs/all-codec-comparison-20261012_053101/gpt_20261012_053101_原神格斗_普通素材代码精简.lua": {
+    "valid": true,
+    "error": null
+  }
+}

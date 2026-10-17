@@ -1,0 +1,582 @@
+{
+  "base": "loading-fix-20261005",
+  "addedTextControls": 14,
+  "removedImageJobPools": [
+    {
+      "path": [
+        "Portrait1"
+      ],
+      "prefix": "FacePx",
+      "count": 908
+    },
+    {
+      "path": [
+        "Portrait2"
+      ],
+      "prefix": "FacePx",
+      "count": 908
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard1",
+        "GridFace1"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard2",
+        "GridFace2"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard3",
+        "GridFace3"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard4",
+        "GridFace4"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard5",
+        "GridFace5"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard6",
+        "GridFace6"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard7",
+        "GridFace7"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard8",
+        "GridFace8"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard9",
+        "GridFace9"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "SelectScreen",
+        "GridCard10",
+        "GridFace10"
+      ],
+      "prefix": "IconPx",
+      "count": 394
+    },
+    {
+      "path": [
+        "HomeScreen",
+        "HomeBust1"
+      ],
+      "prefix": "HomePx",
+      "count": 2969
+    },
+    {
+      "path": [
+        "HomeScreen",
+        "HomeBust2"
+      ],
+      "prefix": "HomePx",
+      "count": 2492
+    }
+  ],
+  "homeAvoidedImageCreates": 5461,
+  "frames": [
+    {
+      "key": "portrait-1",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1273,
+      "colorRuns": 1008,
+      "richTextCodeUnits": 27558,
+      "utf8Bytes": 32166,
+      "oldImagePool": 757
+    },
+    {
+      "key": "portrait-2",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1398,
+      "colorRuns": 955,
+      "richTextCodeUnits": 26233,
+      "utf8Bytes": 30841,
+      "oldImagePool": 698
+    },
+    {
+      "key": "portrait-3",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1387,
+      "colorRuns": 746,
+      "richTextCodeUnits": 21008,
+      "utf8Bytes": 25616,
+      "oldImagePool": 550
+    },
+    {
+      "key": "portrait-4",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1085,
+      "colorRuns": 706,
+      "richTextCodeUnits": 20008,
+      "utf8Bytes": 24616,
+      "oldImagePool": 520
+    },
+    {
+      "key": "portrait-5",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1356,
+      "colorRuns": 890,
+      "richTextCodeUnits": 24608,
+      "utf8Bytes": 29216,
+      "oldImagePool": 678
+    },
+    {
+      "key": "portrait-6",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1575,
+      "colorRuns": 941,
+      "richTextCodeUnits": 25883,
+      "utf8Bytes": 30491,
+      "oldImagePool": 753
+    },
+    {
+      "key": "portrait-7",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1193,
+      "colorRuns": 910,
+      "richTextCodeUnits": 25108,
+      "utf8Bytes": 29716,
+      "oldImagePool": 717
+    },
+    {
+      "key": "portrait-8",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1536,
+      "colorRuns": 1073,
+      "richTextCodeUnits": 29183,
+      "utf8Bytes": 33791,
+      "oldImagePool": 789
+    },
+    {
+      "key": "portrait-9",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1152,
+      "colorRuns": 734,
+      "richTextCodeUnits": 20708,
+      "utf8Bytes": 25316,
+      "oldImagePool": 534
+    },
+    {
+      "key": "portrait-10",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1477,
+      "colorRuns": 871,
+      "richTextCodeUnits": 24133,
+      "utf8Bytes": 28741,
+      "oldImagePool": 616
+    },
+    {
+      "key": "portrait-11",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1416,
+      "colorRuns": 1075,
+      "richTextCodeUnits": 29233,
+      "utf8Bytes": 33841,
+      "oldImagePool": 815
+    },
+    {
+      "key": "portrait-12",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1289,
+      "colorRuns": 904,
+      "richTextCodeUnits": 24958,
+      "utf8Bytes": 29566,
+      "oldImagePool": 698
+    },
+    {
+      "key": "portrait-13",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1256,
+      "colorRuns": 957,
+      "richTextCodeUnits": 26283,
+      "utf8Bytes": 30891,
+      "oldImagePool": 747
+    },
+    {
+      "key": "portrait-14",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1003,
+      "colorRuns": 690,
+      "richTextCodeUnits": 19608,
+      "utf8Bytes": 24216,
+      "oldImagePool": 486
+    },
+    {
+      "key": "portrait-15",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1189,
+      "colorRuns": 859,
+      "richTextCodeUnits": 23833,
+      "utf8Bytes": 28441,
+      "oldImagePool": 666
+    },
+    {
+      "key": "portrait-16",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1415,
+      "colorRuns": 832,
+      "richTextCodeUnits": 23158,
+      "utf8Bytes": 27766,
+      "oldImagePool": 625
+    },
+    {
+      "key": "portrait-17",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1091,
+      "colorRuns": 744,
+      "richTextCodeUnits": 20958,
+      "utf8Bytes": 25566,
+      "oldImagePool": 542
+    },
+    {
+      "key": "portrait-18",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1262,
+      "colorRuns": 849,
+      "richTextCodeUnits": 23583,
+      "utf8Bytes": 28191,
+      "oldImagePool": 642
+    },
+    {
+      "key": "portrait-19",
+      "w": 48,
+      "h": 48,
+      "pixelCharacters": 2304,
+      "visiblePixels": 1361,
+      "colorRuns": 1182,
+      "richTextCodeUnits": 31908,
+      "utf8Bytes": 36516,
+      "oldImagePool": 908
+    },
+    {
+      "key": "thumb-1",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 547,
+      "colorRuns": 468,
+      "richTextCodeUnits": 12762,
+      "utf8Bytes": 14810,
+      "oldImagePool": 333
+    },
+    {
+      "key": "thumb-2",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 593,
+      "colorRuns": 350,
+      "richTextCodeUnits": 9812,
+      "utf8Bytes": 11860,
+      "oldImagePool": 253
+    },
+    {
+      "key": "thumb-3",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 588,
+      "colorRuns": 420,
+      "richTextCodeUnits": 11562,
+      "utf8Bytes": 13610,
+      "oldImagePool": 302
+    },
+    {
+      "key": "thumb-4",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 459,
+      "colorRuns": 354,
+      "richTextCodeUnits": 9912,
+      "utf8Bytes": 11960,
+      "oldImagePool": 258
+    },
+    {
+      "key": "thumb-5",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 578,
+      "colorRuns": 309,
+      "richTextCodeUnits": 8787,
+      "utf8Bytes": 10835,
+      "oldImagePool": 212
+    },
+    {
+      "key": "thumb-6",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 672,
+      "colorRuns": 444,
+      "richTextCodeUnits": 12162,
+      "utf8Bytes": 14210,
+      "oldImagePool": 339
+    },
+    {
+      "key": "thumb-7",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 511,
+      "colorRuns": 458,
+      "richTextCodeUnits": 12512,
+      "utf8Bytes": 14560,
+      "oldImagePool": 352
+    },
+    {
+      "key": "thumb-8",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 647,
+      "colorRuns": 520,
+      "richTextCodeUnits": 14062,
+      "utf8Bytes": 16110,
+      "oldImagePool": 369
+    },
+    {
+      "key": "thumb-9",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 488,
+      "colorRuns": 279,
+      "richTextCodeUnits": 8037,
+      "utf8Bytes": 10085,
+      "oldImagePool": 187
+    },
+    {
+      "key": "thumb-10",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 623,
+      "colorRuns": 432,
+      "richTextCodeUnits": 11862,
+      "utf8Bytes": 13910,
+      "oldImagePool": 303
+    },
+    {
+      "key": "thumb-11",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 613,
+      "colorRuns": 534,
+      "richTextCodeUnits": 14412,
+      "utf8Bytes": 16460,
+      "oldImagePool": 394
+    },
+    {
+      "key": "thumb-12",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 549,
+      "colorRuns": 396,
+      "richTextCodeUnits": 10962,
+      "utf8Bytes": 13010,
+      "oldImagePool": 293
+    },
+    {
+      "key": "thumb-13",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 536,
+      "colorRuns": 431,
+      "richTextCodeUnits": 11837,
+      "utf8Bytes": 13885,
+      "oldImagePool": 317
+    },
+    {
+      "key": "thumb-14",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 424,
+      "colorRuns": 319,
+      "richTextCodeUnits": 9037,
+      "utf8Bytes": 11085,
+      "oldImagePool": 222
+    },
+    {
+      "key": "thumb-15",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 498,
+      "colorRuns": 414,
+      "richTextCodeUnits": 11412,
+      "utf8Bytes": 13460,
+      "oldImagePool": 309
+    },
+    {
+      "key": "thumb-16",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 604,
+      "colorRuns": 468,
+      "richTextCodeUnits": 12762,
+      "utf8Bytes": 14810,
+      "oldImagePool": 352
+    },
+    {
+      "key": "thumb-17",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 473,
+      "colorRuns": 381,
+      "richTextCodeUnits": 10587,
+      "utf8Bytes": 12635,
+      "oldImagePool": 275
+    },
+    {
+      "key": "thumb-18",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 537,
+      "colorRuns": 421,
+      "richTextCodeUnits": 11587,
+      "utf8Bytes": 13635,
+      "oldImagePool": 319
+    },
+    {
+      "key": "thumb-19",
+      "w": 32,
+      "h": 32,
+      "pixelCharacters": 1024,
+      "visiblePixels": 576,
+      "colorRuns": 527,
+      "richTextCodeUnits": 14237,
+      "utf8Bytes": 16285,
+      "oldImagePool": 391
+    },
+    {
+      "key": "home-1",
+      "w": 112,
+      "h": 112,
+      "pixelCharacters": 12544,
+      "visiblePixels": 6749,
+      "colorRuns": 4022,
+      "richTextCodeUnits": 113212,
+      "utf8Bytes": 138300,
+      "oldImagePool": 2969
+    },
+    {
+      "key": "home-2",
+      "w": 112,
+      "h": 112,
+      "pixelCharacters": 12544,
+      "visiblePixels": 6834,
+      "colorRuns": 3488,
+      "richTextCodeUnits": 99862,
+      "utf8Bytes": 124950,
+      "oldImagePool": 2492
+    }
+  ],
+  "gameActorPoolsUnchanged": true,
+  "stagePoolsUnchanged": true,
+  "sourceGridPreserved": true,
+  "richTextTags": [
+    "b",
+    "color #RRGGBBAA"
+  ],
+  "transparentCells": "same block glyph with alpha zero; no blank layers",
+  "nativeFontCalibrationVerified": false,
+  "nativeRichTextVerified": false,
+  "simulatorRichTextSupported": false,
+  "deviceVerified": false,
+  "aBytes": 7290878
+}

@@ -1,0 +1,86 @@
+{
+  "stageSeedRange": [
+    1,
+    210
+  ],
+  "source": "outputs/stage-pixel-nearest-v2",
+  "sampling": "nearest",
+  "budgetPerScene": 5000,
+  "countries": [
+    {
+      "key": "mondstadt",
+      "name": "蒙德 · 风起地",
+      "grid": [
+        160,
+        90
+      ],
+      "rectangles": 4974,
+      "compressedBytes": 13569
+    },
+    {
+      "key": "liyue",
+      "name": "璃月 · 望舒客栈",
+      "grid": [
+        144,
+        81
+      ],
+      "rectangles": 4441,
+      "compressedBytes": 11726
+    },
+    {
+      "key": "inazuma",
+      "name": "稻妻 · 清籁岛",
+      "grid": [
+        144,
+        81
+      ],
+      "rectangles": 4927,
+      "compressedBytes": 12559
+    },
+    {
+      "key": "sumeru",
+      "name": "须弥 · 赤王陵",
+      "grid": [
+        160,
+        90
+      ],
+      "rectangles": 4963,
+      "compressedBytes": 13546
+    },
+    {
+      "key": "fontaine",
+      "name": "枫丹 · 水都远景",
+      "grid": [
+        144,
+        81
+      ],
+      "rectangles": 4535,
+      "compressedBytes": 11768
+    },
+    {
+      "key": "natlan",
+      "name": "纳塔 · 高山台地",
+      "grid": [
+        144,
+        81
+      ],
+      "rectangles": 4764,
+      "compressedBytes": 12516
+    },
+    {
+      "key": "snezhnaya",
+      "name": "至冬 · 雪境列车",
+      "grid": [
+        144,
+        81
+      ],
+      "rectangles": 4991,
+      "compressedBytes": 12253
+    }
+  ],
+  "maxCurrentStageImages": 4991,
+  "onlyCurrentStageDecoded": true,
+  "lossyColorReduction": true,
+  "sourceMastersPreserved": true,
+  "nativeDeviceVerified": false
+}

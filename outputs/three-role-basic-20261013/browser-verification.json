@@ -1,0 +1,1910 @@
+{
+  "version": "V9",
+  "independentBrowserOnly": true,
+  "checks": [
+    {
+      "character": "mavuika",
+      "action": "待机",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/idle-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "待机",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/idle-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/walk-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/walk-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/walk-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/walk-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/walk-4.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/walk-5.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/backwalk-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/backwalk-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/backwalk-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/backwalk-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/backwalk-4.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/backwalk-5.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/light1-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/light1-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/light1-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/light1-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/crouch-v9-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/crouch-v9-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/crouch-v9-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/crouch-v9-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/standguard-v9-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/standguard-v9-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/standguard-v9-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/standguard-v9-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/idle-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "待机",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/idle-0-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "待机",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/idle-1-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/walk-0-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/walk-1-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/walk-2-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/walk-3-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/walk-4-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "前走",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/walk-5-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/backwalk-0-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/backwalk-1-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/backwalk-2-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/backwalk-3-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/backwalk-4-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "后退",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/backwalk-5-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/light1-0-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/light1-1-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/light1-2-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/light1-3-source.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/crouch-v9-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/crouch-v9-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/crouch-v9-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/crouch-v9-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/standguard-v9-0.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/standguard-v9-1.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/standguard-v9-2.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/standguard-v9-3.png"
+    },
+    {
+      "character": "mavuika",
+      "action": "站防",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/idle-0-source.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "待机",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "待机",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/idle-inhale-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/walk-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/walk-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/walk-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/walk-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/walk-4.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/walk-5.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/backwalk-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/backwalk-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/backwalk-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/backwalk-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/backwalk-4.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/backwalk-5.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/jump-v9-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/jump-v9-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/jump-v9-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/jump-v9-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/jump-v9-4.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/jump-v9-5.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/forwarddash-v9-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/forwarddash-v9-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/forwarddash-v9-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/forwarddash-v9-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/crouch-v2-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/crouch-v2-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/crouch-v2-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/crouch-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/standguard-v1-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/standguard-v1-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/standguard-v1-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/standguard-v1-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/crouchguard-v2-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/crouchguard-v2-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/crouchguard-v2-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/crouchguard-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/crouch-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/light1-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/light1-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/light1-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/light1-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/light2-v1-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/light2-v1-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/light2-v1-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/light2-v1-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/light3-v2-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/light3-v2-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/light3-v2-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/light3-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "像素拟合",
+      "phase": 0,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "像素拟合",
+      "phase": 1,
+      "file": "fit/heavy-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "像素拟合",
+      "phase": 2,
+      "file": "fit/heavy-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "像素拟合",
+      "phase": 3,
+      "file": "fit/heavy-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "像素拟合",
+      "phase": 4,
+      "file": "fit/heavy-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "像素拟合",
+      "phase": 5,
+      "file": "fit/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "待机",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "待机",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/idle-inhale-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/walk-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/walk-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/walk-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/walk-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/walk-4.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前走",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/walk-5.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/backwalk-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/backwalk-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/backwalk-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/backwalk-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/backwalk-4.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "后退",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/backwalk-5.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/jump-v9-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/jump-v9-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/jump-v9-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/jump-v9-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/jump-v9-4.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "跳跃",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/jump-v9-5.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/forwarddash-v9-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/forwarddash-v9-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/forwarddash-v9-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/forwarddash-v9-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "前冲",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/crouch-v2-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/crouch-v2-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/crouch-v2-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/crouch-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/standguard-v1-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/standguard-v1-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/standguard-v1-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/standguard-v1-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站防",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/crouchguard-v2-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/crouchguard-v2-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/crouchguard-v2-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/crouchguard-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/crouch-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/light1-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/light1-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/light1-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/light1-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻1",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/light2-v1-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/light2-v1-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/light2-v1-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/light2-v1-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻2",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/light3-v2-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/light3-v2-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/light3-v2-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/light3-v2-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "轻3",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "源图",
+      "phase": 0,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "源图",
+      "phase": 1,
+      "file": "frames/heavy-0.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "源图",
+      "phase": 2,
+      "file": "frames/heavy-1.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "源图",
+      "phase": 3,
+      "file": "frames/heavy-2.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "源图",
+      "phase": 4,
+      "file": "frames/heavy-3.png"
+    },
+    {
+      "character": "neuvillette",
+      "action": "站重 · 洪流小样",
+      "material": "源图",
+      "phase": 5,
+      "file": "frames/idle-open-0.png"
+    },
+    {
+      "character": "zhongli",
+      "action": "待机",
+      "material": "源图",
+      "phase": "1 · 吸气",
+      "clock": "0 / 48 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "待机",
+      "material": "源图",
+      "phase": "2 · 呼气",
+      "clock": "24 / 48 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "源图",
+      "phase": "1 · 右脚接地",
+      "clock": "0 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "源图",
+      "phase": "2 · 右承重",
+      "clock": "6 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "源图",
+      "phase": "3 · 左过腿",
+      "clock": "12 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "源图",
+      "phase": "4 · 左脚接地",
+      "clock": "18 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "源图",
+      "phase": "5 · 左承重",
+      "clock": "24 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "源图",
+      "phase": "6 · 右过腿",
+      "clock": "30 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "源图",
+      "phase": "1 · 右脚后触",
+      "clock": "0 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "源图",
+      "phase": "2 · 后移承重",
+      "clock": "7 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "源图",
+      "phase": "3 · 左脚后过",
+      "clock": "14 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "源图",
+      "phase": "4 · 左脚后触",
+      "clock": "21 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "源图",
+      "phase": "5 · 后移承重",
+      "clock": "28 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "源图",
+      "phase": "6 · 右脚后过",
+      "clock": "35 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": "1 · 站立",
+      "clock": "0 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": "2 · 屈膝",
+      "clock": "3 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": "3 · 降重心",
+      "clock": "6 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": "4 · 蹲入",
+      "clock": "9 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": "5 · 蹲稳",
+      "clock": "12 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "源图",
+      "phase": "6 · 保持",
+      "clock": "15 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "源图",
+      "phase": "1 · 准备",
+      "clock": "0 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "源图",
+      "phase": "2 · 架手",
+      "clock": "4 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "源图",
+      "phase": "3 · 防御",
+      "clock": "8 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "源图",
+      "phase": "4 · 受力",
+      "clock": "18 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "源图",
+      "phase": "5 · 保持",
+      "clock": "23 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "源图",
+      "phase": "6 · 恢复",
+      "clock": "28 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": "1 · 低姿",
+      "clock": "0 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": "2 · 架手",
+      "clock": "4 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": "3 · 防御",
+      "clock": "8 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": "4 · 受力",
+      "clock": "18 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": "5 · 保持",
+      "clock": "23 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "源图",
+      "phase": "6 · 恢复",
+      "clock": "28 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "待机",
+      "material": "初始拟合",
+      "phase": "1 · 吸气",
+      "clock": "0 / 48 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "待机",
+      "material": "初始拟合",
+      "phase": "2 · 呼气",
+      "clock": "24 / 48 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "初始拟合",
+      "phase": "1 · 右脚接地",
+      "clock": "0 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "初始拟合",
+      "phase": "2 · 右承重",
+      "clock": "6 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "初始拟合",
+      "phase": "3 · 左过腿",
+      "clock": "12 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "初始拟合",
+      "phase": "4 · 左脚接地",
+      "clock": "18 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "初始拟合",
+      "phase": "5 · 左承重",
+      "clock": "24 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "初始拟合",
+      "phase": "6 · 右过腿",
+      "clock": "30 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "初始拟合",
+      "phase": "1 · 右脚后触",
+      "clock": "0 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "初始拟合",
+      "phase": "2 · 后移承重",
+      "clock": "7 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "初始拟合",
+      "phase": "3 · 左脚后过",
+      "clock": "14 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "初始拟合",
+      "phase": "4 · 左脚后触",
+      "clock": "21 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "初始拟合",
+      "phase": "5 · 后移承重",
+      "clock": "28 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "初始拟合",
+      "phase": "6 · 右脚后过",
+      "clock": "35 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "初始拟合",
+      "phase": "1 · 站立",
+      "clock": "0 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "初始拟合",
+      "phase": "2 · 屈膝",
+      "clock": "3 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "初始拟合",
+      "phase": "3 · 降重心",
+      "clock": "6 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "初始拟合",
+      "phase": "4 · 蹲入",
+      "clock": "9 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "初始拟合",
+      "phase": "5 · 蹲稳",
+      "clock": "12 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "初始拟合",
+      "phase": "6 · 保持",
+      "clock": "15 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "初始拟合",
+      "phase": "1 · 准备",
+      "clock": "0 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "初始拟合",
+      "phase": "2 · 架手",
+      "clock": "4 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "初始拟合",
+      "phase": "3 · 防御",
+      "clock": "8 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "初始拟合",
+      "phase": "4 · 受力",
+      "clock": "18 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "初始拟合",
+      "phase": "5 · 保持",
+      "clock": "23 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "初始拟合",
+      "phase": "6 · 恢复",
+      "clock": "28 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "初始拟合",
+      "phase": "1 · 低姿",
+      "clock": "0 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "初始拟合",
+      "phase": "2 · 架手",
+      "clock": "4 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "初始拟合",
+      "phase": "3 · 防御",
+      "clock": "8 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "初始拟合",
+      "phase": "4 · 受力",
+      "clock": "18 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "初始拟合",
+      "phase": "5 · 保持",
+      "clock": "23 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "初始拟合",
+      "phase": "6 · 恢复",
+      "clock": "28 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "待机",
+      "material": "优化拟合",
+      "phase": "1 · 吸气",
+      "clock": "0 / 48 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "待机",
+      "material": "优化拟合",
+      "phase": "2 · 呼气",
+      "clock": "24 / 48 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "优化拟合",
+      "phase": "1 · 右脚接地",
+      "clock": "0 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "优化拟合",
+      "phase": "2 · 右承重",
+      "clock": "6 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "优化拟合",
+      "phase": "3 · 左过腿",
+      "clock": "12 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "优化拟合",
+      "phase": "4 · 左脚接地",
+      "clock": "18 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "优化拟合",
+      "phase": "5 · 左承重",
+      "clock": "24 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "前走",
+      "material": "优化拟合",
+      "phase": "6 · 右过腿",
+      "clock": "30 / 36 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "优化拟合",
+      "phase": "1 · 右脚后触",
+      "clock": "0 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "优化拟合",
+      "phase": "2 · 后移承重",
+      "clock": "7 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "优化拟合",
+      "phase": "3 · 左脚后过",
+      "clock": "14 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "优化拟合",
+      "phase": "4 · 左脚后触",
+      "clock": "21 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "优化拟合",
+      "phase": "5 · 后移承重",
+      "clock": "28 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "后退",
+      "material": "优化拟合",
+      "phase": "6 · 右脚后过",
+      "clock": "35 / 42 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "优化拟合",
+      "phase": "1 · 站立",
+      "clock": "0 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "优化拟合",
+      "phase": "2 · 屈膝",
+      "clock": "3 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "优化拟合",
+      "phase": "3 · 降重心",
+      "clock": "6 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "优化拟合",
+      "phase": "4 · 蹲入",
+      "clock": "9 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "优化拟合",
+      "phase": "5 · 蹲稳",
+      "clock": "12 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲下",
+      "material": "优化拟合",
+      "phase": "6 · 保持",
+      "clock": "15 / 18 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "优化拟合",
+      "phase": "1 · 准备",
+      "clock": "0 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "优化拟合",
+      "phase": "2 · 架手",
+      "clock": "4 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "优化拟合",
+      "phase": "3 · 防御",
+      "clock": "8 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "优化拟合",
+      "phase": "4 · 受力",
+      "clock": "18 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "优化拟合",
+      "phase": "5 · 保持",
+      "clock": "23 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "站立格挡",
+      "material": "优化拟合",
+      "phase": "6 · 恢复",
+      "clock": "28 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "优化拟合",
+      "phase": "1 · 低姿",
+      "clock": "0 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "优化拟合",
+      "phase": "2 · 架手",
+      "clock": "4 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "优化拟合",
+      "phase": "3 · 防御",
+      "clock": "8 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "优化拟合",
+      "phase": "4 · 受力",
+      "clock": "18 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "优化拟合",
+      "phase": "5 · 保持",
+      "clock": "23 / 33 逻辑 tick · 60Hz"
+    },
+    {
+      "character": "zhongli",
+      "action": "蹲防",
+      "material": "优化拟合",
+      "phase": "6 · 恢复",
+      "clock": "28 / 33 逻辑 tick · 60Hz"
+    }
+  ]
+}

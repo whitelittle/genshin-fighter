@@ -1,0 +1,165 @@
+{
+  "scope": "uninstrumented mock; Q is first attack after loading and idle; 2 independent clients per version",
+  "results": [
+    {
+      "version": "baseline",
+      "repeat": 1,
+      "maxInstructions": 174712,
+      "maxCalls": 2531,
+      "heavyCallbacks": 0,
+      "images": {
+        "portraitRects": 862,
+        "portraitH": 64,
+        "body1": 685,
+        "portraitW": 64,
+        "body2": 520
+      },
+      "largest": [
+        {
+          "callback": 57,
+          "instructions": 174712,
+          "calls": 2531,
+          "actionTick": 2
+        },
+        {
+          "callback": 0,
+          "instructions": 110486,
+          "calls": 1586,
+          "actionTick": 0
+        },
+        {
+          "callback": 159,
+          "instructions": 107173,
+          "calls": 1478,
+          "actionTick": 10
+        },
+        {
+          "callback": 58,
+          "instructions": 95313,
+          "calls": 1113,
+          "actionTick": 2
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "repeat": 2,
+      "maxInstructions": 174712,
+      "maxCalls": 2531,
+      "heavyCallbacks": 0,
+      "images": {
+        "portraitW": 64,
+        "body1": 685,
+        "portraitRects": 862,
+        "portraitH": 64,
+        "body2": 520
+      },
+      "largest": [
+        {
+          "callback": 57,
+          "instructions": 174712,
+          "calls": 2531,
+          "actionTick": 2
+        },
+        {
+          "callback": 0,
+          "instructions": 110486,
+          "calls": 1586,
+          "actionTick": 0
+        },
+        {
+          "callback": 159,
+          "instructions": 107173,
+          "calls": 1478,
+          "actionTick": 10
+        },
+        {
+          "callback": 58,
+          "instructions": 95313,
+          "calls": 1113,
+          "actionTick": 2
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "repeat": 1,
+      "maxInstructions": 2205604,
+      "maxCalls": 37753,
+      "heavyCallbacks": 1,
+      "images": {
+        "body1": 805,
+        "body2": 797,
+        "portraitW": 64,
+        "portraitRects": 862,
+        "portraitH": 64
+      },
+      "largest": [
+        {
+          "callback": 1,
+          "instructions": 2205604,
+          "calls": 37753,
+          "actionTick": 2
+        },
+        {
+          "callback": 157,
+          "instructions": 512445,
+          "calls": 7072,
+          "actionTick": 70
+        },
+        {
+          "callback": 106,
+          "instructions": 512165,
+          "calls": 7089,
+          "actionTick": 35
+        },
+        {
+          "callback": 131,
+          "instructions": 461688,
+          "calls": 5990,
+          "actionTick": 44
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "repeat": 2,
+      "maxInstructions": 2205604,
+      "maxCalls": 37753,
+      "heavyCallbacks": 1,
+      "images": {
+        "portraitRects": 862,
+        "body1": 805,
+        "portraitW": 64,
+        "portraitH": 64,
+        "body2": 797
+      },
+      "largest": [
+        {
+          "callback": 1,
+          "instructions": 2205604,
+          "calls": 37753,
+          "actionTick": 2
+        },
+        {
+          "callback": 157,
+          "instructions": 512445,
+          "calls": 7072,
+          "actionTick": 70
+        },
+        {
+          "callback": 106,
+          "instructions": 512165,
+          "calls": 7089,
+          "actionTick": 35
+        },
+        {
+          "callback": 131,
+          "instructions": 461688,
+          "calls": 5990,
+          "actionTick": 44
+        }
+      ]
+    }
+  ]
+}

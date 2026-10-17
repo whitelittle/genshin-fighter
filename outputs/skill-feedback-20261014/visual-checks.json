@@ -1,0 +1,117 @@
+{
+  "mockOnly": true,
+  "checks": [
+    {
+      "device": "KeyboardAndMouse",
+      "skillCase": "miss",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "skillCase": "hit",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "skillCase": "block",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "skillCase": "invul",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "skillCase": "down",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "feedbackCode": "energy",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "feedbackCode": "cooldown",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "feedbackCode": "state",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "feedbackCode": "miss",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "feedbackCode": "block",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "KeyboardAndMouse",
+      "fourPagesDirectTabs": true,
+      "messageDedupAndExpiry": true,
+      "errors": 0
+    },
+    {
+      "device": "Mobile",
+      "skillCase": "miss",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "Mobile",
+      "skillCase": "hit",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "Mobile",
+      "skillCase": "block",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "Mobile",
+      "skillCase": "invul",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "Mobile",
+      "skillCase": "down",
+      "damageAndConfirmedImpact": true
+    },
+    {
+      "device": "Mobile",
+      "feedbackCode": "energy",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "Mobile",
+      "feedbackCode": "cooldown",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "Mobile",
+      "feedbackCode": "state",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "Mobile",
+      "feedbackCode": "miss",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "Mobile",
+      "feedbackCode": "block",
+      "twoFixedMessages": true
+    },
+    {
+      "device": "Mobile",
+      "fourPagesDirectTabs": true,
+      "messageDedupAndExpiry": true,
+      "errors": 0
+    }
+  ]
+}

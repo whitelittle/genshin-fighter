@@ -1,0 +1,482 @@
+[
+  {
+    "module": "gf_art_aratakiitto",
+    "baseline": "game/lua/gen/gf_art_aratakiitto.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 159429,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_arlecchino",
+    "baseline": "game/lua/gen/gf_art_arlecchino.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 158801,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_clorinde",
+    "baseline": "game/lua/gen/gf_art_clorinde.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 145595,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_furina",
+    "baseline": "game/lua/gen/gf_art_furina.lua",
+    "current": "runtime/source/assets/gf_art_furina.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 149539,
+    "currentBytes": 12859
+  },
+  {
+    "module": "gf_art_kamisatoayaka",
+    "baseline": "game/lua/gen/gf_art_kamisatoayaka.lua",
+    "current": "runtime/source/assets/gf_art_kamisatoayaka.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 156907,
+    "currentBytes": 8443
+  },
+  {
+    "module": "gf_art_mavuika",
+    "baseline": "game/lua/gen/gf_art_mavuika.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 156360,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_nahida",
+    "baseline": "game/lua/gen/gf_art_nahida.lua",
+    "current": "runtime/source/assets/gf_art_nahida.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 154080,
+    "currentBytes": 72777
+  },
+  {
+    "module": "gf_art_navia",
+    "baseline": "game/lua/gen/gf_art_navia.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 166715,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_neuvillette",
+    "baseline": "game/lua/gen/gf_art_neuvillette.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 164768,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_raidenshogun",
+    "baseline": "game/lua/gen/gf_art_raidenshogun.lua",
+    "current": "runtime/source/assets/gf_art_raidenshogun.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 152600,
+    "currentBytes": 69239
+  },
+  {
+    "module": "gf_art_skirk",
+    "baseline": "game/lua/gen/gf_art_skirk.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 169336,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_tartaglia",
+    "baseline": "game/lua/gen/gf_art_tartaglia.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 122265,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_venti",
+    "baseline": "game/lua/gen/gf_art_venti.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 143442,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_wanderer",
+    "baseline": "game/lua/gen/gf_art_wanderer.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 164722,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_yaemiko",
+    "baseline": "game/lua/gen/gf_art_yaemiko.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 159142,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_art_zhongli",
+    "baseline": "game/lua/gen/gf_art_zhongli.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 150800,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_bg_fontaine",
+    "baseline": "game/lua/gen/gf_bg_fontaine.lua",
+    "current": "runtime/source/assets/gf_bg_fontaine.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24628,
+    "currentBytes": 134
+  },
+  {
+    "module": "gf_bg_inazuma",
+    "baseline": "game/lua/gen/gf_bg_inazuma.lua",
+    "current": "runtime/source/assets/gf_bg_inazuma.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24626,
+    "currentBytes": 138
+  },
+  {
+    "module": "gf_bg_liyue",
+    "baseline": "game/lua/gen/gf_bg_liyue.lua",
+    "current": "runtime/source/assets/gf_bg_liyue.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24621,
+    "currentBytes": 131
+  },
+  {
+    "module": "gf_bg_mondstadt",
+    "baseline": "game/lua/gen/gf_bg_mondstadt.lua",
+    "current": "runtime/source/assets/gf_bg_mondstadt.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24642,
+    "currentBytes": 148
+  },
+  {
+    "module": "gf_bg_natlan",
+    "baseline": "game/lua/gen/gf_bg_natlan.lua",
+    "current": "runtime/source/assets/gf_bg_natlan.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24624,
+    "currentBytes": 133
+  },
+  {
+    "module": "gf_bg_snezhnaya",
+    "baseline": "game/lua/gen/gf_bg_snezhnaya.lua",
+    "current": "runtime/source/assets/gf_bg_snezhnaya.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24635,
+    "currentBytes": 142
+  },
+  {
+    "module": "gf_bg_sumeru",
+    "baseline": "game/lua/gen/gf_bg_sumeru.lua",
+    "current": "runtime/source/assets/gf_bg_sumeru.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 24623,
+    "currentBytes": 133
+  },
+  {
+    "module": "gf_bglist",
+    "baseline": "game/lua/gen/gf_bglist.lua",
+    "current": "runtime/source/render/gf_bglist.lua",
+    "status": "sameCodeIgnoringWrapperCommentsWhitespace",
+    "baselineBytes": 138,
+    "currentBytes": 176
+  },
+  {
+    "module": "gf_logo",
+    "baseline": "game/lua/gen/gf_logo.lua",
+    "current": "runtime/source/assets/gf_logo.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 46336,
+    "currentBytes": 20043
+  },
+  {
+    "module": "gf_roster",
+    "baseline": "game/lua/gen/gf_roster.lua",
+    "current": "runtime/source/characters/gf_roster.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 2461,
+    "currentBytes": 92
+  },
+  {
+    "module": "gf_ai",
+    "baseline": "game/lua/gf_ai.lua",
+    "current": "runtime/source/battle/gf_ai.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 6819,
+    "currentBytes": 6940
+  },
+  {
+    "module": "gf_app",
+    "baseline": "game/lua/gf_app.lua",
+    "current": "runtime/source/app/gf_app.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 7181,
+    "currentBytes": 7332
+  },
+  {
+    "module": "gf_art",
+    "baseline": "game/lua/gf_art.lua",
+    "current": "runtime/source/characters/gf_art.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 4257,
+    "currentBytes": 7344
+  },
+  {
+    "module": "gf_audio",
+    "baseline": "game/lua/gf_audio.lua",
+    "current": "runtime/source/render/gf_audio.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 2666,
+    "currentBytes": 2264
+  },
+  {
+    "module": "gf_backdrop",
+    "baseline": "game/lua/gf_backdrop.lua",
+    "current": "runtime/source/render/gf_backdrop.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 3186,
+    "currentBytes": 3130
+  },
+  {
+    "module": "gf_fview",
+    "baseline": "game/lua/gf_fview.lua",
+    "current": "runtime/source/render/gf_fview.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 11286,
+    "currentBytes": 27837
+  },
+  {
+    "module": "gf_fx",
+    "baseline": "game/lua/gf_fx.lua",
+    "current": "runtime/source/render/gf_fx.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 12560,
+    "currentBytes": 11479
+  },
+  {
+    "module": "gf_gfx",
+    "baseline": "game/lua/gf_gfx.lua",
+    "current": "runtime/source/render/gf_gfx.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 21858,
+    "currentBytes": 26945
+  },
+  {
+    "module": "gf_hud",
+    "baseline": "game/lua/gf_hud.lua",
+    "current": "runtime/source/render/gf_hud.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 11890,
+    "currentBytes": 12529
+  },
+  {
+    "module": "gf_input",
+    "baseline": "game/lua/gf_input.lua",
+    "current": "runtime/source/input/gf_input.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 9615,
+    "currentBytes": 9542
+  },
+  {
+    "module": "gf_kits",
+    "baseline": "game/lua/gf_kits.lua",
+    "current": "runtime/source/characters/gf_kits.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 19925,
+    "currentBytes": 1137
+  },
+  {
+    "module": "gf_main",
+    "baseline": "game/lua/gf_main.lua",
+    "current": null,
+    "status": "removedOrRenamed",
+    "baselineBytes": 6309,
+    "currentBytes": 0
+  },
+  {
+    "module": "gf_net",
+    "baseline": "game/lua/gf_net.lua",
+    "current": "runtime/source/network/gf_net.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 9123,
+    "currentBytes": 7402
+  },
+  {
+    "module": "gf_online",
+    "baseline": "game/lua/gf_online.lua",
+    "current": "runtime/source/network/gf_online.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 12351,
+    "currentBytes": 10508
+  },
+  {
+    "module": "gf_paint",
+    "baseline": "game/lua/gf_paint.lua",
+    "current": "runtime/source/render/gf_paint.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 3138,
+    "currentBytes": 2250
+  },
+  {
+    "module": "gf_scene_fight",
+    "baseline": "game/lua/gf_scene_fight.lua",
+    "current": "runtime/source/battle/gf_scene_fight.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 39707,
+    "currentBytes": 15960
+  },
+  {
+    "module": "gf_scene_gallery",
+    "baseline": "game/lua/gf_scene_gallery.lua",
+    "current": "runtime/source/menu/gf_scene_gallery.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 1729,
+    "currentBytes": 1997
+  },
+  {
+    "module": "gf_scene_howto",
+    "baseline": "game/lua/gf_scene_howto.lua",
+    "current": "runtime/source/menu/gf_scene_howto.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 5242,
+    "currentBytes": 4642
+  },
+  {
+    "module": "gf_scene_intro",
+    "baseline": "game/lua/gf_scene_intro.lua",
+    "current": "runtime/source/menu/gf_scene_intro.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 2094,
+    "currentBytes": 1814
+  },
+  {
+    "module": "gf_scene_menu",
+    "baseline": "game/lua/gf_scene_menu.lua",
+    "current": "runtime/source/menu/gf_scene_menu.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 8775,
+    "currentBytes": 11431
+  },
+  {
+    "module": "gf_scene_online",
+    "baseline": "game/lua/gf_scene_online.lua",
+    "current": "runtime/source/menu/gf_scene_online.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 10848,
+    "currentBytes": 2821
+  },
+  {
+    "module": "gf_scene_options",
+    "baseline": "game/lua/gf_scene_options.lua",
+    "current": "runtime/source/menu/gf_scene_options.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 5594,
+    "currentBytes": 4832
+  },
+  {
+    "module": "gf_scene_result",
+    "baseline": "game/lua/gf_scene_result.lua",
+    "current": "runtime/source/menu/gf_scene_result.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 7030,
+    "currentBytes": 7240
+  },
+  {
+    "module": "gf_scene_select",
+    "baseline": "game/lua/gf_scene_select.lua",
+    "current": "runtime/source/menu/gf_scene_select.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 18448,
+    "currentBytes": 21265
+  },
+  {
+    "module": "gf_scene_stageview",
+    "baseline": "game/lua/gf_scene_stageview.lua",
+    "current": "runtime/source/menu/gf_scene_stageview.lua",
+    "status": "sameCodeIgnoringWrapperCommentsWhitespace",
+    "baselineBytes": 670,
+    "currentBytes": 615
+  },
+  {
+    "module": "gf_scene_test",
+    "baseline": "game/lua/gf_scene_test.lua",
+    "current": "runtime/source/menu/gf_scene_test.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 1461,
+    "currentBytes": 1360
+  },
+  {
+    "module": "gf_scene_title",
+    "baseline": "game/lua/gf_scene_title.lua",
+    "current": "runtime/source/menu/gf_scene_title.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 8072,
+    "currentBytes": 7191
+  },
+  {
+    "module": "gf_scene_vs",
+    "baseline": "game/lua/gf_scene_vs.lua",
+    "current": "runtime/source/menu/gf_scene_vs.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 8211,
+    "currentBytes": 7882
+  },
+  {
+    "module": "gf_show",
+    "baseline": "game/lua/gf_show.lua",
+    "current": "runtime/source/render/gf_show.lua",
+    "status": "sameCodeIgnoringWrapperCommentsWhitespace",
+    "baselineBytes": 1499,
+    "currentBytes": 1279
+  },
+  {
+    "module": "gf_sim",
+    "baseline": "game/lua/gf_sim.lua",
+    "current": "runtime/source/battle/gf_sim.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 41825,
+    "currentBytes": 10720
+  },
+  {
+    "module": "gf_stage",
+    "baseline": "game/lua/gf_stage.lua",
+    "current": "runtime/source/render/gf_stage.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 26418,
+    "currentBytes": 26947
+  },
+  {
+    "module": "gf_touch",
+    "baseline": "game/lua/gf_touch.lua",
+    "current": "runtime/source/input/gf_touch.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 5447,
+    "currentBytes": 5484
+  },
+  {
+    "module": "gf_ui",
+    "baseline": "game/lua/gf_ui.lua",
+    "current": "runtime/source/render/gf_ui.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 15447,
+    "currentBytes": 13216
+  },
+  {
+    "module": "gf_util",
+    "baseline": "game/lua/gf_util.lua",
+    "current": "runtime/source/core/gf_util.lua",
+    "status": "changedOrSplit",
+    "baselineBytes": 3859,
+    "currentBytes": 7593
+  }
+]

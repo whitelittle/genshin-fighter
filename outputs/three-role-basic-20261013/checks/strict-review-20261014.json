@@ -1,0 +1,545 @@
+{
+  "scope": "independent assets and display only",
+  "activeActions": 45,
+  "activeReferenceChecks": 637,
+  "missing": [],
+  "bodyReconstructionChecks": [
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/backdash-strict-20261014-0.json",
+      "rectangles": 603,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/backdash-strict-20261014-1.json",
+      "rectangles": 667,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/backdash-strict-20261014-2.json",
+      "rectangles": 572,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/backdash-strict-20261014-3.json",
+      "rectangles": 656,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/forwarddash-strict-20261014-0.json",
+      "rectangles": 675,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/forwarddash-strict-20261014-1.json",
+      "rectangles": 619,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/forwarddash-strict-20261014-2.json",
+      "rectangles": 547,
+      "exact": true
+    },
+    {
+      "role": "neuvillette",
+      "file": "neuvillette/fit/forwarddash-strict-20261014-3.json",
+      "rectangles": 664,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/jump-strict-20261014-0.json",
+      "rectangles": 355,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/jump-strict-20261014-1.json",
+      "rectangles": 358,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/jump-strict-20261014-2.json",
+      "rectangles": 308,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/jump-strict-20261014-3.json",
+      "rectangles": 362,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/jump-strict-20261014-4.json",
+      "rectangles": 322,
+      "exact": true
+    },
+    {
+      "role": "mavuika",
+      "file": "mavuika/fit/jump-strict-20261014-5.json",
+      "rectangles": 375,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/crouch-strict-20261014-0.json",
+      "rectangles": 761,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/crouch-strict-20261014-1.json",
+      "rectangles": 783,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/crouch-strict-20261014-2.json",
+      "rectangles": 739,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/crouch-strict-20261014-3.json",
+      "rectangles": 709,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/crouch-strict-20261014-4.json",
+      "rectangles": 707,
+      "exact": true
+    },
+    {
+      "role": "zhongli",
+      "file": "zhongli/fit/crouch-strict-20261014-5.json",
+      "rectangles": 680,
+      "exact": true
+    }
+  ],
+  "browserPhaseStartChecks": 76,
+  "zhongliRestoredExactly": {
+    "actions.json": true,
+    "offline.html": true,
+    "size-review.html": true,
+    "index.html": true
+  },
+  "sourceUnitInventory": [
+    {
+      "role": "neuvillette",
+      "action": "idle",
+      "states": 2,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.25,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "heavy",
+      "states": 6,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.47,
+      "unitRatio": 1.88,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "walk",
+      "states": 6,
+      "minSourceUnit": 0.47,
+      "maxSourceUnit": 0.47,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "backwalk",
+      "states": 6,
+      "minSourceUnit": 0.54,
+      "maxSourceUnit": 0.54,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "light1",
+      "states": 5,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.46,
+      "unitRatio": 1.84,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "light2",
+      "states": 5,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.47,
+      "unitRatio": 1.88,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "light3",
+      "states": 5,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.47,
+      "unitRatio": 1.88,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "crouch",
+      "states": 4,
+      "minSourceUnit": 0.4,
+      "maxSourceUnit": 0.4,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "standguard",
+      "states": 5,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.45,
+      "unitRatio": 1.8,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "crouchguard",
+      "states": 5,
+      "minSourceUnit": 0.34,
+      "maxSourceUnit": 0.4,
+      "unitRatio": 1.1764705882352942,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "jump",
+      "states": 6,
+      "minSourceUnit": 0.43,
+      "maxSourceUnit": 0.43,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "forwarddash",
+      "states": 6,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.45,
+      "unitRatio": 1.8,
+      "artAccepted": false
+    },
+    {
+      "role": "neuvillette",
+      "action": "backdash",
+      "states": 6,
+      "minSourceUnit": 0.25,
+      "maxSourceUnit": 0.5,
+      "unitRatio": 2.0,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "idle",
+      "states": 2,
+      "minSourceUnit": 0.24,
+      "maxSourceUnit": 0.24,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "walk",
+      "states": 6,
+      "minSourceUnit": 0.408,
+      "maxSourceUnit": 0.408,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "backwalk",
+      "states": 6,
+      "minSourceUnit": 0.408,
+      "maxSourceUnit": 0.408,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "light1",
+      "states": 4,
+      "minSourceUnit": 0.4,
+      "maxSourceUnit": 0.4,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "crouch",
+      "states": 4,
+      "minSourceUnit": 0.34,
+      "maxSourceUnit": 0.34,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "standguard",
+      "states": 5,
+      "minSourceUnit": 0.24,
+      "maxSourceUnit": 0.42,
+      "unitRatio": 1.75,
+      "artAccepted": false
+    },
+    {
+      "role": "mavuika",
+      "action": "jump",
+      "states": 7,
+      "minSourceUnit": 0.24,
+      "maxSourceUnit": 0.4,
+      "unitRatio": 1.6666666666666667,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_idle",
+      "states": 2,
+      "minSourceUnit": 0.3407608695652174,
+      "maxSourceUnit": 0.3407608695652174,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_walk",
+      "states": 6,
+      "minSourceUnit": 0.6815217391304348,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_backwalk",
+      "states": 6,
+      "minSourceUnit": 0.6290969899665552,
+      "maxSourceUnit": 0.6290969899665552,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_jump",
+      "states": 6,
+      "minSourceUnit": 0.6103179753406879,
+      "maxSourceUnit": 0.6389266304347826,
+      "unitRatio": 1.046875,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_forwarddash",
+      "states": 6,
+      "minSourceUnit": 0.3407608695652174,
+      "maxSourceUnit": 0.6290969899665552,
+      "unitRatio": 1.846153846153846,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_backdash",
+      "states": 6,
+      "minSourceUnit": 0.3407608695652174,
+      "maxSourceUnit": 0.6290969899665552,
+      "unitRatio": 1.846153846153846,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_crouch",
+      "states": 6,
+      "minSourceUnit": 0.531055900621118,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.2833333333333334,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_standguard",
+      "states": 6,
+      "minSourceUnit": 0.6490683229813664,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.05,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_crouchguard",
+      "states": 6,
+      "minSourceUnit": 0.5380434782608695,
+      "maxSourceUnit": 0.5601548540798094,
+      "unitRatio": 1.0410958904109588,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_light1",
+      "states": 7,
+      "minSourceUnit": 0.3407608695652174,
+      "maxSourceUnit": 0.8519021739130435,
+      "unitRatio": 2.5,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_light2",
+      "states": 6,
+      "minSourceUnit": 0.6595371669004207,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.0333333333333334,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_light3",
+      "states": 6,
+      "minSourceUnit": 0.6815217391304348,
+      "maxSourceUnit": 0.8519021739130435,
+      "unitRatio": 1.25,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_heavy",
+      "states": 6,
+      "minSourceUnit": 0.6815217391304348,
+      "maxSourceUnit": 0.7863712374581939,
+      "unitRatio": 1.1538461538461537,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_crouchlight",
+      "states": 6,
+      "minSourceUnit": 0.6103179753406879,
+      "maxSourceUnit": 0.6703492516037063,
+      "unitRatio": 1.0983606557377048,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_crouchheavy",
+      "states": 6,
+      "minSourceUnit": 0.20445652173913043,
+      "maxSourceUnit": 0.5841614906832298,
+      "unitRatio": 2.857142857142857,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_airlight",
+      "states": 6,
+      "minSourceUnit": 0.6389266304347826,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.0666666666666667,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_airheavy",
+      "states": 6,
+      "minSourceUnit": 0.6103179753406879,
+      "maxSourceUnit": 0.6389266304347826,
+      "unitRatio": 1.046875,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_skillE",
+      "states": 4,
+      "minSourceUnit": 0.6290969899665552,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.0833333333333335,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_skillQ",
+      "states": 6,
+      "minSourceUnit": 0.6815217391304348,
+      "maxSourceUnit": 0.6815217391304348,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_throw",
+      "states": 6,
+      "minSourceUnit": 0.6703492516037063,
+      "maxSourceUnit": 0.6703492516037063,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_victim",
+      "states": 6,
+      "minSourceUnit": 0.5841614906832298,
+      "maxSourceUnit": 0.6103179753406879,
+      "unitRatio": 1.0447761194029852,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_hit_knockdown",
+      "states": 6,
+      "minSourceUnit": 0.5841614906832298,
+      "maxSourceUnit": 0.6290969899665552,
+      "unitRatio": 1.076923076923077,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_wakeup",
+      "states": 6,
+      "minSourceUnit": 0.3407608695652174,
+      "maxSourceUnit": 0.6290969899665552,
+      "unitRatio": 1.846153846153846,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_victory",
+      "states": 6,
+      "minSourceUnit": 0.624380574826561,
+      "maxSourceUnit": 0.624380574826561,
+      "unitRatio": 1.0,
+      "artAccepted": false
+    },
+    {
+      "role": "zhongli",
+      "action": "zhongli_defeat",
+      "states": 6,
+      "minSourceUnit": 0.4543478260869565,
+      "maxSourceUnit": 0.47548028311425683,
+      "unitRatio": 1.0465116279069768,
+      "artAccepted": false
+    }
+  ],
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false
+}

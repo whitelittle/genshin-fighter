@@ -1,0 +1,17 @@
+{
+  "version": "V9",
+  "character": "neuvillette",
+  "stage": "basic-movement-batch1-candidate",
+  "actions": 12,
+  "mainDisplayStates": 61,
+  "newBodySources": 10,
+  "newGroups": [
+    "jump",
+    "forwarddash"
+  ],
+  "entry": "player.html",
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "simulatorVerified": false,
+  "deviceVerified": false
+}

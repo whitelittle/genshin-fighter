@@ -1,0 +1,1088 @@
+{
+  "idle": {
+    "frames": [
+      {
+        "file": "fit/idle-0.png",
+        "anchor": [
+          33.1,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 412
+      },
+      {
+        "file": "fit/idle-1.png",
+        "anchor": [
+          33.1,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 398
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/idle-0-source.png",
+        "source": "source/mavuika-idle-source-v5.png",
+        "anchor": [
+          535,
+          848
+        ],
+        "scale": 0.24,
+        "roi": [
+          0,
+          0,
+          887,
+          887
+        ]
+      },
+      {
+        "file": "frames/idle-1-source.png",
+        "source": "source/mavuika-idle-source-v5.png",
+        "anchor": [
+          535,
+          848
+        ],
+        "scale": 0.24,
+        "roi": [
+          887,
+          0,
+          887,
+          887
+        ]
+      }
+    ],
+    "durations": [
+      30,
+      30
+    ],
+    "phases": [
+      "姿势1",
+      "姿势2"
+    ],
+    "events": [],
+    "status": "上游v6基础动作；V9保留像素、修正实际鞋底锚点，人体/步态仍待美术复验"
+  },
+  "walk": {
+    "frames": [
+      {
+        "file": "fit/walk-0.png",
+        "anchor": [
+          31.599999999999998,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 483
+      },
+      {
+        "file": "fit/walk-1.png",
+        "anchor": [
+          31.599999999999998,
+          54
+        ],
+        "scale": 4,
+        "rectangles": 447
+      },
+      {
+        "file": "fit/walk-2.png",
+        "anchor": [
+          31.599999999999998,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 440
+      },
+      {
+        "file": "fit/walk-3.png",
+        "anchor": [
+          31.599999999999998,
+          51
+        ],
+        "scale": 4,
+        "rectangles": 506
+      },
+      {
+        "file": "fit/walk-4.png",
+        "anchor": [
+          31.599999999999998,
+          52
+        ],
+        "scale": 4,
+        "rectangles": 436
+      },
+      {
+        "file": "fit/walk-5.png",
+        "anchor": [
+          31.599999999999998,
+          52
+        ],
+        "scale": 4,
+        "rectangles": 478
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/walk-0-source.png",
+        "source": "source/mavuika-walk-source-v6.png",
+        "anchor": [
+          300,
+          505
+        ],
+        "scale": 0.408,
+        "roi": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/walk-1-source.png",
+        "source": "source/mavuika-walk-source-v6.png",
+        "anchor": [
+          300,
+          508
+        ],
+        "scale": 0.408,
+        "roi": [
+          512,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/walk-2-source.png",
+        "source": "source/mavuika-walk-source-v6.png",
+        "anchor": [
+          300,
+          505
+        ],
+        "scale": 0.408,
+        "roi": [
+          1024,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/walk-3-source.png",
+        "source": "source/mavuika-walk-source-v6.png",
+        "anchor": [
+          300,
+          484
+        ],
+        "scale": 0.408,
+        "roi": [
+          0,
+          512,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/walk-4-source.png",
+        "source": "source/mavuika-walk-source-v6.png",
+        "anchor": [
+          300,
+          490
+        ],
+        "scale": 0.408,
+        "roi": [
+          512,
+          512,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/walk-5-source.png",
+        "source": "source/mavuika-walk-source-v6.png",
+        "anchor": [
+          300,
+          491
+        ],
+        "scale": 0.408,
+        "roi": [
+          1024,
+          512,
+          512,
+          512
+        ]
+      }
+    ],
+    "durations": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "phases": [
+      "姿势1",
+      "姿势2",
+      "姿势3",
+      "姿势4",
+      "姿势5",
+      "姿势6"
+    ],
+    "events": [],
+    "status": "上游v6基础动作；V9保留像素、修正实际鞋底锚点，人体/步态仍待美术复验",
+    "motion": {
+      "kind": "walk",
+      "direction": 1,
+      "distance": 70
+    }
+  },
+  "backwalk": {
+    "frames": [
+      {
+        "file": "fit/backwalk-0.png",
+        "anchor": [
+          31.599999999999998,
+          54
+        ],
+        "scale": 4,
+        "rectangles": 460
+      },
+      {
+        "file": "fit/backwalk-1.png",
+        "anchor": [
+          31.599999999999998,
+          54
+        ],
+        "scale": 4,
+        "rectangles": 471
+      },
+      {
+        "file": "fit/backwalk-2.png",
+        "anchor": [
+          31.599999999999998,
+          54
+        ],
+        "scale": 4,
+        "rectangles": 437
+      },
+      {
+        "file": "fit/backwalk-3.png",
+        "anchor": [
+          31.599999999999998,
+          52
+        ],
+        "scale": 4,
+        "rectangles": 484
+      },
+      {
+        "file": "fit/backwalk-4.png",
+        "anchor": [
+          31.599999999999998,
+          52
+        ],
+        "scale": 4,
+        "rectangles": 486
+      },
+      {
+        "file": "fit/backwalk-5.png",
+        "anchor": [
+          31.599999999999998,
+          52
+        ],
+        "scale": 4,
+        "rectangles": 463
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/backwalk-0-source.png",
+        "source": "source/mavuika-backwalk-source-v6.png",
+        "anchor": [
+          300,
+          511
+        ],
+        "scale": 0.408,
+        "roi": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/backwalk-1-source.png",
+        "source": "source/mavuika-backwalk-source-v6.png",
+        "anchor": [
+          300,
+          511
+        ],
+        "scale": 0.408,
+        "roi": [
+          512,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/backwalk-2-source.png",
+        "source": "source/mavuika-backwalk-source-v6.png",
+        "anchor": [
+          300,
+          511
+        ],
+        "scale": 0.408,
+        "roi": [
+          1024,
+          0,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/backwalk-3-source.png",
+        "source": "source/mavuika-backwalk-source-v6.png",
+        "anchor": [
+          300,
+          491
+        ],
+        "scale": 0.408,
+        "roi": [
+          0,
+          512,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/backwalk-4-source.png",
+        "source": "source/mavuika-backwalk-source-v6.png",
+        "anchor": [
+          300,
+          489
+        ],
+        "scale": 0.408,
+        "roi": [
+          512,
+          512,
+          512,
+          512
+        ]
+      },
+      {
+        "file": "frames/backwalk-5-source.png",
+        "source": "source/mavuika-backwalk-source-v6.png",
+        "anchor": [
+          300,
+          492
+        ],
+        "scale": 0.408,
+        "roi": [
+          1024,
+          512,
+          512,
+          512
+        ]
+      }
+    ],
+    "durations": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "phases": [
+      "姿势1",
+      "姿势2",
+      "姿势3",
+      "姿势4",
+      "姿势5",
+      "姿势6"
+    ],
+    "events": [],
+    "status": "上游v6基础动作；V9保留像素、修正实际鞋底锚点，人体/步态仍待美术复验",
+    "motion": {
+      "kind": "walk",
+      "direction": -1,
+      "distance": 70
+    }
+  },
+  "light1": {
+    "frames": [
+      {
+        "file": "fit/light1-0.png",
+        "anchor": [
+          44.0,
+          57
+        ],
+        "scale": 4,
+        "rectangles": 730
+      },
+      {
+        "file": "fit/light1-1.png",
+        "anchor": [
+          38.0,
+          59
+        ],
+        "scale": 4,
+        "rectangles": 702
+      },
+      {
+        "file": "fit/light1-2.png",
+        "anchor": [
+          31.0,
+          47
+        ],
+        "scale": 4,
+        "rectangles": 605
+      },
+      {
+        "file": "fit/light1-3.png",
+        "anchor": [
+          31.0,
+          48
+        ],
+        "scale": 4,
+        "rectangles": 601
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/light1-0-source.png",
+        "source": "source/mavuika-light1-extracted-v6.png",
+        "anchor": [
+          430,
+          552
+        ],
+        "scale": 0.4,
+        "roi": [
+          0,
+          0,
+          900,
+          640
+        ]
+      },
+      {
+        "file": "frames/light1-1-source.png",
+        "source": "source/mavuika-light1-extracted-v6.png",
+        "anchor": [
+          370,
+          565
+        ],
+        "scale": 0.4,
+        "roi": [
+          900,
+          0,
+          900,
+          640
+        ]
+      },
+      {
+        "file": "frames/light1-2-source.png",
+        "source": "source/mavuika-light1-extracted-v6.png",
+        "anchor": [
+          300,
+          445
+        ],
+        "scale": 0.4,
+        "roi": [
+          0,
+          640,
+          900,
+          640
+        ]
+      },
+      {
+        "file": "frames/light1-3-source.png",
+        "source": "source/mavuika-light1-extracted-v6.png",
+        "anchor": [
+          300,
+          458
+        ],
+        "scale": 0.4,
+        "roi": [
+          900,
+          640,
+          900,
+          640
+        ]
+      }
+    ],
+    "durations": [
+      4,
+      4,
+      3,
+      13
+    ],
+    "phases": [
+      "姿势1",
+      "姿势2",
+      "姿势3",
+      "姿势4"
+    ],
+    "events": [],
+    "status": "上游v6基础动作；V9保留像素、修正实际鞋底锚点，人体/步态仍待美术复验"
+  },
+  "crouch": {
+    "frames": [
+      {
+        "file": "fit/crouch-v9-0.png",
+        "anchor": [
+          20,
+          51
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v9-0.json",
+        "rectangles": 422
+      },
+      {
+        "file": "fit/crouch-v9-1.png",
+        "anchor": [
+          24,
+          47
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v9-1.json",
+        "rectangles": 431
+      },
+      {
+        "file": "fit/crouch-v9-2.png",
+        "anchor": [
+          21,
+          39
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v9-2.json",
+        "rectangles": 365
+      },
+      {
+        "file": "fit/crouch-v9-3.png",
+        "anchor": [
+          22,
+          38
+        ],
+        "scale": 4.5,
+        "rectData": "fit/crouch-v9-3.json",
+        "rectangles": 358
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/crouch-v9-0.png",
+        "source": "source/crouch-v9-2.png",
+        "anchor": [
+          231.0,
+          632.0
+        ],
+        "scale": 0.34,
+        "sourceOrigin": [
+          103,
+          -32
+        ],
+        "roi": [
+          135,
+          0,
+          674,
+          606
+        ]
+      },
+      {
+        "file": "frames/crouch-v9-1.png",
+        "source": "source/crouch-v9-2.png",
+        "anchor": [
+          284.0,
+          582.0
+        ],
+        "scale": 0.34,
+        "sourceOrigin": [
+          768,
+          18
+        ],
+        "roi": [
+          800,
+          50,
+          1381,
+          606
+        ]
+      },
+      {
+        "file": "frames/crouch-v9-2.png",
+        "source": "source/crouch-v9-2.png",
+        "anchor": [
+          242.5,
+          469.0
+        ],
+        "scale": 0.34,
+        "sourceOrigin": [
+          97,
+          544
+        ],
+        "roi": [
+          129,
+          576,
+          695,
+          1019
+        ]
+      },
+      {
+        "file": "frames/crouch-v9-3.png",
+        "source": "source/crouch-v9-2.png",
+        "anchor": [
+          259.0,
+          455.0
+        ],
+        "scale": 0.34,
+        "sourceOrigin": [
+          795,
+          554
+        ],
+        "roi": [
+          827,
+          586,
+          1406,
+          1015
+        ]
+      }
+    ],
+    "durations": [
+      4,
+      6,
+      8,
+      18
+    ],
+    "phases": [
+      "屈膝准备",
+      "重心下沉",
+      "低位防守",
+      "蹲姿保持"
+    ],
+    "events": [],
+    "status": "V9新增身体姿势候选；首稿裁边已返修，轮廓/体型/支持脚/首尾待美术复验"
+  },
+  "standguard": {
+    "frames": [
+      {
+        "file": "fit/standguard-v9-0.png",
+        "anchor": [
+          28,
+          53
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v9-0.json",
+        "rectangles": 442
+      },
+      {
+        "file": "fit/standguard-v9-1.png",
+        "anchor": [
+          39,
+          52
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v9-1.json",
+        "rectangles": 423
+      },
+      {
+        "file": "fit/standguard-v9-2.png",
+        "anchor": [
+          44,
+          51
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v9-2.json",
+        "rectangles": 456
+      },
+      {
+        "file": "fit/standguard-v9-3.png",
+        "anchor": [
+          42,
+          52
+        ],
+        "scale": 4.5,
+        "rectData": "fit/standguard-v9-3.json",
+        "rectangles": 460
+      },
+      {
+        "file": "fit/idle-0.png",
+        "anchor": [
+          33.1,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 412
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/standguard-v9-0.png",
+        "source": "source/standguard-v9-2.png",
+        "anchor": [
+          277.5,
+          529.0
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          169,
+          -30
+        ],
+        "roi": [
+          201,
+          2,
+          625,
+          505
+        ]
+      },
+      {
+        "file": "frames/standguard-v9-1.png",
+        "source": "source/standguard-v9-2.png",
+        "anchor": [
+          395.5,
+          523.0
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          850,
+          -24
+        ],
+        "roi": [
+          882,
+          8,
+          1295,
+          505
+        ]
+      },
+      {
+        "file": "frames/standguard-v9-2.png",
+        "source": "source/standguard-v9-2.png",
+        "anchor": [
+          442.0,
+          506.0
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          165,
+          487
+        ],
+        "roi": [
+          197,
+          519,
+          653,
+          999
+        ]
+      },
+      {
+        "file": "frames/standguard-v9-3.png",
+        "source": "source/standguard-v9-2.png",
+        "anchor": [
+          423.0,
+          519.0
+        ],
+        "scale": 0.42,
+        "sourceOrigin": [
+          861,
+          478
+        ],
+        "roi": [
+          893,
+          510,
+          1332,
+          1004
+        ]
+      },
+      {
+        "file": "frames/idle-0-source.png",
+        "source": "source/mavuika-idle-source-v5.png",
+        "anchor": [
+          535,
+          848
+        ],
+        "scale": 0.24,
+        "roi": [
+          0,
+          0,
+          887,
+          887
+        ]
+      }
+    ],
+    "durations": [
+      4,
+      12,
+      8,
+      8,
+      4
+    ],
+    "phases": [
+      "抬臂准备",
+      "站立防护",
+      "承压回收",
+      "收臂恢复",
+      "回待机"
+    ],
+    "events": [],
+    "status": "V9新增身体姿势候选；首稿裁边已返修，轮廓/体型/支持脚/首尾待美术复验"
+  },
+  "jump": {
+    "frames": [
+      {
+        "file": "fit/jump-strict-20261014-0.png",
+        "anchor": [
+          25,
+          45
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-strict-20261014-0.json",
+        "rectangles": 355
+      },
+      {
+        "file": "fit/jump-strict-20261014-1.png",
+        "anchor": [
+          10,
+          46
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-strict-20261014-1.json",
+        "rectangles": 358
+      },
+      {
+        "file": "fit/jump-strict-20261014-2.png",
+        "anchor": [
+          29,
+          52
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-strict-20261014-2.json",
+        "rectangles": 308
+      },
+      {
+        "file": "fit/jump-strict-20261014-3.png",
+        "anchor": [
+          32,
+          50
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-strict-20261014-3.json",
+        "rectangles": 362
+      },
+      {
+        "file": "fit/jump-strict-20261014-4.png",
+        "anchor": [
+          27,
+          52
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-strict-20261014-4.json",
+        "rectangles": 322
+      },
+      {
+        "file": "fit/jump-strict-20261014-5.png",
+        "anchor": [
+          28,
+          43
+        ],
+        "scale": 4.5,
+        "rectData": "fit/jump-strict-20261014-5.json",
+        "rectangles": 375
+      },
+      {
+        "file": "fit/idle-0.png",
+        "anchor": [
+          33.1,
+          53
+        ],
+        "scale": 4,
+        "rectangles": 412
+      }
+    ],
+    "sourceFrames": [
+      {
+        "file": "frames/jump-strict-20261014-0.png",
+        "source": "source/jump-strict-20261014.png",
+        "anchor": [
+          254,
+          473
+        ],
+        "scale": 0.4,
+        "roi": [
+          60,
+          39,
+          429,
+          484
+        ],
+        "sourceOrigin": [
+          28,
+          7
+        ],
+        "rootKind": "manual boot support or virtual standing floor",
+        "sourceHash": "21fe27ca2d26ac1140ca253bc8bfc8abc23f34b7f7afe46721227ff987aa7f7f",
+        "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+      },
+      {
+        "file": "frames/jump-strict-20261014-1.png",
+        "source": "source/jump-strict-20261014.png",
+        "anchor": [
+          84,
+          491
+        ],
+        "scale": 0.4,
+        "roi": [
+          565,
+          19,
+          1014,
+          482
+        ],
+        "sourceOrigin": [
+          533,
+          -13
+        ],
+        "rootKind": "manual boot support or virtual standing floor",
+        "sourceHash": "21fe27ca2d26ac1140ca253bc8bfc8abc23f34b7f7afe46721227ff987aa7f7f",
+        "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+      },
+      {
+        "file": "frames/jump-strict-20261014-2.png",
+        "source": "source/jump-strict-20261014.png",
+        "anchor": [
+          293,
+          552
+        ],
+        "scale": 0.4,
+        "roi": [
+          1084,
+          3,
+          1497,
+          384
+        ],
+        "sourceOrigin": [
+          1052,
+          -29
+        ],
+        "rootKind": "manual boot support or virtual standing floor",
+        "sourceHash": "21fe27ca2d26ac1140ca253bc8bfc8abc23f34b7f7afe46721227ff987aa7f7f",
+        "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+      },
+      {
+        "file": "frames/jump-strict-20261014-3.png",
+        "source": "source/jump-strict-20261014.png",
+        "anchor": [
+          337,
+          535
+        ],
+        "scale": 0.4,
+        "roi": [
+          48,
+          497,
+          500,
+          893
+        ],
+        "sourceOrigin": [
+          16,
+          465
+        ],
+        "rootKind": "manual boot support or virtual standing floor",
+        "sourceHash": "21fe27ca2d26ac1140ca253bc8bfc8abc23f34b7f7afe46721227ff987aa7f7f",
+        "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+      },
+      {
+        "file": "frames/jump-strict-20261014-4.png",
+        "source": "source/jump-strict-20261014.png",
+        "anchor": [
+          279,
+          558
+        ],
+        "scale": 0.4,
+        "roi": [
+          557,
+          487,
+          997,
+          982
+        ],
+        "sourceOrigin": [
+          525,
+          455
+        ],
+        "rootKind": "manual boot support or virtual standing floor",
+        "sourceHash": "21fe27ca2d26ac1140ca253bc8bfc8abc23f34b7f7afe46721227ff987aa7f7f",
+        "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+      },
+      {
+        "file": "frames/jump-strict-20261014-5.png",
+        "source": "source/jump-strict-20261014.png",
+        "anchor": [
+          289,
+          461
+        ],
+        "scale": 0.4,
+        "roi": [
+          1063,
+          563,
+          1458,
+          997
+        ],
+        "sourceOrigin": [
+          1031,
+          531
+        ],
+        "rootKind": "manual boot support or virtual standing floor",
+        "sourceHash": "21fe27ca2d26ac1140ca253bc8bfc8abc23f34b7f7afe46721227ff987aa7f7f",
+        "unitPolicy": "one unit per entire sheet, anatomy-based provisional calibration; not per-pose silhouette scaling"
+      },
+      {
+        "file": "frames/idle-0-source.png",
+        "source": "source/mavuika-idle-source-v5.png",
+        "anchor": [
+          535,
+          848
+        ],
+        "scale": 0.24,
+        "roi": [
+          0,
+          0,
+          887,
+          887
+        ]
+      }
+    ],
+    "durations": [
+      6,
+      6,
+      8,
+      8,
+      8,
+      8,
+      6
+    ],
+    "phases": [
+      "预蹲承重",
+      "支撑脚蹬地",
+      "上升收膝",
+      "顶点展臂",
+      "下降伸腿",
+      "落地缓冲",
+      "落地回待机"
+    ],
+    "events": [],
+    "status": "2026-10-14严格复核候选：源图新绘、单组等比单位与人工支撑root；肢体/握点/接缝尚待用户美术验收",
+    "artAccepted": false,
+    "runtimeIntegrated": false,
+    "previewOnly": true,
+    "motion": {
+      "kind": "jump",
+      "distance": 0,
+      "height": 112,
+      "direction": 1,
+      "groundedPhases": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "airPhases": [
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-14",
+  "scope": "independent three-character art review batch",
+  "checks": "checks/strict-review-20261014.json",
+  "historicalDeliveryManifest": "delivery.json applies to 2026-10-13 snapshot only; use this revision manifest for changed entries",
+  "artAccepted": false,
+  "runtimeIntegrated": false,
+  "deviceVerified": false,
+  "files": [
+    {
+      "path": "outputs/three-role-basic-20261013/index.html",
+      "sha256": "82990a3d94eb382d8fb7f9539665bf642283c27a93c80105a54aa3181ed16969"
+    },
+    {
+      "path": "docs/current/三角色动作严格审查与续作_20261014.md",
+      "sha256": "7c261c7da020ee30b7cf9386de0b7adc5becfa5c8a71386fb7ac6ff931617310"
+    },
+    {
+      "path": "outputs/role-design-reference-20261014/index.html",
+      "sha256": "7e73f2d992cb6885d9788fd8e72a258562cf3278cc8987e99bacf1caeb0ca25b"
+    },
+    {
+      "path": "outputs/role-design-reference-20261014/manifest.json",
+      "sha256": "912bd21d36a6b20d5956a49090d46f5f1bc7ebb9b61569e4be3c49d925840016"
+    },
+    {
+      "path": "outputs/three-role-basic-20261013/neuvillette/actions.json",
+      "sha256": "9fa9c8830c741e87c5c4042f3d490850e24b5e53b8eecf5f827d67691935320c"
+    },
+    {
+      "path": "outputs/three-role-basic-20261013/neuvillette/current-status.json",
+      "sha256": "c4d2b4100944106786b5192d0d59a144a01efcd185bb4a557caab7b6b3f277af"
+    },
+    {
+      "path": "outputs/three-role-basic-20261013/mavuika/actions.json",
+      "sha256": "43952cf1e7cd1a56f4367d12cdccf77876b51e38297b84337a93c1f0315d6474"
+    },
+    {
+      "path": "outputs/three-role-basic-20261013/mavuika/current-status.json",
+      "sha256": "573e4240f0892d446df00e7bd538a6749760096d6cd337862ff93a684e4bd9c6"
+    },
+    {
+      "path": "outputs/three-role-basic-20261013/zhongli/actions.json",
+      "sha256": "3eb5f2825f651a26a529552dbc8035e37041a4bd547ae5982230345e3743e9d0"
+    },
+    {
+      "path": "outputs/three-role-basic-20261013/zhongli/current-status.json",
+      "sha256": "1f5ab477ab06fa8c3aab42efd4023dc70f12fbe579ca059acaf785d241ed9afe"
+    }
+  ]
+}

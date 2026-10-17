@@ -1,0 +1,866 @@
+[
+  {
+    "selected": "forwarddash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      674.640625,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      686.875,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      713.927734375,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      743.828125,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      773.359375,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      674.640625,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      686.875,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      713.927734375,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      743.828125,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      773.359375,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      666.1328125,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      655.9375,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      633.3935546875,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      608.4765625,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      583.8671875,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      666.1328125,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      655.9375,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      633.3935546875,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      608.4765625,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "backdash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      583.8671875,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": false,
+    "background": "dark"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      674.640625,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      686.875,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      713.927734375,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      743.828125,
+      550
+    ],
+    "frameFile": "fit/forwarddash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      773.359375,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      674.640625,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      686.875,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      713.927734375,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      743.828125,
+      550
+    ],
+    "frameFile": "frames/forwarddash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "forwarddash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      773.359375,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      666.1328125,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      655.9375,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      633.3935546875,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      608.4765625,
+      550
+    ],
+    "frameFile": "fit/backdash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "fit",
+    "ready": true,
+    "root": [
+      583.8671875,
+      550
+    ],
+    "frameFile": "fit/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 0,
+    "total": 32,
+    "phase": 0,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      670,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 4,
+    "total": 32,
+    "phase": 1,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      666.1328125,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 8,
+    "total": 32,
+    "phase": 2,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      655.9375,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-1.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 14,
+    "total": 32,
+    "phase": 3,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      633.3935546875,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-2.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 20,
+    "total": 32,
+    "phase": 4,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      608.4765625,
+      550
+    ],
+    "frameFile": "frames/backdash-strict-20261014-3.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  },
+  {
+    "selected": "backdash",
+    "time": 28,
+    "total": 32,
+    "phase": 5,
+    "frames": 6,
+    "material": "source",
+    "ready": true,
+    "root": [
+      583.8671875,
+      550
+    ],
+    "frameFile": "frames/idle-open-0.png",
+    "effect": null,
+    "palm": null,
+    "mirror": true,
+    "background": "light"
+  }
+]

@@ -1,0 +1,1538 @@
+{
+  "checks": [
+    {
+      "selected": "light2",
+      "time": 0,
+      "total": 32,
+      "phase": 0,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 10,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-2.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 13,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-3.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 28,
+      "total": 32,
+      "phase": 4,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 0,
+      "total": 38,
+      "phase": 0,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 6,
+      "total": 38,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 12,
+      "total": 38,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-2.png",
+      "effect": "lightwave",
+      "palm": [
+        574.21,
+        378.45000000000005
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 16,
+      "total": 38,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 34,
+      "total": 38,
+      "phase": 4,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 0,
+      "total": 32,
+      "phase": 0,
+      "frames": 4,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouch-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 4,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouch-v2-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 8,
+      "total": 32,
+      "phase": 2,
+      "frames": 4,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouch-v2-2.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 14,
+      "total": 32,
+      "phase": 3,
+      "frames": 4,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouch-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 0,
+      "total": 32,
+      "phase": 0,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-1.png",
+      "effect": "guard",
+      "palm": [
+        493.75,
+        363.25
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 14,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-2.png",
+      "effect": "guard",
+      "palm": [
+        502.75,
+        376.75
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 22,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 28,
+      "total": 32,
+      "phase": 4,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 0,
+      "total": 34,
+      "phase": 0,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 4,
+      "total": 34,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-1.png",
+      "effect": "guard",
+      "palm": [
+        487.2,
+        427.94
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 14,
+      "total": 34,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-2.png",
+      "effect": "guard",
+      "palm": [
+        489.92,
+        438.48
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 22,
+      "total": 34,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 28,
+      "total": 34,
+      "phase": 4,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouch-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 0,
+      "total": 32,
+      "phase": 0,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 10,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-2.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 13,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-3.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light2",
+      "time": 28,
+      "total": 32,
+      "phase": 4,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 0,
+      "total": 38,
+      "phase": 0,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 6,
+      "total": 38,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 12,
+      "total": 38,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-2.png",
+      "effect": "lightwave",
+      "palm": [
+        574.21,
+        378.45000000000005
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 16,
+      "total": 38,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "light3",
+      "time": 34,
+      "total": 38,
+      "phase": 4,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 0,
+      "total": 32,
+      "phase": 0,
+      "frames": 4,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouch-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 4,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouch-v2-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 8,
+      "total": 32,
+      "phase": 2,
+      "frames": 4,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouch-v2-2.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouch",
+      "time": 14,
+      "total": 32,
+      "phase": 3,
+      "frames": 4,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouch-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 0,
+      "total": 32,
+      "phase": 0,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-1.png",
+      "effect": "guard",
+      "palm": [
+        493.75,
+        363.25
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 14,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-2.png",
+      "effect": "guard",
+      "palm": [
+        502.75,
+        376.75
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 22,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "standguard",
+      "time": 28,
+      "total": 32,
+      "phase": 4,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/idle-open-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 0,
+      "total": 34,
+      "phase": 0,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 4,
+      "total": 34,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-1.png",
+      "effect": "guard",
+      "palm": [
+        487.2,
+        427.94
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 14,
+      "total": 34,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-2.png",
+      "effect": "guard",
+      "palm": [
+        489.92,
+        438.48
+      ],
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 22,
+      "total": 34,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 28,
+      "total": 34,
+      "phase": 4,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouch-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "dark"
+    }
+  ],
+  "boundaries": [
+    {
+      "selected": "light2",
+      "time": 9,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 10,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-2.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 19,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-3.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 20,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light2-v1-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 11,
+      "total": 38,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 12,
+      "total": 38,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-2.png",
+      "effect": "lightwave",
+      "palm": [
+        574.21,
+        378.45000000000005
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 15,
+      "total": 38,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-2.png",
+      "effect": "lightwave",
+      "palm": [
+        574.21,
+        378.45000000000005
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 16,
+      "total": 38,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/light3-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 3,
+      "total": 32,
+      "phase": 0,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-1.png",
+      "effect": "guard",
+      "palm": [
+        493.75,
+        363.25
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 21,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-2.png",
+      "effect": "guard",
+      "palm": [
+        502.75,
+        376.75
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 22,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/standguard-v1-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 3,
+      "total": 34,
+      "phase": 0,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 4,
+      "total": 34,
+      "phase": 1,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-1.png",
+      "effect": "guard",
+      "palm": [
+        487.2,
+        427.94
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 21,
+      "total": 34,
+      "phase": 2,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-2.png",
+      "effect": "guard",
+      "palm": [
+        489.92,
+        438.48
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 22,
+      "total": 34,
+      "phase": 3,
+      "frames": 5,
+      "material": "source",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "frames/crouchguard-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 9,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 10,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-2.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 19,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-3.png",
+      "effect": "orb",
+      "palm": [
+        554,
+        361.06
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light2",
+      "time": 20,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light2-v1-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 11,
+      "total": 38,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-1.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 12,
+      "total": 38,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-2.png",
+      "effect": "lightwave",
+      "palm": [
+        574.21,
+        378.45000000000005
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 15,
+      "total": 38,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-2.png",
+      "effect": "lightwave",
+      "palm": [
+        574.21,
+        378.45000000000005
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "light3",
+      "time": 16,
+      "total": 38,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/light3-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 3,
+      "total": 32,
+      "phase": 0,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 4,
+      "total": 32,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-1.png",
+      "effect": "guard",
+      "palm": [
+        493.75,
+        363.25
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 21,
+      "total": 32,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-2.png",
+      "effect": "guard",
+      "palm": [
+        502.75,
+        376.75
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "standguard",
+      "time": 22,
+      "total": 32,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/standguard-v1-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 3,
+      "total": 34,
+      "phase": 0,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-0.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 4,
+      "total": 34,
+      "phase": 1,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-1.png",
+      "effect": "guard",
+      "palm": [
+        487.2,
+        427.94
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 21,
+      "total": 34,
+      "phase": 2,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-2.png",
+      "effect": "guard",
+      "palm": [
+        489.92,
+        438.48
+      ],
+      "mirror": false,
+      "background": "light"
+    },
+    {
+      "selected": "crouchguard",
+      "time": 22,
+      "total": 34,
+      "phase": 3,
+      "frames": 5,
+      "material": "fit",
+      "ready": true,
+      "root": [
+        460,
+        550
+      ],
+      "frameFile": "fit/crouchguard-v2-3.png",
+      "effect": null,
+      "palm": null,
+      "mirror": false,
+      "background": "light"
+    }
+  ],
+  "consoleErrors": [],
+  "scope": "independent browser only; no art acceptance"
+}

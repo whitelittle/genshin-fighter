@@ -1,0 +1,23 @@
+{
+  "scope": "same selection path, excludes new scene and startup; simulated update count is not phone timing",
+  "results": [
+    {
+      "variant": "outputs/group1-full-test",
+      "route": "same-page select 3,8,5; retract 5,8; select/retract 8",
+      "created": 1139,
+      "destroyed": 589,
+      "decodeWork": 140,
+      "simulatedUpdateCount": 108,
+      "realDevice": false
+    },
+    {
+      "variant": "outputs/test-repair-v1",
+      "route": "same-page select 3,8,5; retract 5,8; select/retract 8",
+      "created": 789,
+      "destroyed": 0,
+      "decodeWork": 140,
+      "simulatedUpdateCount": 39,
+      "realDevice": false
+    }
+  ]
+}

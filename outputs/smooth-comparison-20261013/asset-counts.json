@@ -1,0 +1,213 @@
+{
+  "baseline": {
+    "nahida": {
+      "legacyHi": {
+        "totalRects": 12148,
+        "peakRects": 1276,
+        "minH": 28,
+        "paletteEntries": 96,
+        "minW": 51,
+        "peakFrame": "special",
+        "count": 12,
+        "maxH": 72,
+        "maxW": 76
+      },
+      "legacyLo": {
+        "totalRects": 7583,
+        "peakRects": 732,
+        "minH": 21,
+        "paletteEntries": 72,
+        "minW": 38,
+        "peakFrame": "jump",
+        "count": 12,
+        "maxH": 55,
+        "maxW": 58
+      }
+    },
+    "furina": {
+      "legacyHi": {
+        "totalRects": 12037,
+        "peakRects": 1245,
+        "minH": 50,
+        "paletteEntries": 96,
+        "minW": 51,
+        "peakFrame": "qRelease",
+        "count": 12,
+        "maxH": 89,
+        "maxW": 90
+      },
+      "legacyLo": {
+        "totalRects": 7152,
+        "peakRects": 768,
+        "minH": 38,
+        "paletteEntries": 72,
+        "minW": 38,
+        "peakFrame": "special",
+        "count": 12,
+        "maxH": 67,
+        "maxW": 68
+      }
+    },
+    "kamisatoayaka": {
+      "legacyHi": {
+        "totalRects": 12793,
+        "peakRects": 1252,
+        "minH": 43,
+        "paletteEntries": 96,
+        "minW": 57,
+        "peakFrame": "special",
+        "count": 12,
+        "maxH": 90,
+        "maxW": 103
+      },
+      "legacyLo": {
+        "totalRects": 8147,
+        "peakRects": 741,
+        "minH": 33,
+        "paletteEntries": 72,
+        "minW": 43,
+        "peakFrame": "idle",
+        "count": 12,
+        "maxH": 67,
+        "maxW": 74
+      }
+    },
+    "raidenshogun": {
+      "legacyHi": {
+        "totalRects": 12456,
+        "peakRects": 1249,
+        "minH": 31,
+        "paletteEntries": 96,
+        "minW": 60,
+        "peakFrame": "slash",
+        "count": 12,
+        "maxH": 89,
+        "maxW": 91
+      },
+      "legacyLo": {
+        "totalRects": 7595,
+        "peakRects": 716,
+        "minH": 24,
+        "paletteEntries": 72,
+        "minW": 43,
+        "peakFrame": "special",
+        "count": 12,
+        "maxH": 67,
+        "maxW": 69
+      }
+    }
+  },
+  "current": {
+    "nahida": {
+      "legacyLo": {
+        "maxH": 55,
+        "minW": 38,
+        "peakRects": 732,
+        "minH": 21,
+        "totalRects": 7583,
+        "paletteEntries": 72,
+        "count": 12,
+        "peakFrame": "jump",
+        "maxW": 58
+      }
+    },
+    "raidenshogun": {
+      "legacyLo": {
+        "maxH": 67,
+        "minW": 43,
+        "peakRects": 716,
+        "minH": 24,
+        "totalRects": 7595,
+        "paletteEntries": 72,
+        "count": 12,
+        "peakFrame": "special",
+        "maxW": 69
+      }
+    },
+    "kamisatoayaka": {},
+    "furina": {}
+  },
+  "currentAnimationBanks": {
+    "raidenEffects": {
+      "maxH": 116,
+      "peakFrame": "7",
+      "totalRects": 9197,
+      "paletteEntries": 48,
+      "count": 12,
+      "peakRects": 844,
+      "maxW": 120
+    },
+    "nahidaBody": {
+      "maxH": 304.5,
+      "peakFrame": "basic_6",
+      "totalRects": 63074,
+      "paletteEntries": 19,
+      "count": 74,
+      "peakRects": 920,
+      "maxW": 331.6875
+    },
+    "ayakaAll": {
+      "maxH": 99,
+      "peakFrame": "burst_5",
+      "totalRects": 96092,
+      "paletteEntries": 20,
+      "count": 157,
+      "peakRects": 1038,
+      "maxW": 100
+    },
+    "nahidaInbetween": {
+      "maxH": 304.5,
+      "peakFrame": "heavy_between_5",
+      "totalRects": 62306,
+      "paletteEntries": 19,
+      "count": 74,
+      "peakRects": 909,
+      "maxW": 331.6875
+    },
+    "nahidaEffects": {
+      "maxH": 64,
+      "peakFrame": "6",
+      "totalRects": 9538,
+      "paletteEntries": 48,
+      "count": 12,
+      "peakRects": 843,
+      "maxW": 72
+    },
+    "furinaAll": {
+      "maxH": 259,
+      "peakFrame": "heavy_2",
+      "totalRects": 111071,
+      "paletteEntries": 48,
+      "count": 178,
+      "peakRects": 1197,
+      "maxW": 265
+    },
+    "raidenInbetween": {
+      "maxH": 424.0133333333334,
+      "peakFrame": "skill_between_6",
+      "totalRects": 64329,
+      "paletteEntries": 19,
+      "count": 78,
+      "peakRects": 906,
+      "maxW": 556.248
+    },
+    "raidenEye": {
+      "maxH": 96,
+      "peakFrame": "2",
+      "totalRects": 3094,
+      "paletteEntries": 24,
+      "count": 4,
+      "peakRects": 800,
+      "maxW": 192
+    },
+    "raidenBody": {
+      "maxH": 434,
+      "peakFrame": "air_6",
+      "totalRects": 64800,
+      "paletteEntries": 19,
+      "count": 78,
+      "peakRects": 912,
+      "maxW": 490
+    }
+  }
+}

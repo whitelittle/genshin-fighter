@@ -1,0 +1,428 @@
+{
+  "maxChunkBytes": 1000,
+  "totalTextPoolControls": 612,
+  "pools": [
+    {
+      "parent": "HomeBust2",
+      "controls": 144
+    },
+    {
+      "parent": "HomeBust1",
+      "controls": 164
+    },
+    {
+      "parent": "Portrait2",
+      "controls": 47
+    },
+    {
+      "parent": "Portrait1",
+      "controls": 47
+    },
+    {
+      "parent": "GridFace10",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace9",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace8",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace7",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace6",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace5",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace4",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace3",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace2",
+      "controls": 21
+    },
+    {
+      "parent": "GridFace1",
+      "controls": 21
+    }
+  ],
+  "frames": [
+    {
+      "family": "home",
+      "index": 1,
+      "w": 112,
+      "h": 112,
+      "chunks": 164,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "home",
+      "index": 2,
+      "w": 112,
+      "h": 112,
+      "chunks": 144,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 1,
+      "w": 48,
+      "h": 48,
+      "chunks": 40,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 2,
+      "w": 48,
+      "h": 48,
+      "chunks": 38,
+      "maxUtf8Bytes": 978,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 3,
+      "w": 48,
+      "h": 48,
+      "chunks": 32,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 4,
+      "w": 48,
+      "h": 48,
+      "chunks": 31,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 5,
+      "w": 48,
+      "h": 48,
+      "chunks": 36,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 6,
+      "w": 48,
+      "h": 48,
+      "chunks": 37,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 7,
+      "w": 48,
+      "h": 48,
+      "chunks": 37,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 8,
+      "w": 48,
+      "h": 48,
+      "chunks": 43,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 9,
+      "w": 48,
+      "h": 48,
+      "chunks": 33,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 10,
+      "w": 48,
+      "h": 48,
+      "chunks": 35,
+      "maxUtf8Bytes": 977,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 11,
+      "w": 48,
+      "h": 48,
+      "chunks": 44,
+      "maxUtf8Bytes": 978,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 12,
+      "w": 48,
+      "h": 48,
+      "chunks": 36,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 13,
+      "w": 48,
+      "h": 48,
+      "chunks": 39,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 14,
+      "w": 48,
+      "h": 48,
+      "chunks": 30,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 15,
+      "w": 48,
+      "h": 48,
+      "chunks": 36,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 16,
+      "w": 48,
+      "h": 48,
+      "chunks": 34,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 17,
+      "w": 48,
+      "h": 48,
+      "chunks": 31,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 18,
+      "w": 48,
+      "h": 48,
+      "chunks": 36,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "portrait",
+      "index": 19,
+      "w": 48,
+      "h": 48,
+      "chunks": 47,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 1,
+      "w": 32,
+      "h": 32,
+      "chunks": 20,
+      "maxUtf8Bytes": 975,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 2,
+      "w": 32,
+      "h": 32,
+      "chunks": 15,
+      "maxUtf8Bytes": 999,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 3,
+      "w": 32,
+      "h": 32,
+      "chunks": 17,
+      "maxUtf8Bytes": 978,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 4,
+      "w": 32,
+      "h": 32,
+      "chunks": 15,
+      "maxUtf8Bytes": 976,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 5,
+      "w": 32,
+      "h": 32,
+      "chunks": 13,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 6,
+      "w": 32,
+      "h": 32,
+      "chunks": 18,
+      "maxUtf8Bytes": 977,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 7,
+      "w": 32,
+      "h": 32,
+      "chunks": 19,
+      "maxUtf8Bytes": 976,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 8,
+      "w": 32,
+      "h": 32,
+      "chunks": 20,
+      "maxUtf8Bytes": 977,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 9,
+      "w": 32,
+      "h": 32,
+      "chunks": 13,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 10,
+      "w": 32,
+      "h": 32,
+      "chunks": 17,
+      "maxUtf8Bytes": 977,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 11,
+      "w": 32,
+      "h": 32,
+      "chunks": 21,
+      "maxUtf8Bytes": 978,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 12,
+      "w": 32,
+      "h": 32,
+      "chunks": 16,
+      "maxUtf8Bytes": 952,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 13,
+      "w": 32,
+      "h": 32,
+      "chunks": 16,
+      "maxUtf8Bytes": 977,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 14,
+      "w": 32,
+      "h": 32,
+      "chunks": 14,
+      "maxUtf8Bytes": 1000,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 15,
+      "w": 32,
+      "h": 32,
+      "chunks": 17,
+      "maxUtf8Bytes": 976,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 16,
+      "w": 32,
+      "h": 32,
+      "chunks": 20,
+      "maxUtf8Bytes": 950,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 17,
+      "w": 32,
+      "h": 32,
+      "chunks": 15,
+      "maxUtf8Bytes": 977,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 18,
+      "w": 32,
+      "h": 32,
+      "chunks": 17,
+      "maxUtf8Bytes": 976,
+      "visiblePixelsPreserved": true
+    },
+    {
+      "family": "thumb",
+      "index": 19,
+      "w": 32,
+      "h": 32,
+      "chunks": 21,
+      "maxUtf8Bytes": 998,
+      "visiblePixelsPreserved": true
+    }
+  ],
+  "nativePortraitVerified": false,
+  "nativeGeometryVerified": false,
+  "sourceVisiblePixelsPreserved": true,
+  "actorAndStagePoolsUnchanged": true
+}

@@ -1,0 +1,802 @@
+{
+  "scope": "instrumented mock, overhead included; nested function totals overlap",
+  "largestInstructions": [
+    {
+      "callback": 1,
+      "instructions": 2091704,
+      "calls": 37753,
+      "phase": "burst",
+      "actionTick": 2,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 610275,
+          "calls": 1,
+          "sum": 610275
+        },
+        "scene.cineDraw": {
+          "max": 7614,
+          "calls": 1,
+          "sum": 7614
+        },
+        "scene.draw": {
+          "max": 1486550,
+          "calls": 1,
+          "sum": 1486550
+        },
+        "bitmap.step": {
+          "max": 378520,
+          "calls": 4,
+          "sum": 749209
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 417336,
+          "calls": 1,
+          "sum": 417336
+        },
+        "view2.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.updatePose": {
+          "max": 33163,
+          "calls": 1,
+          "sum": 33163
+        },
+        "view2.draw": {
+          "max": 402183,
+          "calls": 1,
+          "sum": 402183
+        },
+        "scene.tick": {
+          "max": 602553,
+          "calls": 1,
+          "sum": 602553
+        },
+        "view2.drawAnimatedFx": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.updatePose": {
+          "max": 2900,
+          "calls": 1,
+          "sum": 2900
+        },
+        "scene.camera": {
+          "max": 806,
+          "calls": 1,
+          "sum": 806
+        },
+        "view1.drawCapture": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.events": {
+          "max": 601753,
+          "calls": 1,
+          "sum": 601753
+        },
+        "view1.drawAnimatedFx": {
+          "max": 575203,
+          "calls": 1,
+          "sum": 575203
+        },
+        "bitmap.draw": {
+          "max": 378520,
+          "calls": 2,
+          "sum": 713750
+        },
+        "scene.burstStart": {
+          "max": 581232,
+          "calls": 1,
+          "sum": 581232
+        },
+        "scene.drawProj": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "bitmap.drawMany": {
+          "max": 514120,
+          "calls": 2,
+          "sum": 982020
+        }
+      }
+    },
+    {
+      "callback": 157,
+      "instructions": 512645,
+      "calls": 7072,
+      "phase": "burst",
+      "actionTick": 70,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 277336,
+          "calls": 1,
+          "sum": 277336
+        },
+        "scene.cineDraw": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.draw": {
+          "max": 488623,
+          "calls": 1,
+          "sum": 488623
+        },
+        "bitmap.step": {
+          "max": 80621,
+          "calls": 2,
+          "sum": 138239
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 143634,
+          "calls": 1,
+          "sum": 143634
+        },
+        "view2.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.updatePose": {
+          "max": 58018,
+          "calls": 1,
+          "sum": 58018
+        },
+        "view2.draw": {
+          "max": 19302,
+          "calls": 1,
+          "sum": 19302
+        },
+        "scene.tick": {
+          "max": 21321,
+          "calls": 1,
+          "sum": 21321
+        },
+        "view2.updatePose": {
+          "max": 200,
+          "calls": 1,
+          "sum": 200
+        },
+        "scene.camera": {
+          "max": 912,
+          "calls": 1,
+          "sum": 912
+        },
+        "view1.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.events": {
+          "max": 20621,
+          "calls": 1,
+          "sum": 20621
+        },
+        "view1.drawAnimatedFx": {
+          "max": 218109,
+          "calls": 1,
+          "sum": 218109
+        },
+        "bitmap.draw": {
+          "max": 80821,
+          "calls": 2,
+          "sum": 80821
+        },
+        "bitmap.drawMany": {
+          "max": 217808,
+          "calls": 1,
+          "sum": 217808
+        },
+        "scene.drawProj": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.drawAnimatedFx": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        }
+      }
+    },
+    {
+      "callback": 106,
+      "instructions": 511865,
+      "calls": 7089,
+      "phase": "burst",
+      "actionTick": 35,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 275928,
+          "calls": 1,
+          "sum": 275928
+        },
+        "scene.cineDraw": {
+          "max": 200,
+          "calls": 1,
+          "sum": 200
+        },
+        "scene.draw": {
+          "max": 488343,
+          "calls": 1,
+          "sum": 488343
+        },
+        "bitmap.step": {
+          "max": 81021,
+          "calls": 2,
+          "sum": 138039
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 143934,
+          "calls": 1,
+          "sum": 143934
+        },
+        "view2.drawCapture": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "view1.updatePose": {
+          "max": 57318,
+          "calls": 1,
+          "sum": 57318
+        },
+        "view2.draw": {
+          "max": 19502,
+          "calls": 1,
+          "sum": 19502
+        },
+        "scene.tick": {
+          "max": 20921,
+          "calls": 1,
+          "sum": 20921
+        },
+        "view2.updatePose": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.camera": {
+          "max": 1212,
+          "calls": 1,
+          "sum": 1212
+        },
+        "view1.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.events": {
+          "max": 20121,
+          "calls": 1,
+          "sum": 20121
+        },
+        "view1.drawAnimatedFx": {
+          "max": 217709,
+          "calls": 1,
+          "sum": 217709
+        },
+        "bitmap.draw": {
+          "max": 81021,
+          "calls": 2,
+          "sum": 81021
+        },
+        "bitmap.drawMany": {
+          "max": 217508,
+          "calls": 1,
+          "sum": 217508
+        },
+        "scene.drawProj": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.drawAnimatedFx": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        }
+      }
+    },
+    {
+      "callback": 131,
+      "instructions": 460988,
+      "calls": 5990,
+      "phase": "burst",
+      "actionTick": 44,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 269928,
+          "calls": 1,
+          "sum": 269928
+        },
+        "scene.cineDraw": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.draw": {
+          "max": 457787,
+          "calls": 1,
+          "sum": 457787
+        },
+        "bitmap.step": {
+          "max": 79621,
+          "calls": 2,
+          "sum": 136739
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 139034,
+          "calls": 1,
+          "sum": 139034
+        },
+        "view2.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.updatePose": {
+          "max": 57418,
+          "calls": 1,
+          "sum": 57418
+        },
+        "view2.draw": {
+          "max": 1004,
+          "calls": 1,
+          "sum": 1004
+        },
+        "scene.tick": {
+          "max": 700,
+          "calls": 1,
+          "sum": 700
+        },
+        "view2.updatePose": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.camera": {
+          "max": 1111,
+          "calls": 1,
+          "sum": 1111
+        },
+        "view1.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.events": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.drawAnimatedFx": {
+          "max": 211809,
+          "calls": 1,
+          "sum": 211809
+        },
+        "bitmap.draw": {
+          "max": 79621,
+          "calls": 1,
+          "sum": 79621
+        },
+        "bitmap.drawMany": {
+          "max": 211508,
+          "calls": 1,
+          "sum": 211508
+        },
+        "scene.drawProj": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.drawAnimatedFx": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        }
+      }
+    },
+    {
+      "callback": 188,
+      "instructions": 442287,
+      "calls": 5891,
+      "phase": "burst",
+      "actionTick": 85,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 250710,
+          "calls": 1,
+          "sum": 250710
+        },
+        "scene.cineDraw": {
+          "max": 200,
+          "calls": 1,
+          "sum": 200
+        },
+        "scene.draw": {
+          "max": 438986,
+          "calls": 1,
+          "sum": 438986
+        },
+        "bitmap.step": {
+          "max": 79138,
+          "calls": 2,
+          "sum": 136358
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 139251,
+          "calls": 1,
+          "sum": 139251
+        },
+        "view2.drawCapture": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "view1.updatePose": {
+          "max": 57520,
+          "calls": 1,
+          "sum": 57520
+        },
+        "view2.draw": {
+          "max": 903,
+          "calls": 1,
+          "sum": 903
+        },
+        "scene.tick": {
+          "max": 700,
+          "calls": 1,
+          "sum": 700
+        },
+        "view2.updatePose": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.camera": {
+          "max": 1112,
+          "calls": 1,
+          "sum": 1112
+        },
+        "view1.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.events": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.drawAnimatedFx": {
+          "max": 192389,
+          "calls": 1,
+          "sum": 192389
+        },
+        "bitmap.draw": {
+          "max": 79138,
+          "calls": 1,
+          "sum": 79138
+        },
+        "bitmap.drawMany": {
+          "max": 192188,
+          "calls": 1,
+          "sum": 192188
+        },
+        "scene.drawProj": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.drawAnimatedFx": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        }
+      }
+    },
+    {
+      "callback": 77,
+      "instructions": 403252,
+      "calls": 3852,
+      "phase": "burst",
+      "actionTick": 6,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 200224,
+          "calls": 1,
+          "sum": 200224
+        },
+        "scene.cineDraw": {
+          "max": 200,
+          "calls": 1,
+          "sum": 200
+        },
+        "scene.draw": {
+          "max": 400051,
+          "calls": 1,
+          "sum": 400051
+        },
+        "bitmap.step": {
+          "max": 88496,
+          "calls": 2,
+          "sum": 145918
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 151001,
+          "calls": 1,
+          "sum": 151001
+        },
+        "view2.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.updatePose": {
+          "max": 57722,
+          "calls": 1,
+          "sum": 57722
+        },
+        "view2.draw": {
+          "max": 1104,
+          "calls": 1,
+          "sum": 1104
+        },
+        "scene.tick": {
+          "max": 700,
+          "calls": 1,
+          "sum": 700
+        },
+        "view2.updatePose": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "scene.camera": {
+          "max": 906,
+          "calls": 1,
+          "sum": 906
+        },
+        "view1.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.events": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.drawAnimatedFx": {
+          "max": 141600,
+          "calls": 1,
+          "sum": 141600
+        },
+        "bitmap.draw": {
+          "max": 88596,
+          "calls": 1,
+          "sum": 88596
+        },
+        "bitmap.drawMany": {
+          "max": 141400,
+          "calls": 1,
+          "sum": 141400
+        },
+        "scene.drawProj": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "view2.drawAnimatedFx": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "instructions": 399276,
+      "calls": 6276,
+      "phase": "burst",
+      "actionTick": 2,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 200823,
+          "calls": 1,
+          "sum": 200823
+        },
+        "scene.cineDraw": {
+          "max": 3421,
+          "calls": 1,
+          "sum": 3421
+        },
+        "scene.draw": {
+          "max": 396375,
+          "calls": 1,
+          "sum": 396375
+        },
+        "bitmap.step": {
+          "max": 91901,
+          "calls": 3,
+          "sum": 179108
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 2704,
+          "calls": 1,
+          "sum": 2704
+        },
+        "view2.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.updatePose": {
+          "max": 58222,
+          "calls": 1,
+          "sum": 58222
+        },
+        "view2.draw": {
+          "max": 140988,
+          "calls": 1,
+          "sum": 140988
+        },
+        "scene.tick": {
+          "max": 200,
+          "calls": 1,
+          "sum": 200
+        },
+        "view2.updatePose": {
+          "max": 29589,
+          "calls": 1,
+          "sum": 29589
+        },
+        "view1.drawCapture": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view1.drawAnimatedFx": {
+          "max": 141600,
+          "calls": 1,
+          "sum": 141600
+        },
+        "scene.events": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.camera": {
+          "max": 706,
+          "calls": 1,
+          "sum": 706
+        },
+        "bitmap.draw": {
+          "max": 92001,
+          "calls": 2,
+          "sum": 92001
+        },
+        "bitmap.drawMany": {
+          "max": 141400,
+          "calls": 1,
+          "sum": 141400
+        },
+        "scene.drawProj": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.drawAnimatedFx": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        }
+      }
+    },
+    {
+      "callback": 87,
+      "instructions": 346625,
+      "calls": 4225,
+      "phase": "burst",
+      "actionTick": 16,
+      "functionInstructions": {
+        "view1.draw": {
+          "max": 292200,
+          "calls": 1,
+          "sum": 292200
+        },
+        "scene.cineDraw": {
+          "max": 200,
+          "calls": 1,
+          "sum": 200
+        },
+        "scene.draw": {
+          "max": 343324,
+          "calls": 1,
+          "sum": 343324
+        },
+        "bitmap.step": {
+          "max": 56918,
+          "calls": 1,
+          "sum": 56918
+        },
+        "scene.drawBurstBackdrop": {
+          "max": 2504,
+          "calls": 1,
+          "sum": 2504
+        },
+        "view2.drawCapture": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "view1.updatePose": {
+          "max": 57218,
+          "calls": 1,
+          "sum": 57218
+        },
+        "view2.draw": {
+          "max": 1204,
+          "calls": 1,
+          "sum": 1204
+        },
+        "scene.tick": {
+          "max": 700,
+          "calls": 1,
+          "sum": 700
+        },
+        "view2.updatePose": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "view1.drawCapture": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "view1.drawAnimatedFx": {
+          "max": 234081,
+          "calls": 1,
+          "sum": 234081
+        },
+        "scene.events": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "scene.camera": {
+          "max": 606,
+          "calls": 1,
+          "sum": 606
+        },
+        "bitmap.draw": {
+          "max": 100,
+          "calls": 1,
+          "sum": 100
+        },
+        "bitmap.drawMany": {
+          "max": 233980,
+          "calls": 1,
+          "sum": 233980
+        },
+        "scene.drawProj": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        },
+        "view2.drawAnimatedFx": {
+          "max": 0,
+          "calls": 1,
+          "sum": 0
+        }
+      }
+    }
+  ]
+}
